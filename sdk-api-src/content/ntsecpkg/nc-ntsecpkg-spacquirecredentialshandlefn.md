@@ -103,7 +103,10 @@ Optional. Pointer to an
 
 Optional. Pointer to supplemental authentication data.
 
-### -param GetKeyFunciton
+### -param GetKeyFunction [in]
+
+Pointer to a function in the caller's address space that generates <a href="/windows/desktop/SecGloss/s-gly">session keys</a>.
+
 
 ### -param GetKeyArgument [in]
 
@@ -117,11 +120,6 @@ Pointer to an <b>LSA_SEC_HANDLE</b> that receives the credentials. When you have
 
 Pointer to a 
 <a href="/windows/desktop/SecAuthN/timestamp">TimeStamp</a> that receives the time the credentials handle expires.
-
-
-#### - GetKeyFunction [in]
-
-Pointer to a function in the caller's address space that generates <a href="/windows/desktop/SecGloss/s-gly">session keys</a>.
 
 ## -returns
 

@@ -54,23 +54,23 @@ Performs a source copy bitblt or transparent bitblt by using a source color key 
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The x-coordinate to bitblt to on the destination surface.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The y-coordinate to bitblt to on the destination surface.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 A pointer to the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is the source of the bitblt.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 A pointer to a <b>RECT</b> structure that defines the upper-left and lower-right points of the rectangle to bitblt from on the source surface.
 
-### -param arg5 [in]
+### -param unnamedParam5 [in]
 
 Type of transfer. The following transfers are defined:
 
@@ -129,7 +129,7 @@ The software implementation of <b>IDirectDrawSurface7::BltFast</b> is 10 percent
 
 Typically, <b>IDirectDrawSurface7::BltFast</b> returns immediately with an error if the bitbltter is busy and the bitblt cannot be set up. You can use the DDBLTFAST_WAIT flag, however, if you want this method not to return until either the bitblt can be set up or another error occurs.
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>BltFast</b> method.
+
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupFilesEnumerator.GetHasCurrent
 title: IAppxContentGroupFilesEnumerator::GetHasCurrent (appxpackaging.h)
-description: Determines whether there is a file at the current position of the enumerator.
+description: Determines whether there is a file at the current position of the enumerator. (IAppxContentGroupFilesEnumerator.GetHasCurrent)
 helpviewer_keywords: ["GetHasCurrent","GetHasCurrent method [App packaging and management]","GetHasCurrent method [App packaging and management]","IAppxContentGroupFilesEnumerator interface","IAppxContentGroupFilesEnumerator interface [App packaging and management]","GetHasCurrent method","IAppxContentGroupFilesEnumerator.GetHasCurrent","IAppxContentGroupFilesEnumerator::GetHasCurrent","appxpackaging/IAppxContentGroupFilesEnumerator::GetHasCurrent","appxpkg.iappxcontentgroupfilesenumerator__gethascurrent"]
 old-location: appxpkg\iappxcontentgroupfilesenumerator__gethascurrent.htm
 tech.root: appxpkg
@@ -60,9 +60,9 @@ Determines whether there is a file at the current position of the enumerator.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/B831A43B-9062-4763-8702-B487E57FD0C2">IAppxContentGroupFilesEnumerator</a>
+<a href="/windows/win32/api/appxpackaging/nn-appxpackaging-iappxcontentgroupfilesenumerator">IAppxContentGroupFilesEnumerator</a>
 

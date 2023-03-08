@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.DlgDirListComboBoxA
 title: DlgDirListComboBoxA function (winuser.h)
-description: Replaces the contents of a combo box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list of names can include mapped drive letters.
-helpviewer_keywords: ["DDL_ARCHIVE","DDL_DIRECTORY","DDL_DRIVES","DDL_EXCLUSIVE","DDL_HIDDEN","DDL_POSTMSGS","DDL_READONLY","DDL_READWRITE","DDL_SYSTEM","DlgDirListComboBox","DlgDirListComboBox function [Windows Controls]","DlgDirListComboBoxA","DlgDirListComboBoxW","_win32_DlgDirListComboBox","_win32_DlgDirListComboBox_cpp","controls.DlgDirListComboBox","controls._win32_DlgDirListComboBox","winuser/DlgDirListComboBox","winuser/DlgDirListComboBoxA","winuser/DlgDirListComboBoxW"]
+description: Replaces the contents of a combo box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list of names can include mapped drive letters. (ANSI)
+helpviewer_keywords: ["DDL_ARCHIVE", "DDL_DIRECTORY", "DDL_DRIVES", "DDL_EXCLUSIVE", "DDL_HIDDEN", "DDL_POSTMSGS", "DDL_READONLY", "DDL_READWRITE", "DDL_SYSTEM", "DlgDirListComboBoxA", "winuser/DlgDirListComboBoxA"]
 old-location: controls\DlgDirListComboBox.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\dlgdirlistcombobox.htm
@@ -208,13 +208,13 @@ If <i>lpPathSpec</i> specifies a directory, <b>DlgDirListComboBox</b> changes th
 
 Microsoft Windows NT 4.0 and later: If <i>uFiletype</i> includes the DDL_DIRECTORY flag and <i>lpPathSpec</i> specifies a first-level directory, such as C:\TEMP, the combo box will always include a ".." entry for the root directory. This is true even if the root directory has hidden or system attributes and the DDL_HIDDEN and DDL_SYSTEM flags are not specified. The root directory of an NTFS volume has hidden and system attributes. 
 
-<b>Security Warning:  </b>Using this function incorrectly might compromise the security of your program. Incorrect use of this function includes having <i>lpPathSpec</i> indicate a non-writeable buffer, or a buffer without a null-termination. You should review the <a href="/windows/desktop/Controls/sec-comctls">Security Considerations: Microsoft Windows Controls</a> before continuing.
+<b>Security Warning:  </b>Using this function incorrectly might compromise the security of your program. Incorrect use of this function includes having <i>lpPathSpec</i> indicate a non-writable buffer, or a buffer without a null-termination. You should review the <a href="/windows/desktop/Controls/sec-comctls">Security Considerations: Microsoft Windows Controls</a> before continuing.
 
 Microsoft Windows NT 4.0 and later: The list displays long file names, if any.
 
 Windows 95 or later: The list displays short file names (the 8.3 form). You can use the <a href="/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a> or <a href="/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a> functions to get the corresponding long file name.
 
-Windows 95 or later: <b>DlgDirListComboBoxW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="https://www.microsoft.com/download/details.aspx?id=4237">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
+Windows 95 or later: <b>DlgDirListComboBoxW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="/archive/msdn-magazine/2001/october/mslu-develop-unicode-applications-for-windows-9x-platforms-with-the-microsoft-layer-for-unicode">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
 
 
 

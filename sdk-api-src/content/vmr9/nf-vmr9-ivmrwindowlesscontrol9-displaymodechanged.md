@@ -53,7 +53,7 @@ api_name:
 
 The <code>DisplayModeChanged</code> method informs the VMR that a WM_DISPLAYCHANGE message has been received by the application.
 
-## -parameters
+
 
 ## -returns
 
@@ -85,7 +85,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 ## -see-also
 
-<a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrwindowlesscontrol9">IVMRWindowlessControl9 Interface</a>
+<a href="/previous-versions/ms787155(v=vs.85)">IVMRWindowlessControl9 Interface</a>
 
 
 

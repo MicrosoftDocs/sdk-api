@@ -75,7 +75,7 @@ Provides the address within the client process of the protocol message. This may
 
 Specifies the length of the <i>ProtocolSubmitBuffer</i> buffer, in bytes.
 
-### -param *ProtocolReturnBuffer [out]
+### -param ProtocolReturnBuffer [out]
 
 Returns the address of the output buffer within the client process. The authentication package is responsible for calling the 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer">AllocateClientBuffer</a> function to allocate the buffer within the client process. The contents of this buffer are specific to the authentication package.

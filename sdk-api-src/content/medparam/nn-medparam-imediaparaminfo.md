@@ -55,71 +55,8 @@ The <code>IMediaParamInfo</code> interface retrieves information about the param
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaParamInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaParamInfo</b> also has these types of members:
+The <b>IMediaParamInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaParamInfo</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMediaParamInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getcurrenttimeformat">GetCurrentTimeFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current time format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getnumtimeformats">GetNumTimeFormats</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of time formats that the object supports.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getparamcount">GetParamCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of parameters that the object supports.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getparaminfo">GetParamInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about a specified parameter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getparamtext">GetParamText</a>
-</td>
-<td align="left" width="63%">
-Retrieves an array of text strings that describe the parameter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getsupportedtimeformat">GetSupportedTimeFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves a supported time format.
-
-</td>
-</tr>
-</table>

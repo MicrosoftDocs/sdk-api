@@ -116,7 +116,7 @@ A selection of multiple files, directories, or both.
 
 ### -param lpFileName [in]
 
-A pointer to the names of the items that the property dialog box should act on. The only supported items are files and directories, so the item names are file names. These should be unambiguous, contain no wildcard characters, and  be fully qualified, for example, <b>C:\Local\</b><i>Example</i><b>.doc</b>. Multiple file names should be separated with spaces. A file name that contains spaces can be enclosed in quotation marks, for example, <b>"C:\</b><i>My File</i><b>"</b>. In this case, it is treated as a single name. A caret  (^) can also be used as the quotation mechanism for single characters, for example, C:\My^"File and  "C:\My^"File" both refer to the file C:\My"File.
+A pointer to the names of the items that the property dialog box should act on. The only supported items are files and directories, so the item names are file names. These should be unambiguous, contain no wildcard characters, and  be fully qualified, for example, <b>C:\Local\\</b><i>Example</i><b>.doc</b>. Multiple file names should be separated with spaces. A file name that contains spaces can be enclosed in quotation marks, for example, <b>"C:\\</b><i>My File</i><b>"</b>. In this case, it is treated as a single name. A caret  (^) can also be used as the quotation mechanism for single characters, for example, C:\My^"File and  "C:\My^"File" both refer to the file C:\My"File.
 
 ### -param nType [in]
 

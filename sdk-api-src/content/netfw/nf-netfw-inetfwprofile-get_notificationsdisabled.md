@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwProfile.get_NotificationsDisabled
 title: INetFwProfile::get_NotificationsDisabled (netfw.h)
-description: Indicates whether interactive firewall notifications are disabled.
+description: Indicates whether interactive firewall notifications are disabled. (INetFwProfile.get_NotificationsDisabled)
 helpviewer_keywords: ["INetFwProfile interface [ICS/ICF]","NotificationsDisabled property","INetFwProfile.NotificationsDisabled","INetFwProfile.get_NotificationsDisabled","INetFwProfile::NotificationsDisabled","INetFwProfile::get_NotificationsDisabled","INetFwProfile::put_NotificationsDisabled","NotificationsDisabled property [ICS/ICF]","NotificationsDisabled property [ICS/ICF]","INetFwProfile interface","get_NotificationsDisabled","ics.inetfwprofile_notificationsdisabled","netfw/INetFwProfile::NotificationsDisabled","netfw/INetFwProfile::get_NotificationsDisabled","netfw/INetFwProfile::put_NotificationsDisabled"]
 old-location: ics\inetfwprofile_notificationsdisabled.htm
 tech.root: ics

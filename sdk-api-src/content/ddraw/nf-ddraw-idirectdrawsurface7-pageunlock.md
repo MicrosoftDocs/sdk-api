@@ -50,7 +50,7 @@ Unlocks a system-memory surface, which then allows it to be paged out.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Currently not used and must be set to 0.
 
@@ -76,7 +76,7 @@ A lock count is maintained for each surface and is incremented each time that <a
 
 <b>IDirectDrawSurface7::PageUnlock</b> was not implemented in the <b>IDirectDraw</b> interface version.
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>PageUnlock</b> method.
+
 
 ## -see-also
 

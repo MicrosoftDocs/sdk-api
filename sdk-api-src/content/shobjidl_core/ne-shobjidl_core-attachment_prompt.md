@@ -54,18 +54,18 @@ Provides a set of flags to be used with <a href="/windows/desktop/api/shobjidl_c
 
 ## -enum-fields
 
-### -field ATTACHMENT_PROMPT_NONE
+### -field ATTACHMENT_PROMPT_NONE:0
 
 Do not use.
 
-### -field ATTACHMENT_PROMPT_SAVE
+### -field ATTACHMENT_PROMPT_SAVE:0x1
 
 Displays a prompt asking whether the user would like to save the attachment.
 
-### -field ATTACHMENT_PROMPT_EXEC
+### -field ATTACHMENT_PROMPT_EXEC:0x2
 
 Displays a prompt asking whether the user would like to execute the attachment.
 
-### -field ATTACHMENT_PROMPT_EXEC_OR_SAVE
+### -field ATTACHMENT_PROMPT_EXEC_OR_SAVE:0x3
 
 Displays a prompt giving the user a choice of executing or saving the attachment.

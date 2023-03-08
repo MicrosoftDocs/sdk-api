@@ -43,6 +43,7 @@ api_location:
  - User32.dll
 api_name:
  - GetMenuInfo
+req.apiset: ext-ms-win-ntuser-menu-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetMenuInfo function
@@ -54,13 +55,13 @@ Retrieves information about a specified menu.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b>HMENU</b>
 
 A handle on a menu.
 
-### -param arg2 [in, out]
+### -param unnamedParam2 [in, out]
 
 Type: <b>LPMENUINFO</b>
 

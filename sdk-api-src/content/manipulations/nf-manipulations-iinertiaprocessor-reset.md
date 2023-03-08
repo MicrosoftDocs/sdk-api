@@ -52,7 +52,7 @@ api_name:
 
 The <b>Reset</b> method initializes the processor with initial timestamp and restarts inertia.
 
-## -parameters
+
 
 ## -returns
 

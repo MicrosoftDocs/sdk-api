@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Brush.SetTransform(constD2D1_MATRIX_3X2_F&)
 title: ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F &) (d2d1.h)
-description: Sets the transformation applied to the brush.
+description: Sets the transformation applied to the brush. (overload 2/2)
 helpviewer_keywords: ["ID2D1Brush interface [Direct2D]","SetTransform method","ID2D1Brush.SetTransform","ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F &)","ID2D1Brush::SetTransform","ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F &)","ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F&)","SetTransform","SetTransform method [Direct2D]","SetTransform method [Direct2D]","ID2D1Brush interface","d2d1/ID2D1Brush::SetTransform","direct2d.ID2D1Brush_SetTransform_ref_D2D_MATRIX_3X2_F"]
 old-location: direct2d\ID2D1Brush_SetTransform_ref_D2D_MATRIX_3X2_F.htm
 tech.root: Direct2D
@@ -66,7 +66,7 @@ When you paint with a brush, it paints in the coordinate space of the render tar
 
 You can "move" the gradient defined by an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a> to a target area by setting its start point and end point. Likewise, you can move the gradient defined by an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a> by changing its center and radii. 
 
-To align the content of an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> to the area being painted, you can use the <a href="/windows/win32/api/d2d1/nf-d2d1-settransform">SetTransform</a> method to translate the bitmap to the desired location. This transform only affects the brush; it does not affect any other content drawn by the render target. 
+To align the content of an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> to the area being painted, you can use the **SetTransform** method to translate the bitmap to the desired location. This transform only affects the brush; it does not affect any other content drawn by the render target. 
 
 The following illustrations show the effect of using an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> to fill a rectangle located at (100, 100). The illustration on the left illustration shows the result of filling the rectangle without transforming the brush: the bitmap is drawn at the render target's origin. As a result, only a portion of the bitmap appears in the rectangle.
 

@@ -93,10 +93,14 @@ The address of the cache line to be loaded. This address is not required to be o
 
 This macro can be called on all processor platforms where Windows is supported, but it  has no effect on some platforms.  The definition varies from platform to platform.  The following are some definitions of this macro in Winnt.h:
 
-<pre class="syntax" xml:space="preserve"><code>#define PreFetchCacheLine(l, a)  _mm_prefetch((CHAR CONST *) a, l)
+
+``` syntax
+#define PreFetchCacheLine(l, a)  _mm_prefetch((CHAR CONST *) a, l)
 
 #define PreFetchCacheLine(l, a)
 
 #define PreFetchCacheLine  __lfetch
-</code></pre>
+
+```
+
 

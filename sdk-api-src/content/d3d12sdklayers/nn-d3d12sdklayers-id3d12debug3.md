@@ -1,15 +1,15 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12Debug3
 title: ID3D12Debug3 (d3d12sdklayers.h)
-description: Adds configurable levels of GPU-based validation to the debug layer.
+description: Adds configurable levels of GPU-based validation to the debug layer. (ID3D12Debug3)
 helpviewer_keywords: ["- ID3D12Debug3"]
 tech.root: direct3d12
 ms.date: 03/02/2020
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

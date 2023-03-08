@@ -55,68 +55,7 @@ Provides information to the audio engine about an audio endpoint. This interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpoint</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpoint</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAudioEndpoint</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-getframeformat">GetFrameFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the format of the endpoint.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-getframesperpacket">GetFramesPerPacket</a>
-</td>
-<td align="left" width="63%">
-Gets the maximum number of frames per packet that the audio endpoint can support, based on the period and 
-     the sample rate of the current stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-getlatency">GetLatency</a>
-</td>
-<td align="left" width="63%">
-Gets the latency of the audio endpoint.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-seteventhandle">SetEventHandle</a>
-</td>
-<td align="left" width="63%">
-Sets the handle for the event  that the audio engine uses to signal the client when the audio engine 
-     finishes processing the audio buffer. The audio engine uses this method only when the endpoint is event 
-     driven.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-setstreamflags">SetStreamFlags</a>
-</td>
-<td align="left" width="63%">
-Sets the stream  configuration flags on the audio endpoint.
-
-</td>
-</tr>
-</table>
+The <b>IAudioEndpoint</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpoint</b> also has these types of members:
 
 ## -remarks
 

@@ -56,11 +56,11 @@ Indicates the target mode of a relationship.
 
 ## -enum-fields
 
-### -field OPC_URI_TARGET_MODE_INTERNAL
+### -field OPC_URI_TARGET_MODE_INTERNAL:0
 
 The target of the relationship  is a part inside the package.
 
-### -field OPC_URI_TARGET_MODE_EXTERNAL
+### -field OPC_URI_TARGET_MODE_EXTERNAL:1
 
 The target of the relationship is a resource outside of the package.
 

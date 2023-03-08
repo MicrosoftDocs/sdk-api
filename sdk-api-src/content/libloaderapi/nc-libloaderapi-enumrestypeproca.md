@@ -1,7 +1,7 @@
 ---
 UID: NC:libloaderapi.ENUMRESTYPEPROCA
 title: ENUMRESTYPEPROCA (libloaderapi.h)
-description: An application-defined callback function used with the EnumResourceTypes and EnumResourceTypesEx functions.
+description: An application-defined callback function used with the EnumResourceTypes and EnumResourceTypesEx functions. (ANSI)
 helpviewer_keywords: ["EnumResTypeProc","EnumResTypeProc callback","EnumResTypeProc callback function [Menus and Other Resources]","EnumResTypeProcA","EnumResTypeProcW","_win32_EnumResTypeProc","_win32_enumrestypeproc_cpp","libloaderapi/EnumResTypeProc","libloaderapi/EnumResTypeProcA","libloaderapi/EnumResTypeProcW","menurc.enumrestypeproc","winui._win32_enumrestypeproc"]
 old-location: menurc\enumrestypeproc.htm
 tech.root: menurc
@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-An application-defined callback function used with the <a href="https://msdn.microsoft.com/51a22bbf-e834-434e-8a2f-9d172d02b228">EnumResourceTypes</a> and <a href="https://msdn.microsoft.com/212ee064-b5d1-4309-9ee0-72340dd69328">EnumResourceTypesEx</a> functions. It receives resource types. The <b>ENUMRESTYPEPROC</b> type defines a pointer to this callback function. <i>EnumResTypeProc</i> is a placeholder for the application-defined function name.
+An application-defined callback function used with the <a href="/windows/win32/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a> and <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcetypesexa">EnumResourceTypesEx</a> functions. It receives resource types. The <b>ENUMRESTYPEPROC</b> type defines a pointer to this callback function. <i>EnumResTypeProc</i> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -65,13 +65,13 @@ Type: <b>LPTSTR</b>
 
 The type of resource for which the type is being enumerated. 
 
-Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the given resource type. For standard resource types, see <a href="/windows/desktop/menurc/resource-types">Resource Types</a>. For more information, see the Remarks section below.
+Alternately, rather than a pointer, this parameter can be <a href="/windows/win32/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the given resource type. For standard resource types, see <a href="/windows/desktop/menurc/resource-types">Resource Types</a>. For more information, see the Remarks section below.
 
 ### -param lParam [in]
 
 Type: <b>LONG_PTR</b>
 
-An application-defined parameter passed to the <a href="https://msdn.microsoft.com/51a22bbf-e834-434e-8a2f-9d172d02b228">EnumResourceTypes</a> or <a href="https://msdn.microsoft.com/212ee064-b5d1-4309-9ee0-72340dd69328">EnumResourceTypesEx</a> function. This parameter can be used in error checking. 
+An application-defined parameter passed to the <a href="/windows/win32/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a> or <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcetypesexa">EnumResourceTypesEx</a> function. This parameter can be used in error checking. 
 
 ## -returns
 
@@ -81,11 +81,11 @@ Returns <b>TRUE</b> to continue enumeration or <b>FALSE</b> to stop enumeration.
 
 ## -remarks
 
-If <a href="https://msdn.microsoft.com/af7d1343-93b7-4e11-a299-3c2f19bb2e98">IS_INTRESOURCE</a>(<i>lpszType</i>) is <b>TRUE</b>, then <i>lpszType</i> specifies the integer identifier of the given resource type. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the integer identifier of the resource type. For example, the string "#258" represents the identifier 258.
+If <a href="/windows/win32/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>(<i>lpszType</i>) is <b>TRUE</b>, then <i>lpszType</i> specifies the integer identifier of the given resource type. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the integer identifier of the resource type. For example, the string "#258" represents the identifier 258.
 
-An application must register this function by passing its address to the <a href="https://msdn.microsoft.com/51a22bbf-e834-434e-8a2f-9d172d02b228">EnumResourceTypes</a> or <a href="https://msdn.microsoft.com/212ee064-b5d1-4309-9ee0-72340dd69328">EnumResourceTypesEx</a> function. 
+An application must register this function by passing its address to the <a href="/windows/win32/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a> or <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcetypesexa">EnumResourceTypesEx</a> function. 
 
-If the callback function returns <b>FALSE</b>, then <a href="https://msdn.microsoft.com/51a22bbf-e834-434e-8a2f-9d172d02b228">EnumResourceTypes</a> or <a href="https://msdn.microsoft.com/212ee064-b5d1-4309-9ee0-72340dd69328">EnumResourceTypesEx</a> will stop enumeration and return <b>FALSE</b>. On Windows XP and earlier the value obtained from <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will be <b>ERROR_SUCCESS</b>; starting with Windows Vista, the last error value will be <b>ERROR_RESOURCE_ENUM_USER_STOP</b>.
+If the callback function returns <b>FALSE</b>, then <a href="/windows/win32/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a> or <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcetypesexa">EnumResourceTypesEx</a> will stop enumeration and return <b>FALSE</b>. On Windows XP and earlier the value obtained from <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will be <b>ERROR_SUCCESS</b>; starting with Windows Vista, the last error value will be <b>ERROR_RESOURCE_ENUM_USER_STOP</b>.
 
 > [!NOTE]
 > The libloaderapi.h header defines ENUMRESTYPEPROC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
@@ -94,11 +94,11 @@ If the callback function returns <b>FALSE</b>, then <a href="https://msdn.micros
 
 <b>Conceptual</b>
 
-<a href="https://msdn.microsoft.com/51a22bbf-e834-434e-8a2f-9d172d02b228">EnumResourceTypes</a>
+<a href="/windows/win32/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a>
 
-<a href="https://msdn.microsoft.com/212ee064-b5d1-4309-9ee0-72340dd69328">EnumResourceTypesEx</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcetypesexa">EnumResourceTypesEx</a>
 
-<a href="https://msdn.microsoft.com/af7d1343-93b7-4e11-a299-3c2f19bb2e98">IS_INTRESOURCE</a>
+<a href="/windows/win32/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>
 
 <b>Reference</b>
 

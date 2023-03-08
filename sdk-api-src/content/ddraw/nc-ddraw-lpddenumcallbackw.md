@@ -1,7 +1,7 @@
 ---
 UID: NC:ddraw.LPDDENUMCALLBACKW
 title: LPDDENUMCALLBACKW (ddraw.h)
-description: The DDEnumCallback function is an application-defined callback function for the DirectDrawEnumerate function.
+description: The DDEnumCallback function is an application-defined callback function for the DirectDrawEnumerate function. (Unicode)
 helpviewer_keywords: ["DDEnumCallback","DDEnumCallback callback function [DirectDraw]","LPDDENUMCALLBACK","LPDDENUMCALLBACK callback","LPDDENUMCALLBACKA","LPDDENUMCALLBACKW","ddraw/DDEnumCallback","directdraw.ddenumcallback"]
 old-location: directdraw\ddenumcallback.htm
 tech.root: directdraw
@@ -51,19 +51,19 @@ The <i>DDEnumCallback</i> function is an application-defined callback function f
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A pointer to the unique identifier of the DirectDraw object.
 
-### -param Arg2
+### -param unnamedParam2
 
 Address of a string that contains the driver name.
 
-### -param Arg3
+### -param unnamedParam3
 
 Address of a string that contains the driver description.
 
-### -param Arg4
+### -param unnamedParam4
 
 A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
 

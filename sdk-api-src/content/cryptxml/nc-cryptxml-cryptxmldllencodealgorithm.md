@@ -56,7 +56,7 @@ The <b>CryptXmlDllEncodeAlgorithm</b> function is exposed through the exported <
 
 ## -parameters
 
-### -param *pAlgInfo [in]
+### -param pAlgInfo [in]
 
 A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure.
 
@@ -64,7 +64,7 @@ A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algo
 
 A <a href="/windows/desktop/api/cryptxml/ne-cryptxml-crypt_xml_charset">CRYPT_XML_CHARSET</a> value that specifies the character set of the encoded XML.
 
-### -param *pvCallbackState [in, out]
+### -param pvCallbackState [in, out]
 
 A pointer to an argument that is passed to the callback function pointed to by the <i>pfnWrite</i> parameter.
 

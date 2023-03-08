@@ -54,38 +54,7 @@ The <b>ITfSourceSingle</b> interface is implemented by the TSF manager. It is us
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfSourceSingle</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfSourceSingle</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfSourceSingle</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">AdviseSingleSink</a>
-</td>
-<td align="left" width="63%">
-Installs an advise sink.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-unadvisesinglesink">UnadviseSingleSink</a>
-</td>
-<td align="left" width="63%">
-Uninstalls an advise sink.
-
-</td>
-</tr>
-</table>
+The <b>ITfSourceSingle</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfSourceSingle</b> also has these types of members:
 
 ## -remarks
 

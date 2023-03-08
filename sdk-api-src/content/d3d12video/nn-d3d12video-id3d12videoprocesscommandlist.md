@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12video.ID3D12VideoProcessCommandList
 title: ID3D12VideoProcessCommandList
-description: Encapsulates a list of graphics commands for video processing.
+description: Encapsulates a list of graphics commands for video processing. (ID3D12VideoProcessCommandList)
 helpviewer_keywords: ["- ID3D12VideoProcessCommandList"]
 tech.root: mf
 ms.assetid: 6dab346e-f838-4881-b758-80cad037511b
@@ -45,73 +45,7 @@ Encapsulates a list of graphics commands for video processing. This interface is
 
 ## -inheritance
 
-ID3D12VideoProcessCommandList interits from ID3D12CommandList.
-
-## -members
-
-<p>ID3D12VideoProcessCommandList has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>Close</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Reset</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ClearState</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ResourceBarrier</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>DiscardResource</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>BeginQuery</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EndQuery</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ResolveQueryData</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetPredication</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetMarker</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>BeginEvent</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EndEvent</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ProcessFrames</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>WriteBufferImmediate</td>
-		<td>TBD</td>
-	</tr>
-</table>
+ID3D12VideoProcessCommandList inherits from ID3D12CommandList.
 
 ## -remarks
 

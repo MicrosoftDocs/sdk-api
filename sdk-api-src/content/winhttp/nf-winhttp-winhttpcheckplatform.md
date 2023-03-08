@@ -52,7 +52,7 @@ api_name:
 
 The <b>WinHttpCheckPlatform</b> function determines whether the current platform is supported by this version of Microsoft Windows HTTP Services (WinHTTP).
 
-## -parameters
+
 
 ## -returns
 

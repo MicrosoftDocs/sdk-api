@@ -55,38 +55,7 @@ The <code>IVMRAspectRatioControl</code> interface controls whether the <a href="
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRAspectRatioControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRAspectRatioControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVMRAspectRatioControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmraspectratiocontrol-getaspectratiomode">GetAspectRatioMode</a>
-</td>
-<td align="left" width="63%">
-Queries whether the VMR will preserve the aspect ratio of the source video.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmraspectratiocontrol-setaspectratiomode">SetAspectRatioMode</a>
-</td>
-<td align="left" width="63%">
-Specifies whether the VMR will preserve the aspect ratio of the source video.
-
-</td>
-</tr>
-</table>
+The <b>IVMRAspectRatioControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRAspectRatioControl</b> also has these types of members:
 
 ## -see-also
 

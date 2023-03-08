@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains values used to specify how to do hyphenation in a rich edit control. The <a href="https://msdn.microsoft.com/5a7333ab-4918-4d73-9ad5-a8704acab4c0">HyphenateProc</a> callback function uses this enumeration type.
+Contains values used to specify how to do hyphenation in a rich edit control. The <a href="/windows/win32/api/richedit/nf-richedit-hyphenateproc">HyphenateProc</a> callback function uses this enumeration type.
 
 ## -enum-fields
 
@@ -82,7 +82,7 @@ Change the letter after the hyphenation mark.
 
 ### -field khyphDelAndChange
 
-The two letters before the hyphenation mark are replaced by one character; see the <b>chHyph</b> member of <a href="https://msdn.microsoft.com/43b9d78f-5931-49bd-8c58-cc333a3f3756">HYPHRESULT</a>.
+The two letters before the hyphenation mark are replaced by one character; see the <b>chHyph</b> member of <a href="/windows/win32/api/richedit/ns-richedit-hyphresult">HYPHRESULT</a>.
 
 ## -remarks
 
@@ -90,11 +90,11 @@ Hyphenation rules are specific for each language; not all hyphenation types are 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/43b9d78f-5931-49bd-8c58-cc333a3f3756">HYPHRESULT</a>
+<a href="/windows/win32/api/richedit/ns-richedit-hyphresult">HYPHRESULT</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a7333ab-4918-4d73-9ad5-a8704acab4c0">HyphenateProc</a>
+<a href="/windows/win32/api/richedit/nf-richedit-hyphenateproc">HyphenateProc</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetAlphaTableValue(UINT,float)
 title: IDCompositionTableTransferEffect::SetAlphaTableValue (dcomp.h)
-description: Sets a value in the alpha table.
+description: Sets a value in the alpha table. (overload 1/2)
 helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetAlphaTableValue method","IDCompositionTableTransferEffect.SetAlphaTableValue","IDCompositionTableTransferEffect::SetAlphaTableValue","IDCompositionTableTransferEffect::SetAlphaTableValue(UINT","float)","SetAlphaTableValue","SetAlphaTableValue method [DirectComposition]","SetAlphaTableValue method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetAlphaTableValue","directcomp.idcompositiontabletransfereffect_setalphatablevalue"]
 old-location: directcomp\idcompositiontabletransfereffect_setalphatablevalue.htm
 tech.root: directcomp
@@ -70,7 +70,7 @@ The new value.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

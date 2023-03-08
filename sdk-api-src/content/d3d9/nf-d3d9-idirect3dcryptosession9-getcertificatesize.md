@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.GetCertificateSize
 title: IDirect3DCryptoSession9::GetCertificateSize (d3d9.h)
-description: Gets the size of the driver's certificate chain.
+description: Gets the size of the driver's certificate chain. (IDirect3DCryptoSession9.GetCertificateSize)
 helpviewer_keywords: ["GetCertificateSize","GetCertificateSize method [Media Foundation]","GetCertificateSize method [Media Foundation]","IDirect3DCryptoSession9 interface","IDirect3DCryptoSession9 interface [Media Foundation]","GetCertificateSize method","IDirect3DCryptoSession9.GetCertificateSize","IDirect3DCryptoSession9::GetCertificateSize","d3d9/IDirect3DCryptoSession9::GetCertificateSize","mf.idirect3dcryptosession9_getcertificatesize"]
 old-location: mf\idirect3dcryptosession9_getcertificatesize.htm
 tech.root: mf
@@ -60,7 +60,7 @@ Receives the size of the certificate chain, in bytes.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

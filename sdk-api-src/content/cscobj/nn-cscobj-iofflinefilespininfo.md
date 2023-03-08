@@ -81,65 +81,7 @@ Each of the various <i>IsPinnedForUserXxxxxx</i> methods expresses one of these 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesPinInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesPinInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOfflineFilesPinInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinned">IsPinned</a>
-</td>
-<td align="left" width="63%">
-Determines whether the item is pinned.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinnedforcomputer">IsPinnedForComputer</a>
-</td>
-<td align="left" width="63%">
-Determines whether the item was pinned for all users on the computer by Group Policy.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinnedforfolderredirection">IsPinnedForFolderRedirection</a>
-</td>
-<td align="left" width="63%">
-Determines whether the item was pinned by Folder Redirection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinnedforuser">IsPinnedForUser</a>
-</td>
-<td align="left" width="63%">
-Determines whether the item was pinned by a user.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinnedforuserbypolicy">IsPinnedForUserByPolicy</a>
-</td>
-<td align="left" width="63%">
-Determines whether the item was pinned for users by Group Policy.
-
-</td>
-</tr>
-</table>
+The <b>IOfflineFilesPinInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesPinInfo</b> also has these types of members:
 
 ## -see-also
 

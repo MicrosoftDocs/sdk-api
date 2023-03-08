@@ -54,15 +54,15 @@ Specifies values for the luminance range of YUV data.
 
 ## -enum-fields
 
-### -field D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_UNDEFINED
+### -field D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_UNDEFINED:0
 
 Driver defaults are used, which should be Studio luminance range [16-235],
 
-### -field D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_16_235
+### -field D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_16_235:1
 
 Studio luminance range [16-235]
 
-### -field D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_0_255
+### -field D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE_0_255:2
 
 Full luminance range [0-255]
 

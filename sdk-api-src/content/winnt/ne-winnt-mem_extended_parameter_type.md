@@ -56,15 +56,15 @@ Defines values for extended parameters used for file mapping into an address spa
 
 ## -enum-fields
 
-### -field MemExtendedParameterInvalidType
+### -field MemExtendedParameterInvalidType:0
 
 ### -field MemExtendedParameterAddressRequirements
 
-This extended parameter type is used to specify alignment and virtual address range restrictions for new memory allocations created by <a href="https://msdn.microsoft.com/en-us/library/Mt832849(v=VS.85).aspx">VirtualAlloc2</a> and <a href="https://msdn.microsoft.com/en-us/library/Mt832844(v=VS.85).aspx">MapViewOfFile3</a>.
+This extended parameter type is used to specify alignment and virtual address range restrictions for new memory allocations created by <a href="../memoryapi/nf-memoryapi-virtualalloc2.md">VirtualAlloc2</a> and <a href="../memoryapi/nf-memoryapi-mapviewoffile3.md">MapViewOfFile3</a>.
 
 ### -field MemExtendedParameterNumaNode
 
-This extended parameter type is used to specify the preferred NUMA node for new memory allocations created by <a href="https://msdn.microsoft.com/en-us/library/Mt832849(v=VS.85).aspx">VirtualAlloc2</a> and <a href="https://msdn.microsoft.com/en-us/library/Mt832844(v=VS.85).aspx">MapViewOfFile3</a>.
+This extended parameter type is used to specify the preferred NUMA node for new memory allocations created by <a href="../memoryapi/nf-memoryapi-virtualalloc2.md">VirtualAlloc2</a> and <a href="../memoryapi/nf-memoryapi-mapviewoffile3.md">MapViewOfFile3</a>.
 
 ### -field MemExtendedParameterPartitionHandle
 

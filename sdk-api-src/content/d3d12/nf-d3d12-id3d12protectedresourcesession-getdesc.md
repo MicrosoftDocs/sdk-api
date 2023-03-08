@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12ProtectedResourceSession.GetDesc
 title: ID3D12ProtectedResourceSession::GetDesc (d3d12.h)
-description: Retrieves a description of the protected resource session.
+description: Retrieves a description of the protected resource session. (ID3D12ProtectedResourceSession.GetDesc)
 helpviewer_keywords: ["GetDesc","GetDesc method","GetDesc method","ID3D12ProtectedResourceSession interface","ID3D12ProtectedResourceSession interface","GetDesc method","ID3D12ProtectedResourceSession.GetDesc","ID3D12ProtectedResourceSession::GetDesc","d3d12/ID3D12ProtectedResourceSession::GetDesc","direct3d12.id3d12protectedresourcesession_getdesc"]
 old-location: direct3d12\id3d12protectedresourcesession_getdesc.htm
 tech.root: direct3d12
@@ -49,10 +49,12 @@ api_name:
 
 Retrieves a description of the protected resource session.
 
+
+
 ## -returns
 
-A [D3D12_PROTECTED_RESOURCE_SESSION_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_protected_resource_session_desc) that describes the protected resource session.
+A [D3D12_PROTECTED_RESOURCE_SESSION_DESC](./ns-d3d12-d3d12_protected_resource_session_desc.md) that describes the protected resource session.
 
 ## -see-also
 
-* [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession)
+* [ID3D12ProtectedResourceSession](./nn-d3d12-id3d12protectedresourcesession.md)

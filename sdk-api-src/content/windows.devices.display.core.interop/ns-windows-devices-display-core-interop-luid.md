@@ -6,7 +6,6 @@ helpviewer_keywords: ["interop::__LUID"]
 ms.date: 02/10/2020
 tech.root: winrt
 targetos: Windows
-product: Windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -16,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: LUID, *PLUID
 req.umdf-ver: 

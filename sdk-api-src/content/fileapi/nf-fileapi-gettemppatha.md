@@ -1,8 +1,8 @@
 ---
 UID: NF:fileapi.GetTempPathA
 title: GetTempPathA function (fileapi.h)
-description: Retrieves the path of the directory designated for temporary files.
-helpviewer_keywords: ["GetTempPath","GetTempPath function [Files]","GetTempPathA","GetTempPathW","_win32_gettemppath","base.gettemppath","fileapi/GetTempPath","fileapi/GetTempPathA","fileapi/GetTempPathW","fs.gettemppath","winbase/GetTempPath","winbase/GetTempPathA","winbase/GetTempPathW"]
+description: Retrieves the path of the directory designated for temporary files. (ANSI)
+helpviewer_keywords: ["GetTempPathA", "fileapi/GetTempPathA"]
 old-location: fs\gettemppath.htm
 tech.root: fs
 ms.assetid: fb366f0d-df6b-44c2-92c9-b7a8e2583054
@@ -68,6 +68,8 @@ api_name:
 
 Retrieves the path of the directory designated for temporary files.
 
+ 
+
 ## -parameters
 
 ### -param nBufferLength [in]
@@ -93,6 +95,9 @@ If the function fails, the return value is zero. To get extended error informati
 The maximum possible return value is <b>MAX_PATH</b>+1 (261).
 
 ## -remarks
+
+> [!NOTE]
+> Apps should call [GetTempPath2](/windows/win32/api/fileapi/nf-fileapi-gettemppath2a) instead of **GetTempPath**. 
 
 The <b>GetTempPath</b> function checks for the existence of 
     environment variables in the following order and uses the first path found:

@@ -50,6 +50,8 @@ Returns the object implementing the current instance of **XMVECTORU32** cast to 
 
 <div class="alert"><b>Note</b>  This operator is only available for C++ based development.</div>
 
+
+
 ## -remarks
 
 Returns the underlying implementation object for an instance of **XMVECTORU32** cast to a **__m128i** instance.

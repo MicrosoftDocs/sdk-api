@@ -45,9 +45,6 @@ api_name:
  - DML_SCALE_BIAS
 ---
 
-# DML_SCALE_BIAS structure
-
-
 ## -description
 
 Contains the values of scale and bias terms supplied to a DirectML operator. Scale and bias have the effect of applying the function g(x) = x * <i>Scale</i> + <i>Bias</i>.

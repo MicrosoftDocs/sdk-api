@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.SetWindowInputRectangle
 title: IInkOverlay::SetWindowInputRectangle (msinkaut.h)
-description: Sets the window rectangle, in pixels, within which ink is drawn.
+description: Sets the window rectangle, in pixels, within which ink is drawn. (IInkOverlay.SetWindowInputRectangle)
 helpviewer_keywords: ["IInkOverlay","IInkOverlay interface [Tablet PC]","SetWindowInputRectangle method","IInkOverlay.SetWindowInputRectangle","IInkOverlay::SetWindowInputRectangle","SetWindowInputRectangle","SetWindowInputRectangle method [Tablet PC]","SetWindowInputRectangle method [Tablet PC]","IInkOverlay interface","b46139db-0473-4cd3-8f1b-d303f3430470","msinkaut/IInkOverlay::SetWindowInputRectangle","tablet.inkoverlay_setwindowinputrectangle"]
 old-location: tablet\inkoverlay_setwindowinputrectangle.htm
 tech.root: tablet
@@ -163,7 +163,7 @@ You cannot pass in a rectangle where the value of the <a href="/windows/desktop/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 

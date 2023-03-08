@@ -54,49 +54,7 @@ Represents the metadata for a set of changes that is created as part of a recove
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncFullEnumerationChangeBatch</b> interface inherits from <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase</a>. <b>ISyncFullEnumerationChangeBatch</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISyncFullEnumerationChangeBatch</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncfullenumerationchangebatch-getclosedlowerbounditemid">GetClosedLowerBoundItemId</a>
-</td>
-<td align="left" width="63%">
-Gets the closed lower bound on item IDs that require destination versions.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncfullenumerationchangebatch-getclosedupperbounditemid">GetClosedUpperBoundItemId</a>
-</td>
-<td align="left" width="63%">
-Gets the closed upper bound on item IDs that require destination versions.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncfullenumerationchangebatch-getlearnedknowledgeafterrecoverycomplete">GetLearnedKnowledgeAfterRecoveryComplete</a>
-</td>
-<td align="left" width="63%">
-Gets the knowledge the destination replica will learn after it applies all the changes in the recovery synchronization.
-
-</td>
-</tr>
-</table>
+The <b>ISyncFullEnumerationChangeBatch</b> interface inherits from <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase</a>. <b>ISyncFullEnumerationChangeBatch</b> also has these types of members:
 
 ## -see-also
 

@@ -62,38 +62,7 @@ The <b>IFaxJobs</b> interface includes methods that allow a fax client applicati
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxJobs</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxJobs</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFaxJobs</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/faxcom/nf-faxcom-ifaxjobs-get_count">get_Count</a>
-</td>
-<td align="left" width="63%">
-The <a href="/previous-versions/windows/desktop/api/faxcom/nf-faxcom-ifaxjobs-get_count">IFaxJobs::get_Count</a> method returns the number of queued fax jobs associated with the connected fax server.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/faxcom/nf-faxcom-ifaxjobs-get_item">get_Item</a>
-</td>
-<td align="left" width="63%">
-The <a href="/previous-versions/windows/desktop/api/faxcom/nf-faxcom-ifaxjobs-get_item">IFaxJobs::get_Item</a> method returns a new <a href="/previous-versions/windows/desktop/fax/-mfax-faxjob">FaxJob</a> object for a specified fax job. The object allows enumeration of the fax jobs associated with a connected fax server.
-
-</td>
-</tr>
-</table>
+The <b>IFaxJobs</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxJobs</b> also has these types of members:
 
 ## -remarks
 

@@ -2,7 +2,7 @@
 UID: NF:shellapi.SHFileOperationA
 title: SHFileOperationA function (shellapi.h)
 description: Copies, moves, renames, or deletes a file system object. This function has been replaced in Windows Vista by IFileOperation.
-helpviewer_keywords: ["SHFileOperation","SHFileOperation function [Windows Shell]","SHFileOperationA","SHFileOperationW","_win32_SHFileOperation","shell.SHFileOperation","shellapi/SHFileOperation","shellapi/SHFileOperationA","shellapi/SHFileOperationW"]
+helpviewer_keywords: ["SHFileOperationA", "shellapi/SHFileOperationA"]
 old-location: shell\SHFileOperation.htm
 tech.root: shell
 ms.assetid: 7807015f-52c5-46f5-9e90-4e3e60ddf705
@@ -47,6 +47,7 @@ api_name:
  - SHFileOperation
  - SHFileOperationA
  - SHFileOperationW
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SHFileOperationA function
@@ -235,7 +236,7 @@ With Windows 2000 or later, it is possible to <i>connect</i> an HTML file with 
 
 The HTML file must have a .htm or .html extension. You create the connection to the related files by placing the folder that contains them into the same folder as the HTML file. The name of the folder that contains the connected files must be the same as the name of the HTML file followed by "_files" or ".files" (this is case sensitive; for example, ".Files" does not work). An example is given here.
 
-                    <ol>
+<ol>
 <li>Create a file named Test.htm in the C:\Files directory (C:\Files\Test.htm).</li>
 <li>Create a new folder named Test.files in the C:\Files directory (C:\Files\Test.files).</li>
 <li>Populate the folder with a few files. Any file placed in this folder is connected to Test.htm.</li>
@@ -247,7 +248,7 @@ The HTML file must have a .htm or .html extension. You create the connection to 
 File connection is enabled by default. It can be disabled by adding a <b>REG_DWORD</b> entry, NoFileFolderConnection, as shown here:
 
 
-<pre xml:space="preserve"><b>HKEY_CURRENT_USER</b>
+<pre><b>HKEY_CURRENT_USER</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>

@@ -101,7 +101,7 @@ Do not specify this value when accessing the process heap. The system may create
 
 A pointer to the memory block to be freed. This pointer is returned by the 
 <a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> or 
-<a href="/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a> function. If this pointer is <b>NULL</b>, the behavior is undefined.
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a> function. This pointer can be <b>NULL</b>.
 
 ## -returns
 

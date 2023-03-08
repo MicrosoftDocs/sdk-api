@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSetBuilder.AddFontFaceReference(IDWriteFontFaceReference,DWRITE_FONT_PROPERTYconst,UINT32)
 title: IDWriteFontSetBuilder::AddFontFaceReference(IDWriteFontFaceReference,DWRITE_FONT_PROPERTY const,UINT32) (dwrite_3.h)
-description: Adds a reference to a font to the set being built. The necessary metadata will automatically be extracted from the font upon calling CreateFontSet.
+description: Adds a reference to a font to the set being built. The necessary metadata will automatically be extracted from the font upon calling CreateFontSet. (overload 2/2)
 helpviewer_keywords: ["AddFontFaceReference","AddFontFaceReference method [Direct Write]","AddFontFaceReference method [Direct Write]","IDWriteFontSetBuilder interface","IDWriteFontSetBuilder interface [Direct Write]","AddFontFaceReference method","IDWriteFontSetBuilder.AddFontFaceReference","IDWriteFontSetBuilder.AddFontFaceReference(IDWriteFontFaceReference","DWRITE_FONT_PROPERTY const","UINT32)","IDWriteFontSetBuilder::AddFontFaceReference","IDWriteFontSetBuilder::AddFontFaceReference(IDWriteFontFaceReference","DWRITE_FONT_PROPERTY const","UINT32)","directwrite.idwritefontsetbuilder_addfontfacereference_1","dwrite_3/IDWriteFontSetBuilder::AddFontFaceReference"]
 old-location: directwrite\idwritefontsetbuilder_addfontfacereference_1.htm
 tech.root: DirectWrite
@@ -72,7 +72,7 @@ The number of properties specified.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

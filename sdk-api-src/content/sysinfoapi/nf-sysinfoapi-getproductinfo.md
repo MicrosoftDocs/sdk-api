@@ -580,6 +580,28 @@ Microsoft Hyper-V Server
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="PRODUCT_IOTENTERPRISE"></a><a id="product_iotenterprise"></a><dl>
+<dt><b>PRODUCT_IOTENTERPRISE</b></dt>
+<dt>0x000000BC</dt>
+</dl>
+</td>
+<td width="60%">
+Windows IoT Enterprise
+ 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_IOTENTERPRISE_S"></a><a id="product_iotenterprise_s"></a><dl>
+<dt><b>PRODUCT_IOTENTERPRISE_S</b></dt>
+<dt>0x000000BF</dt>
+</dl>
+</td>
+<td width="60%">
+Windows IoT Enterprise LTSC
+ 
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="PRODUCT_IOTUAP"></a><a id="product_iotuap"></a><dl>
 <dt><b>PRODUCT_IOTUAP</b></dt>
 <dt>0x0000007B</dt>
@@ -675,6 +697,28 @@ Windows MultiPoint Server Premium (full installation)
 </td>
 <td width="60%">
 Windows MultiPoint Server Standard (full installation)
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_PPI_PRO"></a><a id="product_ppi_pro"></a><dl>
+<dt><b>PRODUCT_PPI_PRO</b></dt>
+<dt>0x00000077</dt>
+</dl>
+</td>
+<td width="60%">
+Windows 10 Team
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_PRO_FOR_EDUCATION"></a><a id="product_pro_for_education"></a><dl>
+<dt><b>PRODUCT_PRO_FOR_EDUCATION</b></dt>
+<dt>0x000000A4</dt>
+</dl>
+</td>
+<td width="60%">
+Windows 10 Pro Education
 
 </td>
 </tr>
@@ -818,6 +862,17 @@ Windows Server 2008 without Hyper-V for Windows Essential Server Solutions
 </td>
 <td width="60%">
 Server Foundation
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_SERVERRDSH"></a><a id="product_serverrdsh"></a><dl>
+<dt><b>PRODUCT_SERVERRDSH</b></dt>
+<dt>0x000000AF</dt>
+</dl>
+</td>
+<td width="60%">
+Windows 10 Enterprise for Virtual Desktops
 
 </td>
 </tr>

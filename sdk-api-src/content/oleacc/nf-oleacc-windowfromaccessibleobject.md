@@ -54,7 +54,7 @@ Retrieves the window handle that corresponds to a particular instance of an <a h
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b>IAccessible*</b>
 

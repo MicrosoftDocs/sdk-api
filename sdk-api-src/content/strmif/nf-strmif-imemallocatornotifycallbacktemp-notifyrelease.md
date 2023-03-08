@@ -53,7 +53,7 @@ api_name:
 
 The <code>NotifyRelease</code> method is called whenever the allocator's <a href="/windows/desktop/api/strmif/nf-strmif-imemallocator-releasebuffer">IMemAllocator::ReleaseBuffer</a> method is called. The <b>ReleaseBuffer</b> method returns a media sample to the allocator's free list. Samples call this method when their reference counts reach zero.
 
-## -parameters
+
 
 ## -returns
 

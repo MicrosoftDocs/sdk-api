@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.TranslateAcceleratorW
 title: TranslateAcceleratorW function (winuser.h)
-description: Processes accelerator keys for menu commands.
-helpviewer_keywords: ["TranslateAccelerator","TranslateAccelerator function [Menus and Other Resources]","TranslateAcceleratorA","TranslateAcceleratorW","_win32_TranslateAccelerator","_win32_translateaccelerator_cpp","menurc.translateaccelerator","winui._win32_translateaccelerator","winuser/TranslateAccelerator","winuser/TranslateAcceleratorA","winuser/TranslateAcceleratorW"]
+description: Processes accelerator keys for menu commands. (Unicode)
+helpviewer_keywords: ["TranslateAccelerator", "TranslateAccelerator function [Menus and Other Resources]", "TranslateAcceleratorW", "_win32_TranslateAccelerator", "_win32_translateaccelerator_cpp", "menurc.translateaccelerator", "winui._win32_translateaccelerator", "winuser/TranslateAccelerator", "winuser/TranslateAcceleratorW"]
 old-location: menurc\translateaccelerator.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\translateaccelerator.htm
@@ -131,64 +131,18 @@ For an example, see <a href="/windows/desktop/menurc/using-keyboard-accelerators
 
 ## -see-also
 
-<b>Conceptual</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-createacceleratortablea">CreateAcceleratorTable</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
-
-
-
-<a href="/windows/desktop/menurc/keyboard-accelerators">Keyboard Accelerators</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
-
-
-
-<a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
-
-
-
-<b>Reference</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-setcapture">SetCapture</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a>
-
-
-
-<a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a>
-
-
-
-<a href="/windows/desktop/menurc/wm-initmenu">WM_INITMENU</a>
-
-
-
-<a href="/windows/desktop/menurc/wm-initmenupopup">WM_INITMENUPOPUP</a>
-
-
-
-<a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
-
-
-
-<a href="/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>
-
-
-
-<a href="/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-createacceleratortablea">CreateAcceleratorTable</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
+- <a href="/windows/desktop/menurc/keyboard-accelerators">Keyboard Accelerators</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
+- <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-setcapture">SetCapture</a>
+- <a href="/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a>
+- <a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a>
+- <a href="/windows/desktop/menurc/wm-initmenu">WM_INITMENU</a>
+- <a href="/windows/desktop/menurc/wm-initmenupopup">WM_INITMENUPOPUP</a>
+- <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
+- <a href="/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>
+- <a href="/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

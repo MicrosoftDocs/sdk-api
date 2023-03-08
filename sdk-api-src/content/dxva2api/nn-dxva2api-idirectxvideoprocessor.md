@@ -54,74 +54,7 @@ Represents a DirectX Video Acceleration (DXVA) video processor device. To get a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectXVideoProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectXVideoProcessor</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDirectXVideoProcessor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getcreationparameters">GetCreationParameters</a>
-</td>
-<td align="left" width="63%">
-Retrieves the parameters that were used to create this device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getfilterpropertyrange">GetFilterPropertyRange</a>
-</td>
-<td align="left" width="63%">
-Retrieves the range of values for an image filter supported by this device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getprocamprange">GetProcAmpRange</a>
-</td>
-<td align="left" width="63%">
-Retrieves the range of values for a video processor (ProcAmp) setting on this video processor device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getvideoprocessorcaps">GetVideoProcessorCaps</a>
-</td>
-<td align="left" width="63%">
-Retrieves the capabilities of the video processor device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getvideoprocessorservice">GetVideoProcessorService</a>
-</td>
-<td align="left" width="63%">
-Retrieves the DXVA video processor service that created this video processor device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt">VideoProcessBlt</a>
-</td>
-<td align="left" width="63%">
-Performs a video process operation on one or more input samples and writes the result to a Direct3D9 surface.
-
-</td>
-</tr>
-</table>
+The <b>IDirectXVideoProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectXVideoProcessor</b> also has these types of members:
 
 ## -see-also
 

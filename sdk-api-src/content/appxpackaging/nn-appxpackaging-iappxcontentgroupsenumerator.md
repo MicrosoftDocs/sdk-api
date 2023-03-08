@@ -54,44 +54,5 @@ Enumerates the content groups from a content group map.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxContentGroupsEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxContentGroupsEnumerator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxContentGroupsEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxContentGroupsEnumerator</b> also has these types of members:
 
-## -members
-
-The <b>IAppxContentGroupsEnumerator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxcontentgroupsenumerator-getcurrent">GetCurrent</a>
-</td>
-<td align="left" width="63%">
-Gets the content group at the current position of the enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxcontentgroupsenumerator-gethascurrent">GetHasCurrent</a>
-</td>
-<td align="left" width="63%">
-Determines whether there is a content group at the current position of the enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxcontentgroupsenumerator-movenext">MoveNext</a>
-</td>
-<td align="left" width="63%">
-Advances the position of the enumerator to the next content group.
-
-</td>
-</tr>
-</table>

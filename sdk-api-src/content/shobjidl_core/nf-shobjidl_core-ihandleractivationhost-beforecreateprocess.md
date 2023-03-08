@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IHandlerActivationHost.BeforeCreateProcess
 title: IHandlerActivationHost::BeforeCreateProcess (shobjidl_core.h)
-description: .
+description: . (IHandlerActivationHost.BeforeCreateProcess)
 helpviewer_keywords: ["BeforeCreateProcess","BeforeCreateProcess method [Windows Shell]","BeforeCreateProcess method [Windows Shell]","IHandlerActivationHost interface","IHandlerActivationHost interface [Windows Shell]","BeforeCreateProcess method","IHandlerActivationHost.BeforeCreateProcess","IHandlerActivationHost::BeforeCreateProcess","shell.IHandlerActivationHost_BeforeCreateProcess","shobjidl_core/IHandlerActivationHost::BeforeCreateProcess"]
 old-location: shell\IHandlerActivationHost_BeforeCreateProcess.htm
 tech.root: shell
@@ -68,8 +68,8 @@ Provides access to information about the handler that will be invoked. This obje
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. 
-Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code, <b>HRESULT_FROM_WIN32(ERROR_CANCELLED)</b> inciates that the ShellExecute call should be canceled.
+If this method succeeds, it returns <b>S_OK</b>. 
+Otherwise, it returns an <b>HRESULT</b> error code, <b>HRESULT_FROM_WIN32(ERROR_CANCELLED)</b> indicates that the ShellExecute call should be canceled.
 
 ## -see-also
 

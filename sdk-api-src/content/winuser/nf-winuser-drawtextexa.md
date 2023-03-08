@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.DrawTextExA
 title: DrawTextExA function (winuser.h)
-description: The DrawTextEx function draws formatted text in the specified rectangle.
-helpviewer_keywords: ["DT_BOTTOM","DT_CALCRECT","DT_CENTER","DT_EDITCONTROL","DT_END_ELLIPSIS","DT_EXPANDTABS","DT_EXTERNALLEADING","DT_HIDEPREFIX","DT_INTERNAL","DT_LEFT","DT_MODIFYSTRING","DT_NOCLIP","DT_NOFULLWIDTHCHARBREAK","DT_NOPREFIX","DT_PATH_ELLIPSIS","DT_PREFIXONLY","DT_RIGHT","DT_RTLREADING","DT_SINGLELINE","DT_TABSTOP","DT_TOP","DT_VCENTER","DT_WORDBREAK","DT_WORD_ELLIPSIS","DrawTextEx","DrawTextEx function [Windows GDI]","DrawTextExA","DrawTextExW","_win32_DrawTextEx","gdi.drawtextex","winuser/DrawTextEx","winuser/DrawTextExA","winuser/DrawTextExW"]
+description: The DrawTextEx function draws formatted text in the specified rectangle. (ANSI)
+helpviewer_keywords: ["DT_BOTTOM", "DT_CALCRECT", "DT_CENTER", "DT_EDITCONTROL", "DT_END_ELLIPSIS", "DT_EXPANDTABS", "DT_EXTERNALLEADING", "DT_HIDEPREFIX", "DT_INTERNAL", "DT_LEFT", "DT_MODIFYSTRING", "DT_NOCLIP", "DT_NOFULLWIDTHCHARBREAK", "DT_NOPREFIX", "DT_PATH_ELLIPSIS", "DT_PREFIXONLY", "DT_RIGHT", "DT_RTLREADING", "DT_SINGLELINE", "DT_TABSTOP", "DT_TOP", "DT_VCENTER", "DT_WORDBREAK", "DT_WORD_ELLIPSIS", "DrawTextExA", "winuser/DrawTextExA"]
 old-location: gdi\drawtextex.htm
 tech.root: gdi
 ms.assetid: 77b9973b-77f1-4508-a021-52d61d576c23
@@ -51,6 +51,7 @@ api_name:
  - DrawTextEx
  - DrawTextExA
  - DrawTextExW
+req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # DrawTextExA function
@@ -247,7 +248,7 @@ Turns off processing of prefix characters. Normally, <b>DrawTextEx</b> interpret
 </dl>
 </td>
 <td width="60%">
-For displayed text, replaces characters in the middle of the string with ellipses so that the result fits in the specified rectangle. If the string contains backslash (\) characters, DT_PATH_ELLIPSIS preserves as much as possible of the text after the last backslash. The string is not modified unless the DT_MODIFYSTRING flag is specified.
+For displayed text, replaces characters in the middle of the string with ellipses so that the result fits in the specified rectangle. If the string contains backslash (\\) characters, DT_PATH_ELLIPSIS preserves as much as possible of the text after the last backslash. The string is not modified unless the DT_MODIFYSTRING flag is specified.
 
 Compare with DT_END_ELLIPSIS and DT_WORD_ELLIPSIS.
 

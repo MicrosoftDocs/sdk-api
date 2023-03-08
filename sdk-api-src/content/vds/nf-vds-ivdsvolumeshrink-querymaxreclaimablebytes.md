@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Retrieves the maximum number of bytes that can be reclaimed from the current volume.
 
@@ -121,7 +121,7 @@ The <i>pullMaxNumberOfReclaimableBytes</i> parameter was null on input.
 
 ## -remarks
 
-This method can return more reclaimable bytes than are actually available. For more information, see "IVdsVolumeShrink::Shrink fails when provided value returned from QueryMaxReclaimableBytes" in the Help and Support Knowledge Base at <a href="https://support.microsoft.com/kb/976436">https://go.microsoft.com/fwlink/p/?linkid=167966</a>.
+This method can return more reclaimable bytes than are actually available.
 
 ## -see-also
 

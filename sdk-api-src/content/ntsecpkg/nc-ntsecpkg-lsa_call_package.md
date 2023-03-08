@@ -67,7 +67,7 @@ Pointer to the input buffer. The content of this buffer is package-specific.
 
 Size of the <i>ProtocolSubmitBuffer</i> parameter in bytes.
 
-### -param *ProtocolReturnBuffer [out]
+### -param ProtocolReturnBuffer [out]
 
 Pointer that receives the address of the output buffer. The content of this buffer is package-specific.
 

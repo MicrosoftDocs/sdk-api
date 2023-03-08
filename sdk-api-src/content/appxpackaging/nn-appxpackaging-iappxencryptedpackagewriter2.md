@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptedPackageWriter2
 title: IAppxEncryptedPackageWriter2 (appxpackaging.h)
-description: Provides a write-only object model for encrypted app packages.
+description: Provides a write-only object model for encrypted app packages. (IAppxEncryptedPackageWriter2)
 helpviewer_keywords: ["IAppxEncryptedPackageWriter2","IAppxEncryptedPackageWriter2 interface [App packaging and management]","IAppxEncryptedPackageWriter2 interface [App packaging and management]","described","appxpackaging/IAppxEncryptedPackageWriter2","appxpkg.iappxencryptedpackagewriter2"]
 old-location: appxpkg\iappxencryptedpackagewriter2.htm
 tech.root: appxpkg
@@ -54,26 +54,5 @@ Provides a write-only object model for encrypted app packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxEncryptedPackageWriter2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptedPackageWriter2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxEncryptedPackageWriter2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptedPackageWriter2</b> also has these types of members:
 
-## -members
-
-The <b>IAppxEncryptedPackageWriter2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptedpackagewriter2-addpayloadfilesencrypted">AddPayloadFilesEncrypted</a>
-</td>
-<td align="left" width="63%">
-Adds one or more payload files to an encrypted app package.
-
-</td>
-</tr>
-</table>

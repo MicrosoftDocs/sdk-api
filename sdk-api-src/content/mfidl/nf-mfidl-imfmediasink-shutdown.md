@@ -53,7 +53,7 @@ api_name:
 
 Shuts down the media sink and releases the resources it is using.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11DepthStencilView
 title: ID3D11DepthStencilView (d3d11.h)
-description: A depth-stencil-view interface accesses a texture resource during depth-stencil testing.
+description: A depth-stencil-view interface accesses a texture resource during depth-stencil testing. (ID3D11DepthStencilView)
 helpviewer_keywords: ["5e846266-8e0b-d52b-2f70-8936cbeb0bd1","ID3D11DepthStencilView","ID3D11DepthStencilView interface [Direct3D 11]","ID3D11DepthStencilView interface [Direct3D 11]","described","d3d11/ID3D11DepthStencilView","direct3d11.id3d11depthstencilview"]
 old-location: direct3d11\id3d11depthstencilview.htm
 tech.root: direct3d11
@@ -55,29 +55,7 @@ A depth-stencil-view interface accesses a texture resource during depth-stencil 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11DepthStencilView</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11view">ID3D11View</a>. <b>ID3D11DepthStencilView</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D11DepthStencilView</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11depthstencilview-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get the depth-stencil view.
-
-</td>
-</tr>
-</table>
+The <b>ID3D11DepthStencilView</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11view">ID3D11View</a>. <b>ID3D11DepthStencilView</b> also has these types of members:
 
 ## -remarks
 

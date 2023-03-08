@@ -3,12 +3,11 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordCategoryCount
 title: DdqGetDiagnosticRecordCategoryCount
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordCategoryCount
-ms.topic: language-reference
 description: Fetches the number (size) of diagnostic record categories in the resource pointed by the HDIAGNOSTIC_EVENT_CATEGORY_DESCRIPTION handle.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,7 +30,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:

@@ -54,38 +54,7 @@ Exposes methods that get and set the parent and the parent's child ID. While <b>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IParentAndItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IParentAndItem</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IParentAndItem</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iparentanditem-getparentanditem">GetParentAndItem</a>
-</td>
-<td align="left" width="63%">
-Gets the parent of an item and the parent's child ID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iparentanditem-setparentanditem">SetParentAndItem</a>
-</td>
-<td align="left" width="63%">
-Sets the parent of an item and the parent's child ID.
-
-</td>
-</tr>
-</table>
+The <b>IParentAndItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IParentAndItem</b> also has these types of members:
 
 ## -remarks
 

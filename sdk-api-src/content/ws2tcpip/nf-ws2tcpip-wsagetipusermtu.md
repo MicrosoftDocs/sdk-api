@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.author: windowssdkdev
 ms.date: 10/02/2019
 ms.keywords: WSAGetIPUserMtu, WSAGetIPUserMtu function [Winsock], winsock.wsagetipusermtu, ws2tcpip/WSAGetIPUserMtu
-ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

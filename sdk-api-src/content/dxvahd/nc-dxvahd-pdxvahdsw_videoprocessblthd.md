@@ -58,7 +58,7 @@ Performs a video processing blit.
 
 A handle to the software DXVA-HD video processor.
 
-### -param *pOutputSurface [in]
+### -param pOutputSurface [in]
 
 A pointer to the <b>IDirect3DSurface9</b> interface of a Direct3D surface that receives the blit.
 
@@ -70,13 +70,13 @@ The frame number of the output video frame, indexed from zero.
 
 The number of input streams to process.
 
-### -param *pStreams [in]
+### -param pStreams [in]
 
 A pointer to an array of <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_data">DXVAHD_STREAM_DATA</a> structures that contain information about the input streams. The number of elements in the array is given in the <i>StreamCount</i> parameter.
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:vfw.__unnamed_struct_6
+UID: NS:vfw.ICDECOMPRESSEX
 title: ICDECOMPRESSEX (vfw.h)
 description: The ICDECOMPRESSEX structure contains decompression parameters used with the ICM_DECOMPRESSEX message.
 helpviewer_keywords: ["ICDECOMPRESSEX","ICDECOMPRESSEX structure [Windows Multimedia]","ICDECOMPRESS_HURRYUP","ICDECOMPRESS_NOTKEYFRAME","ICDECOMPRESS_NULLFRAME","ICDECOMPRESS_PREROLL","ICDECOMPRESS_UPDATE","multimedia.icdecompressex_COLLISION172","multimedia.icdecompressex_struct","vfw/ICDECOMPRESSEX"]
@@ -178,3 +178,4 @@ Height of the source rectangle.
 
 
 <a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
+

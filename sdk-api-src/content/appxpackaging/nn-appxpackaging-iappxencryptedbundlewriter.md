@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptedBundleWriter
 title: IAppxEncryptedBundleWriter (appxpackaging.h)
-description: Provides a write-only object model for encrypted bundle packages.
+description: Provides a write-only object model for encrypted bundle packages. (IAppxEncryptedBundleWriter)
 helpviewer_keywords: ["IAppxEncryptedBundleWriter","IAppxEncryptedBundleWriter interface [App packaging and management]","IAppxEncryptedBundleWriter interface [App packaging and management]","described","appxpackaging/IAppxEncryptedBundleWriter","appxpkg.iappxencryptedbundlewriter"]
 old-location: appxpkg\iappxencryptedbundlewriter.htm
 tech.root: appxpkg
@@ -54,35 +54,5 @@ Provides a write-only object model for encrypted bundle packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxEncryptedBundleWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptedBundleWriter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxEncryptedBundleWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptedBundleWriter</b> also has these types of members:
 
-## -members
-
-The <b>IAppxEncryptedBundleWriter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptedbundlewriter-addpayloadpackageencrypted">AddPayloadPackageEncrypted</a>
-</td>
-<td align="left" width="63%">
-Encrypts a new payload package to the bundle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptedbundlewriter-close">Close</a>
-</td>
-<td align="left" width="63%">
-Writes the bundle manifest and blockmap footprint files to the bundle.
-
-</td>
-</tr>
-</table>

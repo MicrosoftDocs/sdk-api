@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhEnumObjectsHW
 title: PdhEnumObjectsHW function (pdh.h)
-description: Returns a list of objects available on the specified computer or in the specified log file.This function is identical to PdhEnumObjects, except that it supports the use of handles to data sources.
-helpviewer_keywords: ["FALSE","PERF_DETAIL_ADVANCED","PERF_DETAIL_EXPERT","PERF_DETAIL_NOVICE","PERF_DETAIL_WIZARD","PdhEnumObjectsH","PdhEnumObjectsH function [Perf]","PdhEnumObjectsHA","PdhEnumObjectsHW","TRUE","_win32_pdhenumobjectsh","base.pdhenumobjectsh","pdh/PdhEnumObjectsH","pdh/PdhEnumObjectsHA","pdh/PdhEnumObjectsHW","perf.pdhenumobjectsh"]
+description: Returns a list of objects available on the specified computer or in the specified log file.This function is identical to PdhEnumObjects, except that it supports the use of handles to data sources. (Unicode)
+helpviewer_keywords: ["FALSE", "PERF_DETAIL_ADVANCED", "PERF_DETAIL_EXPERT", "PERF_DETAIL_NOVICE", "PERF_DETAIL_WIZARD", "PdhEnumObjectsH", "PdhEnumObjectsH function [Perf]", "PdhEnumObjectsHW", "TRUE", "_win32_pdhenumobjectsh", "base.pdhenumobjectsh", "pdh/PdhEnumObjectsH", "pdh/PdhEnumObjectsHW", "perf.pdhenumobjectsh"]
 old-location: perf\pdhenumobjectsh.htm
 tech.root: perf
 ms.assetid: 8f68a7a8-cc56-4f7f-a86f-4b439738808d

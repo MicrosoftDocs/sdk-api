@@ -61,35 +61,5 @@ However, most applications will not implement their own quality-control managers
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQualityControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQualityControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IQualityControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQualityControl</b> also has these types of members:
 
-## -members
-
-The <b>IQualityControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iqualitycontrol-notify">Notify</a>
-</td>
-<td align="left" width="63%">
-Notifies the recipient that a quality change is requested.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iqualitycontrol-setsink">SetSink</a>
-</td>
-<td align="left" width="63%">
-Sets the <code>IQualityControl</code> object that will receive quality messages.
-
-</td>
-</tr>
-</table>

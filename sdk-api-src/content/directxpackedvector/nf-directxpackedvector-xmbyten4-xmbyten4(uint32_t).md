@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <code>XMBYTEN4</code> from a <code>uint32_t</code>variable containing component data in a packed format.
+Initializes a new instance of <code>XMBYTEN4</code> from a <code>uint32_t</code> variable containing component data in a packed format.
     
 
 This constructor initializes a new instance of <a href="https://msdn.microsoft.com/62d61a35-8674-4855-b09c-f351363cd50b">XMBYTEN4 
@@ -74,26 +74,26 @@ The values defining the three components of the new instance of <code>XMBYTEN4</
 
 <ul>
 <li>
-The first 8 bits (bits 0-7) of <b>Packed</b> assigned, as an signed
-		    integer, to the <b>x</b> member of the instance of <code>XMBYTEN4</code>constructed.
+The first 8 bits (bits 0-7) of <b>Packed</b> assigned, as a signed
+		    integer, to the <b>x</b> member of the instance of <code>XMBYTEN4</code> constructed.
 		
 
 </li>
 <li>
-The second 8 bits (bits 8-15) of <b>Packed</b> assigned, as an signed
-		    integer, to the <b>y</b> member of the instance of <code>XMBYTEN4</code>constructed.
+The second 8 bits (bits 8-15) of <b>Packed</b> assigned, as a signed
+		    integer, to the <b>y</b> member of the instance of <code>XMBYTEN4</code> constructed.
 		
 
 </li>
 <li>
-The third 8 bits (bits 16-23) of <b>Packed</b> assigned, as an signed
-		    integer, to the <b>z</b> member of the instance of <code>XMBYTEN4</code>constructed.
+The third 8 bits (bits 16-23) of <b>Packed</b> assigned, as a signed
+		    integer, to the <b>z</b> member of the instance of <code>XMBYTEN4</code> constructed.
 		
 
 </li>
 <li>
-The last 8 bits (bits 24-31) of <b>Packed</b> assigned, as an signed
-		    integer, to the <b>w</b> member of the instance of <code>XMBYTEN4</code>constructed.
+The last 8 bits (bits 24-31) of <b>Packed</b> assigned, as a signed
+		    integer, to the <b>w</b> member of the instance of <code>XMBYTEN4</code> constructed.
 		
 
 </li>

@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_105
+UID: NE:webservices.WS_POLICY_STATE
 title: WS_POLICY_STATE (webservices.h)
 description: The state of the policy object.
 helpviewer_keywords: ["WS_POLICY_STATE","WS_POLICY_STATE enumeration [Web Services for Windows]","WS_POLICY_STATE_CREATED","WS_POLICY_STATE_FAULTED","webservices/WS_POLICY_STATE","webservices/WS_POLICY_STATE_CREATED","webservices/WS_POLICY_STATE_FAULTED","wsw.ws_policy_state"]
@@ -54,11 +54,11 @@ The state of the policy object.
 
 ## -enum-fields
 
-### -field WS_POLICY_STATE_CREATED
+### -field WS_POLICY_STATE_CREATED:1
 
 The initial state of the policy object.
 
-### -field WS_POLICY_STATE_FAULTED
+### -field WS_POLICY_STATE_FAULTED:2
 
 The policy object is no longer usable due to a previous error.
 
@@ -67,6 +67,5 @@ The policy object is no longer usable due to a previous error.
 The following diagram illustrates the functions that
                 cause state transitions in the policy object.
             
-
-<img alt="" src="./images/PolicyStates.png"/>
+:::image type="content" source="./images/PolicyStates.png" border="false" alt-text="Diagram of the state transitions for a Policy object showing the functions that cause transitions between the Created and Faulted states.":::
 

@@ -79,12 +79,16 @@ A pointer to a user-defined function that    is called for each enumerated resou
        <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-lpresource_callback_ex">ResourceCallbackEx</a> callback function.  Note 
        that parameter names are not part of the definition; they have been added here for clarity.
 
-<pre class="syntax" xml:space="preserve"><code>DWORD (*LPRESOURCE_CALLBACK_EX)( 
+
+``` syntax
+DWORD (*LPRESOURCE_CALLBACK_EX)( 
   HCLUSTER hCluster,
   HRESOURCE hSelf, 
   HRESOURCE hEnum, 
   PVOID pParameter 
-);</code></pre>
+);
+```
+
 
 
 

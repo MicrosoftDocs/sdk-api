@@ -70,7 +70,7 @@ For single GPU operation, set this to zero. If there are multiple GPU nodes, set
 
 ### -field CachedPSO
 
-A cached pipeline state object, as a <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_cached_pipeline_state">D3D12_CACHED_PIPELINE_STATE</a> structure.
+A cached pipeline state object, as a <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_cached_pipeline_state">D3D12_CACHED_PIPELINE_STATE</a> structure. pCachedBlob and CachedBlobSizeInBytes may be set to NULL and 0 respectively.
 
 ### -field Flags
 

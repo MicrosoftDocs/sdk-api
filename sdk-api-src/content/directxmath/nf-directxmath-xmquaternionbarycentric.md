@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMQuaternionBaryCentric
 title: XMQuaternionBaryCentric function (directxmath.h)
-description: Returns a point in barycentric coordinates, using the specified quaternions.
+description: Returns a point in barycentric coordinates, using the specified quaternions. (XMQuaternionBaryCentric)
 helpviewer_keywords: ["Use DirectX..XMQuaternionBaryCentric","XMQuaternionBaryCentric","XMQuaternionBaryCentric method [DirectX Math Support APIs]","dxmath.xmquaternionbarycentric"]
 old-location: dxmath\xmquaternionbarycentric.htm
 tech.root: dxmath
@@ -109,7 +109,7 @@ return Result;
 
 
 Note that Barycentric coordinates work for 'flat' surfaces but not for 'curved' ones. This function is therefore a bit of a work-around.
-        An alternative method for blending 3 quanterions is given by the following code:
+        An alternative method for blending 3 quaternions is given by the following code:
 
 
 ```

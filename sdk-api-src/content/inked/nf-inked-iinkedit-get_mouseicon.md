@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.get_MouseIcon
 title: IInkEdit::get_MouseIcon (inked.h)
-description: Gets or sets the custom mouse icon for the InkEdit control.
+description: Gets or sets the custom mouse icon for the InkEdit control. (Get)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","MouseIcon property","IInkEdit.MouseIcon","IInkEdit.get_MouseIcon","IInkEdit::MouseIcon","IInkEdit::get_MouseIcon","IInkEdit::put_MouseIcon","InkEdit.get_MouseIcon","InkEdit.put_MouseIcon","InkEdit.putref_MouseIcon","MouseIcon property [Tablet PC]","MouseIcon property [Tablet PC]","IInkEdit interface","get_MouseIcon","inked/IInkEdit::MouseIcon","inked/IInkEdit::get_MouseIcon","inked/IInkEdit::put_MouseIcon","put_MouseIcon","putref_MouseIcon","tablet.inkedit_mouseicon"]
 old-location: tablet\inkedit_mouseicon.htm
 tech.root: tablet
@@ -71,7 +71,7 @@ You can use the <b>MouseIcon</b> property to load either cursor or icon files. T
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="../inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

@@ -54,47 +54,10 @@ The <code>IAMMediaContent2</code> interface retrieves custom parameters and play
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaContent2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMMediaContent2</b> also has these types of members:
+The <b>IAMMediaContent2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMMediaContent2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IAMMediaContent2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_mediaparameter">get_MediaParameter</a>
-</td>
-<td align="left" width="63%">
-Retrieves the value of a custom parameter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_mediaparametername">get_MediaParameterName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of a custom parameter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_playlistcount">get_PlaylistCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of playlist entries.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -56,7 +56,7 @@ The <b>WCN_SESSION_STATUS</b>  enumeration defines the outcome status of a WPS s
 
 ## -enum-fields
 
-### -field WCN_SESSION_STATUS_SUCCESS
+### -field WCN_SESSION_STATUS_SUCCESS:0
 
 Indicates that the session is successful.
 

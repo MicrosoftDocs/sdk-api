@@ -55,56 +55,7 @@ Describes the render information common to all of the various transform implemen
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1RenderInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1RenderInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1RenderInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1renderinfo-setcached">SetCached</a>
-</td>
-<td align="left" width="63%">
-Specifies that the output of the transform in which the render information is encapsulated is or is not cached.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1renderinfo-setinputdescription">SetInputDescription</a>
-</td>
-<td align="left" width="63%">
-Sets how a specific input to the transform should be handled by the renderer in terms of sampling.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1renderinfo-setinstructioncounthint">SetInstructionCountHint</a>
-</td>
-<td align="left" width="63%">
-Provides an estimated hint of shader execution cost to D2D.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1renderinfo-setoutputbuffer">SetOutputBuffer</a>
-</td>
-<td align="left" width="63%">
-Allows a caller to control the output precision and channel-depth of the transform in which the render information is encapsulated.
-
-</td>
-</tr>
-</table>
+The <b>ID2D1RenderInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1RenderInfo</b> also has these types of members:
 
 ## -remarks
 

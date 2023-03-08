@@ -133,32 +133,11 @@ Also, when printing to a printer's DC with WCS turned on, the <b>SetICMMode</b> 
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc">CreateCompatibleDC</a>
-
-
-
-<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-setdibitstodevice">SetDIBitsToDevice</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-startpage">StartPage</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)
+* [BitBlt](/windows/win32/api/wingdi/nf-wingdi-bitblt)
+* [CreateCompatibleDC](/windows/win32/api/wingdi/nf-wingdi-createcompatibledc)
+* [SetDIBitsToDevice](/windows/win32/api/wingdi/nf-wingdi-setdibitstodevice)
+* [StartPage](/windows/win32/api/wingdi/nf-wingdi-startpage)
+* [StretchBlt](/windows/win32/api/wingdi/nf-wingdi-stretchblt)
+* [StretchDIBits](/windows/win32/api/wingdi/nf-wingdi-stretchdibits)

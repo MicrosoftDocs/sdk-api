@@ -114,7 +114,7 @@ The installer chooses an appropriate user interface level.
 </dl>
 </td>
 <td width="60%">
-Completely silent installation.
+Completely silent installation.  This includes suppressing the elevation prompt even if required.  See <b>INSTALLUILEVEL_UACONLY</b> if you would like the user to be able to elevate.
 
 </td>
 </tr>
@@ -165,7 +165,16 @@ If combined with the <b>INSTALLUILEVEL_BASIC</b> value, the installer shows simp
 </td>
 <td width="60%">
 If this value is combined with the <b>INSTALLUILEVEL_NONE</b> value, the installer displays only the dialog boxes used for source resolution. No other dialog boxes are shown. This value has no effect if the UI level is not <b>INSTALLUILEVEL_NONE</b>. It is used with an external user interface designed to handle all of the UI except for source resolution. In this case, the installer handles source resolution.
-
+ 
+</td>
+</tr>
+<td width="40%"><a id="INSTALLUILEVEL_UACONLY"></a><a id="installuilevel_uaconly"></a><dl>
+<dt><b>INSTALLUILEVEL_UACONLY</b></dt>
+</dl>
+</td>
+<td width="60%">
+If combined with the <b>INSTALLUILEVEL_NONE</b> value, the installation will be completely silent except for the prompt for elevation if it is required.
+ 
 </td>
 </tr>
 </table>
@@ -176,7 +185,7 @@ Pointer to a window. This window becomes the owner of any user interface created
 
 ## -returns
 
-The previous user interface level is returned. If an invalid <i>dwUILevel </i>is passed, then <b>INSTALLUILEVEL_NOCHANGE</b> is returned.
+The previous user interface level is returned. If an invalid <i>dwUILevel </i> is passed, then <b>INSTALLUILEVEL_NOCHANGE</b> is returned.
 
 ## -remarks
 

@@ -62,15 +62,15 @@ The
 
 ### -field ipi_addr
 
-The destination IPv4 address from the IP header of the received packet when used with the <a href="/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>function. The local source IPv4 address to set in the IP header when used with the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a> function.
+The destination IPv4 address from the IP header of the received packet when used with the <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg">LPFN_WSARECVMSG (WSARecvMsg)</a> function. The local source IPv4 address to set in the IP header when used with the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a> function.
 
 ### -field ipi_ifindex
 
-The interface on which the packet was received when used with the <a href="/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>function. The interface on which the packet should be sent  when used with the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a> function.
+The interface on which the packet was received when used with the <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg">LPFN_WSARECVMSG (WSARecvMsg)</a> function. The interface on which the packet should be sent  when used with the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a> function.
 
 ## -remarks
 
-If the <a href="/windows/desktop/WinSock/ip-pktinfo">IP_PKTINFO</a> socket option is set on a socket of type <b>SOCK_DGRAM</b> or <b>SOCK_RAW</b>, one of the control data objects returned by the <a href="/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>function will contain an 
+If the <a href="/windows/desktop/WinSock/ip-pktinfo">IP_PKTINFO</a> socket option is set on a socket of type <b>SOCK_DGRAM</b> or <b>SOCK_RAW</b>, one of the control data objects returned by the <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg">LPFN_WSARECVMSG (WSARecvMsg)</a> function will contain an 
 <b>in_pktinfo</b> structure used to store received packet address information.
 
 On an IPv4  socket of type  <b>SOCK_DGRAM</b> or <b>SOCK_RAW</b>, an application can specific  the local IP address to use for sending with the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a> function. One of the control data objects passed in the <a href="/windows/desktop/api/ws2def/ns-ws2def-wsamsg">WSAMSG</a> structure to the <b>WSASendMsg</b> function may contain an 
@@ -100,7 +100,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>
+<a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg">LPFN_WSARECVMSG (WSARecvMsg)</a>
 
 
 

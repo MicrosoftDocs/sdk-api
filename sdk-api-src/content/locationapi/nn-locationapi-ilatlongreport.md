@@ -50,69 +50,12 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a> API.
 ]
 
 <b>ILatLongReport</b> represents a location report that contains information in the form of latitude and longitude.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILatLongReport</b> interface inherits from <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a>. <b>ILatLongReport</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ILatLongReport</b> interface inherits from <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a>. <b>ILatLongReport</b> also has these types of members:
 
-## -members
-
-The <b>ILatLongReport</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/locationapi/nf-locationapi-ilatlongreport-getaltitude">GetAltitude</a>
-</td>
-<td align="left" width="63%">
-Retrieves the altitude, in meters.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/locationapi/nf-locationapi-ilatlongreport-getaltitudeerror">GetAltitudeError</a>
-</td>
-<td align="left" width="63%">
-Retrieves the altitude error, in meters.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/locationapi/nf-locationapi-ilatlongreport-geterrorradius">GetErrorRadius</a>
-</td>
-<td align="left" width="63%">
-Retrieves a distance from the reported location, in meters. Combined with the location reported as the origin, this radius describes a circle in which the actual location is probably located.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/locationapi/nf-locationapi-ilatlongreport-getlatitude">GetLatitude</a>
-</td>
-<td align="left" width="63%">
-Retrieves the latitude.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/locationapi/nf-locationapi-ilatlongreport-getlongitude">GetLongitude</a>
-</td>
-<td align="left" width="63%">
-Retrieves the longitude.
-
-</td>
-</tr>
-</table>

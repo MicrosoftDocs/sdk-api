@@ -2,7 +2,7 @@
 UID: NF:ntquery.LocateCatalogsW
 title: LocateCatalogsW function (ntquery.h)
 description: Finds the catalog that indexes a directory.
-helpviewer_keywords: ["LocateCatalogs","LocateCatalogs function [Indexing Service]","LocateCatalogsA","LocateCatalogsW","_idxs_LocateCatalogs","indexsrv.locatecatalogs","ntquery/LocateCatalogs","ntquery/LocateCatalogsA","ntquery/LocateCatalogsW"]
+helpviewer_keywords: ["LocateCatalogs", "LocateCatalogs function [Indexing Service]", "LocateCatalogsW", "_idxs_LocateCatalogs", "indexsrv.locatecatalogs", "ntquery/LocateCatalogs", "ntquery/LocateCatalogsW"]
 old-location: indexsrv\locatecatalogs.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_4t6b.htm
@@ -52,7 +52,8 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+> [!Note]  
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
 Finds the catalog that indexes a directory.
 

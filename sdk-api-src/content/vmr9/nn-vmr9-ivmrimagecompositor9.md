@@ -55,56 +55,10 @@ The <code>IVMRImageCompositor9</code> interface is implemented by the default co
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRImageCompositor9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRImageCompositor9</b> also has these types of members:
+The <b>IVMRImageCompositor9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRImageCompositor9</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IVMRImageCompositor9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrimagecompositor9-compositeimage">CompositeImage</a>
-</td>
-<td align="left" width="63%">
-Composites the current frames available in each input stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrimagecompositor9-initcompositiondevice">InitCompositionDevice</a>
-</td>
-<td align="left" width="63%">
-Informs the compositor that a new composition target has been created.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrimagecompositor9-setstreammediatype">SetStreamMediaType</a>
-</td>
-<td align="left" width="63%">
-Sets the media type for the input stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrimagecompositor9-termcompositiondevice">TermCompositionDevice</a>
-</td>
-<td align="left" width="63%">
-Informs the compositor that the current composition target is being replaced.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

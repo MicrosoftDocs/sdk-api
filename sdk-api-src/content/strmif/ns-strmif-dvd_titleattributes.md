@@ -92,7 +92,7 @@ An array of [DVD_SubpictureAttributes](/windows/desktop/api/strmif/ns-strmif-dvd
 
 By default, the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> uses the <b>AppMode</b> member of the anonymous union to report  the title mode.
 
-If the application sets the <b>DVD_EnableTitleLength</b> option to <b>TRUE</b>, the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> uses the <b>TitleLength</b> member of the union to report the title length. To set this option, call the <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setoption">IDvdControl2::SetOption</a>method.
+If the application sets the <b>DVD_EnableTitleLength</b> option to <b>TRUE</b>, the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> uses the <b>TitleLength</b> member of the union to report the title length. To set this option, call the <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setoption">IDvdControl2::SetOption</a> method.
 
 ## -see-also
 

@@ -53,13 +53,8 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
-
-the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
-
-unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
-
-which leverages functionality exposed by the client in Msipc.dll.]
+>[!Note]
+>The AD RMS SDK leveraging functionality exposed by the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, which leverages functionality exposed by the client in Msipc.dll.
 
 The <b>DRM_STATUS_MSG</b> enumeration is used by the custom callback function to specify why the callback function is being called.
 

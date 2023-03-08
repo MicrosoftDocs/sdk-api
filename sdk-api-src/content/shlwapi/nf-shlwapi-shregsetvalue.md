@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.SHRegSetValue
 title: SHRegSetValue function (shlwapi.h)
-description: Not supported.
+description: Not supported. (SHRegSetValue)
 helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHRegSetValue","SHRegSetValue function [Windows Shell]","_shell_SHRegSetValue","shell.SHRegSetValue","shlwapi/SHRegSetValue"]
 old-location: shell\SHRegSetValue.htm
 tech.root: shell
@@ -122,7 +122,7 @@ One or more of the <a href="/windows/desktop/shell/srrf">SRRF</a> flags that res
 
 Type: <b>DWORD</b>
 
-The <b>DWORD</b> that indicates the type of data stored in the value to be set. When using default values, the input <i>dwType</i> is the type of the default value. For possible values, see <a href="/windows/desktop/shell/schemas">Registry Data Types</a>. If the SRRF_NOEXPAND flag is not set, REG_EXPAND_SZ types are automatically expanded and returned as REG_SZ. If type information is not required, this parameter can be <b>NULL</b>.
+The <b>DWORD</b> that indicates the type of data stored in the value to be set. When using default values, the input <i>dwType</i> is the type of the default value. For possible values, see <a href="/windows/desktop/shell/hkey-type">Registry Data Types</a>. If the SRRF_NOEXPAND flag is not set, REG_EXPAND_SZ types are automatically expanded and returned as REG_SZ. If type information is not required, this parameter can be <b>NULL</b>.
 
 ### -param pvData [in]
 

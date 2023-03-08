@@ -2,7 +2,6 @@
 UID: NN:mfcontentdecryptionmodule.IMFContentDecryptionModuleAccess
 title: IMFContentDecryptionModuleAccess
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Provides access to a media key system.
 tech.root: mf

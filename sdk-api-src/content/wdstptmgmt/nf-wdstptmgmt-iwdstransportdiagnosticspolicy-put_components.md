@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportDiagnosticsPolicy.put_Components
 title: IWdsTransportDiagnosticsPolicy::put_Components (wdstptmgmt.h)
-description: Enables a WDS client to configure which WDS transport components have event logging.
+description: Enables a WDS client to configure which WDS transport components have event logging. (Put)
 helpviewer_keywords: ["Components property [Windows Deployment Services]","Components property [Windows Deployment Services]","IWdsTransportDiagnosticsPolicy interface","IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services]","Components property","IWdsTransportDiagnosticsPolicy.Components","IWdsTransportDiagnosticsPolicy.put_Components","IWdsTransportDiagnosticsPolicy::Components","IWdsTransportDiagnosticsPolicy::get_Components","IWdsTransportDiagnosticsPolicy::put_Components","put_Components","wds.iwdstransportdiagnosticspolicy_components","wdstptmgmt/IWdsTransportDiagnosticsPolicy::Components","wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Components","wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Components"]
 old-location: wds\iwdstransportdiagnosticspolicy_components.htm
 tech.root: wds

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Enables apps to obtain the window handleof the window (<a href="https://msdn.microsoft.com/60b1c8c6-c136-4c4c-8e46-69a792d58ed0">CoreWindow</a>) associated with this interface.
+Enables apps to obtain the window handle of the window (<a href="/uwp/api/windows.ui.core.corewindow">CoreWindow</a>) associated with this interface.
 
 ## -remarks
 
-Windows Store apps can have multiple <a href="https://msdn.microsoft.com/60b1c8c6-c136-4c4c-8e46-69a792d58ed0">CoreWindow</a> instances. Each <b>CoreWindow</b> instances also has a native interface for accessing the underlying HWND, represented as an instance of <b>ICoreWindowInterop</b>.
+Windows Store apps can have multiple <a href="/uwp/api/windows.ui.core.corewindow">CoreWindow</a> instances. Each <b>CoreWindow</b> instance also has a native interface for accessing the underlying HWND, represented as an instance of <b>ICoreWindowInterop</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/60b1c8c6-c136-4c4c-8e46-69a792d58ed0">CoreWindow</a>
+<a href="/uwp/api/windows.ui.core.corewindow">CoreWindow</a>
 

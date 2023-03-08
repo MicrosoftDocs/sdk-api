@@ -179,7 +179,7 @@ Apply a fixed height and width to the tiles.
 
 ### -field sizeTile
 
-Type: <b><a href="/previous-versions/dd145106(v=vs.85)">SIZE</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-size">SIZE</a></b>
 
 Size of an individual tile. Values for dimensions not specified as fixed in <b>dwFlags</b> are ignored.
 

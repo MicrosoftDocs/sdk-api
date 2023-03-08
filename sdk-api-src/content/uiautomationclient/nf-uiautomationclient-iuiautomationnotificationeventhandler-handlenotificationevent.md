@@ -58,11 +58,11 @@ Handles a Microsoft UI Automation notification event.
 
 A pointer to the element that raised the event.
 
-### -param arg2
+### -param unnamedParam2
 
 The type of notification.
 
-### -param arg3
+### -param unnamedParam3
 
 Indicates how to process notifications.
 
@@ -76,7 +76,7 @@ A unique non-localized string to identify an action or group of actions. This is
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

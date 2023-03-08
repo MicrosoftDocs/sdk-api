@@ -54,15 +54,15 @@ Specifies triangles facing a particular direction are not drawn.
 
 ## -enum-fields
 
-### -field D3D12_CULL_MODE_NONE
+### -field D3D12_CULL_MODE_NONE:1
 
 Always draw all triangles.
 
-### -field D3D12_CULL_MODE_FRONT
+### -field D3D12_CULL_MODE_FRONT:2
 
 Do not draw triangles that are front-facing.
 
-### -field D3D12_CULL_MODE_BACK
+### -field D3D12_CULL_MODE_BACK:3
 
 Do not draw triangles that are back-facing.
 

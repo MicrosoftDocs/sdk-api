@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseActiveTextPositionChangedEvent
 title: UiaRaiseActiveTextPositionChangedEvent function (uiautomationcoreapi.h)
-description: Called by a provider to notify the Microsoft UI Automation core that a text control has programmatically changed text.
+description: Called by a provider to notify the Microsoft UI Automation core that a text control has programmatically changed text. (UiaRaiseActiveTextPositionChangedEvent)
 helpviewer_keywords: ["UiaRaiseActiveTextPositionChangedEvent","UiaRaiseActiveTextPositionChangedEvent function [Windows Accessibility]","uiautomationcoreapi/UiaRaiseActiveTextPositionChangedEvent","winauto.uiauto_UiaRaiseActiveTextPositionChangedEventFunction"]
 old-location: winauto\uiauto_UiaRaiseActiveTextPositionChangedEventFunction.htm
 tech.root: WinAuto
@@ -70,7 +70,7 @@ The text range change that occurred, if applicable.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

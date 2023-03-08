@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.put_Height
 title: IInkDrawingAttributes::put_Height (msinkaut.h)
-description: Gets or sets the height of the pen when drawing ink with the InkDrawingAttributes object.
+description: Gets or sets the height of the pen when drawing ink with the InkDrawingAttributes object. (Put)
 helpviewer_keywords: ["2dc9eb94-649f-42f6-8180-abf570bdc757","Height property [Tablet PC]","Height property [Tablet PC]","IInkDrawingAttributes interface","IInkDrawingAttributes interface [Tablet PC]","Height property","IInkDrawingAttributes.Height","IInkDrawingAttributes.put_Height","IInkDrawingAttributes::Height","IInkDrawingAttributes::get_Height","IInkDrawingAttributes::put_Height","InkDrawingAttributes.get_Height","InkDrawingAttributes.put_Height","get_Height","msinkaut/IInkDrawingAttributes::Height","msinkaut/IInkDrawingAttributes::get_Height","msinkaut/IInkDrawingAttributes::put_Height","put_Height","tablet.inkdrawingattributes_height"]
 old-location: tablet\inkdrawingattributes_height.htm
 tech.root: tablet
@@ -71,7 +71,7 @@ Precision is limited to 1/1000 (three digits to the right of the decimal point).
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
+<a href="../msinkaut/nn-msinkaut-iinkdrawingattributes.md">IInkDrawingAttributes</a>
 
 
 

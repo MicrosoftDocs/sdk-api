@@ -56,7 +56,7 @@ The
 
 ## -parameters
 
-### -param *pguidParent [in]
+### -param pguidParent [in]
 
 The parent under which the helper DLL should be registered.
 
@@ -72,7 +72,9 @@ Returns NO_ERROR upon success. Any other return value indicates an error.
 
 A typical implementation of the start function is as follows:
 
-<pre class="syntax" xml:space="preserve"><code>DWORD WINAPI SampleStartHelper(
+
+``` syntax
+DWORD WINAPI SampleStartHelper(
     CONST GUID *pguidParent,
     DWORD       dwVersion
 )
@@ -95,7 +97,9 @@ A typical implementation of the start function is as follows:
 
     dwErr = RegisterContext( &amp;attMyAttributes );
     return dwErr;
-}</code></pre>
+}
+```
+
 
 ## -see-also
 

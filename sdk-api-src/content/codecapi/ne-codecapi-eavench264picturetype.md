@@ -54,7 +54,7 @@ Specifies the type of picture that is output by a video encoder.
 
 ## -enum-fields
 
-### -field eAVEncH264PictureType_IDR
+### -field eAVEncH264PictureType_IDR:0
 
 Instantaneous decoding refresh (IDR) picture.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IDefaultFolderMenuInitialize.SetHandlerClsid
 title: IDefaultFolderMenuInitialize::SetHandlerClsid (shobjidl_core.h)
-description: .
+description: . (IDefaultFolderMenuInitialize.SetHandlerClsid)
 helpviewer_keywords: ["IDefaultFolderMenuInitialize interface [Windows Shell]","SetHandlerClsid method","IDefaultFolderMenuInitialize.SetHandlerClsid","IDefaultFolderMenuInitialize::SetHandlerClsid","SetHandlerClsid","SetHandlerClsid method [Windows Shell]","SetHandlerClsid method [Windows Shell]","IDefaultFolderMenuInitialize interface","shell.IDefaultFolderMenuInitialize_SetHandlerClsid","shobjidl_core/IDefaultFolderMenuInitialize::SetHandlerClsid"]
 old-location: shell\IDefaultFolderMenuInitialize_SetHandlerClsid.htm
 tech.root: shell
@@ -62,7 +62,7 @@ The CLSID for the object defines the shortcut menu handler.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.DragMove
 title: IImageList::DragMove (commoncontrols.h)
-description: Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a WM_MOUSEMOVE message.
+description: Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a WM_MOUSEMOVE message. (IImageList.DragMove)
 helpviewer_keywords: ["DragMove","DragMove method [Windows Controls]","DragMove method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","DragMove method","IImageList.DragMove","IImageList::DragMove","comctl_IImageList_DragMove","comctl_IImageList_DragMove_cpp","commoncontrols/IImageList::DragMove","controls.IImageList_DragMove","controls.comctl_IImageList_DragMove"]
 old-location: controls\IImageList_DragMove.htm
 tech.root: Controls
@@ -70,7 +70,7 @@ A value of type <b>int</b> that contains the y-coordinate where the drag image a
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

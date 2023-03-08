@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.FinishAllStoryboards
 title: IUIAnimationManager::FinishAllStoryboards (uianimation.h)
-description: Finishes all active storyboards within the specified time interval.
+description: Finishes all active storyboards within the specified time interval. (IUIAnimationManager.FinishAllStoryboards)
 helpviewer_keywords: ["FinishAllStoryboards","FinishAllStoryboards method [Windows Animation]","FinishAllStoryboards method [Windows Animation]","IUIAnimationManager interface","IUIAnimationManager interface [Windows Animation]","FinishAllStoryboards method","IUIAnimationManager.FinishAllStoryboards","IUIAnimationManager::FinishAllStoryboards","uianimation.iuianimationmanager_finishallstoryboards","uianimation/IUIAnimationManager::FinishAllStoryboards"]
 old-location: uianimation\iuianimationmanager_finishallstoryboards.htm
 tech.root: UIAnimation
@@ -66,8 +66,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 Calling <b>FinishAllStoryboards</b> ensures that all active storyboards finish within the specified completion deadline. If a storyboard is scheduled to play past the deadline, it is compressed.
          
-         A storyboard is considered active if its status is <b>UI_ANIMATION_STORYBOARD_PLAYING</b> 
-         or <b>UI_ANIMATION_STORYBOARD_SCHEDULED</b>.
+A storyboard is considered active if its status is <b>UI_ANIMATION_STORYBOARD_PLAYING</b> or <b>UI_ANIMATION_STORYBOARD_SCHEDULED</b>.
 
 ## -see-also
 

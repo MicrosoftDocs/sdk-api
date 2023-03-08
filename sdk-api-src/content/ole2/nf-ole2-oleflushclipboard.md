@@ -47,6 +47,7 @@ api_location:
  - API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
 api_name:
  - OleFlushClipboard
+req.apiset: ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.15063)
 ---
 
 # OleFlushClipboard function
@@ -56,7 +57,7 @@ api_name:
 
 Carries out the clipboard shutdown sequence. It also releases the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> pointer that was placed on the clipboard by the <a href="/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a> function.
 
-## -parameters
+
 
 ## -returns
 

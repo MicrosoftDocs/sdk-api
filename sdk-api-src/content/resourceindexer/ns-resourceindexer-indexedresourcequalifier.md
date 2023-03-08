@@ -1,5 +1,5 @@
 ---
-UID: NS:resourceindexer.__unnamed_struct_0
+UID: NS:resourceindexer.IndexedResourceQualifier
 title: IndexedResourceQualifier (resourceindexer.h)
 description: Represents the context under which a resource is appropriate.
 helpviewer_keywords: ["IndexedResourceQualifier","IndexedResourceQualifier structure [Menus and Other Resources]","menurc.indexedresourcequalifier","resourceindexer/IndexedResourceQualifier"]
@@ -80,3 +80,4 @@ The following values are examples of the qualifier values:
 
 
 <a href="/windows/desktop/api/resourceindexer/nf-resourceindexer-indexfilepath">IndexFilePath</a>
+

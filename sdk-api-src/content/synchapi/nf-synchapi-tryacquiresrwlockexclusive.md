@@ -4,7 +4,7 @@ title: TryAcquireSRWLockExclusive function (synchapi.h)
 description: Attempts to acquire a slim reader/writer (SRW) lock in exclusive mode. If the call is successful, the calling thread takes ownership of the lock.
 helpviewer_keywords: ["TryAcquireSRWLockExclusive","TryAcquireSRWLockExclusive function","base.tryacquiresrwlockexclusive","synchapi/TryAcquireSRWLockExclusive","winbase/TryAcquireSRWLockExclusive"]
 old-location: base\tryacquiresrwlockexclusive.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 0de41cb0-5b37-4ac7-9ba2-e9e3d69e34af
 ms.date: 12/05/2018
 ms.keywords: TryAcquireSRWLockExclusive, TryAcquireSRWLockExclusive function, base.tryacquiresrwlockexclusive, synchapi/TryAcquireSRWLockExclusive, winbase/TryAcquireSRWLockExclusive

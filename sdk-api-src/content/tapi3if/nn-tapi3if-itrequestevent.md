@@ -62,75 +62,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITRequestEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITRequestEvent</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITRequestEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_appname">get_AppName</a>
-</td>
-<td align="left" width="63%">
-Gets the name of the application.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_calledparty">get_CalledParty</a>
-</td>
-<td align="left" width="63%">
-Gets the called party.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_comment">get_Comment</a>
-</td>
-<td align="left" width="63%">
-Gets a comment associated with the request event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_destaddress">get_DestAddress</a>
-</td>
-<td align="left" width="63%">
-Gets the destination address.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_registrationinstance">get_RegistrationInstance</a>
-</td>
-<td align="left" width="63%">
-Gets the registration instance.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_requestmode">get_RequestMode</a>
-</td>
-<td align="left" width="63%">
-Gets the 
-<a href="/windows/desktop/Tapi/linerequestmode--constants">request mode</a> descriptor.
-
-</td>
-</tr>
-</table>
+The <b>ITRequestEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITRequestEvent</b> also has these types of members:
 
 ## -see-also
 

@@ -52,7 +52,7 @@ api_name:
 
 Get how the glyphs align to the edges the margin.
 
-## -parameters
+
 
 ## -see-also
 

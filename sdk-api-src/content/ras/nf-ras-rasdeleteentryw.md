@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasDeleteEntryW
 title: RasDeleteEntryW function (ras.h)
-description: The RasDeleteEntry function deletes an entry from a phone book.
-helpviewer_keywords: ["RasDeleteEntry","RasDeleteEntry function [RAS]","RasDeleteEntryA","RasDeleteEntryW","_ras_rasdeleteentry","ras/RasDeleteEntry","ras/RasDeleteEntryA","ras/RasDeleteEntryW","rras.rasdeleteentry"]
+description: The RasDeleteEntry function deletes an entry from a phone book. (Unicode)
+helpviewer_keywords: ["RasDeleteEntry", "RasDeleteEntry function [RAS]", "RasDeleteEntryW", "_ras_rasdeleteentry", "ras/RasDeleteEntry", "ras/RasDeleteEntryW", "rras.rasdeleteentry"]
 old-location: rras\rasdeleteentry.htm
 tech.root: RRAS
 ms.assetid: 80a6c2d3-917b-4d13-867f-a1399d434105
@@ -57,7 +57,7 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
  Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
 
@@ -66,7 +66,7 @@ The
 
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to a null-terminated string that specifies the name of an existing entry to be deleted.
 
@@ -145,7 +145,7 @@ DWORD __cdecl wmain(){
     dwRet |= StringCchCopyN(lpentry->szDeviceName, RAS_MaxDeviceName, lpszdevicename, DEVICE_NAME_LENGTH);
     dwRet |= StringCchCopyN(lpentry->szDeviceType, RAS_MaxDeviceType, lpszdevicetype, DEVICE_TYPE_LENGTH);
     if (dwRet != ERROR_SUCCESS){
-        wprintf(L"RASENTRY structure initilization failed");
+        wprintf(L"RASENTRY structure initialization failed");
         HeapFree(GetProcessHeap(), 0, lpentry);
         return 0;
     }

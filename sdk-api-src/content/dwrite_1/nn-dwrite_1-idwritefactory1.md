@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_1.IDWriteFactory1
 title: IDWriteFactory1 (dwrite_1.h)
-description: The root factory interface for all DirectWrite objects.
+description: The root factory interface for all DirectWrite objects. (IDWriteFactory1)
 helpviewer_keywords: ["IDWriteFactory1","IDWriteFactory1 interface [Direct Write]","IDWriteFactory1 interface [Direct Write]","described","directwrite.idwritefactory1","dwrite_1/IDWriteFactory1"]
 old-location: directwrite\idwritefactory1.htm
 tech.root: DirectWrite
@@ -54,38 +54,7 @@ The root factory interface for all <a href="/windows/win32/DirectWrite/direct-wr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>. <b>IDWriteFactory1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDWriteFactory1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefactory1-createcustomrenderingparams">CreateCustomRenderingParams</a>
-</td>
-<td align="left" width="63%">
-Creates a rendering parameters object with the specified properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefactory1-geteudcfontcollection">GetEudcFontCollection</a>
-</td>
-<td align="left" width="63%">
-Gets a font collection representing the set of EUDC (end-user defined characters) fonts.
-
-</td>
-</tr>
-</table>
+The <b>IDWriteFactory1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>. <b>IDWriteFactory1</b> also has these types of members:
 
 ## -see-also
 

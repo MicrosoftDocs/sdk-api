@@ -54,46 +54,5 @@ Exposes a method for the handling of a mouse click or shortcut menu access in a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUserNotificationCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUserNotificationCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IUserNotificationCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUserNotificationCallback</b> also has these types of members:
 
-## -members
-
-The <b>IUserNotificationCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iusernotificationcallback-onballoonuserclick">OnBalloonUserClick</a>
-</td>
-<td align="left" width="63%">
-Called when the user clicks the balloon. The application may respond with an action that is suitable for the balloon being clicked.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iusernotificationcallback-oncontextmenu">OnContextMenu</a>
-</td>
-<td align="left" width="63%">
-Called when the user right-clicks (or presses SHIFT+F10) the icon in the notification area. The application should show its context menu in response.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iusernotificationcallback-onleftclick">OnLeftClick</a>
-</td>
-<td align="left" width="63%">
-Called when the user clicks the icon in the notification area. The applications may launch some customary UI in response.
-
-</td>
-</tr>
-</table>

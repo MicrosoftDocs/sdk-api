@@ -152,7 +152,7 @@ One or more of the arguments are invalid. This error is returned for the followi
 </dl>
 </td>
 <td width="60%">
-The provider is missing required functionality. A non-IFS provider must implement all of the Winsock 2 extension functions (<a href="/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a>, <a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">ConnectEx</a>, <a href="/previous-versions/windows/desktop/legacy/ms737757(v=vs.85)">DisconnectEx</a>, <a href="/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a>, <a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_transmitpackets">TransmitPackets</a>, and <a href="/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>).
+The provider is missing required functionality. A non-IFS provider must implement all of the Winsock 2 extension functions (<a href="/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a>, <a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">ConnectEx</a>, <a href="/previous-versions/windows/desktop/legacy/ms737757(v=vs.85)">DisconnectEx</a>, <a href="/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a>, <a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_transmitpackets">TransmitPackets</a>, and <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg">LPFN_WSARECVMSG (WSARecvMsg)</a>).
 
 </td>
 </tr>

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.SetPropA
 title: SetPropA function (winuser.h)
-description: Adds a new entry or changes an existing entry in the property list of the specified window.
-helpviewer_keywords: ["SetProp","SetProp function [Windows and Messages]","SetPropA","SetPropW","_win32_SetProp","_win32_setprop_cpp","winmsg.setprop","winui._win32_setprop","winuser/SetProp","winuser/SetPropA","winuser/SetPropW"]
+description: Adds a new entry or changes an existing entry in the property list of the specified window. (ANSI)
+helpviewer_keywords: ["SetPropA", "winuser/SetPropA"]
 old-location: winmsg\setprop.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\setprop.htm
@@ -55,6 +55,7 @@ api_name:
  - SetProp
  - SetPropA
  - SetPropW
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetPropA function

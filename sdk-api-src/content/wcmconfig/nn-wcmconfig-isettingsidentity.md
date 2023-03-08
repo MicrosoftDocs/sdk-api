@@ -54,53 +54,5 @@ Identifies a namespace to open or use.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsIdentity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISettingsIdentity</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISettingsIdentity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISettingsIdentity</b> also has these types of members:
 
-## -members
-
-The <b>ISettingsIdentity</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsidentity-getattribute">GetAttribute</a>
-</td>
-<td align="left" width="63%">
-Gets the identity attribute for a setting.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsidentity-getflags">GetFlags</a>
-</td>
-<td align="left" width="63%">
-Gets the identity flags for a setting.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsidentity-setattribute">SetAttribute</a>
-</td>
-<td align="left" width="63%">
-Sets the identity attribute for a setting.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsidentity-setflags">SetFlags</a>
-</td>
-<td align="left" width="63%">
- Sets the identity flags for a setting.
-
-</td>
-</tr>
-</table>

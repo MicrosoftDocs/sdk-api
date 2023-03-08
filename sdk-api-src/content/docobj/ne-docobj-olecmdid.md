@@ -54,299 +54,299 @@ Specifies which standard command is to be executed. A single value from this enu
 
 ## -enum-fields
 
-### -field OLECMDID_OPEN
+### -field OLECMDID_OPEN:1
 
 <b>File</b> menu, <b>Open</b> command
 
-### -field OLECMDID_NEW
+### -field OLECMDID_NEW:2
 
 <b>File</b> menu, <b>New</b> command
 
-### -field OLECMDID_SAVE
+### -field OLECMDID_SAVE:3
 
 <b>File</b> menu, <b>Save</b> command
 
-### -field OLECMDID_SAVEAS
+### -field OLECMDID_SAVEAS:4
 
 <b>File</b> menu, <b>Save As</b> command
 
-### -field OLECMDID_SAVECOPYAS
+### -field OLECMDID_SAVECOPYAS:5
 
 <b>File</b> menu, <b>Save Copy As</b> command
 
-### -field OLECMDID_PRINT
+### -field OLECMDID_PRINT:6
 
 <b>File</b> menu, <b>Print</b> command
 
-### -field OLECMDID_PRINTPREVIEW
+### -field OLECMDID_PRINTPREVIEW:7
 
 <b>File</b> menu, <b>Print Preview</b> command
 
-### -field OLECMDID_PAGESETUP
+### -field OLECMDID_PAGESETUP:8
 
 <b>File</b> menu, <b>Page Setup</b> command
 
-### -field OLECMDID_SPELL
+### -field OLECMDID_SPELL:9
 
 <b>Tools</b> menu, <b>Spelling</b> command
 
-### -field OLECMDID_PROPERTIES
+### -field OLECMDID_PROPERTIES:10
 
 <b>File</b> menu, <b>Properties</b> command
 
-### -field OLECMDID_CUT
+### -field OLECMDID_CUT:11
 
 <b>Edit</b> menu, <b>Cut</b> command
 
-### -field OLECMDID_COPY
+### -field OLECMDID_COPY:12
 
 <b>Edit</b> menu, <b>Copy</b> command
 
-### -field OLECMDID_PASTE
+### -field OLECMDID_PASTE:13
 
 <b>Edit</b> menu, <b>Paste</b> command
 
-### -field OLECMDID_PASTESPECIAL
+### -field OLECMDID_PASTESPECIAL:14
 
 <b>Edit</b> menu, <b>Paste Special</b> command
 
-### -field OLECMDID_UNDO
+### -field OLECMDID_UNDO:15
 
 <b>Edit</b> menu, <b>Undo</b> command
 
-### -field OLECMDID_REDO
+### -field OLECMDID_REDO:16
 
 <b>Edit</b> menu, <b>Redo</b> command
 
-### -field OLECMDID_SELECTALL
+### -field OLECMDID_SELECTALL:17
 
 <b>Edit</b> menu, <b>Select All</b> command
 
-### -field OLECMDID_CLEARSELECTION
+### -field OLECMDID_CLEARSELECTION:18
 
 <b>Edit</b> menu, <b>Clear</b> command
 
-### -field OLECMDID_ZOOM
+### -field OLECMDID_ZOOM:19
 
 <b>View</b> menu, <b>Zoom</b> command (see below for details.)
 
-### -field OLECMDID_GETZOOMRANGE
+### -field OLECMDID_GETZOOMRANGE:20
 
 Retrieves zoom range applicable to <b>View Zoom</b> (see below for details.)
 
-### -field OLECMDID_UPDATECOMMANDS
+### -field OLECMDID_UPDATECOMMANDS:21
 
 Informs the receiver, usually a frame, of state changes. The receiver can then query the status of the commands whenever convenient.
 
-### -field OLECMDID_REFRESH
+### -field OLECMDID_REFRESH:22
 
 Asks the receiver to refresh its display. Implemented by the document/object.
 
-### -field OLECMDID_STOP
+### -field OLECMDID_STOP:23
 
 Stops all current processing. Implemented by the document/object.
 
-### -field OLECMDID_HIDETOOLBARS
+### -field OLECMDID_HIDETOOLBARS:24
 
 <b>View</b> menu, <b>Toolbars</b> command. Implemented by the document/object to hide its toolbars.
 
-### -field OLECMDID_SETPROGRESSMAX
+### -field OLECMDID_SETPROGRESSMAX:25
 
 Sets the maximum value of a progress indicator if one is owned by the receiving object, usually a frame. The minimum value is always zero.
 
-### -field OLECMDID_SETPROGRESSPOS
+### -field OLECMDID_SETPROGRESSPOS:26
 
 Sets the current value of a progress indicator if one is owned by the receiving object, usually a frame.
 
-### -field OLECMDID_SETPROGRESSTEXT
+### -field OLECMDID_SETPROGRESSTEXT:27
 
 Sets the text contained in a progress indicator if one is owned by the receiving object, usually a frame. If the receiver currently has no progress indicator, this text should be displayed in the status bar (if one exists) as with <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-setstatustext">IOleInPlaceFrame::SetStatusText</a>.
 
-### -field OLECMDID_SETTITLE
+### -field OLECMDID_SETTITLE:28
 
 Sets the title bar text of the receiving object, usually a frame.
 
-### -field OLECMDID_SETDOWNLOADSTATE
+### -field OLECMDID_SETDOWNLOADSTATE:29
 
 Called by the object when downloading state changes. Takes a VT_BOOL parameter, which is <b>TRUE</b> if the object is downloading data and <b>FALSE</b> if it not. Primarily implemented by the frame.
 
-### -field OLECMDID_STOPDOWNLOAD
+### -field OLECMDID_STOPDOWNLOAD:30
 
 Stops the download when executed. Typically, this command is propagated to all contained objects. When queried, sets MSOCMDF_ENABLED. Implemented by the document/object.
 
-### -field OLECMDID_ONTOOLBARACTIVATED
+### -field OLECMDID_ONTOOLBARACTIVATED:31
 
-### -field OLECMDID_FIND
+### -field OLECMDID_FIND:32
 
 <b>Edit</b> menu, <b>Find</b> command
 
-### -field OLECMDID_DELETE
+### -field OLECMDID_DELETE:33
 
 <b>Edit</b> menu, <b>Delete</b> command
 
-### -field OLECMDID_HTTPEQUIV
+### -field OLECMDID_HTTPEQUIV:34
 
 Issued in response to <b>HTTP-EQUIV</b> metatag and results in a call to the deprecated <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-onhttpequiv">OnHttpEquiv</a> method with the <i>fDone</i> parameter set to <b>false</b>. This command takes a <b>VT_BSTR</b> parameter which is passed to <b>OnHttpEquiv</b>.
 
-### -field OLECMDID_HTTPEQUIV_DONE
+### -field OLECMDID_HTTPEQUIV_DONE:35
 
 Issued in response to <b>HTTP-EQUIV</b> metatag and results in a call to the deprecated <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-onhttpequiv">OnHttpEquiv</a> method with the <i>fDone</i> parameter set to <b>true</b>. This command takes a <b>VT_BSTR</b> parameter which is passed to <b>OnHttpEquiv</b>.
 
-### -field OLECMDID_ENABLE_INTERACTION
+### -field OLECMDID_ENABLE_INTERACTION:36
 
 Pauses or resumes receiver interaction. This command takes a <b>VT_BOOL</b> parameter that pauses interaction when set to <b>FALSE</b> and resumes interaction when set to <b>TRUE</b>.
 
-### -field OLECMDID_ONUNLOAD
+### -field OLECMDID_ONUNLOAD:37
 
 Notifies the receiver of an intent to close the window imminently. This command takes a <b>VT_BOOL</b> output parameter that returns <b>TRUE</b> if the receiver can close and <b>FALSE</b> if it can't.
 
-### -field OLECMDID_PROPERTYBAG2
+### -field OLECMDID_PROPERTYBAG2:38
 
 This command has no effect.
 
-### -field OLECMDID_PREREFRESH
+### -field OLECMDID_PREREFRESH:39
 
 Notifies the receiver that a refresh is about to start.
 
-### -field OLECMDID_SHOWSCRIPTERROR
+### -field OLECMDID_SHOWSCRIPTERROR:40
 
 Tells the receiver to display the script error message.
 
-### -field OLECMDID_SHOWMESSAGE
+### -field OLECMDID_SHOWMESSAGE:41
 
 This command takes an <a href="/previous-versions/hh773930(v=vs.85)">IHTMLEventObj</a> input parameter that  contains a  message that the receiver shows.
 
-### -field OLECMDID_SHOWFIND
+### -field OLECMDID_SHOWFIND:42
 
 Tells the receiver to show the Find dialog box. It takes a <b>VT_DISPATCH</b> input param.
 
-### -field OLECMDID_SHOWPAGESETUP
+### -field OLECMDID_SHOWPAGESETUP:43
 
 Tells the receiver to show the Page Setup dialog box. It takes an <a href="/previous-versions/hh773930(v=vs.85)">IHTMLEventObj2</a>  input parameter.
 
-### -field OLECMDID_SHOWPRINT
+### -field OLECMDID_SHOWPRINT:44
 
 Tells the receiver to show the Print dialog box. It takes an <a href="/previous-versions/hh773930(v=vs.85)">IHTMLEventObj2</a>  input parameter.
 
-### -field OLECMDID_CLOSE
+### -field OLECMDID_CLOSE:45
 
 The exit command for the File menu.
 
-### -field OLECMDID_ALLOWUILESSSAVEAS
+### -field OLECMDID_ALLOWUILESSSAVEAS:46
 
 Supports the <a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">QueryStatus</a> method.
 
-### -field OLECMDID_DONTDOWNLOADCSS
+### -field OLECMDID_DONTDOWNLOADCSS:47
 
 Notifies the  receiver that CSS files should not be downloaded when in <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">DesignMode</a>.
 
-### -field OLECMDID_UPDATEPAGESTATUS
+### -field OLECMDID_UPDATEPAGESTATUS:48
 
 This command has no effect.
 
-### -field OLECMDID_PRINT2
+### -field OLECMDID_PRINT2:49
 
 <b>File</b> menu, updated <b>Print</b> command
 
-### -field OLECMDID_PRINTPREVIEW2
+### -field OLECMDID_PRINTPREVIEW2:50
 
 <b>File</b> menu, updated <b>Print Preview</b> command
 
-### -field OLECMDID_SETPRINTTEMPLATE
+### -field OLECMDID_SETPRINTTEMPLATE:51
 
 Sets an explicit Print Template value of <b>TRUE</b> or <b>FALSE</b>, based on a <b>VT_BOOL</b> input parameter.
 
-### -field OLECMDID_GETPRINTTEMPLATE
+### -field OLECMDID_GETPRINTTEMPLATE:52
 
 Gets a  <b>VT_BOOL</b> output parameter indicating whether the Print Template value is <b>TRUE</b> or <b>FALSE</b>.
 
-### -field OLECMDID_PAGEACTIONBLOCKED
+### -field OLECMDID_PAGEACTIONBLOCKED:55
 
 Indicates that a page action has been blocked. PAGEACTIONBLOCKED is designed for use with applications that host the Internet Explorer WebBrowser control to implement their own UI.
 
-### -field OLECMDID_PAGEACTIONUIQUERY
+### -field OLECMDID_PAGEACTIONUIQUERY:56
 
 Specifies which actions are displayed in the Internet Explorer notification band.
 
-### -field OLECMDID_FOCUSVIEWCONTROLS
+### -field OLECMDID_FOCUSVIEWCONTROLS:57
 
 Causes the Internet Explorer WebBrowser control to focus its default notification band. Hosts can send this command at any time. The return value is S_OK if the band is present and is in focus, or S_FALSE otherwise.
 
-### -field OLECMDID_FOCUSVIEWCONTROLSQUERY
+### -field OLECMDID_FOCUSVIEWCONTROLSQUERY:58
 
 This notification event is provided for applications that display Internet Explorers default notification band implementation. By default, when the user presses the ALT-N key combination, Internet Explorer treats it as a request to focus the notification band.
 
-### -field OLECMDID_SHOWPAGEACTIONMENU
+### -field OLECMDID_SHOWPAGEACTIONMENU:59
 
 Causes the Internet Explorer WebBrowser control to show the Information Bar menu.
 
-### -field OLECMDID_ADDTRAVELENTRY
+### -field OLECMDID_ADDTRAVELENTRY:60
 
 Causes the Internet Explorer WebBrowser control to create an entry at the current Travel Log offset. The Docobject should implement <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768478(v=vs.85)">ITravelLogClient</a> and <a href="/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a> interfaces, which are used by the Travel Log as it processes this command with calls to GetWindowData and GetPersistID, respectively.
 
-### -field OLECMDID_UPDATETRAVELENTRY
+### -field OLECMDID_UPDATETRAVELENTRY:61
 
 Called when LoadHistory is processed to update the previous Docobject state. For synchronous handling, this command can be called before returning from the LoadHistory call. For asynchronous handling, it can be called later.
 
-### -field OLECMDID_UPDATEBACKFORWARDSTATE
+### -field OLECMDID_UPDATEBACKFORWARDSTATE:62
 
 Updates the state of the browser's Back and Forward buttons.
 
-### -field OLECMDID_OPTICAL_ZOOM
+### -field OLECMDID_OPTICAL_ZOOM:63
 
 Windows Internet Explorer 7 and later. Sets the zoom factor of the browser. Takes a VT_I4 parameter in the range of 10 to 1000 (percent).
 
-### -field OLECMDID_OPTICAL_GETZOOMRANGE
+### -field OLECMDID_OPTICAL_GETZOOMRANGE:64
 
 Windows Internet Explorer 7 and later. Retrieves the minimum and maximum browser zoom factor limits. Returns a VT_I4 parameter; the LOWORD is the minimum zoom factor, the HIWORD is the maximum.
 
-### -field OLECMDID_WINDOWSTATECHANGED
+### -field OLECMDID_WINDOWSTATECHANGED:65
 
 Windows Internet Explorer 7 and later. Notifies the Internet Explorer WebBrowser control of changes in window states, such as losing focus, or becoming hidden or minimized. The host indicates what has changed by setting OLECMDID_WINDOWSTATE_FLAG option flags in nCmdExecOpt.
 
-### -field OLECMDID_ACTIVEXINSTALLSCOPE
+### -field OLECMDID_ACTIVEXINSTALLSCOPE:66
 
 Windows Internet Explorer 8 with Windows Vista. Has no effect with Windows Internet Explorer 8 with Windows XP. Notifies Trident to use the indicated Install Scope to install the ActiveX Control specified by the indicated Class ID. For more information, see the Remarks section.
 
-### -field OLECMDID_UPDATETRAVELENTRY_DATARECOVERY
+### -field OLECMDID_UPDATETRAVELENTRY_DATARECOVERY:67
 
 Internet Explorer 8. Unlike OLECMDID_UPDATETRAVELENTRY, this updates a Travel Log entry that is not initialized from a previous Docobject state. While this command is not called from <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768216(v=vs.85)">IPersistHistory::LoadHistory</a>, it can be called separately to save browser state that can be used later to recover from a crash.
 
-### -field OLECMDID_SHOWTASKDLG
+### -field OLECMDID_SHOWTASKDLG:68
 
-### -field OLECMDID_POPSTATEEVENT
+### -field OLECMDID_POPSTATEEVENT:69
 
-### -field OLECMDID_VIEWPORT_MODE
+### -field OLECMDID_VIEWPORT_MODE:70
 
-### -field OLECMDID_LAYOUT_VIEWPORT_WIDTH
+### -field OLECMDID_LAYOUT_VIEWPORT_WIDTH:71
 
-### -field OLECMDID_VISUAL_VIEWPORT_EXCLUDE_BOTTOM
+### -field OLECMDID_VISUAL_VIEWPORT_EXCLUDE_BOTTOM:72
 
-### -field OLECMDID_USER_OPTICAL_ZOOM
+### -field OLECMDID_USER_OPTICAL_ZOOM:73
 
-### -field OLECMDID_PAGEAVAILABLE
+### -field OLECMDID_PAGEAVAILABLE:74
 
-### -field OLECMDID_GETUSERSCALABLE
+### -field OLECMDID_GETUSERSCALABLE:75
 
-### -field OLECMDID_UPDATE_CARET
+### -field OLECMDID_UPDATE_CARET:76
 
-### -field OLECMDID_ENABLE_VISIBILITY
+### -field OLECMDID_ENABLE_VISIBILITY:77
 
-### -field OLECMDID_MEDIA_PLAYBACK
+### -field OLECMDID_MEDIA_PLAYBACK:78
 
-### -field OLECMDID_SETFAVICON
+### -field OLECMDID_SETFAVICON:79
 
-### -field OLECMDID_SET_HOST_FULLSCREENMODE
+### -field OLECMDID_SET_HOST_FULLSCREENMODE:80
 
-### -field OLECMDID_EXITFULLSCREEN
+### -field OLECMDID_EXITFULLSCREEN:81
 
-### -field OLECMDID_SCROLLCOMPLETE
+### -field OLECMDID_SCROLLCOMPLETE:82
 
-### -field OLECMDID_ONBEFOREUNLOAD
+### -field OLECMDID_ONBEFOREUNLOAD:83
 
-### -field OLECMDID_SHOWMESSAGE_BLOCKABLE
+### -field OLECMDID_SHOWMESSAGE_BLOCKABLE:84
 
-### -field OLECMDID_SHOWTASKDLG_BLOCKABLE
+### -field OLECMDID_SHOWTASKDLG_BLOCKABLE:85
 
 ## -remarks
 

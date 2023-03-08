@@ -54,47 +54,7 @@ Exposes methods that perform accessibility actions on a Shell item from a namesp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INameSpaceTreeAccessible</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INameSpaceTreeAccessible</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>INameSpaceTreeAccessible</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreeaccessible-ondodefaultaccessibilityaction">OnDoDefaultAccessibilityAction</a>
-</td>
-<td align="left" width="63%">
-Invokes the default accessibility action on a Shell item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreeaccessible-ongetaccessibilityrole">OnGetAccessibilityRole</a>
-</td>
-<td align="left" width="63%">
-Gets the accessibility role for a Shell item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreeaccessible-ongetdefaultaccessibilityaction">OnGetDefaultAccessibilityAction</a>
-</td>
-<td align="left" width="63%">
-Gets the default accessibility action for a Shell item.
-
-</td>
-</tr>
-</table>
+The <b>INameSpaceTreeAccessible</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INameSpaceTreeAccessible</b> also has these types of members:
 
 ## -remarks
 

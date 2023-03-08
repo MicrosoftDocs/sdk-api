@@ -54,29 +54,7 @@ Communicates the state of the visual tree.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVisualTreeServiceCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVisualTreeServiceCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVisualTreeServiceCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservicecallback-onvisualtreechange">OnVisualTreeChange</a>
-</td>
-<td align="left" width="63%">
-Communicates the state of the visual tree when it changes.
-
-</td>
-</tr>
-</table>
+The <b>IVisualTreeServiceCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVisualTreeServiceCallback</b> also has these types of members:
 
 ## -see-also
 

@@ -53,7 +53,7 @@ api_name:
 
 The <code>ActivateButton</code> method activates the currently selected menu button.
 
-## -parameters
+
 
 ## -returns
 

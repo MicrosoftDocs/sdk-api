@@ -60,7 +60,7 @@ The client's session handle, obtained by a previous call to the <a href="/window
 
 ### -param OpCode [in]
 
-A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a> value that specifies the parameter to be set. Only some of the opcodes in the <b>WLAN_AUTOCONF_OPCODE</b> enumeration support set operations.
+A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode-r1">WLAN_AUTOCONF_OPCODE</a> value that specifies the parameter to be set. Only some of the opcodes in the <b>WLAN_AUTOCONF_OPCODE</b> enumeration support set operations.
 
 <table>
 <tr>
@@ -157,7 +157,7 @@ This error is also returned if the configuration parameter is set by group polic
 </dl>
 </td>
 <td width="60%">
-A parameter was bad. This error is returned if the <i>hClientHandle</i> parameter is <b>NULL</b>, the <i>pData</i> parameter is <b>NULL</b>, or the <i>pReserved</i> parameter is not <b>NULL</b>. This error is also returned if <i>OpCode</i> parameter specified is not one of the <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a> values for a configuration parameter that can be set. This error is also returned if the <i>dwDataSize</i> parameter is not set to <code>sizeof(BOOL)</code>, or the <i>dwDataSize</i> is not set to <code>sizeof(BOOL)</code> depending on the value of the <i>OpCode</i> parameter.
+A parameter was bad. This error is returned if the <i>hClientHandle</i> parameter is <b>NULL</b>, the <i>pData</i> parameter is <b>NULL</b>, or the <i>pReserved</i> parameter is not <b>NULL</b>. This error is also returned if <i>OpCode</i> parameter specified is not one of the <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode-r1">WLAN_AUTOCONF_OPCODE</a> values for a configuration parameter that can be set. This error is also returned if the <i>dwDataSize</i> parameter is not set to <code>sizeof(BOOL)</code>, or the <i>dwDataSize</i> is not set to <code>sizeof(BOOL)</code> depending on the value of the <i>OpCode</i> parameter.
 
 </td>
 </tr>
@@ -204,7 +204,7 @@ Depending on the value of the <i>OpCode</i> parameter, the data pointed to by <i
 
 ## -see-also
 
-<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode-r1">WLAN_AUTOCONF_OPCODE</a>
 
 
 

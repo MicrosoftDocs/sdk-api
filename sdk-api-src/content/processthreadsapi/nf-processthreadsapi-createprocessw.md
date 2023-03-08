@@ -1,15 +1,15 @@
 ---
 UID: NF:processthreadsapi.CreateProcessW
 title: CreateProcessW function (processthreadsapi.h)
-description: Creates a new process and its primary thread. The new process runs in the security context of the calling process.
-helpviewer_keywords: ["CreateProcess","CreateProcess function","CreateProcessA","CreateProcessW","_win32_createprocess","base.createprocess","processthreadsapi/CreateProcess","processthreadsapi/CreateProcessA","processthreadsapi/CreateProcessW","winbase/CreateProcess","winbase/CreateProcessA","winbase/CreateProcessW"]
+description: Creates a new process and its primary thread. The new process runs in the security context of the calling process. (Unicode)
+helpviewer_keywords: ["CreateProcess", "CreateProcess function", "CreateProcessW", "_win32_createprocess", "base.createprocess", "processthreadsapi/CreateProcess", "processthreadsapi/CreateProcessW"]
 old-location: base\createprocess.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 3ef0a5b2-4d71-4c17-8188-76a4025287fc
 ms.date: 12/05/2018
 ms.keywords: CreateProcess, CreateProcess function, CreateProcessA, CreateProcessW, _win32_createprocess, base.createprocess, processthreadsapi/CreateProcess, processthreadsapi/CreateProcessA, processthreadsapi/CreateProcessW, winbase/CreateProcess, winbase/CreateProcessA, winbase/CreateProcessW
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -78,10 +78,11 @@ The string can specify the full path and file name of the module to execute or i
 
 The <i>lpApplicationName</i> parameter can be <b>NULL</b>. In that case, the module name must be the first white space–delimited token in the <i>lpCommandLine</i> string. If you are using a long file name that contains a space, use quoted strings to indicate where the file name ends and the arguments begin; otherwise, the file name is ambiguous. For example, consider the string "c:\program files\sub dir\program name". This string can be interpreted in a number of ways. The system tries to interpret the possibilities in the following order:
 
-<b>c:\program.exe</b>
-<b>c:\program files\sub.exe</b>
-<b>c:\program files\sub dir\program.exe</b>
-<b>c:\program files\sub dir\program name.exe</b>
+1. **c:\program.exe**
+1. **c:\program files\sub.exe**
+1. **c:\program files\sub dir\program.exe**
+1. **c:\program files\sub dir\program name.exe**
+
 If the executable module is a 16-bit application, <i>lpApplicationName</i> should be <b>NULL</b>, and the string pointed to by <i>lpCommandLine</i> should specify the executable module as well as its arguments.
 
 To run a batch file, you must start the command interpreter; set <i>lpApplicationName</i> to cmd.exe and set <i>lpCommandLine</i> to the following arguments: /c plus the name of the batch file.
@@ -153,6 +154,13 @@ The flags that control the priority class and the creation of the process. For a
 This parameter also controls the new process's priority class, which is used to determine the scheduling priorities of the process's threads. For a list of values, see 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getpriorityclass">GetPriorityClass</a>. If none of the priority class flags is specified, the priority class defaults to <b>NORMAL_PRIORITY_CLASS</b> unless the priority class of the creating process is <b>IDLE_PRIORITY_CLASS</b> or <b>BELOW_NORMAL_PRIORITY_CLASS</b>. In this case, the child process receives the default priority class of the calling process.
 
+
+If the dwCreationFlags parameter has a value of 0:
+
+- The process inherits both the error mode of the caller and the parent's console. 
+- The environment block for the new process is assumed to contain ANSI characters (see *lpEnvironment* parameter for additional information).
+- A 16-bit Windows-based application runs in a shared Virtual DOS machine (VDM).
+
 ### -param lpEnvironment [in, optional]
 
 A pointer to the environment block for the new process. If this parameter is <b>NULL</b>, the new process uses the environment of the calling process.
@@ -163,7 +171,7 @@ An environment block consists of a null-terminated block of null-terminated stri
 
 Because the equal sign is used as a separator, it must not be used in the name of an environment variable.
 
-An environment block can contain either Unicode or ANSI characters. If the environment block pointed to by <i>lpEnvironment</i> contains Unicode characters, be sure that <i>dwCreationFlags</i> includes <b>CREATE_UNICODE_ENVIRONMENT</b>. If this parameter is <b>NULL</b> and the environment block of the parent process contains Unicode characters, you must also ensure that <i>dwCreationFlags</i> includes <b>CREATE_UNICODE_ENVIRONMENT</b>.
+An environment block can contain either Unicode or ANSI characters. If the environment block pointed to by <i>lpEnvironment</i> contains Unicode characters, be sure that <i>dwCreationFlags</i> includes <b>CREATE_UNICODE_ENVIRONMENT</b>.
 
 The ANSI version of this function, <b>CreateProcessA</b> fails if the total size of the environment block for the process exceeds 32,767 characters.
 
@@ -186,7 +194,7 @@ Handles in
 <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> or <a href="/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a> must be closed with 
 <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when they are no longer needed.
 
-<div class="alert"><b>Important</b>  The caller is responsible for ensuring that the standard handle fields in <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a>  contain valid handle values. These fields are copied unchanged to the child process without validation, even when the <b>dwFlags</b> member specifies <b>STARTF_USESTDHANDLES</b>. Incorrect values can cause the child process to misbehave or crash. Use the <a href="https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=20028">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
+<div class="alert"><b>Important</b>  The caller is responsible for ensuring that the standard handle fields in <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a>  contain valid handle values. These fields are copied unchanged to the child process without validation, even when the <b>dwFlags</b> member specifies <b>STARTF_USESTDHANDLES</b>. Incorrect values can cause the child process to misbehave or crash. Use the <a href="/windows-hardware/drivers/devtest/application-verifier">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
 <div> </div>
 
 ### -param lpProcessInformation [out]
@@ -252,15 +260,23 @@ to provide a list of handles to be inherited by a particular process.
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
 The first parameter, <i>lpApplicationName</i>, can be <b>NULL</b>, in which case the executable name must be in the  white space–delimited string pointed to by <i>lpCommandLine</i>. If the executable or path name has a space in it, there is a risk that a different executable could be run because of the way the function parses spaces. The following example is dangerous because the function will attempt to run "Program.exe", if it exists, instead of "MyApp.exe".
 
-<pre class="syntax" xml:space="preserve"><code>	LPTSTR szCmdline = _tcsdup(TEXT("C:\\Program Files\\MyApp -L -S"));
-	CreateProcess(NULL, szCmdline, /* ... */);</code></pre>
+
+``` syntax
+	LPTSTR szCmdline = _tcsdup(TEXT("C:\\Program Files\\MyApp -L -S"));
+	CreateProcess(NULL, szCmdline, /* ... */);
+```
+
 If a malicious user were to create an application called "Program.exe" on a system, any program that incorrectly calls 
 <b>CreateProcess</b> using the Program Files directory will run this application instead of the intended application.
 
 To avoid this problem, do not pass <b>NULL</b> for <i>lpApplicationName</i>. If you do pass <b>NULL</b> for <i>lpApplicationName</i>, use quotation marks around the executable path in <i>lpCommandLine</i>, as shown in the example below.
 
-<pre class="syntax" xml:space="preserve"><code>	LPTSTR szCmdline[] = _tcsdup(TEXT("\"C:\\Program Files\\MyApp\" -L -S"));
-	CreateProcess(NULL, szCmdline, /*...*/);</code></pre>
+
+``` syntax
+	LPTSTR szCmdline[] = _tcsdup(TEXT("\"C:\\Program Files\\MyApp\" -L -S"));
+	CreateProcess(NULL, szCmdline, /*...*/);
+```
+
 
 #### Examples
 
@@ -278,6 +294,10 @@ For an example, see
 ## -see-also
 
 <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+
+
+
+<a href="/windows/win32/api/shellapi/nf-shellapi-shellexecutew">ShellExecuteW</a>
 
 
 

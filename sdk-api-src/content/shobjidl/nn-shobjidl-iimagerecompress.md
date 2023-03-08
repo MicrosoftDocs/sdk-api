@@ -54,33 +54,7 @@ Exposes a method that recompress images.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImageRecompress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IImageRecompress</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IImageRecompress</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iimagerecompress-recompressimage">RecompressImage</a>
-</td>
-<td align="left" width="63%">
-Recompresses an image. Implemented in an
-		<a href="/windows/desktop/shell/known-folders">ImageRecompress</a> object, this method
-		accepts x and y dimensions with a designation of quality. The method
-		creates a stream containing the new image that has been recompressed
-		to the	specified size.
-
-</td>
-</tr>
-</table>
+The <b>IImageRecompress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IImageRecompress</b> also has these types of members:
 
 ## -remarks
 

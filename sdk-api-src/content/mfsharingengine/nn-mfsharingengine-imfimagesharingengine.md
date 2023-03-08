@@ -54,47 +54,7 @@ Enables image sharing.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFImageSharingEngine</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFImageSharingEngine</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFImageSharingEngine</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfimagesharingengine-getdevice">GetDevice</a>
-</td>
-<td align="left" width="63%">
-Gets information about the image sharing device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfimagesharingengine-setsource">SetSource</a>
-</td>
-<td align="left" width="63%">
-Sets the source stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfimagesharingengine-shutdown">Shutdown</a>
-</td>
-<td align="left" width="63%">
-Shuts down the image sharing engine.
-
-</td>
-</tr>
-</table>
+The <b>IMFImageSharingEngine</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFImageSharingEngine</b> also has these types of members:
 
 ## -see-also
 

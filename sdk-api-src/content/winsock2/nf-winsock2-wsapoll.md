@@ -69,7 +69,7 @@ A value that specifies the wait behavior, based on the following values.
 
 <table>
 <tr>
-<th>Return value</th>
+<th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
@@ -91,7 +91,7 @@ A value that specifies the wait behavior, based on the following values.
 Returns one of the following values.
 			<table>
 <tr>
-<th>Value</th>
+<th>Return value</th>
 <th>Description</th>
 </tr>
 <tr>
@@ -145,7 +145,7 @@ An exception occurred while reading user input parameters.
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed. This error is returned if the [WSAPOLLFD](./ns-winsock2-wsapollfd.md) structures  pointed to by the <i>fdarray</i> parameter when requesting socket
+An invalid parameter was passed. This error is returned if the <a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structures  pointed to by the <i>fdarray</i> parameter when requesting socket
                        status. This error is also returned if none of the sockets specified in the <b>fd</b> member of any of the <b>WSAPOLLFD</b> structures  pointed to by the <i>fdarray</i> parameter were valid. 
 
 </td>
@@ -263,6 +263,10 @@ The timeout argument specifies how long the function is to wait before returning
 
 <div class="alert"><b>Note</b>  When issuing a blocking Winsock call such as <b>WSAPoll</b> with the <i>timeout</i> parameter set to a negative number, Winsock may need to wait for a network event before the call can complete. Winsock performs an alertable wait in this situation, which can be interrupted by an asynchronous procedure call (APC) scheduled on the same thread. Issuing another blocking Winsock call inside an APC that interrupted an ongoing blocking Winsock call on the same thread will lead to undefined behavior, and must never be attempted by Winsock clients. </div>
 <div> </div>
+
+<div class="alert"><b>Note</b>  As of Windows 10 version 2004, when a TCP socket fails to connect, (POLLHUP \| POLLERR \| POLLWRNORM) is indicated. </div>
+<div> </div>
+
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This   function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
 ## -see-also

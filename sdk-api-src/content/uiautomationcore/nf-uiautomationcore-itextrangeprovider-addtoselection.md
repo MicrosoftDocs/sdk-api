@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.AddToSelection
 title: ITextRangeProvider::AddToSelection (uiautomationcore.h)
-description: Adds the text range to the collection of selected text ranges in a control that supports multiple, disjoint spans of selected text.
+description: Adds the text range to the collection of selected text ranges in a control that supports multiple, disjoint spans of selected text. (ITextRangeProvider.AddToSelection)
 helpviewer_keywords: ["AddToSelection","AddToSelection method [Windows Accessibility]","AddToSelection method [Windows Accessibility]","ITextRangeProvider interface","ITextRangeProvider interface [Windows Accessibility]","AddToSelection method","ITextRangeProvider.AddToSelection","ITextRangeProvider::AddToSelection","uiauto.uiauto_ITextRangeProvider_AddToSelection","uiauto_ITextRangeProvider_AddToSelection","uiautomationcore/ITextRangeProvider::AddToSelection","winauto.uiauto_ITextRangeProvider_AddToSelection"]
 old-location: winauto\uiauto_ITextRangeProvider_AddToSelection.htm
 tech.root: WinAuto
@@ -52,13 +52,13 @@ api_name:
 
 Adds the text range to the collection of selected text ranges in a control that supports multiple, disjoint spans of selected text.
 
-## -parameters
+
 
 ## -returns
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

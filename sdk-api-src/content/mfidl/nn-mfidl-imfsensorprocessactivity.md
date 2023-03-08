@@ -57,53 +57,5 @@ Represents the activity of a process associated with a sensor.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorProcessActivity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorProcessActivity</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFSensorProcessActivity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorProcessActivity</b> also has these types of members:
 
-## -members
-
-The <b>IMFSensorProcessActivity</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorprocessactivity-getprocessid">GetProcessId</a>
-</td>
-<td align="left" width="63%">
-Gets the ID of the process with which the activity is associated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorprocessactivity-getreporttime">GetReportTime</a>
-</td>
-<td align="left" width="63%">
-Gets the time associated with the sensor activity report.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorprocessactivity-getstreamingmode">GetStreamingMode</a>
-</td>
-<td align="left" width="63%">
-Gets the streaming mode of the sensor process.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorprocessactivity-getstreamingstate">GetStreamingState</a>
-</td>
-<td align="left" width="63%">
-Gets a value indicating whether the sensor is currently streaming.
-
-</td>
-</tr>
-</table>

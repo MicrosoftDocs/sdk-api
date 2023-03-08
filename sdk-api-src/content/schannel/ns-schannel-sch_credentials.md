@@ -1,10 +1,9 @@
 ---
 UID: NS:schannel._SCH_CREDENTIALS
 title: SCH_CREDENTIALS
-ms.date: 11/4/2019
-ms.topic: language-reference
+ms.date: 7/25/2022
 targetos: Windows
-description: Contains the data for an Schannel credential.
+description: Contains the data for an Schannel credential. (SCH_CREDENTIALS)
 tech.root: security
 req.construct-type: structure
 req.ddi-compliance: 
@@ -149,8 +148,8 @@ Instruct Schannel to pass the CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL flag to the <a
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="SCH_DISABLE_RECONNECTS"></a><a id="sch_disable_reconnects"></a><dl>
-<dt><b>SCH_DISABLE_RECONNECTS</b></dt>
+<td width="40%"><a id="SCH_CRED_DISABLE_RECONNECTS"></a><a id="sch_cred_disable_reconnects"></a><dl>
+<dt><b>SCH_CRED_DISABLE_RECONNECTS</b></dt>
 <dt>0x00000080</dt>
 </dl>
 </td>
@@ -288,7 +287,7 @@ Schannel attempts to automatically supply a certificate chain for client authent
 </dl>
 </td>
 <td width="60%">
-Instruct Schannel to split data to be encrypted into two separate records to counter weakness present in the SSL/TLS procotol when used with symmetric cipher suite using cipher block chaining mode. For more information, see "Vulnerability in SSL/TLS Could Allow Information Disclosure" in the Help and Support Knowledge Base at <a href="https://support.microsoft.com/help/2643584">http://support.microsoft.com/kb/2643584</a>.
+Instruct Schannel to split data to be encrypted into two separate records to counter weakness present in the SSL/TLS protocol when used with symmetric cipher suite using cipher block chaining mode. For more information, see "Vulnerability in SSL/TLS Could Allow Information Disclosure" in the Help and Support Knowledge Base at <a href="https://support.microsoft.com/help/2643584">http://support.microsoft.com/kb/2643584</a>.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003, Windows XP and Windows XP/2000:  </b>This flag is not supported.
 
@@ -339,9 +338,9 @@ It is an error to specify more than SCH_CRED_MAX_SUPPORTED_PARAMETERS.
 
 ### -field pTlsParameters
 
-Array of pointers to the TLS_PARAMETERS structures that indicate TLS parameter restrictions, if any. If no restrictions are specified, the system defaults are used. It is recommended that applications rely on the system defaults.
+Array of pointers to the [TLS_PARAMETERS](/windows/win32/api/schannel/ns-schannel-tls_parameters) structures that indicate TLS parameter restrictions, if any. If no restrictions are specified, the system defaults are used. It is recommended that applications rely on the system defaults.
 
-It is an error to include more than one TLS_PARAMETERS structure with cAlpnIds == 0 and rgstrAlpnIds == NULL.
+It is an error to include more than one [TLS_PARAMETERS](/windows/win32/api/schannel/ns-schannel-tls_parameters) structure with cAlpnIds == 0 and rgstrAlpnIds == NULL.
 
 ## -remarks
 

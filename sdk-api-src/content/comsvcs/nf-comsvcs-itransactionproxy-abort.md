@@ -52,7 +52,7 @@ api_name:
 
 Aborts the transaction.
 
-## -parameters
+
 
 ## -returns
 

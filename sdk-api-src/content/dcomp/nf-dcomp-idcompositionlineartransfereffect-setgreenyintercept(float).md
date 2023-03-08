@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetGreenYIntercept(float)
 title: IDCompositionLinearTransferEffect::SetGreenYIntercept (dcomp.h)
-description: Sets the Y-intercept of the linear function for the green channel.
+description: The IDCompositionLinearTransferEffect::SetGreenYIntercept method sets the Y-intercept of the linear function for the green channel.
 helpviewer_keywords: ["IDCompositionLinearTransferEffect interface [DirectComposition]","SetGreenYIntercept method","IDCompositionLinearTransferEffect.SetGreenYIntercept","IDCompositionLinearTransferEffect::SetGreenYIntercept","IDCompositionLinearTransferEffect::SetGreenYIntercept(float)","SetGreenYIntercept","SetGreenYIntercept method [DirectComposition]","SetGreenYIntercept method [DirectComposition]","IDCompositionLinearTransferEffect interface","dcomp/IDCompositionLinearTransferEffect::SetGreenYIntercept","directcomp.idcompositionlineartransfereffect_setgreenyintercept"]
 old-location: directcomp\idcompositionlineartransfereffect_setgreenyintercept.htm
 tech.root: directcomp
 ms.assetid: E6929FA8-39E2-447A-939E-7BAC7BD1FF70
-ms.date: 12/05/2018
+ms.date: 06/23/2022
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetGreenYIntercept method, IDCompositionLinearTransferEffect.SetGreenYIntercept, IDCompositionLinearTransferEffect::SetGreenYIntercept, IDCompositionLinearTransferEffect::SetGreenYIntercept(float), SetGreenYIntercept, SetGreenYIntercept method [DirectComposition], SetGreenYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetGreenYIntercept, directcomp.idcompositionlineartransfereffect_setgreenyintercept
 req.header: dcomp.h
 req.include-header: 
@@ -64,7 +64,7 @@ The Y-intercept of the linear function for the green channel.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

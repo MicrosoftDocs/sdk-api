@@ -54,30 +54,7 @@ Configures the synchronization for the work that is done when calling either <a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceSynchronizationConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceSynchronizationConfig</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IServiceSynchronizationConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicesynchronizationconfig-configuresynchronization">ConfigureSynchronization</a>
-</td>
-<td align="left" width="63%">
-Configures the synchronization for the enclosed work.
-
-
-</td>
-</tr>
-</table>
+The <b>IServiceSynchronizationConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceSynchronizationConfig</b> also has these types of members:
 
 ## -see-also
 

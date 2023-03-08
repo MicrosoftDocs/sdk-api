@@ -60,4 +60,4 @@ Handle of the MCIWnd window.
 
 ### -param szFile
 
-Null-terminated string containing the name and path of the destination file. Specify â€“1 for this parameter to display the Save dialog box.
+Null-terminated string containing the name and path of the destination file. Specify −1 for this parameter to display the Save dialog box.

@@ -71,7 +71,7 @@ A <b>WINBIO_BIR_PURPOSE</b> bitmask that specifies the intended use of the sampl
 
 Some sensors have the ability to capture biometric information at multiple resolutions. If the <i>Purpose</i> parameter specifies more than one flag, your adapter should use the flag that represents the highest resolution to determine the resolution of the capture operation.
 
-### -param *Overlapped [out]
+### -param Overlapped [out]
 
 Address of a variable that receives a pointer to an <b>OVERLAPPED</b> structure that tracks the state of the asynchronous capture operation. This structure is created and managed by the sensor adapter but is used by the Windows Biometric Framework for synchronization. For more information, see the Remarks section.
 

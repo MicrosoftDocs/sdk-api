@@ -155,13 +155,14 @@ The method returns before the request completes. Call the <a href="/windows/desk
 
 The following example shows a possible helper function for an input pin, to queue requests:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
 <tr>
 <td>
-<pre>
+
+```
 CMyPin::QueueSample(long cbFirst, long cbLast, DWORD_PTR dwuser)
 {
     IMediaSample* pSample = NULL;
@@ -184,7 +185,7 @@ CMyPin::QueueSample(long cbFirst, long cbLast, DWORD_PTR dwuser)
     }
     return hr;
 }
-</pre>
+```
 </td>
 </tr>
 </table></span></div>

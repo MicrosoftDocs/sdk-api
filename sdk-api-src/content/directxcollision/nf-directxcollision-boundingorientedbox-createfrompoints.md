@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> from a collection of points.
+Creates a <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> from a collection of points.
 
 ## -parameters
 
 ### -param Out [out, ref]
 
-The new <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> containing the specified points.
+The new <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> containing the specified points.
 
 ### -param Count [in]
 
@@ -64,7 +64,7 @@ The number of points in the buffer in <i>pPoints</i>.
 
 ### -param pPoints
 
-A buffer containing points to create the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> from.
+A buffer containing points to create the <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> from.
 
 ### -param Stride [in]
 
@@ -77,7 +77,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>
+<a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>
 
 
 

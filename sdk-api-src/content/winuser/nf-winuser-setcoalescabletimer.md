@@ -6,7 +6,7 @@ helpviewer_keywords: ["Any other value","SetCoalescableTimer","SetCoalescableTim
 old-location: winmsg\setcoalescabletimer.htm
 tech.root: winmsg
 ms.assetid: 39303811-972f-4131-deea-cebf84c50867
-ms.date: 12/05/2018
+ms.date: 10/23/2020
 ms.keywords: Any other value, SetCoalescableTimer, SetCoalescableTimer function [Windows and Messages], TIMERV_DEFAULT_COALESCING, TIMERV_NO_COALESCING, winmsg.setcoalescabletimer, winuser/SetCoalescableTimer
 req.header: winuser.h
 req.include-header: Windows.h
@@ -50,6 +50,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - SetCoalescableTimer
+req.apiset: ext-ms-win-ntuser-window-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SetCoalescableTimer function
@@ -118,7 +119,7 @@ Uses the system default timer coalescing.
 </dl>
 </td>
 <td width="60%">
-Uses no timer coalescing.  When this value is used, the created timer is not coalesced, no matter what  the system default timer coalescing is or the application compatiblity flags are.
+Uses no timer coalescing.  When this value is used, the created timer is not coalesced, no matter what the system default timer coalescing is or the application compatibility flags are.
 
 
 <div class="alert"><b>Note</b>  Do not use this value unless you are certain that the  timer requires no coalescing. </div>
@@ -138,7 +139,7 @@ Applications should set this value to the system default (<b>TIMERV_DEFAULT_COAL
 
 If the sum of <i>uElapse</i> and <i>uToleranceDelay</i> exceeds <b>USER_TIMER_MAXIMUM</b> (0x7FFFFFFF), an ERROR_INVALID_PARAMETER exception occurs.
 
-See <a href="http://download.microsoft.com/download/9/C/5/9C5B2167-8017-4BAE-9FDE-D599BAC8184A/TimerCoal.docx">Windows Timer Coalescing</a> for more details and best practices.
+See <a href="https://download.microsoft.com/download/9/C/5/9C5B2167-8017-4BAE-9FDE-D599BAC8184A/TimerCoal.docx">Windows Timer Coalescing</a> for more details and best practices.
 
 </td>
 </tr>
@@ -174,13 +175,15 @@ The timer identifier, <i>nIDEvent</i>, is specific to the associated window. Ano
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a> can reuse timer IDs in the case where <i>hWnd</i> is <b>NULL</b>. 
-			
+            
 
 When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is used and   <b>SetCoalescableTimer</b>  behaves the same as <a href="/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a>.
 
+Before using **SetCoalescableTimer** or other timer-related functions, it is recommended to set the **UOI_TIMERPROC_EXCEPTION_SUPPRESSION** flag to **false** through the **SetUserObjectInformationW** function, otherwise the application could behave unpredictably and could be vulnerable to security exploits. For more info, see <a href="/windows/win32/api/winuser/nf-winuser-setuserobjectinformationw">SetUserObjectInformationW</a>.
+
 ## -see-also
 
-<a href="https://code.msdn.microsoft.com/windowsdesktop/Coalescable-Timer-Sample-d9da954c">Coalescing timers sample</a>
+<a href="https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20desktop%20samples/99647-Windows%208.1%20desktop%20samples/Coalescing%20timers%20sample/C%2B%2B">Coalescing timers sample</a>
 
 
 
@@ -224,7 +227,7 @@ When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is 
 
 
 
-<a href="/windows/desktop/winmsg/using-timers">Using TimersCoalescing timers sample</a>
+<a href="/windows/desktop/winmsg/using-timers">Using Timers</a>
 
 
 

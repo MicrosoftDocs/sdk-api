@@ -50,30 +50,30 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a> API.
 ]
 
 Defines possible status for new reports of a particular report type.
 
 ## -enum-fields
 
-### -field REPORT_NOT_SUPPORTED
+### -field REPORT_NOT_SUPPORTED:0
 
 The requested report type is not supported by the API. No location providers of the requested type are installed.
 
-### -field REPORT_ERROR
+### -field REPORT_ERROR:1
 
 There was an error when creating the report, or location providers for the requested type are unable to provide any data. Location providers might be currently unavailable, or location providers cannot obtain any data. For example, this state may occur when a GPS sensor is indoors and no satellites are in view.
 
-### -field REPORT_ACCESS_DENIED
+### -field REPORT_ACCESS_DENIED:2
 
  No permissions have been granted to access this report type. Call <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-requestpermissions">ILocation::RequestPermissions</a>.
 
-### -field REPORT_INITIALIZING
+### -field REPORT_INITIALIZING:3
 
 The report is being initialized.
 
-### -field REPORT_RUNNING
+### -field REPORT_RUNNING:4
 
 The report is running. New location data for the requested report type is available.
 

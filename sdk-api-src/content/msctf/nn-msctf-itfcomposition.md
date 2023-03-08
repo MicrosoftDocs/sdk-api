@@ -54,56 +54,7 @@ The <b>ITfComposition</b> interface is implemented by the TSF manager and is use
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfComposition</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfComposition</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfComposition</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcomposition-endcomposition">EndComposition</a>
-</td>
-<td align="left" width="63%">
-Terminates a composition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcomposition-getrange">GetRange</a>
-</td>
-<td align="left" width="63%">
-Obtains a range object that contains the text covered by the composition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcomposition-shiftend">ShiftEnd</a>
-</td>
-<td align="left" width="63%">
-Moves the end anchor of a composition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcomposition-shiftstart">ShiftStart</a>
-</td>
-<td align="left" width="63%">
-Moves the start anchor of a composition.
-
-</td>
-</tr>
-</table>
+The <b>ITfComposition</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfComposition</b> also has these types of members:
 
 ## -see-also
 

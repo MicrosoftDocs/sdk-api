@@ -1,12 +1,12 @@
 ---
 UID: NF:winbase.LookupAccountSidLocalA
-title: LookupAccountSidLocalA function (winbase.h)
-description: Retrieves the name of the account for the specified SID on the local machine.
-helpviewer_keywords: ["LookupAccountSidLocal","LookupAccountSidLocal function [Security]","LookupAccountSidLocalA","LookupAccountSidLocalW","security.lookupaccountsidlocal","winbase/LookupAccountSidLocal","winbase/LookupAccountSidLocalA","winbase/LookupAccountSidLocalW"]
+title: LookupAccountSidLocalA macro (winbase.h)
+description: Retrieves the name of the account for the specified SID on the local machine. (ANSI)
+helpviewer_keywords: ["LookupAccountSidLocalA", "winbase/LookupAccountSidLocalA"]
 old-location: security\lookupaccountsidlocal.htm
 tech.root: security
 ms.assetid: B039FFD7-B483-4CC0-B606-FAA5003DA238
-ms.date: 12/05/2018
+ms.date: 11/28/2022
 ms.keywords: LookupAccountSidLocal, LookupAccountSidLocal function [Security], LookupAccountSidLocalA, LookupAccountSidLocalW, security.lookupaccountsidlocal, winbase/LookupAccountSidLocal, winbase/LookupAccountSidLocalA, winbase/LookupAccountSidLocalW
 req.header: winbase.h
 req.include-header: Windows.h
@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Advapi32.lib
-req.dll: Advapi32.dll
+req.lib: 
+req.dll: 
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - Advapi32.dll
+ - sechost.dll
  - api-ms-win-security-lsalookup-l1-1-0.dll
 api_name:
  - LookupAccountSidLocal
@@ -48,12 +48,9 @@ api_name:
  - LookupAccountSidLocalW
 ---
 
-# LookupAccountSidLocalA function
-
-
 ## -description
 
-Retrieves the name of the account for the specified SID on the local machine.
+**LookupAccountSidLocalA** is defined as a macro that calls [LookupAccountSidA](nf-winbase-lookupaccountsida.md) with `NULL` as the first parameter. Retrieves the name of the account for the specified SID on the local machine.
 
 ## -parameters
 
@@ -75,7 +72,6 @@ On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpName</i> buffer. If 
 A pointer to a buffer that receives a <b>null</b>-terminated string that contains the name of the domain where the account name was found.
 
 On a server, the domain name returned for most accounts in the security database of the local computer is the name of the domain for which the server is a domain controller.
-						
 
 On a workstation, the domain name returned for most accounts in the security database of the local computer is the name of the computer as of the last start of the system (backslashes are excluded). If the name of the computer changes, the old name continues to be returned as the domain name until the system is restarted.
 
@@ -100,10 +96,6 @@ If the function fails, it returns zero. To get extended error information, call
 ## -remarks
 
 This function is similar to <a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountsida">LookupAccountSid</a>, but restricts the search to the local machine.
-
-
-
-
 
 > [!NOTE]
 > The winbase.h header defines LookupAccountSidLocal as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

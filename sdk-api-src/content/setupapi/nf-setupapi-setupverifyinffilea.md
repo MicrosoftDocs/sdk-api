@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupVerifyInfFileA
 title: SetupVerifyInfFileA function (setupapi.h)
-description: The SetupVerifyInfFile function verifies the digital signature of the specified INF file by using its corresponding catalog. The verification can be performed against an alternate platform.
-helpviewer_keywords: ["SetupVerifyInfFile","SetupVerifyInfFile function [Setup API]","SetupVerifyInfFileA","SetupVerifyInfFileW","_setupapi_setupverifyinffile","setup.setupverifyinffile","setupapi/SetupVerifyInfFile","setupapi/SetupVerifyInfFileA","setupapi/SetupVerifyInfFileW"]
+description: The SetupVerifyInfFile function verifies the digital signature of the specified INF file by using its corresponding catalog. The verification can be performed against an alternate platform. (ANSI)
+helpviewer_keywords: ["SetupVerifyInfFileA", "setupapi/SetupVerifyInfFileA"]
 old-location: setup\setupverifyinffile.htm
 tech.root: setup
 ms.assetid: 3e64783f-6ded-498a-a994-ccd3ba217e91
@@ -46,6 +46,7 @@ api_name:
  - SetupVerifyInfFile
  - SetupVerifyInfFileA
  - SetupVerifyInfFileW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupVerifyInfFileA function

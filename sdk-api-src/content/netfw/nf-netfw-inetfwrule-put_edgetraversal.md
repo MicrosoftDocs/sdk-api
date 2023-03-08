@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.put_EdgeTraversal
 title: INetFwRule::put_EdgeTraversal (netfw.h)
-description: Indicates whether edge traversal is enabled or disabled for this rule.
+description: Indicates whether edge traversal is enabled or disabled for this rule. (Put)
 helpviewer_keywords: ["EdgeTraversal property [ICS/ICF]","EdgeTraversal property [ICS/ICF]","INetFwRule interface","INetFwRule interface [ICS/ICF]","EdgeTraversal property","INetFwRule.EdgeTraversal","INetFwRule.put_EdgeTraversal","INetFwRule::EdgeTraversal","INetFwRule::get_EdgeTraversal","INetFwRule::put_EdgeTraversal","ics.inetfwrule_edgetraversal","netfw/INetFwRule::EdgeTraversal","netfw/INetFwRule::get_EdgeTraversal","netfw/INetFwRule::put_EdgeTraversal","put_EdgeTraversal"]
 old-location: ics\inetfwrule_edgetraversal.htm
 tech.root: ics

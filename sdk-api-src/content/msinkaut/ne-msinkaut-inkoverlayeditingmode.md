@@ -54,15 +54,15 @@ Specifies the behavior mode of the <a href="/windows/desktop/tablet/inkoverlay-c
 
 ## -enum-fields
 
-### -field IOEM_Ink
+### -field IOEM_Ink:0
 
 The object or control is in collection mode.
 
-### -field IOEM_Delete
+### -field IOEM_Delete:1
 
 The object or control is in deletion mode.
 
-### -field IOEM_Select
+### -field IOEM_Select:2
 
 The object or control is in selection and editing mode.
 

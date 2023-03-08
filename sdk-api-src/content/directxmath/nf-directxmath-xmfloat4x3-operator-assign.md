@@ -9,25 +9,25 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4X3.operator = (const XMFLO
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMFLOAT4X3.operator =, Use DirectX::::XMFLOAT4X3::operator =, XMFLOAT4X3 structure [DirectX Math Support APIs],operator = method, XMFLOAT4X3.operator =, XMFLOAT4X3.operator-assign, XMFLOAT4X3.operator=, XMFLOAT4X3::operator-assign, XMFLOAT4X3::operator=, dxmath.xmfloat4x3_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT4X3 structure, operator=
 req.header: directxmath.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
 req.namespace: Use DirectX.
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 f1_keywords:
  - XMFLOAT4X3::operator=
  - directxmath/XMFLOAT4X3::operator=
@@ -47,7 +47,7 @@ api_name:
 ## -description
 
 Assigns the vector component data from one instance of <code>XMFLOAT4X3</code> to the current instance of <code>XMFLOAT4X3</code>.
-    
+
 This operator assigns the vector component data from one instance of <a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a> to the current instance of <code>XMFLOAT4X3</code>.
 
 > [!NOTE]
@@ -55,9 +55,9 @@ This operator assigns the vector component data from one instance of <a href="/w
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
-Instance of <code>XMFLOAT4X3</code> used to update the current <code>XMFLOAT4X3</code>structure.
+Instance of <code>XMFLOAT4X3</code> used to update the current <code>XMFLOAT4X3</code> structure.
 
 ## -returns
 
@@ -65,6 +65,6 @@ The current instance of <code>XMFLOAT4X3</code> whose vector component data has 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/56bf0a03-e3ea-43ed-a57e-b53f41348ffa">XMFLOAT4X3</a>
+<a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a>
 
-<a href="https://msdn.microsoft.com/bcf2420c-cd66-4a50-9222-d74039867871">XMFLOAT4X3 Operators</a>
+<a href="/windows/win32/dxmath/ovw-xmfloat4x3-operators">XMFLOAT4X3 Operators</a>

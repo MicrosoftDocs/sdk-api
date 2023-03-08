@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - SHAppBarMessage
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SHAppBarMessage function
@@ -158,7 +159,7 @@ This function returns a message-dependent value. For more information, see the W
 
 
 
-<a href="/windows/desktop/shell/conversion-functions-bumper">ABM_GETAUTOHIDEBAR</a>
+<a href="/windows/desktop/shell/abm-getautohidebar">ABM_GETAUTOHIDEBAR</a>
 
 
 
@@ -166,7 +167,7 @@ This function returns a message-dependent value. For more information, see the W
 
 
 
-<a href="/windows/desktop/shell/creating-shell-data-source-objects-and-extending-the-shell-namespace-bumper">ABM_GETSTATE</a>
+<a href="/windows/desktop/shell/abm-getstate">ABM_GETSTATE</a>
 
 
 
@@ -182,11 +183,11 @@ This function returns a message-dependent value. For more information, see the W
 
 
 
-<a href="/windows/desktop/shell/customizing-file-types-bumper">ABM_REMOVE</a>
+<a href="/windows/desktop/shell/abm-remove">ABM_REMOVE</a>
 
 
 
-<a href="/windows/desktop/shell/dialogs-bumper">ABM_SETAUTOHIDEBAR</a>
+<a href="/windows/desktop/shell/abm-setautohidebar">ABM_SETAUTOHIDEBAR</a>
 
 
 
@@ -198,7 +199,7 @@ This function returns a message-dependent value. For more information, see the W
 
 
 
-<a href="/windows/desktop/shell/drag-and-drop-handlers-and-custom-clipboard-format-bumper">ABM_SETSTATE</a>
+<a href="/windows/desktop/shell/abm-setstate">ABM_SETSTATE</a>
 
 
 

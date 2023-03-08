@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.EnumResourceTypesA
 title: EnumResourceTypesA function (winbase.h)
-description: Enumerates resource types within a binary module.
-helpviewer_keywords: ["EnumResourceTypes","EnumResourceTypes function [Menus and Other Resources]","EnumResourceTypesA","EnumResourceTypesW","_win32_EnumResourceTypes","_win32_enumresourcetypes_cpp","menurc.enumresourcetypes","winbase/EnumResourceTypes","winbase/EnumResourceTypesA","winbase/EnumResourceTypesW","winui._win32_enumresourcetypes"]
+description: Enumerates resource types within a binary module. (ANSI)
+helpviewer_keywords: ["EnumResourceTypesA", "winbase/EnumResourceTypesA"]
 old-location: menurc\enumresourcetypes.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcetypes.htm
@@ -64,7 +64,7 @@ Type: <b>HMODULE</b>
 
 A handle to a module to be searched. This handle must be obtained through <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> or <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
 					
-                    See Remarks for more information.
+See Remarks for more information.
 
 If this parameter is <b>NULL</b>, that is equivalent to passing in a handle to the module used to create the current process.
 
@@ -123,7 +123,7 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-enumresourcenamesa">EnumResourceNames</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesa">EnumResourceNames</a>
 
 
 

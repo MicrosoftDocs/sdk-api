@@ -62,7 +62,7 @@ A value that indicates in which area of the CDF the error occurred.
 
 A value that indicates the type of error.
 
-### -param *pwszLine [in]
+### -param pwszLine [in]
 
 A pointer to a null-terminated string that contains the CDF line in which the error occurred.
 

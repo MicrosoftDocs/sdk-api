@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxBundleManifestReader
 title: IAppxBundleManifestReader (appxpackaging.h)
-description: Provides a read-only object model for manifests of bundle packages.
+description: Provides a read-only object model for manifests of bundle packages. (IAppxBundleManifestReader)
 helpviewer_keywords: ["IAppxBundleManifestReader","IAppxBundleManifestReader interface [App packaging and management]","IAppxBundleManifestReader interface [App packaging and management]","described","appxpackaging/IAppxBundleManifestReader","appxpkg.iappxbundlemanifestreader"]
 old-location: appxpkg\iappxbundlemanifestreader.htm
 tech.root: appxpkg
@@ -54,44 +54,5 @@ Provides a read-only object model for manifests of bundle packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleManifestReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleManifestReader</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxBundleManifestReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleManifestReader</b> also has these types of members:
 
-## -members
-
-The <b>IAppxBundleManifestReader</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestreader-getpackageid">GetPackageId</a>
-</td>
-<td align="left" width="63%">
-Retrieves an object that represents the &lt;Identity&gt; element under the root &lt;Bundle&gt; element. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestreader-getpackageinfoitems">GetPackageInfoItems</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator over all the &lt;Package&gt; elements under the &lt;Packages&gt; element. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestreader-getstream">GetStream</a>
-</td>
-<td align="left" width="63%">
-Gets the raw XML document without any preprocessing.
-
-</td>
-</tr>
-</table>

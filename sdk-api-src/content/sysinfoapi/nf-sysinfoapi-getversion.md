@@ -58,13 +58,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message"><b>GetVersion</b> may be altered or unavailable for releases after Windows 8.1. Instead, use the <a href="/windows/desktop/SysInfo/version-helper-apis">Version Helper functions</a>. For Windows 10 apps, please see [Targeting your applications for Windows](/windows/win32/sysinfo/targeting-your-application-at-windows-8-1).
+<b>GetVersion</b> may be altered or unavailable for releases after Windows 8.1. Instead, use the <a href="/windows/desktop/SysInfo/version-helper-apis">Version Helper functions</a>. For Windows 10 apps, please see [Targeting your applications for Windows](/windows/win32/sysinfo/targeting-your-application-at-windows-8-1).
 
 With the release of Windows 8.1, the behavior of the <b>GetVersion</b> API has changed in the value it will return for the operating system version. The value returned by the <b>GetVersion</b> function now depends on how the application is manifested. 
 
 Applications not manifested for Windows 8.1 or Windows 10 will return the Windows 8 OS version value (6.2).  Once an application is manifested for a given operating system version, <b>GetVersion</b> will always return the version that the application is manifested for in future releases.  To manifest your applications for Windows 8.1 or Windows 10, refer to <a href="/windows/desktop/SysInfo/targeting-your-application-at-windows-8-1">Targeting your application for Windows</a>.
 
-## -parameters
+
 
 ## -returns
 
@@ -121,28 +121,10 @@ void main()
 
 ## -see-also
 
-<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a>
-
-
-
-<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFO</a>
-
-
-
-<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a>
-
-
-
-<a href="/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>
-
-
-
-<a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
-
-
-
-<a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>
-
-
-
-<a href="/windows/desktop/SysInfo/version-helper-apis">Version Helper functions</a>
+- <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a>
+- <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFO</a>
+- <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a>
+- <a href="/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>
+- <a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
+- <a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>
+- <a href="/windows/desktop/SysInfo/version-helper-apis">Version Helper functions</a>

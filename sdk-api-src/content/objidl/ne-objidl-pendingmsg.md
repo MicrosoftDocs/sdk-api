@@ -56,15 +56,15 @@ Specifies the return values for the <a href="/windows/desktop/api/objidl/nf-obji
 
 ## -enum-fields
 
-### -field PENDINGMSG_CANCELCALL
+### -field PENDINGMSG_CANCELCALL:0
 
 Cancel the outgoing call.
 
-### -field PENDINGMSG_WAITNOPROCESS
+### -field PENDINGMSG_WAITNOPROCESS:1
 
 Wait for the return and don't dispatch the message.
 
-### -field PENDINGMSG_WAITDEFPROCESS
+### -field PENDINGMSG_WAITDEFPROCESS:2
 
 Wait and dispatch the message.
 

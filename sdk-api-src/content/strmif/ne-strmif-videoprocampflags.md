@@ -56,11 +56,11 @@ The <b>VideoProcAmpFlags</b> enumeration indicates whether a particular video pr
 
 ## -enum-fields
 
-### -field VideoProcAmp_Flags_Auto
+### -field VideoProcAmp_Flags_Auto:0x1
 
 The setting is controlled automatically.
 
-### -field VideoProcAmp_Flags_Manual
+### -field VideoProcAmp_Flags_Manual:0x2
 
 The setting is controlled manually.
 
@@ -68,8 +68,12 @@ The setting is controlled manually.
 
 The following flags defined in KsMedia.h are equivalent to the values in <b>VideoProcAmpFlags</b>:
 
-<pre class="syntax" xml:space="preserve"><code>#define KSPROPERTY_VIDEOPROCAMP_FLAGS_AUTO        0X0001L
-#define KSPROPERTY_VIDEOPROCAMP_FLAGS_MANUAL      0X0002L</code></pre>
+
+``` syntax
+#define KSPROPERTY_VIDEOPROCAMP_FLAGS_AUTO        0X0001L
+#define KSPROPERTY_VIDEOPROCAMP_FLAGS_MANUAL      0X0002L
+```
+
 
 ## -see-also
 

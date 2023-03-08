@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-setupapi-logging-l1-1-0.dll
 api_name:
  - SetupOpenLog
+req.apiset: ext-ms-win-setupapi-logging-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupOpenLog function

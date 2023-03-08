@@ -3,12 +3,11 @@ UID: NF:diagnosticdataquery.DdqGetSessionAccessLevel
 title: DdqGetSessionAccessLevel
 ms.date: 8/19/2019
 ms.keywords: DdqGetSessionAccessLevel
-ms.topic: language-reference
 description: Returns the data access level of the current Diagnostic Data Query session.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,7 +30,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:
@@ -54,7 +52,7 @@ Handle to the Diagnostic Data Query session.
 
 ### -param accessLevel
 
-Type: **[DdqAccessLevel\*](/windows/win32/api/diagnosticdataquery/ne-diagnosticdataquerytypes-ddqaccesslevel)**
+Type: **[DdqAccessLevel\*](/windows/win32/api/diagnosticdataquerytypes/ne-diagnosticdataquerytypes-ddqaccesslevel)**
 This output parameter is the pointer to the access level for this session.
 
 ## -returns

@@ -81,7 +81,6 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 
 
-<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 
@@ -91,6 +90,6 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 <b>Samples</b>
 
-
+<a href="https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex Ink sample</a>
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>

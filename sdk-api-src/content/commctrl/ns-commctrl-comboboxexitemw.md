@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagCOMBOBOXEXITEMW
 title: COMBOBOXEXITEMW (commctrl.h)
-description: Contains information about an item in a ComboBoxEx control.
+description: Contains information about an item in a ComboBoxEx control. (Unicode)
 helpviewer_keywords: ["*PCOMBOBOXEXITEMW","CBEIF_DI_SETITEM","CBEIF_IMAGE","CBEIF_INDENT","CBEIF_LPARAM","CBEIF_OVERLAY","CBEIF_SELECTEDIMAGE","CBEIF_TEXT","COMBOBOXEXITEM","COMBOBOXEXITEM structure [Windows Controls]","COMBOBOXEXITEMA","COMBOBOXEXITEMW","PCOMBOBOXEXITEM","PCOMBOBOXEXITEM structure pointer [Windows Controls]","_win32_COMBOBOXEXITEM","_win32_COMBOBOXEXITEM_cpp","commctrl/COMBOBOXEXITEM","commctrl/COMBOBOXEXITEMA","commctrl/COMBOBOXEXITEMW","commctrl/PCOMBOBOXEXITEM","controls.COMBOBOXEXITEM","controls._win32_COMBOBOXEXITEM"]
 old-location: controls\COMBOBOXEXITEM.htm
 tech.root: Controls

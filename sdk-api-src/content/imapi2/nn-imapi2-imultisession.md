@@ -58,56 +58,7 @@ To access media-specific properties of a multisession interface, use the <a href
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultisession</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMultisession</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMultisession</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisession-get_importrecorder">get_ImportRecorder</a>
-</td>
-<td align="left" width="63%">
-Retrieves the disc recorder to use to import one or more previous sessions.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisession-get_inuse">get_InUse</a>
-</td>
-<td align="left" width="63%">
-Determines if this multi-session type is the one you should use on the current media.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisession-get_issupportedoncurrentmediastate">get_IsSupportedOnCurrentMediaState</a>
-</td>
-<td align="left" width="63%">
-Determines if the multi-session type can write to the current optical media.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisession-put_inuse">put_InUse</a>
-</td>
-<td align="left" width="63%">
-Determines if this multi-session type is the one you should use on the current media.
-
-</td>
-</tr>
-</table>
+The <b>IMultisession</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMultisession</b> also has these types of members:
 
 ## -remarks
 

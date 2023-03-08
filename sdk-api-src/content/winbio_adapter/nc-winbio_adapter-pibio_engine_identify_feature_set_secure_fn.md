@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Called by the Windows Biometric Framework to build a template from the current feature set and locate a matching template in the database. If a match can be found, the engine adapter must fill the <i>Identity</i>, <i>SubFactor</i>, <i>Authorization</i>, and <i>AuthorizationSize</i> fields.
 
@@ -60,7 +60,7 @@ Called by the Windows Biometric Framework to build a template from the current f
 
 Pointer to a WINBIO_PIPELINE structure associated with the biometric unit performing the operation.
 
-### -param *Nonce
+### -param Nonce
 
 Pointer to a buffer that contains a nonce.
 
@@ -68,7 +68,7 @@ Pointer to a buffer that contains a nonce.
 
 Size, in bytes, of the buffer specified by the <i>Nonce</i> parameter.
 
-### -param *KeyIdentifier
+### -param KeyIdentifier
 
 Pointer to a buffer that contains an identifier for the key from a previous call to <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_create_key_fn">EngineAdapterCreateKey</a>
 
@@ -86,7 +86,7 @@ Pointer to a <a href="/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTIT
 
 Pointer to a variable that receives additional information if a capture failure prevents the engine from performing a matching operation. If the most recent capture succeeded, set this parameter to zero.
 
-### -param *Authorization
+### -param Authorization
 
 An HMAC. See remarks section.
 
@@ -100,7 +100,7 @@ A <a href="/windows/desktop/SecBioMet/winbio-biometric-subtype-constants">WINBIO
 
 ## -returns
 
-<b>WINBIO_E_INVALID_KEY_IDENTIFIER</b> must be returned in the case where the key cannot be used for whatever reason. When <b>WINBIO_E_INVALID_KEY_IDENTIFIER </b>is returned, the sensor and TPM will be re-provisioned.
+<b>WINBIO_E_INVALID_KEY_IDENTIFIER</b> must be returned in the case where the key cannot be used for whatever reason. When <b>WINBIO_E_INVALID_KEY_IDENTIFIER </b> is returned, the sensor and TPM will be re-provisioned.
 
 ## -remarks
 

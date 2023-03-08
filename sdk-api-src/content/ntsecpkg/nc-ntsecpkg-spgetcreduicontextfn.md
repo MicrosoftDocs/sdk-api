@@ -1,7 +1,7 @@
 ---
 UID: NC:ntsecpkg.SpGetCredUIContextFn
 title: SpGetCredUIContextFn (ntsecpkg.h)
-description: Retrieves context information from a credential provider.
+description: Retrieves context information from a credential provider. (SpGetCredUIContextFn)
 helpviewer_keywords: ["SEC_WINNT_AUTH_DATA_TYPE_CERT","SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA","SEC_WINNT_AUTH_DATA_TYPE_PASSWORD","SpGetCredUIContextFn","SpGetCredUIContextFn callback","SpGetCredUIContextFn callback function [Security]","ntsecpkg/SpGetCredUIContextFn","security.spgetcreduicontextfn"]
 old-location: security\spgetcreduicontextfn.htm
 tech.root: security
@@ -58,7 +58,7 @@ Retrieves context information from a credential provider.
 
 A handle to the context for which to get information.
 
-### -param *CredType [in]
+### -param CredType [in]
 
 The type of credential specified by the <i>ContextHandle</i> parameter. This can be one of the following values.
 
@@ -106,7 +106,7 @@ The credential is authentication data from a <a href="/windows/desktop/SecGloss/
 
 The size, in characters, of the buffer received by the <i>FlatCredUIContext</i> parameter.
 
-### -param *FlatCredUIContext [out]
+### -param FlatCredUIContext [out]
 
 A pointer to an array of characters that specifies information about the context specified by the <i>ContextHandle</i> parameter.
 

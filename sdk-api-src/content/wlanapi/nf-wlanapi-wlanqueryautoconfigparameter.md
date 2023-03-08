@@ -85,7 +85,7 @@ If the function returns ERROR_SUCCESS and <i>ppData</i> points to <b>TRUE</b>, t
 </dl>
 </td>
 <td width="60%">
-When set, the <i>ppData</i> parameter will contain a <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_power_setting~r1">WLAN_POWER_SETTING</a> value specifying the power settings.
+When set, the <i>ppData</i> parameter will contain a <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_power_setting-r1">WLAN_POWER_SETTING</a> value specifying the power settings.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ Pointer to the memory that contains the queried value for the parameter specifie
 
 ### -param pWlanOpcodeValueType [out, optional]
 
-A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> value.
+A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type-r1">WLAN_OPCODE_VALUE_TYPE</a> value.
 
 ## -returns
 
@@ -232,7 +232,7 @@ The <b>WlanQueryAutoConfigParameter</b> function queries for the parameters used
 
 ## -see-also
 
-<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode-r1">WLAN_AUTOCONF_OPCODE</a>
 
 
 

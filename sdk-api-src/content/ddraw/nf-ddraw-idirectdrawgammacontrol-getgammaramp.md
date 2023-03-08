@@ -54,11 +54,11 @@ Retrieves the red, green, and blue gamma ramps for the primary surface.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Currently not used and must be set to 0.
 
-### -param arg2 [in, out]
+### -param unnamedParam2 [in, out]
 
 A pointer to a <a href="/windows/desktop/api/ddraw/ns-ddraw-ddgammaramp">DDGAMMARAMP</a> structure that receives the current red, green, and blue gamma ramps. Each array maps color values in the frame buffer to the color values to be passed to the digital-to-analog converter (DAC).
 
@@ -78,7 +78,7 @@ If it fails, the method can return one of the following error values:
 
 ## -remarks
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetGammaRamp</b> method.
+
 
 ## -see-also
 

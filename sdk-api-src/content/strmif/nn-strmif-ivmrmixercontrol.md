@@ -53,114 +53,11 @@ api_name:
 
 The <code>IVMRMixerControl</code> interface is enables an application to manipulate the incoming video streams on the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). Although this interface is implemented on the filter, it is actually the mixer component that is being configured. For this reason, this interface is only available when the mixer has been loaded through a call to <a href="/windows/desktop/api/strmif/nf-strmif-ivmrfilterconfig-setnumberofstreams">IVMRFilterConfig::SetNumberOfStreams</a>. This interface is intended for use by applications only; it should not be used by upstream filters.
 
-For the VMR-9, use the <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrmixercontrol9">IVMRMixerControl9</a> interface.
+For the VMR-9, use the <a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmixercontrol9">IVMRMixerControl9</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRMixerControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRMixerControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVMRMixerControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getalpha">GetAlpha</a>
-</td>
-<td align="left" width="63%">
-Retrieves the constant alpha value that is applie to this video stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getbackgroundclr">GetBackgroundClr</a>
-</td>
-<td align="left" width="63%">
-Retrieves the background color of the output rectangle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getmixingprefs">GetMixingPrefs</a>
-</td>
-<td align="left" width="63%">
-Retrieves the mixing preferences for the stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getoutputrect">GetOutputRect</a>
-</td>
-<td align="left" width="63%">
-Retrieves the position of this stream's video rectangle within the composition rectangle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getzorder">GetZOrder</a>
-</td>
-<td align="left" width="63%">
-Retrieves this video stream's position in the Z order.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setalpha">SetAlpha</a>
-</td>
-<td align="left" width="63%">
-Sets a constant alpha value that is applied to this video stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setbackgroundclr">SetBackgroundClr</a>
-</td>
-<td align="left" width="63%">
-Sets the background color of the output rectangle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setoutputrect">SetMixingPrefs</a>
-</td>
-<td align="left" width="63%">
-Sets the mixing preferences for the stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setoutputrect">SetOutputRect</a>
-</td>
-<td align="left" width="63%">
-Sets the position of this stream within the composition rectangle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setzorder">SetZOrder</a>
-</td>
-<td align="left" width="63%">
-Sets this video stream's position in the Z-order.
-
-</td>
-</tr>
-</table>
+The <b>IVMRMixerControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRMixerControl</b> also has these types of members:
 
 ## -see-also
 

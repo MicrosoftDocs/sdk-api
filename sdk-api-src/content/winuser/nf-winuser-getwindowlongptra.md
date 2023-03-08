@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetWindowLongPtrA
 title: GetWindowLongPtrA function (winuser.h)
-description: Retrieves information about the specified window. The function also retrieves the value at a specified offset into the extra window memory.
-helpviewer_keywords: ["DWLP_DLGPROC","DWLP_MSGRESULT","DWLP_USER","GWLP_HINSTANCE","GWLP_HWNDPARENT","GWLP_ID","GWLP_USERDATA","GWLP_WNDPROC","GWL_EXSTYLE","GWL_STYLE","GetWindowLongPtr","GetWindowLongPtr function [Windows and Messages]","GetWindowLongPtrA","GetWindowLongPtrW","_win32_GetWindowLongPtr","_win32_getwindowlongptr_cpp","winmsg.getwindowlongptr","winui._win32_getwindowlongptr","winuser/GetWindowLongPtr","winuser/GetWindowLongPtrA","winuser/GetWindowLongPtrW"]
+description: Retrieves information about the specified window. The function also retrieves the value at a specified offset into the extra window memory. (ANSI)
+helpviewer_keywords: ["DWLP_DLGPROC", "DWLP_MSGRESULT", "DWLP_USER", "GWLP_HINSTANCE", "GWLP_HWNDPARENT", "GWLP_ID", "GWLP_USERDATA", "GWLP_WNDPROC", "GWL_EXSTYLE", "GWL_STYLE", "GetWindowLongPtrA", "winuser/GetWindowLongPtrA"]
 old-location: winmsg\getwindowlongptr.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getwindowlongptr.htm
@@ -53,6 +53,7 @@ api_name:
  - GetWindowLongPtr
  - GetWindowLongPtrA
  - GetWindowLongPtrW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetWindowLongPtrA function

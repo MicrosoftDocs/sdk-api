@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasRenameEntryW
 title: RasRenameEntryW function (ras.h)
-description: The RasRenameEntry function changes the name of an entry in a phone book.
-helpviewer_keywords: ["RasRenameEntry","RasRenameEntry function [RAS]","RasRenameEntryA","RasRenameEntryW","_ras_rasrenameentry","ras/RasRenameEntry","ras/RasRenameEntryA","ras/RasRenameEntryW","rras.rasrenameentry"]
+description: The RasRenameEntry function changes the name of an entry in a phone book. (Unicode)
+helpviewer_keywords: ["RasRenameEntry", "RasRenameEntry function [RAS]", "RasRenameEntryW", "_ras_rasrenameentry", "ras/RasRenameEntry", "ras/RasRenameEntryW", "rras.rasrenameentry"]
 old-location: rras\rasrenameentry.htm
 tech.root: RRAS
 ms.assetid: 95c63e58-c96d-43ad-8878-ba9e29f53f6e
@@ -57,18 +57,18 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
 						
 
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to a null-terminated string that specifies an existing entry name.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Pointer to a null-terminated string that specifies the new entry name. Before calling 
 <b>RasRenameEntry</b>, call the 

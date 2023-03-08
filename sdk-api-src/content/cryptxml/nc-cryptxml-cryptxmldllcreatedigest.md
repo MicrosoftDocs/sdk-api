@@ -56,15 +56,15 @@ The <b>CryptXmlDllCreateDigest</b> function is exposed through the exported <a h
 
 ## -parameters
 
-### -param *pDigestMethod [in]
+### -param pDigestMethod [in]
 
 A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm to use to create the  digest.
 
-### -param *pcbSize [out]
+### -param pcbSize [out]
 
 A pointer to a <b>ULONG</b> variable that receives the size, in bytes, of the digest.
 
-### -param *phDigest [out]
+### -param phDigest [out]
 
 A pointer to a <b>CRYPT_XML_DIGEST</b> variable  that receives a pointer to the digest.
 

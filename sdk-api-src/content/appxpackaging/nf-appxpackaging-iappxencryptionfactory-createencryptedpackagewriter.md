@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.CreateEncryptedPackageWriter
 title: IAppxEncryptionFactory::CreateEncryptedPackageWriter (appxpackaging.h)
-description: Creates a new instance of an IAppxEncryptedPackageWriter.
+description: Creates a new instance of an IAppxEncryptedPackageWriter. (IAppxEncryptionFactory.CreateEncryptedPackageWriter)
 helpviewer_keywords: ["CreateEncryptedPackageWriter","CreateEncryptedPackageWriter method [App packaging and management]","CreateEncryptedPackageWriter method [App packaging and management]","IAppxEncryptionFactory interface","IAppxEncryptionFactory interface [App packaging and management]","CreateEncryptedPackageWriter method","IAppxEncryptionFactory.CreateEncryptedPackageWriter","IAppxEncryptionFactory::CreateEncryptedPackageWriter","appxpackaging/IAppxEncryptionFactory::CreateEncryptedPackageWriter","appxpkg.iappxencryptionfactory_createencryptedpackagewriter"]
 old-location: appxpkg\iappxencryptionfactory_createencryptedpackagewriter.htm
 tech.root: appxpkg
@@ -56,7 +56,7 @@ Creates a new instance of an <a href="/windows/desktop/api/appxpackaging/nn-appx
 
 ### -param outputStream [in]
 
-A writeable stream for sending bytes produced by the app package.
+A writable stream for sending bytes produced by the app package.
 
 ### -param manifestStream [in]
 

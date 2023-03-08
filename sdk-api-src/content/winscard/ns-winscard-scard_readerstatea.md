@@ -1,7 +1,7 @@
 ---
-UID: NS:winscard.__unnamed_struct_0
+UID: NS:winscard.SCARD_READERSTATEA
 title: SCARD_READERSTATEA (winscard.h)
-description: Used by functions for tracking smart cards within readers.
+description: Used by functions for tracking smart cards within readers. (ANSI)
 helpviewer_keywords: ["*LPSCARD_READERSTATEA","*PSCARD_READERSTATEA","LPSCARD_READERSTATE","LPSCARD_READERSTATE structure pointer [Security]","PSCARD_READERSTATE","PSCARD_READERSTATE structure pointer [Security]","SCARD_READERSTATE","SCARD_READERSTATE structure [Security]","SCARD_READERSTATEA","SCARD_READERSTATEW","SCARD_STATE_ATRMATCH","SCARD_STATE_CHANGED","SCARD_STATE_EMPTY","SCARD_STATE_EXCLUSIVE","SCARD_STATE_IGNORE","SCARD_STATE_INUSE","SCARD_STATE_MUTE","SCARD_STATE_PRESENT","SCARD_STATE_UNAVAILABLE","SCARD_STATE_UNAWARE","SCARD_STATE_UNKNOWN","_smart_scard_readerstate","security.scard_readerstate","winscard/LPSCARD_READERSTATE","winscard/PSCARD_READERSTATE","winscard/SCARD_READERSTATE","winscard/SCARD_READERSTATEA","winscard/SCARD_READERSTATEW"]
 old-location: security\scard_readerstate.htm
 tech.root: security
@@ -172,6 +172,17 @@ The application expects that there is an unresponsive card in the reader.
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="SCARD_STATE_UNPOWERED"></a><a id="scard_state_unpowered"></a><dl>
+<dt><b>SCARD_STATE_UNPOWERED</b></dt>
+</dl>
+</td>
+<td width="60%">
+This implies that the card in the reader has not been powered up.
+
+</td>
+</tr>	
+
 </table>
 
 ### -field dwEventState
@@ -288,6 +299,16 @@ There is an unresponsive card in the reader.
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="SCARD_STATE_UNPOWERED"></a><a id="scard_state_unpowered"></a><dl>
+<dt><b>SCARD_STATE_UNPOWERED</b></dt>
+</dl>
+</td>
+<td width="60%">
+This implies that the card in the reader has not been powered up.
+
+</td>
+</tr>
 </table>
 
 ### -field cbAtr
@@ -310,3 +331,4 @@ ATR of the inserted card, with extra alignment bytes.
 
 > [!NOTE]
 > The winscard.h header defines SCARD_READERSTATE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

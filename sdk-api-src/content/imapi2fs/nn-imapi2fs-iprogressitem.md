@@ -56,56 +56,7 @@ To get this interface, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProgressItem</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IProgressItem</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IProgressItem</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_blockcount">get_BlockCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of blocks in the progress item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_description">get_Description</a>
-</td>
-<td align="left" width="63%">
-Retrieves the description in the progress item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_firstblock">get_FirstBlock</a>
-</td>
-<td align="left" width="63%">
-Retrieves the first block number in this segment of the result image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_lastblock">get_LastBlock</a>
-</td>
-<td align="left" width="63%">
-Retrieves the last block in this segment of the result image.
-
-</td>
-</tr>
-</table>
+The <b>IProgressItem</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IProgressItem</b> also has these types of members:
 
 ## -remarks
 

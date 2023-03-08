@@ -137,7 +137,7 @@ The results supplied are invalid.
 
 The number of policy decisions provided in <b>pPolicyDecisions</b>.
 
-### -param *pPolicyDecisions [in]
+### -param pPolicyDecisions [in]
 
 Policy decisions, in the form of one or more <b>POLICY_DECISION</b> structures.
 

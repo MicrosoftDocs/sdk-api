@@ -1,7 +1,7 @@
 ---
 UID: NF:gamingtcui.CheckGamingPrivilegeSilently
 title: CheckGamingPrivilegeSilently function (gamingtcui.h)
-description: Do not use. This API is only supported for Xbox developers.
+description: Do not use. This API is only supported for Xbox developers. (CheckGamingPrivilegeSilently)
 helpviewer_keywords: ["CheckGamingPrivilegeSilently","CheckGamingPrivilegeSilently function","gamingtcui/CheckGamingPrivilegeSilently","tcui.CheckGamingPrivilegeSilently"]
 old-location: tcui\CheckGamingPrivilegeSilently.htm
 tech.root: tcui
@@ -39,7 +39,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - CheckGamingPrivilegeSilently
 ---

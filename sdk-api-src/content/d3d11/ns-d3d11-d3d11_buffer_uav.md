@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_BUFFER_UAV
 title: D3D11_BUFFER_UAV (d3d11.h)
-description: Describes the elements in a buffer to use in a unordered-access view.
+description: Describes the elements in a buffer to use in a unordered-access view. (D3D11_BUFFER_UAV)
 helpviewer_keywords: ["D3D11_BUFFER_UAV","D3D11_BUFFER_UAV structure [Direct3D 11]","c8071050-410d-09ba-35f3-6d7c40e44eb6","d3d11/D3D11_BUFFER_UAV","direct3d11.d3d11_buffer_uav"]
 old-location: direct3d11\d3d11_buffer_uav.htm
 tech.root: direct3d11

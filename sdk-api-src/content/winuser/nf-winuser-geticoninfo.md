@@ -50,6 +50,7 @@ api_location:
  - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
  - GetIconInfo
+req.apiset: ext-ms-win-ntuser-gui-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetIconInfo function
@@ -312,7 +313,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
-<b>GetIconInfo</b> creates bitmaps for the <b>hbmMask</b> and <b>hbmCol</b>or members of <a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>. The calling application must manage these bitmaps and delete them when they are no longer necessary.
+<b>GetIconInfo</b> creates bitmaps for the <b>hbmMask</b> and <b>hbmCol</b> or members of <a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>. The calling application must manage these bitmaps and delete them when they are no longer necessary.
 
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The output returned is not affected by the DPI of the calling thread.

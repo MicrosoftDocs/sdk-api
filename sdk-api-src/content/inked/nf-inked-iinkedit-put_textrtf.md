@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_TextRTF
 title: IInkEdit::put_TextRTF (inked.h)
-description: Gets or sets the text of the InkEdit control, including all RTF codes.
+description: Gets or sets the text of the InkEdit control, including all RTF codes. (Put)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","TextRTF property","IInkEdit.TextRTF","IInkEdit.put_TextRTF","IInkEdit::TextRTF","IInkEdit::get_TextRTF","IInkEdit::put_TextRTF","InkEdit.get_TextRTF","InkEdit.put_TextRTF","TextRTF property [Tablet PC]","TextRTF property [Tablet PC]","IInkEdit interface","get_TextRTF","inked/IInkEdit::TextRTF","inked/IInkEdit::get_TextRTF","inked/IInkEdit::put_TextRTF","put_TextRTF","tablet.inkedit_textrtf"]
 old-location: tablet\inkedit_textrtf.htm
 tech.root: tablet
@@ -67,7 +67,7 @@ Setting the TextRTF property replaces the entire contents of a control with the 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="../inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

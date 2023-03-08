@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.LoadImageA
 title: LoadImageA function (winuser.h)
-description: Loads an icon, cursor, animated cursor, or bitmap.
-helpviewer_keywords: ["IMAGE_BITMAP","IMAGE_CURSOR","IMAGE_ICON","LR_CREATEDIBSECTION","LR_DEFAULTCOLOR","LR_DEFAULTSIZE","LR_LOADFROMFILE","LR_LOADMAP3DCOLORS","LR_LOADTRANSPARENT","LR_MONOCHROME","LR_SHARED","LR_VGACOLOR","LoadImage","LoadImage function [Menus and Other Resources]","LoadImageA","LoadImageW","_win32_LoadImage","_win32_loadimage_cpp","menurc.loadimage","winui._win32_loadimage","winuser/LoadImage","winuser/LoadImageA","winuser/LoadImageW"]
+description: Loads an icon, cursor, animated cursor, or bitmap. (ANSI)
+helpviewer_keywords: ["IMAGE_BITMAP", "IMAGE_CURSOR", "IMAGE_ICON", "LR_CREATEDIBSECTION", "LR_DEFAULTCOLOR", "LR_DEFAULTSIZE", "LR_LOADFROMFILE", "LR_LOADMAP3DCOLORS", "LR_LOADTRANSPARENT", "LR_MONOCHROME", "LR_SHARED", "LR_VGACOLOR", "LoadImageA", "winuser/LoadImageA"]
 old-location: menurc\loadimage.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\loadimage.htm
@@ -52,6 +52,7 @@ api_name:
  - LoadImage
  - LoadImageA
  - LoadImageW
+req.apiset: ext-ms-win-ntuser-gui-l1-1-0 (introduced in Windows 8)
 ---
 
 # LoadImageA function
@@ -80,7 +81,7 @@ Type: <b>LPCTSTR</b>
 
 The image to be loaded. If the <i>hinst</i> parameter is non-<b>NULL</b> and the <i>fuLoad</i> parameter omits <b>LR_LOADFROMFILE</b>, <i>lpszName</i> specifies the image resource in the <i>hinst</i> module. If the image resource is to be loaded by name from the module, the <i>lpszName</i> parameter is a pointer to a null-terminated string that contains the name of the image resource. If the image resource is to be loaded by ordinal from the module, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro to convert the image ordinal into a form that can be passed to the <b>LoadImage</b> function.
 
-					For more information, see the Remarks section below.
+For more information, see the Remarks section below.
 
 If the <i>hinst</i> parameter is <b>NULL</b> and the <i>fuLoad</i> parameter omits the <b>LR_LOADFROMFILE</b> value, the <i>lpszName</i> specifies the OEM image to load. The OEM image identifiers are defined in Winuser.h and have the following prefixes.
 

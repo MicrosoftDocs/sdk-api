@@ -113,8 +113,8 @@ You can use this method to select and configure a video renderer filter before y
 
 <ul>
 <li><b>Overlay Mixer Filter</b>: <a href="/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideo">IDDrawExclModeVideo</a>.</li>
-<li><b>Video Mixing Renderer 7 (VMR-7)</b>: <a href="/windows/desktop/api/strmif/nn-strmif-ivmrfilterconfig">IVMRFilterConfig</a>, <a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a>, <a href="/windows/desktop/api/strmif/nn-strmif-ivmrwindowlesscontrol">IVMRWindowlessControl</a>, and <a href="/windows/desktop/api/strmif/nn-strmif-ivmrmonitorconfig">IVMRMonitorConfig</a>.</li>
-<li><b>Video Mixing Renderer 9 (VMR-9)</b>: <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9</a>, <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrmixerbitmap9">IVMRMixerBitmap9</a>, <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrwindowlesscontrol9">IVMRWindowlessControl9</a>, and <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9</a>.</li>
+<li><b>Video Mixing Renderer 7 (VMR-7)</b>: <a href="/windows/desktop/api/strmif/nn-strmif-ivmrfilterconfig">IVMRFilterConfig</a>, <a href="/windows/win32/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a>, <a href="/windows/desktop/api/strmif/nn-strmif-ivmrwindowlesscontrol">IVMRWindowlessControl</a>, and <a href="/windows/desktop/api/strmif/nn-strmif-ivmrmonitorconfig">IVMRMonitorConfig</a>.</li>
+<li><b>Video Mixing Renderer 9 (VMR-9)</b>: <a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9</a>, <a href="/previous-versions/ms787059(v=vs.85)">IVMRMixerBitmap9</a>, <a href="/previous-versions/ms787155(v=vs.85)">IVMRWindowlessControl9</a>, and <a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9</a>.</li>
 <li><b>Enhanced Video Renderer (EVR)</b>: <a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfig">IEVRFilterConfig</a> and <a href="/windows/desktop/api/evr/nn-evr-imfvideorenderer">IMFVideoRenderer</a>.<b>Windows Server 2003, Windows XP and Windows 2000:  </b>This interface is not supported.
 
 </li>
@@ -131,7 +131,7 @@ Before the DVD playback graph is built, if you request any interfaces that are n
 <li>
 <a href="/windows/desktop/api/control/nn-control-ibasicaudio">IBasicAudio</a> to control the audio settings.</li>
 <li>
-<a href="/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder</a> to control closed caption display.</li>
+<a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder</a> to control closed caption display.</li>
 <li>
 <a href="/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig</a> and <a href="/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig2">IMixerPinConfig2</a> to configure the Overlay Mixer filter's first input pin, which delivers the primary video stream. (To get this interface for the other pins on the Overlay Mixer, enumerate the filter's pins and query them directly.) New applications should avoid using the Overlay Mixer filter.</li>
 </ul>

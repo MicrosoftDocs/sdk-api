@@ -1,11 +1,11 @@
 ---
 UID: NF:cimfs.CimMountImage
 title: CimMountImage
-ms.date: 9/9/2019
+description: The CimMountImage function mounts the named image from the location specified by cimPath as a volume with the volume GUID specified by volumeId.
+ms.date: 08/01/2022
+tech.root: cimfs
 ms.keywords: CimMountImage
-ms.topic: language-reference
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -28,7 +28,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - cimfs.h
 api_name:
@@ -47,7 +46,7 @@ Mounts the named image from the location specified by cimPath as a volume with t
 ### -param imageContainingPath
 
 Type: **[PCWSTR](/windows/desktop/winprog/windows-data-types)**
-The directory that will contain the image created. The caller must have FILE_ADD_FILE and FILE_LIST_DIRECTORY access rights.
+The directory that will contain the image created. The caller must have FILE_ADD_FILE and FILE_LIST_DIRECTORY access rights. 
 
 ### -param imageName
 
@@ -56,12 +55,12 @@ Provides the name of an existing image within the same imageContainingPath that 
 
 ### -param mountImageFlags
 
-Type: **[CIM_MOUNT_IMAGE_FLAGS](ne-cimfs-cim_mount_image_flags)**
+Type: **[CIM_MOUNT_IMAGE_FLAGS](/windows/win32/api/cimfs/ne-cimfs-cim_mount_image_flags)**
 
 ### -param volumeId
 
 Type: **GUID\***
-Provides a GUID to be used as the volume GUID of the mounted volume.
+Provides a GUID to be used as the volume GUID of the mounted volume. 
 
 ## -returns
 
@@ -79,4 +78,3 @@ The mounted volume can be accessed at its volume GUID path as defined by the sys
 The image cannot be overwritten while it is mounted.
 
 ## -see-also
-

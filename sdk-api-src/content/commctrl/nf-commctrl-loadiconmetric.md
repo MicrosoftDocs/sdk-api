@@ -75,21 +75,21 @@ A pointer to a null-terminated, Unicode buffer that contains location informatio
 If <i>hinst</i> is <b>NULL</b>, <i>pszName</i> can specify one of two things.
 
 <ol>
-<li>The identifier of a predefined icon to load. These identifiers are recognized.
+<li>The name of a standalone icon (.ico) file.</li>
+<li>The identifier of a predefined icon to load. These identifiers are recognized:</li>
 
-                            <ul>
+<ul>
 <li>IDI_APPLICATION</li>
 <li>IDI_INFORMATION</li>
 <li>IDI_ERROR</li>
 <li>IDI_WARNING</li>
 <li>IDI_SHIELD</li>
-<li>IDI_QUESTION</li>
-</ul>
-To pass these constants to the <b>LoadIconMetric</b> function, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. For example, to load the IDI_ERROR icon, pass <code>MAKEINTRESOURCE(IDI_ERROR)</code> as the <i>pszName</i> parameter and <b>NULL</b> as the <i>hinst</i> parameter.
+<li>IDI_QUESTION
 
-</li>
-<li>The name of a standalone icon (.ico) file.</li>
+To pass these constants to the <b>LoadIconMetric</b> function, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. For example, to load the IDI_ERROR icon, pass <code>MAKEINTRESOURCE(IDI_ERROR)</code> as the <i>pszName</i> parameter and <b>NULL</b> as the <i>hinst</i> parameter.
+</ul>
 </ol>
+
 If <i>hinst</i> is non-null, <i>pszName</i> can specify one of two things.
 
 <ol>
@@ -175,10 +175,14 @@ Icons are extracted or created as follows.
 </ol>
 Comparative calls are shown here for <b>LoadIconMetric</b> and <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>.
 
-<pre class="syntax" xml:space="preserve"><code>NOTIFYICONDATA  nidIconData  = {0};
+
+``` syntax
+NOTIFYICONDATA  nidIconData  = {0};
 nidIconData.hIcon = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON));
 
 // Or...
 
-HRESULT hr = LoadIconMetric(hInstance, MAKEINTRESOURCE(IDI_ICON), LIM_SMALL, &amp;nidIconData.hIcon);</code></pre>
+HRESULT hr = LoadIconMetric(hInstance, MAKEINTRESOURCE(IDI_ICON), LIM_SMALL, &amp;nidIconData.hIcon);
+```
+
 The application is responsible for calling <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> on the retrieved icon.

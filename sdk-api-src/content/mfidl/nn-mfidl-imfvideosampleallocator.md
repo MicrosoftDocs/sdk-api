@@ -57,56 +57,7 @@ The stream sinks on the enhanced video renderer (EVR) expose this interface as a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoSampleAllocator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoSampleAllocator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFVideoSampleAllocator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideosampleallocator-allocatesample">AllocateSample</a>
-</td>
-<td align="left" width="63%">
-Gets a video sample from the allocator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideosampleallocator-initializesampleallocator">InitializeSampleAllocator</a>
-</td>
-<td align="left" width="63%">
-Specifies the number of samples to allocate and the media type for the samples.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideosampleallocator-setdirectxmanager">SetDirectXManager</a>
-</td>
-<td align="left" width="63%">
-Specifies the Direct3D device manager for the video media sink to use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideosampleallocator-uninitializesampleallocator">UninitializeSampleAllocator</a>
-</td>
-<td align="left" width="63%">
-Releases all of the video samples that have been allocated.
-
-</td>
-</tr>
-</table>
+The <b>IMFVideoSampleAllocator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoSampleAllocator</b> also has these types of members:
 
 ## -see-also
 

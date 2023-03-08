@@ -54,65 +54,10 @@ The <b>IETFilter</b> interface is exposed by the Encrypter/Tagger filter. Most a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IETFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IETFilter</b> also has these types of members:
+The <b>IETFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IETFilter</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IETFilter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-ietfilter-get_evalratobjok">get_EvalRatObjOK</a>
-</td>
-<td align="left" width="63%">
-Queries whether the <b>EvalRat</b> object was created successfully.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-ietfilter-getcurrlicenseexpdate">GetCurrLicenseExpDate</a>
-</td>
-<td align="left" width="63%">
-Not supported.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-ietfilter-getcurrrating">GetCurrRating</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current rating.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-ietfilter-getlasterrorcode">GetLastErrorCode</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-ietfilter-setrecordingon">SetRecordingOn</a>
-</td>
-<td align="left" width="63%">
-Signals to the Encrypter/Tagger filter that the Video Control is about to start or stop recording.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

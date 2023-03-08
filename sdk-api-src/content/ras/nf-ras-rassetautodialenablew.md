@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasSetAutodialEnableW
 title: RasSetAutodialEnableW function (ras.h)
-description: The RasSetAutodialEnable function enables or disables the AutoDial feature for a specified TAPI dialing location.
-helpviewer_keywords: ["RasSetAutodialEnable","RasSetAutodialEnable function [RAS]","RasSetAutodialEnableA","RasSetAutodialEnableW","_ras_rassetautodialenable","ras/RasSetAutodialEnable","ras/RasSetAutodialEnableA","ras/RasSetAutodialEnableW","rras.rassetautodialenable"]
+description: The RasSetAutodialEnable function enables or disables the AutoDial feature for a specified TAPI dialing location. (Unicode)
+helpviewer_keywords: ["RasSetAutodialEnable", "RasSetAutodialEnable function [RAS]", "RasSetAutodialEnableW", "_ras_rassetautodialenable", "ras/RasSetAutodialEnable", "ras/RasSetAutodialEnableW", "rras.rassetautodialenable"]
 old-location: rras\rassetautodialenable.htm
 tech.root: RRAS
 ms.assetid: 0d5f7b8e-9bce-4e72-8657-f465ce4008c4
@@ -57,11 +57,11 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Specifies the identifier of a TAPI dialing location.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies <b>TRUE</b> to enable AutoDial for the dialing location indicated by the <i>dwDialingLocation</i> parameter. Specifies <b>FALSE</b> to disable it.
 

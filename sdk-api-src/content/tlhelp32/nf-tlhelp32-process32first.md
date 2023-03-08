@@ -1,12 +1,12 @@
 ---
 UID: NF:tlhelp32.Process32First
 title: Process32First function (tlhelp32.h)
-description: Retrieves information about the first process encountered in a system snapshot.
+description: The Process32First function (tlhelp32.h) retrieves information about the first process encountered in a system snapshot.
 helpviewer_keywords: ["Process32First","Process32First function [ToolHelp]","Process32FirstW","_win32_process32first","base.process32first","tlhelp32/Process32First","tlhelp32/Process32FirstW","toolhelp.process32first"]
 old-location: toolhelp\process32first.htm
 tech.root: ToolHelp
 ms.assetid: 097790e8-30c2-4b00-9256-fa26e2ceb893
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: Process32First, Process32First function [ToolHelp], Process32FirstW, _win32_process32first, base.process32first, tlhelp32/Process32First, tlhelp32/Process32FirstW, toolhelp.process32first
 req.header: tlhelp32.h
 req.include-header: 

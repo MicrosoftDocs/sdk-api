@@ -56,83 +56,10 @@ This interface is an outgoing connection-point interface. To receive events from
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGuideDataEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGuideDataEvent</b> also has these types of members:
+The <b>IGuideDataEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGuideDataEvent</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IGuideDataEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedataevent-guidedataacquired">GuideDataAcquired</a>
-</td>
-<td align="left" width="63%">
-Called when a complete set of guide data has been acquired from the current transport stream. (Currently not supported.)
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedataevent-programchanged">ProgramChanged</a>
-</td>
-<td align="left" width="63%">
-Called when information about one or more programs has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedataevent-programdeleted">ProgramDeleted</a>
-</td>
-<td align="left" width="63%">
-Called when a program has been deleted. (Currently not supported.)
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedataevent-scheduledeleted">ScheduleDeleted</a>
-</td>
-<td align="left" width="63%">
-Called when a schedule entry has been deleted. (Currently not supported.)
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedataevent-scheduleentrychanged">ScheduleEntryChanged</a>
-</td>
-<td align="left" width="63%">
-Called when information about one or more schedule entries has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedataevent-servicechanged">ServiceChanged</a>
-</td>
-<td align="left" width="63%">
-Called when a service has been changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-iguidedataevent-servicedeleted">ServiceDeleted</a>
-</td>
-<td align="left" width="63%">
-Called when a service has been deleted. (Currently not supported.)
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

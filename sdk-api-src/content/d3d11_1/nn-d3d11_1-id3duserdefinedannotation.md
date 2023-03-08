@@ -55,56 +55,7 @@ The <b>ID3DUserDefinedAnnotation</b> interface enables an application to describ
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3DUserDefinedAnnotation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3DUserDefinedAnnotation</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3DUserDefinedAnnotation</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3duserdefinedannotation-beginevent">BeginEvent</a>
-</td>
-<td align="left" width="63%">
-Marks the beginning of a section of event code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3duserdefinedannotation-endevent">EndEvent</a>
-</td>
-<td align="left" width="63%">
-Marks the end of a section of event code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3duserdefinedannotation-getstatus">GetStatus</a>
-</td>
-<td align="left" width="63%">
-Determines whether the calling application is running under a Direct3D profiling tool.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3duserdefinedannotation-setmarker">SetMarker</a>
-</td>
-<td align="left" width="63%">
-Marks a single point of execution in code.
-
-</td>
-</tr>
-</table>
+The <b>ID3DUserDefinedAnnotation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3DUserDefinedAnnotation</b> also has these types of members:
 
 ## -remarks
 

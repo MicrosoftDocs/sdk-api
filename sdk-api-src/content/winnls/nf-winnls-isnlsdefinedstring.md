@@ -71,7 +71,7 @@ Flags defining the function. Must be 0.
 
 ### -param lpVersionInformation [in]
 
-Pointer to an <a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a> structure containing version information. Typically, the information is obtained by calling <a href="/windows/desktop/api/winnls/nf-winnls-getnlsversion">GetNLSVersion</a>. The application sets this parameter to <b>NULL</b> if the function is to use the current version.
+Pointer to an <a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo-r1">NLSVERSIONINFO</a> structure containing version information. Typically, the information is obtained by calling <a href="/windows/desktop/api/winnls/nf-winnls-getnlsversion">GetNLSVersion</a>. The application sets this parameter to <b>NULL</b> if the function is to use the current version.
 
 ### -param lpString [in]
 
@@ -113,7 +113,7 @@ For example, if <i>Function</i> is set to COMPARE_STRING, <b>IsNLSDefinedString<
 
 
 
-<a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a>
+<a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo-r1">NLSVERSIONINFO</a>
 
 
 

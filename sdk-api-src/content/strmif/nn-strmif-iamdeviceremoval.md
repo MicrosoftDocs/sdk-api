@@ -57,47 +57,7 @@ Applications typically do not use this interface, and third-party filters do not
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMDeviceRemoval</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMDeviceRemoval</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAMDeviceRemoval</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamdeviceremoval-deviceinfo">DeviceInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about the device
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamdeviceremoval-disassociate">Disassociate</a>
-</td>
-<td align="left" width="63%">
-Disassociates the KsProxy filter from the device by closing the device handle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamdeviceremoval-reassociate">Reassociate</a>
-</td>
-<td align="left" width="63%">
-Reassociates the KsProxy filter with the device.
-
-</td>
-</tr>
-</table>
+The <b>IAMDeviceRemoval</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMDeviceRemoval</b> also has these types of members:
 
 ## -see-also
 

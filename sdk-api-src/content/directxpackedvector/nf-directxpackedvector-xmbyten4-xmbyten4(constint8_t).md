@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/62d61a35-8674-4855-b09c-f351363cd50b">XMBYTEN4</a> from a four element <code>int8_t</code> array argument.
+Initializes a new instance of <a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmbyten4">XMBYTEN4</a> from a four element <code>int8_t</code> array argument.
 
-This constructor initializes a new instance of **XMBYTEN4** from a four element <code>int8_t</code>array argument.
+This constructor initializes a new instance of **XMBYTEN4** from a four element <code>int8_t</code> array argument.
 
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 

@@ -54,38 +54,20 @@ Retrieves the activity identifier associated with the current object context.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectContextActivity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectContextActivity</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IObjectContextActivity</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextactivity-getactivityid">GetActivityID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the GUID associated with the current activity.
-
-</td>
-</tr>
-</table>
+The <b>IObjectContextActivity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectContextActivity</b> also has these types of members:
 
 ## -remarks
 
 You obtain a reference to an object's <b>IObjectContextActivity</b> interface by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the object's context, as in the following example:
 
-<pre class="syntax" xml:space="preserve"><code>hr = m_pIObjectContext-&gt;QueryInterface(
+
+``` syntax
+hr = m_pIObjectContext-&gt;QueryInterface(
             IID_IObjectContextActivity, 
             (void**)&amp;m_pIObjectContextActivity);
-</code></pre>
+
+```
+
 
 ## -see-also
 

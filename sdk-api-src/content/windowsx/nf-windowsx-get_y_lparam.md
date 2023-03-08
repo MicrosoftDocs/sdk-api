@@ -47,35 +47,34 @@ api_name:
 
 # GET_Y_LPARAM macro
 
-
 ## -description
 
-Retrieves the 
-			signed y-coordinate from the given 
-			<b>LPARAM</b> value.
+Retrieves the signed y-coordinate from the given <b>LPARAM</b> value.
 
 ## -parameters
 
 ### -param lp
 
-The value to be converted.
+The data from which the y-coordinate is to be extracted.
+
+## -returns
+
+Type: <b>int</b>
+
+Y-coordinate.
+
+## -remarks
+
+Use <b>GET_Y_LPARAM</b> instead of <a href="/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)">HIWORD</a> to extract signed coordinate data. Negative screen coordinates may be returned on multiple monitor systems.
 
 ## -see-also
 
 <b>Conceptual</b>
 
-
-
 <a href="/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam">GET_X_LPARAM</a>
-
-
 
 <a href="/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)">HIWORD</a>
 
-
-
 <b>Reference</b>
-
-
 
 <a href="/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>

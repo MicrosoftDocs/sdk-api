@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>GetDeviceGammaRamp</b> function gets the <a href="/previous-versions/windows/desktop/wcs/g">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
+The <b>GetDeviceGammaRamp</b> function gets the [gamma ramp](/windows/win32/wcs/g) on direct color display boards having drivers that support downloadable gamma ramps in hardware.
 
 
 > [!IMPORTANT]
@@ -74,14 +74,20 @@ If this function succeeds, the return value is <b>TRUE</b>.
 
 If this function fails, the return value is <b>FALSE</b>.
 
+## Example
+
+```cpp
+WORD gArray[3][256];
+GetDeviceGammaRamp(handle, gArray);  
+// `handle` is the device context. See GetDC for more details.
+// `gArray` will hold the gamma array values in a 2-D array
+```
+
 ## -remarks
 
 Direct color display modes do not use color lookup tables and are usually 16, 24, or 32 bit. Not all direct color video boards support loadable gamma ramps. <b>GetDeviceGammaRamp</b> succeeds only for devices with drivers that support downloadable gamma ramps in hardware.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)

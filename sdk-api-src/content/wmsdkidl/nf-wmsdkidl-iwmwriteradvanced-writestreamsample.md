@@ -104,7 +104,7 @@ The <b>WriteStreamSample</b> method writes a stream sample directly into an ASF 
 
 ### -param pSample [in]
 
-Pointer to an <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface representing the sample.
+Pointer to an <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface representing the sample.
 
 ## -returns
 
@@ -164,7 +164,7 @@ You can use both <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-wr
 
 ## -see-also
 
-<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
 
 

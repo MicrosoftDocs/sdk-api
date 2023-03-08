@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasSetCredentialsW
 title: RasSetCredentialsW function (ras.h)
-description: Sets the user credentials associated with a specified RAS phone-book entry.
-helpviewer_keywords: ["RasSetCredentials","RasSetCredentials function [RAS]","RasSetCredentialsA","RasSetCredentialsW","_ras_rassetcredentials","ras/RasSetCredentials","ras/RasSetCredentialsA","ras/RasSetCredentialsW","rras.rassetcredentials"]
+description: Sets the user credentials associated with a specified RAS phone-book entry. (Unicode)
+helpviewer_keywords: ["RasSetCredentials", "RasSetCredentials function [RAS]", "RasSetCredentialsW", "_ras_rassetcredentials", "ras/RasSetCredentials", "ras/RasSetCredentialsW", "rras.rassetcredentials"]
 old-location: rras\rassetcredentials.htm
 tech.root: RRAS
 ms.assetid: 5ebfffb7-9158-4414-982c-e187600aa1ab
@@ -57,7 +57,7 @@ The <b>RasSetCredentials</b> function sets the
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to a null-terminated string that specifies the full path and file name of a phone-book 
       (PBK) file. If this parameter is <b>NULL</b>, the function uses the current 
@@ -65,11 +65,11 @@ A pointer to a null-terminated string that specifies the full path and file name
       <b>User Preferences</b> property sheet of the 
       <b>Dial-Up Networking</b> dialog box.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 A pointer to a null-terminated string that specifies the name of a phone-book entry.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a> structure that 
       specifies the user credentials to set for the specified phone-book entry. Before calling 
@@ -78,7 +78,7 @@ A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa376730(v=vs.
       <code>sizeof(RASCREDENTIALS)</code> and set the <b>dwMask</b> 
       member to indicate the credential information to be set.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 A value that specifies whether 
       <b>RasSetCredentials</b> clears existing credentials by 

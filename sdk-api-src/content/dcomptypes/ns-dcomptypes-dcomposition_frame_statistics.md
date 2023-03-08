@@ -1,5 +1,5 @@
 ---
-UID: NS:dcomptypes.__unnamed_struct_0
+UID: NS:dcomptypes.DCOMPOSITION_FRAME_STATISTICS
 title: DCOMPOSITION_FRAME_STATISTICS (dcomptypes.h)
 description: Describes timing and composition statistics for a frame.
 helpviewer_keywords: ["DCOMPOSITION_FRAME_STATISTICS","DCOMPOSITION_FRAME_STATISTICS structure [DirectComposition]","PDCOMPOSITION_FRAME_STATISTICS","PDCOMPOSITION_FRAME_STATISTICS structure pointer [DirectComposition]","dcomptypes/DCOMPOSITION_FRAME_STATISTICS","dcomptypes/PDCOMPOSITION_FRAME_STATISTICS","directcomp.dcomposition_frame_statistics"]
@@ -56,7 +56,7 @@ Describes timing and composition statistics for a frame.
 
 ### -field lastFrameTime
 
-Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a></b>
 
 The time stamp of the last batch of commands to be processed by the composition engine.
 
@@ -68,19 +68,19 @@ The rate at which the composition engine is producing frames, in frames per seco
 
 ### -field currentTime
 
-Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a></b>
 
 The current time as computed by the <a href="/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> function.
 
 ### -field timeFrequency
 
-Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a></b>
 
 The units in which the <b>lastFrameTime</b> and <b>currentTime</b> members are specified, in Hertz.
 
 ### -field nextEstimatedFrameTime
 
-Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a></b>
 
 The estimated time when the next frame will be displayed.
 
@@ -91,3 +91,4 @@ The <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-getframesta
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-getframestatistics">IDCompositionDevice::GetFrameStatistics</a>
+

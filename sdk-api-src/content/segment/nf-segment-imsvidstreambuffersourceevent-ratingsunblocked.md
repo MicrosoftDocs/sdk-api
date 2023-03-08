@@ -57,7 +57,7 @@ This topic applies to Windows XP Service Pack 1 or later.
 
 The <b>RatingsUnblocked</b> method is called when the object unblocks the stream. This event occurs only if a stream that was previously blocked is unblocked.
 
-## -parameters
+
 
 ## -returns
 

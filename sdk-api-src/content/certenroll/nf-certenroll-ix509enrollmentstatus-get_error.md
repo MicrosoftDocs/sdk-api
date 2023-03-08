@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.get_Error
 title: IX509EnrollmentStatus::get_Error (certenroll.h)
-description: Specifies and retrieves a value that identifies the error status of the certificate enrollment process.
+description: Specifies and retrieves a value that identifies the error status of the certificate enrollment process. (Get)
 helpviewer_keywords: ["Error property [Security]","Error property [Security]","IX509EnrollmentStatus interface","IX509EnrollmentStatus interface [Security]","Error property","IX509EnrollmentStatus.Error","IX509EnrollmentStatus.get_Error","IX509EnrollmentStatus::Error","IX509EnrollmentStatus::get_Error","IX509EnrollmentStatus::put_Error","certenroll/IX509EnrollmentStatus::Error","certenroll/IX509EnrollmentStatus::get_Error","certenroll/IX509EnrollmentStatus::put_Error","get_Error","security.ix509enrollmentstatus_error_property"]
 old-location: security\ix509enrollmentstatus_error_property.htm
 tech.root: security

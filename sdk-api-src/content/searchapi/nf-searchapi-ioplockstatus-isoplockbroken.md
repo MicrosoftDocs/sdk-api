@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.IOpLockStatus.IsOplockBroken
 title: IOpLockStatus::IsOplockBroken (searchapi.h)
-description: Checks the status of the opportunistic lock (OpLock) on the item being indexed.
+description: Checks the status of the opportunistic lock (OpLock) on the item being indexed. (IOpLockStatus.IsOplockBroken)
 helpviewer_keywords: ["IOpLockStatus interface [search]","IsOplockBroken method","IOpLockStatus.IsOplockBroken","IOpLockStatus::IsOplockBroken","IsOplockBroken","IsOplockBroken method [search]","IsOplockBroken method [search]","IOpLockStatus interface","_search_IOpLockStatus_IsOplockBroken","search._search_IOpLockStatus_IsOplockBroken","searchapi/IOpLockStatus::IsOplockBroken"]
 old-location: search\_search_IOpLockStatus_IsOplockBroken.htm
 tech.root: search

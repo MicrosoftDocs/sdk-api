@@ -54,65 +54,7 @@ Provides properties of signed messages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDSignatureProperty</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDSignatureProperty</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWSDSignatureProperty</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/dd379728(v=vs.85)">GetKeyInfo</a>
-</td>
-<td align="left" width="63%">
-Gets the subject key ID of the certificate for a signed message.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsignatureproperty-getsignature">GetSignature</a>
-</td>
-<td align="left" width="63%">
-Gets the signature of a message.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsignatureproperty-getsignedinfohash">GetSignedInfoHash</a>
-</td>
-<td align="left" width="63%">
-Gets the hash of a message signature.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsignatureproperty-ismessagesignaturetrusted">IsMessageSignatureTrusted</a>
-</td>
-<td align="left" width="63%">
-Specifies if a message signature is trusted.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsignatureproperty-ismessagesigned">IsMessageSigned</a>
-</td>
-<td align="left" width="63%">
-Specifies if a message is signed.
-
-</td>
-</tr>
-</table>
+The <b>IWSDSignatureProperty</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDSignatureProperty</b> also has these types of members:
 
 ## -remarks
 

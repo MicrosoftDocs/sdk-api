@@ -54,56 +54,10 @@ The <b>IWMPStringCollection2</b> interface provides methods that supplement the 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPStringCollection2</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection">IWMPStringCollection</a>. <b>IWMPStringCollection2</b> also has these types of members:
+The <b>IWMPStringCollection2</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection">IWMPStringCollection</a>. <b>IWMPStringCollection2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPStringCollection2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpstringcollection2-getattributecountbytype">getAttributeCountByType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of attributes associated with the specified string collection item index, attribute name, and language.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpstringcollection2-getiteminfo">getItemInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves the string corresponding to the specified string collection item index and name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpstringcollection2-getiteminfobytype">getItemInfoByType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the value corresponding to the specified string collection item index, name, language, and attribute index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpstringcollection2-isidentical">isIdentical</a>
-</td>
-<td align="left" width="63%">
-Retrieves a value indicating whether the supplied object is the same as the current one.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

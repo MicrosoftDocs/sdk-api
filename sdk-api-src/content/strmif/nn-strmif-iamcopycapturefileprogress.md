@@ -57,29 +57,7 @@ Because the <b>CopyCaptureFile</b> method can take a long time to complete, an a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMCopyCaptureFileProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMCopyCaptureFileProgress</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAMCopyCaptureFileProgress</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamcopycapturefileprogress-progress">Progress</a>
-</td>
-<td align="left" width="63%">
-Called periodically by the <a href="/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-copycapturefile">ICaptureGraphBuilder2::CopyCaptureFile</a> method during capture operations.
-
-</td>
-</tr>
-</table>
+The <b>IAMCopyCaptureFileProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMCopyCaptureFileProgress</b> also has these types of members:
 
 ## -remarks
 
@@ -87,13 +65,14 @@ To use this interface, implement a class that inherits the interface and impleme
 
 The following example shows a class that implements the interface:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
 <tr>
 <td>
-<pre>
+
+```
 class CProgress : public IAMCopyCaptureFileProgress 
 {
 public:
@@ -134,13 +113,13 @@ public:
         return S_OK;
     };
 };
-</pre>
+```
 </td>
 </tr>
 </table></span></div>
 The following example uses this class in the <b>CopyCaptureFile</b> method:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_CLIP_OPERATOR_DESC
 title: DML_ELEMENT_WISE_CLIP_OPERATOR_DESC
-description: Describes a DirectML math operator that performs the element-wise clip function f(x) = clamp(x * scale + bias, minValue, maxValue), where the scale and bias terms are optional, and where clamp(x) = min(maxValue, max(minValue, x)).
+description: Performs the following operation for each element of *InputTensor*, placing the result into the corresponding element of *OutputTensor*. This operator clamps (or limits) every element in the input within the closed interval [Min, Max].
 helpviewer_keywords: ["DML_ELEMENT_WISE_CLIP_OPERATOR_DESC","DML_ELEMENT_WISE_CLIP_OPERATOR_DESC structure","direct3d12.dml_element_wise_clip_operator_desc","directml/DML_ELEMENT_WISE_CLIP_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_clip_operator_desc.htm
 tech.root: directml
 ms.assetid: 980CC8B8-A0D8-40BB-8506-ECB8F9EFAB11
-ms.date: 12/5/2018
+ms.date: 01/19/2022
 ms.keywords: DML_ELEMENT_WISE_CLIP_OPERATOR_DESC, DML_ELEMENT_WISE_CLIP_OPERATOR_DESC structure, direct3d12.dml_element_wise_clip_operator_desc, directml/DML_ELEMENT_WISE_CLIP_OPERATOR_DESC
 req.header: directml.h
 req.include-header: 
@@ -45,43 +45,80 @@ api_name:
  - DML_ELEMENT_WISE_CLIP_OPERATOR_DESC
 ---
 
-# DML_ELEMENT_WISE_CLIP_OPERATOR_DESC structure
-
-
 ## -description
 
-Describes a DirectML math operator that performs the element-wise clip function f(x) = clamp(x * scale + bias, minValue, maxValue), where the scale and bias terms are optional, and where clamp(x) = min(maxValue, max(minValue, x)). This operator clamps (or limits) every element in the input within the closed interval [min, max].
+Performs the following operation for each element of *InputTensor*, placing the result into the corresponding element of *OutputTensor*. This operator clamps (or limits) every element in the input within the closed interval [Min, Max].
 
-This operator supports in-place execution, meaning the output tensor is permitted to alias the input tensor during binding.
+```
+f(x) = min(Max, max(Min, x))
+```
+
+Where max(a,b) returns the larger of the two values, and min(a,b) returns the smaller of the two values a,b.
+
+This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias *InputTensor* during binding.
 
 ## -struct-fields
 
 ### -field InputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to read from.
+The input tensor to read from.
 
 ### -field OutputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to.
+The output tensor to write the results to.
 
 ### -field ScaleBias
 
-Type: **const [DML_SCALE_BIAS](/windows/desktop/api/directml/ns-directml-dml_scale_bias)\***
+Type: \_Maybenull\_ **const [DML_SCALE_BIAS](/windows/win32/api/directml/ns-directml-dml_scale_bias)\***
 
-An optional pointer to a constant [DML_SCALE_BIAS](/windows/desktop/api/directml/ns-directml-dml_scale_bias) containing scale and bias to apply to the input. If present, this has the effect of applying the function g(x) = x * scale + bias to each element before this topic's operator is applied.
+An optional scale and bias to apply to the input. If present, this has the effect of applying the function `g(x) = x * scale + bias` to each *input* element prior to computing this operator.
 
 ### -field Min
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
-The minimum value, below which the operator replaces the value with <i>Min</i>. This is referred to as minValue in the operator description above in order not to confuse it with the min function.
+The minimum value, below which the operator replaces the value with *Min*.
 
 ### -field Max
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
-The maximum value, above which the operator replaces the value with <i>Max</i>. This is referred to as maxValue in the operator description above in order not to confuse it with the max function.
+The maximum value, above which the operator replaces the value with *Max*.
+
+## Remarks
+If the tensor data type is not **float**, then *Min* and *Max* are cast to the tensor data type before applying the clipping operation (which for integers means truncating toward zero; and for floating point values rounding to the nearest even).
+
+## Availability
+This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
+
+## Tensor constraints
+*InputTensor* and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
+
+## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+
+### DML_FEATURE_LEVEL_3_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+
+### DML_FEATURE_LEVEL_2_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 4 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+
+### DML_FEATURE_LEVEL_1_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 4 | FLOAT32, FLOAT16 |

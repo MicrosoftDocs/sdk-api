@@ -52,7 +52,7 @@ api_name:
 
 Returns the size of the render target in device pixels.
 
-## -parameters
+
 
 ## -returns
 

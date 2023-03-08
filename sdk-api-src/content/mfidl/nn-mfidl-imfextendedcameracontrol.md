@@ -2,7 +2,6 @@
 UID: NN:mfidl.IMFExtendedCameraControl
 title: IMFExtendedCameraControl
 ms.date: 1/23/2020
-ms.topic: language-reference
 targetos: Windows
 description: This interface is used to configure the capture device's extended properties.
 tech.root: mf
@@ -15,8 +14,8 @@ req.include-header:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.unicode-ansi: 
 topic_type:
@@ -70,7 +69,7 @@ These APIs configure the both the capture and sink side of the pipeline and put 
 
 Note that this functionality is an optional control for capture devices, so if the control is not available, the APIs above return an error.
 
-## -examples
+## Examples
 
 The following example demonstrates setting the [KSCAMERA_EXTENDEDPROP_VIDEOTORCH_ON](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-torchmode) flag and committing the setting.
 

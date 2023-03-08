@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - SetForegroundWindow
  - winuser/SetForegroundWindow
@@ -53,6 +53,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - SetForegroundWindow
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetForegroundWindow function
@@ -80,6 +81,7 @@ If the window was not brought to the foreground, the return value is zero.
 
 ## -remarks
 
+
 The system restricts which processes can set the foreground window. A process can set the foreground window by calling **SetForegroundWindow** only if:
 
 - All of the following conditions are true:
@@ -106,9 +108,11 @@ The foreground process can disable calls to <b>SetForegroundWindow</b> by callin
 
 [AllowSetForegroundWindow](nf-winuser-allowsetforegroundwindow.md)
 
+
 **Conceptual**
 
 [FlashWindowEx](nf-winuser-flashwindowex.md)
+
 
 [GetForegroundWindow](nf-winuser-getforegroundwindow.md)
 

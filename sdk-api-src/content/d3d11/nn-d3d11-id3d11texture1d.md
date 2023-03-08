@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11Texture1D
 title: ID3D11Texture1D (d3d11.h)
-description: A 1D texture interface accesses texel data, which is structured memory.
+description: A 1D texture interface accesses texel data, which is structured memory. (ID3D11Texture1D)
 helpviewer_keywords: ["94d3cca2-802d-74ee-453b-b41e259e8903","ID3D11Texture1D","ID3D11Texture1D interface [Direct3D 11]","ID3D11Texture1D interface [Direct3D 11]","described","d3d11/ID3D11Texture1D","direct3d11.id3d11texture1d"]
 old-location: direct3d11\id3d11texture1d.htm
 tech.root: direct3d11
@@ -55,29 +55,7 @@ A 1D texture interface accesses texel data, which is structured memory.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Texture1D</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>. <b>ID3D11Texture1D</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D11Texture1D</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11texture1d-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get the properties of the texture resource.
-
-</td>
-</tr>
-</table>
+The <b>ID3D11Texture1D</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>. <b>ID3D11Texture1D</b> also has these types of members:
 
 ## -remarks
 

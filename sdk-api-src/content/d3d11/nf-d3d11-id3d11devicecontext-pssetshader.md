@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.PSSetShader
 title: ID3D11DeviceContext::PSSetShader (d3d11.h)
-description: Sets a pixel shader to the device.
+description: Sets a pixel shader to the device. (ID3D11DeviceContext.PSSetShader)
 helpviewer_keywords: ["4cf3d515-f3f8-76b0-407a-e411a6589c75","ID3D11DeviceContext interface [Direct3D 11]","PSSetShader method","ID3D11DeviceContext.PSSetShader","ID3D11DeviceContext::PSSetShader","PSSetShader","PSSetShader method [Direct3D 11]","PSSetShader method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::PSSetShader","direct3d11.id3d11devicecontext_pssetshader"]
 old-location: direct3d11\id3d11devicecontext_pssetshader.htm
 tech.root: direct3d11

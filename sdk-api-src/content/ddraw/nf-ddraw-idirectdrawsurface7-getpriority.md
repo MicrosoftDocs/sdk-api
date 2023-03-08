@@ -50,7 +50,7 @@ Retrieves the texture-management priority for this texture. This method succeeds
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives the texture priority if the call succeeds.
 
@@ -68,7 +68,7 @@ Applications can set and retrieve priorities only for managed textures (those su
 
 <b>GetPriority</b> was introduced with the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface.
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetPriority</b> method.
+
 
 ## -see-also
 

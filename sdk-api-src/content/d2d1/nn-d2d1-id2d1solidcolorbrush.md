@@ -54,43 +54,16 @@ Paints an area with a solid color.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SolidColorBrush</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>. <b>ID2D1SolidColorBrush</b> also has these types of members:
+The <b>ID2D1SolidColorBrush</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>. <b>ID2D1SolidColorBrush</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID2D1SolidColorBrush</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1solidcolorbrush-getcolor">GetColor</a>
-</td>
-<td align="left" width="63%">
-Retrieves the color of the solid color brush.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/Direct2D/id2d1solidcolorbrush-setcolor">SetColor</a>
-</td>
-<td align="left" width="63%">Overloaded. Specifies the color of this solid color brush. 
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 
 <h3><a id="Creating_ID2D1SolidColorBrush_Objects"></a><a id="creating_id2d1solidcolorbrush_objects"></a><a id="CREATING_ID2D1SOLIDCOLORBRUSH_OBJECTS"></a>Creating ID2D1SolidColorBrush Objects</h3>
 
-To create a solid color brush, use the <a href="/windows/win32/api/d2d1/nf-d2d1-createsolidcolorbrush">ID2D1RenderTarget::CreateSolidColorBrush</a> method of the render target  on which the brush will be used. The brush can only be used with the render target that created it or with  the compatible targets for that render target.
+To create a solid color brush, use the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__id2d1solidcolorbrush)">ID2D1RenderTarget::CreateSolidColorBrush</a> method of the render target on which the brush will be used. The brush can only be used with the render target that created it or with the compatible targets for that render target.
 
 
 A solid color brush is a device-dependent resource. (For more information about resources, see <a href="/windows/win32/Direct2D/resources-and-resource-domains">Resources Overview</a>.)
@@ -98,7 +71,7 @@ A solid color brush is a device-dependent resource. (For more information about 
 
 ## Examples
 
-The following example uses the <a href="/windows/win32/api/d2d1/nf-d2d1-createsolidcolorbrush">CreateSolidColorBrush</a> method of a render target (<i>m_pRenderTarget</i>) to create two brushes. The example uses a predefined color (black) to specify the color of the first brush. It uses a hexadecimal color value (yellow) to specify the color of the second brush.
+The following example uses the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__id2d1solidcolorbrush)">CreateSolidColorBrush</a> method of a render target (<i>m_pRenderTarget</i>) to create two brushes. The example uses a predefined color (black) to specify the color of the first brush. It uses a hexadecimal color value (yellow) to specify the color of the second brush.
 
 
 

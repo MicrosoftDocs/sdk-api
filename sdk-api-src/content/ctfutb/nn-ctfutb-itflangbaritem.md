@@ -54,56 +54,7 @@ The <b>ITfLangBarItem</b> interface is implemented by a language bar item provid
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLangBarItem</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfLangBarItem</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getinfo">GetInfo</a>
-</td>
-<td align="left" width="63%">
-Obtains information about the language bar item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getstatus">GetStatus</a>
-</td>
-<td align="left" width="63%">
-Obtains the status of a language bar item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-gettooltipstring">GetTooltipString</a>
-</td>
-<td align="left" width="63%">
-Obtains the text to be displayed in the tooltip for the language bar item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-show">Show</a>
-</td>
-<td align="left" width="63%">
-Called to show or hide the language bar item.
-
-</td>
-</tr>
-</table>
+The <b>ITfLangBarItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLangBarItem</b> also has these types of members:
 
 ## -see-also
 

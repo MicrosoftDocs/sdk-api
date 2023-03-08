@@ -55,47 +55,7 @@ Enables specification of information for a compute-shader rendering pass.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ComputeInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1ComputeInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1ComputeInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1computeinfo-setcomputeshader">SetComputeShader</a>
-</td>
-<td align="left" width="63%">
-Sets the compute shader to the given shader resource.  The resource must be loaded before this call is made.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1computeinfo-setcomputeshaderconstantbuffer">SetComputeShaderConstantBuffer</a>
-</td>
-<td align="left" width="63%">
-Establishes or changes the constant buffer data for this transform.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1computeinfo-setresourcetexture">SetResourceTexture</a>
-</td>
-<td align="left" width="63%">
-Sets the resource texture corresponding to the given shader texture index to the given texture resource.
-
-</td>
-</tr>
-</table>
+The <b>ID2D1ComputeInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1ComputeInfo</b> also has these types of members:
 
 ## -remarks
 

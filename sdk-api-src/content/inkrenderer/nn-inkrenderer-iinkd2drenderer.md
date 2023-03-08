@@ -54,29 +54,7 @@ An <b>IInkD2DRenderer</b> object enables the rendering of ink strokes onto the d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkD2DRenderer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkD2DRenderer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IInkD2DRenderer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/inkrenderer/nf-inkrenderer-iinkd2drenderer-draw">Draw</a>
-</td>
-<td align="left" width="63%">
-Renders the ink stroke to the designated  Direct2D device context of the app.
-
-</td>
-</tr>
-</table>
+The <b>IInkD2DRenderer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkD2DRenderer</b> also has these types of members:
 
 ## -see-also
 
@@ -88,7 +66,6 @@ Renders the ink stroke to the designated  Direct2D device context of the app.
 
 
 
-<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 
@@ -98,6 +75,6 @@ Renders the ink stroke to the designated  Direct2D device context of the app.
 
 <b>Samples</b>
 
-
+<a href="https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex Ink sample</a>
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>

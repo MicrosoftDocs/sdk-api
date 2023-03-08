@@ -57,29 +57,7 @@ To use this interface, implement the <a href="/windows/desktop/api/evr/nn-evr-im
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTopologyServiceLookup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTopologyServiceLookup</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFTopologyServiceLookup</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr/nf-evr-imftopologyservicelookup-lookupservice">LookupService</a>
-</td>
-<td align="left" width="63%">
-Retrieves an interface from the EVR, or from the video mixer or video presenter.
-
-</td>
-</tr>
-</table>
+The <b>IMFTopologyServiceLookup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTopologyServiceLookup</b> also has these types of members:
 
 ## -see-also
 

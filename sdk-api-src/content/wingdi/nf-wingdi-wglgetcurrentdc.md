@@ -52,7 +52,7 @@ api_name:
 
 The <b>wglGetCurrentDC</b> function obtains a handle to the device context that is associated with the current OpenGL rendering context of the calling thread.
 
-## -parameters
+
 
 ## -returns
 

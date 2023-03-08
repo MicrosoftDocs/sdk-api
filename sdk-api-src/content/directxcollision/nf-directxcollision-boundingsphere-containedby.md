@@ -80,7 +80,7 @@ A plane describing the frustum.
 
 ## -returns
 
-A <a href="https://msdn.microsoft.com/edc456b5-2d68-4d4e-953b-6081ad7f663c">ContainmentType</a> value indicating whether the frustum contains the [BoundingSphere](./ns-directxcollision-boundingsphere.md).
+A <a href="/windows/win32/api/directxcollision/ne-directxcollision-containmenttype">ContainmentType</a> value indicating whether the frustum contains the [BoundingSphere](./ns-directxcollision-boundingsphere.md).
 
 ## -remarks
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock.GetAcceptExSockaddrs
 title: GetAcceptExSockaddrs function (winsock.h)
-description: Parses the data obtained from a call to the AcceptEx function and passes the local and remote addresses to a sockaddr structure.Note  This function is a Microsoft-specific extension to the Windows Sockets specification. .
+description: The GetAcceptExSockaddrs function (winsock.h) parses the data obtained from a call to the AcceptEx function and passes the local and remote addresses to a sockaddr structure.
 helpviewer_keywords: ["GetAcceptExSockaddrs","GetAcceptExSockaddrs function [Winsock]","_win32_getacceptexsockaddrs_2","winsock.getacceptexsockaddrs_2","winsock/GetAcceptExSockaddrs"]
 old-location: winsock\getacceptexsockaddrs_2.htm
 tech.root: WinSock
 ms.assetid: 381ba8ab-3c99-45c8-8895-4c87949f5238
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: GetAcceptExSockaddrs, GetAcceptExSockaddrs function [Winsock], _win32_getacceptexsockaddrs_2, winsock.getacceptexsockaddrs_2, winsock/GetAcceptExSockaddrs
 req.header: winsock.h
 req.include-header: Mswsock.h
@@ -62,12 +62,12 @@ The
 
 A pointer to a buffer that receives the first block of data sent on a connection resulting from an 
 <a href="/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a> call. Must be the same <i>lpOutputBuffer</i> parameter that was passed to the 
-<b>AcceptEx</b>function.
+<b>AcceptEx</b> function.
 
 ### -param dwReceiveDataLength [in]
 
 The number of bytes in the buffer used for receiving the first data. This value must be equal to the <i>dwReceiveDataLength</i> parameter that was passed to the 
-<a href="/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a>function.
+<a href="/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a> function.
 
 ### -param dwLocalAddressLength [in]
 

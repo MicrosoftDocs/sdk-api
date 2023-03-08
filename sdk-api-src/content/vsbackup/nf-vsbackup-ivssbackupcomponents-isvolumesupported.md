@@ -63,7 +63,7 @@ Provider identifier. If the value is GUID_NULL,
 
 ### -param pwszVolumeName [in]
 
-Volume name or UNC path of remote file share. The name or UNC path must be in one of the following formats and must include a trailing backslash (\): 
+Volume name or UNC path of remote file share. The name or UNC path must be in one of the following formats and must include a trailing backslash (\\): 
 
 
 

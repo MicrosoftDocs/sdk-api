@@ -62,7 +62,7 @@ Pointer to an application-defined callback function that will be called upon com
 
 ### -param CallbackContext
 
-Pointer to the callback context. This value will be passed to the function specified by <i>OOBECompletedCallback</i>. This value can be <b>nulll</b>.
+Pointer to the callback context. This value will be passed to the function specified by <i>OOBECompletedCallback</i>. This value can be <b>null</b>.
 
 ### -param WaitHandle
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PCLUSPROP_LARGE_INTEGER","CLUSPROP_LARGE_INTEGER","CLUSP
 old-location: mscs\clusprop_large_integer.htm
 tech.root: MsCS
 ms.assetid: 3e0849e6-3d93-47cb-858d-9891451b8dfd
-ms.date: 12/05/2018
+ms.date: 10/15/2020
 ms.keywords: '*PCLUSPROP_LARGE_INTEGER, CLUSPROP_LARGE_INTEGER, CLUSPROP_LARGE_INTEGER structure [Failover Cluster], PCLUSPROP_LARGE_INTEGER, PCLUSPROP_LARGE_INTEGER structure pointer [Failover Cluster], _wolf_clusprop_large_integer, clusapi/CLUSPROP_LARGE_INTEGER, clusapi/PCLUSPROP_LARGE_INTEGER, mscs.clusprop_large_integer'
 req.header: clusapi.h
 req.include-header: 
@@ -50,12 +50,9 @@ api_name:
 
 ## -description
 
-Describes 
-    a signed large integer. It is used as an entry in a <a href="/previous-versions/windows/desktop/mscs/value-lists">value list</a> 
-    and consists of:
+Describes a signed large integer. It is used as an entry in a <a href="/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists of:
 <ul>
-<li>A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure indicating the format 
-     and type of the integer value.</li>
+<li>A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure indicating the format and type of the integer value.</li>
 <li>Assigned large integer value.</li>
 </ul>
 
@@ -95,4 +92,4 @@ Use caution when referencing large integer values in <b>DWORD</b>-aligned struct
 
 
 
-<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>

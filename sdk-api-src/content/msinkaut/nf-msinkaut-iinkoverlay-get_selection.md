@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_Selection
 title: IInkOverlay::get_Selection (msinkaut.h)
-description: Gets or sets the InkStrokes collection that is currently selected inside the InkOverlay object or the InkPicture control.
+description: Gets or sets the InkStrokes collection that is currently selected inside the InkOverlay object or the InkPicture control. (Get)
 helpviewer_keywords: ["IInkOverlay interface [Tablet PC]","Selection property","IInkOverlay.Selection","IInkOverlay.get_Selection","IInkOverlay::Selection","IInkOverlay::get_Selection","IInkOverlay::put_Selection","InkOverlay.get_Selection","InkOverlay.put_Selection","Selection property [Tablet PC]","Selection property [Tablet PC]","IInkOverlay interface","fed95f40-d0c4-43a3-9d15-ce9d4d573b5c","get_Selection","msinkaut/IInkOverlay::Selection","msinkaut/IInkOverlay::get_Selection","msinkaut/IInkOverlay::put_Selection","tablet.inkoverlay_selection"]
 old-location: tablet\inkoverlay_selection.htm
 tech.root: tablet
@@ -73,7 +73,7 @@ To get the bounding rectangle of the <a href="/previous-versions/windows/desktop
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 

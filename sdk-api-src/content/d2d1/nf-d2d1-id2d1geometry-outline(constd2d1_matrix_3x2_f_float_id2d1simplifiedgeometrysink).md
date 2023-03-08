@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.Outline(constD2D1_MATRIX_3X2_F,FLOAT,ID2D1SimplifiedGeometrySink)
 title: ID2D1Geometry::Outline (d2d1.h)
-description: Computes the outline of the geometry and writes the result to an ID2D1SimplifiedGeometrySink.
+description: Computes the outline of the geometry and writes the result to an ID2D1SimplifiedGeometrySink. (overload 1/4)
 helpviewer_keywords: ["ID2D1Geometry interface [Direct2D]","Outline method","ID2D1Geometry.Outline","ID2D1Geometry::Outline","ID2D1Geometry::Outline(const D2D1_MATRIX_3X2_F","FLOAT","ID2D1SimplifiedGeometrySink)","Outline","Outline method [Direct2D]","Outline method [Direct2D]","ID2D1Geometry interface","d2d1/ID2D1Geometry::Outline","direct2d.ID2D1Geometry_Outline_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1SimplifiedGeometrySink"]
 old-location: direct2d\ID2D1Geometry_Outline_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1SimplifiedGeometrySink.htm
 tech.root: Direct2D
@@ -76,7 +76,7 @@ The <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1S
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -remarks
 

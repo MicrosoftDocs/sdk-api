@@ -1,12 +1,12 @@
 ---
 UID: NN:msp.ITMSPAddress
 title: ITMSPAddress (msp.h)
-description: The ITMSPAddress interface is implemented by the MSP and represents a media service provider to the TAPI DLL. It is not exposed to end-user or server applications. TAPI 3 will call CoCreateInstance on this interface to create the MSP object.
+description: The ITMSPAddress (msp.h) interface is implemented by the MSP and represents a media service provider to the TAPI DLL.
 helpviewer_keywords: ["ITMSPAddress","ITMSPAddress interface [TAPI 2.2]","ITMSPAddress interface [TAPI 2.2]","described","_tapi3_itmspaddress","msp/ITMSPAddress","tapi3.itmspaddress"]
 old-location: tapi3\itmspaddress.htm
 tech.root: tapi3
 ms.assetid: 246a0bcd-0dbb-4b77-a1cd-e6378eaff889
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: ITMSPAddress, ITMSPAddress interface [TAPI 2.2], ITMSPAddress interface [TAPI 2.2],described, _tapi3_itmspaddress, msp/ITMSPAddress, tapi3.itmspaddress
 req.header: msp.h
 req.include-header: Tapi3.h
@@ -55,75 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMSPAddress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITMSPAddress</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITMSPAddress</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>
-</td>
-<td align="left" width="63%">
-Create an 
-<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a> object representing a new TAPI call.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">GetEvent</a>
-</td>
-<td align="left" width="63%">
-Gets event information.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Called when the MSP is loaded.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-receivetspdata">ReceiveTSPData</a>
-</td>
-<td align="left" width="63%">
-Called when the TSP sends asynchronous data to the MSP.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-shutdown">Shutdown</a>
-</td>
-<td align="left" width="63%">
-Called when the MSP is unloaded.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-shutdownmspcall">ShutdownMSPCall</a>
-</td>
-<td align="left" width="63%">
-Called when the call is being disconnected.
-
-</td>
-</tr>
-</table>
+The <b>ITMSPAddress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITMSPAddress</b> also has these types of members:
 
 ## -see-also
 

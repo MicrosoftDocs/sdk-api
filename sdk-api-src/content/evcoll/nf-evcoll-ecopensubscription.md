@@ -68,7 +68,7 @@ A value specifying whether a new or existing subscription will be opened. Use th
 
 ## -returns
 
-If the function succeeds, it returns an handle (<a href="/windows/desktop/WEC/windows-event-collector-data-types">EC_HANDLE</a>) to a new subscription object. Returns <b>NULL</b> otherwise, in which case use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to obtain the error code.
+If the function succeeds, it returns a handle (<a href="/windows/desktop/WEC/windows-event-collector-data-types">EC_HANDLE</a>) to a new subscription object. Returns <b>NULL</b> otherwise, in which case use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to obtain the error code.
 
 ## -see-also
 

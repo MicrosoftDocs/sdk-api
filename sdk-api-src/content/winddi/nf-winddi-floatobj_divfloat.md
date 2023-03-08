@@ -54,11 +54,11 @@ The <b>FLOATOBJ_DivFloat</b> function divides the <a href="/windows/desktop/api/
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the quotient of *<i>pf</i> divided by <i>f</i>.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies the FLOATL operand. This value is converted to a FLOATOBJ for the division.
 

@@ -62,6 +62,6 @@ A handle to the list-view control.
 
 ### -param prc
 
-Type: <b><a href="/previous-versions/dd162897(v=vs.85)">RECT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>*</b>
 
-A pointer to a <a href="/previous-versions/dd162897(v=vs.85)">RECT</a> structure that receives the bounding rectangle. All coordinates are relative to the visible area of the list-view control.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that receives the bounding rectangle. All coordinates are relative to the visible area of the list-view control.

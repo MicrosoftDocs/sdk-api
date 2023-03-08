@@ -56,29 +56,7 @@ The Text Services control panel application obtains an instance of this interfac
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnConfigure</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnConfigure</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfFnConfigure</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnconfigure-show">Show</a>
-</td>
-<td align="left" width="63%">
-Called when the user opens the Text Services control panel application, selects the text service from the list and presses the Properties pushbutton.
-
-</td>
-</tr>
-</table>
+The <b>ITfFnConfigure</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnConfigure</b> also has these types of members:
 
 ## -see-also
 

@@ -54,38 +54,7 @@ Offers base functionality that allows for a consistent way to monitor the validi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12ProtectedSession</b> interface inherits from <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a>. <b>ID3D12ProtectedSession</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D12ProtectedSession</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d3d12/nf-d3d12-id3d12protectedsession-getsessionstatus">GetSessionStatus</a>
-</td>
-<td align="left" width="63%">
-Gets the status of the protected session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/mmc/nf-mmc-iconsole-settoolbar">GetStatusFence</a>
-</td>
-<td align="left" width="63%">
-Retrieves the fence for the protected session. From the fence, you can retrieve the current uniqueness validity value (using <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue">ID3D12Fence::GetCompletedValue</a>), and add monitors for changes to its value. This is a read-only fence.
-
-</td>
-</tr>
-</table>
+The <b>ID3D12ProtectedSession</b> interface inherits from <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a>. <b>ID3D12ProtectedSession</b> also has these types of members:
 
 ## -see-also
 

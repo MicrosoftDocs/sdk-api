@@ -53,7 +53,7 @@ api_name:
 
 Returns the result of the asynchronous operation. The return value is E_PENDING if the operation has not yet completed.
 
-## -parameters
+
 
 ## -returns
 

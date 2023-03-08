@@ -43,6 +43,7 @@ api_location:
  - Ole32.dll
 api_name:
  - CoFileTimeToDosDateTime
+req.apiset: ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.15063)
 ---
 
 # CoFileTimeToDosDateTime function

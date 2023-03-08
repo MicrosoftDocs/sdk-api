@@ -54,65 +54,7 @@ Exposes methods that simplify the process of retrieving information stored in th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryAssociations</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryAssociations</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IQueryAssociations</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getdata">GetData</a>
-</td>
-<td align="left" width="63%">
-Searches for and retrieves file or protocol association-related binary data from the registry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getenum">GetEnum</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getkey">GetKey</a>
-</td>
-<td align="left" width="63%">
-Searches for and retrieves a file or protocol association-related key from the registry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getstring">GetString</a>
-</td>
-<td align="left" width="63%">
-Searches for and retrieves a file or protocol association-related string from the registry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-init">Init</a>
-</td>
-<td align="left" width="63%">
-Initializes the <b>IQueryAssociations</b> interface and sets the root key to the appropriate ProgID.
-
-</td>
-</tr>
-</table>
+The <b>IQueryAssociations</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryAssociations</b> also has these types of members:
 
 ## -remarks
 

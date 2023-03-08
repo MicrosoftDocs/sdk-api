@@ -66,11 +66,11 @@ Specifies the Winlogon handle passed to GINA in the
 
 Points to a structure that will contain the user configuration information specific to Terminal Services.
 
-### -param *UserName [in]
+### -param UserName [in]
 
 Pointer to a null-terminated wide character string that specifies the name of the newly logged-on user.
 
-### -param *Domain [in]
+### -param Domain [in]
 
 Pointer to a null-terminated wide character string that specifies the newly logged-on user's domain.
 

@@ -54,26 +54,5 @@ Retrieves properties describing the Transaction Internet Protocol (TIP) transact
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectContextTip</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectContextTip</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IObjectContextTip</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectContextTip</b> also has these types of members:
 
-## -members
-
-The <b>IObjectContextTip</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontexttip-gettipurl">GetTipUrl</a>
-</td>
-<td align="left" width="63%">
-Retrieves the URL of the TIP context.
-
-</td>
-</tr>
-</table>

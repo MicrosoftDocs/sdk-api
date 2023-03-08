@@ -54,19 +54,19 @@ Modifies how the final inertia end position is calculated.
 
 ## -enum-fields
 
-### -field DIRECTMANIPULATION_SNAPPOINT_MANDATORY
+### -field DIRECTMANIPULATION_SNAPPOINT_MANDATORY:0
 
 Content always stops at the snap point closest to where inertia would naturally stop along the direction of inertia.
 
-### -field DIRECTMANIPULATION_SNAPPOINT_OPTIONAL
+### -field DIRECTMANIPULATION_SNAPPOINT_OPTIONAL:1
 
 Content stops at a snap point closest to where inertia would naturally stop along the direction of inertia, depending on how close the snap point is.
 
-### -field DIRECTMANIPULATION_SNAPPOINT_MANDATORY_SINGLE
+### -field DIRECTMANIPULATION_SNAPPOINT_MANDATORY_SINGLE:2
 
 Content always stops at the snap point closest to the release point along the direction of inertia.
 
-### -field DIRECTMANIPULATION_SNAPPOINT_OPTIONAL_SINGLE
+### -field DIRECTMANIPULATION_SNAPPOINT_OPTIONAL_SINGLE:3
 
 Content stops at the next snap point, if the motion starts far from it.
 

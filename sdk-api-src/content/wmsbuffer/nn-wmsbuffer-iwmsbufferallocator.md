@@ -57,38 +57,10 @@ The <b>IWMSSBufferAllocator</b> interface provides methods for allocating a buff
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSBufferAllocator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMSBufferAllocator</b> also has these types of members:
+The <b>IWMSBufferAllocator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMSBufferAllocator</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMSBufferAllocator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-iwmsbufferallocator-allocatebuffer">AllocateBuffer</a>
-</td>
-<td align="left" width="63%">
-Initializes a buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-iwmsbufferallocator-allocatepagesizebuffer">AllocatePageSizeBuffer</a>
-</td>
-<td align="left" width="63%">
-Initializes a buffer that can be used to perform page-aligned reads.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

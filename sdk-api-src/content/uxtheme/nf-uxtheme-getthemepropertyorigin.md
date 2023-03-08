@@ -78,7 +78,7 @@ Type: <b>int</b>
 
 Value of type <b>int</b> that specifies the property to retrieve. You may use any of the property values from Vssym32.h. These values are described in the reference pages for the functions that use them. For instance, the <a href="/windows/desktop/api/uxtheme/nf-uxtheme-getthemeint">GetThemeInt</a> function uses the TMT_BORDERSIZE value. See the <a href="/windows/desktop/Controls/uxctl-ref">Visual Styles Reference</a> for a list of functions.
 
-### -param arg5 [out]
+### -param unnamedParam5 [out]
 
 Type: <b><a href="/windows/desktop/api/uxtheme/ne-uxtheme-propertyorigin">PROPERTYORIGIN</a>*</b>
 
@@ -88,7 +88,7 @@ Pointer to a <a href="/windows/desktop/api/uxtheme/ne-uxtheme-propertyorigin">PR
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

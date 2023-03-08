@@ -4,7 +4,7 @@ title: Iphlpapi.h header
 ms.assetid: 7576ad9b-d288-3512-965c-f5d418dd3f3f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: iphlp
 f1_keywords:
  - iphlpapi
@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by IP Helper. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [IP Helper](../_iphlp/index.md)
+- [The Windows Shell](../_shell/index.md)
 

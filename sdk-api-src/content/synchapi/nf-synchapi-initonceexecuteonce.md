@@ -4,12 +4,12 @@ title: InitOnceExecuteOnce function (synchapi.h)
 description: Executes the specified function successfully one time. No other threads that specify the same one-time initialization structure can execute the specified function while it is being executed by the current thread.
 helpviewer_keywords: ["InitOnceExecuteOnce","InitOnceExecuteOnce function","base.initonceexecuteonce","synchapi/InitOnceExecuteOnce","winbase/InitOnceExecuteOnce"]
 old-location: base\initonceexecuteonce.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 04c161ed-d1b0-4995-b246-cb64cb67ae47
 ms.date: 12/05/2018
 ms.keywords: InitOnceExecuteOnce, InitOnceExecuteOnce function, base.initonceexecuteonce, synchapi/InitOnceExecuteOnce, winbase/InitOnceExecuteOnce
 req.header: synchapi.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
@@ -73,7 +73,7 @@ A parameter to be passed to the callback function.
 
 ### -param Context [in, out, optional]
 
-A parameter that receives data stored with the one-time initialization structure upon success. The low-order <b>INIT_ONCE_CTX_RESERVED_BITS</b> bits of the data are always zero.
+A parameter that receives data stored with the one-time initialization structure upon success. The low-order <b>INIT_ONCE_CTX_RESERVED_BITS</b> bits of the data are always zero. If <i>Context</i> points to a data structure, the data structure must be <b>DWORD</b>-aligned. <i>Context</i> must not be a code pointer on Arm32, because Arm32 code pointers always have the least significant bit set, see the <a href="/cpp/build/overview-of-arm-abi-conventions?view=msvc-170#instruction-set">Arm32 ABI</a> for details.
 
 ## -returns
 

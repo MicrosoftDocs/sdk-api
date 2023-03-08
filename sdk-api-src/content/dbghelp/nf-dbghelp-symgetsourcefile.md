@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymGetSourceFile
 title: SymGetSourceFile function (dbghelp.h)
-description: Retrieves the specified source file from the source server.
+description: The SymGetSourceFile function (dbghelp.h) retrieves the specified source file from the source server.
 helpviewer_keywords: ["SymGetSourceFile","SymGetSourceFile function","SymGetSourceFileW","base.symgetsourcefile","dbghelp/SymGetSourceFile","dbghelp/SymGetSourceFileW"]
 old-location: base\symgetsourcefile.htm
 tech.root: Debug
 ms.assetid: 1d2115fb-2725-4fae-abb7-ff1b8a802c69
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymGetSourceFile, SymGetSourceFile function, SymGetSourceFileW, base.symgetsourcefile, dbghelp/SymGetSourceFile, dbghelp/SymGetSourceFileW
 req.header: dbghelp.h
 req.include-header: 

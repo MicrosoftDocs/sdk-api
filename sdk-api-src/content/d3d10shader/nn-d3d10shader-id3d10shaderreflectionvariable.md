@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10shader.ID3D10ShaderReflectionVariable
 title: ID3D10ShaderReflectionVariable (d3d10shader.h)
-description: This shader-reflection interface provides access to a variable.
+description: This shader-reflection interface provides access to a variable. (ID3D10ShaderReflectionVariable)
 helpviewer_keywords: ["ID3D10ShaderReflectionVariable","ID3D10ShaderReflectionVariable interface [Direct3D 10]","ID3D10ShaderReflectionVariable interface [Direct3D 10]","described","d3d10shader/ID3D10ShaderReflectionVariable","direct3d10.id3d10shaderreflectionvariable","e8b67520-bfa7-7e41-f594-a51d5ad0301e"]
 old-location: direct3d10\id3d10shaderreflectionvariable.htm
 tech.root: direct3d10
@@ -55,38 +55,10 @@ This shader-reflection interface provides access to a variable.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10ShaderReflectionVariable</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10ShaderReflectionVariable</b> also has these types of members:
+The <b>ID3D10ShaderReflectionVariable</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10ShaderReflectionVariable</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID3D10ShaderReflectionVariable</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectionvariable-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get a shader-variable description.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectionvariable-gettype">GetType</a>
-</td>
-<td align="left" width="63%">
-Get a shader-variable type.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

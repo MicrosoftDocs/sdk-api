@@ -1,17 +1,14 @@
 ---
 UID: NF:synchapi.EnterCriticalSection
 title: EnterCriticalSection function (synchapi.h)
-author: windows-sdk-content
 description: Waits for ownership of the specified critical section object. The function returns when the calling thread is granted ownership.
 old-location: base\entercriticalsection.htm
-tech.root: Sync
+tech.root: base
 ms.assetid: bb307b7a-66fc-4d19-b774-deca8bf90492
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnterCriticalSection, EnterCriticalSection function, _win32_entercriticalsection, base.entercriticalsection, synchapi/EnterCriticalSection, winbase/EnterCriticalSection
-ms.topic: function
 req.header: synchapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -27,7 +24,6 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -70,7 +66,7 @@ A pointer to the critical section object.
 
 This function does not return a value.
 
-This function can raise <b>EXCEPTION_POSSIBLE_DEADLOCK</b> if a wait operation on the critical section times out. The timeout interval is specified by the following registry value: <b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager</b>&#92;<b>CriticalSectionTimeout</b>. Do not handle a possible deadlock exception; instead, debug the application.
+This function can raise <b>EXCEPTION_POSSIBLE_DEADLOCK</b>, also known as <b>STATUS_POSSIBLE_DEADLOCK</b>, if a wait operation on the critical section times out. The timeout interval is specified by the following registry value: <b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager</b>&#92;<b>CriticalSectionTimeout</b>. Do not handle a possible deadlock exception; instead, debug the application.
 
 ## -remarks
 

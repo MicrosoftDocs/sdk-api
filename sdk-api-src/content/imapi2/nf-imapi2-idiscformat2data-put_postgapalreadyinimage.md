@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_PostgapAlreadyInImage
 title: IDiscFormat2Data::put_PostgapAlreadyInImage (imapi2.h)
-description: Determines if the data stream contains post-writing gaps.
+description: Determines if the data stream contains post-writing gaps. (Put)
 helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","put_PostgapAlreadyInImage method","IDiscFormat2Data.put_PostgapAlreadyInImage","IDiscFormat2Data::put_PostgapAlreadyInImage","imapi.idiscformat2data_put_postgapalreadyinimage","imapi2/IDiscFormat2Data::put_PostgapAlreadyInImage","put_PostgapAlreadyInImage","put_PostgapAlreadyInImage method [IMAPI]","put_PostgapAlreadyInImage method [IMAPI]","IDiscFormat2Data interface"]
 old-location: imapi\idiscformat2data_put_postgapalreadyinimage.htm
 tech.root: imapi

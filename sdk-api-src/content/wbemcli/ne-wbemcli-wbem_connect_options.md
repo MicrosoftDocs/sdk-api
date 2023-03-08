@@ -41,7 +41,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - WBEM_CONNECT_OPTIONS
 ---
@@ -55,14 +54,14 @@ Contains flags for the <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemloc
 
 ## -enum-fields
 
-### -field WBEM_FLAG_CONNECT_REPOSITORY_ONLY
+### -field WBEM_FLAG_CONNECT_REPOSITORY_ONLY:0x40
 
 Reserved for internal use. Do not use.
 
-### -field WBEM_FLAG_CONNECT_USE_MAX_WAIT
+### -field WBEM_FLAG_CONNECT_USE_MAX_WAIT:0x80
 
 The call  returns in 2 minutes or less whether successful or not.
 
-### -field WBEM_FLAG_CONNECT_PROVIDERS
+### -field WBEM_FLAG_CONNECT_PROVIDERS:0x100
 
 TBD

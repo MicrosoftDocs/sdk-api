@@ -43,6 +43,7 @@ api_location:
  - User32.dll
 api_name:
  - DrawIcon
+req.apiset: ext-ms-win-ntuser-gui-l1-3-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DrawIcon function

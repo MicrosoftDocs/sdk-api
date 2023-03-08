@@ -56,7 +56,7 @@ The <b>EAP_METHOD_PROPERTY_VALUE_TYPE</b> enumeration defines the set of possibl
 
 ## -enum-fields
 
-### -field empvtBool
+### -field empvtBool:0
 
 The method property value is of type <b>BOOL</b>.
 

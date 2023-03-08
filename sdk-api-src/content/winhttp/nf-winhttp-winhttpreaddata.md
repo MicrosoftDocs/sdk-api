@@ -53,6 +53,8 @@ api_name:
 The <b>WinHttpReadData</b> function reads data from a handle opened by the 
 <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a> function.
 
+Also see [WinHttpReadDataEx](nf-winhttp-winhttpreaddataex.md).
+
 ## -parameters
 
 ### -param hRequest [in]
@@ -214,7 +216,7 @@ If a status callback function has been installed by using <a href="/windows/desk
 <li>WINHTTP_CALLBACK_STATUS_CONNECTION_CLOSED</li>
 <li>WINHTTP_CALLBACK_STATUS_READ_COMPLETE</li>
 </ul>
-<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
+<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="/windows/win32/winhttp/winhttp-start-page#run-time-requirements">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
 
 #### Examples

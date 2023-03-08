@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Records dispatches of DirectML work into a Direct3D 12 command list. The **IDMLCommandRecorder** interface inherits from [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild).
+Records dispatches of DirectML work into a Direct3D 12 command list. The **IDMLCommandRecorder** interface inherits from [IDMLDeviceChild](/windows/win32/api/directml/nn-directml-idmldevicechild).
 
 The command recorder is a stateless object whose purpose is to record commands into a Direct3D 12 command list. DirectML
     doesn't create command lists, command allocators, nor command queues; nor does it directly submit any work for
@@ -62,5 +62,4 @@ This object is thread-safe.
 
 ## -see-also
 
-[IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild)
-
+[IDMLDeviceChild](/windows/win32/api/directml/nn-directml-idmldevicechild)

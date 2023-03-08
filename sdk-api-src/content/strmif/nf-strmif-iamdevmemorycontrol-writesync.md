@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 Used to synchronize with the completed write. This method returns when any data being written to the particular allocator region is fully written into the memory.
 
-## -parameters
+
 
 ## -returns
 

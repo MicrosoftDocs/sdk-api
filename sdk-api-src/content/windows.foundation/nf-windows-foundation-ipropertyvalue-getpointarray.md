@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetPointArray
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetPointArray (windows.foundation.h)
 description: Gets the array of Point values that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetPointArray","GetPointArray method [Windows Runtime]","GetPointArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetPointArray method","IPropertyValue.GetPointArray","IPropertyValue.IPropertyValue","IPropertyValue::GetPointArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetPointArray","winrt.ipropertyvalue_getpointarray"]
 old-location: winrt\ipropertyvalue_getpointarray.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetPointArray
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetPointArray (windows.foundation.h)
 
 
 ## -description
@@ -72,7 +72,7 @@ The returned pointer must be freed using <a href="/windows/desktop/api/combaseap
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:winnt._ULARGE_INTEGER~r1
 title: ULARGE_INTEGER
-ms.date: 01/30/19
+description: The ULARGE_INTEGER structure represents a 64-bit unsigned integer value. (ULARGE_INTEGER union (winnt.h))
+ms.date: 08/03/2022
 ms.keywords: _ULARGE_INTEGER, ULARGE_INTEGER
 targetos: Windows
 req.construct-type: structure
@@ -13,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: ULARGE_INTEGER
 req.umdf-ver: 
@@ -71,6 +72,6 @@ The <b>ULARGE_INTEGER</b> structure is actually a union. If your compiler has bu
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
-<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>

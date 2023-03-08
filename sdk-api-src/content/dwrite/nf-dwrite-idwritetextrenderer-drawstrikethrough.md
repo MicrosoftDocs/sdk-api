@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteTextRenderer.DrawStrikethrough
 title: IDWriteTextRenderer::DrawStrikethrough (dwrite.h)
-description: IDWriteTextLayout::Draw calls this function to instruct the client to draw a strikethrough.
+description: IDWriteTextLayout::Draw calls this function to instruct the client to draw a strikethrough. (IDWriteTextRenderer.DrawStrikethrough)
 helpviewer_keywords: ["DrawStrikethrough","DrawStrikethrough method [Direct Write]","DrawStrikethrough method [Direct Write]","IDWriteTextRenderer interface","IDWriteTextRenderer interface [Direct Write]","DrawStrikethrough method","IDWriteTextRenderer.DrawStrikethrough","IDWriteTextRenderer::DrawStrikethrough","directwrite.IDWriteTextRenderer_DrawStrikethrough","dwrite/IDWriteTextRenderer::DrawStrikethrough"]
 old-location: directwrite\IDWriteTextRenderer_DrawStrikethrough.htm
 tech.root: DirectWrite
@@ -90,7 +90,7 @@ Application-defined effect to apply to the strikethrough.  Usually this argument
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokes.ScaleTransform
 title: IInkStrokes::ScaleTransform (msinkaut.h)
-description: Applies the specified horizontal and vertical factors to the transform or ink.
+description: Applies the specified horizontal and vertical factors to the transform or ink. (IInkStrokes.ScaleTransform)
 helpviewer_keywords: ["IInkStrokes interface [Tablet PC]","ScaleTransform method","IInkStrokes.ScaleTransform","IInkStrokes::ScaleTransform","ScaleTransform","ScaleTransform method [Tablet PC]","ScaleTransform method [Tablet PC]","IInkStrokes interface","a4140abe-adc8-492d-bb8c-96fba5ca3bd0","msinkaut/IInkStrokes::ScaleTransform","tablet.inkstrokes_scaletransform"]
 old-location: tablet\inkstrokes_scaletransform.htm
 tech.root: tablet
@@ -102,7 +102,7 @@ For the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkS
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
+<a href="../msinkaut/nn-msinkaut-iinkstrokes.md">IInkStrokes</a>
 
 
 

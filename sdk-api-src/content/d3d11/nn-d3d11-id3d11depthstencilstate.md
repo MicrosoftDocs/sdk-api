@@ -55,29 +55,7 @@ The depth-stencil-state interface holds a description for depth-stencil state th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11DepthStencilState</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11DepthStencilState</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D11DepthStencilState</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11depthstencilstate-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Gets the description for depth-stencil state that you used to create the depth-stencil-state object.
-
-</td>
-</tr>
-</table>
+The <b>ID3D11DepthStencilState</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11DepthStencilState</b> also has these types of members:
 
 ## -remarks
 

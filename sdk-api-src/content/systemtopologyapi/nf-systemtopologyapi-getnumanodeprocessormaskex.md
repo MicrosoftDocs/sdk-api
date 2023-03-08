@@ -4,9 +4,9 @@ title: GetNumaNodeProcessorMaskEx function (systemtopologyapi.h)
 description: Retrieves the processor mask for a node regardless of the processor group the node belongs to.
 helpviewer_keywords: ["GetNumaNodeProcessorMaskEx","GetNumaNodeProcessorMaskEx function","base.getnumanodeprocessormaskex","systemtopologyapi/GetNumaNodeProcessorMaskEx","winbase/GetNumaNodeProcessorMaskEx"]
 old-location: base\getnumanodeprocessormaskex.htm
-tech.root: backup
+tech.root: ProcThread
 ms.assetid: 4baf7193-aab3-4bd0-bc0a-60fd9277fc72
-ms.date: 12/05/2018
+ms.date: 03/15/2021
 ms.keywords: GetNumaNodeProcessorMaskEx, GetNumaNodeProcessorMaskEx function, base.getnumanodeprocessormaskex, systemtopologyapi/GetNumaNodeProcessorMaskEx, winbase/GetNumaNodeProcessorMaskEx
 req.header: systemtopologyapi.h
 req.include-header: Windows.h
@@ -85,6 +85,18 @@ To ensure that all threads for your process run on the same node, use the
 <a href="/windows/desktop/api/winbase/nf-winbase-setprocessaffinitymask">SetProcessAffinityMask</a> function with a process affinity mask that specifies processors in the same node.
 
 To compile an application that uses this function, set <b>_WIN32_WINNT</b> &gt;= 0x0601. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+
+
+> [!NOTE]
+> Starting with *TBD Release Iron*, the behavior of this and other NUMA functions has been modified to better support systems with nodes containing more that 64 processors. For more information about this change, including information about enabling the old behavior of this API, see [NUMA Support](/windows/win32/procthread/numa-support).
+
+### Behavior starting with TBD Release Iron
+
+Each node is assigned a primary group by the system. The **GROUP_AFFINITY** returned by **GetNumaNodeProcessorMaskEx** is for the node's primary group.
+
+### Behavior in previous versions
+
+The **GROUP_AFFINITY** for the specified node is returned.
 
 ## -see-also
 

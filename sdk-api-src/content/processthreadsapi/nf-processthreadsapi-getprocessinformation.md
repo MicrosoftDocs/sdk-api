@@ -1,10 +1,10 @@
 ---
 UID: NF:processthreadsapi.GetProcessInformation
 title: GetProcessInformation function (processthreadsapi.h)
-description: Retrieves information about the specified process.
+description: Retrieves information about the specified process. (GetProcessInformation)
 helpviewer_keywords: ["GetProcessInformation","GetProcessInformation function","base.getprocessinformation","processthreadsapi/GetProcessInformation"]
 old-location: base\getprocessinformation.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 2b075405-b7b6-4da0-b78d-45eaa9c6c8cd
 ms.date: 12/05/2018
 ms.keywords: GetProcessInformation, GetProcessInformation function, base.getprocessinformation, processthreadsapi/GetProcessInformation
@@ -49,10 +49,7 @@ api_name:
 
 # GetProcessInformation function
 
-
 ## -description
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Retrieves information about the specified process.
 
@@ -60,9 +57,7 @@ Retrieves information about the specified process.
 
 ### -param hProcess [in]
 
-A handle to the process. This handle must have the <b>PROCESS_SET_INFORMATION</b> access 
-     right. For more information, see 
-     <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+A handle to the process. This handle must have the **PROCESS_SET_INFORMATION** access right. For more information, see [Process Security and Access Rights](/windows/win32/procthread/process-security-and-access-rights).
 
 ### -param ProcessInformationClass [in]
 
@@ -70,72 +65,36 @@ A member of the [PROCESS_INFORMATION_CLASS](./ne-processthreadsapi-process_infor
 
 ### -param ProcessInformation
 
-Pointer to an object to receive the type of information specified by the 
-       <i>ProcessInformationClass</i> parameter.
+Pointer to an object to receive the type of information specified by the *ProcessInformationClass* parameter.
 
-If the <i>ProcessInformationClass</i> parameter is 
-       <b>ProcessMemoryPriority</b>, this parameter must point to a 
-       <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-memory_priority_information">MEMORY_PRIORITY_INFORMATION</a> structure.
+If the *ProcessInformationClass* parameter is **ProcessMemoryPriority**, this parameter must point to a [MEMORY_PRIORITY_INFORMATION structure](ns-processthreadsapi-memory_priority_information.md).
 
-If the <i>ProcessInformationClass</i> parameter is 
-       <b>ProcessPowerThrottling</b>, this parameter must point to a 
-       <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_power_throttling_state">PROCESS_POWER_THROTTLING_STATE</a> structure.
+If the *ProcessInformationClass* parameter is **ProcessProtectionLevelInfo**, this parameter must point to a [PROCESS_PROTECTION_LEVEL_INFORMATION structure](ns-processthreadsapi-process_protection_level_information.md).
 
-If the <i>ProcessInformationClass</i> parameter is 
-       <b>ProcessProtectionLevelInfo</b>, this parameter must point to a 
-       <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-process_protection_level_information">PROCESS_PROTECTION_LEVEL_INFORMATION</a> structure.
+If the *ProcessInformationClass* parameter is **ProcessLeapSecondInfo**, this parameter must point to a [PROCESS_LEAP_SECOND_INFO structure](ns-processthreadsapi-process_leap_second_info.md).
 
-If the <i>ProcessInformationClass</i> parameter is 
-       <b>ProcessLeapSecondInfo</b>, this parameter must point to a 
-       <a href="https://msdn.microsoft.com/en-us/library/Mt829716(v=VS.85).aspx">PROCESS_LEAP_SECOND_INFO</a> structure.
-
-If the <i>ProcessInformationClass</i> parameter is 
-       <b>ProcessAppMemoryInfo</b>, this parameter must point to a 
-       <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-app_memory_information">APP_MEMORY_INFORMATION</a> structure.
+If the *ProcessInformationClass* parameter is **ProcessAppMemoryInfo**, this parameter must point to a [APP_MEMORY_INFORMATION structure](ns-processthreadsapi-app_memory_information.md).
 
 ### -param ProcessInformationSize [in]
 
-The size in bytes of the structure specified by the <i>ProcessInformation</i> parameter.
+The size in bytes of the structure specified by the *ProcessInformation* parameter.
 
-If the <i>ProcessInformationClass</i> parameter is 
-      <b>ProcessMemoryPriority</b>, this parameter must be 
-      <code>sizeof(MEMORY_PRIORITY_INFORMATION)</code>.
+If the *ProcessInformationClass* parameter is **ProcessMemoryPriority**, this parameter must be `sizeof(MEMORY_PRIORITY_INFORMATION)`.
 
-If the <i>ProcessInformationClass</i> parameter is 
-       <b>ProcessPowerThrottling</b>, this parameter must be 
-       <code>sizeof(PROCESS_POWER_THROTTLING_STATE)</code>.
+If the *ProcessInformationClass* parameter is **ProcessPowerThrottling**, this parameter must be `sizeof(PROCESS_POWER_THROTTLING_STATE)`.
 
-If the <i>ProcessInformationClass</i> parameter is 
-       <b>ProcessProtectionLevelInfo</b>, this parameter must be 
-       <code>sizeof(PROCESS_PROTECTION_LEVEL_INFORMATION)</code>.
+If the *ProcessInformationClass* parameter is **ProcessProtectionLevelInfo**, this parameter must be `sizeof(PROCESS_PROTECTION_LEVEL_INFORMATION)`.
 
-If the <i>ProcessInformationClass</i> parameter is 
-       <b>ProcessLeapSecondInfo</b>, this parameter must be 
-       <code>sizeof(PROCESS_LEAP_SECOND_INFO)</code>.
+If the *ProcessInformationClass* parameter is **ProcessLeapSecondInfo**, this parameter must be `sizeof(PROCESS_LEAP_SECOND_INFO)`.
 
-If the <i>ProcessInformationClass</i> parameter is 
-       <b>ProcessAppMemoryInfo</b>, this parameter must be 
-       <code>sizeof(APP_MEMORY_INFORMATION)</code>.
+If the *ProcessInformationClass* parameter is **ProcessAppMemoryInfo**, this parameter must be `sizeof(APP_MEMORY_INFORMATION)`.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call 
-      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call [GetLastError function](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
 ## -see-also
 
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadinformation">GetThreadInformation</a>
-
-
-
-<a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-memory_priority_information">MEMORY_PRIORITY_INFORMATION</a>
-
-
-
-<a href="/previous-versions/mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a>
-
-
-
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation">SetProcessInformation</a>
+[GetThreadInformation function](nf-processthreadsapi-getthreadinformation.md), [MEMORY_PRIORITY_INFORMATION structure](ns-processthreadsapi-memory_priority_information.md), [SetProcessInformation function](nf-processthreadsapi-setprocessinformation.md), [PROCESS_INFORMATION_CLASS enumeration](ne-processthreadsapi-process_information_class.md)

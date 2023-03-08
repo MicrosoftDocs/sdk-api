@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCbPrintf_lExW
 title: StringCbPrintf_lExW function (strsafe.h)
-description: Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
-helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCbPrintf_lEx","StringCbPrintf_lEx function [Menus and Other Resources]","StringCbPrintf_lExA","StringCbPrintf_lExW","menurc.stringcbprintf_lex","strsafe/StringCbPrintf_lEx","strsafe/StringCbPrintf_lExA","strsafe/StringCbPrintf_lExW"]
+description: Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer. (StringCbPrintf_lExW)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCbPrintf_lEx", "StringCbPrintf_lEx function [Menus and Other Resources]", "StringCbPrintf_lExW", "menurc.stringcbprintf_lex", "strsafe/StringCbPrintf_lEx", "strsafe/StringCbPrintf_lExW"]
 old-location: menurc\stringcbprintf_lex.htm
 tech.root: menurc
 ms.assetid: 64992b8f-4f85-47fc-bb14-37fdf0847eac
@@ -148,7 +148,7 @@ The format string. This string must be null-terminated. For more information, se
 
 The locale object. For more information, see <b>_create_locale</b>.
 
-### -param arg8 [in]
+### -param ...
 
 The arguments to be inserted into the <i>pszFormat</i> string.
 
@@ -211,3 +211,4 @@ In order to use this function, you must define the following macro in your heade
 
 > [!NOTE]
 > The strsafe.h header defines StringCbPrintf_lEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

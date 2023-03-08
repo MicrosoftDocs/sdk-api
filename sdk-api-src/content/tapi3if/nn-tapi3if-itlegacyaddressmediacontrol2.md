@@ -57,38 +57,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITLegacyAddressMediaControl2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITLegacyAddressMediaControl2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITLegacyAddressMediaControl2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol2-configdialog">ConfigDialog</a>
-</td>
-<td align="left" width="63%">
-Displays a dialog box to allow the user to configure parameters related to the specified line device. The parameters that can be edited are those currently in use on the device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol2-configdialogedit">ConfigDialogEdit</a>
-</td>
-<td align="left" width="63%">
-Displays a dialog box to allow the user to configure parameters related to the specified line device. The parameters to edit are passed in from the application, and the results are returned to the application.
-
-</td>
-</tr>
-</table>
+The <b>ITLegacyAddressMediaControl2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITLegacyAddressMediaControl2</b> also has these types of members:
 
 ## -see-also
 

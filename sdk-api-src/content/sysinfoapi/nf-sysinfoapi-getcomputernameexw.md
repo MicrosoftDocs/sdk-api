@@ -1,8 +1,8 @@
 ---
 UID: NF:sysinfoapi.GetComputerNameExW
 title: GetComputerNameExW function (sysinfoapi.h)
-description: Retrieves a NetBIOS or DNS name associated with the local computer. The names are established at system startup, when the system reads them from the registry.
-helpviewer_keywords: ["ComputerNameDnsDomain","ComputerNameDnsFullyQualified","ComputerNameDnsHostname","ComputerNameNetBIOS","ComputerNamePhysicalDnsDomain","ComputerNamePhysicalDnsFullyQualified","ComputerNamePhysicalDnsHostname","ComputerNamePhysicalNetBIOS","GetComputerNameEx","GetComputerNameEx function","GetComputerNameExA","GetComputerNameExW","_win32_getcomputernameex","base.getcomputernameex","sysinfoapi/GetComputerNameEx","sysinfoapi/GetComputerNameExA","sysinfoapi/GetComputerNameExW"]
+description: Retrieves a NetBIOS or DNS name associated with the local computer. The names are established at system startup, when the system reads them from the registry. (Unicode)
+helpviewer_keywords: ["ComputerNameDnsDomain", "ComputerNameDnsFullyQualified", "ComputerNameDnsHostname", "ComputerNameNetBIOS", "ComputerNamePhysicalDnsDomain", "ComputerNamePhysicalDnsFullyQualified", "ComputerNamePhysicalDnsHostname", "ComputerNamePhysicalNetBIOS", "GetComputerNameEx", "GetComputerNameEx function", "GetComputerNameExW", "_win32_getcomputernameex", "base.getcomputernameex", "sysinfoapi/GetComputerNameEx", "sysinfoapi/GetComputerNameExW"]
 old-location: base\getcomputernameex.htm
 tech.root: winprog
 ms.assetid: eae3f75d-7ec7-42ae-b207-e3ebaa33346e
@@ -54,9 +54,6 @@ api_name:
  - GetComputerNameExA
  - GetComputerNameExW
 ---
-
-# GetComputerNameExW function
-
 
 ## -description
 
@@ -247,7 +244,7 @@ void _tmain(void)
         TEXT("Physical DNS domain"), 
         TEXT("Physical DNS fully-qualified")};
     int cnf = 0;
-    DWORD dwSize = sizeof(buffer);
+    DWORD dwSize = _countof(buffer);
     
     for (cnf = 0; cnf < ComputerNameMax; cnf++)
     {
@@ -307,5 +304,4 @@ void _tmain(void)
 
 
 
-<a href="/windows/desktop/SysInfo/system-information-functions">System
-		  Information Functions</a>
+<a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>

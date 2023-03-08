@@ -176,6 +176,74 @@ On output, pass the following <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-w
 <li><code>pPropertyEntriesOut[0].u.bVal.size = </code>Size of <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_dynamic_time_zone_information">WRDS_DYNAMIC_TIME_ZONE_INFORMATION</a> structure</li>
 </ul>
 
+
+#### CONNECTION_PROPERTY_CURSOR_BLINK_DISABLED (4b150580-fea4-4d3c-9de4-7433a66618f7)
+
+Used to determine whether cursor blink should be disabled.
+
+The <i>pPropertyEntriesIn</i> parameter will be <b>NULL</b>.
+
+On output, pass the following <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structure in the <i>pPropertyEntriesOut</i> parameter:
+
+<ul>
+<li><code>pPropertyEntriesOut[0].Type = </code><b>WRDS_VALUE_TYPE_ULONG</b></li>
+<li><code>pPropertyEntriesOut[0].u.ulVal = </code><i>1 to disable cursor blink, 0 otherwise</i></li>
+</ul>
+
+#### PROPERTY_TYPE_GET_FAST_RECONNECT (6212d757-0043-4862-99c3-9f3059ac2a3b)
+
+Used by the Remote Desktop Services service to determine the mode of reconnection to be used.
+
+The <i>pPropertyEntriesIn</i> parameter will be <b>NULL</b>.
+
+On output, pass the following <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structure in the <i>pPropertyEntriesOut</i> parameter:
+
+<ul>
+<li><code>pPropertyEntriesOut[0].Type = </code><b>WRDS_VALUE_TYPE_ULONG</b></li>
+<li><code>pPropertyEntriesOut[0].u.ulVal = </code><i>0 to disable fast reconnect, 1 for Basic Fast Reconnect, 2 for Enhanced Fast Reconnect</i></li>
+</ul>
+
+#### PROPERTY_TYPE_GET_FAST_RECONNECT_USER_SID (197c427a-0135-4b6d-9c5e-e6579a0ab625)
+
+Used by the Remote Desktop Services service during Enhanced Fast Reconnect to retrieve the User SID by which sessions to be reconnected to are filtered.
+
+The <i>pPropertyEntriesIn</i> parameter will be <b>NULL</b>.
+
+On output, pass the following <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structure in the <i>pPropertyEntriesOut</i> parameter:
+
+<ul>
+<li><code>pPropertyEntriesOut[0].Type = </code><b>WRDS_VALUE_TYPE_STRING</b></li>
+<li><code>pPropertyEntriesIn[0].u.strVal.pstrVal = </code><i>User SID to be used as session filter</i></li>
+<li><code>pPropertyEntriesIn[0].u.strVal.size = </code><i>Length of User SID including the null terminating character</i></li>
+</ul>
+You must allocate the memory for <b>pstrVal</b> by using the <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> function.
+
+#### PROPERTY_TYPE_ENABLE_UNIVERSAL_APPS_FOR_CUSTOM_SHELL (ed2c3fda-338d-4d3f-81a3-e767310d908e)
+
+Used by the Remote Desktop Services service determine if ShellAppRuntime.exe will be launched before any Custom Shells during session creation. ShellAppRuntime.exe implements Universal App support for Custom Shells. This is not enabled by default (equivalent to passing zero). This is available in Windows versions that are Server 2019 and above or Windows 10 multi-session Build 18950 and above.
+
+The <i>pPropertyEntriesIn</i> parameter will be <b>NULL</b>.
+
+On output, pass the following <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structure in the <i>pPropertyEntriesOut</i> parameter:
+
+<ul>
+<li><code>pPropertyEntriesOut[0].Type = </code><b>WRDS_VALUE_TYPE_ULONG</b></li>
+<li><code>pPropertyEntriesOut[0].u.ulVal = </code><i>0 to not enable Universal Apps Support for Custom Shells, 1 Enable Universal Apps Support for Custom Shells</i></li>
+</ul>
+
+#### CONNECTION_PROPERTY_IDLE_TIME_WARNING (693f7ff5-0c4e-4d17-b8e0-1f70325e5d58)
+
+Used to determine whether a logoff warning prompt is displayed when the idle timer expires.
+
+The <i>pPropertyEntriesIn</i> parameter will be <b>NULL</b>.
+
+On output, pass the following <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structure in the <i>pPropertyEntriesOut</i> parameter:
+
+<ul>
+<li><code>pPropertyEntriesOut[0].Type = </code><b>WRDS_VALUE_TYPE_ULONG</b></li>
+<li><code>pPropertyEntriesOut[0].u.ulVal = </code><i>0 to disable warning prompt, 1 to enable it</i></li>
+</ul>
+
 ### -param ulNumEntriesIn [in]
 
 The number of entries in the <i>pPropertyEntriesIn</i> array.
@@ -194,7 +262,7 @@ An array of pointers to <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_pro
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

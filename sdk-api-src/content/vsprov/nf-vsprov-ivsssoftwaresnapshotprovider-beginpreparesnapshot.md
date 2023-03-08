@@ -1,7 +1,7 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.BeginPrepareSnapshot
 title: IVssSoftwareSnapshotProvider::BeginPrepareSnapshot (vsprov.h)
-description: VSS calls this method for each shadow copy that is added to the shadow copy set.
+description: VSS calls this method for each shadow copy that is added to the shadow copy set. (IVssSoftwareSnapshotProvider.BeginPrepareSnapshot)
 helpviewer_keywords: ["BeginPrepareSnapshot","BeginPrepareSnapshot method","BeginPrepareSnapshot method","IVssSoftwareSnapshotProvider interface","IVssSoftwareSnapshotProvider interface","BeginPrepareSnapshot method","IVssSoftwareSnapshotProvider.BeginPrepareSnapshot","IVssSoftwareSnapshotProvider::BeginPrepareSnapshot","base.ivsssoftwaresnapshotprovider_beginpreparesnapshot","vsprov/IVssSoftwareSnapshotProvider::BeginPrepareSnapshot"]
 old-location: base\ivsssoftwaresnapshotprovider_beginpreparesnapshot.htm
 tech.root: base
@@ -65,7 +65,7 @@ Identifier of the shadow copy to be created.
 
 ### -param pwszVolumeName [in]
 
-Null-terminated wide character string containing the volume name. The name must be in one of the following formats and must include a trailing backslash (\): 
+Null-terminated wide character string containing the volume name. The name must be in one of the following formats and must include a trailing backslash (\\): 
 
 
 

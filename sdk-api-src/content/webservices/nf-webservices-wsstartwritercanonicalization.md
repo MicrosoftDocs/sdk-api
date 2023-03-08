@@ -60,8 +60,7 @@ The XML writer on which canonicalization should be started.
 
 ### -param writeCallback [in]
 
-The callback that to be invoked to write the canonical bytes as they are generated.
-          This callback will always be invoked synchronously.
+The callback that to be invoked to write the canonical bytes as they are generated. This callback will always be invoked synchronously.
 
 ### -param writeCallbackState [in]
 
@@ -127,43 +126,26 @@ The input data was not in the expected format or did not have the expected value
 
 The usage pattern for canonicalization is to:
 
-        <ul>
+<ul>
 <li> call <b>WsStartWriterCanonicalization</b>,
-          </li>
+</li>
 <li> write the xml to be canonicalized,
-          </li>
+</li>
 <li> call <a href="/windows/desktop/api/webservices/nf-webservices-wsendwritercanonicalization">WsEndWriterCanonicalization</a>.
-        </li>
-</ul>During this process, the canonical bytes will be written to the
-        specified writeCallback.  Every node written by the writer
-        will be canonicalized. Thus, canonicalization and generation can be done 
-        in one pass over regardless of what APIs are used to write
-        the XML.
+</li>
+</ul>During this process, the canonical bytes will be written to the specified writeCallback.  Every node written by the writer will be canonicalized. Thus, canonicalization and generation can be done in one pass over regardless of what APIs are used to write the XML.
       
+<a href="/windows/desktop/api/webservices/nf-webservices-wsendwritercanonicalization">WsEndWriterCanonicalization</a> must be called in order to ensure that all canonicalized bytes are written to the specified callback.
 
-
-<a href="/windows/desktop/api/webservices/nf-webservices-wsendwritercanonicalization">WsEndWriterCanonicalization</a> must be called in order to ensure that all
-        canonicalized bytes are written to the specified callback.
+<a href="/windows/desktop/api/webservices/nf-webservices-wsendwritercanonicalization">WsEndWriterCanonicalization</a> must be called at the same depth at which <b>WsStartWriterCanonicalization</b> was called.  Other writer APIs will return an error if it would move to a depth lower than where <b>WsStartWriterCanonicalization</b> was called.
       
-
-
-<a href="/windows/desktop/api/webservices/nf-webservices-wsendwritercanonicalization">WsEndWriterCanonicalization</a> must be called at the same depth at
-        which <b>WsStartWriterCanonicalization</b> was called.  Other writer APIs
-        will return an error if it would move to a depth lower than where
-        <b>WsStartWriterCanonicalization</b> was called.
-      
-
 It is an invalid operation to call <a href="/windows/desktop/api/webservices/nf-webservices-wsmovewriter">WsMoveWriter</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetwriterposition">WsSetWriterPosition</a> on a writer between a pair of matching <b>WsStartWriterCanonicalization</b> and <a href="/windows/desktop/api/webservices/nf-webservices-wsendwritercanonicalization">WsEndWriterCanonicalization</a> calls.
       
 
 Calls to this API cannot be nested.  So, a call to <b>WsStartWriterCanonicalization</b> must be followed by a call to <a href="/windows/desktop/api/webservices/nf-webservices-wsendwritercanonicalization">WsEndWriterCanonicalization</a> before the next <b>WsStartWriterCanonicalization</b> call.
       
 
-If a <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm">WS_XML_CANONICALIZATION_ALGORITHM</a> is not specified,
-        then <b>WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> is used.
+If a <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm">WS_XML_CANONICALIZATION_ALGORITHM</a> is not specified, then <b>WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> is used.
       
 
-The <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm">WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM</a> and
-        <b>WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM</b> algorithms can only be used with
-        entire xml documents.  The writer must positioned at <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">WS_XML_NODE_TYPE_BOF</a> when
-        <b>WsStartWriterCanonicalization</b> is called with these algorithms.
+The <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm">WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM</a> and <b>WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM</b> algorithms can only be used with entire xml documents.  The writer must positioned at <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">WS_XML_NODE_TYPE_BOF</a> when <b>WsStartWriterCanonicalization</b> is called with these algorithms.

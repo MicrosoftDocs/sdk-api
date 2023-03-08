@@ -1,8 +1,8 @@
 ---
 UID: NF:oledlg.OleUIEditLinksW
 title: OleUIEditLinksW function (oledlg.h)
-description: Invokes the standard Links dialog box, allowing the user to make modifications to a container's linked objects.
-helpviewer_keywords: ["OleUIEditLinks","OleUIEditLinks function [COM]","OleUIEditLinksA","OleUIEditLinksW","_ole_OleUIEditLinks","com.oleuieditlinks","oledlg/OleUIEditLinks","oledlg/OleUIEditLinksA","oledlg/OleUIEditLinksW"]
+description: Invokes the standard Links dialog box, allowing the user to make modifications to a container's linked objects. (Unicode)
+helpviewer_keywords: ["OleUIEditLinks", "OleUIEditLinks function [COM]", "OleUIEditLinksW", "_ole_OleUIEditLinks", "com.oleuieditlinks", "oledlg/OleUIEditLinks", "oledlg/OleUIEditLinksW"]
 old-location: com\oleuieditlinks.htm
 tech.root: com
 ms.assetid: 17c7daf8-83bf-4cfd-a67c-a638630ca263
@@ -56,7 +56,7 @@ Invokes the standard <b>Links</b> dialog box, allowing the user to make modifica
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to an <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuieditlinksa">OLEUIEDITLINKS</a> structure that contains information used to initialize the dialog box.
 

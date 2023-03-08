@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IAutomaticUpdatesSettings3
 title: IAutomaticUpdatesSettings3 (wuapi.h)
-description: Contains the settings that are available in Automatic Updates.
+description: Contains the settings that are available in Automatic Updates. (IAutomaticUpdatesSettings3)
 helpviewer_keywords: ["IAutomaticUpdatesSettings3","IAutomaticUpdatesSettings3 interface [Windows Update Agent]","IAutomaticUpdatesSettings3 interface [Windows Update Agent]","described","wua.iautomaticupdatessettings3","wuapi/IAutomaticUpdatesSettings3"]
 old-location: wua\iautomaticupdatessettings3.htm
 tech.root: wua

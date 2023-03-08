@@ -53,7 +53,7 @@ api_name:
 
 The <code>IsSurfaceLocked</code> method indicates whether the Direct3D surface attached to this media sample is locked.
 
-## -parameters
+
 
 ## -returns
 

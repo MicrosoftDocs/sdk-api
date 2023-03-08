@@ -73,65 +73,7 @@ For a code example that implements the <b>IMMNotificationClient</b> interface, s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMMNotificationClient</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMMNotificationClient</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMMNotificationClient</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged">OnDefaultDeviceChanged</a>
-</td>
-<td align="left" width="63%">
-Notifies the client that the default audio endpoint device for a particular role has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondeviceadded">OnDeviceAdded</a>
-</td>
-<td align="left" width="63%">
-Indicates that a new audio endpoint device has been added.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondeviceremoved">OnDeviceRemoved</a>
-</td>
-<td align="left" width="63%">
-Indicates that an audio endpoint device has been removed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondevicestatechanged">OnDeviceStateChanged</a>
-</td>
-<td align="left" width="63%">
-Indicates that the state of an audio endpoint device has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-onpropertyvaluechanged">OnPropertyValueChanged</a>
-</td>
-<td align="left" width="63%">
-Indicates that the value of a property belonging to an audio endpoint device has changed.
-
-</td>
-</tr>
-</table>
+The <b>IMMNotificationClient</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMMNotificationClient</b> also has these types of members:
 
 ## -see-also
 

@@ -51,117 +51,14 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods to query and 
    perform management operations on a pack containing disks and volumes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsPack</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsPack</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsPack</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdspack-adddisk">AddDisk</a>
-</td>
-<td align="left" width="63%">
-Adds a disk to an online pack.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdspack-createvolume">CreateVolume</a>
-</td>
-<td align="left" width="63%">
-Creates a volume within the pack.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdspack-getproperties">GetProperties</a>
-</td>
-<td align="left" width="63%">
-Returns the property details of a pack object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdspack-getprovider">GetProvider</a>
-</td>
-<td align="left" width="63%">
-Returns the provider for the current pack.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdspack-migratedisks">MigrateDisks</a>
-</td>
-<td align="left" width="63%">
-Migrates a set of disks from one pack to another pack.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdspack-querydisks">QueryDisks</a>
-</td>
-<td align="left" width="63%">
-Enumerates the disks in the pack.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdspack-queryvolumes">QueryVolumes</a>
-</td>
-<td align="left" width="63%">
-Enumerates the volumes in the pack.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdspack-recover">Recover</a>
-</td>
-<td align="left" width="63%">
-Returns a failing or failed pack to a healthy state, if possible.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdspack-removemissingdisk">RemoveMissingDisk</a>
-</td>
-<td align="left" width="63%">
-Removes a dynamic disk that is missing from the pack.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdspack-replacedisk">ReplaceDisk</a>
-</td>
-<td align="left" width="63%">
-This method is reserved for future use.
-
-</td>
-</tr>
-</table>
+The <b>IVdsPack</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsPack</b> also has these types of members:
 
 ## -see-also
 

@@ -2,7 +2,6 @@
 UID: NE:mfidl.MF_MEDIAKEYSESSION_MESSAGETYPE
 title: MF_MEDIAKEYSESSION_MESSAGETYPE
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Specifies the type of a Content Decryption Module (CDM) message.
 tech.root: mf
@@ -38,19 +37,19 @@ Specifies the type of a Content Decryption Module (CDM) message.
 
 ## -enum-fields
 
-### -field MF_MEDIAKEYSESSION_MESSAGETYPE_LICENSE_REQUEST
+### -field MF_MEDIAKEYSESSION_MESSAGETYPE_LICENSE_REQUEST:0
 
 The message contains a request for a new license.
 
-### -field MF_MEDIAKEYSESSION_MESSAGETYPE_LICENSE_RENEWAL
+### -field MF_MEDIAKEYSESSION_MESSAGETYPE_LICENSE_RENEWAL:1
 
 The message contains a request to renew an existing license.
 
-### -field MF_MEDIAKEYSESSION_MESSAGETYPE_LICENSE_RELEASE
+### -field MF_MEDIAKEYSESSION_MESSAGETYPE_LICENSE_RELEASE:2
 
 The message contains a record of license destruction.
 
-### -field MF_MEDIAKEYSESSION_MESSAGETYPE_INDIVIDUALIZATION_REQUEST
+### -field MF_MEDIAKEYSESSION_MESSAGETYPE_INDIVIDUALIZATION_REQUEST:3
 
 The message contains a request for App-Assisted Individualization (or re-individualization).
 

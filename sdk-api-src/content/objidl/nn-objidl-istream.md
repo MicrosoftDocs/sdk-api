@@ -65,7 +65,7 @@ Clients of asynchronous monikers can choose between a data-pull or data-push mod
 <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtostorage">IMoniker::BindToStorage</a> operation and for receiving asynchronous notifications. See 
 <a href="/windows/desktop/com/url-monikers">URL Monikers</a> for more information. The following table compares the behavior of asynchronous 
 <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> and 
-<a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a> calls returned in <a href="https://msdn.microsoft.com/9755eda0-4d33-49e1-9bdd-f50a906e826f">IBindStatusCallback::OnDataAvailable</a> in these two download models:
+<a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a> calls returned in <a href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775061(v=vs.85)">IBindStatusCallback::OnDataAvailable</a> in these two download models:
 <table>
 <tr>
 <th>IStream method call</th>
@@ -74,17 +74,17 @@ Clients of asynchronous monikers can choose between a data-pull or data-push mod
 </tr>
 <tr>
 <td><b>Read</b> is called to read partial data (that is, not all the available data)</td>
-<td>Returns S_OK. The client must continue to read all available data before returning from <a href="https://msdn.microsoft.com/9755eda0-4d33-49e1-9bdd-f50a906e826f">IBindStatusCallback::OnDataAvailable</a> or else the bind operation is blocked. (that is, read until S_FALSE or E_PENDING is returned)</td>
-<td>Returns S_OK. Even if the client returns from <a href="https://msdn.microsoft.com/9755eda0-4d33-49e1-9bdd-f50a906e826f">IBindStatusCallback::OnDataAvailable</a> at this point the bind operation continues and <b>IBindStatusCallback::OnDataAvailable</b> will be called again repeatedly until the binding finishes.</td>
+<td>Returns S_OK. The client must continue to read all available data before returning from <a href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775061(v=vs.85)">IBindStatusCallback::OnDataAvailable</a> or else the bind operation is blocked. (that is, read until S_FALSE or E_PENDING is returned)</td>
+<td>Returns S_OK. Even if the client returns from <a href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775061(v=vs.85)">IBindStatusCallback::OnDataAvailable</a> at this point the bind operation continues and <b>IBindStatusCallback::OnDataAvailable</b> will be called again repeatedly until the binding finishes.</td>
 </tr>
 <tr>
 <td><b>Read</b> is called to read all the available data</td>
-<td>Returns E_PENDING if the bind operation has not completed, and <a href="https://msdn.microsoft.com/9755eda0-4d33-49e1-9bdd-f50a906e826f">IBindStatusCallback::OnDataAvailable</a> will be called again when more data is available.</td>
+<td>Returns E_PENDING if the bind operation has not completed, and <a href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775061(v=vs.85)">IBindStatusCallback::OnDataAvailable</a> will be called again when more data is available.</td>
 <td>Same as data-pull model.</td>
 </tr>
 <tr>
 <td><b>Read</b> is called to read all the available data and the bind operation is over (end of file)</td>
-<td>Returns S_FALSE. There will be a subsequent call to <a href="https://msdn.microsoft.com/9755eda0-4d33-49e1-9bdd-f50a906e826f">IBindStatusCallback::OnDataAvailable</a> with the <i>grfBSC</i> flag set to BSCF_LASTDATANOTIFICATION.</td>
+<td>Returns S_FALSE. There will be a subsequent call to <a href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775061(v=vs.85)">IBindStatusCallback::OnDataAvailable</a> with the <i>grfBSC</i> flag set to BSCF_LASTDATANOTIFICATION.</td>
 <td>Same as data-pull model.</td>
 </tr>
 <tr>
@@ -101,118 +101,7 @@ For general information on this topic, see
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStream</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-istream-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a new stream object that references the same bytes as the original stream but provides a separate seek pointer to those bytes.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-istream-commit">Commit</a>
-</td>
-<td align="left" width="63%">
-Ensures that any changes made to a stream object open in transacted mode are reflected in the parent storage object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-istream-copyto">CopyTo</a>
-</td>
-<td align="left" width="63%">
-Copies a specified number of bytes from the current seek pointer in the stream to the current seek pointer in another stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-istream-lockregion">LockRegion</a>
-</td>
-<td align="left" width="63%">
-Restricts access to a specified range of bytes in the stream. Supporting this functionality is optional since some file systems do not provide it.
-
-</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a>
-</td>
-<td align="left" width="63%">
-Reads a specified number of bytes from the stream object into memory starting at the current seek pointer.</p> (Inherited from <a href="/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream</a>)</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-istream-revert">Revert</a>
-</td>
-<td align="left" width="63%">
-Discards all changes that have been made to a transacted stream since the last call to 
-<a href="/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">Seek</a>
-</td>
-<td align="left" width="63%">
-Changes the seek pointer to a new location relative to the beginning of the stream, the end of the stream, or the current seek pointer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-istream-setsize">SetSize</a>
-</td>
-<td align="left" width="63%">
-Changes the size of the stream object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-istream-stat">Stat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the 
-<a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure for this stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-istream-unlockregion">UnlockRegion</a>
-</td>
-<td align="left" width="63%">
-Removes the access restriction on a range of bytes previously restricted with 
-<a href="/windows/desktop/api/objidl/nf-objidl-istream-lockregion">IStream::LockRegion</a>.
-
-</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">Write</a>
-</td>
-<td align="left" width="63%">
-Writes a specified number of bytes into the stream object starting at the current seek pointer.</p> (Inherited from <a href="/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream</a>)</td>
-</tr>
-</table>
+The <b>IStream</b> interface inherits from the <a href="/windows/win32/api/objidl/nn-objidl-isequentialstream">ISequentialStream</a> interface. <b>IStream</b> also has these types of members:
 
 ## -see-also
 

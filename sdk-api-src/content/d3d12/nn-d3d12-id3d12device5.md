@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12Device5
 title: ID3D12Device5
-description: Represents a virtual adapter. This interface extends [ID3D12Device4](./nn-d3d12-id3d12device4.md).
+description: Represents a virtual adapter. This interface extends [ID3D12Device4](../d3d12/nn-d3d12-id3d12device4.md).
 helpviewer_keywords: ["ID3D12Device5","ID3D12Device5 interface","ID3D12Device5 interface","described","ID3D12Device5","d3d12/ID3D12Device5","direct3d12.id3d12device5"]
 old-location: direct3d12\id3d12device5.htm
 tech.root: direct3d12
@@ -48,7 +48,7 @@ api_name:
 
 Represents a virtual adapter.
 
-This interface extends [ID3D12Device4](./nn-d3d12-id3d12device4.md).
+This interface extends [ID3D12Device4](/windows/win32/api/d3d12/nn-d3d12-id3d12device4).
 
 > [!NOTE]
 > This interface, introduced in Windows 10, version 1809, is the latest version of the [ID3D12Device](./nn-d3d12-id3d12device.md) interface. Applications targeting Windows 10, version 1809 and later should use this interface instead of earlier versions.

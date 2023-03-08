@@ -55,7 +55,7 @@ Initializes an EAPHost authentication session.
 The <b>EapHostPeerInitialize</b> function must be called before any other peer or supplicant function is called. If the <b>EapHostPeerInitialize</b> function fails, do not call any other EAPHost run-time API. <div class="alert"><b>Note</b>  The other EAPHost configuration APIs aren't affected by the failure of <b>EAPHostPeerInitialize.</b></div>
 <div> </div>
 
-## -parameters
+
 
 ## -remarks
 

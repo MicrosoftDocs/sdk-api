@@ -62,71 +62,8 @@ Use this interface when your application needs to access a stream's media type i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaStream</b> also has these types of members:
+The <b>IMediaStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaStream</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMediaStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-imediastream-allocatesample">AllocateSample</a>
-</td>
-<td align="left" width="63%">
-Allocates a new stream sample object for the current media stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-imediastream-createsharedsample">CreateSharedSample</a>
-</td>
-<td align="left" width="63%">
-Creates a new stream sample that shares the same backing object as the existing sample.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-imediastream-getinformation">GetInformation</a>
-</td>
-<td align="left" width="63%">
-Retrieves the stream's purpose ID and media type.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-imediastream-getmultimediastream">GetMultiMediaStream</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to the multimedia stream that contains the specified media stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-imediastream-sendendofstream">SendEndOfStream</a>
-</td>
-<td align="left" width="63%">
-Forces the current stream to end. If the current stream isn't writable, this method does nothing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-imediastream-setsameformat">SetSameFormat</a>
-</td>
-<td align="left" width="63%">
-Sets the media stream to the same format as a previous stream.
-
-</td>
-</tr>
-</table>

@@ -67,47 +67,7 @@ You can then call the IUnknown::QueryInterface method on each element in the col
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultisessionRandomWrite</b> interface inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>. <b>IMultisessionRandomWrite</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMultisessionRandomWrite</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisessionrandomwrite-get_lastwrittenaddress">get_LastWrittenAddress</a>
-</td>
-<td align="left" width="63%">
-Retrieves the last written address on the media.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisessionrandomwrite-get_totalsectorsonmedia">get_TotalSectorsOnMedia</a>
-</td>
-<td align="left" width="63%">
-Retrieves the total number of sectors on the media.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisessionrandomwrite-get_writeunitsize">get_WriteUnitSize</a>
-</td>
-<td align="left" width="63%">
-Retrieves the size of a writeable unit on the media.
-
-</td>
-</tr>
-</table>
+The <b>IMultisessionRandomWrite</b> interface inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>. <b>IMultisessionRandomWrite</b> also has these types of members:
 
 ## -remarks
 

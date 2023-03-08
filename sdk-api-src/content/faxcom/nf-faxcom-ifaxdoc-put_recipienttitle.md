@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientTitle
 title: IFaxDoc::put_RecipientTitle (faxcom.h)
-description: Sets or retrieves the RecipientTitle property of a FaxDoc object. The RecipientTitle property is a null-terminated string that contains the title of the recipient of the fax transmission.
+description: Sets or retrieves the RecipientTitle property of a FaxDoc object. The RecipientTitle property is a null-terminated string that contains the title of the recipient of the fax transmission. (Put)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","RecipientTitle property","IFaxDoc.RecipientTitle","IFaxDoc.put_RecipientTitle","IFaxDoc::RecipientTitle","IFaxDoc::get_RecipientTitle","IFaxDoc::put_RecipientTitle","RecipientTitle property [Fax Service]","RecipientTitle property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_recipienttitle","fax._mfax_ifaxdoc_get_recipienttitle","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipienttitle_cpp","faxcom/IFaxDoc::RecipientTitle","faxcom/IFaxDoc::get_RecipientTitle","faxcom/IFaxDoc::put_RecipientTitle","put_RecipientTitle"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipienttitle_cpp.htm
 tech.root: Fax

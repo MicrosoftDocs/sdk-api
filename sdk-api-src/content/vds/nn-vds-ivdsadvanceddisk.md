@@ -51,116 +51,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Creates and deletes partitions, and modifies partition attributes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsAdvancedDisk</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsAdvancedDisk</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsAdvancedDisk</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-assigndriveletter">AssignDriveLetter</a>
-</td>
-<td align="left" width="63%">
-Assigns a drive letter to an OEM, ESP, or unknown partition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-changeattributes">ChangeAttributes</a>
-</td>
-<td align="left" width="63%">
-Modifies partition attributes. For GPT disks, it applies to partition GPT attributes. For MBR disks, it applies to the boot indicator bit (active or not).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-clean">Clean</a>
-</td>
-<td align="left" width="63%">
-Removes MBR or GPT information and uninitializes a basic or dynamic disk.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-createpartition">CreatePartition</a>
-</td>
-<td align="left" width="63%">
-Creates a partition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-deletedriveletter">DeleteDriveLetter</a>
-</td>
-<td align="left" width="63%">
-Deletes a drive letter from an OEM, ESP, or unknown partition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-deletepartition">DeletePartition</a>
-</td>
-<td align="left" width="63%">
-Deletes an existing partition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-formatpartition">FormatPartition</a>
-</td>
-<td align="left" width="63%">
-Formats an existing OEM, ESP or unknown partition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-getdriveletter">GetDriveLetter</a>
-</td>
-<td align="left" width="63%">
-Retrieves the drive letter assigned to a OEM, ESP or unknown partition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-getpartitionproperties">GetPartitionProperties</a>
-</td>
-<td align="left" width="63%">
-Retrieves property information for a partition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-querypartitions">QueryPartitions</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about all partitions on the current disk.
-
-</td>
-</tr>
-</table>
+The <b>IVdsAdvancedDisk</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsAdvancedDisk</b> also has these types of members:
 
 ## -remarks
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.RemoveFontResourceExA
 title: RemoveFontResourceExA function (wingdi.h)
-description: The RemoveFontResourceEx function removes the fonts in the specified file from the system font table.
-helpviewer_keywords: ["RemoveFontResourceEx","RemoveFontResourceEx function [Windows GDI]","RemoveFontResourceExA","RemoveFontResourceExW","_win32_RemoveFontResourceEx","gdi.removefontresourceex","wingdi/RemoveFontResourceEx","wingdi/RemoveFontResourceExA","wingdi/RemoveFontResourceExW"]
+description: The RemoveFontResourceEx function removes the fonts in the specified file from the system font table. (ANSI)
+helpviewer_keywords: ["RemoveFontResourceExA", "wingdi/RemoveFontResourceExA"]
 old-location: gdi\removefontresourceex.htm
 tech.root: gdi
 ms.assetid: 18056fe7-1efe-428e-a828-3217c53371eb
@@ -84,7 +84,9 @@ When you try to replace an existing font file that contains a font with outstand
 
 <div class="alert"><b>Note</b>  Apps where the original font file is in use will still be able to access the original file and won't use the new font until the font reloads. Call <a href="/windows/desktop/api/wingdi/nf-wingdi-addfontresourceexa">AddFontResourceEx</a> to reload the font.  We recommend that you call <b>AddFontResourceEx</b> the same number of times as the call to <b>RemoveFontResourceEx</b> succeeded as shown in this example code.</div>
 <div> </div>
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 int i = 0;
 while( RemoveFontResourceEx( FontFile, FR_PRIVATE, 0 ) )
 {
@@ -97,7 +99,9 @@ while( i-- )
 {
     AddFontResourceEx( FontFile, FR_PRIVATE, 0 );
 }
-</code></pre>
+
+```
+
 
 
 

@@ -58,9 +58,9 @@ Specifies a variable change handler. This handler is notified of changes to the 
 
 A variable change handler.  
                
-               The specified object must implement the
-               <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariablechangehandler">IUIAnimationVariableChangeHandler</a> interface or be <b>NULL</b>.
-            See Remarks.
+The specified object must implement the <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariablechangehandler">IUIAnimationVariableChangeHandler</a> interface or be <b>NULL</b>.
+
+See Remarks.
 
 ## -returns
 

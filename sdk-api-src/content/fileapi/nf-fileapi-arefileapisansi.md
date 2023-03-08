@@ -56,7 +56,7 @@ api_name:
 Determines whether the file I/O functions are using the ANSI or OEM character set code 
     page. This function is useful for 8-bit console input and output operations.
 
-## -parameters
+
 
 ## -returns
 

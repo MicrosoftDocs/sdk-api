@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.put_Scope
 title: INetFwAuthorizedApplication::put_Scope (netfw.h)
-description: Controls the network scope from which the port can listen.
+description: Controls the network scope from which the port can listen. (INetFwAuthorizedApplication.put_Scope)
 helpviewer_keywords: ["INetFwAuthorizedApplication interface [ICS/ICF]","Scope property","INetFwAuthorizedApplication.Scope","INetFwAuthorizedApplication.put_Scope","INetFwAuthorizedApplication::Scope","INetFwAuthorizedApplication::get_Scope","INetFwAuthorizedApplication::put_Scope","Scope property [ICS/ICF]","Scope property [ICS/ICF]","INetFwAuthorizedApplication interface","ics.inetfwauthorizedapplication_scope","netfw/INetFwAuthorizedApplication::Scope","netfw/INetFwAuthorizedApplication::get_Scope","netfw/INetFwAuthorizedApplication::put_Scope","put_Scope"]
 old-location: ics\inetfwauthorizedapplication_scope.htm
 tech.root: ics
@@ -54,7 +54,8 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
+> [!NOTE]
+> The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the [Windows Firewall with Advanced Security](/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page) API is recommended.
 
 Controls the network scope from which the port can listen.
 
@@ -81,8 +82,5 @@ To create a custom scope, use the <a href="/previous-versions/windows/desktop/ap
 
 <a href="/windows/desktop/api/netfw/nn-netfw-inetfwremoteadminsettings">INetFwRemoteAdminSettings</a>
 
-
-<a href="/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_scope_">NET_FW_SCOPE</a>
- 
 
 <a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_scope">NET_FW_SCOPE</a>

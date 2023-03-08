@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.ExtTextOutA
 title: ExtTextOutA function (wingdi.h)
-description: The ExtTextOut function draws text using the currently selected font, background color, and text color. You can optionally provide dimensions to be used for clipping, opaquing, or both.
-helpviewer_keywords: ["ETO_CLIPPED","ETO_GLYPH_INDEX","ETO_IGNORELANGUAGE","ETO_NUMERICSLATIN","ETO_NUMERICSLOCAL","ETO_OPAQUE","ETO_PDY","ETO_RTLREADING","ExtTextOut","ExtTextOut function [Windows GDI]","ExtTextOutA","ExtTextOutW","_win32_ExtTextOut","gdi.exttextout","wingdi/ExtTextOut","wingdi/ExtTextOutA","wingdi/ExtTextOutW"]
+description: The ExtTextOut function draws text using the currently selected font, background color, and text color. You can optionally provide dimensions to be used for clipping, opaquing, or both. (ANSI)
+helpviewer_keywords: ["ETO_CLIPPED", "ETO_GLYPH_INDEX", "ETO_IGNORELANGUAGE", "ETO_NUMERICSLATIN", "ETO_NUMERICSLOCAL", "ETO_OPAQUE", "ETO_PDY", "ETO_RTLREADING", "ExtTextOutA", "wingdi/ExtTextOutA"]
 old-location: gdi\exttextout.htm
 tech.root: gdi
 ms.assetid: 74f8fcb8-8ad4-47f2-a330-fa56713bdb37
@@ -304,6 +304,13 @@ For the ANSI version of <b>ExtTextOut</b>, the <i>lpDx</i> array has the same nu
 
 Note, the <i>alpDx</i> values from <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextextentexpointa">GetTextExtentExPoint</a> are not the same as the <i>lpDx</i> values for <b>ExtTextOut</b>. To use the <i>alpDx</i> values in <i>lpDx</i>, you must first process them.
 
+
+**ExtTextOut** will use [Uniscribe](/windows/win32/intl/uniscribe) when necessary resulting in font fallback. The ETO_IGNORELANGUAGE flag will inhibit this behavior and should not be passed.
+
+Additionally, **ExtTextOut** will perform internal batching of calls before transitioning to kernel mode, mitigating some of the performance concerns when weighing usage of **PolyTextOut** versus **ExtTextOut**.
+
+> [!TIP]
+>  **ExtTextOut** is strongly recommended over **PolyTextOut** for modern development due to its ability to handle display of different languages.
 
 #### Examples
 

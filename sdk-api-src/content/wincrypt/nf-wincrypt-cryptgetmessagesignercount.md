@@ -6,7 +6,7 @@ helpviewer_keywords: ["CryptGetMessageSignerCount","CryptGetMessageSignerCount f
 old-location: security\cryptgetmessagesignercount.htm
 tech.root: security
 ms.assetid: d18bda8b-b333-4b1e-8ed5-f8eff04b3168
-ms.date: 12/05/2018
+ms.date: 10/24/2021
 ms.keywords: CryptGetMessageSignerCount, CryptGetMessageSignerCount function [Security], _crypto2_cryptgetmessagesignercount, security.cryptgetmessagesignercount, wincrypt/CryptGetMessageSignerCount
 req.header: wincrypt.h
 req.include-header: 
@@ -51,6 +51,9 @@ api_name:
 ## -description
 
 The <b>CryptGetMessageSignerCount</b> function returns the number of signers of a signed message.
+
+> [!NOTE]
+> This function may return a count of duplicate signers and therefore may not be sufficient to avert attacks. We recommend using the sid (SignerIdentifier) field from SignerInfo to identify duplicate signers in a message.
 
 ## -parameters
 
@@ -104,10 +107,10 @@ Invalid <a href="/windows/desktop/SecGloss/m-gly">message encoding type</a>. Cur
 If the function fails, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
+
+
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
-
-
 
 <a href="/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>

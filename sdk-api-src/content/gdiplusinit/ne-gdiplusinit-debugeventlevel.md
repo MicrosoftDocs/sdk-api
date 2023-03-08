@@ -2,7 +2,6 @@
 UID: NE:gdiplusinit.DebugEventLevel
 title: DebugEventLevel
 ms.date: 05/07/2020
-ms.topic: language-reference
 targetos: Windows
 description: Defines constants that specify a debug event level.
 tech.root: gdiplus
@@ -12,8 +11,8 @@ req.header: gdiplusinit.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 

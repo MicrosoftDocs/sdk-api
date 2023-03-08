@@ -1,10 +1,9 @@
 ---
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleAccess.CreateContentDecryptionModule
 title: IMFContentDecryptionModuleAccess::CreateContentDecryptionModule
-ms.date: 11/26/2019
-ms.topic: language-reference
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The IMFContentDecryptionModuleAccess::CreateContentDecryptionModule function creates a IMFContentDecryptionModule that represents a Content Decryption Module (CDM) for a DRM key system.
 tech.root: mf
 req.assembly: 
 req.construct-type: function
@@ -42,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Creates a [IMFContentDecryptionModule](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodule) that represents a Content Decryption Module (CDM) for a DRM key system.
+Creates a [IMFContentDecryptionModule](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodule.md) that represents a Content Decryption Module (CDM) for a DRM key system.
 
 ## -parameters
 
@@ -65,6 +64,7 @@ The following properties are supported for the *contentDecryptionModulePropertie
 | Property                                      |Description
 |-----------------------------------------------|---------------------------------------------------------------|
 | [MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH](/windows/win32/medfound/mf-contentdecryptionmodule-inprivatestorepath) | A file path representing a storage location the Content Decryption Module (CDM) can use for content-specific data.|
-| [MF_CONTENTDECRYPTIONMODULE_STOREPATH](/windows/win32/medfound/mf-contentdecryptionmodule-inprivatestorepath/mf-contentdecryptionmodule-storepath) | A file path representing a storage location the Content Decryption Module (CDM) can use for initialization. The path specified with this property will also be used for content-specific data if the **MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH** property isn't set. |
+| [MF_CONTENTDECRYPTIONMODULE_STOREPATH](/windows/win32/medfound/mf-contentdecryptionmodule-storepath) | A file path representing a storage location the Content Decryption Module (CDM) can use for initialization. The path specified with this property will also be used for content-specific data if the **MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH** property isn't set. |
 
 ## -see-also
+

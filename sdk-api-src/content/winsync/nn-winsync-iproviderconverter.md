@@ -54,30 +54,7 @@ When implemented by a derived class, represents an object that can convert an <b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProviderConverter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProviderConverter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IProviderConverter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iproviderconverter-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the <b>IProviderConverter</b> object with the <b>ISyncProvider</b> object to be converted.
-
-
-</td>
-</tr>
-</table>
+The <b>IProviderConverter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProviderConverter</b> also has these types of members:
 
 ## -remarks
 

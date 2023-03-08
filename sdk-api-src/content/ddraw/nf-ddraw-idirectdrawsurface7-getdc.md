@@ -50,7 +50,7 @@ Creates a GDI-compatible handle of a device context for this surface.
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives the handle of the device context for this surface.
 
@@ -81,7 +81,7 @@ If it fails, the method can return one of the following error values:
 
 <b>GetDC</b> uses an internal version of the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-lock">IDirectDrawSurface7::Lock</a> method to lock the surface. The surface remains locked until the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-releasedc">IDirectDrawSurface7::ReleaseDC</a> method is called.
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetDC</b> method.
+
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteFontSet2
 title: IDWriteFontSet2
-description: Represents a font set.
+description: Represents a font set. (IDWriteFontSet2)
 helpviewer_keywords: ["IDWriteFontSet2","IDWriteFontSet2 interface [Direct Write]","IDWriteFontSet2 interface [Direct Write]","described","directwrite.idwritefontset2","dwrite_3/IDWriteFontSet2"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
@@ -17,8 +17,8 @@ req.lib: Dwrite.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: Windows
 req.unicode-ansi: 
 f1_keywords:

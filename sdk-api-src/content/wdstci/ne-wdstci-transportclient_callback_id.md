@@ -58,7 +58,7 @@ This enumeration is received  by the <a href="/windows/desktop/api/wdstci/nf-wds
 
 ## -enum-fields
 
-### -field WDS_TRANSPORTCLIENT_SESSION_START
+### -field WDS_TRANSPORTCLIENT_SESSION_START:0
 
 Identifies the <a href="/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientsessionstart">PFN_WdsTransportClientSessionStart</a> callback.
 

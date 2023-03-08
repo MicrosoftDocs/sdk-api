@@ -110,8 +110,7 @@ The specified message is not currently being read or written on the specified ch
                 the <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessageend">WsReadMessageEnd</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wswritemessageend">WsWriteMessageEnd</a> functions, as shown in the following
                 state diagram:
             
-
-<img alt="" src="./images/AbandonMessage.png"/>
+:::image type="content" source="./images/AbandonMessage.png" border="false" alt-text="Diagram showing how the state transitions caused by the WsAbandonMessage function differ from the WSReadMessageEnd and WsWriteMessageEnd functions.":::
 
 For read operations, an application typically calls <b>WsAbandonMessage</b> when it is unnecessary for the application to continue reading the 
                 message data, for example, if the

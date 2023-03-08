@@ -60,7 +60,7 @@ A handle to the transaction manager to obtain a virtual clock value for.
 
 ### -param TmVirtualClock [out]
 
-The latest virtual clock value for the transaction manager. See <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>.
+The latest virtual clock value for the transaction manager. See <a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>.
 
 ## -returns
 

@@ -56,19 +56,19 @@ Defines the format of the data in the log file.
 
 ## -enum-fields
 
-### -field plaCommaSeparated
+### -field plaCommaSeparated:0
 
 Comma-separated log file. The first line in the text file contains column headings followed by comma-separated data in the remaining lines of the log file.
 
-### -field plaTabSeparated
+### -field plaTabSeparated:1
 
 Tab-separated log file. The first line in the text file contains column headings followed by tab-separated data in the remaining lines of the log file.
 
-### -field plaSql
+### -field plaSql:2
 
 The log contains SQL records.
 
-### -field plaBinary
+### -field plaBinary:3
 
 Binary log file.
 

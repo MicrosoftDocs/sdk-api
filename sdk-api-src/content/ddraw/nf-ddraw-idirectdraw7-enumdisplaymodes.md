@@ -54,7 +54,7 @@ Enumerates all the display modes that the hardware exposes through the DirectDra
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 This value consists of one or more of the following flags:
 
@@ -70,15 +70,15 @@ Enumerates modes with different refresh rates. <b>IDirectDraw7::EnumDisplayModes
 
 Enumerates Mode 13 in addition to the 320x200x8 Mode X mode.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Address of a <a href="/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure to be checked against available modes. If the value of this parameter is NULL, all modes are enumerated.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Address of an application-defined structure to be passed to each enumeration member.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 Address of the <a href="/windows/desktop/api/ddraw/nc-ddraw-lpddenummodescallback2">EnumModesCallback2</a> function that the enumeration procedure calls every time a match is found.
 
@@ -105,7 +105,7 @@ If it fails, the method can return one of the following error values:
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>IDirectDraw7::EnumDisplayModes</b> method.
+
 
 ## -see-also
 

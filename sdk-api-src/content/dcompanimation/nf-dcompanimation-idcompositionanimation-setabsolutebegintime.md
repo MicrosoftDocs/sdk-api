@@ -56,7 +56,7 @@ Sets the absolute time at which the animation function starts.
 
 ### -param beginTime [in]
 
-Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a></b>
 
 The starting time for this animation.
 

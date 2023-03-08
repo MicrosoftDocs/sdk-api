@@ -54,35 +54,5 @@ Binds a managed object to an application domain, which is an isolated environmen
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppDomainHelper</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAppDomainHelper</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppDomainHelper</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAppDomainHelper</b> also has these types of members:
 
-## -members
-
-The <b>IAppDomainHelper</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iappdomainhelper-docallback">DoCallback</a>
-</td>
-<td align="left" width="63%">
-Switches into a given application domain (which the calling object must be bound to), executes the supplied callback function in that application domain, and then returns to the original application domain.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iappdomainhelper-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Binds the calling object to the current application domain and provides a callback function for shutdown that is executed when the application domain is unloaded.
-
-</td>
-</tr>
-</table>

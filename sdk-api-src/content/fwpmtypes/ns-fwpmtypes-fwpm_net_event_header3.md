@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_HEADER3_
 title: FWPM_NET_EVENT_HEADER3 (fwpmtypes.h)
-description: Contains information common to all events.
+description: Contains information common to all events. (FWPM_NET_EVENT_HEADER3)
 helpviewer_keywords: ["FWPM_NET_EVENT_FLAG_APP_ID_SET","FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET","FWPM_NET_EVENT_FLAG_IP_VERSION_SET","FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET","FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET","FWPM_NET_EVENT_FLAG_PACKAGE_ID_SET","FWPM_NET_EVENT_FLAG_REAUTH_REASON_SET","FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET","FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET","FWPM_NET_EVENT_FLAG_SCOPE_ID_SET","FWPM_NET_EVENT_FLAG_USER_ID_SET","FWPM_NET_EVENT_HEADER3","FWPM_NET_EVENT_HEADER3 structure [Filtering]","fwp.fwpm_net_event_header3","fwpmtypes/FWPM_NET_EVENT_HEADER3"]
 old-location: fwp\fwpm_net_event_header3.htm
 tech.root: fwp
@@ -52,8 +52,8 @@ api_name:
 
 ## -description
 
-The <b>FWPM_NET_EVENT_HEADER3</b> structure contains information common to all events.
-[FWPM_NET_EVENT_HEADER0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header0) is available.</div><div> </div>
+The **FWPM_NET_EVENT_HEADER3** structure contains information common to all events.
+[FWPM_NET_EVENT_HEADER0](ns-fwpmtypes-fwpm_net_event_header0.md) is available.
 
 ## -struct-fields
 
@@ -65,126 +65,19 @@ Time that the event occurred.
 
 Flags indicating which of the following members are set.  Unused fields must be zero-initialized.
 
-<table>
-<tr>
-<th>Net event flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET"></a><a id="fwpm_net_event_flag_ip_protocol_set"></a><dl>
-<dt><b>FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <b>ipProtocol</b> member is set.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET"></a><a id="fwpm_net_event_flag_local_addr_set"></a><dl>
-<dt><b>FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET</b></dt>
-</dl>
-</td>
-<td width="60%">
-Either the <b>localAddrV4</b> or <b>localAddrV6</b>  member is set. 
-
-<div class="alert"><b>Note</b>  If this flag is present,  <b>FWPM_NET_EVENT_FLAG_IP_VERSION_SET</b> must also be present.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET"></a><a id="fwpm_net_event_flag_remote_addr_set"></a><dl>
-<dt><b>FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET</b></dt>
-</dl>
-</td>
-<td width="60%">
-Either the <b>remoteAddrV4</b> or <b>remoteAddrV6</b> member is set.
-
-<div class="alert"><b>Note</b>  If this flag is present,  <b>FWPM_NET_EVENT_FLAG_IP_VERSION_SET</b> must also be present.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET"></a><a id="fwpm_net_event_flag_local_port_set"></a><dl>
-<dt><b>FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <b>localPort</b> member is set.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET"></a><a id="fwpm_net_event_flag_remote_port_set"></a><dl>
-<dt><b>FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <b>remotePort</b> member is set.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FWPM_NET_EVENT_FLAG_APP_ID_SET"></a><a id="fwpm_net_event_flag_app_id_set"></a><dl>
-<dt><b>FWPM_NET_EVENT_FLAG_APP_ID_SET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <b>appId</b> member is set.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FWPM_NET_EVENT_FLAG_USER_ID_SET"></a><a id="fwpm_net_event_flag_user_id_set"></a><dl>
-<dt><b>FWPM_NET_EVENT_FLAG_USER_ID_SET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <b>userId</b> member is set.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FWPM_NET_EVENT_FLAG_SCOPE_ID_SET"></a><a id="fwpm_net_event_flag_scope_id_set"></a><dl>
-<dt><b>FWPM_NET_EVENT_FLAG_SCOPE_ID_SET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <b>scopeId</b> member is set.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FWPM_NET_EVENT_FLAG_IP_VERSION_SET"></a><a id="fwpm_net_event_flag_ip_version_set"></a><dl>
-<dt><b>FWPM_NET_EVENT_FLAG_IP_VERSION_SET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <b>ipVersion</b> member is set.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FWPM_NET_EVENT_FLAG_REAUTH_REASON_SET"></a><a id="fwpm_net_event_flag_reauth_reason_set"></a><dl>
-<dt><b>FWPM_NET_EVENT_FLAG_REAUTH_REASON_SET</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates an existing connection was reauthorized.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FWPM_NET_EVENT_FLAG_PACKAGE_ID_SET"></a><a id="fwpm_net_event_flag_package_id_set"></a><dl>
-<dt><b>FWPM_NET_EVENT_FLAG_PACKAGE_ID_SET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <b>packageSid</b> member is set.
-
-</td>
-</tr>
-</table>
+| Net event flag | Meaning |
+| -------------- | ------- |
+| FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET | The **ipProtocol** member is set. |
+| FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET | Either the **localAddrV4** member or the **localAddrV6** member is set. If this flag is present,  **FWPM_NET_EVENT_FLAG_IP_VERSION_SET** must also be present. |
+| FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET | Either the **remoteAddrV4** member of the **remoteAddrV6** field is set. If this flag is present,  **FWPM_NET_EVENT_FLAG_IP_VERSION_SET** must also be present. |
+| FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET | The **localPort** member is set. |
+| FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET | The **remotePort** member is set. |
+| FWPM_NET_EVENT_FLAG_APP_ID_SET | The **appId** member is set. |
+| FWPM_NET_EVENT_FLAG_USER_ID_SET | The **userId** member is set. |
+| FWPM_NET_EVENT_FLAG_SCOPE_ID_SET | The **scopeId** member is set. |
+| FWPM_NET_EVENT_FLAG_IP_VERSION_SET | The **ipVersion** member is set. |
+| FWPM_NET_EVENT_FLAG_REAUTH_REASON_SET | Indicates an existing connection was reauthorized. |
+| FWPM_NET_EVENT_FLAG_PACKAGE_ID_SET | The **packageSid** member is set. |
 
 ### -field ipVersion
 
@@ -192,31 +85,31 @@ The IP version being used.
 
 ### -field ipProtocol
 
-The IP protocol specified as an IPPROTO value. See the <a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> reference topic for more information on possible protocol values.
+The IP protocol specified as an IPPROTO value. See the [socket](../winsock2/nf-winsock2-socket.md) reference topic for more information on possible protocol values.
 
 ### -field localAddrV4
 
 The IPv4 local address.
 
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+Available when **ipVersion** is **FWP_IP_VERSION_V4**.
 
 ### -field localAddrV6
 
 The IPv6 local address.
 
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+Available when **ipVersion** is **FWP_IP_VERSION_V6**.
 
 ### -field remoteAddrV4
 
 The IPv4 remote address.
 
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+Available when **ipVersion** is **FWP_IP_VERSION_V4**.
 
 ### -field remoteAddrV6
 
 The IPv6 remote address.
 
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+Available when **ipVersion** is **FWP_IP_VERSION_V6**.
 
 ### -field localPort
 
@@ -242,7 +135,7 @@ The user ID corresponding to the traffic.
 
 A superset of non-Internet protocols.
 
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_NONE</b>.
+Available when **ipVersion** is **FWP_IP_VERSION_NONE**.
 
 ### -field packageSid
 
@@ -264,14 +157,8 @@ The EDP remote server used for name-based policy.
 
 [FWP_AF](../fwptypes/ne-fwptypes-fwp_af.md)
 
+[FWP_BYTE_ARRAY16](../fwptypes/ns-fwptypes-fwp_byte_array16.md)
 
+[FWP_BYTE_BLOB](../fwptypes/ns-fwptypes-fwp_byte_blob.md)
 
-[FWP_BYTE_ARRAY16](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)
-
-
-
-[FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
-
-
-
-[FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
+[FWP_IP_VERSION](../fwptypes/ne-fwptypes-fwp_ip_version.md)

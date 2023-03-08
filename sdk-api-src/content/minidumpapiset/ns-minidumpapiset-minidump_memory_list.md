@@ -1,7 +1,7 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MEMORY_LIST
 title: MINIDUMP_MEMORY_LIST (minidumpapiset.h)
-description: Contains a list of memory ranges.
+description: Contains a list of memory ranges. (MINIDUMP_MEMORY_LIST)
 helpviewer_keywords: ["*PMINIDUMP_MEMORY_LIST","MINIDUMP_MEMORY64_LIST","MINIDUMP_MEMORY_LIST","MINIDUMP_MEMORY_LIST structure","PMINIDUMP_MEMORY_LIST","PMINIDUMP_MEMORY_LIST structure pointer","_MINIDUMP_MEMORY_LIST","_win32_minidump_memory_list_str","base.minidump_memory_list_str","minidumpapiset/MINIDUMP_MEMORY_LIST","minidumpapiset/PMINIDUMP_MEMORY_LIST"]
 old-location: base\minidump_memory_list_str.htm
 tech.root: Debug

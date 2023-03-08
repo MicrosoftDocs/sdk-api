@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 <b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
@@ -58,44 +58,5 @@ Represents the context to bind inputs and outputs to a WinML model.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWinMLEvaluationContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWinMLEvaluationContext</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWinMLEvaluationContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWinMLEvaluationContext</b> also has these types of members:
 
-## -members
-
-The <b>IWinMLEvaluationContext</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winml/nf-winml-iwinmlevaluationcontext-bindvalue">BindValue </a>
-</td>
-<td align="left" width="63%">
-Binds the input/output to the given model.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winml/nf-winml-iwinmlevaluationcontext-clear">Clear</a>
-</td>
-<td align="left" width="63%">
-Clears the bindings for a model.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winml/nf-winml-iwinmlevaluationcontext-getvaluebyname">GetValueByName</a>
-</td>
-<td align="left" width="63%">
-Returns the input/output description for the specific binding name.
-
-</td>
-</tr>
-</table>

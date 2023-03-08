@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdclient.WSDCreateDeviceProxy
 title: WSDCreateDeviceProxy function (wsdclient.h)
-description: Creates a device proxy and returns a pointer to the IWSDDeviceProxy interface.
+description: Creates a device proxy and returns a pointer to the IWSDDeviceProxy interface. (WSDCreateDeviceProxy)
 helpviewer_keywords: ["WSDCreateDeviceProxy","WSDCreateDeviceProxy function","ncd.wsdcreatedeviceproxy","wsdclient/WSDCreateDeviceProxy"]
 old-location: ncd\wsdcreatedeviceproxy.htm
 tech.root: ncd
@@ -137,7 +137,7 @@ The <b>WSDCreateDeviceProxy</b> function calls the <a href="/windows/desktop/api
 
 This function will also retrieve the device metadata, unless the <i>pszDeviceId</i> parameter begins with the @ character. To retrieve device metadata after the device proxy has been created, call <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-begingetmetadata">IWSDDeviceProxy::BeginGetMetadata</a> and <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-endgetmetadata">IWSDDeviceProxy::EndGetMetadata</a> on the returned <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a> object.
 
-For information about troubleshooting <b>WSDCreateDeviceProxy</b>function calls, see <a href="/windows/desktop/WsdApi/troubleshooting-wsdapi-applications">Troubleshooting WSDAPI Applications</a>.
+For information about troubleshooting <b>WSDCreateDeviceProxy</b> function calls, see <a href="/windows/desktop/WsdApi/troubleshooting-wsdapi-applications">Troubleshooting WSDAPI Applications</a>.
 
 ## -see-also
 

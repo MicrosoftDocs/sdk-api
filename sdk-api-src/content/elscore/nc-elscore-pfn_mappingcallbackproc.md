@@ -54,7 +54,7 @@ An application-defined callback function that asynchronously processes data prod
 
 ## -parameters
 
-### -param *pBag [in]
+### -param pBag [in]
 
 Pointer to a <a href="/windows/desktop/api/elscore/ns-elscore-mapping_property_bag">MAPPING_PROPERTY_BAG</a> structure containing the results of the call to <a href="/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>.
 
@@ -64,7 +64,7 @@ Pointer to private application data. This pointer is the same as that passed in 
 
 ### -param dwDataSize [in]
 
-Size, in bytes, of the private application data. This size is the same as that passed in the <b>dwRecognizeCallerDataSize</b> member of the <a href="/windows/desktop/api/elscore/ns-elscore-mapping_options">MAPPING_OPTIONS</a> structure when the application calls <a href="/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a> asynchronuously.
+Size, in bytes, of the private application data. This size is the same as that passed in the <b>dwRecognizeCallerDataSize</b> member of the <a href="/windows/desktop/api/elscore/ns-elscore-mapping_options">MAPPING_OPTIONS</a> structure when the application calls <a href="/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a> asynchronously.
 
 ### -param Result [in]
 

@@ -4,7 +4,7 @@ title: LPWSPIOCTL
 description: The LPWSPIoctl function controls the mode of a socket.
 tech.root: winsock
 helpviewer_keywords: ["LPWSPIOCTL"]
-ms.date: 9/12/2019
+ms.date: 08/16/2022
 ms.keywords: LPWSPIOCTL
 targetos: Windows
 req.assembly: 
@@ -79,6 +79,8 @@ A pointer to a <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaoverlapped
 
 ### -param lpCompletionRoutine [in]
 
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](../winsock2/nc-winsock2-lpwsaoverlapped_completion_routine.md)
+
 A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets). See Remarks.
 
 ### -param lpThreadId [in]
@@ -141,10 +143,10 @@ The CompletionRoutine is a placeholder for an application-supplied function name
 
 In as much as the <i>dwIoControlCode</i> parameter is now a 32-bit entity, it is possible to adopt an encoding scheme that provides a convenient way to partition the opcode identifier space. The <i>dwIoControlCode</i> parameter is constructed to allow for protocol and vendor independence when adding new control codes, while retaining backward compatibility with Windows Sockets 1.1 and UNIX control codes. The <i>dwIoControlCode</i> parameter has the following form.
 
-|||||||
-|----|----|----|-----|-----------------------|---------------------------------|
+
 | bit 31 | bit 30 | bit 29 | bits 28 and 27 | bits 26 thru 16 | bits 15 thru 0 |
-| **I** | **O** | **V** | **T** | **Vendor/Address family** | **Code** |
+|----|----|----|-----|-----------------------|---------------------------------|
+| I | O | V | T | Vendor/Address family | Code |
 
 **I** is set if the input buffer is valid for the code, as with **IOC_IN**.
 
@@ -231,7 +233,7 @@ Obtains a list of local transport addresses of the socket's protocol family to w
 -   Issue **SIO_ADDRESS_LIST_QUERY** IOCTL
 -   Whenever **SIO_ADDRESS_LIST_CHANGE** IOCTL notifies the application of address list change (either through overlapped I/O or by signaling FD_ADDRESS_LIST_CHANGE event), the whole sequence of actions should be repeated.
 
-For more detailed information, see the [**SIO_ADDRESS_LIST_QUERY**](/previous-versions/windows/desktop/legacy/dd877219(v%3Dvs.85))  reference. **SIO_ADDRESS_LIST_QUERY** is supported on Windows 2000 and later.
+For more detailed information, see the [**SIO_ADDRESS_LIST_QUERY**](/windows/win32/winsock/sio-address-list-query) reference. **SIO_ADDRESS_LIST_QUERY** is supported on Windows 2000 and later.
 
 </dd> <dt>
 
@@ -290,11 +292,11 @@ If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer
 <span id="SIO_BSP_HANDLE_SELECT__opcode_setting__O__T__1_"></span><span id="sio_bsp_handle_select__opcode_setting__o__t__1_"></span><span id="SIO_BSP_HANDLE_SELECT__OPCODE_SETTING__O__T__1_"></span>**SIO_BSP_HANDLE_SELECT** (opcode setting: O, T==1)
 </dt> <dd>
 
-Retrieves the base service provider handle for a socket used by the [**select**](/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15) function. The returned value is a **SOCKET**.
+Retrieves the base service provider handle for a socket used by the [**select**](/sql/t-sql/queries/select-transact-sql) function. The returned value is a **SOCKET**.
 
-This Ioctl is used by a layered service provider to ensure the provider intercept the [**select**](/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15) function.
+This Ioctl is used by a layered service provider to ensure the provider intercept the [**select**](/sql/t-sql/queries/select-transact-sql) function.
 
-If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer</i> is less than the size of a **SOCKET**) or the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsaget/en-us/windows/win32/api/winsock2/nf-winsock2-wsapolllasterror) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault).
+If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer</i> is less than the size of a **SOCKET**) or the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault).
 
 **SIO_BSP_HANDLE_SELECT** is defined in the <i>Mswsock.h</i> header file and supported on Windows Vista and later.
 
@@ -366,7 +368,7 @@ The GUID values for extension functions supported by the Windows TCP/IP service 
 | <span id="WSAID_GETACCEPTEXSOCKADDRS"></span><span id="wsaid_getacceptexsockaddrs"></span>WSAID_GETACCEPTEXSOCKADDRS<br/> | The [**GetAcceptExSockaddrs**](../mswsock/nf-mswsock-getacceptexsockaddrs.md) extension function.<br/> |
 | <span id="WSAID_TRANSMITFILE"></span><span id="wsaid_transmitfile"></span>WSAID_TRANSMITFILE<br/>                         | The [**TransmitFile**](../mswsock/nf-mswsock-transmitfile.md) extension function.<br/>                 |
 | <span id="WSAID_TRANSMITPACKETS"></span><span id="wsaid_transmitpackets"></span>WSAID_TRANSMITPACKETS<br/>                | The [**TransmitPackets**](../mswsock/nc-mswsock-lpfn_transmitpackets.md) extension function.<br/>           |
-| <span id="WSAID_WSARECVMSG"></span><span id="wsaid_wsarecvmsg"></span>WSAID_WSARECVMSG<br/>                               | The [**WSARecvMsg**](/previous-versions/windows/desktop/legacy/ms741687(v%3Dvs.85)) extension function.<br/>                     |
+| <span id="WSAID_WSARECVMSG"></span><span id="wsaid_wsarecvmsg"></span>WSAID_WSARECVMSG<br/>                               | The [**LPFN_WSARECVMSG (WSARecvMsg)**](../mswsock/nc-mswsock-lpfn_wsarecvmsg.md) extension function.<br/>                     |
 | <span id="WSAID_WSASENDMSG"></span><span id="wsaid_wsasendmsg"></span>WSAID_WSASENDMSG<br/>                               | The [**WSASendMsg**](../winsock2/nf-winsock2-wsasendmsg.md) extension function. <br/>                      |
 
 
@@ -394,7 +396,7 @@ Returns a list of configured IP interfaces and their parameters as an array of [
  
 
 
-The <i>lpvOutBuffer</i> parameter points to the buffer in which to store the information about interfaces as an array of [**INTERFACE_INFO**](../ws2ipdef/ns-ws2ipdef-interface_info.md) structures for unicast IP addresses on the interfaces. The <i>cbOutBuffer</i> parameter specifies the length of the output buffer. The number of interfaces returned (number of structures returned in the buffer pointed to by <i>lpvOutBuffer</i> parameter) can be determined based on the actual length of the output buffer returned in <i>lpcbBytesReturned</i>parameter.
+The <i>lpvOutBuffer</i> parameter points to the buffer in which to store the information about interfaces as an array of [**INTERFACE_INFO**](../ws2ipdef/ns-ws2ipdef-interface_info.md) structures for unicast IP addresses on the interfaces. The <i>cbOutBuffer</i> parameter specifies the length of the output buffer. The number of interfaces returned (number of structures returned in the buffer pointed to by <i>lpvOutBuffer</i> parameter) can be determined based on the actual length of the output buffer returned in <i>lpcbBytesReturned</i> parameter.
 
 If the [**WSAIoctl**](../winsock2/nf-winsock2-wsaioctl.md) function is called with **SIO_GET_INTERFACE_LIST** and the level member of the socket <i>s</i> parameter is not defined as **IPPROTO_IP**, **WSAEINVAL** is returned. A call to the **WSAIoctl** function with **SIO_GET_INTERFACE_LIST** returns **WSAEFAULT** if the <i>cbOutBuffer</i> parameter that specifies the length of the output buffer is too small ro receive the list of configured interfaces.
 
@@ -407,7 +409,7 @@ Reserved for future use with sockets.
 
 Returns a list of configured IP interfaces and their parameters as an array of [**INTERFACE_INFO_EX**](../ws2ipdef/ns-ws2ipdef-interface_info_ex.md) structures.
 
-The <i>lpvOutBuffer</i> parameter points to the buffer in which to store the information about interfaces as an array of [**INTERFACE_INFO_EX**](../ws2ipdef/ns-ws2ipdef-interface_info_ex.md) structures for unicast IP addresses on the interface. The <i>cbOutBuffer</i> parameter specifies the length of the output buffer. The number of interfaces returned (number of structures returned in <i>lpvOutBuffer</i>) can be determined based on the actual length of the output buffer returned in <i>lpcbBytesReturned</i>parameter.
+The <i>lpvOutBuffer</i> parameter points to the buffer in which to store the information about interfaces as an array of [**INTERFACE_INFO_EX**](../ws2ipdef/ns-ws2ipdef-interface_info_ex.md) structures for unicast IP addresses on the interface. The <i>cbOutBuffer</i> parameter specifies the length of the output buffer. The number of interfaces returned (number of structures returned in <i>lpvOutBuffer</i>) can be determined based on the actual length of the output buffer returned in <i>lpcbBytesReturned</i> parameter.
 
 **SIO_GET_INTERFACE_LIST_EX** is not currently supported on Windows.
 
@@ -455,9 +457,9 @@ For more detailed information, see the [**SIO_IDEAL_SEND_BACKLOG_QUERY**](/windo
 <span id="SIO_KEEPALIVE_VALS__opcode_setting__I__T__3_"></span><span id="sio_keepalive_vals__opcode_setting__i__t__3_"></span><span id="SIO_KEEPALIVE_VALS__OPCODE_SETTING__I__T__3_"></span>**SIO_KEEPALIVE_VALS** (opcode setting: I, T==3)
 </dt> <dd>
 
-Enables or disables the per-connection setting of the TCP **keep-alive** option which specifies the TCP keep-alive timeout and interval. For more information on the keep-alive option, see section 4.2.3.6 on the <i>Requirements for Internet Hostsâ€”Communication Layers</i> specified in RFC 1122 available at the [IETF website](https://www.ietf.org/rfc/rfc1122.txt).
+Enables or disables the per-connection setting of the TCP **keep-alive** option which specifies the TCP keep-alive timeout and interval. For more information on the keep-alive option, see section 4.2.3.6 on the <i>Requirements for Internet Hosts—Communication Layers</i> specified in RFC 1122 available at the [IETF website](https://www.ietf.org/rfc/rfc1122.txt).
 
-**SIO_KEEPALIVE_VALS** can be used to enable or disable keep-alive probes and set the keep-alive timeout and interval. The keep-alive timeout specifies the timeout, in milliseconds, with no activity until the first keep-alive packet is sent. The keep-alive interval specifies the interval, in milliseconds, between when successive keep-alive packets are sent if no acknowledgement is received.
+**SIO_KEEPALIVE_VALS** can be used to enable or disable keep-alive probes and set the keep-alive timeout and interval. The keep-alive timeout specifies the timeout, in milliseconds, with no activity until the first keep-alive packet is sent. The keep-alive interval specifies the interval, in milliseconds, between when successive keep-alive packets are sent if no acknowledgment is received.
 
 The <b><a href="/windows/win32/winsock/so-keepalive">SO_KEEPALIVE</a></b> option, which is one of the SOL_SOCKET Socket Options, can also be used to enable or disable the TCP keep-alive on a connection, as well as query the current state of this option. To query whether TCP keep-alive is enabled on a socket, the **getsockopt** function can be called with the **SO_KEEPALIVE** option. To enable or disable TCP keep-alive, the [**setsockopt**](../winsock/nf-winsock-setsockopt.md) function can be called with the <b><a href="/windows/win32/winsock/so-keepalive">SO_KEEPALIVE</a></b> option. If TCP keep-alive is enabled with **SO_KEEPALIVE**, then the default TCP settings are used for keep-alive timeout and interval unless these values have been changed using **SIO_KEEPALIVE_VALS**.
 
@@ -532,7 +534,7 @@ If an overlapped operation completes immediately, this function returns a value 
 </dt> <dd>
 
 
-Enables a socket to receive all IPv4 or IPv6 packets passing throuigh a network interface. The socket handle passed to the [**WSAIoctl**](../winsock2/nf-winsock2-wsaioctl.md) function must be one of the following:
+Enables a socket to receive all IPv4 or IPv6 packets passing through a network interface. The socket handle passed to the [**WSAIoctl**](../winsock2/nf-winsock2-wsaioctl.md) function must be one of the following:
 
 -   An IPv4 socket that was created with the address family set to AF_INET, the socket type set to SOCK_RAW, and the protocol set to IPPROTO_IP.
 -   An IPv6 socket that was created with the address family set to AF_INET6, the socket type set to SOCK_RAW, and the protocol set to IPPROTO_IPV6.

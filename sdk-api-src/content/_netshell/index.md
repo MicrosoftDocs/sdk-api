@@ -1,21 +1,21 @@
 ---
 UID: TP:netshell
-title: NetShell
+title: NetSh
 ms.assetid: 2eb120a6-ae25-3c31-9523-227ff5407e13
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
-# NetShell
+# NetSh
 
 ## -description
 
-Overview of the NetShell technology.
+Overview of the NetSh technology.
 
-To develop NetShell, you need these headers:
+To develop NetSh, you need these headers:
 
  * [netsh.h](../netsh/index.md)
 
 For programming guidance for this technology, see:
-* [NetShell](/previous-versions/windows/desktop/netshell)
+* [NetSh](/previous-versions/windows/desktop/netshell)

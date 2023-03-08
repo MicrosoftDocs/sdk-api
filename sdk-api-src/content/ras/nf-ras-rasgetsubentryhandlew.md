@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetSubEntryHandleW
 title: RasGetSubEntryHandleW function (ras.h)
-description: The RasGetSubEntryHandle function retrieves a connection handle for a specified subentry of a multilink connection.
-helpviewer_keywords: ["RasGetSubEntryHandle","RasGetSubEntryHandle function [RAS]","RasGetSubEntryHandleA","RasGetSubEntryHandleW","_ras_rasgetsubentryhandle","ras/RasGetSubEntryHandle","ras/RasGetSubEntryHandleA","ras/RasGetSubEntryHandleW","rras.rasgetsubentryhandle"]
+description: The RasGetSubEntryHandle function retrieves a connection handle for a specified subentry of a multilink connection. (Unicode)
+helpviewer_keywords: ["RasGetSubEntryHandle", "RasGetSubEntryHandle function [RAS]", "RasGetSubEntryHandleW", "_ras_rasgetsubentryhandle", "ras/RasGetSubEntryHandle", "ras/RasGetSubEntryHandleW", "rras.rasgetsubentryhandle"]
 old-location: rras\rasgetsubentryhandle.htm
 tech.root: RRAS
 ms.assetid: 020388b1-9965-4bd1-be7b-30f2127cb0fb
@@ -57,16 +57,16 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Specifies the <b>HRASCONN</b> connection handle returned by the 
 <a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function for a multilink phone-book entry.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies a valid subentry index for the phone-book entry.
 
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 Pointer to the <b>HRASCONN</b> variable that receives a connection handle that represents the subentry connection.
 
@@ -121,7 +121,7 @@ The value specified by <i>dwSubEntry</i> exceeds the maximum number of subentrie
 The connection handle specified in the <i>hRasConn</i> parameter refers to the entire multilink connection, but the connection handle returned in the <i>*lphRasConn</i> parameter refers only to the subentry connection. Use the subentry connection handle in any function that accepts an <i>hRasConn</i> parameter, including the 
 <a href="/windows/desktop/api/ras/nf-ras-rashangupa">RasHangUp</a>, 
 <a href="/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a>, and 
-<a href="/windows/desktop/api/ras/nf-ras-rasgetprojectioninfoa">RasGetProjectionInfo</a> functions. The projection information returned by 
+<a href="/windows/win32/api/ras/nf-ras-rasgetprojectioninfoex">RasGetProjectionInfoEx</a> functions. The projection information returned by 
 <b>RasGetProjectionInfo</b> for a multilink entry is the same for the each of the subentry connection handles as it is for the main connection handle.
 
 You can call 
@@ -147,7 +147,7 @@ You can call
 
 
 
-<a href="/windows/desktop/api/ras/nf-ras-rasgetprojectioninfoa">RasGetProjectionInfo</a>
+[RasGetProjectionInfoEx](./nf-ras-rasgetprojectioninfoex.md)
 
 
 

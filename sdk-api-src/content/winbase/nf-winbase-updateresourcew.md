@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.UpdateResourceW
 title: UpdateResourceW function (winbase.h)
-description: Adds, deletes, or replaces a resource in a portable executable (PE) file.
-helpviewer_keywords: ["UpdateResource","UpdateResource function [Menus and Other Resources]","UpdateResourceA","UpdateResourceW","_win32_UpdateResource","_win32_updateresource_cpp","menurc.updateresource","winbase/UpdateResource","winbase/UpdateResourceA","winbase/UpdateResourceW","winui._win32_updateresource"]
+description: Adds, deletes, or replaces a resource in a portable executable (PE) file. (Unicode)
+helpviewer_keywords: ["UpdateResource", "UpdateResource function [Menus and Other Resources]", "UpdateResourceW", "_win32_UpdateResource", "_win32_updateresource_cpp", "menurc.updateresource", "winbase/UpdateResource", "winbase/UpdateResourceW", "winui._win32_updateresource"]
 old-location: menurc\updateresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\updateresource.htm
@@ -66,11 +66,9 @@ A module handle returned by the <a href="/windows/desktop/api/winbase/nf-winbase
 
 Type: <b>LPCTSTR</b>
 
-The resource type to be updated. Alternatively, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. If the first character of the string is a pound sign (#), then the remaining characters represent a 
+The resource type to be updated. Alternatively, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the integer identifier of the resource type. For example, the string "#258" represents the identifier 258.
 
-decimal number that specifies the integer identifier of the resource type. For example, the string "#258" represents the identifier 258. 
-
-For a list of predefined resource types, see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Resource Types</a>.
+For a list of predefined resource types, see <a href="/windows/win32/menurc/resource-types">Resource Types</a>.
 
 ### -param lpName [in]
 

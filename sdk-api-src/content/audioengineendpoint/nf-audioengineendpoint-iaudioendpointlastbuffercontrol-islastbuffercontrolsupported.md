@@ -52,7 +52,7 @@ api_name:
 
 Indicates if last buffer control is supported.
 
-## -parameters
+
 
 ## -returns
 

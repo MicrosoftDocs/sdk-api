@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>get__MixerBitmap</b> method retrieves the Video Mixing Renderer's <a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface, which controls how the VMR mixes a static bitmap.
+The <b>get__MixerBitmap</b> method retrieves the Video Mixing Renderer's <a href="/windows/win32/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface, which controls how the VMR mixes a static bitmap.
 
 ## -parameters
 
 ### -param MixerPicture [out]
 
-Receives an <a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface pointer.
+Receives an <a href="/windows/win32/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface pointer.
 
 ## -returns
 
@@ -64,7 +64,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -remarks
 
-The returned <a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface has an outstanding reference count. The caller must release the interface.
+The returned <a href="/windows/win32/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface has an outstanding reference count. The caller must release the interface.
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInstallParamsW
 title: SetupDiGetDeviceInstallParamsW function (setupapi.h)
-description: The SetupDiGetDeviceInstallParams function retrieves device installation parameters for a device information set or a particular device information element.
-helpviewer_keywords: ["SetupDiGetDeviceInstallParams","SetupDiGetDeviceInstallParams function [Device and Driver Installation]","SetupDiGetDeviceInstallParamsA","SetupDiGetDeviceInstallParamsW","devinst.setupdigetdeviceinstallparams","di-rtns_417ee0d9-f9c6-44a2-b4b4-4787fe9e952b.xml","setupapi/SetupDiGetDeviceInstallParams"]
+description: The SetupDiGetDeviceInstallParams function retrieves device installation parameters for a device information set or a particular device information element. (Unicode)
+helpviewer_keywords: ["SetupDiGetDeviceInstallParams", "SetupDiGetDeviceInstallParams function [Device and Driver Installation]", "SetupDiGetDeviceInstallParamsW", "devinst.setupdigetdeviceinstallparams", "di-rtns_417ee0d9-f9c6-44a2-b4b4-4787fe9e952b.xml", "setupapi/SetupDiGetDeviceInstallParams"]
 old-location: devinst\setupdigetdeviceinstallparams.htm
 tech.root: devinst
 ms.assetid: e5e8c203-cf71-4cb4-a7a8-5af3a2483eea
@@ -45,6 +45,7 @@ api_location:
 api_name:
  - SetupDiGetDeviceInstallParams
  - SetupDiGetDeviceInstallParamsW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupDiGetDeviceInstallParamsW function

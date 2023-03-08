@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.AddFontResourceW
 title: AddFontResourceW function (wingdi.h)
-description: The AddFontResource function adds the font resource from the specified file to the system font table. The font can subsequently be used for text output by any application.
-helpviewer_keywords: [".fnt",".fon",".fot",".mmm",".otf",".pfb",".pfm",".ttc",".ttf","AddFontResource","AddFontResource function [Windows GDI]","AddFontResourceA","AddFontResourceW","_win32_AddFontResource","gdi.addfontresource","wingdi/AddFontResource","wingdi/AddFontResourceA","wingdi/AddFontResourceW"]
+description: The AddFontResource function adds the font resource from the specified file to the system font table. The font can subsequently be used for text output by any application. (Unicode)
+helpviewer_keywords: [".fnt", ".fon", ".fot", ".mmm", ".otf", ".pfb", ".pfm", ".ttc", ".ttf", "AddFontResource", "AddFontResource function [Windows GDI]", "AddFontResourceW", "_win32_AddFontResource", "gdi.addfontresource", "wingdi/AddFontResource", "wingdi/AddFontResourceW"]
 old-location: gdi\addfontresource.htm
 tech.root: gdi
 ms.assetid: e553a25a-f281-4ddc-8e95-1f61ed8238f9
@@ -60,7 +60,7 @@ To mark a font as private or not enumerable, use the <a href="/windows/desktop/a
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to a null-terminated character string that contains a valid font file name. This parameter can specify any of the following files.
 

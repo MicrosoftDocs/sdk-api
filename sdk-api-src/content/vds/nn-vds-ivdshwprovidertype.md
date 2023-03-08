@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsHwProviderType
 title: IVdsHwProviderType (vds.h)
-description: Provides a method to retrieve the type of hardware provider.
+description: The IVdsHwProviderType interface (vds.h) provides a method to retrieve the type of hardware provider.
 helpviewer_keywords: ["IVdsHwProviderType","IVdsHwProviderType interface [VDS]","IVdsHwProviderType interface [VDS]","described","base.ivdshwprovidertype","vds/IVdsHwProviderType","vdshwprv/IVdsHwProviderType"]
 old-location: base\ivdshwprovidertype.htm
 tech.root: base
 ms.assetid: 24bd634e-96e1-4f2a-a70b-3aae734c75f9
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsHwProviderType, IVdsHwProviderType interface [VDS], IVdsHwProviderType interface [VDS],described, base.ivdshwprovidertype, vds/IVdsHwProviderType, vdshwprv/IVdsHwProviderType
 req.header: vds.h
 req.include-header: 
@@ -51,33 +51,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides a method to retrieve the type of hardware provider.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsHwProviderType</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsHwProviderType</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsHwProviderType</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovidertype-getprovidertype">GetProviderType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the type of the hardware provider.</p> (Inherited from <b>IVdsHwProviderType</b>)</td>
-</tr>
-</table>
+The <b>IVdsHwProviderType</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsHwProviderType</b> also has these types of members:
 
 ## -see-also
 

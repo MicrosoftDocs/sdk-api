@@ -1,7 +1,7 @@
 ---
 UID: NC:perflib.PERF_MEM_FREE
 title: PERF_MEM_FREE (perflib.h)
-description: Providers implement this function to provide custom memory management for PERFLIB.
+description: Providers implement this function to provide custom memory management for PERFLIB.F
 helpviewer_keywords: ["FreeMemory","FreeMemory callback function [Perf]","PERF_MEM_FREE","PERF_MEM_FREE callback","perf.freememory","perflib/FreeMemory"]
 old-location: perf\freememory.htm
 tech.root: perf

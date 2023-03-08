@@ -52,7 +52,7 @@ api_name:
 
 Resets the animation function so that it contains no segments.
 
-## -parameters
+
 
 ## -returns
 

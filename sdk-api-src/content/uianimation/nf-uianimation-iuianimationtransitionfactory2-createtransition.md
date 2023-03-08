@@ -58,8 +58,7 @@ Creates a transition from a custom interpolator for a given dimension.
 
 The interpolator from which a transition is to be created.  
                
-               The specified object must implement the
-               <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator2">IUIAnimationInterpolator2</a> interface.
+The specified object must implement the <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator2">IUIAnimationInterpolator2</a> interface.
 
 ### -param transition [out]
 
@@ -69,7 +68,7 @@ The new transition.
 
 If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. 
             
-          See <a href="/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
+See <a href="/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 ## -see-also
 

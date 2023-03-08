@@ -98,7 +98,7 @@ Pointer to a function of type
 
 Handle to a window that the custom-scripting DLL can use to present a user interface to the user.
 
-### -param *pRasDialParams [in]
+### -param pRasDialParams [in]
 
 Pointer to a Unicode 
 <a href="/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure. This structure contains the authentication credentials for the user. The custom-scripting DLL can modify the <b>szUserName</b>, <b>szPassword</b>, and <b>szDomain</b> members of this structure. The Point-to-Point Protocol (PPP) will use whatever is stored in these members when 

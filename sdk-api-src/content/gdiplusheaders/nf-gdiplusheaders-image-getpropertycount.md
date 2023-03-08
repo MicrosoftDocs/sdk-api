@@ -54,7 +54,7 @@ api_name:
 The <b>Image::GetPropertyCount</b> method gets the number of properties (pieces of metadata) stored in this 
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,38 +54,7 @@ Captures a snapshot of the current state of the CRM and holds a specific CRM cle
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmMonitor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICrmMonitor</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICrmMonitor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitor-getclerks">GetClerks</a>
-</td>
-<td align="left" width="63%">
-Retrieves a clerk collection object, which is a snapshot of the current state of the clerks.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitor-holdclerk">HoldClerk</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer on the specified clerk.
-
-</td>
-</tr>
-</table>
+The <b>ICrmMonitor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICrmMonitor</b> also has these types of members:
 
 ## -see-also
 

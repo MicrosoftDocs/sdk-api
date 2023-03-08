@@ -52,7 +52,7 @@ api_name:
 
 Gets the wrapping mode of the last line.
 
-## -parameters
+
 
 ## -returns
 

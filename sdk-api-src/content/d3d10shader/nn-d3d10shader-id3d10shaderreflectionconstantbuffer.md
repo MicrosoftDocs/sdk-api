@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10shader.ID3D10ShaderReflectionConstantBuffer
 title: ID3D10ShaderReflectionConstantBuffer (d3d10shader.h)
-description: This shader-reflection interface provides access to a constant buffer.
+description: This shader-reflection interface provides access to a constant buffer. (ID3D10ShaderReflectionConstantBuffer)
 helpviewer_keywords: ["ID3D10ShaderReflectionConstantBuffer","ID3D10ShaderReflectionConstantBuffer interface [Direct3D 10]","ID3D10ShaderReflectionConstantBuffer interface [Direct3D 10]","described","d3d10shader/ID3D10ShaderReflectionConstantBuffer","direct3d10.id3d10shaderreflectionconstantbuffer","fdeec4a2-cda3-d87b-9d10-c899b8675fd1"]
 old-location: direct3d10\id3d10shaderreflectionconstantbuffer.htm
 tech.root: direct3d10
@@ -55,47 +55,10 @@ This shader-reflection interface provides access to a constant buffer.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10ShaderReflectionConstantBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10ShaderReflectionConstantBuffer</b> also has these types of members:
+The <b>ID3D10ShaderReflectionConstantBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10ShaderReflectionConstantBuffer</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID3D10ShaderReflectionConstantBuffer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectionconstantbuffer-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get a constant-buffer description.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectionconstantbuffer-getvariablebyindex">GetVariableByIndex</a>
-</td>
-<td align="left" width="63%">
-Get a shader-reflection variable by index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectionconstantbuffer-getvariablebyname">GetVariableByName</a>
-</td>
-<td align="left" width="63%">
-Get a shader-reflection variable by name.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

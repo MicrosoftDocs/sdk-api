@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.RemovePropA
 title: RemovePropA function (winuser.h)
-description: Removes an entry from the property list of the specified window. The specified character string identifies the entry to be removed.
-helpviewer_keywords: ["RemoveProp","RemoveProp function [Windows and Messages]","RemovePropA","RemovePropW","_win32_RemoveProp","_win32_removeprop_cpp","winmsg.removeprop","winui._win32_removeprop","winuser/RemoveProp","winuser/RemovePropA","winuser/RemovePropW"]
+description: Removes an entry from the property list of the specified window. The specified character string identifies the entry to be removed. (ANSI)
+helpviewer_keywords: ["RemovePropA", "winuser/RemovePropA"]
 old-location: winmsg\removeprop.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\removeprop.htm
@@ -55,6 +55,7 @@ api_name:
  - RemoveProp
  - RemovePropA
  - RemovePropW
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # RemovePropA function

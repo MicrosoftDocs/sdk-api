@@ -9,25 +9,25 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT2.operator = (const XMFLOAT
 ms.date: 05/13/2019
 ms.keywords: Use DirectX..XMFLOAT2.operator =, Use DirectX::::XMFLOAT2::operator =, XMFLOAT2 structure [DirectX Math Support APIs],operator = method, XMFLOAT2.operator =, XMFLOAT2.operator-assign, XMFLOAT2.operator=, XMFLOAT2::operator-assign, XMFLOAT2::operator=, dxmath.xmfloat2_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT2 structure, operator=
 req.header: directxmath.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
 req.namespace: Use DirectX.
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 f1_keywords:
  - XMFLOAT2::operator=
  - directxmath/XMFLOAT2::operator=
@@ -51,15 +51,15 @@ api_name:
 
 Assigns the vector component data from one instance of <code>XMFLOAT2</code> to the current instance of <code>XMFLOAT2</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a> to the current instance of <code>XMFLOAT2</code>.
+This operator assigns the vector component data from one instance of <a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat2">XMFLOAT2</a> to the current instance of <code>XMFLOAT2</code>.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
-Instance of <code>XMFLOAT2</code> used to update the current <code>XMFLOAT2</code>structure.
+Instance of <code>XMFLOAT2</code> used to update the current <code>XMFLOAT2</code> structure.
 
 ## -returns
 
@@ -67,7 +67,6 @@ The current instance of <code>XMFLOAT2</code> whose vector component data has be
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a>
+<a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat2">XMFLOAT2</a>
 
-<a href="https://msdn.microsoft.com/91b6d6e3-7953-461c-8b64-c50f394caa63">XMFLOAT2 Operators</a>
-
+<a href="/windows/win32/dxmath/ovw-xmfloat2-operators">XMFLOAT2 Operators</a>

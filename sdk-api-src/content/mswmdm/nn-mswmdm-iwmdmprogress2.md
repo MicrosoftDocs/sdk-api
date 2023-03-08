@@ -54,29 +54,7 @@ The optional, application-implemented <b>IWMDMProgress2</b> interface extends th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMProgress2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress</a>. <b>IWMDMProgress2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWMDMProgress2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress2-end2">End2</a>
-</td>
-<td align="left" width="63%">
-Extends <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-end">IWMDMProgress::End</a> by providing a completion status indicator.
-
-</td>
-</tr>
-</table>
+The <b>IWMDMProgress2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress</a>. <b>IWMDMProgress2</b> also has these types of members:
 
 ## -see-also
 

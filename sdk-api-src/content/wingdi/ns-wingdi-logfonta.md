@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagLOGFONTA
 title: LOGFONTA (wingdi.h)
-description: The LOGFONT structure defines the attributes of a font.
+description: The LOGFONT structure defines the attributes of a font. (ANSI)
 helpviewer_keywords: ["*LPLOGFONTA","*NPLOGFONTA","*PLOGFONTA","LOGFONT","LOGFONT structure [Windows GDI]","LOGFONTA","LOGFONTW","PLOGFONT","PLOGFONT structure pointer [Windows GDI]","_win32_LOGFONT_str","gdi.logfont","wingdi/LOGFONT","wingdi/LOGFONTA","wingdi/LOGFONTW","wingdi/PLOGFONT"]
 old-location: gdi\logfont.htm
 tech.root: gdi

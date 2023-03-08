@@ -52,7 +52,7 @@ api_name:
 
 Gets the maximum size, in device-dependent units (pixels), of  any one bitmap dimension supported by the render target.
 
-## -parameters
+
 
 ## -returns
 

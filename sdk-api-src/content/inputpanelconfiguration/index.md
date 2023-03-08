@@ -4,7 +4,7 @@ title: Inputpanelconfiguration.h header
 ms.assetid: a32bbe8b-a5c3-3c60-9671-b7aebaac7486
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: shell
 f1_keywords:
  - inputpanelconfiguration

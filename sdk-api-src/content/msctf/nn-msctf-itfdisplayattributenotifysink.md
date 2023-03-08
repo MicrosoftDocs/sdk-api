@@ -54,29 +54,7 @@ The <b>ITfDisplayAttributeNotifySink</b> interface is implemented by an applicat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfDisplayAttributeNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfDisplayAttributeNotifySink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfDisplayAttributeNotifySink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributenotifysink-onupdateinfo">OnUpdateInfo</a>
-</td>
-<td align="left" width="63%">
-Called when display attribute information is updated.
-
-</td>
-</tr>
-</table>
+The <b>ITfDisplayAttributeNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfDisplayAttributeNotifySink</b> also has these types of members:
 
 ## -see-also
 

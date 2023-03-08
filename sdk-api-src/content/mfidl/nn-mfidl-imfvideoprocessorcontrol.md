@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFVideoProcessorControl
 title: IMFVideoProcessorControl (mfidl.h)
-description: Configures the Video Processor MFT.
+description: Configures the Video Processor MFT. (IMFVideoProcessorControl)
 helpviewer_keywords: ["IMFVideoProcessorControl","IMFVideoProcessorControl interface [Media Foundation]","IMFVideoProcessorControl interface [Media Foundation]","described","mf.imfvideoprocessorcontrol","mfidl/IMFVideoProcessorControl"]
 old-location: mf\imfvideoprocessorcontrol.htm
 tech.root: mf
@@ -54,74 +54,7 @@ Configures the <a href="/windows/desktop/medfound/video-processor-mft">Video Pro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoProcessorControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoProcessorControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFVideoProcessorControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setbordercolor">SetBorderColor</a>
-</td>
-<td align="left" width="63%">
-Sets the border color.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setconstrictionsize">SetConstrictionSize</a>
-</td>
-<td align="left" width="63%">
-Specifies the amount of downsampling to perform on the output.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setdestinationrectangle">SetDestinationRectangle</a>
-</td>
-<td align="left" width="63%">
-Sets the destination rectangle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setmirror">SetMirror</a>
-</td>
-<td align="left" width="63%">
-Specifies whether to flip the video image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setrotation">SetRotation</a>
-</td>
-<td align="left" width="63%">
-Specifies whether to rotate the video to the correct orientation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setsourcerectangle">SetSourceRectangle</a>
-</td>
-<td align="left" width="63%">
-Sets the source rectangle.
-
-</td>
-</tr>
-</table>
+The <b>IMFVideoProcessorControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoProcessorControl</b> also has these types of members:
 
 ## -remarks
 

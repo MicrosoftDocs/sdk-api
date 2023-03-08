@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetDriverInfoDetailA
 title: SetupDiGetDriverInfoDetailA function (setupapi.h)
-description: The SetupDiGetDriverInfoDetail function retrieves driver information detail for a device information set or a particular device information element in the device information set.
-helpviewer_keywords: ["SetupDiGetDriverInfoDetail","SetupDiGetDriverInfoDetail function [Device and Driver Installation]","SetupDiGetDriverInfoDetailA","SetupDiGetDriverInfoDetailW","devinst.setupdigetdriverinfodetail","di-rtns_5a2fb98d-54ee-4290-9969-f5e12d77cbcf.xml","setupapi/SetupDiGetDriverInfoDetail"]
+description: The SetupDiGetDriverInfoDetail function retrieves driver information detail for a device information set or a particular device information element in the device information set. (ANSI)
+helpviewer_keywords: ["SetupDiGetDriverInfoDetailA", "di-rtns_5a2fb98d-54ee-4290-9969-f5e12d77cbcf.xml"]
 old-location: devinst\setupdigetdriverinfodetail.htm
 tech.root: devinst
 ms.assetid: 42f3668c-8112-4cc0-bce8-b0b3886c45fb
@@ -71,7 +71,7 @@ A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_drvinfo_da
 
 A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_drvinfo_detail_data_a">SP_DRVINFO_DETAIL_DATA</a> structure that receives detailed information about the specified driver. If this parameter is not specified, <i>DriverInfoDetailDataSize</i> must be zero. If this parameter is specified, <i>DriverInfoDetailData.</i><b>cbSize</b> must be set to the value of <b>sizeof(</b>SP_DRVINFO_DETAIL_DATA<b>)</b> before it calls <b>SetupDiGetDriverInfoDetail</b>.
 
-<div class="alert"><b>Note</b>  <i>DriverInfoDetailData.</i><b>cbSize</b> must not be set to the value of the <i>DriverInfoDetailDataSize </i>parameter<i>.</i></div>
+<div class="alert"><b>Note</b>  <i>DriverInfoDetailData.</i><b>cbSize</b> must not be set to the value of the <i>DriverInfoDetailDataSize </i> parameter<i>.</i></div>
 <div> </div>
 
 ### -param DriverInfoDetailDataSize [in]

@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Used by the <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a>to read from some source into a buffer.
+Used by the <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> to read from some source into a buffer.
 
 ## -parameters
 
-### -param *callbackState [in]
+### -param callbackState [in]
 
 A   <b>void</b> pointer to the user-defined state value that was passed to the function that accepted this callback.
 
-### -param *bytes
+### -param bytes
 
 A <b>void</b> pointer to the location where the data should be placed.
 
@@ -66,16 +66,16 @@ A <b>void</b> pointer to the location where the data should be placed.
 
 The maximum number of bytes that may be read.
 
-### -param *actualSize [out]
+### -param actualSize [out]
 
 A pointer to a <b>ULONG</b>  value that indicates the number of bytes actually read.  This may be less than maxSize.  Returning 0
           indicates that there is no more data.
 
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 A pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information on how to invoke the function asynchronously.  Assigned <b>NULL</b> if invoking synchronously.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 A pointer to <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> data structure where additional error information should be stored if the function fails.
 

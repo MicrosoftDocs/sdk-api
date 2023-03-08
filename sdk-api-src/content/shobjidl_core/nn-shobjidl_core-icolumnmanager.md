@@ -54,65 +54,7 @@ Exposes methods that enable inspection and manipulation of columns in the Window
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IColumnManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IColumnManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IColumnManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-getcolumncount">GetColumnCount</a>
-</td>
-<td align="left" width="63%">
-Gets the column count for either the visible columns or the complete set of columns.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-getcolumninfo">GetColumnInfo</a>
-</td>
-<td align="left" width="63%">
-Gets information about each column: width, visibility, display name, and state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-getcolumns">GetColumns</a>
-</td>
-<td align="left" width="63%">
-Gets an array of <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structures that represent the columns that the view supports. Includes either all columns or only those currently visible.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-setcolumninfo">SetColumnInfo</a>
-</td>
-<td align="left" width="63%">
-Sets the state for a specified column.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-setcolumns">SetColumns</a>
-</td>
-<td align="left" width="63%">
-Sets the collection of columns for the view to display.
-
-</td>
-</tr>
-</table>
+The <b>IColumnManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IColumnManager</b> also has these types of members:
 
 ## -remarks
 

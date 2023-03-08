@@ -54,56 +54,7 @@ Exposes methods that provide access to writing metadata content. This is impleme
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataWriter</b> interface inherits from <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a>. <b>IWICMetadataWriter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWICMetadataWriter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatawriter-removevalue">RemoveValue</a>
-</td>
-<td align="left" width="63%">
-Removes the metadata item that matches the given parameters.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatawriter-removevaluebyindex">RemoveValueByIndex</a>
-</td>
-<td align="left" width="63%">
-Removes the metadata item at the specified index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatawriter-setvalue">SetValue</a>
-</td>
-<td align="left" width="63%">
-Sets the given metadata item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatawriter-setvaluebyindex">SetValueByIndex</a>
-</td>
-<td align="left" width="63%">
-Sets the metadata item to the specified index.
-
-</td>
-</tr>
-</table>
+The <b>IWICMetadataWriter</b> interface inherits from <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a>. <b>IWICMetadataWriter</b> also has these types of members:
 
 ## -remarks
 

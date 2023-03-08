@@ -1,5 +1,5 @@
 ---
-UID: NS:digitalv.__unnamed_struct_3
+UID: NS:digitalv.MCI_DGV_COPY_PARMS
 title: MCI_DGV_COPY_PARMS (digitalv.h)
 description: The MCI_DGV_COPY_PARMS structure contains parameters for the MCI_COPY command for digital-video devices.
 helpviewer_keywords: ["*LPMCI_DGV_COPY_PARMS","MCI_DGV_COPY_PARMS","MCI_DGV_COPY_PARMS structure [Windows Multimedia]","_win32_MCI_DGV_COPY_PARMS_str","digitalv/MCI_DGV_COPY_PARMS","multimedia.mci_dgv_copy_parms"]
@@ -105,3 +105,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
+

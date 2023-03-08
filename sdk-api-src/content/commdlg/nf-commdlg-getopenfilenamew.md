@@ -1,8 +1,8 @@
 ---
 UID: NF:commdlg.GetOpenFileNameW
 title: GetOpenFileNameW function (commdlg.h)
-description: Creates an Open dialog box that lets the user specify the drive, directory, and the name of a file or set of files to be opened.
-helpviewer_keywords: ["GetOpenFileName","GetOpenFileName function [Dialog Boxes]","GetOpenFileNameA","GetOpenFileNameW","_win32_GetOpenFileName","_win32_getopenfilename_cpp","commdlg/GetOpenFileName","commdlg/GetOpenFileNameA","commdlg/GetOpenFileNameW","dlgbox.getopenfilename","winui._win32_getopenfilename"]
+description: Creates an Open dialog box that lets the user specify the drive, directory, and the name of a file or set of files to be opened. (Unicode)
+helpviewer_keywords: ["GetOpenFileName", "GetOpenFileName function [Dialog Boxes]", "GetOpenFileNameW", "_win32_GetOpenFileName", "_win32_getopenfilename_cpp", "commdlg/GetOpenFileName", "commdlg/GetOpenFileNameW", "dlgbox.getopenfilename", "winui._win32_getopenfilename"]
 old-location: dlgbox\getopenfilename.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getopenfilename.htm
@@ -46,6 +46,7 @@ api_name:
  - GetOpenFileName
  - GetOpenFileNameA
  - GetOpenFileNameW
+req.apiset: ext-ms-win-shell-comdlg32-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetOpenFileNameW function
@@ -53,13 +54,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
+<p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="/windows/win32/shell/common-file-dialog">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
 
 Creates an <b>Open</b> dialog box that lets the user specify the drive, directory, and the name of a file or set of files to be opened.
 
 ## -parameters
 
-### -param Arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 Type: <b>LPOPENFILENAME</b>
 

@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsIscsiTarget
 title: IVdsIscsiTarget (vds.h)
-description: Provides methods for performing query and configuration operations on an iSCSI target.
+description: The IVdsIscsiTarget interface (vds.h) provides methods for performing query and configuration operations on an iSCSI target.
 helpviewer_keywords: ["IVdsIscsiTarget","IVdsIscsiTarget interface [VDS]","IVdsIscsiTarget interface [VDS]","described","base.ivdsiscsitarget","vds/IVdsIscsiTarget","vdshwprv/IVdsIscsiTarget"]
 old-location: base\ivdsiscsitarget.htm
 tech.root: base
 ms.assetid: 0db442c4-6cc1-43b2-8ac8-8b17cadb1101
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsIscsiTarget, IVdsIscsiTarget interface [VDS], IVdsIscsiTarget interface [VDS],described, base.ivdsiscsitarget, vds/IVdsIscsiTarget, vdshwprv/IVdsIscsiTarget
 req.header: vds.h
 req.include-header: 
@@ -51,102 +51,14 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides 
    methods for performing query and configuration operations on an iSCSI target.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsIscsiTarget</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsIscsiTarget</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsIscsiTarget</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsitarget-createportalgroup">CreatePortalGroup</a>
-</td>
-<td align="left" width="63%">
-Creates a portal group.</p> (Inherited from <b>IVdsIscsiTarget</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsitarget-delete">Delete</a>
-</td>
-<td align="left" width="63%">
-Deletes the target and all of its portal groups if no LUNs are associated with the target.</p> (Inherited from <b>IVdsIscsiTarget</b>)</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsitarget-getconnectedinitiators">GetConnectedInitiators</a>
-</td>
-<td align="left" width="63%">
-Returns the list of iSCSI names of the initiators currently logged into the 
-   target.
-
-</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsitarget-getproperties">GetProperties</a>
-</td>
-<td align="left" width="63%">
-Returns the properties of an iSCSI target.</p> (Inherited from <b>IVdsIscsiTarget</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsitarget-getsubsystem">GetSubSystem</a>
-</td>
-<td align="left" width="63%">
-Returns the subsystem to which the target belongs.</p> (Inherited from <b>IVdsIscsiTarget</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsitarget-queryassociatedluns">QueryAssociatedLuns</a>
-</td>
-<td align="left" width="63%">
-Returns an enumeration of the LUNs associated with the target.</p> (Inherited from <b>IVdsIscsiTarget</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsitarget-queryportalgroups">QueryPortalGroups</a>
-</td>
-<td align="left" width="63%">
-Returns an  enumeration of the iSCSI portal groups within the target.</p> (Inherited from <b>IVdsIscsiTarget</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsitarget-rememberinitiatorsharedsecret">RememberInitiatorSharedSecret</a>
-</td>
-<td align="left" width="63%">
-Communicates the initiator CHAP secret used for mutual CHAP authentication when the initiator 
-     authenticates the target.</p> (Inherited from <b>IVdsIscsiTarget</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsitarget-setfriendlyname">SetFriendlyName</a>
-</td>
-<td align="left" width="63%">
-Sets the friendly name of the target.</p> (Inherited from <b>IVdsIscsiTarget</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsitarget-setsharedsecret">SetSharedSecret</a>
-</td>
-<td align="left" width="63%">
-Sets the target CHAP secret used for CHAP authentication when the target authenticates the 
-     initiator.</p> (Inherited from <b>IVdsIscsiTarget</b>)</td>
-</tr>
-</table>
+The <b>IVdsIscsiTarget</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsIscsiTarget</b> also has these types of members:
 
 ## -see-also
 

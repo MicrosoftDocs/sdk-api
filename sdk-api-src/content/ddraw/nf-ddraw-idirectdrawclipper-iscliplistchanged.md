@@ -50,7 +50,7 @@ Retrieves the status of the clip list if a window handle is associated with a Di
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives the status of the clip list. This parameter is TRUE if the clip list has changed, and FALSE otherwise.
 
@@ -67,7 +67,7 @@ If it fails, the method can return one of the following error values:
 
 ## -remarks
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>IsClipListChanged</b> method.
+
 
 ## -see-also
 

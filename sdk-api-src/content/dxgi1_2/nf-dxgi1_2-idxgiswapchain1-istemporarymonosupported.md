@@ -53,7 +53,7 @@ api_name:
 
 Determines whether a swap chain supports “temporary mono.”
 
-## -parameters
+
 
 ## -returns
 

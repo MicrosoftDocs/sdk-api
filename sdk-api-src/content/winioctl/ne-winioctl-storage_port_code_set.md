@@ -1,7 +1,7 @@
 ---
 UID: NE:winioctl._STORAGE_PORT_CODE_SET
 title: STORAGE_PORT_CODE_SET
-description: Reserved for system use.
+description: Reserved for system use. (STORAGE_PORT_CODE_SET)
 helpviewer_keywords: ["*PSTORAGE_PORT_CODE_SET","PSTORAGE_PORT_CODE_SET","PSTORAGE_PORT_CODE_SET enumeration pointer [Files]","STORAGE_PORT_CODE_SET","STORAGE_PORT_CODE_SET enumeration [Files]","StoragePortCodeSetATAport","StoragePortCodeSetReserved","StoragePortCodeSetSBP2port","StoragePortCodeSetSCSIport","StoragePortCodeSetSDport","StoragePortCodeSetSpaceport","StoragePortCodeSetStorport","StoragePortCodeSetUSBport","fs.storage_port_code_set","winioctl/PSTORAGE_PORT_CODE_SET","winioctl/STORAGE_PORT_CODE_SET","winioctl/StoragePortCodeSetATAport","winioctl/StoragePortCodeSetReserved","winioctl/StoragePortCodeSetSBP2port","winioctl/StoragePortCodeSetSCSIport","winioctl/StoragePortCodeSetSDport","winioctl/StoragePortCodeSetSpaceport","winioctl/StoragePortCodeSetStorport","winioctl/StoragePortCodeSetUSBport"]
 old-location: fs\storage_port_code_set.htm
 tech.root: fs
@@ -57,35 +57,35 @@ Reserved for system use.
 
 ## -enum-fields
 
-### -field StoragePortCodeSetReserved
+### -field StoragePortCodeSetReserved:0
 
 Indicates an unknown storage adapter driver type.
 
-### -field StoragePortCodeSetStorport
+### -field StoragePortCodeSetStorport:1
 
 Storage adapter driver is a Storport-miniport driver.
 
-### -field StoragePortCodeSetSCSIport
+### -field StoragePortCodeSetSCSIport:2
 
 Storage adapter driver is a SCSI Port-miniport driver.
 
-### -field StoragePortCodeSetSpaceport
+### -field StoragePortCodeSetSpaceport:3
 
 Storage adapter driver is the Spaceport driver.
 
-### -field StoragePortCodeSetATAport
+### -field StoragePortCodeSetATAport:4
 
 Storage adapter driver is an ATA-port miniport driver.
 
-### -field StoragePortCodeSetUSBport
+### -field StoragePortCodeSetUSBport:5
 
 Storage adapter driver is the  USB-storage port driver.
 
-### -field StoragePortCodeSetSBP2port
+### -field StoragePortCodeSetSBP2port:6
 
 Storage adapter driver is the  SBP2 port driver.
 
-### -field StoragePortCodeSetSDport
+### -field StoragePortCodeSetSDport:7
 
 Storage adapter driver is an SD-port miniport driver.
 

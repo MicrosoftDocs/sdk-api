@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop.SuspendDraw
-title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.interop.h)
+title: ICompositionDrawingSurfaceInterop::SuspendDraw (windows.ui.composition.interop.h)
 description: Suspends drawing on the surface object.
 helpviewer_keywords: ["ICompositionDrawingSurfaceInterop interface","SuspendDraw method","ICompositionDrawingSurfaceInterop.SuspendDraw","ICompositionDrawingSurfaceInterop.composition","ICompositionDrawingSurfaceInterop::SuspendDraw","ICompositionDrawingSurfaceInterop::composition","SuspendDraw","SuspendDraw method","SuspendDraw method","ICompositionDrawingSurfaceInterop interface","w_ui_comp.icompositiondrawingsurfaceinterop_suspenddraw","windows/ICompositionDrawingSurfaceInterop::SuspendDraw"]
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_suspenddraw.htm
@@ -45,14 +45,14 @@ api_name:
  - ICompositionDrawingSurfaceInterop.SuspendDraw
 ---
 
-# ICompositionDrawingSurfaceInterop::composition
+# ICompositionDrawingSurfaceInterop::SuspendDraw (windows.ui.composition.interop.h)
 
 
 ## -description
 
 Suspends drawing on the surface object.
 
-## -parameters
+
 
 ## -returns
 

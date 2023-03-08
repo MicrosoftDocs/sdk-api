@@ -52,23 +52,23 @@ api_name:
 
 Assigns the vector component data from one instance of <code>XMFLOAT3SE</code> to the current instance of <code>XMFLOAT3SE</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/A0FE96C6-42AB-411D-874E-E02E0E81CAF0">XMFLOAT3SE</a> to the current instance of <code>XMFLOAT3SE</code>.
+This operator assigns the vector component data from one instance of <a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a> to the current instance of <code>XMFLOAT3SE</code>.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Instance of <code>XMFLOAT3SE</code> used to update the current <code>XMFLOAT3SE</code> structure.
 
 ## -returns
 
-The current instance of <code>XMFLOAT3SE</code> whose vector component data has been updated to match those of the <code>XMFLOAT3SE</code> instance specified by the <b>float3se</b>argument.
+The current instance of <code>XMFLOAT3SE</code> whose vector component data has been updated to match those of the <code>XMFLOAT3SE</code> instance specified by the <b>float3se</b> argument.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/A0FE96C6-42AB-411D-874E-E02E0E81CAF0">XMFLOAT3SE</a>
+<a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a>
 
 <a href="https://msdn.microsoft.com/e3c74a38-65ab-48ac-931d-1fc66ec04d74">operator = </a>
 

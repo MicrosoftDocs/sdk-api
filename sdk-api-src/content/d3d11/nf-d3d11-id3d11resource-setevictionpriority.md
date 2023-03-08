@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Resource.SetEvictionPriority
 title: ID3D11Resource::SetEvictionPriority (d3d11.h)
-description: Set the eviction priority of a resource.
+description: Set the eviction priority of a resource. (ID3D11Resource.SetEvictionPriority)
 helpviewer_keywords: ["55340049-7283-9bea-b4ac-8b0b9cb71119","ID3D11Resource interface [Direct3D 11]","SetEvictionPriority method","ID3D11Resource.SetEvictionPriority","ID3D11Resource::SetEvictionPriority","SetEvictionPriority","SetEvictionPriority method [Direct3D 11]","SetEvictionPriority method [Direct3D 11]","ID3D11Resource interface","d3d11/ID3D11Resource::SetEvictionPriority","direct3d11.id3d11resource_setevictionpriority"]
 old-location: direct3d11\id3d11resource_setevictionpriority.htm
 tech.root: direct3d11

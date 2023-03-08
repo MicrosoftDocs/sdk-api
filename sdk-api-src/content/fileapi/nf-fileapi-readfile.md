@@ -101,6 +101,8 @@ A pointer to the variable that receives the number of bytes read when using a sy
 This parameter can be <b>NULL</b> only when the <i>lpOverlapped</i> 
        parameter is not <b>NULL</b>.
 
+<b>Windows 7:  </b>This parameter can not be <b>NULL</b>.
+
 For more information, see the Remarks section.
 
 ### -param lpOverlapped [in, out, optional]
@@ -123,7 +125,7 @@ For an <i>hFile</i> that supports byte offsets, if you use this parameter you mu
 
 For more information about different combinations of <i>lpOverlapped</i> and 
        <b>FILE_FLAG_OVERLAPPED</b>, see the Remarks section and the 
-       <a href="https://docs.microsoft.com/">Synchronization and File Position</a> section.
+       **Synchronization and File Position** section.
 
 ## -returns
 
@@ -173,7 +175,7 @@ I/O operations that are canceled complete with the error <b>ERROR_OPERATION_ABOR
 The <b>ReadFile</b> function may fail with 
     <b>ERROR_NOT_ENOUGH_QUOTA</b>, which means the calling process's buffer could not be 
     page-locked. For additional information, see 
-    <a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a>.
+    <a href="/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsize">SetProcessWorkingSetSize</a>.
 
 If part of a file is locked by another process and the read operation overlaps the locked portion, this 
     function fails.
@@ -182,7 +184,7 @@ Accessing the input buffer while a read operation is using the buffer may lead t
     into that buffer. Applications must not read from, write to, reallocate, or free the input buffer that a read 
     operation is using until the read operation completes. This can be particularly problematic when using an 
     asynchronous file handle. Additional information regarding synchronous versus asynchronous file handles can be 
-    found in the <a href="https://docs.microsoft.com/">Synchronization and File Position</a> section and 
+    found in the <a href="/">Synchronization and File Position</a> section and 
     in the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> reference topic.
 
 Characters can be read from the console input buffer by using 
@@ -281,7 +283,7 @@ Considerations for working with synchronous file handles:
        at the offset that is specified in the 
        <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure and 
        <b>ReadFile</b> does not return until the read operation is 
-       complete. The system updates the <b>OVERLAPPED</b> offset 
+       complete. The system updates the <b>OVERLAPPED</b> offset and the file pointer
        before <b>ReadFile</b> returns.</li>
  <li>If <i>lpOverlapped</i> is <b>NULL</b>, then when a synchronous read operation reaches the end of a file, 
        <b>ReadFile</b> returns <b>TRUE</b> and sets 
@@ -307,7 +309,7 @@ If a named pipe is being read in message mode and the next message is longer tha
       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
       <b>ERROR_MORE_DATA</b>. The remainder of the message can be read by a subsequent call to the 
       <b>ReadFile</b> or 
-      <a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-peeknamedpipe">PeekNamedPipe</a>function.
+      <a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-peeknamedpipe">PeekNamedPipe</a> function.
 
 If the <i>lpNumberOfBytesRead</i> parameter is zero when 
       <b>ReadFile</b> returns <b>TRUE</b> on a pipe, 

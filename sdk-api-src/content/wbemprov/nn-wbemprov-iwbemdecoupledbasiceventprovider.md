@@ -51,53 +51,12 @@ api_name:
 ## -description
 
 The 
-<b>IWbemDecoupledBasicEventProvider</b> interface is a cocreatable interface that  registers decoupled providers with WMI. The object created should be passed into the <i>pUnknown </i>argument of 
+<b>IWbemDecoupledBasicEventProvider</b> interface is a cocreatable interface that  registers decoupled providers with WMI. The object created should be passed into the <i>pUnknown </i> argument of 
 <a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register">IWbemDecoupledRegistrar::Register</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemDecoupledBasicEventProvider</b> interface inherits from <a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemdecoupledregistrar">IWbemDecoupledRegistrar</a>. <b>IWbemDecoupledBasicEventProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWbemDecoupledBasicEventProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledbasiceventprovider-getservice">GetService</a>
-</td>
-<td align="left" width="63%">
-Retrieves an 
-<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> object for calling back to WMI.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledbasiceventprovider-getsink">GetSink</a>
-</td>
-<td align="left" width="63%">
-Creates an object sink for event forwarding.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/aa391480(v=vs.85)">Register</a>
-</td>
-<td align="left" width="63%">
-Registers an object interface with WMI.
-
-</td>
-</tr>
-</table>
+The <b>IWbemDecoupledBasicEventProvider</b> interface inherits from <a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemdecoupledregistrar">IWbemDecoupledRegistrar</a>. <b>IWbemDecoupledBasicEventProvider</b> also has these types of members:
 
 ## -see-also
 

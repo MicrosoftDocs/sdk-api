@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.author: windowssdkdev
 ms.date: 10/04/2019
 ms.keywords: NotifyNetworkConnectivityHintChange, NotifyNetworkConnectivityHintChange function [IP Helper], netioapi.NotifyNetworkConnectivityHintChange, netioapi/NotifyNetworkConnectivityHintChange
-ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -66,8 +65,14 @@ A pointer to a **HANDLE**. The function sets the value to a handle to the notifi
 
 ## -returns
 
+If the function succeeds, the return value is **NO_ERROR**. Otherwise, an error code is returned.
+
 ## -remarks
+
+To deregister for change notifications, call the **CancelMibChangeNotify2** function, passing the *NotificationHandle* parameter returned by **NotifyNetworkConnectivityHintChange**.
 
 ## -see-also
 
-[PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK](./nc-netioapi-pnetwork_connectivity_hint_change_callback.md)
+* [PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK](./nc-netioapi-pnetwork_connectivity_hint_change_callback.md)
+
+* [CancelMibChangeNotify2](./nf-netioapi-cancelmibchangenotify2.md)

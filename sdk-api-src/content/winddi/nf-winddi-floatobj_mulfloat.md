@@ -54,11 +54,11 @@ The <b>FLOATOBJ_MulFloat</b> function multiplies the <a href="/windows/desktop/a
 
 ## -parameters
 
-### -param arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the value (*<i>pf</i>  *  <i>f</i>).
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies the FLOATL operand. This value is converted to a FLOATOBJ for the multiplication.
 

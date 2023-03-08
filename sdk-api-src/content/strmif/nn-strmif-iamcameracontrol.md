@@ -55,47 +55,7 @@ The <b>IAMCameraControl</b> interface controls camera settings such as zoom, pan
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMCameraControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMCameraControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAMCameraControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamcameracontrol-get">Get</a>
-</td>
-<td align="left" width="63%">
-Gets the current setting of a camera property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamcameracontrol-getrange">GetRange</a>
-</td>
-<td align="left" width="63%">
-Gets the range and default value of a specified camera property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamcameracontrol-set">Set</a>
-</td>
-<td align="left" width="63%">
-Sets a specified property on the camera.
-
-</td>
-</tr>
-</table>
+The <b>IAMCameraControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMCameraControl</b> also has these types of members:
 
 ## -remarks
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerManager.ReferenceTrackingStarted
-title: IReferenceTrackerManager::xaml (windows.ui.xaml.hosting.referencetracker.h)
+title: IReferenceTrackerManager::ReferenceTrackingStarted (windows.ui.xaml.hosting.referencetracker.h)
 description: Indicates that a garbage collector is performing a collection; when the collection is finished, the garbage collector calls FindTrackerTargetsCompleted.
 helpviewer_keywords: ["IReferenceTrackerManager interface [Windows Runtime]","ReferenceTrackingStarted method","IReferenceTrackerManager.ReferenceTrackingStarted","IReferenceTrackerManager.xaml","IReferenceTrackerManager::ReferenceTrackingStarted","IReferenceTrackerManager::xaml","ReferenceTrackingStarted","ReferenceTrackingStarted method [Windows Runtime]","ReferenceTrackingStarted method [Windows Runtime]","IReferenceTrackerManager interface","windows/IReferenceTrackerManager::ReferenceTrackingStarted","winrt.ireferencetrackermanager_referencetrackingstarted"]
 old-location: winrt\ireferencetrackermanager_referencetrackingstarted.htm
@@ -45,18 +45,18 @@ api_name:
  - IReferenceTrackerManager.ReferenceTrackingStarted
 ---
 
-# IReferenceTrackerManager::xaml
+# IReferenceTrackerManager::ReferenceTrackingStarted (windows.ui.xaml.hosting.referencetracker.h)
 
 
 ## -description
 
 Indicates that a garbage collector is performing a collection; when the collection is finished, the garbage collector calls <a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager-findtrackertargetscompleted">FindTrackerTargetsCompleted</a>.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

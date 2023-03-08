@@ -52,7 +52,7 @@ api_name:
 
 Changes ownership of the job to the current user.
 
-## -parameters
+
 
 ## -returns
 

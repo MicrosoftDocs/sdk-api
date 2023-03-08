@@ -57,7 +57,7 @@ The NL_ROUTER_DISCOVERY_BEHAVIOR enumeration type defines the router discovery b
 
 ## -enum-fields
 
-### -field RouterDiscoveryDisabled
+### -field RouterDiscoveryDisabled:0
 
 Router discovery is disabled.
 
@@ -69,7 +69,7 @@ Router discovery is enabled. This setting is the default value for IPv6.
 
 Router discovery is configured based on DHCP. This setting is the default value for IPv4.
 
-### -field RouterDiscoveryUnchanged
+### -field RouterDiscoveryUnchanged:-1
 
 When the properties of an IP interface are being set, the value for router discovery should be
      unchanged.

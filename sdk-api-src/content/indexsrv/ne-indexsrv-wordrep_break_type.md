@@ -52,25 +52,26 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+> [!Note]  
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
 Describes the type of break that separates the current word from the previous word.
 
 ## -enum-fields
 
-### -field WORDREP_BREAK_EOW
+### -field WORDREP_BREAK_EOW:0
 
 A word break is placed between this word and the previous word that was placed in the <b>WordSink</b>. This break is the default used by the <a href="/windows/desktop/search/iwordsink-putword">PutWord</a> method.
 
-### -field WORDREP_BREAK_EOS
+### -field WORDREP_BREAK_EOS:1
 
 A sentence break is placed between this word and the previous word.
 
-### -field WORDREP_BREAK_EOP
+### -field WORDREP_BREAK_EOP:2
 
 A paragraph break is placed between this word and the previous word.
 
-### -field WORDREP_BREAK_EOC
+### -field WORDREP_BREAK_EOC:3
 
 A chapter break is placed between this word and the previous word.
 

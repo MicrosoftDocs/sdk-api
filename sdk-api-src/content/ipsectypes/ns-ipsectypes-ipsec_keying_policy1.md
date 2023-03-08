@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_KEYING_POLICY1_
 title: IPSEC_KEYING_POLICY1 (ipsectypes.h)
-description: Defines an unordered set of keying modules that will be tried for IPsec.
+description: Defines an unordered set of keying modules that will be tried for IPsec. (IPSEC_KEYING_POLICY1)
 helpviewer_keywords: ["IPSEC_KEYING_POLICY1","IPSEC_KEYING_POLICY1 structure [Filtering]","IPSEC_KEYING_POLICY_FLAG_TERMINATING_MATCH","fwp.ipsec_keying_policy1","ipsectypes/IPSEC_KEYING_POLICY1"]
 old-location: fwp\ipsec_keying_policy1.htm
 tech.root: fwp

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMMATRIX.XMMATRIX(XMMATRIX&&)
 title: XMMATRIX::XMMATRIX(XMMATRIX &&) (directxmath.h)
-description: A constructor for XMMATRIX.
+description: A constructor for XMMATRIX. (overload 1/2)
 helpviewer_keywords: ["XMMATRIX","XMMATRIX constructor [DirectX Math Support APIs]","XMMATRIX constructor [DirectX Math Support APIs]","XMMATRIX structure","XMMATRIX structure [DirectX Math Support APIs]","XMMATRIX constructor","XMMATRIX.XMMATRIX","XMMATRIX.XMMATRIX()","XMMATRIX.XMMATRIX(XMMATRIX &&)","XMMATRIX::XMMATRIX","XMMATRIX::XMMATRIX(XMMATRIX &&)","dxmath.xmmatrix_ctor_1"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMMATRIX, XMMATRIX constructor [DirectX Math Support APIs], XMMATRI
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -56,7 +56,7 @@ A constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmat
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

@@ -49,6 +49,7 @@ api_location:
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
  - CoInitialize
+req.apiset: ext-ms-win-com-sta-l1-1-0 (introduced in Windows 10, version 10.0.20166)
 ---
 
 # CoInitialize function
@@ -60,7 +61,7 @@ Initializes the COM library on the current thread and identifies the concurrency
 
 New applications should call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> instead of CoInitialize. 
 
-If you want to use the Windows Runtime, you must call Windows::Foundation::Initialize instead.
+If you want to use the Windows Runtime, you must call <a href="/windows/win32/api/roapi/nf-roapi-roinitialize">RoInitialize</a> or <a href="/windows/win32/api/roapi/nf-roapi-initialize">Windows::Foundation::Initialize</a> instead.
 
 ## -parameters
 

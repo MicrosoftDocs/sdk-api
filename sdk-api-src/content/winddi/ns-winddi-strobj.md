@@ -182,7 +182,7 @@ Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-glyphpos">GLYPHPOS
 
 ### -field pwszOrg
 
-Pointer to the original Unicode string or <b>cGlyphs</b> characters. Contrary to its name, this string is not usually null-terminated. Also, this string is not always valid, such as in journalling with printer fonts, in which case this parameter will be <b>NULL</b>.
+Pointer to the original Unicode string or <b>cGlyphs</b> characters. Contrary to its name, this string is not usually null-terminated. Also, this string is not always valid, such as in journaling with printer fonts, in which case this parameter will be <b>NULL</b>.
 
 ## -remarks
 

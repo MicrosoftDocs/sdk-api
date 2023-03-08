@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionConstantBuffer.GetDesc
 title: ID3D11ShaderReflectionConstantBuffer::GetDesc (d3d11shader.h)
-description: Get a constant-buffer description.
+description: Get a constant-buffer description. (ID3D11ShaderReflectionConstantBuffer.GetDesc)
 helpviewer_keywords: ["3b59f7a3-fb44-16a7-ef26-3f7e3b33ec7b","GetDesc","GetDesc method [Direct3D 11]","GetDesc method [Direct3D 11]","ID3D11ShaderReflectionConstantBuffer interface","ID3D11ShaderReflectionConstantBuffer interface [Direct3D 11]","GetDesc method","ID3D11ShaderReflectionConstantBuffer.GetDesc","ID3D11ShaderReflectionConstantBuffer::GetDesc","d3d11shader/ID3D11ShaderReflectionConstantBuffer::GetDesc","direct3d11.id3d11shaderreflectionconstantbuffer_getdesc"]
 old-location: direct3d11\id3d11shaderreflectionconstantbuffer_getdesc.htm
 tech.root: direct3d11

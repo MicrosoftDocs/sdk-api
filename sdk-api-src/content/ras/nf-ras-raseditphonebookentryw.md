@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasEditPhonebookEntryW
 title: RasEditPhonebookEntryW function (ras.h)
-description: The RasEditPhonebookEntry function edits an existing phone-book entry. The function displays a dialog box in which the user can modify the existing information.
-helpviewer_keywords: ["RasEditPhonebookEntry","RasEditPhonebookEntry function [RAS]","RasEditPhonebookEntryA","RasEditPhonebookEntryW","_ras_raseditphonebookentry","ras/RasEditPhonebookEntry","ras/RasEditPhonebookEntryA","ras/RasEditPhonebookEntryW","rras.raseditphonebookentry"]
+description: The RasEditPhonebookEntry function edits an existing phone-book entry. The function displays a dialog box in which the user can modify the existing information. (Unicode)
+helpviewer_keywords: ["RasEditPhonebookEntry", "RasEditPhonebookEntry function [RAS]", "RasEditPhonebookEntryW", "_ras_raseditphonebookentry", "ras/RasEditPhonebookEntry", "ras/RasEditPhonebookEntryW", "rras.raseditphonebookentry"]
 old-location: rras\raseditphonebookentry.htm
 tech.root: RRAS
 ms.assetid: 7fce1ea8-7ed6-4975-af4b-e20a1c1be5fa
@@ -59,15 +59,15 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Handle to the parent window of the dialog box.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the<b> Dial-Up Networking</b> dialog box.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Pointer to a null-terminated string that specifies the name of an existing entry in the phone-book file.
 

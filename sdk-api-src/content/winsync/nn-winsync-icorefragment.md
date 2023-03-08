@@ -54,68 +54,7 @@ Represents knowledge of all items in the scope for a specific set of change unit
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICoreFragment</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICoreFragment</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICoreFragment</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-icorefragment-getcolumncount">GetColumnCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of columns that are contained in this knowledge fragment.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-icorefragment-getrangecount">GetRangeCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of ranges that are contained in this knowledge fragment.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-icorefragment-nextcolumn">NextColumn</a>
-</td>
-<td align="left" width="63%">
-Returns the next change unit ID in the set of change unit IDs that this knowledge fragment applies to.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-icorefragment-nextrange">NextRange</a>
-</td>
-<td align="left" width="63%">
-Returns the next range that is contained in this knowledge fragment, and the clock vector that defines what is known about the items in the range.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-icorefragment-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets both the column and range enumerators to the beginning of their respective sets.
-
-
-</td>
-</tr>
-</table>
+The <b>ICoreFragment</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICoreFragment</b> also has these types of members:
 
 ## -remarks
 

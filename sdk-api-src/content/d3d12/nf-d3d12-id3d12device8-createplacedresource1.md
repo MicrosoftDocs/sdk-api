@@ -19,8 +19,8 @@ req.lib: d3d12.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -108,7 +108,7 @@ This method returns **E_OUTOFMEMORY** if there is insufficient memory to create 
 
 ## -remarks
 
-See [ID3D12Device::CreatePlacedResource](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createplacedresource).
+See [ID3D12Device::CreatePlacedResource](./nf-d3d12-id3d12device-createplacedresource.md).
 
 ## -see-also
 

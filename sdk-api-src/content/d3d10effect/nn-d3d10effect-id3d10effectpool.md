@@ -55,29 +55,7 @@ A pool interface represents a common memory space (or pool) for sharing variable
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectPool</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10EffectPool</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D10EffectPool</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectpool-aseffect">AsEffect</a>
-</td>
-<td align="left" width="63%">
-Get the effect that created the effect pool.
-
-</td>
-</tr>
-</table>
+The <b>ID3D10EffectPool</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10EffectPool</b> also has these types of members:
 
 ## -remarks
 

@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3.ITAgentEvent
 title: ITAgentEvent (tapi3.h)
-description: The ITAgentEvent interface contains methods that retrieve the description of agent events.
+description: The ITAgentEvent (tapi3.h) interface contains methods that retrieve the description of agent events.
 helpviewer_keywords: ["ITAgentEvent","ITAgentEvent interface [TAPI 2.2]","ITAgentEvent interface [TAPI 2.2]","described","_tapi3_itagentevent","tapi3.itagentevent","tapi3cc/ITAgentEvent"]
 old-location: tapi3\itagentevent.htm
 tech.root: tapi3
 ms.assetid: adfb58f7-b02c-4a64-92c1-a1b29c9f7143
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITAgentEvent, ITAgentEvent interface [TAPI 2.2], ITAgentEvent interface [TAPI 2.2],described, _tapi3_itagentevent, tapi3.itagentevent, tapi3cc/ITAgentEvent
 req.header: tapi3.h
 req.include-header: Tapi3.h
@@ -64,40 +64,7 @@ See
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAgentEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAgentEvent</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITAgentEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-itagentevent-get_agent">get_Agent</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to the 
-<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-itagentevent-get_event">get_Event</a>
-</td>
-<td align="left" width="63%">
-Gets the 
-<a href="/windows/desktop/api/tapi3/ne-tapi3-agent_event">AGENT_EVENT</a> descriptor of an event.
-
-</td>
-</tr>
-</table>
+The <b>ITAgentEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAgentEvent</b> also has these types of members:
 
 ## -see-also
 

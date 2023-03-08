@@ -90,6 +90,10 @@ The network adapter for this network interface supports the offload of TCP check
 
 ### -field FastPathCompatible
 
+Type: <b>BOOLEAN</b>
+
+Reserved for internal use.
+
 ### -field TlLargeSendOffloadSupported
 
 Type: <b>BOOLEAN</b>
@@ -104,20 +108,7 @@ The network adapter for this network interface supports TCP Large Send Offload V
 
 
 
-#### - TlDatagramFastPathCompatible
 
-Type: <b>BOOLEAN</b>
-
-Reserved for internal use.
-
-
-
-
-#### - TlStreamFastPathCompatible
-
-Type: <b>BOOLEAN</b>
-
-Reserved for internal use.
 
 ## -remarks
 

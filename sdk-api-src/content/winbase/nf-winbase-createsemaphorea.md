@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreateSemaphoreA
 title: CreateSemaphoreA function (winbase.h)
-description: Creates or opens a named or unnamed semaphore object.
+description: Creates or opens a named or unnamed semaphore object. (CreateSemaphoreA)
 helpviewer_keywords: ["CreateSemaphoreA","CreateSemaphoreA function","CreateSemaphoreW","base.createsemaphorea","winbase/CreateSemaphoreA","winbase/CreateSemaphoreW"]
 old-location: base\createsemaphorea.htm
 tech.root: backup
@@ -66,7 +66,7 @@ api_name:
 
 Creates or opens a named or unnamed semaphore object.
 
-To specify an access mask for the object, use the <a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">CreateSemaphoreEx</a> function.
+To specify an access mask for the object, use the [CreateSemaphoreEx](/windows/win32/api/winbase/nf-winbase-createsemaphoreexa) function.
 
 ## -parameters
 
@@ -113,8 +113,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 ## -remarks
 
-The handle returned by 
-<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">CreateSemaphore</a> has the <b>SEMAPHORE_ALL_ACCESS</b> access right; it can be used in any function that requires a handle to a semaphore object, provided that the caller has been granted access. If an semaphore is created from a service or a thread that is impersonating a different user, you can either apply a security descriptor to the semaphore when you create it, or change the default security descriptor for the creating process by changing its default DACL. For more information, see 
+The handle returned by CreateSemaphore has the <b>SEMAPHORE_ALL_ACCESS</b> access right; it can be used in any function that requires a handle to a semaphore object, provided that the caller has been granted access. If a semaphore is created from a service or a thread that is impersonating a different user, you can either apply a security descriptor to the semaphore when you create it, or change the default security descriptor for the creating process by changing its default DACL. For more information, see 
 <a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
 The state of a semaphore object is signaled when its count is greater than zero, and nonsignaled when its count is equal to zero. The <i>lInitialCount</i> parameter specifies the initial count. The count can never be less than zero or greater than the value specified in the <i>lMaximumCount</i> parameter.
@@ -126,13 +125,12 @@ Multiple processes can have handles of the same semaphore object, enabling use o
 
 <ul>
 <li>A child process created by the 
-<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">CreateProcess</a> function can inherit a handle to a semaphore object if the <i>lpSemaphoreAttributes</i> parameter of 
-<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">CreateSemaphore</a> enabled inheritance.</li>
+<a href="/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function can inherit a handle to a semaphore object if the <i>lpSemaphoreAttributes</i> parameter of 
+CreateSemaphore enabled inheritance.</li>
 <li>A process can specify the semaphore-object handle in a call to the 
-<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">DuplicateHandle</a> function to create a duplicate handle that can be used by another process.</li>
+<a href="/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function to create a duplicate handle that can be used by another process.</li>
 <li>A process can specify the name of a semaphore object in a call to the 
-[OpenSemaphore](../synchapi/nf-synchapi-signalobjectandwait.md) or 
-<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">CreateSemaphore</a> function.</li>
+[OpenSemaphore](/windows/win32/api/synchapi/nf-synchapi-opensemaphorew) or CreateSemaphore function.</li>
 </ul>
 Use the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The semaphore object is destroyed when its last handle has been closed.
 
@@ -151,11 +149,11 @@ For an example that uses
 
 
 
-<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">CreateProcess</a>
+<a href="/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">CreateSemaphoreEx</a>
+<a href="/windows/win32/api/winbase/nf-winbase-createsemaphoreexa">CreateSemaphoreEx</a>
 
 
 
@@ -167,7 +165,7 @@ For an example that uses
 
 
 
-[OpenSemaphore](../synchapi/nf-synchapi-signalobjectandwait.md)
+[OpenSemaphore](/windows/win32/api/synchapi/nf-synchapi-opensemaphorew)
 
 
 

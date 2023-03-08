@@ -50,12 +50,12 @@ api_name:
 
 ## -description
 
-Reads a value when <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>has been specified.  This allows reading of XML constructs which do not easily
+Reads a value when <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> has been specified.  This allows reading of XML constructs which do not easily
                 map to the core serialization model.
 
 ## -parameters
 
-### -param *reader [in]
+### -param reader [in]
 
 A pointer to a <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> handle that contains the type value.
 
@@ -68,12 +68,12 @@ If a mapping does not make sense for this particular type, then the callback
                     should be prepared to be passed new mapping types in future versions and should return
                     <b>WS_E_INVALID_OPERATION</b> for those cases.
 
-### -param *descriptionData [in]
+### -param descriptionData [in]
 
  A pointer to the value of the <b>descriptionData</b> field of a  <a href="/windows/desktop/api/webservices/ns-webservices-ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a> structure.
                     The callback can use this to gain access to any additional information about the type.
 
-### -param *heap [in, optional]
+### -param heap [in, optional]
 
 A pointer to the heap for use in allocating any additional data associated with this type such as its nested fields.  
                 
@@ -82,7 +82,7 @@ Note that this parameter may be <b>NULL</b>,
                     if the caller did not specify a <a href="/windows/desktop/wsw/ws-heap">WS_HEAP</a> object when deserializing
                     the type.
 
-### -param *value
+### -param value
 
 A pointer to a buffer that holds the value that is being deserialized.
                     The callback is responsible for filling in the value based on the current 
@@ -96,7 +96,7 @@ The buffer size that is being deserialized.
                     The buffer is allocated according to the size specified in the
                     <a href="/windows/desktop/api/webservices/ns-webservices-ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a>.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 A pointer to <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> data structure where additional error information should be stored if the function fails.
 

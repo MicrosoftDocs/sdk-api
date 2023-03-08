@@ -54,74 +54,10 @@ The <b>IMSVidStreamBufferSink</b> interface represents the Stream Buffer Sink fi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSink</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>. <b>IMSVidStreamBufferSink</b> also has these types of members:
+The <b>IMSVidStreamBufferSink</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>. <b>IMSVidStreamBufferSink</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidStreamBufferSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink-get_contentrecorder">get_ContentRecorder</a>
-</td>
-<td align="left" width="63%">
-Creates a new content recording object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink-get_referencerecorder">get_ReferenceRecorder</a>
-</td>
-<td align="left" width="63%">
-Creates a new reference recording object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink-get_sbesink">get_SBESink</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to the Stream Buffer Sink filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink-get_sinkname">get_SinkName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of the stub file that points to the backing files.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink-namesetlock">NameSetLock</a>
-</td>
-<td align="left" width="63%">
-Locks the stream buffer profile.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink-put_sinkname">put_SinkName</a>
-</td>
-<td align="left" width="63%">
-Sets the name of the stub file that points to the backing files.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

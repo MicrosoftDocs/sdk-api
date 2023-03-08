@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.get_MultiLine
 title: IInkEdit::get_MultiLine (inked.h)
-description: Gets or sets a value indicating whether an InkEdit control can accept and display multiple lines of text.
+description: Gets or sets a value indicating whether an InkEdit control can accept and display multiple lines of text. (Get)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","MultiLine property","IInkEdit.MultiLine","IInkEdit.get_MultiLine","IInkEdit::MultiLine","IInkEdit::get_MultiLine","IInkEdit::put_MultiLine","InkEdit.get_MultiLine","InkEdit.put_MultiLine","MultiLine property [Tablet PC]","MultiLine property [Tablet PC]","IInkEdit interface","get_MultiLine","inked/IInkEdit::MultiLine","inked/IInkEdit::get_MultiLine","inked/IInkEdit::put_MultiLine","put_MultiLine","tablet.inkedit_multiline"]
 old-location: tablet\inkedit_multiline.htm
 tech.root: tablet
@@ -72,7 +72,7 @@ You can also add scroll bars to a larger <a href="/windows/desktop/tablet/inkedi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="../inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

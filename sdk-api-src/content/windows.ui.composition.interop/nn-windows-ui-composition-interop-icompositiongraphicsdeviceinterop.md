@@ -55,38 +55,7 @@ A native interoperation  interface that allows getting and setting the graphics 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICompositionGraphicsDeviceInterop</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICompositionGraphicsDeviceInterop</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICompositionGraphicsDeviceInterop</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiongraphicsdeviceinterop-getrenderingdevice">GetRenderingDevice</a>
-</td>
-<td align="left" width="63%">
-Gets the rendering device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiongraphicsdeviceinterop-setrenderingdevice">SetRenderingDevice</a>
-</td>
-<td align="left" width="63%">
-Sets the rendering device.
-
-</td>
-</tr>
-</table>
+The <b>ICompositionGraphicsDeviceInterop</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICompositionGraphicsDeviceInterop</b> also has these types of members:
 
 ## -remarks
 

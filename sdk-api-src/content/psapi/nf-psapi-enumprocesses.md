@@ -83,7 +83,7 @@ If the function fails, the return value is zero. To get extended error informati
 It is a good idea to use a large array, because it is hard to predict how many processes there will be at the time you call 
 <b>EnumProcesses</b>. 
 
-To determine how many processes were enumerated, divide the <i>pBytesReturned</i> value by sizeof(DWORD). There is no indication given when the buffer is too small to store all process identifiers. Therefore, if <i>pBytesReturned</i> equals <i>cb</i>, consider retrying the call with a larger array.
+To determine how many processes were enumerated, divide the <i>lpcbNeeded</i> value by sizeof(DWORD). There is no indication given when the buffer is too small to store all process identifiers. Therefore, if <i>lpcbNeeded</i> equals <i>cb</i>, consider retrying the call with a larger array.
 
 To obtain process handles for the processes whose identifiers you have just obtained, call the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess">OpenProcess</a> function.
 

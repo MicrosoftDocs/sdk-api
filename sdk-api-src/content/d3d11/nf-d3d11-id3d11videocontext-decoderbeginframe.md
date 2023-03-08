@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.DecoderBeginFrame
 title: ID3D11VideoContext::DecoderBeginFrame (d3d11.h)
-description: Starts a decoding operation to decode a video frame.
+description: Starts a decoding operation to decode a video frame. (ID3D11VideoContext.DecoderBeginFrame)
 helpviewer_keywords: ["DecoderBeginFrame","DecoderBeginFrame method [Media Foundation]","DecoderBeginFrame method [Media Foundation]","ID3D11VideoContext interface","ID3D11VideoContext interface [Media Foundation]","DecoderBeginFrame method","ID3D11VideoContext.DecoderBeginFrame","ID3D11VideoContext::DecoderBeginFrame","d3d11/ID3D11VideoContext::DecoderBeginFrame","mf.id3d11videocontext_decoderbeginframe"]
 old-location: mf\id3d11videocontext_decoderbeginframe.htm
 tech.root: mf
@@ -72,7 +72,7 @@ An optional pointer to a content key that was used to encrypt the frame data. If
 
 ## -returns
 
-If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.  <b>D3DERR_WASSTILLDRAWING</b> or <b>E_PENDING</b> is returned if the harware is busy, in which case the decoder should try to make the call again.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.  <b>D3DERR_WASSTILLDRAWING</b> or <b>E_PENDING</b> is returned if the hardware is busy, in which case the decoder should try to make the call again.
 
 ## -remarks
 

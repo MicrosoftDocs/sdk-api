@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmNetEventEnum1
 title: FwpmNetEventEnum1 function (fwpmu.h)
-description: Returns the next page of results from the network event enumerator.
+description: Returns the next page of results from the network event enumerator. (FwpmNetEventEnum1)
 helpviewer_keywords: ["FwpmNetEventEnum1","FwpmNetEventEnum1 function [Filtering]","fwp.fwpmneteventenum1","fwpmu/FwpmNetEventEnum1"]
 old-location: fwp\fwpmneteventenum1.htm
 tech.root: fwp

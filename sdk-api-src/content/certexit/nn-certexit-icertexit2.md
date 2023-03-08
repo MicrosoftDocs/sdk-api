@@ -65,45 +65,5 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertExit2</b> interface inherits from <a href="/windows/desktop/api/certexit/nn-certexit-icertexit">ICertExit</a> and <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. <b>ICertExit2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICertExit2</b> interface inherits from <a href="/windows/desktop/api/certexit/nn-certexit-icertexit">ICertExit</a> and <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. <b>ICertExit2</b> also has these types of members:
 
-## -members
-
-The <b>ICertExit2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certexit/nf-certexit-icertexit-getdescription">GetDescription</a>
-</td>
-<td align="left" width="63%">
-Returns a description of the exit module and its function.</p> (Inherited from <a href="/windows/desktop/api/certexit/nn-certexit-icertexit">ICertExit</a><b>ICertExit2</b><b>CCertExit2</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certexit/nf-certexit-icertexit2-getmanagemodule">GetManageModule</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <a href="/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a> interface implemented by the exit module.</p> (Inherited from <b>ICertExit2</b><b>CCertExit2</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certexit/nf-certexit-icertexit-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Called by the server engine when it initializes itself.</p> (Inherited from <a href="/windows/desktop/api/certexit/nn-certexit-icertexit">ICertExit</a><b>ICertExit2</b><b>CCertExit2</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certexit/nf-certexit-icertexit-notify">Notify</a>
-</td>
-<td align="left" width="63%">
-Called by the server engine to notify an exit module that an event has occurred.</p> (Inherited from <a href="/windows/desktop/api/certexit/nn-certexit-icertexit">ICertExit</a><b>ICertExit2</b><b>CCertExit2</b>)</td>
-</tr>
-</table>

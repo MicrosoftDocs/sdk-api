@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcPartEnumerator.Clone
 title: IOpcPartEnumerator::Clone (msopc.h)
-description: Creates a copy of the current enumerator and all its descendants.
+description: Creates a copy of the current enumerator and all its descendants. (IOpcPartEnumerator.Clone)
 helpviewer_keywords: ["Clone","Clone method [Open Packaging Conventions]","Clone method [Open Packaging Conventions]","IOpcPartEnumerator interface","IOpcPartEnumerator interface [Open Packaging Conventions]","Clone method","IOpcPartEnumerator.Clone","IOpcPartEnumerator::Clone","msopc/IOpcPartEnumerator::Clone","opc.iopcpartenumerator_clone"]
 old-location: opc\iopcpartenumerator_clone.htm
 tech.root: OPC
@@ -105,7 +105,7 @@ The enumerator is invalid because the underlying set has changed.
 
 ## -remarks
 
-When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpartenumerator-movenext">MoveNext</a>method after creating the enumerator.
+When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpartenumerator-movenext">MoveNext</a> method after creating the enumerator.
 
 
 #### Thread Safety

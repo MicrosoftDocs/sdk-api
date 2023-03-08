@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.Reset
 title: ID3D12GraphicsCommandList::Reset (d3d12.h)
-description: Resets a command list back to its initial state as if a new command list was just created.
+description: Resets a command list back to its initial state as if a new command list was just created. (ID3D12GraphicsCommandList.Reset)
 helpviewer_keywords: ["ID3D12GraphicsCommandList interface","Reset method","ID3D12GraphicsCommandList.Reset","ID3D12GraphicsCommandList::Reset","Reset","Reset method","Reset method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::Reset","direct3d12.id3d12graphicscommandlist_reset"]
 old-location: direct3d12\id3d12graphicscommandlist_reset.htm
 tech.root: direct3d12

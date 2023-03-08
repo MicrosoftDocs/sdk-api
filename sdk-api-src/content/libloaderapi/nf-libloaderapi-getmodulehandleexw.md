@@ -1,8 +1,8 @@
 ---
 UID: NF:libloaderapi.GetModuleHandleExW
 title: GetModuleHandleExW function (libloaderapi.h)
-description: Retrieves a module handle for the specified module and increments the module's reference count unless GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT is specified. The module must have been loaded by the calling process.
-helpviewer_keywords: ["GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS","GET_MODULE_HANDLE_EX_FLAG_PIN","GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT","GetModuleHandleEx","GetModuleHandleEx function","GetModuleHandleExA","GetModuleHandleExW","_win32_getmodulehandleex","base.getmodulehandleex","libloaderapi/GetModuleHandleEx","libloaderapi/GetModuleHandleExA","libloaderapi/GetModuleHandleExW","winbase/GetModuleHandleEx","winbase/GetModuleHandleExA","winbase/GetModuleHandleExW"]
+description: Retrieves a module handle for the specified module and increments the module's reference count unless GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT is specified. The module must have been loaded by the calling process. (Unicode)
+helpviewer_keywords: ["GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS", "GET_MODULE_HANDLE_EX_FLAG_PIN", "GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT", "GetModuleHandleEx", "GetModuleHandleEx function", "GetModuleHandleExW", "_win32_getmodulehandleex", "base.getmodulehandleex", "libloaderapi/GetModuleHandleEx", "libloaderapi/GetModuleHandleExW"]
 old-location: base\getmodulehandleex.htm
 tech.root: base
 ms.assetid: 951c7e6e-1d6d-4393-a675-d2b353c53b87
@@ -106,7 +106,7 @@ The name of the loaded module (either a .dll or .exe file), or an address in the
 
 
 
-For a module name, if the file name extension is omitted, the default library extension .dll is appended. The file name string can include a trailing point character (.) to indicate that the module name has no extension. The string does not have to specify a path. When specifying a path, be sure to use backslashes (\), not forward slashes (/). The name is compared (case independently) to the names of modules currently mapped into the address space of the calling process.
+For a module name, if the file name extension is omitted, the default library extension .dll is appended. The file name string can include a trailing point character (.) to indicate that the module name has no extension. The string does not have to specify a path. When specifying a path, be sure to use backslashes (\\), not forward slashes (/). The name is compared (case independently) to the names of modules currently mapped into the address space of the calling process.
 
 If this parameter is NULL, the function returns a handle to the file used to create the calling process (.exe file).
 
@@ -159,7 +159,7 @@ If <i>lpModuleName</i> does not include a path and there is more than one loaded
 If <i>dwFlags</i> contains GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT, the <b>GetModuleHandleEx</b> function returns a handle to a mapped module without incrementing its reference count. However, if this handle is passed to the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary">FreeLibrary</a> function, the reference count of the mapped module will be decremented. Therefore, do not pass a handle returned by <b>GetModuleHandleEx</b> with GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT to the 
 <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary">FreeLibrary</a> function. Doing so can cause a DLL module to be unmapped prematurely.
 
-If <i>dwFlags</i> contains GET_MODULE_HANDLE_EX_UNCHANGED_REFCOUNT, this function must be used carefully in a multithreaded application. There is no guarantee that the module handle remains valid between the time this function returns the handle and the time it is used. For example, a thread retrieves a module handle, but before it uses the handle, a second thread frees the module. If the system loads another module, it could reuse the module handle that was recently freed. Therefore, first thread would have a handle to a module different than the one intended.
+If <i>dwFlags</i> contains GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT, this function must be used carefully in a multithreaded application. There is no guarantee that the module handle remains valid between the time this function returns the handle and the time it is used. For example, a thread retrieves a module handle, but before it uses the handle, a second thread frees the module. If the system loads another module, it could reuse the module handle that was recently freed. Therefore, first thread would have a handle to a module different than the one intended.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0501 or later. For more information, see 
 <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.

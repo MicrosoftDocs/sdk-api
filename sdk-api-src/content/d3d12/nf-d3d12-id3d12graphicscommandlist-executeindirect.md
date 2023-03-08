@@ -103,37 +103,45 @@ The semantics of this API are defined with the following pseudo-code:
 
 Non-NULL pCountBuffer:
 
-<pre class="syntax" xml:space="preserve"><code>// Read draw count out of count buffer
-UINT CommandCount = pCountBuffer-&gt;ReadUINT32(CountBufferOffset);
+
+``` syntax
+// Read draw count out of count buffer
+UINT CommandCount = pCountBuffer->ReadUINT32(CountBufferOffset);
 
 CommandCount = min(CommandCount, MaxCommandCount)
 
 // Get pointer to first Commanding argument
-BYTE* Arguments = pArgumentBuffer-&gt;GetBase() + ArgumentBufferOffset;
+BYTE* Arguments = pArgumentBuffer->GetBase() + ArgumentBufferOffset;
 
-for(UINT CommandIndex = 0; CommandIndex &lt; CommandCount; CommandIndex++)
+for(UINT CommandIndex = 0; CommandIndex < CommandCount; CommandIndex++)
 {
   // Interpret the data contained in *Arguments
   // according to the command signature
-  pCommandSignature-&gt;Interpret(Arguments);
+  pCommandSignature->Interpret(Arguments);
 
-  Arguments += pCommandSignature -&gt;GetByteStride();
+  Arguments += pCommandSignature->GetByteStride();
 }
-</code></pre>
+
+```
+
 NULL pCountBuffer:
 
-<pre class="syntax" xml:space="preserve"><code>// Get pointer to first Commanding argument
-BYTE* Arguments = pArgumentBuffer-&gt;GetBase() + ArgumentBufferOffset;
 
-for(UINT CommandIndex = 0; CommandIndex &lt; MaxCommandCount; CommandIndex++)
+``` syntax
+// Get pointer to first Commanding argument
+BYTE* Arguments = pArgumentBuffer->GetBase() + ArgumentBufferOffset;
+
+for(UINT CommandIndex = 0; CommandIndex < MaxCommandCount; CommandIndex++)
 {
   // Interpret the data contained in *Arguments
   // according to the command signature
-  pCommandSignature-&gt;Interpret(Arguments);
+  pCommandSignature->Interpret(Arguments);
 
-  Arguments += pCommandSignature -&gt;GetByteStride();
+  Arguments += pCommandSignature->GetByteStride();
 }
-</code></pre>
+
+```
+
 The debug layer will issue an error if either the count buffer or the argument buffer are not in the D3D12_RESOURCE_STATE_INDIRECT_ARGUMENT state. The core runtime will validate:
 
 <ul>

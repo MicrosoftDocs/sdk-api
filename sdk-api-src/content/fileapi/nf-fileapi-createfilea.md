@@ -1,12 +1,12 @@
 ---
 UID: NF:fileapi.CreateFileA
 title: CreateFileA function (fileapi.h)
-description: Creates or opens a file or I/O device. The most commonly used I/O devices are as follows:\_file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe.
-helpviewer_keywords: ["0","CREATE_ALWAYS","CREATE_NEW","CreateFile","CreateFile function [Files]","CreateFileA","CreateFileW","FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_ENCRYPTED","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_OFFLINE","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","FILE_FLAG_BACKUP_SEMANTICS","FILE_FLAG_DELETE_ON_CLOSE","FILE_FLAG_NO_BUFFERING","FILE_FLAG_OPEN_NO_RECALL","FILE_FLAG_OPEN_REPARSE_POINT","FILE_FLAG_OVERLAPPED","FILE_FLAG_POSIX_SEMANTICS","FILE_FLAG_RANDOM_ACCESS","FILE_FLAG_SEQUENTIAL_SCAN","FILE_FLAG_SESSION_AWARE","FILE_FLAG_WRITE_THROUGH","FILE_SHARE_DELETE","FILE_SHARE_READ","FILE_SHARE_WRITE","OPEN_ALWAYS","OPEN_EXISTING","SECURITY_ANONYMOUS","SECURITY_CONTEXT_TRACKING","SECURITY_DELEGATION","SECURITY_EFFECTIVE_ONLY","SECURITY_IDENTIFICATION","SECURITY_IMPERSONATION","TRUNCATE_EXISTING","_win32_createfile","base.createfile","fileapi/CreateFile","fileapi/CreateFileA","fileapi/CreateFileW","fs.createfile","winbase/CreateFile","winbase/CreateFileA","winbase/CreateFileW"]
+description: Creates or opens a file or I/O device. The most commonly used I/O devices are as follows:\_file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe. (ANSI)
+helpviewer_keywords: ["0", "CREATE_ALWAYS", "CREATE_NEW", "CreateFileA", "FILE_ATTRIBUTE_ARCHIVE", "FILE_ATTRIBUTE_ENCRYPTED", "FILE_ATTRIBUTE_HIDDEN", "FILE_ATTRIBUTE_NORMAL", "FILE_ATTRIBUTE_OFFLINE", "FILE_ATTRIBUTE_READONLY", "FILE_ATTRIBUTE_SYSTEM", "FILE_ATTRIBUTE_TEMPORARY", "FILE_FLAG_BACKUP_SEMANTICS", "FILE_FLAG_DELETE_ON_CLOSE", "FILE_FLAG_NO_BUFFERING", "FILE_FLAG_OPEN_NO_RECALL", "FILE_FLAG_OPEN_REPARSE_POINT", "FILE_FLAG_OVERLAPPED", "FILE_FLAG_POSIX_SEMANTICS", "FILE_FLAG_RANDOM_ACCESS", "FILE_FLAG_SEQUENTIAL_SCAN", "FILE_FLAG_SESSION_AWARE", "FILE_FLAG_WRITE_THROUGH", "FILE_SHARE_DELETE", "FILE_SHARE_READ", "FILE_SHARE_WRITE", "OPEN_ALWAYS", "OPEN_EXISTING", "SECURITY_ANONYMOUS", "SECURITY_CONTEXT_TRACKING", "SECURITY_DELEGATION", "SECURITY_EFFECTIVE_ONLY", "SECURITY_IDENTIFICATION", "SECURITY_IMPERSONATION", "TRUNCATE_EXISTING", "fileapi/CreateFileA"]
 old-location: fs\createfile.htm
 tech.root: fs
 ms.assetid: 80a96083-4de9-4422-9705-b8ad2b6cbd1b
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFile, CreateFile function [Files], CreateFileA, CreateFileW, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_DELETE_ON_CLOSE, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OVERLAPPED, FILE_FLAG_POSIX_SEMANTICS, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_SESSION_AWARE, FILE_FLAG_WRITE_THROUGH, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, SECURITY_ANONYMOUS, SECURITY_CONTEXT_TRACKING, SECURITY_DELEGATION, SECURITY_EFFECTIVE_ONLY, SECURITY_IDENTIFICATION, SECURITY_IMPERSONATION, TRUNCATE_EXISTING, _win32_createfile, base.createfile, fileapi/CreateFile, fileapi/CreateFileA, fileapi/CreateFileW, fs.createfile, winbase/CreateFile, winbase/CreateFileA, winbase/CreateFileW
 req.header: fileapi.h
 req.include-header: Windows.h
@@ -89,7 +89,7 @@ To create a file stream, specify the name of the file, a colon, and then the nam
 
 ### -param dwDesiredAccess [in]
 
-The requested access to the file or device, which can be summarized as read, write, both or neither zero).
+The requested access to the file or device, which can be summarized as read, write, both or 0 to indicate neither).
 
 The most commonly used values are <b>GENERIC_READ</b>, 
        <b>GENERIC_WRITE</b>, or both 
@@ -222,7 +222,7 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a
        <b>lpSecurityDescriptor</b> member when opening an existing file or device, but continues 
        to use the <b>bInheritHandle</b> member.
 
-The <b>bInheritHandle</b>member of the structure specifies whether the returned handle 
+The <b>bInheritHandle</b> member of the structure specifies whether the returned handle 
        can be inherited.
 
 For more information, see the Remarks section.
@@ -335,12 +335,12 @@ The file or device attributes and flags, <b>FILE_ATTRIBUTE_NORMAL</b> being the 
        common default value for files.
 
 This parameter can include any combination of the available file attributes 
-       (<b>FILE_ATTRIBUTE_*</b>). All other file attributes override 
+       (<b>FILE_ATTRIBUTE_\*</b>). All other file attributes override 
        <b>FILE_ATTRIBUTE_NORMAL</b>.
 
-This parameter can also contain combinations of flags (<b>FILE_FLAG_*</b>) for control of 
+This parameter can also contain combinations of flags (<b>FILE_FLAG_\*</b>) for control of 
        file or device caching behavior, access modes, and other special-purpose flags. These combine with any 
-       <b>FILE_ATTRIBUTE_*</b> values.
+       <b>FILE_ATTRIBUTE_\*</b> values.
 
 This parameter can also contain Security Quality of Service (SQOS) information by specifying the 
        <b>SECURITY_SQOS_PRESENT</b> flag. Additional SQOS-related flags information is presented in 
@@ -460,7 +460,7 @@ The file is part of or used exclusively by an operating system.
 <td width="60%">
 The file is being used for temporary storage.
 
-For more information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
+For more information, see the <a href="#caching_behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -576,7 +576,7 @@ If this flag is not specified, then I/O operations are serialized, even if the c
          functions specify an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 For information about considerations when using a file handle created with this flag, see the 
-         <a href="https://docs.microsoft.com/">Synchronous and Asynchronous I/O Handles</a> 
+         <a href="#synchronous_and_asynchronous_i_o_handles">Synchronous and Asynchronous I/O Handles</a> 
          section of this topic.
 
 </td>
@@ -607,7 +607,7 @@ Access is intended to be random. The system can use this as a hint to optimize f
 This flag has no effect if the file system does not support cached I/O and 
          <b>FILE_FLAG_NO_BUFFERING</b>.
 
-For more information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
+For more information, see the <a href="#caching_behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -643,7 +643,7 @@ This flag should not be used if read-behind (that is, reverse scans) will be use
 This flag has no effect if the file system does not support cached I/O and 
          <b>FILE_FLAG_NO_BUFFERING</b>.
 
-For more information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
+For more information, see the <a href="#caching_behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -657,7 +657,7 @@ For more information, see the <a href="#caching-behavior">Caching Behavior</a> s
 <td width="60%">
 Write operations will not go through any intermediate cache, they will go directly to disk.
 
-For additional information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
+For additional information, see the <a href="#caching_behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -665,7 +665,7 @@ For additional information, see the <a href="#caching-behavior">Caching Behavior
 </table>
  
 
-The <i>dwFlagsAndAttributes</i>parameter can also specify SQOS information. For more 
+The <i>dwFlagsAndAttributes</i> parameter can also specify SQOS information. For more 
        information, see 
        <a href="/windows/desktop/SecAuthZ/impersonation-levels">Impersonation Levels</a>. When the 
        calling application specifies the <b>SECURITY_SQOS_PRESENT</b> flag as part of 
@@ -1048,10 +1048,7 @@ For more information, see
       <a href="/windows/desktop/FileIO/about-directory-management">About Directory Management</a>.
 
 <h3><a id="Physical_Disks_and_Volumes"></a><a id="physical_disks_and_volumes"></a><a id="PHYSICAL_DISKS_AND_VOLUMES"></a>Physical Disks and Volumes</h3>
-Direct access to the disk or to a volume is restricted. For more information, see 
-      "Changes to the file system and to the storage stack to restrict direct disk access and direct volume access in Windows Vista and in Windows Server 2008" 
-      in the Help and Support Knowledge Base at 
-      <a href="https://support.microsoft.com/kb/942448">http://support.microsoft.com/kb/942448</a>.
+Direct access to the disk or to a volume is restricted. 
 
 <b>Windows Server 2003 and Windows XP:  </b>Direct access to the disk or to a volume is not restricted in this manner.
 
@@ -1112,7 +1109,7 @@ For an example of opening a physical drive, see
 When opening a volume or removable media drive (for example, a floppy disk drive or flash memory thumb drive), 
       the <i>lpFileName</i> string should be the following form: 
       "\\.&#92;<i>X</i>:". Do not use a trailing backslash 
-      (\), which indicates the root directory of a drive. The following table shows some examples of drive strings.
+      (\\), which indicates the root directory of a drive. The following table shows some examples of drive strings.
 
 <table>
 <tr>
@@ -1160,14 +1157,14 @@ The <b>IOCTL_CHANGER_*</b> control codes for
       "\\.\Changer<i>x</i>" where 
       <i>x</i> is a number that indicates which device to open, starting with zero. To open 
       changer device zero in an application that is written in C or C++, use the following file name: 
-      "\\\\.\\Changer0".
+      "\\.\Changer0".
 
 <h3><a id="Tape_Drives"></a><a id="tape_drives"></a><a id="TAPE_DRIVES"></a>Tape Drives</h3>
 You can open tape drives by using a file name of the following form: 
       "\\.\TAPE<i>x</i>" where 
       <i>x</i> is a number that indicates which drive to open, starting with tape drive zero. To 
       open tape drive zero in an application that is written in C or C++, use the following file name: 
-      "\\\\.\\TAPE0".
+      "\\.\TAPE0".
 
 For more information, see <a href="/windows/desktop/Backup/backup">Backup</a>.
 
@@ -1181,7 +1178,7 @@ The <b>CreateFile</b> function can create a handle to a
       for overlapped I/O.
 
 To specify a COM port number greater than 9, use the following syntax: 
-      "\\.\COM10". This syntax works for all port numbers and hardware that 
+      "\\\\.\COM10". This syntax works for all port numbers and hardware that 
       allows COM port numbers to be specified.
 
 For more information about communications, see 
@@ -1213,10 +1210,10 @@ Use the CONOUT$ value to specify console output.
 CONIN$ gets a handle to the console input buffer, even if the 
          <a href="/windows/console/setstdhandle">SetStdHandle</a> function redirects the standard input 
          handle. To get the standard input handle, use the 
-         <a href="/windows/console/getstdhandle">GetStdHandle</a>function.
+         <a href="/windows/console/getstdhandle">GetStdHandle</a> function.
 
 CONOUT$ gets a handle to the active screen buffer, even if 
-         <a href="/windows/console/setstdhandle">SetStdHandle</a>redirects the standard output handle. To 
+         <a href="/windows/console/setstdhandle">SetStdHandle</a> redirects the standard output handle. To 
          get the standard output handle, use <a href="/windows/console/getstdhandle">GetStdHandle</a>.
 
 </td>
@@ -1323,7 +1320,7 @@ The following table shows various settings of <i>dwDesiredAccess</i> and
  
 
 <h3><a id="Mailslots"></a><a id="mailslots"></a><a id="MAILSLOTS"></a>Mailslots</h3>
-If <b>CreateFile</b>opens the client end of a mailslot, the 
+If <b>CreateFile</b> opens the client end of a mailslot, the 
       function returns <b>INVALID_HANDLE_VALUE</b> if the mailslot client attempts to open a local 
       mailslot before the mailslot server has created it with the 
       <a href="/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailSlot</a> function.
@@ -1335,7 +1332,7 @@ If <b>CreateFile</b> opens the client end of a named pipe, the
       function uses any instance of the named pipe that is in the listening state. The opening process can duplicate 
       the handle as many times as required, but after it is opened, the named pipe instance cannot be opened by 
       another client. The access that is specified when a pipe is opened must be compatible with the access that is 
-      specified in the <i>dwOpenMode</i>parameter of the 
+      specified in the <i>dwOpenMode</i> parameter of the 
       <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
 
 If the <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function was not 
@@ -1405,10 +1402,10 @@ Example file operations are shown in the following topics:
 <a href="/windows/desktop/FileIO/walking-a-buffer-of-change-journal-records">Walking a Buffer of Change Journal Records</a>
 </li>
 <li>
-<a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>
+<a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>
 </li>
 <li>
-<a href="/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a>
+<a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a>
 </li>
 </ul>
 Physical device I/O is demonstrated in the following topics:

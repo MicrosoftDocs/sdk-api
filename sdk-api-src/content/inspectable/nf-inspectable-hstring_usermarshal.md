@@ -1,12 +1,12 @@
 ---
 UID: NF:inspectable.HSTRING_UserMarshal
 title: HSTRING_UserMarshal function (inspectable.h)
-description: Marshals an HSTRING object into the RPC buffer.
+description: The HSTRING_UserMarshal function (inspectable.h) marshals an HSTRING object into the RPC buffer.
 helpviewer_keywords: ["HSTRING_UserMarshal","HSTRING_UserMarshal function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserMarshal","winrt.hstring_usermarshal"]
 old-location: winrt\hstring_usermarshal.htm
 tech.root: WinRT
 ms.assetid: 986942D6-A1CD-4BED-9AD3-82FB4892E28E
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: HSTRING_UserMarshal, HSTRING_UserMarshal function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserMarshal, winrt.hstring_usermarshal
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h
@@ -53,15 +53,15 @@ Marshals an <a href="/windows/desktop/WinRT/hstring">HSTRING</a> object into the
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 The data used by RPC.
 
-### -param arg2
+### -param unnamedParam2
 
 The current buffer. This pointer may or may not be aligned on entry.
 
-### -param arg3
+### -param unnamedParam3
 
 The string.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateTransformedGeometry(ID2D1Geometry,constD2D1_MATRIX_3X2_F&,ID2D1TransformedGeometry)
 title: ID2D1Factory::CreateTransformedGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F &,ID2D1TransformedGeometry) (d2d1.h)
-description: Transforms the specified geometry and stores the result as an ID2D1TransformedGeometry object.
+description: Transforms the specified geometry and stores the result as an ID2D1TransformedGeometry object. (overload 2/2)
 helpviewer_keywords: ["CreateTransformedGeometry","CreateTransformedGeometry method [Direct2D]","CreateTransformedGeometry method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreateTransformedGeometry method","ID2D1Factory.CreateTransformedGeometry","ID2D1Factory.CreateTransformedGeometry(ID2D1Geometry","const D2D1_MATRIX_3X2_F &","ID2D1TransformedGeometry)","ID2D1Factory::CreateTransformedGeometry","ID2D1Factory::CreateTransformedGeometry(ID2D1Geometry","const D2D1_MATRIX_3X2_F &","ID2D1TransformedGeometry)","d2d1/ID2D1Factory::CreateTransformedGeometry","direct2d.ID2D1Factory_CreateTransformedGeometry_ptr_ID2D1Geometry_ref_D2D_MATRIX_3X2_F_ptr_ptr_ID2D1TransformedGeometry"]
 old-location: direct2d\ID2D1Factory_CreateTransformedGeometry_ptr_ID2D1Geometry_ref_D2D_MATRIX_3X2_F_ptr_ptr_ID2D1TransformedGeometry.htm
 tech.root: Direct2D
@@ -73,7 +73,7 @@ When this method returns, contains the address of the pointer to the new transfo
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -remarks
 
@@ -109,7 +109,7 @@ m_pRenderTarget->SetTransform(
 m_pRenderTarget->DrawGeometry(m_pRectangleGeometry, m_pBlackBrush, 1);
 ```
 
-The next example uses the <a href="/windows/win32/api/d2d1/nf-d2d1-createtransformedgeometry">CreateTransformedGeometry</a> method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
+The next example uses the **CreateTransformedGeometry** method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
 
 <img alt="Illustration of a smaller rectangle inside a larger rectangle with the same stroke" src="images/transformedgeometry2_step3.png"/>
 

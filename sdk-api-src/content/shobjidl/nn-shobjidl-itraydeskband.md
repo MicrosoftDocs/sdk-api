@@ -54,53 +54,5 @@ Exposes methods that show, hide, and query deskbands.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITrayDeskBand</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITrayDeskBand</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITrayDeskBand</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITrayDeskBand</b> also has these types of members:
 
-## -members
-
-The <b>ITrayDeskBand</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-itraydeskband-deskbandregistrationchanged">DeskBandRegistrationChanged</a>
-</td>
-<td align="left" width="63%">
-Refreshes the deskband registration cache.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-itraydeskband-hidedeskband">HideDeskBand</a>
-</td>
-<td align="left" width="63%">
-Hides a specified deskband.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-itraydeskband-isdeskbandshown">IsDeskBandShown</a>
-</td>
-<td align="left" width="63%">
-Indicates whether a deskband is shown.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-itraydeskband-showdeskband">ShowDeskBand</a>
-</td>
-<td align="left" width="63%">
-Shows a specified deskband.
-
-</td>
-</tr>
-</table>

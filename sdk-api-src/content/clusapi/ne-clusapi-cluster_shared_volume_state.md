@@ -58,19 +58,19 @@ Defines the states of a cluster shared volume.
 
 ## -enum-fields
 
-### -field SharedVolumeStateUnavailable
+### -field SharedVolumeStateUnavailable:0
 
 The shared volume is unavailable.
 
-### -field SharedVolumeStatePaused
+### -field SharedVolumeStatePaused:1
 
 The shared volume is paused.
 
-### -field SharedVolumeStateActive
+### -field SharedVolumeStateActive:2
 
 The shared volume is active.
 
-### -field SharedVolumeStateActiveRedirected
+### -field SharedVolumeStateActiveRedirected:3
 
-### -field SharedVolumeStateActiveVolumeRedirected
+### -field SharedVolumeStateActiveVolumeRedirected:4
 

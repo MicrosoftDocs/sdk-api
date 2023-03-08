@@ -43,6 +43,7 @@ api_location:
  - User32.dll
 api_name:
  - SetMenuInfo
+req.apiset: ext-ms-win-ntuser-menu-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetMenuInfo function
@@ -54,13 +55,13 @@ Sets information for a specified menu.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b>HMENU</b>
 
 A handle to a menu.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Type: <b>LPCMENUINFO</b>
 

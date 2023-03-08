@@ -65,74 +65,7 @@ For hardware requirements, see the <a href="/windows/desktop/api/strmif/nn-strmi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTimecodeGenerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTimecodeGenerator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAMTimecodeGenerator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-get_vitcline">get_VITCLine</a>
-</td>
-<td align="left" width="63%">
-Retrieves which line(s) the vertical interval timecode information has been inserted into.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-gettcgmode">GetTCGMode</a>
-</td>
-<td align="left" width="63%">
-Retrieves the SMPTE timecode generator properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-gettimecode">GetTimecode</a>
-</td>
-<td align="left" width="63%">
-Retrieves the most recent timecode and/or userbit value available in the stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-put_vitcline">put_VITCLine</a>
-</td>
-<td align="left" width="63%">
-Specifies which line(s) to insert the vertical interval timecode information into.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-settcgmode">SetTCGMode</a>
-</td>
-<td align="left" width="63%">
-Sets the SMPTE timecode generator properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-settimecode">SetTimecode</a>
-</td>
-<td align="left" width="63%">
-Sets the timecode, userbit value, or both.
-
-</td>
-</tr>
-</table>
+The <b>IAMTimecodeGenerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTimecodeGenerator</b> also has these types of members:
 
 ## -see-also
 

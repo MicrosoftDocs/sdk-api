@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_Sint16A
 title: MI_Sint16A (mi.h)
-description: Represents an array of MI_Sint16 types.
+description: Represents an array of MI_Sint16 types. (MI_Sint16A)
 helpviewer_keywords: ["MI_Sint16A","MI_Sint16A structure [Windows Management Infrastructure (MI)]","mi/MI_Sint16A","wmi._mi_sint16a","wmi_v2.mi_sint16a"]
 old-location: wmi_v2\mi_sint16a.htm
 tech.root: wmi_v2

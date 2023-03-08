@@ -81,7 +81,11 @@ If you need to reliably determine <b>FALSE</b> from an error condition, then it 
 
 ## -remarks
 
-<b>Windows XP, Windows Server 2003</b>: The required header file and DLL are part of the <a href="https://www.microsoft.com/download/details.aspx?id=734"> "Microsoft Internationalized Domain Name (IDN) Mitigation APIs"</a> download, available at the <a href="https://www.microsoft.com/?ref=go">MSDN Download Center</a>.
+<b>Windows XP, Windows Server 2003</b>: 
+
+No longer supported.
+
+The required header file and DLL are part of the Microsoft Internationalized Domain Name (IDN) Mitigation APIs, which are no longer available for download.
 
 
 #### Examples

@@ -6,7 +6,7 @@ helpviewer_keywords: ["CfGetPlaceholderRangeInfo","CfGetPlaceholderRangeInfo fun
 old-location: cloudapi\cfgetplaceholderrangeinfo.htm
 tech.root: cloudapi
 ms.assetid: B7FE94BC-DC59-407D-85A6-9657E38975AB
-ms.date: 12/05/2018
+ms.date: 02/27/2023
 ms.keywords: CfGetPlaceholderRangeInfo, CfGetPlaceholderRangeInfo function, cfapi/CfGetPlaceholderRangeInfo, cloudApi.cfgetplaceholderrangeinfo
 req.header: cfapi.h
 req.include-header: 
@@ -47,7 +47,6 @@ api_name:
 
 # CfGetPlaceholderRangeInfo function
 
-
 ## -description
 
 Gets range information about a placeholder file or folder.
@@ -72,21 +71,24 @@ Length of the range of data.
 
 ### -param InfoBuffer [out]
 
-Pointer to a buffer to receive the data.
+Pointer to a buffer that will receive the data. The buffer is an array of `CF_FILE_RANGE` structures, which are offset/length pairs, describing the requested ranges.
 
 ### -param InfoBufferLength [in]
 
-Length, in bytes, of <i>InfoBuffer</i>.
+The length of `InfoBuffer` in bytes.
 
 ### -param ReturnedLength [out, optional]
 
-The length of the returned range of placeholder data in the <i>InfoBuffer</i>.
+The length of the returned range of placeholder data in the `InfoBuffer`.
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns `S_OK`. Otherwise, it returns an `HRESULT` error code.
 
 ## -remarks
 
 Unlike most placeholder APIs that take a file handle, this one does not modify the file in any way, therefore the file handle only requires READ_ATTRIBUTES access.
 
+## -see-also
+
+[CfGetPlaceholderRangeInfoForHydration](nf-cfapi-cfgetplaceholderrangeinfoforhydration.md)

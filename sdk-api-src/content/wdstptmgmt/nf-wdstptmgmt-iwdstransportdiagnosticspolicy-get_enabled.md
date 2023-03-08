@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportDiagnosticsPolicy.get_Enabled
 title: IWdsTransportDiagnosticsPolicy::get_Enabled (wdstptmgmt.h)
-description: Receives or sets a value that enables a WDS client to configure diagnostic logging on the server.
+description: Receives or sets a value that enables a WDS client to configure diagnostic logging on the server. (Get)
 helpviewer_keywords: ["Enabled property [Windows Deployment Services]","Enabled property [Windows Deployment Services]","IWdsTransportDiagnosticsPolicy interface","IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services]","Enabled property","IWdsTransportDiagnosticsPolicy.Enabled","IWdsTransportDiagnosticsPolicy.get_Enabled","IWdsTransportDiagnosticsPolicy::Enabled","IWdsTransportDiagnosticsPolicy::get_Enabled","IWdsTransportDiagnosticsPolicy::put_Enabled","get_Enabled","wds.iwdstransportdiagnosticspolicy_enabled","wdstptmgmt/IWdsTransportDiagnosticsPolicy::Enabled","wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Enabled","wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Enabled"]
 old-location: wds\iwdstransportdiagnosticspolicy_enabled.htm
 tech.root: wds

@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsQuery_UTF8
 title: DnsQuery_UTF8 function (windns.h)
-description: Is the generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface.
+description: Is the generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface. (DnsQuery_UTF8)
 helpviewer_keywords: ["DnsQuery","DnsQuery function [DNS]","DnsQuery_A","DnsQuery_UTF8","DnsQuery_W","_dns_dnsquery","dns.dnsquery","windns/DnsQuery","windns/DnsQuery_A","windns/DnsQuery_UTF8","windns/DnsQuery_W"]
 old-location: dns\dnsquery.htm
 tech.root: DNS
@@ -61,7 +61,7 @@ The
 <li><b>DnsQuery_A</b> (for ANSI encoding)</li>
 <li><b>DnsQuery_W</b> (for Unicode encoding)</li>
 <li><b>DnsQuery_UTF8</b> (for UTF-8 encoding)</li>
-</ul>Windows 8: The <a href="/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a> function should be used if an application requires asynchronous querries to the DNS namespace.
+</ul>Windows 8: The <a href="/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a> function should be used if an application requires asynchronous queries to the DNS namespace.
 
 ## -parameters
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetDlgItemTextA
 title: GetDlgItemTextA function (winuser.h)
-description: Retrieves the title or text associated with a control in a dialog box.
-helpviewer_keywords: ["GetDlgItemText","GetDlgItemText function [Dialog Boxes]","GetDlgItemTextA","GetDlgItemTextW","_win32_GetDlgItemText","_win32_getdlgitemtext_cpp","dlgbox.getdlgitemtext","winui._win32_getdlgitemtext","winuser/GetDlgItemText","winuser/GetDlgItemTextA","winuser/GetDlgItemTextW"]
+description: Retrieves the title or text associated with a control in a dialog box. (ANSI)
+helpviewer_keywords: ["GetDlgItemTextA", "winuser/GetDlgItemTextA"]
 old-location: dlgbox\getdlgitemtext.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdlgitemtext.htm
@@ -48,6 +48,7 @@ api_name:
  - GetDlgItemText
  - GetDlgItemTextA
  - GetDlgItemTextW
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetDlgItemTextA function

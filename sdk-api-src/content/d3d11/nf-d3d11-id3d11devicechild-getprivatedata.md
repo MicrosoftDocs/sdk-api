@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceChild.GetPrivateData
 title: ID3D11DeviceChild::GetPrivateData (d3d11.h)
-description: Get application-defined data from a device child.
+description: Get application-defined data from a device child. (ID3D11DeviceChild.GetPrivateData)
 helpviewer_keywords: ["50e61586-bdf5-0fe2-ab52-a873243bc7ff","GetPrivateData","GetPrivateData method [Direct3D 11]","GetPrivateData method [Direct3D 11]","ID3D11DeviceChild interface","ID3D11DeviceChild interface [Direct3D 11]","GetPrivateData method","ID3D11DeviceChild.GetPrivateData","ID3D11DeviceChild::GetPrivateData","d3d11/ID3D11DeviceChild::GetPrivateData","direct3d11.id3d11devicechild_getprivatedata"]
 old-location: direct3d11\id3d11devicechild_getprivatedata.htm
 tech.root: direct3d11
@@ -66,14 +66,14 @@ Guid associated with the data.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 A pointer to a variable that on input contains the size, in bytes, of the buffer that <i>pData</i> points to, and on output contains the size, in bytes, of the amount of data that
-            <b>GetPrivateData</b>retrieved.
+           <b>GetPrivateData</b> retrieved.
 
 ### -param pData [out, optional]
 
 Type: <b>void*</b>
 
 A pointer to a buffer that
-            <b>GetPrivateData</b>fills with data from the device child if <i>pDataSize</i> points to a value that specifies a buffer large enough to hold the data.
+           <b>GetPrivateData</b> fills with data from the device child if <i>pDataSize</i> points to a value that specifies a buffer large enough to hold the data.
 
 ## -returns
 

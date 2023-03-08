@@ -66,7 +66,7 @@ Pointer to the supplemental credentials.
 
 Pointer to the size of the <i>MarshalledCreds</i> buffer.
 
-### -param *MarshalledCreds [out]
+### -param MarshalledCreds [out]
 
 Pointer that receives the address of the buffer containing the <a href="/windows/desktop/SecGloss/s-gly">serialized</a> credentials. Allocate the memory for this buffer by calling the 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateHeap</a> function.

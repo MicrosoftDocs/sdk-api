@@ -55,65 +55,7 @@ Represents a block of memory that contains media data. Use this interface to acc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaBuffer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFMediaBuffer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getcurrentlength">GetCurrentLength</a>
-</td>
-<td align="left" width="63%">
-Retrieves the length of the valid data in the buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getmaxlength">GetMaxLength</a>
-</td>
-<td align="left" width="63%">
-Retrieves the allocated size of the buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">Lock</a>
-</td>
-<td align="left" width="63%">
-Gives the caller access to the memory in the buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-setcurrentlength">SetCurrentLength</a>
-</td>
-<td align="left" width="63%">
-Sets the length of the valid data in the buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-unlock">Unlock</a>
-</td>
-<td align="left" width="63%">
-Unlocks a buffer that was previously locked.
-
-</td>
-</tr>
-</table>
+The <b>IMFMediaBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaBuffer</b> also has these types of members:
 
 ## -remarks
 

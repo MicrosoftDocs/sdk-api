@@ -56,9 +56,9 @@ Gets information about the optional features and capabilities that are supported
 
 ### -param feature
 
-Type: [**DML_FEATURE**](/windows/desktop/api/directml/ne-directml-dml_feature)
+Type: [**DML_FEATURE**](/windows/win32/api/directml/ne-directml-dml_feature)
 
-A constant from the [DML_FEATURE](/windows/desktop/api/directml/ne-directml-dml_feature) enumeration describing the feature(s) that you want to query for support.
+A constant from the [DML_FEATURE](/windows/win32/api/directml/ne-directml-dml_feature) enumeration describing the feature(s) that you want to query for support.
 
 ### -param featureQueryDataSize
 
@@ -70,7 +70,7 @@ The size of the structure pointed to by the <i>featureQueryData</i> parameter, i
 
 Type: <b>const void*</b>
 
-An optional pointer to a query structure that corresponds to the value of the <i>feature</i> parameter. To determine the corresponding query type for each constant, see [DML_FEATURE](/windows/desktop/api/directml/ne-directml-dml_feature).
+An optional pointer to a query structure that corresponds to the value of the <i>feature</i> parameter. To determine the corresponding query type for each constant, see [DML_FEATURE](/windows/win32/api/directml/ne-directml-dml_feature).
 
 ### -param featureSupportDataSize
 
@@ -82,15 +82,14 @@ The size of the structure pointed to by the <i>featureSupportData</i> parameter.
 
 Type: <b>void*</b>
 
-A pointer to a support data structure that corresponds to the value of the <i>feature</i> parameter. To determine the corresponding support data type for each constant, see [DML_FEATURE](/windows/desktop/api/directml/ne-directml-dml_feature).
+A pointer to a support data structure that corresponds to the value of the <i>feature</i> parameter. To determine the corresponding support data type for each constant, see [DML_FEATURE](/windows/win32/api/directml/ne-directml-dml_feature).
 
 ## -returns
 
 Type: [**HRESULT**](/windows/desktop/winprog/windows-data-types)
 
-If this method succeeds, it returns **S_OK**. Otherwise, it returns **DXGI_ERROR_UNSUPPORTED** if the [DML_FEATURE](/windows/desktop/api/directml/ne-directml-dml_feature) is unrecognized or unsupported, and **E_INVALIDARG** if the parameters are incorrect.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns **DXGI_ERROR_UNSUPPORTED** if the [DML_FEATURE](/windows/win32/api/directml/ne-directml-dml_feature) is unrecognized or unsupported, and **E_INVALIDARG** if the parameters are incorrect.
 
 ## -see-also
 
-[IDMLDevice](/windows/desktop/api/directml/nn-directml-idmldevice)
-
+[IDMLDevice](/windows/win32/api/directml/nn-directml-idmldevice)

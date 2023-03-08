@@ -54,74 +54,7 @@ Represents a basic image-processing construct in Direct2D.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Effect</b> interface inherits from <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>. <b>ID2D1Effect</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1Effect</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-getinput">GetInput</a>
-</td>
-<td align="left" width="63%">
-Gets the given input image by index. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-getinputcount">GetInputCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of inputs to the effect. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-getoutput">GetOutput</a>
-</td>
-<td align="left" width="63%">
-Gets the output image from the effect. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-setinput">SetInput</a>
-</td>
-<td align="left" width="63%">
-Sets the given input image by index. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-setinputcount">SetInputCount</a>
-</td>
-<td align="left" width="63%">
-Allows the application to change the number of inputs to an effect.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-setinputeffect">SetInputEffect</a>
-</td>
-<td align="left" width="63%">
-Sets the given input effect by index. 
-
-</td>
-</tr>
-</table>
+The <b>ID2D1Effect</b> interface inherits from <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>. <b>ID2D1Effect</b> also has these types of members:
 
 ## -remarks
 

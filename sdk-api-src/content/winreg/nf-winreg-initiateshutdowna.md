@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.InitiateShutdownA
 title: InitiateShutdownA function (winreg.h)
-description: Initiates a shutdown and restart of the specified computer, and restarts any applications that have been registered for restart.
-helpviewer_keywords: ["InitiateShutdown","InitiateShutdown function","InitiateShutdownA","InitiateShutdownW","SHUTDOWN_FORCE_OTHERS","SHUTDOWN_FORCE_SELF","SHUTDOWN_GRACE_OVERRIDE","SHUTDOWN_HYBRID","SHUTDOWN_INSTALL_UPDATES","SHUTDOWN_NOREBOOT","SHUTDOWN_POWEROFF","SHUTDOWN_RESTART","SHUTDOWN_RESTARTAPPS","base.initiateshutdown","security.initiateshutdown","winreg/InitiateShutdown","winreg/InitiateShutdownA","winreg/InitiateShutdownW"]
+description: Initiates a shutdown and restart of the specified computer, and restarts any applications that have been registered for restart. (ANSI)
+helpviewer_keywords: ["InitiateShutdownA", "SHUTDOWN_FORCE_OTHERS", "SHUTDOWN_FORCE_SELF", "SHUTDOWN_GRACE_OVERRIDE", "SHUTDOWN_HYBRID", "SHUTDOWN_INSTALL_UPDATES", "SHUTDOWN_NOREBOOT", "SHUTDOWN_POWEROFF", "SHUTDOWN_RESTART", "SHUTDOWN_RESTARTAPPS", "winreg/InitiateShutdownA"]
 old-location: base\initiateshutdown.htm
 tech.root: base
 ms.assetid: 9d0d3774-3e4d-4e56-b4c2-d59d74e797a1

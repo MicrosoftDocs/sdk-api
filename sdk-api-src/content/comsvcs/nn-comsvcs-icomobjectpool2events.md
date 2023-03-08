@@ -54,56 +54,7 @@ Notifies the subscriber if a transactional or non-transactional object is added 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComObjectPool2Events</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComObjectPool2Events</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IComObjectPool2Events</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpool2events-onobjpoolgetfromtx2">OnObjPoolGetFromTx2</a>
-</td>
-<td align="left" width="63%">
-Generated when a transactional object is obtained from the pool.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpool2events-onobjpoolgetobject2">OnObjPoolGetObject2</a>
-</td>
-<td align="left" width="63%">
-Generated when a non-transactional object is obtained from the pool.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpool2events-onobjpoolputobject2">OnObjPoolPutObject2</a>
-</td>
-<td align="left" width="63%">
-Generated when an object is added to the pool.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectpool2events-onobjpoolrecycletotx2">OnObjPoolRecycleToTx2</a>
-</td>
-<td align="left" width="63%">
-Generated when a transactional object is returned to the pool.
-
-</td>
-</tr>
-</table>
+The <b>IComObjectPool2Events</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComObjectPool2Events</b> also has these types of members:
 
 ## -see-also
 

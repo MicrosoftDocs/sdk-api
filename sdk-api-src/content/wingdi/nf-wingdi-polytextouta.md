@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.PolyTextOutA
 title: PolyTextOutA function (wingdi.h)
-description: The PolyTextOut function draws several strings using the font and text colors currently selected in the specified device context.
-helpviewer_keywords: ["PolyTextOut","PolyTextOut function [Windows GDI]","PolyTextOutA","PolyTextOutW","_win32_PolyTextOut","gdi.polytextout","wingdi/PolyTextOut","wingdi/PolyTextOutA","wingdi/PolyTextOutW"]
+description: The PolyTextOut function draws several strings using the font and text colors currently selected in the specified device context. (ANSI)
+helpviewer_keywords: ["PolyTextOutA", "wingdi/PolyTextOutA"]
 old-location: gdi\polytextout.htm
 tech.root: gdi
 ms.assetid: 643b4f6a-843f-4795-adc8-a90223bdc246
@@ -83,7 +83,10 @@ Each <a href="/windows/desktop/api/wingdi/ns-wingdi-polytexta">POLYTEXT</a> stru
 To draw a single string of text, the application should call the <a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> function.
 
 
+**PolyTextOut** will not handle international scripting support automatically. To get international scripting support, use **ExtTextOut** instead. **ExtTextOut** will use [Uniscribe](/windows/win32/intl/uniscribe) when necessary resulting in font fallback. Additionally, **ExtTextOut** will perform internal batching of calls before transitioning to kernel mode, mitigating some of the performance concerns when weighing usage of **PolyTextOut** versus **ExtTextOut**.
 
+> [!TIP]
+>  **ExtTextOut** is strongly recommended over **PolyTextOut** for modern development due to its ability to handle display of different languages.
 
 
 > [!NOTE]

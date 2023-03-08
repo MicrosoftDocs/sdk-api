@@ -1,7 +1,7 @@
 ---
 UID: NN:mfmp2dlna.IMFDLNASinkInit
 title: IMFDLNASinkInit (mfmp2dlna.h)
-description: Initializes the Digital Living Network Alliance (DLNA) media sink.
+description: Initializes the Digital Living Network Alliance (DLNA) media sink. (IMFDLNASinkInit)
 helpviewer_keywords: ["IMFDLNASinkInit","IMFDLNASinkInit interface [Media Foundation]","IMFDLNASinkInit interface [Media Foundation]","described","mf.imfdlnasinkinit","mfmp2dlna/IMFDLNASinkInit"]
 old-location: mf\imfdlnasinkinit.htm
 tech.root: mf
@@ -56,29 +56,7 @@ The DLNA media sink exposes this interface. To get a pointer to this interface, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFDLNASinkInit</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFDLNASinkInit</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFDLNASinkInit</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmp2dlna/nf-mfmp2dlna-imfdlnasinkinit-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the DLNA media sink.
-
-</td>
-</tr>
-</table>
+The <b>IMFDLNASinkInit</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFDLNASinkInit</b> also has these types of members:
 
 ## -see-also
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:objbase.CoFileTimeNow
 title: CoFileTimeNow function (objbase.h)
-description: Returns the current time as a FILETIME structure.
+description: The CoFileTimeNow function (objbase.h) returns the current time as a FILETIME structure.
 helpviewer_keywords: ["CoFileTimeNow","CoFileTimeNow function [COM]","_com_CoFileTimeNow","com.cofiletimenow","combaseapi/CoFileTimeNow"]
 old-location: com\cofiletimenow.htm
 tech.root: com
 ms.assetid: 00083429-1d61-4a0b-bb73-82158869466d
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: CoFileTimeNow, CoFileTimeNow function [COM], _com_CoFileTimeNow, com.cofiletimenow, combaseapi/CoFileTimeNow
 req.header: objbase.h
 req.include-header: Objbase.h

@@ -1,7 +1,7 @@
 ---
 UID: NF:ncryptprotect.NCryptStreamOpenToUnprotectEx
 title: NCryptStreamOpenToUnprotectEx function (ncryptprotect.h)
-description: Opens a stream object that can be used to decrypt large amounts of data to the same protection descriptor used for encryption.
+description: Opens a stream object that can be used to decrypt large amounts of data to the same protection descriptor used for encryption. (NCryptStreamOpenToUnprotectEx)
 helpviewer_keywords: ["NCryptStreamOpenToUnprotectEx","NCryptStreamOpenToUnprotectEx function [Security]","ncryptprotect/NCryptStreamOpenToUnprotectEx","security.ncryptstreamopentounprotectex"]
 old-location: security\ncryptstreamopentounprotectex.htm
 tech.root: security
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Opens a stream object that can be used to decrypt large amounts of data to the same  protection descriptor used for encryption.Call <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamupdate">NCryptStreamUpdate</a> to perform the decryption. To decrypt smaller messages such as keys and passwords, call <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptunprotectsecret">NCryptUnprotectSecret</a>.
 

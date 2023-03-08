@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.SHEnumerateUnreadMailAccountsA
 title: SHEnumerateUnreadMailAccountsA function (shellapi.h)
-description: Enumerates the user accounts that have unread email.
-helpviewer_keywords: ["SHEnumerateUnreadMailAccounts","SHEnumerateUnreadMailAccounts function [Windows Shell]","SHEnumerateUnreadMailAccountsA","SHEnumerateUnreadMailAccountsW","_shell_SHEnumerateUnreadMailAccounts","shell.SHEnumerateUnreadMailAccounts","shellapi/SHEnumerateUnreadMailAccounts","shellapi/SHEnumerateUnreadMailAccountsA","shellapi/SHEnumerateUnreadMailAccountsW"]
+description: Enumerates the user accounts that have unread email. (ANSI)
+helpviewer_keywords: ["SHEnumerateUnreadMailAccountsA", "shellapi/SHEnumerateUnreadMailAccountsA"]
 old-location: shell\SHEnumerateUnreadMailAccounts.htm
 tech.root: shell
 ms.assetid: 67ec8355-f902-4b71-972f-94e403701f96
@@ -84,7 +84,7 @@ The number of characters in the email address.
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

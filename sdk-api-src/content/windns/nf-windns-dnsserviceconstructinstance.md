@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsServiceConstructInstance
 title: DnsServiceConstructInstance function
-description: Used to build a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure from data that describes it.
+description: Used to build a [DNS_SERVICE_INSTANCE](../windns/ns-windns-dns_service_instance.md) structure from data that describes it.
 tech.root: dns
 helpviewer_keywords: ["DnsServiceConstructInstance"]
 ms.date: 02/14/2019
@@ -35,7 +35,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - windns.h
 api_name:
@@ -44,7 +43,7 @@ api_name:
 
 ## -description
 
-Used to build a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure from data that describes it.
+Used to build a [DNS_SERVICE_INSTANCE](/windows/win32/api/windns/ns-windns-dns_service_instance) structure from data that describes it.
 
 ## -parameters
 
@@ -62,7 +61,7 @@ A pointer to an **IP4_ADDRESS** structure that represents the service-associated
 
 ### -param pIp6
 
-A pointer to an [IP6_ADDRESS](/windows/desktop/api/windns/ns-windns-ip6_address_1) structure that represents the service-associated IPv6 address.
+A pointer to an [IP6_ADDRESS](/windows/win32/api/windns/ns-windns-ip6_address) structure that represents the service-associated IPv6 address.
 
 ### -param wPort
 

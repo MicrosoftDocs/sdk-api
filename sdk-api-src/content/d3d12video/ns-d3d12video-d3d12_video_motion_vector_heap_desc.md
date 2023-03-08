@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC
 title: D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Describes a ID3D12VideoMotionEstimatorHeap. Pass this structure into ID3D12VideoDevice1::CreateVideoMotionEstimatorHeap to create an instance of ID3D12VideoMotionEstimatorHeap.
 tech.root: mf
@@ -38,7 +37,7 @@ dev_langs:
 
 ## -description
 
-Describes a [ID3D12VideoMotionEstimatorHeap](nn-d3d12video-id3d12videomotionvectorheap.md). Pass this structure into [ID3D12VideoDevice1::CreateVideoMotionEstimatorHeap](nf-d3d12video-id3d12videodevice1-createvideomotionestimatorheap.md) to create an instance of **ID3D12VideoMotionEstimatorHeap**.
+Describes a [ID3D12VideoMotionEstimatorHeap](nn-d3d12video-id3d12videomotionvectorheap.md). Pass this structure into [ID3D12VideoDevice1::CreateVideoMotionVectorHeap](nf-d3d12video-id3d12videodevice1-createvideomotionvectorheap.md) to create an instance of **ID3D12VideoMotionEstimatorHeap**.
 
 ## -struct-fields
 

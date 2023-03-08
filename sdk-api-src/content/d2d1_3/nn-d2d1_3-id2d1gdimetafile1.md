@@ -54,39 +54,7 @@ This interface performs all the same functions as the existing ID2D1GdiMetafile 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GdiMetafile1</b> interface inherits from <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1gdimetafile">ID2D1GdiMetafile</a>. <b>ID2D1GdiMetafile1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1GdiMetafile1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1gdimetafile1-getdpi">GetDpi</a>
-</td>
-<td align="left" width="63%">
-Gets the DPI reported by the metafile.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1gdimetafile1-getsourcebounds">GetSourceBounds</a>
-</td>
-<td align="left" width="63%">
-Gets the bounds of the metafile in source space in DIPs. This corresponds      
-    to the frame rect in an EMF/EMF+.
-
-</td>
-</tr>
-</table>
+The <b>ID2D1GdiMetafile1</b> interface inherits from <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1gdimetafile">ID2D1GdiMetafile</a>. <b>ID2D1GdiMetafile1</b> also has these types of members:
 
 ## -see-also
 

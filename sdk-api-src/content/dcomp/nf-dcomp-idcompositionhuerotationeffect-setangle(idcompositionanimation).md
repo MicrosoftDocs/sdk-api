@@ -1,12 +1,12 @@
 ---
 UID: NF:dcomp.IDCompositionHueRotationEffect.SetAngle(IDCompositionAnimation)
 title: IDCompositionHueRotationEffect::SetAngle(IDCompositionAnimation) (dcomp.h)
-description: Sets the angle to rotate the hue.
+description: The IDCompositionHueRotationEffect::SetAngle(IDCompositionAnimation) method sets the angle to rotate the hue.
 helpviewer_keywords: ["IDCompositionHueRotationEffect interface [DirectComposition]","SetAngle method","IDCompositionHueRotationEffect.SetAngle","IDCompositionHueRotationEffect.SetAngle(IDCompositionAnimation)","IDCompositionHueRotationEffect::SetAngle","IDCompositionHueRotationEffect::SetAngle(IDCompositionAnimation)","SetAngle","SetAngle method [DirectComposition]","SetAngle method [DirectComposition]","IDCompositionHueRotationEffect interface","dcomp/IDCompositionHueRotationEffect::SetAngle","directcomp.idcompositionhuerotationeffect_setangle_2"]
 old-location: directcomp\idcompositionhuerotationeffect_setangle_2.htm
 tech.root: directcomp
 ms.assetid: F0D73D46-D649-47F3-B1F1-FD995228A3EC
-ms.date: 12/05/2018
+ms.date: 06/23/2022
 ms.keywords: IDCompositionHueRotationEffect interface [DirectComposition],SetAngle method, IDCompositionHueRotationEffect.SetAngle, IDCompositionHueRotationEffect.SetAngle(IDCompositionAnimation), IDCompositionHueRotationEffect::SetAngle, IDCompositionHueRotationEffect::SetAngle(IDCompositionAnimation), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionHueRotationEffect interface, dcomp/IDCompositionHueRotationEffect::SetAngle, directcomp.idcompositionhuerotationeffect_setangle_2
 req.header: dcomp.h
 req.include-header: 
@@ -69,7 +69,7 @@ This parameter must not be NULL.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

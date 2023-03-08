@@ -52,7 +52,7 @@ api_name:
 
 Determines whether an object has changed since it was last saved to its current storage.
 
-## -parameters
+
 
 ## -returns
 

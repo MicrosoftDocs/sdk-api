@@ -56,7 +56,7 @@ The
 
 ## -enum-fields
 
-### -field CHS_ACTIVE
+### -field CHS_ACTIVE:0
 
 The CallHub is active. There is at least one call that is not in the CS_DISCONNECTED state.
 

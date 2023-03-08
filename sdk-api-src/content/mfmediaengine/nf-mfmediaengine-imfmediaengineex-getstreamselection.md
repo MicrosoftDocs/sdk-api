@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetStreamSelection
 title: IMFMediaEngineEx::GetStreamSelection (mfmediaengine.h)
-description: Queries whether a stream is selected to play.
+description: Queries whether a stream is selected to play. (IMFMediaEngineEx.GetStreamSelection)
 helpviewer_keywords: ["FALSE","GetStreamSelection","GetStreamSelection method [Media Foundation]","GetStreamSelection method [Media Foundation]","IMFMediaEngineEx interface","IMFMediaEngineEx interface [Media Foundation]","GetStreamSelection method","IMFMediaEngineEx.GetStreamSelection","IMFMediaEngineEx::GetStreamSelection","TRUE","mf.imfmediaengineex_getstreamselection","mfmediaengine/IMFMediaEngineEx::GetStreamSelection"]
 old-location: mf\imfmediaengineex_getstreamselection.htm
 tech.root: mf
@@ -92,7 +92,7 @@ The stream is not selected. During playback, this stream will not play.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

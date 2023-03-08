@@ -56,7 +56,7 @@ Describes a line segment.
 
 ## -enum-fields
 
-### -field XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE
+### -field XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE:1
 
 The line segment is an arc that covers more than 180 degrees and is drawn in a clockwise direction from the start point to the end point.
 
@@ -135,5 +135,5 @@ XPS_SEGMENT_TYPE_QUADRATIC_BEZIER <img alt="A diagram that shows an example of a
 
 ## -see-also
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 

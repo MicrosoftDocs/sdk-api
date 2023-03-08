@@ -54,26 +54,5 @@ Defines the <a href="/windows/desktop/api/wuapi/nf-wuapi-iinstallationprogressch
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInstallationProgressChangedCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInstallationProgressChangedCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IInstallationProgressChangedCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInstallationProgressChangedCallback</b> also has these types of members:
 
-## -members
-
-The <b>IInstallationProgressChangedCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wuapi/nf-wuapi-iinstallationprogresschangedcallback-invoke">Invoke</a>
-</td>
-<td align="left" width="63%">
-Handles the notification of the change of progress of an asynchronous installation or uninstallation that was initiated by a call to the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">IUpdateInstaller.BeginInstall</a> or <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-beginuninstall">IUpdateInstaller.BeginUninstall</a> method.
-
-</td>
-</tr>
-</table>

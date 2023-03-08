@@ -55,44 +55,5 @@ This interface is implemented on the <a href="/windows/desktop/DirectShow/mpeg-2
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMpeg2Demultiplexer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMpeg2Demultiplexer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMpeg2Demultiplexer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMpeg2Demultiplexer</b> also has these types of members:
 
-## -members
-
-The <b>IMpeg2Demultiplexer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-impeg2demultiplexer-createoutputpin">CreateOutputPin</a>
-</td>
-<td align="left" width="63%">
-Creates a new output pin on the Demux.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-impeg2demultiplexer-deleteoutputpin">DeleteOutputPin</a>
-</td>
-<td align="left" width="63%">
-Deletes the specified output pin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-impeg2demultiplexer-setoutputpinmediatype">SetOutputPinMediaType</a>
-</td>
-<td align="left" width="63%">
-Updates the media type of the specified output pin. (DirectX® 9.0 and later.)
-
-</td>
-</tr>
-</table>

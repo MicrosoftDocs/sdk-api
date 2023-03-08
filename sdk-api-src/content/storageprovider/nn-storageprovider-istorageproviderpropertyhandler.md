@@ -54,38 +54,7 @@ Provides a collection of properties associated with a file or folder.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStorageProviderPropertyHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStorageProviderPropertyHandler</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IStorageProviderPropertyHandler</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/storageprovider/nf-storageprovider-istorageproviderpropertyhandler-retrieveproperties">RetrieveProperties</a>
-</td>
-<td align="left" width="63%">
-Gets the properties managed by the sync engine.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/shell/istorageproviderpropertyhandler-saveproperties">SaveProperties</a>
-</td>
-<td align="left" width="63%">
-Saves properties associated with a file or folder.
-
-</td>
-</tr>
-</table>
+The <b>IStorageProviderPropertyHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStorageProviderPropertyHandler</b> also has these types of members:
 
 ## -remarks
 

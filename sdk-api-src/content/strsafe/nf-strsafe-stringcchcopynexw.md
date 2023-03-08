@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchCopyNExW
 title: StringCchCopyNExW function (strsafe.h)
-description: Copies the specified number of characters from one string to another.
-helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchCopyNEx","StringCchCopyNEx function [Menus and Other Resources]","StringCchCopyNExA","StringCchCopyNExW","_shell_StringCchCopyNEx","_shell_stringcchcopynex_cpp","menurc.stringcchcopynex","strsafe/StringCchCopyNEx","strsafe/StringCchCopyNExA","strsafe/StringCchCopyNExW","winui._shell_stringcchcopynex"]
+description: Copies the specified number of characters from one string to another. (StringCchCopyNExW)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCchCopyNEx", "StringCchCopyNEx function [Menus and Other Resources]", "StringCchCopyNExW", "_shell_StringCchCopyNEx", "_shell_stringcchcopynex_cpp", "menurc.stringcchcopynex", "strsafe/StringCchCopyNEx", "strsafe/StringCchCopyNExW", "winui._shell_stringcchcopynex"]
 old-location: menurc\stringcchcopynex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopynex.htm
@@ -79,7 +79,7 @@ The size of <i>pszDest</i>, in characters. This value must be at least large eno
 
 Type: <b>LPCTSTR</b>
 
-The source string. TThis string must be readable up to <i>cchSrc</i> characters or a null terminator, whichever comes first.
+The source string. This string must be readable up to <i>cchSrc</i> characters or a null terminator, whichever comes first.
 
 ### -param cchToCopy [in]
 
@@ -218,7 +218,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-<b>StringCchCopyNEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCopyNEx</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
+<b>StringCchCopyNEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCopyNEx</b> always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
 While this routine is meant as a replacement for <a href="/previous-versions/visualstudio/visual-studio-2010/xdsywd25(v=vs.100)">strncpy</a>, there are differences in behavior. If <i>cchSrc</i> is larger than the number of characters in <i>pszSrc</i>, <b>StringCchCopyNEx</b>—unlike <b>strncpy</b>—does not continue to pad <i>pszDest</i> with null characters until <i>cchSrc</i> characters have been copied.
 

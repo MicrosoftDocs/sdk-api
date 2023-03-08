@@ -54,9 +54,7 @@ api_name:
 
 ## -description
 
-The <b>VSS_MGMT_OBJECT_PROP</b> structure 
-    defines the properties of a volume, shadow copy storage volume, or a shadow copy storage 
-    area.
+The <b>VSS_MGMT_OBJECT_PROP</b> structure defines the properties of a volume, shadow copy storage volume, or a shadow copy storage area.
 
 ## -struct-fields
 
@@ -66,15 +64,9 @@ Object type. For more information, see <a href="/windows/desktop/api/vsmgmt/ne-v
 
 ### -field Obj
 
-Management object properties: a union of 
+Management object properties: a union of <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_volume_prop">VSS_VOLUME_PROP</a>, <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_diff_volume_prop">VSS_DIFF_VOLUME_PROP</a>, and <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_diff_area_prop">VSS_DIFF_AREA_PROP</a> structures. (For more information, see <a href="/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a>.)
 
-       <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_volume_prop">VSS_VOLUME_PROP</a>, 
-       <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_diff_volume_prop">VSS_DIFF_VOLUME_PROP</a>, and  
-       <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_diff_area_prop">VSS_DIFF_AREA_PROP</a> structures. (For more information, see 
-       <a href="/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a>.)
-
-It contains information for an object of the type specified by the <b>Type</b> member. 
-       Management objects can be volumes, shadow copy storage volumes, or shadow copy storage areas.
+It contains information for an object of the type specified by the <b>Type</b> member. Management objects can be volumes, shadow copy storage volumes, or shadow copy storage areas.
 
 ## -see-also
 

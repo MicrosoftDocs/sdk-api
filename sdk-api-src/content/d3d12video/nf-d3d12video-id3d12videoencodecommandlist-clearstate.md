@@ -2,9 +2,8 @@
 UID: NF:d3d12video.ID3D12VideoEncodeCommandList.ClearState
 title: ID3D12VideoEncodeCommandList::ClearState
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
-description: Resets the state of a direct command list back to the state it was in when the command list was created.
+description: Resets the state of a direct command list back to the state it was in when the command list was created. (ID3D12VideoEncodeCommandList::ClearState)
 tech.root: mf
 req.assembly: 
 req.construct-type: function
@@ -43,6 +42,8 @@ dev_langs:
 ## -description
 
 Resets the state of a direct command list back to the state it was in when the command list was created.
+
+
 
 ## -remarks
 

@@ -55,29 +55,7 @@ This interface performs all the same functions as the existing <a href="/windows
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1CommandSink3</b> interface inherits from <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1commandsink2">ID2D1CommandSink2</a>. <b>ID2D1CommandSink3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1CommandSink3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1commandsink3-drawspritebatch">DrawSpriteBatch</a>
-</td>
-<td align="left" width="63%">
-Renders part or all of the given sprite batch to the device context using the specified drawing options.
-
-</td>
-</tr>
-</table>
+The <b>ID2D1CommandSink3</b> interface inherits from <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1commandsink2">ID2D1CommandSink2</a>. <b>ID2D1CommandSink3</b> also has these types of members:
 
 ## -see-also
 

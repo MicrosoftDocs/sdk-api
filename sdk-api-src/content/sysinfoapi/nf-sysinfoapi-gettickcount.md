@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - GetTickCount
  - sysinfoapi/GetTickCount
@@ -60,7 +60,7 @@ api_name:
 
 Retrieves the number of milliseconds that have elapsed since the system was started, up to 49.7 days.
 
-## -parameters
+
 
 ## -returns
 
@@ -84,6 +84,23 @@ To obtain the time the system has spent in the working state since it was starte
 
 <div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a> function produces different results on debug ("checked") builds of Windows, because the interrupt-time count and tick count are advanced by approximately 49 days. This helps to identify bugs that might not occur until the system has been running for a long time. The checked build is available to MSDN subscribers through the <a href="https://msdn.microsoft.com/default.aspx">Microsoft Developer Network (MSDN)</a> Web site.</div>
 <div> </div>
+
+## Examples
+
+```cpp
+// calculate a 't' value that will linearly interpolate from 0 to 1 and back every 20 seconds
+DWORD currentTime = GetTickCount();
+if ( m_startTime == 0 )
+{
+    m_startTime = currentTime;
+}
+float t = 2 * (( currentTime - m_startTime) % 20000) / 20000.0f;
+if (t > 1.0f)
+{
+    t = 2 - t;
+}
+```
+
 
 ## -see-also
 

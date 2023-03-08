@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateUInt64Array
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateUInt64Array (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified array of unsigned 64-bit integer values.
 helpviewer_keywords: ["CreateUInt64Array","CreateUInt64Array method [Windows Runtime]","CreateUInt64Array method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateUInt64Array method","IPropertyValueStatics.CreateUInt64Array","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateUInt64Array","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateUInt64Array","winrt.ipropertyvaluefactory_createuint64array","winrt.ipropertyvaluestatics_createuint64array"]
 old-location: winrt\ipropertyvaluestatics_createuint64array.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateUInt64Array
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateUInt64Array (windows.foundation.h)
 
 
 ## -description
@@ -76,7 +76,7 @@ A pointer to a new object that contains <i>value</i>. Use the <a href="/windows/
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

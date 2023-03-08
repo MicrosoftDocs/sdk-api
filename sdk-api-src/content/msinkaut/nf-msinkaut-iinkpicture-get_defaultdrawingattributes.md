@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_DefaultDrawingAttributes
 title: IInkPicture::get_DefaultDrawingAttributes (msinkaut.h)
-description: Gets or sets the default drawing attributes to use when drawing and displaying ink.
+description: Gets or sets the default drawing attributes to use when drawing and displaying ink. (IInkPicture.get_DefaultDrawingAttributes)
 helpviewer_keywords: ["DefaultDrawingAttributes property [Tablet PC]","DefaultDrawingAttributes property [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","DefaultDrawingAttributes property","IInkPicture.DefaultDrawingAttributes","IInkPicture.get_DefaultDrawingAttributes","IInkPicture::DefaultDrawingAttributes","IInkPicture::get_DefaultDrawingAttributes","IInkPicture::put_DefaultDrawingAttributes","InkPicture.get_DefaultDrawingAttributes","InkPicture.put_DefaultDrawingAttributes","get_DefaultDrawingAttributes","msinkaut/IInkPicture::DefaultDrawingAttributes","msinkaut/IInkPicture::get_DefaultDrawingAttributes","msinkaut/IInkPicture::put_DefaultDrawingAttributes","putref_DefaultDrawingAttributes","tablet.inkpicture_defaultdrawingattributes"]
 old-location: tablet\inkpicture_defaultdrawingattributes.htm
 tech.root: tablet
@@ -113,7 +113,7 @@ To change the drawing attributes of a single stroke, use the <a href="/windows/d
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

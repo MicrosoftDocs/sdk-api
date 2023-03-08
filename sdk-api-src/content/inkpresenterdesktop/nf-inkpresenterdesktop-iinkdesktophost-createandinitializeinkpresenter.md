@@ -88,8 +88,6 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 
 
-<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
-
 
 
 <a href="/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
@@ -97,6 +95,8 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 
 <b>Samples</b>
+
+<a href="https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex Ink sample</a>
 
 
 

@@ -74,4 +74,4 @@ This method is on the device interface as opposed to command list on the assumpt
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847457(v=VS.85).aspx">ID3D12Device5</a>
+<a href="../d3d12/nn-d3d12-id3d12device5.md">ID3D12Device5</a>

@@ -57,47 +57,10 @@ The <b>IMSVidAnalogTuner2</b> interface represents an analog-only tuner card tha
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidAnalogTuner2</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidanalogtuner">IMSVidAnalogTuner</a>. <b>IMSVidAnalogTuner2</b> also has these types of members:
+The <b>IMSVidAnalogTuner2</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidanalogtuner">IMSVidAnalogTuner</a>. <b>IMSVidAnalogTuner2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidAnalogTuner2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidanalogtuner2-get_numauxinputs">get_NumAuxInputs</a>
-</td>
-<td align="left" width="63%">
-The number of auxiliary inputs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidanalogtuner2-get_tunermodes">get_TunerModes</a>
-</td>
-<td align="left" width="63%">
-Which tuner modes the tuner supports.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidanalogtuner2-get_tvformats">get_TVFormats</a>
-</td>
-<td align="left" width="63%">
-Which TV formats the tuner supports.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

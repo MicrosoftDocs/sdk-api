@@ -141,7 +141,7 @@ An exception occurred inside the method.
 </dl>
 </td>
 <td width="60%">
-The <i>strokes</i>parameter does not point to a compatible <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+The <i>strokes</i> parameter does not point to a compatible <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 </td>
 </tr>

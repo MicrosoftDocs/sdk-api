@@ -54,38 +54,7 @@ Handles the list of alternative word forms that stemmers generate during query t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWordFormSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWordFormSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWordFormSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/search/iwordformsink-putphrase">PutAltWord</a>
-</td>
-<td align="left" width="63%">
-Puts an alternative form of a word in the <b>IWordFormSink</b> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/search/iwordformsink-putword">PutWord</a>
-</td>
-<td align="left" width="63%">
-Puts the original word form in the <b>IWordFormSink</b> object.
-
-</td>
-</tr>
-</table>
+The <b>IWordFormSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWordFormSink</b> also has these types of members:
 
 ## -remarks
 

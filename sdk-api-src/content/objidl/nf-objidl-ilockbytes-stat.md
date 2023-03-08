@@ -72,6 +72,15 @@ Specifies whether this method should supply the <b>pwcsName</b> member of the
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The STATSTG structure was successfully returned at the specified location.|
+|E_OUTOFMEMORY| The STATSTG structure was not returned due to a lack of memory for the name member in the structure.|
+|STG_E_ACCESSDENIED | The STATSTG structure was not returned because the caller did not have access to the byte array.|
+|STG_E_INSUFFICIENTMEMORY | The STATSTG structure was not returned, due to insufficient memory.|
+|STG_E_INVALIDFLAG | The value for the grfStateFlag parameter is not valid.|
+|STG_E_INVALIDPOINTER | The value for the pStatStg parameter is not valid.|
+
 ## -remarks
 
 <b>ILockBytes::Stat</b> should supply information about the byte array object in a 

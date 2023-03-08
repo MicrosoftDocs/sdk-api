@@ -68,7 +68,8 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 There is no default active disc recorder. An application using this method must specifically select both an active mastering format and an active disc recorder before initiating a burn.
 
-<div class="alert"><b>Note</b>  The active disc recorder can be invalidated by removing the device or changing the active disc mastering format. For example, a USB CD-R device may be disconnected from the machine while the application is still running (the application is alerted to this condition by a call to 
+> [!NOTE]
+> The active disc recorder can be invalidated by removing the device or changing the active disc mastering format. For example, a USB CD-R device may be disconnected from the machine while the application is still running (the application is alerted to this condition by a call to 
 <a href="/windows/desktop/api/imapi/nf-imapi-idiscmasterprogressevents-notifypnpactivity">IDiscMasterProgressEvents::NotifyPnPActivity</a>). In either case, you must select a new active disc recorder.</div>
 <div> </div>
 

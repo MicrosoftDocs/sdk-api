@@ -93,7 +93,7 @@ Invalid argument.
 
 ## -remarks
 
-Call this method after the TIF's intput pin has been disconnected from the Demux.
+Call this method after the TIF's input pin has been disconnected from the Demux.
 
 ## -see-also
 

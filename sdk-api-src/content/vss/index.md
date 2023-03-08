@@ -4,7 +4,7 @@ title: Vss.h header
 ms.assetid: ab0c50e8-4992-3261-b44a-57673eed077d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: base
 f1_keywords:
  - vss

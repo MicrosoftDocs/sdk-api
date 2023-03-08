@@ -67,7 +67,7 @@ A pointer to a
 
 Any needed flag values.
 
-### -param *ppProvCtlContext [out]
+### -param ppProvCtlContext [out]
 
 A pointer to a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure to be returned by the function. The context will be freed by calling <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>.
 

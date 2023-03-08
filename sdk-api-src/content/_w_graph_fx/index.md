@@ -4,7 +4,7 @@ title: W_Graph_Fx
 ms.assetid: 8ccd4219-bf54-3d2f-b880-e7978eed6811
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # W_Graph_Fx

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathIsRootA
 title: PathIsRootA function (shlwapi.h)
-description: Determines whether a path string refers to the root of a volume.
-helpviewer_keywords: ["PathIsRoot","PathIsRoot function [Windows Shell]","PathIsRootA","PathIsRootW","_win32_PathIsRoot","shell.PathIsRoot","shlwapi/PathIsRoot","shlwapi/PathIsRootA","shlwapi/PathIsRootW"]
+description: Determines whether a path string refers to the root of a volume. (ANSI)
+helpviewer_keywords: ["PathIsRootA", "shlwapi/PathIsRootA"]
 old-location: shell\PathIsRoot.htm
 tech.root: shell
 ms.assetid: 8586df98-91c4-49a6-9b07-7dceb8a63431

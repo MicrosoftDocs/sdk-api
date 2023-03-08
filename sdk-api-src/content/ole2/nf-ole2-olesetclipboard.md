@@ -47,6 +47,7 @@ api_location:
  - API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
 api_name:
  - OleSetClipboard
+req.apiset: ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.15063)
 ---
 
 # OleSetClipboard function

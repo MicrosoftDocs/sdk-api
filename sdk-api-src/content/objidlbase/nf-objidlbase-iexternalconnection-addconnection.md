@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IExternalConnection.AddConnection
 title: IExternalConnection::AddConnection (objidlbase.h)
-description: Increments the count of an object's strong external connections.
+description: The IExternalConnection::AddConnection (objidlbase.h) method increments the count of an object's strong external connections.
 helpviewer_keywords: ["AddConnection","AddConnection method [COM]","AddConnection method [COM]","IExternalConnection interface","IExternalConnection interface [COM]","AddConnection method","IExternalConnection.AddConnection","IExternalConnection::AddConnection","_com_iexternalconnection_addconnection","com.iexternalconnection_addconnection","objidlbase/IExternalConnection::AddConnection"]
 old-location: com\iexternalconnection_addconnection.htm
 tech.root: com
 ms.assetid: 7439cb16-1da3-4fab-a16d-519f9ce1053a
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: AddConnection, AddConnection method [COM], AddConnection method [COM],IExternalConnection interface, IExternalConnection interface [COM],AddConnection method, IExternalConnection.AddConnection, IExternalConnection::AddConnection, _com_iexternalconnection_addconnection, com.iexternalconnection_addconnection, objidlbase/IExternalConnection::AddConnection
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
@@ -74,11 +74,15 @@ DLL object applications exist in the same process space as their objects, so the
 
 The following is a typical implementation for the <b>AddConnection</b> method.
 
-<pre class="syntax" xml:space="preserve"><code>DWORD MyInterface::AddConnection(DWORD extconn, DWORD dwReserved)
+
+``` syntax
+DWORD MyInterface::AddConnection(DWORD extconn, DWORD dwReserved)
 {
     return extconn &amp; EXTCONN_STRONG ? ++m_cStrong : 0;
 }
-</code></pre>
+
+```
+
 
 ## -see-also
 

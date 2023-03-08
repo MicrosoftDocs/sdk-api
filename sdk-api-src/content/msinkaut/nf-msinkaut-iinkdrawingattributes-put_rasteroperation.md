@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.put_RasterOperation
 title: IInkDrawingAttributes::put_RasterOperation (msinkaut.h)
-description: Gets or sets a value that defines how the colors of the pen and background interact.
+description: Gets or sets a value that defines how the colors of the pen and background interact. (Put)
 helpviewer_keywords: ["8e3681a7-c5be-4104-b740-9f23d141f6cb","IInkDrawingAttributes interface [Tablet PC]","RasterOperation property","IInkDrawingAttributes.RasterOperation","IInkDrawingAttributes.put_RasterOperation","IInkDrawingAttributes::RasterOperation","IInkDrawingAttributes::get_RasterOperation","IInkDrawingAttributes::put_RasterOperation","InkDrawingAttributes.get_RasterOperation","InkDrawingAttributes.put_RasterOperation","RasterOperation property [Tablet PC]","RasterOperation property [Tablet PC]","IInkDrawingAttributes interface","get_RasterOperation","msinkaut/IInkDrawingAttributes::RasterOperation","msinkaut/IInkDrawingAttributes::get_RasterOperation","msinkaut/IInkDrawingAttributes::put_RasterOperation","put_RasterOperation","tablet.inkdrawingattributes_rasteroperation"]
 old-location: tablet\inkdrawingattributes_rasteroperation.htm
 tech.root: tablet
@@ -75,7 +75,7 @@ When the <b>RasterOperation</b> property is set to anything other than <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
+<a href="../msinkaut/nn-msinkaut-iinkdrawingattributes.md">IInkDrawingAttributes</a>
 
 
 

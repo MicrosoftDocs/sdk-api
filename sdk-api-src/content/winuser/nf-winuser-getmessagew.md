@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetMessageW
 title: GetMessageW function (winuser.h)
-description: Retrieves a message from the calling thread's message queue. The function dispatches incoming sent messages until a posted message is available for retrieval.
-helpviewer_keywords: ["GetMessage","GetMessage function [Windows and Messages]","GetMessageA","GetMessageW","_win32_GetMessage","_win32_getmessage_cpp","winmsg.getmessage","winui._win32_getmessage","winuser/GetMessage","winuser/GetMessageA","winuser/GetMessageW"]
+description: Retrieves a message from the calling thread's message queue. The function dispatches incoming sent messages until a posted message is available for retrieval. (GetMessageW)
+helpviewer_keywords: ["GetMessage", "GetMessage function [Windows and Messages]", "GetMessageW", "_win32_GetMessage", "_win32_getmessage_cpp", "winmsg.getmessage", "winui._win32_getmessage", "winuser/GetMessage", "winuser/GetMessageW"]
 old-location: winmsg\getmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getmessage.htm
@@ -54,6 +54,7 @@ api_name:
  - GetMessage
  - GetMessageA
  - GetMessageW
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetMessageW function

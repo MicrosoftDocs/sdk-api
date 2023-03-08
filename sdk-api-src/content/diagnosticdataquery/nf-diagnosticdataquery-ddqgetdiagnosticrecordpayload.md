@@ -3,12 +3,10 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordPayload
 title: DdqGetDiagnosticRecordPayload
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordPayload
-ms.topic: language-reference
 description: Fetches the payload text for the event record specified by rowId.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,7 +29,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:

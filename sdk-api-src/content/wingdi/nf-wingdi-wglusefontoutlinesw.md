@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.wglUseFontOutlinesW
 title: wglUseFontOutlinesW function (wingdi.h)
-description: The wglUseFontOutlines function creates a set of display lists, one for each glyph of the currently selected outline font of a device context, for use with the current rendering context.
-helpviewer_keywords: ["_ogl_wglUseFontOutlines","opengl.wglusefontoutlines","wglUseFontOutlines","wglUseFontOutlines function [OpenGL]","wglUseFontOutlinesA","wglUseFontOutlinesW","wingdi/wglUseFontOutlines","wingdi/wglUseFontOutlinesA","wingdi/wglUseFontOutlinesW"]
+description: The wglUseFontOutlines function creates a set of display lists, one for each glyph of the currently selected outline font of a device context, for use with the current rendering context. (Unicode)
+helpviewer_keywords: ["_ogl_wglUseFontOutlines", "opengl.wglusefontoutlines", "wglUseFontOutlines", "wglUseFontOutlines function [OpenGL]", "wglUseFontOutlinesW", "wingdi/wglUseFontOutlines", "wingdi/wglUseFontOutlinesW"]
 old-location: opengl\wglusefontoutlines.htm
 tech.root: OpenGL
 ms.assetid: 08a86563-c6ca-4efb-9096-bc487fc5037c
@@ -60,35 +60,35 @@ Thelpgmfparameter returns a <a href="/windows/desktop/api/wingdi/ns-wingdi-glyph
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Specifies the device context with the desired outline font. The outline font of <i>hdc</i> is used to create the display lists in the current rendering context.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the first of the set of glyphs that form the font outline display lists.
 
-### -param arg3
+### -param unnamedParam3
 
 Specifies the number of glyphs in the set of glyphs used to form the font outline display lists. The <b>wglUseFontOutlines</b> function creates <i>count</i> display lists, one display list for each glyph in a set of glyphs.
 
-### -param arg4
+### -param unnamedParam4
 
 Specifies a starting display list.
 
-### -param arg5
+### -param unnamedParam5
 
 Specifies the maximum chordal deviation from the original outlines. When deviation is zero, the chordal deviation is equivalent to one design unit of the original font. The value of <i>deviation</i> must be equal to or greater than 0.
 
-### -param arg6
+### -param unnamedParam6
 
 Specifies how much a font is extruded in the negative <i>z</i> direction. The value must be equal to or greater than 0. When <i>extrusion</i> is 0, the display lists are not extruded.
 
-### -param arg7
+### -param unnamedParam7
 
 Specifies the format, either WGL_FONT_LINES or WGL_FONT_POLYGONS, to use in the display lists. When <i>format</i> is WGL_FONT_LINES, the <b>wglUseFontOutlines</b> function creates fonts with line segments. When <i>format</i> is WGL_FONT_POLYGONS, <b>wglUseFontOutlines</b> creates fonts with polygons.
 
-### -param arg8
+### -param unnamedParam8
 
 Points to an array of <i>count</i><a href="/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat">GLYPHMETRICSFLOAT</a> structures that is to receive the metrics of the glyphs. When <i>lpgmf</i> is <b>NULL</b>, no glyph metrics are returned.
 

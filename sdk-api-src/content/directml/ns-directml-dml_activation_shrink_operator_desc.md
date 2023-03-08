@@ -1,9 +1,9 @@
 ---
 UID: NS:directml.DML_ACTIVATION_SHRINK_OPERATOR_DESC
 title: DML_ACTIVATION_SHRINK_OPERATOR_DESC
-description: Describes a DirectML operator that performs an elementwise shrink activation function on the input.
+description: Performs the shrink activation function on every element in *InputTensor*, placing the result into the corresponding element of *OutputTensor*.
 tech.root: directml
-ms.date: 01/24/2020
+ms.date: 12/01/2022
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -38,18 +38,15 @@ dev_langs:
 
 ## -description
 
-Describes a DirectML operator that performs an elementwise shrink activation function on the input.
+Performs the shrink activation function on every element in *InputTensor*, placing the result into the corresponding element of *OutputTensor*.
 
 ```
-For each x in InputTensor
-    if (x < -threshold)
-        x = x + bias
-    else if (x > threshold)
-        x = x - bias
-    else x = 0
+f(x) = x - Bias, if x > Threshold
+       x + Bias, if x < -Threshold
+       0,        otherwise
 ```
 
-Shrink has no relation to slice, nor resize, despite the naming similarity. It actually 'shrinks' per-element values. And it doesn't always shrink; but can instead grow, depending on the bias sign.
+This operator supports in-place execution, meaning that the output tensor is permitted to alias *InputTensor* during binding.
 
 ## -struct-fields
 
@@ -57,26 +54,51 @@ Shrink has no relation to slice, nor resize, despite the naming similarity. It a
 
 Type: **const [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md)\***
 
-A pointer to a constant [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md) containing the description of the tensor to read from.
+The input tensor to read from.
 
 ### -field OutputTensor
 
 Type: **const [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md)\***
 
-A pointer to a constant [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md) containing the description of the tensor to write the results to.
+The output tensor to write the results to.
 
 ### -field Bias
 
 Type: **[FLOAT](/windows/desktop/WinProg/windows-data-types)**
 
-The value of bias. You can use a default value of 1.0.
+The value of the bias. A typical default for this value is 0.0.
 
 ### -field Threshold
 
 Type: **[FLOAT](/windows/desktop/WinProg/windows-data-types)**
 
-The value of threshold.
+The value of the threshold. A typical default for this value is 0.5.
 
 ## -remarks
+
+## Availability
+This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
+
+## Tensor constraints
+*InputTensor* and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
+
+## Tensor support
+### DML_FEATURE_LEVEL_5_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+
+### DML_FEATURE_LEVEL_3_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16 |
+
+### DML_FEATURE_LEVEL_2_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 to 5 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 4 to 5 | FLOAT32, FLOAT16 |
 
 ## -see-also

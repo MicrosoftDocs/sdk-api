@@ -54,7 +54,7 @@ Specifies support for overlay color space.
 
 ## -enum-fields
 
-### -field DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG_PRESENT
+### -field DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG_PRESENT:0x1
 
 Overlay color space support is present.
 

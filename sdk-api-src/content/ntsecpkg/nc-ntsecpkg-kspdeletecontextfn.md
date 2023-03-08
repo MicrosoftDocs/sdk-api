@@ -54,13 +54,11 @@ Deletes a <a href="/windows/desktop/SecGloss/s-gly">security context</a>.
 
 ## -parameters
 
-### -param ContextId
-
-### -param LsaContextId
-
-#### - ContextHandle [in]
+### -param ContextId [in]
 
 A handle to the security context to delete.
+
+### -param LsaContextId
 
 ## -returns
 

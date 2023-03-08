@@ -4,7 +4,7 @@ title: Stringapiset.h header
 ms.assetid: b0a163cd-d95c-3cca-b637-b21e2c1741bc
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: intl
 f1_keywords:
  - stringapiset

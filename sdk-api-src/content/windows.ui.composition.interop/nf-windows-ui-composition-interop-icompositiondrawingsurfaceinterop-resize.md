@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop.Resize
-title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.interop.h)
+title: ICompositionDrawingSurfaceInterop::Resize (windows.ui.composition.interop.h)
 description: Changes the size of the surface.
 helpviewer_keywords: ["ICompositionDrawingSurfaceInterop interface","Resize method","ICompositionDrawingSurfaceInterop.Resize","ICompositionDrawingSurfaceInterop.composition","ICompositionDrawingSurfaceInterop::Resize","ICompositionDrawingSurfaceInterop::composition","Resize","Resize method","Resize method","ICompositionDrawingSurfaceInterop interface","w_ui_comp.icompositiondrawingsurfaceinterop_resize","windows/ICompositionDrawingSurfaceInterop::Resize"]
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_resize.htm
@@ -45,7 +45,7 @@ api_name:
  - ICompositionDrawingSurfaceInterop.Resize
 ---
 
-# ICompositionDrawingSurfaceInterop::composition
+# ICompositionDrawingSurfaceInterop::Resize (windows.ui.composition.interop.h)
 
 
 ## -description

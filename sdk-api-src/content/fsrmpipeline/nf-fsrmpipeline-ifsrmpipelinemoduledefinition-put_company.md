@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Company
 title: IFsrmPipelineModuleDefinition::put_Company (fsrmpipeline.h)
-description: The name of the company that created the classification or storage module.
+description: The name of the company that created the classification or storage module. (Put)
 helpviewer_keywords: ["Company property [File Server Resource Manager]","Company property [File Server Resource Manager]","IFsrmPipelineModuleDefinition interface","IFsrmPipelineModuleDefinition interface [File Server Resource Manager]","Company property","IFsrmPipelineModuleDefinition.Company","IFsrmPipelineModuleDefinition.put_Company","IFsrmPipelineModuleDefinition::Company","IFsrmPipelineModuleDefinition::get_Company","IFsrmPipelineModuleDefinition::put_Company","fs.ifsrmpipelinemoduledefinition_company","fsrm.ifsrmpipelinemoduledefinition_company","fsrmpipeline/IFsrmPipelineModuleDefinition::Company","fsrmpipeline/IFsrmPipelineModuleDefinition::get_Company","fsrmpipeline/IFsrmPipelineModuleDefinition::put_Company","put_Company"]
 old-location: fsrm\ifsrmpipelinemoduledefinition_company.htm
 tech.root: fsrm

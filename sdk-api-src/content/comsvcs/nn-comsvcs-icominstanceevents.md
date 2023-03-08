@@ -54,38 +54,7 @@ Notifies the subscriber of an object's creation or release. The events are publi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComInstanceEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComInstanceEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IComInstanceEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icominstanceevents-onobjectcreate">OnObjectCreate</a>
-</td>
-<td align="left" width="63%">
-Generated when an object is created by a client.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icominstanceevents-onobjectdestroy">OnObjectDestroy</a>
-</td>
-<td align="left" width="63%">
-Generated when an object is released by a client.
-
-</td>
-</tr>
-</table>
+The <b>IComInstanceEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComInstanceEvents</b> also has these types of members:
 
 ## -see-also
 

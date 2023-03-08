@@ -2,9 +2,8 @@
 UID: NF:sspi.SspiAcquireCredentialsHandleAsyncA
 title: SspiAcquireCredentialsHandleAsyncA function
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
-description: Asynchronously acquires a handle to preexisting credentials of a security principal.
+description: Asynchronously acquires a handle to preexisting credentials of a security principal. (ANSI)
 tech.root: security
 req.assembly: 
 req.construct-type: function
@@ -28,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - sspi.h
 api_name:
@@ -74,7 +72,7 @@ See [AcquireCredentialsHandleA: pszPackage](/windows/win32/secauthn/acquirecrede
 
 A flag that indicates how these credentials will be used. This parameter can be one of the following values:
 
-|<div style="width:40%">Value</div>|<div style="width:60%">Meaning</div>|
+|<div>Value</div>|<div>Meaning</div>|
 |---|---|
 | **SECPKG_CRED_INBOUND** | Validate an incoming server credential. Inbound credentials might be validated by using an authenticating authority when [SspiInitializeSecurityContextAsync](nf-sspi-sspiinitializesecuritycontextasynca.md) or [SspiAcceptSecurityContextAsync](nf-sspi-sspiacceptsecuritycontextasync.md) is called. If such an authority is not available, the function will fail and return **SEC_E_NO_AUTHENTICATING_AUTHORITY**. Validation is package specific.|
 | **SECPKG_CRED_OUTBOUND** | Allow a local client credential to prepare an outgoing token.|
@@ -109,7 +107,7 @@ Returns **SEC_E_OK** if the async request to acquire a credential handle was suc
 
 If the handle was acquired, SspiGetAsyncCallStatus returns **SEC_E_OK**. Otherwise, it may return *SEC_I_ASYNC_CALL_PENDING* if the call is still in progress, or any of the following fatal error codes in the table below.
 
-|<div style="width:40%">Return code</div>|<div style="width:60%">Description</div>|
+|<div>Return code</div>|<div>Description</div>|
 |---|---|
 | **SEC_E_INSUFFICIENT_MEMORY** | There is insufficient memory available to complete the requested action. |
 | **SEC_E_INTERNAL_ERROR** | An error occurred that did not map to an SSPI error code. |

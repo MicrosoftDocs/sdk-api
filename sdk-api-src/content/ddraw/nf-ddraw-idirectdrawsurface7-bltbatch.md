@@ -54,15 +54,15 @@ The <b>IDirectDrawSurface7::BltBatch</b> method is not currently implemented.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to the first <a href="/windows/desktop/api/ddraw/ns-ddraw-ddbltbatch">DDBLTBATCH</a> structure that defines the parameters for the bitblt operations.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Number of bitblt operations to be performed.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Currently not used and must be set to 0.
 
@@ -96,7 +96,7 @@ If it fails, the method can return one of the following error values:
 
 ## -remarks
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>BltBatch</b> method.
+
 
 ## -see-also
 

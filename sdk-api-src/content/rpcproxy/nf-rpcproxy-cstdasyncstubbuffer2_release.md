@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.CStdAsyncStubBuffer2_Release
 title: CStdAsyncStubBuffer2_Release function (rpcproxy.h)
-description: Implements the IRpcStubBuffer::Release method.
+description: Implements the IRpcStubBuffer::Release method. (CStdAsyncStubBuffer2_Release)
 helpviewer_keywords: ["CStdAsyncStubBuffer2_Release","CStdAsyncStubBuffer2_Release function [RPC]","rpc.cstdasyncstubbuffer2_release","rpcproxy/CStdAsyncStubBuffer2_Release"]
 old-location: rpc\cstdasyncstubbuffer2_release.htm
 tech.root: Rpc

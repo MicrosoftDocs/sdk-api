@@ -54,38 +54,10 @@ The <b>IMSVidClosedCaptioning2</b> interface sets the closed captioning service,
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidClosedCaptioning2</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidclosedcaptioning">IMSVidClosedCaptioning</a>. <b>IMSVidClosedCaptioning2</b> also has these types of members:
+The <b>IMSVidClosedCaptioning2</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidclosedcaptioning">IMSVidClosedCaptioning</a>. <b>IMSVidClosedCaptioning2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidClosedCaptioning2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidclosedcaptioning2-get_service">get_Service</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current closed captioning service.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidclosedcaptioning2-put_service">put_Service</a>
-</td>
-<td align="left" width="63%">
-Sets the closed captioning service.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

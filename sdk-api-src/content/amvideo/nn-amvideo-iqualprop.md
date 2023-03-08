@@ -57,74 +57,10 @@ Applications can use this interface to retrieve video performance information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQualProp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQualProp</b> also has these types of members:
+The <b>IQualProp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQualProp</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IQualProp</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_avgframerate">get_AvgFrameRate</a>
-</td>
-<td align="left" width="63%">
-Retrieves the average frame rate achieved.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_avgsyncoffset">get_AvgSyncOffset</a>
-</td>
-<td align="left" width="63%">
-Retrieves the average time difference between when a frame was due for rendering and when rendering actually began (this is returned as a value in milliseconds).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_devsyncoffset">get_DevSyncOffset</a>
-</td>
-<td align="left" width="63%">
-Retrieves the average time difference between when a frame was due for rendering and when rendering actually began (this is returned as a standard deviation).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_framesdrawn">get_FramesDrawn</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of frames drawn since streaming started.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_framesdroppedinrenderer">get_FramesDroppedInRenderer</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of frames dropped by the renderer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_jitter">get_Jitter</a>
-</td>
-<td align="left" width="63%">
-Gets the jitter (variation in time) between successive frames delivered to the video renderer
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DResource9.GetPrivateData
 title: IDirect3DResource9::GetPrivateData (d3d9helper.h)
-description: Copies the private data associated with the resource to a provided buffer.
+description: The IDirect3DResource9::GetPrivateData method (d3d9helper.h) copies the private data associated with the resource to a provided buffer.
 helpviewer_keywords: ["GetPrivateData","GetPrivateData method [Direct3D 9]","GetPrivateData method [Direct3D 9]","IDirect3DResource9 interface","IDirect3DResource9 interface [Direct3D 9]","GetPrivateData method","IDirect3DResource9.GetPrivateData","IDirect3DResource9::GetPrivateData","a3ce4b5e-f58e-cf26-2ef5-896eaf4a5613","d3d9helper/IDirect3DResource9::GetPrivateData","direct3d9.idirect3dresource9__getprivatedata"]
 old-location: direct3d9\idirect3dresource9__getprivatedata.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__getprivatedata.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: GetPrivateData, GetPrivateData method [Direct3D 9], GetPrivateData method [Direct3D 9],IDirect3DResource9 interface, IDirect3DResource9 interface [Direct3D 9],GetPrivateData method, IDirect3DResource9.GetPrivateData, IDirect3DResource9::GetPrivateData, a3ce4b5e-f58e-cf26-2ef5-896eaf4a5613, d3d9helper/IDirect3DResource9::GetPrivateData, direct3d9.idirect3dresource9__getprivatedata
 req.header: d3d9helper.h
 req.include-header: D3D9.h
@@ -71,8 +71,7 @@ Pointer to a previously allocated buffer to fill with the requested private data
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
-Pointer to the size of the buffer at 
-    pData, in bytes. If this value is less than the actual size of the private data (such as 0), the method sets this parameter to the required buffer size and the method returns D3DERR_MOREDATA.
+Pointer to the size of the buffer at pData, in bytes. If this value is less than the actual size of the private data (such as 0), the method sets this parameter to the required buffer size and the method returns D3DERR_MOREDATA.
 
 ## -returns
 
@@ -84,19 +83,19 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 This method is inherited by the following interfaces: 
     
-    <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>, 
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>, 
     
-    <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>,
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dbasetexture9">IDirect3DBaseTexture9</a>,
     
-    <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9">IDirect3DCubeTexture9</a>, 
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9">IDirect3DCubeTexture9</a>, 
     
-    <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dtexture9">IDirect3DTexture9</a>, 
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dtexture9">IDirect3DTexture9</a>, 
     
-    <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvolumetexture9">IDirect3DVolumeTexture9</a>,
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvolumetexture9">IDirect3DVolumeTexture9</a>,
     
-    <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dindexbuffer9">IDirect3DIndexBuffer9</a>, 
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dindexbuffer9">IDirect3DIndexBuffer9</a>, 
     
-    <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9">IDirect3DVertexBuffer9</a>.
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9">IDirect3DVertexBuffer9</a>.
 
 ## -see-also
 

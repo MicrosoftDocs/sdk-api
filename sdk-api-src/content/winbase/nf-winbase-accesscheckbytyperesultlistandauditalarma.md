@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.AccessCheckByTypeResultListAndAuditAlarmA
 title: AccessCheckByTypeResultListAndAuditAlarmA function (winbase.h)
-description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread.
+description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread. (AccessCheckByTypeResultListAndAuditAlarmA)
 helpviewer_keywords: ["AccessCheckByTypeResultListAndAuditAlarm","AccessCheckByTypeResultListAndAuditAlarm function [Security]","AccessCheckByTypeResultListAndAuditAlarmA","AccessCheckByTypeResultListAndAuditAlarmW","_win32_accesscheckbytyperesultlistandauditalarm","security.accesscheckbytyperesultlistandauditalarm","winbase/AccessCheckByTypeResultListAndAuditAlarm","winbase/AccessCheckByTypeResultListAndAuditAlarmA","winbase/AccessCheckByTypeResultListAndAuditAlarmW"]
 old-location: security\accesscheckbytyperesultlistandauditalarm.htm
 tech.root: security

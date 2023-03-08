@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingBox.BoundingBox(BoundingBox&&)
 title: BoundingBox::BoundingBox(BoundingBox &&)
-description: Creates an instance of the BoundingBox class.
+description: Creates an instance of the BoundingBox class. (overload 2/4)
 helpviewer_keywords: ["BoundingBox","BoundingBox constructor [DirectX Math Support APIs]","BoundingBox constructor [DirectX Math Support APIs]","BoundingBox interface","BoundingBox interface [DirectX Math Support APIs]","BoundingBox constructor","BoundingBox.BoundingBox","BoundingBox.BoundingBox()","BoundingBox.BoundingBox(BoundingBox &&)","BoundingBox::BoundingBox","BoundingBox::BoundingBox(BoundingBox &&)","dxmath.boundingbox_ctor_3"]
 old-location: dxmath\boundingbox_ctor_3.htm
 tech.root: dxmath
@@ -54,7 +54,7 @@ Creates an instance of the <code>BoundingBox</code> class.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A **BoundingBox** object to copy.
 

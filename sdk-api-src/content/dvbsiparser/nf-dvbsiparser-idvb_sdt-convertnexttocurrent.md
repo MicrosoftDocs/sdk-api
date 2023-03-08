@@ -57,7 +57,7 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>ConvertNextToCurrent</b> method converts a <i>next</i> table to a <i>current</i> table.
 
-## -parameters
+
 
 ## -returns
 

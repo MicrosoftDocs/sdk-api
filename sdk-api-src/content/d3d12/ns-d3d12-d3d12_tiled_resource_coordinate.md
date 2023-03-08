@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_TILED_RESOURCE_COORDINATE
 title: D3D12_TILED_RESOURCE_COORDINATE (d3d12.h)
-description: Describes the coordinates of a tiled resource.
+description: Describes the coordinates of a tiled resource. (D3D12_TILED_RESOURCE_COORDINATE)
 helpviewer_keywords: ["D3D12_TILED_RESOURCE_COORDINATE","D3D12_TILED_RESOURCE_COORDINATE structure","d3d12/D3D12_TILED_RESOURCE_COORDINATE","direct3d12.d3d12_tiled_resource_coordinate"]
 old-location: direct3d12\d3d12_tiled_resource_coordinate.htm
 tech.root: direct3d12
@@ -69,6 +69,8 @@ The z-coordinate of the tiled resource.
 ### -field Subresource
 
 The index of the subresource for the tiled resource.
+
+For mipmaps that use nonstandard tiling, or are packed, or both use nonstandard tiling and are packed, any subresource value that indicates any of the packed mipmaps all refer to the same tile. Additionally, the X coordinate is used to indicate a tile within the packed mip region, rather than a logical region of a single subresource. The Y and Z coordinates must be zero.
 
 ## -remarks
 

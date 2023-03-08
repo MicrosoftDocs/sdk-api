@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.LoadMenuA
 title: LoadMenuA function (winuser.h)
-description: Loads the specified menu resource from the executable (.exe) file associated with an application instance.
-helpviewer_keywords: ["LoadMenu","LoadMenu function [Menus and Other Resources]","LoadMenuA","LoadMenuW","_win32_LoadMenu","_win32_loadmenu_cpp","menurc.loadmenu","winui._win32_loadmenu","winuser/LoadMenu","winuser/LoadMenuA","winuser/LoadMenuW"]
+description: Loads the specified menu resource from the executable (.exe) file associated with an application instance. (ANSI)
+helpviewer_keywords: ["LoadMenuA", "winuser/LoadMenuA"]
 old-location: menurc\loadmenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\loadmenu.htm
@@ -49,6 +49,7 @@ api_name:
  - LoadMenu
  - LoadMenuA
  - LoadMenuW
+req.apiset: ext-ms-win-ntuser-menu-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # LoadMenuA function

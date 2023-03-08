@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._textrangew
 title: TEXTRANGEW (richedit.h)
-description: A range of text from a rich edit control. This structure is filled in by the EM_GETTEXTRANGE message. The buffer pointed to by the lpstrText member must be large enough to receive all characters and the terminating null character.
+description: A range of text from a rich edit control. This structure is filled in by the EM_GETTEXTRANGE message. The buffer pointed to by the lpstrText member must be large enough to receive all characters and the terminating null character. (Unicode)
 helpviewer_keywords: ["TEXTRANGE","TEXTRANGE structure [Windows Controls]","TEXTRANGEA","TEXTRANGEW","_win32_TEXTRANGE_str","_win32_TEXTRANGE_str_cpp","controls.TEXTRANGE","controls._win32_TEXTRANGE_str","richedit/TEXTRANGE","richedit/TEXTRANGEA","richedit/TEXTRANGEW"]
 old-location: controls\TEXTRANGE.htm
 tech.root: Controls
@@ -60,7 +60,7 @@ A range of text from a rich edit control. This structure is filled in by the <a 
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a></b>
 
 The range of characters to retrieve.
 
@@ -72,7 +72,7 @@ The text.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a>
+<a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a>
 
 
 

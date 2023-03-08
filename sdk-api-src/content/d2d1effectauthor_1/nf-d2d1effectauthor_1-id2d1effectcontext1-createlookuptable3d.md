@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1effectauthor_1.ID2D1EffectContext1.CreateLookupTable3D
 title: ID2D1EffectContext1::CreateLookupTable3D (d2d1effectauthor_1.h)
-description: Creates a 3D lookup table for mapping a 3-channel input to a 3-channel output. The table data must be provided in 4-channel format.
+description: Creates a 3D lookup table for mapping a 3-channel input to a 3-channel output. The table data must be provided in 4-channel format. (ID2D1EffectContext1.CreateLookupTable3D)
 helpviewer_keywords: ["CreateLookupTable3D","CreateLookupTable3D method [Direct2D]","CreateLookupTable3D method [Direct2D]","ID2D1EffectContext1 interface","ID2D1EffectContext1 interface [Direct2D]","CreateLookupTable3D method","ID2D1EffectContext1.CreateLookupTable3D","ID2D1EffectContext1::CreateLookupTable3D","d2d1effectauthor_1/ID2D1EffectContext1::CreateLookupTable3D","direct2d.id2d1effectcontext1_createlookuptable3d"]
 old-location: direct2d\id2d1effectcontext1_createlookuptable3d.htm
 tech.root: Direct2D
@@ -96,7 +96,7 @@ Receives the new lookup table instance.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -57,7 +57,7 @@ Gets the value of a metadata property.
 
 ### -param pwszName [in]
 
-A pointer to a null-terminated string that containings the name of the property.
+A pointer to a null-terminated string that contains the name of the property.
           To get the list of property names, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-getallpropertynames">IMFMetadata::GetAllPropertyNames</a>.
 
 ### -param ppvValue [out]

@@ -1,8 +1,8 @@
 ---
 UID: NF:prsht.PropertySheetA
 title: PropertySheetA function (prsht.h)
-description: Creates a property sheet and adds the pages defined in the specified property sheet header structure.
-helpviewer_keywords: ["PropertySheet","PropertySheet function [Windows Controls]","PropertySheetA","PropertySheetW","_win32_PropertySheet","_win32_PropertySheet_cpp","controls.PropertySheet","controls._win32_PropertySheet","prsht/PropertySheet","prsht/PropertySheetA","prsht/PropertySheetW"]
+description: Creates a property sheet and adds the pages defined in the specified property sheet header structure. (ANSI)
+helpviewer_keywords: ["PropertySheetA", "prsht/PropertySheetA"]
 old-location: controls\PropertySheet.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propertysheet.htm
@@ -46,6 +46,7 @@ api_name:
  - PropertySheet
  - PropertySheetA
  - PropertySheetW
+req.apiset: ext-ms-win-shell-comctl32-window-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # PropertySheetA function
@@ -57,7 +58,7 @@ Creates a property sheet and adds the pages defined in the specified property sh
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Type: <b>LPCPROPSHEETHEADER</b>
 

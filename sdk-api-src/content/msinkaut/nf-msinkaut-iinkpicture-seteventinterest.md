@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.SetEventInterest
 title: IInkPicture::SetEventInterest (msinkaut.h)
-description: Modifies a value that indicates whether an object or control has interest in a specified event.
+description: Modifies a value that indicates whether an object or control has interest in a specified event. (IInkPicture.SetEventInterest)
 helpviewer_keywords: ["IInkPicture","IInkPicture interface [Tablet PC]","SetEventInterest method","IInkPicture.SetEventInterest","IInkPicture::SetEventInterest","SetEventInterest","SetEventInterest method [Tablet PC]","SetEventInterest method [Tablet PC]","IInkPicture interface","df25efbb-5229-4211-948f-3a213154a967","msinkaut/IInkPicture::SetEventInterest","tablet.inkpicture_seteventinterest"]
 old-location: tablet\inkpicture_seteventinterest.htm
 tech.root: tablet
@@ -138,7 +138,7 @@ Use the <a href="/windows/desktop/tablet/inkpicture-newpackets">NewPackets</a>, 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

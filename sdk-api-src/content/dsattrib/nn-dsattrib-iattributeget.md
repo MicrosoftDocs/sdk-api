@@ -57,47 +57,10 @@ The <b>IAttributeGet</b> interface gets key/value pairs from an object, where th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAttributeGet</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAttributeGet</b> also has these types of members:
+The <b>IAttributeGet</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAttributeGet</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IAttributeGet</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dsattrib/nf-dsattrib-iattributeget-getattrib">GetAttrib</a>
-</td>
-<td align="left" width="63%">
-Returns an attribute value, specified by <b>GUID</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dsattrib/nf-dsattrib-iattributeget-getattribindexed">GetAttribIndexed</a>
-</td>
-<td align="left" width="63%">
-Returns an attribute value, specified by index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dsattrib/nf-dsattrib-iattributeget-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Returns the number of attributes on this object.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -68,7 +68,7 @@ Pointer to the buffer containing <a href="/windows/win32/api/wingdi/ns-wingdi-de
 
 ## -returns
 
-The driver should return the number of bytes written to the buffer if <i>pdm</i> is not <b>NULL</b>. If <i>pdm</i>is <b>NULL</b>, the driver should return the number of bytes required to hold all mode data. The driver should return zero if an error occurs.
+The driver should return the number of bytes written to the buffer if <i>pdm</i> is not <b>NULL</b>. If <i>pdm</i> is <b>NULL</b>, the driver should return the number of bytes required to hold all mode data. The driver should return zero if an error occurs.
 
 ## -remarks
 

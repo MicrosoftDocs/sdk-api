@@ -53,11 +53,15 @@ api_name:
 The <b>BeginMonitor</b> method is used to begin monitoring when a loading operation is started. When the operation is complete, the application must call 
 <a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-endmonitor">ILayoutStorage::EndMonitor</a>.
 
-## -parameters
+
 
 ## -returns
 
 This method supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, as well as the following:
+
+| Return code | Description |
+|----------------|---------------|
+| STG_E_INUSE | BeginMonitor</xref> was called while **ILayoutStorage** was already monitoring. |
 
 ## -remarks
 

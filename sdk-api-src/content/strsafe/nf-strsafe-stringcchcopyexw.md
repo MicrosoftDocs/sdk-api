@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchCopyExW
 title: StringCchCopyExW function (strsafe.h)
-description: Copies one string to another.
-helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchCopyEx","StringCchCopyEx function [Menus and Other Resources]","StringCchCopyExA","StringCchCopyExW","_shell_StringCchCopyEx","_shell_stringcchcopyex_cpp","menurc.stringcchcopyex","strsafe/StringCchCopyEx","strsafe/StringCchCopyExA","strsafe/StringCchCopyExW","winui._shell_stringcchcopyex"]
+description: Copies one string to another. (StringCchCopyExW)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCchCopyEx", "StringCchCopyEx function [Menus and Other Resources]", "StringCchCopyExW", "_shell_StringCchCopyEx", "_shell_stringcchcopyex_cpp", "menurc.stringcchcopyex", "strsafe/StringCchCopyEx", "strsafe/StringCchCopyExW", "winui._shell_stringcchcopyex"]
 old-location: menurc\stringcchcopyex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopyex.htm
@@ -218,7 +218,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-Compared to  the functions it replaces, <b>StringCchCopyEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCopyEx</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
+Compared to  the functions it replaces, <b>StringCchCopyEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCopyEx</b> always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 

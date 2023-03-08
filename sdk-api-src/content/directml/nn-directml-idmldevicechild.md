@@ -50,9 +50,8 @@ api_name:
 
 ## -description
 
-An interface implemented by all objects created from the DirectML device. The **IDMLDeviceChild** interface inherits from [IDMLObject](/windows/desktop/api/directml/nn-directml-idmlobject).
+An interface implemented by all objects created from the DirectML device. The **IDMLDeviceChild** interface inherits from [IDMLObject](/windows/win32/api/directml/nn-directml-idmlobject).
 
 ## -see-also
 
-[IDMLObject](/windows/desktop/api/directml/nn-directml-idmlobject)
-
+[IDMLObject](/windows/win32/api/directml/nn-directml-idmlobject)

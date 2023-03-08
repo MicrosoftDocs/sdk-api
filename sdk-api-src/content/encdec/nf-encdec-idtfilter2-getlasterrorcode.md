@@ -52,7 +52,7 @@ api_name:
 
 The <b>GetLastErrorCode</b> method returns the most recent error code from the Decrypter/Detagger filter.
 
-## -parameters
+
 
 ## -returns
 

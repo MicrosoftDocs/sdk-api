@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - DAD_DragMove
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # DAD_DragMove function
@@ -61,7 +62,7 @@ Moves the image that is being dragged during a drag-and-drop operation.
 
 ### -param pt
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The coordinates at which to display the drag image. The coordinates are relative to the upper-left corner of the window, not the client area.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:setupapi.SetupDiGetClassDevsA
 title: SetupDiGetClassDevsA
-description: The SetupDiGetClassDevs function returns a handle to a device information set that contains requested device information elements for a local computer.
+description: The SetupDiGetClassDevs function returns a handle to a device information set that contains requested device information elements for a local computer. (ANSI)
 tech.root: setup
 helpviewer_keywords: ["SetupDiGetClassDevsA"]
 ms.date: 4/26/2019
@@ -45,6 +45,7 @@ api_location:
 api_name:
  - SetupDiGetClassDevs
  - SetupDiGetClassDevsA
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 ## -description
@@ -55,7 +56,7 @@ The <b>SetupDiGetClassDevs</b> function returns a handle to a <a href="/windows-
 
 ### -param ClassGuid
 
-A pointer to the GUID for a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>. This pointer is optional and can be <b>NULL</b>. For more information about how to set <i>ClassGuid</i>, see the following <b>Remarks</b> section.
+A pointer to the GUID for a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> or a <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>. This pointer is optional and can be <b>NULL</b>. For more information about how to set <i>ClassGuid</i>, see the following <b>Remarks</b> section.
 
 ### -param Enumerator
 
@@ -212,7 +213,7 @@ Handle = SetupDiGetClassDevs(NULL, NULL, NULL, DIGCF_ALLCLASSES | DIGCF_PRESENT)
 ```
 
 
-<b>Example 3: </b> Build a list of all devices that are present in the system that are from the network adapter <a href="/previous-versions/ff553419(v=vs.85)">device setup class</a>.
+<b>Example 3: </b> Build a list of all devices that are present in the system that are from the network adapter <a href="/windows-hardware/drivers/install/system-defined-device-setup-classes-available-to-vendors">device setup class</a>.
 
 
 ```
@@ -220,7 +221,7 @@ Handle = SetupDiGetClassDevs(&GUID_DEVCLASS_NET, NULL, NULL, DIGCF_PRESENT);
 ```
 
 
-<b>Example 4: </b> Build a list of all devices that are present in the system that have enabled an interface from the storage volume <a href="/previous-versions/ff553412(v=vs.85)">device interface class</a>.
+<b>Example 4: </b> Build a list of all devices that are present in the system that have enabled an interface from the storage volume <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>.
 
 
 ```
@@ -228,7 +229,7 @@ Handle = SetupDiGetClassDevs(&GUID_DEVINTERFACE_VOLUME, NULL, NULL, DIGCF_PRESEN
 ```
 
 
-<b>Example 5: </b> Build a list of all devices that are present in the system but do not belong to any known <a href="/previous-versions/ff553419(v=vs.85)">device setup class</a> (Windows Vista and later versions of Windows).
+<b>Example 5: </b> Build a list of all devices that are present in the system but do not belong to any known <a href="/windows-hardware/drivers/install/system-defined-device-setup-classes-available-to-vendors">device setup class</a> (Windows Vista and later versions of Windows).
 
 <div class="alert"><b>Note</b>  You cannot set the <i>ClassGuid</i> parameter to GUID_DEVCLASS_UNKNOWN to detect devices with an unknown setup class. Instead, you must follow this example.</div>
 <div> </div>

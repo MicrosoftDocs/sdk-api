@@ -52,21 +52,21 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties of file systems that are supported for formatting volumes. These values are used in the <b>ulFlags</b> member of the <a href="/windows/desktop/api/vds/ns-vds-vds_file_system_format_support_prop">VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP</a> structure.
 
 ## -enum-fields
 
-### -field VDS_FSS_DEFAULT
+### -field VDS_FSS_DEFAULT:0x1
 
 The file system is the default file system to be used for formatting the volume.
 
-### -field VDS_FSS_PREVIOUS_REVISION
+### -field VDS_FSS_PREVIOUS_REVISION:0x2
 
 The revision of the file system is not the latest revision supported for formatting the volume.
 
-### -field VDS_FSS_RECOMMENDED
+### -field VDS_FSS_RECOMMENDED:0x4
 
 The file system is the recommended file system to be used for formatting the volume.
 

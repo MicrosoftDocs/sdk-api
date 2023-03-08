@@ -57,7 +57,7 @@ Prerequisite API to call to determine if the operation will be successful prior.
 
 ### -param keyCredentialManagerOperationType [in]
 
-The intended operation from the <a href="https://msdn.microsoft.com/en-us/library/Mt830291(v=VS.85).aspx">KeyCredentialManagerOperationType</a>.
+The intended operation from the <a href="../keycredmgr/ne-keycredmgr-keycredentialmanageroperationtype.md">KeyCredentialManagerOperationType</a>.
 
 ### -param isReady [out]
 
@@ -65,7 +65,7 @@ If the operational prerequisite will succeed (True) or (False).
 
 ### -param keyCredentialManagerOperationErrorStates [out]
 
-Additional feedback about isReady represented by <a href="https://msdn.microsoft.com/en-us/library/Mt830290(v=VS.85).aspx">KeyCredentialManagerOperationErrorStates</a>.
+Additional feedback about isReady represented by <a href="../keycredmgr/ne-keycredmgr-keycredentialmanageroperationerrorstates.md">KeyCredentialManagerOperationErrorStates</a>.
 
 ## -returns
 

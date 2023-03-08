@@ -57,38 +57,7 @@ This is the base interface for all plug-ins to Remote Desktop Connection Broker 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbPlugin</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITsSbPlugin</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the plug-in.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-terminate">Terminate</a>
-</td>
-<td align="left" width="63%">
-Performs clean-up and unloads the plug-in.
-
-</td>
-</tr>
-</table>
+The <b>ITsSbPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbPlugin</b> also has these types of members:
 
 ## -remarks
 
@@ -99,7 +68,7 @@ Two different types of plugins are supported - filters and resources. Resource p
 To register a resource filter, add these values to the registry.
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SYSTEM</b>
       <b>CurrentControlSet</b>
          <b>Services</b>
@@ -108,7 +77,7 @@ To register a resource filter, add these values to the registry.
                   <b>Plugins</b>
                      <b>Resource</b>
                         <i>YOUR_RESOURCE_PLUGIN_NAME</i>
-                           <b>CLSID</b> = {<i>CLSID of your resouce provider</i>}<dl>
+                           <b>CLSID</b> = {<i>CLSID of your resource provider</i>}<dl>
 <dt>                           Data type</dt>
 <dd>                           REG_SZ</dd>
 </dl>
@@ -131,7 +100,7 @@ The names used should be unique and identify the company, product, and/or featur
 To register a filter provider, add these values to the registry.
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SYSTEM</b>
       <b>CurrentControlSet</b>
          <b>Services</b>

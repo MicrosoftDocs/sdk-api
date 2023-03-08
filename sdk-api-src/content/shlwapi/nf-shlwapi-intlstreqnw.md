@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.IntlStrEqNW
 title: IntlStrEqNW macro (shlwapi.h)
-description: Performs a case-sensitive comparison of a specified number of characters from the beginning of two localized strings.
-helpviewer_keywords: ["IntlStrEqN","IntlStrEqN function [Windows Shell]","IntlStrEqNA","IntlStrEqNW","_win32_IntlStrEqN","shell.IntlStrEqN","shlwapi/IntlStrEqN","shlwapi/IntlStrEqNA","shlwapi/IntlStrEqNW"]
+description: Performs a case-sensitive comparison of a specified number of characters from the beginning of two localized strings. (Unicode)
+helpviewer_keywords: ["IntlStrEqN", "IntlStrEqN function [Windows Shell]", "IntlStrEqNW", "_win32_IntlStrEqN", "shell.IntlStrEqN", "shlwapi/IntlStrEqN", "shlwapi/IntlStrEqNW"]
 old-location: shell\IntlStrEqN.htm
 tech.root: shell
 ms.assetid: ed777144-398c-4f36-bcc3-f6ba123ebfa7
@@ -79,7 +79,11 @@ The number of characters to be compared, starting from the beginning of the stri
 This function retrieves the thread locale and uses <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> to do a case-sensitive comparison of the first <i>nChar</i> characters. It is equivalent to:
 				
 
-<pre class="syntax" xml:space="preserve"><code>IntlStrEqWorker(TRUE, pszStr1, pszStr2, nChar)</code></pre>
+
+``` syntax
+IntlStrEqWorker(TRUE, pszStr1, pszStr2, nChar)
+```
+
 
 
 

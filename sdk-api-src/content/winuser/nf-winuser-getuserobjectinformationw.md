@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetUserObjectInformationW
 title: GetUserObjectInformationW function (winuser.h)
-description: Retrieves information about the specified window station or desktop object.
-helpviewer_keywords: ["GetUserObjectInformation","GetUserObjectInformation function [Windows Stations and Desktops]","GetUserObjectInformationA","GetUserObjectInformationW","UOI_FLAGS","UOI_HEAPSIZE","UOI_IO","UOI_NAME","UOI_TYPE","UOI_USER_SID","_win32_getuserobjectinformation","base.getuserobjectinformation","winstation.getuserobjectinformation","winuser/GetUserObjectInformation","winuser/GetUserObjectInformationA","winuser/GetUserObjectInformationW"]
+description: Retrieves information about the specified window station or desktop object. (Unicode)
+helpviewer_keywords: ["GetUserObjectInformation", "GetUserObjectInformation function [Windows Stations and Desktops]", "GetUserObjectInformationW", "UOI_FLAGS", "UOI_HEAPSIZE", "UOI_IO", "UOI_NAME", "UOI_TYPE", "UOI_USER_SID", "_win32_getuserobjectinformation", "base.getuserobjectinformation", "winstation.getuserobjectinformation", "winuser/GetUserObjectInformation", "winuser/GetUserObjectInformationW"]
 old-location: winstation\getuserobjectinformation.htm
 tech.root: winstation
 ms.assetid: 64f7361d-1a94-4d5b-86f1-a2a21737668a
@@ -51,6 +51,7 @@ api_name:
  - GetUserObjectInformation
  - GetUserObjectInformationA
  - GetUserObjectInformationW
+req.apiset: ext-ms-win-ntuser-windowstation-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # GetUserObjectInformationW function

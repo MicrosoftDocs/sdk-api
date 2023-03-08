@@ -119,7 +119,7 @@ If destination and source bitmaps do not have the same color format, <b>AlphaBle
 
 When rendering to a printer, first call <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> with SHADEBLENDCAPS to determine if the printer supports blending with <b>AlphaBlend</b>. Note that, for a display DC, all blending operations are supported and these flags represent whether the operations are accelerated.
 
-If the source and destination are the same surfacethat is, they are both the screen or the same memory bitmap and the source and destination rectangles overlap, an error occurs and the function returns <b>FALSE</b>.
+If the source and destination are the same surface, that is, they are both the screen or the same memory bitmap and the source and destination rectangles overlap, an error occurs and the function returns <b>FALSE</b>.
 
 The source rectangle must lie completely within the source surface, otherwise an error occurs and the function returns <b>FALSE</b>.
 

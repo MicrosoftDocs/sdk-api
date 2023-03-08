@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::GetTypeInfo </b>method obtains information about a joystick type.
+The <b>IDirectInputJoyConfig8::GetTypeInfo </b> method obtains information about a joystick type.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Points to the name of the type, previously obtained from a call to <a href="/windows/desktop/api/dinputd/nf-dinputd-idirectinputjoyconfig8-enumtypes">IDirectInputJoyConfig8::EnumTypes</a>.
 
-### -param arg2
+### -param unnamedParam2
 
 Points to a structure that receives information about the joystick type. The caller must initialize the <b>dwSize</b> member of the <a href="/windows/desktop/api/dinputd/ns-dinputd-dijoytypeinfo">DIJOYTYPEINFO</a> structure before calling this method.
 
-### -param arg3
+### -param unnamedParam3
 
 Specifies the parts of the DIJOYTYPEINFO structure pointed to by <i>pjti</i> that are to be filled. There may be zero, one, or more of the following: 
 

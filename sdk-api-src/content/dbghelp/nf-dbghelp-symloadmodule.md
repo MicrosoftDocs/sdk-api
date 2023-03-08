@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymLoadModule
 title: SymLoadModule function (dbghelp.h)
-description: Loads the symbol table.
+description: Loads the symbol table. (SymLoadModule)
 helpviewer_keywords: ["SymLoadModule","SymLoadModule function","SymLoadModule64","SymLoadModule64 function","_win32_symloadmodule64","base.symloadmodule64","dbghelp/SymLoadModule","dbghelp/SymLoadModule64"]
 old-location: base\symloadmodule64.htm
 tech.root: Debug

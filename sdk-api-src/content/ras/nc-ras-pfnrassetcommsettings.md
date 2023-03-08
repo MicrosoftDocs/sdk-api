@@ -60,7 +60,7 @@ Call
 Handle to the port on which to apply the settings. This handle is passed to the custom-scripting DLL in the 
 <a href="/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a> function.
 
-### -param *pRasCommSettings [in]
+### -param pRasCommSettings [in]
 
 Pointer to a 
 <a href="/previous-versions/windows/desktop/legacy/aa376724(v=vs.85)">RASCOMMSETTINGS</a> structure that specifies the settings to be applied to the port.

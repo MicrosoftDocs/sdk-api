@@ -59,38 +59,10 @@ The <b>IMSVidFilePlayback2</b> interface enables the client to specify a DirectS
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidFilePlayback2</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>. <b>IMSVidFilePlayback2</b> also has these types of members:
+The <b>IMSVidFilePlayback2</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>. <b>IMSVidFilePlayback2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidFilePlayback2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidfileplayback2-put___sourcefilter">put___SourceFilter</a>
-</td>
-<td align="left" width="63%">
-Sets the CLSID of a DirectShow source filter to use for this source.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidfileplayback2-put__sourcefilter">put__SourceFilter</a>
-</td>
-<td align="left" width="63%">
-Sets the CLSID of a DirectShow source filter to use for this source. The CLSID is specified as a string.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

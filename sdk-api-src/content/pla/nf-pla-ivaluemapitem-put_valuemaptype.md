@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IValueMapItem.put_ValueMapType
 title: IValueMapItem::put_ValueMapType (pla.h)
-description: Retrieves or sets the type of the item.
+description: Retrieves or sets the type of the item. (Put)
 helpviewer_keywords: ["IValueMapItem interface [PLA]","ValueMapType property","IValueMapItem.ValueMapType","IValueMapItem.put_ValueMapType","IValueMapItem::ValueMapType","IValueMapItem::get_ValueMapType","IValueMapItem::put_ValueMapType","ValueMapType property [PLA]","ValueMapType property [PLA]","IValueMapItem interface","base.ivaluemapitem_valuemaptype","pla.ivaluemapitem_valuemaptype","pla/IValueMapItem::ValueMapType","pla/IValueMapItem::get_ValueMapType","pla/IValueMapItem::put_ValueMapType","put_ValueMapType"]
 old-location: pla\ivaluemapitem_valuemaptype.htm
 tech.root: PLA

@@ -44,6 +44,7 @@ api_location:
  - API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
  - DequeueUmsCompletionListItems
+req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 ---
 
 # DequeueUmsCompletionListItems function
@@ -52,6 +53,9 @@ api_name:
 ## -description
 
 Retrieves user-mode scheduling (UMS) worker threads from the specified UMS completion list.
+
+> [!WARNING]
+> As of Windows 11, user-mode scheduling is not supported. All calls fail with the error `ERROR_NOT_SUPPORTED`.
 
 ## -parameters
 
@@ -92,6 +96,14 @@ If the function fails, the return value is zero. To get extended error informati
 No threads became available before the specified time-out interval elapsed.
 
 </td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_SUPPORTED</b></dt>
+</dl>
+</td>
+<td width="60%">UMS is not supported.</td>
 </tr>
 </table>
 

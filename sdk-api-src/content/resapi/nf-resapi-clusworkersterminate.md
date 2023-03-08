@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Waits for multiple  worker threads to terminate up to the specified timeout.   This function can signal the thread to terminate before wait starts, or just wait passively if specified.
 

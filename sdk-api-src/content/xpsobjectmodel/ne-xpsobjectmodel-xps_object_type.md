@@ -56,7 +56,7 @@ Describes the type of an object that is derived from <a href="/windows/desktop/a
 
 ## -enum-fields
 
-### -field XPS_OBJECT_TYPE_CANVAS
+### -field XPS_OBJECT_TYPE_CANVAS:1
 
 The object is an <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcanvas">IXpsOMCanvas</a> interface.
 
@@ -98,4 +98,4 @@ The object is an <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-
 
 ## -see-also
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

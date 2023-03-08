@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10sdklayers.ID3D10Debug
 title: ID3D10Debug (d3d10sdklayers.h)
-description: A debug interface controls debug settings, validates pipeline state and can only be used if the debug layer is turned on.
+description: A debug interface controls debug settings, validates pipeline state and can only be used if the debug layer is turned on. (ID3D10Debug)
 helpviewer_keywords: ["9243084e-1ae3-39f6-3e6b-d8150af7e0cc","ID3D10Debug","ID3D10Debug interface [Direct3D 10]","ID3D10Debug interface [Direct3D 10]","described","d3d10sdklayers/ID3D10Debug","direct3d10.id3d10debug"]
 old-location: direct3d10\id3d10debug.htm
 tech.root: direct3d10
@@ -55,83 +55,7 @@ A debug interface controls debug settings, validates pipeline state and can only
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Debug</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10Debug</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D10Debug</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-getfeaturemask">GetFeatureMask</a>
-</td>
-<td align="left" width="63%">
-Get a bitfield of flags that indicates which debug features are on or off.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-getpresentperrenderopdelay">GetPresentPerRenderOpDelay</a>
-</td>
-<td align="left" width="63%">
-Get the number of milliseconds to sleep after <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">Present</a> is called.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-getswapchain">GetSwapChain</a>
-</td>
-<td align="left" width="63%">
-Get the swap chain that the runtime will use for automatically calling <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">Present</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-setfeaturemask">SetFeatureMask</a>
-</td>
-<td align="left" width="63%">
-Set a bitfield of flags that will turn debug features on and off.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-setpresentperrenderopdelay">SetPresentPerRenderOpDelay</a>
-</td>
-<td align="left" width="63%">
-Set the number of milliseconds to sleep after <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">Present</a> is called.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-setswapchain">SetSwapChain</a>
-</td>
-<td align="left" width="63%">
-Set a swap chain that the runtime will use for automatically calling <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">Present</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10sdklayers/nf-d3d10sdklayers-id3d10debug-validate">Validate</a>
-</td>
-<td align="left" width="63%">
-Check the validity of pipeline state.
-
-</td>
-</tr>
-</table>
+The <b>ID3D10Debug</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10Debug</b> also has these types of members:
 
 ## -remarks
 

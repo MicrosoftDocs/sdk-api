@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.OpenFileMappingW
 title: OpenFileMappingW function (memoryapi.h)
-description: Opens a named file mapping object.
+description: Opens a named file mapping object. (OpenFileMappingW)
 helpviewer_keywords: ["OpenFileMapping","OpenFileMapping function","OpenFileMappingA","OpenFileMappingW","_win32_openfilemapping","base.openfilemapping","fs.openfilemapping","winbase/OpenFileMapping","winbase/OpenFileMappingA","winbase/OpenFileMappingW"]
 old-location: base\openfilemapping.htm
 tech.root: base
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -87,7 +87,7 @@ The name of the file mapping object to be opened. If there is an open handle to 
       this name and the security descriptor on the mapping object does not conflict with the 
       <i>dwDesiredAccess</i> parameter, the open operation succeeds. The name can have a 
       "Global\" or "Local\" prefix to explicitly open an object in the global or 
-      session namespace. The remainder of the name can contain any character except the backslash character (\). For 
+      session namespace. The remainder of the name can contain any character except the backslash character (\\). For 
       more information, see 
       <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>. Fast user 
       switching is implemented using Terminal Services sessions. The first user to log on uses session 0, the next 

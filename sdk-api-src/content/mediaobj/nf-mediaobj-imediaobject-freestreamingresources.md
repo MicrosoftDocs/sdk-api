@@ -53,7 +53,7 @@ api_name:
 
 The <code>FreeStreamingResources</code> method frees resources allocated by the DMO. Calling this method is always optional.
 
-## -parameters
+
 
 ## -returns
 

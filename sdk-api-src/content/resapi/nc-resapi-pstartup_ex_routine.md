@@ -39,7 +39,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - StartupEx callback
 ---
@@ -72,7 +71,7 @@ The maximum version of the Resource API supported by the Cluster service.
 
 TBD
 
-### -param *ResourceDllInterfaceFunctions [out] [out]
+### -param ResourceDllInterfaceFunctions [out] [out]
 
 TBD
 

@@ -195,7 +195,7 @@ For connection-oriented sockets, readability can also indicate that a request to
 <a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>).
 
 The parameter <i>writefds</i> identifies the sockets that are to be checked for writability. If a socket is processing a 
-<a href="/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> call (nonblocking), a socket is writeable if the connection establishment successfully completes. If the socket is not processing a 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> call (nonblocking), a socket is writable if the connection establishment successfully completes. If the socket is not processing a 
 <b>connect</b> call, writability means a 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-send">send</a>, 
 <a href="/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>, or 
@@ -238,7 +238,12 @@ In summary, a socket will be identified in a particular set when
 Four macros are defined in the header file Winsock2.h for manipulating and checking the descriptor sets. The variable FD_SETSIZE determines the maximum number of descriptors in a set. (The default value of FD_SETSIZE is 64, which can be modified by defining FD_SETSIZE to another value before including Winsock2.h.) Internally, socket handles in an 
 <a href="/windows/desktop/api/winsock/nf-winsock-fd_set">fd_set</a> structure are not represented as bit flags as in Berkeley Unix. Their data representation is opaque. Use of these macros will maintain software portability between different socket environments. The macros to manipulate and check 
 <b>fd_set</b> contents are:
-
+<ul>
+<li><i>FD_ZERO(*set)</i> - Initializes set to the empty set. A set should always be cleared before using.</li>
+<li><i>FD_CLR(s, *set)</i> - Removes socket s from set.</li>
+<li><i>FD_ISSET(s, *set)</i> - Checks to see if s is a member of set and returns TRUE if so.</li>
+<li><i>FD_SET(s, *set)</i> - Adds socket s to set.</li>
+</ul>
 
 
 The parameter <i>time-out</i> controls how long the 

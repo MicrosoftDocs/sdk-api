@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMFLOAT2.XMFLOAT2(constXMFLOAT2&)
 title: XMFLOAT2::XMFLOAT2(const XMFLOAT2 &) (directxmath.h)
-description: A constructor for XMFLOAT2.
+description: A constructor for XMFLOAT2. (overload 1/2)
 helpviewer_keywords: ["XMFLOAT2","XMFLOAT2 constructor [DirectX Math Support APIs]","XMFLOAT2 constructor [DirectX Math Support APIs]","XMFLOAT2 structure","XMFLOAT2 structure [DirectX Math Support APIs]","XMFLOAT2 constructor","XMFLOAT2.XMFLOAT2","XMFLOAT2.XMFLOAT2()","XMFLOAT2.XMFLOAT2(const XMFLOAT2 &)","XMFLOAT2::XMFLOAT2","XMFLOAT2::XMFLOAT2(const XMFLOAT2 &)","dxmath.xmfloat2_ctor_1"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMFLOAT2, XMFLOAT2 constructor [DirectX Math Support APIs], XMFLOAT
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -58,7 +58,7 @@ A constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmflo
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

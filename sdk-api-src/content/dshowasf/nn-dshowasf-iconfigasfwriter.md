@@ -56,92 +56,10 @@ When the WM ASF Writer filter is created, it is configured automatically with a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConfigAsfWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConfigAsfWriter</b> also has these types of members:
+The <b>IConfigAsfWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConfigAsfWriter</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IConfigAsfWriter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-configurefilterusingprofile">ConfigureFilterUsingProfile</a>
-</td>
-<td align="left" width="63%">
-Sets an ASF profile on the WM ASF Writer filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-configurefilterusingprofileguid">ConfigureFilterUsingProfileGuid</a>
-</td>
-<td align="left" width="63%">
-Sets a predefined system profile on the filter. (Deprecated.)
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-configurefilterusingprofileid">ConfigureFilterUsingProfileId</a>
-</td>
-<td align="left" width="63%">
-Sets a Windows Media Format 4.0 profile on the filter. (Deprecated.)
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-getcurrentprofile">GetCurrentProfile</a>
-</td>
-<td align="left" width="63%">
-Retrieves the application-defined ASF profile.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-getcurrentprofileguid">GetCurrentProfileGuid</a>
-</td>
-<td align="left" width="63%">
-Retrieves the GUID of the filter's current system profile, if any. (Deprecated.)
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-getcurrentprofileid">GetCurrentProfileId</a>
-</td>
-<td align="left" width="63%">
-Retrieves the identifier of the filter's profile, only when the filter is using a Windows Media Format 4.0 profile. (Deprecated.)
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-getindexmode">GetIndexMode</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current index mode.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-setindexmode">SetIndexMode</a>
-</td>
-<td align="left" width="63%">
-Enables the application to control whether the file will be indexed and therefore seekable.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.INewShortcutHookA.SetReferent
 title: INewShortcutHookA::SetReferent (shlobj.h)
-description: Sets the referent of the shortcut object.
+description: Sets the referent of the shortcut object. (ANSI)
 helpviewer_keywords: ["INewShortcutHook interface [Windows Shell]","SetReferent method","INewShortcutHook::SetReferent","INewShortcutHookA","INewShortcutHookA interface [Windows Shell]","SetReferent method","INewShortcutHookA.SetReferent","INewShortcutHookA::SetReferent","INewShortcutHookW","INewShortcutHookW interface [Windows Shell]","SetReferent method","INewShortcutHookW::SetReferent","SetReferent","SetReferent method [Windows Shell]","SetReferent method [Windows Shell]","INewShortcutHook interface","SetReferent method [Windows Shell]","INewShortcutHookA interface","SetReferent method [Windows Shell]","INewShortcutHookW interface","_win32_INewShortcutHook_SetReferent","shell.INewShortcutHook_SetReferent","shlobj/INewShortcutHook::SetReferent","shlobj/INewShortcutHookA::SetReferent","shlobj/INewShortcutHookW::SetReferent"]
 old-location: shell\INewShortcutHook_SetReferent.htm
 tech.root: shell
@@ -83,7 +83,7 @@ A pointer to a string that contains the referent.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

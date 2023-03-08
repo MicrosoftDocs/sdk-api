@@ -53,7 +53,7 @@ api_name:
 
 The <code>Pause</code> method is called when the filter graph is entering a paused state.
 
-## -parameters
+
 
 ## -returns
 

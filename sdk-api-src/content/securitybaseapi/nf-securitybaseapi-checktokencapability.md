@@ -9,7 +9,7 @@ ms.assetid: 436A5110-B79E-4E64-92E8-1C9E713D0948
 ms.date: 12/05/2018
 ms.keywords: CheckTokenCapability, CheckTokenCapability function [Security], security.checktokencapability, securitybaseapi/CheckTokenCapability
 req.header: securitybaseapi.h
-req.include-header: 
+req.include-header: Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: Advapi32.lib 
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows

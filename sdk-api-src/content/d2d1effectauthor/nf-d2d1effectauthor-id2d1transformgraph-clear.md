@@ -53,7 +53,7 @@ api_name:
 
 Clears the transform nodes and all connections from the transform graph.
 
-## -parameters
+
 
 ## -remarks
 

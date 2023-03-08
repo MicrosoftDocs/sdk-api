@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathCreateFromUrlW
 title: PathCreateFromUrlW function (shlwapi.h)
-description: Converts a file URL to a Microsoft MS-DOS path.
-helpviewer_keywords: ["PathCreateFromUrl","PathCreateFromUrl function [Windows Shell]","PathCreateFromUrlA","PathCreateFromUrlW","_win32_PathCreateFromUrl","shell.PathCreateFromUrl","shlwapi/PathCreateFromUrl","shlwapi/PathCreateFromUrlA","shlwapi/PathCreateFromUrlW"]
+description: Converts a file URL to a Microsoft MS-DOS path. (Unicode)
+helpviewer_keywords: ["PathCreateFromUrl", "PathCreateFromUrl function [Windows Shell]", "PathCreateFromUrlW", "_win32_PathCreateFromUrl", "shell.PathCreateFromUrl", "shlwapi/PathCreateFromUrl", "shlwapi/PathCreateFromUrlW"]
 old-location: shell\PathCreateFromUrl.htm
 tech.root: shell
 ms.assetid: f4136c80-a309-4551-be73-f2f24ecd4675
@@ -88,7 +88,7 @@ Reserved. Set this parameter to <b>NULL</b>.
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

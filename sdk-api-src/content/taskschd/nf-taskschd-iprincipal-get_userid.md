@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IPrincipal.get_UserId
 title: IPrincipal::get_UserId (taskschd.h)
-description: Gets or sets the user identifier that is required to run the tasks that are associated with the principal.
+description: Gets or sets the user identifier that is required to run the tasks that are associated with the principal. (Get)
 helpviewer_keywords: ["IPrincipal interface [Task Scheduler]","UserId property","IPrincipal.UserId","IPrincipal.get_UserId","IPrincipal::UserId","IPrincipal::get_UserId","IPrincipal::put_UserId","UserId property [Task Scheduler]","UserId property [Task Scheduler]","IPrincipal interface","get_UserId","taskschd.iprincipal_userid","taskschd/IPrincipal::UserId","taskschd/IPrincipal::get_UserId","taskschd/IPrincipal::put_UserId"]
 old-location: taskschd\iprincipal_userid.htm
 tech.root: taskschd

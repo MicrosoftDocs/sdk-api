@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg._OFNOTIFYW
 title: OFNOTIFYW (commdlg.h)
-description: Contains information about a WM_NOTIFY message sent to an OFNHookProc hook procedure for an Open or Save As dialog box. The lParam parameter of the WM_NOTIFY message is a pointer to an OFNOTIFY structure.
+description: Contains information about a WM_NOTIFY message sent to an OFNHookProc hook procedure for an Open or Save As dialog box. The lParam parameter of the WM_NOTIFY message is a pointer to an OFNOTIFY structure. (Unicode)
 helpviewer_keywords: ["*LPOFNOTIFYW","LPOFNOTIFY","LPOFNOTIFY structure pointer [Dialog Boxes]","OFNOTIFY","OFNOTIFY structure [Dialog Boxes]","OFNOTIFYA","OFNOTIFYW","_win32_OFNOTIFY_str","_win32_ofnotify_str_cpp","commdlg/LPOFNOTIFY","commdlg/OFNOTIFY","commdlg/OFNOTIFYA","commdlg/OFNOTIFYW","dlgbox.ofnotify_str","winui._win32_ofnotify_str"]
 old-location: dlgbox\ofnotify_str.htm
 tech.root: dlgbox

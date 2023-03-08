@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMINT4.XMINT4(XMINT4&&)
 title: XMINT4::XMINT4(XMINT4 &&) (directxmath.h)
-description: A constructor for XMINT4.
+description: A constructor for XMINT4. (overload 2/2)
 helpviewer_keywords: ["XMINT4","XMINT4 constructor [DirectX Math Support APIs]","XMINT4 constructor [DirectX Math Support APIs]","XMINT4 structure","XMINT4 structure [DirectX Math Support APIs]","XMINT4 constructor","XMINT4.XMINT4","XMINT4.XMINT4()","XMINT4.XMINT4(XMINT4 &&)","XMINT4::XMINT4","XMINT4::XMINT4(XMINT4 &&)","dxmath.xmint4_ctor_1"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMINT4, XMINT4 constructor [DirectX Math Support APIs], XMINT4 cons
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -58,7 +58,7 @@ A constructor for <a href="/windows/desktop/direct3dhlsl/xmint4">XMINT4</a>.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

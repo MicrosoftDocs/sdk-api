@@ -53,7 +53,7 @@ api_name:
 
 The <b>End</b> method indicates that an operation is finished.
 
-## -parameters
+
 
 ## -returns
 

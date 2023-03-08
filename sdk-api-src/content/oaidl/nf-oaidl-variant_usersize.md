@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.VARIANT_UserSize
 title: VARIANT_UserSize function (oaidl.h)
-description: Calculates the wire size of the VARIANT object, and gets its handle and data.
+description: Calculates the wire size of the VARIANT object, and gets its handle and data. (VARIANT_UserSize)
 helpviewer_keywords: ["VARIANT_UserSize","VARIANT_UserSize function [Automation]","_oa96_VARIANT_UserSize","automat.variant_usersize","oaidl/VARIANT_UserSize"]
 old-location: automat\variant_usersize.htm
 tech.root: automat
@@ -54,15 +54,15 @@ Calculates the wire size of the <a href="/windows/desktop/api/oaidl/ns-oaidl-var
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the object to be properly aligned when it will be marshaled to the buffer.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 The object.
 

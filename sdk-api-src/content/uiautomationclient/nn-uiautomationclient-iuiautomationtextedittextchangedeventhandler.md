@@ -55,27 +55,7 @@ Exposes a method to handle events that occur when Microsoft UI Automation report
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTextEditTextChangedEventHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationTextEditTextChangedEventHandler</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUIAutomationTextEditTextChangedEventHandler</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>HandleTextEditTextChangedEvent</b></td>
-<td align="left" width="63%">
-Handles an event that is raised when a UI Automation provider for a text-edit control reports a programmatic text change.
-
-</td>
-</tr>
-</table>
+The <b>IUIAutomationTextEditTextChangedEventHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationTextEditTextChangedEventHandler</b> also has these types of members:
 
 ## -remarks
 

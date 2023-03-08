@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.AddRefFromTrackerSource
-title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
+title: IReferenceTracker::AddRefFromTrackerSource (windows.ui.xaml.hosting.referencetracker.h)
 description: Indicates each time that a tracker source calls IUnknown::AddRef on the reference tracker; called after the AddRef call.
 helpviewer_keywords: ["AddRefFromTrackerSource","AddRefFromTrackerSource method [Windows Runtime]","AddRefFromTrackerSource method [Windows Runtime]","IReferenceTracker interface","IReferenceTracker interface [Windows Runtime]","AddRefFromTrackerSource method","IReferenceTracker.AddRefFromTrackerSource","IReferenceTracker.xaml","IReferenceTracker::AddRefFromTrackerSource","IReferenceTracker::xaml","windows/IReferenceTracker::AddRefFromTrackerSource","winrt.ireferencetracker_addreffromtrackersource"]
 old-location: winrt\ireferencetracker_addreffromtrackersource.htm
@@ -45,18 +45,18 @@ api_name:
  - IReferenceTracker.AddRefFromTrackerSource
 ---
 
-# IReferenceTracker::xaml
+# IReferenceTracker::AddRefFromTrackerSource (windows.ui.xaml.hosting.referencetracker.h)
 
 
 ## -description
 
 Indicates each time that a tracker source calls <b>IUnknown::AddRef</b> on the reference tracker; called after the <b>AddRef</b> call.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

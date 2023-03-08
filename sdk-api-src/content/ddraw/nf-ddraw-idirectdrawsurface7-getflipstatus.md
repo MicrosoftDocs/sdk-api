@@ -50,7 +50,7 @@ Retrieves status about whether this surface has finished its flipping process.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A value that can be set to one of the following flags:
 
@@ -80,7 +80,7 @@ If it fails, the method can return DDERR_WASSTILLDRAWING if the surface has not 
 
 ## -remarks
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetFlipStatus</b> method.
+
 
 ## -see-also
 

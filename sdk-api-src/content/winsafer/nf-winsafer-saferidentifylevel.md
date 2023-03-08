@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
 api_name:
  - SaferIdentifyLevel
+req.apiset: ext-ms-win-advapi32-safer-l1-1-0 (introduced in Windows 8)
 ---
 
 # SaferIdentifyLevel function

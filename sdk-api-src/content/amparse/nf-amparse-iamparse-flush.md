@@ -53,7 +53,7 @@ api_name:
 
 The <code>Flush</code> method clears the current file data to allow for a more rapid switch to a new file.
 
-## -parameters
+
 
 ## -returns
 

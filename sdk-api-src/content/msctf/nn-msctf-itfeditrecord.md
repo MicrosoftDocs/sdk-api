@@ -54,38 +54,7 @@ The <b>ITfEditRecord</b> interface is implemented by the TSF manager and is used
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfEditRecord</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfEditRecord</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfEditRecord</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfeditrecord-getselectionstatus">GetSelectionStatus</a>
-</td>
-<td align="left" width="63%">
-Determines if the selection has changed during the edit session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfeditrecord-gettextandpropertyupdates">GetTextAndPropertyUpdates</a>
-</td>
-<td align="left" width="63%">
-Obtains an enumerator that contains a collection of range objects that cover the specified properties and/or text that changed during the edit session.
-
-</td>
-</tr>
-</table>
+The <b>ITfEditRecord</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfEditRecord</b> also has these types of members:
 
 ## -see-also
 

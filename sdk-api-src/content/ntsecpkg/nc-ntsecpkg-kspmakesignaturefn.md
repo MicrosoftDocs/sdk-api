@@ -58,34 +58,29 @@ The <b>SpMakeSignature</b> function is the dispatch function for the
 
 ## -parameters
 
-### -param ContextId
-
-### -param fQOP
-
-### -param Message
-
-### -param MessageSeqNo
-
-#### - ContextHandle [in]
+### -param ContextId [in]
 
 A handle to the security context to be used to generate the message signature.
 
 
-#### - MessageBuffers [in, out]
+### -param fQOP [in]
 
-Pointer to an array of 
-<a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structures. On input, the structures contain the message to be signed. On output, the <b>SecBuffer</b> structure of type SECBUFFER_TOKEN contains the signature.
+Specifies package-specific flags that indicate the quality of protection. A security package can use this parameter to support the selection of cryptographic algorithms
+
+### -param Message [in]
+
+Pointer to a 
+<a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure. On input, the structure contains the message to be signed.
 
 
-#### - MessageSequenceNumber [in]
+
+### -param MessageSeqNo [in]
 
 Sequence number to assign to the message. Sequence numbers are optional and are used as protection against loss and insertion of messages. A value of zero indicates that sequence numbers are not in use.
 
 
-#### - QualityOfProtection [in]
 
-Specifies package-specific flags that indicate the quality of protection. A security package can use this parameter to support the selection of cryptographic algorithms.
-
+#### - MessageBuffers
 ## -returns
 
 If the function succeeds, return STATUS_SUCCESS.

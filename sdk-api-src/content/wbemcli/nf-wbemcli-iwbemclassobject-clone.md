@@ -66,7 +66,7 @@ The
 
 ### -param ppCopy [out]
 
-This parameter cannot be <b>NULL</b>. It receives the copy of the current object. You must call <b>IWbemClassObject::Release </b>on this object when it is no longer required.
+This parameter cannot be <b>NULL</b>. It receives the copy of the current object. You must call <b>IWbemClassObject::Release</b> on this object when it is no longer required.
 
 A new object is not returned on error.
 

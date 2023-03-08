@@ -1,10 +1,10 @@
 ---
 UID: NF:synchapi.CreateSemaphoreExW
 title: CreateSemaphoreExW function (synchapi.h)
-description: Creates or opens a named or unnamed semaphore object and returns a handle to the object.
+description: Creates or opens a named or unnamed semaphore object and returns a handle to the object. (CreateSemaphoreExW)
 helpviewer_keywords: ["CreateSemaphoreExA","CreateSemaphoreExW","CreateSemaphoreExW function","base.createsemaphoreex","synchapi/CreateSemaphoreExA","synchapi/CreateSemaphoreExW"]
 old-location: base\createsemaphoreex.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 741461e2-b672-4318-b39b-c6301ef9ab80
 ms.date: 12/05/2018
 ms.keywords: CreateSemaphoreExA, CreateSemaphoreExW, CreateSemaphoreExW function, base.createsemaphoreex, synchapi/CreateSemaphoreExA, synchapi/CreateSemaphoreExW
@@ -94,7 +94,7 @@ If <i>lpName</i> is <b>NULL</b>, the semaphore object is created without a name.
 If <i>lpName</i> matches the name of an existing event, mutex, waitable timer, job, or file-mapping object, the function fails and the 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_INVALID_HANDLE</b>. This occurs because these objects share the same namespace.
 
-The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
+The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\\). For more information, see 
 <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>. Fast user switching is implemented using Terminal Services sessions. Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.
 
 The object can be created in a private namespace. For more information, see <a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
@@ -131,7 +131,7 @@ Multiple processes can have handles of the same semaphore object, enabling use o
 <li>A process can specify the semaphore-object handle in a call to the 
 <a href="/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function to create a duplicate handle that can be used by another process.</li>
 <li>A process can specify the name of a semaphore object in a call to the 
-<a href="/windows/desktop/api/winbase/nf-winbase-opensemaphorea">OpenSemaphore</a> or 
+<a href="/windows/win32/api/synchapi/nf-synchapi-opensemaphorew">OpenSemaphore</a> or 
 <b>CreateSemaphoreEx</b> function.</li>
 </ul>
 Use the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The semaphore object is destroyed when its last handle has been closed.

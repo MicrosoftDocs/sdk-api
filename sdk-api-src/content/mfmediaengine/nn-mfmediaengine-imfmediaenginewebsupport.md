@@ -54,44 +54,5 @@ Enables playback of web audio.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineWebSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineWebSupport</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFMediaEngineWebSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineWebSupport</b> also has these types of members:
 
-## -members
-
-The <b>IMFMediaEngineWebSupport</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginewebsupport-connectwebaudio">ConnectWebAudio</a>
-</td>
-<td align="left" width="63%">
-Connects web audio to Media Engine using the specified sample rate.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginewebsupport-disconnectwebaudio">DisconnectWebAudio</a>
-</td>
-<td align="left" width="63%">
-Disconnects web audio from the Media Engine 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginewebsupport-shoulddelaytheloadevent">ShouldDelayTheLoadEvent</a>
-</td>
-<td align="left" width="63%">
-Gets a value indicating if the connecting to Web audio should delay the page's load event.
-
-</td>
-</tr>
-</table>

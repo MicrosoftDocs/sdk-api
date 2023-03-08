@@ -59,7 +59,7 @@ api_name:
 
 The <b>GetData</b> method to get the data from the <a href="/windows/desktop/WmiSdk/chstring">CHString</a> object.
 
-## -parameters
+
 
 ## -returns
 

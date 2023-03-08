@@ -52,16 +52,13 @@ api_name:
 
 The <b>GdiplusBase</b> class provides memory allocation and deallocation for GDI+ objects. <b>GdiplusBase</b> serves as a base class for all other GDI+ classes, so you never need to create an instance of <b>GdiplusBase</b>.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">GdiplusBase</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>GdiplusBase</b> class has these methods.
+<b>GdiplusBase</b> has these types of members:
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatordelete">GdiplusBase::operator delete</a>
 </td>
@@ -70,9 +67,9 @@ The <a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operato
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatordelete[]">GdiplusBase::operator delete[]</a>
+<a href="/windows/win32/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatordelete_array">GdiplusBase::operator delete[]</a>
 </td>
 <td align="left" width="63%">
 The 
@@ -82,7 +79,7 @@ The
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew">GdiplusBase::operator new</a>
 </td>
@@ -91,12 +88,12 @@ The <a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operato
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew[]">GdiplusBase::operator new[]</a>
+<a href="/windows/win32/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew">GdiplusBase::operator new[]</a>
 </td>
 <td align="left" width="63%">
-The <a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew[]">GdiplusBase::operator new[]</a> method allocates memory for an array of GDI+ objects.
+The <a href="/windows/win32/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew">GdiplusBase::operator new[]</a> method allocates memory for an array of GDI+ objects.
 
 </td>
 </tr>

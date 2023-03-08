@@ -82,7 +82,7 @@ Type: <b>UINT</b>
 
 A value that specifies an edge of the screen. This member is used when sending one of these messages:
                         
-                            <ul>
+<ul>
 <li>
 <a href="/windows/desktop/shell/conversion-functions-bumper">ABM_GETAUTOHIDEBAR</a>
 </li>
@@ -151,15 +151,15 @@ Type: <b>LPARAM</b>
 
 A message-dependent value. This member is used with these messages:
                         
-                            <ul>
+<ul>
 <li>
-<a href="/windows/desktop/shell/dialogs-bumper">ABM_SETAUTOHIDEBAR</a>
+<a href="/windows/desktop/shell/abm-setautohidebar">ABM_SETAUTOHIDEBAR</a>
 </li>
 <li>
 <a href="/windows/desktop/shell/abm-setautohidebarex">ABM_SETAUTOHIDEBAREX</a>
 </li>
 <li>
-<a href="/windows/desktop/shell/drag-and-drop-handlers-and-custom-clipboard-format-bumper">ABM_SETSTATE</a>
+<a href="windows/desktop/shell/abm-setstate">ABM_SETSTATE</a>
 </li>
 </ul>
 

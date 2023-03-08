@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Represents the information for a synchronization provider configuration. This structure is passed to the <a href="ISyncProviderRegistration::CreateSyncProviderRegistrationInstance">ISyncProviderRegistration::CreateSyncProviderRegistrationInstance</a> method when a registration instance is created.
+Represents the information for a synchronization provider configuration. This structure is passed to the [ISyncProviderRegistration::CreateSyncProviderRegistrationInstance](./nf-syncregistration-isyncproviderregistration-createsyncproviderregistrationinstance.md) method when a registration instance is created.
 
 ## -struct-fields
 
 ### -field dwVersion
 
-The xersion of the synchronization provider. The constant value <b>SYNC_PROVIDER_CONFIGURATION_VERSION.</b>
+The version of the synchronization provider. The constant value <b>SYNC_PROVIDER_CONFIGURATION_VERSION.</b>
 
 ### -field guidInstanceId
 
@@ -70,7 +70,7 @@ The COM CLSID of the synchronization provider.
 
 ### -field guidConfigUIInstanceId
 
-The instance ID of the configuration UI  used to create this synchronization provider, or <b>GUID_NULL</b> if no configuration UI was used.
+The instance ID of the configuration UI used to create this synchronization provider, or <b>GUID_NULL</b> if no configuration UI was used.
 
 ### -field guidContentType
 
@@ -90,7 +90,7 @@ One of the following constants that represent the architectures supported by the
 
 <ul>
 <li><b>SYNC_32_BIT_SUPPORTED</b> ((DWORD)0x00000001)</li>
-<li><b>SYNC_64_BIT_SUPPORTED</b>  ((DWORD)0x00000002)</li>
+<li><b>SYNC_64_BIT_SUPPORTED</b> ((DWORD)0x00000002)</li>
 </ul>
 
 ## -see-also

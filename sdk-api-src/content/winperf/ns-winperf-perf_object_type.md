@@ -78,7 +78,7 @@ Size of this structure, in bytes. This member is the offset from the beginning o
 
 ### -field ObjectNameTitleIndex
 
-Index to the object's name in the title database. For details on using the index to retrieve the object's name, see <a href="/windows/desktop/PerfCtrs/retrieving-counter-names-and-explanations">Retrieving Counter Names and Help Text</a>.
+Index to the object's name in the title database. For details on using the index to retrieve the object's name, see <a href="/windows/win32/perfctrs/retrieving-counter-names-and-help-text">Retrieving Counter Names and Help Text</a>.
 
 Providers specify the index value in their initialization file. For details, see <a href="/windows/desktop/PerfCtrs/adding-counter-names-and-descriptions-to-the-registry">Adding Counter Names and Descriptions to the Registry</a>.
 
@@ -88,7 +88,7 @@ Reserved.
 
 ### -field ObjectHelpTitleIndex
 
-Index to the object's help text in the title database.  For details on using the index to retrieve the object's help text, see <a href="/windows/desktop/PerfCtrs/retrieving-counter-names-and-explanations">Retrieving Counter Names and Help Text</a>.
+Index to the object's help text in the title database.  For details on using the index to retrieve the object's help text, see <a href="/windows/win32/perfctrs/retrieving-counter-names-and-help-text">Retrieving Counter Names and Help Text</a>.
 
 Providers specify the index value in their initialization file. For details, see <a href="/windows/desktop/PerfCtrs/adding-counter-names-and-descriptions-to-the-registry">Adding Counter Names and Descriptions to the Registry</a>.
 

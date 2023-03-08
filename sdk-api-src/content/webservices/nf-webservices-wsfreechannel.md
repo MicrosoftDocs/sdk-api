@@ -52,20 +52,14 @@ api_name:
 
 Releases the memory resource associated with a Channel object.
             
-                The <b>Channel</b> must be in the either the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE_CREATED</a> 
-                or <b>WS_CHANNEL_STATE_CLOSED</b> state to be released.
-            If a Channel has been successfully opened it must be closed before it
-                can be released.
+The <b>Channel</b> must be in the either the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE_CREATED</a> or <b>WS_CHANNEL_STATE_CLOSED</b> state to be released. If a Channel has been successfully opened it must be closed before it can be released.
 
 ## -parameters
 
 ### -param channel [in]
 
-A pointer to the <b>Channel</b> object to release. The pointer must reference a valid <a href="/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> object returned
-                    by <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>.
-                    The referenced value may not be <b>NULL</b>.
+A pointer to the <b>Channel</b> object to release. The pointer must reference a valid <a href="/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> object returned by <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>. The referenced value may not be <b>NULL</b>.
 
 ## -remarks
 
-A channel that is in the process of being accepted/opened cannot be
-                released until the accept/open completes.  Use <a href="/windows/desktop/api/webservices/nf-webservices-wsabortchannel">WsAbortChannel</a> to cancel the accept/open process.
+A channel that is in the process of being accepted/opened cannot be released until the accept/open completes.  Use <a href="/windows/desktop/api/webservices/nf-webservices-wsabortchannel">WsAbortChannel</a> to cancel the accept/open process.

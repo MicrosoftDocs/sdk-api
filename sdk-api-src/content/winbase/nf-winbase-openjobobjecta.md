@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.OpenJobObjectA
 title: OpenJobObjectA function (winbase.h)
-description: Opens an existing job object.
+description: Opens an existing job object. (OpenJobObjectA)
 helpviewer_keywords: ["OpenJobObject","OpenJobObject function","OpenJobObjectA","OpenJobObjectW","_win32_openjobobject","base.openjobobject","winbase/OpenJobObject","winbase/OpenJobObjectA","winbase/OpenJobObjectW"]
 old-location: base\openjobobject.htm
 tech.root: backup
@@ -75,7 +75,7 @@ The name of the job to be opened. Name comparisons are case sensitive.
 
 This function can open objects in a private namespace. For more information, see <a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
 
-<b>Terminal Services:  </b>The name can have a "Global\" or "Local\" prefix to explicitly open the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
+<b>Terminal Services:  </b>The name can have a "Global\" or "Local\" prefix to explicitly open the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\\). For more information, see 
 <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>.
 
 ## -returns

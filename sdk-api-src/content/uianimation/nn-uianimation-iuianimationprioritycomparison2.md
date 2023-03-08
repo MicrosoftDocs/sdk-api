@@ -54,38 +54,15 @@ Defines a method that resolves scheduling conflicts through priority comparison.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationPriorityComparison2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationPriorityComparison2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUIAnimationPriorityComparison2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationprioritycomparison2-haspriority">HasPriority</a>
-</td>
-<td align="left" width="63%">
-Determines the relative priority between a scheduled storyboard and a new storyboard.
-
-</td>
-</tr>
-</table>
+The <b>IUIAnimationPriorityComparison2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationPriorityComparison2</b> also has these types of members:
 
 ## -remarks
 
-A single animation variable can be included in multiple storyboards, 
-         but multiple storyboards cannot animate the same variable at the same time.
+A single animation variable can be included in multiple storyboards, but multiple storyboards cannot animate the same variable at the same time.
          
-         If a newly scheduled storyboard attempts to animate one or more variables that are currently scheduled for animation by  different storyboards, a scheduling conflict occurs.
+If a newly scheduled storyboard attempts to animate one or more variables that are currently scheduled for animation by  different storyboards, a scheduling conflict occurs.
          
-         To determine which storyboard has priority, the animation manager can call the <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationprioritycomparison2-haspriority">HasPriority</a> method on one or more  priority comparison handlers provided by the application.
+To determine which storyboard has priority, the animation manager can call the <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationprioritycomparison2-haspriority">HasPriority</a> method on one or more  priority comparison handlers provided by the application.
 
 ## -see-also
 

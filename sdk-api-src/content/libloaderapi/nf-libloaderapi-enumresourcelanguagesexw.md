@@ -1,8 +1,8 @@
 ---
 UID: NF:libloaderapi.EnumResourceLanguagesExW
 title: EnumResourceLanguagesExW function (libloaderapi.h)
-description: Enumerates language-specific resources, of the specified type and name, associated with a specified binary module. Extends EnumResourceLanguages by allowing more control over the enumeration.
-helpviewer_keywords: ["EnumResourceLanguagesEx","EnumResourceLanguagesEx function [Menus and Other Resources]","EnumResourceLanguagesExA","EnumResourceLanguagesExW","RESOURCE_ENUM_LN","RESOURCE_ENUM_MUI","RESOURCE_ENUM_MUI_SYSTEM","RESOURCE_ENUM_VALIDATE","_win32_EnumResourceLanguagesEx","_win32_enumresourcelanguagesex_cpp","libloaderapi/EnumResourceLanguagesEx","libloaderapi/EnumResourceLanguagesExA","libloaderapi/EnumResourceLanguagesExW","menurc.enumresourcelanguagesex","winui._win32_enumresourcelanguagesex"]
+description: Enumerates language-specific resources, of the specified type and name, associated with a specified binary module. Extends EnumResourceLanguages by allowing more control over the enumeration. (Unicode)
+helpviewer_keywords: ["EnumResourceLanguagesEx", "EnumResourceLanguagesEx function [Menus and Other Resources]", "EnumResourceLanguagesExW", "RESOURCE_ENUM_LN", "RESOURCE_ENUM_MUI", "RESOURCE_ENUM_MUI_SYSTEM", "RESOURCE_ENUM_VALIDATE", "_win32_EnumResourceLanguagesEx", "_win32_enumresourcelanguagesex_cpp", "libloaderapi/EnumResourceLanguagesEx", "libloaderapi/EnumResourceLanguagesExW", "menurc.enumresourcelanguagesex", "winui._win32_enumresourcelanguagesex"]
 old-location: menurc\enumresourcelanguagesex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcelanguagesex.htm
@@ -60,7 +60,7 @@ api_name:
 
 ## -description
 
-Enumerates language-specific resources, of the specified type and name, associated with a specified binary module. Extends <a href="https://msdn.microsoft.com/8e47d8df-e3ce-4125-aa77-8098a060f4aa">EnumResourceLanguages</a> by allowing more control over the enumeration.
+Enumerates language-specific resources, of the specified type and name, associated with a specified binary module. Extends <a href="/windows/win32/api/winbase/nf-winbase-enumresourcelanguagesa">EnumResourceLanguages</a> by allowing more control over the enumeration.
 
 ## -parameters
 
@@ -78,7 +78,7 @@ If this parameter is <b>NULL</b>, it is equivalent to passing in a handle to the
 
 Type: <b>LPCTSTR</b>
 
-The type of the resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="/windows/desktop/menurc/resource-types">Resource Types</a>. For more 
+The type of the resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="/windows/win32/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="/windows/desktop/menurc/resource-types">Resource Types</a>. For more 
 
 information, see the Remarks section below.
 
@@ -86,7 +86,7 @@ information, see the Remarks section below.
 
 Type: <b>LPCTSTR</b>
 
-The name of the resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the resource. For more information, see the Remarks section below.
+The name of the resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="/windows/win32/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the resource. For more information, see the Remarks section below.
 
 ### -param lpEnumFunc [in]
 
@@ -171,11 +171,11 @@ Returns <b>TRUE</b> if the function succeeds or <b>FALSE</b> if the function doe
 
 ## -remarks
 
-If <a href="https://msdn.microsoft.com/af7d1343-93b7-4e11-a299-3c2f19bb2e98">IS_INTRESOURCE</a>(<i>lpType</i>) is <b>TRUE</b>, then <i>lpType</i> specifies the integer identifier of the given resource type. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the 
+If <a href="/windows/win32/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>(<i>lpType</i>) is <b>TRUE</b>, then <i>lpType</i> specifies the integer identifier of the given resource type. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the 
 
 integer identifier of the resource type. For example, the string "#258" represents the identifier 258.
 
-Similarly, if <a href="https://msdn.microsoft.com/af7d1343-93b7-4e11-a299-3c2f19bb2e98">IS_INTRESOURCE</a>(<i>lpName</i>) is <b>TRUE</b>, then <i>lpName</i> specifies the integer identifier of the given resource. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the 
+Similarly, if <a href="/windows/win32/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>(<i>lpName</i>) is <b>TRUE</b>, then <i>lpName</i> specifies the integer identifier of the given resource. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the 
 
 integer identifier of the resource.
 
@@ -218,15 +218,15 @@ For an example, see <a href="/windows-hardware/drivers/wdf/creating-a-resource-r
 
 
 
-<a href="https://msdn.microsoft.com/d392c913-d71c-47fc-9b11-2688731d13e7">EnumResourceNamesEx</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa">EnumResourceNamesEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/212ee064-b5d1-4309-9ee0-72340dd69328">EnumResourceTypesEx</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcetypesexa">EnumResourceTypesEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>
+<a href="/windows/win32/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
 
 
 

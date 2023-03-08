@@ -98,7 +98,7 @@ Or in detail:
 
 <ul>
 <li>
-Bits 0-5 of <b>v</b> are the 6 bit <i>mantissa</i> of the <b>x</b>component's floating point value: the <b>xm</b> member of the structure.
+Bits 0-5 of <b>v</b> are the 6 bit <i>mantissa</i> of the <b>x</b> component's floating point value: the <b>xm</b> member of the structure.
 	     
 
 </li>

@@ -64,7 +64,7 @@ Determines whether the system is applying periodic time adjustments to its time-
 
 ### -param lpTimeAdjustment [out]
 
-A pointer to a variable that the function sets to the number of <i>lpTimeIncrement</i>100-nanosecond units added to the time-of-day clock for every  period of time which actually passes as counted by the system. This value only has meaning if <i>lpTimeAdjustmentDisabled</i> is <b>FALSE</b>.
+A pointer to a variable that the function sets to the number of <i>lpTimeIncrement</i> 100-nanosecond units added to the time-of-day clock for every  period of time which actually passes as counted by the system. This value only has meaning if <i>lpTimeAdjustmentDisabled</i> is <b>FALSE</b>.
 
 ### -param lpTimeIncrement [out]
 

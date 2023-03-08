@@ -79,10 +79,10 @@ Amount of stack memory, in bytes, required to invoke the shader.  If the shader 
 
 This method only needs to be called if the app wants to configure the stack size by calling <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12stateobjectproperties-setpipelinestacksize">SetPipelineStackSize</a>, rather than relying on the conservative default stack size. This method is only valid for ray generation shaders, hit groups, miss shaders, and callable shaders. Even ray generation shaders may return a non-zero value despite being at the bottom of the stack.
 
-For hit groups, stack size must be queried for the individual shaders comprising it (intersection shaders, any hit shaders, alosest hit shaders), as each likely has a different stack size requirement.  The stack size can’t be queried on these individual shaders directly, as the way they are compiled can be influenced by the overall hit group that contains them.  The <i>pExportName</i> parameter includes syntax for identifying individual shaders within a hit group.
+For hit groups, stack size must be queried for the individual shaders comprising it (intersection shaders, any hit shaders, closest hit shaders), as each likely has a different stack size requirement.  The stack size can’t be queried on these individual shaders directly, as the way they are compiled can be influenced by the overall hit group that contains them.  The <i>pExportName</i> parameter includes syntax for identifying individual shaders within a hit group.
 
 This API can be called on either collection state objects or raytracing pipeline state objects.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847466(v=VS.85).aspx">ID3D12StateObjectProperties</a>
+<a href="../d3d12/nn-d3d12-id3d12stateobjectproperties.md">ID3D12StateObjectProperties</a>

@@ -56,7 +56,7 @@ Describes the gamma function used for color interpolation.
 
 ## -enum-fields
 
-### -field XPS_COLOR_INTERPOLATION_SCRGBLINEAR
+### -field XPS_COLOR_INTERPOLATION_SCRGBLINEAR:1
 
 First, the color values are converted to scRGB, then a linear interpolation is performed between them.
 
@@ -66,5 +66,5 @@ First, the color values are converted to sRGB, then a linear interpolation is pe
 
 ## -see-also
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 

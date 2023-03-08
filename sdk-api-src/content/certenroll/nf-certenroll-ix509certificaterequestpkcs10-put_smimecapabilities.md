@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.put_SmimeCapabilities
 title: IX509CertificateRequestPkcs10::put_SmimeCapabilities (certenroll.h)
-description: Specifies or retrieves a Boolean value that tells the Encode method whether to create an IX509ExtensionSmimeCapabilities collection that identifies the encryption capabilities supported by the computer.
+description: Specifies or retrieves a Boolean value that tells the Encode method whether to create an IX509ExtensionSmimeCapabilities collection that identifies the encryption capabilities supported by the computer. (Put)
 helpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","SmimeCapabilities property","IX509CertificateRequestPkcs10.SmimeCapabilities","IX509CertificateRequestPkcs10.put_SmimeCapabilities","IX509CertificateRequestPkcs10::SmimeCapabilities","IX509CertificateRequestPkcs10::get_SmimeCapabilities","IX509CertificateRequestPkcs10::put_SmimeCapabilities","SmimeCapabilities property [Security]","SmimeCapabilities property [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::SmimeCapabilities","certenroll/IX509CertificateRequestPkcs10::get_SmimeCapabilities","certenroll/IX509CertificateRequestPkcs10::put_SmimeCapabilities","put_SmimeCapabilities","security.ix509certificaterequestpkcs10_smimecapabilities_property"]
 old-location: security\ix509certificaterequestpkcs10_smimecapabilities_property.htm
 tech.root: security

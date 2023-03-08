@@ -51,27 +51,22 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
-
-the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
-
-unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
-
-which leverages functionality exposed by the client in Msipc.dll.]
+>[!Note]
+>The AD RMS SDK leveraging functionality exposed by the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, which leverages functionality exposed by the client in Msipc.dll.
 
 Some of the functions included in the AD RMS SDK provide status information and licenses to your application by using a callback function that you must implement. The callback syntax is shown below.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Specifies the action being performed. This can be one of the <a href="/windows/desktop/api/msdrmdefs/ne-msdrmdefs-drm_status_msg">DRM_STATUS_MSG</a> enumeration values.
 
-### -param Arg2
+### -param unnamedParam2
 
 The status of the current action.
 
-### -param *
+### -param 
 
 An application-defined value, such as a pointer to a callback function or a pointer to an event handle.
 

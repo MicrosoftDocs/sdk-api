@@ -94,7 +94,7 @@ The returned domain name can be longer than 15 characters.
 </tr>
 </table>
 
-### -param *UserData [out]
+### -param UserData [out]
 
 Pointer to a pointer to a 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-security_user_data">SecurityUserData</a> structure. If the function call succeeds, the user information is returned in this structure. The <a href="/windows/desktop/SecGloss/s-gly">security package</a> should allocate the memory for this structure in the caller's address space. The caller is responsible for freeing the buffer by calling the 

@@ -45,12 +45,9 @@ api_name:
  - DML_INTERPOLATION_MODE
 ---
 
-# DML_INTERPOLATION_MODE enumeration
-
-
 ## -description
 
-Defines constants that specify a mode for the DirectML upsample 2-D operator (as described by the [DML_UPSAMPLE_2D_OPERATOR_DESC](/windows/desktop/api/directml/ns-directml-dml_upsample_2d_operator_desc) structure).
+Defines constants that specify a mode for the DirectML upsample 2-D operator (as described by the [DML_UPSAMPLE_2D_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_upsample_2d_operator_desc) structure).
 
 ## -enum-fields
 
@@ -64,5 +61,4 @@ Specifies a linear (including bilinear, trilinear, etc.) mode.
 
 ## -see-also
 
-[DML_UPSAMPLE_2D_OPERATOR_DESC](/windows/desktop/api/directml/ns-directml-dml_upsample_2d_operator_desc)
-
+* [DML_UPSAMPLE_2D_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_upsample_2d_operator_desc)

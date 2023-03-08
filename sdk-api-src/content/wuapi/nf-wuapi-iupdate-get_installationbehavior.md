@@ -57,9 +57,13 @@ This property is read-only.
 
 ## -parameters
 
+## -returns
+
+Returns S_OK if successful. Otherwise, returns a COM or Windows error code.
+
 ## -remarks
 
-If the current update represents a bundle, the <b>InstallationBehavior</b> property of the bundle will be determined by the <b>InstallationBehavior</b> property of the child updates of the bundle.
+If the current update represents a bundle, the <b>InstallationBehavior</b> property of the bundle will be determined by the <b>InstallationBehavior</b> property of the child updates of the bundle. This API can return a null pointer as the output, even when the return value is S_OK.
 
 ## -see-also
 

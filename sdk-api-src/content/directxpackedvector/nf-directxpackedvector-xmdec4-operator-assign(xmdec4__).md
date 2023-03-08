@@ -52,23 +52,23 @@ api_name:
 
 Assigns the vector component data from one instance of <code>XMDEC4</code> to the current instance of <code>XMDEC4</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/a52fa5e4-ee45-4256-a06a-6984d63b5578">XMDEC4</a> to the current instance of <code>XMDEC4</code>.
+This operator assigns the vector component data from one instance of <a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmdec4">XMDEC4</a> to the current instance of <code>XMDEC4</code>.
 
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Instance of <code>XMDEC4</code> used to update the current <code>XMDEC4</code> structure.
 
 ## -returns
 
-The current instance of <code>XMDEC4</code> whose vector component data has been updated to match those of the <code>XMDEC4</code> instance specified by the <b>Dec4</b>argument.
+The current instance of <code>XMDEC4</code> whose vector component data has been updated to match those of the <code>XMDEC4</code> instance specified by the <b>Dec4</b> argument.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/a52fa5e4-ee45-4256-a06a-6984d63b5578">XMDEC4</a>
+<a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmdec4">XMDEC4</a>
 
 <a href="https://msdn.microsoft.com/46a34196-d32a-4ddf-9245-c568b9461f7d">operator = </a>
 

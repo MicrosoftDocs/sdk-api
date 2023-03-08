@@ -54,29 +54,10 @@ The <b>IStreamBufferSink3</b> interface is exposed by the <a href="/previous-ver
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferSink3</b> interface inherits from <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink2">IStreamBufferSink2</a>. <b>IStreamBufferSink3</b> also has these types of members:
+The <b>IStreamBufferSink3</b> interface inherits from <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink2">IStreamBufferSink2</a>. <b>IStreamBufferSink3</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IStreamBufferSink3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffersink3-setavailablefilter">SetAvailableFilter</a>
-</td>
-<td align="left" width="63%">
-Limits how far the Stream Buffer Source filter can seek backward.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

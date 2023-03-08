@@ -55,11 +55,11 @@ Used by the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> funct
 
 ## -parameters
 
-### -param *callbackState [in]
+### -param callbackState [in]
 
 A   <b>void</b> pointer to the user-defined state value that was passed to the function that accepted this callback.
 
-### -param *buffers
+### -param buffers
 
 A  pointer to the buffers containing the data to be written.
 
@@ -67,11 +67,11 @@ A  pointer to the buffers containing the data to be written.
 
 The number of buffers to write.
 
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 A pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information on how to invoke the function asynchronously.  Assigned <b>NULL</b> if invoking synchronously.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 A pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> data structure where additional error information should be stored if the function fails.
 

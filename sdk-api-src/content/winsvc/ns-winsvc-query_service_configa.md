@@ -1,7 +1,7 @@
 ---
 UID: NS:winsvc._QUERY_SERVICE_CONFIGA
 title: QUERY_SERVICE_CONFIGA (winsvc.h)
-description: Contains configuration information for an installed service. It is used by the QueryServiceConfig function.
+description: Contains configuration information for an installed service. It is used by the QueryServiceConfig function. (ANSI)
 helpviewer_keywords: ["*LPQUERY_SERVICE_CONFIGA","LPQUERY_SERVICE_CONFIG","LPQUERY_SERVICE_CONFIG structure pointer","QUERY_SERVICE_CONFIG","QUERY_SERVICE_CONFIG structure","QUERY_SERVICE_CONFIGA","QUERY_SERVICE_CONFIGW","SERVICE_AUTO_START","SERVICE_BOOT_START","SERVICE_DEMAND_START","SERVICE_DISABLED","SERVICE_ERROR_CRITICAL","SERVICE_ERROR_IGNORE","SERVICE_ERROR_NORMAL","SERVICE_ERROR_SEVERE","SERVICE_FILE_SYSTEM_DRIVER","SERVICE_INTERACTIVE_PROCESS","SERVICE_KERNEL_DRIVER","SERVICE_SYSTEM_START","SERVICE_WIN32_OWN_PROCESS","SERVICE_WIN32_SHARE_PROCESS","_win32_query_service_config_str","base.query_service_config_str","winsvc/LPQUERY_SERVICE_CONFIG","winsvc/QUERY_SERVICE_CONFIG","winsvc/QUERY_SERVICE_CONFIGA","winsvc/QUERY_SERVICE_CONFIGW"]
 old-location: base\query_service_config_str.htm
 tech.root: security

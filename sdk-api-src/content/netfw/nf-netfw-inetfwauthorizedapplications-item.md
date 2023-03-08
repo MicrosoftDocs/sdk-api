@@ -61,23 +61,11 @@ The <b>Item</b> method returns the specified application if it is in the collect
 
 Application to retrieve.
 
-### -param app
-
-TBD
-
-
-
-
-#### - String imageFileName [in]
-
-Application to retrieve.
-
-
-#### - application [out]
+### -param app [out]
 
 Reference to the returned <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFwAuthorizedApplication</a> object.
 
-Reference to the returned <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFwAuthorizedApplication</a> object.
+
 
 ## -returns
 

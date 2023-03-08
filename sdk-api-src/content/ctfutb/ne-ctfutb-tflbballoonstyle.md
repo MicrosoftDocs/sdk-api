@@ -56,15 +56,15 @@ Elements of the <b>TfLBBalloonStyle</b> enumeration are used to specify a langua
 
 ## -enum-fields
 
-### -field TF_LB_BALLOON_RECO
+### -field TF_LB_BALLOON_RECO:0
 
 This balloon style is used to represent a reconversion operation.
 
-### -field TF_LB_BALLOON_SHOW
+### -field TF_LB_BALLOON_SHOW:1
 
 This is a normal balloon style.
 
-### -field TF_LB_BALLOON_MISS
+### -field TF_LB_BALLOON_MISS:2
 
 This balloon style is used to indicate that a command was not recognized.
 

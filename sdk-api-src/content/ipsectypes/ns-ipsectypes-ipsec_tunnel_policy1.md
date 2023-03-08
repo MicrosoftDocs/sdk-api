@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_TUNNEL_POLICY1_
 title: IPSEC_TUNNEL_POLICY1 (ipsectypes.h)
-description: Stores the quick mode negotiation policy for tunnel mode IPsec.
+description: Stores the quick mode negotiation policy for tunnel mode IPsec. (IPSEC_TUNNEL_POLICY1)
 helpviewer_keywords: ["IPSEC_POLICY_FLAG_CLEAR_DF_ON_TUNNEL","IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME","IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME","IPSEC_POLICY_FLAG_ENABLE_SERVER_ADDR_ASSIGNMENT","IPSEC_POLICY_FLAG_ENABLE_V6_IN_V4_TUNNELING","IPSEC_POLICY_FLAG_ND_BOUNDARY","IPSEC_POLICY_FLAG_ND_SECURE","IPSEC_POLICY_FLAG_TUNNEL_ALLOW_OUTBOUND_CLEAR_CONNECTION","IPSEC_POLICY_FLAG_TUNNEL_BYPASS_ALREADY_SECURE_CONNECTION","IPSEC_POLICY_FLAG_TUNNEL_BYPASS_ICMPV6","IPSEC_TUNNEL_POLICY1","IPSEC_TUNNEL_POLICY1 structure [Filtering]","fwp.ipsec_tunnel_policy1_struct","ipsectypes/IPSEC_TUNNEL_POLICY1"]
 old-location: fwp\ipsec_tunnel_policy1_struct.htm
 tech.root: fwp
@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IPSEC_TUNNEL_POLICY1</b> structure stores the quick mode negotiation policy for tunnel mode IPsec.
-[IPSEC_TUNNEL_POLICY2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2) is available.</div><div> </div>
+[IPSEC_TUNNEL_POLICY2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2) is available.
 
 ## -struct-fields
 
@@ -210,7 +210,7 @@ See [IKEEXT_EM_POLICY1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_poli
 
 
 
-<a href="/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints0_">IPSEC_TUNNEL_ENDPOINTS1</a>
+<a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints1">IPSEC_TUNNEL_ENDPOINTS1</a>
 
 
 

@@ -436,7 +436,7 @@ The advise data transaction has just been completed.
 </dl>
 </td>
 <td width="60%">
-Advise data has been sent and is awaiting an acknowledgement.
+Advise data has been sent and is awaiting an acknowledgment.
 
 </td>
 </tr>
@@ -447,7 +447,7 @@ Advise data has been sent and is awaiting an acknowledgement.
 </dl>
 </td>
 <td width="60%">
-An advise transaction is awaiting an acknowledgement.
+An advise transaction is awaiting an acknowledgment.
 
 </td>
 </tr>
@@ -491,7 +491,7 @@ An execute transaction has just been completed.
 </dl>
 </td>
 <td width="60%">
-An execute transaction is awaiting an acknowledgement.
+An execute transaction is awaiting an acknowledgment.
 
 </td>
 </tr>
@@ -557,7 +557,7 @@ A poke transaction has just been completed.
 </dl>
 </td>
 <td width="60%">
-A poke transaction is awaiting an acknowledgement.
+A poke transaction is awaiting an acknowledgment.
 
 </td>
 </tr>
@@ -568,7 +568,7 @@ A poke transaction is awaiting an acknowledgement.
 </dl>
 </td>
 <td width="60%">
-A request transaction is awaiting an acknowledgement.
+A request transaction is awaiting an acknowledgment.
 
 </td>
 </tr>
@@ -590,7 +590,7 @@ An unadvise transaction has just been completed.
 </dl>
 </td>
 <td width="60%">
-An unadvise transaction is awaiting an acknowledgement.
+An unadvise transaction is awaiting an acknowledgment.
 
 </td>
 </tr>

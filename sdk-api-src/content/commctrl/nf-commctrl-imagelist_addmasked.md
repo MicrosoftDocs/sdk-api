@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ImageList_AddMasked
 title: ImageList_AddMasked function (commctrl.h)
-description: Adds an image or images to an image list, generating a mask from the specified bitmap.
+description: Adds an image or images to an image list, generating a mask from the specified bitmap. (ImageList_AddMasked)
 helpviewer_keywords: ["ImageList_AddMasked","ImageList_AddMasked function [Windows Controls]","_win32_ImageList_AddMasked","_win32_ImageList_AddMasked_cpp","commctrl/ImageList_AddMasked","controls.ImageList_AddMasked","controls._win32_ImageList_AddMasked"]
 old-location: controls\ImageList_AddMasked.htm
 tech.root: Controls
@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
 api_name:
  - ImageList_AddMasked
+req.apiset: ext-ms-win-shell-comctl32-init-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ImageList_AddMasked function
@@ -71,7 +72,7 @@ A handle to the bitmap that contains one or more images. The number of images is
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-The color used to generate the mask. Each pixel of this color in the specified bitmap is changed to black, and the corresponding bit in the mask is set to 1.
+The color used to generate the mask. Each pixel of this color in the specified bitmap is changed to black, and the corresponding bit in the mask is set to 1. If this parameter is CLR_DEFAULT, then the color of the pixel at (0,0) is used as the mask.
 
 ## -returns
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GrayStringW
 title: GrayStringW function (winuser.h)
-description: The GrayString function draws gray text at the specified location.
-helpviewer_keywords: ["GrayString","GrayString function [Windows GDI]","GrayStringA","GrayStringW","_win32_GrayString","gdi.graystring","winuser/GrayString","winuser/GrayStringA","winuser/GrayStringW"]
+description: The GrayString function draws gray text at the specified location. (Unicode)
+helpviewer_keywords: ["GrayString", "GrayString function [Windows GDI]", "GrayStringW", "_win32_GrayString", "gdi.graystring", "winuser/GrayString", "winuser/GrayStringW"]
 old-location: gdi\graystring.htm
 tech.root: gdi
 ms.assetid: b14b8c40-f97f-4e41-8d8d-687692acfda9

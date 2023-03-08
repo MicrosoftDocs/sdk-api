@@ -58,7 +58,7 @@ The
 
 ### -param lpProviderId [in]
 
-An array of <b>NSProviderId</b> elements as found in the <a href="/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infow">WSANAMESPACE_INFO</a>structure.  The order of the <b>NSProviderId</b> elements is the new
+An array of <b>NSProviderId</b> elements as found in the <a href="/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infow">WSANAMESPACE_INFO</a> structure.  The order of the <b>NSProviderId</b> elements is the new
       priority ordering for the namespace providers.
 
 ### -param dwNumberOfEntries [in]

@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateSessionsExW
 title: WTSEnumerateSessionsExW function (wtsapi32.h)
-description: Retrieves a list of sessions on a specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
-helpviewer_keywords: ["WTSEnumerateSessionsEx","WTSEnumerateSessionsEx function [Remote Desktop Services]","WTSEnumerateSessionsExA","WTSEnumerateSessionsExW","termserv.wtsenumeratesessionsex","wtsapi32/WTSEnumerateSessionsEx","wtsapi32/WTSEnumerateSessionsExA","wtsapi32/WTSEnumerateSessionsExW"]
+description: Retrieves a list of sessions on a specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server. (Unicode)
+helpviewer_keywords: ["WTSEnumerateSessionsEx", "WTSEnumerateSessionsEx function [Remote Desktop Services]", "WTSEnumerateSessionsExW", "termserv.wtsenumeratesessionsex", "wtsapi32/WTSEnumerateSessionsEx", "wtsapi32/WTSEnumerateSessionsExW"]
 old-location: termserv\wtsenumeratesessionsex.htm
 tech.root: TermServ
 ms.assetid: b903cf07-d3bd-4b65-9e57-88d9e1f74e0b
@@ -46,6 +46,7 @@ api_name:
  - WTSEnumerateSessionsEx
  - WTSEnumerateSessionsExA
  - WTSEnumerateSessionsExW
+req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 ---
 
 # WTSEnumerateSessionsExW function

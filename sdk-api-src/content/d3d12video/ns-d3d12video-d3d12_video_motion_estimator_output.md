@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_VIDEO_MOTION_ESTIMATOR_OUTPUT
 title: D3D12_VIDEO_MOTION_ESTIMATOR_OUTPUT
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Specifies the output parameters for calls to ID3D12VideoEncodeCommandList::EstimateMotion.
 tech.root: mf
@@ -44,7 +43,7 @@ Specifies the output parameters for calls to [ID3D12VideoEncodeCommandList::Esti
 
 ### -field pMotionVectorHeap
 
-An [ID3D12Resource](../d3d12/nn-d3d12-id3d12resource.md) containing the resolved motion estimation vectors. Motion vectors are resolved to a [DXGI_FORMAT_R16G16_SINT](../dxgiformat/ne-dxgiformat-dxgi_format.md) 2D texture. The resolved data is a signed 16-byte integer with quarter PEL units with the X vector component stored in the R component and the Y vector component stored in the G component. Motion vectors are stored in a 2D layout that corresponds to the pixel layout of the original input textures.
+An [ID3D12VideoMotionVectorHeap](nn-d3d12video-id3d12videomotionvectorheap.md) containing the resolved motion estimation vectors. Motion vectors are resolved to a [DXGI_FORMAT_R16G16_SINT](../dxgiformat/ne-dxgiformat-dxgi_format.md) 2D texture. The resolved data is a signed 16-byte integer with quarter PEL units with the X vector component stored in the R component and the Y vector component stored in the G component. Motion vectors are stored in a 2D layout that corresponds to the pixel layout of the original input textures.
 
 ## -remarks
 

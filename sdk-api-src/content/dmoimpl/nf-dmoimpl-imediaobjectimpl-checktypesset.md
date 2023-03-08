@@ -55,7 +55,7 @@ api_name:
 
 The <code>CheckTypesSet</code> method determines whether the media type has been set on all of the streams.
 
-## -parameters
+
 
 ## -returns
 

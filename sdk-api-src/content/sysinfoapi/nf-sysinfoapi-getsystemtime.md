@@ -1,7 +1,7 @@
 ---
 UID: NF:sysinfoapi.GetSystemTime
 title: GetSystemTime function (sysinfoapi.h)
-description: Retrieves the current system date and time. The system time is expressed in Coordinated Universal Time (UTC).
+description: Retrieves the current system date and time in Coordinated Universal Time (UTC) format.
 helpviewer_keywords: ["GetSystemTime","GetSystemTime function","_win32_getsystemtime","base.getsystemtime","sysinfoapi/GetSystemTime"]
 old-location: base\getsystemtime.htm
 tech.root: winprog
@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - GetSystemTime
  - sysinfoapi/GetSystemTime
@@ -58,7 +58,7 @@ api_name:
 
 ## -description
 
-Retrieves the current system date and time. The system time is expressed in Coordinated Universal Time (UTC).
+Retrieves the current system date and time in Coordinated Universal Time (UTC) format.
 
 To retrieve the current system date and time in local time, use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlocaltime">GetLocalTime</a> function.
 
@@ -76,7 +76,30 @@ To set the current system date and time, use the <a href="/windows/desktop/api/s
 
 #### Examples
 
-For an example, see 
+```cpp
+#include <windows.h>
+#include <stdio.h>
+
+void main()
+{
+    SYSTEMTIME st, lt;
+    
+    GetSystemTime(&st);
+    GetLocalTime(&lt);
+    
+    printf("The system time is: %02d:%02d\n", st.wHour, st.wMinute);
+    printf(" The local time is: %02d:%02d\n", lt.wHour, lt.wMinute);
+}
+```
+
+```dos
+// Sample output
+
+The system time is: 19:34
+ The local time is: 12:34
+```
+
+For more information about this example, see 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>.
 
 <div class="code"></div>

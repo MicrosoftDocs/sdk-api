@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates a copy of the current <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselectorenumerator">IOpcRelationshipSelectorEnumerator</a>interface pointer and all its descendants.
+Creates a copy of the current <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselectorenumerator">IOpcRelationshipSelectorEnumerator</a> interface pointer and all its descendants.
 
 ## -parameters
 
 ### -param copy [out, retval]
 
-A pointer to a copy of the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselectorenumerator">IOpcRelationshipSelectorEnumerator</a>interface pointer.
+A pointer to a copy of the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselectorenumerator">IOpcRelationshipSelectorEnumerator</a> interface pointer.
 
 ## -returns
 

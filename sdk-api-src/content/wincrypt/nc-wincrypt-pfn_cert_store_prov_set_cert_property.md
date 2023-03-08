@@ -77,7 +77,7 @@ See <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontext
 
 Copy of the <i>dwFlags</i> passed as a parameter to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>.
 
-### -param *pvData [in]
+### -param pvData [in]
 
 See <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>.
 

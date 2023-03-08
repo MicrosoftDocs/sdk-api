@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - SoundSentry
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # SoundSentry function
@@ -57,7 +58,7 @@ api_name:
 
 Triggers a visual signal to indicate that a sound is playing.
 
-## -parameters
+
 
 ## -returns
 

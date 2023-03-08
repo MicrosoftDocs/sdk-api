@@ -52,7 +52,7 @@ api_name:
 
 Instructs the object to release all storage objects that have been passed to it by its container and to enter HandsOff mode.
 
-## -parameters
+
 
 ## -returns
 

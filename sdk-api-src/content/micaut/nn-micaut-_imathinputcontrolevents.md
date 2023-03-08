@@ -54,53 +54,5 @@ The <b>_IMathInputControlEvents</b> interface exposes the math input control eve
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">_IMathInputControlEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>_IMathInputControlEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>_IMathInputControlEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>_IMathInputControlEvents</b> also has these types of members:
 
-## -members
-
-The <b>_IMathInputControlEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/dd317350(v=vs.85)">Clear</a>
-</td>
-<td align="left" width="63%">
-Notifies the event handler when the <b>Clear</b> button is clicked.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/dd317351(v=vs.85)">Close</a>
-</td>
-<td align="left" width="63%">
-Notifies the event handler when the <b>Close</b> button is clicked.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/dd317352(v=vs.85)">Insert</a>
-</td>
-<td align="left" width="63%">
-Notifies the event handler when the <b>Insert</b> button is clicked.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/dd317353(v=vs.85)">Paint</a>
-</td>
-<td align="left" width="63%">
-Notifies the event handler when the buttons and background of the control require painting.
-
-</td>
-</tr>
-</table>

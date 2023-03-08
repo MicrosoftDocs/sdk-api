@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_DesiredPacketDescription
 title: IInkPicture::put_DesiredPacketDescription (msinkaut.h)
-description: Gets or sets the desired packet description of the InkCollector.
+description: Gets or sets the desired packet description of the InkCollector. (IInkPicture.put_DesiredPacketDescription)
 helpviewer_keywords: ["DesiredPacketDescription property [Tablet PC]","DesiredPacketDescription property [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","DesiredPacketDescription property","IInkPicture.DesiredPacketDescription","IInkPicture.put_DesiredPacketDescription","IInkPicture::DesiredPacketDescription","IInkPicture::get_DesiredPacketDescription","IInkPicture::put_DesiredPacketDescription","InkPicture.get_DesiredPacketDescription","InkPicture.put_DesiredPacketDescription","get_DesiredPacketDescription","msinkaut/IInkPicture::DesiredPacketDescription","msinkaut/IInkPicture::get_DesiredPacketDescription","msinkaut/IInkPicture::put_DesiredPacketDescription","putDesiredPacketDescription","put_DesiredPacketDescription","tablet.inkpicture_desiredpacketdescription"]
 old-location: tablet\inkpicture_desiredpacketdescription.htm
 tech.root: tablet
@@ -77,7 +77,7 @@ Changes to this property do not affect incoming packet data until the <a href="/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

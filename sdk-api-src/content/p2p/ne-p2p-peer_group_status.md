@@ -56,17 +56,17 @@ The <b>PEER_GROUP_STATUS</b> flags indicate whether or not the peer group has co
 
 ## -enum-fields
 
-### -field PEER_GROUP_STATUS_LISTENING
+### -field PEER_GROUP_STATUS_LISTENING:0x0001
 
 The peer group is awaiting new connections.
 
-### -field PEER_GROUP_STATUS_HAS_CONNECTIONS
+### -field PEER_GROUP_STATUS_HAS_CONNECTIONS:0x0002
 
 The peer group has at least one connection.
 
 ## -see-also
 
-[PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md)
+[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1)
 
 
 

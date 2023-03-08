@@ -1,12 +1,12 @@
 ---
 UID: NS:d3d11_3.CD3D11_TEXTURE2D_DESC1
 title: CD3D11_TEXTURE2D_DESC1 (d3d11_3.h)
-description: Describes a 2D texture.
+description: The CD3D11_TEXTURE2D_DESC1 (d3d11_3.h) structure describes a 2D texture.
 helpviewer_keywords: ["CD3D11_TEXTURE2D_DESC1","D3D11_TEXTURE2D_DESC1","D3D11_TEXTURE2D_DESC1 structure [Direct3D 11]","d3d11_3/D3D11_TEXTURE2D_DESC1","direct3d11.d3d11_texture2d_desc1"]
 old-location: direct3d11\d3d11_texture2d_desc1.htm
 tech.root: direct3d11
 ms.assetid: DADDC12C-CF1E-48B4-B8C0-3029EC6B711B
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: CD3D11_TEXTURE2D_DESC1, D3D11_TEXTURE2D_DESC1, D3D11_TEXTURE2D_DESC1 structure [Direct3D 11], d3d11_3/D3D11_TEXTURE2D_DESC1, direct3d11.d3d11_texture2d_desc1
 req.header: d3d11_3.h
 req.include-header: 
@@ -80,12 +80,12 @@ Number of textures in the texture array. The  range is from 1 to D3D11_REQ_TEXTU
 
 #### - BindFlags
 
-Flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_FLAG</a>) for binding to pipeline stages. The flags can be combined by a logical OR.
+Flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_FLAG</a>) for binding to pipeline stages. The flags can be combined by a bitwise OR.
 
 
 #### - CPUAccessFlags
 
-Flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_cpu_access_flag">D3D11_CPU_ACCESS_FLAG</a>) to specify the types of CPU access allowed. Use 0 if CPU access is not required. These flags can be combined with a logical OR.
+Flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_cpu_access_flag">D3D11_CPU_ACCESS_FLAG</a>) to specify the types of CPU access allowed. Use 0 if CPU access is not required. These flags can be combined with a bitwise OR.
 
 
 #### - Format
@@ -105,7 +105,7 @@ The maximum number of mipmap levels in the texture. See the remarks in <a href="
 
 #### - MiscFlags
 
-Flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_FLAG</a>) that identify other, less common resource options. Use 0 if none of these flags apply. These flags can be combined by using a logical OR. For a texture cube-map, set the <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_TEXTURECUBE</a> flag. Cube-map arrays (that is, <b>ArraySize</b> &gt; 6) require feature level <a href="/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL_10_1</a> or higher.
+Flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_FLAG</a>) that identify other, less common resource options. Use 0 if none of these flags apply. These flags can be combined by using a bitwise OR. For a texture cube-map, set the <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_TEXTURECUBE</a> flag. Cube-map arrays (that is, <b>ArraySize</b> &gt; 6) require feature level <a href="/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL_10_1</a> or higher.
 
 
 #### - SampleDesc

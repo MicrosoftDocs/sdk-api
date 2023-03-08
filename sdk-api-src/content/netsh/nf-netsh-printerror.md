@@ -63,7 +63,7 @@ A handle to the module from which the string should be loaded, or null for syste
 
 The identifier of the message to print.
 
-### -param arg3
+### -param ...
 
 The arguments used to fill into the message.
 
@@ -78,3 +78,4 @@ Returns the number of characters printed. Returns zero upon failure.
 
 
 <a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-printmessagefrommodule">PrintMessageFromModule</a>
+

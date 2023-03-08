@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IShellRunDll
 title: IShellRunDll (shobjidl.h)
-description: Not supported.
+description: Not supported. (IShellRunDll)
 helpviewer_keywords: ["IShellRunDll","IShellRunDll interface [Windows Shell]","IShellRunDll interface [Windows Shell]","described","_shell_IShellRunDll","shell.IShellRunDll","shobjidl/IShellRunDll"]
 old-location: shell\IShellRunDll.htm
 tech.root: shell
@@ -54,26 +54,5 @@ Not supported.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellRunDll</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellRunDll</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IShellRunDll</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellRunDll</b> also has these types of members:
 
-## -members
-
-The <b>IShellRunDll</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ishellrundll-run">Run</a>
-</td>
-<td align="left" width="63%">
-Not currently supported.
-
-</td>
-</tr>
-</table>

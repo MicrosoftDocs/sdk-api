@@ -46,6 +46,7 @@ api_location:
  - windows.storage.dll
 api_name:
  - SHCreateStdEnumFmtEtc
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SHCreateStdEnumFmtEtc function
@@ -81,4 +82,4 @@ When this function returns successfully, receives an <a href="/windows/desktop/a
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

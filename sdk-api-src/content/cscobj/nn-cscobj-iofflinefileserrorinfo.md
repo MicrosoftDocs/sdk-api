@@ -55,38 +55,7 @@ Provides a text description and raw data block associated with an error.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesErrorInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesErrorInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOfflineFilesErrorInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileserrorinfo-getdescription">GetDescription</a>
-</td>
-<td align="left" width="63%">
-Retrieves a text string describing the error.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileserrorinfo-getrawdata">GetRawData</a>
-</td>
-<td align="left" width="63%">
-Retrieves a block of bytes containing internal data associated with the error.
-
-</td>
-</tr>
-</table>
+The <b>IOfflineFilesErrorInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesErrorInfo</b> also has these types of members:
 
 ## -see-also
 

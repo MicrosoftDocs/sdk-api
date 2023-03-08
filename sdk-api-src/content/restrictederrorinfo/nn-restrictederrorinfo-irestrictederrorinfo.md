@@ -54,35 +54,5 @@ Represents the details of an error, including restricted error information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRestrictedErrorInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRestrictedErrorInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IRestrictedErrorInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRestrictedErrorInfo</b> also has these types of members:
 
-## -members
-
-The <b>IRestrictedErrorInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/restrictederrorinfo/nf-restrictederrorinfo-irestrictederrorinfo-geterrordetails">GetErrorDetails</a>
-</td>
-<td align="left" width="63%">
-Returns information about an error, including the restricted error description.  
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/restrictederrorinfo/nf-restrictederrorinfo-irestrictederrorinfo-getreference">GetReference</a>
-</td>
-<td align="left" width="63%">
-Returns a reference to restricted error information. 
-
-</td>
-</tr>
-</table>

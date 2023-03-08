@@ -82,7 +82,7 @@ When this method returns, contains the address of a pointer to the new bitmap. T
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -remarks
 
@@ -95,7 +95,7 @@ You may also use this method to reinterpret the data of an existing bitmap and s
 
 <h3><a id="Sharing_an_IDXGISurface"></a><a id="sharing_an_idxgisurface"></a><a id="SHARING_AN_IDXGISURFACE"></a>Sharing an IDXGISurface</h3>
 
-When using a DXGI surface render target (an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a> object created by the <a href="/windows/win32/api/d2d1/nf-d2d1-createdxgisurfacerendertarget">CreateDxgiSurfaceRenderTarget</a> method), you can pass an  <a href="/windows/win32/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a> surface to the <b>CreateSharedBitmap</b> method to share video memory with Direct3D and manipulate Direct3D content as an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>. As described in  the <a href="/windows/win32/Direct2D/resources-and-resource-domains">Resources Overview</a>, the render target and the <a href="/windows/win32/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a> must be using the same Direct3D device. 
+When using a DXGI surface render target (an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a> object created by the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties_id2d1rendertarget)">CreateDxgiSurfaceRenderTarget</a> method), you can pass an  <a href="/windows/win32/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a> surface to the <b>CreateSharedBitmap</b> method to share video memory with Direct3D and manipulate Direct3D content as an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>. As described in  the <a href="/windows/win32/Direct2D/resources-and-resource-domains">Resources Overview</a>, the render target and the <a href="/windows/win32/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a> must be using the same Direct3D device. 
 
 
 Note also that the <a href="/windows/win32/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a> must use one of the supported pixel formats and alpha modes described in <a href="/windows/win32/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>.

@@ -51,7 +51,7 @@ The <b>DdAddAttachedSurface</b> callback function attaches a surface to another 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_addattachedsurfacedata">DD_ADDATTACHEDSURFACEDATA</a> structure that contains information required for the driver to perform the attachment.
 

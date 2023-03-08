@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrCSpnIA
 title: StrCSpnIA function (shlwapi.h)
-description: Searches a string for the first occurrence of any of a group of characters. The search method is not case-sensitive, and the terminating NULL character is included within the search pattern match.
-helpviewer_keywords: ["StrCSpnI","StrCSpnI function [Windows Shell]","StrCSpnIA","StrCSpnIW","_win32_StrCSpnI","shell.StrCSpnI","shlwapi/StrCSpnI","shlwapi/StrCSpnIA","shlwapi/StrCSpnIW"]
+description: Searches a string for the first occurrence of any of a group of characters. The search method is not case-sensitive, and the terminating NULL character is included within the search pattern match. (ANSI)
+helpviewer_keywords: ["StrCSpnIA", "shlwapi/StrCSpnIA"]
 old-location: shell\StrCSpnI.htm
 tech.root: shell
 ms.assetid: d21eb80b-5f02-4eb7-9a22-02425b7050b3

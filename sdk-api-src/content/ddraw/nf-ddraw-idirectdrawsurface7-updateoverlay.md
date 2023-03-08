@@ -54,19 +54,19 @@ Repositions or modifies the visual attributes of an overlay surface. These surfa
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to a <b>RECT</b> structure that defines the x, y, width, and height of the region on the source surface being used as the overlay. This parameter can be NULL to hide an overlay or to indicate that the entire overlay surface is to be used and that the overlay surface conforms to any boundary and size-alignment restrictions imposed by the device driver.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 A pointer to the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is being overlaid.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 A pointer to a <b>RECT</b> structure that defines the width, x, and height, y, of the region on the destination surface that the overlay should be moved to. This parameter can be NULL to hide the overlay.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 A combination of the following flags that determine the overlay update:
 
@@ -227,7 +227,7 @@ Redraws all dirty rectangles on an emulated overlayed surface.
 
 Turns on this overlay.
 
-### -param arg5 [in]
+### -param unnamedParam5 [in]
 
 A pointer to the <a href="/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure that describes the effects to be used. Can be NULL if the DDOVER_DDFX flag is not specified.
 
@@ -257,7 +257,7 @@ If it fails, the method can return one of the following error values:
 
 ## -remarks
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>UpdateOverlay</b> method.
+
 
 ## -see-also
 

@@ -117,7 +117,7 @@ A
 Pointer to a 
 <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that contains the prefix to use for names specified with the <b>SecNameAlternateId</b> <i>NameType</i>.
 
-### -param *UserAuthData [out]
+### -param UserAuthData [out]
 
 Pointer that receives the address of the retrieved data.
 

@@ -60,9 +60,9 @@ The
 A descriptor identifying the socket. 
 
 This is the same socket that was specified when the overlapped operation was started by a call to 
-any of the Winsock functions that supports overlappped operations. These functions include <a href="/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a>, <a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">ConnectEx</a>, <a href="/previous-versions/windows/desktop/legacy/ms737757(v=vs.85)">DisconnectEx</a>, <a href="/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a>, <a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_transmitpackets">TransmitPackets</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>, 
+any of the Winsock functions that supports overlapped operations. These functions include <a href="/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a>, <a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">ConnectEx</a>, <a href="/previous-versions/windows/desktop/legacy/ms737757(v=vs.85)">DisconnectEx</a>, <a href="/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a>, <a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_transmitpackets">TransmitPackets</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>, 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom">WSARecvFrom</a>, 
-<a href="/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a>, 
+<a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg">LPFN_WSARECVMSG (WSARecvMsg)</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a>, 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a>, and 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>.
 

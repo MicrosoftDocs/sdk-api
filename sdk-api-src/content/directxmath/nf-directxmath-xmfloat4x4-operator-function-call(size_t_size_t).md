@@ -9,25 +9,25 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4X4.operator ()(size_t,size
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT4X4 structure [DirectX Math Support APIs],operator () method, XMFLOAT4X4.operator ()(size_t,size_t), XMFLOAT4X4.operator (size_t,size_t), XMFLOAT4X4.operator(), XMFLOAT4X4.operator-function-call(size_t,size_t), XMFLOAT4X4::operator(), XMFLOAT4X4::operator-function-call(size_t,size_t), dxmath.xmfloat4x4_operator_parens_1, operator () method [DirectX Math Support APIs], operator () method [DirectX Math Support APIs],XMFLOAT4X4 structure, operator()
 req.header: directxmath.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
 req.namespace: Use DirectX.
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 f1_keywords:
  - XMFLOAT4X4::operator()
  - directxmath/XMFLOAT4X4::operator()
@@ -96,9 +96,8 @@ will set the value of the <i>mat.m[2,3]</i> (or equivalently mat._34) to 42.0.
 
 
 
-<a href="https://msdn.microsoft.com/92991b18-60a5-41ec-85de-690ac6e5f1e2">XMFLOAT4X4</a>
+<a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4">XMFLOAT4X4</a>
 
 
 
-<a href="https://msdn.microsoft.com/de367692-6974-4e54-9f1e-d8c56b3aa752">operator ()</a>
-
+<a href="/windows/win32/dxmath/ovw-xmfloat4x4-operators">XMFLOAT4X4 Operators</a>

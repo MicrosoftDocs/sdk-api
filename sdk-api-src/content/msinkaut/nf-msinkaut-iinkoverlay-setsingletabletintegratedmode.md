@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.SetSingleTabletIntegratedMode
 title: IInkOverlay::SetSingleTabletIntegratedMode (msinkaut.h)
-description: Allows the ink collector (InkCollector, InkOverlay, or InkPicture) to collect ink from only one tablet. Ink from other tablets is ignored by the ink collector.
+description: Allows the ink collector (InkCollector, InkOverlay, or InkPicture) to collect ink from only one tablet. Ink from other tablets is ignored by the ink collector. (IInkOverlay.SetSingleTabletIntegratedMode)
 helpviewer_keywords: ["96787996-c0fd-455f-952e-90ddc8640253","IInkOverlay interface [Tablet PC]","SetSingleTabletIntegratedMode method","IInkOverlay.SetSingleTabletIntegratedMode","IInkOverlay::SetSingleTabletIntegratedMode","SetSingleTabletIntegratedMode","SetSingleTabletIntegratedMode method [Tablet PC]","SetSingleTabletIntegratedMode method [Tablet PC]","IInkOverlay interface","msinkaut/IInkOverlay::SetSingleTabletIntegratedMode","tablet.inkoverlay_setsingletabletintegratedmode"]
 old-location: tablet\inkoverlay_setsingletabletintegratedmode.htm
 tech.root: tablet
@@ -139,7 +139,7 @@ When this method is called, the <a href="/windows/desktop/api/msinkaut/nf-msinka
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 

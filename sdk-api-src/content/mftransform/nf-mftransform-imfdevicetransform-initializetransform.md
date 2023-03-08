@@ -54,9 +54,47 @@ api_name:
 
 ## -parameters
 
-### -param pAttributes [in, optional]
+### -param pAttributes [in]
 
-Optionally contains a pointer to an attribute, passed in by the capture pipeline that contains initialization parameters. Currently none defined.
+Contains a pointer to an attribute, passed in by the capture pipeline that contains initialization parameters. The following attributes values are passed to the function
+<table>
+<tr>
+<th>Attribute Key</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MF_DEVICEMFT_CONNECTED_FILTER_KSCONTROL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The IKsControl interface of the preceding DeviceTransform object. It also implements IMFDeviceTransform, used to get necessary information needed to create a valid pipeline.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Denotes the symbolic link for a video capture driver
+
+</td>
+</tr>
+ <tr>
+<td width="40%">
+<dl>
+<dt><b>MF_DEVSOURCE_ATTRIBUTE_FRIENDLY_NAME</b></dt>
+</dl>
+</td>
+<td width="60%">
+Specifies the display name for a device. The display name is a human-readable string, suitable for display in a user interface.
+</td>
+</tr>
+</table>
 
 ## -returns
 

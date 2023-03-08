@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CharPrevA
 title: CharPrevA function (winuser.h)
-description: Retrieves a pointer to the preceding character in a string. This function can handle strings consisting of either single- or multi-byte characters.
-helpviewer_keywords: ["CharPrev","CharPrev function [Menus and Other Resources]","CharPrevA","CharPrevW","_win32_CharPrev","_win32_charprev_cpp","menurc.charprev","winui._win32_charprev","winuser/CharPrev","winuser/CharPrevA","winuser/CharPrevW"]
+description: Retrieves a pointer to the preceding character in a string. This function can handle strings consisting of either single- or multi-byte characters. (ANSI)
+helpviewer_keywords: ["CharPrevA", "winuser/CharPrevA"]
 old-location: menurc\charprev.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charprev.htm

@@ -70,9 +70,7 @@ The DHCP_OPTION_SCOPE_INFO6 structure defines the data associated with a DHCP op
 
 ### -field ScopeInfo.ReservedScopeInfo.case.DhcpReservedOptions6
 
-### -field ScopeInfo.switch_is
 
-### -field ScopeInfo.switch_is.ScopeType
 
 ### -field ScopeInfo.switch_type
 

@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsDrive
 title: IVdsDrive (vds.h)
-description: Provides methods for performing query and configuration operations on a drive.
+description: The IVdsDrive interface (vds.h) provides methods for performing query and configuration operations on a drive.
 helpviewer_keywords: ["IVdsDrive","IVdsDrive interface [VDS]","IVdsDrive interface [VDS]","described","base.ivdsdrive","vds/IVdsDrive","vdshwprv/IVdsDrive"]
 old-location: base\ivdsdrive.htm
 tech.root: base
 ms.assetid: 597917cf-fb02-4949-98c3-3da3f7449ed1
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsDrive, IVdsDrive interface [VDS], IVdsDrive interface [VDS],described, base.ivdsdrive, vds/IVdsDrive, vdshwprv/IVdsDrive
 req.header: vds.h
 req.include-header: 
@@ -51,80 +51,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for performing query and configuration operations on a drive.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsDrive</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDrive</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsDrive</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-clearflags">ClearFlags</a>
-</td>
-<td align="left" width="63%">
-Clears all flags.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-getproperties">GetProperties</a>
-</td>
-<td align="left" width="63%">
-Returns the properties of the drive.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-getsubsystem">GetSubSystem</a>
-</td>
-<td align="left" width="63%">
-Returns the subsystem to which the drive belongs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-queryextents">QueryExtents</a>
-</td>
-<td align="left" width="63%">
-Returns an array of extents on a drive, including both allocated and unallocated extents.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-setflags">SetFlags</a>
-</td>
-<td align="left" width="63%">
-Sets flags on a drive object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-setstatus">SetStatus</a>
-</td>
-<td align="left" width="63%">
-Sets the status of the drive to the specified value.
-
-</td>
-</tr>
-</table>
+The <b>IVdsDrive</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDrive</b> also has these types of members:
 
 ## -see-also
 

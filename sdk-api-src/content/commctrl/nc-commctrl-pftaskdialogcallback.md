@@ -98,7 +98,7 @@ One of the following notifications.
 <td>
 <a href="/windows/desktop/Controls/tdn-expando-button-clicked">TDN_EXPANDO_BUTTON_CLICKED</a>
 </td>
-<td>Indicates that the exando button has been selected.</td>
+<td>Indicates that the expando button has been selected.</td>
 </tr>
 <tr>
 <td>

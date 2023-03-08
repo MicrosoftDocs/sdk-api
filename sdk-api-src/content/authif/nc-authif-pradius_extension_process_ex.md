@@ -57,14 +57,14 @@ api_name:
 
 ## -parameters
 
-### -param *pInAttrs [in]
+### -param pInAttrs [in]
 
 Pointer to an array of 
 <a href="/windows/desktop/api/authif/ns-authif-radius_attribute">attributes</a> from the request. The array is terminated by an attribute with <b>dwAttrType</b> set to <b>ratMinimum</b>. These attributes should be treated as read-only; they should not be modified by 
 <i>RadiusExtensionProcessEx</i>. Also, these attributes should not be referenced in any way after 
 <i>RadiusExtensionProcessEx</i> returns.
 
-### -param *pOutAttrs [out]
+### -param pOutAttrs [out]
 
 Pointer to an array of 
 <a href="/windows/desktop/api/authif/ns-authif-radius_attribute">attributes</a> provided by the NPS Extension DLL. The array is terminated by an attribute with <b>dwAttrType</b> set to <b>ratMinimum</b>. NPS  adds these attributes to the authentication response.

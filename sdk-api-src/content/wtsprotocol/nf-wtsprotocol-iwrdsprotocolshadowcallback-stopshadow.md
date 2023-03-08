@@ -52,7 +52,7 @@ api_name:
 
 Instructs the Remote Desktop Services service to stop shadowing a target. This method is called in response to a call of <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolshadowconnection-dotarget">DoTarget</a> by the shadow client.
 
-## -parameters
+
 
 ## -returns
 

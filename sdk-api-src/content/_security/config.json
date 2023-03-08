@@ -34,6 +34,7 @@
     "sas.h",
     "schannel.h",
     "identityprovider.h",
+    "isolatedwindowsenvironmentutils.h",
     "scardssp.h",
     "identitystore.h",
     "scardmgr.h",
@@ -91,7 +92,8 @@
     "winsafer.h",
     "slpublic.h",
     "diagnosticdataquery.h",
-    "diagnosticdataquerytypes.h"
+    "diagnosticdataquerytypes.h",
+    "ccgplugins.h"
   ],
   "displayName": "Security and Identity"
 }

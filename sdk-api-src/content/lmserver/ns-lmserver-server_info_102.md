@@ -510,7 +510,7 @@ A primary domain.
 </table>
  
 
-The <b>SV_TYPE_ALL</b> constant is defined to 0xFFFFFFFF in the <i>Lmserver.h</i> header file. This constant can be used to check for all server types when used with the <a href="/windows/desktop/api/lmserver/nf-lmserver-netserverenum">NetServerEnum</a>function.
+The <b>SV_TYPE_ALL</b> constant is defined to 0xFFFFFFFF in the <i>Lmserver.h</i> header file. This constant can be used to check for all server types when used with the <a href="/windows/desktop/api/lmserver/nf-lmserver-netserverenum">NetServerEnum</a> function.
 
 ### -field sv102_comment
 

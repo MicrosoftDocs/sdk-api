@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.put_CertificateFriendlyName
 title: IX509SCEPEnrollment::put_CertificateFriendlyName (certenroll.h)
-description: Gets or sets the friendly name for the certificate.
+description: Gets or sets the friendly name for the certificate. (Put)
 helpviewer_keywords: ["CertificateFriendlyName property [Security]","CertificateFriendlyName property [Security]","IX509SCEPEnrollment interface","IX509SCEPEnrollment interface [Security]","CertificateFriendlyName property","IX509SCEPEnrollment.CertificateFriendlyName","IX509SCEPEnrollment.put_CertificateFriendlyName","IX509SCEPEnrollment::CertificateFriendlyName","IX509SCEPEnrollment::get_CertificateFriendlyName","IX509SCEPEnrollment::put_CertificateFriendlyName","certenroll/IX509SCEPEnrollment::CertificateFriendlyName","certenroll/IX509SCEPEnrollment::get_CertificateFriendlyName","certenroll/IX509SCEPEnrollment::put_CertificateFriendlyName","put_CertificateFriendlyName","security.ix509scepenrollment_certificatefriendlyname"]
 old-location: security\ix509scepenrollment_certificatefriendlyname.htm
 tech.root: security

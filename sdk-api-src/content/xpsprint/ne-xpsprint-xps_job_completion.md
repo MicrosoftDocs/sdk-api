@@ -58,7 +58,7 @@ Indicates the completion status of a print job.
 
 ## -enum-fields
 
-### -field XPS_JOB_IN_PROGRESS
+### -field XPS_JOB_IN_PROGRESS:0
 
 The print  job is running.
 
@@ -84,7 +84,7 @@ The print job failed. The <b>jobStatus</b> member of <a href="/windows/win32/api
 
 
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 

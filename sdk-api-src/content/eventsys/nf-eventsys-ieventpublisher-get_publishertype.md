@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventPublisher.get_PublisherType
 title: IEventPublisher::get_PublisherType (eventsys.h)
-description: The optional administrative group for the event publisher.
+description: The optional administrative group for the event publisher. (Get)
 helpviewer_keywords: ["IEventPublisher interface [COM]","PublisherType property","IEventPublisher.PublisherType","IEventPublisher.get_PublisherType","IEventPublisher::PublisherType","IEventPublisher::get_PublisherType","IEventPublisher::put_PublisherType","PublisherType property [COM]","PublisherType property [COM]","IEventPublisher interface","_com_ieventpublisher_publishertype","com.ieventpublisher_publishertype","eventsys/IEventPublisher::PublisherType","eventsys/IEventPublisher::get_PublisherType","eventsys/IEventPublisher::put_PublisherType","get_PublisherType"]
 old-location: com\ieventpublisher_publishertype.htm
 tech.root: com

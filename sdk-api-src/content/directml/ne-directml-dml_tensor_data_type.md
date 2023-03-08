@@ -45,13 +45,9 @@ api_name:
  - DML_TENSOR_DATA_TYPE
 ---
 
-# DML_TENSOR_DATA_TYPE enumeration
-
-
 ## -description
 
-Specifies the data type of the values in a tensor. DirectML operators may not support all data types; see the documentation for each specific operator to find which
-    data types it supports.
+Specifies the data type of the values in a tensor. DirectML operators may not support all data types; see the documentation for each specific operator to find which data types it supports.
 
 ## -enum-fields
 
@@ -90,4 +86,3 @@ Indicates a 16-bit signed integer data type.
 ### -field DML_TENSOR_DATA_TYPE_INT8
 
 Indicates a 8-bit signed integer data type.
-

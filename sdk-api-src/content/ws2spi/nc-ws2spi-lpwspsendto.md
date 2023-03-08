@@ -79,6 +79,8 @@ A pointer to a <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaoverlapped
 
 ### -param lpCompletionRoutine [in]
 
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](../winsock2/nc-winsock2-lpwsaoverlapped_completion_routine.md)
+
 A pointer to the completion routine called when the send operation has been completed (ignored for nonoverlapped sockets).
 
 ### -param lpThreadId [in]
@@ -333,7 +335,7 @@ Overlapped operation has been canceled due to the closure of the socket, or the 
 
 ## -remarks
 
-The **LPWSPSendTo** function is normally used on a connectionless socket specified by <i>s</i> to send a datagram contained in one or more buffers to a specific peer socket identified by the <i>lpTo</i> parameter. Even if the connectionless socket has been previously connected to a specific address with the [**connect**](connect-2.md) function, <i>lpTo</i> overrides the destination address for that particular datagram only. On a connection-oriented socket, the <i>lpTo</i> and <i>iToLen</i> parameters are ignored; in this case the **LPWSPSendTo** function is equivalent to <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend">LPWSPSend</a></b>.
+The **LPWSPSendTo** function is normally used on a connectionless socket specified by <i>s</i> to send a datagram contained in one or more buffers to a specific peer socket identified by the <i>lpTo</i> parameter. Even if the connectionless socket has been previously connected to a specific address with the [LPWSPConnect](./nc-ws2spi-lpwspconnect.md) function, <i>lpTo</i> overrides the destination address for that particular datagram only. On a connection-oriented socket, the <i>lpTo</i> and <i>iToLen</i> parameters are ignored; in this case the **LPWSPSendTo** function is equivalent to <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend">LPWSPSend</a></b>.
 
 For overlapped sockets (created using **LPWSPSocket** with flag WSA_FLAG_OVERLAPPED) this will occur using overlapped I/O, unless both <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> are **NULL** in which case the socket is treated as a nonoverlapped socket. A completion indication will occur (invocation of the completion routine or setting of an event object) when the supplied buffer(s) have been consumed by the transport. If the operation does not complete immediately, the final completion status is retrieved through the completion routine or <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a>.
 
@@ -405,4 +407,3 @@ The completion routines can be called in any order, though not necessarily in th
    
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
-

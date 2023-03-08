@@ -6,7 +6,7 @@ helpviewer_keywords: ["PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN","PIBIO_SENSOR_PUSH_D
 old-location: secbiomet\sensoradapterpushdatatoengine.htm
 tech.root: SecBioMet
 ms.assetid: dea49f4b-668d-4b30-a16f-b74f260785c2
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN, PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN callback, SensorAdapterPushDataToEngine, SensorAdapterPushDataToEngine callback function [Windows Biometric Framework API], WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, secbiomet.sensoradapterpushdatatoengine, winbio_adapter/SensorAdapterPushDataToEngine
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
@@ -76,20 +76,25 @@ A value that specifies the properties of the <a href="/windows/desktop/SecBioMet
 A value that specifies the format of the sample. This can be a bitwise <b>OR</b> of the following security and processing level flags:
 
 
+* **WINBIO_DATA_FLAG_PRIVACY**
 
-##### )
+The sample should be encrypted.
+            
+            
+* **WINBIO_DATA_FLAG_INTEGRITY**
 
+The sample should be digitally signed or protected by a message authentication code (MAC).
+            
+            
+* **WINBIO_DATA_FLAG_SIGNED**
 
+If this flag and the <mark>WINBIO_DATA_FLAG_INTEGRITY</mark> flag are set, the sample should be signed. If this flag is not set but the <mark>WINBIO_DATA_FLAG_INTEGRITY</mark> flag is set, a MAC should be computed.
+            
+            
+* **WINBIO_DATA_FLAG_RAW**
 
-##### )
+The sample should be placed in the <xref targtype="struct" rid="secbiomet.winbio_bir">WINBIO_BIR</xref> object in the format in which it was captured.
 
-
-
-###### )
-
-
-
-##### )
 
 ### -param RejectDetail [out]
 

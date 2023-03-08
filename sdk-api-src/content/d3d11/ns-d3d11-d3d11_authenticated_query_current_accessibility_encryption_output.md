@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains the response to a <b>D3D11_AUTHENTICATED_QUERY_CURRENT_ENCRYPTION_WHEN_ACCESSIBLE </b>query.
+Contains the response to a <b>D3D11_AUTHENTICATED_QUERY_CURRENT_ENCRYPTION_WHEN_ACCESSIBLE </b> query.
 
 ## -struct-fields
 

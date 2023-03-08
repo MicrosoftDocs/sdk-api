@@ -54,38 +54,7 @@ Represents a video processor for Microsoft Direct3D 11.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoProcessor</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11VideoProcessor</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D11VideoProcessor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessor-getcontentdesc">GetContentDesc</a>
-</td>
-<td align="left" width="63%">
-Gets the content description that was used to create the video processor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessor-getrateconversioncaps">GetRateConversionCaps</a>
-</td>
-<td align="left" width="63%">
-Gets the rate conversion capabilities of the video processor.
-
-</td>
-</tr>
-</table>
+The <b>ID3D11VideoProcessor</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11VideoProcessor</b> also has these types of members:
 
 ## -remarks
 

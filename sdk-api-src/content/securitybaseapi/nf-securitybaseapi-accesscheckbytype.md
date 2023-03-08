@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.AccessCheckByType
 title: AccessCheckByType function (securitybaseapi.h)
-description: Determines whether a security descriptor grants a specified set of access rights to the client identified by an access token.
+description: Determines whether a security descriptor grants a specified set of access rights to the client identified by an access token. (AccessCheckByType)
 helpviewer_keywords: ["AccessCheckByType","AccessCheckByType function [Security]","_win32_accesscheckbytype","security.accesscheckbytype","securitybaseapi/AccessCheckByType"]
 old-location: security\accesscheckbytype.htm
 tech.root: security

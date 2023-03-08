@@ -74,6 +74,15 @@ Pointer to a location where this method specifies the actual number of bytes wri
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | Indicates that the specified number of bytes were written.|
+|E_FAIL | A general failure occurred during the write operation.|
+|E_PENDING | Asynchronous Storage only: Part or all of the data to be written is currently unavailable.|
+|STG_E_ACCESSDENIED | The caller does not have enough permissions for writing this byte array.|
+|STG_E_WRITEFAULT | The number of bytes to be written does not equal the number of bytes that were actually written.|
+|STG_E_MEDIUMFULL | The write operation was not completed because there is no space left on the storage device. The actual number of bytes written is still returned in *pcbWritten*.|
+
 ## -remarks
 
 <b>ILockBytes::WriteAt</b> writes the specified data at the specified location in the byte array. The number of bytes actually written must always be returned in <i>pcbWritten</i>, even if an error is returned. If the byte count is zero bytes, the write operation has no effect.

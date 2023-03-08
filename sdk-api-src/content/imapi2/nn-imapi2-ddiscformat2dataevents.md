@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.DDiscFormat2DataEvents
 title: DDiscFormat2DataEvents (imapi2.h)
-description: Implement this interface to receive notifications of the current write operation.
+description: Implement this interface to receive notifications of the current write operation. (DDiscFormat2DataEvents)
 helpviewer_keywords: ["DDiscFormat2DataEvents","DDiscFormat2DataEvents interface [IMAPI]","DDiscFormat2DataEvents interface [IMAPI]","described","imapi.ddiscformat2dataevents","imapi2/DDiscFormat2DataEvents"]
 old-location: imapi\ddiscformat2dataevents.htm
 tech.root: imapi
@@ -54,29 +54,7 @@ Implement this interface to receive notifications of the current write operation
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DDiscFormat2DataEvents</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DDiscFormat2DataEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>DDiscFormat2DataEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-ddiscformat2dataevents-update">Update</a>
-</td>
-<td align="left" width="63%">
-Implement this method to receive progress notification of the current write operation.
-
-</td>
-</tr>
-</table>
+The <b>DDiscFormat2DataEvents</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DDiscFormat2DataEvents</b> also has these types of members:
 
 ## -see-also
 

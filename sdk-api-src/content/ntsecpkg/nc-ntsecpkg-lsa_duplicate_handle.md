@@ -58,9 +58,7 @@ The <b>DuplicateHandle</b> function creates a duplicate handle. The returned dup
 
 A handle to duplicate.
 
-### -param DestionationHandle
-
-#### - DestinationHandle [out]
+### -param DestionationHandle [out]
 
 Pointer that receives the address of a duplicate of the <i>SourceHandle</i> handle. The duplicate handle is in the caller's process space. When you have finished using the handle, close it by calling the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
 

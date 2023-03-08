@@ -54,47 +54,7 @@ Do not use. Enumerates the contacts known by the <a href="/previous-versions/win
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContactCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContactCollection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IContactCollection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-getcurrent">GetCurrent</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current contact in the enumeration. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-next">Next</a>
-</td>
-<td align="left" width="63%">
-Moves to the next contact.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumerator to before the logical first element.
-
-</td>
-</tr>
-</table>
+The <b>IContactCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContactCollection</b> also has these types of members:
 
 ## -remarks
 

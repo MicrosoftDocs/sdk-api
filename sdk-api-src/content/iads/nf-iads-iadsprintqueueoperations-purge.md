@@ -52,7 +52,7 @@ api_name:
 
 The <b>IADsPrintQueueOperations::Purge</b> method clears the print queue of all print jobs without processing them.
 
-## -parameters
+
 
 ## -returns
 

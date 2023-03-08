@@ -55,44 +55,5 @@ The <code>IAMOverlayFX</code> interface controls how the video overlay appears o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMOverlayFX</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMOverlayFX</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAMOverlayFX</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMOverlayFX</b> also has these types of members:
 
-## -members
-
-The <b>IAMOverlayFX</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-getoverlayfx">GetOverlayFX</a>
-</td>
-<td align="left" width="63%">
-Retrieves the effects currently applied to the overlay surface, if any.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-queryoverlayfxcaps">QueryOverlayFXCaps</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about which overlay effects are available to the Overlay Mixer filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamoverlayfx-setoverlayfx">SetOverlayFX</a>
-</td>
-<td align="left" width="63%">
-Applies the specified effects to the overlay surface.
-
-</td>
-</tr>
-</table>

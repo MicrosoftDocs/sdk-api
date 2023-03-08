@@ -11,8 +11,8 @@ ms.keywords: IsProcessDPIAware, IsProcessDPIAware function [Windows and Messages
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps only]
-req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -52,11 +52,11 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<p class="note">IsProcessDPIAware is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use GetProcessDPIAwareness.</p>]
+<p class="CCE_Message"><p class="note">[IsProcessDPIAware is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getprocessdpiawareness">GetProcessDPIAwareness</a>.]</p>
 
 Determines whether the current process is dots per inch (dpi) aware such that it adjusts the sizes of UI elements to compensate for the dpi setting.
 
-## -parameters
+
 
 ## -returns
 

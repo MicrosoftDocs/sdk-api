@@ -66,13 +66,6 @@ A tag string, in UNICODE.
 
 ### -field dwRequired
 
-### -field bPresent
-
-This value specifies whether the tag is present. <b>TRUE</b> indicates the tag is present.
-
-
-#### - Required
-
 Specifies whether the tag is required.
 
 <table>
@@ -121,6 +114,12 @@ Multiple copies of the tag is allowed. Tag must be present.
 </td>
 </tr>
 </table>
+
+### -field bPresent
+
+This value specifies whether the tag is present. <b>TRUE</b> indicates the tag is present.
+
+
 
 ## -see-also
 

@@ -69,7 +69,7 @@ The id of the security binding property.  The following security
 <li>
 <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME</a>
 This property constraint may be specified when the
-                      <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_binding_constraint_type">WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT_TYPE</a>security binding is specified.
+                      <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_binding_constraint_type">WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT_TYPE</a> security binding is specified.
                     
 
 <ul>

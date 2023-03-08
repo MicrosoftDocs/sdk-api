@@ -90,7 +90,7 @@ A pointer to a handle to an icon that receives a handle to the icon that this fu
 <li>
 If the <a href="/windows-hardware/drivers/install/devpkey-drvpkg-icon">DEVPKEY_DrvPkg_Icon</a> device property of the device includes a list of resource-identifier strings, the function attempts to retrieve the icon that is specified by the first resource-identifier string in the list. 
 
-The <a href="/previous-versions/ff541476(v=vs.85)">device property data type</a> of the DEVPKEY_DrvPkg_Icon device property is <a href="/windows-hardware/drivers/install/devprop-type-string-list">DEVPROP_TYPE_STRING_LIST</a>. 
+The <a href="/windows-hardware/drivers/install/property-data-type-identifiers">device property data type</a> of the DEVPKEY_DrvPkg_Icon device property is <a href="/windows-hardware/drivers/install/devprop-type-string-list">DEVPROP_TYPE_STRING_LIST</a>. 
 
 The format of a resource-identifier string is
 
@@ -103,7 +103,7 @@ The format of a resource-identifier string is
 Where:
 
 <ul>
-<li><i>filepath,</i> followed by the backslash character ("\")<i>,</i> is optional and specifies a path of the file that contains the icon.</li>
+<li><i>filepath,</i> followed by the backslash character (\\)<i>,</i> is optional and specifies a path of the file that contains the icon.</li>
 <li><i>FileName</i>, followed by the comma character (",") specifies the name of the file that contains the icon.</li>
 <li><i>ResourceID</i>, preceded by a dash character ("-"), specifies the resource ID of the icon.</li>
 </ul>
@@ -113,7 +113,7 @@ If the function cannot retrieve a device-specific icon, it will then attempt to 
 
 </li>
 <li>
-If the function cannot retrieve the class icon for the device, it will then attempt to retrieve the icon for the Unknown <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>, where the icon for the Unknown device setup class includes the image of a question mark (?).
+If the function cannot retrieve the class icon for the device, it will then attempt to retrieve the icon for the Unknown <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a>, where the icon for the Unknown device setup class includes the image of a question mark (?).
 
 </li>
 </ul>

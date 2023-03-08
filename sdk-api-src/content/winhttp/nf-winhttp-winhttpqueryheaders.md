@@ -45,12 +45,11 @@ api_name:
  - WinHttpQueryHeaders
 ---
 
-# WinHttpQueryHeaders function
-
-
 ## -description
 
 The <b>WinHttpQueryHeaders</b> function retrieves header information associated with an HTTP request.
+
+Also see [WinHttpQueryHeadersEx](nf-winhttp-winhttpqueryheadersex.md), which offers a way to retrieve parsed header name and value strings.
 
 ## -parameters
 

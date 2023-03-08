@@ -16,8 +16,8 @@ req.include-header:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.unicode-ansi: 
 f1_keywords:
@@ -41,12 +41,11 @@ Provides video decoding and processing capabilities of a Microsoft Direct3D 12 d
 
 ## -inheritance
 
-**ID3D12VideoDevice2** inherits from [ID3D12VideoDevice](nn-d3d12video-id3d12videodevice1).
+**ID3D12VideoDevice2** inherits from [ID3D12VideoDevice](nn-d3d12video-id3d12videodevice1.md).
 
 ## -remarks
 
 ## -see-also
 
-- [ID3D12VideoDevice](nn-d3d12video-id3d12videodevice)
-- [ID3D12VideoDevice2](nn-d3d12video-id3d12videodevice1)
-
+- [ID3D12VideoDevice](nn-d3d12video-id3d12videodevice.md)
+- [ID3D12VideoDevice2](nn-d3d12video-id3d12videodevice1.md)

@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IUpdateSearcher3
 title: IUpdateSearcher3 (wuapi.h)
-description: Searches for updates on a server.
+description: Searches for updates on a server. (IUpdateSearcher3)
 helpviewer_keywords: ["IUpdateSearcher3","IUpdateSearcher3 interface [Windows Update Agent]","IUpdateSearcher3 interface [Windows Update Agent]","described","wua.iupdatesearcher3","wuapi/IUpdateSearcher3"]
 old-location: wua\iupdatesearcher3.htm
 tech.root: wua

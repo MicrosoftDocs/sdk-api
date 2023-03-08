@@ -54,23 +54,23 @@ Specifies the copy options of the Clipboard.
 
 ## -enum-fields
 
-### -field ICB_Copy
+### -field ICB_Copy:0
 
 The ink is copied to the Clipboard.
 
-### -field ICB_Cut
+### -field ICB_Cut:0x1
 
 The ink is cut and copied to the Clipboard.
 
-### -field ICB_ExtractOnly
+### -field ICB_ExtractOnly:0x30
 
 The ink is not copied to the Clipboard. Typically, use this option if you want to add something else, such as text, to the ink before you copy it to the Clipboard.
 
-### -field ICB_DelayedCopy
+### -field ICB_DelayedCopy:0x20
 
  Delayed rendering is used to reduce the amount of data that is stored on the Clipboard. The data is rendered when a paste request is made.
 
-### -field ICB_Default
+### -field ICB_Default:ICB_Copy
 
 Copy mode is used to copy the Ink.
 

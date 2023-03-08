@@ -6,7 +6,7 @@ helpviewer_keywords: ["D3D12_FEATURE_DATA_ARCHITECTURE1","D3D12_FEATURE_DATA_ARC
 old-location: direct3d12\d3d12_feature_data_architecture1.htm
 tech.root: direct3d12
 ms.assetid: 635091FE-2756-4648-958E-0C13BDD50851
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: D3D12_FEATURE_DATA_ARCHITECTURE1, D3D12_FEATURE_DATA_ARCHITECTURE1 structure, d3d12/D3D12_FEATURE_DATA_ARCHITECTURE1, direct3d12.d3d12_feature_data_architecture1
 req.header: d3d12.h
 req.include-header: 
@@ -78,12 +78,12 @@ Specifies whether the hardware and driver support cache-coherent UMA.
 
 ### -field IsolatedMMU
 
-<a href="/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes">SAL</a>: <code>_Out_</code>
 
 Specifies whether the hardware and driver support isolated Memory Management Unit (MMU).
             The runtime sets this member to <b>TRUE</b> if the GPU honors CPU page table properties like <b>MEM_WRITE_WATCH</b> (for more information, see <a href="/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>) and <b>PAGE_READONLY</b> (for more information, see <a href="/windows/win32/Memory/memory-protection-constants">Memory Protection Constants</a>).
 
-If <b>TRUE</b>, the application must take care to no use memory with these page table properties with the GPU, as the GPU might trigger these page table properties in unexpected ways. For example, GPU write operations might be coarser than the application expects, particularly writes from within shaders. Certain write-watch pages migth appear dirty, even when it isn't obvious how GPU writes may have affected them. GPU operations associated with upload and readback heap usage scenarios work well with write-watch pages, but might occasionally generate false positives that can be safely ignored.
+If <b>TRUE</b>, the application must take care to no use memory with these page table properties with the GPU, as the GPU might trigger these page table properties in unexpected ways. For example, GPU write operations might be coarser than the application expects, particularly writes from within shaders. Certain write-watch pages might appear dirty, even when it isn't obvious how GPU writes may have affected them. GPU operations associated with upload and readback heap usage scenarios work well with write-watch pages, but might occasionally generate false positives that can be safely ignored.
 
 ## -remarks
 
@@ -122,7 +122,8 @@ When <b>CacheCoherentUMA</b> is <b>false</b>, a single residency budget is avail
           
 
 When <b>CacheCoherentUMA</b> is true, applications can more strongly entertain abandoning the attribution of heaps and using the custom heap equivalent of upload heaps everywhere.
-            Zero-copy UMA optimizations are more generally encouraged as more scenarios will just benefit from shared usage.
+            Zero-copy UMA optimizations such those offered by 
+            <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12resource-writetosubresource">WriteToSubresource</a> are more generally encouraged as more scenarios will just benefit from shared usage.
             The memory model is very conducive to more scenarios and wider adoption.
             Some corner cases may still exist where benefits are not easily obtained, but they should be much rarer and less detrimental than other options.
             For advanced developers: <b>CacheCoherentUMA</b> means that a significant amount of the caches in the memory hierarchy are also unified or integrated between the CPU and GPU.

@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetAutodialEnableA
 title: RasGetAutodialEnableA function (ras.h)
-description: The RasGetAutodialEnable function indicates whether the AutoDial feature is enabled for a specified TAPI dialing location.
-helpviewer_keywords: ["RasGetAutodialEnable","RasGetAutodialEnable function [RAS]","RasGetAutodialEnableA","RasGetAutodialEnableW","_ras_rasgetautodialenable","ras/RasGetAutodialEnable","ras/RasGetAutodialEnableA","ras/RasGetAutodialEnableW","rras.rasgetautodialenable"]
+description: The RasGetAutodialEnable function indicates whether the AutoDial feature is enabled for a specified TAPI dialing location. (ANSI)
+helpviewer_keywords: ["RasGetAutodialEnableA", "ras/RasGetAutodialEnableA"]
 old-location: rras\rasgetautodialenable.htm
 tech.root: RRAS
 ms.assetid: 221f91e6-86bd-4450-92c8-ec3290712c18
@@ -57,11 +57,11 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Specifies the identifier of a TAPI dialing location.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 Pointer to a BOOL variable that receives a nonzero value if AutoDial is enabled for the specified dialing location, or zero if it is not enabled.
 

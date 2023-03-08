@@ -1,7 +1,7 @@
 ---
 UID: NF:winnls.GetStringTypeA
 title: GetStringTypeA function (winnls.h)
-description: Deprecated.
+description: Deprecated. (GetStringTypeA)
 helpviewer_keywords: ["GetStringTypeA","GetStringTypeA function [Internationalization for Windows Applications]","_win32_GetStringTypeA","_win32_GetStringTypeA_cpp","intl.getstringtypea","winnls/GetStringTypeA","winui._win32_GetStringTypeA"]
 old-location: intl\getstringtypea.htm
 tech.root: Intl
@@ -118,7 +118,7 @@ For an overview of the use of the string functions, see <a href="/windows/deskto
 
 This function converts the source string to Unicode and calls the 
 corresponding <a href="/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew">GetStringTypeW</a> function. Thus the words in the output buffer correspond not to the original ANSI string but to its Unicode equivalent. The conversion from ANSI to Unicode can result in a change in string length, for example, a pair of ANSI characters can map to a single 
-Unicode character. Therefore, the correspondence between the words in the output buffer and the characters in the original ANSI string is not one-to-one in all cases, for example, multibyte strings. Thus <b>GetStringTypeA</b> is of limited use for multi-character strings. <a href="/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew">GetStringTypeW</a> and <a href="/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a> are recommended instead.
+Unicode character. Therefore, the correspondence between the words in the output buffer and the characters in the original ANSI string is not one-to-one in all cases, for example, multibyte strings. Thus <b>GetStringTypeA</b> is of limited use for multi-character strings. [GetStringTypeW function](../stringapiset/nf-stringapiset-getstringtypew.md) and [GetStringTypeEx](../stringapiset/nf-stringapiset-getstringtypeexw.md) are recommended instead.
 
 			 
 When this function is used with a Unicode-only locale identifier, the function can succeed because the operating system uses the system code page. However, characters that are undefined in the system code page appear in the string as a question mark (?). 
@@ -127,11 +127,11 @@ The values of the <i>lpSrcStr</i> and <i>lpCharType</i> parameters must not be t
 
 The <i>Locale</i> parameter is only used to perform string conversion to Unicode. It has nothing to do with the CTYPE* values supplied by the application. These values are solely determined by Unicode code points, and do not vary on a locale basis. For example, Greek letters are specified as C1_ALPHA for any value of <i>Locale</i>.
 
-The <i>Locale</i> parameter is not used by the corresponding <a href="/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew">GetStringTypeW</a> function. Because of the parameter difference, an application cannot automatically invoke the proper ANSI or Unicode version of a <b>GetStringType*</b> function through the use of the #define UNICODE switch. An application can circumvent this limitation by using <a href="/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a>, which is the recommended function.
+The <i>Locale</i> parameter is not used by the corresponding <a href="/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew">GetStringTypeW</a> function. Because of the parameter difference, an application cannot automatically invoke the proper ANSI or Unicode version of a <b>GetStringType*</b> function through the use of the #define UNICODE switch. An application can circumvent this limitation by using <a href="/previous-versions/ms960831(v%3dmsdn.10)">GetStringTypeEx</a>, which is the recommended function.
 
 ## -see-also
 
-<a href="/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a>
+<a href="/previous-versions/ms960831(v%3dmsdn.10)">GetStringTypeEx</a>
 
 
 

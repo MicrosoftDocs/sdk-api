@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
  - BeginDeferWindowPos
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # BeginDeferWindowPos function
@@ -77,8 +78,6 @@ The multiple-window-position structure is an internal structure; an application 
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a> fills the multiple-window-position structure with information about the target position for one or more windows about to be moved. The <a href="/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a> function accepts the handle to this structure and repositions the windows by using the information stored in the structure. 
-
-If any of the windows in the multiple-window- position structure have the <b>SWP_HIDEWINDOW</b> or <b>SWP_SHOWWINDOW</b> flag set, none of the windows are repositioned.
 
 If the system must increase the size of the multiple-window- position structure beyond the initial size specified by the <i>nNumWindows</i> parameter but cannot allocate enough memory to do so, the system fails the entire window positioning sequence (<b>BeginDeferWindowPos</b>, <a href="/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>). By specifying the maximum size needed, an application can detect and process failure early in the process.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_FlushTimer
 title: ITraceDataCollector::put_FlushTimer (pla.h)
-description: Retrieves or sets the time to wait before flushing buffers.
+description: Retrieves or sets the time to wait before flushing buffers. (Put)
 helpviewer_keywords: ["FlushTimer property [PLA]","FlushTimer property [PLA]","ITraceDataCollector interface","ITraceDataCollector interface [PLA]","FlushTimer property","ITraceDataCollector.FlushTimer","ITraceDataCollector.put_FlushTimer","ITraceDataCollector::FlushTimer","ITraceDataCollector::get_FlushTimer","ITraceDataCollector::put_FlushTimer","base.itracedatacollector_flushtimer","pla.itracedatacollector_flushtimer","pla/ITraceDataCollector::FlushTimer","pla/ITraceDataCollector::get_FlushTimer","pla/ITraceDataCollector::put_FlushTimer","put_FlushTimer"]
 old-location: pla\itracedatacollector_flushtimer.htm
 tech.root: PLA

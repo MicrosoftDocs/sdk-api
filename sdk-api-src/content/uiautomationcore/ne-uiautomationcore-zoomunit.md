@@ -54,23 +54,23 @@ Contains possible values for the <a href="/windows/desktop/api/uiautomationclien
 
 ## -enum-fields
 
-### -field ZoomUnit_NoAmount
+### -field ZoomUnit_NoAmount:0
 
 No increase or decrease in zoom.
 
-### -field ZoomUnit_LargeDecrement
+### -field ZoomUnit_LargeDecrement:1
 
 Decrease zoom by a large decrement.
 
-### -field ZoomUnit_SmallDecrement
+### -field ZoomUnit_SmallDecrement:2
 
 Decrease zoom by a small decrement.
 
-### -field ZoomUnit_LargeIncrement
+### -field ZoomUnit_LargeIncrement:3
 
 Increase zoom by a large increment.
 
-### -field ZoomUnit_SmallIncrement
+### -field ZoomUnit_SmallIncrement:4
 
 Increase zoom by a small increment.
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeys.Shutdown
 title: IMFMediaKeys::Shutdown (mfmediaengine.h)
-description: 
+description: The IMFMediaKeys::Shutdown (mfmediaengine.h) method shuts down the associated Content Decryption Module (CDM). 
 helpviewer_keywords: ["IMFMediaKeys interface [Media Foundation]","Shutdown method","IMFMediaKeys.Shutdown","IMFMediaKeys::Shutdown","Shutdown","Shutdown method [Media Foundation]","Shutdown method [Media Foundation]","IMFMediaKeys interface","mf.imfmediakeys_shutdown","mfmediaengine/IMFMediaKeys::Shutdown"]
 old-location: mf\imfmediakeys_shutdown.htm
 tech.root: mf
 ms.assetid: 464b598c-5fa7-40af-83ba-8619fbd84b04
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IMFMediaKeys interface [Media Foundation],Shutdown method, IMFMediaKeys.Shutdown, IMFMediaKeys::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaKeys interface, mf.imfmediakeys_shutdown, mfmediaengine/IMFMediaKeys::Shutdown
 req.header: mfmediaengine.h
 req.include-header: 
@@ -52,11 +52,11 @@ api_name:
 
 Shuts down the associated Content Decryption Module (CDM).
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

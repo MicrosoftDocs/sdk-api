@@ -399,14 +399,14 @@ Starting with Windows 7, <b>Initialize</b> can return AUDCLNT_E_BUFFER_SIZE_NOT
   If <b>Initialize</b> returns AUDCLNT_E_BUFFER_SIZE_NOT_ALIGNED, the caller must call <b>Initialize</b> again and specify the aligned buffer size. Use the following steps:<ol>
 <li>Call <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getbuffersize">IAudioClient::GetBufferSize</a> and receive the next-highest-aligned buffer size (in frames).</li>
 <li>Call <b>IAudioClient::Release</b> to release the audio client used in the previous call that returned AUDCLNT_E_BUFFER_SIZE_NOT_ALIGNED.</li>
-<li>Calculate the aligned buffer size in 100-nansecond units (hns). The buffer size is <code>(REFERENCE_TIME)((10000.0 * 1000 / WAVEFORMATEX.nSamplesPerSecond * nFrames) + 0.5)</code>. In this formula,  <code>nFrames</code> is the buffer size retrieved by <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getbuffersize">GetBufferSize</a>.
+<li>Calculate the aligned buffer size in 100-nanosecond units (hns). The buffer size is <code>(REFERENCE_TIME)((10000.0 * 1000 / WAVEFORMATEX.nSamplesPerSecond * nFrames) + 0.5)</code>. In this formula,  <code>nFrames</code> is the buffer size retrieved by <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getbuffersize">GetBufferSize</a>.
 </li>
 <li>Call the <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a> method with parameter <i>iid</i> set to REFIID IID_IAudioClient to create a new audio client.</li>
 <li>Call <b>Initialize</b> again on the created audio client and specify the new buffer size and periodicity.</li>
 </ol>
 
 
-Starting with Windows 10, hardware-offloaded audio streams must be event driven. This means that if you call <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">IAudioClient2::SetClientProperties</a> and set the <i>bIsOffload</i> parameter of the <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties~r1">AudioClientProperties</a> to TRUE, you must specify the <b>AUDCLNT_STREAMFLAGS_EVENTCALLBACK</b> flag in the <i>StreamFlags</i> parameter to <b>IAudioClient::Initialize</b>.
+Starting with Windows 10, hardware-offloaded audio streams must be event driven. This means that if you call <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">IAudioClient2::SetClientProperties</a> and set the <i>bIsOffload</i> parameter of the <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties-r1">AudioClientProperties</a> to TRUE, you must specify the <b>AUDCLNT_STREAMFLAGS_EVENTCALLBACK</b> flag in the <i>StreamFlags</i> parameter to <b>IAudioClient::Initialize</b>.
 
 
 #### Examples

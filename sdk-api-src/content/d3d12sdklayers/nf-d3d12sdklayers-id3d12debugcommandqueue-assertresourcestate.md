@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandQueue.AssertResourceState
 title: ID3D12DebugCommandQueue::AssertResourceState (d3d12sdklayers.h)
-description: Checks whether a resource, or subresource, is in a specified state, or not.
+description: Checks whether a resource, or subresource, is in a specified state, or not. (ID3D12DebugCommandQueue.AssertResourceState)
 helpviewer_keywords: ["AssertResourceState","AssertResourceState method","AssertResourceState method","ID3D12DebugCommandQueue interface","ID3D12DebugCommandQueue interface","AssertResourceState method","ID3D12DebugCommandQueue.AssertResourceState","ID3D12DebugCommandQueue::AssertResourceState","d3d12sdklayers/ID3D12DebugCommandQueue::AssertResourceState","direct3d12.id3d12debugcommandqueue_assertresourcestate"]
 old-location: direct3d12\id3d12debugcommandqueue_assertresourcestate.htm
 tech.root: direct3d12
@@ -81,7 +81,7 @@ This method returns true if the resource or subresource is in the specified stat
 
 ## -remarks
 
-This method is very similar to <a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandlist-assertresourcestate">ID3D12DebugCommandList::AssertResourceState</a>, however there are methods on the command queue that work directly with resources that might need to be monitored (for example <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-copytilemappings">ID3D13CommandQueue::CopyTileMappings</a>).
+This method is very similar to <a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandlist-assertresourcestate">ID3D12DebugCommandList::AssertResourceState</a>, however there are methods on the command queue that work directly with resources that might need to be monitored (for example <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-copytilemappings">ID3D12CommandQueue::CopyTileMappings</a>).
 
 ## -see-also
 

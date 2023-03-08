@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotification.NotifyTargetChange
 title: ITsSbResourceNotification::NotifyTargetChange (sbtsv.h)
-description: Notifies registered plug-ins about state changes in a target object.
+description: Notifies registered plug-ins about state changes in a target object. (ITsSbResourceNotification.NotifyTargetChange)
 helpviewer_keywords: ["ITsSbResourceNotification interface [Remote Desktop Services]","NotifyTargetChange method","ITsSbResourceNotification.NotifyTargetChange","ITsSbResourceNotification::NotifyTargetChange","NotifyTargetChange","NotifyTargetChange method [Remote Desktop Services]","NotifyTargetChange method [Remote Desktop Services]","ITsSbResourceNotification interface","sbtsv/ITsSbResourceNotification::NotifyTargetChange","termserv.itssbresourcenotification_notifytargetchange"]
 old-location: termserv\itssbresourcenotification_notifytargetchange.htm
 tech.root: TermServ
@@ -64,7 +64,7 @@ A pointer to a target object. This object is a copy of the object present in the
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

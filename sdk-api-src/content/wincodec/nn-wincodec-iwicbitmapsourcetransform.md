@@ -55,56 +55,7 @@ Exposes methods for offloading certain operations to the underlying <a href="/wi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapSourceTransform</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapSourceTransform</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWICBitmapSourceTransform</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsourcetransform-copypixels">CopyPixels</a>
-</td>
-<td align="left" width="63%">
-Copies pixel data using the supplied input parameters.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsourcetransform-doessupporttransform">DoesSupportTransform</a>
-</td>
-<td align="left" width="63%">
-Determines whether a specific transform option is supported.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsourcetransform-getclosestpixelformat">GetClosestPixelFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the closest pixel format supported given a desired format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsourcetransform-getclosestsize">GetClosestSize</a>
-</td>
-<td align="left" width="63%">
-Returns the closest dimensions the implementation can natively scale to given the desired dimensions.
-
-</td>
-</tr>
-</table>
+The <b>IWICBitmapSourceTransform</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapSourceTransform</b> also has these types of members:
 
 ## -remarks
 

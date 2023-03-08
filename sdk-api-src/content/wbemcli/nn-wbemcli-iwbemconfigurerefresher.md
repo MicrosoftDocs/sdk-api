@@ -61,69 +61,7 @@ By providing a native implementation of this interface, WMI allows client code t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemConfigureRefresher</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemConfigureRefresher</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWbemConfigureRefresher</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemconfigurerefresher-addenum">AddEnum</a>
-</td>
-<td align="left" width="63%">
-Adds an enumerator to a refresher.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemconfigurerefresher-addobjectbypath">AddObjectByPath</a>
-</td>
-<td align="left" width="63%">
-Adds an object to a refresher based on a relative path.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemconfigurerefresher-addobjectbytemplate">AddObjectByTemplate</a>
-</td>
-<td align="left" width="63%">
-Adds an object to a refresher by specifying an 
-<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> instance template.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemconfigurerefresher-addrefresher">AddRefresher</a>
-</td>
-<td align="left" width="63%">
-Adds a refresher to a refresher.
-
-Use this method to create a single refresher that contains more than one refresher, which can be updated using a single call to the 
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemrefresher-refresh">Refresh</a> method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemconfigurerefresher-remove">Remove</a>
-</td>
-<td align="left" width="63%">
-Removes an object, enumerator, or nested refresher from a refresher.
-
-</td>
-</tr>
-</table>
+The <b>IWbemConfigureRefresher</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemConfigureRefresher</b> also has these types of members:
 
 ## -see-also
 

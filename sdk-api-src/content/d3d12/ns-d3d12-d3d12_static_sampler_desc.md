@@ -101,7 +101,11 @@ Upper end of the mipmap range to clamp access to, where 0 is the largest and mos
 The <i>ShaderRegister</i> and <i>RegisterSpace</i> parameters correspond to the binding syntax of HLSL.  For example, in HLSL:
             
 
-<pre class="syntax" xml:space="preserve"><code>Texture2D&lt;float4&gt; a : register(t2, space3);</code></pre>
+
+``` syntax
+Texture2D&lt;float4&gt; a : register(t2, space3);
+```
+
 This corresponds to a  <i>ShaderRegister</i> of 2 (indicating the type is SRV), and <i>RegisterSpace</i> is 3.
             
 

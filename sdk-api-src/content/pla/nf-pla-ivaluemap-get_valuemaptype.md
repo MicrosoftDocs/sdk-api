@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IValueMap.get_ValueMapType
 title: IValueMap::get_ValueMapType (pla.h)
-description: Retrieves or sets the type of items in the collection.
+description: Retrieves or sets the type of items in the collection. (Get)
 helpviewer_keywords: ["IValueMap interface [PLA]","ValueMapType property","IValueMap.ValueMapType","IValueMap.get_ValueMapType","IValueMap::ValueMapType","IValueMap::get_ValueMapType","IValueMap::put_ValueMapType","ValueMapType property [PLA]","ValueMapType property [PLA]","IValueMap interface","base.ivaluemap_valuemaptype","get_ValueMapType","pla.ivaluemap_valuemaptype","pla/IValueMap::ValueMapType","pla/IValueMap::get_ValueMapType","pla/IValueMap::put_ValueMapType"]
 old-location: pla\ivaluemap_valuemaptype.htm
 tech.root: PLA

@@ -50,27 +50,27 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputEffectDriver::DeviceID </b>method sends the driver the identity of the device.
+The <b>IDirectInputEffectDriver::DeviceID </b> method sends the driver the identity of the device.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Specifies the version number of DirectInput that loaded the effect driver. For example, with DirectInput 5.0, the value of this parameter is 0x00000500.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the joystick ID number. The Microsoft Windows joystick subsystem allocates external IDs.
 
-### -param arg3
+### -param unnamedParam3
 
 Specifies the availability of the device. This value is nonzero if access to the device is beginning, and zero if access to the device is ending.
 
-### -param arg4
+### -param unnamedParam4
 
 Specifies the ID of the internal joystick. The device driver manages internal IDs.
 
-### -param arg5
+### -param unnamedParam5
 
 Points to a <a href="/windows/desktop/api/dinputd/ns-dinputd-dihidffinitinfo">DIHIDFFINITINFO</a> structure that contains initialization information for the force feedback driver. The driver uses this information to distinguish between multiple devices and to query DirectInput for any other device attributes.
 
@@ -80,4 +80,4 @@ Returns S_OK if successful; otherwise, returns an error code.
 
 ## -remarks
 
-As an example of the <b>IDirectInputEffectDriver::DeviceID </b>method, if a device driver is passed <i>dwExternalID</i> = 2 and <i>dwInternalId</i> = 1, then unit 1 on the device corresponds to the joystick whose ID is 2.
+As an example of the <b>IDirectInputEffectDriver::DeviceID </b> method, if a device driver is passed <i>dwExternalID</i> = 2 and <i>dwInternalId</i> = 1, then unit 1 on the device corresponds to the joystick whose ID is 2.

@@ -69,52 +69,5 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertConfig2</b> interface inherits from <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> and <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. <b>ICertConfig2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICertConfig2</b> interface inherits from <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> and <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. <b>ICertConfig2</b> also has these types of members:
 
-## -members
-
-The <b>ICertConfig2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>
-</td>
-<td align="left" width="63%">
-Gets the default configuration string (the server name and <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) name) for a Certificate Services server.</p> (Inherited from <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a><b>ICertConfig2</b><b>CCertConfig</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-getfield">GetField</a>
-</td>
-<td align="left" width="63%">
-Gets a specific field from the current record of the configuration database.</p> (Inherited from <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a><b>ICertConfig2</b><b>CCertConfig</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-next">Next</a>
-</td>
-<td align="left" width="63%">
-Points to the next available Certificate Services server configuration in the configuration point.</p> (Inherited from <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a><b>ICertConfig2</b><b>CCertConfig</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the configuration query <a href="/windows/desktop/SecGloss/s-gly">state</a>.</p> (Inherited from <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a><b>ICertConfig2</b><b>CCertConfig</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig2-setsharedfolder">SetSharedFolder</a>
-</td>
-<td align="left" width="63%">
-Specifies a new path for the shared folder directory.</p> (Inherited from <b>ICertConfig2</b><b>CCertConfig</b>)</td>
-</tr>
-</table>

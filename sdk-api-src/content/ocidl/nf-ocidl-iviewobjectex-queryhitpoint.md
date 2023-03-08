@@ -109,7 +109,7 @@ To support hit detection on non-rectangular objects, the container needs a relia
      <b>IViewObjectEx::QueryHitPoint</b>.
 
 <div class="alert"><b>Note</b>  Because this method is part of the <a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a> 
-     interface, the container can figure whether an mouse hit is over an object without having to necessarily launch 
+     interface, the container can figure whether a mouse hit is over an object without having to necessarily launch 
      the server. If the hit happens to be inside the object, then it is likely that the object will be in-place 
      activated and the server started.</div>
 <div> </div>
@@ -146,7 +146,8 @@ Transparent objects may wish to implement a complex hit-detection mechanism wher
 An example of non-rectangular and transparent hit detection is a transparent circle control with an object 
      behind it (a line in the example below):
 
-<img alt="" src="./images/a7c7fe0d-f171-4823-ba4c-b51cb90d8733.png"/>
+:::image type="content" source="./images/a7c7fe0d-f171-4823-ba4c-b51cb90d8733.png" border="false" alt-text="Diagram of a circle with a diagonal line through it, showing the hit detection values for the areas inside and outside the circle and near the line.":::
+
 The values shown are for hit tests against the circle; gray regions are not part of the control, but are shown 
      here to indicate an area around the image considered close. Each object implements its own definition of close 
      but is assisted by a hint provided by the container so that closeness can be adjusted as images zoom larger or 

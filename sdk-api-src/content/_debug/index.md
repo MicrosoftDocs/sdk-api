@@ -4,7 +4,7 @@ title: Debugging and authoring support
 ms.assetid: ef7e939a-0110-36b3-8c6d-e740e5c83133
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Debugging and authoring support

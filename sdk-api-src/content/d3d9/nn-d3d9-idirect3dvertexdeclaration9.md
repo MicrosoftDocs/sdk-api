@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d9.IDirect3DVertexDeclaration9
 title: IDirect3DVertexDeclaration9 (d3d9.h)
-description: Applications use the methods of the IDirect3DVertexDeclaration9 interface to encapsulate the vertex shader declaration.
+description: The IDirect3DVertexDeclaration9 (d3d9.h) interface is used by applications to encapsulate the vertex shader declaration.
 helpviewer_keywords: ["IDirect3DVertexDeclaration9","IDirect3DVertexDeclaration9 interface [Direct3D 9]","IDirect3DVertexDeclaration9 interface [Direct3D 9]","described","d3d9helper/IDirect3DVertexDeclaration9","direct3d9.idirect3dvertexdeclaration9","f42aaa68-f7f3-0eec-ac4e-7d8617f131ae"]
 old-location: direct3d9\idirect3dvertexdeclaration9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexdeclaration9.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: IDirect3DVertexDeclaration9, IDirect3DVertexDeclaration9 interface [Direct3D 9], IDirect3DVertexDeclaration9 interface [Direct3D 9],described, d3d9helper/IDirect3DVertexDeclaration9, direct3d9.idirect3dvertexdeclaration9, f42aaa68-f7f3-0eec-ac4e-7d8617f131ae
 req.header: d3d9.h
 req.include-header: D3D9.h
@@ -55,38 +55,7 @@ Applications use the methods of the IDirect3DVertexDeclaration9 interface to enc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DVertexDeclaration9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DVertexDeclaration9</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDirect3DVertexDeclaration9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvertexdeclaration9-getdeclaration">GetDeclaration</a>
-</td>
-<td align="left" width="63%">
-Gets the vertex shader declaration.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvertexdeclaration9-getdevice">GetDevice</a>
-</td>
-<td align="left" width="63%">
-Gets the current device.
-
-</td>
-</tr>
-</table>
+The <b>IDirect3DVertexDeclaration9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DVertexDeclaration9</b> also has these types of members:
 
 ## -remarks
 

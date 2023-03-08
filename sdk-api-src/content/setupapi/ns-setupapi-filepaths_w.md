@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._FILEPATHS_W
 title: FILEPATHS_W (setupapi.h)
-description: The FILEPATHS structure stores source and target path information. The setup functions send the FILEPATHS structure as a parameter in several of the notifications sent to callback routines. For more information, see Notifications.
+description: The FILEPATHS structure stores source and target path information. The setup functions send the FILEPATHS structure as a parameter in several of the notifications sent to callback routines. For more information, see Notifications. (Unicode)
 helpviewer_keywords: ["*PFILEPATHS_W","FILEOP_COPY","FILEOP_DELETE","FILEPATHS","FILEPATHS structure [Setup API]","FILEPATHS_W","PFILEPATHS","PFILEPATHS structure pointer [Setup API]","SP_COPY_NOBROWSE","SP_COPY_NOSKIP","SP_COPY_WARNIFSKIP","_setupapi_filepaths_str","setup.filepaths_str","setupapi/FILEPATHS","setupapi/PFILEPATHS"]
 old-location: setup\filepaths_str.htm
 tech.root: setup

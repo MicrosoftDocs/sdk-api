@@ -54,26 +54,5 @@ Exposes a method for retrieving the thumbnail handler of an item. Implement this
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IThumbnailHandlerFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailHandlerFactory</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IThumbnailHandlerFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailHandlerFactory</b> also has these types of members:
 
-## -members
-
-The <b>IThumbnailHandlerFactory</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ithumbnailhandlerfactory-getthumbnailhandler">GetThumbnailHandler</a>
-</td>
-<td align="left" width="63%">
-Gets the requested thumbnail handler for the thumbnail of a given item.
-
-</td>
-</tr>
-</table>

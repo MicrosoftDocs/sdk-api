@@ -71,8 +71,7 @@ To get a primary token that represents the specified user, call the
 <a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function. Alternatively, you can call the 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetokenex">DuplicateTokenEx</a> function to convert an impersonation token into a primary token. This allows a server application that is impersonating a client to create a process that has the security context of the client.
 
-<b>Terminal Services:  </b>The process is run in the session specified in the token. By default, this is the same session that called <a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>. To change the session, use the 
-<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-settokeninformation">SetTokenInformation</a> function.
+<b>Terminal Services:  </b>The caller's process always runs in the caller's session, not in the session specified in the token. To run a process in the session specified in the token, use the CreateProcessAsUser function.
 
 ### -param dwLogonFlags [in]
 
@@ -165,121 +164,17 @@ The system adds a null character to the command line string to separate the file
 
 ### -param dwCreationFlags [in]
 
-The flags that control how the process is created. The CREATE_DEFAULT_ERROR_MODE, CREATE_NEW_CONSOLE, and CREATE_NEW_PROCESS_GROUP flags are enabled by default. You can specify additional flags as noted. 
+The flags that control how the process is created. The CREATE_DEFAULT_ERROR_MODE, CREATE_NEW_CONSOLE, and CREATE_NEW_PROCESS_GROUP flags are enabled by default. For a list of values, see <a href="/windows/desktop/ProcThread/process-creation-flags">Process Creation Flags</a>.
 
-
-
-                     
-                     
-                  
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="CREATE_DEFAULT_ERROR_MODE"></a><a id="create_default_error_mode"></a><dl>
-<dt><b>CREATE_DEFAULT_ERROR_MODE</b></dt>
-<dt>0x04000000</dt>
-</dl>
-</td>
-<td width="60%">
-The new process does not inherit the error mode of the calling process. Instead, the new process gets the current default error mode. An application sets the current default error mode by calling 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>. 
-
-
-
-
-This flag is enabled by default.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CREATE_NEW_CONSOLE"></a><a id="create_new_console"></a><dl>
-<dt><b>CREATE_NEW_CONSOLE</b></dt>
-<dt>0x00000010</dt>
-</dl>
-</td>
-<td width="60%">
-The new process has a new console, instead of inheriting the parent's console. This flag cannot be used with the DETACHED_PROCESS flag. 
-
-
-
-
-This flag is enabled by default.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CREATE_NEW_PROCESS_GROUP"></a><a id="create_new_process_group"></a><dl>
-<dt><b>CREATE_NEW_PROCESS_GROUP</b></dt>
-<dt>0x00000200</dt>
-</dl>
-</td>
-<td width="60%">
-The new process is the root process of a new process group. The process group includes all processes that are descendants of this root process. The process identifier of the new process group is the same as the process identifier, which is returned in the <i>lpProcessInfo</i> parameter. Process groups are used by the 
-<a href="/windows/console/generateconsolectrlevent">GenerateConsoleCtrlEvent</a> function to enable sending a CTRL+C or CTRL+BREAK signal to a group of console processes. 
-
-
-
-
-This flag is enabled by default.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CREATE_SEPARATE_WOW_VDM"></a><a id="create_separate_wow_vdm"></a><dl>
-<dt><b>CREATE_SEPARATE_WOW_VDM</b></dt>
-<dt>0x00000800</dt>
-</dl>
-</td>
-<td width="60%">
-This flag is only valid starting a 16-bit Windows-based application. If set, the new process runs in a private Virtual DOS Machine (VDM). By default, all 16-bit Windows-based applications run in a single, shared VDM. The advantage of running separately is that a crash only terminates the single VDM; any other programs running in distinct VDMs continue to function normally. Also, 16-bit Windows-based applications that run in separate VDMs have separate input queues. That means that if one application stops responding momentarily, applications in separate VDMs continue to receive input.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CREATE_SUSPENDED"></a><a id="create_suspended"></a><dl>
-<dt><b>CREATE_SUSPENDED</b></dt>
-<dt>0x00000004</dt>
-</dl>
-</td>
-<td width="60%">
-The primary thread of the new process is created in a suspended state, and does not run until the 
-<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-resumethread">ResumeThread</a> function is called.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="CREATE_UNICODE_ENVIRONMENT"></a><a id="create_unicode_environment"></a><dl>
-<dt><b>CREATE_UNICODE_ENVIRONMENT</b></dt>
-<dt>0x00000400</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates the format of the <i>lpEnvironment</i> parameter. If this flag is set, the environment block pointed to by <i>lpEnvironment</i> uses Unicode characters. Otherwise, the environment block uses ANSI characters.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EXTENDED_STARTUPINFO_PRESENT"></a><a id="extended_startupinfo_present"></a><dl>
-<dt><b>EXTENDED_STARTUPINFO_PRESENT</b></dt>
-<dt>0x00080000</dt>
-</dl>
-</td>
-<td width="60%">
-The process is created with extended startup information; the <i>lpStartupInfo</i> parameter specifies a <a href="/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a> structure.
-
-<b>Windows Server 2003:  </b>This value is not supported.
-
-</td>
-</tr>
-</table>
- 
 
 This parameter also controls the new process's priority class, which is used to determine the scheduling priorities of the process's threads. For a list of values, see 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getpriorityclass">GetPriorityClass</a>. If none of the priority class flags is specified, the priority class defaults to NORMAL_PRIORITY_CLASS unless the priority class of the creating process is IDLE_PRIORITY_CLASS or BELOW_NORMAL_PRIORITY_CLASS. In this case, the child process receives the default priority class of the calling process.
+
+If the dwCreationFlags parameter has a value of 0:
+
+- The process gets the default error mode, creates a new console and creates a new process group. 
+- The environment block for the new process is assumed to contain ANSI characters (see *lpEnvironment* parameter for additional information).
+- A 16-bit Windows-based application runs in a shared Virtual DOS machine (VDM).
 
 ### -param lpEnvironment [in, optional]
 
@@ -294,7 +189,7 @@ An environment block consists of a null-terminated block of null-terminated stri
 
 Because the equal sign (=) is used as a separator, it must not be used in the name of an environment variable.
 
-An environment block can contain Unicode or ANSI characters. If the environment block pointed to by <i>lpEnvironment</i> contains Unicode characters, be sure that <i>dwCreationFlags</i> includes CREATE_UNICODE_ENVIRONMENT.  If this parameter is NULL and the environment block of the parent process contains Unicode characters, you must also ensure that <i>dwCreationFlags</i> includes CREATE_UNICODE_ENVIRONMENT.
+An environment block can contain Unicode or ANSI characters. If the environment block pointed to by <i>lpEnvironment</i> contains Unicode characters, be sure that <i>dwCreationFlags</i> includes CREATE_UNICODE_ENVIRONMENT.
 
 An ANSI environment block is terminated by two zero bytes: one for the last string, one more to terminate the block. A Unicode environment block is terminated by four zero bytes: two for the last string and two more to terminate the block.
 
@@ -321,7 +216,7 @@ Handles in
 <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> or <a href="/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a> must be closed with 
 <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when they are no longer needed.
 
-<div class="alert"><b>Important</b>  If the <b>dwFlags</b> member of the  <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure specifies <b>STARTF_USESTDHANDLES</b>, the standard handle fields are copied unchanged to the child process without validation. The caller is responsible for ensuring that these fields contain valid handle values.  Incorrect values can cause the child process to misbehave or crash. Use the <a href="https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=20028">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
+<div class="alert"><b>Important</b>  If the <b>dwFlags</b> member of the  <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure specifies <b>STARTF_USESTDHANDLES</b>, the standard handle fields are copied unchanged to the child process without validation. The caller is responsible for ensuring that these fields contain valid handle values.  Incorrect values can cause the child process to misbehave or crash. Use the <a href="/windows-hardware/drivers/devtest/application-verifier">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
 <div> </div>
 
 ### -param lpProcessInformation [out]
@@ -380,15 +275,23 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0500
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
 The <i>lpApplicationName</i> parameter can be NULL, in which case the executable name must be the first white space–delimited string in <i>lpCommandLine</i>. If the executable or path name has a space in it, there is a risk that a different executable could be run because of the way the function parses spaces. The following example is dangerous because the function will attempt to run "Program.exe", if it exists, instead of "MyApp.exe".
 
-<pre class="syntax" xml:space="preserve"><code>	LPTSTR szCmdline = L"C:\\Program Files\\MyApp";
-	CreateProcessWithTokenW(/*...*/, szCmdline, /*...*/);</code></pre>
+
+``` syntax
+	LPTSTR szCmdline = L"C:\\Program Files\\MyApp";
+	CreateProcessWithTokenW(/*...*/, szCmdline, /*...*/);
+```
+
 If a malicious user were to create an application called "Program.exe" on a system, any program that incorrectly calls 
 <b>CreateProcessWithTokenW</b> using the Program Files directory will run this application instead of the intended application.
 
 To avoid this problem, do not pass NULL for <i>lpApplicationName</i>. If you do pass NULL for <i>lpApplicationName</i>, use quotation marks around the executable path in <i>lpCommandLine</i>, as shown in the example below.
 
-<pre class="syntax" xml:space="preserve"><code>	LPTSTR szCmdline = L"\"C:\\Program Files\\MyApp\"";
-	CreateProcessWithTokenW(/*...*/, szCmdline, /*...*/);</code></pre>
+
+``` syntax
+	LPTSTR szCmdline = L"\"C:\\Program Files\\MyApp\"";
+	CreateProcessWithTokenW(/*...*/, szCmdline, /*...*/);
+```
+
 
 ## -see-also
 

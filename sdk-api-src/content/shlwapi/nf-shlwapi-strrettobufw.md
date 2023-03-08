@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrRetToBufW
 title: StrRetToBufW function (shlwapi.h)
-description: Converts an STRRET structure returned by IShellFolder::GetDisplayNameOf to a string, and places the result in a buffer.
-helpviewer_keywords: ["StrRetToBuf","StrRetToBuf function [Windows Shell]","StrRetToBufA","StrRetToBufW","_win32_StrRetToBuf","shell.StrRetToBuf","shlwapi/StrRetToBuf","shlwapi/StrRetToBufA","shlwapi/StrRetToBufW"]
+description: Converts an STRRET structure returned by IShellFolder::GetDisplayNameOf to a string, and places the result in a buffer. (Unicode)
+helpviewer_keywords: ["StrRetToBuf", "StrRetToBuf function [Windows Shell]", "StrRetToBufW", "_win32_StrRetToBuf", "shell.StrRetToBuf", "shlwapi/StrRetToBuf", "shlwapi/StrRetToBufW"]
 old-location: shell\StrRetToBuf.htm
 tech.root: shell
 ms.assetid: 89dab3ee-e9f8-499a-97ec-6fe732315891
@@ -85,7 +85,7 @@ The size of <i>pszBuf</i>, in characters. If <i>cchBuf</i> is too small, the str
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

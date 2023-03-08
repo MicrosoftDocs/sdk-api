@@ -50,10 +50,9 @@ api_name:
 
 ## -description
 
-Sets the current position of the Reader.  The position must have been obtained by a call to
-        <a href="/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetwriterposition">WsGetWriterPosition</a>.
+Sets the current position of the Reader.  The position must have been obtained by a call to <a href="/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetwriterposition">WsGetWriterPosition</a>.
       
-        This function can only be used on a reader that is set to a <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
+This function can only be used on a reader that is set to a <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
 
 ## -parameters
 

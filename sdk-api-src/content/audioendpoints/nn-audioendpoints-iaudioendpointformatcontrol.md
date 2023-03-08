@@ -54,29 +54,7 @@ Used for resetting the current audio endpoint device format.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointFormatControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointFormatControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAudioEndpointFormatControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioendpoints/nf-audioendpoints-iaudioendpointformatcontrol-resettodefault">ResetToDefault</a>
-</td>
-<td align="left" width="63%">
-Resets the format to the default setting provided by the device manufacturer.
-
-</td>
-</tr>
-</table>
+The <b>IAudioEndpointFormatControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointFormatControl</b> also has these types of members:
 
 ## -remarks
 

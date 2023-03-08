@@ -94,7 +94,7 @@ The user that tried to execute this function does not have administrator privile
 </dl>
 </td>
 <td width="60%">
-The operator request object ID was not found. This error occurs if the request is completed before the operation has been satisfied or when an request ID that is not valid is specified.
+The operator request object ID was not found. This error occurs if the request is completed before the operation has been satisfied or when a request ID that is not valid is specified.
 
 </td>
 </tr>

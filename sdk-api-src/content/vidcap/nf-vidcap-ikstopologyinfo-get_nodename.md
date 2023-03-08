@@ -143,4 +143,4 @@ if (hr == HRESULT_FROM_WIN32(ERROR_MORE_DATA))
 
 
 
-<a href="/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>
+<a href="/windows/windows/win32/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>

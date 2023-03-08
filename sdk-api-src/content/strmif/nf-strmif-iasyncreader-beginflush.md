@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAsyncReader.BeginFlush
 title: IAsyncReader::BeginFlush (strmif.h)
-description: The BeginFlush method begins a flush operation.
+description: The BeginFlush method begins a flush operation. (IAsyncReader.BeginFlush)
 helpviewer_keywords: ["BeginFlush","BeginFlush method [DirectShow]","BeginFlush method [DirectShow]","IAsyncReader interface","IAsyncReader interface [DirectShow]","BeginFlush method","IAsyncReader.BeginFlush","IAsyncReader::BeginFlush","IAsyncReaderBeginFlush","dshow.iasyncreader_beginflush","strmif/IAsyncReader::BeginFlush"]
 old-location: dshow\iasyncreader_beginflush.htm
 tech.root: dshow
@@ -53,7 +53,7 @@ api_name:
 
 The <code>BeginFlush</code> method begins a flush operation.
 
-## -parameters
+
 
 ## -returns
 
@@ -72,7 +72,7 @@ For more information, see <a href="/windows/desktop/DirectShow/flushing">Flushin
 
 The following example shows how a downstream input pin should call this method:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

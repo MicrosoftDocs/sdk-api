@@ -6,7 +6,7 @@ helpviewer_keywords: ["WINBIO_DATA_FLAG_INTEGRITY","WINBIO_DATA_FLAG_INTERMEDIAT
 old-location: secbiomet\winbiocapturesamplewithcallback.htm
 tech.root: SecBioMet
 ms.assetid: a99296c8-89da-4b2c-9a1b-fc10700ad48d
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_INTERMEDIATE, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_PROCESSED, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, WinBioCaptureSampleWithCallback, WinBioCaptureSampleWithCallback function [Windows Biometric Framework API], secbiomet.winbiocapturesamplewithcallback, winbio/WinBioCaptureSampleWithCallback
 req.header: winbio.h
 req.include-header: Winbio.h
@@ -89,29 +89,29 @@ A <b>WINBIO_BIR_PURPOSE</b> bitmask that specifies the intended use of the sampl
 
 A value that specifies the type of processing to be applied to the captured sample. This can be a bitwise <b>OR</b> of the following security and processing level flags:
 
+* **WINBIO_DATA_FLAG_PRIVACY**
 
+Encrypt the sample.
 
-##### )
+* **WINBIO_DATA_FLAG_INTEGRITY**
 
+Sign the sample or protect it by using a message authentication code (MAC).
 
+* **WINBIO_DATA_FLAG_SIGNED**
 
-##### )
+If this flag and the WINBIO_DATA_FLAG_INTEGRITYflag are set, sign the sample. If this flag is not set but the WINBIO_DATA_FLAG_INTEGRITY flag is set, compute a MAC.
 
+* **WINBIO_DATA_FLAG_RAW**
 
+Return the sample exactly as it was captured by the sensor.
 
-###### )
+* **WINBIO_DATA_FLAG_INTERMEDIATE**
 
+Return the sample after it has been cleaned and filtered.
 
+* **WINBIO_DATA_FLAG_PROCESSED**
 
-##### )
-
-
-
-##### )
-
-
-
-##### )
+Return the sample after it is ready to be used for the purpose specified by the <mark>Purpose</mark> parameter.
 
 ### -param CaptureCallback [in]
 

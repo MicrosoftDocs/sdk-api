@@ -56,7 +56,7 @@ Defines types of sensor device connections.
 
 ## -enum-fields
 
-### -field SENSOR_CONNECTION_TYPE_PC_INTEGRATED
+### -field SENSOR_CONNECTION_TYPE_PC_INTEGRATED:0
 
 The sensor device is built into the computer.
 

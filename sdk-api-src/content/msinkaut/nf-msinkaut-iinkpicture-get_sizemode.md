@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_SizeMode
 title: IInkPicture::get_SizeMode (msinkaut.h)
-description: Gets or sets how the InkPicture control handles image placement and sizing.
+description: Gets or sets how the InkPicture control handles image placement and sizing. (Get)
 helpviewer_keywords: ["IInkPicture interface [Tablet PC]","SizeMode property","IInkPicture.SizeMode","IInkPicture.get_SizeMode","IInkPicture::SizeMode","IInkPicture::get_SizeMode","IInkPicture::put_SizeMode","InkPicture.get_SizeMode","InkPicture.put_SizeMode","SizeMode property [Tablet PC]","SizeMode property [Tablet PC]","IInkPicture interface","get_SizeMode","msinkaut/IInkPicture::SizeMode","msinkaut/IInkPicture::get_SizeMode","msinkaut/IInkPicture::put_SizeMode","put_SizeMode","tablet.inkpicture_sizemode"]
 old-location: tablet\inkpicture_sizemode.htm
 tech.root: tablet
@@ -72,7 +72,7 @@ Using the <b>IPSM_AutoSize</b> value causes the control to resize to always fit 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

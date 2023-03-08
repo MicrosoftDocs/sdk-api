@@ -98,4 +98,4 @@ Node objects expose the <b>IKsControl</b> interface. You can use this interface 
 
 
 
-<a href="/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>
+<a href="/windows/windows/win32/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>

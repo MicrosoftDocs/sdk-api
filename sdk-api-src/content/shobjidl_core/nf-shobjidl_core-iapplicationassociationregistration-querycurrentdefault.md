@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Determines the default application for a given association type. This is the default application launched by <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> for that type. Not intended for use in Windows 8.
+Determines the default application for a given association type. This is the default application launched by <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> for that type.
 
 ## -parameters
 
@@ -77,7 +77,6 @@ One of the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associat
 Type: <b>LPWSTR*</b>
 
 When this method returns, contains the address of a pointer to the ProgID that identifies the current default association.
-                    
 
 <div class="alert"><b>Note</b>  It is the responsibility of the calling application to release the string through <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.</div>
 <div> </div>
@@ -86,7 +85,7 @@ When this method returns, contains the address of a pointer to the ProgID that i
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -95,7 +94,5 @@ The string produced is typically a ProgID matching one of the ProgIDs associated
 ## -see-also
 
 <a href="/windows/desktop/shell/default-programs">Default Programs</a>
-
-
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a>

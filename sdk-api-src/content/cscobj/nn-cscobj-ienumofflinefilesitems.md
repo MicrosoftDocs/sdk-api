@@ -55,56 +55,7 @@ Represents a collection of <a href="/previous-versions/windows/desktop/api/cscob
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumOfflineFilesItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumOfflineFilesItems</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumOfflineFilesItems</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-ienumofflinefilesitems-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a new instance of the enumerator with the same enumeration state as the current one.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-ienumofflinefilesitems-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves the next item in the enumeration and advances the enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-ienumofflinefilesitems-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumeration to the beginning.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-ienumofflinefilesitems-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips over the next specified number of elements in the enumeration.
-
-</td>
-</tr>
-</table>
+The <b>IEnumOfflineFilesItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumOfflineFilesItems</b> also has these types of members:
 
 ## -remarks
 

@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - RpcRT4.dll
+ - Rpcrt4.dll
 api_name:
  - NdrClientCall2
 ---
@@ -62,7 +62,7 @@ Pointer to the MIDL-generated <a href="/windows/desktop/api/rpcndr/ns-rpcndr-mid
 
 Pointer to the MIDL-generated procedure format string that describes the method and parameters.
 
-### -param arg3 [in, out]
+### -param ...
 
 Pointer to the client-side calling stack.
 
@@ -75,3 +75,4 @@ Depending on the method definition, this function can throw an exception if ther
 ## -remarks
 
 The <b>NdrClientCall2</b> function is used by all <a href="/windows/desktop/Midl/-oi">/Oicf</a> mode client-side stubs. The <b>NdrClientCall2</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
+

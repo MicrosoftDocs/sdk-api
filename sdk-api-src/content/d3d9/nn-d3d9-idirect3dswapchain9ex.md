@@ -55,47 +55,7 @@ Applications use the methods of the <b>IDirect3DSwapChain9Ex</b> interface to ma
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DSwapChain9Ex</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dswapchain9">IDirect3DSwapChain9</a>. <b>IDirect3DSwapChain9Ex</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDirect3DSwapChain9Ex</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dswapchain9ex-getdisplaymodeex">GetDisplayModeEx</a>
-</td>
-<td align="left" width="63%">
-Retrieves the display mode's spatial resolution, color resolution, refresh frequency, and rotation settings.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dswapchain9ex-getlastpresentcount">GetLastPresentCount</a>
-</td>
-<td align="left" width="63%">
-Returns the number of times the swapchain has been processed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)">GetPresentStatistics</a>
-</td>
-<td align="left" width="63%">
-Gets presentation statistics so an application can identify frames that do not have a Present method call.
-
-</td>
-</tr>
-</table>
+The <b>IDirect3DSwapChain9Ex</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dswapchain9">IDirect3DSwapChain9</a>. <b>IDirect3DSwapChain9Ex</b> also has these types of members:
 
 ## -remarks
 

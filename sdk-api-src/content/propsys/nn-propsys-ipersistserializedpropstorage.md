@@ -1,7 +1,7 @@
 ---
 UID: NN:propsys.IPersistSerializedPropStorage
 title: IPersistSerializedPropStorage (propsys.h)
-description: Exposes methods to persist serialized property storage data for later use and to restore persisted data to a new property store instance.
+description: Exposes methods to persist serialized property storage data for later use and to restore persisted data to a new property store instance. (IPersistSerializedPropStorage)
 helpviewer_keywords: ["IPersistSerializedPropStorage","IPersistSerializedPropStorage interface [Windows Shell]","IPersistSerializedPropStorage interface [Windows Shell]","described","_shell_IPersistSerializedPropStorage","propsys/IPersistSerializedPropStorage","shell.IPersistSerializedPropStorage"]
 old-location: shell\IPersistSerializedPropStorage.htm
 tech.root: shell
@@ -54,47 +54,7 @@ Exposes methods to persist serialized property storage data for later use and to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistSerializedPropStorage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPersistSerializedPropStorage</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPersistSerializedPropStorage</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipersistserializedpropstorage-getpropertystorage">GetPropertyStorage</a>
-</td>
-<td align="left" width="63%">
-Gets the serialized property storage data from the property store instance.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipersistserializedpropstorage-setflags">SetFlags</a>
-</td>
-<td align="left" width="63%">
-Toggles the property store object between the read-only and read/write state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-ipersistserializedpropstorage-setpropertystorage">SetPropertyStorage</a>
-</td>
-<td align="left" width="63%">
-Initializes the property store instance from the specified serialized property storage data.
-
-</td>
-</tr>
-</table>
+The <b>IPersistSerializedPropStorage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPersistSerializedPropStorage</b> also has these types of members:
 
 ## -remarks
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUICHANGEICONW
 title: OLEUICHANGEICONW
-description: Contains information that the OLE User Interface Library uses to initialize the Change Icon dialog box, and it contains space for the library to return information when the dialog box is dismissed.
+description: Contains information that the OLE User Interface Library uses to initialize the Change Icon dialog box, and it contains space for the library to return information when the dialog box is dismissed. (Unicode)
 tech.root: com
 helpviewer_keywords: ["tagOLEUICHANGEICONW","OLEUICHANGEICONW"]
 ms.date: 4/26/2019
@@ -16,8 +16,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: OLEUICHANGEICONW, *POLEUICHANGEICONW, *LPOLEUICHANGEICONW
 req.umdf-ver: 

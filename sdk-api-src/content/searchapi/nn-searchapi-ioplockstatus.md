@@ -58,44 +58,5 @@ A third-party <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor"
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpLockStatus</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpLockStatus</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IOpLockStatus</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpLockStatus</b> also has these types of members:
 
-## -members
-
-The <b>IOpLockStatus</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-ioplockstatus-getoplockeventhandle">GetOplockEventHandle</a>
-</td>
-<td align="left" width="63%">
-Gets the event handle of the opportunistic lock (OpLock). The event object is set to the signaled state when the OpLock is broken, enabling the indexer to stop all operations on the underlying <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-ioplockstatus-isoplockbroken">IsOplockBroken</a>
-</td>
-<td align="left" width="63%">
-Checks the status of the opportunistic lock (OpLock) on the item being indexed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-ioplockstatus-isoplockvalid">IsOplockValid</a>
-</td>
-<td align="left" width="63%">
-Checks the status of the opportunistic lock (OpLock) on the item being indexed.
-
-</td>
-</tr>
-</table>

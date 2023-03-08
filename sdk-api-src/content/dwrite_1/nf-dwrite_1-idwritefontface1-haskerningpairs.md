@@ -52,7 +52,7 @@ api_name:
 
 Determines whether the font supports pair-kerning.
 
-## -parameters
+
 
 ## -returns
 

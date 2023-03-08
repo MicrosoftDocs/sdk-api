@@ -4,7 +4,7 @@ title: WakeByAddressAll function (synchapi.h)
 description: Wakes all threads that are waiting for the value of an address to change.
 helpviewer_keywords: ["WakeByAddressAll","WakeByAddressAll function","base.wakebyaddressall","synchapi/WakeByAddressAll"]
 old-location: base\wakebyaddressall.htm
-tech.root: backup
+tech.root: base
 ms.assetid: 2d538cea-06cb-4973-8677-27ebcde0aa6f
 ms.date: 12/05/2018
 ms.keywords: WakeByAddressAll, WakeByAddressAll function, base.wakebyaddressall, synchapi/WakeByAddressAll
@@ -66,7 +66,7 @@ The address to signal. If any threads have previously called
 
 ## -remarks
 
-Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="https://msdn.microsoft.com/en-US/windows/desktop/hh852363">Windows Software Development Kit (SDK) for Windows 8</a>.
+Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="https://developer.microsoft.com/en-us/windows/downloads/windows-8-sdk">Windows Software Development Kit (SDK) for Windows 8</a>.
 
 Only threads within the same process can be woken.
 

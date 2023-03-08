@@ -62,44 +62,8 @@ The <code>IMediaObjectInPlace</code> interface provides methods for processing d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaObjectInPlace</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaObjectInPlace</b> also has these types of members:
+The <b>IMediaObjectInPlace</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaObjectInPlace</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMediaObjectInPlace</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobjectinplace-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a copy of the DMO in its current state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobjectinplace-getlatency">GetLatency</a>
-</td>
-<td align="left" width="63%">
-Retrieves the latency introduced by this DMO.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobjectinplace-process">Process</a>
-</td>
-<td align="left" width="63%">
-Processes a block of data.
-
-</td>
-</tr>
-</table>

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMXDECN4.XMXDECN4(constXMXDECN4&)
 title: XMXDECN4::XMXDECN4(const XMXDECN4 &) (directxpackedvector.h)
-description: A constructor for XMXDECN4.
+description: A constructor for XMXDECN4. (overload 1/2)
 helpviewer_keywords: ["XMXDECN4","XMXDECN4 constructor [DirectX Math Support APIs]","XMXDECN4 constructor [DirectX Math Support APIs]","XMXDECN4 structure","XMXDECN4 structure [DirectX Math Support APIs]","XMXDECN4 constructor","XMXDECN4.XMXDECN4","XMXDECN4.XMXDECN4()","XMXDECN4.XMXDECN4(const XMXDECN4 &)","XMXDECN4::XMXDECN4","XMXDECN4::XMXDECN4(const XMXDECN4 &)","dxmath.xmxdecn4_ctor_1"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMXDECN4, XMXDECN4 constructor [DirectX Math Support APIs], XMXDECN
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -58,7 +58,7 @@ A constructor for **XMXDECN4**.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

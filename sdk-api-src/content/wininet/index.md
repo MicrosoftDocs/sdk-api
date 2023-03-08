@@ -4,8 +4,8 @@ title: Wininet.h header
 ms.assetid: cfa0b87e-f033-358a-aa2b-383f900343b9
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
-tech.root: winprog
+ms.topic: overview
+tech.root: wininet
 f1_keywords:
  - wininet
  - wininet/wininet
@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Developer Notes. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Developer Notes](../_winprog/index.md)
+- [Windows Internet](../_wininet/index.md)
 

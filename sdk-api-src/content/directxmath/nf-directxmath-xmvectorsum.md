@@ -11,23 +11,23 @@ ms.keywords: Use DirectX..XMVectorSum, XMVectorSum, XMVectorSum method [DirectX 
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
 req.namespace: Use DirectX.
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
  - XMVectorSum
@@ -61,6 +61,12 @@ Vector for which to compute the horizontal sum.
 ## -returns
 
 Returns a vector whose components are the horizontal sum of the components of <i>V</i>.
+
+## -remarks
+
+Note that for SSE/SSE2, horizonal sums require a number of math and shuffle operations. If you enable SSE3 (via defining ``_XM_SSE3_INTRINSICS_``, ``/arch:AVX``, or ``/arch:AVX2``) -or- if using Windows on ARM/ARM64, this function can make use of horizonal sum intrinsics.
+
+> This is new to DirectXMath 3.10
 
 ## -see-also
 

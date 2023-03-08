@@ -55,59 +55,7 @@ Sets and retrieves Synchronized Accessible Media Interchange (SAMI) styles on th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSAMIStyle</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSAMIStyle</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFSAMIStyle</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-getselectedstyle">GetSelectedStyle</a>
-</td>
-<td align="left" width="63%">
-Gets the current style from the SAMI media source.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-getstylecount">GetStyleCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of styles defined in the SAMI file.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-getstyles">GetStyles</a>
-</td>
-<td align="left" width="63%">
-Gets a list of the style names defined in the SAMI file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsamistyle-setselectedstyle">SetSelectedStyle</a>
-</td>
-<td align="left" width="63%">
-Sets the current style on the SAMI media source.
-        
-
-</td>
-</tr>
-</table>
+The <b>IMFSAMIStyle</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSAMIStyle</b> also has these types of members:
 
 ## -remarks
 

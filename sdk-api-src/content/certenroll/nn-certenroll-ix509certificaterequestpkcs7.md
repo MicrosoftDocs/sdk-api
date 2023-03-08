@@ -61,14 +61,20 @@ The <b>IX509CertificateRequestPkcs7</b> interface represents a  PKCS #7 certific
 
 
  The ASN.1 representation of a PKCS #7 object in the following syntax example shows that it can be composed of a variety of data types.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 PKCS7ContentTable PKCS7-CONTENT-TYPE ::=
 {
     data | signed-data | enveloped-data | signed-and-enveloped-data |
     digested-data | encrypted-data | authenticated-data, ...
 }
-</code></pre>Of these, the <b>SignedData</b> object shown below is most relevant. The <b>SignerInfo</b> object referenced in the <b>SignedData</b> object contains the signature information. For a more complete discussion, see <a href="/windows/desktop/SecCertEnroll/pkcs--7-attributes">PKCS #7 Attributes</a>.
-<pre class="syntax" xml:space="preserve"><code>
+
+```
+Of these, the <b>SignedData</b> object shown below is most relevant. The <b>SignerInfo</b> object referenced in the <b>SignedData</b> object contains the signature information. For a more complete discussion, see <a href="/windows/desktop/SecCertEnroll/pkcs--7-attributes">PKCS #7 Attributes</a>.
+
+``` syntax
+
 -------------------------------------------------------------------
 -- signed-data
 -------------------------------------------------------------------
@@ -93,96 +99,13 @@ SignerInfo ::= SEQUENCE
   signature                   SignatureValue,
   unauthenticatedAttributes   [1] IMPLICIT Attributes
 }
- </code></pre>
+ 
+```
+
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestPkcs7</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>. <b>IX509CertificateRequestPkcs7</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>IX509CertificateRequestPkcs7</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-initializedecode">InitializeDecode</a>
-</td>
-<td align="left" width="63%">
-Decodes an existing signed or unsigned PKCS #7 object and uses it to initialize the new PKCS #7  object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-initializefromcertificate">InitializeFromCertificate</a>
-</td>
-<td align="left" width="63%">
-Initializes the certificate request or response by using an existing certificate.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-initializefrominnerrequest">InitializeFromInnerRequest</a>
-</td>
-<td align="left" width="63%">
-Initializes the certificate request  from the inner content of a PKCS #7 message.
-
-[WebEnabled]
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-initializefromtemplatename">InitializeFromTemplateName</a>
-</td>
-<td align="left" width="63%">
-Initializes the certificate request by using a template.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestPkcs7</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-get_requestername">RequesterName</a>
-
-
-</td>
-<td align="left" width="63%">
-Specifies or retrieves a string that contains the Security Account Manager (SAM) name of the end-entity requesting the certificate.
-
-[WebEnabled]
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-get_signercertificate">SignerCertificate</a>
-
-
-</td>
-<td align="left" width="63%">
-Specifies or retrieves a  certificate used to sign the certificate request.
-
-</td>
-</tr>
-</table>
+The <b>IX509CertificateRequestPkcs7</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>. <b>IX509CertificateRequestPkcs7</b> also has these types of members:
 
 ## -see-also
 

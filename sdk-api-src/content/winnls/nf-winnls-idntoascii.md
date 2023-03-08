@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - Normaliz.dll
+ - kernel32.dll
  - API-MS-Win-Core-Localization-l1-2-0.dll
  - KernelBase.dll
  - API-MS-Win-Core-Localization-l1-2-1.dll
@@ -50,9 +51,6 @@ api_location:
 api_name:
  - IdnToAscii
 ---
-
-# IdnToAscii function
-
 
 ## -description
 
@@ -163,7 +161,9 @@ Note that the function always fails if the input string contains control charact
 
 <b>Windows XP, Windows Server 2003</b>: 
 
-The required header file and DLL are part of the <a href="https://www.microsoft.com/download/details.aspx?id=734"> "Microsoft Internationalized Domain Name (IDN) Mitigation APIs"</a> download, available at the <a href="https://www.microsoft.com/?ref=go">MSDN Download Center</a>.
+No longer supported.
+
+The required header file and DLL are part of the Microsoft Internationalized Domain Name (IDN) Mitigation APIs, which are no longer available for download.
 
 ## -see-also
 

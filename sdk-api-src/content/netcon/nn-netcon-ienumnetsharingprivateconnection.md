@@ -57,56 +57,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumNetSharingPrivateConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumNetSharingPrivateConnection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumNetSharingPrivateConnection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/netcon/nf-netcon-ienumnetsharingprivateconnection-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a new enumeration interface from this enumeration.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-ienumnetsharingprivateconnection-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves a specified number of private connections from this enumeration.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-ienumnetsharingprivateconnection-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Causes subsequent calls to operate from the beginning of the enumeration.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-ienumnetsharingprivateconnection-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips the specified number of private connections in this enumeration.
-
-</td>
-</tr>
-</table>
+The <b>IEnumNetSharingPrivateConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumNetSharingPrivateConnection</b> also has these types of members:
 
 ## -see-also
 

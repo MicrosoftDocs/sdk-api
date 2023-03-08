@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.get_ScheduledInstallationDay
 title: IAutomaticUpdatesSettings::get_ScheduledInstallationDay (wuapi.h)
-description: Gets and sets the days of the week on which Automatic Updates installs or uninstalls updates.
+description: Gets and sets the days of the week on which Automatic Updates installs or uninstalls updates. (Get)
 helpviewer_keywords: ["IAutomaticUpdatesSettings interface [Windows Update Agent]","ScheduledInstallationDay property","IAutomaticUpdatesSettings.ScheduledInstallationDay","IAutomaticUpdatesSettings.get_ScheduledInstallationDay","IAutomaticUpdatesSettings::ScheduledInstallationDay","IAutomaticUpdatesSettings::get_ScheduledInstallationDay","IAutomaticUpdatesSettings::put_ScheduledInstallationDay","ScheduledInstallationDay property [Windows Update Agent]","ScheduledInstallationDay property [Windows Update Agent]","IAutomaticUpdatesSettings interface","get_ScheduledInstallationDay","wua.iautomaticupdatessettings_scheduledinstallationday","wuapi/IAutomaticUpdatesSettings::ScheduledInstallationDay","wuapi/IAutomaticUpdatesSettings::get_ScheduledInstallationDay","wuapi/IAutomaticUpdatesSettings::put_ScheduledInstallationDay"]
 old-location: wua\iautomaticupdatessettings_scheduledinstallationday.htm
 tech.root: wua

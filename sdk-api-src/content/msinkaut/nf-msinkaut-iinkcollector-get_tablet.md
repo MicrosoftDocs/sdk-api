@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_Tablet
 title: IInkCollector::get_Tablet (msinkaut.h)
-description: Gets either the IInkTablet object to which a cursor belongs or the IInkTablet object that an object or control is currently using to collect input.
+description: Gets either the IInkTablet object to which a cursor belongs or the IInkTablet object that an object or control is currently using to collect input. (IInkCollector.get_Tablet)
 helpviewer_keywords: ["IInkCollector interface [Tablet PC]","Tablet property","IInkCollector.Tablet","IInkCollector.get_Tablet","IInkCollector::Tablet","IInkCollector::get_Tablet","InkCollector.get_Tablet","Tablet property [Tablet PC]","Tablet property [Tablet PC]","IInkCollector interface","get_Tablet","msinkaut/IInkCollector::Tablet","msinkaut/IInkCollector::get_Tablet","tablet.inkcollector_tablet"]
 old-location: tablet\inkcollector_tablet.htm
 tech.root: tablet
@@ -69,7 +69,7 @@ Accessing this property within certain message handlers can result in the underl
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="../msinkaut/nn-msinkaut-iinkcollector.md">IInkCollector</a>
 
 
 

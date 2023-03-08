@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.Play
 title: IMFPMediaPlayer::Play (mfplay.h)
-description: Starts playback.
+description: Starts playback. (IMFPMediaPlayer.Play)
 helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","Play method","IMFPMediaPlayer.Play","IMFPMediaPlayer::Play","Play","Play method [Media Foundation]","Play method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_play","mfplay/IMFPMediaPlayer::Play"]
 old-location: mf\imfpmediaplayer_play.htm
 tech.root: mf
@@ -56,7 +56,7 @@ api_name:
 
 Starts playback.
 
-## -parameters
+
 
 ## -returns
 

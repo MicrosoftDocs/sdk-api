@@ -54,71 +54,8 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbCADescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbCADescriptor</b> also has these types of members:
+The <b>IIsdbCADescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbCADescriptor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IIsdbCADescriptor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcadescriptor-getcapid">GetCAPID</a>
-</td>
-<td align="left" width="63%">
-Gets the CA  program identifier (PID) from an ISDB CA descriptor. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcadescriptor-getcasystemid">GetCASystemId</a>
-</td>
-<td align="left" width="63%">
-Gets the conditional-access system identifier from an ISDB CA descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcadescriptor-getlength">GetLength</a>
-</td>
-<td align="left" width="63%">
-Gets the body length of an ISDB conditional access descriptor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcadescriptor-getprivatedatabytes">GetPrivateDataBytes</a>
-</td>
-<td align="left" width="63%">
-Gets private data bytes from an ISDB CA descriptor. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcadescriptor-getreservedbits">GetReservedBits</a>
-</td>
-<td align="left" width="63%">
-Gets the reserved bits from an ISDB CA descriptor. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcadescriptor-gettag">GetTag</a>
-</td>
-<td align="left" width="63%">
-Gets the tag that identifies an ISDB CA descriptor.
-
-</td>
-</tr>
-</table>

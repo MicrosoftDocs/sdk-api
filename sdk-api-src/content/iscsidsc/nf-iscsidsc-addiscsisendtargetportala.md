@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.AddIScsiSendTargetPortalA
 title: AddIScsiSendTargetPortalA function (iscsidsc.h)
-description: AddIscsiSendTargetPortal function adds a static target portal to the list of target portals to which the iSCSI initiator service transmits SendTargets requests.
-helpviewer_keywords: ["AddIScsiSendTargetPortalA","AddIscsiSendTargetPortal","AddIscsiSendTargetPortal function [iSCSI Discovery Library API]","AddIscsiSendTargetPortalA","AddIscsiSendTargetPortalW","ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED","ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED","ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED","ISCSI_SECURITY_FLAG_PFS_ENABLED","ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED","ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED","ISCSI_SECURITY_FLAG_VALID","iscsidisc.addiscsisendtargetportal","iscsidsc/AddIscsiSendTargetPortal","iscsidsc/AddIscsiSendTargetPortalA","iscsidsc/AddIscsiSendTargetPortalW"]
+description: AddIscsiSendTargetPortal function adds a static target portal to the list of target portals to which the iSCSI initiator service transmits SendTargets requests. (ANSI)
+helpviewer_keywords: ["AddIScsiSendTargetPortalA", "AddIscsiSendTargetPortalA", "ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED", "ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED", "ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED", "ISCSI_SECURITY_FLAG_PFS_ENABLED", "ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED", "ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED", "ISCSI_SECURITY_FLAG_VALID", "iscsidsc/AddIscsiSendTargetPortalA"]
 old-location: iscsidisc\addiscsisendtargetportal.htm
 tech.root: iSCSIDisc
 ms.assetid: 8ca378bd-400d-40f1-81d2-c8b4135a3d3c

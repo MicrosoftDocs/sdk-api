@@ -9,8 +9,8 @@ ms.keywords: D3D12_RESOURCE_DESC1, D3D12_RESOURCE_DESC1 structure, d3d12/D3D12_R
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -90,11 +90,11 @@ Bitwise-OR'd flags, as <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_resource
 
 ### -field SamplerFeedbackMipRegion
 
-A [D3D12_MIP_REGION](/windows/win32/api/d3d12/ns-d3d12-d3d12_mip_region) struct.
+A [D3D12_MIP_REGION](./ns-d3d12-d3d12_mip_region.md) struct.
 
 ## -remarks
 
-For remarks, see [D3D12_RESOURCE_DESC1](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc).
+For remarks, see [D3D12_RESOURCE_DESC1](./ns-d3d12-d3d12_resource_desc.md).
 
 ## -see-also
 

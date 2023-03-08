@@ -46,11 +46,7 @@ The <b>IDVBCLocator</b> interface is implemented on <a href="/previous-versions/
 
 ## -inheritance
 
-IDVBCLocator interits from .
-
-## -members
-
-	The IDVBCLocator has no additional methods.
+IDVBCLocator inherits from .
 
 ## -remarks
 

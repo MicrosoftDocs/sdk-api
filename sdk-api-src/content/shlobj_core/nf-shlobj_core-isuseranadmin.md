@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - IsUserAnAdmin
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # IsUserAnAdmin function
@@ -56,7 +57,7 @@ api_name:
 
 Tests whether the current user is a member of the Administrator's group.
 
-## -parameters
+
 
 ## -returns
 

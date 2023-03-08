@@ -1,7 +1,7 @@
 ---
 UID: NS:batclass._BATTERY_WMI_STATUS_CHANGE
 title: BATTERY_WMI_STATUS_CHANGE (batclass.h)
-description: This structure is reserved for system use.
+description: This structure is reserved for system use. (BATTERY_WMI_STATUS_CHANGE)
 helpviewer_keywords: ["*PBATTERY_WMI_STATUS_CHANGE","BATTERY_WMI_STATUS_CHANGE","BATTERY_WMI_STATUS_CHANGE structure [Battery Devices]","PBATTERY_WMI_STATUS_CHANGE","PBATTERY_WMI_STATUS_CHANGE structure pointer [Battery Devices]","batclass/BATTERY_WMI_STATUS_CHANGE","batclass/PBATTERY_WMI_STATUS_CHANGE","battery.battery_wmi_status_change"]
 old-location: battery\battery_wmi_status_change.htm
 tech.root: battery

@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - DAD_DragEnterEx2
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # DAD_DragEnterEx2 function
@@ -66,7 +67,7 @@ A handle to the window that owns the drag image.
 
 ### -param ptStart
 
-Type: <b>const <a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b>const <a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 Specifies the coordinates at which to begin displaying the drag image. The coordinates are relative to the upper-left corner of the window, not the client area.
 

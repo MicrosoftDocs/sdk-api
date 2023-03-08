@@ -52,7 +52,7 @@ api_name:
 
 The <b>Open</b> method opens an existing <a href="/windows/desktop/SecGloss/p-gly">private key</a>.
 
-## -parameters
+
 
 ## -returns
 

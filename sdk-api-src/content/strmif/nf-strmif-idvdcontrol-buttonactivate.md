@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 Activates the selected button.
 
-## -parameters
+
 
 ## -returns
 

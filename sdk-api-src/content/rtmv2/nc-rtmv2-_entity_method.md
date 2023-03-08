@@ -63,11 +63,11 @@ Handle to the calling client.
 
 Handle to the client being called.
 
-### -param *Input
+### -param Input
 
 Handle to the method to be invoked. Contains an input buffer.
 
-### -param *Output
+### -param Output
 
 An array of 
 <a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_output">RTM_ENTITY_METHOD_OUTPUT</a> structures. Each structure consists of a (method identifier, correct output) tuple.

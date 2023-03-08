@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupInstallFromInfSectionA
 title: SetupInstallFromInfSectionA function (setupapi.h)
-description: The SetupInstallFromInfSection function carries out all the directives in an INF file Install section.
-helpviewer_keywords: ["SetupInstallFromInfSection","SetupInstallFromInfSection function [Setup API]","SetupInstallFromInfSectionA","SetupInstallFromInfSectionW","_setupapi_setupinstallfrominfsection","setup.setupinstallfrominfsection","setupapi/SetupInstallFromInfSection","setupapi/SetupInstallFromInfSectionA","setupapi/SetupInstallFromInfSectionW"]
+description: The SetupInstallFromInfSection function carries out all the directives in an INF file Install section. (ANSI)
+helpviewer_keywords: ["SetupInstallFromInfSectionA", "setupapi/SetupInstallFromInfSectionA"]
 old-location: setup\setupinstallfrominfsection.htm
 tech.root: setup
 ms.assetid: bd1ee91a-b58b-4f08-9181-42fbe9d763f9
@@ -47,6 +47,7 @@ api_name:
  - SetupInstallFromInfSection
  - SetupInstallFromInfSectionA
  - SetupInstallFromInfSectionW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupInstallFromInfSectionA function

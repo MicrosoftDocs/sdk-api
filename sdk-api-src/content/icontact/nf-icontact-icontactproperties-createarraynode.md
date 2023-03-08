@@ -130,10 +130,7 @@ Macro HRESULT_FROM_WIN32(ERROR_PATH_NOT_FOUND) returned when array name is inval
 </dl>
 </td>
 <td width="60%">
-Macro HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) returned when <i>pszNewArrayElementName</i> 
-
-					is not large enough to store the value. The required buffer size is stored in 
-					<i>pdwcchNewArrayElementNameRequired</i>. 
+Macro HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) returned when <i>pszNewArrayElementName</i> is not large enough to store the value. The required buffer size is stored in <i>pdwcchNewArrayElementNameRequired</i>. 
 
 </td>
 </tr>

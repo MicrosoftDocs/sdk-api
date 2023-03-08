@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CreateDesktopExW
 title: CreateDesktopExW function (winuser.h)
-description: Creates a new desktop with the specified heap, associates it with the current window station of the calling process, and assigns it to the calling thread.
-helpviewer_keywords: ["CreateDesktopEx","CreateDesktopEx function [Windows Stations and Desktops]","CreateDesktopExA","CreateDesktopExW","DF_ALLOWOTHERACCOUNTHOOK","base.createdesktopex","winstation.createdesktopex","winuser/CreateDesktopEx","winuser/CreateDesktopExA","winuser/CreateDesktopExW"]
+description: Creates a new desktop with the specified heap, associates it with the current window station of the calling process, and assigns it to the calling thread. (Unicode)
+helpviewer_keywords: ["CreateDesktopEx", "CreateDesktopEx function [Windows Stations and Desktops]", "CreateDesktopExW", "DF_ALLOWOTHERACCOUNTHOOK", "base.createdesktopex", "winstation.createdesktopex", "winuser/CreateDesktopEx", "winuser/CreateDesktopExW"]
 old-location: winstation\createdesktopex.htm
 tech.root: winstation
 ms.assetid: 2fe8859d-1fe3-4f44-aa97-58e61779c4cc
@@ -59,7 +59,7 @@ the <a href="/windows/desktop/api/winuser/nf-winuser-setprocesswindowstation">Se
 
 ### -param lpszDesktop [in]
 
-The name of the desktop to be created. Desktop names are case-insensitive and may not contain backslash characters (\).
+The name of the desktop to be created. Desktop names are case-insensitive and may not contain backslash characters (\\).
 
 ### -param lpszDevice
 

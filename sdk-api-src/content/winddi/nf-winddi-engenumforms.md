@@ -72,7 +72,7 @@ Specifies the size, in bytes, of <i>lpbForms</i>.
 
 ### -param pcbNeeded [out]
 
-Pointer to a DWORD that receives the number of bytes copied into <i>pForm </i>if the copy is completed successfully. If <i>pForm</i> is too small to contain all the enumerated forms' data, this DWORD specifies the number of bytes required.
+Pointer to a DWORD that receives the number of bytes copied into <i>pForm </i> if the copy is completed successfully. If <i>pForm</i> is too small to contain all the enumerated forms' data, this DWORD specifies the number of bytes required.
 
 ### -param pcReturned [out]
 

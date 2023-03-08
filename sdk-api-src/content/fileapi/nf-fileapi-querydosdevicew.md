@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.QueryDosDeviceW
 title: QueryDosDeviceW function (fileapi.h)
-description: Retrieves information about MS-DOS device names.
+description: Retrieves information about MS-DOS device names. (QueryDosDeviceW)
 helpviewer_keywords: ["QueryDosDevice","QueryDosDevice function [Files]","QueryDosDeviceA","QueryDosDeviceW","_win32_querydosdevice","base.querydosdevice","fileapi/QueryDosDevice","fileapi/QueryDosDeviceA","fileapi/QueryDosDeviceW","fs.querydosdevice","winbase/QueryDosDevice","winbase/QueryDosDeviceA","winbase/QueryDosDeviceW"]
 old-location: fs\querydosdevice.htm
 tech.root: fs

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHOpenRegStream2W
 title: SHOpenRegStream2W function (shlwapi.h)
-description: Opens a registry value and supplies a stream that can be used to read from or write to the value. This function supersedes SHOpenRegStream.
-helpviewer_keywords: ["SHOpenRegStream2","SHOpenRegStream2 function [Windows Shell]","SHOpenRegStream2A","SHOpenRegStream2W","STGM_READ","STGM_READWRITE","STGM_WRITE","_win32_SHOpenRegStream2","shell.SHOpenRegStream2","shlwapi/SHOpenRegStream2","shlwapi/SHOpenRegStream2A","shlwapi/SHOpenRegStream2W"]
+description: Opens a registry value and supplies a stream that can be used to read from or write to the value. This function supersedes SHOpenRegStream. (Unicode)
+helpviewer_keywords: ["SHOpenRegStream2", "SHOpenRegStream2 function [Windows Shell]", "SHOpenRegStream2W", "STGM_READ", "STGM_READWRITE", "STGM_WRITE", "_win32_SHOpenRegStream2", "shell.SHOpenRegStream2", "shlwapi/SHOpenRegStream2", "shlwapi/SHOpenRegStream2W"]
 old-location: shell\SHOpenRegStream2.htm
 tech.root: shell
 ms.assetid: 2450dde0-cd02-4d48-be40-467b4b8be240

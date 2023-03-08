@@ -60,7 +60,7 @@ A handle the enlistment.
 
 ### -param TmVirtualClock [in]
 
-The latest virtual clock value received for this transaction. See <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>.
+The latest virtual clock value received for this transaction. See <a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>.
 
 ## -returns
 

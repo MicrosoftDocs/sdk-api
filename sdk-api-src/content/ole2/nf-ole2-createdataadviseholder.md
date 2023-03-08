@@ -1,12 +1,12 @@
 ---
 UID: NF:ole2.CreateDataAdviseHolder
 title: CreateDataAdviseHolder function (ole2.h)
-description: Retrieves a pointer to the OLE implementation of IDataAdviseHolder on the data advise holder object.
+description: The CreateDataAdviseHolder function (ole2.h) retrieves a pointer to the OLE implementation of IDataAdviseHolder on the data advise holder object.
 helpviewer_keywords: ["CreateDataAdviseHolder","CreateDataAdviseHolder function [COM]","_ole_CreateDataAdviseHolder","com.createdataadviseholder","ole2/CreateDataAdviseHolder"]
 old-location: com\createdataadviseholder.htm
 tech.root: com
 ms.assetid: a2114f2f-106a-4a26-ba94-1b40af90a0f3
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: CreateDataAdviseHolder, CreateDataAdviseHolder function [COM], _ole_CreateDataAdviseHolder, com.createdataadviseholder, ole2/CreateDataAdviseHolder
 req.header: ole2.h
 req.include-header: ObjBase.h
@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
  - CreateDataAdviseHolder
+req.apiset: ext-ms-win-com-ole32-l1-1-3 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # CreateDataAdviseHolder function

@@ -70,7 +70,7 @@ The string type of the attribute.
 
 Type: <b>UINT32*</b>
 
-The lengthe of the attribute. The returned string length does not include room for the null terminator.
+The length of the attribute. The returned string length does not include room for the null terminator.
 
 ## -returns
 

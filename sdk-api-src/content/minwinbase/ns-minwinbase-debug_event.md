@@ -6,7 +6,7 @@ helpviewer_keywords: ["*LPDEBUG_EVENT","CREATE_PROCESS_DEBUG_EVENT","CREATE_THRE
 old-location: base\debug_event_str.htm
 tech.root: Debug
 ms.assetid: 056aa7ee-51ca-48ec-9cd7-26085bb85b11
-ms.date: 12/05/2018
+ms.date: 04/14/2021
 ms.keywords: '*LPDEBUG_EVENT, CREATE_PROCESS_DEBUG_EVENT, CREATE_THREAD_DEBUG_EVENT, DEBUG_EVENT, DEBUG_EVENT structure, EXCEPTION_DEBUG_EVENT, EXIT_PROCESS_DEBUG_EVENT, EXIT_THREAD_DEBUG_EVENT, LOAD_DLL_DEBUG_EVENT, LPDEBUG_EVENT, LPDEBUG_EVENT structure pointer, OUTPUT_DEBUG_STRING_EVENT, RIP_EVENT, UNLOAD_DLL_DEBUG_EVENT, _win32_debug_event_str, base.debug_event_str, minwinbase/DEBUG_EVENT, minwinbase/LPDEBUG_EVENT'
 req.header: minwinbase.h
 req.include-header: Windows.h
@@ -76,10 +76,9 @@ The code that identifies the type of debugging event. This member can be one of 
 </dl>
 </td>
 <td width="60%">
-Reports a create-process debugging event. The value of <b>u.CreateProcessInfo</b> 
+Reports a create-process debugging event (includes both a process and its main thread). The value of <b>u.CreateProcessInfo</b> 
         specifies a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info">CREATE_PROCESS_DEBUG_INFO</a> 
         structure.
-
 </td>
 </tr>
 <tr>
@@ -89,7 +88,7 @@ Reports a create-process debugging event. The value of <b>u.CreateProcessInfo</b
 </dl>
 </td>
 <td width="60%">
-Reports a create-thread debugging event. The value of <b>u.CreateThread</b> specifies 
+Reports a create-thread debugging event (does not include the main thread of a process, see `CREATE_PROCESS_DEBUG_EVENT`). The value of <b>u.CreateThread</b> specifies 
         a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-create_thread_debug_info">CREATE_THREAD_DEBUG_INFO</a> 
         structure.
 

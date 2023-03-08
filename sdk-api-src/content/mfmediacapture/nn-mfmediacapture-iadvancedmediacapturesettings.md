@@ -54,29 +54,7 @@ Provides settings for advanced media capture.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAdvancedMediaCaptureSettings</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAdvancedMediaCaptureSettings</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAdvancedMediaCaptureSettings</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediacapture/nf-mfmediacapture-iadvancedmediacapturesettings-getdirectxdevicemanager">GetDirectxDeviceManager</a>
-</td>
-<td align="left" width="63%">
-Gets the DirectX device manager.
-
-</td>
-</tr>
-</table>
+The <b>IAdvancedMediaCaptureSettings</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAdvancedMediaCaptureSettings</b> also has these types of members:
 
 ## -see-also
 

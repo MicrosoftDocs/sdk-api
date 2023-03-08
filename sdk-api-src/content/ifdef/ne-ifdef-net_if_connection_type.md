@@ -60,21 +60,21 @@ The NET_IF_CONNECTION_TYPE enumeration type specifies the
 
 ## -enum-fields
 
-### -field NET_IF_CONNECTION_DEDICATED
+### -field NET_IF_CONNECTION_DEDICATED:1
 
 Specifies the dedicated connection type. The connection comes up automatically when media sense is
      <b>TRUE</b>. For example, an Ethernet connection is dedicated.
 
-### -field NET_IF_CONNECTION_PASSIVE
+### -field NET_IF_CONNECTION_PASSIVE:2
 
 Specifies the passive connection type. The other end must bring up the connection to the local
      station. For example, the RAS interface is passive.
 
-### -field NET_IF_CONNECTION_DEMAND
+### -field NET_IF_CONNECTION_DEMAND:3
 
 Specifies the demand-dial connection type. A demand-dial connection comes up in response to a
      local action--for example, sending a packet.
 
-### -field NET_IF_CONNECTION_MAXIMUM
+### -field NET_IF_CONNECTION_MAXIMUM:4
 
 A maximum value for testing purposes.

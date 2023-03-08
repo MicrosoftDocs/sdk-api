@@ -54,38 +54,7 @@ Creates and manages a communication channel used by applications and components 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintAsyncNotifyCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintAsyncNotifyCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPrintAsyncNotifyCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifycallback-channelclosed">ChannelClosed</a>
-</td>
-<td align="left" width="63%">
-Used by one member of a communication channel to advise the other member that the channel is being closed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifycallback-oneventnotify">OnEventNotify</a>
-</td>
-<td align="left" width="63%">
-Used by a notification sender to alert a listener that a notification is available on a specified channel. It is also used for responses to notifications.
-
-</td>
-</tr>
-</table>
+The <b>IPrintAsyncNotifyCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintAsyncNotifyCallback</b> also has these types of members:
 
 ## -remarks
 

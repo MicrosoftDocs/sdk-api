@@ -1,7 +1,8 @@
 ---
 UID: NE:wlanapi._WLAN_ADHOC_NETWORK_STATE~r1
 title: WLAN_ADHOC_NETWORK_STATE
-ms.date: 01/30/19
+description: The WLAN_ADHOC_NETWORK_STATE enumeration specifies the connection state of an ad hoc network.
+ms.date: 08/16/2022
 ms.keywords: _WLAN_ADHOC_NETWORK_STATE, WLAN_ADHOC_NETWORK_STATE
 targetos: Windows
 req.construct-type: enumeration
@@ -10,8 +11,8 @@ req.header: wlanapi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -44,7 +45,7 @@ The <b>WLAN_ADHOC_NETWORK_STATE</b>  enumerated type specifies the connection st
 
 ## -enum-fields
 
-### -field wlan_adhoc_network_state_formed
+### -field wlan_adhoc_network_state_formed:0
 
 The ad hoc network has been formed, but no client or host is connected to the network.
 
@@ -60,7 +61,7 @@ A client or host is connected to the ad hoc network.
 
 
 
-<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm~r1">WLAN_NOTIFICATION_ACM</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm-r1">WLAN_NOTIFICATION_ACM</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:winnls._cpinfoexA
 title: CPINFOEXA (winnls.h)
-description: Contains information about a code page. This structure is used by the GetCPInfoEx function.
+description: Contains information about a code page. This structure is used by the GetCPInfoEx function. (ANSI)
 helpviewer_keywords: ["*LPCPINFOEXA","CPINFOEX","CPINFOEX structure [Internationalization for Windows Applications]","CPINFOEXA","LPCPINFOEX","LPCPINFOEX structure pointer [Internationalization for Windows Applications]","_win32_CPINFOEX_str","intl.cpinfoex","winnls/CPINFOEX","winnls/LPCPINFOEX"]
 old-location: intl\cpinfoex.htm
 tech.root: Intl

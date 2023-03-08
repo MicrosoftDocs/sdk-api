@@ -9,7 +9,7 @@ ms.assetid: 96f34b51-3784-4bb7-ae40-067f8113ff39
 ms.date: 12/05/2018
 ms.keywords: QueueUserWorkItem, QueueUserWorkItem function, WT_EXECUTEDEFAULT, WT_EXECUTEINIOTHREAD, WT_EXECUTEINPERSISTENTTHREAD, WT_EXECUTELONGFUNCTION, WT_TRANSFER_IMPERSONATION, _win32_queueuserworkitem, base.queueuserworkitem, threadpoollegacyapiset/QueueUserWorkItem, winbase/QueueUserWorkItem
 req.header: threadpoollegacyapiset.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -166,8 +166,12 @@ If a function in a DLL is queued to a worker thread, be sure that the function h
 
 By default, the thread pool has a maximum of 512 threads per process. To raise the queue limit, use the <b>WT_SET_MAX_THREADPOOL_THREAD</b> macro defined in WinNT.h.
 
-<pre class="syntax" xml:space="preserve"><code>#define WT_SET_MAX_THREADPOOL_THREADS(Flags,Limit) \
-    ((Flags)|=(Limit)&lt;&lt;16)</code></pre>
+
+``` syntax
+#define WT_SET_MAX_THREADPOOL_THREADS(Flags,Limit) \
+    ((Flags)|=(Limit)&lt;&lt;16)
+```
+
 Use this macro in the call to <b>QueueUserWorkItem</b> to specify the <i>Flags</i> parameter. The macro parameters are the desired flags and the new limit, up to (2&lt;&lt;16)-1 threads. However, the size of the queue is limited by the size of the kernel nonpaged pool. Note that your application can improve its performance by keeping the number of worker threads low.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 

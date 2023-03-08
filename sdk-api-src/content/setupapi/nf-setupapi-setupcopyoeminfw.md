@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupCopyOEMInfW
 title: SetupCopyOEMInfW function (setupapi.h)
-description: The SetupCopyOEMInf function copies a specified .inf file to the %windir%/Inf directory.
-helpviewer_keywords: ["SPOST_NONE","SPOST_PATH","SPOST_URL","SP_COPY_DELETESOURCE","SP_COPY_NOOVERWRITE","SP_COPY_OEMINF_CATALOG_ONLY","SP_COPY_REPLACEONLY","SetupCopyOEMInf","SetupCopyOEMInf function [Setup API]","SetupCopyOEMInfA","SetupCopyOEMInfW","_setupapi_setupcopyoeminf","setup.setupcopyoeminf","setupapi/SetupCopyOEMInf","setupapi/SetupCopyOEMInfA","setupapi/SetupCopyOEMInfW"]
+description: The SetupCopyOEMInf function copies a specified .inf file to the %windir%/Inf directory. (Unicode)
+helpviewer_keywords: ["SPOST_NONE", "SPOST_PATH", "SPOST_URL", "SP_COPY_DELETESOURCE", "SP_COPY_NOOVERWRITE", "SP_COPY_OEMINF_CATALOG_ONLY", "SP_COPY_REPLACEONLY", "SetupCopyOEMInf", "SetupCopyOEMInf function [Setup API]", "SetupCopyOEMInfW", "_setupapi_setupcopyoeminf", "setup.setupcopyoeminf", "setupapi/SetupCopyOEMInf", "setupapi/SetupCopyOEMInfW"]
 old-location: setup\setupcopyoeminf.htm
 tech.root: setup
 ms.assetid: f082145d-b3e7-4efd-8820-3376a36f3710
@@ -46,6 +46,7 @@ api_name:
  - SetupCopyOEMInf
  - SetupCopyOEMInfA
  - SetupCopyOEMInfW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupCopyOEMInfW function
@@ -194,7 +195,7 @@ All .inf files with names of the form OEM*.inf are enumerated and any files that
 
 The Inf directory is searched for the source filename of the .inf file. If an .inf file of the same name exists and is the same size as that of the specified .inf file, the two files are binary compared to determine if they are identical.
 
-If the specified .inf file already exists a further check is performed to determine if the specified .inf file contains a CatalogFile= entry in its [Version] section. If it does, the .inf files's %windir%\Inf primary filename with a ".cat" extension is used to determine if the catalog is already installed. If there is a catalog installed, but it is not the same as the catalog associated with the source .inf, this is not considered to be a match and enumerations continue. It is possible to have multiple identical .inf files with unique catalogs contained in %windir%\Inf directory. If an existing match is not found, the .inf and .cat files are installed under a new and unique name.
+If the specified .inf file already exists a further check is performed to determine if the specified .inf file contains a CatalogFile= entry in its [Version] section. If it does, the .inf file's %windir%\Inf primary filename with a ".cat" extension is used to determine if the catalog is already installed. If there is a catalog installed, but it is not the same as the catalog associated with the source .inf, this is not considered to be a match and enumerations continue. It is possible to have multiple identical .inf files with unique catalogs contained in %windir%\Inf directory. If an existing match is not found, the .inf and .cat files are installed under a new and unique name.
 
 OEM .inf files that do not specify a CatalogFile= entry are considered invalid with respect to digital signature verification.
 

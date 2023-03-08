@@ -54,47 +54,7 @@ Represents a list of timed-text tracks.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimedTextTrackList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimedTextTrackList</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFTimedTextTrackList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtexttracklist-getlength">GetLength</a>
-</td>
-<td align="left" width="63%">
-Gets the length, in tracks, of the timed-text-track list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtexttracklist-gettrack">GetTrack</a>
-</td>
-<td align="left" width="63%">
-Gets a text track in the list from the index of the track.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtexttracklist-gettrackbyid">GetTrackById</a>
-</td>
-<td align="left" width="63%">
-Gets a text track in the list from the identifier of the track.
-
-</td>
-</tr>
-</table>
+The <b>IMFTimedTextTrackList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimedTextTrackList</b> also has these types of members:
 
 ## -see-also
 

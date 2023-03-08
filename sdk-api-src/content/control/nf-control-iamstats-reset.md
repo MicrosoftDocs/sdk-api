@@ -53,7 +53,7 @@ api_name:
 
 The <code>Reset</code> method resets all statistics to zero.
 
-## -parameters
+
 
 ## -returns
 

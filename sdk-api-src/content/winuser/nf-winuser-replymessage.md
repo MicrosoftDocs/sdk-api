@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
  - ReplyMessage
+req.apiset: ext-ms-win-ntuser-message-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ReplyMessage function

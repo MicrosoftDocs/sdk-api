@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.INewShortcutHookA.GetExtension
 title: INewShortcutHookA::GetExtension (shlobj.h)
-description: Gets the file name extension for the shortcut object.
+description: Gets the file name extension for the shortcut object. (ANSI)
 helpviewer_keywords: ["GetExtension","GetExtension method [Windows Shell]","GetExtension method [Windows Shell]","INewShortcutHook interface","INewShortcutHook interface [Windows Shell]","GetExtension method","INewShortcutHook::GetExtension","INewShortcutHookA","INewShortcutHookA.GetExtension","INewShortcutHookA::GetExtension","INewShortcutHookW","INewShortcutHookW::GetExtension","_win32_INewShortcutHook_GetExtension","shell.INewShortcutHook_GetExtension","shlobj/INewShortcutHook::GetExtension"]
 old-location: shell\INewShortcutHook_GetExtension.htm
 tech.root: shell
@@ -72,5 +72,5 @@ The size of the buffer at <i>pszExtension</i>, in characters.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

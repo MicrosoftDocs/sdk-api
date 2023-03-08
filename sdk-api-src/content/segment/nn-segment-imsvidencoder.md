@@ -54,38 +54,10 @@ The <b>IMSVidEncoder</b> interface represents the <a href="/previous-versions/wi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidEncoder</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>. <b>IMSVidEncoder</b> also has these types of members:
+The <b>IMSVidEncoder</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>. <b>IMSVidEncoder</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidEncoder</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidencoder-get_audioencoderinterface">get_AudioEncoderInterface</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to the audio encoder interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidencoder-get_videoencoderinterface">get_VideoEncoderInterface</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to the video encoder interface.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

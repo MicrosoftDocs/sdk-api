@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.operator-add~r1
-title: operator+
+title: operator+ (add)
 description: Adds two instances of **XMVECTOR**, returning the result in a new instance.
 tech.root: dxmath
 helpviewer_keywords: ["operator+"]
@@ -35,7 +35,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - directxmath.h
 api_name:

@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupEnumInfSectionsA
 title: SetupEnumInfSectionsA function (setupapi.h)
-description: The SetupEnumInfSections function retrieves section names from an INF file.
-helpviewer_keywords: ["SetupEnumInfSections","SetupEnumInfSections function [Setup API]","SetupEnumInfSectionsA","SetupEnumInfSectionsW","setup.setupenuminfsections","setupapi/SetupEnumInfSections","setupapi/SetupEnumInfSectionsA","setupapi/SetupEnumInfSectionsW"]
+description: The SetupEnumInfSections function retrieves section names from an INF file. (ANSI)
+helpviewer_keywords: ["SetupEnumInfSectionsA", "setupapi/SetupEnumInfSectionsA"]
 old-location: setup\setupenuminfsections.htm
 tech.root: setup
 ms.assetid: 9b19ced6-728a-48e7-9e87-03fc53f7fb72
@@ -46,6 +46,7 @@ api_name:
  - SetupEnumInfSections
  - SetupEnumInfSectionsA
  - SetupEnumInfSectionsW
+req.apiset: ext-ms-win-setupapi-inf-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupEnumInfSectionsA function

@@ -1,7 +1,7 @@
 ---
 UID: NN:searchapi.ISearchProtocol2
 title: ISearchProtocol2 (searchapi.h)
-description: Provides methods for invoking, initializing, and managing IUrlAccessor objects.
+description: Provides methods for invoking, initializing, and managing IUrlAccessor objects. (ISearchProtocol2)
 helpviewer_keywords: ["ISearchProtocol2","ISearchProtocol2 interface [search]","ISearchProtocol2 interface [search]","described","_search_ISearchProtocol2","search._search_ISearchProtocol2","searchapi/ISearchProtocol2"]
 old-location: search\_search_ISearchProtocol2.htm
 tech.root: search
@@ -52,37 +52,11 @@ api_name:
 
 Provides methods for invoking, initializing, and managing <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> objects. Methods in this interface are called by the protocol host when processing URLs from the gatherer. 
       
-
- 
-      The protocol handler implements the protocol for accessing a content source in its native format. Use this interface to implement a custom protocol handler to expand the data sources that can be indexed.
+The protocol handler implements the protocol for accessing a content source in its native format. Use this interface to implement a custom protocol handler to expand the data sources that can be indexed.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchProtocol2</b> interface inherits from <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchprotocol">ISearchProtocol</a>. <b>ISearchProtocol2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISearchProtocol2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol2-createaccessorex">CreateAccessorEx</a>
-</td>
-<td align="left" width="63%">
- 
-        Creates and initializes an <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object. This method has the same basic functionality as the <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-createaccessor">ISearchProtocol::CreateAccessor</a> method, but it includes an additional <b>pUserData</b> parameter to supply additional data to the protocol handler.
-        
-
-</td>
-</tr>
-</table>
+The <b>ISearchProtocol2</b> interface inherits from <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchprotocol">ISearchProtocol</a>. <b>ISearchProtocol2</b> also has these types of members:
 
 ## -see-also
 

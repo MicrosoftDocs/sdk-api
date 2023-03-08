@@ -47,7 +47,7 @@ api_name:
  - MFASYNCRESULT
 ---
 
-# MFASYNCRESULT structure
+# MFASYNCRESULT structure overview
 
 
 ## -description

@@ -54,38 +54,7 @@ Use this interface to query current network cost and data plan status associated
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkConnectionCost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkConnectionCost</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>INetworkConnectionCost</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnectioncost-getcost">GetCost</a>
-</td>
-<td align="left" width="63%">
- Retrieves the network cost associated with a connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnectioncost-getdataplanstatus">GetDataPlanStatus</a>
-</td>
-<td align="left" width="63%">
-Retrieves the status of the data plan associated with a connection.
-
-</td>
-</tr>
-</table>
+The <b>INetworkConnectionCost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkConnectionCost</b> also has these types of members:
 
 ## -see-also
 

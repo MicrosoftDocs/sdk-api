@@ -123,7 +123,7 @@ To call this method, declare a <b>DWORD</b> variable and set the value to the bi
 
 The following code example shows how to find out whether the stream supports forward seeking, backward seeking, and absolute seeking.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

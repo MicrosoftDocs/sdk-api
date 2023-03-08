@@ -55,7 +55,7 @@ The
 
 ## -enum-fields
 
-### -field ACS_PROTOCOL
+### -field ACS_PROTOCOL:0
 
 Describes a protocol-specific capability. The value is returned as a GUID in string format. For possible values, see 
 <a href="/windows/desktop/Tapi/tapiprotocol--constants">TAPIPROTOCOL_</a>. A TSP may define additional values. Corresponds to the <b>ProtocolGuid</b> member of TAPI 2's 

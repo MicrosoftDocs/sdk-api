@@ -1,0 +1,8 @@
+{
+  "tech": "comp_swapchain",
+  "headers": [
+    "presentation.h",
+    "presentationtypes.h"
+ ],
+  "displayName": "Composition swapchain"
+}

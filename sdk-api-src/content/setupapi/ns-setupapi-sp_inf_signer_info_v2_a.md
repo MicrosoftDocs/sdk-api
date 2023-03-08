@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SP_INF_SIGNER_INFO_V2_A
 title: SP_INF_SIGNER_INFO_V2_A (setupapi.h)
-description: The SP_INF_SIGNER_INFO structure stores information about an INF file's digital signature.
+description: The SP_INF_SIGNER_INFO structure stores information about an INF file's digital signature. (sp_inf_signer_info_v2_a)
 helpviewer_keywords: ["*PSP_INF_SIGNER_INFO_V2_A","PSP_INF_SIGNER_INFO","PSP_INF_SIGNER_INFO structure pointer [Setup API]","SP_INF_SIGNER_INFO","SP_INF_SIGNER_INFO structure [Setup API]","SP_INF_SIGNER_INFO_A","SP_INF_SIGNER_INFO_V2","SP_INF_SIGNER_INFO_V2_A","_setupapi_filepaths_signerinfo","setup.sp_inf_signer_info","setupapi/PSP_INF_SIGNER_INFO","setupapi/SP_INF_SIGNER_INFO"]
 old-location: setup\sp_inf_signer_info.htm
 tech.root: setup

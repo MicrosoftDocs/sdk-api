@@ -68,8 +68,8 @@ The in-sync state flags. See <a href="/windows/desktop/api/cfapi/ne-cfapi-cf_set
 
 ### -param InSyncUsn [in, out, optional]
 
-When specified, this instructs the platform to only perform in-sync setting if the file still has the same USN value as the one passed in. Passing a pointer to a USN value of 0 on input is the same as passing a NULL pointer.  On return, this is the final USN value after setting the in-sync state.
+This parameter needs to be a NULL pointer.
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

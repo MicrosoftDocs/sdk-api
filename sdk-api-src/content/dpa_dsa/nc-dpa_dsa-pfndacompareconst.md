@@ -54,13 +54,13 @@ Defines the prototype for the compare function used by <a href="/windows/desktop
 
 ## -parameters
 
-### -param *p1 [in, optional]
+### -param p1 [in, optional]
 
 Type: <b>const void*</b>
 
 A pointer to the first item in the comparison.
 
-### -param *p2 [in, optional]
+### -param p2 [in, optional]
 
 Type: <b>const void*</b>
 

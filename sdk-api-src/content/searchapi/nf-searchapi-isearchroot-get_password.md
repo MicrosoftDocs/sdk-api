@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_Password
 title: ISearchRoot::get_Password (searchapi.h)
-description: Not implemented.
+description: Not implemented. (ISearchRoot.get_Password)
 helpviewer_keywords: ["ISearchRoot interface [search]","get_Password method","ISearchRoot.get_Password","ISearchRoot::get_Password","_search_ISearchRoot_get_Password","get_Password","get_Password method [search]","get_Password method [search]","ISearchRoot interface","search._search_ISearchRoot_get_Password","searchapi/ISearchRoot::get_Password"]
 old-location: search\_search_ISearchRoot_get_Password.htm
 tech.root: search
@@ -62,7 +62,7 @@ This parameter is unused.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

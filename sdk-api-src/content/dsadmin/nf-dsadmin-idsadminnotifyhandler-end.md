@@ -52,7 +52,7 @@ api_name:
 
 The <b>IDsAdminNotifyHandler::End</b> method is called after the notification event has occurred. This method is called even if the notification process is canceled.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagENUMLOGFONTEXDVA
 title: ENUMLOGFONTEXDVA (wingdi.h)
-description: The ENUMLOGFONTEXDV structure contains the information used to create a font.
+description: The ENUMLOGFONTEXDV structure contains the information used to create a font. (ANSI)
 helpviewer_keywords: ["*LPENUMLOGFONTEXDVA","*PENUMLOGFONTEXDVA","ENUMLOGFONTEXDV","ENUMLOGFONTEXDV structure [Windows GDI]","ENUMLOGFONTEXDVA","ENUMLOGFONTEXDVW","PENUMLOGFONTEXDV","PENUMLOGFONTEXDV structure pointer [Windows GDI]","_win32_ENUMLOGFONTEXDV_str","gdi.enumlogfontexdv","wingdi/ENUMLOGFONTEXDV","wingdi/ENUMLOGFONTEXDVA","wingdi/ENUMLOGFONTEXDVW","wingdi/PENUMLOGFONTEXDV"]
 old-location: gdi\enumlogfontexdv.htm
 tech.root: gdi

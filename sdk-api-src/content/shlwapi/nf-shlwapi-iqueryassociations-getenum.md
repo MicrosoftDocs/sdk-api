@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.IQueryAssociations.GetEnum
 title: IQueryAssociations::GetEnum (shlwapi.h)
-description: This method is not implemented.
+description: This method is not implemented. (IQueryAssociations.GetEnum)
 helpviewer_keywords: ["GetEnum","GetEnum method [Windows Shell]","GetEnum method [Windows Shell]","IQueryAssociations interface","IQueryAssociations interface [Windows Shell]","GetEnum method","IQueryAssociations.GetEnum","IQueryAssociations::GetEnum","_win32_IQueryAssociations_GetEnum","shell.IQueryAssociations_GetEnum","shlwapi/IQueryAssociations::GetEnum"]
 old-location: shell\IQueryAssociations_GetEnum.htm
 tech.root: shell

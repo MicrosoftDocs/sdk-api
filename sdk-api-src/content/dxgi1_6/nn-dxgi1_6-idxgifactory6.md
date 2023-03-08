@@ -55,29 +55,7 @@ This interface enables a single method that enumerates graphics adapters based o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory6</b> interface inherits from <a href="/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgifactory5">IDXGIFactory5</a>. <b>IDXGIFactory6</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDXGIFactory6</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgifactory6-enumadapterbygpupreference">EnumAdapterByGpuPreference</a>
-</td>
-<td align="left" width="63%">
-Enumerates graphics adapters based on a given GPU preference.
-
-</td>
-</tr>
-</table>
+The <b>IDXGIFactory6</b> interface inherits from <a href="/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgifactory5">IDXGIFactory5</a>. <b>IDXGIFactory6</b> also has these types of members:
 
 ## -see-also
 

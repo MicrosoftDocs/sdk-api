@@ -205,9 +205,13 @@ A client can call the <b>Activate</b> method of the <b>IMMDevice</b> interface f
 </ul>
 To obtain the interface ID for an interface, use the <b>__uuidof</b> operator. For example, the interface ID of <b>IAudioCaptureClient</b> is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 const IID IID_IAudioClient  __uuidof(IAudioCaptureClient)
-</code></pre>
+
+```
+
 For information about the <b>__uuidof</b> operator, see the Windows SDK documentation. For information about <b>IBaseFilter</b>, <b>IDirectSound</b>, <b>IDirectSound8</b>, <b>IDirectSoundCapture</b>,  <b>IDirectSoundCapture8</b>, and <b>IMFTrustedOutput</b> see the Windows SDK documentation.
 
 The <i>pActivationParams</i> parameter should be <b>NULL</b> for an <b>Activate</b> call to create an <b>IAudioClient</b>, <b>IAudioEndpointVolume</b>, <b>IAudioMeterInformation</b>, <b>IAudioSessionManager</b>, or <b>IDeviceTopology</b> interface for an audio endpoint device.

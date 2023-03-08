@@ -71,7 +71,7 @@ Specifies the relative exposure. To get the range of possible values, call <a hr
 <td>Set the exposure to the default exposure time, which is implementation dependent.</td>
 </tr>
 <tr>
-<td>Postive value</td>
+<td>Positive value</td>
 <td>Increment the exposure time by one step.</td>
 </tr>
 <tr>
@@ -82,7 +82,7 @@ Specifies the relative exposure. To get the range of possible values, call <a hr
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="/windows/win32/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 ## -returns
 

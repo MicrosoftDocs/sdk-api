@@ -53,4 +53,4 @@ api_name:
 
 Creates an <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-effect">Effect</a> object.
 
-## -parameters
+

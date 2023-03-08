@@ -56,65 +56,7 @@ To get a pointer to this interface, call the <a href="/windows/desktop/api/dxvah
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXVAHD_VideoProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXVAHD_VideoProcessor</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDXVAHD_VideoProcessor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-getvideoprocessbltstate">GetVideoProcessBltState</a>
-</td>
-<td align="left" width="63%">
-Gets the value of a state parameter for a DXVA-HD blit operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-getvideoprocessstreamstate">GetVideoProcessStreamState</a>
-</td>
-<td align="left" width="63%">
-Gets the value of a state parameter for a DXVA-HD input stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessbltstate">SetVideoProcessBltState</a>
-</td>
-<td align="left" width="63%">
-Sets a state parameter for a DXVA-HD blit operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessstreamstate">SetVideoProcessStreamState</a>
-</td>
-<td align="left" width="63%">
-Sets a state parameter for a DXVA-HD input stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-videoprocessblthd">VideoProcessBltHD</a>
-</td>
-<td align="left" width="63%">
-Performs a video processing blit on one or more input samples and writes the result to a Microsoft Direct3D surface.
-
-</td>
-</tr>
-</table>
+The <b>IDXVAHD_VideoProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXVAHD_VideoProcessor</b> also has these types of members:
 
 ## -see-also
 

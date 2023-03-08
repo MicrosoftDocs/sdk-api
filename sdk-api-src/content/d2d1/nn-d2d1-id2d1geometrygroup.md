@@ -54,47 +54,10 @@ Represents a composite geometry, composed of other <a href="/windows/win32/api/d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GeometryGroup</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>. <b>ID2D1GeometryGroup</b> also has these types of members:
+The <b>ID2D1GeometryGroup</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>. <b>ID2D1GeometryGroup</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID2D1GeometryGroup</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1geometrygroup-getfillmode">GetFillMode</a>
-</td>
-<td align="left" width="63%">
-Indicates how the intersecting areas of the geometries contained in this geometry group are combined.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1geometrygroup-getsourcegeometries">GetSourceGeometries</a>
-</td>
-<td align="left" width="63%">
-Retrieves the geometries in the geometry group. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1geometrygroup-getsourcegeometrycount">GetSourceGeometryCount</a>
-</td>
-<td align="left" width="63%">
-Indicates the number of geometry objects in the geometry group. 
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -57,7 +57,7 @@ The <a href="/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteris
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 ## -returns
 

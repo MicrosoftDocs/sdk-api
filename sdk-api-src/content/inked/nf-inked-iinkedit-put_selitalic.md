@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_SelItalic
 title: IInkEdit::put_SelItalic (inked.h)
-description: Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is italic (run time only).
+description: Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is italic (run time only). (Put)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","SelItalic property","IInkEdit.SelItalic","IInkEdit.put_SelItalic","IInkEdit::SelItalic","IInkEdit::get_SelItalic","IInkEdit::put_SelItalic","InkEdit.get_SelItalic","InkEdit.put_SelItalic","SelItalic property [Tablet PC]","SelItalic property [Tablet PC]","IInkEdit interface","get_SelItalic","inked/IInkEdit::SelItalic","inked/IInkEdit::get_SelItalic","inked/IInkEdit::put_SelItalic","put_SelItalic","tablet.inkedit_selitalic"]
 old-location: tablet\inkedit_selitalic.htm
 tech.root: tablet
@@ -69,7 +69,7 @@ If there is no text selected in the <a href="/windows/desktop/tablet/inkedit-con
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="../inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

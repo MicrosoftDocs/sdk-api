@@ -52,7 +52,7 @@ api_name:
 
  Gets the font weight of the text.
 
-## -parameters
+
 
 ## -returns
 

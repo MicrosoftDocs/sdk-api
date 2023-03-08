@@ -53,7 +53,7 @@ api_name:
 
 Releases ownership of the output.
 
-## -parameters
+
 
 ## -remarks
 

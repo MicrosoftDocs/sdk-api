@@ -59,65 +59,7 @@ To create the default proxy locator, call <a href="/windows/desktop/api/mfidl/nf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetProxyLocator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetProxyLocator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFNetProxyLocator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a new instance of the proxy locator object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-findfirstproxy">FindFirstProxy</a>
-</td>
-<td align="left" width="63%">
-Initializes the proxy locator object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-findnextproxy">FindNextProxy</a>
-</td>
-<td align="left" width="63%">
-Determines the next proxy to use in the list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-getcurrentproxy">GetCurrentProxy</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current proxy information including hostname and port.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-registerproxyresult">RegisterProxyResult</a>
-</td>
-<td align="left" width="63%">
-Keeps record of the success or failure of using the current proxy.
-
-</td>
-</tr>
-</table>
+The <b>IMFNetProxyLocator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetProxyLocator</b> also has these types of members:
 
 ## -see-also
 

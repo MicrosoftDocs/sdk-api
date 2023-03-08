@@ -1,7 +1,7 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.DeviceToColorimetricColors
 title: IDeviceModelPlugIn::DeviceToColorimetricColors (wcsplugin.h)
-description: Returns the appropriate XYZ colors in response to the specified number of colors, channels, device colors and the proprietary plug-in algorithms.
+description: Returns the appropriate XYZ colors in response to the specified number of colors, channels, device colors and the proprietary plug-in algorithms. (IDeviceModelPlugIn.DeviceToColorimetricColors)
 helpviewer_keywords: ["DeviceToColorimetricColors","DeviceToColorimetricColors method [Windows Color System]","DeviceToColorimetricColors method [Windows Color System]","IDeviceModelPlugIn interface","IDeviceModelPlugIn interface [Windows Color System]","DeviceToColorimetricColors method","IDeviceModelPlugIn.DeviceToColorimetricColors","IDeviceModelPlugIn::DeviceToColorimetricColors","_color_IDeviceModelPlugIn::DeviceToColorimetricColors","wcs.IDeviceModelPlugIn_DeviceToColorimetricColors","wcsplugin/IDeviceModelPlugIn::DeviceToColorimetricColors"]
 old-location: wcs\IDeviceModelPlugIn_DeviceToColorimetricColors.htm
 tech.root: WCS
@@ -82,12 +82,6 @@ If <i>cColors</i> or <i>cChannels</i> is zero, the return value is E_FAIL.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
-
-
-
-<a href="/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)
+* [IDeviceModelPlugIn](/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin)

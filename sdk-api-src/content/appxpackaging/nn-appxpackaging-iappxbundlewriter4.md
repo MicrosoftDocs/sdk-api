@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxBundleWriter4
 title: IAppxBundleWriter4 (appxpackaging.h)
-description: Provides a write-only object model for bundle packages.
+description: Provides a write-only object model for bundle packages. (IAppxBundleWriter4)
 helpviewer_keywords: ["IAppxBundleWriter4","IAppxBundleWriter4 interface [App packaging and management]","IAppxBundleWriter4 interface [App packaging and management]","described","appxpackaging/IAppxBundleWriter4","appxpkg.iappxbundlewriter4"]
 old-location: appxpkg\iappxbundlewriter4.htm
 tech.root: appxpkg
@@ -54,44 +54,5 @@ Provides a write-only object model for bundle packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleWriter4</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleWriter4</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxBundleWriter4</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleWriter4</b> also has these types of members:
 
-## -members
-
-The <b>IAppxBundleWriter4</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter4-addexternalpackagereference">AddExternalPackageReference</a>
-</td>
-<td align="left" width="63%">
-Adds a reference within the package bundle to an external app package.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter4-addpackagereference">AddPackageReference</a>
-</td>
-<td align="left" width="63%">
-Adds a reference to an optional app package or a payload file within an app bundle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter4-addpayloadpackage">AddPayloadPackage</a>
-</td>
-<td align="left" width="63%">
-Adds a new app package to the bundle.
-
-</td>
-</tr>
-</table>

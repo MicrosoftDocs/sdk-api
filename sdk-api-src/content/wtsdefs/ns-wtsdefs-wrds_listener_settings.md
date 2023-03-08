@@ -72,6 +72,4 @@ The structure is a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listene
 
 A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listener_setting">WRDS_LISTENER_SETTING</a> structure that specifies the listener settings.
 
-### -field WRdsListenerSetting.switch_is
 
-### -field WRdsListenerSetting.switch_is.WRdsListenerSettingLevel

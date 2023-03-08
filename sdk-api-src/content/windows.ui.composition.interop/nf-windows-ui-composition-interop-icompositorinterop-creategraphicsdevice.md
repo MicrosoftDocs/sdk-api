@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositorInterop.CreateGraphicsDevice
-title: ICompositorInterop::composition (windows.ui.composition.interop.h)
+title: ICompositorInterop::CreateGraphicsDevice (windows.ui.composition.interop.h)
 description: Creates a CompositionGraphicsDevice backed by the specified rendering device.
 helpviewer_keywords: ["CreateGraphicsDevice","CreateGraphicsDevice method","CreateGraphicsDevice method","ICompositorInterop interface","ICompositorInterop interface","CreateGraphicsDevice method","ICompositorInterop.CreateGraphicsDevice","ICompositorInterop.composition","ICompositorInterop::CreateGraphicsDevice","ICompositorInterop::composition","w_ui_comp.icompositorinterop_creategraphicsdevice","windows/ICompositorInterop::CreateGraphicsDevice"]
 old-location: w_ui_comp\icompositorinterop_creategraphicsdevice.htm
@@ -45,7 +45,7 @@ api_name:
  - ICompositorInterop.CreateGraphicsDevice
 ---
 
-# ICompositorInterop::composition
+# ICompositorInterop::CreateGraphicsDevice (windows.ui.composition.interop.h)
 
 
 ## -description

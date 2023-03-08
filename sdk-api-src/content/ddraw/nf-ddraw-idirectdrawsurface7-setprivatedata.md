@@ -54,19 +54,19 @@ Associates data with the surface that is intended for use by the application, no
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Reference to (C++) or address of (C) the globally unique identifier that identifies the private data to be set.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 A pointer to a buffer that contains the data to be associated with the surface.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 The size value of the buffer at <i>lpData</i>, in bytes.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 A value that can be set to one of the following flags. These flags describe the type of data being passed or request that the data be invalidated when the surface changes.
 
@@ -106,7 +106,7 @@ If it fails, the method can return one of the following error values:
 
 DirectDraw does not manage the memory at <i>lpData</i>. If this buffer was dynamically allocated, the caller must free the memory.
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetPrivateData</b> method.
+
 
 ## -see-also
 

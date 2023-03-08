@@ -57,56 +57,7 @@ The SAR and the audio capture source expose this interface as a service. To get 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSimpleAudioVolume</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSimpleAudioVolume</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFSimpleAudioVolume</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-getmastervolume">GetMasterVolume</a>
-</td>
-<td align="left" width="63%">
-Retrieves the master volume level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-getmute">GetMute</a>
-</td>
-<td align="left" width="63%">
-Queries whether the audio is muted.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-setmastervolume">SetMasterVolume</a>
-</td>
-<td align="left" width="63%">
-Sets the master volume level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-setmute">SetMute</a>
-</td>
-<td align="left" width="63%">
-Mutes or unmutes the audio.
-
-</td>
-</tr>
-</table>
+The <b>IMFSimpleAudioVolume</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSimpleAudioVolume</b> also has these types of members:
 
 ## -remarks
 
@@ -124,7 +75,7 @@ The volume level of the channel.
 
 </li>
 </ul>
-For example, if the master volume is 0.8 and the channel volume is 0.5, the attenuaton for that channel is 0.8 × 0.5 = 0.4. Volume levels can exceed 1.0 (positive gain), but the audio engine clips any audio samples that exceed zero decibels. To change the volume level of individual channels, use the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfaudiostreamvolume">IMFAudioStreamVolume</a> interface.
+For example, if the master volume is 0.8 and the channel volume is 0.5, the attenuation for that channel is 0.8 × 0.5 = 0.4. Volume levels can exceed 1.0 (positive gain), but the audio engine clips any audio samples that exceed zero decibels. To change the volume level of individual channels, use the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfaudiostreamvolume">IMFAudioStreamVolume</a> interface.
 
 Use the following formula to convert the volume level to the decibel (dB) scale:
 

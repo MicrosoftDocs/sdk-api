@@ -56,7 +56,7 @@ The <b>VSS_COMPONENT_TYPE</b> enumeration is used by both
 
 ## -enum-fields
 
-### -field VSS_CT_UNDEFINED
+### -field VSS_CT_UNDEFINED:0
 
 Undefined component type. 
       

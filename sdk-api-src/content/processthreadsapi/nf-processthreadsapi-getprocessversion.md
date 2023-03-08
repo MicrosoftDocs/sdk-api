@@ -4,12 +4,12 @@ title: GetProcessVersion function (processthreadsapi.h)
 description: Retrieves the major and minor version numbers of the system on which the specified process expects to run.
 helpviewer_keywords: ["GetProcessVersion","GetProcessVersion function","_win32_getprocessversion","base.getprocessversion","processthreadsapi/GetProcessVersion","winbase/GetProcessVersion"]
 old-location: base\getprocessversion.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: ed12f2e5-1674-4885-878f-9ba39415780c
 ms.date: 12/05/2018
 ms.keywords: GetProcessVersion, GetProcessVersion function, _win32_getprocessversion, base.getprocessversion, processthreadsapi/GetProcessVersion, winbase/GetProcessVersion
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]

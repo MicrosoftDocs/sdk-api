@@ -53,7 +53,7 @@ api_name:
 
 Gets the color space used by the swap chain.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,15 +52,15 @@ api_name:
 
 Assigns the vector component data from one instance of <code>XMUDECN4</code> to the current instance of <code>XMUDECN4</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/4b85445e-8ea9-4e1c-b07e-db13d2ee82aa">XMUDECN4</a> to the current instance of <code>XMUDECN4</code>.
+This operator assigns the vector component data from one instance of <a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmudecn4">XMUDECN4</a> to the current instance of <code>XMUDECN4</code>.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
-Instance of <code>XMUDECN4</code> used to update the current <code>XMUDECN4</code>structure.
+Instance of <code>XMUDECN4</code> used to update the current <code>XMUDECN4</code> structure.
 
 ## -returns
 
@@ -68,7 +68,7 @@ The current instance of <code>XMUDECN4</code> whose vector component data has be
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/4b85445e-8ea9-4e1c-b07e-db13d2ee82aa">XMUDECN4</a>
+<a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmudecn4">XMUDECN4</a>
 
 <a href="https://msdn.microsoft.com/b5cb7c96-68c2-4d6b-8ed7-a44651c681b5">operator = </a>
 

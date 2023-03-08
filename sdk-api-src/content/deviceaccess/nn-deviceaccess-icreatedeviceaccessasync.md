@@ -55,53 +55,5 @@ The <b>ICreateDeviceAccessAsync</b> interface is returned from a call to CreateD
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateDeviceAccessAsync</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateDeviceAccessAsync</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICreateDeviceAccessAsync</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateDeviceAccessAsync</b> also has these types of members:
 
-## -members
-
-The <b>ICreateDeviceAccessAsync</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-cancel">Cancel</a>
-</td>
-<td align="left" width="63%">
-Attempts to cancel an asynchronous operation that  is in progress.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-close">Close</a>
-</td>
-<td align="left" width="63%">
-Performs cleanup after completion of the asynchronous operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-getresult">GetResult</a>
-</td>
-<td align="left" width="63%">
-Retrieves the result of an asynchronous bind operation for a CreateDeviceAccessInstance call.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-wait">Wait</a>
-</td>
-<td align="left" width="63%">
-Waits a specified length of time for an asynchronous bind operation that is in progress to finish.
-
-</td>
-</tr>
-</table>

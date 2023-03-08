@@ -1,8 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Enumerate_Enumerators_ExW
 title: CM_Enumerate_Enumerators_ExW function (cfgmgr32.h)
-description: The CM_Enumerate_Enumerators_Ex function enumerates a local or a remote machine's device enumerators, by supplying each enumerator's name.
-helpviewer_keywords: ["CM_Enumerate_Enumerators_Ex","CM_Enumerate_Enumerators_Ex function [Device and Driver Installation]","CM_Enumerate_Enumerators_ExW","cfgmgr32/CM_Enumerate_Enumerators_Ex","cfgmgr32/CM_Enumerate_Enumerators_ExW","cfgmgrfn_56f59835-4383-4d6f-aaa5-e7e1cb4a3b56.xml","devinst.cm_enumerate_enumerators_ex"]
+description: The CM_Enumerate_Enumerators_Ex function enumerates a local or a remote machine's device enumerators, by supplying each enumerator's name. (Unicode)
+helpviewer_keywords: ["CM_Enumerate_Enumerators_Ex", "CM_Enumerate_Enumerators_Ex function [Device and Driver Installation]", "CM_Enumerate_Enumerators_ExW", "cfgmgr32/CM_Enumerate_Enumerators_Ex", "cfgmgr32/CM_Enumerate_Enumerators_ExW", "cfgmgrfn_56f59835-4383-4d6f-aaa5-e7e1cb4a3b56.xml", "devinst.cm_enumerate_enumerators_ex"]
 old-location: devinst\cm_enumerate_enumerators_ex.htm
 tech.root: devinst
 ms.assetid: 9d44b1be-96b1-493a-94b7-a6bd883fd570

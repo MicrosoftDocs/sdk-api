@@ -54,7 +54,7 @@ api_name:
 
 Called by a replacement GINA DLL if Terminal Services is enabled.
 			
-				<a href="/windows/desktop/SecGloss/g-gly">GINA</a> calls this function to complete the setup of the Terminal Services client.
+<a href="/windows/desktop/SecGloss/g-gly">GINA</a> calls this function to complete the setup of the Terminal Services client.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters

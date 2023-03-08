@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.AddMasked
 title: IImageList::AddMasked (commoncontrols.h)
-description: Adds an image or images to an image list, generating a mask from the specified bitmap.
+description: Adds an image or images to an image list, generating a mask from the specified bitmap. (IImageList.AddMasked)
 helpviewer_keywords: ["AddMasked","AddMasked method [Windows Controls]","AddMasked method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","AddMasked method","IImageList.AddMasked","IImageList::AddMasked","comctl_IImageList_AddMasked","comctl_IImageList_AddMasked_cpp","commoncontrols/IImageList::AddMasked","controls.IImageList_AddMasked","controls.comctl_IImageList_AddMasked"]
 old-location: controls\IImageList_AddMasked.htm
 tech.root: Controls
@@ -64,7 +64,7 @@ A handle to the bitmap that contains one or more images. The number of images is
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-The color used to generate the mask. Each pixel of this color in the specified bitmap is changed to black, and the corresponding bit in the mask is set to 1.
+The color used to generate the mask. Each pixel of this color in the specified bitmap is changed to black, and the corresponding bit in the mask is set to 1. If this parameter is CLR_DEFAULT, then the color of the pixel at (0,0) is used as the mask.
 
 ### -param pi [out]
 
@@ -76,13 +76,13 @@ A pointer to an <b>int</b> that contains the index of the first new image when i
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 <div class="alert"><b>Note</b>  The bitmap passed in <i>hbmImage</i> will be modified.</div>
 <div> </div>
 <b>IImageList::AddMasked</b> copies the bitmap to an internal data structure. Bitmaps with color depth greater than 8bpp are not supported. You must use the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete <i>hbmImage</i> and <i>crMask</i> after the method returns. 
-		
+        
 
 To use <b>IImageList::AddMasked</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

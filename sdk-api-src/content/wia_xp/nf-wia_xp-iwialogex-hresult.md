@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IWiaLogEx.hResult
 title: IWiaLogEx::hResult (wia_xp.h)
-description: This method is not supported.
+description: This method is not supported. (IWiaLogEx.hResult)
 helpviewer_keywords: ["IWiaLogEx interface [WIA]","hResult method","IWiaLogEx.hResult","IWiaLogEx::hResult","_wia_IWiaLogEx_hResult","hResult","hResult method [WIA]","hResult method [WIA]","IWiaLogEx interface","wia._wia_IWiaLogEx_hResult","wia_xp/IWiaLogEx::hResult"]
 old-location: wia\_wia_IWiaLogEx_hResult.htm
 tech.root: wia
@@ -62,5 +62,5 @@ Type: <b>HRESULT</b>
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

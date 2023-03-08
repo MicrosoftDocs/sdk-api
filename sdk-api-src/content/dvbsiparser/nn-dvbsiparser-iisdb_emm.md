@@ -66,80 +66,8 @@ To obtain a pointer to this interface, first make sure that the media graph is i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IISDB_EMM</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IISDB_EMM</b> also has these types of members:
+The <b>IISDB_EMM</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IISDB_EMM</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IISDB_EMM</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_emm-getdatabytes">GetDataBytes</a>
-</td>
-<td align="left" width="63%">
-Gets the data contained in the EMM table.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_emm-getindividualemmmessage">GetIndividualEmmMessage</a>
-</td>
-<td align="left" width="63%">
-Gets an individual EMM message (sent to a specific decoder).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_emm-getsharedemmmessage">GetSharedEmmMessage</a>
-</td>
-<td align="left" width="63%">
-Gets an shared EMM message (sent to multiple decoders).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_emm-gettableidextension">GetTableIdExtension</a>
-</td>
-<td align="left" width="63%">
-Gets the value of the table ID extension field from the EMM table.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_emm-getversionhash">GetVersionHash</a>
-</td>
-<td align="left" width="63%">
-Returns a hash value for this EMM table instance.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_emm-getversionnumber">GetVersionNumber</a>
-</td>
-<td align="left" width="63%">
-Gets the version number for the EMM table.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_emm-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes an object that implements this interface.
-
-</td>
-</tr>
-</table>

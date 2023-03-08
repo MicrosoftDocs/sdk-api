@@ -52,17 +52,17 @@ api_name:
 
 Loads the current media source.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 The main purpose of this method is to reload a list of source elements after updating the list. For more information, see <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsourceelements">SetSourceElements</a>. Otherwise, calling this method is generally not required. To load a new media source, call <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">IMFMediaEngine::SetSource</a> or <b>IMFMediaEngine::SetSourceElements</b>.
 
-The <b>Load</b>  method explictly invokes the Media Engine's media resource loading algorithm. Before calling this method, you must set the media resource by calling <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">IMFMediaEngine::SetSource</a> or <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsourceelements">IMFMediaEngine::SetSourceElements</a>. 
+The <b>Load</b> method explicitly invokes the Media Engine's media resource loading algorithm. Before calling this method, you must set the media resource by calling <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">IMFMediaEngine::SetSource</a> or <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsourceelements">IMFMediaEngine::SetSourceElements</a>. 
 
 This method completes asynchronously. When the <b>Load</b> operation starts, the Media Engine sends an <b>MF_MEDIA_ENGINE_EVENT_LOADSTART</b> event. If no errors occur during the <b>Load</b> operation, several other events are generated, including the following.
 

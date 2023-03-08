@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
 api_name:
  - GetClassFile
+req.apiset: ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.15063)
 ---
 
 # GetClassFile function
@@ -129,7 +130,7 @@ The value of the <i>offset</i> item is an offset from the beginning or end of th
 
 Each pattern in the registry is compared to the file in the order of the patterns in the database. The first pattern where each of the value items matches the result of the AND operation determines the CLSID of the file. For example, the pattern contained in the following entries of the registry requires that the first four bytes be AB CD 12 34 and that the last four bytes be FE FE FE FE:
 
-<pre xml:space="preserve"><b>HKEY_CLASSES_ROOT </b>
+<pre><b>HKEY_CLASSES_ROOT </b>
    <b>FileType</b>
       <b>{12345678-0000-0001-C000-000000000095}</b>
          <b>0</b> = 0, 4, FFFFFFFF, ABCD1234 

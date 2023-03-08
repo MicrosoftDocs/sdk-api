@@ -66,44 +66,8 @@ To use quality control, perform the following steps:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDMOQualityControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDMOQualityControl</b> also has these types of members:
+The <b>IDMOQualityControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDMOQualityControl</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDMOQualityControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmoqualitycontrol-getstatus">GetStatus</a>
-</td>
-<td align="left" width="63%">
-Determines whether quality control is active.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmoqualitycontrol-setnow">SetNow</a>
-</td>
-<td align="left" width="63%">
-Specifies the earliest time stamp for which the DMO should deliver data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmoqualitycontrol-setstatus">SetStatus</a>
-</td>
-<td align="left" width="63%">
-Enables or disables quality control.
-
-</td>
-</tr>
-</table>

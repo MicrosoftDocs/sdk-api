@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegOpenKeyTransactedA
 title: RegOpenKeyTransactedA function (winreg.h)
-description: Opens the specified registry key and associates it with a transaction.
-helpviewer_keywords: ["RegOpenKeyTransacted","RegOpenKeyTransacted function","RegOpenKeyTransactedA","RegOpenKeyTransactedW","base.regopenkeytransacted","winreg/RegOpenKeyTransacted","winreg/RegOpenKeyTransactedA","winreg/RegOpenKeyTransactedW"]
+description: Opens the specified registry key and associates it with a transaction. (ANSI)
+helpviewer_keywords: ["RegOpenKeyTransactedA", "winreg/RegOpenKeyTransactedA"]
 old-location: base\regopenkeytransacted.htm
 tech.root: winprog
 ms.assetid: 11663ed2-d17c-4f08-be7b-9b591271fbcd
@@ -77,7 +77,11 @@ The name of the registry subkey to be opened.
 
 Key names are not case sensitive.
 
-If this parameter is <b>NULL</b> or a pointer to an empty string, the function will open a new handle to the key identified by the <i>hKey</i> parameter.
+If the <i>lpSubKey</i> parameter is <b>NULL</b> or a pointer to an empty string,
+and if <i>hKey</i> is a predefined key,
+then the system refreshes the predefined key,
+and <i>phkResult</i> receives the same <i>hKey</i> handle passed into the function.
+Otherwise, <i>phkResult</i> receives a new handle to the opened key.
 
 For more information, see 
 <a href="/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
@@ -122,6 +126,8 @@ Unlike the
 <b>RegOpenKeyTransacted</b> function does not create the specified key if the key does not exist in the registry.
 
 If your service or application impersonates different users, do not use this function with <b>HKEY_CURRENT_USER</b>. Instead, call the <a href="/windows/desktop/api/winreg/nf-winreg-regopencurrentuser">RegOpenCurrentUser</a> function.
+
+If the key returned in <i>phkResult</i> is a predefined registry key, it is not included in the provided transaction.
 
 A single registry key can be opened only 65,534 times. When attempting the 65,535<sup>th</sup> open operation, this function fails with ERROR_NO_SYSTEM_RESOURCES.
 

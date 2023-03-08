@@ -54,52 +54,7 @@ Represents a 2D transformation that affects the scale of a visual along the x-ax
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionScaleTransform</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>. <b>IDCompositionScaleTransform</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDCompositionScaleTransform</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh449036(v=vs.85)">SetCenterX</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of the CenterX property of a 2D scale transform.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh449042(v=vs.85)">SetCenterY</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of the CenterY property of a 2D scale transform.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh449048(v=vs.85)">SetScaleX</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of the ScaleX property of a 2D scale transform.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh449055(v=vs.85)">SetScaleY</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of the ScaleY property of a 2D scale transform.
-
-</td>
-</tr>
-</table>
+The <b>IDCompositionScaleTransform</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>. <b>IDCompositionScaleTransform</b> also has these types of members:
 
 ## -remarks
 

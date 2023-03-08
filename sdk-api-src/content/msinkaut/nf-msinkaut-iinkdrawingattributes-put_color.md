@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.put_Color
 title: IInkDrawingAttributes::put_Color (msinkaut.h)
-description: Gets or sets the color of the ink that is drawn with this InkDrawingAttributes object.
+description: Gets or sets the color of the ink that is drawn with this InkDrawingAttributes object. (Put)
 helpviewer_keywords: ["885ace6d-952e-4870-b92c-92e47daadfcf","Color property [Tablet PC]","Color property [Tablet PC]","IInkDrawingAttributes interface","IInkDrawingAttributes interface [Tablet PC]","Color property","IInkDrawingAttributes.Color","IInkDrawingAttributes.put_Color","IInkDrawingAttributes::Color","IInkDrawingAttributes::get_Color","IInkDrawingAttributes::put_Color","InkDrawingAttributes.get_Color","InkDrawingAttributes.put_Color","get_Color","msinkaut/IInkDrawingAttributes::Color","msinkaut/IInkDrawingAttributes::get_Color","msinkaut/IInkDrawingAttributes::put_Color","put_Color","tablet.inkdrawingattributes_color"]
 old-location: tablet\inkdrawingattributes_color.htm
 tech.root: tablet
@@ -81,7 +81,7 @@ To effectively enable High Contrast mode, you must set the ink collector's <a hr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
+<a href="../msinkaut/nn-msinkaut-iinkdrawingattributes.md">IInkDrawingAttributes</a>
 
 
 

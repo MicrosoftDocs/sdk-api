@@ -3,12 +3,10 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordProducerCategories
 title: DdqGetDiagnosticRecordProducerCategories
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordProducerCategories
-ms.topic: language-reference
 description: Producers and categories have a hierarchical relationship--that is, categories belong to producers. This function fetches the available Category IDs and text representation of categories for a given diagnostic Producer Name.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,7 +29,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:

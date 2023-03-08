@@ -1,5 +1,5 @@
 ---
-UID: NS:windns.__unnamed_struct_40
+UID: NS:windns.DNS_WINS_DATA
 title: DNS_WINS_DATA (windns.h)
 description: The DNS_WINS_DATA structure represents a DNS Windows Internet Name Service (WINS) record.
 helpviewer_keywords: ["*PDNS_WINS_DATA","DNS_WINS_DATA","DNS_WINS_DATA structure [DNS]","DNS_WINS_FLAG_LOCAL","DNS_WINS_FLAG_SCOPE","PDNS_WINS_DATA","PDNS_WINS_DATA structure pointer [DNS]","_dns_dns_wins_data","dns.dns_wins_data","windns/DNS_WINS_DATA","windns/PDNS_WINS_DATA"]
@@ -113,3 +113,4 @@ The
 ## -see-also
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+

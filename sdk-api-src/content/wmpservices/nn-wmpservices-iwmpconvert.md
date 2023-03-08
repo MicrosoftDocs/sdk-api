@@ -54,38 +54,10 @@ The <b>IWMPConvert</b> interface provides methods to enable Windows Media Player
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPConvert</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPConvert</b> also has these types of members:
+The <b>IWMPConvert</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPConvert</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPConvert</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpconvert-convertfile">ConvertFile</a>
-</td>
-<td align="left" width="63%">
-Called by Windows Media Player to enable a conversion plug-in to convert a digital media file into ASF.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpconvert-geterrorurl">GetErrorURL</a>
-</td>
-<td align="left" width="63%">
-Called by Windows Media Player to retrieve the URL of a webpage that displays error information about a file conversion.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

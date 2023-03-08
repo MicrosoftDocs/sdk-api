@@ -54,47 +54,7 @@ The <code>IPhotoAcquire</code> interface provides methods for acquiring photos f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquire</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquire</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPhotoAcquire</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">Acquire</a>
-</td>
-<td align="left" width="63%">
-Acquires photos from a device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-createphotosource">CreatePhotoSource</a>
-</td>
-<td align="left" width="63%">
-Initializes the source from which to acquire photos.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-enumresults">EnumResults</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumeration of the acquired files.
-
-</td>
-</tr>
-</table>
+The <b>IPhotoAcquire</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquire</b> also has these types of members:
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:winsock2._WSANSClassInfoW
 title: WSANSCLASSINFOW (winsock2.h)
-description: The WSANSCLASSINFO structure provides individual parameter information for a specific Windows Sockets namespace.
+description: The WSANSCLASSINFO structure provides individual parameter information for a specific Windows Sockets namespace. (Unicode)
 helpviewer_keywords: ["*LPWSANSCLASSINFOW","*PWSANSCLASSINFO","*LPWSANSCLASSINFO","*PWSANSCLASSINFO","*LPWSANSCLASSINFO structure [Winsock]","*PWSANSCLASSINFOW","WSANSCLASSINFO","WSANSCLASSINFO structure [Winsock]","WSANSCLASSINFOW","winsock.wsansclassinfo","winsock2/*PWSANSCLASSINFO","*LPWSANSCLASSINFO","winsock2/WSANSCLASSINFO"]
 old-location: winsock\wsansclassinfo.htm
 tech.root: WinSock

@@ -54,47 +54,7 @@ Exposed by the common file dialog boxes to be used when they host a Shell browse
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICommDlgBrowser</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICommDlgBrowser</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICommDlgBrowser</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser-includeobject">IncludeObject</a>
-</td>
-<td align="left" width="63%">
-Allows the common dialog box to filter objects that the view displays.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser-ondefaultcommand">OnDefaultCommand</a>
-</td>
-<td align="left" width="63%">
-Called when a user double-clicks in the view or presses the ENTER key.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser-onstatechange">OnStateChange</a>
-</td>
-<td align="left" width="63%">
-Called after a state, identified by the <i>uChange</i> parameter, has changed in the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface.
-
-</td>
-</tr>
-</table>
+The <b>ICommDlgBrowser</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICommDlgBrowser</b> also has these types of members:
 
 ## -remarks
 

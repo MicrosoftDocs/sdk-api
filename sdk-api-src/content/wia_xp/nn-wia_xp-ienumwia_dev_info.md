@@ -55,67 +55,7 @@ The <b>IEnumWIA_DEV_INFO</b> interface enumerates the currently available Window
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWIA_DEV_INFO</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWIA_DEV_INFO</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumWIA_DEV_INFO</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-clone">IEnumWIA_DEV_INFO::Clone</a> method creates an additional instance of the <b>IEnumWIA_DEV_INFO</b> interface and sends back a pointer to it.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-getcount">IEnumWIA_DEV_INFO::GetCount</a> method returns the number of elements stored by this enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-next">Next</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-next">IEnumWIA_DEV_INFO::Next</a> method fills an array of pointers to <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage">IWiaPropertyStorage</a> interfaces.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-reset">IEnumWIA_DEV_INFO::Reset</a> method is used by applications to restart the enumeration of device information.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_info-skip">IEnumWIA_DEV_INFO::Skip</a> method skips the specified number of hardware devices during an enumeration of available devices.
-
-</td>
-</tr>
-</table>
+The <b>IEnumWIA_DEV_INFO</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWIA_DEV_INFO</b> also has these types of members:
 
 ## -remarks
 

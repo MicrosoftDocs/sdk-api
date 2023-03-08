@@ -2,7 +2,6 @@
 UID: NF:sspi.SspiAcceptSecurityContextAsync
 title: SspiAcceptSecurityContextAsync function
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Lets the server component of a transport application asynchronously establish a security context between the server and a remote client.
 tech.root: security
@@ -28,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - sspi.h
 api_name:
@@ -113,7 +111,7 @@ Returns **SEC_E_OK** if the async request to establish a security context was su
 
 If the security context received from the client was accepted, SspiGetAsyncCallStatus returns **SEC_E_OK** or one of the SSPI codes in the table below. Otherwise, it may return **SEC_I_ASYNC_CALL_PENDING** if the call is still in progress, or any of the following fatal error codes in the second table below.
 
-|<div style="width:40%">Return code</div>|<div style="width:60%">Description</div>|
+|<div>Return code</div>|<div>Description</div>|
 |---|---|
 |**SEC_E_INCOMPLETE_MESSAGE**<br>0x80090318L | The function succeeded. The data in the input buffer is incomplete. The application must read additional data from the client and call SspiAcceptSecurityContextAsync again.|
 |**SEC_I_COMPLETE_AND_CONTINUE**<br>0x00090314L|The function succeeded. The server must call [CompleteAuthToken](/windows/desktop/api/sspi/nf-sspi-completeauthtoken) and pass the output token to the client. The server must then wait for a return token from the client before making another call to SspiAcceptSecurityContextAsync.|
@@ -122,7 +120,7 @@ If the security context received from the client was accepted, SspiGetAsyncCallS
 
 ### Fatal error codes
 
-|<div style="width:40%">Return code</div>|<div style="width:60%">Description</div>|
+|<div>Return code</div>|<div>Description</div>|
 |---|---|
 |**SEC_E_INSUFFICIENT_MEMORY**<br>0x80090300L|The function failed. There is not enough memory available to complete the requested action.|
 |**SEC_E_INTERNAL_ERROR**<br>0x80090304L|The function failed. An error occurred that did not map to an SSPI error code.|

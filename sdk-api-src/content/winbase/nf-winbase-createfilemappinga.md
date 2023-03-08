@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreateFileMappingA
 title: CreateFileMappingA function (winbase.h)
-description: Creates or opens a named or unnamed file mapping object for a specified file.
+description: Creates or opens a named or unnamed file mapping object for a specified file. (CreateFileMappingA)
 helpviewer_keywords: ["CreateFileMapping","CreateFileMapping function","CreateFileMappingA","CreateFileMappingW","PAGE_EXECUTE_READ","PAGE_EXECUTE_READWRITE","PAGE_EXECUTE_WRITECOPY","PAGE_READONLY","PAGE_READWRITE","PAGE_WRITECOPY","SEC_COMMIT","SEC_IMAGE","SEC_IMAGE_NO_EXECUTE","SEC_LARGE_PAGES","SEC_NOCACHE","SEC_RESERVE","SEC_WRITECOMBINE","_win32_createfilemapping","base.createfilemapping","fs.createfilemapping","winbase/CreateFileMapping","winbase/CreateFileMappingA","winbase/CreateFileMappingW"]
 old-location: base\createfilemapping.htm
 tech.root: base
@@ -327,7 +327,7 @@ If <b>SEC_LARGE_PAGES</b> is specified, <b>SEC_COMMIT</b> must also
 </dl>
 </td>
 <td width="60%">
-Sets all pages to be non-cachable.
+Sets all pages to be non-cacheable.
 
 Applications should not use this attribute except when 
          explicitly required for a device. Using the interlocked functions with memory that is mapped with 
@@ -417,9 +417,9 @@ If <i>lpName</i> matches the name of an existing event, semaphore, mutex, waitab
 
 The name can have a "Global\" or "Local\" prefix to explicitly create the 
        object in the global or session namespace. The remainder of the name can contain any character except the 
-       backslash character (\). Creating a file mapping object in the global namespace from a session other than 
+       backslash character (\\). Creating a file mapping object in the global namespace from a session other than 
        session zero requires the 
-       <a href="/windows/desktop/SecAuthZ/authorization-constants">SeCreateGlobalPrivilege</a> 
+       <a href="/windows/win32/secauthz/privilege-constants#constants">SeCreateGlobalPrivilege</a> 
        privilege. For more information, see 
        <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>.
 
@@ -432,7 +432,7 @@ Fast user switching is implemented by using Terminal Services sessions. The firs
 If the function succeeds, the return value is a handle to the newly created file mapping object.
 
 If the object exists before the function call, the function returns a handle to the existing object (with its 
-       current size, not the specified size), and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>returns <b>ERROR_ALREADY_EXISTS</b>.
+       current size, not the specified size), and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_ALREADY_EXISTS</b>.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
        call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

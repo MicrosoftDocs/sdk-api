@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiGetFeatureValidStatesW
 title: MsiGetFeatureValidStatesW function (msiquery.h)
-description: The MsiGetFeatureValidStates function returns a valid installation state.
-helpviewer_keywords: ["16","2","32","4","8","MsiGetFeatureValidStates","MsiGetFeatureValidStates function","MsiGetFeatureValidStatesA","MsiGetFeatureValidStatesW","_msi_msigetfeaturevalidstates","msiquery/MsiGetFeatureValidStates","msiquery/MsiGetFeatureValidStatesA","msiquery/MsiGetFeatureValidStatesW","setup.msigetfeaturevalidstates"]
+description: The MsiGetFeatureValidStates function returns a valid installation state. (Unicode)
+helpviewer_keywords: ["16", "2", "32", "4", "8", "MsiGetFeatureValidStates", "MsiGetFeatureValidStates function", "MsiGetFeatureValidStatesW", "_msi_msigetfeaturevalidstates", "msiquery/MsiGetFeatureValidStates", "msiquery/MsiGetFeatureValidStatesW", "setup.msigetfeaturevalidstates"]
 old-location: setup\msigetfeaturevalidstates.htm
 tech.root: setup
 ms.assetid: c4c3f484-6854-4019-9dc0-e4c99162c339
@@ -158,7 +158,11 @@ After calling
 <b>MsiGetFeatureValidStates</b> a conditional statement may then be used to test the valid installation states of a feature. For example, the following call to 
 <b>MsiGetFeatureValidStates</b> gets the installation state of Feature1.
 
-<pre class="syntax" xml:space="preserve"><code>MsiGetFeatureValidStates(hProduct, "Feature1", &amp;dwValidStates);</code></pre>
+
+``` syntax
+MsiGetFeatureValidStates(hProduct, "Feature1", &amp;dwValidStates);
+```
+
 If Feature1 has attributes of value 0 (favor local), and Feature1 has one component with attributes of value 0 (local only), the value of dwValidStates after the call is 14. This indicates that INSTALLSTATE_LOCAL, INSTALLSTATE_ABSENT,and INSTALLSTATE_ADVERTISED are valid states for Feature1. The following conditional statement evaluates to True if local is a valid state for this feature.
 
 ( ( dwValidStates &amp; ( 1 &lt;&lt; INSTALLSTATE_LOCAL ) ) == ( 1 &lt;&lt; INSTALLSTATE_LOCAL ) )

@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
 api_name:
  - InitCommonControlsEx
+req.apiset: ext-ms-win-shell-comctl32-init-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # InitCommonControlsEx function

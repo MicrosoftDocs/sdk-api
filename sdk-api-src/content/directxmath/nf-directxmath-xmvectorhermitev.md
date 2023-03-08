@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorHermiteV
 title: XMVectorHermiteV function (directxmath.h)
-description: Performs a Hermite spline interpolation, using the specified vectors.
+description: Performs a Hermite spline interpolation, using the specified vectors. (XMVectorHermiteV)
 helpviewer_keywords: ["Use DirectX..XMVectorHermiteV","XMVectorHermiteV","XMVectorHermiteV method [DirectX Math Support APIs]","dxmath.xmvectorhermitev"]
 old-location: dxmath\xmvectorhermitev.htm
 tech.root: dxmath
@@ -84,12 +84,16 @@ This function is identical to <a href="/windows/desktop/api/directxmath/nf-direc
 
 The following pseudocode demonstrates the operation of the function:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 Result[i] = (2*(T.x)^3 - 3*(T.x)^2 + 1) * Position0.[i]
                   + ((T.y)^3 - 2*(T.y)^2 + (T.y)) * Tangent0.[i]
                   + (-2*(T.z)^3 + 3*(T.z)^2) * Position1.[i]
                   + ((T.w)^3 - *(T.w)^2) * Tangent1.[i]
-</code></pre>
+
+```
+
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

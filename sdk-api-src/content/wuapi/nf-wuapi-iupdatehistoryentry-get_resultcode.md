@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_ResultCode
 title: IUpdateHistoryEntry::get_ResultCode (wuapi.h)
-description: Gets an OperationResultCode value that specifies the result of an operation on an update.
+description: Gets an OperationResultCode value that specifies the result of an operation on an update. (IUpdateHistoryEntry.get_ResultCode)
 helpviewer_keywords: ["IUpdateHistoryEntry interface [Windows Update Agent]","ResultCode property","IUpdateHistoryEntry.ResultCode","IUpdateHistoryEntry.get_ResultCode","IUpdateHistoryEntry::ResultCode","IUpdateHistoryEntry::get_ResultCode","ResultCode property [Windows Update Agent]","ResultCode property [Windows Update Agent]","IUpdateHistoryEntry interface","get_ResultCode","wua.iupdatehistoryentry_resultcode","wuapi/IUpdateHistoryEntry::ResultCode","wuapi/IUpdateHistoryEntry::get_ResultCode"]
 old-location: wua\iupdatehistoryentry_resultcode.htm
 tech.root: wua

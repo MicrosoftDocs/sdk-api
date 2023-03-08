@@ -63,5 +63,5 @@ Specifies the message security binding usage.
 
 ### -field securityProperties
 
-Specifies the security properties for the service channel according to the spcific policy.
+Specifies the security properties for the service channel according to the specific policy.
 

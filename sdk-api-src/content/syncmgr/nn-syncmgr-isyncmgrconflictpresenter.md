@@ -54,26 +54,5 @@ Exposes a method that presents a conflict to the user.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrConflictPresenter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrConflictPresenter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISyncMgrConflictPresenter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrConflictPresenter</b> also has these types of members:
 
-## -members
-
-The <b>ISyncMgrConflictPresenter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictpresenter-presentconflict">PresentConflict</a>
-</td>
-<td align="left" width="63%">
-Presents the conflict to the user.
-
-</td>
-</tr>
-</table>

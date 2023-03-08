@@ -56,11 +56,11 @@ Elements of the <b>TfAnchor</b> enumeration specify the start anchor or end anch
 
 ## -enum-fields
 
-### -field TF_ANCHOR_START
+### -field TF_ANCHOR_START:0
 
 Specifies the start anchor of the <b>ITfRange</b> object.
 
-### -field TF_ANCHOR_END
+### -field TF_ANCHOR_END:1
 
 Specifies the end anchor of the <b>ITfRange</b> object.
 

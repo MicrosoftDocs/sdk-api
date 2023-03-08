@@ -54,29 +54,7 @@ Extends the methods and properties of the <a href="/windows/desktop/api/wsmandis
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSManEx3</b> interface inherits from <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>. <b>IWSManEx3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWSManEx3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex3-sessionflagusecredssp">IWSManEx3::SessionFlagUseCredSsp</a>
-</td>
-<td align="left" width="63%">
-Returns the value of the authentication flag <b>WSManFlagUseCredSsp</b>.
-
-</td>
-</tr>
-</table>
+The <b>IWSManEx3</b> interface inherits from <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>. <b>IWSManEx3</b> also has these types of members:
 
 ## -see-also
 

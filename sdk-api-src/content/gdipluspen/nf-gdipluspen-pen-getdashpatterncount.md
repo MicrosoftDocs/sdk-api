@@ -53,7 +53,7 @@ api_name:
 
 The <b>Pen::GetDashPatternCount</b> method gets the number of elements in a dash pattern array.
 
-## -parameters
+
 
 ## -returns
 

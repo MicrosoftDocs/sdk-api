@@ -1,8 +1,8 @@
 ---
 UID: NF:winsvc.OpenServiceA
 title: OpenServiceA function (winsvc.h)
-description: Opens an existing service.
-helpviewer_keywords: ["OpenService","OpenService function","OpenServiceA","OpenServiceW","_win32_openservice","base.openservice","winsvc/OpenService","winsvc/OpenServiceA","winsvc/OpenServiceW"]
+description: Opens an existing service. (ANSI)
+helpviewer_keywords: ["OpenServiceA", "winsvc/OpenServiceA"]
 old-location: base\openservice.htm
 tech.root: security
 ms.assetid: e0a42613-95ad-4d0f-a464-c6df33014064
@@ -71,7 +71,7 @@ A handle to the service control manager database. The
 
 The name of the service to be opened. This is the name specified by the <i>lpServiceName</i> parameter of the <a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function when the service object was created, not the service display name that is shown by user interface applications to identify the service. 
 
-The maximum string length is 256 characters. The service control manager database preserves the case of the characters, but service name comparisons are always case insensitive. Forward-slash (/) and backslash (\) are invalid service name characters.
+The maximum string length is 256 characters. The service control manager database preserves the case of the characters, but service name comparisons are always case insensitive. Forward-slash (/) and backslash (\\) are invalid service name characters.
 
 ### -param dwDesiredAccess [in]
 

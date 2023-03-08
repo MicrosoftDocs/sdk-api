@@ -68,7 +68,7 @@ Contains the description of the interface.
 
 ### -field isState
 
-Contains a <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_interface_state~r1">WLAN_INTERFACE_STATE</a> value that indicates the current state of the interface.
+Contains a <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_interface_state-r1">WLAN_INTERFACE_STATE</a> value that indicates the current state of the interface.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>Only the <b>wlan_interface_state_connected</b>, <b>wlan_interface_state_disconnected</b>, and <b>wlan_interface_state_authenticating</b> values are supported.
 

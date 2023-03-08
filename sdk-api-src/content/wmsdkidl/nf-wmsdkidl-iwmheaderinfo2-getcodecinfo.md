@@ -61,7 +61,7 @@ The <b>GetCodecInfo</b> method retrieves information about a codec that is used 
 
 ### -param wIndex [in]
 
-<b>DWORD</b>that contains the zero-based codec index.
+<b>DWORD</b> that contains the zero-based codec index.
 
 ### -param pcchName [in, out]
 

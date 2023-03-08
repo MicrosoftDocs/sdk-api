@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.ShowCursor
 title: ShowCursor function (winuser.h)
-description: Displays or hides the cursor.
+description: Displays or hides the cursor. (ShowCursor)
 helpviewer_keywords: ["ShowCursor","ShowCursor function [Menus and Other Resources]","_win32_ShowCursor","_win32_showcursor_cpp","menurc.showcursor","winui._win32_showcursor","winuser/ShowCursor"]
 old-location: menurc\showcursor.htm
 tech.root: menurc

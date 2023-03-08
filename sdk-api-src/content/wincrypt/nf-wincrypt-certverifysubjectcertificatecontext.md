@@ -143,8 +143,12 @@ An unsupported bit was set in <i>pdwFlags</i>. Any combination of CERT_STORE_SIG
 
 The hexadecimal value of the flags can be combined using bitwise-<b>OR</b> operations to enable multiple verifications. For example, to enable both signature and time validity, the value
 
-<pre class="syntax" xml:space="preserve"><code>CERT_STORE_SIGNATURE_FLAG | CERT_STORE_TIME_VALIDITY_FLAG
-</code></pre>
+
+``` syntax
+CERT_STORE_SIGNATURE_FLAG | CERT_STORE_TIME_VALIDITY_FLAG
+
+```
+
 is placed in the <i>pdwFlags</i> <b>DWORD</b> value as an input parameter. If CERT_STORE_SIGNATURE_FLAG verification succeeds, but CERT_STORE_TIME_VALIDITY_FLAG verification fails, <i>pdwFlags</i> is set to CERT_STORE_TIME_VALIDITY_FLAG when the function returns.
 
 ## -see-also

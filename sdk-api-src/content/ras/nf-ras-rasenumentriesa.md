@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasEnumEntriesA
 title: RasEnumEntriesA function (ras.h)
-description: The RasEnumEntries function lists all entry names in a remote access phone book.
-helpviewer_keywords: ["RasEnumEntries","RasEnumEntries function [RAS]","RasEnumEntriesA","RasEnumEntriesW","_ras_rasenumentries","ras/RasEnumEntries","ras/RasEnumEntriesA","ras/RasEnumEntriesW","rras.rasenumentries"]
+description: The RasEnumEntries function lists all entry names in a remote access phone book. (ANSI)
+helpviewer_keywords: ["RasEnumEntriesA", "ras/RasEnumEntriesA"]
 old-location: rras\rasenumentries.htm
 tech.root: RRAS
 ms.assetid: 9df7402f-c93e-45d4-925a-f2ce9d547bce
@@ -59,17 +59,17 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Reserved; must be <b>NULL</b>.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
 
 If this parameter is <b>NULL</b>, the entries are enumerated from all the remote access phone-book files in the AllUsers profile and the user's profile.
 
-### -param arg3 [in, out]
+### -param unnamedParam3 [in, out]
 
 Pointer to a buffer that, on output, receives an array of 
 <a href="/previous-versions/windows/desktop/legacy/aa377267(v=vs.85)">RASENTRYNAME</a> structures, one for each phone-book entry. 
@@ -80,7 +80,7 @@ Pointer to a buffer that, on output, receives an array of
 On input, an application must set the <b>dwSize</b> member of the first 
 <a href="/previous-versions/windows/desktop/legacy/aa377267(v=vs.85)">RASENTRYNAME</a> structure in the buffer to sizeof(<b>RASENTRYNAME</b>) in order to identify the version of the structure being passed.
 
-### -param arg4 [in, out]
+### -param unnamedParam4 [in, out]
 
 Pointer to a variable that, on input, contains the size, in bytes, of the buffer specified by <i>lprasentryname</i>. 
 
@@ -93,7 +93,7 @@ Pointer to a variable that, on output, contains the size, in bytes, of the array
 <b>Windows Vista or later:  </b>To determine the required buffer size, call 
 <b>RasEnumEntries</b> with <i>lprasentryname</i> set to <b>NULL</b>. The variable pointed to by <i>lpcb</i> should be set to zero. The function will return the required buffer size in <i>lpcb</i> and an error code of <b>ERROR_BUFFER_TOO_SMALL</b>.
 
-### -param arg5 [out]
+### -param unnamedParam5 [out]
 
 Pointer to a variable that receives to the number of phone-book entries written to the buffer specified by <i>lprasentryname</i>.
 
@@ -115,7 +115,7 @@ If the function fails, the return value is one of the following error codes or a
 </dl>
 </td>
 <td width="60%">
-The <i>lprasentryname</i> buffer is not large enough. The <i>lpcb</i>parameter is less than the <b>dwSize</b> member in the <i>lprasentryname</i>parameter which should be set prior to calling the function. The function returns the required buffer size in the variable pointed to by <i>lpcb</i>.
+The <i>lprasentryname</i> buffer is not large enough. The <i>lpcb</i> parameter is less than the <b>dwSize</b> member in the <i>lprasentryname</i> parameter which should be set prior to calling the function. The function returns the required buffer size in the variable pointed to by <i>lpcb</i>.
 
 <b>Windows Vista or later:  </b>The <i>lprasentryname</i> buffer may be set to <b>NULL</b> and the variable pointed to by <i>lpcb</i> may be set to zero. The function will return the required buffer size in the variable pointed to by <i>lpcb</i>.
 

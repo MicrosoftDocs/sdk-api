@@ -54,56 +54,10 @@ The <b>ITuningSpaces</b> interface represents a collection of tuning spaces.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITuningSpaces</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITuningSpaces</b> also has these types of members:
+The <b>ITuningSpaces</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITuningSpaces</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ITuningSpaces</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspaces-get__newenum">get__NewEnum</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator for the collection. (For use by Automation clients.)
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspaces-get_count">get_Count</a>
-</td>
-<td align="left" width="63%">
-Returns the number of tuning spaces in this collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspaces-get_enumtuningspaces">get_EnumTuningSpaces</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator for the collection. (For use by C++ clients.)
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspaces-get_item">get_Item</a>
-</td>
-<td align="left" width="63%">
-Returns a specified item in the collection.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

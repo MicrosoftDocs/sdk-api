@@ -135,7 +135,7 @@ If the socket is for the AF_INET or AF_INET6 address family, the
 
 The 
 <b>WSAHtons</b> function requires that the Winsock DLL has previously been loaded with a successful 
-call to the <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> function. For use with the AF_INET OR AF_INET6 address family, the <a href="/windows/desktop/api/winsock/nf-winsock-htons">htons</a>function does not require that the Winsock DLL be loaded. 
+call to the <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> function. For use with the AF_INET OR AF_INET6 address family, the <a href="/windows/desktop/api/winsock/nf-winsock-htons">htons</a> function does not require that the Winsock DLL be loaded. 
 
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 

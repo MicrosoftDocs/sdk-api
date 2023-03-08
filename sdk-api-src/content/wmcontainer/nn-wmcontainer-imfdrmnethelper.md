@@ -61,38 +61,7 @@ Configures Windows Media Digital Rights Management (DRM) for Network Devices on 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFDRMNetHelper</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFDRMNetHelper</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFDRMNetHelper</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfdrmnethelper-getchainedlicenseresponse">GetChainedLicenseResponse</a>
-</td>
-<td align="left" width="63%">
-Not implemented in this release.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfdrmnethelper-processlicenserequest">ProcessLicenseRequest</a>
-</td>
-<td align="left" width="63%">
-Gets the license response for the specified request.
-
-</td>
-</tr>
-</table>
+The <b>IMFDRMNetHelper</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFDRMNetHelper</b> also has these types of members:
 
 ## -remarks
 

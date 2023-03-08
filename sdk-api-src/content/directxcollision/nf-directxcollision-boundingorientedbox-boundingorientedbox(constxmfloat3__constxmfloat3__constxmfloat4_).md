@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.BoundingOrientedBox(constXMFLOAT3&,constXMFLOAT3&,constXMFLOAT4&)
 title: BoundingOrientedBox::BoundingOrientedBox(const XMFLOAT3 &,const XMFLOAT3 &,const XMFLOAT4 &)
-description: Creates an instance of BoundingOrientedBox.
+description: Creates an instance of BoundingOrientedBox. (overload 3/4)
 helpviewer_keywords: ["BoundingOrientedBox","BoundingOrientedBox constructor [DirectX Math Support APIs]","BoundingOrientedBox constructor [DirectX Math Support APIs]","BoundingOrientedBox interface","BoundingOrientedBox interface [DirectX Math Support APIs]","BoundingOrientedBox constructor","BoundingOrientedBox.BoundingOrientedBox","BoundingOrientedBox.BoundingOrientedBox(const XMFLOAT3 &","const XMFLOAT3 &","const XMFLOAT4 &)","BoundingOrientedBox.BoundingOrientedBox(const XMFLOAT3&","const XMFLOAT3&","const XMFLOAT4&)","BoundingOrientedBox::BoundingOrientedBox","BoundingOrientedBox::BoundingOrientedBox(const XMFLOAT3 &","const XMFLOAT3 &","const XMFLOAT4 &)","dxmath.boundingorientedbox_ctor_1"]
 old-location: dxmath\boundingorientedbox_ctor_1.htm
 tech.root: dxmath
@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Creates an instance of <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+Creates an instance of <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
 ## -parameters
 
 ### -param _Center [in, ref]
 
-The coordinates of the center of the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+The coordinates of the center of the <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
 ### -param _Extents [in, ref]
 
-The extents of the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+The extents of the <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
 ### -param _Orientation [in, ref]
 
-The orientation of the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+The orientation of the <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
 ## -remarks
 
@@ -73,7 +73,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>
+<a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>
 
 
 

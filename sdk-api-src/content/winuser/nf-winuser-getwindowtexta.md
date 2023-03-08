@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetWindowTextA
 title: GetWindowTextA function (winuser.h)
-description: Copies the text of the specified window's title bar (if it has one) into a buffer. If the specified window is a control, the text of the control is copied. However, GetWindowText cannot retrieve the text of a control in another application.
-helpviewer_keywords: ["GetWindowText","GetWindowText function [Windows and Messages]","GetWindowTextA","GetWindowTextW","_win32_GetWindowText","_win32_getwindowtext_cpp","winmsg.getwindowtext","winui._win32_getwindowtext","winuser/GetWindowText","winuser/GetWindowTextA","winuser/GetWindowTextW"]
+description: Copies the text of the specified window's title bar (if it has one) into a buffer. If the specified window is a control, the text of the control is copied. However, GetWindowText cannot retrieve the text of a control in another application. (ANSI)
+helpviewer_keywords: ["GetWindowTextA", "winuser/GetWindowTextA"]
 old-location: winmsg\getwindowtext.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowtext.htm
@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - GetWindowTextA
  - winuser/GetWindowTextA
@@ -55,6 +55,7 @@ api_name:
  - GetWindowText
  - GetWindowTextA
  - GetWindowTextW
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetWindowTextA function
@@ -101,7 +102,23 @@ To retrieve the text of a control in another process, send a <a href="/windows/d
 
 #### Examples
 
- For an example, see <a href="/windows/desktop/winmsg/using-messages-and-message-queues">Sending a Message</a>.
+The following example code demonstrates a call to **GetWindowTextA**.
+
+```cpp
+hwndCombo = GetDlgItem(hwndDlg, IDD_COMBO); 
+cTxtLen = GetWindowTextLength(hwndCombo); 
+
+// Allocate memory for the string and copy 
+// the string into the memory. 
+
+pszMem = (PSTR) VirtualAlloc((LPVOID) NULL, 
+    (DWORD) (cTxtLen + 1), MEM_COMMIT, 
+    PAGE_READWRITE); 
+GetWindowText(hwndCombo, pszMem, 
+    cTxtLen + 1); 
+```
+
+ To see this example in context, see <a href="/windows/desktop/winmsg/using-messages-and-message-queues">Sending a Message</a>.
 
 <div class="code"></div>
 

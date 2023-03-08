@@ -54,29 +54,7 @@ The <b>IAudioSystemEffects2</b> interface was introduced with  Windows 8.1 for 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSystemEffects2</b> interface inherits from <a href="/windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudiosystemeffects">IAudioSystemEffects</a>. <b>IAudioSystemEffects2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAudioSystemEffects2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffects2-geteffectslist">GetEffectsList</a>
-</td>
-<td align="left" width="63%">
-The GetEffectsList method is used for retrieving the list of audio processing effects that are currently active, and stores an event to be signaled if the list changes.
-
-</td>
-</tr>
-</table>
+The <b>IAudioSystemEffects2</b> interface inherits from <a href="/windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudiosystemeffects">IAudioSystemEffects</a>. <b>IAudioSystemEffects2</b> also has these types of members:
 
 ## -see-also
 

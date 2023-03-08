@@ -55,29 +55,7 @@ Represents an adapter output (such as a monitor). The <b>IDXGIOutput4</b> interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutput4</b> interface inherits from <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgioutput3">IDXGIOutput3</a>. <b>IDXGIOutput4</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDXGIOutput4</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgioutput4-checkoverlaycolorspacesupport">CheckOverlayColorSpaceSupport</a>
-</td>
-<td align="left" width="63%">
-Checks for overlay color space support.
-
-</td>
-</tr>
-</table>
+The <b>IDXGIOutput4</b> interface inherits from <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgioutput3">IDXGIOutput3</a>. <b>IDXGIOutput4</b> also has these types of members:
 
 ## -see-also
 

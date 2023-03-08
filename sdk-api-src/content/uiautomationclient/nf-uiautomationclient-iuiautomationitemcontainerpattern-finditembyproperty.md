@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationItemContainerPattern.FindItemByProperty
 title: IUIAutomationItemContainerPattern::FindItemByProperty (uiautomationclient.h)
-description: Retrieves an element within a containing element, based on a specified property value.
+description: Retrieves an element within a containing element, based on a specified property value. (IUIAutomationItemContainerPattern.FindItemByProperty)
 helpviewer_keywords: ["FindItemByProperty","FindItemByProperty method [Windows Accessibility]","FindItemByProperty method [Windows Accessibility]","IUIAutomationItemContainerPattern interface","IUIAutomationItemContainerPattern interface [Windows Accessibility]","FindItemByProperty method","IUIAutomationItemContainerPattern.FindItemByProperty","IUIAutomationItemContainerPattern::FindItemByProperty","uiauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty","uiauto_IUIAutomationItemContainerPattern_FindItemByProperty","uiautomationclient/IUIAutomationItemContainerPattern::FindItemByProperty","winauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty"]
 old-location: winauto\uiauto_IUIAutomationItemContainerPattern_FindItemByProperty.htm
 tech.root: WinAuto
@@ -82,7 +82,7 @@ Receives a pointer to the matching element.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

@@ -54,15 +54,15 @@ Retrieves the total amount of display memory available and the amount of display
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to a <a href="/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure that indicates the hardware capabilities of the proposed surface.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 A pointer to a variable that receives the total amount of display memory available, in bytes. The value received reflects the total video memory, minus the video memory required for the primary surface and any private caches that the display driver reserves.
 
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 A pointer to a variable that receives the amount of display memory currently free that can be allocated for a surface that matches the capabilities specified by the structure at <i>lpDDSCaps2</i>.
 
@@ -121,7 +121,7 @@ If the surface has the <a href="/previous-versions/windows/hardware/drivers/ff55
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetAvailableVidMem</b> method.
+
 
 ## -see-also
 

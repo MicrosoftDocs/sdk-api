@@ -62,78 +62,7 @@ The following table lists the methods for
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemQuery</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemQuery</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWbemQuery</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-empty">Empty</a>
-</td>
-<td align="left" width="63%">
-Frees the memory that the parser is holding.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-freememory">FreeMemory</a>
-</td>
-<td align="left" width="63%">
-Frees the memory that the parser returned to the caller in the previous call to 
-<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">GetAnalysis</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">GetAnalysis</a>
-</td>
-<td align="left" width="63%">
-Gets the results of a successfully parsed query.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>GetQueryInfo</b></td>
-<td align="left" width="63%">
-Not implemented. Returns <b>E_NOTIMPL</b> if called.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-parse">Parse</a>
-</td>
-<td align="left" width="63%">
-Parses a query string.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>SetLanguageFeatures</b></td>
-<td align="left" width="63%">
-Not implemented. Returns <b>E_NOTIMPL</b> if called.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>TestLanguageFeatures</b></td>
-<td align="left" width="63%">
-Not implemented. Returns <b>E_NOTIMPL</b> if called.
-
-</td>
-</tr>
-</table>
+The <b>IWbemQuery</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemQuery</b> also has these types of members:
 
 ## -see-also
 

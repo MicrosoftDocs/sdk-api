@@ -53,105 +53,11 @@ api_name:
 
 The <b>IPortableDevice</b> interface provides access to a portable device.
 
-To create and open this interface, first call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with <b>CLSID_PortableDeviceFTM</b>  or <b>CLSID_PortableDevice</b>to retrieve an <b>IPortableDevice</b> interface, and then call <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-open">Open</a> to open a connection to the device.
+To create and open this interface, first call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with <b>CLSID_PortableDeviceFTM</b>  or <b>CLSID_PortableDevice</b> to retrieve an <b>IPortableDevice</b> interface, and then call <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-open">Open</a> to open a connection to the device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDevice</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPortableDevice</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-advise">Advise</a>
-</td>
-<td align="left" width="63%">
-Registers an application-defined callback that receives device events.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-cancel">Cancel</a>
-</td>
-<td align="left" width="63%">
-Cancels a pending operation on this interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-capabilities">Capabilities</a>
-</td>
-<td align="left" width="63%">
-Retrieves an interface used to query the capabilities of a portable device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-close">Close</a>
-</td>
-<td align="left" width="63%">
-Closes the connection with the device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-content">Content</a>
-</td>
-<td align="left" width="63%">
-Retrieves an interface used to access objects on a device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-getpnpdeviceid">GetPnPDeviceID</a>
-</td>
-<td align="left" width="63%">
-Retrieves a Plug-and-Play (PnP) identifier used to open a device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-open">Open</a>
-</td>
-<td align="left" width="63%">
-Opens a connection between the application and the device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-sendcommand">SendCommand</a>
-</td>
-<td align="left" width="63%">
-Sends a command to the device and retrieves the results synchronously.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-unadvise">Unadvise</a>
-</td>
-<td align="left" width="63%">
-Unregisters a client from receiving callback notifications.
-
-</td>
-</tr>
-</table>
+The <b>IPortableDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDevice</b> also has these types of members:
 
 ## -remarks
 

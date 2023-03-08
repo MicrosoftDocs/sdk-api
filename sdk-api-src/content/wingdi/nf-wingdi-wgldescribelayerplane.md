@@ -54,23 +54,23 @@ The <b>wglDescribeLayerPlane</b> function obtains information about the layer pl
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Specifies the device context of a window whose layer planes are to be described.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies which layer planes of a pixel format are being described.
 
-### -param arg3
+### -param unnamedParam3
 
 Specifies the overlay or underlay plane. Positive values of <i>iLayerPlane</i> identify overlay planes, where 1 is the first overlay plane over the main plane, 2 is the second overlay plane over the first overlay plane, and so on. Negative values identify underlay planes, where 1 is the first underlay plane under the main plane, 2 is the second underlay plane under the first underlay plane, and so on. The number of overlay and underlay planes is given in the <b>bReserved</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure.
 
-### -param arg4
+### -param unnamedParam4
 
 Specifies the size, in bytes, of the structure pointed to by <i>plpd</i>. The <b>wglDescribeLayerPlane</b> function stores layer plane data in a <a href="/windows/desktop/api/wingdi/ns-wingdi-layerplanedescriptor">LAYERPLANEDESCRIPTOR</a> structure, and stores no more than <i>nBytes</i> of data. Set the value of <i>nBytes</i> to the size of <b>LAYERPLANEDESCRIPTOR</b>.
 
-### -param arg5
+### -param unnamedParam5
 
 Points to a <b>LAYERPLANEDESCRIPTOR</b> structure. The <b>wglDescribeLayerPlane</b> function sets the value of the structure's data members. The function stores the number of bytes of data copied to the structure in the <b>nSize</b> member.
 

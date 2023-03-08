@@ -54,47 +54,7 @@ Enables a document object to communicate to containers its ability to create vie
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleDocument</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleDocument</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOleDocument</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/docobj/nf-docobj-ioledocument-createview">CreateView</a>
-</td>
-<td align="left" width="63%">
-Creates a document view object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/docobj/nf-docobj-ioledocument-enumviews">EnumViews</a>
-</td>
-<td align="left" width="63%">
-Creates an object that enumerates the views supported by a document object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/docobj/nf-docobj-ioledocument-getdocmiscstatus">GetDocMiscStatus</a>
-</td>
-<td align="left" width="63%">
-Retrieves status information about the document object.
-
-</td>
-</tr>
-</table>
+The <b>IOleDocument</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleDocument</b> also has these types of members:
 
 ## -see-also
 

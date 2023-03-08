@@ -58,7 +58,7 @@ Contains information about an <a href="https://msdn.microsoft.com/67f02908-957e-
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 The code member of this structure identifies the notification code being sent.
 
@@ -82,13 +82,13 @@ The <b>lParam</b> parameter of the message received by the rich edit control.
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a></b>
 
 The range of consecutive characters in the rich edit control that have the CFE_LINK effect.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a>
+<a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a>
 
 
 
@@ -96,7 +96,7 @@ The range of consecutive characters in the rich edit control that have the CFE_L
 
 
 
-<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a>
+<a href="/windows/win32/api/richedit/ns-richedit-nmhdr">NMHDR</a>
 
 
 

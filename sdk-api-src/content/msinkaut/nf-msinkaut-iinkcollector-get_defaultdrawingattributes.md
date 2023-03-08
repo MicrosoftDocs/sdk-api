@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_DefaultDrawingAttributes
 title: IInkCollector::get_DefaultDrawingAttributes (msinkaut.h)
-description: Gets or sets the default drawing attributes to use when drawing and displaying ink.
+description: Gets or sets the default drawing attributes to use when drawing and displaying ink. (IInkCollector.get_DefaultDrawingAttributes)
 helpviewer_keywords: ["DefaultDrawingAttributes property [Tablet PC]","DefaultDrawingAttributes property [Tablet PC]","IInkCollector interface","IInkCollector interface [Tablet PC]","DefaultDrawingAttributes property","IInkCollector.DefaultDrawingAttributes","IInkCollector.get_DefaultDrawingAttributes","IInkCollector.put_DefaultDrawingAttributes","IInkCollector.putref_DefaultDrawingAttributes","IInkCollector::DefaultDrawingAttributes","IInkCollector::get_DefaultDrawingAttributes","IInkCollector::put_DefaultDrawingAttributes","IInkCollector::putref_DefaultDrawingAttributes","InkCollector.get_DefaultDrawingAttributes","InkCollector.put_DefaultDrawingAttributes","f31a93aa-e3de-4254-af3f-338576350815","get_DefaultDrawingAttributes","msinkaut/IInkCollector::DefaultDrawingAttributes","msinkaut/IInkCollector::get_DefaultDrawingAttributes","msinkaut/IInkCollector::put_DefaultDrawingAttributes","msinkaut/IInkCollector::putref_DefaultDrawingAttributes","put_DefaultDrawingAttributes","putref_DefaultDrawingAttributes","tablet.inkcollector_defaultdrawingattributes"]
 old-location: tablet\inkcollector_defaultdrawingattributes.htm
 tech.root: tablet
@@ -114,7 +114,7 @@ To change the drawing attributes of a single stroke, use the <a href="/windows/d
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="../msinkaut/nn-msinkaut-iinkcollector.md">IInkCollector</a>
 
 
 

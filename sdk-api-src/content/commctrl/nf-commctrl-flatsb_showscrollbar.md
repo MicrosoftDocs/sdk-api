@@ -54,7 +54,7 @@ Shows or hides a flat scroll bar. If flat scroll bars are not initialized for th
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
@@ -103,7 +103,7 @@ Shows or hides the vertical scroll bar.
 </tr>
 </table>
 
-### -param arg3
+### -param unnamedParam3
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 

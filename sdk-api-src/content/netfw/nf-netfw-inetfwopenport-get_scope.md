@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_Scope
 title: INetFwOpenPort::get_Scope (netfw.h)
-description: Controls the network scope from which the port can listen.
+description: Controls the network scope from which the port can listen. (INetFwOpenPort.get_Scope)
 helpviewer_keywords: ["INetFwOpenPort interface [ICS/ICF]","Scope property","INetFwOpenPort.Scope","INetFwOpenPort.get_Scope","INetFwOpenPort::Scope","INetFwOpenPort::get_Scope","INetFwOpenPort::put_Scope","Scope property [ICS/ICF]","Scope property [ICS/ICF]","INetFwOpenPort interface","get_Scope","ics.inetfwopenport_scope","netfw/INetFwOpenPort::Scope","netfw/INetFwOpenPort::get_Scope","netfw/INetFwOpenPort::put_Scope"]
 old-location: ics\inetfwopenport_scope.htm
 tech.root: ics
@@ -53,7 +53,8 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is > [!NOTE]
+> The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the [Windows Firewall with Advanced Security](/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page) API is recommended.
 
 Controls the network scope from which the port can listen.
 

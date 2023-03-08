@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.SetProduct
 title: Matrix4x4F::SetProduct (d2d1_1helper.h)
-description: Multiplies the two matrices and stores the result in this matrix.
+description: Multiplies the two matrices and stores the result in this matrix. (Matrix4x4F.SetProduct)
 helpviewer_keywords: ["Matrix4x4F interface [Direct2D]","SetProduct method","Matrix4x4F.SetProduct","Matrix4x4F::SetProduct","SetProduct","SetProduct method [Direct2D]","SetProduct method [Direct2D]","Matrix4x4F interface","d2d1_1helper/Matrix4x4F::SetProduct","direct2d.matrix4x4f_setproduct"]
 old-location: direct2d\matrix4x4f_setproduct.htm
 tech.root: Direct2D

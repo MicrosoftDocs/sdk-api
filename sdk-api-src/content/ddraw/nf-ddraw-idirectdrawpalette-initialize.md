@@ -54,15 +54,15 @@ Initializes the DirectDrawPalette object.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to the DirectDraw object to associate with the DirectDrawPalette object.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Currently not used and must be set to 0.
 
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 Currently not used and must be set to NULL.
 
@@ -74,7 +74,7 @@ This method is provided for compliance with the Component Object Model (COM). Be
 
 ## -remarks
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>Initialize</b> method.
+
 
 ## -see-also
 

@@ -54,38 +54,7 @@ Represents an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsourc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICFormatConverter</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>. <b>IWICFormatConverter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWICFormatConverter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicformatconverter-canconvert">CanConvert</a>
-</td>
-<td align="left" width="63%">
-Determines if the source pixel format can be converted to the destination pixel format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicformatconverter-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the format converter.
-
-</td>
-</tr>
-</table>
+The <b>IWICFormatConverter</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>. <b>IWICFormatConverter</b> also has these types of members:
 
 ## -see-also
 

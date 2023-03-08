@@ -54,39 +54,7 @@ Creates swap chains for desktop media apps that use  <a href="/windows/desktop/d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactoryMedia</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXGIFactoryMedia</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDXGIFactoryMedia</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgifactorymedia-createdecodeswapchainforcompositionsurfacehandle">CreateDecodeSwapChainForCompositionSurfaceHandle</a>
-</td>
-<td align="left" width="63%">
-Creates a YUV swap chain for an existing <a href="/windows/desktop/directcomp/reference">DirectComposition</a> surface handle.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgifactorymedia-createswapchainforcompositionsurfacehandle">CreateSwapChainForCompositionSurfaceHandle</a>
-</td>
-<td align="left" width="63%">
-Creates a YUV swap chain for an existing <a href="/windows/desktop/directcomp/reference">DirectComposition</a> surface handle.
-
-</td>
-</tr>
-</table>
+The <b>IDXGIFactoryMedia</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXGIFactoryMedia</b> also has these types of members:
 
 ## -remarks
 

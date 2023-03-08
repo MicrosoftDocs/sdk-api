@@ -54,74 +54,10 @@ The <b>IAnalogRadioTuningSpace</b> interface provides methods for getting and se
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAnalogRadioTuningSpace</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a>. <b>IAnalogRadioTuningSpace</b> also has these types of members:
+The <b>IAnalogRadioTuningSpace</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a>. <b>IAnalogRadioTuningSpace</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IAnalogRadioTuningSpace</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-get_maxfrequency">get_MaxFrequency</a>
-</td>
-<td align="left" width="63%">
-Retrieves the maximum frequency for this tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-get_minfrequency">get_MinFrequency</a>
-</td>
-<td align="left" width="63%">
-Retrieves the minimum frequency for this tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-get_step">get_Step</a>
-</td>
-<td align="left" width="63%">
-Retrieves the step increment for this tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-put_maxfrequency">put_MaxFrequency</a>
-</td>
-<td align="left" width="63%">
-Sets the maximum frequency for this tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-put_minfrequency">put_MinFrequency</a>
-</td>
-<td align="left" width="63%">
-Sets the minimum frequency for this tuning space.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-put_step">put_Step</a>
-</td>
-<td align="left" width="63%">
-Sets the step increment for this tuning space.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

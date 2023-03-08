@@ -56,10 +56,10 @@ The <b>TRANSLATEURL_IN_FLAGS</b> enumerated values are used with the <a href="/w
 
 ## -enum-fields
 
-### -field TRANSLATEURL_FL_GUESS_PROTOCOL
+### -field TRANSLATEURL_FL_GUESS_PROTOCOL:0x0001
 
 If the protocol scheme is not specified in the <i>pcszURL</i> parameter to <a href="/windows/desktop/api/intshcut/nf-intshcut-translateurla">TranslateURL</a>, the system automatically chooses a scheme and adds it to the URL.
 
-### -field TRANSLATEURL_FL_USE_DEFAULT_PROTOCOL
+### -field TRANSLATEURL_FL_USE_DEFAULT_PROTOCOL:0x0002
 
 If the protocol scheme is not specified in the <i>pcszURL</i> parameter to <a href="/windows/desktop/api/intshcut/nf-intshcut-translateurla">TranslateURL</a>, the system adds the default protocol to the URL.

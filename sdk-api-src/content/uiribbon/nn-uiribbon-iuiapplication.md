@@ -54,49 +54,7 @@ The <b>IUIApplication</b> interface is implemented by the application and define
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIApplication</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIApplication</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUIApplication</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-oncreateuicommand">OnCreateUICommand</a>
-</td>
-<td align="left" width="63%">
-Called for each Command specified in the Ribbon framework markup to bind the Command to an <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a>.
-		
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-ondestroyuicommand">OnDestroyUICommand</a>
-</td>
-<td align="left" width="63%">
-Called for each Command specified in the Ribbon framework markup when the application window is destroyed.
-		
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-onviewchanged">OnViewChanged</a>
-</td>
-<td align="left" width="63%">
-Called when the state of a  <a href="/windows/desktop/windowsribbon/windowsribbon-element-application-views">View</a> changes.
-
-</td>
-</tr>
-</table>
+The <b>IUIApplication</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIApplication</b> also has these types of members:
 
 ## -see-also
 

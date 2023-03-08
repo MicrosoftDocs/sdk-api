@@ -66,7 +66,7 @@ Pointer to a  <a href="/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTI
 
 A <b>WINBIO_BIOMETRIC_SUBTYPE</b> value that receives the sub-factor associated with the template in the database. See the Remarks section for more details. This value is returned only if a match is found.
 
-### -param *PayloadBlob [out]
+### -param PayloadBlob [out]
 
 Address of a variable that receives a pointer to the payload data saved with the template. If there is no payload data, set this value to <b>NULL</b>.
 
@@ -74,7 +74,7 @@ Address of a variable that receives a pointer to the payload data saved with the
 
 Pointer to a variable that receives the size, in bytes, of the buffer specified by the <i>PayloadBlob</i> parameter. If there is no payload data, set this value to zero.
 
-### -param *HashValue [out]
+### -param HashValue [out]
 
 Address of a variable that receives a pointer to the generated hash value for the template. If the engine adapter does not support hash generation, set this value to <b>NULL</b>.
 

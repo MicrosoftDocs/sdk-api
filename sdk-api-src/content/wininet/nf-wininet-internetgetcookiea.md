@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetGetCookieA
 title: InternetGetCookieA function (wininet.h)
-description: Retrieves the cookie for the specified URL.
-helpviewer_keywords: ["InternetGetCookie","InternetGetCookie function [WinINet]","InternetGetCookieA","InternetGetCookieW","_win32_internetgetcookie","wininet.internetgetcookie","wininet/InternetGetCookie","wininet/InternetGetCookieA","wininet/InternetGetCookieW"]
+description: Retrieves the cookie for the specified URL. (ANSI)
+helpviewer_keywords: ["InternetGetCookieA", "wininet/InternetGetCookieA"]
 old-location: wininet\internetgetcookie.htm
 tech.root: wininet
 ms.assetid: 12c1ebab-3954-4995-9e1f-bf29699af396
@@ -138,7 +138,7 @@ The <i>lpszUrl</i> parameter is <b>NULL</b>.
 <b>InternetGetCookie</b> also searches memory for any session cookies, that is, cookies that do not have an expiration date that were created in the same process by 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a>, because these cookies are not written to any files. Rules for creating cookie files are internal to the system and can change in the future.
 
-				As noted in <a href="/windows/desktop/WinInet/http-cookies">HTTP Cookies</a>, <b>InternetGetCookie</b> does not return cookies that the server marked as non-scriptable with the "HttpOnly" attribute in the Set-Cookie header.
+As noted in <a href="/windows/desktop/WinInet/http-cookies">HTTP Cookies</a>, <b>InternetGetCookie</b> does not return cookies that the server marked as non-scriptable with the "HttpOnly" attribute in the Set-Cookie header.
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 

@@ -54,92 +54,10 @@ The <b>IDTFilter</b> interface is exposed by the Decrypter/Detagger filter. Appl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDTFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDTFilter</b> also has these types of members:
+The <b>IDTFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDTFilter</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDTFilter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-get_blockedratingattributes">get_BlockedRatingAttributes</a>
-</td>
-<td align="left" width="63%">
-Determines whether content is blocked for a given rating system and rating level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-get_blockunrated">get_BlockUnRated</a>
-</td>
-<td align="left" width="63%">
-Indicates whether a program without rating information is blocked.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-get_blockunrateddelay">get_BlockUnRatedDelay</a>
-</td>
-<td align="left" width="63%">
-Retrieves that length of time the filter waits before it blocks unrated content.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-get_evalratobjok">get_EvalRatObjOK</a>
-</td>
-<td align="left" width="63%">
-Queries whether the <a href="/previous-versions/windows/desktop/mstv/evalrat-object">EvalRat</a> object was created successfully.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-getcurrrating">GetCurrRating</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current rating.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-put_blockedratingattributes">put_BlockedRatingAttributes</a>
-</td>
-<td align="left" width="63%">
-Specifies whether to block content that has a specified rating.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-put_blockunrated">put_BlockUnRated</a>
-</td>
-<td align="left" width="63%">
-Specifies whether to block a program for which rating information has not been obtained.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-put_blockunrateddelay">put_BlockUnRatedDelay</a>
-</td>
-<td align="left" width="63%">
-Sets the length of time the filter waits before it blocks unrated content.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -55,7 +55,7 @@ Retrieves the description for the specified power setting, subgroup, or scheme. 
     <i>SubGroupOfPowerSettingsGuid</i> and <i>PowerSettingGuid</i> parameters 
     are <b>NULL</b>, the description of the power scheme will be returned. If the 
     <i>SchemeGuid</i> and <i>SubGroupOfPowerSettingsGuid</i> parameters are not 
-    <b>NULL</b>and  the <i>PowerSettingGuid</i> parameter is 
+   <b>NULL</b> and  the <i>PowerSettingGuid</i> parameter is 
     <b>NULL</b>, the description of the subgroup will be returned. If the 
     <i>SchemeGuid</i>, <i>SubGroupOfPowerSettingsGuid</i>, and 
     <i>PowerSettingGuid</i> parameters are not <b>NULL</b>, the description of 

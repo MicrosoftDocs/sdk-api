@@ -1,15 +1,12 @@
 ---
 UID: NI:winioctl.FSCTL_ALLOW_EXTENDED_DASD_IO
 title: FSCTL_ALLOW_EXTENDED_DASD_IO
-author: windows-sdk-content
 description: Signals the file system driver not to perform any I/O boundary checks on partition read or write calls.
 old-location: fs\fsctl_allow_extended_dasd_io.htm
 tech.root: FileIO
 ms.assetid: 7d895367-f48f-47db-9ef9-cf20d0ea6782
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_ALLOW_EXTENDED_DASD_IO, FSCTL_ALLOW_EXTENDED_DASD_IO control, FSCTL_ALLOW_EXTENDED_DASD_IO control code [Files], _win32_fsctl_allow_extended_dasd_io, base.fsctl_allow_extended_dasd_io, fs.fsctl_allow_extended_dasd_io, winioctl/FSCTL_ALLOW_EXTENDED_DASD_IO
-ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -27,7 +24,6 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -55,7 +51,7 @@ Signals the file system driver not to perform any I/O boundary checks on partiti
 
 To perform this operation, call the <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -74,27 +70,21 @@ To perform this operation, call the <a href="/windows/desktop/api/ioapiset/nf-io
 
 ### -input-buffer
 
-<text></text>
 
 ### -input-buffer-length
 
-<text></text>
 
 ### -output-buffer
 
-<text></text>
 
 ### -output-buffer-length
 
-<text></text>
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length
 
-<text></text>
 
 ### -status-block
 
@@ -133,7 +123,7 @@ To retrieve a handle to a partition, call
 
 \\.&#92;<i>X</i>:
 
-where <i>X </i>is the drive letter.
+where <i>X </i> is the drive letter.
 
 The application calling <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> must 
     also specify the <b>FILE_SHARE_READ</b> and <b>FILE_SHARE_WRITE</b> flags 

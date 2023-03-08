@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetGreen(IDCompositionAnimation)
 title: IDCompositionShadowEffect::SetGreen(IDCompositionAnimation) (dcomp.h)
-description: Sets the green value for the color of the shadow.
+description: Sets the green value for the color of the shadow. (overload 2/2)
 helpviewer_keywords: ["IDCompositionShadowEffect interface [DirectComposition]","SetGreen method","IDCompositionShadowEffect.SetGreen","IDCompositionShadowEffect.SetGreen(IDCompositionAnimation)","IDCompositionShadowEffect::SetGreen","IDCompositionShadowEffect::SetGreen(IDCompositionAnimation)","SetGreen","SetGreen method [DirectComposition]","SetGreen method [DirectComposition]","IDCompositionShadowEffect interface","dcomp/IDCompositionShadowEffect::SetGreen","directcomp.idcompositionshadoweffect_setgreen_2"]
 old-location: directcomp\idcompositionshadoweffect_setgreen_2.htm
 tech.root: directcomp
@@ -64,7 +64,7 @@ An animation that represents how the green value for the color of the shadow cha
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

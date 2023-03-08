@@ -51,7 +51,7 @@ The <b>IDirectDrawSurface7::UpdateOverlayDisplay</b> method is not currently imp
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The method is not currently implemented.
 
@@ -61,7 +61,7 @@ The method is not currently implemented.
 
 ## -remarks
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>UpdateOverlayDisplay</b> method.
+
 
 ## -see-also
 

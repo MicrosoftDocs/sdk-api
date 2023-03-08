@@ -1,12 +1,12 @@
 ---
 UID: NF:inspectable.HSTRING_UserSize
 title: HSTRING_UserSize function (inspectable.h)
-description: Calculates the wire size of the HSTRING object, and gets its handle and data.
+description: The HSTRING_UserSize function (inspectable.h) calculates the wire size of the HSTRING object, and gets its handle and data.
 helpviewer_keywords: ["HSTRING_UserSize","HSTRING_UserSize function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserSize","winrt.hstring_usersize"]
 old-location: winrt\hstring_usersize.htm
 tech.root: WinRT
 ms.assetid: F258F308-7A16-4C24-9770-F6D8A1604811
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: HSTRING_UserSize, HSTRING_UserSize function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserSize, winrt.hstring_usersize
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h
@@ -53,15 +53,15 @@ Calculates the wire size of the <a href="/windows/desktop/WinRT/hstring">HSTRING
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the <a href="/windows/desktop/WinRT/hstring">HSTRING</a> object to be properly aligned when it will be marshaled to the buffer.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 The string.
 

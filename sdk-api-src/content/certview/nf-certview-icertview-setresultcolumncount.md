@@ -71,7 +71,7 @@ Specifies the maximum number of columns in the result set. This parameter can be
 </dl>
 </td>
 <td width="60%">
-The number of columns in the result set will be the number of columns in the Certificate Services's default result set for requests that have been resolved. A request is resolved if it has resulted in an issued certificate or a failed request; revoked certificates are considered resolved.
+The number of columns in the result set will be the number of columns in the Certificate Services' default result set for requests that have been resolved. A request is resolved if it has resulted in an issued certificate or a failed request; revoked certificates are considered resolved.
 
 </td>
 </tr>
@@ -81,7 +81,7 @@ The number of columns in the result set will be the number of columns in the Cer
 </dl>
 </td>
 <td width="60%">
-The number of columns in the result set will be the number of columns in the Certificate Services's default result set for requests that have failed.
+The number of columns in the result set will be the number of columns in the Certificate Services' default result set for requests that have failed.
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ The number of columns in the result set will be the number of columns in the Cer
 </dl>
 </td>
 <td width="60%">
-The number of columns in the result set will be the number of columns in the Certificate Services's default result set for requests that have not been resolved.
+The number of columns in the result set will be the number of columns in the Certificate Services' default result set for requests that have not been resolved.
 
 </td>
 </tr>

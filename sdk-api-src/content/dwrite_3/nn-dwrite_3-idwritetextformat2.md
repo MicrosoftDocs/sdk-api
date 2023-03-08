@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteTextFormat2
 title: IDWriteTextFormat2 (dwrite_3.h)
-description: Describes the font and paragraph properties used to format text, and it describes locale information.
+description: Describes the font and paragraph properties used to format text, and it describes locale information. (IDWriteTextFormat2)
 helpviewer_keywords: ["IDWriteTextFormat2","IDWriteTextFormat2 interface [Direct Write]","IDWriteTextFormat2 interface [Direct Write]","described","directwrite.idwritetextformat2","dwrite_3/IDWriteTextFormat2"]
 old-location: directwrite\idwritetextformat2.htm
 tech.root: DirectWrite
@@ -54,38 +54,7 @@ Describes the font and paragraph properties used to format text, and it describe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextFormat2</b> interface inherits from <a href="/windows/win32/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>. <b>IDWriteTextFormat2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDWriteTextFormat2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat2-getlinespacing">GetLineSpacing</a>
-</td>
-<td align="left" width="63%">
-Gets the line spacing adjustment set for a multiline text paragraph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/DirectWrite/idwritetextformat2-setlinespacing">SetLineSpacing</a>
-</td>
-<td align="left" width="63%">
-Set line spacing.
-
-</td>
-</tr>
-</table>
+The <b>IDWriteTextFormat2</b> interface inherits from <a href="/windows/win32/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>. <b>IDWriteTextFormat2</b> also has these types of members:
 
 ## -see-also
 

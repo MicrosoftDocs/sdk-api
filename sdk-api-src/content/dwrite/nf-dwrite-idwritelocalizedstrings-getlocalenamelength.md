@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteLocalizedStrings.GetLocaleNameLength
 title: IDWriteLocalizedStrings::GetLocaleNameLength (dwrite.h)
-description: Gets the length in characters (not including the null terminator) of the locale name with the specified index.
+description: Gets the length in characters (not including the null terminator) of the locale name with the specified index. (IDWriteLocalizedStrings.GetLocaleNameLength)
 helpviewer_keywords: ["GetLocaleNameLength","GetLocaleNameLength method [Direct Write]","GetLocaleNameLength method [Direct Write]","IDWriteLocalizedStrings interface","IDWriteLocalizedStrings interface [Direct Write]","GetLocaleNameLength method","IDWriteLocalizedStrings.GetLocaleNameLength","IDWriteLocalizedStrings::GetLocaleNameLength","directwrite.IDWriteLocalizedStrings_GetLocaleNameLength","dwrite/IDWriteLocalizedStrings::GetLocaleNameLength"]
 old-location: directwrite\IDWriteLocalizedStrings_GetLocaleNameLength.htm
 tech.root: DirectWrite
@@ -70,7 +70,7 @@ When this method returns, contains the length in characters of the locale name, 
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

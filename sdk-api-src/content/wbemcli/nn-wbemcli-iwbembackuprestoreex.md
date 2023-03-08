@@ -55,56 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemBackupRestoreEx</b> interface inherits from <b>IWbemBackupRestore</b>. <b>IWbemBackupRestoreEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWbemBackupRestoreEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/aa391419(v=vs.85)">Backup</a>
-</td>
-<td align="left" width="63%">
-Backs up and restores the contents of the repository to and from a specified file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbembackuprestoreex-pause">Pause</a>
-</td>
-<td align="left" width="63%">
-Locks out write operations from the WMI repository.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/aa391421(v=vs.85)">Restore</a>
-</td>
-<td align="left" width="63%">
-Backs up and restores the contents of the repository to and from a specified file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbembackuprestoreex-resume">Resume</a>
-</td>
-<td align="left" width="63%">
-Releases the lock on the WMI repository so that operations can continue as normal.
-
-</td>
-</tr>
-</table>
+The <b>IWbemBackupRestoreEx</b> interface inherits from <b>IWbemBackupRestore</b>. <b>IWbemBackupRestoreEx</b> also has these types of members:
 
 ## -remarks
 

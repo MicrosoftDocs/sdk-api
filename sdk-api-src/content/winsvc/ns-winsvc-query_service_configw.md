@@ -1,7 +1,7 @@
 ---
 UID: NS:winsvc._QUERY_SERVICE_CONFIGW
 title: QUERY_SERVICE_CONFIGW (winsvc.h)
-description: Contains configuration information for an installed service. It is used by the QueryServiceConfig function.
+description: Contains configuration information for an installed service. It is used by the QueryServiceConfig function. (Unicode)
 helpviewer_keywords: ["*LPQUERY_SERVICE_CONFIGW","LPQUERY_SERVICE_CONFIG","LPQUERY_SERVICE_CONFIG structure pointer","QUERY_SERVICE_CONFIG","QUERY_SERVICE_CONFIG structure","QUERY_SERVICE_CONFIGA","QUERY_SERVICE_CONFIGW","SERVICE_AUTO_START","SERVICE_BOOT_START","SERVICE_DEMAND_START","SERVICE_DISABLED","SERVICE_ERROR_CRITICAL","SERVICE_ERROR_IGNORE","SERVICE_ERROR_NORMAL","SERVICE_ERROR_SEVERE","SERVICE_FILE_SYSTEM_DRIVER","SERVICE_INTERACTIVE_PROCESS","SERVICE_KERNEL_DRIVER","SERVICE_SYSTEM_START","SERVICE_WIN32_OWN_PROCESS","SERVICE_WIN32_SHARE_PROCESS","_win32_query_service_config_str","base.query_service_config_str","winsvc/LPQUERY_SERVICE_CONFIG","winsvc/QUERY_SERVICE_CONFIG","winsvc/QUERY_SERVICE_CONFIGA","winsvc/QUERY_SERVICE_CONFIGW"]
 old-location: base\query_service_config_str.htm
 tech.root: security
@@ -308,7 +308,7 @@ A pointer to an array of null-separated names of services or load ordering group
 
 ### -field lpServiceStartName
 
-If the service type is <b>SERVICE_WIN32_OWN_PROCESS</b> or <b>SERVICE_WIN32_SHARE_PROCESS</b>, this member is the name of the account that the service process will be logged on as when it runs. This name can be of the form <i>Domain</i><b>\</b><i>UserName</i>. If the account belongs to the built-in domain, the name can be of the form <b>.\</b><i>UserName</i>. The name can also be "LocalSystem" if the process is running under the LocalSystem account.   
+If the service type is <b>SERVICE_WIN32_OWN_PROCESS</b> or <b>SERVICE_WIN32_SHARE_PROCESS</b>, this member is the name of the account that the service process will be logged on as when it runs. This name can be of the form <i>Domain</i><b>\\</b><i>UserName</i>. If the account belongs to the built-in domain, the name can be of the form <b>.\\</b><i>UserName</i>. The name can also be "LocalSystem" if the process is running under the LocalSystem account.   
 
 
 

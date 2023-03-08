@@ -54,11 +54,11 @@ Changes the display coordinates of an overlay surface.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The new x- display coordinate of this surface.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The new y-display coordinate of this surface.
 
@@ -84,7 +84,7 @@ If it fails, the method can return one of the following error values:
 
 ## -remarks
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetOverlayPosition</b> method.
+
 
 ## -see-also
 

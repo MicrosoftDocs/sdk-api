@@ -72,7 +72,7 @@ Size, in TWIPS (one TWIP is 1/1440 inch), of the area near the margin that exclu
 
 Type: <b>PFNHYPHENATEPROC</b>
 
-The client-defined <a href="https://msdn.microsoft.com/5a7333ab-4918-4d73-9ad5-a8704acab4c0">HyphenateProc</a> callback function.
+The client-defined <a href="/windows/win32/api/richedit/nf-richedit-hyphenateproc">HyphenateProc</a> callback function.
 
 ## -remarks
 
@@ -88,7 +88,7 @@ This structure is used with the <a href="https://msdn.microsoft.com/70ccb698-e44
 
 
 
-<a href="https://msdn.microsoft.com/5a7333ab-4918-4d73-9ad5-a8704acab4c0">HyphenateProc</a>
+<a href="/windows/win32/api/richedit/nf-richedit-hyphenateproc">HyphenateProc</a>
 
 
 

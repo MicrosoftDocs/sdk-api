@@ -1,7 +1,7 @@
 ---
 UID: NF:winsvc.ControlService
 title: ControlService function (winsvc.h)
-description: Sends a control code to a service.
+description: Sends a control code to a service. (ControlService)
 helpviewer_keywords: ["ControlService","ControlService function","SERVICE_CONTROL_CONTINUE","SERVICE_CONTROL_INTERROGATE","SERVICE_CONTROL_NETBINDADD","SERVICE_CONTROL_NETBINDDISABLE","SERVICE_CONTROL_NETBINDENABLE","SERVICE_CONTROL_NETBINDREMOVE","SERVICE_CONTROL_PARAMCHANGE","SERVICE_CONTROL_PAUSE","SERVICE_CONTROL_STOP","_win32_controlservice","base.controlservice","winsvc/ControlService"]
 old-location: base\controlservice.htm
 tech.root: security
@@ -239,7 +239,7 @@ A pointer to a <a href="/windows/desktop/api/winsvc/ns-winsvc-service_status">SE
       
 
 The service control manager fills in the structure only when 
-       <b>ControlService</b> returns one of the following error 
+       [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns one of the following error 
        codes: <b>NO_ERROR</b>, <b>ERROR_INVALID_SERVICE_CONTROL</b>, 
        <b>ERROR_SERVICE_CANNOT_ACCEPT_CTRL</b>, or 
        <b>ERROR_SERVICE_NOT_ACTIVE</b>. Otherwise, the structure is not filled in.
@@ -443,9 +443,27 @@ The following table shows the action of the SCM  in each of the possible service
 <td>(a)</td>
 </tr>
 </table>
- 
 
-
+<dl>
+<dt>(a)</dt>
+<dd>
+If the service accepts this control code, send the request to the service; otherwise, <b>ControlService</b> returns zero
+    and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns
+    <b>ERROR_INVALID_SERVICE_CONTROL</b>.
+</dd>
+<dt>(b)</dt>
+<dd>
+The service is not in a state in which a control can be sent to it, so <b>ControlService</b> returns zero and
+    <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns
+    <b>ERROR_SERVICE_CANNOT_ACCEPT_CTRL</b>.
+</dd>
+<dt>(c)</dt>
+<dd>
+The service is not active, so <b>ControlService</b> returns zero and
+    <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns
+    <b>ERROR_SERVICE_NOT_ACTIVE</b>.
+</dd>
+</dl>
 
 
 #### Examples

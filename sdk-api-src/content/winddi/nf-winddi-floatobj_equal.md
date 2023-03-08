@@ -54,17 +54,17 @@ The <b>FLOATOBJ_Equal</b> function determines whether the two <a href="/windows/
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to the first FLOATOBJ operand.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to the second FLOATOBJ operand.
 
 ## -returns
 
-<b>FLOATOBJ_Equal </b>returns <b>TRUE</b> if *<i>pf</i> and *<i>pf1</i> are equal; otherwise it returns <b>FALSE</b>.
+<b>FLOATOBJ_Equal </b> returns <b>TRUE</b> if *<i>pf</i> and *<i>pf1</i> are equal; otherwise it returns <b>FALSE</b>.
 
 ## -remarks
 

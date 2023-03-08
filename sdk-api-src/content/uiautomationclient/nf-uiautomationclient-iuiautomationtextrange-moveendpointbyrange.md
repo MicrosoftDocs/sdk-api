@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.MoveEndpointByRange
 title: IUIAutomationTextRange::MoveEndpointByRange (uiautomationclient.h)
-description: Moves one endpoint of the current text range to the specified endpoint of a second text range.
+description: Moves one endpoint of the current text range to the specified endpoint of a second text range. (IUIAutomationTextRange.MoveEndpointByRange)
 helpviewer_keywords: ["IUIAutomationTextRange interface [Windows Accessibility]","MoveEndpointByRange method","IUIAutomationTextRange.MoveEndpointByRange","IUIAutomationTextRange::MoveEndpointByRange","MoveEndpointByRange","MoveEndpointByRange method [Windows Accessibility]","MoveEndpointByRange method [Windows Accessibility]","IUIAutomationTextRange interface","uiauto.uiauto_IUIAutomationTextRange_MoveEndpointByRange","uiauto_IUIAutomationTextRange_MoveEndpointByRange","uiautomationclient/IUIAutomationTextRange::MoveEndpointByRange","winauto.uiauto_IUIAutomationTextRange_MoveEndpointByRange"]
 old-location: winauto\uiauto_IUIAutomationTextRange_MoveEndpointByRange.htm
 tech.root: WinAuto
@@ -54,7 +54,7 @@ Moves one endpoint of the current text range to the specified endpoint of a seco
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint">TextPatternRangeEndpoint</a></b>
 
@@ -66,7 +66,7 @@ Type: <b><a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-
 
 A second text range from the same text provider as the current text range.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint">TextPatternRangeEndpoint</a></b>
 
@@ -76,7 +76,7 @@ An endpoint (either start or end) of the second text range.   The <i>srcEndPoint
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

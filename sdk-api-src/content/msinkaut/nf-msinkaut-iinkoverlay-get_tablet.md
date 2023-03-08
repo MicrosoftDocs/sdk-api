@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_Tablet
 title: IInkOverlay::get_Tablet (msinkaut.h)
-description: Gets either the IInkTablet object to which a cursor belongs or the IInkTablet object that an object or control is currently using to collect input.
+description: Gets either the IInkTablet object to which a cursor belongs or the IInkTablet object that an object or control is currently using to collect input. (IInkOverlay.get_Tablet)
 helpviewer_keywords: ["IInkOverlay interface [Tablet PC]","Tablet property","IInkOverlay.Tablet","IInkOverlay.get_Tablet","IInkOverlay::Tablet","IInkOverlay::get_Tablet","InkOverlay.get_Tablet","Tablet property [Tablet PC]","Tablet property [Tablet PC]","IInkOverlay interface","get_Tablet","msinkaut/IInkOverlay::Tablet","msinkaut/IInkOverlay::get_Tablet","put_Tablet","tablet.inkoverlay_tablet"]
 old-location: tablet\inkoverlay_tablet.htm
 tech.root: tablet
@@ -69,7 +69,7 @@ Accessing this property within certain message handlers can result in the underl
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 

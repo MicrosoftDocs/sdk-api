@@ -53,7 +53,7 @@ api_name:
 
 The <b>Close</b> method performs cleanup  after the asynchronous operation is completed and you retrieve the results.
 
-## -parameters
+
 
 ## -returns
 

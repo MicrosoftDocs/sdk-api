@@ -113,7 +113,11 @@ If the function handler is <b>NULL</b>, the <i>pContextData</i> parameter is ign
 
 The following code shows a <a href="/windows/desktop/api/eappapis/nc-eappapis-notificationhandler">NotificationHandler</a> callback call.
 
-<pre class="syntax" xml:space="preserve"><code>func(*pConnectionId, pContextData);</code></pre>
+
+``` syntax
+func(*pConnectionId, pContextData);
+```
+
 
 ### -param pContextData [in]
 

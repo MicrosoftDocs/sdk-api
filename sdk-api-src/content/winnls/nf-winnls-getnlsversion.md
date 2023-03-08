@@ -97,7 +97,7 @@ The NLS capability to query. This value must be COMPARE_STRING. See the <a href=
 
 ### -param lpVersionInformation [in, out]
 
-Pointer to an <a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a> structure. The application must initialize the <b>dwNLSVersionInfoSize</b> member to <code>sizeof(NLSVERSIONINFO)</code>.
+Pointer to an <a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo-r1">NLSVERSIONINFO</a> structure. The application must initialize the <b>dwNLSVersionInfoSize</b> member to <code>sizeof(NLSVERSIONINFO)</code>.
 
 <div class="alert"><b>Note</b>  On Windows Vista and later, the function can alternatively provide version information in an <a href="/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a> structure.</div>
 <div> </div>
@@ -126,7 +126,7 @@ This function allows an application such as Active Directory to determine if an 
 
 
 
-<a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a>
+<a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo-r1">NLSVERSIONINFO</a>
 
 
 

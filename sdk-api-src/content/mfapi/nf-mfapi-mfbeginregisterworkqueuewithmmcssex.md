@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFBeginRegisterWorkQueueWithMMCSSEx
 title: MFBeginRegisterWorkQueueWithMMCSSEx function (mfapi.h)
-description: Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
+description: Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task. (MFBeginRegisterWorkQueueWithMMCSSEx)
 helpviewer_keywords: ["MFBeginRegisterWorkQueueWithMMCSSEx","MFBeginRegisterWorkQueueWithMMCSSEx function [Media Foundation]","mf.mfbeginregisterworkqueuewithmmcssex","mfapi/MFBeginRegisterWorkQueueWithMMCSSEx"]
 old-location: mf\mfbeginregisterworkqueuewithmmcssex.htm
 tech.root: mf
@@ -80,7 +80,7 @@ A pointer to the <b>IUnknown</b> interface of a state object, defined by the cal
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

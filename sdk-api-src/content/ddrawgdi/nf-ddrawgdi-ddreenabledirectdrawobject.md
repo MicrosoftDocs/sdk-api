@@ -82,7 +82,7 @@ Once the object has been re-enabled, the capabilities for the device can be re-q
 
 
 Applications are advised to use the 
-DirectDraw or <a href="/windows/desktop/direct3d10/d3d10-graphics-reference">Direct3D</a>APIs, which automate and abstract this process in a manner independent of the operating system.
+DirectDraw or <a href="/windows/desktop/direct3d10/d3d10-graphics-reference">Direct3D</a> APIs, which automate and abstract this process in a manner independent of the operating system.
 
 ## -see-also
 

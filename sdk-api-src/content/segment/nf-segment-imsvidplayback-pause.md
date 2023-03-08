@@ -54,7 +54,7 @@ The <b>Pause</b> method pauses the playback device.
 
 Applications should call the <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-pause">IMSVidCtl::Pause</a> method, rather than this method.
 
-## -parameters
+
 
 ## -returns
 

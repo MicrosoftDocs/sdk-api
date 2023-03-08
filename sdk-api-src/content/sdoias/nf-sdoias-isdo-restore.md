@@ -53,7 +53,7 @@ api_name:
 The 
 <b>Restore</b> method reloads the values of the Server Data Objects (SDO) properties from persistent storage.
 
-## -parameters
+
 
 ## -returns
 

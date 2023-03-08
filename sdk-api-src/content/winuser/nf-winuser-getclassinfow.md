@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetClassInfoW
 title: GetClassInfoW function (winuser.h)
-description: Retrieves information about a window class.
-helpviewer_keywords: ["GetClassInfo","GetClassInfo function [Windows and Messages]","GetClassInfoA","GetClassInfoW","_win32_GetClassInfo","_win32_getclassinfo_cpp","winmsg.getclassinfo","winui._win32_getclassinfo","winuser/GetClassInfo","winuser/GetClassInfoA","winuser/GetClassInfoW"]
+description: Retrieves information about a window class. (Unicode)
+helpviewer_keywords: ["GetClassInfo", "GetClassInfo function [Windows and Messages]", "GetClassInfoW", "_win32_GetClassInfo", "_win32_getclassinfo_cpp", "winmsg.getclassinfo", "winui._win32_getclassinfo", "winuser/GetClassInfo", "winuser/GetClassInfoW"]
 old-location: winmsg\getclassinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclassinfo.htm
@@ -53,6 +53,7 @@ api_name:
  - GetClassInfo
  - GetClassInfoA
  - GetClassInfoW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetClassInfoW function

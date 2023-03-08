@@ -60,7 +60,7 @@ A readable stream from the app package to be decrypted.
 
 ### -param outputStream [in]
 
-A writeable stream for writing the resulting decrypted app package.
+A writable stream for writing the resulting decrypted app package.
 
 ### -param keyInfo [in]
 

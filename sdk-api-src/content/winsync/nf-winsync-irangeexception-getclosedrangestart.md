@@ -97,7 +97,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-When<i>pbClosedRangeStart</i> is too small. In this case, the required number of bytes is returned in <i>pcbIdSize</i>.
+When <i>pbClosedRangeStart</i> is too small. In this case, the required number of bytes is returned in <i>pcbIdSize</i>.
 
 </td>
 </tr>

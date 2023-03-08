@@ -55,38 +55,7 @@ The <code>IReferenceClockTimerControl</code> interface changes the timer period 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IReferenceClockTimerControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IReferenceClockTimerControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IReferenceClockTimerControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclocktimercontrol-getdefaulttimerresolution">GetDefaultTimerResolution</a>
-</td>
-<td align="left" width="63%">
-Returns the timer resolution that was requested by the reference clock.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclocktimercontrol-setdefaulttimerresolution">SetDefaultTimerResolution</a>
-</td>
-<td align="left" width="63%">
-Sets the minimum timer resolution.
-
-</td>
-</tr>
-</table>
+The <b>IReferenceClockTimerControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IReferenceClockTimerControl</b> also has these types of members:
 
 ## -remarks
 

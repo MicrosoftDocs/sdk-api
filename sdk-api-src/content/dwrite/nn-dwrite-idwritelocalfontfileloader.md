@@ -55,45 +55,5 @@ and exposes local font file information from the font file reference key. Font f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteLocalFontFileLoader</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteLocalFontFileLoader</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDWriteLocalFontFileLoader</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/DirectWrite/idwritelocalfontfileloader-getfilepathfromkey">GetFilePathFromKey</a>
-</td>
-<td align="left" width="63%">
-Obtains the absolute font file path from the font file reference key.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/DirectWrite/idwritelocalfontfileloader-getfilepathlengthfromkey">GetFilePathLengthFromKey</a>
-</td>
-<td align="left" width="63%">
-Obtains the length of the absolute file path from the font file reference key.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/DirectWrite/idwritelocalfontfileloader-getlastwritetimefromkey">GetLastWriteTimeFromKey</a>
-</td>
-<td align="left" width="63%">
-Obtains the last write time of the file from the font file reference key.
-
-</td>
-</tr>
-</table>
+The <b>IDWriteLocalFontFileLoader</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteLocalFontFileLoader</b> also has these types of members:
 

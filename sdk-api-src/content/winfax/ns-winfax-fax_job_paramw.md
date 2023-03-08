@@ -1,7 +1,7 @@
 ---
 UID: NS:winfax._FAX_JOB_PARAMW
 title: FAX_JOB_PARAMW (winfax.h)
-description: The FAX_JOB_PARAM structure contains the information necessary for the fax server to send an individual fax transmission.
+description: The FAX_JOB_PARAM structure contains the information necessary for the fax server to send an individual fax transmission. (Unicode)
 helpviewer_keywords: ["*PFAX_JOB_PARAMW","DRT_EMAIL","DRT_INBOX","DRT_NONE","FAX_JOB_PARAM","FAX_JOB_PARAM structure [Fax Service]","FAX_JOB_PARAMA","FAX_JOB_PARAMW","JSA_DISCOUNT_PERIOD","JSA_NOW","JSA_SPECIFIC_TIME","PFAX_JOB_PARAM","PFAX_JOB_PARAM structure pointer [Fax Service]","_mfax_fax_job_param_str","fax._mfax_fax_job_param_str","winfax/FAX_JOB_PARAM","winfax/FAX_JOB_PARAMA","winfax/FAX_JOB_PARAMW","winfax/PFAX_JOB_PARAM"]
 old-location: fax\_mfax_fax_job_param_str.htm
 tech.root: Fax

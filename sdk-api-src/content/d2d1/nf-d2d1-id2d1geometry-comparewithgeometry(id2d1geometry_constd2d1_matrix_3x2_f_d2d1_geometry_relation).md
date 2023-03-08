@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.CompareWithGeometry(ID2D1Geometry,constD2D1_MATRIX_3X2_F,D2D1_GEOMETRY_RELATION)
 title: ID2D1Geometry::CompareWithGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F,D2D1_GEOMETRY_RELATION) (d2d1.h)
-description: Describes the intersection between this geometry and the specified geometry. The comparison is performed using the default flattening tolerance.
+description: Describes the intersection between this geometry and the specified geometry. The comparison is performed using the default flattening tolerance. (overload 2/2)
 helpviewer_keywords: ["CompareWithGeometry","CompareWithGeometry method [Direct2D]","CompareWithGeometry method [Direct2D]","ID2D1Geometry interface","ID2D1Geometry interface [Direct2D]","CompareWithGeometry method","ID2D1Geometry.CompareWithGeometry","ID2D1Geometry.CompareWithGeometry(ID2D1Geometry","const D2D1_MATRIX_3X2_F","D2D1_GEOMETRY_RELATION)","ID2D1Geometry::CompareWithGeometry","ID2D1Geometry::CompareWithGeometry(ID2D1Geometry","const D2D1_MATRIX_3X2_F","D2D1_GEOMETRY_RELATION)","d2d1/ID2D1Geometry::CompareWithGeometry","direct2d.ID2D1Geometry_CompareWithGeometry_ptr_ID2D1Geometry_ptr_D2D_MATRIX_3X2_F_ptr_D2D1_GEOMETRY_RELATION"]
 old-location: direct2d\ID2D1Geometry_CompareWithGeometry_ptr_ID2D1Geometry_ptr_D2D_MATRIX_3X2_F_ptr_D2D1_GEOMETRY_RELATION.htm
 tech.root: Direct2D
@@ -73,7 +73,7 @@ When this method returns, contains a pointer to a value that describes how this 
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -remarks
 

@@ -54,56 +54,7 @@ Exposes methods that allow a handler to provide conflicts that appear in the Con
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrConflictStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrConflictStore</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISyncMgrConflictStore</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-bindtoconflict">BindToConflict</a>
-</td>
-<td align="left" width="63%">
-Binds to a particular conflict specified by IID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-enumconflicts">EnumConflicts</a>
-</td>
-<td align="left" width="63%">
-Enumerates conflicts scoped to the provided sync handler and sync item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of conflicts in the store.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-removeconflicts">RemoveConflicts</a>
-</td>
-<td align="left" width="63%">
-Deletes a set of conflicts, specified by conflict ID, from the store.
-
-</td>
-</tr>
-</table>
+The <b>ISyncMgrConflictStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrConflictStore</b> also has these types of members:
 
 ## -remarks
 

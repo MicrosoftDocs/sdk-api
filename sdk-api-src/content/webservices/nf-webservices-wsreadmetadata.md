@@ -50,16 +50,14 @@ api_name:
 
 ## -description
 
-Reads a Metadata element and adds it to the Metadata
-                documents of the Metadata object.
+Reads a Metadata element and adds it to the Metadata documents of the Metadata object.
             
-                The Metadata object state must be set to <b>WS_METADATA_STATE_CREATED</b>.
-            On error the Metadata
-                object state is reset to <b>WS_METADATA_STATE_FAULTED</b>.
-            <div class="alert"><b>Note</b>  The function will consume an element if the element contains metadata.  If the element is not recognized as containing
-                metadata, or the particular type of metadata is not needed, 
-                the element it is not read.
-            </div>
+The Metadata object state must be set to <b>WS_METADATA_STATE_CREATED</b>.
+
+On error the Metadata object state is reset to <b>WS_METADATA_STATE_FAULTED</b>.
+            
+<div class="alert"><b>Note</b>  The function will consume an element if the element contains metadata.  If the element is not recognized as containing metadata, or the particular type of metadata is not needed, the element it is not read.
+</div>
 <div> </div>
 
 ## -parameters
@@ -70,17 +68,14 @@ A pointer to the <b>Metadata</b> object for storing the metadata read.  The poin
 
 ### -param reader [in]
 
-A pointer to the <b>XML Reader</b> object used to read the metadata.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object and the reader must be positioned
-                    on the element containing the desired metadata.
+A pointer to the <b>XML Reader</b> object used to read the metadata.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object and the reader must be positioned on the element containing the desired metadata.
 
 ### -param url [in]
 
-A pointer to 
-                    a <a href="/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a> object referencing the retrieved metadata URL.  The URL is
-                    used to track the metadata documents for resolving URL-based
-                    links between documents.
-                <div class="alert"><b>Note</b>  The URL MUST be fully qualified.  The URL can have a fragment identifier.
-                </div>
+A pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a> object referencing the retrieved metadata URL.  The URL is used to track the metadata documents for resolving URL-based links between documents.
+
+<div class="alert"><b>Note</b>  The URL MUST be fully qualified.  The URL can have a fragment identifier.
+</div>
 <div> </div>
 
 
@@ -92,23 +87,29 @@ The following URL schemes are supported:
 <li><b>WS_URL_HTTPS_SCHEME_TYPE</b></li>
 <li><b>WS_URL_NETTCP_SCHEME_TYPE</b></li>
 </ul>
-Each URL specified using this function must have a 
-                    unique base URL.  The base URL is computed by
-                    removing any fragment identifier from the URL specified.
-                    For example if the following URLs were specified:
-                
+Each URL specified using this function must have a  unique base URL. The base URL is computed by removing any fragment identifier from the URL specified.
 
-<pre class="syntax" xml:space="preserve"><code>
+For example if the following URLs were specified:   
+
+
+``` syntax
+
 http://example.com/document1#fragment
 http://example.com/document2
-</code></pre>
+
+```
+
 The two base URLs would be:
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 http://example.com/document1
 http://example.com/document2
-</code></pre>
+
+```
+
 
 ### -param error [in, optional]
 

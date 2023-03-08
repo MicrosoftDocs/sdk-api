@@ -54,74 +54,7 @@ The <b>IWMDMStorage4</b> interface extends <b>IWMDMStorage3</b> by providing met
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMStorage4</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage3">IWMDMStorage3</a>. <b>IWMDMStorage4</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWMDMStorage4</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-findstorage">FindStorage</a>
-</td>
-<td align="left" width="63%">
-Retrieves a storage in the current root storage by its unique identification (ID).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getparent">GetParent</a>
-</td>
-<td align="left" width="63%">
-Retrieves the parent of the storage.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getreferences">GetReferences</a>
-</td>
-<td align="left" width="63%">
-Retrieves an array of pointers to <b>IWMDMStorage</b> pointed to by this storage.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getrightswithprogress">GetRightsWithProgress</a>
-</td>
-<td align="left" width="63%">
-Retrieves the rights information for the storage object, providing a callback mechanism for monitoring progress.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getspecifiedmetadata">GetSpecifiedMetadata</a>
-</td>
-<td align="left" width="63%">
-Retrieves one or more specific metadata properties from the storage.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-setreferences">SetReferences</a>
-</td>
-<td align="left" width="63%">
-Sets the references contained in a storage that has references (such as a playlist or album), overwriting any previously existing references held by the storage.
-
-</td>
-</tr>
-</table>
+The <b>IWMDMStorage4</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage3">IWMDMStorage3</a>. <b>IWMDMStorage4</b> also has these types of members:
 
 ## -see-also
 

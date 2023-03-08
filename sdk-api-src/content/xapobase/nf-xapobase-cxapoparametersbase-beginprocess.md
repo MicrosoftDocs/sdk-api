@@ -53,7 +53,7 @@ api_name:
 
 Returns the current process parameters.
 
-## -parameters
+
 
 ## -returns
 

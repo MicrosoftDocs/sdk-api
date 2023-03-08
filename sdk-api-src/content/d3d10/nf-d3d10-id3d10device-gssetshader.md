@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSSetShader
 title: ID3D10Device::GSSetShader (d3d10.h)
-description: Set a geometry shader to the device.
+description: Set a geometry shader to the device. (ID3D10Device.GSSetShader)
 helpviewer_keywords: ["GSSetShader","GSSetShader method [Direct3D 10]","GSSetShader method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","GSSetShader method","ID3D10Device.GSSetShader","ID3D10Device::GSSetShader","bec21328-0eb9-6e55-a154-2849f276da74","d3d10/ID3D10Device::GSSetShader","direct3d10.id3d10device_gssetshader"]
 old-location: direct3d10\id3d10device_gssetshader.htm
 tech.root: direct3d10

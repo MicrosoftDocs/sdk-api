@@ -58,31 +58,10 @@ The <b>IWMDRMEditor</b> interface is exposed on the metadata editor object. It c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMEditor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDRMEditor</b> also has these types of members:
+The <b>IWMDRMEditor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDRMEditor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMDRMEditor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmeditor-getdrmproperty">GetDRMProperty</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified DRM property or file attribute.
-
-</td>
-</tr>
-</table> 
-
-For information on other interfaces that can be obtained by using the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/metadata-editor-object">Metadata Editor Object</a>.
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRemoteAdminSettings.put_Enabled
 title: INetFwRemoteAdminSettings::put_Enabled (netfw.h)
-description: Indicates whether remote administration is enabled..
+description: Indicates whether remote administration is enabled.. (Put)
 helpviewer_keywords: ["Enabled property [ICS/ICF]","Enabled property [ICS/ICF]","INetFwRemoteAdminSettings interface","INetFwRemoteAdminSettings interface [ICS/ICF]","Enabled property","INetFwRemoteAdminSettings.Enabled","INetFwRemoteAdminSettings.put_Enabled","INetFwRemoteAdminSettings::Enabled","INetFwRemoteAdminSettings::get_Enabled","INetFwRemoteAdminSettings::put_Enabled","ics.inetfwremoteadminsettings_enabled","netfw/INetFwRemoteAdminSettings::Enabled","netfw/INetFwRemoteAdminSettings::get_Enabled","netfw/INetFwRemoteAdminSettings::put_Enabled","put_Enabled"]
 old-location: ics\inetfwremoteadminsettings_enabled.htm
 tech.root: ics

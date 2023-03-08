@@ -1,7 +1,7 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.QueryRevertStatus
 title: IVssBackupComponents::QueryRevertStatus (vsbackup.h)
-description: Returns an IVssAsync interface pointer that can be used to determine the status of the revert operation.
+description: Returns an IVssAsync interface pointer that can be used to determine the status of the revert operation. (IVssBackupComponents.QueryRevertStatus)
 helpviewer_keywords: ["IVssBackupComponents interface [VSS]","QueryRevertStatus method","IVssBackupComponents.QueryRevertStatus","IVssBackupComponents::QueryRevertStatus","QueryRevertStatus","QueryRevertStatus method [VSS]","QueryRevertStatus method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_queryrevertstatus","base.ivssbackupcomponents_queryrevertstatus","vsbackup/IVssBackupComponents::QueryRevertStatus"]
 old-location: base\ivssbackupcomponents_queryrevertstatus.htm
 tech.root: base
@@ -59,7 +59,7 @@ The <b>QueryRevertStatus</b> method
 
 ### -param pwszVolume [in]
 
-Null-terminated wide character string containing the name of the volume. The name must be in one of the following formats and must include a trailing backslash (\): 
+Null-terminated wide character string containing the name of the volume. The name must be in one of the following formats and must include a trailing backslash (\\): 
       
 
 <ul>

@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.get_CanMinimize
 title: IWindowProvider::get_CanMinimize (uiautomationcore.h)
-description: Indicates whether the window can be minimized.
+description: Indicates whether the window can be minimized. (IWindowProvider.get_CanMinimize)
 helpviewer_keywords: ["CanMinimize property [Windows Accessibility]","CanMinimize property [Windows Accessibility]","IWindowProvider interface","IWindowProvider interface [Windows Accessibility]","CanMinimize property","IWindowProvider.CanMinimize","IWindowProvider.get_CanMinimize","IWindowProvider::CanMinimize","IWindowProvider::get_CanMinimize","get_CanMinimize","uiauto.uiauto_IWindowProvider_CanMinimize","uiauto_IWindowProvider_CanMinimize","uiautomationcore/IWindowProvider::CanMinimize","uiautomationcore/IWindowProvider::get_CanMinimize","winauto.uiauto_IWindowProvider_CanMinimize"]
 old-location: winauto\uiauto_IWindowProvider_CanMinimize.htm
 tech.root: WinAuto

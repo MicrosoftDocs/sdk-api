@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12ProtectedResourceSession1
 title: ID3D12ProtectedResourceSession1 (d3d12.h)
-description: Monitors the validity of a protected resource session.
+description: Monitors the validity of a protected resource session. (ID3D12ProtectedResourceSession1)
 helpviewer_keywords: ["ID3D12ProtectedResourceSession1","ID3D12ProtectedResourceSession1 interface","ID3D12ProtectedResourceSession1 interface","described","d3d12/ID3D12ProtectedResourceSession1","direct3d12.id3d12protectedresourcesession1"]
 tech.root: direct3d12
 ms.date: 09/16/2020
@@ -9,8 +9,8 @@ ms.keywords: ID3D12ProtectedResourceSession1, ID3D12ProtectedResourceSession1 in
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -44,10 +44,10 @@ api_name:
 
 ## -description
 
-Monitors the validity of a protected resource session. This interface extends [ID3D12ProtectedSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedsession).
+Monitors the validity of a protected resource session. This interface extends [ID3D12ProtectedSession](./nn-d3d12-id3d12protectedsession.md).
 
-You can obtain an **ID3D12ProtectedResourceSession1** by calling [ID3D12Device7::CreateProtectedResourceSession1](/windows/win32/api/d3d12/nf-d3d12-id3d12device7-createprotectedresourcesession1).
+You can obtain an **ID3D12ProtectedResourceSession1** by calling [ID3D12Device7::CreateProtectedResourceSession1](./nf-d3d12-id3d12device7-createprotectedresourcesession1.md).
 
 ## -see-also
 
-* [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedsession)
+* [ID3D12ProtectedResourceSession](./nn-d3d12-id3d12protectedsession.md)

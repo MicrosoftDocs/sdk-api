@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MprAdminDeviceEnum</b>function is called to enumerate RAS capable devices installed on the computer that can return their name and type.
+The <b>MprAdminDeviceEnum</b> function is called to enumerate RAS capable devices installed on the computer that can return their name and type.
 
 ## -parameters
 

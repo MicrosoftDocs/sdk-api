@@ -54,7 +54,7 @@ api_name:
 
 Determines whether the computer supports hibernation.
 
-## -parameters
+
 
 ## -returns
 

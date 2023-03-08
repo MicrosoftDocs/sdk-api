@@ -1,5 +1,5 @@
 ---
-UID: NS:mapi.__unnamed_struct_4
+UID: NS:mapi.MapiRecipDescW
 title: MapiRecipDescW (mapi.h)
 description: A MapiRecipDescW structure contains information about a message sender or recipient.
 helpviewer_keywords: ["*lpMapiRecipDescW","MAPI_BCC","MAPI_CC","MAPI_ORIG","MAPI_TO","MapiRecipDescW","MapiRecipDescW structure","lpMapiRecipDescW","lpMapiRecipDescW structure pointer","mapi.mapirecipdescw","mapi/MapiRecipDescW","mapi/lpMapiRecipDescW"]
@@ -148,3 +148,4 @@ These entry identifiers have meaning only for the service provider. The messagin
 
 
 <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a>
+

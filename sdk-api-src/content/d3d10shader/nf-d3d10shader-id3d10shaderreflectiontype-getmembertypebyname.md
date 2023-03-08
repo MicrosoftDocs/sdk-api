@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflectionType.GetMemberTypeByName
 title: ID3D10ShaderReflectionType::GetMemberTypeByName (d3d10shader.h)
-description: Get a shader-reflection-variable type by name.
+description: Get a shader-reflection-variable type by name. (ID3D10ShaderReflectionType.GetMemberTypeByName)
 helpviewer_keywords: ["GetMemberTypeByName","GetMemberTypeByName method [Direct3D 10]","GetMemberTypeByName method [Direct3D 10]","ID3D10ShaderReflectionType interface","ID3D10ShaderReflectionType interface [Direct3D 10]","GetMemberTypeByName method","ID3D10ShaderReflectionType.GetMemberTypeByName","ID3D10ShaderReflectionType::GetMemberTypeByName","d3d10shader/ID3D10ShaderReflectionType::GetMemberTypeByName","d7735138-8dfe-8eb2-a7a0-debca04496e6","direct3d10.id3d10shaderreflectiontype_getmembertypebyname"]
 old-location: direct3d10\id3d10shaderreflectiontype_getmembertypebyname.htm
 tech.root: direct3d10

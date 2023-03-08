@@ -4,7 +4,7 @@ title: Iwstdec.h header
 ms.assetid: 3cef44f3-0935-3fc3-9048-baf11c564081
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: dshow
 archived: true
 f1_keywords:

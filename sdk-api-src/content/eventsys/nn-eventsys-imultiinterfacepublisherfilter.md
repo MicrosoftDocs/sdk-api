@@ -54,35 +54,5 @@ Manages a filtered subscription cache for an event method. Only subscribers who 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultiInterfacePublisherFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultiInterfacePublisherFilter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMultiInterfacePublisherFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultiInterfacePublisherFilter</b> also has these types of members:
 
-## -members
-
-The <b>IMultiInterfacePublisherFilter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/eventsys/nf-eventsys-imultiinterfacepublisherfilter-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Associates an event class with a publisher filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/eventsys/nf-eventsys-imultiinterfacepublisherfilter-preparetofire">PrepareToFire</a>
-</td>
-<td align="left" width="63%">
-Prepares the publisher filter to begin firing a filtered list of subscriptions using a provided firing control. The firing control is contained in the event class object.
-
-</td>
-</tr>
-</table>

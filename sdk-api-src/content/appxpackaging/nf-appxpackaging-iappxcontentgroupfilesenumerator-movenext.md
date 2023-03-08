@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupFilesEnumerator.MoveNext
 title: IAppxContentGroupFilesEnumerator::MoveNext (appxpackaging.h)
-description: Advances the position of the enumerator to the next file.
+description: Advances the position of the enumerator to the next file. (IAppxContentGroupFilesEnumerator.MoveNext)
 helpviewer_keywords: ["IAppxContentGroupFilesEnumerator interface [App packaging and management]","MoveNext method","IAppxContentGroupFilesEnumerator.MoveNext","IAppxContentGroupFilesEnumerator::MoveNext","MoveNext","MoveNext method [App packaging and management]","MoveNext method [App packaging and management]","IAppxContentGroupFilesEnumerator interface","appxpackaging/IAppxContentGroupFilesEnumerator::MoveNext","appxpkg.iappxcontentgroupfilesenumerator__movenext"]
 old-location: appxpkg\iappxcontentgroupfilesenumerator__movenext.htm
 tech.root: appxpkg
@@ -69,5 +69,5 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/B831A43B-9062-4763-8702-B487E57FD0C2">IAppxContentGroupFilesEnumerator</a>
+<a href="/windows/win32/api/appxpackaging/nn-appxpackaging-iappxcontentgroupfilesenumerator">IAppxContentGroupFilesEnumerator</a>
 

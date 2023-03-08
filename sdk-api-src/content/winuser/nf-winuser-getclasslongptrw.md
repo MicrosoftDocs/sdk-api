@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetClassLongPtrW
 title: GetClassLongPtrW function (winuser.h)
-description: Retrieves the specified value from the WNDCLASSEX structure associated with the specified window.
-helpviewer_keywords: ["GCLP_HBRBACKGROUND","GCLP_HCURSOR","GCLP_HICON","GCLP_HICONSM","GCLP_HMODULE","GCLP_MENUNAME","GCLP_WNDPROC","GCL_CBCLSEXTRA","GCL_CBWNDEXTRA","GCL_STYLE","GCW_ATOM","GetClassLongPtr","GetClassLongPtr function [Windows and Messages]","GetClassLongPtrA","GetClassLongPtrW","_win32_GetClassLongPtr","_win32_getclasslongptr_cpp","winmsg.getclasslongptr","winui._win32_getclasslongptr","winuser/GetClassLongPtr","winuser/GetClassLongPtrA","winuser/GetClassLongPtrW"]
+description: Retrieves the specified value from the WNDCLASSEX structure associated with the specified window. (Unicode)
+helpviewer_keywords: ["GCLP_HBRBACKGROUND", "GCLP_HCURSOR", "GCLP_HICON", "GCLP_HICONSM", "GCLP_HMODULE", "GCLP_MENUNAME", "GCLP_WNDPROC", "GCL_CBCLSEXTRA", "GCL_CBWNDEXTRA", "GCL_STYLE", "GCW_ATOM", "GetClassLongPtr", "GetClassLongPtr function [Windows and Messages]", "GetClassLongPtrW", "_win32_GetClassLongPtr", "_win32_getclasslongptr_cpp", "winmsg.getclasslongptr", "winui._win32_getclasslongptr", "winuser/GetClassLongPtr", "winuser/GetClassLongPtrW"]
 old-location: winmsg\getclasslongptr.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclasslongptr.htm
@@ -46,6 +46,7 @@ api_name:
  - GetClassLongPtr
  - GetClassLongPtrA
  - GetClassLongPtrW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # GetClassLongPtrW function

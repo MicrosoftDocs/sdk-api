@@ -54,29 +54,7 @@ Exposes a method that programmatically overrides <a href="/previous-versions/win
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryCancelAutoPlay</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryCancelAutoPlay</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IQueryCancelAutoPlay</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iquerycancelautoplay-allowautoplay">AllowAutoPlay</a>
-</td>
-<td align="left" width="63%">
-Determines whether to play media inserted by a user and if so using what restrictions.
-
-</td>
-</tr>
-</table>
+The <b>IQueryCancelAutoPlay</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryCancelAutoPlay</b> also has these types of members:
 
 ## -remarks
 

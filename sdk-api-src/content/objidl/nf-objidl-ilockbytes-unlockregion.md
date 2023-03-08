@@ -71,6 +71,12 @@ Specifies the type of access restrictions previously placed on the range. This p
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The byte range was unlocked.|
+|STG_E_INVALIDFUNCTION | Locking is not supported at all or the specific type of lock requested is not supported.|
+|STG_E_LOCKVIOLATION | The requested unlock cannot be granted.|
+
 ## -remarks
 
 <b>ILockBytes::UnlockRegion</b> unlocks a region previously locked with a call to 

@@ -67,7 +67,7 @@ Returns an <b>HRESULT</b> value.
 
 This method returns the authored time per frame. This value is typically set by the source filter, which obtains it from information in the video stream itself. This value is not necessarily equal to the actual time per frame at which the video is rendered.
 
-To retrieve the actual frame rate during playback, use the <a href="/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_avgframerate">IQualProp::get_AvgFrameRate</a>. For more information on actual versus authored frame rates, see the Remarks section for the <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure.
+To retrieve the actual frame rate during playback, use the <a href="/previous-versions/ms786607(v=vs.85)">IQualProp::get_AvgFrameRate</a>. For more information on actual versus authored frame rates, see the Remarks section for the <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure.
 
 ## -see-also
 

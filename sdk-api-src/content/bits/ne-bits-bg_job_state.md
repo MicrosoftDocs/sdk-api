@@ -53,7 +53,7 @@ Defines constants that specify the different states of a job.
 
 ## -enum-fields
 
-### -field BG_JOB_STATE_QUEUED
+### -field BG_JOB_STATE_QUEUED:0
 
 Specifies that the job is in the queue, and waiting to run. If a user logs off while their job is transferring, the job transitions to the queued state.
 

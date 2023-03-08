@@ -3,12 +3,10 @@ UID: NF:diagnosticdataquery.DdqCreateSession
 title: DdqCreateSession
 ms.date: 8/19/2019
 ms.keywords: DdqCreateSession
-ms.topic: language-reference
 description: Creates a Diagnostic Data Query API session handle to be used to uniquely identify a Diagnostic Data Query session.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,7 +29,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:
@@ -49,7 +46,7 @@ Creates a Diagnostic Data Query API session handle to be used to uniquely identi
 
 ### -param accessLevel
 
-Type: **[DdqAccessLevel](/windows/win32/api/diagnosticdataquery/ne-diagnosticdataquerytypes-ddqaccesslevel)**
+Type: **[DdqAccessLevel](/windows/win32/api/diagnosticdataquerytypes/ne-diagnosticdataquerytypes-ddqaccesslevel)**
 The access level desired for this session.
 
 ### -param hSession

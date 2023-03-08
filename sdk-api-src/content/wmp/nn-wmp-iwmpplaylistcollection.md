@@ -55,81 +55,10 @@ The <b>IWMPPlaylistCollection</b> interface provides methods for manipulating th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlaylistCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPPlaylistCollection</b> also has these types of members:
+The <b>IWMPPlaylistCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPPlaylistCollection</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPPlaylistCollection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getall">getAll</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to an <b>IWMPPlaylistArray</b> interface on an object containing all of the playlists in the library.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getbyname">getByName</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to an <b>IWMPPlaylistArray</b> interface on an object containing playlists with the specified name, if any exist.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-importplaylist">importPlaylist</a>
-</td>
-<td align="left" width="63%">
-Adds a static playlist to the library.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-isdeleted">isDeleted</a>
-</td>
-<td align="left" width="63%">
-Retrieves a value indicating whether the specified playlist is in the deleted items folder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-newplaylist">newPlaylist</a>
-</td>
-<td align="left" width="63%">
-Creates a new, empty playlist in the library.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-remove">remove</a>
-</td>
-<td align="left" width="63%">
-Removes a playlist from the library.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>setDeleted</b></td>
-<td align="left" width="63%">
-No longer supported.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

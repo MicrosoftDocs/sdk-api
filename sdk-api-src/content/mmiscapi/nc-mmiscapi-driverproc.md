@@ -54,15 +54,15 @@ Processes driver messages for the installable driver. <b>DriverProc</b> is a dri
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Identifier of the installable driver.
 
-### -param Arg2
+### -param unnamedParam2
 
 Handle of the installable driver instance. Each instance of the installable driver has a unique handle.
 
-### -param Arg3
+### -param unnamedParam3
 
 Driver message value. It can be a custom value or one of these standard values:
 
@@ -183,11 +183,11 @@ Notifies the driver that it is about to be removed from the system.
 </tr>
 </table>
 
-### -param Arg4
+### -param unnamedParam4
 
 32-bit message-specific value.
 
-### -param Arg5
+### -param unnamedParam5
 
 32-bit message-specific value.
 

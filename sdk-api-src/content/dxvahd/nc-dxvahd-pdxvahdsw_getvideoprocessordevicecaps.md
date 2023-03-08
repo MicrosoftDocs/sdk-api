@@ -58,7 +58,7 @@ Gets the capabilities of a software plug-in Microsoft DirectX Video Acceleration
 
 A handle to the plug-in DXVA-HD device.
 
-### -param *pContentDesc [in]
+### -param pContentDesc [in]
 
 A pointer to a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_content_desc">DXVAHD_CONTENT_DESC</a> structure that describes the video content.
 
@@ -66,13 +66,13 @@ A pointer to a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_content_des
 
 A member of the <a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_device_usage">DXVAHD_DEVICE_USAGE</a> enumeration, describing how the device will be used. The value indicates the desired trade-off between speed and video quality.
 
-### -param *pCaps [out]
+### -param pCaps [out]
 
 A pointer to a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure that receives the device capabilities.
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

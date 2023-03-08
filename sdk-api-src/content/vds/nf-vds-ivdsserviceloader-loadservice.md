@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Launches VDS on the specified computer and returns a pointer to the service object.
 
@@ -65,7 +65,7 @@ This parameter must be set to <b>NULL</b>.
 
 ### -param ppService [out]
 
-The address of an <a href="/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a>interface pointer. Callers must release the interface when it is no longer needed by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
+The address of an <a href="/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a> interface pointer. Callers must release the interface when it is no longer needed by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
 
 ## -returns
 

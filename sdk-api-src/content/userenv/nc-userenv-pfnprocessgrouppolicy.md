@@ -153,7 +153,7 @@ Pointer that receives the list of changed GPO structures. For more information, 
 
 Asynchronous completion handle. If the callback function does not support asynchronous processing, this handle is zero.
 
-### -param *pbAbort [in]
+### -param pbAbort [in]
 
 Specifies whether to continue processing GPOs. If this parameter is <b>TRUE</b>, GPO processing will cease. If this parameter is <b>FALSE</b>, GPO processing will continue.
 

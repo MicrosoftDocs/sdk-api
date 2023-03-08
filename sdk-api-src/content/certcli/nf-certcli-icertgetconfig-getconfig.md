@@ -1,15 +1,12 @@
 ---
 UID: NF:certcli.ICertGetConfig.GetConfig
 title: ICertGetConfig::GetConfig (certcli.h)
-author: windows-sdk-content
 description: The ICertGetConfig::GetConfig method retrieves the configuration string for a Certificate Services server.
 old-location: security\icertgetconfig_getconfig.htm
 tech.root: SecCrypto
 ms.assetid: 5935bf37-4a4a-4c0f-ae3f-bd76f97d0d9a
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CC_DEFAULTCONFIG, CC_FIRSTCONFIG, CC_LOCALACTIVECONFIG, CC_LOCALCONFIG, CC_UIPICKCONFIG, CC_UIPICKCONFIGSKIPLOCALCA, GetConfig, GetConfig method [Security], GetConfig method [Security],ICertGetConfig interface, ICertGetConfig interface [Security],GetConfig method, ICertGetConfig.GetConfig, ICertGetConfig::GetConfig, certcli/ICertGetConfig::GetConfig, security.icertgetconfig_getconfig
-ms.topic: method
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -27,7 +24,6 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -54,7 +50,7 @@ api_name:
 The <b>GetConfig</b> method retrieves the configuration string for a <a href="/windows/desktop/SecGloss/c-gly">Certificate Services</a> server.
 			
 
-The configuration string is the server name and <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) name separated by a backslash (\); for example: <i>ServerName</i>&#92;<i>CAName</i>. This configuration string can be used to refer unambiguously to a specific Certificate Services server. For more information, see Remarks.
+The configuration string is the server name and <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) name separated by a backslash (\\); for example: <i>ServerName</i>&#92;<i>CAName</i>. This configuration string can be used to refer unambiguously to a specific Certificate Services server. For more information, see Remarks.
 
 ## -parameters
 

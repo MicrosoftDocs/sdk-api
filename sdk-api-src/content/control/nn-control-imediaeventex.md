@@ -59,47 +59,7 @@ For more information about event notification, see <a href="/windows/desktop/Dir
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaEventEx</b> interface inherits from <a href="/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent</a>. <b>IMediaEventEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMediaEventEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-imediaeventex-getnotifyflags">GetNotifyFlags</a>
-</td>
-<td align="left" width="63%">
-Determines whether event notifications are enabled.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-imediaeventex-setnotifyflags">SetNotifyFlags</a>
-</td>
-<td align="left" width="63%">
-Enables or disables event notifications.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-imediaeventex-setnotifywindow">SetNotifyWindow</a>
-</td>
-<td align="left" width="63%">
-Registers a window to process event notifications.
-
-</td>
-</tr>
-</table>
+The <b>IMediaEventEx</b> interface inherits from <a href="/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent</a>. <b>IMediaEventEx</b> also has these types of members:
 
 ## -see-also
 

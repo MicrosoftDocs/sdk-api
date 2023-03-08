@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3.ITQueueEvent
 title: ITQueueEvent (tapi3.h)
-description: The ITQueueEvent interface contains methods that retrieve the description of Automatic Call Distribution (ACD) queue events.
+description: The ITQueueEvent interface (tapi3.h) contains methods that retrieve the description of Automatic Call Distribution (ACD) queue events.
 helpviewer_keywords: ["ITQueueEvent","ITQueueEvent interface [TAPI 2.2]","ITQueueEvent interface [TAPI 2.2]","described","_tapi3_itqueueevent","tapi3.itqueueevent","tapi3cc/ITQueueEvent"]
 old-location: tapi3\itqueueevent.htm
 tech.root: tapi3
 ms.assetid: 7e4655ff-6ed4-4166-91f7-49d2e0556662
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITQueueEvent, ITQueueEvent interface [TAPI 2.2], ITQueueEvent interface [TAPI 2.2],described, _tapi3_itqueueevent, tapi3.itqueueevent, tapi3cc/ITQueueEvent
 req.header: tapi3.h
 req.include-header: Tapi3.h
@@ -61,40 +61,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITQueueEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITQueueEvent</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITQueueEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-itqueueevent-get_event">get_Event</a>
-</td>
-<td align="left" width="63%">
-Gets the 
-<a href="/windows/desktop/api/tapi3/ne-tapi3-acdqueue_event">ACDQUEUE_EVENT</a> descriptor of the event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3/nf-tapi3-itqueueevent-get_queue">get_Queue</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to the 
-<a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a> interface.
-
-</td>
-</tr>
-</table>
+The <b>ITQueueEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITQueueEvent</b> also has these types of members:
 
 ## -see-also
 

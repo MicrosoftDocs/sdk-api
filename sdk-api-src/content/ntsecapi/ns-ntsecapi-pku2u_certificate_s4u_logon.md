@@ -72,6 +72,8 @@ The name of the user who is attempting to authenticate.
 
 ### -field DomainName
 
+This member is reserved. Do not use it.
+
 ### -field CertificateLength
 
 The size, in bytes, of the <b>Certificate</b> buffer.
@@ -80,7 +82,3 @@ The size, in bytes, of the <b>Certificate</b> buffer.
 
 The certificate data.
 
-
-#### - UNICODE_STRING
-
-This member is reserved. Do not use it.

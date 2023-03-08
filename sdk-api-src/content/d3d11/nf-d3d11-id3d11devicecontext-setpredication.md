@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.SetPredication
 title: ID3D11DeviceContext::SetPredication (d3d11.h)
-description: Set a rendering predicate.
+description: Set a rendering predicate. (ID3D11DeviceContext.SetPredication)
 helpviewer_keywords: ["98e79ffd-cbd6-1ca3-db07-4eea5d48cf38","ID3D11DeviceContext interface [Direct3D 11]","SetPredication method","ID3D11DeviceContext.SetPredication","ID3D11DeviceContext::SetPredication","SetPredication","SetPredication method [Direct3D 11]","SetPredication method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::SetPredication","direct3d11.id3d11devicecontext_setpredication"]
 old-location: direct3d11\id3d11devicecontext_setpredication.htm
 tech.root: direct3d11
@@ -73,7 +73,7 @@ The predicate must be in the "issued" or "signaled" state to be used for predica
 
 Use this method to denote that subsequent rendering and resource manipulation commands are not actually performed if the resulting predicate data of the predicate is equal to the <i>PredicateValue</i>. However, some predicates are only hints, so they may not actually prevent operations from being performed. 
 
-The primary usefulness of predication is to allow an application to issue rendering and resource manipulation commands without taking the performance hit of spinning, waiting for <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-getdata">ID3D11DeviceContext::GetData</a> to return. So, predication can occur while <b>ID3D11DeviceContext::GetData</b> returns <b>S_FALSE</b>. Another way to think of it: an application can also use predication as a fallback, if it is possible that <b>ID3D11DeviceContext::GetData</b> returns <b>S_FALSE</b>. If <b>ID3D11DeviceContext::GetData</b> returns <b>S_OK</b>, the application can skip calling the rendering and resource manipulation commands manually with it's own application logic.
+The primary usefulness of predication is to allow an application to issue rendering and resource manipulation commands without taking the performance hit of spinning, waiting for <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-getdata">ID3D11DeviceContext::GetData</a> to return. So, predication can occur while <b>ID3D11DeviceContext::GetData</b> returns <b>S_FALSE</b>. Another way to think of it: an application can also use predication as a fallback, if it is possible that <b>ID3D11DeviceContext::GetData</b> returns <b>S_FALSE</b>. If <b>ID3D11DeviceContext::GetData</b> returns <b>S_OK</b>, the application can skip calling the rendering and resource manipulation commands manually with its own application logic.
 
 Rendering and resource manipulation commands for Direct3D 11 include these Draw, Dispatch, Copy, Update, Clear, Generate, and Resolve operations.
 

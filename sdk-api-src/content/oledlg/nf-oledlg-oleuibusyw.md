@@ -1,8 +1,8 @@
 ---
 UID: NF:oledlg.OleUIBusyW
 title: OleUIBusyW function (oledlg.h)
-description: Invokes the standard Busy dialog box, allowing the user to manage concurrency.
-helpviewer_keywords: ["OleUIBusy","OleUIBusy function [COM]","OleUIBusyA","OleUIBusyW","_ole_OleUIBusy","com.oleuibusy","oledlg/OleUIBusy","oledlg/OleUIBusyA","oledlg/OleUIBusyW"]
+description: Invokes the standard Busy dialog box, allowing the user to manage concurrency. (Unicode)
+helpviewer_keywords: ["OleUIBusy", "OleUIBusy function [COM]", "OleUIBusyW", "_ole_OleUIBusy", "com.oleuibusy", "oledlg/OleUIBusy", "oledlg/OleUIBusyW"]
 old-location: com\oleuibusy.htm
 tech.root: com
 ms.assetid: 317f0dbf-7ac9-4e5a-a5ed-e6b807f07fb2
@@ -56,7 +56,7 @@ Invokes the standard <b>Busy</b> dialog box, allowing the user to manage concurr
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to an <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuibusya">OLEUIBUSY</a> structure that contains information used to initialize the dialog box.
 

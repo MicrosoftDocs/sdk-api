@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 The <code>IsPreroll</code> method determines if this sample is part of the preroll. A preroll sample should not be displayed.
 
-## -parameters
+
 
 ## -returns
 

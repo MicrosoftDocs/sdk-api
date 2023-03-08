@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CallMsgFilterA
 title: CallMsgFilterA function (winuser.h)
-description: Passes the specified message and hook code to the hook procedures associated with the WH_SYSMSGFILTER and WH_MSGFILTER hooks.
-helpviewer_keywords: ["CallMsgFilter","CallMsgFilter function [Windows and Messages]","CallMsgFilterA","CallMsgFilterW","_win32_CallMsgFilter","_win32_callmsgfilter_cpp","winmsg.callmsgfilter","winui._win32_callmsgfilter","winuser/CallMsgFilter","winuser/CallMsgFilterA","winuser/CallMsgFilterW"]
+description: Passes the specified message and hook code to the hook procedures associated with the WH_SYSMSGFILTER and WH_MSGFILTER hooks. (ANSI)
+helpviewer_keywords: ["CallMsgFilterA", "winuser/CallMsgFilterA"]
 old-location: winmsg\callmsgfilter.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\callmsgfilter.htm
@@ -49,6 +49,7 @@ api_name:
  - CallMsgFilter
  - CallMsgFilterA
  - CallMsgFilterW
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # CallMsgFilterA function

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_BUFFER_DESC
 title: D3D11_BUFFER_DESC (d3d11.h)
-description: Describes a buffer resource.
+description: Describes a buffer resource. (D3D11_BUFFER_DESC)
 helpviewer_keywords: ["D3D11_BUFFER_DESC","D3D11_BUFFER_DESC structure [Direct3D 11]","d2dd6908-ed59-4009-c1dc-5afae3472d02","d3d11/D3D11_BUFFER_DESC","direct3d11.d3d11_buffer_desc"]
 old-location: direct3d11\d3d11_buffer_desc.htm
 tech.root: direct3d11
@@ -70,19 +70,19 @@ Identify how the buffer is expected to be read from and written to. Frequency of
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Identify how the buffer will be bound to the pipeline. Flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_FLAG</a>) can be combined with a logical OR.
+Identify how the buffer will be bound to the pipeline. Flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_FLAG</a>) can be combined with a bitwise OR.
 
 ### -field CPUAccessFlags
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-CPU access flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_cpu_access_flag">D3D11_CPU_ACCESS_FLAG</a>) or 0 if no CPU access is necessary. Flags can be combined with a logical OR.
+CPU access flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_cpu_access_flag">D3D11_CPU_ACCESS_FLAG</a>) or 0 if no CPU access is necessary. Flags can be combined with a bitwise OR.
 
 ### -field MiscFlags
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Miscellaneous flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_FLAG</a>) or 0 if unused. Flags can be combined with a logical OR.
+Miscellaneous flags (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_FLAG</a>) or 0 if unused. Flags can be combined with a bitwise OR.
 
 ### -field StructureByteStride
 

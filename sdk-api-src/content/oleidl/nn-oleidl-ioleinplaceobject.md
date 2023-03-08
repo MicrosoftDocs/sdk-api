@@ -56,56 +56,7 @@ You can obtain a pointer to <b>IOleInPlaceObject</b> by calling <a href="/window
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleInPlaceObject</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IOleInPlaceObject</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOleInPlaceObject</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-inplacedeactivate">InPlaceDeactivate</a>
-</td>
-<td align="left" width="63%">
-Deactivates an active in-place object and discards the object's undo state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-reactivateandundo">ReactivateAndUndo</a>
-</td>
-<td align="left" width="63%">
-Reactivates a previously deactivated object, undoing the last state of the object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-setobjectrects">SetObjectRects</a>
-</td>
-<td align="left" width="63%">
-Specifies how much of the in-place object is to be visible.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-uideactivate">UIDeactivate</a>
-</td>
-<td align="left" width="63%">
-Deactivates and removes the user interface of an active in-place object.
-
-</td>
-</tr>
-</table>
+The <b>IOleInPlaceObject</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IOleInPlaceObject</b> also has these types of members:
 
 ## -see-also
 

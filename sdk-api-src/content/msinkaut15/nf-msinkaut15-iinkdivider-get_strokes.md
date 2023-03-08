@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut15.IInkDivider.get_Strokes
 title: IInkDivider::get_Strokes (msinkaut15.h)
-description: Gets or sets the InkStrokes collection on which the InkDivider object performs layout analysis.
+description: Gets or sets the InkStrokes collection on which the InkDivider object performs layout analysis. (IInkDivider.get_Strokes)
 helpviewer_keywords: ["611ccce9-7acb-4138-9655-938efcaa4c75","IInkDivider interface [Tablet PC]","Strokes property","IInkDivider.Strokes","IInkDivider.get_Strokes","IInkDivider::Strokes","IInkDivider::get_Strokes","IInkDivider::putref_Strokes","InkDivider.get_Strokes","Strokes property [Tablet PC]","Strokes property [Tablet PC]","IInkDivider interface","get_Strokes","msinkaut15/IInkDivider::Strokes","msinkaut15/IInkDivider::get_Strokes","msinkaut15/IInkDivider::putref_Strokes","tablet.inkdivider_strokes"]
 old-location: tablet\inkdivider_strokes.htm
 tech.root: tablet
@@ -74,7 +74,7 @@ To keep the <b>Strokes</b> property of the <a href="/windows/desktop/tablet/inkd
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847144(v=VS.85).aspx">IInkDivider</a>
+<a href="../msinkaut15/nn-msinkaut15-iinkdivider.md">IInkDivider</a>
 
 
 

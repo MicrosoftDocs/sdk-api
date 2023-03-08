@@ -52,7 +52,7 @@ api_name:
 
 The <b>SeekUp</b> method changes the channel to the next higher channel with valid programming.
 
-## -parameters
+
 
 ## -returns
 

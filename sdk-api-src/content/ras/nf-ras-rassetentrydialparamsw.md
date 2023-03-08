@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasSetEntryDialParamsW
 title: RasSetEntryDialParamsW function (ras.h)
-description: The RasSetEntryDialParams function changes the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry.
-helpviewer_keywords: ["RasSetEntryDialParams","RasSetEntryDialParams function [RAS]","RasSetEntryDialParamsA","RasSetEntryDialParamsW","_ras_rassetentrydialparams","dwCallbackId","dwSize","dwSubEntry","ras/RasSetEntryDialParams","ras/RasSetEntryDialParamsA","ras/RasSetEntryDialParamsW","rras.rassetentrydialparams","szCallbackNumber","szDomain","szEntryName","szPassword","szPhoneNumber","szUserName"]
+description: The RasSetEntryDialParams function changes the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry. (Unicode)
+helpviewer_keywords: ["RasSetEntryDialParams", "RasSetEntryDialParams function [RAS]", "RasSetEntryDialParamsW", "_ras_rassetentrydialparams", "dwCallbackId", "dwSize", "dwSubEntry", "ras/RasSetEntryDialParams", "ras/RasSetEntryDialParamsW", "rras.rassetentrydialparams", "szCallbackNumber", "szDomain", "szEntryName", "szPassword", "szPhoneNumber", "szUserName"]
 old-location: rras\rassetentrydialparams.htm
 tech.root: RRAS
 ms.assetid: e1acd68e-796e-49a2-8c7d-c0fd1a9764ef
@@ -61,7 +61,7 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
 
@@ -71,7 +71,7 @@ Pointer to a null-terminated string that specifies the full path and file name o
 
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to the 
 <a href="/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure that specifies the connection parameters to be associated with the phone-book entry. 
@@ -187,7 +187,7 @@ Specifies an application-defined value that RAS passes to the
 </tr>
 </table>
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Specifies whether to remove the phone-book entry's stored password for the user indicated by <i>lprasdialparams</i>-&gt;<b>szUserName</b>. If <i>fRemovePassword</i> is <b>TRUE</b>, the password is removed. Setting fRemovePassword to <b>TRUE</b> is equivalent to checking the "Unsave Password" check box in Dial-Up Networking. When setting the password or other properties of a phone book entry, set <i>fRemovePassword</i> to <b>FALSE</b>.
 

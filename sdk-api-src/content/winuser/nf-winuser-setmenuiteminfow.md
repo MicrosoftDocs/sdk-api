@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.SetMenuItemInfoW
 title: SetMenuItemInfoW function (winuser.h)
-description: Changes information about a menu item.
-helpviewer_keywords: ["SetMenuItemInfo","SetMenuItemInfo function [Menus and Other Resources]","SetMenuItemInfoA","SetMenuItemInfoW","_win32_SetMenuItemInfo","_win32_setmenuiteminfo_cpp","menurc.setmenuiteminfo","winui._win32_setmenuiteminfo","winuser/SetMenuItemInfo","winuser/SetMenuItemInfoA","winuser/SetMenuItemInfoW"]
+description: Changes information about a menu item. (Unicode)
+helpviewer_keywords: ["SetMenuItemInfo", "SetMenuItemInfo function [Menus and Other Resources]", "SetMenuItemInfoW", "_win32_SetMenuItemInfo", "_win32_setmenuiteminfo_cpp", "menurc.setmenuiteminfo", "winui._win32_setmenuiteminfo", "winuser/SetMenuItemInfo", "winuser/SetMenuItemInfoW"]
 old-location: menurc\setmenuiteminfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenuiteminfo.htm
@@ -49,6 +49,7 @@ api_name:
  - SetMenuItemInfo
  - SetMenuItemInfoA
  - SetMenuItemInfoW
+req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetMenuItemInfoW function
@@ -72,7 +73,7 @@ Type: <b>UINT</b>
 
 The identifier or position of the menu item to change. The meaning of this parameter depends on the value of <i>fByPosition</i>.
 
-### -param fByPositon [in]
+### -param fByPosition [in]
 
 Type: <b>BOOL</b>
 

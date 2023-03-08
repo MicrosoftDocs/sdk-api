@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.LogonUserExW
 title: LogonUserExW function (winbase.h)
-description: The LogonUserEx function attempts to log a user on to the local computer.
-helpviewer_keywords: ["LOGON32_LOGON_BATCH","LOGON32_LOGON_INTERACTIVE","LOGON32_LOGON_NETWORK","LOGON32_LOGON_NETWORK_CLEARTEXT","LOGON32_LOGON_NEW_CREDENTIALS","LOGON32_LOGON_SERVICE","LOGON32_LOGON_UNLOCK","LOGON32_PROVIDER_DEFAULT","LOGON32_PROVIDER_WINNT40","LOGON32_PROVIDER_WINNT50","LogonUserEx","LogonUserEx function [Security]","LogonUserExA","LogonUserExW","_win32_logonuserex","security.logonuserex","winbase/LogonUserEx","winbase/LogonUserExA","winbase/LogonUserExW"]
+description: The LogonUserEx function attempts to log a user on to the local computer. (Unicode)
+helpviewer_keywords: ["LOGON32_LOGON_BATCH", "LOGON32_LOGON_INTERACTIVE", "LOGON32_LOGON_NETWORK", "LOGON32_LOGON_NETWORK_CLEARTEXT", "LOGON32_LOGON_NEW_CREDENTIALS", "LOGON32_LOGON_SERVICE", "LOGON32_LOGON_UNLOCK", "LOGON32_PROVIDER_DEFAULT", "LOGON32_PROVIDER_WINNT40", "LOGON32_PROVIDER_WINNT50", "LogonUserEx", "LogonUserEx function [Security]", "LogonUserExW", "_win32_logonuserex", "security.logonuserex", "winbase/LogonUserEx", "winbase/LogonUserExW"]
 old-location: security\logonuserex.htm
 tech.root: security
 ms.assetid: 4aba1cad-f234-4329-8599-7438cb9bee98

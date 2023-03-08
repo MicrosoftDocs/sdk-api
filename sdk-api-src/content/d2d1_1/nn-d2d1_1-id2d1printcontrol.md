@@ -54,38 +54,7 @@ Converts <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> primit
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1PrintControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1PrintControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1PrintControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1printcontrol-addpage">AddPage</a>
-</td>
-<td align="left" width="63%">
-Converts Direct2D primitives in the passed-in command list into a fixed page representation for use  by the print subsystem. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1printcontrol-close">Close</a>
-</td>
-<td align="left" width="63%">
-Passes all remaining resources to the print sub-system, then clean up and close the current print job. 
-
-</td>
-</tr>
-</table>
+The <b>ID2D1PrintControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1PrintControl</b> also has these types of members:
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.EnumSubCommands
 title: IExplorerCommand::EnumSubCommands (shobjidl_core.h)
-description: Retrieves an enemerator for a command's subcommands.
+description: Retrieves an enumerator for a command's subcommands.
 helpviewer_keywords: ["EnumSubCommands","EnumSubCommands method [Windows Shell]","EnumSubCommands method [Windows Shell]","IExplorerCommand interface","IExplorerCommand interface [Windows Shell]","EnumSubCommands method","IExplorerCommand.EnumSubCommands","IExplorerCommand::EnumSubCommands","_shell_IExplorerCommand_EnumSubCommands","shell.IExplorerCommand_EnumSubCommands","shobjidl_core/IExplorerCommand::EnumSubCommands"]
 old-location: shell\IExplorerCommand_EnumSubCommands.htm
 tech.root: shell
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves an enemerator for a command's subcommands.
+Retrieves an enumerator for a command's subcommands.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ When this method returns successfully, contains an <a href="/windows/desktop/api
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

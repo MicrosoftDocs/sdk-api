@@ -60,19 +60,19 @@ Contains information that an application passes to a rich edit control in a <a h
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD_PTR</a></b>
 
-Specifies an application-defined value that the rich edit control passes to the <a href="https://msdn.microsoft.com/9445b141-bd0f-4bf6-8986-fbfeab9e8999">EditStreamCallback</a> callback function specified by the <b>pfnCallback</b> member.
+Specifies an application-defined value that the rich edit control passes to the <a href="/windows/win32/api/richedit/nc-richedit-editstreamcallback">EditStreamCallback</a> callback function specified by the <b>pfnCallback</b> member.
 
 ### -field dwError
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Indicates the results of the stream-in (read) or stream-out (write) operation. A value of zero indicates no error. A nonzero value can be the return value of the <a href="https://msdn.microsoft.com/9445b141-bd0f-4bf6-8986-fbfeab9e8999">EditStreamCallback</a> function or a code indicating that the control encountered an error.
+Indicates the results of the stream-in (read) or stream-out (write) operation. A value of zero indicates no error. A nonzero value can be the return value of the <a href="/windows/win32/api/richedit/nc-richedit-editstreamcallback">EditStreamCallback</a> function or a code indicating that the control encountered an error.
 
 ### -field pfnCallback
 
 Type: <b>EDITSTREAMCALLBACK</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/9445b141-bd0f-4bf6-8986-fbfeab9e8999">EditStreamCallback</a> function, which is an application-defined function that the control calls to transfer data. The control calls the callback function repeatedly, transferring a portion of the data with each call.
+Pointer to an <a href="/windows/win32/api/richedit/nc-richedit-editstreamcallback">EditStreamCallback</a> function, which is an application-defined function that the control calls to transfer data. The control calls the callback function repeatedly, transferring a portion of the data with each call.
 
 ## -see-also
 
@@ -84,7 +84,7 @@ Pointer to an <a href="https://msdn.microsoft.com/9445b141-bd0f-4bf6-8986-fbfeab
 
 
 
-<a href="https://msdn.microsoft.com/9445b141-bd0f-4bf6-8986-fbfeab9e8999">EditStreamCallback</a>
+<a href="/windows/win32/api/richedit/nc-richedit-editstreamcallback">EditStreamCallback</a>
 
 
 

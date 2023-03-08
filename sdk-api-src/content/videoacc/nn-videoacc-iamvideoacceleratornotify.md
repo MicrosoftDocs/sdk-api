@@ -57,47 +57,10 @@ The <b>IAMVideoAcceleratorNotify</b> interface is a callback interface used in c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVideoAcceleratorNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoAcceleratorNotify</b> also has these types of members:
+The <b>IAMVideoAcceleratorNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoAcceleratorNotify</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IAMVideoAcceleratorNotify</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-getcreatevideoacceleratordata">GetCreateVideoAcceleratorData</a>
-</td>
-<td align="left" width="63%">
-Gets information needed to create a video accelerator object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-getuncompsurfacesinfo">GetUncompSurfacesInfo</a>
-</td>
-<td align="left" width="63%">
-Queries the decoder for the number of uncompressed surfaces to allocate and the pixel format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-setuncompsurfacesinfo">SetUncompSurfacesInfo</a>
-</td>
-<td align="left" width="63%">
-Notifies the decoder of how many uncompressed surfaces were created.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

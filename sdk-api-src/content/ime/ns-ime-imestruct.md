@@ -303,7 +303,7 @@ The <b>wParam</b> member specifies one of the following values:
 <td>MCW_DEFAULT</td>
 <td>Displays the conversion window at the default position, which is usually the bottom of the screen.
 
-                                    If the MCW_DEFAULT style is specified in an IME_SETCONVERSIONWINDOW message, then when the IME displays or draws a conversion window at the default position, it must not send an IR_OPENCONVERT, IR_CHANGECONVERT, IR_FULLCONVERT or IR_CLOSECONVERT message.
+If the MCW_DEFAULT style is specified in an IME_SETCONVERSIONWINDOW message, then when the IME displays or draws a conversion window at the default position, it must not send an IR_OPENCONVERT, IR_CHANGECONVERT, IR_FULLCONVERT or IR_CLOSECONVERT message.
 
 </td>
 </tr>
@@ -311,7 +311,7 @@ The <b>wParam</b> member specifies one of the following values:
 <td>MCW_WINDOW</td>
 <td>Displays the conversion window at the coordinate given in the <b>lParam1</b> member, in the window specified in the <i>wParam</i> parameter of the WM_CONVERTREQUEST or WM_CONVERTREQUESTEX message. The value in <b>lParam1</b> indicates the coordinates relative to the upper left corner of the window, with the low-order word representing the X coordinate and the high-order word the Y coordinate. The bounding rectangle is the client rectangle of the given window and is the most typical way of invoking a kana-to-kanji conversion.
 
-                                    If the MCW_WINDOW style is specified in an IME_SETCONVERSIONWINDOW message, the IME must send an IR_OPENCOVERT message if the conversion window status has changed from closed to open. If the conversion window status has changed from open to closed, the IME must send an IR_CLOSECONVERT message. There is an exception, however. See IME_WINDOWUPDATE for details.
+If the MCW_WINDOW style is specified in an IME_SETCONVERSIONWINDOW message, the IME must send an IR_OPENCOVERT message if the conversion window status has changed from closed to open. If the conversion window status has changed from open to closed, the IME must send an IR_CLOSECONVERT message. There is an exception, however. See IME_WINDOWUPDATE for details.
 
 </td>
 </tr>
@@ -323,7 +323,7 @@ The <b>wParam</b> member specifies one of the following values:
 <td>MCW_SCREEN</td>
 <td>Displays the conversion window with its upper left corner designated by the <b>lParam1</b> member. The <b>lParam1</b> member indicates absolute coordinates with the origin at the upper left corner of the screen. The low-order word represents the X coordinate and the high-order word the Y coordinate. The bounding rectangle is the full screen.
 
-                                    If the MCW_SCREEN style is specified in an IME_SETCONVERSIONWINDOW message, the IME must send an IR_OPENCOVERT message if the conversion window status has changed from closed to open. If the conversion window status has changed from open to closed, the IME must send an IR_CLOSECONVERT message. There is an exception, however. See IME_WINDOWUPDATE for details.
+If the MCW_SCREEN style is specified in an IME_SETCONVERSIONWINDOW message, the IME must send an IR_OPENCOVERT message if the conversion window status has changed from closed to open. If the conversion window status has changed from open to closed, the IME must send an IR_CLOSECONVERT message. There is an exception, however. See IME_WINDOWUPDATE for details.
 
 </td>
 </tr>
@@ -335,7 +335,7 @@ The <b>wParam</b> member specifies one of the following values:
 <td>MCW_HIDDEN [Windows 3.1]</td>
 <td>When this flag is specified, the IME does not display the conversion window. Instead, the application itself displays undetermined strings. The <b>lParam1</b> member specifies the coordinates of the cursor position being displayed by the application or of the point of interest. The <b>lParam2</b> and <b>lParam3</b> members specify a region where no display is enabled by the IME. An IME that displays determined-string candidates in a pop-up window is able to use these pieces of information to determine where to display the window of determined-string candidates. A window to display candidate strings is considered as a system window. Therefore it is IME-dependent regarding whether to display such a window, where and how to display the window, and what keyboard input to use. The three members <b>lParam1</b>, <b>lParam2</b>, and <b>lParam3</b>, specify the absolute coordinates from the upper left of the screen, each with the low-order word representing the X coordinate and the high-order word the Y coordinate.
 
-                                    When the MCW_HIDDEN flag is specified, the IME sends an IR_UNDETERMINE message to request that the application displays the undetermined string. The application itself displays the undetermined string contained in this message.
+When the MCW_HIDDEN flag is specified, the IME sends an IR_UNDETERMINE message to request that the application displays the undetermined string. The application itself displays the undetermined string contained in this message.
 
 Once the MCW_HIDDEN flag is specified, the IME does not send an IR_OPENCONVERT, IR_CHANGECONVERT or IR_CLOSECONVERT message.
 

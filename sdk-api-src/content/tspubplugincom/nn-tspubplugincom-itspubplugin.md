@@ -56,97 +56,7 @@ Resources that can be exposed through <b>ItsPubPlugin</b> typically include Remo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ItsPubPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ItsPubPlugin</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>ItsPubPlugin</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-getcachelastupdatetime">GetCacheLastUpdateTime</a>
-</td>
-<td align="left" width="63%">
-Returns the time that the cache was last updated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-getresource">GetResource</a>
-</td>
-<td align="left" width="63%">
-This method is reserved and should always return <b>E_NOTIMPL</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-getresourcelist">GetResourceList</a>
-</td>
-<td align="left" width="63%">
-Retrieves a list of resources assigned to the specified user.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-resolveresource">ResolveResource</a>
-</td>
-<td align="left" width="63%">
- Provides information about how to connect to a user's assigned personal virtual desktop. 
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ItsPubPlugin</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="10%">Access type</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/TermServ/itspubplugin-pluginname">pluginName</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Retrieves the  name of the plug-in.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="/windows/desktop/api/tspubplugincom/nf-tspubplugincom-itspubplugin-get_pluginversion">pluginVersion</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Retrieves the version of the plug-in.
-
-</td>
-</tr>
-</table>
+The <b>ItsPubPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ItsPubPlugin</b> also has these types of members:
 
 ## -remarks
 
@@ -154,7 +64,7 @@ Retrieves the version of the plug-in.
 
 <ol>
 <li>Implement the plug-in in a DLL and register the DLL by using the Regsvr32.exe tool.</li>
-<li>Create a subkey named for the CLSID of the DLL under the following key:<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<li>Create a subkey named for the CLSID of the DLL under the following key:<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows NT</b>

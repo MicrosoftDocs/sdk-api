@@ -58,7 +58,7 @@ The <b>MSV1_0_PROFILE_BUFFER_TYPE</b> enumeration lists the kind of logon profil
 
 ## -enum-fields
 
-### -field MsV1_0InteractiveProfile
+### -field MsV1_0InteractiveProfile:2
 
 The profile describes an interactive <a href="/windows/desktop/SecGloss/l-gly">logon session</a>.
 

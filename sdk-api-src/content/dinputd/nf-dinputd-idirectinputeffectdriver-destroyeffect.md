@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputEffectDriver::DestroyEffect </b>method removes an effect from the device. If the effect is playing, the driver should stop it before unloading it.
+The <b>IDirectInputEffectDriver::DestroyEffect </b> method removes an effect from the device. If the effect is playing, the driver should stop it before unloading it.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Specifies the external joystick number being addressed.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the effect to be destroyed.
 

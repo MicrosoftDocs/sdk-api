@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcNetworkIsProtseqValid
 title: RpcNetworkIsProtseqValid function (rpcdce.h)
-description: The RpcNetworkIsProtseqValid function tells whether the specified protocol sequence is supported by both the RPC run-time library and the operating system. Server applications often use RpcNetworkInqProtseqs.
+description: The RpcNetworkIsProtseqValid function (rpcdce.h) tells if the RPC run-time library and the operating system support the specified protocol sequence.
 helpviewer_keywords: ["RpcNetworkIsProtseqValid","RpcNetworkIsProtseqValid function [RPC]","RpcNetworkIsProtseqValidA","RpcNetworkIsProtseqValidW","_rpc_rpcnetworkisprotseqvalid","rpc.rpcnetworkisprotseqvalid","rpcdce/RpcNetworkIsProtseqValid","rpcdce/RpcNetworkIsProtseqValidA","rpcdce/RpcNetworkIsProtseqValidW"]
 old-location: rpc\rpcnetworkisprotseqvalid.htm
 tech.root: Rpc
 ms.assetid: 72a28f64-2a66-4b61-96a9-80b8b9486151
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: RpcNetworkIsProtseqValid, RpcNetworkIsProtseqValid function [RPC], RpcNetworkIsProtseqValidA, RpcNetworkIsProtseqValidW, _rpc_rpcnetworkisprotseqvalid, rpc.rpcnetworkisprotseqvalid, rpcdce/RpcNetworkIsProtseqValid, rpcdce/RpcNetworkIsProtseqValidA, rpcdce/RpcNetworkIsProtseqValidW
 req.header: rpcdce.h
 req.include-header: Rpc.h

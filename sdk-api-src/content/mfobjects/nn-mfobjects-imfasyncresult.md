@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMFAsyncResult
 title: IMFAsyncResult (mfobjects.h)
-description: Provides information about the result of an asynchronous operation.
+description: Provides information about the result of an asynchronous operation. (IMFAsyncResult)
 helpviewer_keywords: ["8c95b1de-8974-445c-8070-41552ea83e53","IMFAsyncResult","IMFAsyncResult interface [Media Foundation]","IMFAsyncResult interface [Media Foundation]","described","mf.imfasyncresult","mfobjects/IMFAsyncResult"]
 old-location: mf\imfasyncresult.htm
 tech.root: mf
@@ -55,65 +55,7 @@ Provides information about the result of an asynchronous operation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAsyncResult</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAsyncResult</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFAsyncResult</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getobject">GetObject</a>
-</td>
-<td align="left" width="63%">
-Returns an object associated with the asynchronous operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getstate">GetState</a>
-</td>
-<td align="left" width="63%">
-Returns the state object specified by the caller in the asynchronous <b>Begin</b> method.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getstatenoaddref">GetStateNoAddRef</a>
-</td>
-<td align="left" width="63%">
-Returns the state object specified by the caller in the asynchronous <b>Begin</b> method, without incrementing the object's reference count.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getstatus">GetStatus</a>
-</td>
-<td align="left" width="63%">
-Returns the status of the asynchronous operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-setstatus">SetStatus</a>
-</td>
-<td align="left" width="63%">
-Sets the status of the asynchronous operation.
-
-</td>
-</tr>
-</table>
+The <b>IMFAsyncResult</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAsyncResult</b> also has these types of members:
 
 ## -remarks
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasValidateEntryNameW
 title: RasValidateEntryNameW function (ras.h)
-description: The RasValidateEntryName function validates the format of a connection entry name. The name must contain at least one non-white-space alphanumeric character.
-helpviewer_keywords: ["RasValidateEntryName","RasValidateEntryName function [RAS]","RasValidateEntryNameA","RasValidateEntryNameW","\","_ras_rasvalidateentryname","ras/RasValidateEntryName","ras/RasValidateEntryNameA","ras/RasValidateEntryNameW","rras.rasvalidateentryname"]
+description: The RasValidateEntryName function validates the format of a connection entry name. The name must contain at least one non-white-space alphanumeric character. (Unicode)
+helpviewer_keywords: ["RasValidateEntryName", "RasValidateEntryName function [RAS]", "RasValidateEntryNameW", "\\", "_ras_rasvalidateentryname", "ras/RasValidateEntryName", "ras/RasValidateEntryNameW", "rras.rasvalidateentryname"]
 old-location: rras\rasvalidateentryname.htm
 tech.root: RRAS
 ms.assetid: c70ad0d4-6bc1-4716-9a8e-0fbeb55b7560
@@ -57,7 +57,7 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. 
 
@@ -66,7 +66,7 @@ A pointer to a null-terminated string that specifies the full path and file name
 
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to a null-terminated string that specifies an entry name. 
 

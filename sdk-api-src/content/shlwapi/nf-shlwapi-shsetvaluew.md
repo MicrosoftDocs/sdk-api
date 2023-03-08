@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHSetValueW
 title: SHSetValueW function (shlwapi.h)
-description: Sets the value of a registry key.
-helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHSetValue","SHSetValue function [Windows Shell]","SHSetValueA","SHSetValueW","_win32_SHSetValue","shell.SHSetValue","shlwapi/SHSetValue","shlwapi/SHSetValueA","shlwapi/SHSetValueW"]
+description: Sets the value of a registry key. (Unicode)
+helpviewer_keywords: ["HKEY_CLASSES_ROOT", "HKEY_CURRENT_CONFIG", "HKEY_CURRENT_USER", "HKEY_LOCAL_MACHINE", "HKEY_PERFORMANCE_DATA", "HKEY_USERS", "SHSetValue", "SHSetValue function [Windows Shell]", "SHSetValueW", "_win32_SHSetValue", "shell.SHSetValue", "shlwapi/SHSetValue", "shlwapi/SHSetValueW"]
 old-location: shell\SHSetValue.htm
 tech.root: shell
 ms.assetid: 6cd5b7fd-8fb9-4c24-9670-20c23ca709bf
@@ -107,7 +107,7 @@ The address of a null-terminated string that specifies the value. This value can
 
 Type: <b>DWORD</b>
 
-Type of data to be stored. This parameter must be the <b>REG_SZ</b> type. For more information, see <a href="/windows/desktop/shell/schemas">Registry Data Types</a>.
+Type of data to be stored. This parameter must be the <b>REG_SZ</b> type. For more information, see <a href="/windows/desktop/shell/hkey-type">Registry Data Types</a>.
 
 ### -param pvData [in, optional]
 

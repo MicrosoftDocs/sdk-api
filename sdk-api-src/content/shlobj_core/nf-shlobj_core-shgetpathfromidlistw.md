@@ -1,8 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetPathFromIDListW
 title: SHGetPathFromIDListW function (shlobj_core.h)
-description: Converts an item identifier list to a file system path.
-helpviewer_keywords: ["SHGetPathFromIDList","SHGetPathFromIDList function [Windows Shell]","SHGetPathFromIDListA","SHGetPathFromIDListW","_win32_SHGetPathFromIDList","shell.SHGetPathFromIDList","shlobj_core/SHGetPathFromIDList","shlobj_core/SHGetPathFromIDListA","shlobj_core/SHGetPathFromIDListW"]
+description: Converts an item identifier list to a file system path. (Unicode)
+helpviewer_keywords: ["SHGetPathFromIDList", "SHGetPathFromIDList function [Windows Shell]", "SHGetPathFromIDListW", "_win32_SHGetPathFromIDList", "shell.SHGetPathFromIDList", "shlobj_core/SHGetPathFromIDList", "shlobj_core/SHGetPathFromIDListW"]
 old-location: shell\SHGetPathFromIDList.htm
 tech.root: shell
 ms.assetid: f043ffa2-37c1-465d-aed6-0475e721fbde
@@ -48,6 +48,7 @@ api_name:
  - SHGetPathFromIDList
  - SHGetPathFromIDListA
  - SHGetPathFromIDListW
+req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SHGetPathFromIDListW function

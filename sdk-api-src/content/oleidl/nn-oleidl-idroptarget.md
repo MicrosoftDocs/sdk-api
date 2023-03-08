@@ -61,56 +61,7 @@ The <b>IDropTarget</b> interface is one of the interfaces you implement to provi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDropTarget</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDropTarget</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDropTarget</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter">DragEnter</a>
-</td>
-<td align="left" width="63%">
-Determines whether a drop can be accepted and its effect if it is accepted.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">DragLeave</a>
-</td>
-<td align="left" width="63%">
-Causes the drop target to suspend its feedback actions.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover">DragOver</a>
-</td>
-<td align="left" width="63%">
-Provides target feedback to the user through the <a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">Drop</a>
-</td>
-<td align="left" width="63%">
-Drops the data into the target window.
-
-</td>
-</tr>
-</table>
+The <b>IDropTarget</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDropTarget</b> also has these types of members:
 
 ## -see-also
 

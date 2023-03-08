@@ -1,8 +1,8 @@
 ---
 UID: NF:userenv.GetGPOListW
 title: GetGPOListW function (userenv.h)
-description: The GetGPOList function retrieves the list of GPOs for the specified user or computer.
-helpviewer_keywords: ["GetGPOList","GetGPOList function [Group Policy]","GetGPOListA","GetGPOListW","_win32_getgpolist","policy.getgpolist","userenv/GetGPOList","userenv/GetGPOListA","userenv/GetGPOListW"]
+description: The GetGPOList function retrieves the list of GPOs for the specified user or computer. (Unicode)
+helpviewer_keywords: ["GetGPOList", "GetGPOList function [Group Policy]", "GetGPOListW", "_win32_getgpolist", "policy.getgpolist", "userenv/GetGPOList", "userenv/GetGPOListW"]
 old-location: policy\getgpolist.htm
 tech.root: Policy
 ms.assetid: 26c54ac5-23d7-40ed-94a9-70d25e14431f
@@ -77,7 +77,7 @@ If the <i>hToken</i> parameter is not <b>NULL</b>, this parameter must be <b>NUL
 
 ### -param lpHostName [in]
 
-A DNS domain name or domain controller name. Domain controller name can be retrieved using the 
+A DNS domain name (preferred) or domain controller name. Domain controller name can be retrieved using the 
 <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function, specifying <b>DS_DIRECTORY_SERVICE_REQUIRED</b> in the <i>flags</i> parameter.
 
 If the <i>hToken</i> parameter is not <b>NULL</b>, this parameter must be <b>NULL</b>.

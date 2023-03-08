@@ -78,12 +78,16 @@ A pointer to a user-defined function which will be called for each enumerated re
        <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-lpresource_callback_ex">ResourceCallbackEx</a> callback function (note 
        that parameter names are not part of the definition; they have been added here for clarity):
 
-<pre class="syntax" xml:space="preserve"><code>DWORD (*LPRESOURCE_CALLBACK_EX)( 
+
+``` syntax
+DWORD (*LPRESOURCE_CALLBACK_EX)( 
   HCLUSTER hCluster,
   HRESOURCE hSelf, 
   HRESOURCE hEnum, 
   PVOID pParameter 
-);</code></pre>
+);
+```
+
 
 
 
@@ -125,7 +129,7 @@ A generic buffer that allows you to pass any kind of data to the callback functi
 
 ### -param dwDesiredAccess [in]
 
-The requested access privileges. This may be any combination of <b>GENERIC_READ</b> (0x80000000), <b>GENERIC_ALL</b> (0x10000000), or M<b>AXIMUM_ALLOWED</b> (0x02000000). If this value is zero (0), an undefined error may be returned. Using <b>GENERIC_ALL</b> is the same as calling <a href="/windows/desktop/api/resapi/nf-resapi-resutilenumresourcesex">ResUtilEnumResourcesEx</a>.
+The requested access privileges. This may be any combination of <b>GENERIC_READ</b> (0x80000000), <b>GENERIC_ALL</b> (0x10000000), or <b>MAXIMUM_ALLOWED</b> (0x02000000). If this value is zero (0), an undefined error may be returned. Using <b>GENERIC_ALL</b> is the same as calling <a href="/windows/desktop/api/resapi/nf-resapi-resutilenumresourcesex">ResUtilEnumResourcesEx</a>.
 
 ## -returns
 

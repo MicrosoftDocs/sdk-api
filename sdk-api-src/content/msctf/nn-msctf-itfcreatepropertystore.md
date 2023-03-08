@@ -54,38 +54,7 @@ The <b>ITfCreatePropertyStore</b> interface is implemented by a text service to 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCreatePropertyStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCreatePropertyStore</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfCreatePropertyStore</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcreatepropertystore-createpropertystore">CreatePropertyStore</a>
-</td>
-<td align="left" width="63%">
-Creates a property store object from serialized property store data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcreatepropertystore-isstoreserializable">IsStoreSerializable</a>
-</td>
-<td align="left" width="63%">
-Determines if a property store can be stored as persistent data.
-
-</td>
-</tr>
-</table>
+The <b>ITfCreatePropertyStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCreatePropertyStore</b> also has these types of members:
 
 ## -remarks
 

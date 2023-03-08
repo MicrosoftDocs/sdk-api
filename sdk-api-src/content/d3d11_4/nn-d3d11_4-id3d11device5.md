@@ -56,38 +56,7 @@ The device interface represents a virtual adapter; it is used to create resource
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Device5</b> interface inherits from <a href="/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11device4">ID3D11Device4</a>. <b>ID3D11Device5</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D11Device5</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device5-createfence">CreateFence</a>
-</td>
-<td align="left" width="63%">
-Creates a fence object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device5-opensharedfence">OpenSharedFence</a>
-</td>
-<td align="left" width="63%">
-Opens a handle for a shared fence by using HANDLE and REFIID.
-
-</td>
-</tr>
-</table>
+The <b>ID3D11Device5</b> interface inherits from <a href="/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11device4">ID3D11Device4</a>. <b>ID3D11Device5</b> also has these types of members:
 
 ## -see-also
 

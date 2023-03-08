@@ -46,6 +46,7 @@ api_location:
  - Ext-MS-Win-NTUser-server-l1-1-0.dll
 api_name:
  - NotifyWinEvent
+req.apiset: ext-ms-win-ntuser-server-l1-1-0 (introduced in Windows 8)
 ---
 
 # NotifyWinEvent function
@@ -91,11 +92,11 @@ Servers call <b>NotifyWinEvent</b> to announce the event to the system after the
 
 When the client's hook procedure is called, it receives a number of parameters that describe the event and the object that generated the event. The hook procedure uses the <a href="/windows/desktop/api/oleacc/nf-oleacc-accessibleobjectfromevent">AccessibleObjectFromEvent</a> function to retrieve a pointer to the <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface of the object that generated the event.
 
-Servers may receive a <a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message immediately after calling this function. This can happen if there are any in-context clients that call <a href="/windows/desktop/api/oleacc/nf-oleacc-accessibleobjectfromevent">AccessibleObjectFromEvent</a> in the event callback.
+Servers may receive a [WM_GETOBJECT](/windows/win32/winauto/wm-getobject) message immediately after calling this function. This can happen if there are any in-context clients that call <a href="/windows/desktop/api/oleacc/nf-oleacc-accessibleobjectfromevent">AccessibleObjectFromEvent</a> in the event callback.
 
-When servers call this function, they must be ready to handle <a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a>, return an <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer, and handle any of the <b>IAccessible</b> methods.
+When servers call this function, they must be ready to handle [WM_GETOBJECT](/windows/win32/winauto/wm-getobject), return an <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer, and handle any of the <b>IAccessible</b> methods.
 
-<b>Note to Server Developers:  </b>When you call <b>NotifyWinEvent</b>, if any clients are listening for that event in-context, their event handlers, which typically send <a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> and call <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> methods, will execute before <b>NotifyWinEvent</b> returns. When you call <b>NotifyWinEvent</b>, you should be prepared to handle these calls, if they occur. If you need to do extra setup to allow for this, you should do so before you call <b>NotifyWinEvent</b>, not after.
+<b>Note to Server Developers:  </b>When you call <b>NotifyWinEvent</b>, if any clients are listening for that event in-context, their event handlers, which typically send [WM_GETOBJECT](/windows/win32/winauto/wm-getobject) and call <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> methods, will execute before <b>NotifyWinEvent</b> returns. When you call <b>NotifyWinEvent</b>, you should be prepared to handle these calls, if they occur. If you need to do extra setup to allow for this, you should do so before you call <b>NotifyWinEvent</b>, not after.
 
 ## -see-also
 
@@ -111,4 +112,4 @@ When servers call this function, they must be ready to handle <a href="/windows/
 
 
 
-<a href="/windows/desktop/WinAuto/winevents">WinEvents</a>
+<a href="/windows/desktop/WinAuto/winevents-infrastructure">WinEvents</a>

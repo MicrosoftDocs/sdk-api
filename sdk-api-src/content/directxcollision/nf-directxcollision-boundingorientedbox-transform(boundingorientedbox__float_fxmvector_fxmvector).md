@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.Transform(BoundingOrientedBox&,float,FXMVECTOR,FXMVECTOR)
 title: BoundingOrientedBox::Transform(BoundingOrientedBox &,float,FXMVECTOR,FXMVECTOR)
-description: Transforms the BoundingOrientedBox.
+description: Transforms the BoundingOrientedBox. (overload 1/2)
 helpviewer_keywords: ["BoundingOrientedBox interface [DirectX Math Support APIs]","Transform method","BoundingOrientedBox.Transform","BoundingOrientedBox.Transform(BoundingOrientedBox &","float","FXMVECTOR","FXMVECTOR)","BoundingOrientedBox.Transform(BoundingOrientedBox&","float","XMVECTOR","XMVECTOR)","BoundingOrientedBox::Transform","BoundingOrientedBox::Transform(BoundingOrientedBox &","float","FXMVECTOR","FXMVECTOR)","Transform","Transform method [DirectX Math Support APIs]","Transform method [DirectX Math Support APIs]","BoundingOrientedBox interface","dxmath.boundingorientedbox_transform_2"]
 old-location: dxmath\boundingorientedbox_transform_2.htm
 tech.root: dxmath
@@ -49,25 +49,25 @@ api_name:
 
 ## -description
 
-Transforms the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+Transforms the <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
 ## -parameters
 
 ### -param Out [out, ref]
 
-The transformed <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+The transformed <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
 ### -param Scale [in]
 
-The value to scale the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> by.
+The value to scale the <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> by.
 
 ### -param Rotation [in]
 
-The value to rotate the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> by.
+The value to rotate the <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> by.
 
 ### -param Translation [in]
 
-The value to translate the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> by.
+The value to translate the <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> by.
 
 ## -returns
 
@@ -80,7 +80,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>
+<a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>
 
 
 

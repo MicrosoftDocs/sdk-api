@@ -50,7 +50,7 @@ Frees the specified private data that is associated with this surface.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Reference to (C++) or address of (C) the globally unique identifier that identifies the private data to be freed.
 
@@ -72,7 +72,7 @@ DirectDraw calls this method automatically when a surface is released.
 
 If the private data was set by using the DDSPD_IUNKNOWNPOINTER flag, <b>FreePrivateData</b> calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the associated interface.
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>FreePrivateData</b> method.
+
 
 ## -see-also
 

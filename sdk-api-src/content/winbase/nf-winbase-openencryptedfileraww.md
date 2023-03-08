@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.OpenEncryptedFileRawW
 title: OpenEncryptedFileRawW function (winbase.h)
-description: Opens an encrypted file in order to backup (export) or restore (import) the file.
-helpviewer_keywords: ["CREATE_FOR_DIR","CREATE_FOR_IMPORT","OVERWRITE_HIDDEN","OpenEncryptedFileRaw","OpenEncryptedFileRaw function [Files]","OpenEncryptedFileRawA","OpenEncryptedFileRawW","base.openencryptedfileraw","fs.openencryptedfileraw","winbase/OpenEncryptedFileRaw","winbase/OpenEncryptedFileRawA","winbase/OpenEncryptedFileRawW"]
+description: Opens an encrypted file in order to backup (export) or restore (import) the file. (Unicode)
+helpviewer_keywords: ["CREATE_FOR_DIR", "CREATE_FOR_IMPORT", "OVERWRITE_HIDDEN", "OpenEncryptedFileRaw", "OpenEncryptedFileRaw function [Files]", "OpenEncryptedFileRawW", "base.openencryptedfileraw", "fs.openencryptedfileraw", "winbase/OpenEncryptedFileRaw", "winbase/OpenEncryptedFileRawW"]
 old-location: fs\openencryptedfileraw.htm
 tech.root: fs
 ms.assetid: f792f38d-783e-4f39-a9d8-0c378d508d97
@@ -47,6 +47,7 @@ api_name:
  - OpenEncryptedFileRaw
  - OpenEncryptedFileRawA
  - OpenEncryptedFileRawW
+req.apiset: ext-ms-win-advapi32-encryptedfile-l1-1-0 (introduced in Windows 8)
 ---
 
 # OpenEncryptedFileRawW function

@@ -55,35 +55,5 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPDeviceControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IUPnPDeviceControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPDeviceControl</b> also has these types of members:
 
-## -members
-
-The <b>IUPnPDeviceControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-getserviceobject">GetServiceObject</a>
-</td>
-<td align="left" width="63%">
-Method that returns an <b>IDispatch</b> pointer to the service object that was requested by the device host.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Method that initializes the device control object with the device description and a device-specific initialization string.
-
-</td>
-</tr>
-</table>

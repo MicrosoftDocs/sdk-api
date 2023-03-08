@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.GetBoundingRectangles
 title: ITextRangeProvider::GetBoundingRectangles (uiautomationcore.h)
-description: Retrieves a collection of bounding rectangles for each fully or partially visible line of text in a text range.
+description: Retrieves a collection of bounding rectangles for each fully or partially visible line of text in a text range. (ITextRangeProvider.GetBoundingRectangles)
 helpviewer_keywords: ["GetBoundingRectangles","GetBoundingRectangles method [Windows Accessibility]","GetBoundingRectangles method [Windows Accessibility]","ITextRangeProvider interface","ITextRangeProvider interface [Windows Accessibility]","GetBoundingRectangles method","ITextRangeProvider.GetBoundingRectangles","ITextRangeProvider::GetBoundingRectangles","uiauto.uiauto_ITextRangeProvider_GetBoundingRectangles","uiauto_ITextRangeProvider_GetBoundingRectangles","uiautomationcore/ITextRangeProvider::GetBoundingRectangles","winauto.uiauto_ITextRangeProvider_GetBoundingRectangles"]
 old-location: winauto\uiauto_ITextRangeProvider_GetBoundingRectangles.htm
 tech.root: WinAuto
@@ -77,7 +77,7 @@ This parameter is passed uninitialized.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

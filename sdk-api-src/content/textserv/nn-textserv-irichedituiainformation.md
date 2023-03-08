@@ -54,38 +54,7 @@ Provides Microsoft UI Automation accessibility information about a windowless ri
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRichEditUiaInformation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRichEditUiaInformation</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRichEditUiaInformation</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/textserv/nf-textserv-irichedituiainformation-getboundaryrectangle">GetBoundaryRectangle</a>
-</td>
-<td align="left" width="63%">
-Retrieves the bounding rectangle of a windowless rich edit control.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/textserv/nf-textserv-irichedituiainformation-isvisible">IsVisible</a>
-</td>
-<td align="left" width="63%">
-Indicates whether a windowless rich edit control is currently visible.
-
-</td>
-</tr>
-</table>
+The <b>IRichEditUiaInformation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRichEditUiaInformation</b> also has these types of members:
 
 ## -see-also
 

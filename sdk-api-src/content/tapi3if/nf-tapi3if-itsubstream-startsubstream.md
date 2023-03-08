@@ -53,7 +53,7 @@ api_name:
 The <b>StartSubStream</b> method starts the substream. See the Remarks section under 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstream-startstream">ITStream::StartStream</a> for additional information.
 
-## -parameters
+
 
 ## -returns
 

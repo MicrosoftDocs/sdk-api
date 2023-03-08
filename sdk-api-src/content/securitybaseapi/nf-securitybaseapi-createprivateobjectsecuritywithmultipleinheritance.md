@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.CreatePrivateObjectSecurityWithMultipleInheritance
 title: CreatePrivateObjectSecurityWithMultipleInheritance function (securitybaseapi.h)
-description: Allocates and initializes a self-relative security descriptor for a new private object created by the resource manager calling this function.
+description: Allocates and initializes a self-relative security descriptor for a new private object created by the resource manager calling this function. (CreatePrivateObjectSecurityWithMultipleInheritance)
 helpviewer_keywords: ["CreatePrivateObjectSecurityWithMultipleInheritance","CreatePrivateObjectSecurityWithMultipleInheritance function [Security]","SEF_AVOID_OWNER_CHECK","SEF_AVOID_OWNER_RESTRICTION","SEF_AVOID_PRIVILEGE_CHECK","SEF_DACL_AUTO_INHERIT","SEF_DEFAULT_DESCRIPTOR_FOR_OBJECT","SEF_DEFAULT_GROUP_FROM_PARENT","SEF_DEFAULT_OWNER_FROM_PARENT","SEF_MACL_NO_EXECUTE_UP","SEF_MACL_NO_READ_UP","SEF_MACL_NO_WRITE_UP","SEF_SACL_AUTO_INHERIT","_win32_createprivateobjectsecuritywithmultipleinheritance","security.createprivateobjectsecuritywithmultipleinheritance","securitybaseapi/CreatePrivateObjectSecurityWithMultipleInheritance"]
 old-location: security\createprivateobjectsecuritywithmultipleinheritance.htm
 tech.root: security
@@ -63,7 +63,7 @@ The <b>CreatePrivateObjectSecurityWithMultipleInheritance</b> function allocates
 
 ### -param ParentDescriptor [in, optional]
 
-A pointer to the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a>for the parent container of the object. If there is no parent container, this parameter is <b>NULL</b>.
+A pointer to the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> for the parent container of the object. If there is no parent container, this parameter is <b>NULL</b>.
 
 ### -param CreatorDescriptor [in, optional]
 
@@ -355,7 +355,7 @@ ACEs with any of these mappable elements will result in the following two ACEs i
 </ul>
 </li>
 </ul>
-If <i>AutoInheritFlags</i> does not specify the SEF_AVOID_OWNER_CHECK bit, owner validity checking is performed according to the following rules. The Owner in the resultant <i>NewDescriptor</i>must be a legally formed SID, and either must match the TokenUser in <i>Token</i> or must match a group in the TokenGroups in <i>Token</i>. The attributes on the group:
+If <i>AutoInheritFlags</i> does not specify the SEF_AVOID_OWNER_CHECK bit, owner validity checking is performed according to the following rules. The Owner in the resultant <i>NewDescriptor</i> must be a legally formed SID, and either must match the TokenUser in <i>Token</i> or must match a group in the TokenGroups in <i>Token</i>. The attributes on the group:
 
 <ul>
 <li>Must include SE_GROUP_OWNER</li>

@@ -54,65 +54,7 @@ Represents a physical bitmap that can be associated with a visual for compositio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionSurface</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDCompositionSurface</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDCompositionSurface</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-begindraw">BeginDraw</a>
-</td>
-<td align="left" width="63%">
-Initiates drawing on this DirectComposition surface object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-enddraw">EndDraw</a>
-</td>
-<td align="left" width="63%">
-Marks the end of drawing on this DirectComposition surface object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-resumedraw">ResumeDraw</a>
-</td>
-<td align="left" width="63%">
-Resumes drawing on this DirectComposition surface object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-scroll">Scroll</a>
-</td>
-<td align="left" width="63%">
-Scrolls a rectangular area of a DirectComposition logical surface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-suspenddraw">SuspendDraw</a>
-</td>
-<td align="left" width="63%">
-Suspends the drawing on this DirectComposition surface object.
-
-</td>
-</tr>
-</table>
+The <b>IDCompositionSurface</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDCompositionSurface</b> also has these types of members:
 
 ## -see-also
 

@@ -1,7 +1,6 @@
 {
   "tech": "mf",
   "headers": [
-    "tbd",
     "camerauicontrol.h",
     "d3d11.h",
     "d3d11_1.h",
@@ -15,6 +14,7 @@
     "dxva.h",
     "uuids.h",
     "codecapi.h",
+    "icodecapi.h",
     "dxvahd.h",
     "opmapi.h",
     "ksopmapi.h",
@@ -24,21 +24,19 @@
     "mfcaptureengine.h",
     "mfapi.h",
     "mftransform.h",
-    "mfmediaengine.idl",
     "mfmediaengine.h",
     "mfmp2dlna.h",
     "mfreadwrite.h",
-    "mftransform.idl",
     "evr.h",
     "dxva2api.h",
     "mfplay.h",
     "mfsharingengine.h",
-    "mfobjects.idl",
     "evr9.h",
     "mfmediacapture.h",
     "mfspatialaudio.h",
-    "mfidl.idl",
-    "mfcontentdecryptionmodule.h"
+    "mfcontentdecryptionmodule.h",
+    "mfvirtualcamera.h",
+    "mfd3d12.h"
   ],
   "displayName": "Microsoft Media Foundation"
 }

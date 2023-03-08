@@ -54,38 +54,7 @@ Extends the <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcere
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceReaderCallback2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceReaderCallback2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFSourceReaderCallback2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback2-onstreamerror">OnStreamError</a>
-</td>
-<td align="left" width="63%">
-Called when an asynchronous error occurs with the <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback2-ontransformchange">OnTransformChange</a>
-</td>
-<td align="left" width="63%">
-Called when the transform chain in the <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> is built or modified.
-
-</td>
-</tr>
-</table>
+The <b>IMFSourceReaderCallback2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceReaderCallback2</b> also has these types of members:
 
 ## -remarks
 

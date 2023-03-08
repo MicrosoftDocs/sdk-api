@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <code>XMFLOAT3PK</code> from a <code>uint32_t</code>variable  containing component data in a packed format.
+Initializes a new instance of <code>XMFLOAT3PK</code> from a <code>uint32_t</code> variable  containing component data in a packed format.
 
 This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk">XMFLOAT3PK</a> from a
   <code>uint32_t</code> variable  containing component data in a packed format.

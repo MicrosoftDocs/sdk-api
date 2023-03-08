@@ -58,15 +58,15 @@ Contains information about the selected text to be corrected.
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure. The <b>code</b> member of this structure identifies the notification code being sent.
+An <a href="/windows/win32/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure. The <b>code</b> member of this structure identifies the notification code being sent.
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a></b>
 
-A <a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a> structure that specifies the range of selected characters.
+A <a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a> structure that specifies the range of selected characters.
 
 ### -field seltyp
 

@@ -55,7 +55,7 @@ api_name:
 
 The <b>BeginWriting</b> method initializes the writing process.
 
-## -parameters
+
 
 ## -returns
 

@@ -109,7 +109,7 @@ A pointer to the function to call when a change occurs. This function will be in
 
 ### -param CallerContext [in]
 
-A user context passed to the callback function specified in the <i>Callback</i> parameter when an interface notification is received.
+A user context passed to the callback function specified in the <i>Callback</i> parameter when an IP route notification is received.
 
 ### -param InitialNotification [in]
 

@@ -54,30 +54,7 @@ Configures the IIS intrinsics for the work that is done when calling the  <a hre
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceIISIntrinsicsConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceIISIntrinsicsConfig</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IServiceIISIntrinsicsConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iserviceiisintrinsicsconfig-iisintrinsicsconfig">IISIntrinsicsConfig</a>
-</td>
-<td align="left" width="63%">
-Configures the IIS intrinsics for the enclosed work.
-
-
-</td>
-</tr>
-</table>
+The <b>IServiceIISIntrinsicsConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceIISIntrinsicsConfig</b> also has these types of members:
 
 ## -see-also
 

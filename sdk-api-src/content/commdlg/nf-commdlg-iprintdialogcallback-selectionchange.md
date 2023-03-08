@@ -30,8 +30,7 @@ req.typenames:
 req.redist: 
 ms.custom: 19H1
 f1_keywords:
- - IPrintDialogCallback::SelectionChange
- - commdlg/IPrintDialogCallback::SelectionChange
+ - commdlg/IPrintDialogCallback.SelectionChange
 dev_langs:
  - c++
 topic_type:
@@ -47,12 +46,11 @@ api_name:
 
 # IPrintDialogCallback::SelectionChange
 
-
 ## -description
 
 Called by <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> when the user selects a different printer from the list of installed printers on the <b>General</b> page of the <a href="/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a>.
 
-## -parameters
+
 
 ## -returns
 

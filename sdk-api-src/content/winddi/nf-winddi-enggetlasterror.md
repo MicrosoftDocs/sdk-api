@@ -52,7 +52,7 @@ api_name:
 
 The <b>EngGetLastError</b> function returns the last error code logged by GDI for the calling thread.
 
-## -parameters
+
 
 ## -returns
 

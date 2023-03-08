@@ -54,11 +54,11 @@ Used with the EnqueuMakeResident function to choose how residency operations pro
 
 ## -enum-fields
 
-### -field D3D12_RESIDENCY_FLAG_NONE
+### -field D3D12_RESIDENCY_FLAG_NONE:0
 
 Specifies the default residency policy, which allows residency operations to succeed regardless of the application's current memory budget. EnqueueMakeResident returns E_OUTOFMEMORY only when there is no memory available.
 
-### -field D3D12_RESIDENCY_FLAG_DENY_OVERBUDGET
+### -field D3D12_RESIDENCY_FLAG_DENY_OVERBUDGET:0x1
 
 Specifies that the EnqueueMakeResident function should return E_OUTOFMEMORY when the residency operation would exceed the application's current memory budget.
 

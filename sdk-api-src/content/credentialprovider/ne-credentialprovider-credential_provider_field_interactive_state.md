@@ -56,7 +56,7 @@ Describes the state of a field and how it a user can interact with it. Fields ca
 
 ## -enum-fields
 
-### -field CPFIS_NONE
+### -field CPFIS_NONE:0
 
 The field can be edited if the field type supports editing. It also contains none of the other available interactive states.
 

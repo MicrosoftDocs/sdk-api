@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.TabbedTextOutW
 title: TabbedTextOutW function (winuser.h)
-description: The TabbedTextOut function writes a character string at a specified location, expanding tabs to the values specified in an array of tab-stop positions. Text is written in the currently selected font, background color, and text color.
-helpviewer_keywords: ["TabbedTextOut","TabbedTextOut function [Windows GDI]","TabbedTextOutA","TabbedTextOutW","_win32_TabbedTextOut","gdi.tabbedtextout","winuser/TabbedTextOut","winuser/TabbedTextOutA","winuser/TabbedTextOutW"]
+description: The TabbedTextOut function writes a character string at a specified location, expanding tabs to the values specified in an array of tab-stop positions. Text is written in the currently selected font, background color, and text color. (Unicode)
+helpviewer_keywords: ["TabbedTextOut", "TabbedTextOut function [Windows GDI]", "TabbedTextOutW", "_win32_TabbedTextOut", "gdi.tabbedtextout", "winuser/TabbedTextOut", "winuser/TabbedTextOutW"]
 old-location: gdi\tabbedtextout.htm
 tech.root: gdi
 ms.assetid: 1cb78a75-752d-4e06-afdf-cd797f209114
@@ -52,6 +52,7 @@ api_name:
  - TabbedTextOut
  - TabbedTextOutA
  - TabbedTextOutW
+req.apiset: ext-ms-win-ntuser-misc-l1-5-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # TabbedTextOutW function

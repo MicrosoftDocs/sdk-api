@@ -54,7 +54,7 @@ Terminates the <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELang
 
 This method must be called after your last use of the <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> object.
 
-## -parameters
+
 
 ## -returns
 

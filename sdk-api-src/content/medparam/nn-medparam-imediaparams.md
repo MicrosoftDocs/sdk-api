@@ -59,62 +59,8 @@ To reduce overhead, parameters are referenced by index value, and all parameter 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaParams</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaParams</b> also has these types of members:
+The <b>IMediaParams</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaParams</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMediaParams</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/medparam/nf-medparam-imediaparams-addenvelope">AddEnvelope</a>
-</td>
-<td align="left" width="63%">
-Adds an envelope to a parameter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/medparam/nf-medparam-imediaparams-flushenvelope">FlushEnvelope</a>
-</td>
-<td align="left" width="63%">
-Flushes envelope data for a specified parameter over the specified time range.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/medparam/nf-medparam-imediaparams-getparam">GetParam</a>
-</td>
-<td align="left" width="63%">
-Retrieves the most recent value of the specified parameter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/medparam/nf-medparam-imediaparams-setparam">SetParam</a>
-</td>
-<td align="left" width="63%">
-Sets the value of a parameter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/medparam/nf-medparam-imediaparams-settimeformat">SetTimeFormat</a>
-</td>
-<td align="left" width="63%">
-Specifies the time format for the object.
-
-</td>
-</tr>
-</table>

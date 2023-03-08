@@ -51,7 +51,7 @@ The <b>DdMoCompGetGuids</b> callback function retrieves the number of GUIDs the 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getmocompguidsdata">DD_GETMOCOMPGUIDSDATA</a> structure that contains the GUID information.
 

@@ -64,7 +64,7 @@ A pointer to a null-terminated wide character string containing the root directo
 
 The path can contain environment variables (for example, %SystemRoot%) but cannot contain wildcard characters.
 
-There is no requirement that the path end with a backslash (\). It is up to applications that retrieve this information to check.
+There is no requirement that the path end with a backslash (\\). It is up to applications that retrieve this information to check.
 
 ### -param wszFilespec [in]
 

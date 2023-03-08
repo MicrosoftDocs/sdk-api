@@ -52,7 +52,7 @@ api_name:
 
 Tests that the effect type is valid.
 
-## -parameters
+
 
 ## -returns
 

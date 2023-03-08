@@ -1,10 +1,9 @@
 ---
 UID: NF:mfcontentdecryptionmodule.MFCreateEncryptedMediaExtensionsStoreActivate
 title: MFCreateEncryptedMediaExtensionsStoreActivate
-ms.date: 11/26/2019
-ms.topic: language-reference
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The MFCreateEncryptedMediaExtensionsStoreActivate function creates an object that implements IMFActivate. This object’s implementation of ActivateObject is based on the specified IMFPMPHostApp and class ID.
 tech.root: mf
 req.assembly: 
 req.construct-type: function
@@ -28,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - mfcontentdecryptionmodule.h
 api_name:

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymGetSymFromAddr64
 title: SymGetSymFromAddr64 function (dbghelp.h)
-description: Locates the symbol for the specified address.
+description: Locates the symbol for the specified address. (SymGetSymFromAddr64)
 helpviewer_keywords: ["SymGetSymFromAddr","SymGetSymFromAddr function","SymGetSymFromAddr64","SymGetSymFromAddr64 function","_win32_symgetsymfromaddr64","base.symgetsymfromaddr64","dbghelp/SymGetSymFromAddr","dbghelp/SymGetSymFromAddr64"]
 old-location: base\symgetsymfromaddr64.htm
 tech.root: Debug

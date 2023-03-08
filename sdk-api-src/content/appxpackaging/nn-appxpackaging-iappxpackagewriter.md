@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxPackageWriter
 title: IAppxPackageWriter (appxpackaging.h)
-description: Provides a write-only object model for app packages.
+description: Provides a write-only object model for app packages. (IAppxPackageWriter)
 helpviewer_keywords: ["IAppxPackageWriter","IAppxPackageWriter interface [App packaging and management]","IAppxPackageWriter interface [App packaging and management]","described","appxpackaging/IAppxPackageWriter","appxpkg.iappxpackagewriter"]
 old-location: appxpkg\iappxpackagewriter.htm
 tech.root: appxpkg
@@ -54,38 +54,7 @@ Provides a write-only object model for app packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxPackageWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxPackageWriter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAppxPackageWriter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagewriter-addpayloadfile">AddPayloadFile</a>
-</td>
-<td align="left" width="63%">
-Adds a new payload file to the app package.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagewriter-close">Close</a>
-</td>
-<td align="left" width="63%">
-Writes footprint files at the end of the app package, and closes the package writer object's output stream.
-
-</td>
-</tr>
-</table>
+The <b>IAppxPackageWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxPackageWriter</b> also has these types of members:
 
 ## -remarks
 

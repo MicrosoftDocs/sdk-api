@@ -54,45 +54,5 @@ Enables controls and containers to avoid performance bottlenecks on loading cont
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQuickActivate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQuickActivate</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IQuickActivate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQuickActivate</b> also has these types of members:
 
-## -members
-
-The <b>IQuickActivate</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-iquickactivate-getcontentextent">GetContentExtent</a>
-</td>
-<td align="left" width="63%">
-Gets the content extent of a control.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-iquickactivate-quickactivate">QuickActivate</a>
-</td>
-<td align="left" width="63%">
-Quick activates a control.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-iquickactivate-setcontentextent">SetContentExtent</a>
-</td>
-<td align="left" width="63%">
-Sets the content extent of a control.
-
-</td>
-</tr>
-</table>

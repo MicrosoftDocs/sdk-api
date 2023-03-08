@@ -59,7 +59,7 @@ A vector describing the plane.
 
 ## -returns
 
-A <a href="https://msdn.microsoft.com/66191FCC-F0A0-4435-86A9-0662A5E36D83">PlaneIntersectionType</a> value indicating the intersection status.
+A <a href="/windows/win32/api/directxcollision/ne-directxcollision-planeintersectiontype">PlaneIntersectionType</a> value indicating the intersection status.
 
 ## -remarks
 

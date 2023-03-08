@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the type of joint used at the vertices of a shape's outline.
 
-## -parameters
+
 
 ## -returns
 

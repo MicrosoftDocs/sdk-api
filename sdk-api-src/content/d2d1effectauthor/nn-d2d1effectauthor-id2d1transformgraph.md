@@ -55,101 +55,7 @@ Represents a graph of transform nodes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1TransformGraph</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1TransformGraph</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1TransformGraph</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-addnode">AddNode</a>
-</td>
-<td align="left" width="63%">
-Adds the provided node to the transform graph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-clear">Clear</a>
-</td>
-<td align="left" width="63%">
-Clears the transform nodes and all connections from the transform graph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-connectnode">ConnectNode</a>
-</td>
-<td align="left" width="63%">
-Connects two nodes inside the transform graph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-connecttoeffectinput">ConnectToEffectInput</a>
-</td>
-<td align="left" width="63%">
-Connects a transform node inside the graph to the corresponding effect input of the encapsulating effect.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-getinputcount">GetInputCount</a>
-</td>
-<td align="left" width="63%">
-Returns the number of inputs to the transform graph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-removenode">RemoveNode</a>
-</td>
-<td align="left" width="63%">
-Removes the provided node from the transform graph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-setoutputnode">SetOutputNode</a>
-</td>
-<td align="left" width="63%">
-Sets the output node for the transform graph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-setpassthroughgraph">SetPassthroughGraph</a>
-</td>
-<td align="left" width="63%">
-Uses the specified input as the effect output.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-setsingletransformnode">SetSingleTransformNode</a>
-</td>
-<td align="left" width="63%">
-Sets a single transform node as being equivalent to the whole graph.
-
-</td>
-</tr>
-</table>
+The <b>ID2D1TransformGraph</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1TransformGraph</b> also has these types of members:
 
 ## -remarks
 
@@ -187,7 +93,7 @@ public:
  
         if (SUCCEEDED(hr))
         {
-            hr = pGraph->SetOuputNode(_pTransform2);
+            hr = pGraph->SetOutputNode(_pTransform2);
         }
 
         if (SUCCEEDED(hr))

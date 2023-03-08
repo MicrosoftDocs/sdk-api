@@ -77,56 +77,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IColumnData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IColumnData</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IColumnData</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-icolumndata-getcolumnconfigdata">GetColumnConfigData</a>
-</td>
-<td align="left" width="63%">
-Retrieves the width, order, and hidden status of columns in a column set.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-icolumndata-getcolumnsortdata">GetColumnSortData</a>
-</td>
-<td align="left" width="63%">
-Retrieves the sorting direction for columns in a column set.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-icolumndata-setcolumnconfigdata">SetColumnConfigData</a>
-</td>
-<td align="left" width="63%">
-Sets the width, order, and hidden status of columns in a column set.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-icolumndata-setcolumnsortdata">SetColumnSortData</a>
-</td>
-<td align="left" width="63%">
-Sets the sorting direction for columns in a column set.
-
-</td>
-</tr>
-</table>
+The <b>IColumnData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IColumnData</b> also has these types of members:
 
 ## -see-also
 

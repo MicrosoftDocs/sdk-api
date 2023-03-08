@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.CreateColorSpaceW
 title: CreateColorSpaceW function (wingdi.h)
-description: The CreateColorSpace function creates a logical color space.
-helpviewer_keywords: ["CreateColorSpace","CreateColorSpace function [Windows Color System]","CreateColorSpaceA","CreateColorSpaceW","_color_CreateColorSpace","wcs.createcolorspace","wingdi/CreateColorSpace","wingdi/CreateColorSpaceA","wingdi/CreateColorSpaceW"]
+description: The CreateColorSpace function creates a logical color space. (Unicode)
+helpviewer_keywords: ["CreateColorSpace", "CreateColorSpace function [Windows Color System]", "CreateColorSpaceW", "_color_CreateColorSpace", "wcs.createcolorspace", "wingdi/CreateColorSpace", "wingdi/CreateColorSpaceW"]
 old-location: wcs\createcolorspace.htm
 tech.root: WCS
 ms.assetid: c3fc798c-4bb9-4010-87d4-edc0005b7698
@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CreateColorSpace</b> function creates a logical <a href="/previous-versions/windows/desktop/wcs/c">color space</a>.
+The <b>CreateColorSpace</b> function creates a logical [color space](/windows/win32/wcs/c#color-space).
 
 ## -parameters
 
@@ -83,12 +83,6 @@ When the color space is no longer needed, use <b>DeleteColorSpace</b> to delete 
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-deletecolorspace">DeleteColorSpace</a>
-
-
-
-<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)
+* [DeleteColorSpaceW](/windows/win32/api/wingdi/nf-wingdi-deletecolorspace)

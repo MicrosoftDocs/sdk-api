@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateRotateTransform
 title: IDCompositionDevice2::CreateRotateTransform (dcomp.h)
-description: Creates a 2D rotation transform object.
+description: Creates a 2D rotation transform object. (IDCompositionDevice2.CreateRotateTransform)
 helpviewer_keywords: ["CreateRotateTransform","CreateRotateTransform method [DirectComposition]","CreateRotateTransform method [DirectComposition]","IDCompositionDevice2 interface","IDCompositionDevice2 interface [DirectComposition]","CreateRotateTransform method","IDCompositionDevice2.CreateRotateTransform","IDCompositionDevice2::CreateRotateTransform","dcomp/IDCompositionDevice2::CreateRotateTransform","directcomp.idcompositiondevice2_createrotatetransform"]
 old-location: directcomp\idcompositiondevice2_createrotatetransform.htm
 tech.root: directcomp

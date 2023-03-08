@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.AddDeviceDlg
 title: IWiaDevMgr::AddDeviceDlg (wia_xp.h)
-description: This method is not implemented.
+description: This method is not implemented. (IWiaDevMgr.AddDeviceDlg)
 helpviewer_keywords: ["AddDeviceDlg","AddDeviceDlg method [WIA]","AddDeviceDlg method [WIA]","IWiaDevMgr interface","IWiaDevMgr interface [WIA]","AddDeviceDlg method","IWiaDevMgr.AddDeviceDlg","IWiaDevMgr::AddDeviceDlg","_wia_IWiaDevMgr_AddDeviceDlg","wia._wia_IWiaDevMgr_AddDeviceDlg","wia_xp/IWiaDevMgr::AddDeviceDlg"]
 old-location: wia\_wia_IWiaDevMgr_AddDeviceDlg.htm
 tech.root: wia
@@ -66,5 +66,5 @@ Type: <b>LONG</b>
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

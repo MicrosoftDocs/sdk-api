@@ -55,7 +55,7 @@ The <b>VSS_USAGE_TYPE</b> enumeration specifies how
 
 ## -enum-fields
 
-### -field VSS_UT_UNDEFINED
+### -field VSS_UT_UNDEFINED:0
 
 The usage type is not known. 
       

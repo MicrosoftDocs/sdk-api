@@ -76,7 +76,7 @@ The number of properties in the <i>serviceProperties</i> array.
 
 On   success, a pointer that receives the address of the  <a href="/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> structure representing the new service host.
                 
-                When you no longer need this structure, you must free it by calling <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeservicehost">WsFreeServiceHost</a>.
+When you no longer need this structure, you must free it by calling <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeservicehost">WsFreeServiceHost</a>.
 
 ### -param error [in, optional]
 

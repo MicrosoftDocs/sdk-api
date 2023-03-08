@@ -54,38 +54,7 @@ The <b>ITfEditTransactionSink</b> interface is implemented by a text service and
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfEditTransactionSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfEditTransactionSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfEditTransactionSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onendedittransaction">OnEndEditTransaction</a>
-</td>
-<td align="left" width="63%">
-Indicates the end of an edit transaction.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onstartedittransaction">OnStartEditTransaction</a>
-</td>
-<td align="left" width="63%">
-Indicates the start of an edit transaction.
-
-</td>
-</tr>
-</table>
+The <b>ITfEditTransactionSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfEditTransactionSink</b> also has these types of members:
 
 ## -remarks
 

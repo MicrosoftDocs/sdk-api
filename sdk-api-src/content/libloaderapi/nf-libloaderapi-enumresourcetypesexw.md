@@ -1,8 +1,8 @@
 ---
 UID: NF:libloaderapi.EnumResourceTypesExW
 title: EnumResourceTypesExW function (libloaderapi.h)
-description: Enumerates resource types associated with a specified binary module.
-helpviewer_keywords: ["EnumResourceTypesEx","EnumResourceTypesEx function [Menus and Other Resources]","EnumResourceTypesExA","EnumResourceTypesExW","RESOURCE_ENUM_LN","RESOURCE_ENUM_MUI","RESOURCE_ENUM_VALIDATE","_win32_EnumResourceTypesEx","_win32_enumresourcetypesex_cpp","libloaderapi/EnumResourceTypesEx","libloaderapi/EnumResourceTypesExA","libloaderapi/EnumResourceTypesExW","menurc.enumresourcetypesex","winui._win32_enumresourcetypesex"]
+description: Enumerates resource types associated with a specified binary module. (Unicode)
+helpviewer_keywords: ["EnumResourceTypesEx", "EnumResourceTypesEx function [Menus and Other Resources]", "EnumResourceTypesExW", "RESOURCE_ENUM_LN", "RESOURCE_ENUM_MUI", "RESOURCE_ENUM_VALIDATE", "_win32_EnumResourceTypesEx", "_win32_enumresourcetypesex_cpp", "libloaderapi/EnumResourceTypesEx", "libloaderapi/EnumResourceTypesExW", "menurc.enumresourcetypesex", "winui._win32_enumresourcetypesex"]
 old-location: menurc\enumresourcetypesex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcetypesex.htm
@@ -80,7 +80,7 @@ If this parameter is <b>NULL</b>, it is equivalent to passing in a handle to the
 
 Type: <b>ENUMRESTYPEPROC</b>
 
-A pointer to the callback function to be called for each enumerated resource type. For more information, see <a href="https://msdn.microsoft.com/98f957a8-18c7-46f3-989c-b2a019dff33f">EnumResTypeProc</a>.
+A pointer to the callback function to be called for each enumerated resource type. For more information, see <a href="/windows/win32/api/libloaderapi/nc-libloaderapi-enumrestypeproca">EnumResTypeProc</a>.
 
 ### -param lParam [in]
 
@@ -152,7 +152,7 @@ The <b>EnumResourceTypesEx</b> function continues to enumerate resource types un
 
 If <i>hModule</i> specifies an LN file, and both flags are selected, the types enumerated correspond to resources residing either in the LN file or in the .mui files associated with it. If no .mui files are found, only types from the LN file are returned. Once one appropriate .mui file is found the search will not continue further, because all .mui files corresponding to a single LN file have the same resource types.
 
-If <i>dwFlags</i> and <i>LangId</i> are both zero, then the function behaves like <a href="https://msdn.microsoft.com/51a22bbf-e834-434e-8a2f-9d172d02b228">EnumResourceTypes</a>.
+If <i>dwFlags</i> and <i>LangId</i> are both zero, then the function behaves like <a href="/windows/win32/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a>.
 
 If <i>LangId</i> is nonzero, then only the .mui file corresponding to that language identifier will be searched. Language fallbacks will not be used. If an .mui file for that language does not exist, the enumeration will be empty (unless resources for that language exist in the LN file, and the flag is set to search the LN file as well).
 
@@ -177,19 +177,19 @@ For an example, see <a href="/windows-hardware/drivers/wdf/creating-a-resource-r
 
 
 
-<a href="https://msdn.microsoft.com/98f957a8-18c7-46f3-989c-b2a019dff33f">EnumResTypeProc</a>
+<a href="/windows/win32/api/libloaderapi/nc-libloaderapi-enumrestypeproca">EnumResTypeProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c857f1b-019c-4066-958a-bff7bc1f5de2">EnumResourceLanguagesEx</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcelanguagesexa">EnumResourceLanguagesEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/d392c913-d71c-47fc-9b11-2688731d13e7">EnumResourceNamesEx</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcenamesexa">EnumResourceNamesEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/51a22bbf-e834-434e-8a2f-9d172d02b228">EnumResourceTypes</a>
+<a href="/windows/win32/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a>
 
 
 

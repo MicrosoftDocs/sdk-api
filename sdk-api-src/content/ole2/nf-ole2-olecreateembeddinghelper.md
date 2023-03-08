@@ -43,6 +43,7 @@ api_location:
  - Ole32.dll
 api_name:
  - OleCreateEmbeddingHelper
+req.apiset: ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.15063)
 ---
 
 # OleCreateEmbeddingHelper function
@@ -139,10 +140,14 @@ The <b>OleCreateEmbeddingHelper</b> function creates an object that supports the
 
 
 
-<pre class="syntax" xml:space="preserve"><code>OleCreateEmbeddingHelper(clsid, pUnkOuter, EMBDHLP_INPROC_HANDLER | 
+
+``` syntax
+OleCreateEmbeddingHelper(clsid, pUnkOuter, EMBDHLP_INPROC_HANDLER | 
     EMBDHLP_CREATENOW, NULL, iid, ppvObj) 
  
-OleCreateDefaultHandler(clsid, pUnkOuter, iid, ppvObj) </code></pre>
+OleCreateDefaultHandler(clsid, pUnkOuter, iid, ppvObj) 
+```
+
 The embedding helper is aggregatable; <i>pUnkOuter</i> is the controlling <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the aggregate of which the embedding helper is to be a part. It is used to create a new instance of the OLE default handler, which can be used to support objects in various roles. The caller passes a pointer to its <a href="/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a> implementation to <b>OleCreateEmbeddingHelper</b>. This object and the default handler are then aggregated to create the new embedding helper object.
 
 
@@ -155,12 +160,16 @@ The <b>OleCreateEmbeddingHelper</b> function is usually used to support one of t
 <li>
 An EXE object application that is being used as both a container and a server, and which supports inserting objects into itself. For this case, <b>CreateEmbeddingHelper</b> allows the object to support the interfaces usually supported only in the handler. To accomplish this, the application must first register its CLSID for different contexts, making two registration calls to the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject">CoRegisterClassObject</a> function, rather than one, as follows: 
 
-<pre class="syntax" xml:space="preserve"><code>CoRegisterClassObject(clsidMe, pUnkCfLocal, CLSCTX_LOCAL_SERVER, 
+
+``` syntax
+CoRegisterClassObject(clsidMe, pUnkCfLocal, CLSCTX_LOCAL_SERVER, 
         REGCLS_MULTI_SEPARATE...) 
  
     CoRegisterClassObject(clsidMe, pUnkCfInProc, CLSCTX_INPROC_SERVER, 
     
-        REGCLS_MULTI_SEPARATE...) </code></pre>
+        REGCLS_MULTI_SEPARATE...) 
+```
+
 In these calls, you would pass along different class factory implementations to each of <i>pUnkCfLocal</i> and <i>pUnkCfInProc</i>. The class factory pointed to by <i>pUnkCfLocal</i> would be used to create objects that are to be embedded in a remote process, which is the normal case which uses a handler object associated with the client. However, when a server both creates an object and embeds it within itself, <i>pUnkCfInProc</i> points to a class object that can create an object that supports the handler interfaces. The local class is used to create the object and the in-process class creates the embedding helper, passing in the pointer to the first object's class factory in <i>pCF</i>. 
 
 

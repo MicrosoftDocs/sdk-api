@@ -55,38 +55,7 @@ Initializes a video mixer or presenter. This interface is implemented by mixers 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTopologyServiceLookupClient</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTopologyServiceLookupClient</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFTopologyServiceLookupClient</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers">InitServicePointers</a>
-</td>
-<td align="left" width="63%">
-Signals the mixer or presenter to query the EVR for interface pointers.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-releaseservicepointers">ReleaseServicePointers</a>
-</td>
-<td align="left" width="63%">
-Signals the mixer or presenter to release the interface pointers obtained from the EVR.
-
-</td>
-</tr>
-</table>
+The <b>IMFTopologyServiceLookupClient</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTopologyServiceLookupClient</b> also has these types of members:
 
 ## -remarks
 

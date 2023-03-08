@@ -54,53 +54,5 @@ Exposes methods that get and set named properties.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamedPropertyStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INamedPropertyStore</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>INamedPropertyStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INamedPropertyStore</b> also has these types of members:
 
-## -members
-
-The <b>INamedPropertyStore</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-inamedpropertystore-getnameat">GetNameAt</a>
-</td>
-<td align="left" width="63%">
-Gets the name of a property at a specified index in the property store.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-inamedpropertystore-getnamecount">GetNameCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of property names in the property store.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-inamedpropertystore-getnamedvalue">GetNamedValue</a>
-</td>
-<td align="left" width="63%">
-Gets the value of a named property from the named property store.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propsys/nf-propsys-inamedpropertystore-setnamedvalue">SetNamedValue</a>
-</td>
-<td align="left" width="63%">
-Sets the value of a named property.
-
-</td>
-</tr>
-</table>

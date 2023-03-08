@@ -52,7 +52,7 @@ api_name:
 
     Stops the manipulation and returns the viewport to a ready state.
 
-## -parameters
+
 
 ## -returns
 

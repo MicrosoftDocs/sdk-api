@@ -74,11 +74,11 @@ The policy is applied across a slow link.
 
 Write verbose output to the event log.
 
-### -param *pbAbort [in]
+### -param pbAbort [in]
 
 A value that specifies whether to continue processing GPOs. If this parameter is <b>TRUE</b>, GPO processing stops and the extension must deallocate its resources and return promptly. If this parameter is <b>FALSE</b>, GPO processing continues.
 
-### -param *pwszSite [in]
+### -param pwszSite [in]
 
 A pointer to the site name of the target computer. This parameter can be <b>NULL</b>.
 

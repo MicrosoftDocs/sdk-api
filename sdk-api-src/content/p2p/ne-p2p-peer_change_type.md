@@ -56,15 +56,15 @@ The <b>PEER_CHANGE_TYPE</b> enumeration defines the set of changes that were per
 
 ## -enum-fields
 
-### -field PEER_CHANGE_ADDED
+### -field PEER_CHANGE_ADDED:0
 
 The peer object, endpoint, or application has been added.
 
-### -field PEER_CHANGE_DELETED
+### -field PEER_CHANGE_DELETED:1
 
 The peer object, endpoint, or application has been deleted.
 
-### -field PEER_CHANGE_UPDATED
+### -field PEER_CHANGE_UPDATED:2
 
 The peer object, endpoint, or application has been updated with new information.
 

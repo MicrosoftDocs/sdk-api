@@ -57,53 +57,5 @@ Filters use this interface to register and unregister themselves. When the filte
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterMapper2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilterMapper2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IFilterMapper2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilterMapper2</b> also has these types of members:
 
-## -members
-
-The <b>IFilterMapper2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-createcategory">CreateCategory</a>
-</td>
-<td align="left" width="63%">
-Adds a new filter category to the registry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-enummatchingfilters">EnumMatchingFilters</a>
-</td>
-<td align="left" width="63%">
-Enumerates registered filters that meet specified requirements.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-registerfilter">RegisterFilter</a>
-</td>
-<td align="left" width="63%">
-Adds filter information to the registry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-unregisterfilter">UnregisterFilter</a>
-</td>
-<td align="left" width="63%">
-Removes filter information from the registry.
-
-</td>
-</tr>
-</table>

@@ -54,74 +54,7 @@ Controls the recording sink. The recording sink creates compressed audio/video f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureRecordSink</b> interface inherits from <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>. <b>IMFCaptureRecordSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFCaptureRecordSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-getrotation">GetRotation</a>
-</td>
-<td align="left" width="63%">
-Gets the rotation that is currently being applied to the recorded video stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-setcustomsink">SetCustomSink</a>
-</td>
-<td align="left" width="63%">
-Sets a custom media sink for recording.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-setoutputbytestream">SetOutputByteStream</a>
-</td>
-<td align="left" width="63%">
-Specifies a byte stream that will receive the data for the recording.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-setoutputfilename">SetOutputFileName</a>
-</td>
-<td align="left" width="63%">
-Specifies the name of the output file for the recording.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-setrotation">SetRotation</a>
-</td>
-<td align="left" width="63%">
-Rotates the recorded video stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-setsamplecallback">SetSampleCallback</a>
-</td>
-<td align="left" width="63%">
-Sets a callback to receive the recording data for one stream.
-
-</td>
-</tr>
-</table>
+The <b>IMFCaptureRecordSink</b> interface inherits from <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>. <b>IMFCaptureRecordSink</b> also has these types of members:
 
 ## -remarks
 

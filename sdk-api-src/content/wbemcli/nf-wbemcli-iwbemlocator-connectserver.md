@@ -159,15 +159,11 @@ Do not specify <i>strUser</i>, <i>strPassword</i>, or <i>strAuthority</i>  when 
 
 For more information on how to use <b>ConnectServer</b>, see <a href="/windows/desktop/WmiSdk/creating-a-connection-to-a-wmi-namespace">Creating a Connection to a WMI Namespace</a>. Note that the connection to <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemlocator">IWbemLocator</a> is one of the connections that you must shut down at the end of your application, as described in <a href="/windows/desktop/WmiSdk/cleaning-up-and-shutting-down-a-wmi-application">Cleaning up and Shutting Down a WMI Application</a>.
 
-
-#### Examples
+## Examples
 
 For multiple samples that use the <b>ConnectServer</b> method, see <a href="/windows/desktop/WmiSdk/wmi-c---application-examples">WMI C++ Application Examples</a>.
 
-For an example of using smi2smir.xml in a C++ code sample to connect to a WMI namespace, see the <a href="https://Code.MSDN.Microsoft.Com/CppCheckOSBitness-a16c69e4">Check OS bitness in C++</a> sample in the MSDN Code gallery.
-
-The following C++ code sample describes how to use smi2smir.xml to connect to a specified namespace. For the complete code sample, including necessary #include files, see the <a href="https://Code.MSDN.Microsoft.Com/CppEnableNetBiosOverTCPIP-ed32d818">Enable NetBIOS over TCP/IP</a> sample in the MSDN Code gallery.
-
+The following C++ code sample describes how to use smi2smir.xml to connect to a specified namespace.
 
 ```cpp
 int _tmain(int argc, _TCHAR* argv[]) 

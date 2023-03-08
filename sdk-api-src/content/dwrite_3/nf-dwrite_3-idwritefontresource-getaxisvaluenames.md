@@ -10,8 +10,8 @@ req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -54,13 +54,13 @@ Retrieves the localized names of specific values for a font axis.
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
 
-Font axis, from 0 to [GetFontAxisCount](/windows/win32/api/dwrite/nf-dwrite_3-idwritefontresource-getfontaxiscount) minus 1.
+Font axis, from 0 to [GetFontAxisCount](./nf-dwrite_3-idwritefontresource-getfontaxiscount.md) minus 1.
 
 ### -param axisValueIndex
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
 
-Value index, from 0 to [GetAxisValueNameCount](/windows/win32/api/dwrite/nf-dwrite_3-idwritefontresource-getaxisvaluenamecount) minus 1.
+Value index, from 0 to [GetAxisValueNameCount](./nf-dwrite_3-idwritefontresource-getaxisvaluenamecount.md) minus 1.
 
 ### -param fontAxisRange [out]
 

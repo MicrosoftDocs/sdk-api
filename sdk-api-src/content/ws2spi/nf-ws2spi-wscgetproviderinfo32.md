@@ -70,7 +70,7 @@ A pointer to a buffer to receive the information class data for the requested LS
 
 ### -param InfoSize [in, out]
 
-The size, in bytes, of the buffer pointed to by the <i>Info </i>parameter. If the Info parameter is **NULL**, then  **WSCGetProviderInfo32** returns failure and the <i>InfoSize</i> parameter will receive the size of the required buffer.
+The size, in bytes, of the buffer pointed to by the <i>Info</i> parameter. If the Info parameter is **NULL**, then  **WSCGetProviderInfo32** returns failure and the <i>InfoSize</i> parameter will receive the size of the required buffer.
 
 ### -param Flags [in]
 
@@ -257,4 +257,3 @@ If an LSP does not have a category set, it is considered to be in the All Other 
 
 
 <a href="/windows/desktop/api/ws2spi/ne-ws2spi-wsc_provider_info_type">WSC_PROVIDER_INFO_TYPE</a>
-

@@ -1,7 +1,7 @@
 ---
 UID: NS:dimm.__MIDL___MIDL_itf_dimm_0000_0000_0004
 title: LOGFONTW (dimm.h)
-description: Defines the attributes of a font.
+description: Defines the attributes of a font. (LOGFONTW)
 helpviewer_keywords: ["LOGFONT","LOGFONT structure [Windows Shell]","LOGFONTA","LOGFONTW","_shell_LOGFONT","_shell_LOGFONT_cpp","dimm/LOGFONT","dimm/LOGFONTA","dimm/LOGFONTW","shell.LOGFONT"]
 old-location: shell\LOGFONT.htm
 tech.root: shell
@@ -375,7 +375,7 @@ Specifies the output quality. The output quality defines how carefully the GDI m
 <tr>
 <td>NONANTIALIASED_QUALITY</td>
 <td>Forces use of draft quality when the 
-                                <b>HKEY_LOCAL_MACHINE</b>&#92;<b>System</b>&#92;<b>GDI</b>&#92;<b>Fontsmoothing</b>registry subkey is present.</td>
+                                <b>HKEY_LOCAL_MACHINE</b>&#92;<b>System</b>&#92;<b>GDI</b>&#92;<b>Fontsmoothing</b> registry subkey is present.</td>
 </tr>
 <tr>
 <td>CLEARTYPE_COMPAT_QUALITY</td>

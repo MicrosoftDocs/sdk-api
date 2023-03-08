@@ -1,12 +1,12 @@
 ---
 UID: NF:imm.ImmGetCompositionStringA
 title: ImmGetCompositionStringA function (imm.h)
-description: Retrieves information about the composition string.
-helpviewer_keywords: ["ImmGetCompositionString","ImmGetCompositionString function [Internationalization for Windows Applications]","ImmGetCompositionStringA","ImmGetCompositionStringW","_win32_ImmGetCompositionString","imm/ImmGetCompositionString","imm/ImmGetCompositionStringA","imm/ImmGetCompositionStringW","intl.immgetcompositionstring"]
+description: The ImmGetCompositionStringA (ANSI) function (imm.h) retrieves information about the composition string.
+helpviewer_keywords: ["ImmGetCompositionStringA", "imm/ImmGetCompositionStringA"]
 old-location: intl\immgetcompositionstring.htm
 tech.root: Intl
 ms.assetid: 6309e5b4-36ce-4899-be33-d7bf0d828d3d
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmGetCompositionString, ImmGetCompositionString function [Internationalization for Windows Applications], ImmGetCompositionStringA, ImmGetCompositionStringW, _win32_ImmGetCompositionString, imm/ImmGetCompositionString, imm/ImmGetCompositionStringA, imm/ImmGetCompositionStringW, intl.immgetcompositionstring
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h

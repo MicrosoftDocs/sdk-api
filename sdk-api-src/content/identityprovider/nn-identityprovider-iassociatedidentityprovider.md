@@ -55,46 +55,5 @@ The <b>IAssociatedIdentityProvider</b> interface allows an identity provider to 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAssociatedIdentityProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAssociatedIdentityProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAssociatedIdentityProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAssociatedIdentityProvider</b> also has these types of members:
 
-## -members
-
-The <b>IAssociatedIdentityProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/identityprovider/nf-identityprovider-iassociatedidentityprovider-associateidentity">AssociateIdentity</a>
-</td>
-<td align="left" width="63%">
-Associates an identity with a local user account.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/identityprovider/nf-identityprovider-iassociatedidentityprovider-changecredential">ChangeCredential</a>
-</td>
-<td align="left" width="63%">
-Changes the credentials associated with the specified identity.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/identityprovider/nf-identityprovider-iassociatedidentityprovider-disassociateidentity">DisassociateIdentity</a>
-</td>
-<td align="left" width="63%">
-Disassociates the specified identity from a local user account.
-
-
-</td>
-</tr>
-</table>

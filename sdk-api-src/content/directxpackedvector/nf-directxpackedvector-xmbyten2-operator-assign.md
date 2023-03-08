@@ -52,23 +52,23 @@ api_name:
 
 Assigns the vector component data from one instance of <code>XMBYTEN2</code> to the current instance of <code>XMBYTEN2</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/87cadfb8-6b3c-4c66-88c1-c3751edeb3f2">XMBYTEN2</a> to the current instance of <code>XMBYTEN2</code>.
+This operator assigns the vector component data from one instance of <a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmbyten2">XMBYTEN2</a> to the current instance of <code>XMBYTEN2</code>.
 
 <div class="alert"><b>Note</b>  This operator is only available with C++.</div>
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Instance of <code>XMBYTEN2</code> used to update the current <code>XMBYTEN2</code> structure.
 
 ## -returns
 
-The current instance of <code>XMBYTEN2</code> whose vector component data has been updated to match those of the <code>XMBYTEN2</code> instance specified by the <b>Byte2</b>argument.
+The current instance of <code>XMBYTEN2</code> whose vector component data has been updated to match those of the <code>XMBYTEN2</code> instance specified by the <b>Byte2</b> argument.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/87cadfb8-6b3c-4c66-88c1-c3751edeb3f2">XMBYTEN2</a>
+<a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmbyten2">XMBYTEN2</a>
 
 <a href="https://msdn.microsoft.com/451a45f6-d77e-4860-84b1-362ea1f00578">XMBYTEN2 Operators</a>
 

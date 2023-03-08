@@ -6,7 +6,7 @@ helpviewer_keywords: ["D3D12_FEATURE_DATA_D3D12_OPTIONS2","D3D12_FEATURE_DATA_D3
 old-location: direct3d12\d3d12_feature_data_d3d12_options2.htm
 tech.root: direct3d12
 ms.assetid: E45DA471-E0A9-47BF-8AE5-4B8BA4B38337
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS2, D3D12_FEATURE_DATA_D3D12_OPTIONS2 structure, d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS2, direct3d12.d3d12_feature_data_d3d12_options2
 req.header: d3d12.h
 req.include-header: 
@@ -56,13 +56,13 @@ Indicates the level of support that the adapter provides for depth-bounds tests 
 
 ### -field DepthBoundsTestSupported
 
-<a href="/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes">SAL</a>: <code>_Out_</code>
 
 On return, contains true if depth-bounds tests are supported; otherwise, false.
 
 ### -field ProgrammableSamplePositionsTier
 
-<a href="/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes">SAL</a>: <code>_Out_</code>
 
 On return, contains a value that indicates the level of support offered for programmable sample positions.
 

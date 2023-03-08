@@ -86,17 +86,21 @@ For the <i>UserContext</i> parameter, if the manager routine receives a pointer 
 <b>RpcSsContextLockShared</b> function the same pointer it received from RPC. If the manager routine receives the context handle itself, which is typical for [in] only context handles, it must pass the context handle itself to the 
 <b>RpcSsContextLockShared</b> function. The following code example demonstrates this:
 
-<pre class="syntax" xml:space="preserve"><code>UseExclusive (..., /* [in] */ TestContextHandleExclusive *Ctx, ...)
+
+``` syntax
+UseExclusive (..., /* [in] */ TestContextHandleExclusive *Ctx, ...)
 {
     ...
     // we decided that we're done changing the context handle exclusively
-    // and that we have extensive processing ahead - downgrade the exlusive
+    // and that we have extensive processing ahead - downgrade the exclusive
     // lock to shared, and do the processing allowing other readers in
     RpcSsContextLockShared (NULL,    // use the explicit context
         Ctx
         );
     ...
-}</code></pre>
+}
+```
+
 If a manager routine takes multiple [in, out] context handles as an argument, RPC gives the manager routine a pointer to the context handle, not the context handle itself. The pointer is guaranteed to be unique, and therefore passing it to the 
 <b>RpcSsContextLockShared</b> function is unambiguous. However, if a function takes multiple [in] only context handles, RPC gives the manager routine the context handle itself. Therefore, the context handle may not be unique. In this case, RPC executes this function on the first context handle with the given value.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.BSTR_UserSize64
 title: BSTR_UserSize64 function (oaidl.h)
-description: Calculates the wire size of the BSTR object, and gets its handle and data.
+description: Calculates the wire size of the BSTR object, and gets its handle and data. (BSTR_UserSize64)
 helpviewer_keywords: ["BSTR_UserSize64","BSTR_UserSize64 function [Automation]","automat.bstr_usersize64","oaidl/BSTR_UserSize64"]
 old-location: automat\bstr_usersize64.htm
 tech.root: automat
@@ -54,15 +54,15 @@ Calculates the wire size of the <a href="/previous-versions/windows/desktop/auto
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the <a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> object to be properly aligned when it will be marshaled to the buffer.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 The object.
 

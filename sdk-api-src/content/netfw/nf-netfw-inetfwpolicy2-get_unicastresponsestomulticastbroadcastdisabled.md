@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_UnicastResponsesToMulticastBroadcastDisabled
 title: INetFwPolicy2::get_UnicastResponsesToMulticastBroadcastDisabled (netfw.h)
-description: Indicates whether the firewall should not allow unicast responses to multicast and broadcast traffic.
+description: Indicates whether the firewall should not allow unicast responses to multicast and broadcast traffic. (INetFwPolicy2.get_UnicastResponsesToMulticastBroadcastDisabled)
 helpviewer_keywords: ["INetFwPolicy2 interface [ICS/ICF]","UnicastResponsesToMulticastBroadcastDisabled property","INetFwPolicy2.UnicastResponsesToMulticastBroadcastDisabled","INetFwPolicy2.get_UnicastResponsesToMulticastBroadcastDisabled","INetFwPolicy2::UnicastResponsesToMulticastBroadcastDisabled","INetFwPolicy2::get_UnicastResponsesToMulticastBroadcastDisabled","INetFwPolicy2::put_UnicastResponsesToMulticastBroadcastDisabled","UnicastResponsesToMulticastBroadcastDisabled property [ICS/ICF]","UnicastResponsesToMulticastBroadcastDisabled property [ICS/ICF]","INetFwPolicy2 interface","get_UnicastResponsesToMulticastBroadcastDisabled","ics.inetfwpolicy2_unicastresponsestomulticastbroadcastdisabled","netfw/INetFwPolicy2::UnicastResponsesToMulticastBroadcastDisabled","netfw/INetFwPolicy2::get_UnicastResponsesToMulticastBroadcastDisabled","netfw/INetFwPolicy2::put_UnicastResponsesToMulticastBroadcastDisabled"]
 old-location: ics\inetfwpolicy2_unicastresponsestomulticastbroadcastdisabled.htm
 tech.root: ics

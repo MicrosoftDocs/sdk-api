@@ -126,9 +126,9 @@ This method returns S_FALSE under various circumstances:
 
 <ul>
 <li>The filter is using an <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay</a> transport.</li>
-<li>UseWhenFullScreen mode is on. (See <a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-usewhenfullscreen">IDirectDrawVideo::UseWhenFullScreen</a>.)</li>
-<li>Video playback is using a stretchable offscreen surface. (The <b>dwCaps</b> member of the DDCAPS structure includes the DDCAPS_BLTSTRETCH flag. See <a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getcaps">IDirectDrawVideo::GetCaps</a>.)</li>
-<li>The video surface has no minimum overlay stretch. (The <b>dwMinOverlayStretch</b> member of the DDCAPS structure is zero. See <a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getcaps">IDirectDrawVideo::GetCaps</a>.)</li>
+<li>UseWhenFullScreen mode is on. (See <a href="/previous-versions/ms785118(v=vs.85)">IDirectDrawVideo::UseWhenFullScreen</a>.)</li>
+<li>Video playback is using a stretchable offscreen surface. (The <b>dwCaps</b> member of the DDCAPS structure includes the DDCAPS_BLTSTRETCH flag. See <a href="/previous-versions/ms785104(v=vs.85)">IDirectDrawVideo::GetCaps</a>.)</li>
+<li>The video surface has no minimum overlay stretch. (The <b>dwMinOverlayStretch</b> member of the DDCAPS structure is zero. See <a href="/previous-versions/ms785104(v=vs.85)">IDirectDrawVideo::GetCaps</a>.)</li>
 </ul>
 
 ## -see-also

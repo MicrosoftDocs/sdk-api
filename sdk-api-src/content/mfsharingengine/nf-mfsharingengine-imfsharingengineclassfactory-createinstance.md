@@ -1,7 +1,7 @@
 ---
 UID: NF:mfsharingengine.IMFSharingEngineClassFactory.CreateInstance
 title: IMFSharingEngineClassFactory::CreateInstance (mfsharingengine.h)
-description: Creates an instance of the media sharing engine.
+description: Creates an instance of the media sharing engine. (IMFSharingEngineClassFactory.CreateInstance)
 helpviewer_keywords: ["CreateInstance","CreateInstance method [Media Foundation]","CreateInstance method [Media Foundation]","IMFSharingEngineClassFactory interface","IMFSharingEngineClassFactory interface [Media Foundation]","CreateInstance method","IMFSharingEngineClassFactory.CreateInstance","IMFSharingEngineClassFactory::CreateInstance","mf.imfsharingengineclassfactory_createinstance","mfsharingengine/IMFSharingEngineClassFactory::CreateInstance"]
 old-location: mf\imfsharingengineclassfactory_createinstance.htm
 tech.root: mf
@@ -68,7 +68,7 @@ Receives a pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknow
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

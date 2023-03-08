@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - PhysicalToLogicalPointForPerMonitorDPI
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # PhysicalToLogicalPointForPerMonitorDPI function
@@ -61,7 +62,7 @@ A handle to the window whose transform is used for the conversion.
 
 ### -param lpPoint [in, out]
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that specifies the physical/screen coordinates to be converted. The new logical coordinates are copied into this structure if the function succeeds.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that specifies the physical/screen coordinates to be converted. The new logical coordinates are copied into this structure if the function succeeds.
 
 ## -returns
 

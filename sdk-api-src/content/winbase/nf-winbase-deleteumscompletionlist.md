@@ -44,6 +44,7 @@ api_location:
  - API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
  - DeleteUmsCompletionList
+req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 ---
 
 # DeleteUmsCompletionList function
@@ -52,6 +53,9 @@ api_name:
 ## -description
 
 Deletes the specified user-mode scheduling (UMS) completion list. The list must be empty.
+
+> [!WARNING]
+> As of Windows 11, user-mode scheduling is not supported. All calls fail with the error `ERROR_NOT_SUPPORTED`.
 
 ## -parameters
 

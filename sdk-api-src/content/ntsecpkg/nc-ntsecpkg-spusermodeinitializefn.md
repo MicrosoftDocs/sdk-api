@@ -63,7 +63,7 @@ The version of the security provider DLL (either Secur32.dll or Security.dll).
 
 Pointer that returns the version of the SSP/AP DLL.
 
-### -param *ppTables [out]
+### -param ppTables [out]
 
 Pointer that returns an array of 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structures. Each structure is a table of pointers to the user-mode functions implemented by a <a href="/windows/desktop/SecGloss/s-gly">security package</a> deployed in the SSP/AP DLL.

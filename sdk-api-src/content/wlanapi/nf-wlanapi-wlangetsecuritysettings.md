@@ -64,7 +64,7 @@ A <a href="/windows/desktop/api/wlanapi/ne-wlanapi-wlan_securable_object">WLAN_S
 
 ### -param pValueType [out, optional]
 
-A pointer to a <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> value that specifies the source of the security settings.
+A pointer to a <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type-r1">WLAN_OPCODE_VALUE_TYPE</a> value that specifies the source of the security settings.
 
 <table>
 <tr>

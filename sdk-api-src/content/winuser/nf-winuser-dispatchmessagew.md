@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.DispatchMessageW
 title: DispatchMessageW function (winuser.h)
-description: Dispatches a message to a window procedure. It is typically used to dispatch a message retrieved by the GetMessage function.
-helpviewer_keywords: ["DispatchMessage","DispatchMessage function [Windows and Messages]","DispatchMessageA","DispatchMessageW","_win32_DispatchMessage","_win32_dispatchmessage_cpp","winmsg.dispatchmessage","winui._win32_dispatchmessage","winuser/DispatchMessage","winuser/DispatchMessageA","winuser/DispatchMessageW"]
+description: Dispatches a message to a window procedure. It is typically used to dispatch a message retrieved by the GetMessage function. (DispatchMessageW)
+helpviewer_keywords: ["DispatchMessage", "DispatchMessage function [Windows and Messages]", "DispatchMessageW", "_win32_DispatchMessage", "_win32_dispatchmessage_cpp", "winmsg.dispatchmessage", "winui._win32_dispatchmessage", "winuser/DispatchMessage", "winuser/DispatchMessageW"]
 old-location: winmsg\dispatchmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\dispatchmessage.htm
@@ -54,6 +54,7 @@ api_name:
  - DispatchMessage
  - DispatchMessageA
  - DispatchMessageW
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # DispatchMessageW function

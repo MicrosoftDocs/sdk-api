@@ -73,6 +73,15 @@ A pointer to a <b>ULONG</b> variable that receives the actual number of bytes re
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | All of the requested data was successfully read from the stream object; the number of bytes requested in *cb* is the same as the number of bytes returned in *pcbRead*.|
+|S_FALSE | The value returned in *pcbRead* is less than the number of bytes requested in *cb*. This indicates the end of the stream has been reached. The number of bytes read indicates how much of the *pv* buffer has been filled.|
+|E_PENDING | Asynchronous storage only: Part or all of the data to be read is currently unavailable. |
+|STG_E_ACCESSDENIED | The caller does not have permissions required to read this stream object.|
+|STG_E_INVALIDPOINTER | One of the pointer values is invalid.|
+|STG_E_REVERTED | The object has been invalidated by a revert operation above it in the transaction tree.|
+
 ## -remarks
 
 This method reads bytes from this stream object into memory. The stream object must be opened in <b>STGM_READ</b> mode. This method adjusts the seek pointer by the actual number of bytes read.

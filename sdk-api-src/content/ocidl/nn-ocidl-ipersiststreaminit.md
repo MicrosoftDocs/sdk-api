@@ -56,65 +56,7 @@ This interface is not derived from <a href="/windows/desktop/api/objidl/nn-objid
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistStreamInit</b> interface inherits from <b>IPersist</b>. <b>IPersistStreamInit</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPersistStreamInit</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-getsizemax">GetSizeMax</a>
-</td>
-<td align="left" width="63%">
-Retrieves the size of the stream needed to save the object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew">InitNew</a>
-</td>
-<td align="left" width="63%">
-Initializes an object to a default state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-isdirty">IsDirty</a>
-</td>
-<td align="left" width="63%">
-Determines whether an object has changed since it was last saved to its stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-load">Load</a>
-</td>
-<td align="left" width="63%">
-Initializes an object from the stream where it was saved previously.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-save">Save</a>
-</td>
-<td align="left" width="63%">
-Saves an object to the specified stream.
-
-</td>
-</tr>
-</table>
+The <b>IPersistStreamInit</b> interface inherits from <b>IPersist</b>. <b>IPersistStreamInit</b> also has these types of members:
 
 ## -see-also
 

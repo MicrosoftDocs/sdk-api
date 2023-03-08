@@ -1,12 +1,12 @@
 ---
 UID: NF:shlobj_core.DriveType
 title: DriveType function (shlobj_core.h)
-description: DriveType may be altered or unavailable.
+description: The DriveType function determines the drive type based on the drive number. (DriveType)
 helpviewer_keywords: ["DriveType","DriveType function [Windows Shell]","_shell_DriveType","shell.DriveType","shlobj_core/DriveType"]
 old-location: shell\DriveType.htm
 tech.root: shell
 ms.assetid: 3089656d-2e64-4d65-aa18-0a451d82fa95
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: DriveType, DriveType function [Windows Shell], _shell_DriveType, shell.DriveType, shlobj_core/DriveType
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

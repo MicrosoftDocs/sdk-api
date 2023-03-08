@@ -53,7 +53,7 @@ api_name:
 
 Indicates if the current OS is a  Windows Server release.  Applications that need to distinguish between server and client versions of Windows should call this function.
 
-## -parameters
+
 
 ## -returns
 

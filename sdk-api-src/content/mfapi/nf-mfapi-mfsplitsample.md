@@ -2,7 +2,6 @@
 UID: NF:mfapi.MFSplitSample
 title: MFSplitSample
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Split up a combined media sample back into individual samples.
 tech.root: mf

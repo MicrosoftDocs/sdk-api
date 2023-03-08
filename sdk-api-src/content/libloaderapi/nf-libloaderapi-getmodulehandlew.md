@@ -1,8 +1,8 @@
 ---
 UID: NF:libloaderapi.GetModuleHandleW
 title: GetModuleHandleW function (libloaderapi.h)
-description: Retrieves a module handle for the specified module. The module must have been loaded by the calling process.
-helpviewer_keywords: ["GetModuleHandle","GetModuleHandle function","GetModuleHandleA","GetModuleHandleW","_win32_getmodulehandle","base.getmodulehandle","libloaderapi/GetModuleHandle","libloaderapi/GetModuleHandleA","libloaderapi/GetModuleHandleW","winbase/GetModuleHandle","winbase/GetModuleHandleA","winbase/GetModuleHandleW"]
+description: Retrieves a module handle for the specified module. The module must have been loaded by the calling process. (Unicode)
+helpviewer_keywords: ["GetModuleHandle", "GetModuleHandle function", "GetModuleHandleW", "_win32_getmodulehandle", "base.getmodulehandle", "libloaderapi/GetModuleHandle", "libloaderapi/GetModuleHandleW"]
 old-location: base\getmodulehandle.htm
 tech.root: base
 ms.assetid: 29514410-89fe-4888-8b34-0c30d5af237f
@@ -69,7 +69,7 @@ To avoid the race conditions described in the Remarks section, use the
 
 ### -param lpModuleName [in, optional]
 
-The name of the loaded module (either a .dll or .exe file). If the file name extension is omitted, the default library extension .dll is appended. The file name string can include a trailing point character (.) to indicate that the module name has no extension. The string does not have to specify a path. When specifying a path, be sure to use backslashes (\), not forward slashes (/). The name is compared (case independently) to the names of modules currently mapped into the address space of the calling process. 
+The name of the loaded module (either a .dll or .exe file). If the file name extension is omitted, the default library extension .dll is appended. The file name string can include a trailing point character (.) to indicate that the module name has no extension. The string does not have to specify a path. When specifying a path, be sure to use backslashes (\\), not forward slashes (/). The name is compared (case independently) to the names of modules currently mapped into the address space of the calling process. 
 
 
 

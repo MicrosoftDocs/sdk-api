@@ -54,11 +54,11 @@ Gets a property from an effect.
 
 ## -parameters
 
-### -param *effect [in]
+### -param effect [in]
 
 A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for the effect on which the property will be retrieved.
 
-### -param *data [out]
+### -param data [out]
 
 A pointer to a variable that stores the data that this function retrieves on the property.
 
@@ -66,7 +66,7 @@ A pointer to a variable that stores the data that this function retrieves on the
 
 The number of bytes in the property to retrieve.
 
-### -param *actualSize [out, optional]
+### -param actualSize [out, optional]
 
 A optional pointer to a variable that stores the actual number of bytes retrieved on the property. If not used, set to <b>NULL</b>.
 

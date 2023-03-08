@@ -89,7 +89,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </tr>
 <tr>
 <td>HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)</td>
-<td>The supplied buffer was too small to accomodate the data.</td>
+<td>The supplied buffer was too small to accommodate the data.</td>
 </tr>
 <tr>
 <td>D2DERR_INVALID_PROPERTY</td>

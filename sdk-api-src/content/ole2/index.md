@@ -4,7 +4,7 @@ title: Ole2.h header
 ms.assetid: 1d9df7c1-fc0a-3201-b97a-ff59a0d4806f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: com
 f1_keywords:
  - ole2
@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Component Object Model (COM). For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Component Object Model (COM)](../_com/index.md)
+- [Structured Storage](../_stg/index.md)
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetMirrorState
 title: IMFCaptureSource::GetMirrorState (mfcaptureengine.h)
-description: Gets the current mirroring state of the video preview stream.
+description: Gets the current mirroring state of the video preview stream. (IMFCaptureSource.GetMirrorState)
 helpviewer_keywords: ["GetMirrorState","GetMirrorState method [Media Foundation]","GetMirrorState method [Media Foundation]","IMFCaptureSource interface","IMFCaptureSource interface [Media Foundation]","GetMirrorState method","IMFCaptureSource.GetMirrorState","IMFCaptureSource::GetMirrorState","mf.imfcapturesource_getmirrorstate","mf.imfcapturesource_getpreviewmirrorstate","mfcaptureengine/IMFCaptureSource::GetMirrorState"]
 old-location: mf\imfcapturesource_getmirrorstate.htm
 tech.root: mf
@@ -64,7 +64,7 @@ Receives the value <b>TRUE</b> if mirroring is enabled, or <b>FALSE</b> if mirro
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

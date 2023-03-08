@@ -55,36 +55,7 @@ Use this interface to notify an application of machine-wide cost and data plan r
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkCostManagerEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkCostManagerEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>INetworkCostManagerEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>CostChanged</b></td>
-<td align="left" width="63%">
-Indicates a cost change for either machine-wide Internet connectivity, or the first-hop of routing to a specific destination on a connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkcostmanagerevents-dataplanstatuschanged">DataPlanStatusChanged</a>
-</td>
-<td align="left" width="63%">
-Indicates a change to the status of a data plan associated with a connection used for either machine-wide Internet connectivity, or the first-hop of routing to a specific destination on a connection.
-
-</td>
-</tr>
-</table>
+The <b>INetworkCostManagerEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkCostManagerEvents</b> also has these types of members:
 
 ## -see-also
 

@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 The <code>DrawVideoImageEnd</code> method turns DirectDraw back on after drawing has been performed.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,12 +1,12 @@
 ---
 UID: NN:propidlbase.IEnumSTATPROPSTG
 title: IEnumSTATPROPSTG (propidlbase.h)
-description: Iterates through an array of STATPROPSTG structures. The STATPROPSTG structures contain statistical data about properties in a property set.
+description: The IEnumSTATPROPSTG interface iterates through an array of STATPROPSTG structures containing statistical data about properties in a property set. 
 helpviewer_keywords: ["IEnumSTATPROPSTG","IEnumSTATPROPSTG interface [Structured Storage]","IEnumSTATPROPSTG interface [Structured Storage]","described","_stg_ienumstatpropstg","propidlbase/IEnumSTATPROPSTG","stg.ienumstatpropstg"]
 old-location: stg\ienumstatpropstg.htm
 tech.root: Stg
 ms.assetid: e625e52a-5628-4d18-9282-aa1c141c83af
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: IEnumSTATPROPSTG, IEnumSTATPROPSTG interface [Structured Storage], IEnumSTATPROPSTG interface [Structured Storage],described, _stg_ienumstatpropstg, propidlbase/IEnumSTATPROPSTG, stg.ienumstatpropstg
 req.header: propidlbase.h
 req.include-header: Propidl.h
@@ -64,56 +64,7 @@ Enumeration of a nonsimple property does not necessarily indicate that the prope
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSTATPROPSTG</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSTATPROPSTG</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumSTATPROPSTG</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a new enumerator that contains the same enumeration state as the current <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structure enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-next">Next</a>
-</td>
-<td align="left" width="63%">
-Gets a specified number of <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumeration sequence to the beginning of the <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structure array.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips a specified number of <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures in the enumeration sequence.
-
-</td>
-</tr>
-</table>
+The <b>IEnumSTATPROPSTG</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSTATPROPSTG</b> also has these types of members:
 
 ## -see-also
 

@@ -57,44 +57,5 @@ Applications can use this interface to specify how the graph handles latency and
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMGraphStreams</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMGraphStreams</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAMGraphStreams</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMGraphStreams</b> also has these types of members:
 
-## -members
-
-The <b>IAMGraphStreams</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamgraphstreams-findupstreaminterface">FindUpstreamInterface</a>
-</td>
-<td align="left" width="63%">
-Searches the filter graph for a specified interface, upstream from a specified pin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamgraphstreams-setmaxgraphlatency">SetMaxGraphLatency</a>
-</td>
-<td align="left" width="63%">
-Sets the maximum latency for the graph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamgraphstreams-syncusingstreamoffset">SyncUsingStreamOffset</a>
-</td>
-<td align="left" width="63%">
-Enables or disables synchronization using time-stamp offsets.
-
-</td>
-</tr>
-</table>

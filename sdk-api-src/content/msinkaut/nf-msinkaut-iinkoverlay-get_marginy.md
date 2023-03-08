@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_MarginY
 title: IInkOverlay::get_MarginY (msinkaut.h)
-description: Gets or sets the y-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window.
+description: Gets or sets the y-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window. (IInkOverlay.get_MarginY)
 helpviewer_keywords: ["IInkOverlay interface [Tablet PC]","MarginY property","IInkOverlay.MarginY","IInkOverlay.get_MarginY","IInkOverlay::MarginY","IInkOverlay::get_MarginY","IInkOverlay::put_MarginY","InkOverlay.get_MarginY","InkOverlay.put_MarginY","MarginY property [Tablet PC]","MarginY property [Tablet PC]","IInkOverlay interface","get_MarginY","msinkaut/IInkOverlay::MarginY","msinkaut/IInkOverlay::get_MarginY","msinkaut/IInkOverlay::put_MarginY","put_MarginY","tablet.inkoverlay_marginy"]
 old-location: tablet\inkoverlay_marginy.htm
 tech.root: tablet
@@ -82,7 +82,7 @@ The margin is effective only within the application's window. If the pen is appl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 

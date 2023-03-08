@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IRangeValueProvider.SetValue
 title: IRangeValueProvider::SetValue (uiautomationcore.h)
-description: Sets the value of the control.
+description: Sets the value of the control. (IRangeValueProvider.SetValue)
 helpviewer_keywords: ["IRangeValueProvider interface [Windows Accessibility]","SetValue method","IRangeValueProvider.SetValue","IRangeValueProvider::SetValue","SetValue","SetValue method [Windows Accessibility]","SetValue method [Windows Accessibility]","IRangeValueProvider interface","uiauto.uiauto_IRangeValueProvider_SetValue","uiauto_IRangeValueProvider_SetValue","uiautomationcore/IRangeValueProvider::SetValue","winauto.uiauto_IRangeValueProvider_SetValue"]
 old-location: winauto\uiauto_IRangeValueProvider_SetValue.htm
 tech.root: WinAuto
@@ -64,7 +64,7 @@ The value to set.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

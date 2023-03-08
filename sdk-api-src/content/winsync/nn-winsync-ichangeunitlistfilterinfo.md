@@ -54,48 +54,7 @@ Represents a filter that can be used to control which change units are included 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IChangeUnitListFilterInfo</b> interface inherits from <b>ISyncFilterInfo</b>. <b>IChangeUnitListFilterInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IChangeUnitListFilterInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitlistfilterinfo-getchangeunitid">GetChangeUnitId</a>
-</td>
-<td align="left" width="63%">
-Gets the change unit ID that is stored at the specified index in the array of change unit IDs that define the filter. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitlistfilterinfo-getchangeunitidcount">GetChangeUnitIdCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of change unit IDs that define the filter. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitlistfilterinfo-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes a new instance of the <b>IChangeUnitListFilterInfo</b> class that contains the specified array of change unit IDs.
-
-
-</td>
-</tr>
-</table>
+The <b>IChangeUnitListFilterInfo</b> interface inherits from <b>ISyncFilterInfo</b>. <b>IChangeUnitListFilterInfo</b> also has these types of members:
 
 ## -remarks
 

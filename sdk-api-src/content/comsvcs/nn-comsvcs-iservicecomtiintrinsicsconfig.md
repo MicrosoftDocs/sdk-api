@@ -54,29 +54,7 @@ Configures the COM Transaction Integrator (COMTI) intrinsics for the work that i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceComTIIntrinsicsConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceComTIIntrinsicsConfig</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IServiceComTIIntrinsicsConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicecomtiintrinsicsconfig-comtiintrinsicsconfig">ComTIIntrinsicsConfig</a>
-</td>
-<td align="left" width="63%">
-Configures the COMTI intrinsics for the enclosed work.
-
-</td>
-</tr>
-</table>
+The <b>IServiceComTIIntrinsicsConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceComTIIntrinsicsConfig</b> also has these types of members:
 
 ## -see-also
 

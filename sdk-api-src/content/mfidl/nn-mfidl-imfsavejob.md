@@ -57,56 +57,7 @@ The byte stream used for HTTP download implements this interface. To get a point
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSaveJob</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSaveJob</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFSaveJob</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-beginsave">BeginSave</a>
-</td>
-<td align="left" width="63%">
-Begins saving a Windows Media file to the application's byte stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-cancelsave">CancelSave</a>
-</td>
-<td align="left" width="63%">
-Cancels the operation started by <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-beginsave">BeginSave</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-endsave">EndSave</a>
-</td>
-<td align="left" width="63%">
-Completes the operation started by <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-beginsave">BeginSave</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-getprogress">GetProgress</a>
-</td>
-<td align="left" width="63%">
-Retrieves the percentage of content saved to the provided byte stream.
-
-</td>
-</tr>
-</table>
+The <b>IMFSaveJob</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSaveJob</b> also has these types of members:
 
 ## -see-also
 

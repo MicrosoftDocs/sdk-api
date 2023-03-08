@@ -1,8 +1,8 @@
 ---
 UID: NF:libloaderapi.GetModuleFileNameA
 title: GetModuleFileNameA function (libloaderapi.h)
-description: Retrieves the fully qualified path for the file that contains the specified module. The module must have been loaded by the current process.
-helpviewer_keywords: ["GetModuleFileName","GetModuleFileName function","GetModuleFileNameA","GetModuleFileNameW","_win32_getmodulefilename","base.getmodulefilename","libloaderapi/GetModuleFileName","libloaderapi/GetModuleFileNameA","libloaderapi/GetModuleFileNameW","winbase/GetModuleFileName","winbase/GetModuleFileNameA","winbase/GetModuleFileNameW"]
+description: Retrieves the fully qualified path for the file that contains the specified module. The module must have been loaded by the current process. (ANSI)
+helpviewer_keywords: ["GetModuleFileNameA", "libloaderapi/GetModuleFileNameA"]
 old-location: base\getmodulefilename.htm
 tech.root: base
 ms.assetid: f124c99f-8be1-4a9c-a84c-b1b323921f1a
@@ -82,7 +82,7 @@ If the length of the path exceeds the size that  the <i>nSize</i> parameter spec
 
 <b>Windows XP:  </b>The string is truncated to <i>nSize</i> characters and is not null-terminated.
 
-The string returned will use the same format that was specified when the module was loaded. Therefore, the path can be a long or short file name, and can use the prefix "\\?\". For more information, see 
+The string returned will use the same format that was specified when the module was loaded. Therefore, the path can be a long or short file name, and can use the prefix `\\?\`. For more information, see 
 <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 ### -param nSize [in]

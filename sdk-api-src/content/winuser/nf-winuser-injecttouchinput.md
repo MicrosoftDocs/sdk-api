@@ -48,6 +48,7 @@ api_location:
  - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
  - InjectTouchInput
+req.apiset: ext-ms-win-rtcore-ntuser-wmpointer-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # InjectTouchInput function
@@ -120,15 +121,15 @@ All touch injection sequences end with either UPDATE or UP.
 
 The following diagram demonstrates a touch injection sequence that starts with a hover state, transitions to interactive, and concludes with hover. 
 
-<img alt="" src="./images/inputstates.png"/>
+:::image type="content" source="./images/inputstates.png" border="false" alt-text="Diagram of a touch injection sequence showing the state transitions from hover to interactive to hover.":::
 
-For press and hold gestures, multiple frames must be sent to ensure input is not cancelled. For a press and hold at point (x,y), send <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdown">WM_POINTERDOWN</a> at point (x,y) followed by <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerupdate">WM_POINTERUPDATE</a> messages at point(x,y). 
+For press and hold gestures, multiple frames must be sent to ensure input is not cancelled. For a press and hold at point (x,y), send <a href="/windows/win32/inputmsg/wm-pointerdown">WM_POINTERDOWN</a> at point (x,y) followed by <a href="/windows/win32/inputmsg/wm-pointerupdate">WM_POINTERUPDATE</a> messages at point(x,y). 
 
 Listen for <a href="/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a> to handle changes to display resolution and orientation and manage screen coordinate updates. All active contacts are cancelled when a <b>WM_DISPLAYCHANGE</b> is received.
 
 Cancel individual contacts by setting POINTER_FLAG_CANCELED with POINTER_FLAG_UP or POINTER_FLAG_UPDATE. Cancelling touch injection without POINTER_FLAG_UP or POINTER_FLAG_UPDATE invalidates the injection.
 
-When POINTER_FLAG_UP is set, ptPixelLocation of <a href="/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> should be the same as the value of the previous touch injection frame with POINTER_FLAG_UPDATE. Otherwise, the injection fails with ERROR_INVALID_PARAMETER and all active injection contacts are cancelled. The system modifies the ptPixelLocation of the <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerup">WM_POINTERUP</a> event as it cancels the injection. 
+When POINTER_FLAG_UP is set, ptPixelLocation of <a href="/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> should be the same as the value of the previous touch injection frame with POINTER_FLAG_UPDATE. Otherwise, the injection fails with ERROR_INVALID_PARAMETER and all active injection contacts are cancelled. The system modifies the ptPixelLocation of the <a href="/windows/win32/inputmsg/wm-pointerup">WM_POINTERUP</a> event as it cancels the injection. 
 
 The input timestamp can be specified in either the dwTime or PerformanceCount field of <a href="/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a>. The value cannot be more recent than the current tick count or <a href="/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> value of the injection thread. Once a frame is injected with a timestamp, all subsequent frames must include a timestamp until all contacts in the frame go to the UP state. The custom timestamp value must be provided for the first element in the contacts array. The timestamp values after the first element are ignored. The custom timestamp value must increment in every injection frame.
 

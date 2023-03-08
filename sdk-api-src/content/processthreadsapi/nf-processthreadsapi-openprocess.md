@@ -4,12 +4,12 @@ title: OpenProcess function (processthreadsapi.h)
 description: Opens an existing local process object.
 helpviewer_keywords: ["OpenProcess","OpenProcess function","_win32_openprocess","base.openprocess","processthreadsapi/OpenProcess","winbase/OpenProcess"]
 old-location: base\openprocess.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 8f695c38-19c4-49e4-97de-8b64ea536cb1
 ms.date: 12/05/2018
 ms.keywords: OpenProcess, OpenProcess function, _win32_openprocess, base.openprocess, processthreadsapi/OpenProcess, winbase/OpenProcess
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -66,7 +66,7 @@ Opens an existing local process object.
 The access to the process object. This access right is checked against the  security descriptor for the process. This parameter can be one or more of the 
 <a href="/windows/desktop/ProcThread/process-security-and-access-rights">process access rights</a>. 
 
-If the caller has enabled the SeDebugPrivilege privilege, the requested access is  granted regardless of the contents of the security descriptor.
+If the caller has enabled the <a href="/windows/win32/secauthz/privilege-constants#SE_DEBUG_NAME">SeDebugPrivilege privilege</a>, the requested access is granted regardless of the contents of the security descriptor.
 
 ### -param bInheritHandle [in]
 
@@ -76,7 +76,7 @@ If this value is TRUE, processes created by this process will inherit the handle
 
 The identifier of the local process to be opened. 
 
-If the specified process is the System Process (0x00000000), the function fails and the last error code is ERROR_INVALID_PARAMETER. If the specified process is the Idle process or one of the CSRSS processes, this function fails and the last error code is ERROR_ACCESS_DENIED because their access restrictions prevent user-level code from opening them.
+If the specified process is the System Idle Process (0x00000000), the function fails and the last error code is `ERROR_INVALID_PARAMETER`. If the specified process is the System process or one of the Client Server Run-Time Subsystem (CSRSS) processes, this function fails and the last error code is `ERROR_ACCESS_DENIED` because their access restrictions prevent user-level code from opening them.
 
 If you are using <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocessid">GetCurrentProcessId</a> as an argument to this function, consider using <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> instead of OpenProcess, for improved performance.
 
@@ -163,7 +163,7 @@ For an example, see
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a>
+<a href="/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsize">SetProcessWorkingSetSize</a>
 
 
 

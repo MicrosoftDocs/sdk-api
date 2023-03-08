@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmEnumRegisterWordA
 title: ImmEnumRegisterWordA function (immdev.h)
-description: Enumerates the register strings having the specified reading string, style, and register string.
-helpviewer_keywords: ["ImmEnumRegisterWord","ImmEnumRegisterWord function [Internationalization for Windows Applications]","ImmEnumRegisterWordA","ImmEnumRegisterWordW","_win32_ImmEnumRegisterWord","imm/ImmEnumRegisterWord","imm/ImmEnumRegisterWordA","imm/ImmEnumRegisterWordW","intl.immenumregisterword"]
+description: The ImmEnumRegisterWordA (ANSI) function (immdev.h) enumerates the register strings having the specified reading string, style, and register string. 
+helpviewer_keywords: ["ImmEnumRegisterWordA"]
 old-location: intl\immenumregisterword.htm
 tech.root: Intl
 ms.assetid: ebeed3f9-1164-49d8-a7af-61244976643b
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmEnumRegisterWord, ImmEnumRegisterWord function [Internationalization for Windows Applications], ImmEnumRegisterWordA, ImmEnumRegisterWordW, _win32_ImmEnumRegisterWord, imm/ImmEnumRegisterWord, imm/ImmEnumRegisterWordA, imm/ImmEnumRegisterWordW, intl.immenumregisterword
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
@@ -53,11 +53,11 @@ Enumerates the register strings having the specified reading string, style, and 
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Input locale identifier.
 
-### -param Arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to the callback function. For more information, see <a href="/windows/desktop/api/imm/nc-imm-registerwordenumproca">EnumRegisterWordProc</a>.
 
@@ -65,7 +65,7 @@ Pointer to the callback function. For more information, see <a href="/windows/de
 
 Pointer to the reading string to enumerate. The application sets this parameter to <b>NULL</b> if the function is to enumerate all available reading strings that match the <i>dwStyle</i> and <i>lpszRegister</i> settings.
 
-### -param Arg4 [in]
+### -param unnamedParam4 [in]
 
 Style to enumerate. The application specifies 0 if the function is to enumerate all available styles that match the <i>lpszReading</i> and <i>lpszRegister</i> settings.
 
@@ -73,7 +73,7 @@ Style to enumerate. The application specifies 0 if the function is to enumerate 
 
 Pointer to the register string to enumerate. The application sets this parameter to <b>NULL</b> if the function is to enumerate all register strings that match the <i>lpszReading</i> and <i>dwStyle</i> settings.
 
-### -param Arg6 [in]
+### -param unnamedParam6 [in]
 
 Pointer to application-supplied data. The function passes this data to the callback function.
 

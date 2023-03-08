@@ -56,47 +56,7 @@ When releasing an <b>IAudioClock</b> interface instance, the client must call th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioClock</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAudioClock</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getcharacteristics">GetCharacteristics</a>
-</td>
-<td align="left" width="63%">
-Reserved for future use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getfrequency">GetFrequency</a>
-</td>
-<td align="left" width="63%">
-Gets the device frequency.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getposition">GetPosition</a>
-</td>
-<td align="left" width="63%">
-Gets the current position in the stream.
-
-</td>
-</tr>
-</table>
+The <b>IAudioClock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioClock</b> also has these types of members:
 
 ## -see-also
 

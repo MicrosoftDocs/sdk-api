@@ -1,7 +1,7 @@
 ---
 UID: NN:evr9.IEVRVideoStreamControl
 title: IEVRVideoStreamControl (evr9.h)
-description: This interface is not supported.
+description: This interface is not supported. (IEVRVideoStreamControl)
 helpviewer_keywords: ["IEVRVideoStreamControl","IEVRVideoStreamControl interface [Media Foundation]","IEVRVideoStreamControl interface [Media Foundation]","described","ea7b0dd2-2eff-4a37-826b-6f87fbea5785","evr9/IEVRVideoStreamControl","mf.ievrvideostreamcontrol"]
 old-location: mf\ievrvideostreamcontrol.htm
 tech.root: mf
@@ -55,29 +55,7 @@ This interface is not supported.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEVRVideoStreamControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEVRVideoStreamControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEVRVideoStreamControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-ievrvideostreamcontrol-setstreamactivestate">SetStreamActiveState</a>
-</td>
-<td align="left" width="63%">
-<div class="alert"><b>Note</b>  This method is not supported.</div>
-<div> </div>
-</td>
-</tr>
-</table>
+The <b>IEVRVideoStreamControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEVRVideoStreamControl</b> also has these types of members:
 
 ## -see-also
 

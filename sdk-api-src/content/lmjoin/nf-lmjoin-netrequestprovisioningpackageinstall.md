@@ -1,7 +1,7 @@
 ---
 UID: NF:lmjoin.NetRequestProvisioningPackageInstall
 title: NetRequestProvisioningPackageInstall function (lmjoin.h)
-description: Executes locally on a machine to modify a Windows operating system image mounted on a volume.
+description: Executes locally on a machine to modify a Windows operating system image mounted on a volume. (NetRequestProvisioningPackageInstall)
 helpviewer_keywords: ["NETSETUP_PROVISION_ONLINE_CALLER","NetRequestProvisioningPackageInstall","NetRequestProvisioningPackageInstall function [Network Management]","lmjoin/NetRequestProvisioningPackageInstall","netmgmt.netrequestprovisioningpackageinstall"]
 old-location: netmgmt\netrequestprovisioningpackageinstall.htm
 tech.root: NetMgmt
@@ -253,7 +253,7 @@ The <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage"
 
 The package returned in the  <i>pPackageBinData</i> parameter by the <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a> function is versioned to allow interoperability and serviceability scenarios between different versions of Windows (such as joining a client, provisioning a machine, and using a domain controller). The offline join scenario currently does not limit the lifetime of the package returned by the <b>NetCreateProvisioningPackage</b> function.
 
-All phases of the provisioning process append to a  <i>NetSetup.log</i> file on the local computer. The provisoning process can include up to three different computers: the computer where the provisioning package is created,  the computer that requests the installation of the package,  and the computer where the  package is installed. There will be <i>NetSetup.log</i> file information stored on all three computers according to  the operation performed. Reviewing the contents of these files is the most common means of troubleshooting online and offline provisioning errors. Provisioning operations undertaken by admins are logged to the <i>NetSetup.log</i> file in the <i>%WINDIR%\Debug</i>. Provisioning operations performed by non-admins are logged to the <i>NetSetup.log</i> file  in the <i>%USERPROFILE%\Debug</i> folder.
+All phases of the provisioning process append to a  <i>NetSetup.log</i> file on the local computer. The provisioning process can include up to three different computers: the computer where the provisioning package is created,  the computer that requests the installation of the package,  and the computer where the  package is installed. There will be <i>NetSetup.log</i> file information stored on all three computers according to  the operation performed. Reviewing the contents of these files is the most common means of troubleshooting online and offline provisioning errors. Provisioning operations undertaken by admins are logged to the <i>NetSetup.log</i> file in the <i>%WINDIR%\Debug</i>. Provisioning operations performed by non-admins are logged to the <i>NetSetup.log</i> file  in the <i>%USERPROFILE%\Debug</i> folder.
 
 ## -see-also
 

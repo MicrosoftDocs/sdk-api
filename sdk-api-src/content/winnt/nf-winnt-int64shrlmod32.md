@@ -73,7 +73,7 @@ A compiler can generate optimal code for a right logical shift operation when th
 
 <div class="alert"><b>Note</b>  The 
 <b>Int64ShrlMod32</b> function's <i>Value</i> parameter and return value are 64-bit values, not 
-<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structures.</div>
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a> structures.</div>
 <div> </div>
 
 ## -see-also

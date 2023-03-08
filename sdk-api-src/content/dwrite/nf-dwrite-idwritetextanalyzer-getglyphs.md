@@ -169,17 +169,13 @@ When this method returns, contains the actual number of glyphs returned if
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
- Note that the mapping from characters to glyphs is, in general, many-to-many.  The recommended estimate for the per-glyph output buffers is
-     (3 * <i>textLength</i> / 2 + 16).  This is not guaranteed to be sufficient.
-    
-     The value of the <i>actualGlyphCount</i> parameter is only valid if the call
-     succeeds.  In the event that <i>maxGlyphCount</i> is not big enough,
-     <b>HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)</b> will be returned.  The application should 
-     allocate a larger buffer and try again.
+Note that the mapping from characters to glyphs is, in general, many-to-many.  The recommended estimate for the per-glyph output buffers is (3 * <i>textLength</i> / 2 + 16).  This is not guaranteed to be sufficient.
+
+The value of the <i>actualGlyphCount</i> parameter is only valid if the call succeeds.  In the event that <i>maxGlyphCount</i> is not big enough, <b>HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)</b> will be returned. The application should allocate a larger buffer and try again.
 
 ## -see-also
 

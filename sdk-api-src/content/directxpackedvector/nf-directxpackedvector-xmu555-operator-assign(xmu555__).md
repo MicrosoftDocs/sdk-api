@@ -51,13 +51,13 @@ Assigns the vector component data from one instance of <code>XMU555</code> to th
 	instance of <code>XMU555</code>.
     
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/e3cc449d-4db8-402e-9d92-38ae5022deaf">XMU555</a> to the current instance of <code>XMU555</code>.
+This operator assigns the vector component data from one instance of <a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a> to the current instance of <code>XMU555</code>.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
-Instance of <code>XMU555</code> used to update the current <code>XMU555</code>structure.
+Instance of <code>XMU555</code> used to update the current <code>XMU555</code> structure.
 
 ## -returns
 
@@ -71,7 +71,7 @@ The current instance of <code>XMU555</code> whose vector component data has been
 
 
 
-<a href="https://msdn.microsoft.com/e3cc449d-4db8-402e-9d92-38ae5022deaf">XMU555</a>
+<a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a>
 
 
 

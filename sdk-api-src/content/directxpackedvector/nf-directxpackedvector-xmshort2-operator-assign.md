@@ -52,15 +52,15 @@ api_name:
 
 Assigns the vector component data from one instance of <code>XMSHORT2</code> to the current instance of <code>XMSHORT2</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/C41BEAA7-E620-4D64-8408-584CDB6F835A">XMSHORT2</a> to the current instance of <code>XMSHORT2</code>.
+This operator assigns the vector component data from one instance of <a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a> to the current instance of <code>XMSHORT2</code>.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
-Instance of <code>XMSHORT2</code> used to update the current <code>XMSHORT2</code>structure.
+Instance of <code>XMSHORT2</code> used to update the current <code>XMSHORT2</code> structure.
 
 ## -returns
 
@@ -68,7 +68,7 @@ The current instance of <code>XMSHORT2</code> whose vector component data has be
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/C41BEAA7-E620-4D64-8408-584CDB6F835A">XMSHORT2</a>
+<a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a>
 
 <a href="https://msdn.microsoft.com/7e9cad7b-03c2-45ec-8fe9-110f4197cae1">XMSHORT2 Operators</a>
 

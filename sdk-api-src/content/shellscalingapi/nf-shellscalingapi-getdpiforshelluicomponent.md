@@ -55,7 +55,7 @@ Retrieves the dots per inch (dpi) occupied by a <a href="/windows/desktop/api/sh
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 The type of shell component.
 

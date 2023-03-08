@@ -56,7 +56,7 @@ Defines values that identify object types in the Text Object Model (TOM)  conten
 
 ## -enum-fields
 
-### -field tomSimpleText
+### -field tomSimpleText:0
 
 Not an inline function.
 
@@ -72,15 +72,15 @@ Text flows horizontally in a vertically oriented document.
 
 A Warichu "2 lines in one" comment.
 
-### -field tomEq
+### -field tomEq:9
 
 An RTF Eq (equation) field.
 
-### -field tomMath
+### -field tomMath:10
 
 Math.
 
-### -field tomAccent
+### -field tomAccent:tomMath
 
 Accent (combining mark).
 

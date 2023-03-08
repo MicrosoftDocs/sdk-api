@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_DrawingAttributes
 title: IInkCursor::get_DrawingAttributes (msinkaut.h)
-description: Gets or sets the drawing attributes to apply to ink as it is drawn.
+description: Gets or sets the drawing attributes to apply to ink as it is drawn. (IInkCursor.get_DrawingAttributes)
 helpviewer_keywords: ["DrawingAttributes property [Tablet PC]","DrawingAttributes property [Tablet PC]","IInkCursor interface","IInkCursor interface [Tablet PC]","DrawingAttributes property","IInkCursor.DrawingAttributes","IInkCursor.get_DrawingAttributes","IInkCursor::DrawingAttributes","IInkCursor::get_DrawingAttributes","IInkCursor::putref_DrawingAttributes","de8b2473-092d-4ff9-adbc-3ba378b035e2","get_DrawingAttributes","msinkaut/IInkCursor::DrawingAttributes","msinkaut/IInkCursor::get_DrawingAttributes","msinkaut/IInkCursor::putref_DrawingAttributes","tablet.iinkcursor_drawingattributes"]
 old-location: tablet\iinkcursor_drawingattributes.htm
 tech.root: tablet

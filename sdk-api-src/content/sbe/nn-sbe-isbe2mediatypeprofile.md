@@ -56,56 +56,10 @@ To obtain a pointer to the <b>ISBE2MediaTypeProfile</b>  interface, call the <a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2MediaTypeProfile</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2MediaTypeProfile</b> also has these types of members:
+The <b>ISBE2MediaTypeProfile</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2MediaTypeProfile</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ISBE2MediaTypeProfile</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2mediatypeprofile-addstream">AddStream</a>
-</td>
-<td align="left" width="63%">
-Adds a stream to the profile.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2mediatypeprofile-deletestream">DeleteStream</a>
-</td>
-<td align="left" width="63%">
-Removes a stream from the profile.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2mediatypeprofile-getstream">GetStream</a>
-</td>
-<td align="left" width="63%">
-Gets the media type of a stream that is specified by its index in the profile.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2mediatypeprofile-getstreamcount">GetStreamCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of streams in the profile.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInterfaceDetailW
 title: SetupDiGetDeviceInterfaceDetailW function (setupapi.h)
-description: The SetupDiGetDeviceInterfaceDetail function returns details about a device interface.
-helpviewer_keywords: ["SetupDiGetDeviceInterfaceDetail","SetupDiGetDeviceInterfaceDetail function [Device and Driver Installation]","SetupDiGetDeviceInterfaceDetailA","SetupDiGetDeviceInterfaceDetailW","devinst.setupdigetdeviceinterfacedetail","di-rtns_5203864c-0bc7-4a59-bdb3-ddda0dbbbf98.xml","setupapi/SetupDiGetDeviceInterfaceDetail"]
+description: The SetupDiGetDeviceInterfaceDetail function returns details about a device interface. (Unicode)
+helpviewer_keywords: ["SetupDiGetDeviceInterfaceDetail", "SetupDiGetDeviceInterfaceDetail function [Device and Driver Installation]", "SetupDiGetDeviceInterfaceDetailW", "devinst.setupdigetdeviceinterfacedetail", "di-rtns_5203864c-0bc7-4a59-bdb3-ddda0dbbbf98.xml", "setupapi/SetupDiGetDeviceInterfaceDetail"]
 old-location: devinst\setupdigetdeviceinterfacedetail.htm
 tech.root: devinst
 ms.assetid: fb4963f1-0ed4-483d-9f39-dcbac493bf1d
@@ -45,6 +45,7 @@ api_location:
 api_name:
  - SetupDiGetDeviceInterfaceDetail
  - SetupDiGetDeviceInterfaceDetailW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupDiGetDeviceInterfaceDetailW function

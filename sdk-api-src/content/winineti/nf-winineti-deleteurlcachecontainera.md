@@ -1,8 +1,8 @@
 ---
 UID: NF:winineti.DeleteUrlCacheContainerA
 title: DeleteUrlCacheContainerA function (winineti.h)
-description: Deletes a cache container (which contains cache entries) based on the specified name.
-helpviewer_keywords: ["DeleteUrlCacheContainer","DeleteUrlCacheContainer function [WinINet]","DeleteUrlCacheContainerA","DeleteUrlCacheContainerW","wininet.deleteurlcachecontainer","winineti/DeleteUrlCacheContainer","winineti/DeleteUrlCacheContainerA","winineti/DeleteUrlCacheContainerW"]
+description: Deletes a cache container (which contains cache entries) based on the specified name. (ANSI)
+helpviewer_keywords: ["DeleteUrlCacheContainerA", "winineti/DeleteUrlCacheContainerA"]
 old-location: wininet\deleteurlcachecontainer.htm
 tech.root: wininet
 ms.assetid: 97F46974-9B20-46C6-B742-4BA5C60491DA
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Deletes a cache container (which contains cache entries) based on the specified name.<div class="alert"><b>Note</b>  This API is deprecated. Please use the <a href="/previous-versions/windows/desktop/Gg269259(v=EXCHG.10)">Extensible Storage Engine</a> instead.</div>
 <div> </div>

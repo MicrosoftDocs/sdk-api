@@ -58,74 +58,7 @@ Used to extend the capabilities of Terminal Services Session Broker (TS Session
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSSBPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSSBPlugin</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWTSSBPlugin</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tssbx/nf-tssbx-iwtssbplugin-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the plug-in and returns a value that indicates the redirection capabilities of the plug-in.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tssbx/nf-tssbx-iwtssbplugin-terminated">Terminated</a>
-</td>
-<td align="left" width="63%">
-Notifies the plug-in that TS Session Broker is about to destroy the plug-in.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tssbx/nf-tssbx-iwtssbplugin-wtssbx_getmostsuitableserver">WTSSBX_GetMostSuitableServer</a>
-</td>
-<td align="left" width="63%">
-Returns the ID of the server to which TS Session Broker should direct the incoming connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tssbx/nf-tssbx-iwtssbplugin-wtssbx_getuserexternalsession">WTSSBX_GetUserExternalSession</a>
-</td>
-<td align="left" width="63%">
-Directs an incoming connection to an external computing resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tssbx/nf-tssbx-iwtssbplugin-wtssbx_machinechangenotification">WTSSBX_MachineChangeNotification</a>
-</td>
-<td align="left" width="63%">
-Notifies the plug-in that a change occurred in the server environment.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tssbx/nf-tssbx-iwtssbplugin-wtssbx_sessionchangenotification">WTSSBX_SessionChangeNotification</a>
-</td>
-<td align="left" width="63%">
-Notifies the plug-in that a change, such as a logon, logoff, disconnect, or reconnect, occurred in a user session.
-
-</td>
-</tr>
-</table>
+The <b>IWTSSBPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSSBPlugin</b> also has these types of members:
 
 ## -remarks
 

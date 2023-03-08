@@ -52,11 +52,10 @@ api_name:
 
 This operation positions the Writer at the end of the specified buffer.
       
-        When an XML Writer has an XML Buffer set as output the Writer can be used in a "random access" fashion and
-        the functions <a href="/windows/desktop/api/webservices/nf-webservices-wsgetwriterposition">WsGetWriterPosition</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wssetwriterposition">WsSetWriterPosition</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsmovewriter">WsMoveWriter</a> can be used.
-      Properties
-        specified for this function override those specified with the <code>WsCreateWriter</code> function. <div class="alert"><b>Note</b>  See <a href="/windows/desktop/api/webservices/nf-webservices-wscreatewriter">WsCreateWriter</a> for the default values of the properties of the writer.
-      </div>
+When an XML Writer has an XML Buffer set as output the Writer can be used in a "random access" fashion and the functions <a href="/windows/desktop/api/webservices/nf-webservices-wsgetwriterposition">WsGetWriterPosition</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wssetwriterposition">WsSetWriterPosition</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsmovewriter">WsMoveWriter</a> can be used.
+
+Properties specified for this function override those specified with the <code>WsCreateWriter</code> function. <div class="alert"><b>Note</b>  See <a href="/windows/desktop/api/webservices/nf-webservices-wscreatewriter">WsCreateWriter</a> for the default values of the properties of the writer.
+</div>
 <div> </div>
 
 ## -parameters

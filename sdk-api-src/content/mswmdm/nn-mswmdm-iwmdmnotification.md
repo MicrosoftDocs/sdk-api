@@ -58,29 +58,7 @@ This interface GUID is not properly defined in mssachlp.lib; therefore, you must
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMNotification</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWMDMNotification</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmnotification-wmdmmessage">WMDMMessage</a>
-</td>
-<td align="left" width="63%">
-Called by Windows Media Device Manager when a device or storage medium is connected or removed.
-
-</td>
-</tr>
-</table>
+The <b>IWMDMNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMNotification</b> also has these types of members:
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:workspaceruntime.IWorkspaceScriptable2
 title: IWorkspaceScriptable2 (workspaceruntime.h)
-description: Exposes methods that manage RemoteApp and Desktop Connection credentials and connections.
+description: Exposes methods that manage RemoteApp and Desktop Connection credentials and connections. (IWorkspaceScriptable2)
 helpviewer_keywords: ["IWorkspaceScriptable2","IWorkspaceScriptable2 interface [Remote Desktop Services]","IWorkspaceScriptable2 interface [Remote Desktop Services]","described","termserv.iworkspacescriptable2","workspaceruntime/IWorkspaceScriptable2"]
 old-location: termserv\iworkspacescriptable2.htm
 tech.root: TermServ
@@ -54,35 +54,5 @@ Exposes methods that manage RemoteApp and Desktop Connection credentials and con
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceScriptable2</b> interface inherits from <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable">IWorkspaceScriptable</a>. <b>IWorkspaceScriptable2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWorkspaceScriptable2</b> interface inherits from <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable">IWorkspaceScriptable</a>. <b>IWorkspaceScriptable2</b> also has these types of members:
 
-## -members
-
-The <b>IWorkspaceScriptable2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable2-resourcedismissed">ResourceDismissed</a>
-</td>
-<td align="left" width="63%">
-Alerts the user when a resource has been dismissed or is otherwise unavailable. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable2-startworkspaceex">StartWorkspaceEx</a>
-</td>
-<td align="left" width="63%">
-Associates user credentials and certificates with a connection ID; also contains additional security and UI elements.
-
-</td>
-</tr>
-</table>

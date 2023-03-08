@@ -64,56 +64,7 @@ Client applications can call only the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemHiPerfEnum</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemHiPerfEnum</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWbemHiPerfEnum</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemhiperfenum-addobjects">AddObjects</a>
-</td>
-<td align="left" width="63%">
-Adds objects with assigned identifiers.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemhiperfenum-getobjects">GetObjects</a>
-</td>
-<td align="left" width="63%">
-Retrieves objects from the enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemhiperfenum-removeall">RemoveAll</a>
-</td>
-<td align="left" width="63%">
-Removes all objects from the enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemhiperfenum-removeobjects">RemoveObjects</a>
-</td>
-<td align="left" width="63%">
-Remove objects with the specified identifiers.
-
-</td>
-</tr>
-</table>
+The <b>IWbemHiPerfEnum</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemHiPerfEnum</b> also has these types of members:
 
 ## -see-also
 

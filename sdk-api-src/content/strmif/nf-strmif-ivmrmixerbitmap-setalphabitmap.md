@@ -57,7 +57,7 @@ The <b>SetAlphaBitmap</b> method specifies a new bitmap image and the source loc
 
 ### -param pBmpParms [in]
 
-A oointer to a [VMRALPHABITMAP](/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure that contains information about the bitmap.
+A pointer to a [VMRALPHABITMAP](/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure that contains information about the bitmap.
 
 ## -returns
 
@@ -132,7 +132,7 @@ The method might return <b>E_INVALIDARG</b> for several reasons:
 
 
 
-<a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap Interface</a>
+<a href="/windows/win32/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap Interface</a>
 
 
 

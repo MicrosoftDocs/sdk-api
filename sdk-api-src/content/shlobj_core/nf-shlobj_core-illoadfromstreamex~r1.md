@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.ILLoadFromStreamEx~r1
 title: ILLoadFromStreamEx
-ms.date: 01/30/19
+description: The ILLoadFromStreamEx function loads an ITEMIDLIST from an IStream. (ILLoadFromStreamEx r1)
+ms.date: 08/02/2022
 ms.keywords: ILLoadFromStreamEx
 targetos: Windows
 req.assembly: 
@@ -17,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -31,7 +32,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - shlobj_core.h
 api_name:
@@ -71,7 +71,7 @@ When this method returns and succeeds, contains the resulting relative
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

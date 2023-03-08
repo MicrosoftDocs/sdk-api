@@ -54,35 +54,35 @@ Specifies the compression control mode for a Dolby AC-3 or Dolby Enhanced AC-3 a
 
 ## -enum-fields
 
-### -field eAVDecDDOperationalMode_NONE
+### -field eAVDecDDOperationalMode_NONE:0
 
 No dynamic range control or dialogue normalization (dialnorm). This mode should be used only for signal tests.
 
-### -field eAVDecDDOperationalMode_LINE
+### -field eAVDecDDOperationalMode_LINE:1
 
 Line mode. Dialnorm is enabled with a reference level of -31 decibels full scale (dBFS). Dynamic range control is applied, and high-level/low-level scaling is enabled. To set the high-level scaling factor, set the <a href="/windows/desktop/DirectShow/avdecdddynamicrangescalehigh-property">AVDecDDDynamicRangeScaleHigh</a> property. To set the low-level scaling factor, set the <a href="/windows/desktop/DirectShow/avdecdddynamicrangescalelow-property">AVDecDDDynamicRangeScaleLow</a> property.
 
-### -field eAVDecDDOperationalMode_RF
+### -field eAVDecDDOperationalMode_RF:2
 
 RF mode. Dialnorm is enabled with a reference level of -20 dBFS. Dynamic range control is applied. High-level/low-level scaling is disabled; instead, the maximum dynamic range reduction is applied.
 
-### -field eAVDecDDOperationalMode_CUSTOM0
+### -field eAVDecDDOperationalMode_CUSTOM0:3
 
 Custom mode 0 (analog dialnorm).
 
-### -field eAVDecDDOperationalMode_CUSTOM1
+### -field eAVDecDDOperationalMode_CUSTOM1:4
 
 Custom mode 1 (digital dialnorm).
 
-### -field eAVDecDDOperationalMode_PORTABLE8
+### -field eAVDecDDOperationalMode_PORTABLE8:5
 
 Dialnorm enabled, dialogue at -8dBFS. Dynamic range and compression used. High-level/low-level scaling is not allowed (always fully compressed).
 
-### -field eAVDecDDOperationalMode_PORTABLE11
+### -field eAVDecDDOperationalMode_PORTABLE11:6
 
 Dialnorm enabled, dialogue at -11dBFS. Dynamic range and compression used. High-level/low-level scaling is not allowed (always fully compressed).
 
-### -field eAVDecDDOperationalMode_PORTABLE14
+### -field eAVDecDDOperationalMode_PORTABLE14:7 
 
 Dialnorm enabled, dialogue at -14dBFS. Dynamic range and compression used. High-level/low-level scaling is not allowed (always fully compressed).
 

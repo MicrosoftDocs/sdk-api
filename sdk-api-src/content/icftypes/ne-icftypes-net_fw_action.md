@@ -1,7 +1,7 @@
 ---
 UID: NE:icftypes.NET_FW_ACTION_
 title: NET_FW_ACTION (icftypes.h)
-description: Specifies the action for a rule or default setting.
+description: Specifies the action for a rule or default setting. (NET_FW_ACTION)
 helpviewer_keywords: ["NET_FW_ACTION","NET_FW_ACTION enumeration [ICS/ICF]","NET_FW_ACTION_ALLOW","NET_FW_ACTION_BLOCK","NET_FW_ACTION_MAX","icftypes/NET_FW_ACTION","icftypes/NET_FW_ACTION_ALLOW","icftypes/NET_FW_ACTION_BLOCK","icftypes/NET_FW_ACTION_MAX","ics.net_fw_action"]
 old-location: ics\net_fw_action.htm
 tech.root: ics
@@ -56,7 +56,7 @@ The <b>NET_FW_ACTION</b> enumerated type specifies the action for a rule or defa
 
 ## -enum-fields
 
-### -field NET_FW_ACTION_BLOCK
+### -field NET_FW_ACTION_BLOCK:0
 
 Block traffic.
 

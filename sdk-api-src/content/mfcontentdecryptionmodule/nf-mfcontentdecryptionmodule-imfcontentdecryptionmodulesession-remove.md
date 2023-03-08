@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleSession.Remove
 title: IMFContentDecryptionModuleSession::Remove
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Removes all licenses and keys associated with the session.
 tech.root: mf
@@ -44,13 +43,15 @@ dev_langs:
 
 Removes all licenses and keys associated with the session.
 
+
+
 ## -returns
 
 Returns S_OK on success.
 
 ## -remarks
 
-For persistent session types, other session data will be cleared as defined for each session type once a release message acknowledgment is processed by [Update](nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-update).
+For persistent session types, other session data will be cleared as defined for each session type once a release message acknowledgment is processed by [Update](nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-update.md).
 
 
 **Remove** is based on the Encrypted Media Extension specification's [MediaKeySession.remove](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeysession-remove).

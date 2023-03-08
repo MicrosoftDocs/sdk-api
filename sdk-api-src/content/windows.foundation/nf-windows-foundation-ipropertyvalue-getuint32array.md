@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt32Array
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetUInt32Array (windows.foundation.h)
 description: Gets the array of unsigned 32-bit integer values that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetUInt32Array","GetUInt32Array method [Windows Runtime]","GetUInt32Array method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetUInt32Array method","IPropertyValue.GetUInt32Array","IPropertyValue.IPropertyValue","IPropertyValue::GetUInt32Array","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetUInt32Array","winrt.ipropertyvalue_getuint32array"]
 old-location: winrt\ipropertyvalue_getuint32array.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetUInt32Array
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetUInt32Array (windows.foundation.h)
 
 
 ## -description
@@ -72,7 +72,7 @@ The returned pointer must be freed using <a href="/windows/desktop/api/combaseap
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

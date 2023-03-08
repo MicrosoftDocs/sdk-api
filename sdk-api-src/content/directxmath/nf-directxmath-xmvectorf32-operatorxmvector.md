@@ -53,6 +53,8 @@ The operator **XMVECTOR** returns the instance of **XMVECTOR** implementing the 
 
 <div class="alert"><b>Note</b>  This operator is only available for C++ based development.</div>
 
+
+
 ## -remarks
 
 Returns the instance of **XMVECTOR** implementing the current instance of **XMVECTORF32**.

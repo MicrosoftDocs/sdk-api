@@ -54,74 +54,7 @@ The <b>IDsAdminNewObjExt</b> interface is implemented by an object creation wiza
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsAdminNewObjExt</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminNewObjExt</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDsAdminNewObjExt</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-addpages">AddPages</a>
-</td>
-<td align="left" width="63%">
-Called to enable the object creation wizard extension to add the desired  pages to the wizard.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-getsummaryinfo">GetSummaryInfo</a>
-</td>
-<td align="left" width="63%">
-Obtains a string that contains a summary of the data gathered by the new object wizard extension page.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes an object creation wizard extension.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-onerror">OnError</a>
-</td>
-<td align="left" width="63%">
-Called when an error occurs in the wizard pages.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-setobject">SetObject</a>
-</td>
-<td align="left" width="63%">
-Provides the object creation extension with a pointer to the  object created.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-writedata">WriteData</a>
-</td>
-<td align="left" width="63%">
-Enables the object creation wizard extension to write its data into the object.
-
-</td>
-</tr>
-</table>
+The <b>IDsAdminNewObjExt</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminNewObjExt</b> also has these types of members:
 
 ## -see-also
 

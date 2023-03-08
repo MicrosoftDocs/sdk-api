@@ -54,19 +54,19 @@ Changes entries in a DirectDrawPalette object immediately.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Currently not used and must be set to 0.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 First entry to be set.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Number of palette entries to be changed.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 An array of <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures that contains the palette entries that <b>SetEntries</b> uses to change the DirectDrawPalette object. The palette entries are 1 byte each if the DDPCAPS_8BITENTRIES flag is set, and 4 bytes otherwise. Each field is a color description.
 
@@ -88,7 +88,7 @@ If it fails, the method can return one of the following error values:
 
 ## -remarks
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>SetEntries</b> method.
+
 
 ## -see-also
 

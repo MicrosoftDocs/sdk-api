@@ -65,40 +65,5 @@ If an administrator takes ownership of the group, the notification callbacks are
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyCallback1</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyCallback1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IBackgroundCopyCallback1</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyCallback1</b> also has these types of members:
 
-## -members
-
-The <b>IBackgroundCopyCallback1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>OnProgress</b></td>
-<td align="left" width="63%">
-Not called.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>OnProgressEx</b></td>
-<td align="left" width="63%">
-Not called.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopycallback1-onstatus">OnStatus</a>
-</td>
-<td align="left" width="63%">
-Notifies an application when a group is complete or an error occurs.
-
-</td>
-</tr>
-</table>

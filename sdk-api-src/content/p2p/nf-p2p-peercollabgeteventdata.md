@@ -60,7 +60,7 @@ The peer collaboration network event handle obtained by a call to <a href="/wind
 
 ### -param ppEventData [out]
 
-Pointer to a list of [PEER_COLLAB_EVENT_DATA](./ns-p2p-peer_collab_event_data~r1.md) structures that contain data about the peer collaboration network event. These data structures must be freed after use by calling <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
+Pointer to a list of [PEER_COLLAB_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_collab_event_data-r1) structures that contain data about the peer collaboration network event. These data structures must be freed after use by calling <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 ## -returns
 

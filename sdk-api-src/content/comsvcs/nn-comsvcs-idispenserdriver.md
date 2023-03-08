@@ -54,74 +54,7 @@ Is called by the holder of the <a href="/windows/desktop/cossdk/com--resource-di
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDispenserDriver</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDispenserDriver</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDispenserDriver</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-createresource">CreateResource</a>
-</td>
-<td align="left" width="63%">
-Creates a resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-destroyresource">DestroyResource</a>
-</td>
-<td align="left" width="63%">
-Destroys a resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-destroyresources">DestroyResourceS</a>
-</td>
-<td align="left" width="63%">
-Destroys a resource (string resource version).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-enlistresource">EnlistResource</a>
-</td>
-<td align="left" width="63%">
-Enlists a resource in a transaction.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-rateresource">RateResource</a>
-</td>
-<td align="left" width="63%">
-Evaluates how well a candidate resource matches.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-resetresource">ResetResource</a>
-</td>
-<td align="left" width="63%">
-Prepares the resource to be put back into general or enlisted inventory.
-
-</td>
-</tr>
-</table>
+The <b>IDispenserDriver</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDispenserDriver</b> also has these types of members:
 
 ## -see-also
 

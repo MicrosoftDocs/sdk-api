@@ -59,53 +59,5 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumDialableAddrs</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumDialableAddrs</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumDialableAddrs</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumDialableAddrs</b> also has these types of members:
 
-## -members
-
-The <b>IEnumDialableAddrs</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rend/nf-rend-ienumdialableaddrs-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates another enumerator that contains the same enumeration state as the current one.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rend/nf-rend-ienumdialableaddrs-next">Next</a>
-</td>
-<td align="left" width="63%">
-Gets the next specified number of elements in the enumeration sequence.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rend/nf-rend-ienumdialableaddrs-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets to the beginning of the enumeration sequence.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/rend/nf-rend-ienumdialableaddrs-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips over the next specified number of elements in the enumeration sequence.
-
-</td>
-</tr>
-</table>

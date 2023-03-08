@@ -52,11 +52,10 @@ api_name:
 
 # FILE_RENAME_INFO structure
 
-
 ## -description
 
-Contains the name to which the file should be renamed. Use only when calling 
-   <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>.
+Contains the target name to which the source file should be renamed. Use only when calling
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>.
 
 ## -struct-fields
 
@@ -64,30 +63,32 @@ Contains the name to which the file should be renamed. Use only when calling
 
 ### -field DUMMYUNIONNAME.ReplaceIfExists
 
-<b>TRUE</b> to replace the file; otherwise, <b>FALSE</b>.
+This field is used when **SetFileInformationByHandle**'s *FileInformationClass* parameter is set to **FileRenameInfo**.
+If this field is **TRUE** and the target file exists then the target file will be replaced by the source file. If this
+field is **FALSE** and the target file exists then  operation will return an error.
 
 ### -field DUMMYUNIONNAME.Flags
 
-### -field ReplaceIfExists
-
-<b>TRUE</b> to replace the file; otherwise, <b>FALSE</b>.
+This field is used when **SetFileInformationByHandle**'s *FileInformationClass* parameter is set to **FileRenameInfoEx**.
 
 ### -field RootDirectory
 
-A handle to the root directory in which the file to be renamed is located.
+This field should be set to NULL.
 
 ### -field FileNameLength
 
-The size of <b>FileName</b> in bytes.
+The size of **FileName** in bytes, not including the NUL-termination.
 
 ### -field FileName
 
-The new file name.
+A NUL-terminated wide-character string containing the new path to the file. The value can be one of the following:
+
+- An absolute path (drive, directory, and filename).
+- A path relative to the process's current directory.
+- The new name of an NTFS file stream, starting with `:`.
 
 ## -see-also
 
 <a href="/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
-
-
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>

@@ -46,6 +46,7 @@ api_location:
  - ie_stubs.dll
 api_name:
  - GetCaretBlinkTime
+req.apiset: ext-ms-win-ntuser-caret-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetCaretBlinkTime function
@@ -56,7 +57,7 @@ api_name:
 Retrieves the time required to invert the caret's pixels.
           The user can set this value.
 
-## -parameters
+
 
 ## -returns
 

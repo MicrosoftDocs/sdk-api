@@ -46,6 +46,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
 api_name:
  - DisplayConfigSetDeviceInfo
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DisplayConfigSetDeviceInfo function

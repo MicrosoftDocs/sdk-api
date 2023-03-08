@@ -54,15 +54,15 @@ Creates a DirectDrawClipper object.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Currently not used and must be set to 0.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 Address of a variable to be set to a valid <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawclipper">IDirectDrawClipper</a> interface pointer if the call succeeds.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Allows for future compatibility with COM aggregation features. Currently this method returns an error if this parameter is not NULL.
 
@@ -87,7 +87,7 @@ The DirectDrawClipper object can be attached to a DirectDrawSurface and used dur
 
 To create a DirectDrawClipper object that is not owned by a specific DirectDraw object, use the <a href="/windows/desktop/api/ddraw/nf-ddraw-directdrawcreateclipper">DirectDrawCreateClipper</a> function.
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>CreateClipper</b> method.
+
 
 ## -see-also
 

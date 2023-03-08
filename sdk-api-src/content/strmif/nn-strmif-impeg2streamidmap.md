@@ -53,48 +53,9 @@ api_name:
 
 This interface is implemented on each output pin of the <a href="/windows/desktop/DirectShow/mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> filter (Demux) and is used in program stream mode only. It is called by applications or other filters to associate the pin with a specified Stream ID and to inform the pin whether substream filtering is required on the stream. This interface is not exposed when the filter is playing back a file (pull-mode).
 
-For transport streams, use the <a href="/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap</a> interface.
+For transport streams, use the <a href="/previous-versions/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2StreamIdMap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMPEG2StreamIdMap</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMPEG2StreamIdMap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMPEG2StreamIdMap</b> also has these types of members:
 
-## -members
-
-The <b>IMPEG2StreamIdMap</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-impeg2streamidmap-enumstreamidmap">EnumStreamIdMap</a>
-</td>
-<td align="left" width="63%">
-Returns a collection of all the mapped Stream IDs on this pin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-impeg2streamidmap-mapstreamid">MapStreamId</a>
-</td>
-<td align="left" width="63%">
-Maps the Stream ID of an elementary stream within an MPEG-2 program stream to a media content type and substream filtering information.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-impeg2streamidmap-unmapstreamid">UnmapStreamId</a>
-</td>
-<td align="left" width="63%">
-Unmaps the Stream ID mapping created in a previous call to <b>MapStreamId</b>.
-
-</td>
-</tr>
-</table>

@@ -54,47 +54,10 @@ The <b>IBDA_PinControl</b> interface is exposed on a BDA device filter's pins. A
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_PinControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_PinControl</b> also has these types of members:
+The <b>IBDA_PinControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_PinControl</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IBDA_PinControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_pincontrol-getpinid">GetPinID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the identifier of the pin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_pincontrol-getpintype">GetPinType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the type of the pin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_pincontrol-registrationcontext">RegistrationContext</a>
-</td>
-<td align="left" width="63%">
-Retrieves the registration context of a particular pin.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

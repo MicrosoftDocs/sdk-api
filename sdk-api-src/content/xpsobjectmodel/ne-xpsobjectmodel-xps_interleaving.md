@@ -56,7 +56,7 @@ Specifies whether the content of the XPS OM will be interleaved when it is writt
 
 ## -enum-fields
 
-### -field XPS_INTERLEAVING_OFF
+### -field XPS_INTERLEAVING_OFF:1
 
 The content of the XPS OM is not interleaved. The document parts are written as complete parts.
 
@@ -70,5 +70,5 @@ The content of the XPS OM is interleaved. The document parts are divided into sm
 
 
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 

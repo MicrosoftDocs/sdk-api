@@ -54,26 +54,5 @@ The <b>ITfFnConfigureRegisterEudc</b> interface is implemented by a text service
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnConfigureRegisterEudc</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnConfigureRegisterEudc</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITfFnConfigureRegisterEudc</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnConfigureRegisterEudc</b> also has these types of members:
 
-## -members
-
-The <b>ITfFnConfigureRegisterEudc</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnconfigureregistereudc-show">Show</a>
-</td>
-<td align="left" width="63%">
-Show the EUDC key sequence register UI.
-
-</td>
-</tr>
-</table>

@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Contains context menu information that is passed to the <a href="https://msdn.microsoft.com/760e0c36-f125-470d-b2eb-c72ed27611e1">IRichEditOleCallback::GetContextMenu</a> method.
+Contains context menu information that is passed to the <a href="/windows/win32/api/richole/nf-richole-iricheditolecallback-getcontextmenu">IRichEditOleCallback::GetContextMenu</a> method.
 
 ## -struct-fields
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a></b>
 
 The character-position range in the active display.
 
@@ -120,7 +120,7 @@ Get the context menu that is invoked by touch.
 
 ### -field pt
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The screen coordinates for the content menu.
 
@@ -132,4 +132,4 @@ Not used; must be zero.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/760e0c36-f125-470d-b2eb-c72ed27611e1">IRichEditOleCallback::GetContextMenu</a>
+<a href="/windows/win32/api/richole/nf-richole-iricheditolecallback-getcontextmenu">IRichEditOleCallback::GetContextMenu</a>

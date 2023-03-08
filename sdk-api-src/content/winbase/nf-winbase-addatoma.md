@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.AddAtomA
 title: AddAtomA function (winbase.h)
-description: Adds a character string to the local atom table and returns a unique value (an atom) identifying the string.
-helpviewer_keywords: ["AddAtom","AddAtom function [Data Exchange]","AddAtomA","AddAtomW","_win32_AddAtom","_win32_addatom_cpp","dataxchg.addatom","winbase/AddAtom","winbase/AddAtomA","winbase/AddAtomW","winui._win32_addatom"]
+description: Adds a character string to the local atom table and returns a unique value (an atom) identifying the string. (ANSI)
+helpviewer_keywords: ["AddAtomA", "winbase/AddAtomA"]
 old-location: dataxchg\addatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\addatom.htm

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFRealTimeClientEx.UnregisterThreads
 title: IMFRealTimeClientEx::UnregisterThreads (mfidl.h)
-description: Notifies the object to unregister its worker threads from the Multimedia Class Scheduler Service (MMCSS).
+description: Notifies the object to unregister its worker threads from the Multimedia Class Scheduler Service (MMCSS). (IMFRealTimeClientEx.UnregisterThreads)
 helpviewer_keywords: ["IMFRealTimeClientEx interface [Media Foundation]","UnregisterThreads method","IMFRealTimeClientEx.UnregisterThreads","IMFRealTimeClientEx::UnregisterThreads","UnregisterThreads","UnregisterThreads method [Media Foundation]","UnregisterThreads method [Media Foundation]","IMFRealTimeClientEx interface","mf.imfrealtimeclientex_unregisterthreads","mfidl/IMFRealTimeClientEx::UnregisterThreads"]
 old-location: mf\imfrealtimeclientex_unregisterthreads.htm
 tech.root: mf
@@ -52,11 +52,11 @@ api_name:
 
 Notifies the object to unregister its worker threads from the Multimedia Class Scheduler Service (MMCSS).
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -60,7 +60,7 @@ A <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAss
 
 ### -param rgKeys [out]
 
-A pointer to an array of <b>HKEY</b> elements that, when this function returns successfully, receives the retrived class subkeys.
+A pointer to an array of <b>HKEY</b> elements that, when this function returns successfully, receives the retrieved class subkeys.
 
 ### -param cKeys
 

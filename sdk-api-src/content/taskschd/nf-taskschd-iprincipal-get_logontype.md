@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IPrincipal.get_LogonType
 title: IPrincipal::get_LogonType (taskschd.h)
-description: Gets or sets the security logon method that is required to run the tasks that are associated with the principal.
+description: Gets or sets the security logon method that is required to run the tasks that are associated with the principal. (Get)
 helpviewer_keywords: ["IPrincipal interface [Task Scheduler]","LogonType property","IPrincipal.LogonType","IPrincipal.get_LogonType","IPrincipal::LogonType","IPrincipal::get_LogonType","IPrincipal::put_LogonType","LogonType property [Task Scheduler]","LogonType property [Task Scheduler]","IPrincipal interface","TASK_LOGON_GROUP","TASK_LOGON_INTERACTIVE_TOKEN","TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD","TASK_LOGON_NONE","TASK_LOGON_PASSWORD","TASK_LOGON_S4U","TASK_LOGON_SERVICE_ACCOUNT","get_LogonType","taskschd.iprincipal_logontype","taskschd/IPrincipal::LogonType","taskschd/IPrincipal::get_LogonType","taskschd/IPrincipal::put_LogonType"]
 old-location: taskschd\iprincipal_logontype.htm
 tech.root: taskschd
@@ -62,7 +62,7 @@ This property is read/write.
 
 This property is valid only when a user identifier is specified by the <a href="/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_userid">UserId</a> property.
 
-When reading or writing XML for a task, the logon type is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-logontype-principaltype-element"><LogonType></a> element of the Task Scheduler schema.
+When reading or writing XML for a task, the logon type is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-logontype-principaltype-element">&lt;LogonType&gt;</a> element of the Task Scheduler schema.
 
 For a task, that contains a message box action, the message box will be displayed if the task is activated and the task has an interactive logon type.  To set the task logon type to be interactive, specify <b>TASK_LOGON_INTERACTIVE_TOKEN</b> or  <b>TASK_LOGON_GROUP</b> in the <b>LogonType</b> property of the task principal, or in the <i>logonType</i> parameter of <a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask">ITaskFolder::RegisterTask</a> or <a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition">ITaskFolder::RegisterTaskDefinition</a>. 
 

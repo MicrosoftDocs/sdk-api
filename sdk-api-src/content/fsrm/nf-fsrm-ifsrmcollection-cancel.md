@@ -53,7 +53,7 @@ api_name:
 Cancels the collection of objects when the objects are collected asynchronously.<div class="alert"><b>Note</b>  Asynchronous collections are not supported by FSRM, therefore this method is not implemented in the FSRM library.</div>
 <div> </div>
 
-## -parameters
+
 
 ## -returns
 

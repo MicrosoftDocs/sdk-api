@@ -54,83 +54,10 @@ The <b>IMSVidStreamBufferSource</b> interface represents the Stream Buffer Sourc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSource</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>. <b>IMSVidStreamBufferSource</b> also has these types of members:
+The <b>IMSVidStreamBufferSource</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>. <b>IMSVidStreamBufferSource</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMSVidStreamBufferSource</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-currentratings">CurrentRatings</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current ratings information from the data source.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-get_recordingattribute">get_RecordingAttribute</a>
-</td>
-<td align="left" width="63%">
-Retrieves the Stream Buffer Source filter that this object manages.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-get_sbesource">get_SBESource</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to the Stream Buffer Source filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-get_start">get_Start</a>
-</td>
-<td align="left" width="63%">
-Retrieves the start time.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-maxratingslevel">MaxRatingsLevel</a>
-</td>
-<td align="left" width="63%">
-Specifies the maximum ratings level the object is permitted to play.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_blockunrated">put_BlockUnrated</a>
-</td>
-<td align="left" width="63%">
-Specifies whether to block unrated content.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_unrateddelay">put_UnratedDelay</a>
-</td>
-<td align="left" width="63%">
-Specifies the amount of time to play unrated content before blocking it.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

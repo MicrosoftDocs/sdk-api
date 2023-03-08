@@ -53,6 +53,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - SetTimer
+req.apiset: ext-ms-win-ntuser-window-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SetTimer function
@@ -109,8 +110,8 @@ The <i>wParam</i> parameter of the <a href="/windows/desktop/winmsg/wm-timer">WM
 The timer identifier, <i>nIDEvent</i>, is specific to the associated window. Another window can have its own timer which has the same identifier as a timer owned by another window. The timers are distinct. 
 
 <b>SetTimer</b> can reuse timer IDs in the case where <i>hWnd</i> is <b>NULL</b>. 
-			
-
+	
+Before using **SetTimer** or other timer-related functions, it is recommended to set the **UOI_TIMERPROC_EXCEPTION_SUPPRESSION** flag to **false** through the **SetUserObjectInformationW** function, otherwise the application could behave unpredictably and could be vulnerable to security exploits. For more info, see <a href="/windows/win32/api/winuser/nf-winuser-setuserobjectinformationw">SetUserObjectInformationW</a>.
 
 #### Examples
 
@@ -149,3 +150,5 @@ For an example, see <a href="/windows/desktop/winmsg/using-timers">Creating a Ti
 
 
 <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a>
+
+<a href="/windows/win32/api/winuser/nf-winuser-setcoalescabletimer">SetCoalescableTimer</a>

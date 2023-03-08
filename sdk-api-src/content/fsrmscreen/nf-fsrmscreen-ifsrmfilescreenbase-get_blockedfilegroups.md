@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.get_BlockedFileGroups
 title: IFsrmFileScreenBase::get_BlockedFileGroups (fsrmscreen.h)
-description: Retrieves or sets the names of the file groups that contain the file name patterns used to specify the files that are blocked by this screen.
+description: Retrieves or sets the names of the file groups that contain the file name patterns used to specify the files that are blocked by this screen. (Get)
 helpviewer_keywords: ["BlockedFileGroups property [File Server Resource Manager]","BlockedFileGroups property [File Server Resource Manager]","IFsrmFileScreenBase interface","IFsrmFileScreenBase interface [File Server Resource Manager]","BlockedFileGroups property","IFsrmFileScreenBase.BlockedFileGroups","IFsrmFileScreenBase.get_BlockedFileGroups","IFsrmFileScreenBase::BlockedFileGroups","IFsrmFileScreenBase::get_BlockedFileGroups","IFsrmFileScreenBase::put_BlockedFileGroups","fs.ifsrmfilescreenbase_blockedfilegroups","fsrm.ifsrmfilescreenbase_blockedfilegroups","fsrmscreen/IFsrmFileScreenBase::BlockedFileGroups","fsrmscreen/IFsrmFileScreenBase::get_BlockedFileGroups","fsrmscreen/IFsrmFileScreenBase::put_BlockedFileGroups","get_BlockedFileGroups"]
 old-location: fsrm\ifsrmfilescreenbase_blockedfilegroups.htm
 tech.root: fsrm

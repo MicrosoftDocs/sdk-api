@@ -71,7 +71,7 @@ Specifies the relative aperture setting. To get the range of possible values, ca
 <td>Set the default aperture setting, which is implementation dependent.</td>
 </tr>
 <tr>
-<td>Postive value</td>
+<td>Positive value</td>
 <td>Open the iris one step.</td>
 </tr>
 <tr>
@@ -82,7 +82,7 @@ Specifies the relative aperture setting. To get the range of possible values, ca
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="/windows/win32/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 ## -returns
 

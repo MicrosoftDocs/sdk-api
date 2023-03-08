@@ -58,13 +58,13 @@ Retrieves the DirectML device that was used to create this object.
 
 Type: <b>REFIID</b>
 
-A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppv</i>. This is expected to be the GUID of [IDMLDevice](/windows/desktop/api/directml/nn-directml-idmldevice).
+A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppv</i>. This is expected to be the GUID of [IDMLDevice](/windows/win32/api/directml/nn-directml-idmldevice).
 
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
-A pointer to a memory block that receives a pointer to the DirectML device. This is the address of a pointer to an [IDMLDevice](/windows/desktop/api/directml/nn-directml-idmldevice), representing  the DirectML device.
+A pointer to a memory block that receives a pointer to the DirectML device. This is the address of a pointer to an [IDMLDevice](/windows/win32/api/directml/nn-directml-idmldevice), representing  the DirectML device.
 
 ## -returns
 
@@ -74,5 +74,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild)
-
+[IDMLDeviceChild](/windows/win32/api/directml/nn-directml-idmldevicechild)

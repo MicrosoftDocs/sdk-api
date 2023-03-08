@@ -47,11 +47,11 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::DeleteConfig </b>method deletes configuration information about a joystick.
+The <b>IDirectInputJoyConfig8::DeleteConfig </b> method deletes configuration information about a joystick.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Indicates a zero-based joystick identification number.
 

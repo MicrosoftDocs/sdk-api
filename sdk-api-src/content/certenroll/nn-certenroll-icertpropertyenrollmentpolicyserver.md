@@ -57,7 +57,7 @@ The following list identifies the policy data managed by this interface and whic
 <li>The CEP client authentication method.</li>
 <li>The CES client authentication method.</li>
 <li>The CEP URL.</li>
-<li>The CES URL</li>
+<li>The CES URL.</li>
 <li>The CEP ID.</li>
 <li>The request ID string.</li>
 </ul>In addition to the preceding policy information, a CEP web service also queries Active Directory for collections of available certification authorities, certificate templates, and custom object identifiers. These collections can be retrieved by using the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> interface.
@@ -65,101 +65,7 @@ The following list identifies the policy data managed by this interface and whic
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyEnrollmentPolicyServer</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyEnrollmentPolicyServer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICertPropertyEnrollmentPolicyServer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getauthentication">GetAuthentication</a>
-</td>
-<td align="left" width="63%">
-Retrieves a value that specifies the type of authentication used by the CEP server to authenticate a client.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getenrollmentserverauthentication">GetEnrollmentServerAuthentication</a>
-</td>
-<td align="left" width="63%">
-Retrieves a value that specifies the type of authentication used by the CES to authenticate a client.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getenrollmentserverurl">GetEnrollmentServerUrl</a>
-</td>
-<td align="left" width="63%">
-Retrieves a string that contains the URL for the certificate enrollment server (CES).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpolicyserverid">GetPolicyServerId</a>
-</td>
-<td align="left" width="63%">
-Retrieves a string that uniquely identifies the CEP server.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpolicyserverurl">GetPolicyServerUrl</a>
-</td>
-<td align="left" width="63%">
-Retrieves a string that contains the URL for the CEP server.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpropertyflags">GetPropertyFlags</a>
-</td>
-<td align="left" width="63%">
-Retrieves a value that specifies the default policy server URL.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getrequestidstring">GetRequestIdString</a>
-</td>
-<td align="left" width="63%">
-Retrieves a unique string identifier for the certificate request sent to the certification authority during enrollment.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-geturlflags">GetUrlFlags</a>
-</td>
-<td align="left" width="63%">
-Retrieves a set of flags that contain miscellaneous policy information about the CEP server.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes an <b>ICertPropertyEnrollmentPolicyServer</b> object.
-
-</td>
-</tr>
-</table>
+The <b>ICertPropertyEnrollmentPolicyServer</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyEnrollmentPolicyServer</b> also has these types of members:
 
 ## -see-also
 

@@ -57,7 +57,7 @@ The <b>ShutDown</b> method is called by the server engine before the server is t
 
 When <b>ShutDown</b> is called, the policy module should clean up and stop. It is guaranteed that no requests will arrive after <b>ShutDown</b> is called.
 
-## -parameters
+
 
 ## -returns
 

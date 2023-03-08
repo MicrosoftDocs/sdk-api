@@ -1,5 +1,5 @@
 ---
-UID: NS:winhttp.__unnamed_struct_4
+UID: NS:winhttp._WINHTTP_AUTOPROXY_OPTIONS
 title: WINHTTP_AUTOPROXY_OPTIONS (winhttp.h)
 description: The WINHTTP_AUTOPROXY_OPTIONS structure is used to indicate to the WinHttpGetProxyForURL function whether to specify the URL of the Proxy Auto-Configuration (PAC) file or to automatically locate the URL with DHCP or DNS queries to the network.
 helpviewer_keywords: ["WINHTTP_AUTOPROXY_AUTO_DETECT","WINHTTP_AUTOPROXY_CONFIG_URL","WINHTTP_AUTOPROXY_NO_CACHE_CLIENT","WINHTTP_AUTOPROXY_NO_CACHE_SVC","WINHTTP_AUTOPROXY_NO_DIRECTACCESS","WINHTTP_AUTOPROXY_OPTIONS","WINHTTP_AUTOPROXY_OPTIONS structure [HTTP]","WINHTTP_AUTOPROXY_RUN_INPROCESS","WINHTTP_AUTOPROXY_RUN_OUTPROCESS_ONLY","WINHTTP_AUTOPROXY_SORT_RESULTS","WINHTTP_AUTO_DETECT_TYPE_DHCP","WINHTTP_AUTO_DETECT_TYPE_DNS_A","http.winhttp_autoproxy_options","winhttp/WINHTTP_AUTOPROXY_OPTIONS"]
@@ -68,7 +68,7 @@ Mechanisms should be used to obtain the PAC file.
 </td>
 <td width="60%">
 Enables proxy detection via autoconfig URL.
-
+<div> </div><div class="alert"><b>Note</b>  Support for this flag was introduced in Windows 10, version 1703 (10.0; Build 15063).</div><div> </div>
 </td>
 </tr>
 <tr>
@@ -78,7 +78,7 @@ Enables proxy detection via autoconfig URL.
 </td>
 <td width="60%">
 Enables proxy detection via connection manager.
-
+<div> </div><div class="alert"><b>Note</b>  Support for this flag was introduced in Windows 10, version 1703 (10.0; Build 15063).</div><div> </div>
 </td>
 </tr>
 <td width="40%"><a id="WINHTTP_AUTOPROXY_ALLOW_STATIC"></a><a id="winhttp_autoproxy_allow_static"></a><dl>
@@ -87,7 +87,7 @@ Enables proxy detection via connection manager.
 </td>
 <td width="60%">
 Enables proxy detection via static configuration.
-
+<div> </div><div class="alert"><b>Note</b>  Support for this flag was introduced in Windows 10, version 1703 (10.0; Build 15063).</div><div> </div>
 </td>
 </tr>
 <tr>

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegGetUSValueW
 title: SHRegGetUSValueW function (shlwapi.h)
-description: Retrieves a value from a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
-helpviewer_keywords: ["SHRegGetUSValue","SHRegGetUSValue function [Windows Shell]","SHRegGetUSValueA","SHRegGetUSValueW","_win32_SHRegGetUSValue","shell.SHRegGetUSValue","shlwapi/SHRegGetUSValue","shlwapi/SHRegGetUSValueA","shlwapi/SHRegGetUSValueW"]
+description: Retrieves a value from a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (Unicode)
+helpviewer_keywords: ["SHRegGetUSValue", "SHRegGetUSValue function [Windows Shell]", "SHRegGetUSValueW", "_win32_SHRegGetUSValue", "shell.SHRegGetUSValue", "shlwapi/SHRegGetUSValue", "shlwapi/SHRegGetUSValueW"]
 old-location: shell\SHRegGetUSValue.htm
 tech.root: shell
 ms.assetid: 4d3b3bbe-dc2e-40c9-8ff1-0f9d2e323743
@@ -76,7 +76,7 @@ A pointer to a null-terminated string with the name of the value. This value can
 
 Type: <b>DWORD*</b>
 
-A pointer to a <b>DWORD</b> that receives the type of data stored in the retrieved value. When using default values, the input <i>pdwType</i> is the type of the default value. For possible values, see <a href="/windows/desktop/shell/schemas">Registry Data Types</a>. If type information is not required, this parameter can be <b>NULL</b>.
+A pointer to a <b>DWORD</b> that receives the type of data stored in the retrieved value. When using default values, the input <i>pdwType</i> is the type of the default value. For possible values, see <a href="/windows/desktop/shell/hkey-type">Registry Data Types</a>. If type information is not required, this parameter can be <b>NULL</b>.
 
 ### -param pvData [out, optional]
 

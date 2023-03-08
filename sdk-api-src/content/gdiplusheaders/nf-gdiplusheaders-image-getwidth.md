@@ -53,7 +53,7 @@ api_name:
 
 The <b>Image::GetWidth</b> method gets the width, in pixels, of this image.
 
-## -parameters
+
 
 ## -returns
 

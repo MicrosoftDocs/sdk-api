@@ -54,74 +54,7 @@ Represents the abstract base class from which progress-driven operations can inh
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActionProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IActionProgress</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IActionProgress</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-begin">Begin</a>
-</td>
-<td align="left" width="63%">
-Called when an action has begun that requires its progress be displayed to the user.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-end">End</a>
-</td>
-<td align="left" width="63%">
-Indicates that the action associated with this progress implementation has ended.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-querycancel">QueryCancel</a>
-</td>
-<td align="left" width="63%">
-Provides information about whether the action is being canceled.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-resetcancel">ResetCancel</a>
-</td>
-<td align="left" width="63%">
-Resets progress dialog after a cancellation has been completed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-updateprogress">UpdateProgress</a>
-</td>
-<td align="left" width="63%">
-Updates the progress of an action to the UI.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-updatetext">UpdateText</a>
-</td>
-<td align="left" width="63%">
-Called if descriptive text associated with the action will be changed.
-
-</td>
-</tr>
-</table>
+The <b>IActionProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IActionProgress</b> also has these types of members:
 
 ## -remarks
 

@@ -64,7 +64,7 @@ The result of the operation.   If the operation fails
 
 A <a href="/windows/desktop/api/webservices/ne-webservices-ws_callback_model">WS_CALLBACK_MODEL</a> value that determines whether the callback is being invoked as a long or short term callback.
 
-### -param *callbackState [in]
+### -param callbackState [in]
 
 A void pointer that corresponds to the value of the <b>callbackState</b> field of 
                     the <a href="/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> structure. This parameter is used to pass user-defined data to the callback function if the operation completes asynchronously.

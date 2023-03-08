@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Attachments
 title: IEmailAction::put_Attachments (taskschd.h)
-description: Gets or sets the pointer to an array of attachments that is sent with the email message.
+description: Gets or sets the pointer to an array of attachments that is sent with the email message. (Put)
 helpviewer_keywords: ["Attachments property [Task Scheduler]","Attachments property [Task Scheduler]","IEmailAction interface","IEmailAction interface [Task Scheduler]","Attachments property","IEmailAction.Attachments","IEmailAction.put_Attachments","IEmailAction::Attachments","IEmailAction::get_Attachments","IEmailAction::put_Attachments","put_Attachments","taskschd.iemailaction_attachments","taskschd/IEmailAction::Attachments","taskschd/IEmailAction::get_Attachments","taskschd/IEmailAction::put_Attachments"]
 old-location: taskschd\iemailaction_attachments.htm
 tech.root: taskschd
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="/powershell/module/3.0/microsoft.powershell.utility/Send-MailMessage">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="/powershell/module/microsoft.powershell.utility/send-mailmessage">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the pointer to an array of attachments that is sent with the email message.
 

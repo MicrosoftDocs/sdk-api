@@ -1,12 +1,12 @@
 ---
 UID: NN:objidlbase.ICancelMethodCalls
 title: ICancelMethodCalls (objidlbase.h)
-description: Manages cancellation requests on an outbound method call and monitors the current state of that method call on the server thread.
+description: The ICancelMethodCalls (objidlbase.h) interface manages cancellation requests on an outbound method call and monitors the current state of that call.
 helpviewer_keywords: ["ICancelMethodCalls","ICancelMethodCalls interface [COM]","ICancelMethodCalls interface [COM]","described","_com_icancelmethodcalls","com.icancelmethodcalls","objidlbase/ICancelMethodCalls"]
 old-location: com\icancelmethodcalls.htm
 tech.root: com
 ms.assetid: 5e31f706-1c9c-4510-845c-4e47093780a1
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: ICancelMethodCalls, ICancelMethodCalls interface [COM], ICancelMethodCalls interface [COM],described, _com_icancelmethodcalls, com.icancelmethodcalls, objidlbase/ICancelMethodCalls
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
@@ -54,38 +54,7 @@ Manages cancellation requests on an outbound method call and monitors the curren
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICancelMethodCalls</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICancelMethodCalls</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICancelMethodCalls</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-cancel">Cancel</a>
-</td>
-<td align="left" width="63%">
-Requests that a method call be canceled.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-testcancel">TestCancel</a>
-</td>
-<td align="left" width="63%">
-Determines whether a call has been canceled.
-
-</td>
-</tr>
-</table>
+The <b>ICancelMethodCalls</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICancelMethodCalls</b> also has these types of members:
 
 ## -see-also
 

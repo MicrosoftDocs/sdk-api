@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLunNaming.SetFriendlyName
 title: IVdsLunNaming::SetFriendlyName (vdshwprv.h)
-description: Sets the friendly name of a LUN.
+description: The IVdsLunNaming::SetFriendlyName (vdshwprv.h) method sets the friendly name of a LUN.
 helpviewer_keywords: ["IVdsLunNaming interface [VDS]","SetFriendlyName method","IVdsLunNaming.SetFriendlyName","IVdsLunNaming::SetFriendlyName","SetFriendlyName","SetFriendlyName method [VDS]","SetFriendlyName method [VDS]","IVdsLunNaming interface","base.ivdslunnaming_setfriendlyname","vds/IVdsLunNaming::SetFriendlyName","vdshwprv/IVdsLunNaming::SetFriendlyName"]
 old-location: base\ivdslunnaming_setfriendlyname.htm
 tech.root: base
 ms.assetid: 233b19f6-dd0e-4033-a03d-0f1f597287a1
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsLunNaming interface [VDS],SetFriendlyName method, IVdsLunNaming.SetFriendlyName, IVdsLunNaming::SetFriendlyName, SetFriendlyName, SetFriendlyName method [VDS], SetFriendlyName method [VDS],IVdsLunNaming interface, base.ivdslunnaming_setfriendlyname, vds/IVdsLunNaming::SetFriendlyName, vdshwprv/IVdsLunNaming::SetFriendlyName
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Sets the friendly name of a LUN.
 

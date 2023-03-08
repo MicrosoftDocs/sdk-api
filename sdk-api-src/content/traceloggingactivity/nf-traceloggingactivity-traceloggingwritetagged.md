@@ -2,51 +2,59 @@
 UID: NF:traceloggingactivity.TraceLoggingWriteTagged
 title: TraceLoggingWriteTagged macro (traceloggingactivity.h)
 description: Logs an event with an associated ETW activity id.
-helpviewer_keywords: ["TraceLoggingWriteTagged","TraceLoggingWriteTagged macro","tracelogging.traceloggingwritetagged","traceloggingactivity/TraceLoggingWriteTagged"]
+helpviewer_keywords:
+  [
+    "TraceLoggingWriteTagged",
+    "TraceLoggingWriteTagged macro",
+    "tracelogging.traceloggingwritetagged",
+    "traceloggingactivity/TraceLoggingWriteTagged",
+  ]
 old-location: tracelogging\traceloggingwritetagged.htm
 tech.root: tracelogging
 ms.assetid: BBDFC2B1-33C6-4D5F-AA7B-91BB2A757B1E
 ms.date: 12/05/2018
-ms.keywords: TraceLoggingWriteTagged, TraceLoggingWriteTagged macro, tracelogging.traceloggingwritetagged, traceloggingactivity/TraceLoggingWriteTagged
+ms.keywords:
+  TraceLoggingWriteTagged, TraceLoggingWriteTagged macro,
+  tracelogging.traceloggingwritetagged,
+  traceloggingactivity/TraceLoggingWriteTagged
 req.header: traceloggingactivity.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2012 R2
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
- - TraceLoggingWriteTagged
- - traceloggingactivity/TraceLoggingWriteTagged
+  - TraceLoggingWriteTagged
+  - traceloggingactivity/TraceLoggingWriteTagged
 dev_langs:
- - c++
+  - c++
 topic_type:
- - APIRef
- - kbSyntax
+  - APIRef
+  - kbSyntax
 api_type:
- - HeaderDef
+  - HeaderDef
 api_location:
- - traceloggingactivity.h
+  - traceloggingactivity.h
 api_name:
- - TraceLoggingWriteTagged
+  - TraceLoggingWriteTagged
 ---
 
 # TraceLoggingWriteTagged macro
-
 
 ## -description
 
@@ -62,11 +70,16 @@ The activity that this method will use to tag the event.
 
 ### -param name [in]
 
-The name of the event. This must be a string literal and not a variable. It cannot have any embedded nul characters.
-
+The name of the event. This must be a string literal and not a variable. It
+cannot have any embedded nul characters.
 
 #### - args [in, optional]
 
-Additional parameters added to the event. The maximum number of optional parameters is 99. All parameters must be wrapper macros as defined in <a href="/windows/desktop/tracelogging/tracelogging-wrapper-macros">TraceLogging Wrapper Macros</a>.
+Additional parameters added to the event. The maximum number of optional
+parameters is 99. All parameters must be wrapper macros as defined in
+[TraceLogging Wrapper Macros](/windows/win32/tracelogging/tracelogging-wrapper-macros).
 
-<b>TraceLoggingWriteTagged</b> does not use the activity’s level or keyword – the default level is 5 (verbose) and the default keyword is 0 (none). Unlike with <b>TraceLoggingWriteStart</b> and <b>TraceLoggingWriteStop</b>, it is ok to use <b>TraceLoggingLevel</b> and <b>TraceLoggingKeyword</b> as args here.
+**TraceLoggingWriteTagged** does not use the activity's level or keyword – the
+default level is 5 (verbose) and the default keyword is 0 (none). Unlike with
+**TraceLoggingWriteStart** and **TraceLoggingWriteStop**, it is ok to use
+**TraceLoggingLevel** and **TraceLoggingKeyword** as args here.

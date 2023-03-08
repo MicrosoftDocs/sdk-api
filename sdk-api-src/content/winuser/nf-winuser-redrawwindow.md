@@ -49,6 +49,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Draw-Ext-L1-1-0.dll
 api_name:
  - RedrawWindow
+req.apiset: ext-ms-win-ntuser-draw-l1-1-0 (introduced in Windows 8)
 ---
 
 # RedrawWindow function

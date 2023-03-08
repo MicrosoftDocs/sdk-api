@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo2.GetNumericRepresentation
 title: IWICPixelFormatInfo2::GetNumericRepresentation (wincodec.h)
-description: TBD
+description: TBD (IWICPixelFormatInfo2.GetNumericRepresentation)
 helpviewer_keywords: ["GetNumericRepresentation","GetNumericRepresentation method [Windows Imaging Component]","GetNumericRepresentation method [Windows Imaging Component]","IWICPixelFormatInfo2 interface","IWICPixelFormatInfo2 interface [Windows Imaging Component]","GetNumericRepresentation method","IWICPixelFormatInfo2.GetNumericRepresentation","IWICPixelFormatInfo2::GetNumericRepresentation","_wic_codec_iwicpixelformatinfo2_getnumericrepresentation","wic._wic_codec_iwicpixelformatinfo2_getnumericrepresentation","wincodec/IWICPixelFormatInfo2::GetNumericRepresentation"]
 old-location: wic\_wic_codec_iwicpixelformatinfo2_getnumericrepresentation.htm
 tech.root: wic
@@ -61,7 +61,7 @@ The address of a <a href="/windows/win32/api/wincodec/ne-wincodec-wicpixelformat
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

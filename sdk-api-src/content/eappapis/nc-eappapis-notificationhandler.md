@@ -59,7 +59,7 @@ A callback prototype that notifies the supplicant that there is a change  in the
 
 A GUID provided by the supplicant to EAPHost. This value specifies the logical network connection to re-authenticate.
 
-### -param *pContextData [in]
+### -param pContextData [in]
 
 Context data provided to EAPHost by the supplicant. This context data can be used by the supplicant for re-authentication.
 

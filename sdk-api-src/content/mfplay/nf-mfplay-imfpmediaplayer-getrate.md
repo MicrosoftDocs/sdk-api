@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetRate
 title: IMFPMediaPlayer::GetRate (mfplay.h)
-description: Gets the current playback rate.
+description: Gets the current playback rate. (IMFPMediaPlayer.GetRate)
 helpviewer_keywords: ["GetRate","GetRate method [Media Foundation]","GetRate method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetRate method","IMFPMediaPlayer.GetRate","IMFPMediaPlayer::GetRate","mf.imfpmediaplayer_getrate","mfplay/IMFPMediaPlayer::GetRate"]
 old-location: mf\imfpmediaplayer_getrate.htm
 tech.root: mf
@@ -64,7 +64,7 @@ Receives the playback rate. The playback rate is expressed as a ratio of the cur
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

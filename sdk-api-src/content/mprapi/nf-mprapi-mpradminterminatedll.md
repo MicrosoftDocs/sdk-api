@@ -53,7 +53,7 @@ api_name:
 When the RAS shuts down, it calls the 
 <b>MprAdminTerminateDll</b> function exported by the administration DLL. Use this function to perform any required clean-up for the DLL.
 
-## -parameters
+
 
 ## -returns
 

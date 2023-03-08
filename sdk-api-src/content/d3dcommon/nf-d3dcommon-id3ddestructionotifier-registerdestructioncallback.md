@@ -1,12 +1,10 @@
 ---
 UID: NF:d3dcommon.ID3DDestructionNotifier.RegisterDestructionCallback
 title: ID3DDestructionNotifier::RegisterDestructionCallback (d3dcommon.h)
-description: Registers a user-defined callback to be invoked when the object this **ID3DDestructionNotifier** was created from is destroyed.
+description: Registers a user-defined callback to be invoked on destruction of the object from which this [ID3DDestructionNotifier](/windows/win32/api/d3dcommon/nn-d3dcommon-id3ddestructionotifier) was created.
 helpviewer_keywords: ["ID3DDestructionNotifier interface [Direct3D]","RegisterDestructionCallback method","ID3DDestructionNotifier.RegisterDestructionCallback","ID3DDestructionNotifier::RegisterDestructionCallback","RegisterDestructionCallback","RegisterDestructionCallback method [Direct3D]","RegisterDestructionCallback method [Direct3D]","ID3DDestructionNotifier interface","d3dcommon/ID3DDestructionNotifier::RegisterDestructionCallback","direct3d11.id3ddestructionnotifier_registerdestructioncallback"]
-old-location: direct3d11\id3ddestructionnotifier_registerdestructioncallback.htm
 tech.root: direct3d11
-ms.assetid: 4d10c986-1cba-427c-ae90-f81b83be1b8b
-ms.date: 12/05/2018
+ms.date: 10/06/2020
 ms.keywords: ID3DDestructionNotifier interface [Direct3D],RegisterDestructionCallback method, ID3DDestructionNotifier.RegisterDestructionCallback, ID3DDestructionNotifier::RegisterDestructionCallback, RegisterDestructionCallback, RegisterDestructionCallback method [Direct3D], RegisterDestructionCallback method [Direct3D],ID3DDestructionNotifier interface, d3dcommon/ID3DDestructionNotifier::RegisterDestructionCallback, direct3d11.id3ddestructionnotifier_registerdestructioncallback
 req.header: d3dcommon.h
 req.include-header: 
@@ -26,7 +24,6 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
 f1_keywords:
  - ID3DDestructionNotifier::RegisterDestructionCallback
  - d3dcommon/ID3DDestructionNotifier::RegisterDestructionCallback
@@ -38,17 +35,14 @@ topic_type:
 api_type:
  - COM
 api_location:
- - D3DCommon.h
+ - d3dcommon.h
 api_name:
  - ID3DDestructionNotifier.RegisterDestructionCallback
 ---
 
-# ID3DDestructionNotifier::RegisterDestructionCallback
-
-
 ## -description
 
-Registers a user-defined callback to be invoked when the object this **ID3DDestructionNotifier** was created from is destroyed.
+Registers a user-defined callback to be invoked on destruction of the object from which this [ID3DDestructionNotifier](/windows/win32/api/d3dcommon/nn-d3dcommon-id3ddestructionotifier) was created.
 
 ## -parameters
 
@@ -60,27 +54,27 @@ A user-defined callback to be invoked when the object is destroyed.
 
 ### -param pData
 
-Type: <b>void*</b>
+Type: **void\***
 
-The data to pass to **callbackFn** when invoked
+The data to pass to *callbackFn* when invoked
 
 ### -param pCallbackID
 
-Type: <b><a href="windows/desktop/WinProg/windows-data-types">UINT*</a></b>
+Type: **[UINT](/windows/win32/winprog/windows-data-types)\***
 
-Pointer to a **UINT** used to identify the callback, and can be passed to <a href="windows/desktop/api/d3dcommon/nf-d3dcommon-id3ddestructionnotifier-unregisterdestructioncallback"></a> to unregister the callback.
+Pointer to a **UINT** used to identify the callback, and to pass to <a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionotifier-unregisterdestructioncallback"></a> to unregister the callback.
 
 ## -returns
 
-Type: <b><a href="windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
+Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
-If this function suceeds, it will return **S_OK**
+If this function succeeds, it returns **S_OK**.
 
 ## -remarks
 
-An example of this interface being used to log the destruction of an **ID3D12Resource**
+An example of this interface being used to log the destruction of an **ID3D12Resource**.
 
-```cpp
+```cppcx
 #include <d3dcommon.h> // for ID3DDestructionNotifier
 
 ComPtr<ID3D12Resource> resource = ...;
@@ -100,9 +94,6 @@ void LogResourceReleased(void* context)
 
 ## -see-also
 
-<a href="windows/desktop/api/d3dcommon/nn-d3dcommon-id3ddestructionnotifier">ID3DDestructionNotifier</a>
+<a href="/windows/win32/api/d3dcommon/nn-d3dcommon-id3ddestructionotifier">ID3DDestructionNotifier</a>
 
-
-
-<a href="windows/desktop/api/d3dcommon/nf-d3dcommon-id3ddestructionnotifier-unregisterdestructioncallback">ID3DDestructionNotifier::UnregisterDestructionCallback</a>
-
+<a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionotifier-unregisterdestructioncallback">ID3DDestructionNotifier::UnregisterDestructionCallback</a>

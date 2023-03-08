@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsVDisk
 title: IVdsVDisk (vds.h)
-description: Defines methods for managing a virtual disk.
+description: Defines methods for managing a virtual disk. (IVdsVDisk)
 helpviewer_keywords: ["IVdsVDisk","IVdsVDisk interface","IVdsVDisk interface","described","base.ivdsvdisk","vds/IVdsVDisk"]
 old-location: base\ivdsvdisk.htm
 tech.root: base
@@ -51,62 +51,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines methods for managing a virtual disk.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVDisk</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVDisk</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsVDisk</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsvdisk-getdevicename">GetDeviceName</a>
-</td>
-<td align="left" width="63%">
-Returns the device name for the volume where the virtual disk resides.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsvdisk-gethostvolume">GetHostVolume</a>
-</td>
-<td align="left" width="63%">
-Returns an interface pointer to the volume object for the volume where the virtual disk resides.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsvdisk-getproperties">GetProperties</a>
-</td>
-<td align="left" width="63%">
-Returns disk property information for the volume where the virtual disk resides.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdsvdisk-open">Open</a>
-</td>
-<td align="left" width="63%">
-Opens a handle to the specified virtual disk file and returns an <a href="/windows/desktop/api/vds/nn-vds-ivdsopenvdisk">IVdsOpenVDisk</a> interface pointer to the object that represents the opened handle.
-
-</td>
-</tr>
-</table>
+The <b>IVdsVDisk</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVDisk</b> also has these types of members:
 
 ## -see-also
 

@@ -4,7 +4,7 @@ title: Bits2_5.h header
 ms.assetid: fb834d8c-47b4-37b1-9700-97b1447799f3
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: bits
 f1_keywords:
  - bits2_5

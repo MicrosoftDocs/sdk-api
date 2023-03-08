@@ -1,5 +1,5 @@
 ---
-UID: NE:ntsecapi.__unnamed_enum_1
+UID: NE:ntsecapi.LSA_FOREST_TRUST_COLLISION_RECORD_TYPE
 title: LSA_FOREST_TRUST_COLLISION_RECORD_TYPE (ntsecapi.h)
 description: Defines the types of collision that can occur between Local Security Authority forest trust records.
 helpviewer_keywords: ["CollisionOther","CollisionTdo","CollisionXref","LSA_FOREST_TRUST_COLLISION_RECORD_TYPE","LSA_FOREST_TRUST_COLLISION_RECORD_TYPE enumeration [Security]","ntsecapi/CollisionOther","ntsecapi/CollisionTdo","ntsecapi/CollisionXref","ntsecapi/LSA_FOREST_TRUST_COLLISION_RECORD_TYPE","security.lsa_forest_trust_collision_record_type"]
@@ -69,3 +69,4 @@ Collision that is not a collision between <a href="/windows/desktop/SecMgmt/trus
 ## -remarks
 
 This enumeration is used by the <a href="/windows/win32/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_collision_record">LSA_FOREST_TRUST_COLLISION_RECORD</a> structure.
+

@@ -45,9 +45,6 @@ api_name:
  - DML_CONVOLUTION_DIRECTION
 ---
 
-# DML_CONVOLUTION_DIRECTION enumeration
-
-
 ## -description
 
 Defines constants that specify a direction for the DirectML convolution operator (as described by the [DML_CONVOLUTION_OPERATOR_DESC](./ns-directml-dml_convolution_operator_desc.md) structure).

@@ -1,10 +1,10 @@
 ---
 UID: NF:appmodel.GetPackageInfo2
 title: GetPackageInfo2
-description: Gets the package information for the specified package.
+description: Gets the package information for the specified package. (GetPackageInfo2)
 helpviewer_keywords: ["GetPackageInfo2"]
 tech.root: appxpkg
-ms.date: 01/31/19
+ms.date: 01/31/2019
 ms.keywords: GetPackageInfo2
 req.assembly: 
 req.construct-type: function
@@ -34,8 +34,7 @@ dev_langs:
  - c++
 topic_type:
  - apiref
-api_type:
- - 
+api_type: 
 api_location:
  - appmodel.h
 api_name:

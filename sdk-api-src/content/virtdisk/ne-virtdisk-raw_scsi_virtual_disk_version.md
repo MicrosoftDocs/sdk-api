@@ -53,13 +53,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Contains the version of the <a href="/windows/win32/api/virtdisk/ns-virtdisk-raw_scsi_virtual_disk_parameters">RAW_SCSI_VIRTUAL_DISK_PARAMETERS</a> structure to use in calls to virtual disk functions.
 
 ## -enum-fields
 
-### -field RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED
+### -field RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED:0
 
-### -field RAW_SCSI_VIRTUAL_DISK_VERSION_1
+### -field RAW_SCSI_VIRTUAL_DISK_VERSION_1:1
 

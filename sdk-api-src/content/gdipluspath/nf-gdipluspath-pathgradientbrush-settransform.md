@@ -75,10 +75,10 @@ If the method fails, it returns one of the other elements of the
 ## -remarks
 
 A 
-				<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object has a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object that serves as the boundary path for the brush. When you paint with a path gradient brush, only the area inside the boundary path is filled. If the brush's transformation matrix is set to represent any transformation other than the identity, then the boundary path is transformed according to that matrix during rendering, and only the area inside the transformed path is filled.
+				<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object has a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object that serves as the boundary path for the brush. When you paint with a path gradient brush, only the area inside the boundary path is filled. If the brush's transformation matrix is set to represent any transformation other than the identity, then the boundary path is transformed according to that matrix during rendering, and only the area inside the transformed path is filled.
 
 The transformation applies only during rendering. The boundary path stored by the 
-				<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object is not altered by the <b>PathGradientBrush::SetTransform</b> method.
+				<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object is not altered by the <b>PathGradientBrush::SetTransform</b> method.
 
 
 #### Examples
@@ -86,11 +86,11 @@ The transformation applies only during rendering. The boundary path stored by th
 
 
 The following example creates a 
-						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object based on a triangular path. The 
+						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object based on a triangular path. The 
 						<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillrectangle(inconstbrush_inconstrect_)">Graphics::FillRectangle</a> method uses the path gradient brush to paint a rectangle that contains the triangular path. Next, the code creates a 
 						<a href="/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object that represents a composite transformation (rotate, then translate) and passes the address of that 
 						<b>Matrix</b> object to the <b>PathGradientBrush::SetTransform</b> method of the 
-						<b>PathGradientBrush</b>object. The code calls 
+						<b>PathGradientBrush</b> object. The code calls 
 						<a href="/previous-versions/ms535957(v=vs.85)">FillRectangle</a> a second time to paint the same rectangle using the transformed path gradient brush.
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.get_MustUnderstandOptions
 title: IWSManResourceLocator::get_MustUnderstandOptions (wsmandisp.h)
-description: Gets or sets the MustUnderstandOptions value for the ResourceLocator object.
+description: Gets or sets the MustUnderstandOptions value for the ResourceLocator object. (Get)
 helpviewer_keywords: ["IWSManResourceLocator interface [Windows Remote Management]","MustUnderstandOptions property","IWSManResourceLocator.MustUnderstandOptions","IWSManResourceLocator.get_MustUnderstandOptions","IWSManResourceLocator::MustUnderstandOptions","IWSManResourceLocator::get_MustUnderstandOptions","IWSManResourceLocator::put_MustUnderstandOptions","MustUnderstandOptions property [Windows Remote Management]","MustUnderstandOptions property [Windows Remote Management]","IWSManResourceLocator interface","get_MustUnderstandOptions","winrm.iwsmanresourcelocator_mustunderstandoptions","wsmandisp/IWSManResourceLocator::MustUnderstandOptions","wsmandisp/IWSManResourceLocator::get_MustUnderstandOptions","wsmandisp/IWSManResourceLocator::put_MustUnderstandOptions"]
 old-location: winrm\iwsmanresourcelocator_mustunderstandoptions.htm
 tech.root: winrm

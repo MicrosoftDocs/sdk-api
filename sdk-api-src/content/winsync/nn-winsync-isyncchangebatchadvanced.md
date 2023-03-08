@@ -54,70 +54,7 @@ Represents additional information about a set of changes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChangeBatchAdvanced</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncChangeBatchAdvanced</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISyncChangeBatchAdvanced</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchadvanced-convertfullenumerationchangebatchtoregularchangebatch">ConvertFullEnumerationChangeBatchToRegularChangeBatch</a>
-</td>
-<td align="left" width="63%">
-Converts an <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfullenumerationchangebatch">ISyncFullEnumerationChangeBatch</a> object to an <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatch">ISyncChangeBatch</a> object.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchadvanced-getbatchlevelknowledgeshouldbeapplied">GetBatchLevelKnowledgeShouldBeApplied</a>
-</td>
-<td align="left" width="63%">
-Gets a value that indicates whether the learned knowledge for the batch must be saved after the batch is applied to the destination replica.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchadvanced-getfilterinfo">GetFilterInfo</a>
-</td>
-<td align="left" width="63%">
-Gets the <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfilterinfo">ISyncFilterInfo</a> that was specified when the change batch was created.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchadvanced-getupperbounditemid">GetUpperBoundItemId</a>
-</td>
-<td align="left" width="63%">
-Gets the highest item ID that is represented in the knowledge of any group in the change batch.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/">RemapKnowledges</a>
-</td>
-<td align="left" width="63%">
-Remaps all knowledge objects that are contained in the change batch so that they are relative to the replica key map of the specified knowledge.
-
-
-</td>
-</tr>
-</table>
+The <b>ISyncChangeBatchAdvanced</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncChangeBatchAdvanced</b> also has these types of members:
 
 ## -remarks
 

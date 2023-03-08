@@ -68,7 +68,7 @@ The number of properties in the <i>properties</i> array.
 
 On   success, a pointer that receives the address of the  <a href="/windows/desktop/wsw/ws-metadata">WS_METADATA</a> structure representing the new message.
                 
-                When you no longer need this structure, you must free it by calling <a href="/windows/desktop/api/webservices/nf-webservices-wsfreemetadata">WsFreeMetadata</a>.
+When you no longer need this structure, you must free it by calling <a href="/windows/desktop/api/webservices/nf-webservices-wsfreemetadata">WsFreeMetadata</a>.
 
 ### -param error [in, optional]
 

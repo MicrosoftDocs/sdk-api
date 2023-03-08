@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) from the specified projection matrix.
+Creates a [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) from the specified perspective projection matrix.
 
 ## -parameters
 
@@ -60,13 +60,21 @@ The new [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
 
 ### -param Projection [in]
 
-The left-handed projection matrix to create the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) from.
+The projection matrix to create the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) from.
+
+### -param rhcoords [in]
+
+If set to false (the default), this indicates the projection matrix is in left-handed coordinates. Set it to true if using right-handed coordinates.
+
+> This parameter was added in DirectXMath 3.16.
 
 ## -returns
 
 This method does not return a value.
 
 ## -remarks
+
+This method is not suitable for use with orthographic projection matricies.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.

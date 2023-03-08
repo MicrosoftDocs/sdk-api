@@ -56,38 +56,7 @@ The manager obtains this interface from the text service by calling the text ser
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnAdviseText</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnAdviseText</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfFnAdviseText</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnadvisetext-onlatticeupdate">OnLatticeUpdate</a>
-</td>
-<td align="left" width="63%">
-Called when a lattice element within a context changes.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnadvisetext-ontextupdate">OnTextUpdate</a>
-</td>
-<td align="left" width="63%">
-Called when the text within a context changes.
-
-</td>
-</tr>
-</table>
+The <b>ITfFnAdviseText</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnAdviseText</b> also has these types of members:
 
 ## -see-also
 

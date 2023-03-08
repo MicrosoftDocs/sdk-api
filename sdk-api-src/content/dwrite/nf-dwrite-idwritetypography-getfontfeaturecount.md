@@ -52,7 +52,7 @@ api_name:
 
  Gets the number of OpenType font features for the current font.
 
-## -parameters
+
 
 ## -returns
 

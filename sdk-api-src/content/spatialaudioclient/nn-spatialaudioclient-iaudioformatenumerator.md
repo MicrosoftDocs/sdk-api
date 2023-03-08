@@ -54,35 +54,5 @@ Provides a list of supported audio formats. The most preferred format is first i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioFormatEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioFormatEnumerator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAudioFormatEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioFormatEnumerator</b> also has these types of members:
 
-## -members
-
-The <b>IAudioFormatEnumerator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-iaudioformatenumerator-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of supported audio formats in the list
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-iaudioformatenumerator-getformat">GetFormat</a>
-</td>
-<td align="left" width="63%">
-Gets the format with the specified index in the list. The formats are listed in order of importance. The most preferable format is first in the list.
-
-</td>
-</tr>
-</table>

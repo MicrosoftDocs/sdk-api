@@ -65,7 +65,7 @@ The name of the computer on which to perform the command, or null if the command
 
 If the context uses a connect function, this argument can be ignored.
 
-### -param *ppwcArguments [in]
+### -param ppwcArguments [in]
 
 A set of command tokens.
 
@@ -85,7 +85,7 @@ The command flags that pertain to the current state.
 
 A data pointer. Value is null unless changed by a parent context <b>SubEntry</b> function.
 
-### -param *pbDone [out]
+### -param pbDone [out]
 
 A set <i>pbDone</i> to <b>TRUE</b> before returning to instruct NetShell to terminate after the command function completes. The <i>pbDone</i> parameter is set to <b>FALSE</b> by default.
 

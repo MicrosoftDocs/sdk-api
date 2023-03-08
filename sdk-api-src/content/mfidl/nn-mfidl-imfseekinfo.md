@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFSeekInfo
 title: IMFSeekInfo (mfidl.h)
-description: For a particular seek position, gets the two nearest key frames.
+description: For a particular seek position, gets the two nearest key frames. (IMFSeekInfo)
 helpviewer_keywords: ["IMFSeekInfo","IMFSeekInfo interface [Media Foundation]","IMFSeekInfo interface [Media Foundation]","described","mf.imfseekinfo","mfidl/IMFSeekInfo"]
 old-location: mf\imfseekinfo.htm
 tech.root: mf
@@ -54,29 +54,7 @@ For a particular seek position, gets the two nearest key frames.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSeekInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSeekInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFSeekInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfseekinfo-getnearestkeyframes">GetNearestKeyFrames</a>
-</td>
-<td align="left" width="63%">
-For a particular seek position, gets the two nearest key frames.
-
-</td>
-</tr>
-</table>
+The <b>IMFSeekInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSeekInfo</b> also has these types of members:
 
 ## -remarks
 

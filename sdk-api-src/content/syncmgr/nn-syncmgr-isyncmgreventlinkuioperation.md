@@ -54,29 +54,7 @@ Provides a method that is called when event links are clicked in the sync result
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrEventLinkUIOperation</b> interface inherits from <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgruioperation">ISyncMgrUIOperation</a>. <b>ISyncMgrEventLinkUIOperation</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISyncMgrEventLinkUIOperation</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgreventlinkuioperation-init">Init</a>
-</td>
-<td align="left" width="63%">
-Enables Sync Center to provide the event to link to so <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgruioperation-run">ISyncMgrUIOperation::Run</a>  knows which event to operate upon.
-
-</td>
-</tr>
-</table>
+The <b>ISyncMgrEventLinkUIOperation</b> interface inherits from <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgruioperation">ISyncMgrUIOperation</a>. <b>ISyncMgrEventLinkUIOperation</b> also has these types of members:
 
 ## -remarks
 

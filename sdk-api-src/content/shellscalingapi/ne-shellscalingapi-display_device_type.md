@@ -1,5 +1,5 @@
 ---
-UID: NE:shellscalingapi.__unnamed_enum_0
+UID: NE:shellscalingapi.DISPLAY_DEVICE_TYPE
 title: DISPLAY_DEVICE_TYPE (shellscalingapi.h)
 description: Indicates whether the device is a primary or immersive type of display.
 helpviewer_keywords: ["DEVICE_IMMERSIVE","DEVICE_PRIMARY","DISPLAY_DEVICE_TYPE","DISPLAY_DEVICE_TYPE enumeration [Windows Shell]","shell.display_device_type","shellscalingapi/DEVICE_IMMERSIVE","shellscalingapi/DEVICE_PRIMARY","shellscalingapi/DISPLAY_DEVICE_TYPE"]
@@ -55,11 +55,11 @@ Indicates whether the device is a primary or immersive type of display.
 
 ## -enum-fields
 
-### -field DEVICE_PRIMARY
+### -field DEVICE_PRIMARY:0
 
 The device is a primary display device.
 
-### -field DEVICE_IMMERSIVE
+### -field DEVICE_IMMERSIVE:1
 
 The device is an immersive display device.
 
@@ -74,3 +74,4 @@ The device is an immersive display device.
 
 
 <a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-revokescalechangenotifications">RevokeScaleChangeNotifications</a>
+

@@ -64,7 +64,7 @@ The GUID of the interface to be configured.
 
 ### -param OpCode [in]
 
-A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode~r1">WLAN_INTF_OPCODE</a> value that specifies the parameter to be set.  The following table lists the valid constants along with the data type of the parameter in <i>pData</i>.
+A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode-r1">WLAN_INTF_OPCODE</a> value that specifies the parameter to be set.  The following table lists the valid constants along with the data type of the parameter in <i>pData</i>.
 
 <table>
 <tr>
@@ -170,7 +170,7 @@ If the function fails, the return value may be one of the following return codes
 
 ## -remarks
 
-When   <i>OpCode</i> is set to  <b>wlan_intf_opcode_current_operation_mode</b>,  the <b>WlanSetInterface</b>  function sets the current operation mode of the wireless interface. For more information about operation modes, see <a href="https://www.microsoft.com/?ref=go">Native 802.11 Operation Modes</a>. Two operation modes are supported: <b>DOT11_OPERATION_MODE_EXTENSIBLE_STATION</b> and  <b>DOT11_OPERATION_MODE_NETWORK_MONITOR</b>. The operation mode constants are defined in the header file Windot11.h. If <i>pData</i> does not point to one of these values when <i>OpCode</i> is set to  <b>wlan_intf_opcode_current_operation_mode</b>, the  <b>WlanSetInterface</b>   function will fail with an error.
+When   <i>OpCode</i> is set to  <b>wlan_intf_opcode_current_operation_mode</b>,  the <b>WlanSetInterface</b>  function sets the current operation mode of the wireless interface. For more information about operation modes, see <a href="/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>. Two operation modes are supported: <b>DOT11_OPERATION_MODE_EXTENSIBLE_STATION</b> and  <b>DOT11_OPERATION_MODE_NETWORK_MONITOR</b>. The operation mode constants are defined in the header file Windot11.h. If <i>pData</i> does not point to one of these values when <i>OpCode</i> is set to  <b>wlan_intf_opcode_current_operation_mode</b>, the  <b>WlanSetInterface</b>   function will fail with an error.
 
 To enable or disable the automatic configuration service   at the command line, which is functionally equivalent to calling <b>WlanSetInterface</b> with  <i>OpCode</i> set to  <b>wlan_intf_opcode_autoconf_enabled</b>, use the <b>netsh wlan setautoconfig</b> command. For more information, see <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc755301(v=ws.10)">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
 
@@ -188,7 +188,7 @@ Changing the software radio state of a physical network interface could cause re
 
 
 
-<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode~r1">WLAN_INTF_OPCODE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode-r1">WLAN_INTF_OPCODE</a>
 
 
 

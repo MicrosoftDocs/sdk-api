@@ -54,56 +54,7 @@ Provides access to a  child element in a container that supports <a href="/windo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTableItemPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationTableItemPattern</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUIAutomationTableItemPattern</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtableitempattern-getcachedcolumnheaderitems">GetCachedColumnHeaderItems</a>
-</td>
-<td align="left" width="63%">
-Retrieves the cached column headers associated with a table item or cell.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtableitempattern-getcachedrowheaderitems">GetCachedRowHeaderItems</a>
-</td>
-<td align="left" width="63%">
-Retrieves the cached row headers associated with a table item or cell.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtableitempattern-getcurrentcolumnheaderitems">GetCurrentColumnHeaderItems</a>
-</td>
-<td align="left" width="63%">
-Retrieves the column headers associated with a table item or cell.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtableitempattern-getcurrentrowheaderitems">GetCurrentRowHeaderItems</a>
-</td>
-<td align="left" width="63%">
-Retrieves the row headers associated with a table item or cell.
-
-</td>
-</tr>
-</table>
+The <b>IUIAutomationTableItemPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationTableItemPattern</b> also has these types of members:
 
 ## -remarks
 

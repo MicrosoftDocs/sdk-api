@@ -56,7 +56,7 @@ Describes a quality message type.
 
 ## -enum-fields
 
-### -field Famine
+### -field Famine:0
 
 Downstream filter needs more data.
 

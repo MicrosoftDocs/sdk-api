@@ -52,7 +52,7 @@ api_name:
 
 Declares that the object's work is not necessarily finished but that its transactional updates are in a consistent state and could be committed in their present form.
 
-## -parameters
+
 
 ## -returns
 

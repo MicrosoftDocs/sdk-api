@@ -52,7 +52,7 @@ api_name:
 
 Terminates the host and releases any attached services. If a notification sink was passed to the <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-start">Start</a> method, then the notification sink is released.
 
-## -parameters
+
 
 ## -returns
 
@@ -93,7 +93,7 @@ Services and notification sinks will not receive messages after the <b>Terminate
 
 If this device host was started by calling <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-start">IWSDDeviceHost::Start</a>, it must first be stopped by calling <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-stop">IWSDDeviceHost::Stop</a> before <b>Terminate</b> can be called.
 
-	<b>Terminate</b> must be called before releasing the <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>.
+<b>Terminate</b> must be called before releasing the <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>.
 
 ## -see-also
 

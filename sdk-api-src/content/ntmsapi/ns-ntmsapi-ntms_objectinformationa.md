@@ -1,7 +1,7 @@
 ---
 UID: NS:ntmsapi._NTMS_OBJECTINFORMATIONA
 title: NTMS_OBJECTINFORMATIONA (ntmsapi.h)
-description: The NTMS_OBJECTINFORMATION structure defines the properties that an application can get and set for RSM devices, media and system controls (such as libraries, drives, media, operator requests). This is the common structure of objects in the RSM database.
+description: The NTMS_OBJECTINFORMATION structure defines the properties that an application can get and set for RSM devices, media and system controls (such as libraries, drives, media, operator requests). This is the common structure of objects in the RSM database. (ANSI)
 helpviewer_keywords: ["*LPNTMS_OBJECTINFORMATIONA","LPNTMS_OBJECTINFORMATION","LPNTMS_OBJECTINFORMATION structure pointer [Files]","NTMS_CHANGER","NTMS_CHANGER_TYPE","NTMS_COMPUTER","NTMS_DRIVE","NTMS_DRIVE_TYPE","NTMS_IEDOOR","NTMS_IEPORT","NTMS_LIBRARY","NTMS_LIBREQUEST","NTMS_LOGICAL_MEDIA","NTMS_MEDIA_POOL","NTMS_MEDIA_TYPE","NTMS_NEEDS_SERVICE","NTMS_NOT_PRESENT","NTMS_OBJECTINFORMATION","NTMS_OBJECTINFORMATION structure [Files]","NTMS_OBJECTINFORMATIONA","NTMS_OBJECTINFORMATIONW","NTMS_OPREQUEST","NTMS_PARTITION","NTMS_PHYSICAL_MEDIA","NTMS_READY","NTMS_STORAGESLOT","_NTMS_OBJECTINFORMATIONA","_NTMS_OBJECTINFORMATIONW","_zaw_ntms_objectinformation","base.ntms_objectinformation","fs.ntms_objectinformation","ntmsapi/LPNTMS_OBJECTINFORMATION","ntmsapi/NTMS_OBJECTINFORMATION"]
 old-location: fs\ntms_objectinformation.htm
 tech.root: fs
@@ -68,7 +68,7 @@ The
 Type: <b>DWORD</b>
 
 Size of the information structure, in bytes. This member must be set to the correct size of the structure prior to using either the 
-<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a>function or the 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a> function or the 
 <a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a> function.
 
 ### -field dwType
@@ -408,9 +408,7 @@ Description of the device or system control object. The description of device an
 
 ### -field Info.Computer.case.NTMS_COMPUTER
 
-### -field Info.switch_is
 
-### -field Info.switch_is.dwType
 
 ### -field Info
 

@@ -56,23 +56,23 @@ Describes the status of the user.
 
 ## -enum-fields
 
-### -field UnknownStatus
+### -field UnknownStatus:0
 
 Indicates a problem with the store.
 
-### -field UserRegistered
+### -field UserRegistered:1
 
 Indicates that the store is registered, but is not currently loaded for use.
 
-### -field UserUnregistered
+### -field UserUnregistered:2
 
 Indicates that the store does not currently exist.
 
-### -field UserLoaded
+### -field UserLoaded:3
 
 Indicates that the store is registered, loaded, and ready for use.
 
-### -field UserUnloaded
+### -field UserUnloaded:4
 
 This has the same semantics as <b>UserRegistered</b>.
 

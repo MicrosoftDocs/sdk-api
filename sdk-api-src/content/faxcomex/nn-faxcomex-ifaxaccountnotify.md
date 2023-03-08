@@ -1,7 +1,7 @@
 ---
 UID: NN:faxcomex.IFaxAccountNotify
 title: IFaxAccountNotify (faxcomex.h)
-description: Called by the fax service to send event notifications about particular fax accounts. This property sends event notifications. Events include changes to incoming and outgoing job queues, and changes to incoming and outgoing archives.
+description: Called by the fax service to send event notifications about particular fax accounts. This property sends event notifications. Events include changes to incoming and outgoing job queues, and changes to incoming and outgoing archives. (IIFaxAccountNotify)
 helpviewer_keywords: ["IFaxAccountNotify","IFaxAccountNotify interface [Fax Service]","IFaxAccountNotify interface [Fax Service]","described","IIFaxAccountNotify","_IFaxAccountNotify","_mfax_ifaxaccountnotify","fax._mfax_ifaxaccountnotify","faxcomex/_IFaxAccountNotify"]
 old-location: fax\_mfax_ifaxaccountnotify.htm
 tech.root: Fax
@@ -55,119 +55,7 @@ Called by the fax service to send event notifications about particular fax accou
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountNotify</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>_IFaxAccountNotify</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFaxAccountNotify</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingjobadded">OnIncomingJobAdded</a>
-</td>
-<td align="left" width="63%">
-Called by the fax service when an incoming fax job is added to the job queue for a particular fax account.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingjobchanged">OnIncomingJobChanged</a>
-</td>
-<td align="left" width="63%">
-Called by the fax service when the status of an incoming fax job for a particular fax account changes.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingjobremoved">OnIncomingJobRemoved</a>
-</td>
-<td align="left" width="63%">
-Called by the fax service when an incoming fax job is removed from the job queue of a particular fax account.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingmessageadded">OnIncomingMessageAdded</a>
-</td>
-<td align="left" width="63%">
-Called by the fax service when an incoming message is added to the inbound fax archive.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingmessageremoved">OnIncomingMessageRemoved</a>
-</td>
-<td align="left" width="63%">
-Called by the fax service when an incoming message is removed from the inbound fax archive.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingmessageremoved">OnOngoingMessageRemoved</a>
-</td>
-<td align="left" width="63%">
-Called by the fax service when an outgoing message is removed from the outbound fax archive.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingjobadded">OnOutgoingJobAdded</a>
-</td>
-<td align="left" width="63%">
-Called by the fax service when an outgoing fax job is added to the job queue for a particular fax account.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingjobchanged">OnOutgoingJobChanged</a>
-</td>
-<td align="left" width="63%">
-Called by the fax service when the status of an outgoing fax job for a particular fax account changes.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingjobremoved">OnOutgoingJobRemoved</a>
-</td>
-<td align="left" width="63%">
-Called by the fax service when an outgoing fax job is removed from the job queue of a particular fax account.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingmessageadded">OnOutgoingMessageAdded</a>
-</td>
-<td align="left" width="63%">
-The fax service calls the <a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingmessageadded">IFaxAccountNotify::OnOutgoingMessageAdded</a> method when an outgoing message is added to the outbound fax archive.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onservershutdown">OnServerShutDown</a>
-</td>
-<td align="left" width="63%">
-Called by the fax service when it shuts down. 
-
-</td>
-</tr>
-</table>
+The <b>IFaxAccountNotify</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>_IFaxAccountNotify</b> also has these types of members:
 
 ## -remarks
 

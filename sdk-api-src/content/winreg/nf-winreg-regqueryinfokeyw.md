@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegQueryInfoKeyW
 title: RegQueryInfoKeyW function (winreg.h)
-description: Retrieves information about the specified registry key.
-helpviewer_keywords: ["RegQueryInfoKey","RegQueryInfoKey function","RegQueryInfoKeyA","RegQueryInfoKeyW","_win32_regqueryinfokey","base.regqueryinfokey","winreg/RegQueryInfoKey","winreg/RegQueryInfoKeyA","winreg/RegQueryInfoKeyW"]
+description: Retrieves information about the specified registry key. (Unicode)
+helpviewer_keywords: ["RegQueryInfoKey", "RegQueryInfoKey function", "RegQueryInfoKeyW", "_win32_regqueryinfokey", "base.regqueryinfokey", "winreg/RegQueryInfoKey", "winreg/RegQueryInfoKeyW"]
 old-location: base\regqueryinfokey.htm
 tech.root: winprog
 ms.assetid: 25eb2cd2-9fdd-4d6f-8071-daab56f9aae1
@@ -74,7 +74,7 @@ A handle to an open registry key. The key must have been opened with the KEY_QUE
 This handle is returned by the 
 <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
 <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> function. It can also be one of the following 
-<a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:<pre xml:space="preserve"><b></b>
+<a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:<pre><b></b>
    <b>HKEY_CLASSES_ROOT</b>
    <b>HKEY_CURRENT_CONFIG</b>
    <b>HKEY_CURRENT_USER</b>

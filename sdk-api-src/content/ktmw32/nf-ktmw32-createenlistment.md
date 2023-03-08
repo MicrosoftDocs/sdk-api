@@ -127,7 +127,7 @@ Keep the following notification rules in mind when enlisting in transactions:
 <li>If the RM requests a single-phase commit operation, it must also specify prepare and commit 
       notifications.</li>
 <li>The only time an RM is not required to request commit notifications is when it is requesting at least a 
-      pair of preprepare and rollback notifications.</li>
+      pair of prepare and rollback notifications.</li>
 </ul>
 
 ## -see-also

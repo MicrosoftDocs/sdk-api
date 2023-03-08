@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
  - OleUninitialize
+req.apiset: ext-ms-win-com-ole32-l1-1-0 (introduced in Windows 8)
 ---
 
 # OleUninitialize function
@@ -57,7 +58,7 @@ api_name:
 
 Closes the COM library on the apartment, releases any class factories, other COM objects, or servers held by the apartment, disables RPC on the apartment, and frees any resources the apartment maintains.
 
-## -parameters
+
 
 ## -remarks
 

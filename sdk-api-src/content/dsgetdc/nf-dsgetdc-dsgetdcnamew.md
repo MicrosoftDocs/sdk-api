@@ -1,8 +1,8 @@
 ---
 UID: NF:dsgetdc.DsGetDcNameW
 title: DsGetDcNameW function (dsgetdc.h)
-description: Returns the name of a domain controller in a specified domain.
-helpviewer_keywords: ["DS_AVOID_SELF","DS_BACKGROUND_ONLY","DS_DIRECTORY_SERVICE_6_REQUIRED","DS_DIRECTORY_SERVICE_8_REQUIRED","DS_DIRECTORY_SERVICE_PREFERRED","DS_DIRECTORY_SERVICE_REQUIRED","DS_FORCE_REDISCOVERY","DS_GC_SERVER_REQUIRED","DS_GOOD_TIMESERV_PREFERRED","DS_IP_REQUIRED","DS_IS_DNS_NAME","DS_IS_FLAT_NAME","DS_KDC_REQUIRED","DS_ONLY_LDAP_NEEDED","DS_PDC_REQUIRED","DS_RETURN_DNS_NAME","DS_RETURN_FLAT_NAME","DS_TIMESERV_REQUIRED","DS_TRY_NEXTCLOSEST_SITE","DS_WEB_SERVICE_REQUIRED","DS_WRITABLE_REQUIRED","DsGetDcName","DsGetDcName function [Active Directory]","DsGetDcNameA","DsGetDcNameW","_glines_dsgetdcname","ad.dsgetdcname","dsgetdc/DsGetDcName","dsgetdc/DsGetDcNameA","dsgetdc/DsGetDcNameW"]
+description: Returns the name of a domain controller in a specified domain. (Unicode)
+helpviewer_keywords: ["DS_AVOID_SELF", "DS_BACKGROUND_ONLY", "DS_DIRECTORY_SERVICE_6_REQUIRED", "DS_DIRECTORY_SERVICE_8_REQUIRED", "DS_DIRECTORY_SERVICE_PREFERRED", "DS_DIRECTORY_SERVICE_REQUIRED", "DS_FORCE_REDISCOVERY", "DS_GC_SERVER_REQUIRED", "DS_GOOD_TIMESERV_PREFERRED", "DS_IP_REQUIRED", "DS_IS_DNS_NAME", "DS_IS_FLAT_NAME", "DS_KDC_REQUIRED", "DS_ONLY_LDAP_NEEDED", "DS_PDC_REQUIRED", "DS_RETURN_DNS_NAME", "DS_RETURN_FLAT_NAME", "DS_TIMESERV_REQUIRED", "DS_TRY_NEXTCLOSEST_SITE", "DS_WEB_SERVICE_REQUIRED", "DS_WRITABLE_REQUIRED", "DsGetDcName", "DsGetDcName function [Active Directory]", "DsGetDcNameW", "_glines_dsgetdcname", "ad.dsgetdcname", "dsgetdc/DsGetDcName", "dsgetdc/DsGetDcNameW"]
 old-location: ad\dsgetdcname.htm
 tech.root: ad
 ms.assetid: da8b2983-5e45-40b0-b552-c9b3a1d8ae94
@@ -654,10 +654,14 @@ String ProcessName
 For example, this would trace all instances of App1.exe and App2.exe, but only the instance of App3.exe that 
       has a PID of 999:
 
-<pre class="syntax" xml:space="preserve"><code>App1.exe 
+
+``` syntax
+App1.exe 
 App2.exe
 App3.exe
-     PID 999</code></pre>
+     PID 999
+```
+
 Run the following command to start the tracing session:
 
 <b>tracelog.exe -start &lt;sessionname&gt; -guid #cfaa5446-c6c4-4f5c-866f-31c9b55b962d -f &lt;filename&gt; -flag &lt;traceFlags&gt;</b>

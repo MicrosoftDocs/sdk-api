@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory6.CreateTextFormat
 title: IDWriteFactory6::CreateTextFormat
-description: Creates a text format object used for text layout.
+description: Creates a text format object used for text layout.I
 helpviewer_keywords: ["IDWriteFactory6 interface [Direct Write]","CreateTextFormat method","IDWriteFactory6.CreateTextFormat","IDWriteFactory6::CreateTextFormat","CreateTextFormat","CreateTextFormat method [Direct Write]","CreateTextFormat method [Direct Write]","IDWriteFactory6 interface","directwrite.idwritefactory6_createtextformat","dwrite_3/IDWriteFactory6::CreateTextFormat"]
 tech.root: DirectWrite
 ms.date: 09/10/2019
@@ -10,8 +10,8 @@ req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

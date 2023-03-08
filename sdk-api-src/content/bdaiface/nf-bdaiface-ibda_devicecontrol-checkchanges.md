@@ -52,7 +52,7 @@ api_name:
 
 The <b>CheckChanges</b> method queries the device filter as to whether the changes that are pending would succeed if they were committed.
 
-## -parameters
+
 
 ## -returns
 

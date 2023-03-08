@@ -1,7 +1,7 @@
 ---
 UID: NF:efswrtinterop.IProtectionPolicyManagerInterop2.RequestAccessForAppWithWindowAsync
 title: IProtectionPolicyManagerInterop2::RequestAccessForAppWithWindowAsync (efswrtinterop.h)
-description: Request access to enterprise-protected content for a specific target app.
+description: Request access to enterprise-protected content for a specific target app. (IProtectionPolicyManagerInterop2.RequestAccessForAppWithWindowAsync)
 helpviewer_keywords: ["EDP.iprotectionpolicymanagerinterop2_requestaccessforappwithwindowasync","IProtectionPolicyManagerInterop2 interface","RequestAccessForAppWithWindowAsync method","IProtectionPolicyManagerInterop2.RequestAccessForAppWithWindowAsync","IProtectionPolicyManagerInterop2::RequestAccessForAppWithWindowAsync","RequestAccessForAppWithWindowAsync","RequestAccessForAppWithWindowAsync method","RequestAccessForAppWithWindowAsync method","IProtectionPolicyManagerInterop2 interface","efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessForAppWithWindowAsync"]
 old-location: edp\iprotectionpolicymanagerinterop2_requestaccessforappwithwindowasync.htm
 tech.root: EDP
@@ -73,11 +73,11 @@ api_name:
 
 ### -param asyncOperation
 
-An <a href="https://docs.microsoft.com/uwp/api/Windows.Foundation.IAsyncOperation_TResult_">IAsyncOperation<ProtectionPolicyEvaluationResult></a> with a value of the <a href="/uwp/api/windows.security.enterprisedata.protectionpolicyevaluationresult">ProtectionPolicyEvaluationResult</a> enumeration that is the result of the request.
+An <a href="/uwp/api/Windows.Foundation.IAsyncOperation_TResult_">IAsyncOperation&lt;ProtectionPolicyEvaluationResult&gt;</a> with a value of the <a href="/uwp/api/windows.security.enterprisedata.protectionpolicyevaluationresult">ProtectionPolicyEvaluationResult</a> enumeration that is the result of the request.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -59,65 +59,7 @@ To get a pointer to this interface from a media source, call <a href="/windows/d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFQualityAdvise</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFQualityAdvise</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFQualityAdvise</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-droptime">DropTime</a>
-</td>
-<td align="left" width="63%">
-Drops samples over a specified interval of time.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-getdropmode">GetDropMode</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current drop mode.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-getqualitylevel">GetQualityLevel</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current quality level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-setdropmode">SetDropMode</a>
-</td>
-<td align="left" width="63%">
-Sets the drop mode.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualityadvise-setqualitylevel">SetQualityLevel</a>
-</td>
-<td align="left" width="63%">
-Sets the quality level.
-
-</td>
-</tr>
-</table>
+The <b>IMFQualityAdvise</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFQualityAdvise</b> also has these types of members:
 
 ## -remarks
 

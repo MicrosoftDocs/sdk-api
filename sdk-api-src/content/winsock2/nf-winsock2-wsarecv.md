@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSARecv
 title: WSARecv function (winsock2.h)
-description: Receives data from a connected socket or a bound connectionless socket.
+description: Receives data from a connected socket or a bound connectionless socket. (WSARecv)
 helpviewer_keywords: ["WSARecv","WSARecv function [Winsock]","_win32_wsarecv_2","winsock.wsarecv_2","winsock2/WSARecv"]
 old-location: winsock\wsarecv_2.htm
 tech.root: WinSock
@@ -87,6 +87,8 @@ A pointer to a
 <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure (ignored for nonoverlapped sockets).
 
 ### -param lpCompletionRoutine [in]
+
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](./nc-winsock2-lpwsaoverlapped_completion_routine.md)
 
 A pointer to the completion routine called when the receive operation has been completed (ignored for nonoverlapped sockets).
 

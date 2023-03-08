@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.ReplaceIcon
 title: IImageList::ReplaceIcon (commoncontrols.h)
-description: Replaces an image with an icon or cursor.
+description: Replaces an image with an icon or cursor. (IImageList.ReplaceIcon)
 helpviewer_keywords: ["IImageList interface [Windows Controls]","ReplaceIcon method","IImageList.ReplaceIcon","IImageList::ReplaceIcon","ReplaceIcon","ReplaceIcon method [Windows Controls]","ReplaceIcon method [Windows Controls]","IImageList interface","comctl_IImageList_ReplaceIcon","comctl_IImageList_ReplaceIcon_cpp","commoncontrols/IImageList::ReplaceIcon","controls.IImageList_ReplaceIcon","controls.comctl_IImageList_ReplaceIcon"]
 old-location: controls\IImageList_ReplaceIcon.htm
 tech.root: Controls
@@ -76,7 +76,7 @@ A pointer to an <b>int</b> that will contain the index of the image on return if
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

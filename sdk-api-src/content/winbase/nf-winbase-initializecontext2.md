@@ -2,7 +2,6 @@
 UID: NF:winbase.InitializeContext2
 title: InitializeContext2
 ms.date: 4/28/2020
-ms.topic: language-reference
 targetos: Windows
 description: Initializes a CONTEXT structure inside a buffer with the necessary size and alignment, with the option to specify an XSTATE compaction mask.
 req.assembly: 
@@ -18,8 +17,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -27,7 +26,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - winbase.h
 api_name:

@@ -55,74 +55,7 @@ Retrieves events from any Media Foundation object that generates events.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEventGenerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEventGenerator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFMediaEventGenerator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-begingetevent">BeginGetEvent</a>
-</td>
-<td align="left" width="63%">
-Begins an asynchronous request for the next event in the queue.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-endgetevent">EndGetEvent</a>
-</td>
-<td align="left" width="63%">
-Completes an asynchronous request for the next event in the queue.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-getevent">GetEvent</a>
-</td>
-<td align="left" width="63%">
-Retrieves the next event in the queue. This method is synchronous.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-queueevent">QueueEvent</a>
-</td>
-<td align="left" width="63%">
-Puts a new event in the object's queue.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/medfound/remotebegingetevent">RemoteBeginGetEvent</a>
-</td>
-<td align="left" width="63%">
-Remotable version of <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-begingetevent">BeginGetEvent</a>. (Not used by applications.)
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/medfound/remoteendgetevent">RemoteEndGetEvent</a>
-</td>
-<td align="left" width="63%">
-Remotable version of <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-endgetevent">EndGetEvent</a>. (Not used by applications.)
-
-</td>
-</tr>
-</table>
+The <b>IMFMediaEventGenerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEventGenerator</b> also has these types of members:
 
 ## -remarks
 

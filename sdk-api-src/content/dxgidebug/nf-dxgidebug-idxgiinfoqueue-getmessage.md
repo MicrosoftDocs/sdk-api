@@ -68,7 +68,7 @@ A pointer to a <a href="/windows/desktop/api/dxgidebug/ns-dxgidebug-dxgi_info_qu
 
 ### -param pMessageByteLength [in, out]
 
-A pointer to a variable that receives the size, in bytes, of the message description  that <i>pMessage</i> points to. This size includes the size of the message string that <i>pMessage</i> points to.
+A pointer to a variable that receives the size, in bytes, of the message description that <i>pMessage</i> points to. This size includes the size of the <a href="/windows/desktop/api/dxgidebug/ns-dxgidebug-dxgi_info_queue_message">DXGI_INFO_QUEUE_MESSAGE</a> structure in bytes.
 
 ## -returns
 
@@ -88,11 +88,21 @@ Call this method twice to retrieve a message, first to obtain the size of the me
 // Get the size of the message.
 SIZE_T messageLength = 0;
 HRESULT hr = pInfoQueue->GetMessage(DXGI_DEBUG_ALL, 0, NULL, &messageLength);
+if(hr == S_FALSE){
 
-// Allocate space and get the message.
-DXGI_INFO_QUEUE_MESSAGE * pMessage = (DXGI_INFO_QUEUE_MESSAGE*)malloc(messageLength);
-hr = pInfoQueue->GetMessage(DXGI_DEBUG_ALL, 0, pMessage, &messageLength);
-
+    // Allocate space and get the message.
+    DXGI_INFO_QUEUE_MESSAGE * pMessage = (DXGI_INFO_QUEUE_MESSAGE*)malloc(messageLength);
+    hr = pInfoQueue->GetMessage(DXGI_DEBUG_ALL, 0, pMessage, &messageLength);
+    
+    // Do something with the message and free it
+    if(hr == S_OK){
+    
+        // ...
+        // ...
+        // ...
+        free(pMessage);
+    }
+}
 ```
 
 

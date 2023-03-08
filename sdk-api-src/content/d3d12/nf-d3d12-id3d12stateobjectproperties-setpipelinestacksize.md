@@ -68,4 +68,4 @@ The runtime drops calls to state objects other than raytracing pipelines, such a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847466(v=VS.85).aspx">ID3D12StateObjectProperties</a>
+<a href="../d3d12/nn-d3d12-id3d12stateobjectproperties.md">ID3D12StateObjectProperties</a>

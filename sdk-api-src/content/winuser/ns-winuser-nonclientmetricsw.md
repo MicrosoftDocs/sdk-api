@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagNONCLIENTMETRICSW
 title: NONCLIENTMETRICSW (winuser.h)
-description: Contains the scalable metrics associated with the nonclient area of a nonminimized window.
+description: Contains the scalable metrics associated with the nonclient area of a nonminimized window. (Unicode)
 helpviewer_keywords: ["*LPNONCLIENTMETRICSW","*PNONCLIENTMETRICSW","LPNONCLIENTMETRICS","LPNONCLIENTMETRICS structure pointer [Windows and Messages]","NONCLIENTMETRICS","NONCLIENTMETRICS structure [Windows and Messages]","NONCLIENTMETRICSA","NONCLIENTMETRICSW","PNONCLIENTMETRICS","PNONCLIENTMETRICS structure pointer [Windows and Messages]","_win32_nonclientmetrics_str","base.nonclientmetrics_str","nonclientmetrics_str_cpp","tagNONCLIENTMETRICS","winmsg.nonclientmetrics_str","winui.nonclientmetrics_str","winuser/LPNONCLIENTMETRICS","winuser/NONCLIENTMETRICS","winuser/NONCLIENTMETRICSA","winuser/NONCLIENTMETRICSW","winuser/PNONCLIENTMETRICS"]
 old-location: winmsg\nonclientmetrics_str.htm
 tech.root: winmsg

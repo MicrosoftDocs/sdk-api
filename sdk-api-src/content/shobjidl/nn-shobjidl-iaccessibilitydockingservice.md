@@ -54,44 +54,5 @@ Docks an application window to the bottom of a monitor when a Windows Store app 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibilityDockingService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccessibilityDockingService</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAccessibilityDockingService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccessibilityDockingService</b> also has these types of members:
 
-## -members
-
-The <b>IAccessibilityDockingService</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iaccessibilitydockingservice-dockwindow">DockWindow</a>
-</td>
-<td align="left" width="63%">
-Docks the specified window handle to the specified monitor handle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/com/iaccessibilitydockingservice-getavailablesize">GetAvailableSize</a>
-</td>
-<td align="left" width="63%">
-Gets the dimensions available for docking an accessibility window on a monitor.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iaccessibilitydockingservice-undockwindow">UnDockWindow</a>
-</td>
-<td align="left" width="63%">
-Undocks the specified window handle if it is currently docked.
-
-</td>
-</tr>
-</table>

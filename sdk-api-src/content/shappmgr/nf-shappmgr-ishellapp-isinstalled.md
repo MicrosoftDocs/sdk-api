@@ -52,7 +52,7 @@ api_name:
 
 Gets a value indicating whether a specified application is currently installed.
 
-## -parameters
+
 
 ## -returns
 

@@ -41,7 +41,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - DS_REPL_VALUE_META_DATA_EXT
 ---

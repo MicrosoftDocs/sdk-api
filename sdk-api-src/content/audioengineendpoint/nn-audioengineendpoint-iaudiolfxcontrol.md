@@ -54,38 +54,7 @@ The <b>IAudioLfxControl</b> interface allows the client to apply or remove local
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioLfxControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioLfxControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAudioLfxControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiolfxcontrol-getlocaleffectsstate">GetLocalEffectsState</a>
-</td>
-<td align="left" width="63%">
-Retrieves the local effects state that is currently applied to the offloaded audio stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiolfxcontrol-setlocaleffectsstate">SetLocalEffectsState</a>
-</td>
-<td align="left" width="63%">
-Sets the local effects state that is applied to the offloaded audio stream.
-
-</td>
-</tr>
-</table>
+The <b>IAudioLfxControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioLfxControl</b> also has these types of members:
 
 ## -see-also
 

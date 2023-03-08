@@ -56,7 +56,7 @@ The <code>VMR9AspectRatioMode</code> enumeration type is used with the <a href="
 
 ## -enum-fields
 
-### -field VMR9ARMode_None
+### -field VMR9ARMode_None:0
 
 Indicates that the VMR is not attempting to maintain the aspect ratio of the source video.
 

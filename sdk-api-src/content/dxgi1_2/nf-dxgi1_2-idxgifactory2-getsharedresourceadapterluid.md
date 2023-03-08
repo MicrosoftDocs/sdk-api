@@ -82,7 +82,9 @@ You cannot share resources across adapters. Therefore, you cannot open a shared 
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>HANDLE handle;
+
+``` syntax
+HANDLE handle;
 IDXGIFactory2* pFactory;
 
 LUID luid;
@@ -105,7 +107,9 @@ while (SUCCEEDED(pFactory-&gt;EnumAdapters(index, &amp;pAdapter)))
 }
 // At this point, if pAdapter is non-null, you identified an adapter that 
 // can open the shared resource.
-</code></pre>
+
+```
+
 
 ## -see-also
 

@@ -52,7 +52,7 @@ api_name:
 
 Get whether or not the last word on the last line is wrapped.
 
-## -parameters
+
 
 ## -see-also
 

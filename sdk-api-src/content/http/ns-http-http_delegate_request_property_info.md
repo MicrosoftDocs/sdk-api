@@ -1,10 +1,10 @@
 ---
 UID: NS:http._HTTP_DELEGATE_REQUEST_PROPERTY_INFO
 title: HTTP_DELEGATE_REQUEST_PROPERTY_INFO
-description: Describes property information for a delegate request.
+description: Describes additional property information when delegating a request.
 ms.date: 09/28/2020
+tech.root: http
 targetos: Windows
-description: 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: httpapi.dll
@@ -14,8 +14,8 @@ req.kmdf-ver:
 req.lib: httpapi.lib
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: HTTP_DELEGATE_REQUEST_PROPERTY_INFO, *PHTTP_DELEGATE_REQUEST_PROPERTY_INFO
 req.umdf-ver: 
@@ -38,11 +38,11 @@ dev_langs:
 
 ## -description
 
-Describes property information for a delegate request.
+Describes additional property information when delegating a request.
 
 ## -struct-fields
 
-### -field ProperyId
+### -field PropertyId
 
 Type: **[HTTP_DELEGATE_REQUEST_PROPERTY_ID](./ne-http-http_delegate_request_property_id.md)**
 

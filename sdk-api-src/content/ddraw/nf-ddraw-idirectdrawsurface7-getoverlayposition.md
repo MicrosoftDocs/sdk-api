@@ -54,11 +54,11 @@ Retrieves the display coordinates of this surface. This method is used on a visi
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives the x- display coordinate of this surface if the call succeeds.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 A pointer to a variable that receives the y-display coordinate of this surface if the call succeeds.
 
@@ -83,7 +83,7 @@ If it fails, the method can return one of the following error values:
 
 ## -remarks
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetOverlayPosition</b> method.
+
 
 ## -see-also
 

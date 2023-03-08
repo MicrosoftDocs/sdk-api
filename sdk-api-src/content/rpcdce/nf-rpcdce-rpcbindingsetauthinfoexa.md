@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcdce.RpcBindingSetAuthInfoExA
 title: RpcBindingSetAuthInfoExA function (rpcdce.h)
-description: The RpcBindingSetAuthInfoEx function sets a binding handle's authentication, authorization, and security quality-of-service information.
-helpviewer_keywords: ["RpcBindingSetAuthInfoEx","RpcBindingSetAuthInfoEx function [RPC]","RpcBindingSetAuthInfoExA","RpcBindingSetAuthInfoExW","_rpc_rpcbindingsetauthinfoex","rpc.rpcbindingsetauthinfoex","rpcdce/RpcBindingSetAuthInfoEx","rpcdce/RpcBindingSetAuthInfoExA","rpcdce/RpcBindingSetAuthInfoExW"]
+description: The RpcBindingSetAuthInfoEx function sets a binding handle's authentication, authorization, and security quality-of-service information. (ANSI)
+helpviewer_keywords: ["RpcBindingSetAuthInfoExA", "rpcdce/RpcBindingSetAuthInfoExA"]
 old-location: rpc\rpcbindingsetauthinfoex.htm
 tech.root: Rpc
 ms.assetid: 2438816c-995e-4398-999d-48a3538eec18
@@ -88,7 +88,7 @@ Handle for the structure that contains the client's authentication and authoriza
 
 
 
-When using the <a href="/windows/desktop/Rpc/authentication-service-constants">RPC_C_AUTHN_WINNT</a>authentication service <i>AuthIdentity</i> should be a pointer to a 
+When using the <a href="/windows/desktop/Rpc/authentication-service-constants">RPC_C_AUTHN_WINNT</a> authentication service <i>AuthIdentity</i> should be a pointer to a 
 <a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure (defined in Rpcdce.h). Kerberos and Negotiate authentication services also use the 
 <b>SEC_WINNT_AUTH_IDENTITY</b> structure.
 

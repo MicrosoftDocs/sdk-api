@@ -54,13 +54,13 @@ The <b>FWPM_PROVIDER_CHANGE_CALLBACK0</b> function is used to add custom behavio
 
 ## -parameters
 
-### -param *context [in]
+### -param context [in]
 
 Type: <b>void*</b>
 
 Optional context pointer. It contains the value of the <i>context</i> parameter passed to the <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidersubscribechanges0">FwpmProviderSubscribeChanges0</a> function.
 
-### -param *change [in]
+### -param change [in]
 
 Type: [FWPM_PROVIDER_CHANGE0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_change0)*</b>
 

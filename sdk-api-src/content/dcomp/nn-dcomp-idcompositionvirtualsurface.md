@@ -54,38 +54,7 @@ Represents a sparsely allocated bitmap that can be associated with a visual for 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVirtualSurface</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionsurface">IDCompositionSurface</a>. <b>IDCompositionVirtualSurface</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDCompositionVirtualSurface</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvirtualsurface-resize">Resize</a>
-</td>
-<td align="left" width="63%">
-Changes the logical size of this virtual surface object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvirtualsurface-trim">Trim</a>
-</td>
-<td align="left" width="63%">
-Discards pixels that fall outside of the specified trim rectangles.
-
-</td>
-</tr>
-</table>
+The <b>IDCompositionVirtualSurface</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionsurface">IDCompositionSurface</a>. <b>IDCompositionVirtualSurface</b> also has these types of members:
 
 ## -see-also
 

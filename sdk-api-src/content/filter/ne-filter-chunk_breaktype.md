@@ -52,29 +52,30 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+> [!Note]  
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
 Describes the type of break that separates the current chunk from the previous chunk.
 
 ## -enum-fields
 
-### -field CHUNK_NO_BREAK
+### -field CHUNK_NO_BREAK:0
 
 No break is placed between the current chunk and the previous chunk. The chunks are glued together.
 
-### -field CHUNK_EOW
+### -field CHUNK_EOW:1
 
 A word break is placed between this chunk and the previous chunk that had the same attribute. Use of CHUNK_EOW should be minimized because the choice of word breaks is language-dependent, so determining word breaks is best left to the search engine.
 
-### -field CHUNK_EOS
+### -field CHUNK_EOS:2
 
 A sentence break is placed between this chunk and the previous chunk that had the same attribute.
 
-### -field CHUNK_EOP
+### -field CHUNK_EOP:3
 
 A paragraph break is placed between this chunk and the previous chunk that had the same attribute.
 
-### -field CHUNK_EOC
+### -field CHUNK_EOC:4
 
 A chapter break is placed between this chunk and the previous chunk that had the same attribute.
 

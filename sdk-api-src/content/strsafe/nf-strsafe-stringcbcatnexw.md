@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCbCatNExW
 title: StringCbCatNExW function (strsafe.h)
-description: Concatenates the specified number of bytes from one string to another string.
-helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCbCatNEx","StringCbCatNEx function [Menus and Other Resources]","StringCbCatNExA","StringCbCatNExW","_shell_StringCbCatNEx","_shell_stringcbcatnex_cpp","menurc.stringcbcatnex","strsafe/StringCbCatNEx","strsafe/StringCbCatNExA","strsafe/StringCbCatNExW","winui._shell_stringcbcatnex"]
+description: Concatenates the specified number of bytes from one string to another string. (StringCbCatNExW)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCbCatNEx", "StringCbCatNEx function [Menus and Other Resources]", "StringCbCatNExW", "_shell_StringCbCatNEx", "_shell_stringcbcatnex_cpp", "menurc.stringcbcatnex", "strsafe/StringCbCatNEx", "strsafe/StringCbCatNExW", "winui._shell_stringcbcatnex"]
 old-location: menurc\stringcbcatnex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcatnex.htm
@@ -219,7 +219,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-Compared to  the functions it replaces, <b>StringCbCatNEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCatNEx</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
+Compared to  the functions it replaces, <b>StringCbCatNEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCatNEx</b> always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 

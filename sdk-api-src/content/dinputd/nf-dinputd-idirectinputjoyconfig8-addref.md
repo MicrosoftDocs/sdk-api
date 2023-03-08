@@ -52,7 +52,7 @@ api_name:
 
 The <b>IDirectInputJoyConfig8::AddRef</b> method increases the reference count of the DirectInputJoyConfig object by 1. This method is part of the <b>IUnknown</b> interface inherited by DirectInputJoyConfig.
 
-## -parameters
+
 
 ## -returns
 

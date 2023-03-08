@@ -54,7 +54,7 @@ Sets the properties for a flat scroll bar.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
@@ -228,7 +228,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT_PTR</a></b>
 A new value to set. This parameter depends on the flag passed in 
 					<i>index</i>.
 
-### -param arg4
+### -param unnamedParam4
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 

@@ -54,48 +54,7 @@ A descriptor heap is a collection of contiguous allocations of descriptors, one 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12DescriptorHeap</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>. <b>ID3D12DescriptorHeap</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D12DescriptorHeap</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart">GetCPUDescriptorHandleForHeapStart</a>
-</td>
-<td align="left" width="63%">
-Gets the CPU descriptor handle that represents the start of the heap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Gets the descriptor heap description.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart">GetGPUDescriptorHandleForHeapStart</a>
-</td>
-<td align="left" width="63%">
-Gets the GPU descriptor handle that represents the start of the heap.
-
-</td>
-</tr>
-</table>
+The <b>ID3D12DescriptorHeap</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>.
 
 ## -see-also
 

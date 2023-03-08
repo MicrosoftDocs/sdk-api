@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateGeometryShader
 title: ID3D10Device::CreateGeometryShader (d3d10.h)
-description: Create a geometry shader.
+description: Create a geometry shader. (ID3D10Device.CreateGeometryShader)
 helpviewer_keywords: ["95304c4b-5772-79d5-e004-826cea33692b","CreateGeometryShader","CreateGeometryShader method [Direct3D 10]","CreateGeometryShader method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CreateGeometryShader method","ID3D10Device.CreateGeometryShader","ID3D10Device::CreateGeometryShader","d3d10/ID3D10Device::CreateGeometryShader","direct3d10.id3d10device_creategeometryshader"]
 old-location: direct3d10\id3d10device_creategeometryshader.htm
 tech.root: direct3d10

@@ -1,15 +1,12 @@
 ---
 UID: NF:winbase.CreatePrivateNamespaceA
 title: CreatePrivateNamespaceA function (winbase.h)
-author: windows-sdk-content
-description: Creates a private namespace.
+description: The CreatePrivateNamespaceA (ANSI) function (winbase.h) creates a private namespace.
 old-location: base\createprivatenamespace.htm
 tech.root: Sync
 ms.assetid: bb6331b0-88cb-4695-b159-6e8750440a69
-ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CreatePrivateNamespace, CreatePrivateNamespace function, CreatePrivateNamespaceA, CreatePrivateNamespaceW, base.createprivatenamespace, winbase/CreatePrivateNamespace, winbase/CreatePrivateNamespaceA, winbase/CreatePrivateNamespaceW
-ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -27,7 +24,6 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

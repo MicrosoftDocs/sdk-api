@@ -59,7 +59,7 @@ Describes the geometry of disk devices and media.
 
 ### -field Cylinders
 
-The number of cylinders. See [**LARGE_INTEGER**](../winnt/ns-winnt-large_integer~r1.md).
+The number of cylinders. See [**LARGE_INTEGER**](../winnt/ns-winnt-large_integer-r1.md).
 
 ### -field MediaType
 

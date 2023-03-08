@@ -94,7 +94,7 @@ Specifies a POINTQF structure that contains the character increment vector, D = 
 
 ## -remarks
 
-The quantities A, B, and C mentioned in the descriptions of GLYPHDATA members are simple tranforms of the notional space versions into 28.4 device coordinates. A is the left sidebearing amount, the width of the space to the left of the glyph, B is the width of the glyph, and C is the right sidebearing amount, the width of the space to the right of the glyph. For some glyphs, A and/or C can be negative, indicating that the glyph extends farther to the left and/or right than is usually the case.
+The quantities A, B, and C mentioned in the descriptions of GLYPHDATA members are simple transforms of the notional space versions into 28.4 device coordinates. A is the left sidebearing amount, the width of the space to the left of the glyph, B is the width of the glyph, and C is the right sidebearing amount, the width of the space to the right of the glyph. For some glyphs, A and/or C can be negative, indicating that the glyph extends farther to the left and/or right than is usually the case.
 
 For a description of the FIX data type, see <a href="/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
 

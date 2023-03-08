@@ -52,7 +52,7 @@ api_name:
 
 Releases exclusive access to the device.
 
-## -parameters
+
 
 ## -returns
 

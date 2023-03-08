@@ -85,56 +85,7 @@ For code examples that use the <b>IMMDevice</b> interface, see the following top
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMMDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMMDevice</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMMDevice</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">Activate</a>
-</td>
-<td align="left" width="63%">
-Creates a COM object with the specified interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-getid">GetId</a>
-</td>
-<td align="left" width="63%">
-Gets a string that identifies the device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-getstate">GetState</a>
-</td>
-<td align="left" width="63%">
-Gets the current state of the device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-openpropertystore">OpenPropertyStore</a>
-</td>
-<td align="left" width="63%">
-Gets an interface to the device's property store.
-
-</td>
-</tr>
-</table>
+The <b>IMMDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMMDevice</b> also has these types of members:
 
 ## -see-also
 

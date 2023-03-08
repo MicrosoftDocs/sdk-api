@@ -272,7 +272,7 @@ A Unicode title.
 
 ### -field ptInvoke
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The point where the command is invoked. If the <b>fMask</b> member does not specify <b>CMIC_MASK_PTINVOKE</b>, this member is ignored. This member is not valid prior to Internet Explorer 4.0.
 

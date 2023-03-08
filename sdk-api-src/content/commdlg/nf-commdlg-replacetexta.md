@@ -1,8 +1,8 @@
 ---
 UID: NF:commdlg.ReplaceTextA
 title: ReplaceTextA function (commdlg.h)
-description: Creates a system-defined modeless dialog box that lets the user specify a string to search for and a replacement string, as well as options to control the find and replace operations.
-helpviewer_keywords: ["ReplaceText","ReplaceText function [Dialog Boxes]","ReplaceTextA","ReplaceTextW","_win32_ReplaceText","_win32_replacetext_cpp","commdlg/ReplaceText","commdlg/ReplaceTextA","commdlg/ReplaceTextW","dlgbox.replacetext","winui._win32_replacetext"]
+description: Creates a system-defined modeless dialog box that lets the user specify a string to search for and a replacement string, as well as options to control the find and replace operations. (ANSI)
+helpviewer_keywords: ["ReplaceTextA", "commdlg/ReplaceTextA"]
 old-location: dlgbox\replacetext.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\replacetext.htm
@@ -45,6 +45,7 @@ api_name:
  - ReplaceText
  - ReplaceTextA
  - ReplaceTextW
+req.apiset: ext-ms-win-shell-comdlg32-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ReplaceTextA function
@@ -56,7 +57,7 @@ Creates a system-defined modeless dialog box that lets the user specify a string
 
 ## -parameters
 
-### -param Arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 Type: <b>LPFINDREPLACE</b>
 

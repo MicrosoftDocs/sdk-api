@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - DAD_SetDragImage
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # DAD_SetDragImage function
@@ -66,7 +67,7 @@ A handle to an image list. This parameter uses the zero index in the ImageList.
 
 ### -param pptOffset
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
 A pointer to the coordinates used as the hot spot for dragging the image. The coordinates are relative to upper-left corner of the image.
 

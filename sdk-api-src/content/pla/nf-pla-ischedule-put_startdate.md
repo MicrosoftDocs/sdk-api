@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ISchedule.put_StartDate
 title: ISchedule::put_StartDate (pla.h)
-description: Retrieves or sets the date when the schedule becomes valid.
+description: Retrieves or sets the date when the schedule becomes valid. (Put)
 helpviewer_keywords: ["ISchedule interface [PLA]","StartDate property","ISchedule.StartDate","ISchedule.put_StartDate","ISchedule::StartDate","ISchedule::get_StartDate","ISchedule::put_StartDate","StartDate property [PLA]","StartDate property [PLA]","ISchedule interface","base.ischedule_startdate","pla.ischedule_startdate","pla/ISchedule::StartDate","pla/ISchedule::get_StartDate","pla/ISchedule::put_StartDate","put_StartDate"]
 old-location: pla\ischedule_startdate.htm
 tech.root: PLA

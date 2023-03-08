@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IAMovieSetup
 title: IAMovieSetup (strmif.h)
-description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated. (IAMovieSetup)
 helpviewer_keywords: ["IAMovieSetup","IAMovieSetup interface [DirectShow]","IAMovieSetup interface [DirectShow]","described","IAMovieSetupInterface","dshow.iamoviesetup","strmif/IAMovieSetup"]
 old-location: dshow\iamoviesetup.htm
 tech.root: dshow
@@ -55,38 +55,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMovieSetup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMovieSetup</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAMovieSetup</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamoviesetup-register">Register</a>
-</td>
-<td align="left" width="63%">
-Adds the filter to the registry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamoviesetup-unregister">Unregister</a>
-</td>
-<td align="left" width="63%">
-Removes the filter from the registry.
-
-</td>
-</tr>
-</table>
+The <b>IAMovieSetup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMovieSetup</b> also has these types of members:
 
 ## -see-also
 

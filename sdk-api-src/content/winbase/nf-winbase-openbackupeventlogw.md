@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.OpenBackupEventLogW
 title: OpenBackupEventLogW function (winbase.h)
-description: Opens a handle to a backup event log created by the BackupEventLog function.
-helpviewer_keywords: ["OpenBackupEventLog","OpenBackupEventLog function","OpenBackupEventLogA","OpenBackupEventLogW","_win32_openbackupeventlog","base.openbackupeventlog","winbase/OpenBackupEventLog","winbase/OpenBackupEventLogA","winbase/OpenBackupEventLogW"]
+description: Opens a handle to a backup event log created by the BackupEventLog function. (Unicode)
+helpviewer_keywords: ["OpenBackupEventLog", "OpenBackupEventLog function", "OpenBackupEventLogW", "_win32_openbackupeventlog", "base.openbackupeventlog", "winbase/OpenBackupEventLog", "winbase/OpenBackupEventLogW"]
 old-location: base\openbackupeventlog.htm
 tech.root: base
 ms.assetid: cfef0912-9d35-44aa-a1d3-f9bb37213ce0
@@ -46,6 +46,7 @@ api_name:
  - OpenBackupEventLog
  - OpenBackupEventLogA
  - OpenBackupEventLogW
+req.apiset: ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # OpenBackupEventLogW function

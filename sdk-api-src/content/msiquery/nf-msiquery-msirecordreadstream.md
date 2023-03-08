@@ -78,7 +78,7 @@ This function returns UINT.
 ## -remarks
 
 To read a stream, set <i>pcbDataBuf</i> to the number of bytes that are to be transferred from stream to buffer each time the function is called. On return, the 
-<b>MsiRecordReadStream</b> resets <i>pcbDataBuf </i>to the number of bytes that were actually transferred. If the buffer is smaller than the stream, the stream is repositioned when the buffer becomes full such that the next data in the stream is transferred by the next call to the function. When no more bytes are available, 
+<b>MsiRecordReadStream</b> resets <i>pcbDataBuf </i> to the number of bytes that were actually transferred. If the buffer is smaller than the stream, the stream is repositioned when the buffer becomes full such that the next data in the stream is transferred by the next call to the function. When no more bytes are available, 
 <b>MsiRecordReadStream</b> returns ERROR_SUCCESS.
 
 If you pass 0 for <i>szDataBuf</i> then <i>pcbDataBuf</i> is reset to the number of bytes in the stream remaining to be read.

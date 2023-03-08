@@ -57,65 +57,7 @@ The <code>IBaseFilter</code> interface is the primary interface for DirectShow f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBaseFilter</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter</a>. <b>IBaseFilter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IBaseFilter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ibasefilter-enumpins">EnumPins</a>
-</td>
-<td align="left" width="63%">
-Enumerates the pins on this filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ibasefilter-findpin">FindPin</a>
-</td>
-<td align="left" width="63%">
-Retrieves the pin with the specified identifier.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ibasefilter-joinfiltergraph">JoinFilterGraph</a>
-</td>
-<td align="left" width="63%">
-Notifies the filter that it has joined or left the filter graph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ibasefilter-queryfilterinfo">QueryFilterInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about the filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ibasefilter-queryvendorinfo">QueryVendorInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves a string containing vendor information.
-
-</td>
-</tr>
-</table>
+The <b>IBaseFilter</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter</a>. <b>IBaseFilter</b> also has these types of members:
 
 ## -see-also
 

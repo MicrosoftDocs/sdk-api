@@ -52,7 +52,7 @@ api_name:
 
 Instructs the classifier to perform any cleanup after processing a file.
 
-## -parameters
+
 
 ## -returns
 

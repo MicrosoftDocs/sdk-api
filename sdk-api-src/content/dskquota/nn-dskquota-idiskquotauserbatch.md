@@ -55,56 +55,7 @@ Adds multiple quota user objects to a container that is then submitted for updat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiskQuotaUserBatch</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDiskQuotaUserBatch</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDiskQuotaUserBatch</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-add">Add</a>
-</td>
-<td align="left" width="63%">
-Adds an <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointer to the batch list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-flushtodisk">FlushToDisk</a>
-</td>
-<td align="left" width="63%">
-Writes user object changes to disk in a single call to the underlying file system.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-remove">Remove</a>
-</td>
-<td align="left" width="63%">
-Removes an <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointer from the batch list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-removeall">RemoveAll</a>
-</td>
-<td align="left" width="63%">
-Removes all <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointers from the batch list.
-
-</td>
-</tr>
-</table>
+The <b>IDiskQuotaUserBatch</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDiskQuotaUserBatch</b> also has these types of members:
 
 ## -see-also
 

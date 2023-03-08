@@ -74,7 +74,7 @@ Calling this function will enable non-client scaling for an individual top-level
 
 If neither of those are true, or if you call this method from any other window, then it will fail and return a value of zero.
 
-Non-client scaling for top-level windows is not enabled by default. You must call this API to enable it for each individual top-level window for which you wish to have the non-client area scale automatically. Once you do, there is no way to disable it. Enabling non-client scaling means that all the areas drawn by the system for the window will automatically scale in response to DPI changes on the window. That includes areas like the caption bar, the scrollbars, and the menu bar. You want to call <b>EnableNonClientDpiScaling</b> when you want the operating system to be responsible for rendering these areas automatically at the correct size based on the API of the monitor. 
+Non-client scaling for top-level windows is not enabled by default. You must call this API to enable it for each individual top-level window for which you wish to have the non-client area scale automatically. Once you do, there is no way to disable it. Enabling non-client scaling means that all the areas drawn by the system for the window will automatically scale in response to DPI changes on the window. That includes areas like the caption bar, the scrollbars, and the menu bar. You want to call <b>EnableNonClientDpiScaling</b> when you want the operating system to be responsible for rendering these areas automatically at the correct size based on the DPI of the monitor. 
 
 Calling this function enables non-client scaling for top-level windows only. Child windows are unaffected.
 

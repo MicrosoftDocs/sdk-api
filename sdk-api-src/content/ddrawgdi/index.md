@@ -4,7 +4,7 @@ title: Ddrawgdi.h header
 ms.assetid: 3d4187d3-6eac-355a-b3ef-13cd347c3460
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winprog
 f1_keywords:
  - ddrawgdi

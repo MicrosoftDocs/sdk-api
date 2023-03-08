@@ -1,8 +1,8 @@
 ---
 UID: NF:winscard.SCardUIDlgSelectCardW
 title: SCardUIDlgSelectCardW function (winscard.h)
-description: Displays the smart card Select Card dialog box.
-helpviewer_keywords: ["SCardUIDlgSelectCard","SCardUIDlgSelectCard function [Security]","SCardUIDlgSelectCardA","SCardUIDlgSelectCardW","_smart_scarduidlgselectcard","security.scarduidlgselectcard","winscard/SCardUIDlgSelectCard","winscard/SCardUIDlgSelectCardA","winscard/SCardUIDlgSelectCardW"]
+description: Displays the smart card Select Card dialog box. (Unicode)
+helpviewer_keywords: ["SCardUIDlgSelectCard", "SCardUIDlgSelectCard function [Security]", "SCardUIDlgSelectCardW", "_smart_scarduidlgselectcard", "security.scarduidlgselectcard", "winscard/SCardUIDlgSelectCard", "winscard/SCardUIDlgSelectCardW"]
 old-location: security\scarduidlgselectcard.htm
 tech.root: security
 ms.assetid: 68014e9e-0ea3-4032-8db5-c1887a1cc9ad
@@ -56,7 +56,7 @@ The <b>SCardUIDlgSelectCard</b> function displays the <a href="/windows/desktop/
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to the 
 <a href="/windows/desktop/api/winscard/ns-winscard-opencardname_exa">OPENCARDNAME_EX</a> structure for the <b>Select Card</b> dialog box.

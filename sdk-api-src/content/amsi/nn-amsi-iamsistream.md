@@ -53,35 +53,5 @@ Represents a stream to be scanned. For a code example, see the [IAmsiStream inte
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAmsiStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAmsiStream</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAmsiStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAmsiStream</b> also has these types of members:
 
-## -members
-
-The <b>IAmsiStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amsi/nf-amsi-iamsistream-getattribute">GetAttribute</a>
-</td>
-<td align="left" width="63%">
-Returns a requested attribute from the stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amsi/nf-amsi-iamsistream-read">Read</a>
-</td>
-<td align="left" width="63%">
-Requests a buffer-full of content to be read.
-
-</td>
-</tr>
-</table>

@@ -52,7 +52,7 @@ api_name:
 
 Indicates whether the HWND associated with this render target is occluded.
 
-## -parameters
+
 
 ## -returns
 

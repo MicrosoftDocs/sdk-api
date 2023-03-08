@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.ClearEventLogA
 title: ClearEventLogA function (winbase.h)
-description: Clears the specified event log, and optionally saves the current copy of the log to a backup file.
-helpviewer_keywords: ["ClearEventLog","ClearEventLog function","ClearEventLogA","ClearEventLogW","_win32_cleareventlog","base.cleareventlog","winbase/ClearEventLog","winbase/ClearEventLogA","winbase/ClearEventLogW"]
+description: Clears the specified event log, and optionally saves the current copy of the log to a backup file. (ANSI)
+helpviewer_keywords: ["ClearEventLogA", "winbase/ClearEventLogA"]
 old-location: base\cleareventlog.htm
 tech.root: base
 ms.assetid: b66896f6-baee-43c4-9d9b-5663c164d092
@@ -46,6 +46,7 @@ api_name:
  - ClearEventLog
  - ClearEventLogA
  - ClearEventLogW
+req.apiset: ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ClearEventLogA function

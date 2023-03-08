@@ -53,21 +53,21 @@ The <b>LPSETUPHOOKPROC</b> type defines a pointer to this callback function. <i>
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to the <b>Print Setup</b> dialog box for which the message is intended.
 
-### -param Arg2
+### -param unnamedParam2
 
 The identifier of the message being received.
 
-### -param Arg3
+### -param unnamedParam3
 
-Additional information about the message. The exact meaning depends on the value of the <i>Arg2</i> parameter.
+Additional information about the message. The exact meaning depends on the value of the <i>unnamedParam2</i> parameter.
 
-### -param Arg4
+### -param unnamedParam4
 
-Additional information about the message. The exact meaning depends on the value of the <i>Arg2</i> parameter.
+Additional information about the message. The exact meaning depends on the value of the <i>unnamedParam2</i> parameter.
 
 ## -returns
 

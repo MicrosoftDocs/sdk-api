@@ -54,7 +54,7 @@ api_name:
 
 The <b>IKEEXT_EAP_AUTHENTICATION0</b> structure stores information needed for Extensible Authentication Protocol (EAP) authentication. 
 		
-	This structure is only applicable to IKEv2.
+This structure is only applicable to IKEv2.
 
 ## -struct-fields
 

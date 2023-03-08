@@ -129,7 +129,7 @@ The number of duplicate ACKs received.
 
 Type: <b>ULONG</b>
 
-The number of Selective Acknowledgement (SACK)  options received.
+The number of Selective Acknowledgment (SACK)  options received.
 
 ### -field SackBlocksRcvd
 
@@ -415,7 +415,7 @@ The number of acknowledgments reporting segments that have
 
 The <b>TCP_ESTATS_PATH_ROD_v0</b> structure is used as part of the TCP extended statistics feature available on Windows Vista and later. 
 
-The <b>TCP_ESTATS_PATH_ROD_v0</b> is defined as version 0 of the structure for  read-only dynamic information on network path measurementfor a TCP connection.  This information is available after the connection has been established.
+The <b>TCP_ESTATS_PATH_ROD_v0</b> is defined as version 0 of the structure for  read-only dynamic information on network path measurement for a TCP connection.  This information is available after the connection has been established.
 
 The <b>TCP_ESTATS_PATH_ROD_v0</b> structure is retrieved by calls to  the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a> or <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a> functions when <b>TcpConnectionEstatsPath</b> is passed in the <i>EstatsType</i> parameter. Extended TCP statistics need to be enabled to retrieve this structure.
 
@@ -423,7 +423,7 @@ The path MTU discovery and maximum segment size are discussed in detail in the I
 
 TCP congestion control and congestion control algorithms are discussed in detail in the IETF RFC 2581 on TCP Congestion Control. For more information, see <a href="http://tools.ietf.org/html/rfc2581">http://www.ietf.org/rfc/rfc2581.txt</a>.
 
-SACK and an extension to the SACK option are discussed in detail in the IETF RFC 2883 on An Extension to the Selective Acknowledgement
+SACK and an extension to the SACK option are discussed in detail in the IETF RFC 2883 on An Extension to the Selective Acknowledgment
            (SACK) Option for TCP. For more information, see <a href="http://tools.ietf.org/html/rfc2883">http://www.ietf.org/rfc/rfc2883.txt</a>.
 
 The TCP retransmission timer (RTO) and the smoothed round-trip-time (RTT) are discussed in detail in the IETF RFC 2988 on Computing TCP's Retransmission Timer. For more information, see <a href="http://tools.ietf.org/html/rfc2988">http://www.ietf.org/rfc/rfc2988.txt</a>.

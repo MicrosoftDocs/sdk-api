@@ -55,7 +55,7 @@ The <i>EditWordBreakProcEx</i> function is an application defined  callback func
 
 ## -parameters
 
-### -param *pchText [in]
+### -param pchText [in]
 
 Type: <b>char*</b>
 
@@ -154,7 +154,7 @@ Returns the character index of the word break.
 An application must install the callback function by specifying the address of the callback function in an <a href="https://msdn.microsoft.com/2b45f747-ae15-470b-a786-98d8135289da">EM_SETWORDBREAKPROCEX</a> message. 
 
 For Microsoft Rich Edit 2.0 and later, Rich Edit no longer supports <i>EditWordBreakProcEx</i>. Users can send 
-				<a href="https://msdn.microsoft.com/e5029b75-5f35-43a5-876d-24e81605bb49">EM_SETWORDBREAKPROC</a> to set <a href="https://msdn.microsoft.com/601afaee-f5cd-4b25-b9c7-5c6868b75b3f">EditWordBreakProc</a>, which is now enhanced to support the passing of Unicode text.
+				<a href="https://msdn.microsoft.com/e5029b75-5f35-43a5-876d-24e81605bb49">EM_SETWORDBREAKPROC</a> to set <a href="/windows/win32/api/winuser/nc-winuser-editwordbreakproca">EditWordBreakProc</a>, which is now enhanced to support the passing of Unicode text.
 
 ## -see-also
 
@@ -166,7 +166,7 @@ For Microsoft Rich Edit 2.0 and later, Rich Edit no longer supports <i>EditWord
 
 
 
-<a href="https://msdn.microsoft.com/601afaee-f5cd-4b25-b9c7-5c6868b75b3f">EditWordBreakProc</a>
+<a href="/windows/win32/api/winuser/nc-winuser-editwordbreakproca">EditWordBreakProc</a>
 
 
 

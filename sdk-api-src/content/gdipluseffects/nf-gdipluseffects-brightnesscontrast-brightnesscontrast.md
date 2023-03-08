@@ -53,7 +53,7 @@ api_name:
 
 Creates a new <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-brightnesscontrast">BrightnessContrast</a> object.
 
-## -parameters
+
 
 ## -see-also
 

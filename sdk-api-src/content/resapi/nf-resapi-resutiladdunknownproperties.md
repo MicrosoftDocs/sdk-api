@@ -107,7 +107,8 @@ There was an error allocating memory.
 
 The relationships between the input and output parameters of  <b>ResUtilAddUnknownProperties</b> are illustrated in the following diagram:
 
-<img alt="" border="0" src="./images/resutil.png"/>
+:::image type="content" source="./images/resutil.png" border="false" alt-text="Diagram showing input and output parameters listed separately in two buffers. Two unknown properties have been added to the output parameter list.":::
+
 The  <b>ResUtilAddUnknownProperties</b> utility function enumerates the properties stored in the cluster database (under <i>hkeyClusterKey</i>) and looks for corresponding properties in the property table (<i>pPropertyTable</i>). Each property that is listed in the cluster database but not listed in the property table is added to the property list (<i>pOutPropertyList</i>).
 
 ## -see-also

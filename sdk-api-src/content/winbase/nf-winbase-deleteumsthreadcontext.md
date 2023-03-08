@@ -44,6 +44,7 @@ api_location:
  - API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
  - DeleteUmsThreadContext
+req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 ---
 
 # DeleteUmsThreadContext function
@@ -52,6 +53,9 @@ api_name:
 ## -description
 
 Deletes  the specified user-mode scheduling (UMS) thread context. The thread must be terminated.
+
+> [!WARNING]
+> As of Windows 11, user-mode scheduling is not supported. All calls fail with the error `ERROR_NOT_SUPPORTED`.
 
 ## -parameters
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetWindowTextLengthW
 title: GetWindowTextLengthW function (winuser.h)
-description: Retrieves the length, in characters, of the specified window's title bar text (if the window has a title bar).
-helpviewer_keywords: ["GetWindowTextLength","GetWindowTextLength function [Windows and Messages]","GetWindowTextLengthA","GetWindowTextLengthW","_win32_GetWindowTextLength","_win32_getwindowtextlength_cpp","winmsg.getwindowtextlength","winui._win32_getwindowtextlength","winuser/GetWindowTextLength","winuser/GetWindowTextLengthA","winuser/GetWindowTextLengthW"]
+description: Retrieves the length, in characters, of the specified window's title bar text (if the window has a title bar). (Unicode)
+helpviewer_keywords: ["GetWindowTextLength", "GetWindowTextLength function [Windows and Messages]", "GetWindowTextLengthW", "_win32_GetWindowTextLength", "_win32_getwindowtextlength_cpp", "winmsg.getwindowtextlength", "winui._win32_getwindowtextlength", "winuser/GetWindowTextLength", "winuser/GetWindowTextLengthW"]
 old-location: winmsg\getwindowtextlength.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowtextlength.htm
@@ -50,6 +50,7 @@ api_name:
  - GetWindowTextLength
  - GetWindowTextLengthA
  - GetWindowTextLengthW
+req.apiset: ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # GetWindowTextLengthW function

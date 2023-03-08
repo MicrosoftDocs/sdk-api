@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetMenuItemInfoW
 title: GetMenuItemInfoW function (winuser.h)
-description: Retrieves information about a menu item.
-helpviewer_keywords: ["GetMenuItemInfo","GetMenuItemInfo function [Menus and Other Resources]","GetMenuItemInfoA","GetMenuItemInfoW","_win32_GetMenuItemInfo","_win32_getmenuiteminfo_cpp","menurc.getmenuiteminfo","winui._win32_getmenuiteminfo","winuser/GetMenuItemInfo","winuser/GetMenuItemInfoA","winuser/GetMenuItemInfoW"]
+description: Retrieves information about a menu item. (Unicode)
+helpviewer_keywords: ["GetMenuItemInfo", "GetMenuItemInfo function [Menus and Other Resources]", "GetMenuItemInfoW", "_win32_GetMenuItemInfo", "_win32_getmenuiteminfo_cpp", "menurc.getmenuiteminfo", "winui._win32_getmenuiteminfo", "winuser/GetMenuItemInfo", "winuser/GetMenuItemInfoW"]
 old-location: menurc\getmenuiteminfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuiteminfo.htm
@@ -49,6 +49,7 @@ api_name:
  - GetMenuItemInfo
  - GetMenuItemInfoA
  - GetMenuItemInfoW
+req.apiset: ext-ms-win-ntuser-menu-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetMenuItemInfoW function

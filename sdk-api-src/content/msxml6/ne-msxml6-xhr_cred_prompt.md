@@ -56,17 +56,17 @@ Specifies whether to allow credential prompts to the user for authentication.
 
 ## -enum-fields
 
-### -field XHR_CRED_PROMPT_ALL
+### -field XHR_CRED_PROMPT_ALL:0
 
 Allow all credential prompts for authentication. 
 
 This setting allows credential prompts in response to requests from the proxy or the server.
 
-### -field XHR_CRED_PROMPT_NONE
+### -field XHR_CRED_PROMPT_NONE:0x1
 
 Disable all credential prompts for authentication. This setting disables any credential prompts in response to requests from the proxy or the server.
 
-### -field XHR_CRED_PROMPT_PROXY
+### -field XHR_CRED_PROMPT_PROXY:0x2
 
 Allow credential prompts for authentication only in response to requests from the proxy.
 

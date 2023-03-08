@@ -98,7 +98,7 @@ With a nonblocking socket, the connection attempt cannot be completed immediatel
 
 <ul>
 <li>Use 
-<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a> to determine the completion of the connection request by checking if the socket is writeable.</li>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a> to determine the completion of the connection request by checking if the socket is writable.</li>
 <li>If your application is using 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a> to indicate interest in connection events, then your application will receive an FD_CONNECT notification when the connect operation is complete(successful or not).</li>
 <li>If your application is using 
@@ -439,6 +439,10 @@ When connected sockets become closed for whatever reason, they should be discard
 
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>
+
+
+
+<a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">ConnectEx</a>
 
 
 

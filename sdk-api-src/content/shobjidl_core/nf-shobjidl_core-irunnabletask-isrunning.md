@@ -52,7 +52,7 @@ api_name:
 
 Requests information on the state of a task, such as thumbnail extraction.
 
-## -parameters
+
 
 ## -returns
 

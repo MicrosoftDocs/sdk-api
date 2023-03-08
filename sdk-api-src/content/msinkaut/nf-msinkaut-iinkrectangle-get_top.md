@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRectangle.get_Top
 title: IInkRectangle::get_Top (msinkaut.h)
-description: Gets or sets the top position of the InkRectangle object.
+description: Gets or sets the top position of the InkRectangle object. (Get)
 helpviewer_keywords: ["IInkRectangle interface [Tablet PC]","Top property","IInkRectangle.Top","IInkRectangle.get_Top","IInkRectangle::Top","IInkRectangle::get_Top","IInkRectangle::put_Top","InkRectangle.get_Top","InkRectangle.put_Top","Top property [Tablet PC]","Top property [Tablet PC]","IInkRectangle interface","f97145cf-9de9-427a-9701-36c6f4286910","get_Top","msinkaut/IInkRectangle::Top","msinkaut/IInkRectangle::get_Top","msinkaut/IInkRectangle::put_Top","put_Top","tablet.inkrectangle_top"]
 old-location: tablet\inkrectangle_top.htm
 tech.root: tablet
@@ -75,7 +75,7 @@ The default value of this property is 0.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846804(v=VS.85).aspx">IInkRectangle</a>
+<a href="../msinkaut/nn-msinkaut-iinkrectangle.md">IInkRectangle</a>
 
 
 

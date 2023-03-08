@@ -54,66 +54,7 @@ Implemented by the text analyzer's client to provide text to the analyzer. It al
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalysisSource</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteTextAnalysisSource</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDWriteTextAnalysisSource</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissource-getlocalename">GetLocaleName</a>
-</td>
-<td align="left" width="63%">
-Gets the locale name on the range affected by the text analysis.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissource-getnumbersubstitution">GetNumberSubstitution</a>
-</td>
-<td align="left" width="63%">
-Gets the number substitution from the text range affected by the text analysis.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissource-getparagraphreadingdirection">GetParagraphReadingDirection</a>
-</td>
-<td align="left" width="63%">
-Gets the paragraph reading direction.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissource-gettextatposition">GetTextAtPosition</a>
-</td>
-<td align="left" width="63%">
-Gets a block of text starting at the specified text position.
-     
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextanalysissource-gettextbeforeposition">GetTextBeforePosition</a>
-</td>
-<td align="left" width="63%">
-Gets a block of text immediately preceding the specified position.
-
-</td>
-</tr>
-</table>
+The <b>IDWriteTextAnalysisSource</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteTextAnalysisSource</b> also has these types of members:
 
 ## -remarks
 

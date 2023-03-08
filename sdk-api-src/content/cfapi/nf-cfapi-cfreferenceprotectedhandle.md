@@ -60,7 +60,7 @@ The protected handle of a placeholder file.
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
 
 ## -remarks
 

@@ -54,29 +54,7 @@ Represents a software bitmap.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISoftwareBitmapNative</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISoftwareBitmapNative</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISoftwareBitmapNative</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/windows.graphics.imaging.interop/nf-windows-graphics-imaging-interop-isoftwarebitmapnative-getdata">GetData</a>
-</td>
-<td align="left" width="63%">
-This method returns an interface that provides access to the software bitmap data. 
-
-</td>
-</tr>
-</table>
+The <b>ISoftwareBitmapNative</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISoftwareBitmapNative</b> also has these types of members:
 
 ## -see-also
 

@@ -1,12 +1,12 @@
 ---
-UID: NS:digitalv.__unnamed_struct_13
+UID: NS:digitalv.MCI_DGV_OPEN_PARMSW
 title: MCI_DGV_OPEN_PARMSW (digitalv.h)
-description: The MCI_DGV_OPEN_PARMS structure contains information for the MCI_OPEN command for digital-video devices.
+description: The MCI_DGV_OPEN_PARMSW (Unicode) structure (digitalv.h) contains information for the MCI_OPEN command for digital-video devices.
 helpviewer_keywords: ["*LPMCI_DGV_OPEN_PARMSW","MCI_DGV_OPEN_PARMS","MCI_DGV_OPEN_PARMS structure [Windows Multimedia]","MCI_DGV_OPEN_PARMSW","_win32_MCI_DGV_OPEN_PARMS_str","digitalv/MCI_DGV_OPEN_PARMS","multimedia.mci_dgv_open_parms"]
 old-location: multimedia\mci_dgv_open_parms.htm
 tech.root: Multimedia
 ms.assetid: 9256ab7f-1259-4c74-9766-fe3ed1c7215c
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: '*LPMCI_DGV_OPEN_PARMSW, MCI_DGV_OPEN_PARMS, MCI_DGV_OPEN_PARMS structure [Windows Multimedia], MCI_DGV_OPEN_PARMSW, _win32_MCI_DGV_OPEN_PARMS_str, digitalv/MCI_DGV_OPEN_PARMS, multimedia.mci_dgv_open_parms'
 req.header: digitalv.h
 req.include-header: 
@@ -113,3 +113,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
+

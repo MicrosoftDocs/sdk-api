@@ -1,7 +1,7 @@
 ---
 UID: NF:oaidl.BSTR_UserUnmarshal64
 title: BSTR_UserUnmarshal64 function (oaidl.h)
-description: Unmarshals a BSTR object from the RPC buffer.
+description: Unmarshals a BSTR object from the RPC buffer. (BSTR_UserUnmarshal64)
 helpviewer_keywords: ["BSTR_UserUnmarshal64","BSTR_UserUnmarshal64 function [Automation]","automat.bstr_userunmarshal64","oaidl/BSTR_UserUnmarshal64"]
 old-location: automat\bstr_userunmarshal64.htm
 tech.root: automat
@@ -54,15 +54,15 @@ Unmarshals a <a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> 
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The current buffer. This pointer may or may not be aligned on entry.
 
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 The object.
 

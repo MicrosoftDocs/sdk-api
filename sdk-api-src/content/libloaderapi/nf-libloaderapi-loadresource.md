@@ -72,7 +72,7 @@ A handle to the module whose executable file contains the resource. If <i>hModul
 
 Type: <b>HRSRC</b>
 
-A handle to the resource to be loaded. This handle is returned by the <a href="https://msdn.microsoft.com/00f14551-5381-4499-a13a-86f15dd4e618">FindResource</a> or <a href="https://msdn.microsoft.com/3a9bfcca-68d8-4705-914b-dae844b5e0c3">FindResourceEx</a> function.
+A handle to the resource to be loaded. This handle is returned by the <a href="/windows/win32/api/winbase/nf-winbase-findresourcea">FindResource</a> or <a href="/windows/win32/api/winbase/nf-winbase-findresourceexa">FindResourceEx</a> function.
 
 ## -returns
 
@@ -84,7 +84,9 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 ## -remarks
 
-The return type of <b>LoadResource</b> is <b>HGLOBAL</b> for backward compatibility, not because the function returns a handle to a global memory block. Do not pass this handle to the <a href="/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a> or <a href="/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function. To obtain a pointer to the first byte of the resource data, call the <a href="https://msdn.microsoft.com/a2385605-ad73-4250-ad78-36255144b816">LockResource</a> function; to obtain the size of the resource, call <a href="https://msdn.microsoft.com/e3eb82a3-15b6-4874-81d3-955d38d42383">SizeofResource</a>. 
+The return type of <b>LoadResource</b> is <b>HGLOBAL</b> for backward compatibility, not because the function returns a handle to a global memory block. Do not pass this handle to the <a href="/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a> or <a href="/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function. To obtain a pointer to the first byte of the resource data, call the <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a> function; to obtain the size of the resource, call <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-sizeofresource">SizeofResource</a>. 
+
+[GlobalSize](/windows/desktop/api/winbase/nf-winbase-globalsize) returns 0 for a resource HGLOBAL. As a result, any APIs that depend on GlobalSize to determine the size of the HGLOBAL will not function correctly. For example, use [SHCreateMemStream](/windows/win32/api/shlwapi/nf-shlwapi-shcreatememstream) instead of [CreateStreamOnHGlobal](/windows/win32/api/combaseapi/nf-combaseapi-createstreamonhglobal).
 
 To use a resource immediately, an application should use the following resource-specific functions to find and load the resource in one call.
 
@@ -103,11 +105,11 @@ To use a resource immediately, an application should use the following resource-
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/52ead129-a4fe-413a-a86a-349d4bd816db">LoadAccelerators</a>
+<a href="/windows/win32/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
 </td>
 <td>Loads an accelerator table</td>
 <td>
-<a href="https://msdn.microsoft.com/17fd308f-c1ad-41aa-ae65-72e22a7500f3">DestroyAcceleratorTable</a>
+<a href="/windows/win32/api/winuser/nf-winuser-destroyacceleratortable">DestroyAcceleratorTable</a>
 </td>
 </tr>
 <tr>
@@ -121,34 +123,34 @@ To use a resource immediately, an application should use the following resource-
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/302f9238-4b03-4688-8b9b-a598beffb575">LoadCursor</a>
+<a href="/windows/win32/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
 </td>
 <td>Loads a cursor resource</td>
 <td>
-<a href="https://msdn.microsoft.com/fee6d837-9fc7-4ea6-b5d7-3889a64ccdea">DestroyCursor</a>
+<a href="/windows/win32/api/winuser/nf-winuser-destroycursor">DestroyCursor</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/3a8099f8-9db7-4ef8-838f-ca8f272df531">LoadIcon</a>
+<a href="/windows/win32/api/winuser/nf-winuser-loadicona">LoadIcon</a>
 </td>
 <td>Loads an icon resource</td>
 <td>
-<a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a>
+<a href="/windows/win32/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/806297e1-0ee4-4471-a98a-598c1b48c0de">LoadMenu</a>
+<a href="/windows/win32/api/winuser/nf-winuser-loadmenua">LoadMenu</a>
 </td>
 <td>Loads a menu resource</td>
 <td>
-<a href="https://msdn.microsoft.com/4fc9e332-09a6-4877-a831-e1128144530d">DestroyMenu</a>
+<a href="/windows/win32/api/winuser/nf-winuser-destroymenu">DestroyMenu</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/9d878af7-a7b1-4d24-89ff-c567e4a8accd">LoadString</a>
+<a href="/windows/win32/api/winuser/nf-winuser-loadstringa">LoadString</a>
 </td>
 <td>Loads a string resource</td>
 <td>No action needed</td>
@@ -156,12 +158,12 @@ To use a resource immediately, an application should use the following resource-
 </table>
  
 
-For example, an application can use the <a href="https://msdn.microsoft.com/3a8099f8-9db7-4ef8-838f-ca8f272df531">LoadIcon</a> function to load an icon for display on the screen, followed by <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> when done. 
+For example, an application can use the <a href="/windows/win32/api/winuser/nf-winuser-loadicona">LoadIcon</a> function to load an icon for display on the screen, followed by <a href="/windows/win32/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> when done. 
 
 
 #### Examples
 
-For an example see <a href="/windows-hardware/drivers/wdf/creating-a-resource-requirements-list">Updating Resources</a>.
+For an example see <a href="/windows/win32/menurc/using-resources#updating-resources">Updating Resources</a>.
 
 <div class="code"></div>
 
@@ -171,11 +173,11 @@ For an example see <a href="/windows-hardware/drivers/wdf/creating-a-resource-re
 
 
 
-<a href="https://msdn.microsoft.com/00f14551-5381-4499-a13a-86f15dd4e618">FindResource</a>
+<a href="/windows/win32/api/winbase/nf-winbase-findresourcea">FindResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a9bfcca-68d8-4705-914b-dae844b5e0c3">FindResourceEx</a>
+<a href="/windows/win32/api/winbase/nf-winbase-findresourceexa">FindResourceEx</a>
 
 
 
@@ -187,7 +189,7 @@ For an example see <a href="/windows-hardware/drivers/wdf/creating-a-resource-re
 
 
 
-<a href="https://msdn.microsoft.com/a2385605-ad73-4250-ad78-36255144b816">LockResource</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a>
 
 
 

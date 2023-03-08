@@ -52,7 +52,7 @@ api_name:
 
 The <b>switchToPlayerApplication</b> method switches a remoted Windows Media Player control to the full mode of the Player.
 
-## -parameters
+
 
 ## -returns
 

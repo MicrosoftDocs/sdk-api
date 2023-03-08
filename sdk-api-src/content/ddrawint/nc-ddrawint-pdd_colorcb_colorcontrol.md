@@ -51,7 +51,7 @@ The <b>DdControlColor</b> callback function controls the luminance and brightnes
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_colorcontroldata">DD_COLORCONTROLDATA</a> structure that contains the color control information for a specified overlay surface.
 

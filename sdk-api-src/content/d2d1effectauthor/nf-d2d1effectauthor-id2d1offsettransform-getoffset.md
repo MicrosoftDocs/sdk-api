@@ -53,7 +53,7 @@ api_name:
 
 Gets the offset currently in the offset transform.
 
-## -parameters
+
 
 ## -returns
 

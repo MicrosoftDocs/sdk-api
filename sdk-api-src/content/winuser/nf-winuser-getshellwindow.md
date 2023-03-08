@@ -52,6 +52,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
 api_name:
  - GetShellWindow
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetShellWindow function
@@ -61,7 +62,7 @@ api_name:
 
 Retrieves a handle to the Shell's desktop window.
 
-## -parameters
+
 
 ## -returns
 

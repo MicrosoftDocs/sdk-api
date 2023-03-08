@@ -94,7 +94,7 @@ if (SUCCEEDED(hr))
              // pTuningSpace now points to the tuning space with this ID.
              --cCount;
         }
-        ID++; // incremement for the next ID.
+        ID++; // increment for the next ID.
     }
 }
 

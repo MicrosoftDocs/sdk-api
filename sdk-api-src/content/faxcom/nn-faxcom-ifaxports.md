@@ -60,38 +60,7 @@ The <b>IFaxPorts</b> interface includes methods that allow a fax client applicat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxPorts</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxPorts</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFaxPorts</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/faxcom/nf-faxcom-ifaxports-get_count">get_Count</a>
-</td>
-<td align="left" width="63%">
-The <a href="/previous-versions/windows/desktop/api/faxcom/nf-faxcom-ifaxports-get_count">IFaxPorts::get_Count</a> method retrieves the number of fax ports attached to the connected fax server.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/faxcom/nf-faxcom-ifaxports-get_item">get_Item</a>
-</td>
-<td align="left" width="63%">
-The <a href="/previous-versions/windows/desktop/api/faxcom/nf-faxcom-ifaxports-get_item">IFaxPorts::get_Item</a> method creates a <a href="/previous-versions/windows/desktop/fax/-mfax-faxport">FaxPort</a> object for a specified fax port. The object allows enumeration of port configuration information for a specific connection to a fax server.
-
-</td>
-</tr>
-</table>
+The <b>IFaxPorts</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxPorts</b> also has these types of members:
 
 ## -remarks
 

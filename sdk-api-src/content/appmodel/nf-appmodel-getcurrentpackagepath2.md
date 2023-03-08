@@ -1,10 +1,10 @@
 ---
 UID: NF:appmodel.GetCurrentPackagePath2
 title: GetCurrentPackagePath2
-description: Gets the package path for the calling process.
+description: Gets the package path for the calling process. (GetCurrentPackagePath2)
 helpviewer_keywords: ["GetCurrentPackagePath2"]
 tech.root: appxpkg
-ms.date: 01/31/19
+ms.date: 01/31/2019
 ms.keywords: GetCurrentPackagePath2
 req.assembly: 
 req.construct-type: function
@@ -35,7 +35,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - appmodel.h
 api_name:

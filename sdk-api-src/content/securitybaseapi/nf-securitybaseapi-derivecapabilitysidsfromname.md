@@ -9,10 +9,10 @@ ms.assetid: 1A911FCC-6D11-4185-B532-20FE6C7C4B0B
 ms.date: 12/05/2018
 ms.keywords: DeriveCapabilitySidsFromName, DeriveCapabilitySidsFromName function [Security], security.derivecapabilitysidsfromname, securitybaseapi/DeriveCapabilitySidsFromName
 req.header: securitybaseapi.h
-req.include-header: 
+req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: Advapi32.lib 
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -50,9 +50,7 @@ api_name:
 
 ## -description
 
-    This function constructs two arrays of SIDs out of a capability name. 
-    One is an array group SID with NT Authority, and the other is an array of 
-    capability SIDs with AppAuthority.
+This function constructs two arrays of SIDs out of a capability name. One is an array group SID with NT Authority, and the other is an array of capability SIDs with AppAuthority.
 
 ## -parameters
 
@@ -85,9 +83,6 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 ## -remarks
 
-    The caller is expected to free the individual SIDs returned in each array by calling LocalFree.
-    as well as memory allocated for the array itself.
+The caller is expected to free the individual SIDs returned in each array by calling `LocalFree`, as well as memory allocated for the array itself.
 
-    The SID computed for the application capability of legacy capabilities
-    (published prior to Win10) will be the same as the published SIDs but the
-    SID for the service group capability SID will be hash based.
+The SID computed for the application capability of legacy capabilities (published prior to Win10) will be the same as the published SIDs but the SID for the service group capability SID will be hash based.

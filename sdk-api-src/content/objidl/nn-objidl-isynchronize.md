@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.ISynchronize
 title: ISynchronize (objidl.h)
-description: Provides asynchronous communication between objects about the occurrence of an event.
+description: The ISynchronize (objidl.h) interface provides asynchronous communication between objects about the occurrence of an event.
 helpviewer_keywords: ["ISynchronize","ISynchronize interface [COM]","ISynchronize interface [COM]","described","_com_isynchronize","com.isynchronize","objidlbase/ISynchronize"]
 old-location: com\isynchronize.htm
 tech.root: com
 ms.assetid: 2c1e3d27-abb4-4bd0-ad9e-4dc9eda8e4b6
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: ISynchronize, ISynchronize interface [COM], ISynchronize interface [COM],described, _com_isynchronize, com.isynchronize, objidlbase/ISynchronize
 req.header: objidl.h
 req.include-header: ObjIdl.h
@@ -54,47 +54,7 @@ Provides asynchronous communication between objects about the occurrence of an e
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISynchronize</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISynchronize</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISynchronize</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-isynchronize-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Sets the synchronization object to the nonsignaled state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-isynchronize-signal">Signal</a>
-</td>
-<td align="left" width="63%">
-Sets the synchronization object to the signaled state and causes pending wait operations to return S_OK.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-isynchronize-wait">Wait</a>
-</td>
-<td align="left" width="63%">
-Waits for the synchronization object to be signaled or for a specified timeout period to elapse, whichever comes first.
-
-</td>
-</tr>
-</table>
+The <b>ISynchronize</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISynchronize</b> also has these types of members:
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:spatialinteractionmanagerinterop.ISpatialInteractionManagerInterop
 title: ISpatialInteractionManagerInterop (spatialinteractionmanagerinterop.h)
-description: Enables interoperability with a Universal Windows Platform (UWP) SpatialInteractionManager object and provides access to SpatialInteractionManager members for accessing user input from hands, motion controllers, and system voice commands.
+description: Enables interoperability with a WinRT SpatialInteractionManager object and provides access to SpatialInteractionManager members for accessing user input from hands, motion controllers, and system voice commands.
 helpviewer_keywords: ["ISpatialInteractionManagerInterop","ISpatialInteractionManagerInterop interface","ISpatialInteractionManagerInterop interface","described","MixedReality.ispatialinteractionmanagerinterop","spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop"]
 old-location: mixedreality\ispatialinteractionmanagerinterop.htm
 tech.root: MixedReality
@@ -49,15 +49,7 @@ api_name:
 
 ## -description
 
-Enables interoperability with a Univeral Windows Platform (UWP) [SpatialInteractionManager](/uwp/api/windows.ui.input.spatial.spatialinteractionmanager) object, and provides access to **SpatialInteractionManager** members for accessing user input from hands, motion controllers, and system voice commands.
-
-## -members
-
-The **ISpatialInteractionManagerInterop** interface has these methods.
-
-|Method|Description|
-|-|-|
-|[GetForWindow](nf-spatialinteractionmanagerinterop-ispatialinteractionmanagerinterop-getforwindow.md)|Retrieves a [SpatialInteractionManager](/uwp/api/windows.ui.input.spatial.spatialinteractionmanager) object bound to the active application.|
+Enables interoperability with a Universal Windows Platform (UWP) [SpatialInteractionManager](/uwp/api/windows.ui.input.spatial.spatialinteractionmanager) object, and provides access to **SpatialInteractionManager** members for accessing user input from hands, motion controllers, and system voice commands.
 
 ## -see-also
 

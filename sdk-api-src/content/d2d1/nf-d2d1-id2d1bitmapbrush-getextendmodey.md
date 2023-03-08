@@ -52,7 +52,7 @@ api_name:
 
   Gets the method by which the brush vertically tiles those areas that extend past its bitmap.
 
-## -parameters
+
 
 ## -returns
 

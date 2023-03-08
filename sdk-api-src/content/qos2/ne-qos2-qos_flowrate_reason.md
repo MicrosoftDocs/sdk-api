@@ -58,21 +58,21 @@ The <b>QOS_FLOWRATE_REASON</b> enumeration indicates the reason for a change in 
 
 ## -enum-fields
 
-### -field QOSFlowRateNotApplicable
+### -field QOSFlowRateNotApplicable:0
 
 Indicates that there has not been a change in the flow.
 
-### -field QOSFlowRateContentChange
+### -field QOSFlowRateContentChange:1
 
 Indicates that the content of a flow has changed.
 
-### -field QOSFlowRateCongestion
+### -field QOSFlowRateCongestion:2
 
 Indicates that the flow has changed due to congestion.
 
-### -field QOSFlowRateHigherContentEncoding
+### -field QOSFlowRateHigherContentEncoding:3
 
-### -field QOSFlowRateUserCaused
+### -field QOSFlowRateUserCaused:4
 
 Indicates that the user has caused the flow to change.
 

@@ -55,7 +55,7 @@ Returns a code related to the GPMC operation. The code corresponds to warnings o
 
 The operation codes are internal identifiers that are defined in Gpmgmt.dll. You can extract a text description of the operation code by using the  <a href="/previous-versions/windows/desktop/gpmc/igpmstatusmessage-property-methods">Message property</a> of <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmessage">IGPMStatusMessage</a> or by using <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>.
 
-## -parameters
+
 
 ## -returns
 

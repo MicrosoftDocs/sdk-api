@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.DeleteDelegatedPolicyUserName
 title: IAzApplication::DeleteDelegatedPolicyUserName (azroles.h)
-description: Removes the specified account name from the list of principals that act as delegated policy users.
+description: Removes the specified account name from the list of principals that act as delegated policy users. (IAzApplication.DeleteDelegatedPolicyUserName)
 helpviewer_keywords: ["AzApplication object [Security]","DeleteDelegatedPolicyUserName method","DeleteDelegatedPolicyUserName","DeleteDelegatedPolicyUserName method [Security]","DeleteDelegatedPolicyUserName method [Security]","AzApplication object","DeleteDelegatedPolicyUserName method [Security]","IAzApplication interface","IAzApplication interface [Security]","DeleteDelegatedPolicyUserName method","IAzApplication.DeleteDelegatedPolicyUserName","IAzApplication::DeleteDelegatedPolicyUserName","azroles/IAzApplication::DeleteDelegatedPolicyUserName","security.iazapplication_deletedelegatedpolicyusername"]
 old-location: security\iazapplication_deletedelegatedpolicyusername.htm
 tech.root: security

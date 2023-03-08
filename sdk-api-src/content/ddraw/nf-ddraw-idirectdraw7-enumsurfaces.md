@@ -54,7 +54,7 @@ Enumerates all the existing or possible surfaces that meet the specified surface
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A combination of one search type flag and one matching flag. The search type flag determines how the method searches for matching surfaces; you can search for surfaces that can be created using the description in the <i>lpDDSD2</i> parameter or for existing surfaces that already match that description. The matching flag determines whether the method enumerates all surfaces, only those that match, or only those that do not match the description in the <i>lpDDSD2</i> parameter.
 
@@ -92,15 +92,15 @@ Searches for any surface that matches the surface description.
 
 Searches for any surface that does not match the surface description.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Address of a <a href="/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that defines the surface of interest. This parameter can be NULL if <i>dwFlags</i> includes the DDENUMSURFACES_ALL flag.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Address of an application-defined structure to be passed to each enumeration member.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 Address of the <a href="/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback7">EnumSurfacesCallback7</a> function that the enumeration procedure calls every time a match is found.
 
@@ -129,7 +129,7 @@ This method differs from its counterparts in previous interface versions in that
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>IDirectDraw7::EnumSurfaces</b> method.
+
 
 ## -see-also
 

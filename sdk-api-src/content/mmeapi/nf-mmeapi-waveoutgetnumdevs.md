@@ -54,7 +54,7 @@ api_name:
 
 The <b>waveOutGetNumDevs</b> function retrieves the number of waveform-audio output devices present in the system.
 
-## -parameters
+
 
 ## -returns
 

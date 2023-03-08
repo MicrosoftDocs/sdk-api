@@ -135,7 +135,7 @@ The filter is not stopped, but it does not support reconnection while in a runni
 
 ## -remarks
 
-Filters can call this method in order to renegotiate a pin connection. The method executes on a separate thread. Before calling this method, call <a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">IPin::QueryAccept</a> on the other pin to ensure that the reconnnection attempt will succeed. Do not call this method unless <b>QueryAccept</b> returns S_OK. Otherwise, because the reconnection is performed asynchronously, the reconnection might fail even though the <code>ReconnectEx</code> method succeeds, leaving the filter graph in an inconsistent state.
+Filters can call this method in order to renegotiate a pin connection. The method executes on a separate thread. Before calling this method, call <a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">IPin::QueryAccept</a> on the other pin to ensure that the reconnection attempt will succeed. Do not call this method unless <b>QueryAccept</b> returns S_OK. Otherwise, because the reconnection is performed asynchronously, the reconnection might fail even though the <code>ReconnectEx</code> method succeeds, leaving the filter graph in an inconsistent state.
 
 This method improves on the <a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph-reconnect">IFilterGraph::Reconnect</a> method by specifying a media type. This makes the reconnection more likely to succeed.
 

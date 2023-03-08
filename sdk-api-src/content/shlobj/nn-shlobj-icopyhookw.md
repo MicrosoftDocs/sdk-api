@@ -1,12 +1,12 @@
 ---
 UID: NN:shlobj.ICopyHookW
 title: ICopyHookW
-description: Exposes a method that creates a copy hook handler.
+description: Exposes a method that creates a copy hook handler. (Unicode)
 helpviewer_keywords: ["ICopyHookW"]
 old-location: 
 tech.root: shell
 ms.assetid: c3ffa682-250f-458b-8ad5-b25871b3901b
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: ICopyHookW
 targetos: Windows
 req.assembly: 

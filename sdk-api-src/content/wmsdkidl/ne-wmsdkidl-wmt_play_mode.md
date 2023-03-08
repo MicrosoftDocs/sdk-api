@@ -54,19 +54,19 @@ The <b>WMT_PLAY_MODE</b> enumeration type defines the playback options of the re
 
 ## -enum-fields
 
-### -field WMT_PLAY_MODE_AUTOSELECT
+### -field WMT_PLAY_MODE_AUTOSELECT:0
 
 The reader will select the most appropriate play mode based on the location of the content.
 
-### -field WMT_PLAY_MODE_LOCAL
+### -field WMT_PLAY_MODE_LOCAL:1
 
 The reader will read files from a local storage location.
 
-### -field WMT_PLAY_MODE_DOWNLOAD
+### -field WMT_PLAY_MODE_DOWNLOAD:2
 
 The reader will download files from network locations.
 
-### -field WMT_PLAY_MODE_STREAMING
+### -field WMT_PLAY_MODE_STREAMING:3
 
 The reader will stream files from network locations.
 

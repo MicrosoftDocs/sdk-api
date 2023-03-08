@@ -54,58 +54,10 @@ The <b>IWMPRemoteMediaServices</b> interface includes methods that provide servi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPRemoteMediaServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPRemoteMediaServices</b> also has these types of members:
+The <b>IWMPRemoteMediaServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPRemoteMediaServices</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPRemoteMediaServices</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getapplicationname">GetApplicationName</a>
-</td>
-<td align="left" width="63%">
-Called by Windows Media Player to retrieve the name of the program that is hosting the remoted control.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getcustomuimode">GetCustomUIMode</a>
-</td>
-<td align="left" width="63%">
-Called by Windows Media Player to retrieve the location of a skin file to apply to the Player control.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getscriptableobject">GetScriptableObject</a>
-</td>
-<td align="left" width="63%">
-Called by Windows Media Player to retrieve a name and interface pointer for an object that can be called from the script code within a skin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getservicetype">GetServiceType</a>
-</td>
-<td align="left" width="63%">
-Called by Windows Media Player to determine whether a host program wants to run its embedded control remotely.
-
-</td>
-</tr>
-</table> 
-
-A pointer to an <b>IWMPRemoteMediaServices</b> interface is retrieved by calling the COM <b>CoCreateInstance</b> method.
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFSystemId
 title: IMFSystemId (mfidl.h)
-description: Provides a method that retireves system id data.
+description: Provides a method that retrieves system id data.
 helpviewer_keywords: ["IMFSystemId","IMFSystemId interface [Media Foundation]","IMFSystemId interface [Media Foundation]","described","mf.imfsystemid","mfidl/IMFSystemId"]
 old-location: mf\imfsystemid.htm
 tech.root: mf
@@ -50,33 +50,11 @@ api_name:
 
 ## -description
 
-Provides a method that retireves system id data.
+Provides a method that retrieves system id data.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSystemId</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSystemId</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFSystemId</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsystemid-getdata">GetData</a>
-</td>
-<td align="left" width="63%">
-Retrieves system id data.
-
-</td>
-</tr>
-</table>
+The <b>IMFSystemId</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSystemId</b> also has these types of members:
 
 ## -see-also
 

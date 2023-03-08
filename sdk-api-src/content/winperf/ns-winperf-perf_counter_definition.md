@@ -64,7 +64,7 @@ Size of this structure, in bytes.
 
 ### -field CounterNameTitleIndex
 
-Index of the counter's name in the title database. For details on using the index to retrieve the counter's name, see <a href="/windows/desktop/PerfCtrs/retrieving-counter-names-and-explanations">Retrieving Counter Names and Help Text</a>.
+Index of the counter's name in the title database. For details on using the index to retrieve the counter's name, see <a href="/windows/win32/perfctrs/retrieving-counter-names-and-help-text">Retrieving Counter Names and Help Text</a>.
 
 To set this value, providers add the counter's offset value defined in their symbol file to the <b>First Counter</b> registry value. For details, see <a href="/windows/desktop/PerfCtrs/adding-counter-names-and-descriptions-to-the-registry">Adding Counter Names and Descriptions to the Registry</a> and <a href="/windows/desktop/PerfCtrs/implementing-openperformancedata">Implementing the OpenPerformanceData function</a>.
 
@@ -76,7 +76,7 @@ Reserved.
 
 ### -field CounterHelpTitleIndex
 
-Index to the counter's help text in the title database. For details on using the index to retrieve the counter's help text, see <a href="/windows/desktop/PerfCtrs/retrieving-counter-names-and-explanations">Retrieving Counter Names and Help Text</a>.
+Index to the counter's help text in the title database. For details on using the index to retrieve the counter's help text, see <a href="/windows/win32/perfctrs/retrieving-counter-names-and-help-text">Retrieving Counter Names and Help Text</a>.
 
 To set this value, providers add the counter's offset value defined in their symbol file to the <b>First Help</b> registry value. For details, see <a href="/windows/desktop/PerfCtrs/adding-counter-names-and-descriptions-to-the-registry">Adding Counter Names and Descriptions to the Registry</a> and <a href="/windows/desktop/PerfCtrs/implementing-openperformancedata">Implementing the OpenPerformanceData function</a>.
 

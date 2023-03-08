@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-setupapi-logging-l1-1-0.dll
 api_name:
  - SetupCloseLog
+req.apiset: ext-ms-win-setupapi-logging-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupCloseLog function
@@ -55,7 +56,7 @@ api_name:
 
 The <b>SetupCloseLog</b> function closes the log files.
 
-## -parameters
+
 
 ## -returns
 

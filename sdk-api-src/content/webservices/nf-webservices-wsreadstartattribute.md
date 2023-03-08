@@ -52,10 +52,10 @@ api_name:
 
 Moves the Reader to the specified attribute so that the content may be read using <a href="/windows/desktop/api/webservices/nf-webservices-wsreadvalue">WsReadValue</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wsreadchars">WsReadChars</a>, or <a href="/windows/desktop/api/webservices/nf-webservices-wsreadbytes">WsReadBytes</a>.
       
-        If the reader is not positioned on a start element then it returns a <b>WS_E_INVALID_FORMAT</b> exception.
-      (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)<div class="alert"><b>Note</b>  Attributes read do not appear in any particular order.  <a href="/windows/desktop/api/webservices/nf-webservices-wsfindattribute">WsFindAttribute</a> can
-        be used to locate the index of a particular attribute.
-      </div>
+If the reader is not positioned on a start element then it returns a <b>WS_E_INVALID_FORMAT</b> exception.
+
+(See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)<div class="alert"><b>Note</b>  Attributes read do not appear in any particular order.  <a href="/windows/desktop/api/webservices/nf-webservices-wsfindattribute">WsFindAttribute</a> can be used to locate the index of a particular attribute.
+</div>
 <div> </div>
 
 ## -parameters

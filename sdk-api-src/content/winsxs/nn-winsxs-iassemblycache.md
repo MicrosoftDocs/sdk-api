@@ -54,53 +54,5 @@ The <b>IAssemblyCache</b> interface can be used to install, uninstall, or query 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAssemblyCache</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAssemblyCache</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAssemblyCache</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAssemblyCache</b> also has these types of members:
 
-## -members
-
-The <b>IAssemblyCache</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-createassemblycacheitem">CreateAssemblyCacheItem</a>
-</td>
-<td align="left" width="63%">
-Adds an item to the assembly cache.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-installassembly">InstallAssembly</a>
-</td>
-<td align="left" width="63%">
-Adds an application reference to an assembly and copies the files of the assembly to the side-by-side store.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-queryassemblyinfo">QueryAssemblyInfo</a>
-</td>
-<td align="left" width="63%">
-Queries for assembly information and validates the files in the side-by-side assembly store against the assembly manifest.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-uninstallassembly">UninstallAssembly</a>
-</td>
-<td align="left" width="63%">
-Removes an application reference to an assembly from the side-by-side store. Removes the assembly's files if there are no other references to the assembly by other applications.
-
-</td>
-</tr>
-</table>

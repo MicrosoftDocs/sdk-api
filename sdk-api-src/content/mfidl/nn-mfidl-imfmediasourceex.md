@@ -56,47 +56,7 @@ To get a pointer to this interface, call <a href="/windows/desktop/api/unknwn/nf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSourceEx</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>. <b>IMFMediaSourceEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFMediaSourceEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getsourceattributes">GetSourceAttributes</a>
-</td>
-<td align="left" width="63%">
-Gets an attribute store for the media source.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getstreamattributes">GetStreamAttributes</a>
-</td>
-<td align="left" width="63%">
-Gets an attribute store for a stream on the media source.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-setd3dmanager">SetD3DManager</a>
-</td>
-<td align="left" width="63%">
-Sets a pointer to the DXGI Device Manager on the media source.
-
-</td>
-</tr>
-</table>
+The <b>IMFMediaSourceEx</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>. <b>IMFMediaSourceEx</b> also has these types of members:
 
 ## -remarks
 

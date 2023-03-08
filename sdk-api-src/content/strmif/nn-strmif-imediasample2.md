@@ -59,38 +59,7 @@ Media samples are not guaranteed to support <code>IMediaSample2</code>. However,
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaSample2</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a>. <b>IMediaSample2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMediaSample2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-imediasample2-getproperties">GetProperties</a>
-</td>
-<td align="left" width="63%">
-Retrieves the properties of a media sample.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-imediasample2-setproperties">SetProperties</a>
-</td>
-<td align="left" width="63%">
-Sets the properties of a media sample.
-
-</td>
-</tr>
-</table>
+The <b>IMediaSample2</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a>. <b>IMediaSample2</b> also has these types of members:
 
 ## -see-also
 

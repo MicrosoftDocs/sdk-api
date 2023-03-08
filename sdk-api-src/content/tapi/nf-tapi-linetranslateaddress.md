@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi.lineTranslateAddress
 title: lineTranslateAddress function (tapi.h)
-description: The lineTranslateAddress function translates the specified address into another format.
+description: The lineTranslateAddress function (tapi.h) translates the specified address into another format.
 helpviewer_keywords: ["_tapi2_linetranslateaddress","lineTranslateAddress","lineTranslateAddress function [TAPI 2.2]","lineTranslateAddressA","lineTranslateAddressW","tapi/lineTranslateAddress","tapi/lineTranslateAddressA","tapi/lineTranslateAddressW","tapi2.linetranslateaddress"]
 old-location: tapi2\linetranslateaddress.htm
 tech.root: tapi3
 ms.assetid: 0347d526-9596-4b42-8075-07318bf39634
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: _tapi2_linetranslateaddress, lineTranslateAddress, lineTranslateAddress function [TAPI 2.2], lineTranslateAddressA, lineTranslateAddressW, tapi/lineTranslateAddress, tapi/lineTranslateAddressA, tapi/lineTranslateAddressW, tapi2.linetranslateaddress
 req.header: tapi.h
 req.include-header: 

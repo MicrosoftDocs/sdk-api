@@ -4,7 +4,6 @@ title: ID3D12VideoProcessCommandList2::SetProtectedResourceSession
 description: Specifies whether or not protected resources can be accessed by subsequent commands in the video process command list.
 tech.root: mf
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

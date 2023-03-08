@@ -56,11 +56,11 @@ Specifies new drawing aspects used to optimize the drawing process.
 
 ## -enum-fields
 
-### -field DVASPECT_OPAQUE
+### -field DVASPECT_OPAQUE:16
 
 Represents the opaque, easy to clip parts of an object. Objects may or may not support this aspect.
 
-### -field DVASPECT_TRANSPARENT
+### -field DVASPECT_TRANSPARENT:32
 
 Represents the transparent or irregular parts of on object, typically parts that are expensive or impossible to clip out. Objects may or may not support this aspect.
 
@@ -106,7 +106,7 @@ Represents the transparent or irregular parts of on object, typically parts that
 </table>
  
 
-The container can determine which of these drawing aspects an object supports by calling the new method <a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>. Individual bits return information about which aspects are supported. If an object does not support the <a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a>interface, it is assumed to support only DVASPECT_CONTENT.
+The container can determine which of these drawing aspects an object supports by calling the new method <a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>. Individual bits return information about which aspects are supported. If an object does not support the <a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a> interface, it is assumed to support only DVASPECT_CONTENT.
 
 Depending on which aspects are supported, the container can ask the object to draw itself during the front to back pass only, the back to front pass only, or both. The various possible cases are: 
 

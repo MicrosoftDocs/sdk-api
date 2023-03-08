@@ -1,7 +1,7 @@
 ---
 UID: NF:shldisp.IAutoComplete2.GetOptions
 title: IAutoComplete2::GetOptions (shldisp.h)
-description: Gets the current autocomplete options.
+description: Gets the current autocomplete options. (IAutoComplete2.GetOptions)
 helpviewer_keywords: ["GetOptions","GetOptions method [Windows Shell]","GetOptions method [Windows Shell]","IAutoComplete2 interface","IAutoComplete2 interface [Windows Shell]","GetOptions method","IAutoComplete2.GetOptions","IAutoComplete2::GetOptions","_win32_IAutoComplete2_GetOptions","shell.IAutoComplete2_GetOptions","shldisp/IAutoComplete2::GetOptions"]
 old-location: shell\IAutoComplete2_GetOptions.htm
 tech.root: shell
@@ -64,7 +64,7 @@ One or more flags from the <a href="/windows/desktop/api/shldisp/ne-shldisp-auto
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

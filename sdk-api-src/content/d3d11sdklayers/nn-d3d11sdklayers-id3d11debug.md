@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11Debug
 title: ID3D11Debug (d3d11sdklayers.h)
-description: A debug interface controls debug settings, validates pipeline state and can only be used if the debug layer is turned on.
+description: A debug interface controls debug settings, validates pipeline state and can only be used if the debug layer is turned on. (ID3D11Debug)
 helpviewer_keywords: ["ID3D11Debug","ID3D11Debug interface [Direct3D 11]","ID3D11Debug interface [Direct3D 11]","described","b037763f-251a-579c-a6cb-8e5097410d05","d3d11sdklayers/ID3D11Debug","direct3d11.id3d11debug"]
 old-location: direct3d11\id3d11debug.htm
 tech.root: direct3d11
@@ -55,101 +55,7 @@ A debug interface controls debug settings, validates pipeline state and can only
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Debug</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11Debug</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D11Debug</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-getfeaturemask">GetFeatureMask</a>
-</td>
-<td align="left" width="63%">
-Get a bitfield of flags that indicates which debug features are on or off.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-getpresentperrenderopdelay">GetPresentPerRenderOpDelay</a>
-</td>
-<td align="left" width="63%">
-Get the number of milliseconds to sleep after <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a> is called.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-getswapchain">GetSwapChain</a>
-</td>
-<td align="left" width="63%">
-Get the swap chain that the runtime will use for automatically calling <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-reportlivedeviceobjects">ReportLiveDeviceObjects</a>
-</td>
-<td align="left" width="63%">
-Report information about a device object's lifetime.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-setfeaturemask">SetFeatureMask</a>
-</td>
-<td align="left" width="63%">
-Set a bit field of flags that will turn debug features on and off.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-setpresentperrenderopdelay">SetPresentPerRenderOpDelay</a>
-</td>
-<td align="left" width="63%">
-Set the number of milliseconds to sleep after <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a> is called.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-setswapchain">SetSwapChain</a>
-</td>
-<td align="left" width="63%">
-Sets a swap chain that the runtime will use for automatically calling <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-validatecontext">ValidateContext</a>
-</td>
-<td align="left" width="63%">
-Check to see if the draw pipeline state is valid.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-validatecontextfordispatch">ValidateContextForDispatch</a>
-</td>
-<td align="left" width="63%">
-Verifies whether the dispatch pipeline state is valid.
-
-</td>
-</tr>
-</table>
+The <b>ID3D11Debug</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11Debug</b> also has these types of members:
 
 ## -remarks
 

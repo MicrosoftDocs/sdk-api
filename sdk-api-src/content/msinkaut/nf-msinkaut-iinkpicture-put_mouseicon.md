@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_MouseIcon
 title: IInkPicture::put_MouseIcon (msinkaut.h)
-description: Gets or sets the custom mouse icon.
+description: Gets or sets the custom mouse icon. (IInkPicture.put_MouseIcon)
 helpviewer_keywords: ["IInkPicture interface [Tablet PC]","MouseIcon property","IInkPicture.MouseIcon","IInkPicture.put_MouseIcon","IInkPicture::MouseIcon","IInkPicture::get_MouseIcon","IInkPicture::put_MouseIcon","InkPicture.get_MouseIcon","InkPicture.put_MouseIcon","MouseIcon property [Tablet PC]","MouseIcon property [Tablet PC]","IInkPicture interface","get_MouseIcon","msinkaut/IInkPicture::MouseIcon","msinkaut/IInkPicture::get_MouseIcon","msinkaut/IInkPicture::put_MouseIcon","put_MouseIcon","putref_MouseIcon","tablet.inkpicture_mouseicon"]
 old-location: tablet\inkpicture_mouseicon.htm
 tech.root: tablet
@@ -73,7 +73,7 @@ You can use the <b>MouseIcon</b> property to load either cursor or icon files. T
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

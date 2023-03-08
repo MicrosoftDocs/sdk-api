@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_CollectingInk
 title: IInkCollector::get_CollectingInk (msinkaut.h)
-description: Gets a value that specifies whether ink is currently being drawn on an ink collector (InkCollector, InkOverlay, or InkPicture).
+description: Gets a value that specifies whether ink is currently being drawn on an ink collector (InkCollector, InkOverlay, or InkPicture). (IInkCollector.get_CollectingInk)
 helpviewer_keywords: ["CollectingInk property [Tablet PC]","CollectingInk property [Tablet PC]","IInkCollector interface","IInkCollector interface [Tablet PC]","CollectingInk property","IInkCollector.CollectingInk","IInkCollector.get_CollectingInk","IInkCollector::CollectingInk","IInkCollector::get_CollectingInk","InkCollector.get_CollectingInk","c0ac36a8-e36e-45a7-b047-14d7f7c8ce14","get_CollectingInk","msinkaut/IInkCollector::CollectingInk","msinkaut/IInkCollector::get_CollectingInk","tablet.inkcollector_collectingink"]
 old-location: tablet\inkcollector_collectingink.htm
 tech.root: tablet
@@ -72,7 +72,7 @@ You can use the <b>CollectingInk</b> property to see if ink is being drawn on an
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="../msinkaut/nn-msinkaut-iinkcollector.md">IInkCollector</a>
 
 
 

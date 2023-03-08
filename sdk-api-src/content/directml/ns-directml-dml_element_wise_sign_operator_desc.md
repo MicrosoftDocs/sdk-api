@@ -1,9 +1,9 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_SIGN_OPERATOR_DESC
 title: DML_ELEMENT_WISE_SIGN_OPERATOR_DESC
-description: Describes a DirectML operator that performs an elementwise shrink activation function on the input.
+description: Returns a value representing the sign of each element of *InputTensor*, placing the result into the corresponding element of *OutputTensor*.
 tech.root: directml
-ms.date: 01/24/2020
+ms.date: 10/30/2020
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -38,15 +38,15 @@ dev_langs:
 
 ## -description
 
-Describes a DirectML operator that, elementwise, returns the sign of the input.
+Returns a value representing the sign of each element of *InputTensor*, placing the result into the corresponding element of *OutputTensor*.
 
 ```
-For each x in InputTensor
-    if (x > 0) then 1
-    else if (x < 0) then -1
-    else if (x == 0) then 0
-    else NaN
+f(x) = -1, if x < 0
+        1, if x > 0
+        0, otherwise // This includes negative zero.
 ```
+
+This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias *InputTensor* during binding.
 
 ## -struct-fields
 
@@ -54,14 +54,46 @@ For each x in InputTensor
 
 Type: **const [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md)\***
 
-A pointer to a constant [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md) containing the description of the tensor to read from.
+The input tensor to read from.
 
 ### -field OutputTensor
 
 Type: **const [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md)\***
 
-A pointer to a constant [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md) containing the description of the tensor to write the results to.
+The output tensor to write the results to.
 
 ## -remarks
+
+## Availability
+This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
+
+## Tensor constraints
+*InputTensor* and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
+
+## Tensor support
+
+### DML_FEATURE_LEVEL_4_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+
+### DML_FEATURE_LEVEL_3_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+
+### DML_FEATURE_LEVEL_2_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 4 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+
+### DML_FEATURE_LEVEL_2_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 4 | FLOAT32, FLOAT16 |
 
 ## -see-also

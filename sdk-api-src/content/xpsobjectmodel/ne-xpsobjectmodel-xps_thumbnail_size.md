@@ -56,7 +56,7 @@ Describes the size of a thumbnail image.
 
 ## -enum-fields
 
-### -field XPS_THUMBNAIL_SIZE_VERYSMALL
+### -field XPS_THUMBNAIL_SIZE_VERYSMALL:1
 
 The thumbnail image is 32 pixels wide and 32 pixels high.
 
@@ -74,5 +74,5 @@ The thumbnail image is 300 pixels wide and 300 pixels high.
 
 ## -see-also
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 

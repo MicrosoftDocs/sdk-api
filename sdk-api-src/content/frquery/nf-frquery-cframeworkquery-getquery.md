@@ -60,7 +60,7 @@ api_name:
 
 The <b>GetQuery</b> method retrieves the actual WQL command associated with the <a href="/windows/desktop/api/frquery/nl-frquery-cframeworkquery">CFrameworkQuery</a> object.
 
-## -parameters
+
 
 ## -returns
 

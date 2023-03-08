@@ -52,13 +52,13 @@ api_name:
 
 Assigns the vector component data from one instance of <code>XMUNIBBLE4</code> to the current instance of <code>XMUNIBBLE4</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/12807b12-3f95-49fd-949c-f29eee2f44c3">XMUNIBBLE4</a> to the current instance of <code>XMUNIBBLE4</code>.
+This operator assigns the vector component data from one instance of <a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a> to the current instance of <code>XMUNIBBLE4</code>.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
-Instance of <code>XMUNIBBLE4</code> used to update the current <code>XMUNIBBLE4</code>structure.
+Instance of <code>XMUNIBBLE4</code> used to update the current <code>XMUNIBBLE4</code> structure.
 
 ## -returns
 
@@ -66,7 +66,7 @@ The current instance of <code>XMUNIBBLE4</code> whose vector component data has 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/12807b12-3f95-49fd-949c-f29eee2f44c3">XMUNIBBLE4</a>
+<a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a>
 
 <a href="https://msdn.microsoft.com/03b4f870-696e-4719-8115-9becb307dd10">operator = </a>
 

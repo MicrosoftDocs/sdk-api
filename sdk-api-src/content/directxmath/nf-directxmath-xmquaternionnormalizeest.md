@@ -67,7 +67,7 @@ An <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> union that 
 The DirectXMath quaternion functions use an XMVECTOR 4-vector to represent quaternions, 
     where the X, Y, and Z components are the vector part and the W component is the scalar part.
 
-This function internally calls the <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvector4normalizeest">XMVector4NormalizeEst</a>function.
+This function internally calls the <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvector4normalizeest">XMVector4NormalizeEst</a> function.
 
 <code>Est</code> functions offer increased performance at the expense of reduced accuracy.
     <code>Est</code> functions are appropriate for non-critical calculations where accuracy can be sacrificed for speed.

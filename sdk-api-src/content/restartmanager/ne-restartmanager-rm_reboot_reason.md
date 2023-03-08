@@ -56,25 +56,25 @@ Describes the reasons a restart of the system is needed.
 
 ## -enum-fields
 
-### -field RmRebootReasonNone
+### -field RmRebootReasonNone:0x0
 
 A system restart is not required.
 
-### -field RmRebootReasonPermissionDenied
+### -field RmRebootReasonPermissionDenied:0x1
 
 The current user does not have
                                             sufficient privileges to shut down one or more processes.
 
-### -field RmRebootReasonSessionMismatch
+### -field RmRebootReasonSessionMismatch:0x2
 
 One or more processes are
                                             running in another Terminal Services session.
 
-### -field RmRebootReasonCriticalProcess
+### -field RmRebootReasonCriticalProcess:0x4
 
 A system restart is needed because one or more processes to be shut down are critical processes.
 
-### -field RmRebootReasonCriticalService
+### -field RmRebootReasonCriticalService:0x8
 
 A system restart is needed because one or more services to be shut down are critical services.
 

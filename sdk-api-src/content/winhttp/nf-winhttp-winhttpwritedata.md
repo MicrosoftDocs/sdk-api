@@ -201,7 +201,7 @@ This example shows code that  writes data to an HTTP server.  The server name su
 
 
 ```cpp
-    LPSTR pszData = "WinHttpWriteData Example";
+    PCSTR pszData = "WinHttpWriteData Example";
     DWORD dwBytesWritten = 0;
     BOOL  bResults = FALSE;
     HINTERNET hSession = NULL,

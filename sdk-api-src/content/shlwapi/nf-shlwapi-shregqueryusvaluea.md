@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegQueryUSValueA
 title: SHRegQueryUSValueA function (shlwapi.h)
-description: Retrieves the type and data for a specified name associated with an open registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
-helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHRegQueryUSValue","SHRegQueryUSValue function [Windows Shell]","SHRegQueryUSValueA","SHRegQueryUSValueW","_win32_SHRegQueryUSValue","shell.SHRegQueryUSValue","shlwapi/SHRegQueryUSValue","shlwapi/SHRegQueryUSValueA","shlwapi/SHRegQueryUSValueW"]
+description: Retrieves the type and data for a specified name associated with an open registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). (ANSI)
+helpviewer_keywords: ["HKEY_CLASSES_ROOT", "HKEY_CURRENT_CONFIG", "HKEY_CURRENT_USER", "HKEY_LOCAL_MACHINE", "HKEY_PERFORMANCE_DATA", "HKEY_USERS", "SHRegQueryUSValueA", "shlwapi/SHRegQueryUSValueA"]
 old-location: shell\SHRegQueryUSValue.htm
 tech.root: shell
 ms.assetid: 302a51b5-9cf9-46e5-908c-df0d3c31c91c
@@ -104,7 +104,7 @@ A pointer to the <b>null</b>-terminated string that contains the name of the val
 
 Type: <b>LPDWORD*</b>
 
-A pointer to the variable that sets or receives the key's value type. For more information, see <a href="/windows/desktop/shell/schemas">Registry Data Types</a>. This parameter can be <b>NULL</b>.
+A pointer to the variable that sets or receives the key's value type. For more information, see <a href="/windows/desktop/shell/hkey-type">Registry Data Types</a>. This parameter can be <b>NULL</b>.
 
 ### -param pvData [out, optional]
 

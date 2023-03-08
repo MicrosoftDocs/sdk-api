@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontList1.GetFontFaceReference
 title: IDWriteFontList1::GetFontFaceReference (dwrite_3.h)
-description: Gets a font face reference given its zero-based index.
+description: Gets a font face reference given its zero-based index. (IDWriteFontList1.GetFontFaceReference)
 helpviewer_keywords: ["GetFontFaceReference","GetFontFaceReference method [Direct Write]","GetFontFaceReference method [Direct Write]","IDWriteFontList1 interface","IDWriteFontList1 interface [Direct Write]","GetFontFaceReference method","IDWriteFontList1.GetFontFaceReference","IDWriteFontList1::GetFontFaceReference","directwrite.idwritefontlist1_getfontfacereference","dwrite_3/IDWriteFontList1::GetFontFaceReference"]
 old-location: directwrite\idwritefontlist1_getfontfacereference.htm
 tech.root: DirectWrite
@@ -70,7 +70,7 @@ A pointer to a memory block that receives a pointer to a <a href="/windows/win32
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

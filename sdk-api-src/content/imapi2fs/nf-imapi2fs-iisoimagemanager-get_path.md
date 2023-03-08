@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IIsoImageManager.get_Path
 title: IIsoImageManager::get_Path (imapi2fs.h)
-description: Retrives the logical path to an .iso image.
+description: Retrieves the logical path to an .iso image.
 helpviewer_keywords: ["IIsoImageManager interface [IMAPI]","get_Path method","IIsoImageManager.get_Path","IIsoImageManager::get_Path","get_Path","get_Path method [IMAPI]","get_Path method [IMAPI]","IIsoImageManager interface","imapi.iisoimagemanager_get_path","imapi2fs/IIsoImageManager::get_Path"]
 old-location: imapi\iisoimagemanager_get_path.htm
 tech.root: imapi
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrives the logical path to an .iso image.
+Retrieves the logical path to an .iso image.
 
 ## -parameters
 

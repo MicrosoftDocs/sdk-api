@@ -45,47 +45,13 @@ api_name:
  - ID2D1BoundsAdjustmentTransform
 ---
 
-# ID2D1BoundsAdjustmentTransform interface
-
-
 ## -description
 
 A support transform for effects to modify the output rectangle of the previous effect or bitmap.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1BoundsAdjustmentTransform</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1BoundsAdjustmentTransform</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1BoundsAdjustmentTransform</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1boundsadjustmenttransform-getoutputbounds">GetOutputBounds</a>
-</td>
-<td align="left" width="63%">
-Returns the output rectangle of the support transform.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1boundsadjustmenttransform-setoutputbounds">SetOutputBounds</a>
-</td>
-<td align="left" width="63%">
-This sets the output bounds for the support transform.
-
-</td>
-</tr>
-</table>
+The **ID2D1BoundsAdjustmentTransform** interface inherits from the [ID2D1TransformNode](./nn-d2d1effectauthor-id2d1transformnode.md) interface.
 
 ## -remarks
 

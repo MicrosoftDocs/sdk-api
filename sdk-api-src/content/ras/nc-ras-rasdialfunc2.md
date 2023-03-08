@@ -58,19 +58,19 @@ A
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
-### -param Arg3
+### -param unnamedParam3
 
-### -param Arg4
+### -param unnamedParam4
 
-### -param Arg5
+### -param unnamedParam5
 
-### -param Arg6
+### -param unnamedParam6
 
-### -param Arg7
+### -param unnamedParam7
 
 #### - dwCallbackId [in]
 

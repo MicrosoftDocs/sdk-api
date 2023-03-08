@@ -2,7 +2,6 @@
 UID: NE:d3d12video.D3D12_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION
 title: D3D12_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Defines vector precision values for video motion estimation.
 tech.root: mf
@@ -38,7 +37,7 @@ Defines vector precision values for video motion estimation.
 
 ## -enum-fields
 
-### -field D3D12_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_QUARTER_PEL
+### -field D3D12_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_QUARTER_PEL:0
 
 The vector precision is quarter-pixel motion.
 

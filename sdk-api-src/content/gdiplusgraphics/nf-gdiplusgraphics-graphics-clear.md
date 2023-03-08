@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>Graphics::Clear</b> method clears a 
-			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>object to a specified color.
+			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object to a specified color.
 
 ## -parameters
 

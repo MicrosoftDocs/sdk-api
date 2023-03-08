@@ -64,13 +64,13 @@ A command recorder allows your application to record the initialization and exec
 
 Type: <b>REFIID</b>
 
-A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppv</i>. This is expected to be the GUID of [IDMLCommandRecorder](/windows/desktop/api/directml/nn-directml-idmlcommandrecorder).
+A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppv</i>. This is expected to be the GUID of [IDMLCommandRecorder](/windows/win32/api/directml/nn-directml-idmlcommandrecorder).
 
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
-A pointer to a memory block that receives a pointer to the command recorder. This is the address of a pointer to an [IDMLCommandRecorder](/windows/desktop/api/directml/nn-directml-idmlcommandrecorder), representing  the command recorder created.
+A pointer to a memory block that receives a pointer to the command recorder. This is the address of a pointer to an [IDMLCommandRecorder](/windows/win32/api/directml/nn-directml-idmlcommandrecorder), representing  the command recorder created.
 
 ## -returns
 
@@ -80,5 +80,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IDMLDevice](/windows/desktop/api/directml/nn-directml-idmldevice)
-
+[IDMLDevice](/windows/win32/api/directml/nn-directml-idmldevice)

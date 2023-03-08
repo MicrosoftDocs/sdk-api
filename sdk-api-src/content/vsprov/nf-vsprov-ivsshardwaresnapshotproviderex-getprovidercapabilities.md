@@ -1,7 +1,7 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProviderEx.GetProviderCapabilities
 title: IVssHardwareSnapshotProviderEx::GetProviderCapabilities (vsprov.h)
-description: This method is reserved for future use.
+description: This method is reserved for future use. (IVssHardwareSnapshotProviderEx.GetProviderCapabilities)
 helpviewer_keywords: ["GetProviderCapabilities","GetProviderCapabilities method","GetProviderCapabilities method","IVssHardwareSnapshotProviderEx interface","IVssHardwareSnapshotProviderEx interface","GetProviderCapabilities method","IVssHardwareSnapshotProviderEx.GetProviderCapabilities","IVssHardwareSnapshotProviderEx::GetProviderCapabilities","base.ivsshardwaresnapshotproviderex_getprovidercapabilities","vsprov/IVssHardwareSnapshotProviderEx::GetProviderCapabilities"]
 old-location: base\ivsshardwaresnapshotproviderex_getprovidercapabilities.htm
 tech.root: base

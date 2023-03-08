@@ -52,7 +52,7 @@ api_name:
 
 The <b>put_AutoDemodulate</b> method instructs the BDA device filter to automatically detect signal characteristics.
 
-## -parameters
+
 
 ## -returns
 

@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
  - ChildWindowFromPoint
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ChildWindowFromPoint function
@@ -72,7 +73,7 @@ A handle to the parent window.
 
 ### -param Point [in]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 A structure that defines the client 
 				coordinates, relative to <i>hWndParent</i>, 
@@ -125,7 +126,7 @@ For an example, see "Creating a Combo Box Toolbar" in <a href="/windows/desktop/
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

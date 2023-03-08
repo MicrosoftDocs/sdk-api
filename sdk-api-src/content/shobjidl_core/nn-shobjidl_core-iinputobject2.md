@@ -54,29 +54,7 @@ Exposes a method that extends <a href="/windows/desktop/api/shobjidl_core/nn-sho
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInputObject2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject">IInputObject</a>. <b>IInputObject2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IInputObject2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinputobject2-translateacceleratorglobal">TranslateAcceleratorGlobal</a>
-</td>
-<td align="left" width="63%">
-Handles global accelerators so that input objects can respond to the keyboard even when they are not active in the UI.
-
-</td>
-</tr>
-</table>
+The <b>IInputObject2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject">IInputObject</a>. <b>IInputObject2</b> also has these types of members:
 
 ## -remarks
 

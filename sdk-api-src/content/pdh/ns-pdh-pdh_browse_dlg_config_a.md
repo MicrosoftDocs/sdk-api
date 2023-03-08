@@ -1,7 +1,7 @@
 ---
 UID: NS:pdh._BrowseDlgConfig_A
 title: PDH_BROWSE_DLG_CONFIG_A (pdh.h)
-description: The PDH_BROWSE_DLG_CONFIG structure is used by the PdhBrowseCounters function to configure the Browse Performance Counters dialog box.
+description: The PDH_BROWSE_DLG_CONFIG structure is used by the PdhBrowseCounters function to configure the Browse Performance Counters dialog box. (ANSI)
 helpviewer_keywords: ["*PPDH_BROWSE_DLG_CONFIG_A","PDH_BROWSE_DLG_CONFIG","PDH_BROWSE_DLG_CONFIG structure [Perf]","PDH_BROWSE_DLG_CONFIG_A","PDH_BROWSE_DLG_CONFIG_W","PERF_DETAIL_ADVANCED","PERF_DETAIL_EXPERT","PERF_DETAIL_NOVICE","PERF_DETAIL_WIZARD","PPDH_BROWSE_DLG_CONFIG","PPDH_BROWSE_DLG_CONFIG structure pointer [Perf]","_win32_pdh_browse_dlg_config_str","base.pdh_browse_dlg_config_str","pdh/PDH_BROWSE_DLG_CONFIG","pdh/PDH_BROWSE_DLG_CONFIG_A","pdh/PDH_BROWSE_DLG_CONFIG_W","pdh/PPDH_BROWSE_DLG_CONFIG","perf.pdh_browse_dlg_config_str"]
 old-location: perf\pdh_browse_dlg_config_str.htm
 tech.root: perf

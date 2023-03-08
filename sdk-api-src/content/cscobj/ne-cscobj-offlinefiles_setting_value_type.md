@@ -56,7 +56,7 @@ Identifies the data type returned by the <a href="/previous-versions/windows/des
 
 ## -enum-fields
 
-### -field OFFLINEFILES_SETTING_VALUE_UI4
+### -field OFFLINEFILES_SETTING_VALUE_UI4:0
 
 A single VT_UI4 value. Used to represent single REG_DWORD values. REG_DWORD is by far the most common type of setting value.
 

@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleFactory.CreateContentDecryptionModuleAccess
 title: IMFContentDecryptionModuleFactory::CreateContentDecryptionModuleAccess
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Creates an instance of the IMFContentDecryptionModuleAccess interface.
 tech.root: mf

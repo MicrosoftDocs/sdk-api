@@ -112,7 +112,7 @@ This method is similar to <a href="/previous-versions/windows/desktop/api/tuner/
 
 
 
-<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcasteventex">IBroadcastEventEx Interface</a>
+<a href="/previous-versions/dd376295(v=vs.85)">IBroadcastEventEx Interface</a>
 
 
 

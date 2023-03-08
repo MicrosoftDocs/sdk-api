@@ -54,56 +54,7 @@ Provided by an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumExplorerCommand</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumExplorerCommand</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumExplorerCommand</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumexplorercommand-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Not currently implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumexplorercommand-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves a specified number of elements that directly follow the current element.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumexplorercommand-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumeration to 0.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumexplorercommand-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Not currently implemented.
-
-</td>
-</tr>
-</table>
+The <b>IEnumExplorerCommand</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumExplorerCommand</b> also has these types of members:
 
 ## -remarks
 

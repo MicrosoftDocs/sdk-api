@@ -76,7 +76,7 @@ If the function fails, the return value is a
 
 ## -remarks
 
-The <i>pCounters</i> parameter should point to a sequence of <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a>blocks. Each <b>PERF_COUNTER_IDENTIFIER</b> block consists of a
+The <i>pCounters</i> parameter should point to a sequence of <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> blocks. Each <b>PERF_COUNTER_IDENTIFIER</b> block consists of a
 <b>PERF_COUNTER_IDENTIFIER</b> structure, optionally followed by a null-terminated
 UTF-16LE instance  name string, followed by padding that makes the size of the block a multiple of 8 bytes.
 
@@ -97,7 +97,7 @@ For each <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_identifie
 <li>Set the <b>Index</b> member of the <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> structure to 0.</li>
 <li>Set the <b>Reserved</b> member of the <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> structure to 0.
 </li>
-<li>Include the instance name immediately after the <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a>structure. <ul>
+<li>Include the instance name immediately after the <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> structure. <ul>
 <li>If the counter set is single-instance, do not set the instance name. In this case, the value of the Size member of the <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> structure must be  the size of the <b>PERF_COUNTER_IDENTIFIER</b> structure. </li>
 <li>If the
   counter set is multiple-instance, you must set the instance name. If you do not want to filter the performance counter specifications based on instance name, use <b>PERF_WILDCARD_INSTANCE</b> as the

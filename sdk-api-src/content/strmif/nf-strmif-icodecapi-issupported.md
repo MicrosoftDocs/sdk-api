@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.ICodecAPI.IsSupported
 title: ICodecAPI::IsSupported (strmif.h)
-description: The IsSupported method queries whether a codec supports a given property.
+description: The IsSupported method queries whether a codec supports a given property. (ICodecAPI.IsSupported)
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","IsSupported method","ICodecAPI.IsSupported","ICodecAPI::IsSupported","ICodecAPIIsSupported","IsSupported","IsSupported method [DirectShow]","IsSupported method [DirectShow]","ICodecAPI interface","dshow.icodecapi_issupported","strmif/ICodecAPI::IsSupported"]
 old-location: dshow\icodecapi_issupported.htm
 tech.root: dshow

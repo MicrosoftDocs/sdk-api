@@ -66,19 +66,17 @@ An
 
 ### -field discardReason
 
-A UINT32 value that specifies why the data was discarded. For a description of the discard reason
-     identifiers for each type of module, see 
-     <a href="/windows-hardware/drivers/network/discard-reason-identifiers">Discard Reason Identifiers</a>.
+A UINT32 value that specifies why the data was discarded. For a description of the discard reason identifiers for each type of module, see <a href="/windows-hardware/drivers/network/general-discard-reasons">Discard Reason Identifiers</a>.
+
+
 
 ### -field filterId
 
-A UINT64 value that specifies the run-time identifier for the filter in the filter engine that
-     caused the data to be discarded.
+A UINT64 value that specifies the run-time identifier for the filter in the filter engine that caused the data to be discarded.
 
 ## -remarks
 
-The FWPS_DISCARD_METADATA0 structure contains valid data only if the
-    FWPS_METADATA_FIELD_DISCARD_REASON flag is set in the 
+The FWPS_DISCARD_METADATA0 structure contains valid data only if the FWPS_METADATA_FIELD_DISCARD_REASON flag is set in the 
     <b>currentMetadataValues</b> member of the 
     <a href="/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a> structure that the filter engine passes to a callout's 
     <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a> callout function.
@@ -87,10 +85,6 @@ The FWPS_DISCARD_METADATA0 structure contains valid data only if the
 
 [FWPS_DISCARD_MODULE0](/windows/desktop/api/fwpstypes/ne-fwpstypes-fwps_discard_module0)
 
-
-
 <a href="/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a>

@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
  - CreateMenu
+req.apiset: ext-ms-win-ntuser-menu-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # CreateMenu function
@@ -54,7 +55,7 @@ api_name:
 
 Creates a menu. The menu is initially empty, but it can be filled with menu items by using the <a href="/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>, <a href="/windows/desktop/menurc/u">AppendMenu</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a> functions.
 
-## -parameters
+
 
 ## -returns
 

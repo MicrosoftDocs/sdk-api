@@ -53,7 +53,7 @@ api_name:
 
 The <b>Graphics::IsClipEmpty</b> method determines whether the clipping region of this <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object is empty.
 
-## -parameters
+
 
 ## -returns
 

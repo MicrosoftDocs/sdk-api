@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the fiber data associated with the current fiber.
 
-## -parameters
+
 
 ## -returns
 

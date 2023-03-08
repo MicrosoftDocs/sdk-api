@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.MapViewOfFile3
 title: MapViewOfFile3 function (memoryapi.h)
-description: Maps a view of a file or a pagefile-backed section into the address space of the specified process.
+description: Maps a view of a file or a pagefile-backed section into the address space of the specified process. (MapViewOfFile3)
 helpviewer_keywords: ["MEM_LARGE_PAGES","MEM_REPLACE_PLACEHOLDER","MEM_RESERVE","MapViewOfFile3","MapViewOfFile3 function","base.mapviewoffile3","memoryapi/MapViewOfFile3"]
 old-location: base\mapviewoffile3.htm
 tech.root: base
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows
@@ -122,6 +122,7 @@ After you replace a placeholder with a mapped view, to free that mapped view bac
 
 A placeholder is a type of reserved memory region.
 
+The 64k alignment requirements on <i>Offset</i> and <i>BaseAddress</i> do not apply when this flag is specified.
 </td>
 </tr>
 <tr>
@@ -147,7 +148,7 @@ For file-mapping objects created with the <b>SEC_IMAGE</b> attribute, the
 
 ### -param ExtendedParameters [in, out, optional]
 
-An optional pointer to one or more  extended parameters of type <a href="https://msdn.microsoft.com/en-us/library/Mt832847(v=VS.85).aspx">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
+An optional pointer to one or more extended parameters of type <a href="/windows/win32/api/winnt/ns-winnt-mem_extended_parameter">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
 
 ### -param ParameterCount [in]
 
@@ -166,11 +167,15 @@ This API helps support high-performance games, and server applications, which ha
 
 #### Examples
 
-For a code example, see Scenario 1 in <a href="https://msdn.microsoft.com/en-us/library/Mt832849(v=VS.85).aspx">Virtual2Alloc</a>.
+For a code example, see Scenario 1 in <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc2">VirtualAlloc2</a>.
 
 <div class="code"></div>
 
 ## -see-also
+
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc2">VirtualAlloc2</a>
+
+
 
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
 

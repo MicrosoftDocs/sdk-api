@@ -50,6 +50,7 @@ api_location:
  - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
  - GetPointerType
+req.apiset: ext-ms-win-rtcore-ntuser-wmpointer-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetPointerType function
@@ -79,9 +80,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 An application can use the <b>GetPointerType</b> function to determine the pointer type if it wishes to react differently to pointers of different types.
 
-<div class="alert"><b>Note</b>  This function will never return with the generic <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_POINTER </a>type.</div>
+<div class="alert"><b>Note</b>  This function will never return with the generic <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_POINTER </a> type.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/windows/win32/inputmsg/functions">Functions</a>

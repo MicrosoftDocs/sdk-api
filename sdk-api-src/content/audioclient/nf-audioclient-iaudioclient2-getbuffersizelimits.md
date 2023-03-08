@@ -74,7 +74,7 @@ audio engine can support for the format specified  in the <i>pFormat</i> paramet
 
 ## -returns
 
-The <b>GetBufferSizeLimits</b> method returns <b>S_OK</b> to indicate that it has completed successfully. Otherwise it returns an appropriate error code. For example, it can return <b>AUDCLNT_E_DEVICEINVALIDATED</b>, if the device was removed and the method is called.
+The <b>GetBufferSizeLimits</b> method returns <b>S_OK</b> to indicate that it has completed successfully. Otherwise it returns an appropriate error code. For example, it can return <b>AUDCLNT_E_DEVICE_INVALIDATED</b>, if the device was removed and the method is called.
 
 ## -remarks
 

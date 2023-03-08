@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreateJobObjectA
 title: CreateJobObjectA function (winbase.h)
-description: Creates or opens a job object.
+description: Creates or opens a job object. (CreateJobObjectA)
 helpviewer_keywords: ["CreateJobObject","CreateJobObject function","CreateJobObjectA","CreateJobObjectW","_win32_createjobobject","base.createjobobject","winbase/CreateJobObject","winbase/CreateJobObjectA","winbase/CreateJobObjectW"]
 old-location: base\createjobobject.htm
 tech.root: backup
@@ -79,7 +79,7 @@ If <i>lpName</i> matches the name of an existing event, semaphore, mutex, waitab
 
 The object can be created in a private namespace. For more information, see <a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
 
-<b>Terminal Services:  </b>The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
+<b>Terminal Services:  </b>The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\\). For more information, see 
 <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>.
 
 ## -returns

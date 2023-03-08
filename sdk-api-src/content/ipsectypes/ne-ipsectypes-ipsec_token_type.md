@@ -56,7 +56,7 @@ The <b>IPSEC_TOKEN_TYPE</b> enumerated type specifies an IPsec token type.
 
 ## -enum-fields
 
-### -field IPSEC_TOKEN_TYPE_MACHINE
+### -field IPSEC_TOKEN_TYPE_MACHINE:0
 
 Machine token.
 

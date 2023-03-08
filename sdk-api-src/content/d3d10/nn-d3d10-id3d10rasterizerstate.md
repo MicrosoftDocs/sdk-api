@@ -55,29 +55,7 @@ A rasterizer-state interface accesses rasterizer state for the <a href="/windows
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10RasterizerState</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>. <b>ID3D10RasterizerState</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D10RasterizerState</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10rasterizerstate-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get the properties of a rasterizer-state object.
-
-</td>
-</tr>
-</table>
+The <b>ID3D10RasterizerState</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>. <b>ID3D10RasterizerState</b> also has these types of members:
 
 ## -remarks
 

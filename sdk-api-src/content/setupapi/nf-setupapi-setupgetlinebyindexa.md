@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetLineByIndexA
 title: SetupGetLineByIndexA function (setupapi.h)
-description: The SetupGetLineByIndex function locates a line by its index value in the specified section in the INF file.
-helpviewer_keywords: ["SetupGetLineByIndex","SetupGetLineByIndex function [Setup API]","SetupGetLineByIndexA","SetupGetLineByIndexW","_setupapi_setupgetlinebyindex","setup.setupgetlinebyindex","setupapi/SetupGetLineByIndex","setupapi/SetupGetLineByIndexA","setupapi/SetupGetLineByIndexW"]
+description: The SetupGetLineByIndex function locates a line by its index value in the specified section in the INF file. (ANSI)
+helpviewer_keywords: ["SetupGetLineByIndexA", "setupapi/SetupGetLineByIndexA"]
 old-location: setup\setupgetlinebyindex.htm
 tech.root: setup
 ms.assetid: 7a1c313b-3150-4f4f-a1e9-0fc9544b97ab
@@ -47,6 +47,7 @@ api_name:
  - SetupGetLineByIndex
  - SetupGetLineByIndexA
  - SetupGetLineByIndexW
+req.apiset: ext-ms-win-setupapi-inf-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupGetLineByIndexA function

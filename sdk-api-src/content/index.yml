@@ -216,3 +216,5 @@ landingContent:
             url: /windows/win32/midl
           - text: Compression API
             url: _cmpapi/index.md
+          - text: Activity Coordinator
+            url: _activity_coordinator/index.md

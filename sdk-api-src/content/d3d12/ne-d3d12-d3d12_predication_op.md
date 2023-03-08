@@ -54,11 +54,11 @@ Specifies the predication operation to apply.
 
 ## -enum-fields
 
-### -field D3D12_PREDICATION_OP_EQUAL_ZERO
+### -field D3D12_PREDICATION_OP_EQUAL_ZERO:0
 
 Enables predication if all 64-bits are zero.
 
-### -field D3D12_PREDICATION_OP_NOT_EQUAL_ZERO
+### -field D3D12_PREDICATION_OP_NOT_EQUAL_ZERO:1
 
 Enables predication if at least one of the 64-bits are not zero.
 

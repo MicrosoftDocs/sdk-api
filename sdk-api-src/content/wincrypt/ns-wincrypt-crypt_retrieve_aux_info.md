@@ -68,7 +68,7 @@ A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> 
 
 ### -field dwMaxUrlRetrievalByteCount
 
-A value that specifies a limit to the number of byes retrieved. A value of zero or less specifies no limit.
+A value that specifies a limit to the number of bytes retrieved. A value of zero or less specifies no limit.
 
 ### -field pPreFetchInfo
 

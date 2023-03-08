@@ -55,17 +55,17 @@ Handles the <a href="/windows/desktop/api/webservices/nf-webservices-wsabandonme
 
 ## -parameters
 
-### -param *channelInstance [in]
+### -param channelInstance [in]
 
 Pointer to the state specific to this channel instance,
                     as created by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_channel_callback">WS_CREATE_CHANNEL_CALLBACK</a>.
 
-### -param *message [in]
+### -param message [in]
 
 The message that is current being read or written.  This should be
-                    the same message as was passed to <a href="/windows/desktop/api/webservices/nf-webservices-wswritemessagestart">WsWriteMessageStart</a>or <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessagestart">WsReadMessageStart</a>.
+                    the same message as was passed to <a href="/windows/desktop/api/webservices/nf-webservices-wswritemessagestart">WsWriteMessageStart</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessagestart">WsReadMessageStart</a>.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 
@@ -83,7 +83,7 @@ Specifies where additional error information should be stored if the function fa
 </dl>
 </td>
 <td width="60%">
-This is returned if the channel is not in the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE_OPEN</a>state or the <b>WS_CHANNEL_STATE_FAULTED</b> state.
+This is returned if the channel is not in the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE_OPEN</a> state or the <b>WS_CHANNEL_STATE_FAULTED</b> state.
                 
 
 </td>

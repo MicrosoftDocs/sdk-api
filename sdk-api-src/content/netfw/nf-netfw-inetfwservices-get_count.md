@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwServices.get_Count
 title: INetFwServices::get_Count (netfw.h)
-description: Retrieves a read-only element yielding the number of items in the collection.
+description: Retrieves a read-only element yielding the number of items in the collection. (INetFwServices.get_Count)
 helpviewer_keywords: ["Count property [ICS/ICF]","Count property [ICS/ICF]","INetFwServices interface","INetFwServices interface [ICS/ICF]","Count property","INetFwServices.Count","INetFwServices.get_Count","INetFwServices::Count","INetFwServices::get_Count","get_Count","ics.inetfwservices_count","netfw/INetFwServices::Count","netfw/INetFwServices::get_Count"]
 old-location: ics\inetfwservices_count.htm
 tech.root: ics

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVector3ClampLengthV
 title: XMVector3ClampLengthV function (directxmath.h)
-description: Clamps the length of a 3D vector to a given range.
+description: Clamps the length of a 3D vector to a given range. (XMVector3ClampLengthV)
 helpviewer_keywords: ["Use DirectX..XMVector3ClampLengthV","XMVector3ClampLengthV","XMVector3ClampLengthV method [DirectX Math Support APIs]","dxmath.xmvector3clamplengthv"]
 old-location: dxmath\xmvector3clamplengthv.htm
 tech.root: dxmath
@@ -72,7 +72,7 @@ Returns a 3D vector whose length is clamped to the specified minimum and maximum
 
 ## -remarks
 
-This function is identical to <a href="https://msdn.microsoft.com/28a2a000-6931-4d72-9d82-4009c2ecbb40">XMVector3ClampLength</a> except that <i>LengthMin</i> and <i>LengthMax</i> are supplied using 3D vectors instead of <b>float</b> values.
+This function is identical to <a href="/windows/win32/api/directxmath/nf-directxmath-xmvector3clamplength">XMVector3ClampLength</a> except that <i>LengthMin</i> and <i>LengthMax</i> are supplied using 3D vectors instead of <b>float</b> values.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
@@ -83,4 +83,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/28a2a000-6931-4d72-9d82-4009c2ecbb40">XMVector3ClampLength</a>
+<a href="/windows/win32/api/directxmath/nf-directxmath-xmvector3clamplength">XMVector3ClampLength</a>

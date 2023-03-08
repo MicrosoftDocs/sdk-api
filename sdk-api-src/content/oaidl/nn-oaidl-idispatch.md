@@ -54,53 +54,5 @@ Exposes objects, methods and properties to programming tools and other applicati
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDispatch</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDispatch</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDispatch</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDispatch</b> also has these types of members:
 
-## -members
-
-The <b>IDispatch</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames">GetIDsOfNames</a>
-</td>
-<td align="left" width="63%">
-Maps a single member and an optional set of argument names to a corresponding set of integer DISPIDs, which can be used on subsequent calls to <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-gettypeinfo">GetTypeInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves the type information for an object, which can then be used to get the type information for an interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-gettypeinfocount">GetTypeInfoCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of type information interfaces that an object provides (either 0 or 1).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a>
-</td>
-<td align="left" width="63%">
-Provides access to properties and methods exposed by an object.
-
-</td>
-</tr>
-</table>

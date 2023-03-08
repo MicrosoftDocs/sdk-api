@@ -52,7 +52,7 @@ api_name:
 
 The <b>EngDebugBreak</b> function causes a breakpoint in the current process to occur.
 
-## -parameters
+
 
 ## -returns
 

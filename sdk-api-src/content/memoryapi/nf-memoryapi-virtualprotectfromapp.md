@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.VirtualProtectFromApp
 title: VirtualProtectFromApp function (memoryapi.h)
-description: Changes the protection on a region of committed pages in the virtual address space of the calling process.
+description: Changes the protection on a region of committed pages in the virtual address space of the calling process. (VirtualProtectFromApp)
 helpviewer_keywords: ["VirtualProtectFromApp","VirtualProtectFromApp function","base.virtualprotectfromapp","memoryapi/VirtualProtectFromApp"]
 old-location: base\virtualprotectfromapp.htm
 tech.root: base
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: WindowsApp.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows

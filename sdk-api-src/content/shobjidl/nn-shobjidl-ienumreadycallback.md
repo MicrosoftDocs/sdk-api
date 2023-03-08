@@ -54,27 +54,5 @@ Exposes methods that enable the view to notify the implementer when the enumerat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumReadyCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumReadyCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumReadyCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumReadyCallback</b> also has these types of members:
 
-## -members
-
-The <b>IEnumReadyCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ienumreadycallback-enumready">EnumReady</a>
-</td>
-<td align="left" width="63%">
-Notifies the implementer that the view's item enumeration has completed.  This callback interface is provided to the view via <a href="/windows/desktop/api/shobjidl/nf-shobjidl-ienumerableview-setenumreadycallback">IEnumerableView::SetEnumReadyCallback</a>
-
-
-</td>
-</tr>
-</table>

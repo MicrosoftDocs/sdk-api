@@ -58,7 +58,7 @@ This operator assigns the vector component data from one instance of <code>XMUSH
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Instance of <code>XMUSHORTN2</code> used to update the current <code>XMUSHORTN2</code> structure.
 
@@ -66,7 +66,7 @@ Instance of <code>XMUSHORTN2</code> used to update the current <code>XMUSHORTN2<
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/05f62462-2b6a-4d1b-bf83-9109a254839e">XMUSHORTN2</a>
+<a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmushortn2">XMUSHORTN2</a>
 
 <a href="https://msdn.microsoft.com/5ed4be52-518a-4f3a-84b3-b95a8092c1bc">XMUSHORTN2 Operators</a>
 

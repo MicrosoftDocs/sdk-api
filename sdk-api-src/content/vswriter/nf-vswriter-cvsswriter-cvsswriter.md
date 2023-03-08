@@ -54,8 +54,8 @@ api_name:
 <b>CVssWriter</b> is the constructor of the 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> class object.
 
-## -parameters
+
 
 ## -see-also
 
-<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-~cvsswriter">CVssWriter::~CVssWriter</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-cvsswriter">CVssWriter::~CVssWriter</a>

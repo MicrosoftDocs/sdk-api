@@ -56,7 +56,7 @@ api_name:
 
  Notifies the plug-in that it is about to be destroyed by Terminal Services Session Broker (TS Session Broker).
 
-## -parameters
+
 
 ## -returns
 

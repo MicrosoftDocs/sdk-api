@@ -54,29 +54,7 @@ Extends the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcal
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSampleGrabberSinkCallback2</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback">IMFSampleGrabberSinkCallback</a>. <b>IMFSampleGrabberSinkCallback2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFSampleGrabberSinkCallback2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsamplegrabbersinkcallback2-onprocesssampleex">OnProcessSampleEx</a>
-</td>
-<td align="left" width="63%">
-Called when the sample-grabber sink receives a new media sample.
-
-</td>
-</tr>
-</table>
+The <b>IMFSampleGrabberSinkCallback2</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback">IMFSampleGrabberSinkCallback</a>. <b>IMFSampleGrabberSinkCallback2</b> also has these types of members:
 
 ## -remarks
 

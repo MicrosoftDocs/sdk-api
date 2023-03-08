@@ -1,215 +1,196 @@
 ---
 UID: NF:evntprov.EventWriteTransfer
 title: EventWriteTransfer function (evntprov.h)
-description: Links events together when tracing events in an end-to-end scenario.
-helpviewer_keywords: ["EventWriteTransfer","EventWriteTransfer function [ETW]","base.eventwritetransfer_func","etw.eventwritetransfer_func","evntprov/EventWriteTransfer"]
+description:
+  Writes an ETW event with an activity ID and an optional related activity ID.
+helpviewer_keywords:
+  [
+    "EventWriteTransfer",
+    "EventWriteTransfer function [ETW]",
+    "base.eventwritetransfer_func",
+    "etw.eventwritetransfer_func",
+    "evntprov/EventWriteTransfer",
+  ]
 old-location: etw\eventwritetransfer_func.htm
 tech.root: ETW
 ms.assetid: 798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a
 ms.date: 12/05/2018
-ms.keywords: EventWriteTransfer, EventWriteTransfer function [ETW], base.eventwritetransfer_func, etw.eventwritetransfer_func, evntprov/EventWriteTransfer
+ms.keywords:
+  EventWriteTransfer, EventWriteTransfer function [ETW],
+  base.eventwritetransfer_func, etw.eventwritetransfer_func,
+  evntprov/EventWriteTransfer
 req.header: evntprov.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
-req.irql: 
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
- - EventWriteTransfer
- - evntprov/EventWriteTransfer
+  - EventWriteTransfer
+  - evntprov/EventWriteTransfer
 dev_langs:
- - c++
+  - c++
 topic_type:
- - APIRef
- - kbSyntax
+  - APIRef
+  - kbSyntax
 api_type:
- - DllExport
+  - DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-eventing-provider-l1-1-0.dll
- - API-MS-Win-Eventing-Provider-L1-1-1.dll
+  - Advapi32.dll
+  - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+  - KernelBase.dll
+  - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+  - API-MS-Win-eventing-provider-l1-1-0.dll
+  - API-MS-Win-Eventing-Provider-L1-1-1.dll
+  - ntdll.dll
 api_name:
- - EventWriteTransfer
+  - EventWriteTransfer
 ---
 
 # EventWriteTransfer function
 
-
 ## -description
 
-Links events together when tracing events in an end-to-end scenario.
+Writes an ETW event with an activity ID and an optional related activity ID.
 
 ## -parameters
 
 ### -param RegHandle [in]
 
-Registration handle of the provider. The handle comes from 
-      <a href="/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
+Registration handle of the provider. The handle comes from
+[EventRegister](/windows/desktop/api/evntprov/nf-evntprov-eventregister). The
+generated event will use the ProviderId associated with the handle.
 
 ### -param EventDescriptor [in]
 
-Metadata that identifies the event to write. For details, see 
-      <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
+[EVENT_DESCRIPTOR](/windows/desktop/api/evntprov/ns-evntprov-event_descriptor)
+with event information (metadata) including ID, Version, Level, Keyword,
+Channel, Opcode, and Task.
+
+> [!Important]
+> ProviderId, Level and Keyword are the primary means for
+> filtering events. Other kinds of filtering are possible but have much higher
+> overhead. Always assign a nonzero level and keyword to every event.
 
 ### -param ActivityId [in, optional]
 
-GUID that uniquely identifies this activity. If <b>NULL</b>, ETW gets the identifier 
-      from the thread local storage. For details on getting this identifier, see 
-      <a href="/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a>.
+An optional pointer to a 128-bit activity ID for this event. If this is
+non-NULL, **EventWriteTransfer** will use the specified value for the event's
+activity ID. If this is NULL, **EventWriteTransfer** will use the current
+thread's activity ID.
+
+Trace processing tools can use the event's activity ID to organize events into
+groups called activities. For additional information about the activity ID, see
+[EventActivityIdControl](/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol).
 
 ### -param RelatedActivityId [in, optional]
 
-Activity identifier from the previous component. Use this parameter to link your component's events to the 
-      previous component's events. To get the activity identifier that was set for the previous component, see the 
-      descriptions for the <i>ControlCode</i> parameter of the 
-      <a href="/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> 
-      function.
+An optional pointer to a 128-bit activity ID that is the parent of this event's
+activity. If this is non-NULL, **EventWriteTransfer** will use the specified
+value for the event's related activity ID. If this is NULL, the event will not
+have a related activity ID. The related activity ID is usually set on the
+activity's START event (the first event of the activity, logged with Opcode =
+START).
+
+Trace processing tools can use the event's related activity ID to determine the
+relationship between activities, e.g. the related activity is the parent of the
+newly-started activity. For additional information about the related activity
+ID, see
+[EventActivityIdControl](/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol).
 
 ### -param UserDataCount [in]
 
-Number of <a href="/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures 
-      in <i>UserData</i>. The maximum number is 128.
+Number of
+[EVENT_DATA_DESCRIPTOR](/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor)
+structures in _UserData_. The maximum number is 128.
 
 ### -param UserData [in, optional]
 
-The event data to write. Allocate a block of memory that contains one or more 
-      <a href="/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures. Set this 
-      parameter to <b>NULL</b> if <i>UserDataCount</i> is zero. The data must 
-      be in the order specified in the manifest.
+An array of _UserDataCount_
+[EVENT_DATA_DESCRIPTOR](/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor)
+structures that describe the data to be included in the event. _UserData_ may be
+**NULL** if _UserDataCount_ is zero.
+
+Each **EVENT_DATA_DESCRIPTOR** describes one block of memory to be included in
+the event. The specified blocks will be concatenated in order with no padding or
+alignment to form the event content. If using manifest-based decoding, the event
+content must match the layout specified in the template associated with the
+event in the manifest.
 
 ## -returns
 
-Returns ERROR_SUCCESS if successful or one of the following values on error.
+Returns **ERROR_SUCCESS** if successful or an error code. Possible error codes
+include the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One or more of the parameters is not valid.
+- **ERROR_INVALID_PARAMETER**: One or more of the parameters is not valid.
+- **ERROR_INVALID_HANDLE**: The registration handle of the provider is not
+  valid.
+- **ERROR_ARITHMETIC_OVERFLOW**: The event size is larger than the allowed
+  maximum (64KB - header).
+- **ERROR_MORE_DATA**: The session buffer size is too small for the event.
+- **ERROR_NOT_ENOUGH_MEMORY**: Occurs when filled buffers are trying to flush to
+  disk, but disk IOs are not happening fast enough. This happens when the disk
+  is slow and event traffic is heavy. Eventually, there are no more free (empty)
+  buffers and the event is dropped.
+- **STATUS_LOG_FILE_FULL**: The real-time playback file is full. Events are not
+  logged to the session until a real-time consumer consumes the events from the
+  playback file.
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The registration handle of the provider is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_ARITHMETIC_OVERFLOW</b></dt>
-</dl>
-</td>
-<td width="60%">
-The event size is larger than the allowed maximum (64k - header).
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_MORE_DATA</b></dt>
-</dl>
-</td>
-<td width="60%">
-The session buffer size is too small for the event.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-Occurs when filled buffers are trying to flush to disk, but disk IOs are not happening fast enough. This 
-        happens when the disk is slow and event traffic is heavy. Eventually, there are no more free (empty) buffers 
-        and the event is dropped.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_LOG_FILE_FULL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The real-time playback file is full. Events are not logged to the session until a real-time consumer 
-        consumes the events from the playback file. Do not stop logging events based on this error code.
-
-</td>
-</tr>
-</table>
+The error code is primarily intended for use in debugging and diagnostic
+scenarios. Most production code should continue to run and continue to report
+events even if an ETW event could not be written, so release builds should
+usually ignore the error code.
 
 ## -remarks
 
-Beginning with Windows 7 and Windows Server 2008 R2, use 
-    <a href="/windows/desktop/api/evntprov/nf-evntprov-eventwriteex">EventWriteEx</a> to write transfer events in an end-to-end 
-    scenario.
+Most event providers will not call **EventWriteTransfer** directly. Instead,
+most event providers are implemented using an ETW framework that wraps the calls
+to **EventRegister**, **EventWriteTransfer**, and **EventUnregister**. For
+example, you might
+[write an event manifest](/windows/win32/etw/writing-manifest-based-events) and
+then use the [Message Compiler](/windows/win32/wes/message-compiler--mc-exe-) to
+generate C/C++ code for the events, or you might use
+[TraceLogging](/windows/win32/tracelogging/trace-logging-portal) to avoid the
+need for a manifest.
 
-Use this function when several components want to relate their events in an end-to-end tracing scenario. For 
-    example, components A, B, and C perform work on a related activity and want to link their events so that a 
-    consumer can consume  all the events related to that activity.  ETW uses thread local storage to make available 
-    to the next component the previous component's activity identifier. The component retrieves from the local 
-    storage the previous component's identifier and sets the related activity identifier to it. The consumer can then 
-    use the related activity identifier to walk the chain of the events from one component to the next.
+**EventWriteTransfer** will route the event to the appropriate trace sessions
+based on the ProviderId (determined from the _RegHandle_), Level, Keyword, and
+other event characteristics. If no trace sessions are recording this event, this
+function will do nothing and return **ERROR_SUCCESS**.
 
-If each component defined their own activity identifier, the components can make the following calls to link 
-     the events:
+To reduce the performance impact of events that are not recorded by any trace
+session, you can call
+[EventEnabled](/windows/win32/api/evntprov/nf-evntprov-eventenabled) to
+determine whether any trace session is recording your event before preparing the
+data and calling **EventWriteTransfer**.
 
-<ul>
-<li>Call the <a href="/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> 
-      function using the EVENT_ACTIVITY_CTRL_GET_SET_ID control code. The function uses your identifier to set the activity identifier in the thread local storage and returns the activity identifier for the previous component, if set. </li>
-<li>Set the <i>RelatedActivityId</i> parameter of this function to the <i>ActivityId</i> value that the <a href="/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> function returned. Note that for the first component, the related identifier will be all zeros (GUID_NULL).</li>
-<li>Set the <i>ActivityId</i> of this function to <b>NULL</b> to use the activity identifier that you set in thread local storage.</li>
-</ul>
-Event data written with this function requires a manifest. Since the manifest is embedded in the provider, the provider must be available for a consumer  to consume the data written by the provider.
-
-ETW decides based on the event descriptor if the event is written to a session (for details, see 
-    <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>).
+**EventWriteTransfer** is equivalent to
+[EventWriteEx](/windows/win32/api/evntprov/nf-evntprov-eventwriteex) with 0 for
+_Filter_ and 0 for _Flags_.
 
 ## -see-also
 
-<a href="/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a>
+[EventActivityIdControl](/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol)
 
+[EventRegister](/windows/desktop/api/evntprov/nf-evntprov-eventregister)
 
+[EventWrite](/windows/desktop/api/evntprov/nf-evntprov-eventwrite)
 
-<a href="/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>
+[EventWriteEx](/windows/win32/api/evntprov/nf-evntprov-eventwriteex)
 
-
-
-<a href="/windows/desktop/api/evntprov/nf-evntprov-eventwritestring">EventWriteString</a>
+[Writing Manifest-based Events](/windows/desktop/ETW/writing-manifest-based-events).

@@ -110,13 +110,20 @@ If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get e
 If no  streams can be found, the function fails and 
        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
        <b>ERROR_HANDLE_EOF</b> (38).
+       
+If the filesystem does not support streams, the function fails and
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
+       <b>ERROR_INVALID_PARAMETER</b> (87).
+
 
 ## -remarks
 
-The <b>FindFirstStreamW</b> function opens a search 
-    handle and returns information about the first ::$DATA stream in the specified file or directory. For 
-    files, this is always the default data stream, "::$DATA". After the search handle has been 
-    established, use it in the <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a> function to 
+The <b>FindFirstStreamW</b> function opens a search handle and returns information about the first
+    $DATA stream in the specified file or directory.
+    For files, this is always the default, unnamed data stream, "::$DATA". Directories do not have $DATA streams by default
+    and cannot have an unnamed data stream, but may have named data streams set after they have been created.
+    After the search handle has been established, use it in calls to the
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a> function to 
     search for other streams in the specified file or directory. When the search handle is no longer needed, it should 
     be closed using the <a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a> function.
 

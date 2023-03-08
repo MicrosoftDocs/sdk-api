@@ -57,92 +57,10 @@ The <b>IATSC_STT</b> interface enables the client to get data from a system time
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSC_STT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IATSC_STT</b> also has these types of members:
+The <b>IATSC_STT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IATSC_STT</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IATSC_STT</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_stt-getcountoftabledescriptors">GetCountOfTableDescriptors</a>
-</td>
-<td align="left" width="63%">
-Returns the number of descriptors in the STT.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_stt-getdaylightsavings">GetDaylightSavings</a>
-</td>
-<td align="left" width="63%">
-Returns the Daylight Savings Time Control bytes.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_stt-getgpsutcoffset">GetGpsUtcOffset</a>
-</td>
-<td align="left" width="63%">
-Returns the offset between GPS time and UTC.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_stt-getprotocolversion">GetProtocolVersion</a>
-</td>
-<td align="left" width="63%">
-Returns the protocol version of the table.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_stt-getsystemtime">GetSystemTime</a>
-</td>
-<td align="left" width="63%">
-Returns the current system time.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/dd389477(v=vs.85)">GetTableDescriptorByIndex</a>
-</td>
-<td align="left" width="63%">
-Returns a descriptor for the STT.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_stt-gettabledescriptorbytag">GetTableDescriptorByTag</a>
-</td>
-<td align="left" width="63%">
-Searches the STT for a descriptor with the specified descriptor tag.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_stt-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the object.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

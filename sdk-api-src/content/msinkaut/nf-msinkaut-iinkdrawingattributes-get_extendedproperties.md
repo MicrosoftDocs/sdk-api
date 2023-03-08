@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.get_ExtendedProperties
 title: IInkDrawingAttributes::get_ExtendedProperties (msinkaut.h)
-description: Gets the collection of application-defined data that are stored in an object.
+description: Gets the collection of application-defined data that are stored in an object. (IInkDrawingAttributes.get_ExtendedProperties)
 helpviewer_keywords: ["ExtendedProperties property [Tablet PC]","ExtendedProperties property [Tablet PC]","IInkDrawingAttributes interface","IInkDrawingAttributes interface [Tablet PC]","ExtendedProperties property","IInkDrawingAttributes.ExtendedProperties","IInkDrawingAttributes.get_ExtendedProperties","IInkDrawingAttributes::ExtendedProperties","IInkDrawingAttributes::get_ExtendedProperties","InkDrawingAttributes.get_ExtendedProperties","get_ExtendedProperties","msinkaut/IInkDrawingAttributes::ExtendedProperties","msinkaut/IInkDrawingAttributes::get_ExtendedProperties","tablet.inkdrawingattributes_extendedproperties"]
 old-location: tablet\inkdrawingattributes_extendedproperties.htm
 tech.root: tablet
@@ -66,7 +66,7 @@ Applications can use the ExtendedProperties property to access the custom data t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
+<a href="../msinkaut/nn-msinkaut-iinkdrawingattributes.md">IInkDrawingAttributes</a>
 
 
 

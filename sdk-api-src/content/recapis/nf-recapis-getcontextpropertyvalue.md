@@ -64,7 +64,7 @@ The property to retrieve. Specify a predefined property globally unique identifi
 
 ### -param pcbSize
 
-On input, the size, in bytes, the <i>pProperty </i>buffer can be. On output, the size, in bytes, the <i>pProperty</i>buffer is.
+On input, the size, in bytes, the <i>pProperty </i> buffer can be. On output, the size, in bytes, the <i>pProperty</i> buffer is.
 
 ### -param pProperty
 

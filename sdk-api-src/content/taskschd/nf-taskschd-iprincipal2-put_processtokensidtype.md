@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IPrincipal2.put_ProcessTokenSidType
 title: IPrincipal2::put_ProcessTokenSidType (taskschd.h)
-description: Gets or sets the task process security identifier (SID) type.
+description: Gets or sets the task process security identifier (SID) type. (Put)
 helpviewer_keywords: ["IPrincipal2 interface [Task Scheduler]","ProcessTokenSidType property","IPrincipal2.ProcessTokenSidType","IPrincipal2.put_ProcessTokenSidType","IPrincipal2::ProcessTokenSidType","IPrincipal2::get_ProcessTokenSidType","IPrincipal2::put_ProcessTokenSidType","ProcessTokenSidType property [Task Scheduler]","ProcessTokenSidType property [Task Scheduler]","IPrincipal2 interface","TASK_PROCESSTOKENSID_DEFAULT","TASK_PROCESSTOKENSID_NONE","TASK_PROCESSTOKENSID_UNRESTRICTED","put_ProcessTokenSidType","taskschd.iprincipal2_processtokensidtype","taskschd/IPrincipal2::ProcessTokenSidType","taskschd/IPrincipal2::get_ProcessTokenSidType","taskschd/IPrincipal2::put_ProcessTokenSidType"]
 old-location: taskschd\iprincipal2_processtokensidtype.htm
 tech.root: taskschd

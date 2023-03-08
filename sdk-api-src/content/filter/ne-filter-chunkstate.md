@@ -52,21 +52,22 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+> [!Note]  
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
 Specifies whether the current chunk is a text-type property or a value-type property.
 
 ## -enum-fields
 
-### -field CHUNK_TEXT
+### -field CHUNK_TEXT:0x1
 
 The current chunk is a text-type property.
 
-### -field CHUNK_VALUE
+### -field CHUNK_VALUE:0x2
 
 The current chunk is a value-type property.
 
-### -field CHUNK_FILTER_OWNED_VALUE
+### -field CHUNK_FILTER_OWNED_VALUE:0x4
 
 Reserved.
 

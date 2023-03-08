@@ -1,12 +1,12 @@
 ---
 UID: NF:wininet.InternetTimeToSystemTime
 title: InternetTimeToSystemTime function (wininet.h)
-description: Converts an HTTP time/date string to a SYSTEMTIME structure.
+description: The InternetTimeToSystemTime function (wininet.h) converts an HTTP time/date string to a SYSTEMTIME structure.
 helpviewer_keywords: ["InternetTimeToSystemTime","InternetTimeToSystemTime function [WinINet]","InternetTimeToSystemTimeA","InternetTimeToSystemTimeW","_inet_internettimetosystemtime_function","wininet.internettimetosystemtime","wininet/InternetTimeToSystemTime","wininet/InternetTimeToSystemTimeA","wininet/InternetTimeToSystemTimeW"]
 old-location: wininet\internettimetosystemtime.htm
 tech.root: wininet
 ms.assetid: fcfe99de-13b2-4e93-a978-f013ddae89f0
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: InternetTimeToSystemTime, InternetTimeToSystemTime function [WinINet], InternetTimeToSystemTimeA, InternetTimeToSystemTimeW, _inet_internettimetosystemtime_function, wininet.internettimetosystemtime, wininet/InternetTimeToSystemTime, wininet/InternetTimeToSystemTimeA, wininet/InternetTimeToSystemTimeW
 req.header: wininet.h
 req.include-header: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.MonitorLicenseAcquisition
 title: IWMDRMReader::MonitorLicenseAcquisition (wmsdkidl.h)
-description: The MonitorLicenseAcquisition method, in non-silent license acquisition, informs the application when a license has been successfully acquired.
+description: The MonitorLicenseAcquisition method, in nonsilent license acquisition, informs the application when a license has been successfully acquired.
 helpviewer_keywords: ["IWMDRMReader interface [windows Media Format]","MonitorLicenseAcquisition method","IWMDRMReader.MonitorLicenseAcquisition","IWMDRMReader::MonitorLicenseAcquisition","IWMDRMReaderMonitorLicenseAcquisition","MonitorLicenseAcquisition","MonitorLicenseAcquisition method [windows Media Format]","MonitorLicenseAcquisition method [windows Media Format]","IWMDRMReader interface","wmformat.iwmdrmreader_monitorlicenseacquisition","wmsdkidl/IWMDRMReader::MonitorLicenseAcquisition"]
 old-location: wmformat\iwmdrmreader_monitorlicenseacquisition.htm
 tech.root: wmformat
@@ -55,9 +55,9 @@ api_name:
 ]
 
 
-The <b>MonitorLicenseAcquisition</b> method, in non-silent license acquisition, informs the application when a license has been successfully acquired.
+The <b>MonitorLicenseAcquisition</b> method, in nonsilent license acquisition, informs the application when a license has been successfully acquired.
 
-## -parameters
+
 
 ## -returns
 
@@ -65,7 +65,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 ## -remarks
 
-This method should be used whenever non-silent license acquisition has been initiated for DRM version 7 content. It is an asynchronous call that returns immediately. This method creates a thread that periodically checks the local license store to determine when the requested license has been received. To cancel the attempt, call <b>CancelMonitorLicenseAcquisition</b>.
+This method should be used whenever nonsilent license acquisition has been initiated for DRM version 7 content. It is an asynchronous call that returns immediately. This method creates a thread that periodically checks the local license store to determine when the requested license has been received. To cancel the attempt, call <b>CancelMonitorLicenseAcquisition</b>.
 
 When the license acquisition is completed (whether successful or otherwise), the application is notified through a <b>WMT_LICENSE_ACQUIRE</b> event that is sent to the application's <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> method.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.WriteProfileSectionA
 title: WriteProfileSectionA function (winbase.h)
-description: Replaces the contents of the specified section in the Win.ini file with specified keys and values.
-helpviewer_keywords: ["WriteProfileSection","WriteProfileSection function","WriteProfileSectionA","WriteProfileSectionW","_win32_writeprofilesection","base.writeprofilesection","winbase/WriteProfileSection","winbase/WriteProfileSectionA","winbase/WriteProfileSectionW"]
+description: Replaces the contents of the specified section in the Win.ini file with specified keys and values. (ANSI)
+helpviewer_keywords: ["WriteProfileSectionA", "winbase/WriteProfileSectionA"]
 old-location: base\writeprofilesection.htm
 tech.root: winprog
 ms.assetid: f712a7b4-d945-499c-b003-22204bc590d7
@@ -87,7 +87,7 @@ This operation is atomic; no other operations that read from or write to the ini
 
 The system keeps a cached version of the most recent registry file mapping to improve performance. If all parameters are <b>NULL</b>, the function flushes the cache. While the system is editing the cached version of the file, processes that edit the file itself will use the original file until the cache has been cleared.
 
-The system maps most .ini file references to the registry, using the mapping defined under the following registry key: <pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+The system maps most .ini file references to the registry, using the mapping defined under the following registry key: <pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows NT</b>

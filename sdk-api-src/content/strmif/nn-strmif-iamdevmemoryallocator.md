@@ -60,65 +60,7 @@ Use this interface when applications need to control the memory of codecs with o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMDevMemoryAllocator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMDevMemoryAllocator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAMDevMemoryAllocator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-alloc">Alloc</a>
-</td>
-<td align="left" width="63%">
-Allocates a memory buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-checkmemory">CheckMemory</a>
-</td>
-<td align="left" width="63%">
-Tests whether the particular device of the allocator allocated a memory pointer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-free">Free</a>
-</td>
-<td align="left" width="63%">
-Frees the previously allocated memory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-getdevmemoryobject">GetDevMemoryObject</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <b>IUnknown</b> interface pointer to a device memory control object that can be aggregated with a custom allocator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-getinfo">GetInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about the memory capabilities.
-
-</td>
-</tr>
-</table>
+The <b>IAMDevMemoryAllocator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMDevMemoryAllocator</b> also has these types of members:
 
 ## -see-also
 

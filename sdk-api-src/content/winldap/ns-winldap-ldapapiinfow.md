@@ -1,7 +1,7 @@
 ---
 UID: NS:winldap.ldapapiinfoW
 title: LDAPAPIInfoW (winldap.h)
-description: Retrieves data about the API and implementations used.
+description: Retrieves data about the API and implementations used. (Unicode)
 helpviewer_keywords: ["LDAPAPIInfo","LDAPAPIInfo structure [LDAP]","LDAPAPIInfoA","LDAPAPIInfoW","ldap.ldapapiinfo","winldap/LDAPAPIInfo","winldap/LDAPAPIInfoA","winldap/LDAPAPIInfoW"]
 old-location: ldap\ldapapiinfo.htm
 tech.root: ldap

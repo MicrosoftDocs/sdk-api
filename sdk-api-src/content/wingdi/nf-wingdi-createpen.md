@@ -143,7 +143,7 @@ The pen is solid. When this pen is used in any GDI drawing function that takes a
 
 The width of the pen, in logical units. If <i>nWidth</i> is zero, the pen is a single pixel wide, regardless of the current transformation.
 
-<b>CreatePen</b> returns a pen with the specified width bit with the PS_SOLID style if you specify a width greater than one for the following styles: PS_DASH, PS_DOT, PS_DASHDOT, PS_DASHDOTDOT.
+<b>CreatePen</b> returns a pen with the specified width but with the PS_SOLID style if you specify a width greater than one for the following styles: PS_DASH, PS_DOT, PS_DASHDOT, PS_DASHDOTDOT.
 
 ### -param color [in]
 
@@ -166,6 +166,8 @@ If the value specified by <i>nWidth</i> is greater than 1, the <i>fnPenStyle</i>
 If the value specified by <i>nWidth</i> is greater than 1 and <i>fnPenStyle</i> is PS_INSIDEFRAME, the line associated with the pen is drawn inside the frame of all primitives except polygons and polylines.
 
 If the value specified by <i>nWidth</i> is greater than 1, <i>fnPenStyle</i> is PS_INSIDEFRAME, and the color specified by the <i>crColor</i> parameter does not match one of the entries in the logical palette, the system draws lines by using a dithered color. Dithered colors are not available with solid pens.
+
+When using an <i>iStyle</i> parameter of PS_DASH, PS_DOT, PS_DASHDOT or PS_DASHDOTDOT, in order to make the gaps between the dashes or dots transparent, use <a href="/windows/win32/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a> to set the mode to TRANSPARENT.
 
 When you no longer need the pen, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 

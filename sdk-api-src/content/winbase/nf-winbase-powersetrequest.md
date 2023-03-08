@@ -68,64 +68,34 @@ A handle to a power request object.
 
 The power request type to be incremented. This parameter can be one of the following values.
 
-
-
-#### PowerRequestDisplayRequired
-
-The display remains on even if there is no user input for an extended period of time.
-
-
-
-#### PowerRequestSystemRequired
-
-The system continues to run instead of entering sleep after a period of user inactivity. 
-                                
-                                
-
-
-
-#### PowerRequestAwayModeRequired
-
-The system enters away mode instead of sleep in response to explicit action by the user. In away mode, the system continues to run but turns off audio and video to give the appearance of sleep.
-
-
-
-#### PowerRequestExecutionRequired
-
-The calling process continues to run instead of being suspended or terminated by process lifetime management mechanisms. When and how long the process is allowed to run depends on the operating system and  power policy settings.
-
-                                
-
-On systems not capable of connected standby, an active <b>PowerRequestExecutionRequired</b> request implies <b>PowerRequestSystemRequired</b>.
-
-<div class="alert"><b>Note</b>  <b>PowerRequestExecutionRequired</b> is supported starting with Windows 8 and Windows Server 2012.</div>
-<div> </div>
+| Value  | Description |
+|--------|-------------|
+| PowerRequestDisplayRequired | The display remains on even if there is no user input for an extended period of time.<br/><br/><div class="alert"><b>Note: </b>A <b>PowerRequestSystemRequired</b> must be taken in addition to a <b>PowerRequestDisplayRequired</b> to ensure the display stays on and the system does not enter sleep for the duration of the request.</div> |
+| PowerRequestSystemRequired | The system continues to run instead of entering sleep after a period of user inactivity. |
+| PowerRequestAwayModeRequired | The system enters away mode instead of sleep in response to explicit action by the user. In away mode, the system continues to run but turns off audio and video to give the appearance of sleep. <b>PowerRequestAwayModeRequired</b> is only applicable on Traditional Sleep (S3) systems. |
+| PowerRequestExecutionRequired | The calling process continues to run instead of being suspended or terminated by process lifetime management mechanisms. When and how long the process is allowed to run depends on the operating system and  power policy settings.<br/><br/>On Traditional Sleep (S3) systems, an active <b>PowerRequestExecutionRequired</b> request implies <b>PowerRequestSystemRequired</b>. |
 
 ## -returns
 
 If the function succeeds, it returns a nonzero value.
-                    
-                        
 
 If the function fails, it returns zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-To conserve power and provide the best user experience, applications that use power requests should follow these best practices:
-            
-                
+On Modern Standby systems on DC power, system and execution required power requests are terminated 5 minutes after the system sleep timeout has expired.
 
-<ul>
-<li>When creating a power request, provide a localized text string that describes the reason for the request in the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-reason_context">REASON_CONTEXT</a> structure.</li>
-<li>Call <b>PowerSetRequest</b> immediately before the scenario that requires the request.</li>
-<li>Call <a href="/windows/desktop/api/winbase/nf-winbase-powerclearrequest">PowerClearRequest</a> to decrement the reference count for the request as soon as the scenario is finished.</li>
-<li>Clean up all request objects and associated handles before the process exits or the service stops.</li>
-</ul>
+Except for <b>PowerRequestAwayModeRequired</b> on Traditional Sleep (S3) systems, power requests are terminated upon user-initiated system sleep entry (power button, lid close or selecting **Sleep** from the **Start** menu).
+
+To conserve power and provide the best user experience, applications that use power requests should follow these best practices:
+
+* When creating a power request, provide a localized text string that describes the reason for the request in the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-reason_context">REASON_CONTEXT</a> structure.
+* Call <b>PowerSetRequest</b> immediately before the scenario that requires the request.
+* Call <a href="/windows/desktop/api/winbase/nf-winbase-powerclearrequest">PowerClearRequest</a> to decrement the reference count for the request as soon as the scenario is finished.
+* Clean up all request objects and associated handles before the process exits or the service stops.
 
 ## -see-also
 
 <a href="/windows/desktop/api/winbase/nf-winbase-powerclearrequest">PowerClearRequest</a>
-
-
 
 <a href="/windows/desktop/api/winbase/nf-winbase-powercreaterequest">PowerCreateRequest</a>

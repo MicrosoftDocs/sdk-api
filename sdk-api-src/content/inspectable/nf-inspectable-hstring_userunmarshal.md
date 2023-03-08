@@ -1,12 +1,12 @@
 ---
 UID: NF:inspectable.HSTRING_UserUnmarshal
 title: HSTRING_UserUnmarshal function (inspectable.h)
-description: Unmarshals an HSTRING object from the RPC buffer.
+description: The HSTRING_UserUnmarshal function (inspectable.h) unmarshals an HSTRING object from the RPC buffer.
 helpviewer_keywords: ["HSTRING_UserUnmarshal","HSTRING_UserUnmarshal function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserUnmarshal","winrt.hstring_userunmarshal"]
 old-location: winrt\hstring_userunmarshal.htm
 tech.root: WinRT
 ms.assetid: EFE4C76D-4219-43DA-B1F6-4A58ED763686
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: HSTRING_UserUnmarshal, HSTRING_UserUnmarshal function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserUnmarshal, winrt.hstring_userunmarshal
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h
@@ -53,15 +53,15 @@ Unmarshals an <a href="/windows/desktop/WinRT/hstring">HSTRING</a> object from t
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The current buffer. This pointer may or may not be aligned on entry.
 
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 The string.
 

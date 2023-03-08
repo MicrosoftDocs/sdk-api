@@ -65,56 +65,10 @@ The <b>IEnumGuideDataProperties</b> interface represents a collection of guide d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumGuideDataProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumGuideDataProperties</b> also has these types of members:
+The <b>IEnumGuideDataProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumGuideDataProperties</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IEnumGuideDataProperties</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumguidedataproperties-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a copy of the collection. (Currently not implemented.)
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumguidedataproperties-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves the next item or items in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumguidedataproperties-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Sets the enumerator to the first item in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ienumguidedataproperties-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips the specified number of items. (Currently not implemented.)
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

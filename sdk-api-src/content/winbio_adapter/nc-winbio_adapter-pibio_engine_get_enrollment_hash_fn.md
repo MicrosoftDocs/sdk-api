@@ -58,7 +58,7 @@ Called by the Windows Biometric Framework to retrieve the hash of the completed 
 
 Pointer to a <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
-### -param *HashValue [out]
+### -param HashValue [out]
 
 Address of variable that receives a pointer to a byte array that contains the hash of the template.
 

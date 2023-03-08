@@ -54,7 +54,7 @@ api_name:
 The <b>CachedBitmap::GetLastStatus</b> method returns a value that indicates whether this 
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-cachedbitmap">CachedBitmap</a> object was constructed successfully.
 
-## -parameters
+
 
 ## -returns
 

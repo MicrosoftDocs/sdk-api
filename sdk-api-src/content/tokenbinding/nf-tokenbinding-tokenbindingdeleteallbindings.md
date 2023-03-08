@@ -52,7 +52,7 @@ api_name:
 
 Deletes all token binding keys that are associated with the calling user or app container.
 
-## -parameters
+
 
 ## -returns
 

@@ -189,7 +189,7 @@ Use the function <b>ITypeInfo::Invoke</b> to access a member of an object or inv
 
 
 
-<b>ITypeInfo::Invoke</b> takes a pointer to an instance of the class. Otherwise, its parameters are the same as <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>e, except that <b>ITypeInfo::Invoke</b> omits the <i>refiid</i> and <i>lcid</i> parameters. When called, <b>ITypeInfo::Invoke</b> performs the actions described by the <b>IDispatch::Invoke</b> parameters on the specified instance.
+<b>ITypeInfo::Invoke</b> takes a pointer to an instance of the class. Otherwise, its parameters are the same as <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>, except that <b>ITypeInfo::Invoke</b> omits the <i>refiid</i> and <i>lcid</i> parameters. When called, <b>ITypeInfo::Invoke</b> performs the actions described by the <b>IDispatch::Invoke</b> parameters on the specified instance.
 
 
 

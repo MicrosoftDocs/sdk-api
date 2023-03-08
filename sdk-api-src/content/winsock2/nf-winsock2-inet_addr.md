@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock2.inet_addr
 title: inet_addr function (winsock2.h)
-description: The inet_addr function converts a string containing an IPv4 dotted-decimal address into a proper address for the IN_ADDR structure.
+description: The inet_addr function (winsock2.h) converts a string containing an IPv4 dotted-decimal address into a proper address for the IN_ADDR structure. 
 helpviewer_keywords: ["_win32_inet_addr_2","inet_addr","inet_addr function [Winsock]","winsock.inet_addr_2","wsipv6ok/inet_addr"]
 old-location: winsock\inet_addr_2.htm
 tech.root: WinSock
 ms.assetid: 7d6df658-9d83-45c7-97e7-b2a016a73847
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _win32_inet_addr_2, inet_addr, inet_addr function [Winsock], winsock.inet_addr_2, wsipv6ok/inet_addr
 req.header: winsock2.h
 req.include-header: Winsock2.h, Winsock.h
@@ -75,11 +75,11 @@ the <b>inet_addr</b> function returns an unsigned long value containing a suitab
 If the string in the <i>cp</i> parameter does not contain a legitimate Internet address, for example if a portion of an "a.b.c.d" address exceeds 255, then 
 <b>inet_addr</b> returns the value <b>INADDR_NONE</b>.
 
-On Windows Server 2003and later if the string in the <i>cp</i> parameter is an empty string, then 
+On Windows Server 2003 and later if the string in the <i>cp</i> parameter is an empty string, then 
 <b>inet_addr</b> returns the value <b>INADDR_NONE</b>.  If <b>NULL</b> is passed in the <i>cp</i> parameter, then 
 <b>inet_addr</b> returns the value <b>INADDR_NONE</b>.
 
-On Windows XPand earlier if the string in the <i>cp</i> parameter is an empty string, then 
+On Windows XP and earlier if the string in the <i>cp</i> parameter is an empty string, then 
 <b>inet_addr</b> returns the value <b>INADDR_ANY</b>. If <b>NULL</b> is passed in the <i>cp</i> parameter, then 
 <b>inet_addr</b> returns the value <b>INADDR_NONE</b>.
 

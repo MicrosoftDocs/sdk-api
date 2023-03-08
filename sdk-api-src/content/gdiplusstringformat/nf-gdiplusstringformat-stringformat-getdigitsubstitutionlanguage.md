@@ -53,7 +53,7 @@ api_name:
 
 The <b>StringFormat::GetDigitSubstitutionLanguage</b> method gets the language that corresponds with the digits that are to be substituted for Western European digits.
 
-## -parameters
+
 
 ## -returns
 

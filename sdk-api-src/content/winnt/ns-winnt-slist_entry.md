@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._SLIST_ENTRY
 title: SLIST_ENTRY (winnt.h)
-description: Represents an item in a singly linked list.
+description: Represents an item in a singly linked list. (SLIST_ENTRY)
 helpviewer_keywords: ["*PSLIST_ENTRY","PSLIST_ENTRY","PSLIST_ENTRY structure pointer","SLIST_ENTRY","SLIST_ENTRY structure","_SLIST_ENTRY","_win32_slist_entry_str","base.slist_entry_str","winnt/PSLIST_ENTRY","winnt/SLIST_ENTRY"]
 old-location: base\slist_entry_str.htm
 tech.root: backup

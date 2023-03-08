@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1InkStyle.SetNibTransform(constD2D1_MATRIX_3X2_F)
 title: ID2D1InkStyle::SetNibTransform(const D2D1_MATRIX_3X2_F) (d2d1_3.h)
-description: Sets the transform to apply to this style's nib shape.
+description: Sets the transform to apply to this style's nib shape. (overload 2/2)
 helpviewer_keywords: ["ID2D1InkStyle interface [Direct2D]","SetNibTransform method","ID2D1InkStyle.SetNibTransform","ID2D1InkStyle.SetNibTransform(const D2D1_MATRIX_3X2_F)","ID2D1InkStyle::SetNibTransform","ID2D1InkStyle::SetNibTransform(const D2D1_MATRIX_3X2_F)","SetNibTransform","SetNibTransform method [Direct2D]","SetNibTransform method [Direct2D]","ID2D1InkStyle interface","d2d1_3/ID2D1InkStyle::SetNibTransform","direct2d.id2d1inkstyle_setnibtransform"]
 old-location: direct2d\id2d1inkstyle_setnibtransform.htm
 tech.root: Direct2D

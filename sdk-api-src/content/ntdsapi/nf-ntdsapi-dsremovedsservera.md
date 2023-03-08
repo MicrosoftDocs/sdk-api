@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsRemoveDsServerA
 title: DsRemoveDsServerA function (ntdsapi.h)
-description: The DsRemoveDsServer function removes all traces of a directory service agent (DSA) from the global area of the directory service.
-helpviewer_keywords: ["DsRemoveDsServer","DsRemoveDsServer function [Active Directory]","DsRemoveDsServerA","DsRemoveDsServerW","_glines_dsremovedsserver","ad.dsremovedsserver","ntdsapi/DsRemoveDsServer","ntdsapi/DsRemoveDsServerA","ntdsapi/DsRemoveDsServerW"]
+description: The DsRemoveDsServer function removes all traces of a directory service agent (DSA) from the global area of the directory service. (ANSI)
+helpviewer_keywords: ["DsRemoveDsServerA", "ntdsapi/DsRemoveDsServerA"]
 old-location: ad\dsremovedsserver.htm
 tech.root: ad
 ms.assetid: a79a2b71-10c7-495b-861f-0c7a4d86f720

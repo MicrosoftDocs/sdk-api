@@ -1,8 +1,8 @@
 ---
 UID: NF:commctrl.CreateStatusWindowW
 title: CreateStatusWindowW function (commctrl.h)
-description: Creates a status window, which is typically used to display the status of an application.
-helpviewer_keywords: ["CreateStatusWindow","CreateStatusWindow function [Windows Controls]","CreateStatusWindowA","CreateStatusWindowW","_win32_CreateStatusWindow","_win32_CreateStatusWindow_cpp","commctrl/CreateStatusWindow","commctrl/CreateStatusWindowA","commctrl/CreateStatusWindowW","controls.CreateStatusWindow","controls._win32_CreateStatusWindow"]
+description: Creates a status window, which is typically used to display the status of an application. (Unicode)
+helpviewer_keywords: ["CreateStatusWindow", "CreateStatusWindow function [Windows Controls]", "CreateStatusWindowW", "_win32_CreateStatusWindow", "_win32_CreateStatusWindow_cpp", "commctrl/CreateStatusWindow", "commctrl/CreateStatusWindowW", "controls.CreateStatusWindow", "controls._win32_CreateStatusWindow"]
 old-location: controls\CreateStatusWindow.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\status\functions\createstatuswindow.htm
@@ -90,7 +90,7 @@ Returns the handle to the status window if successful, or <b>NULL</b> otherwise.
 
 ## -remarks
 
-The <b>CreateStatusWindow</b> function calls the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> function to create the window. It passes the parameters to  without modification and sets the position, width, and height parameters to <b>CreateWindow</b>default values. 
+The <b>CreateStatusWindow</b> function calls the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> function to create the window. It passes the parameters to  without modification and sets the position, width, and height parameters to <b>CreateWindow</b> default values. 
 
 
 

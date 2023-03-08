@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrRetToStrA
 title: StrRetToStrA function (shlwapi.h)
-description: Takes an STRRET structure returned by IShellFolder::GetDisplayNameOf and returns a pointer to an allocated string containing the display name.
-helpviewer_keywords: ["StrRetToStr","StrRetToStr function [Windows Shell]","StrRetToStrA","StrRetToStrW","_win32_StrRetToStr","shell.StrRetToStr","shlwapi/StrRetToStr","shlwapi/StrRetToStrA","shlwapi/StrRetToStrW"]
+description: Takes an STRRET structure returned by IShellFolder::GetDisplayNameOf and returns a pointer to an allocated string containing the display name. (ANSI)
+helpviewer_keywords: ["StrRetToStrA", "shlwapi/StrRetToStrA"]
 old-location: shell\StrRetToStr.htm
 tech.root: shell
 ms.assetid: 03b0dffb-8ef7-41da-9773-81ed55275802
@@ -79,7 +79,7 @@ A pointer to an allocated string containing the result. <b>StrRetToStr</b> alloc
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

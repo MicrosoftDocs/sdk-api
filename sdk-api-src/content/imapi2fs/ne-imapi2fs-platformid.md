@@ -54,19 +54,19 @@ Defines values for the operating system architecture that the boot image support
 
 ## -enum-fields
 
-### -field PlatformX86
+### -field PlatformX86:0
 
  Intel Pentium™ series of chip sets. This entry implies a Windows  operating system.
 
-### -field PlatformPowerPC
+### -field PlatformPowerPC:1
 
 Apple PowerPC family.
 
-### -field PlatformMac
+### -field PlatformMac:2
 
 Apple Macintosh  family.
 
-### -field PlatformEFI
+### -field PlatformEFI:0xef
 
 EFI Family.
 

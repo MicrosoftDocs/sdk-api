@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUBYTE2.XMUBYTE2(XMUBYTE2&&)
 title: XMUBYTE2::XMUBYTE2(XMUBYTE2 &&) (directxpackedvector.h)
-description: A constructor for XMUBYTE2.
+description: A constructor for XMUBYTE2. (overload 1/3)
 helpviewer_keywords: ["XMUBYTE2","XMUBYTE2 constructor [DirectX Math Support APIs]","XMUBYTE2 constructor [DirectX Math Support APIs]","XMUBYTE2 structure","XMUBYTE2 structure [DirectX Math Support APIs]","XMUBYTE2 constructor","XMUBYTE2.XMUBYTE2","XMUBYTE2.XMUBYTE2()","XMUBYTE2.XMUBYTE2(XMUBYTE2 &&)","XMUBYTE2::XMUBYTE2","XMUBYTE2::XMUBYTE2(XMUBYTE2 &&)","dxmath.xmubyte2_ctor_1"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMUBYTE2, XMUBYTE2 constructor [DirectX Math Support APIs], XMUBYTE
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -58,7 +58,7 @@ A constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpa
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

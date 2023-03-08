@@ -19,8 +19,8 @@ req.lib: d3d12.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -48,13 +48,13 @@ Incrementally add to an existing state object. This incurs lower CPU overhead th
 
 ### -param pAddition
 
-Type: \_In\_ **const [D3D12_STATE_OBJECT_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_state_object_desc)\***
+Type: \_In\_ **const [D3D12_STATE_OBJECT_DESC](./ns-d3d12-d3d12_state_object_desc.md)\***
 
 Description of state object contents to add to existing state object. To help generate this see the **CD3D12_STATE_OBJECT_DESC** helper in class in `d3dx12.h`.
 
 ### -param pStateObjectToGrowFrom
 
-Type: \_In\_ **[ID3D12StateObject](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject)\***
+Type: \_In\_ **[ID3D12StateObject](./nn-d3d12-id3d12stateobject.md)\***
 
 Existing state object, which can be in use (for example, active raytracing) during this operation.
 
@@ -64,7 +64,7 @@ The existing state object must not be of type **Collection**.
 
 Type: \_In\_ **REFIID**
 
-Must be the IID of the [ID3D12StateObject](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject) interface.
+Must be the IID of the [ID3D12StateObject](./nn-d3d12-id3d12stateobject.md) interface.
 
 ### -param ppNewStateObject
 

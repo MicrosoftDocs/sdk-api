@@ -126,7 +126,7 @@ Also note that the Offline Files service automatically performs the encryption o
 <th>New cached files will be...</th>
 </tr>
 <tr>
-<td>Ecrypting</td>
+<td>Encrypting</td>
 <td>Partially encrypted</td>
 <td>Encrypted</td>
 </tr>

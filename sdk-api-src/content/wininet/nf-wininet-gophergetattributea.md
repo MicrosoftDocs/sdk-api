@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.GopherGetAttributeA
 title: GopherGetAttributeA function (wininet.h)
-description: Retrieves the specific attribute information from the server.
-helpviewer_keywords: ["GopherGetAttribute","GopherGetAttribute function [WinINet]","GopherGetAttributeA","GopherGetAttributeW","_inet_gophergetattribute_function","wininet.gophergetattribute","wininet/GopherGetAttribute","wininet/GopherGetAttributeA","wininet/GopherGetAttributeW"]
+description: Retrieves the specific attribute information from the server. (ANSI)
+helpviewer_keywords: ["GopherGetAttributeA", "wininet/GopherGetAttributeA"]
 old-location: wininet\gophergetattribute.htm
 tech.root: wininet
 ms.assetid: c9e95532-8c65-45fb-acd0-a1f09cee2ce2

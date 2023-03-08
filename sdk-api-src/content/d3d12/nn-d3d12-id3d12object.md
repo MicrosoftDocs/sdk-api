@@ -54,60 +54,7 @@ An interface from which <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12devic
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Object</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12Object</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D12Object</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12object-getprivatedata">GetPrivateData</a>
-</td>
-<td align="left" width="63%">
-Gets application-defined data from a device object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setname">SetName</a>
-</td>
-<td align="left" width="63%">
-Associates a name with the device object.
-          This name is for use in debug diagnostics and tools.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setprivatedata">SetPrivateData</a>
-</td>
-<td align="left" width="63%">
-Sets application-defined data to a device object and associates that data with an application-defined <b>GUID</b>.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setprivatedatainterface">SetPrivateDataInterface</a>
-</td>
-<td align="left" width="63%">
-Associates an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface with the device object and associates that interface with an application-defined <b>GUID</b>.
-        
-
-</td>
-</tr>
-</table>
+The <b>ID3D12Object</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12Object</b> also has these types of members:
 
 ## -see-also
 

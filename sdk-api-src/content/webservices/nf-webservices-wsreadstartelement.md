@@ -52,8 +52,9 @@ api_name:
 
 Calling this function advances the reader past a start element skipping any whitespace.
       
-        After parsing if the Reader is not positioned on a start element it will return a<b>WS_E_INVALID_FORMAT</b> exception.
-      (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
+After parsing if the Reader is not positioned on a start element it will return a <b>WS_E_INVALID_FORMAT</b> exception.
+
+(See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 ## -parameters
 

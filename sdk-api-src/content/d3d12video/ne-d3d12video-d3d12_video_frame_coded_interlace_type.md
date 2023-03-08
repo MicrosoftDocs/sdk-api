@@ -18,7 +18,7 @@ req.umdf-ver:
 req.ddi-compliance: 
 req.max-support: 
 req.typenames: D3D12_VIDEO_FRAME_CODED_INTERLACE_TYPE
-topic_type: Specifies the interlace type of coded video frames. - apiref
+ms.topic: Specifies the interlace type of coded video frames. - apiref
 targetos: Windows
 f1_keywords:
  - D3D12_VIDEO_FRAME_CODED_INTERLACE_TYPE

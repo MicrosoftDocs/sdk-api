@@ -63,53 +63,5 @@ The video renderer is the only filter that calls the methods on this interface. 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOverlayNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOverlayNotify</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IOverlayNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOverlayNotify</b> also has these types of members:
 
-## -members
-
-The <b>IOverlayNotify</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onclipchange">OnClipChange</a>
-</td>
-<td align="left" width="63%">
-Provides notification that the window's visible region has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-oncolorkeychange">OnColorKeyChange</a>
-</td>
-<td align="left" width="63%">
-Provides notification that the chroma key has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onpalettechange">OnPaletteChange</a>
-</td>
-<td align="left" width="63%">
-Provides notification that the palette of the window has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onpositionchange">OnPositionChange</a>
-</td>
-<td align="left" width="63%">
-Provides notification that the position has changed.
-
-</td>
-</tr>
-</table>

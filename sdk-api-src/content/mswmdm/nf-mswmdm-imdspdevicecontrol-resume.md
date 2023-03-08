@@ -53,7 +53,7 @@ api_name:
 
 The <b>Resume</b> method resumes the current playback or record operation from the file position saved during the call to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-pause">Pause</a>.
 
-## -parameters
+
 
 ## -returns
 

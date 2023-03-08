@@ -55,7 +55,7 @@ The <b>StringFormat::Clone</b> method creates a new
 			<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object and initializes it with the contents of this 
 			<b>StringFormat</b> object.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,12 +1,12 @@
 ---
 UID: NN:objidlbase.IMarshal
 title: IMarshal (objidlbase.h)
-description: Enables a COM object to define and manage the marshaling of its interface pointers.
+description: The IMarshal (objidlbase.h) interface enables a COM object to define and manage the marshaling of its interface pointers.
 helpviewer_keywords: ["IMarshal","IMarshal interface [COM]","IMarshal interface [COM]","described","_com_imarshal","com.imarshal","objidlbase/IMarshal"]
 old-location: com\imarshal.htm
 tech.root: com
 ms.assetid: e6f08949-f27d-4aba-adff-eaf9c356a928
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IMarshal, IMarshal interface [COM], IMarshal interface [COM],described, _com_imarshal, com.imarshal, objidlbase/IMarshal
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
@@ -54,74 +54,7 @@ Enables a COM object to define and manage the marshaling of its interface pointe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMarshal</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMarshal</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMarshal</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-imarshal-disconnectobject">DisconnectObject</a>
-</td>
-<td align="left" width="63%">
-Releases all connections to an object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-imarshal-getmarshalsizemax">GetMarshalSizeMax</a>
-</td>
-<td align="left" width="63%">
-Retrieves the maximum size of the buffer that will be needed during marshaling.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-imarshal-getunmarshalclass">GetUnmarshalClass</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <b>CLSID</b> of the unmarshaling code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-imarshal-marshalinterface">MarshalInterface</a>
-</td>
-<td align="left" width="63%">
-Marshals an interface pointer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-imarshal-releasemarshaldata">ReleaseMarshalData</a>
-</td>
-<td align="left" width="63%">
-Destroys a marshaled data packet.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-imarshal-unmarshalinterface">UnmarshalInterface</a>
-</td>
-<td align="left" width="63%">
-Unmarshals an interface pointer.
-
-</td>
-</tr>
-</table>
+The <b>IMarshal</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMarshal</b> also has these types of members:
 
 ## -remarks
 

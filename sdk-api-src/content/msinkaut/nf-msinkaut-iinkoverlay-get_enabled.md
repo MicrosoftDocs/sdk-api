@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_Enabled
 title: IInkOverlay::get_Enabled (msinkaut.h)
-description: Gets or sets a value that specifies whether the InkOverlay object collects pen input (in-air packets, cursor in range events, and so on).
+description: Gets or sets a value that specifies whether the InkOverlay object collects pen input (in-air packets, cursor in range events, and so on). (Get)
 helpviewer_keywords: ["Enabled property [Tablet PC]","Enabled property [Tablet PC]","IInkOverlay interface","IInkOverlay interface [Tablet PC]","Enabled property","IInkOverlay.Enabled","IInkOverlay.get_Enabled","IInkOverlay::Enabled","IInkOverlay::get_Enabled","IInkOverlay::put_Enabled","InkOverlay.get_Enabled","InkOverlay.put_Enabled","get_Enabled","msinkaut/IInkOverlay::Enabled","msinkaut/IInkOverlay::get_Enabled","msinkaut/IInkOverlay::put_Enabled","tablet.inkoverlay_enabled"]
 old-location: tablet\inkoverlay_enabled.htm
 tech.root: tablet
@@ -127,7 +127,7 @@ Methods
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 

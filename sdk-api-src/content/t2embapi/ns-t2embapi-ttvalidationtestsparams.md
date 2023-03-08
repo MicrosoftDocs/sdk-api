@@ -1,5 +1,5 @@
 ---
-UID: NS:t2embapi.__unnamed_struct_2
+UID: NS:t2embapi.TTVALIDATIONTESTSPARAMS
 title: TTVALIDATIONTESTSPARAMS (t2embapi.h)
 description: The TTVALIDATIONTESTSPARAMS structure contains parameters for testing a Microsoft OpenType font.
 helpviewer_keywords: ["TTVALIDATIONTESTSPARAMS","TTVALIDATIONTESTSPARAMS structure [Windows GDI]","_win32_TTVALIDATIONTESTPARAMS","gdi.ttvalidationtestparams","t2embapi/TTVALIDATIONTESTSPARAMS"]
@@ -64,7 +64,7 @@ First character point size to test. This value is the smallest font size (lower 
 
 ### -field lTestToSize
 
-Last character point size to test. This value is an largest font size (upper bound) of the font sizes to test.
+Last character point size to test. This value is the largest font size (upper bound) of the font sizes to test.
 
 ### -field ulCharSet
 
@@ -104,3 +104,4 @@ Pointer to array of Unicode characters.
 
 
 <a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttvalidationtestsparamsex">TTVALIDATIONTESTSPARAMSEX</a>
+

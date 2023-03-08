@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetMultiSzFieldA
 title: SetupGetMultiSzFieldA function (setupapi.h)
-description: The SetupGetMultiSzField function retrieves multiple strings stored in a line of an INF file, from the specified field to the end of the line.
-helpviewer_keywords: ["SetupGetMultiSzField","SetupGetMultiSzField function [Setup API]","SetupGetMultiSzFieldA","SetupGetMultiSzFieldW","_setupapi_setupgetmultiszfield","setup.setupgetmultiszfield","setupapi/SetupGetMultiSzField","setupapi/SetupGetMultiSzFieldA","setupapi/SetupGetMultiSzFieldW"]
+description: The SetupGetMultiSzField function retrieves multiple strings stored in a line of an INF file, from the specified field to the end of the line. (ANSI)
+helpviewer_keywords: ["SetupGetMultiSzFieldA", "setupapi/SetupGetMultiSzFieldA"]
 old-location: setup\setupgetmultiszfield.htm
 tech.root: setup
 ms.assetid: d884037c-a8d0-47a8-8b3f-70408866be05
@@ -46,6 +46,7 @@ api_name:
  - SetupGetMultiSzField
  - SetupGetMultiSzFieldA
  - SetupGetMultiSzFieldW
+req.apiset: ext-ms-win-setupapi-inf-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupGetMultiSzFieldA function

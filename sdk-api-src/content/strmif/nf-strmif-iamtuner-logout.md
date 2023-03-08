@@ -53,7 +53,7 @@ api_name:
 
 The <code>Logout</code> method logs out the current user.
 
-## -parameters
+
 
 ## -returns
 

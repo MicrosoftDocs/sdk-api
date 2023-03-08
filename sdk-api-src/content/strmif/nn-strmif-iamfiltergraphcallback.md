@@ -57,29 +57,7 @@ To use this interface, implement the interface in your application or client obj
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMFilterGraphCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMFilterGraphCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAMFilterGraphCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamfiltergraphcallback-unabletorender">UnableToRender</a>
-</td>
-<td align="left" width="63%">
-Informs the client that no combination of filters could be found to render the specified pin.
-
-</td>
-</tr>
-</table>
+The <b>IAMFilterGraphCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMFilterGraphCallback</b> also has these types of members:
 
 ## -see-also
 

@@ -54,82 +54,10 @@ The <b>IWMPErrorItem</b> interface provides a way to access error information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPErrorItem</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPErrorItem</b> also has these types of members:
+The <b>IWMPErrorItem</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPErrorItem</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPErrorItem</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_customurl">get_customUrl</a>
-</td>
-<td align="left" width="63%">
-Retrieves the URL of a website that displays specific information about codec download failure.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_errorcode">get_errorCode</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current error code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_errorcontext">get_errorContext</a>
-</td>
-<td align="left" width="63%">
-Retrieves a value indicating the context of the error.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_errordescription">get_errorDescription</a>
-</td>
-<td align="left" width="63%">
-Retrieves a description of the error.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_remedy">get_remedy</a>
-</td>
-<td align="left" width="63%">
-Reserved for future use.
-
-</td>
-</tr>
-</table> 
-
-Retrieve a pointer to an <b>IWMPErrorItem</b> interface with the following method.
-
-<table>
-<tr>
-<th>Interface</th>
-<th>Method</th>
-</tr>
-<tr>
-<td>
-<a href="/windows/desktop/api/wmp/nn-wmp-iwmperror">IWMPError</a>
-</td>
-<td>
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmperror-get_item">get_item</a>
-</td>
-</tr>
-</table>
 
 ## -see-also
 

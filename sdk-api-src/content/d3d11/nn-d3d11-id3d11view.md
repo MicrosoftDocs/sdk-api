@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11View
 title: ID3D11View (d3d11.h)
-description: A view interface specifies the parts of a resource the pipeline can access during rendering.
+description: A view interface specifies the parts of a resource the pipeline can access during rendering. (ID3D11View)
 helpviewer_keywords: ["0332b528-6d94-2603-1e1b-65d4d541f94f","ID3D11View","ID3D11View interface [Direct3D 11]","ID3D11View interface [Direct3D 11]","described","d3d11/ID3D11View","direct3d11.id3d11view"]
 old-location: direct3d11\id3d11view.htm
 tech.root: direct3d11
@@ -55,29 +55,7 @@ A view interface specifies the parts of a resource the pipeline can access durin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11View</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11View</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D11View</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11view-getresource">GetResource</a>
-</td>
-<td align="left" width="63%">
-Get the resource that is accessed through this view.
-
-</td>
-</tr>
-</table>
+The <b>ID3D11View</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11View</b> also has these types of members:
 
 ## -remarks
 

@@ -54,11 +54,11 @@ Sets the window handle that the clipper object uses to obtain clipping informati
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Currently not used and must be set to 0.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Window handle that obtains the clipping information.
 
@@ -79,7 +79,7 @@ If it fails, the method can return one of the following error values:
 
 ## -remarks
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetHWnd</b> method.
+
 
 ## -see-also
 

@@ -55,7 +55,7 @@ api_name:
 
 The <b>StopBuffering</b> method requests that the reader send the WMT_BUFFERING_STOP message as soon as possible.
 
-## -parameters
+
 
 ## -returns
 

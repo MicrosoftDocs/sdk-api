@@ -58,7 +58,7 @@ The <b>PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH</b> callback function specifies t
 
 Pointer to a provider defined object that contains information about this provider.
 
-### -param *rgIdentifierOrNameList [in]
+### -param rgIdentifierOrNameList [in]
 
 Pointer to an array of names or identifiers.
 

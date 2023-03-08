@@ -54,53 +54,5 @@ Is implemented by the client program to receive callback notifications from <a h
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDiscoveryProviderNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDiscoveryProviderNotify</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWSDiscoveryProviderNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDiscoveryProviderNotify</b> also has these types of members:
 
-## -members
-
-The <b>IWSDiscoveryProviderNotify</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-add">Add</a>
-</td>
-<td align="left" width="63%">
-Called to provide information on either a newly announced discovery host (from a Hello message), or a match to a user initiated query.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-remove">Remove</a>
-</td>
-<td align="left" width="63%">
-Called to provide information on a recently departed discovery host (from a Bye message).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-searchcomplete">SearchComplete</a>
-</td>
-<td align="left" width="63%">
-Called to indicate a user initiated search has successfully completed and no more matches for the search will be accepted.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-searchfailed">SearchFailed</a>
-</td>
-<td align="left" width="63%">
-Called to indicate a user initiated search has failed.
-
-</td>
-</tr>
-</table>

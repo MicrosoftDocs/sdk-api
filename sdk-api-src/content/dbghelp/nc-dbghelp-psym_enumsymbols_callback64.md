@@ -1,12 +1,12 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMSYMBOLS_CALLBACK64
 title: PSYM_ENUMSYMBOLS_CALLBACK64 (dbghelp.h)
-description: An application-defined callback function used with the SymEnumerateSymbols64 function. It is called once for each enumerated symbol, and receives the symbol information.
+description: PSYM_ENUMSYMBOLS_CALLBACK64 (dbghelp.h) is an application-defined callback function used with the SymEnumerateSymbols64 function.
 helpviewer_keywords: ["PSYM_ENUMSYMBOLS_CALLBACK","PSYM_ENUMSYMBOLS_CALLBACK64","PSYM_ENUMSYMBOLS_CALLBACK64W","SymEnumerateSymbolsProc64","SymEnumerateSymbolsProc64 callback","SymEnumerateSymbolsProc64 callback function","_win32_symenumeratesymbolsproc64","base.symenumeratesymbolsproc64","dbghelp/SymEnumerateSymbolsProc64"]
 old-location: base\symenumeratesymbolsproc64.htm
 tech.root: Debug
 ms.assetid: e1430398-041f-4edd-b7b0-de3a60a42b37
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: PSYM_ENUMSYMBOLS_CALLBACK, PSYM_ENUMSYMBOLS_CALLBACK64, PSYM_ENUMSYMBOLS_CALLBACK64W, SymEnumerateSymbolsProc64, SymEnumerateSymbolsProc64 callback, SymEnumerateSymbolsProc64 callback function, _win32_symenumeratesymbolsproc64, base.symenumeratesymbolsproc64, dbghelp/SymEnumerateSymbolsProc64
 req.header: dbghelp.h
 req.include-header: 

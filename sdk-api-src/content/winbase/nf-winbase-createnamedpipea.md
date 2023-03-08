@@ -1,15 +1,12 @@
 ---
 UID: NF:winbase.CreateNamedPipeA
 title: CreateNamedPipeA function (winbase.h)
-author: windows-sdk-content
-description: Creates an instance of a named pipe and returns a handle for subsequent pipe operations.
+description: The CreateNamedPipeA (ANSI) function (winbase.h) creates an instance of a named pipe and returns a handle for subsequent pipe operations.
 old-location: base\createnamedpipe.htm
 tech.root: ipc
 ms.assetid: 00d79639-3f14-4964-90f3-9462a23e68df
-ms.author: windowssdkdev
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: ACCESS_SYSTEM_SECURITY, CreateNamedPipe, CreateNamedPipe function, CreateNamedPipeA, CreateNamedPipeW, FILE_FLAG_FIRST_PIPE_INSTANCE, FILE_FLAG_OVERLAPPED, FILE_FLAG_WRITE_THROUGH, PIPE_ACCEPT_REMOTE_CLIENTS, PIPE_ACCESS_DUPLEX, PIPE_ACCESS_INBOUND, PIPE_ACCESS_OUTBOUND, PIPE_NOWAIT, PIPE_READMODE_BYTE, PIPE_READMODE_MESSAGE, PIPE_REJECT_REMOTE_CLIENTS, PIPE_TYPE_BYTE, PIPE_TYPE_MESSAGE, PIPE_WAIT, WRITE_DAC, WRITE_OWNER, _win32_createnamedpipe, base.createnamedpipe, winbase/CreateNamedPipe, winbase/CreateNamedPipeA, winbase/CreateNamedPipeW
-ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -27,7 +24,6 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -76,7 +72,7 @@ Creates an instance of a named pipe and returns a handle for subsequent pipe ope
 
 The unique pipe name. This string must have the following form:
 
-\\.\pipe&#92;<i>pipename</i>
+\\\\.\\pipe&#92;<i>pipename</i>
 
 The pipename part of the name can include any character other than a backslash, including numbers and special characters. The entire pipe name string can be up to 256 characters long. Pipe names are not case sensitive.
 
@@ -417,7 +413,7 @@ Whenever a pipe write operation occurs, the system first tries to charge the mem
 
 To free resources used by a named pipe, the application should always close handles when they are no longer needed, which is accomplished either by calling the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function or when the process associated with the instance handles ends. Note that an instance of a named pipe may have more than one handle associated with it. An instance of a named pipe is always deleted when the last handle to the instance of the named pipe is closed.
 
-<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
+<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax `\\.\pipe\LOCAL\` for the pipe name.
 
 
 #### Examples

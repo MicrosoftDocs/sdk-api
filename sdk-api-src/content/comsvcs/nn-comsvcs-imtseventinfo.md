@@ -54,65 +54,7 @@ Describes user-defined events. The events are published to the subscriber using 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMtsEventInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMtsEventInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMtsEventInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtseventinfo-get_count">get_Count</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of data values from the object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtseventinfo-get_displayname">get_DisplayName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the display name of the object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtseventinfo-get_eventid">get_EventID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the event identifier of the object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtseventinfo-get_names">get_Names</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator for the names of the data values.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtseventinfo-get_value">get_Value</a>
-</td>
-<td align="left" width="63%">
-Retrieves the value of the specified user-defined event.
-
-</td>
-</tr>
-</table>
+The <b>IMtsEventInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMtsEventInfo</b> also has these types of members:
 
 ## -see-also
 

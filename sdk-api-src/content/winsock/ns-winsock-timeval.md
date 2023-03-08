@@ -1,12 +1,12 @@
 ---
 UID: NS:winsock.timeval
 title: TIMEVAL (winsock.h)
-description: The timeval structure is used to specify a time interval. It is associated with the Berkeley Software Distribution (BSD) Time.h header file.
+description: The TIMEVAL (winsock.h) structure is used to specify a time interval. It is associated with the Berkeley Software Distribution (BSD) Time.h header file.
 helpviewer_keywords: ["*LPTIMEVAL","*PTIMEVAL","TIMEVAL","_win32_timeval_2","timeval","timeval structure [Winsock]","winsock.timeval_2","winsock/timeval"]
 old-location: winsock\timeval_2.htm
 tech.root: WinSock
 ms.assetid: 3024c961-bb47-40ac-a49c-b12cd431e4e7
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: '*LPTIMEVAL, *PTIMEVAL, TIMEVAL, _win32_timeval_2, timeval, timeval structure [Winsock], winsock.timeval_2, winsock/timeval'
 req.header: winsock.h
 req.include-header: Winsock2.h

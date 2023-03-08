@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d9.IDirect3DQuery9
 title: IDirect3DQuery9 (d3d9.h)
-description: Applications use the methods of the IDirect3DQuery9 interface to perform asynchronous queries on a driver.
+description: The IDirect3DQuery9 (d3d9.h) interface applications use the methods of the IDirect3DQuery9 interface to perform asynchronous queries on a driver.
 helpviewer_keywords: ["6e601b3e-6b1d-4777-8fd2-a1c3ed1d5565","IDirect3DQuery9","IDirect3DQuery9 interface [Direct3D 9]","IDirect3DQuery9 interface [Direct3D 9]","described","d3d9helper/IDirect3DQuery9","direct3d9.idirect3dquery9"]
 old-location: direct3d9\idirect3dquery9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dquery9.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 6e601b3e-6b1d-4777-8fd2-a1c3ed1d5565, IDirect3DQuery9, IDirect3DQuery9 interface [Direct3D 9], IDirect3DQuery9 interface [Direct3D 9],described, d3d9helper/IDirect3DQuery9, direct3d9.idirect3dquery9
 req.header: d3d9.h
 req.include-header: D3D9.h
@@ -55,65 +55,7 @@ Applications use the methods of the IDirect3DQuery9 interface to perform asynchr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DQuery9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DQuery9</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDirect3DQuery9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdata">GetData</a>
-</td>
-<td align="left" width="63%">
-Polls a queried resource to get the query state or a query result. For more information about queries, see <a href="/windows/desktop/direct3d9/queries">Queries (Direct3D 9)</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdatasize">GetDataSize</a>
-</td>
-<td align="left" width="63%">
-Gets the number of bytes in the query data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dquery9-getdevice">GetDevice</a>
-</td>
-<td align="left" width="63%">
-Gets the device that is being queried.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dquery9-gettype">GetType</a>
-</td>
-<td align="left" width="63%">
-Gets the query type.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dquery9-issue">Issue</a>
-</td>
-<td align="left" width="63%">
-Issue a query.
-
-</td>
-</tr>
-</table>
+The <b>IDirect3DQuery9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DQuery9</b> also has these types of members:
 
 ## -remarks
 

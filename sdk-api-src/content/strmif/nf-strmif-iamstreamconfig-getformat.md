@@ -125,7 +125,7 @@ On some compression filters, the method fails if the filter's input pin is not c
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

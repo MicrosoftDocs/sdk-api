@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.ChangeDisplaySettingsA
 title: ChangeDisplaySettingsA function (winuser.h)
-description: The ChangeDisplaySettings function changes the settings of the default display device to the specified graphics mode.
-helpviewer_keywords: ["0","CDS_FULLSCREEN","CDS_GLOBAL","CDS_NORESET","CDS_RESET","CDS_SET_PRIMARY","CDS_TEST","CDS_UPDATEREGISTRY","ChangeDisplaySettings","ChangeDisplaySettings function [Windows GDI]","ChangeDisplaySettingsA","ChangeDisplaySettingsW","_win32_ChangeDisplaySettings","gdi.changedisplaysettings","winuser/ChangeDisplaySettings","winuser/ChangeDisplaySettingsA","winuser/ChangeDisplaySettingsW"]
+description: The ChangeDisplaySettings function changes the settings of the default display device to the specified graphics mode. (ANSI)
+helpviewer_keywords: ["0", "CDS_FULLSCREEN", "CDS_GLOBAL", "CDS_NORESET", "CDS_RESET", "CDS_SET_PRIMARY", "CDS_TEST", "CDS_UPDATEREGISTRY", "ChangeDisplaySettingsA", "winuser/ChangeDisplaySettingsA"]
 old-location: gdi\changedisplaysettings.htm
 tech.root: gdi
 ms.assetid: 208bf1cc-c03c-4d03-92e4-32fcf856b4d8
@@ -45,6 +45,7 @@ api_name:
  - ChangeDisplaySettings
  - ChangeDisplaySettingsA
  - ChangeDisplaySettingsW
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ChangeDisplaySettingsA function
@@ -99,7 +100,7 @@ The <b>dmSize</b> member of <a href="/windows/win32/api/wingdi/ns-wingdi-devmode
 
 In addition to using one or more of the preceding <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> members, you must also set one or more of the following values in the <b>dmFields</b> member to change the display setting.
             
-          <table>
+<table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>

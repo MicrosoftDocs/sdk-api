@@ -84,9 +84,7 @@ The cache data is contained in the <b>Reserved</b> member.
 
 A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_cache_stats_un">WTS_CACHE_STATS_UN</a> union that contains the cache statistics.
 
-### -field Data.switch_is
 
-### -field Data.switch_is.Specific
 
 ### -field ProtocolType
 

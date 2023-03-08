@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d12video.ID3D12VideoDecoderHeap1
 title: ID3D12VideoDecoderHeap1
-ms.date: 8/19/2019
+description: The ID3D12VideoDecoderHeap1 interface (d3d12video.h) inherits from ID3D12VideoDecoderHeap and introduces support for protected resources.
+ms.date: 08/16/2022
 ms.keywords: ID3D12VideoDecoderHeap1
 targetos: Windows
 req.assembly: 
@@ -13,8 +14,8 @@ req.include-header:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.unicode-ansi: 
 f1_keywords:
@@ -34,7 +35,7 @@ api_name:
 
 ## -description
 
-ID3D12VideoDecoderHeap1 interits from [ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap) and introduces support for protected resources.
+ID3D12VideoDecoderHeap1 inherits from [ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap.md) and introduces support for protected resources.
 
 ## -inheritance
 
@@ -42,5 +43,4 @@ ID3D12VideoDecoderHeap1 interits from [ID3D12VideoDecoderHeap](nn-d3d12video-id3
 
 ## -see-also
 
-[ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap)
-
+[ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap.md)

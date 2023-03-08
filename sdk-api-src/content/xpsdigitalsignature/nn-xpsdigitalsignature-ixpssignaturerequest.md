@@ -47,17 +47,13 @@ api_name:
 
 # IXpsSignatureRequest interface
 
-
 ## -description
 
 Accesses the components of a signature request.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsSignatureRequest</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsSignatureRequest</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IXpsSignatureRequest</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsSignatureRequest</b> also has these types of members:
 
 ## -members
 
@@ -69,7 +65,7 @@ The <b>IXpsSignatureRequest</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getintent">GetIntent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getintent">GetIntent</a>
 </td>
 <td align="left" width="63%">
 Sets the string that describes the intent or meaning of the signature.
@@ -78,7 +74,7 @@ Sets the string that describes the intent or meaning of the signature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getrequestedsigner">GetRequestedSigner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getrequestedsigner">GetRequestedSigner</a>
 </td>
 <td align="left" width="63%">
 Gets the identity of the person who has signed or is requesting to sign the package.
@@ -87,7 +83,7 @@ Gets the identity of the person who has signed or is requesting to sign the pack
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getrequestid">GetRequestId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getrequestid">GetRequestId</a>
 </td>
 <td align="left" width="63%">
 Gets the unique identifier of  the signature request.
@@ -96,7 +92,7 @@ Gets the unique identifier of  the signature request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getrequestsignbydate">GetRequestSignByDate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getrequestsignbydate">GetRequestSignByDate</a>
 </td>
 <td align="left" width="63%">
 Gets the date and time before which the requested signer must sign the specified parts of the document.
@@ -105,17 +101,16 @@ Gets the date and time before which the requested signer must sign the specified
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getsignature">GetSignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getsignature">GetSignature</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to an <a href="/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignature">IXpsSignature</a> interface that contains the XPS digital signature with the same unique identifier as the signature request.
-            
+Gets a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignature">IXpsSignature</a> interface that contains the XPS digital signature with the same unique identifier as the signature request.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getsigninglocale">GetSigningLocale</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getsigninglocale">GetSigningLocale</a>
 </td>
 <td align="left" width="63%">
 Gets the legal jurisdiction of the package signing location.
@@ -124,7 +119,7 @@ Gets the legal jurisdiction of the package signing location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getspotlocation">GetSpotLocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getspotlocation">GetSpotLocation</a>
 </td>
 <td align="left" width="63%">
 Gets the page and the location on the page where the visible digital signature or the digital signature request will be displayed.
@@ -133,7 +128,7 @@ Gets the page and the location on the page where the visible digital signature o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-setintent">SetIntent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-setintent">SetIntent</a>
 </td>
 <td align="left" width="63%">
 Sets the string that describes the intent or meaning of the signature.
@@ -142,7 +137,7 @@ Sets the string that describes the intent or meaning of the signature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-setrequestedsigner">SetRequestedSigner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-setrequestedsigner">SetRequestedSigner</a>
 </td>
 <td align="left" width="63%">
 Sets the identity of the person who signed or is requested to sign the package.
@@ -151,7 +146,7 @@ Sets the identity of the person who signed or is requested to sign the package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-setrequestsignbydate">SetRequestSignByDate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-setrequestsignbydate">SetRequestSignByDate</a>
 </td>
 <td align="left" width="63%">
 Sets the date and time before which the requested signer must sign the specified parts of the document.
@@ -160,7 +155,7 @@ Sets the date and time before which the requested signer must sign the specified
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-setsigninglocale">SetSigningLocale</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-setsigninglocale">SetSigningLocale</a>
 </td>
 <td align="left" width="63%">
 Sets the legal jurisdiction of the package signing location.
@@ -169,7 +164,125 @@ Sets the legal jurisdiction of the package signing location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-setspotlocation">SetSpotLocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-setspotlocation">SetSpotLocation</a>
+</td>
+<td align="left" width="63%">
+Specifies the page and the  location on the page  where   the visible digital signature or the digital signature request  will be displayed.
+
+</td>
+</tr>
+</table>
+
+## -members
+
+The <b>IXpsSignatureRequest</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getintent">GetIntent</a>
+</td>
+<td align="left" width="63%">
+Sets the string that describes the intent or meaning of the signature.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getrequestedsigner">GetRequestedSigner</a>
+</td>
+<td align="left" width="63%">
+Gets the identity of the person who has signed or is requesting to sign the package.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getrequestid">GetRequestId</a>
+</td>
+<td align="left" width="63%">
+Gets the unique identifier of  the signature request.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getrequestsignbydate">GetRequestSignByDate</a>
+</td>
+<td align="left" width="63%">
+Gets the date and time before which the requested signer must sign the specified parts of the document.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getsignature">GetSignature</a>
+</td>
+<td align="left" width="63%">
+Gets a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignature">IXpsSignature</a> interface that contains the XPS digital signature with the same unique identifier as the signature request.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getsigninglocale">GetSigningLocale</a>
+</td>
+<td align="left" width="63%">
+Gets the legal jurisdiction of the package signing location.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-getspotlocation">GetSpotLocation</a>
+</td>
+<td align="left" width="63%">
+Gets the page and the location on the page where the visible digital signature or the digital signature request will be displayed.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-setintent">SetIntent</a>
+</td>
+<td align="left" width="63%">
+Sets the string that describes the intent or meaning of the signature.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-setrequestedsigner">SetRequestedSigner</a>
+</td>
+<td align="left" width="63%">
+Sets the identity of the person who signed or is requested to sign the package.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-setrequestsignbydate">SetRequestSignByDate</a>
+</td>
+<td align="left" width="63%">
+Sets the date and time before which the requested signer must sign the specified parts of the document.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-setsigninglocale">SetSigningLocale</a>
+</td>
+<td align="left" width="63%">
+Sets the legal jurisdiction of the package signing location.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturerequest-setspotlocation">SetSpotLocation</a>
 </td>
 <td align="left" width="63%">
 Specifies the page and the  location on the page  where   the visible digital signature or the digital signature request  will be displayed.
@@ -182,7 +295,7 @@ Specifies the page and the  location on the page  where   the visible digital si
 
 The <b>IXpsSignatureRequest</b> interface corresponds to a single <b>SignatureDefinition</b> element in the markup of the SignatureDefinitons part.
 
-This <b>SignatureDefinition</b> element markup is described in section 10.2.2 of the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>. 
+This <b>SignatureDefinition</b> element markup is described in section 10.2.2 of the <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>. 
 
 All signature requests are 
 stored in a request collection of a signature block. They cannot exist independently from the <a href="/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignatureblock">IXpsSignatureBlock</a> interface from which they were instantiated.
@@ -193,4 +306,4 @@ stored in a request collection of a signature block. They cannot exist independe
 
 
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

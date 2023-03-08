@@ -53,7 +53,7 @@ api_name:
 
 Creates a new <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object and initializes the members to zero. This is the default constructor.
 
-## -parameters
+
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceRegistration.AddResource
 title: IWorkspaceRegistration::AddResource (workspaceruntime.h)
-description: Adds a resource to the connection in RemoteApp and Desktop Connection.
+description: Adds a resource to the connection in RemoteApp and Desktop Connection. (IWorkspaceRegistration2.AddResource)
 helpviewer_keywords: ["AddResource","AddResource method [Remote Desktop Services]","AddResource method [Remote Desktop Services]","IWorkspaceRegistration interface","AddResource method [Remote Desktop Services]","IWorkspaceRegistration2 interface","AddResource method [Remote Desktop Services]","Workspace object","IWorkspaceRegistration interface [Remote Desktop Services]","AddResource method","IWorkspaceRegistration.AddResource","IWorkspaceRegistration2 interface [Remote Desktop Services]","AddResource method","IWorkspaceRegistration2::AddResource","IWorkspaceRegistration::AddResource","Workspace object [Remote Desktop Services]","AddResource method","termserv.iworkspaceregistration_addresource","workspaceruntime/IWorkspaceRegistration2::AddResource","workspaceruntime/IWorkspaceRegistration::AddResource"]
 old-location: termserv\iworkspaceregistration_addresource.htm
 tech.root: TermServ
@@ -66,7 +66,7 @@ A pointer to a <b>DWORD</b> variable to receive the connection cookie for a new 
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

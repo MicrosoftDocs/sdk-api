@@ -54,26 +54,5 @@ Defines the interface for callbacks from <a href="/windows/desktop/api/windows.u
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFindReferenceTargetsCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFindReferenceTargetsCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IFindReferenceTargetsCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFindReferenceTargetsCallback</b> also has these types of members:
 
-## -members
-
-The <b>IFindReferenceTargetsCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ifindreferencetargetscallback-foundtrackertarget">FoundTrackerTarget</a>
-</td>
-<td align="left" width="63%">
-Called whenever a XAML object reference tracker target is found.
-
-</td>
-</tr>
-</table>

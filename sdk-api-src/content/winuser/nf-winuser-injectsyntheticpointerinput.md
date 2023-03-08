@@ -56,13 +56,13 @@ Simulates pointer input (pen or touch).
 
 ### -param device
 
-A handle to the pointer injection device created by <a href="https://msdn.microsoft.com/en-us/library/Mt832775(v=VS.85).aspx">CreateSyntheticPointerDevice</a>.
+A handle to the pointer injection device created by <a href="../winuser/nf-winuser-createsyntheticpointerdevice.md">CreateSyntheticPointerDevice</a>.
 
 ### -param pointerInfo [in]
 
-Array of injected pointers.
+An array of [POINTER_TYPE_INFO](ns-winuser-pointer_type_info.md) structures represneting the injected pointers.
 
-The type must match the <i>pointerType</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Mt832775(v=VS.85).aspx">CreateSyntheticPointerDevice</a> call that created the injection device. 
+The type must match the <i>pointerType</i> parameter of the <a href="../winuser/nf-winuser-createsyntheticpointerdevice.md">CreateSyntheticPointerDevice</a> call that created the injection device. 
 
 
 The ptPixelLocation for each POINTER_TYPE_INFO is specified relative to top left of the virtual screen:

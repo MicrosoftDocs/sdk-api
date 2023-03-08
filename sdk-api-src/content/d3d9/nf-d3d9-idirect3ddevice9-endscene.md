@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.EndScene
 title: IDirect3DDevice9::EndScene (d3d9.h)
-description: Ends a scene that was begun by calling IDirect3DDevice9::BeginScene.
+description: The IDirect3DDevice9::EndScene method (d3d9.h) ends a scene that was begun by calling IDirect3DDevice9::BeginScene.
 helpviewer_keywords: ["5a0213d4-1bba-e7fc-0a90-704668833b85","EndScene","EndScene method [Direct3D 9]","EndScene method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","EndScene method","IDirect3DDevice9.EndScene","IDirect3DDevice9::EndScene","d3d9helper/IDirect3DDevice9::EndScene","direct3d9.idirect3ddevice9__endscene"]
 old-location: direct3d9\idirect3ddevice9__endscene.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__endscene.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: 5a0213d4-1bba-e7fc-0a90-704668833b85, EndScene, EndScene method [Direct3D 9], EndScene method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],EndScene method, IDirect3DDevice9.EndScene, IDirect3DDevice9::EndScene, d3d9helper/IDirect3DDevice9::EndScene, direct3d9.idirect3ddevice9__endscene
 req.header: d3d9.h
 req.include-header: D3D9.h
@@ -53,7 +53,7 @@ api_name:
 
 Ends a scene that was begun by calling <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-beginscene">IDirect3DDevice9::BeginScene</a>.
 
-## -parameters
+
 
 ## -returns
 
@@ -69,7 +69,7 @@ Applications must call <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevic
 
 If <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-beginscene">IDirect3DDevice9::BeginScene</a> fails, the device was unable to begin the scene, and there is no need to call <b>IDirect3DDevice9::EndScene</b>. In fact, calls to 
     
-    <b>IDirect3DDevice9::EndScene</b> will fail if the previous <b>IDirect3DDevice9::BeginScene</b> failed. This applies to any application that creates multiple swap chains.
+<b>IDirect3DDevice9::EndScene</b> will fail if the previous <b>IDirect3DDevice9::BeginScene</b> failed. This applies to any application that creates multiple swap chains.
 
 There should be at most one <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-beginscene">IDirect3DDevice9::BeginScene</a>/<b>IDirect3DDevice9::EndScene</b> pair between any successive calls to present (either <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-present">IDirect3DDevice9::Present</a> or <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-present">IDirect3DSwapChain9::Present</a>). <b>IDirect3DDevice9::BeginScene</b> should be called once before any rendering is performed, and <b>IDirect3DDevice9::EndScene</b> should be called once after all rendering for a frame has been submitted to the runtime. To enable maximal parallelism between the CPU and the graphics accelerator, it is advantageous to call <b>IDirect3DDevice9::EndScene</b> as far ahead of calling present as possible.
 

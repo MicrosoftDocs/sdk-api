@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.Shell_NotifyIconW
 title: Shell_NotifyIconW function (shellapi.h)
-description: Sends a message to the taskbar's status area.
-helpviewer_keywords: ["NIM_ADD","NIM_DELETE","NIM_MODIFY","NIM_SETFOCUS","NIM_SETVERSION","Shell_NotifyIcon","Shell_NotifyIcon function [Windows Shell]","Shell_NotifyIconA","Shell_NotifyIconW","_win32_Shell_NotifyIcon","shell.Shell_NotifyIcon","shellapi/Shell_NotifyIcon","shellapi/Shell_NotifyIconA","shellapi/Shell_NotifyIconW"]
+description: Sends a message to the taskbar's status area. (Unicode)
+helpviewer_keywords: ["NIM_ADD", "NIM_DELETE", "NIM_MODIFY", "NIM_SETFOCUS", "NIM_SETVERSION", "Shell_NotifyIcon", "Shell_NotifyIcon function [Windows Shell]", "Shell_NotifyIconW", "_win32_Shell_NotifyIcon", "shell.Shell_NotifyIcon", "shellapi/Shell_NotifyIcon", "shellapi/Shell_NotifyIconW"]
 old-location: shell\Shell_NotifyIcon.htm
 tech.root: shell
 ms.assetid: a316bc29-5f19-4a04-a32b-f4caeea0c029
@@ -47,6 +47,7 @@ api_name:
  - Shell_NotifyIcon
  - Shell_NotifyIconA
  - Shell_NotifyIconW
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # Shell_NotifyIconW function
@@ -94,7 +95,7 @@ A value that specifies the action to be taken by this function. It can have one 
 
 0x00000004. <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell32.dll version 5.0 and later only</a>. Instructs the notification area to behave according to the version number specified in the <b>uVersion</b> member of the structure pointed to by <i>lpdata</i>. The version number specifies which members are recognized.
 
-NIM_SETVERSION must be called every time a notification area icon is added (NIM_ADD)&gt;. It does not need to be called with NIM_MOFIDY. The version setting is not persisted once a user logs off.
+NIM_SETVERSION must be called every time a notification area icon is added (NIM_ADD)&gt;. It does not need to be called with NIM_MODIFY. The version setting is not persisted once a user logs off.
 
 For details, see the Remarks section.
 
@@ -129,7 +130,7 @@ A pointer to a <a href="/windows/desktop/api/shellapi/ns-shellapi-notifyicondata
 
 0x00000004. <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell32.dll version 5.0 and later only</a>. Instructs the notification area to behave according to the version number specified in the <b>uVersion</b> member of the structure pointed to by <i>lpdata</i>. The version number specifies which members are recognized.
 
-NIM_SETVERSION must be called every time a notification area icon is added (NIM_ADD)&gt;. It does not need to be called with NIM_MOFIDY. The version setting is not persisted once a user logs off.
+NIM_SETVERSION must be called every time a notification area icon is added (NIM_ADD)&gt;. It does not need to be called with NIM_MODIFY. The version setting is not persisted once a user logs off.
 
 For details, see the Remarks section.
 

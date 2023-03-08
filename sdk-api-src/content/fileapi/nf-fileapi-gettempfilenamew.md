@@ -1,8 +1,8 @@
 ---
 UID: NF:fileapi.GetTempFileNameW
 title: GetTempFileNameW function (fileapi.h)
-description: Creates a name for a temporary file. If a unique file name is generated, an empty file is created and the handle to it is released; otherwise, only a file name is generated.
-helpviewer_keywords: ["GetTempFileName","GetTempFileName function [Files]","GetTempFileNameA","GetTempFileNameW","_win32_gettempfilename","base.gettempfilename","fileapi/GetTempFileName","fileapi/GetTempFileNameA","fileapi/GetTempFileNameW","fs.gettempfilename","winbase/GetTempFileName","winbase/GetTempFileNameA","winbase/GetTempFileNameW"]
+description: Creates a name for a temporary file. If a unique file name is generated, an empty file is created and the handle to it is released; otherwise, only a file name is generated. (GetTempFileNameW)
+helpviewer_keywords: ["GetTempFileName", "GetTempFileName function [Files]", "GetTempFileNameW", "_win32_gettempfilename", "base.gettempfilename", "fileapi/GetTempFileName", "fileapi/GetTempFileNameW", "fs.gettempfilename"]
 old-location: fs\gettempfilename.htm
 tech.root: fs
 ms.assetid: 0a30055f-a3b9-439f-9304-40ee8a07b967
@@ -82,7 +82,7 @@ The null-terminated prefix string. The function uses up to the first three chara
 An unsigned integer to be used in creating the temporary file name. For more information, see Remarks.
 
 If <i>uUnique</i> is zero, the function attempts to form a unique file name using the 
-       current system time. If the file already exists, the number is increased by one and the functions tests if this 
+       current system time. If the file already exists, the number is increased by one and the function tests if this 
        file already exists. This continues until a unique filename is found; the function creates a file by that name 
        and closes it.  Note that the function does not attempt  to verify the uniqueness of the file name when 
        <i>uUnique</i> is nonzero.

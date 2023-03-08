@@ -80,7 +80,7 @@ A pointer to the [**WSPCleanup**](./nc-ws2spi-lpwspcleanup.md) function.
 
  
 
-A pointer to the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> function.
+A pointer to the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosesocket">LPWSPCloseSocket</a></b> function.
 
 ### -field lpWSPConnect
 
@@ -233,7 +233,7 @@ The **WSPPROC_TABLE** structure contains a table of pointers to service provider
 
 <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspcleanup">LPWSPCleanup</a></b>
 
-<b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b>
+<b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosesocket">LPWSPCloseSocket</a></b>
 
 <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b>
 

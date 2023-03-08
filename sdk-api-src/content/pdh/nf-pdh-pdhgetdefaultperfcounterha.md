@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhGetDefaultPerfCounterHA
 title: PdhGetDefaultPerfCounterHA function (pdh.h)
-description: Retrieves the name of the default counter for the specified object.
-helpviewer_keywords: ["PdhGetDefaultPerfCounterH","PdhGetDefaultPerfCounterH function [Perf]","PdhGetDefaultPerfCounterHA","PdhGetDefaultPerfCounterHW","_win32_pdhgetdefaultperfcounterh","base.pdhgetdefaultperfcounterh","pdh/PdhGetDefaultPerfCounterH","pdh/PdhGetDefaultPerfCounterHA","pdh/PdhGetDefaultPerfCounterHW","perf.pdhgetdefaultperfcounterh"]
+description: Retrieves the name of the default counter for the specified object. (ANSI)
+helpviewer_keywords: ["PdhGetDefaultPerfCounterHA", "pdh/PdhGetDefaultPerfCounterHA"]
 old-location: perf\pdhgetdefaultperfcounterh.htm
 tech.root: perf
 ms.assetid: d1b3de9a-99ab-4339-8e9f-906f5a5d291d
@@ -64,9 +64,7 @@ This function is identical to
 
 Should be <b>NULL</b>. 
 
-
-
-					If you specify a log file handle, <i>szDefaultCounterName</i> will be a <b>null</b> string.
+If you specify a log file handle, <i>szDefaultCounterName</i> will be a <b>null</b> string.
 
 ### -param szMachineName [in]
 

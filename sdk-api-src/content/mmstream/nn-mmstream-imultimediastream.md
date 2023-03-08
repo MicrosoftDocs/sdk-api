@@ -56,101 +56,10 @@ The <code>IMultiMediaStream</code> interface is exposed by the AMMultimediaStrea
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultiMediaStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultiMediaStream</b> also has these types of members:
+The <b>IMultiMediaStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultiMediaStream</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMultiMediaStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-enummediastreams">EnumMediaStreams</a>
-</td>
-<td align="left" width="63%">
-Retrieves a media stream, specified by index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getduration">GetDuration</a>
-</td>
-<td align="left" width="63%">
-Retrieves the duration of the multimedia stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getendofstreameventhandle">GetEndOfStreamEventHandle</a>
-</td>
-<td align="left" width="63%">
-Retrieves an event that is signaled when the multimedia stream completes playback.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getinformation">GetInformation</a>
-</td>
-<td align="left" width="63%">
-Retrieves the capabilities of the multimedia stream object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getmediastream">GetMediaStream</a>
-</td>
-<td align="left" width="63%">
-Retrieves a media stream, specified by purpose ID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getstate">GetState</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current state of the multimedia stream object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-gettime">GetTime</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current stream time.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-seek">Seek</a>
-</td>
-<td align="left" width="63%">
-Seeks all of the media streams to a new position.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-setstate">SetState</a>
-</td>
-<td align="left" width="63%">
-Runs or stops the multimedia stream object.
-
-</td>
-</tr>
-</table>
 
 ## -see-also
 

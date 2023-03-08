@@ -4,7 +4,7 @@ title: Human Interface Devices Reference
 ms.assetid: 87c002be-da96-313a-bae1-c6a49c9ce065
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Human Interface Devices Reference

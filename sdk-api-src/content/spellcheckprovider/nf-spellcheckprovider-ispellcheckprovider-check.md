@@ -1,7 +1,7 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.Check
 title: ISpellCheckProvider::Check (spellcheckprovider.h)
-description: Checks the spelling of the supplied text and returns a collection of spelling errors.
+description: Checks the spelling of the supplied text and returns a collection of spelling errors. (ISpellCheckProvider.Check)
 helpviewer_keywords: ["Check","Check method [Internationalization for Windows Applications]","Check method [Internationalization for Windows Applications]","ISpellCheckProvider interface","ISpellCheckProvider interface [Internationalization for Windows Applications]","Check method","ISpellCheckProvider.Check","ISpellCheckProvider::Check","intl.ispellcheckprovider_check","spellcheckprovider/ISpellCheckProvider::Check"]
 old-location: intl\ispellcheckprovider_check.htm
 tech.root: Intl

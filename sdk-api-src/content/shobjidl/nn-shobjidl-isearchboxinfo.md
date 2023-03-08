@@ -54,42 +54,11 @@ Exposes methods that allow the caller to retrieve information entered into a sea
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchBoxInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchBoxInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISearchBoxInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-isearchboxinfo-getcondition">GetCondition</a>
-</td>
-<td align="left" width="63%">
-Retrieves the contents of the search box as an <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-isearchboxinfo-gettext">GetText</a>
-</td>
-<td align="left" width="63%">
-Retrieves the contents of the search box as plain text.
-
-</td>
-</tr>
-</table>
+The <b>ISearchBoxInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchBoxInfo</b> also has these types of members:
 
 ## -remarks
 
-The search box is shown here in an Windows Explorer window frame.
+The search box is shown here in a Windows Explorer window frame.
 
 
 

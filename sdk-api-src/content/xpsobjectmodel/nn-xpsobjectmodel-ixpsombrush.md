@@ -47,45 +47,13 @@ api_name:
 
 # IXpsOMBrush interface
 
-
 ## -description
 
 Defines objects that are used to paint graphical objects. Classes that derive from <b>IXpsOMBrush</b> describe how the area is painted.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMBrush</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable">IXpsOMShareable</a>. <b>IXpsOMBrush</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IXpsOMBrush</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsombrush-getopacity">GetOpacity</a>
-</td>
-<td align="left" width="63%">
-Gets the opacity of the brush.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsombrush-setopacity">SetOpacity</a>
-</td>
-<td align="left" width="63%">
-Sets the opacity of the brush.
-
-</td>
-</tr>
-</table>
+The <b>IXpsOMBrush</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable">IXpsOMShareable</a>. <b>IXpsOMBrush</b> also has these types of members:
 
 ## -see-also
 
@@ -109,4 +77,4 @@ Sets the opacity of the brush.
 
 
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

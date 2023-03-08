@@ -52,7 +52,7 @@ api_name:
 
 Informs an object if its container can support it as a windowless object that can be in-place activated.
 
-## -parameters
+
 
 ## -returns
 

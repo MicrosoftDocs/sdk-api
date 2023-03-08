@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqPutWaitingWorkItem
 title: RtwqPutWaitingWorkItem function (rtworkq.h)
-description: Queues a work item that waits for an event to be signaled.
+description: Queues a work item that waits for an event to be signaled. (RtwqPutWaitingWorkItem)
 helpviewer_keywords: ["RtwqPutWaitingWorkItem","RtwqPutWaitingWorkItem function","base.rtwqputwaitingworkitem","rtworkq/RtwqPutWaitingWorkItem"]
 old-location: base\rtwqputwaitingworkitem.htm
 tech.root: backup
@@ -72,4 +72,4 @@ Receives a key that can be used to cancel the wait. To cancel the wait, call <a 
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

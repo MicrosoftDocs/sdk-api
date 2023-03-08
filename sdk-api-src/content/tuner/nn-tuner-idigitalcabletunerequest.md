@@ -56,56 +56,10 @@ The <b>IDigitalCableTuneRequest</b> interface provides methods for tuning to a c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDigitalCableTuneRequest</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatscchanneltunerequest">IATSCChannelTuneRequest</a>. <b>IDigitalCableTuneRequest</b> also has these types of members:
+The <b>IDigitalCableTuneRequest</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatscchanneltunerequest">IATSCChannelTuneRequest</a>. <b>IDigitalCableTuneRequest</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDigitalCableTuneRequest</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idigitalcabletunerequest-get_majorchannel">get_MajorChannel</a>
-</td>
-<td align="left" width="63%">
-Retrieves the major channel number.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idigitalcabletunerequest-get_sourceid">get_SourceID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the source identifier, which maps to a physical channel.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idigitalcabletunerequest-put_majorchannel">put_MajorChannel</a>
-</td>
-<td align="left" width="63%">
-Sets the major channel number.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idigitalcabletunerequest-put_sourceid">put_SourceID</a>
-</td>
-<td align="left" width="63%">
-Sets the source identifier.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

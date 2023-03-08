@@ -52,9 +52,7 @@ api_name:
 
 Removes the standard <a href="/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a> object from a message.
                 
-                The function is designed to handle types of headers that appear once in the
-                message and are targeted at the ultimate receiver.  Headers targeted
-                with a role other than ultimate receiver are ignored.
+The function is designed to handle types of headers that appear once in the message and are targeted at the ultimate receiver. Headers targeted with a role other than ultimate receiver are ignored.
 
 For application-defined header types use the <a href="/windows/desktop/api/webservices/nf-webservices-wsremovecustomheader">WsRemoveCustomHeader</a> function.
 
@@ -62,8 +60,7 @@ For application-defined header types use the <a href="/windows/desktop/api/webse
 
 ### -param message [in]
 
-A pointer to the <b>Message</b> object with the header  to be removed.  
-                    The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b>.
+A pointer to the <b>Message</b> object with the header  to be removed. The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b>.
 
 ### -param headerType [in]
 

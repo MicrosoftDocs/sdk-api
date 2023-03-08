@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.SetSessionCompartmentId
 title: SetSessionCompartmentId function (netioapi.h)
-description: Reserved for future use. Do not use this function.
+description: Reserved for future use. Do not use this function. (SetSessionCompartmentId)
 helpviewer_keywords: ["SetSessionCompartmentId","SetSessionCompartmentId function [Network Drivers Starting with Windows Vista]","iphelper_04f504f7-428c-46a9-9aa2-06c5bf7191da.xml","netioapi/SetSessionCompartmentId","netvista.setsessioncompartmentid"]
 old-location: netvista\setsessioncompartmentid.htm
 tech.root: NetVista

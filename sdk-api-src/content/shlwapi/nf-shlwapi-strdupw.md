@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrDupW
 title: StrDupW function (shlwapi.h)
-description: Duplicates a string.
-helpviewer_keywords: ["StrDup","StrDup function [Windows Shell]","StrDupA","StrDupW","_win32_StrDup","shell.StrDup","shlwapi/StrDup","shlwapi/StrDupA","shlwapi/StrDupW"]
+description: Duplicates a string. (Unicode)
+helpviewer_keywords: ["StrDup", "StrDup function [Windows Shell]", "StrDupW", "_win32_StrDup", "shell.StrDup", "shlwapi/StrDup", "shlwapi/StrDupW"]
 old-location: shell\StrDup.htm
 tech.root: shell
 ms.assetid: fa77f0b3-8a9b-4221-87e3-9aebff4409fb

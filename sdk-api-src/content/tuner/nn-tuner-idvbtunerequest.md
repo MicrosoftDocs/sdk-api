@@ -54,74 +54,10 @@ The <b>IDVBTuneRequest</b> interface is implemented on the <a href="/previous-ve
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVBTuneRequest</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a>. <b>IDVBTuneRequest</b> also has these types of members:
+The <b>IDVBTuneRequest</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a>. <b>IDVBTuneRequest</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDVBTuneRequest</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-get_onid">get_ONID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the original network ID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-get_sid">get_SID</a>
-</td>
-<td align="left" width="63%">
-Sets the service ID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-get_tsid">get_TSID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the transport stream ID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-put_onid">put_ONID</a>
-</td>
-<td align="left" width="63%">
-Sets the original network ID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-put_sid">put_SID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the service ID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-put_tsid">put_TSID</a>
-</td>
-<td align="left" width="63%">
-Sets the transport stream ID.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -55,7 +55,7 @@ api_name:
 
 The <b>getMyStore</b> method is not implemented.
 
-## -parameters
+
 
 ## -returns
 

@@ -61,38 +61,7 @@ The <b>IDropSource</b> interface is one of the interfaces you implement to provi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDropSource</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDropSource</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDropSource</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-idropsource-givefeedback">GiveFeedback</a>
-</td>
-<td align="left" width="63%">
-Gives visual feedback to an end user during a drag-and-drop operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/oleidl/nf-oleidl-idropsource-querycontinuedrag">QueryContinueDrag</a>
-</td>
-<td align="left" width="63%">
-Determines whether a drag-and-drop operation should continue.
-
-</td>
-</tr>
-</table>
+The <b>IDropSource</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDropSource</b> also has these types of members:
 
 ## -see-also
 

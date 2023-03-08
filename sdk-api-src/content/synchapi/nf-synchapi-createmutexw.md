@@ -1,15 +1,15 @@
 ---
 UID: NF:synchapi.CreateMutexW
 title: CreateMutexW function (synchapi.h)
-description: Creates or opens a named or unnamed mutex object.
-helpviewer_keywords: ["CreateMutex","CreateMutex function","CreateMutexA","CreateMutexW","_win32_createmutex","base.createmutex","synchapi/CreateMutex","synchapi/CreateMutexA","synchapi/CreateMutexW","winbase/CreateMutex","winbase/CreateMutexA","winbase/CreateMutexW"]
+description: Creates or opens a named or unnamed mutex object. (Unicode)
+helpviewer_keywords: ["CreateMutex", "CreateMutex function", "CreateMutexW", "_win32_createmutex", "base.createmutex", "synchapi/CreateMutex", "synchapi/CreateMutexW"]
 old-location: base\createmutex.htm
-tech.root: backup
+tech.root: base
 ms.assetid: c8315d1c-98c9-4f0a-ae0d-800d7d8100cd
 ms.date: 12/05/2018
 ms.keywords: CreateMutex, CreateMutex function, CreateMutexA, CreateMutexW, _win32_createmutex, base.createmutex, synchapi/CreateMutex, synchapi/CreateMutexA, synchapi/CreateMutexW, winbase/CreateMutex, winbase/CreateMutexA, winbase/CreateMutexW
 req.header: synchapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -92,7 +92,7 @@ If <i>lpName</i> is <b>NULL</b>, the mutex object is created without a name.
 If <i>lpName</i> matches the name of an existing event, semaphore, waitable timer, job, or file-mapping object, the function fails and the 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_INVALID_HANDLE</b>. This occurs because these objects share the same namespace.
 
-The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
+The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\\). For more information, see 
 <a href="/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>. Fast user switching is implemented using Terminal Services sessions. Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.
 
 The object can be created in a private namespace. For more information, see <a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
@@ -104,7 +104,7 @@ If the function succeeds, the return value is a handle to the newly created mute
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the mutex is a named mutex and the object existed before this function call, the return value is a handle to the existing object, 
-[OpenMutex](./nf-synchapi-openmutexw.md) function.
+and the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_ALREADY_EXISTS</b>.
 
 ## -remarks
 

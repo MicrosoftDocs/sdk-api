@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNativeWithD2D.BeginDraw
-title: ISurfaceImageSourceNativeWithD2D::xaml (windows.ui.xaml.media.dxinterop.h)
+title: ISurfaceImageSourceNativeWithD2D::BeginDraw (windows.ui.xaml.media.dxinterop.h)
 description: Initiates an update to the associated SurfaceImageSource or VirtualSurfaceImageSource.
 helpviewer_keywords: ["BeginDraw","BeginDraw method [Windows Runtime]","BeginDraw method [Windows Runtime]","ISurfaceImageSourceNativeWithD2D interface","ISurfaceImageSourceNativeWithD2D interface [Windows Runtime]","BeginDraw method","ISurfaceImageSourceNativeWithD2D.BeginDraw","ISurfaceImageSourceNativeWithD2D.xaml","ISurfaceImageSourceNativeWithD2D::BeginDraw","ISurfaceImageSourceNativeWithD2D::xaml","windows/ISurfaceImageSourceNativeWithD2D::BeginDraw","winrt.isurfaceimagesourcenativewithd2d_begindraw"]
 old-location: winrt\isurfaceimagesourcenativewithd2d_begindraw.htm
@@ -45,7 +45,7 @@ api_name:
  - ISurfaceImageSourceNativeWithD2D.BeginDraw
 ---
 
-# ISurfaceImageSourceNativeWithD2D::xaml
+# ISurfaceImageSourceNativeWithD2D::BeginDraw (windows.ui.xaml.media.dxinterop.h)
 
 
 ## -description
@@ -72,7 +72,7 @@ Receives the point (x,y) offset of the surface that will be drawn into.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

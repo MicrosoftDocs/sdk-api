@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_SenderName
 title: IFaxDoc::get_SenderName (faxcom.h)
-description: Sets or retrieves the SenderName property of a FaxDoc object. The SenderName property is a null-terminated string that contains the name of the sender of the fax transmission.
+description: Sets or retrieves the SenderName property of a FaxDoc object. The SenderName property is a null-terminated string that contains the name of the sender of the fax transmission. (Get)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","SenderName property","IFaxDoc.SenderName","IFaxDoc.get_SenderName","IFaxDoc::SenderName","IFaxDoc::get_SenderName","IFaxDoc::put_SenderName","SenderName property [Fax Service]","SenderName property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_sendername","fax._mfax_ifaxdoc_get_sendername","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_sendername_cpp","faxcom/IFaxDoc::SenderName","faxcom/IFaxDoc::get_SenderName","faxcom/IFaxDoc::put_SenderName","get_SenderName"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_sendername_cpp.htm
 tech.root: Fax

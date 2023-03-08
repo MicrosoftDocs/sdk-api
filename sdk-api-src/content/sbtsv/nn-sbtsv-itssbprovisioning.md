@@ -54,56 +54,7 @@ Exposes methods that create and maintain virtual machines.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbProvisioning</b> interface inherits from <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>. <b>ITsSbProvisioning</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITsSbProvisioning</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioning-canceljob">CancelJob</a>
-</td>
-<td align="left" width="63%">
-Cancels a provisioning job.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioning-createvirtualmachines">CreateVirtualMachines</a>
-</td>
-<td align="left" width="63%">
-Creates a virtual machine asynchronously.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioning-deletevirtualmachines">DeleteVirtualMachines</a>
-</td>
-<td align="left" width="63%">
-Deletes a virtual machine asynchronously.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioning-patchvirtualmachines">PatchVirtualMachines</a>
-</td>
-<td align="left" width="63%">
-Patches a virtual machine asynchronously.
-
-</td>
-</tr>
-</table>
+The <b>ITsSbProvisioning</b> interface inherits from <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>. <b>ITsSbProvisioning</b> also has these types of members:
 
 ## -see-also
 

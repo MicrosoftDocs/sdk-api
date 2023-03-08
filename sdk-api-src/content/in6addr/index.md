@@ -4,7 +4,7 @@ title: In6Addr.h header
 ms.assetid: 2884d416-3704-3d35-8cf6-82005d09ca55
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winsock
 f1_keywords:
  - in6addr
@@ -16,7 +16,9 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows Sockets 2. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Network Drivers Prior to Windows Vista](../_netxp/index.md)
+- [Network Drivers, Windows Vista and Later](../_netvista/index.md)
 - [Windows Sockets 2](../_winsock/index.md)
 

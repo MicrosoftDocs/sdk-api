@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Gets the length of the file (or logical) line of text from the specified character index  (text wrap delimiters are ignored). You can use this macro or send the <a href="/windows/desktop/controls/em-filelinelength">EM_FILELINELENGTH</a> message explicitly.
 

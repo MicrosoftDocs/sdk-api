@@ -54,29 +54,7 @@ The <b>ITfMenu</b> interface is implemented by the language bar and used by a la
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMenu</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMenu</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfMenu</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itfmenu-addmenuitem">AddMenuItem</a>
-</td>
-<td align="left" width="63%">
-Adds an item to the menu that the language bar will display for the button.
-
-</td>
-</tr>
-</table>
+The <b>ITfMenu</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMenu</b> also has these types of members:
 
 ## -see-also
 

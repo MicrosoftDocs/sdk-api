@@ -70,6 +70,8 @@ Contains the number of bytes in the <b>pbData</b> array.
 
 ### -field obData
 
+Pointer to a buffer that contains the attribute replication metadata. The <b>cbData</b> member contains the length, in bytes, of this buffer.
+
 ### -field ftimeDeleted
 
 Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time that  this attribute was deleted.
@@ -103,9 +105,6 @@ Contains the USN on the destination server, that is, the server from which the <
 Contains the offset, in bytes, from the address of this structure  to  a null-terminated Unicode string that contains the distinguished name of the directory system agent server that originated the last replication. A value of zero indicates an empty or <b>NULL</b> string.
 
 
-#### - pbData
-
-Pointer to a buffer that contains the attribute replication metadata. The <b>cbData</b> member contains the length, in bytes, of this buffer.
 
 ## -see-also
 

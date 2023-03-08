@@ -57,44 +57,5 @@ Provides the ability to retrieve <a href="/windows/desktop/api/mfobjects/nn-mfob
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMuxStreamSampleManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMuxStreamSampleManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFMuxStreamSampleManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMuxStreamSampleManager</b> also has these types of members:
 
-## -members
-
-The <b>IMFMuxStreamSampleManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmuxstreamsamplemanager-getsample">GetSample</a>
-</td>
-<td align="left" width="63%">
-Gets the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> associated with the substream with the specified index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmuxstreamsamplemanager-getstreamconfiguration">GetStreamConfiguration</a>
-</td>
-<td align="left" width="63%">
-Gets the active stream configuration for the media source, which defines the set of substreams that are included  the  multiplexed output.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmuxstreamsamplemanager-getstreamcount">GetStreamCount</a>
-</td>
-<td align="left" width="63%">
-Gets the count of substreams managed by the multiplexed media source.
-
-</td>
-</tr>
-</table>

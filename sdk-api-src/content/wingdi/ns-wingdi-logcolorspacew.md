@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagLOGCOLORSPACEW
 title: LOGCOLORSPACEW (wingdi.h)
-description: The LOGCOLORSPACE structure contains information that defines a logical color space.
+description: The LOGCOLORSPACE structure contains information that defines a logical color space. (Unicode)
 helpviewer_keywords: ["*LPLOGCOLORSPACEW","LOGCOLORSPACE","LOGCOLORSPACE structure [Windows Color System]","LOGCOLORSPACEW","LPLOGCOLORSPACE","LPLOGCOLORSPACE structure pointer [Windows Color System]","_color_LOGCOLORSPACE_str","wcs.logcolorspace","wingdi/LOGCOLORSPACE","wingdi/LPLOGCOLORSPACE"]
 old-location: wcs\logcolorspace.htm
 tech.root: WCS
@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>LOGCOLORSPACE</b> structure contains information that defines a logical <a href="/previous-versions/windows/desktop/wcs/c">color space</a>.
+The <b>LOGCOLORSPACE</b> structure contains information that defines a logical [color space](/windows/win32/wcs/c#color-space).
 
 ## -struct-fields
 
@@ -159,7 +159,7 @@ Like palettes, but unlike pens and brushes, a pointer must be passed when creati
 
 If the <b>lcsCSType</b> member is set to LCS_sRGB or LCS_WINDOWS_COLOR_SPACE, the other members of this structure are ignored, and WCS uses the sRGB color space. The <b>lcsEndpoints,</b><b>lcsGammaRed, lcsGammaGreen,</b> and <b>lcsGammaBlue</b> members are used to describe the logical color space. The <b>lcsEndpoints</b> member is a <b>CIEXYZTRIPLE</b> that contains the x, y, and z values of the color space's RGB endpoint.
 
-The required DWORD bit format for the <b>lcsGammaRed</b>, <b>lcsGammaGreen</b>, and <b>lcsGammaBlue</b> is an 8.8 fixed point interger left-shifted by 8 bits. This means 8 interger bits are followed by 8 fraction bits. Taking the bit shift into account, the required format of the 32-bit DWORD is:
+The required DWORD bit format for the <b>lcsGammaRed</b>, <b>lcsGammaGreen</b>, and <b>lcsGammaBlue</b> is an 8.8 fixed point integer left-shifted by 8 bits. This means 8 integer bits are followed by 8 fraction bits. Taking the bit shift into account, the required format of the 32-bit DWORD is:
 
 00000000nnnnnnnnffffffff00000000
 
@@ -173,7 +173,7 @@ y = Y/(X+Y+Z)
 
 z = Z/(X+Y+Z)
 
-If the lcsCSType member is set to LCS_sRGB or LCS_WINDOWS_COLOR_SPACE, the other members of this structure are ignored, and ICM uses the sRGB color space. Appliations should still initialize the rest of the structure since CreateProfileFromLogColorSpace ignores lcsCSType member and uses lcsEndpoints, lcsGammaRed, lcsGammaGreen, lcsGammaBlue members to create a profile, which may not be initialized in case of LCS_sRGB or LCS_WINDOWS_COLOR_SPACE color spaces.
+If the lcsCSType member is set to LCS_sRGB or LCS_WINDOWS_COLOR_SPACE, the other members of this structure are ignored, and ICM uses the sRGB color space. Applications should still initialize the rest of the structure since CreateProfileFromLogColorSpace ignores lcsCSType member and uses lcsEndpoints, lcsGammaRed, lcsGammaGreen, lcsGammaBlue members to create a profile, which may not be initialized in case of LCS_sRGB or LCS_WINDOWS_COLOR_SPACE color spaces.
 
 
 

@@ -56,7 +56,7 @@ The <b>EC_SUBSCRIPTION_PROPERTY_ID</b> enumeration defines values to identify ev
 
 ## -enum-fields
 
-### -field EcSubscriptionEnabled
+### -field EcSubscriptionEnabled:0
 
 The <b>Enabled</b> property of the subscription that is used to enable or disable the subscription or obtain the current status of a subscription. This property is an <a href="/windows/desktop/api/evcoll/ns-evcoll-ec_variant">EcVarTypeBoolean</a> value.
 
@@ -86,8 +86,8 @@ The <b>Description</b> property of the subscription that contains a description 
 
 ### -field EcSubscriptionURI
 
-The <b>URI</b> property of the subscription that contains the URI, which is used by WS-Management to connect to a computer. For example, the URI can be http://schemas.microsoft.com/wbem/wsman/1/logrecord/sel for hardware events or
-it can be http://schemas.microsoft.com/wbem/wsman/1/windows/EventLog for events that are published in the event log.  This property is an <a href="/windows/desktop/api/evcoll/ns-evcoll-ec_variant">EcVarTypeString</a> value.
+The <b>URI</b> property of the subscription that contains the URI, which is used by WS-Management to connect to a computer. For example, the URI can be `http://schemas.microsoft.com/wbem/wsman/1/logrecord/sel` for hardware events or
+it can be `http://schemas.microsoft.com/wbem/wsman/1/windows/EventLog` for events that are published in the event log.  This property is an <a href="/windows/desktop/api/evcoll/ns-evcoll-ec_variant">EcVarTypeString</a> value.
 
 ### -field EcSubscriptionConfigurationMode
 

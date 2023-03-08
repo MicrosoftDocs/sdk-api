@@ -56,38 +56,7 @@ The interface ID is IID_ITfMSAAControl.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMSAAControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMSAAControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfMSAAControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msaatext/nf-msaatext-itfmsaacontrol-systemdisablemsaa">SystemDisableMSAA</a>
-</td>
-<td align="left" width="63%">
-Used by MSAA to halt TSF support of an MSAA client.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msaatext/nf-msaatext-itfmsaacontrol-systemenablemsaa">SystemEnableMSAA</a>
-</td>
-<td align="left" width="63%">
-Used by MSAA to request TSF support of an MSAA client.
-
-</td>
-</tr>
-</table>
+The <b>ITfMSAAControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMSAAControl</b> also has these types of members:
 
 ## -see-also
 

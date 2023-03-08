@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11shader.ID3D11ShaderReflectionVariable
 title: ID3D11ShaderReflectionVariable (d3d11shader.h)
-description: This shader-reflection interface provides access to a variable.
+description: This shader-reflection interface provides access to a variable. (ID3D11ShaderReflectionVariable)
 helpviewer_keywords: ["ID3D11ShaderReflectionVariable","ID3D11ShaderReflectionVariable interface [Direct3D 11]","ID3D11ShaderReflectionVariable interface [Direct3D 11]","described","d3d11shader/ID3D11ShaderReflectionVariable","direct3d11.id3d11shaderreflectionvariable","f2ebf92b-2932-5cc0-239f-7e9b48dec05f"]
 old-location: direct3d11\id3d11shaderreflectionvariable.htm
 tech.root: direct3d11
@@ -54,56 +54,10 @@ This shader-reflection interface provides access to a variable.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderReflectionVariable</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11ShaderReflectionVariable</b> also has these types of members:
+The <b>ID3D11ShaderReflectionVariable</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11ShaderReflectionVariable</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID3D11ShaderReflectionVariable</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-getbuffer">GetBuffer</a>
-</td>
-<td align="left" width="63%">
-This method returns the buffer of the current <b>ID3D11ShaderReflectionVariable</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get a shader-variable description.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-getinterfaceslot">GetInterfaceSlot</a>
-</td>
-<td align="left" width="63%">
-Gets the corresponding interface slot for a variable that represents an interface pointer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-gettype">GetType</a>
-</td>
-<td align="left" width="63%">
-Get a shader-variable type.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

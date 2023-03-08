@@ -54,29 +54,7 @@ Use this interface to add a directory tree, which includes all sub-directories, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiDirectoryItem2</b> interface inherits from <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>. <b>IFsiDirectoryItem2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFsiDirectoryItem2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem2-addtreewithnamedstreams">AddTreeWithNamedStreams</a>
-</td>
-<td align="left" width="63%">
-Adds the contents of a directory tree along with the named streams associated with the files in the file system image.
-
-</td>
-</tr>
-</table>
+The <b>IFsiDirectoryItem2</b> interface inherits from <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>. <b>IFsiDirectoryItem2</b> also has these types of members:
 
 ## -remarks
 

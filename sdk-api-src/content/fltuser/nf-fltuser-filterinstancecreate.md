@@ -62,7 +62,7 @@ Pointer to a null-terminated wide-character string containing the name of the mi
 
 Pointer to a null-terminated wide-character string containing the name of the volume that the instance is attached to. 
 
-The <i>lpVolumeName</i> input string can be any of the following. The trailing backslash (\) is optional. 
+The <i>lpVolumeName</i> input string can be any of the following. The trailing backslash (\\) is optional. 
 
 <ul>
 <li>

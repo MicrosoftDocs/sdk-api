@@ -47,12 +47,11 @@ api_name:
 
 # IXpsOMPageReference::DiscardPage
 
-
 ## -description
 
 Discards the page from memory.
 
-## -parameters
+
 
 ## -returns
 
@@ -111,4 +110,4 @@ If the page has been constructed from a file and subsequently modified, <b>Disca
 
 
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

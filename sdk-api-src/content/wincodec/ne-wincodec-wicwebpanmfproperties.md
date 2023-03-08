@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Specifies the animation frame properties of a WebP image.
 
 ## -enum-fields
 
-### -field WICWebpAnmfFrameDuration
+### -field WICWebpAnmfFrameDuration:0x1
 
 The time to wait before displaying the next frame, in milliseconds.
 
-### -field WICWebpAnmfProperties_FORCE_DWORD
+### -field WICWebpAnmfProperties_FORCE_DWORD:0x7fffffff
 

@@ -55,7 +55,7 @@ Returns the number of specified attributes on this element. Attributes are only 
         An attribute can become specified if it is set through a method call. 
         It can become unspecified if it is removed via <a href="/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-removeattribute">RemoveAttribute</a>.
 
-## -parameters
+
 
 ## -returns
 

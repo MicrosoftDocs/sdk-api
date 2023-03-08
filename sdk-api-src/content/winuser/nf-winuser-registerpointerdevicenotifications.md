@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-WMPointer-L1-1-0.dll
 api_name:
  - RegisterPointerDeviceNotifications
+req.apiset: ext-ms-win-rtcore-ntuser-wmpointer-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # RegisterPointerDeviceNotifications function
@@ -51,22 +52,22 @@ api_name:
 
 ## -description
 
-Registers a window to process the <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdevicechange">WM_POINTERDEVICECHANGE</a>,
-<a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceinrange">WM_POINTERDEVICEINRANGE</a>, and
-<a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceoutofrange">WM_POINTERDEVICEOUTOFRANGE</a> pointer device notifications.
+Registers a window to process the <a href="/windows/win32/inputmsg/wm-pointerdevicechange">WM_POINTERDEVICECHANGE</a>,
+<a href="/windows/win32/inputmsg/wm-pointerdeviceinrange">WM_POINTERDEVICEINRANGE</a>, and
+<a href="/windows/win32/inputmsg/wm-pointerdeviceoutofrange">WM_POINTERDEVICEOUTOFRANGE</a> pointer device notifications.
 
 ## -parameters
 
 ### -param window [in]
 
-The window that receives <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdevicechange">WM_POINTERDEVICECHANGE</a>,
-<a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceinrange">WM_POINTERDEVICEINRANGE</a>, and
-<a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceoutofrange">WM_POINTERDEVICEOUTOFRANGE</a> notifications.
+The window that receives <a href="/windows/win32/inputmsg/wm-pointerdevicechange">WM_POINTERDEVICECHANGE</a>,
+<a href="/windows/win32/inputmsg/wm-pointerdeviceinrange">WM_POINTERDEVICEINRANGE</a>, and
+<a href="/windows/win32/inputmsg/wm-pointerdeviceoutofrange">WM_POINTERDEVICEOUTOFRANGE</a> notifications.
 
 ### -param notifyRange [in]
 
-If set to TRUE, process the <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceinrange">WM_POINTERDEVICEINRANGE</a> and
-<a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdeviceoutofrange">WM_POINTERDEVICEOUTOFRANGE</a> messages. If set to FALSE, these messages aren't processed.
+If set to TRUE, process the <a href="/windows/win32/inputmsg/wm-pointerdeviceinrange">WM_POINTERDEVICEINRANGE</a> and
+<a href="/windows/win32/inputmsg/wm-pointerdeviceoutofrange">WM_POINTERDEVICEOUTOFRANGE</a> messages. If set to FALSE, these messages aren't processed.
 
 ## -returns
 

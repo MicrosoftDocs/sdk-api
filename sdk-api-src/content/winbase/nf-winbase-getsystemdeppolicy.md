@@ -52,7 +52,7 @@ api_name:
 
 Gets the data execution prevention (DEP) policy setting for the system.
 
-## -parameters
+
 
 ## -returns
 

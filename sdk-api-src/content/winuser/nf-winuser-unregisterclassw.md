@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.UnregisterClassW
 title: UnregisterClassW function (winuser.h)
-description: Unregisters a window class, freeing the memory required for the class.
-helpviewer_keywords: ["UnregisterClass","UnregisterClass function [Windows and Messages]","UnregisterClassA","UnregisterClassW","_win32_UnregisterClass","_win32_unregisterclass_cpp","winmsg.unregisterclass","winui._win32_unregisterclass","winuser/UnregisterClass","winuser/UnregisterClassA","winuser/UnregisterClassW"]
+description: Unregisters a window class, freeing the memory required for the class. (Unicode)
+helpviewer_keywords: ["UnregisterClass", "UnregisterClass function [Windows and Messages]", "UnregisterClassW", "_win32_UnregisterClass", "_win32_unregisterclass_cpp", "winmsg.unregisterclass", "winui._win32_unregisterclass", "winuser/UnregisterClass", "winuser/UnregisterClassW"]
 old-location: winmsg\unregisterclass.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\unregisterclass.htm
@@ -53,6 +53,7 @@ api_name:
  - UnregisterClass
  - UnregisterClassA
  - UnregisterClassW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # UnregisterClassW function

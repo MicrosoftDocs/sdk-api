@@ -1,12 +1,12 @@
 ---
 UID: NE:msclus.CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
 title: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE (msclus.h)
-description: Specifies the various snapshot states for a shared volume.
+description: The CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE enumeration (msclus.h) specifies the various snapshot states for a shared volume.
 helpviewer_keywords: ["CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE","CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE enumeration [Failover Cluster]","ClusterSharedVolumeHWSnapshotCompleted","ClusterSharedVolumePrepareForFreeze","ClusterSharedVolumePrepareForHWSnapshot","ClusterSharedVolumeSnapshotStateUnknown","clusapi/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE","clusapi/ClusterSharedVolumeHWSnapshotCompleted","clusapi/ClusterSharedVolumePrepareForFreeze","clusapi/ClusterSharedVolumePrepareForHWSnapshot","clusapi/ClusterSharedVolumeSnapshotStateUnknown","msclus/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE","msclus/ClusterSharedVolumeHWSnapshotCompleted","msclus/ClusterSharedVolumePrepareForFreeze","msclus/ClusterSharedVolumePrepareForHWSnapshot","msclus/ClusterSharedVolumeSnapshotStateUnknown","mscs.cluster_shared_volume_snapshot_state"]
 old-location: mscs\cluster_shared_volume_snapshot_state.htm
 tech.root: MsCS
 ms.assetid: FE8F2117-7D23-42FF-B6BD-CA42224570EF
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE, CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE enumeration [Failover Cluster], ClusterSharedVolumeHWSnapshotCompleted, ClusterSharedVolumePrepareForFreeze, ClusterSharedVolumePrepareForHWSnapshot, ClusterSharedVolumeSnapshotStateUnknown, clusapi/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE, clusapi/ClusterSharedVolumeHWSnapshotCompleted, clusapi/ClusterSharedVolumePrepareForFreeze, clusapi/ClusterSharedVolumePrepareForHWSnapshot, clusapi/ClusterSharedVolumeSnapshotStateUnknown, msclus/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE, msclus/ClusterSharedVolumeHWSnapshotCompleted, msclus/ClusterSharedVolumePrepareForFreeze, msclus/ClusterSharedVolumePrepareForHWSnapshot, msclus/ClusterSharedVolumeSnapshotStateUnknown, mscs.cluster_shared_volume_snapshot_state
 req.header: msclus.h
 req.include-header: 
@@ -39,7 +39,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
 ---
@@ -53,9 +52,9 @@ Specifies the various snapshot states for a shared volume.
 
 ## -enum-fields
 
-### -field ClusterSharedVolumeSnapshotStateUnknown
+### -field ClusterSharedVolumeSnapshotStateUnknown:0
 
-Indicates that the snapshot state is unknow.
+Indicates that the snapshot state is unknown.
 
 ### -field ClusterSharedVolumePrepareForHWSnapshot
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetGamertag
 title: IXblIdpAuthTokenResult::GetGamertag (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthTokenResult.GetGamertag)
 helpviewer_keywords: ["GetGamertag","GetGamertag method","GetGamertag method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetGamertag method","IXblIdpAuthTokenResult.GetGamertag","IXblIdpAuthTokenResult::GetGamertag","xblidp.ixblidpauthtokenresult_getgamertag","xblidpauthmanager/IXblIdpAuthTokenResult::GetGamertag"]
 old-location: xblidp\ixblidpauthtokenresult_getgamertag.htm
 tech.root: xblidp
@@ -62,7 +62,7 @@ Type: <b>__RPC__deref_out_opt_string*</b>
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

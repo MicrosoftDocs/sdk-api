@@ -64,7 +64,7 @@ Value to be stored in the x-component of the new instance of <code>XMFLOAT3SE</c
 	  
 
 The value stored is transformed from the standard 32 floating point format (sign bit,
-	      8 bit exponent, 23 bit mantissa), to an 14 bit floating point format (9 bit mantissa,
+	      8 bit exponent, 23 bit mantissa), to a 14 bit floating point format (9 bit mantissa,
 	      and 5 bit exponent).
 
 ### -param _y
@@ -73,7 +73,7 @@ Value to be stored in the y-component of the new instance of <code>XMFLOAT3SE</c
 	  
 
 The value stored is transformed from the standard 32 floating point format (sign bit,
-	      8 bit exponent, 23 bit mantissa), to an 14 bit floating point format (9 bit mantissa,
+	      8 bit exponent, 23 bit mantissa), to a 14 bit floating point format (9 bit mantissa,
 	      and 5 bit exponent).
 
 ### -param _z
@@ -82,7 +82,7 @@ Value to be stored in the z-component of the new instance of <code>XMFLOAT3SE</c
 	  
 
 The value stored is transformed from the standard 32 floating point format (sign bit,
-	      8 bit exponent, 23 bit mantissa), to an 14 bit floating point format (9 bit mantissa,
+	      8 bit exponent, 23 bit mantissa), to a 14 bit floating point format (9 bit mantissa,
 	      and 5 bit exponent).
 
 ## -remarks
@@ -92,7 +92,7 @@ As the floating point storage formats used by <code>XMFLOAT3SE</code> do not sup
        
 
 The floating point values of all components are all expressed using the same exponent,
-	   which is stored in the <b>e</b> member of the new instance of <code>XMFLOAT3SE</code>instantiated by this constructor.
+	   which is stored in the <b>e</b> member of the new instance of <code>XMFLOAT3SE</code> instantiated by this constructor.
        
 
 Because of the change in floating point format during the instantiation of an instance of

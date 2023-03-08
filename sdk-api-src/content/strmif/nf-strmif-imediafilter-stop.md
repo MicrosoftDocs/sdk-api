@@ -53,7 +53,7 @@ api_name:
 
 The <code>Stop</code> method stops the filter.
 
-## -parameters
+
 
 ## -returns
 

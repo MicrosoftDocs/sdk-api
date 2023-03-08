@@ -147,7 +147,7 @@ A pointer to a security descriptor contained in a [FWP_BYTE_BLOB](/windows/deskt
 
 case(FWP_TOKEN_INFORMATION_TYPE)
 
-A pointer to an <a href="/windows/desktop/api/fwptypes/ns-fwptypes-fwp_token_information_">FWP_TOKEN_INFORMATION</a> structure.
+A pointer to an <a href="/windows/win32/api/fwptypes/ns-fwptypes-fwp_token_information">FWP_TOKEN_INFORMATION</a> structure.
 
 ### -field tokenAccessInformation
 

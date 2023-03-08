@@ -54,11 +54,11 @@ The <b>FLOATOBJ_DivLong</b> function divides the <a href="/windows/desktop/api/w
 
 ## -parameters
 
-### -param arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the quotient of *<i>pf</i> divided by <i>l</i>.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies the LONG operand. This value is converted to a FLOATOBJ for the division.
 

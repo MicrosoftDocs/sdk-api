@@ -55,74 +55,7 @@ Adjusts playback quality. This interface is exposed by the quality manager.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFQualityManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFQualityManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFQualityManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualitymanager-notifypresentationclock">NotifyPresentationClock</a>
-</td>
-<td align="left" width="63%">
-Called when the Media Session selects a presentation clock.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualitymanager-notifyprocessinput">NotifyProcessInput</a>
-</td>
-<td align="left" width="63%">
-Called when the media processor is about to deliver an input sample to a pipeline component.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualitymanager-notifyprocessoutput">NotifyProcessOutput</a>
-</td>
-<td align="left" width="63%">
-Called after the media processor gets an output sample from a pipeline component.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualitymanager-notifyqualityevent">NotifyQualityEvent</a>
-</td>
-<td align="left" width="63%">
-Called when a pipeline component sends an <a href="/windows/desktop/medfound/mequalitynotify">MEQualityNotify</a> event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualitymanager-notifytopology">NotifyTopology</a>
-</td>
-<td align="left" width="63%">
-Called when the Media Session is about to start playing a new topology.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfqualitymanager-shutdown">Shutdown</a>
-</td>
-<td align="left" width="63%">
-Called when the Media Session is shutting down.
-
-</td>
-</tr>
-</table>
+The <b>IMFQualityManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFQualityManager</b> also has these types of members:
 
 ## -remarks
 

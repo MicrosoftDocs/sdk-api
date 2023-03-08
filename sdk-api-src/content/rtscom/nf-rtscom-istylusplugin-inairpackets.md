@@ -120,7 +120,7 @@ STDMETHODIMP CPacketModifier::Packets(
 	ULONG cPropertyCount = cPktBuffLength/cPktCount;    // # of properties in a packet
 	ULONG iOtherProps = 0;                              // Properties other than X and Y
 
-	// Allocate memory for modfied packets
+	// Allocate memory for modified packets
 	LONG* pTempOutPkts = (LONG*)CoTaskMemAlloc(sizeof(ULONG)*cPktBuffLength);
 
 	// For each packet in the packet data, check whether

@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.SetHandleCount
 title: SetHandleCount
-ms.date: 4/26/2019
+description: The SetHandleCount function changes the number of file handles available to a process.
+ms.date: 08/04/2022
 ms.keywords: SetHandleCount
 targetos: Windows
 req.assembly: 
@@ -17,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

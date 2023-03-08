@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegQueryMultipleValuesA
 title: RegQueryMultipleValuesA function (winreg.h)
-description: Retrieves the type and data for a list of value names associated with an open registry key.
-helpviewer_keywords: ["RegQueryMultipleValues","RegQueryMultipleValues function","RegQueryMultipleValuesA","RegQueryMultipleValuesW","_win32_regquerymultiplevalues","base.regquerymultiplevalues","winreg/RegQueryMultipleValues","winreg/RegQueryMultipleValuesA","winreg/RegQueryMultipleValuesW"]
+description: Retrieves the type and data for a list of value names associated with an open registry key. (ANSI)
+helpviewer_keywords: ["RegQueryMultipleValuesA", "winreg/RegQueryMultipleValuesA"]
 old-location: base\regquerymultiplevalues.htm
 tech.root: winprog
 ms.assetid: e718534a-6e68-40f5-9cdd-170ce9b5e6e5
@@ -85,7 +85,7 @@ This handle is returned by the
 
 A pointer to an array of 
 
-<a href="/windows/desktop/api/winreg/ns-winreg-value_enta">VALENT</a> structures that describe one or more value entries. On input, the <b>ve_valuename</b> member of each structure must contain a pointer to the name of a value to retrieve. The function fails if any of the specified values do not exist in the specified key. 
+<a href="/windows/desktop/api/winreg/ns-winreg-valenta">VALENT</a> structures that describe one or more value entries. On input, the <b>ve_valuename</b> member of each structure must contain a pointer to the name of a value to retrieve. The function fails if any of the specified values do not exist in the specified key. 
 
 
 
@@ -182,4 +182,4 @@ If the target key is a dynamic key, its provider must provide all the values in 
 
 
 
-<a href="/windows/desktop/api/winreg/ns-winreg-value_enta">VALENT</a>
+<a href="/windows/desktop/api/winreg/ns-winreg-valenta">VALENT</a>

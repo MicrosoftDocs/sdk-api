@@ -53,7 +53,7 @@ api_name:
 
 The <b>Close</b> method closes a file on a storage medium of a media device.
 
-## -parameters
+
 
 ## -returns
 

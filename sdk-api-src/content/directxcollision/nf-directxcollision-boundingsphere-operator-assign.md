@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingSphere.operator-assign
 title: BoundingSphere::operator-assign
-description: Initializes the BoundingSphere with values from a specified BoundingSphere.
+description: Initializes the BoundingSphere with values from a specified BoundingSphere. (overload 2/2)
 helpviewer_keywords: ["BoundingSphere interface [DirectX Math Support APIs]","op_Assignment method","BoundingSphere.op_Assignment","BoundingSphere.operator-assign","BoundingSphere.operator=","BoundingSphere::operator-assign","BoundingSphere::operator=","Use DirectX..BoundingSphere.op_Assignment","Use DirectX::::BoundingSphere::op_Assignment","dxmath.boundingsphere_op_assignment","op_Assignment method [DirectX Math Support APIs]","op_Assignment method [DirectX Math Support APIs]","BoundingSphere interface","operator="]
 old-location: dxmath\boundingsphere_op_assignment.htm
 tech.root: dxmath
@@ -53,7 +53,7 @@ Initializes the BoundingSphere with values from a specified BoundingSphere.
 
 ## -parameters
 
-### -param arg1 [in, ref]
+### -param unnamedParam1 [in, ref]
 
 The BoundingSphere to copy values from.
 

@@ -67,11 +67,11 @@ Size of the license revocation blob in bytes.
 
 ### -param pSignedACK [out]
 
-Address of a buffer that receives the signed acknowledgement of license revocation. Your application must send the acknowledgement to the license server.
+Address of a buffer that receives the signed acknowledgment of license revocation. Your application must send the acknowledgment to the license server.
 
 ### -param pdwSignedACKLength [out]
 
-Size of the acknowledgement in bytes.
+Size of the acknowledgment in bytes.
 
 ## -returns
 

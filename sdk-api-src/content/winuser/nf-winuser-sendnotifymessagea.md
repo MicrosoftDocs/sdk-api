@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.SendNotifyMessageA
 title: SendNotifyMessageA function (winuser.h)
-description: Sends the specified message to a window or windows.
-helpviewer_keywords: ["SendNotifyMessage","SendNotifyMessage function [Windows and Messages]","SendNotifyMessageA","SendNotifyMessageW","_win32_SendNotifyMessage","_win32_sendnotifymessage_cpp","winmsg.sendnotifymessage","winui._win32_sendnotifymessage","winuser/SendNotifyMessage","winuser/SendNotifyMessageA","winuser/SendNotifyMessageW"]
+description: Sends the specified message to a window or windows. (SendNotifyMessageA)
+helpviewer_keywords: ["SendNotifyMessageA", "winuser/SendNotifyMessageA"]
 old-location: winmsg\sendnotifymessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendnotifymessage.htm
@@ -53,6 +53,7 @@ api_name:
  - SendNotifyMessage
  - SendNotifyMessageA
  - SendNotifyMessageW
+req.apiset: ext-ms-win-ntuser-message-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SendNotifyMessageA function

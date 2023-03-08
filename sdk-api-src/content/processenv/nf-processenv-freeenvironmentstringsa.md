@@ -1,15 +1,15 @@
 ---
 UID: NF:processenv.FreeEnvironmentStringsA
 title: FreeEnvironmentStringsA function (processenv.h)
-description: Frees a block of environment strings.
-helpviewer_keywords: ["FreeEnvironmentStrings","FreeEnvironmentStrings function","FreeEnvironmentStringsA","FreeEnvironmentStringsW","_win32_freeenvironmentstrings","base.freeenvironmentstrings","processenv/FreeEnvironmentStrings","processenv/FreeEnvironmentStringsA","processenv/FreeEnvironmentStringsW","winbase/FreeEnvironmentStrings","winbase/FreeEnvironmentStringsA","winbase/FreeEnvironmentStringsW"]
+description: Frees a block of environment strings. (ANSI)
+helpviewer_keywords: ["FreeEnvironmentStringsA", "processenv/FreeEnvironmentStringsA"]
 old-location: base\freeenvironmentstrings.htm
 tech.root: backup
 ms.assetid: 8ac73f6e-4b42-4730-bf88-4b671f57b63b
 ms.date: 12/05/2018
 ms.keywords: FreeEnvironmentStrings, FreeEnvironmentStrings function, FreeEnvironmentStringsA, FreeEnvironmentStringsW, _win32_freeenvironmentstrings, base.freeenvironmentstrings, processenv/FreeEnvironmentStrings, processenv/FreeEnvironmentStringsA, processenv/FreeEnvironmentStringsW, winbase/FreeEnvironmentStrings, winbase/FreeEnvironmentStringsA, winbase/FreeEnvironmentStringsW
 req.header: processenv.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
@@ -62,13 +62,6 @@ Frees a block of environment strings.
 ## -parameters
 
 ### -param penv
-
-TBD
-
-
-
-
-#### - lpszEnvironmentBlock [in]
 
 A pointer to a block of environment strings. The pointer to the block must be obtained by calling the 
 <a href="/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a> function.

@@ -57,44 +57,5 @@ The <a href="/windows/desktop/DirectShow/vfw-capture-filter">VFW Capture</a> fil
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVfwCaptureDialogs</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVfwCaptureDialogs</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAMVfwCaptureDialogs</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVfwCaptureDialogs</b> also has these types of members:
 
-## -members
-
-The <b>IAMVfwCaptureDialogs</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvfwcapturedialogs-hasdialog">HasDialog</a>
-</td>
-<td align="left" width="63%">
-Determines if the specified dialog box exists in the driver.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvfwcapturedialogs-senddrivermessage">SendDriverMessage</a>
-</td>
-<td align="left" width="63%">
-Sends a driver-specific message.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iamvfwcapturedialogs-showdialog">ShowDialog</a>
-</td>
-<td align="left" width="63%">
-Displays the specified dialog box.
-
-</td>
-</tr>
-</table>

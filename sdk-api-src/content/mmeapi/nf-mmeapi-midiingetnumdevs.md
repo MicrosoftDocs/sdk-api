@@ -54,7 +54,7 @@ api_name:
 
 The <b>midiInGetNumDevs</b> function retrieves the number of MIDI input devices in the system.
 
-## -parameters
+
 
 ## -returns
 

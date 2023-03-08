@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.SendMessageCallbackA
 title: SendMessageCallbackA function (winuser.h)
-description: Sends the specified message to a window or windows.
-helpviewer_keywords: ["SendMessageCallback","SendMessageCallback function [Windows and Messages]","SendMessageCallbackA","SendMessageCallbackW","_win32_SendMessageCallback","_win32_sendmessagecallback_cpp","winmsg.sendmessagecallback","winui._win32_sendmessagecallback","winuser/SendMessageCallback","winuser/SendMessageCallbackA","winuser/SendMessageCallbackW"]
+description: Sends the specified message to a window or windows. (SendMessageCallbackA)
+helpviewer_keywords: ["SendMessageCallbackA", "winuser/SendMessageCallbackA"]
 old-location: winmsg\sendmessagecallback.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendmessagecallback.htm
@@ -48,6 +48,7 @@ api_name:
  - SendMessageCallback
  - SendMessageCallbackA
  - SendMessageCallbackW
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # SendMessageCallbackA function

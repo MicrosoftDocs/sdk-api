@@ -54,38 +54,7 @@ Manages the registration of user dictionaries.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUserDictionariesRegistrar</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUserDictionariesRegistrar</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUserDictionariesRegistrar</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spellcheck/nf-spellcheck-iuserdictionariesregistrar-registeruserdictionary">RegisterUserDictionary</a>
-</td>
-<td align="left" width="63%">
-Registers a file to be used as a user dictionary for the current user, until unregistered.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spellcheck/nf-spellcheck-iuserdictionariesregistrar-unregisteruserdictionary">UnregisterUserDictionary</a>
-</td>
-<td align="left" width="63%">
-Unregisters a previously registered user dictionary.
-
-</td>
-</tr>
-</table>
+The <b>IUserDictionariesRegistrar</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUserDictionariesRegistrar</b> also has these types of members:
 
 ## -remarks
 

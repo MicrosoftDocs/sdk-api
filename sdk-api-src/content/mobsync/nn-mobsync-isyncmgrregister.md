@@ -55,49 +55,7 @@ Exposes methods so that an application can register with the synchronization man
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrRegister</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrRegister</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISyncMgrRegister</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrregister-gethandlerregistrationinfo">GetHandlerRegistrationInfo</a>
-</td>
-<td align="left" width="63%">
-Called by the registered application's handler to get current registration information.
-   
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrregister-registersyncmgrhandler">RegisterSyncMgrHandler</a>
-</td>
-<td align="left" width="63%">
-Registers a handler with the synchronization manager when the handler has items to synchronize.
-      
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrregister-unregistersyncmgrhandler">UnregisterSyncMgrHandler</a>
-</td>
-<td align="left" width="63%">
-Removes a handler's CLSID from the registration. A handler should call this when it no longer has any items to synchronize.
-
-</td>
-</tr>
-</table>
+The <b>ISyncMgrRegister</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrRegister</b> also has these types of members:
 
 ## -remarks
 

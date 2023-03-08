@@ -52,7 +52,7 @@ api_name:
 
 Sets a flag that indicates there are no more changes to be enumerated in the synchronization session.
 
-## -parameters
+
 
 ## -returns
 

@@ -60,6 +60,12 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
+## -returns
+
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+
+The handle to the edit control being used to edit a tree-view item's text, or NULL if no item is being edited.
+
 ## -remarks
 
 When label editing begins, an edit control is created but not positioned or displayed. Before it is displayed, the tree-view control sends its parent window a <a href="/windows/desktop/Controls/tvn-beginlabeledit">TVN_BEGINLABELEDIT</a> notification code. 

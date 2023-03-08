@@ -1,8 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_ID_ListW
 title: CM_Get_Device_ID_ListW function (cfgmgr32.h)
-description: The CM_Get_Device_ID_List function retrieves a list of device instance IDs for the local computer's device instances.
-helpviewer_keywords: ["CM_Get_Device_ID_List","CM_Get_Device_ID_List function [Device and Driver Installation]","CM_Get_Device_ID_ListA","CM_Get_Device_ID_ListW","cfgmgr32/CM_Get_Device_ID_List","cfgmgr32/CM_Get_Device_ID_ListA","cfgmgr32/CM_Get_Device_ID_ListW","cfgmgrfn_e9f614d2-9bac-4b30-b9a0-f0764e37950b.xml","devinst.cm_get_device_id_list"]
+description: The CM_Get_Device_ID_List function retrieves a list of device instance IDs for the local computer's device instances. (Unicode)
+helpviewer_keywords: ["CM_Get_Device_ID_List", "CM_Get_Device_ID_List function [Device and Driver Installation]", "CM_Get_Device_ID_ListW", "cfgmgr32/CM_Get_Device_ID_List", "cfgmgr32/CM_Get_Device_ID_ListW", "cfgmgrfn_e9f614d2-9bac-4b30-b9a0-f0764e37950b.xml", "devinst.cm_get_device_id_list"]
 old-location: devinst\cm_get_device_id_list.htm
 tech.root: devinst
 ms.assetid: aa0ab004-3813-4339-90bb-afd9acf200c8
@@ -86,7 +86,7 @@ If this flag is set, <i>pszFilter</i> must specify a device instance identifier.
 
 #### CM_GETIDLIST_FILTER_CLASS (Windows 7 and later versions of Windows)
 
-If this flag is set, <i>pszFilter</i> contains a string that specifies a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> GUID. The returned list contains device instances for which the property (referenced by the CM_DRP_CLASSGUID constant) matches the specified device setup class GUID. 
+If this flag is set, <i>pszFilter</i> contains a string that specifies a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> GUID. The returned list contains device instances for which the property (referenced by the CM_DRP_CLASSGUID constant) matches the specified device setup class GUID. 
 
 The CM_DRP_CLASSGUID constant is defined in <i>Cfgmgr32.h</i>.
 
@@ -169,7 +169,7 @@ If this flag is set, <i>pszFilter</i> must specify a device instance identifier.
 
 ##### - ulFlags.CM_GETIDLIST_FILTER_CLASS (Windows 7 and later versions of Windows)
 
-If this flag is set, <i>pszFilter</i> contains a string that specifies a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> GUID. The returned list contains device instances for which the property (referenced by the CM_DRP_CLASSGUID constant) matches the specified device setup class GUID. 
+If this flag is set, <i>pszFilter</i> contains a string that specifies a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> GUID. The returned list contains device instances for which the property (referenced by the CM_DRP_CLASSGUID constant) matches the specified device setup class GUID. 
 
 The CM_DRP_CLASSGUID constant is defined in <i>Cfgmgr32.h</i>.
 
@@ -181,7 +181,7 @@ If this flag is set, <i>pszFilter</i> must specify a device instance identifier.
 
 ##### - ulFlags.CM_GETIDLIST_FILTER_ENUMERATOR
 
-If this flag is set, <i>pszFilter</i> must specify the name of a device enumerator, optionally followed by a <a href="/windows-hardware/drivers/install/device-ids">device ID</a>. The string format is <i>EnumeratorName</i><b>\</b>&lt;<i>DeviceID&gt;</i>, such as <b>ROOT</b> or <b>ROOT\*PNP0500</b>.
+If this flag is set, <i>pszFilter</i> must specify the name of a device enumerator, optionally followed by a <a href="/windows-hardware/drivers/install/device-ids">device ID</a>. The string format is <i>EnumeratorName</i><b>\\</b>&lt;<i>DeviceID&gt;</i>, such as <b>ROOT</b> or <b>ROOT\*PNP0500</b>.
 
 If <i>pszFilter</i> supplies only an enumerator name, the function returns <a href="/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the instances of each device associated with the enumerator. Enumerator names can be obtained by calling <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_enumerate_enumeratorsw">CM_Enumerate_Enumerators</a>.
 
@@ -229,7 +229,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -remarks
 
-Starting with Windows 7, a device that supports multiple transport paths for packet-based data is referred to as a <i>composite </i>device and is represented by a <i>composite </i><a href="/windows-hardware/drivers/">devnode</a>. A composite devnode logically represents the composite device to the user and applications as a single device, even though the composite devnode can have multiple paths to the physical device. 
+Starting with Windows 7, a device that supports multiple transport paths for packet-based data is referred to as a <i>composite </i> device and is represented by a <i>composite </i><a href="/windows-hardware/drivers/">devnode</a>. A composite devnode logically represents the composite device to the user and applications as a single device, even though the composite devnode can have multiple paths to the physical device. 
 
 Each active transport path to the physical device is represented by a transport devnode and is referred to as a <i>transport relation</i> for the composite device.
 
