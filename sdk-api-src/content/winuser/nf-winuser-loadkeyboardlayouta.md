@@ -136,7 +136,7 @@ If the new input locale identifier has the same language identifier as a current
 </dl>
 </td>
 <td width="60%">
-Substitutes the specified input locale identifier with another locale preferred by the user. The system starts with this flag set, and it is recommended that your application always use this flag. The substitution occurs only if the registry key <b>HKEY_CURRENT_USER\Keyboard\Layout\Substitutes</b> explicitly defines a substitution locale. For example, if the key includes the value name "00000409" with value "00010409", loading the U.S. English layout ("00000409") causes the Dvorak U.S. English layout ("00010409") to be loaded instead. The system uses <b>KLF_SUBSTITUTE_OK</b> when booting, and it is recommended that all applications use this value when loading input locale identifiers to ensure that the user's preference is selected.
+Substitutes the specified input locale identifier with another locale preferred by the user. The system starts with this flag set, and it is recommended that your application always use this flag. The substitution occurs only if the registry key <b>HKEY_CURRENT_USER\Keyboard Layout\Substitutes</b> explicitly defines a substitution locale. For example, if the key includes the value name "00000409" with value "00010409", loading the US layout ("00000409") causes the United States-Dvorak layout ("00010409") to be loaded instead. The system uses <b>KLF_SUBSTITUTE_OK</b> when booting, and it is recommended that all applications use this value when loading input locale identifiers to ensure that the user's preference is selected.
 
 </td>
 </tr>
