@@ -64,7 +64,7 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 
 ### -param *event [in]
 
-The net event information.
+An [FWPM_NET_EVENT3](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event3) struct that contains the event information.
 
 
 ## -returns
