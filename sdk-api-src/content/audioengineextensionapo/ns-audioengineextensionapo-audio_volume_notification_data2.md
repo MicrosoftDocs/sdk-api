@@ -57,7 +57,7 @@ A float value representing the current master volume level of the audio stream i
 
 ### -field volumeMinInDb
 
-A float value representing the minimum volume level of the endpoint in decibels. This value remains constant for the lifetime of the audio device specified in the associated [AUDIO_ENDPOINT_VOLUME_APO_NOTIFICATION_DESCRIPTOR](ns-audioengineextensionapo-audio_endpoint_volume_apo_notification_descriptor.md).
+A float value representing the minimum volume level of the endpoint in decibels. This value remains constant for the lifetime of the audio device specified in the associated [AUDIO_ENDPOINT_VOLUME_APO_NOTIFICATION_DESCRIPTOR](ns-audioengineextensionapo-audio_endpoint_volume_apo_notification_descriptor.md). 
 
 ### -field volumeMaxInDb
 
@@ -69,7 +69,7 @@ A float value representing the volume increment of the endpoint in decibels. Thi
 
 ### -field step
 
-An unsigned integer value representing the current step in the volume range. Is a value in the range from 0 to *stepCount* - 1, where 0 represents the minimum volume level and *stepCount* - 1 represents the maximum level. Audio applications can call the [IAudioEndpointVolume::VolumeStepUp](/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepup.md) and [IAudioEndpointVolume::VolumeStepDown](/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepdown.md) methods to increase or decrease the volume level by one interval.
+An unsigned integer value representing the current step in the volume range. Is a value in the range from 0 to *stepCount* - 1, where 0 represents the minimum volume level and *stepCount* - 1 represents the maximum level. Call the [IAudioEndpointVolume::VolumeStepUp](/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepup.md) and [IAudioEndpointVolume::VolumeStepDown](/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepdown.md) methods to increase or decrease the volume level by one interval.
 
 ### -field stepCount
 

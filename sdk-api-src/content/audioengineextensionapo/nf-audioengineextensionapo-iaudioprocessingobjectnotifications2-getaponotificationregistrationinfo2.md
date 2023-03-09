@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Called by the system to allow clients to register to receive notification callbacks for APO endpoint and system effect notifications. This method behaves the same as [IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo](./nf-iaudioprocessingobjectnotifications-getaponotificationregistrationinfo.md) with the addition of a parameter that can be used to determine the notifications types supported on the current device.
+Called by the system to allow clients to register to receive notification callbacks for APO endpoint and system effect notifications. This method behaves the same as [IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo](./nf-iaudioprocessingobjectnotifications-getaponotificationregistrationinfo.md) with the addition of a parameter that can be used to determine the notifications types supported on the version of Windows running on the current device.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ An HRESULT.
 
 ## -remarks
 
-The following example illustrates a typical implementation of **GetAppNotificationRegistrationInfo2**. The example checks the value of the *maxApoNotificationTypeSupported* parameter to determine if the notifications it is interested in are supported on the current device and, if so, registers for these notifications. 
+The following example illustrates a typical implementation of **GetAppNotificationRegistrationInfo2**. The example checks the value of the *maxApoNotificationTypeSupported* parameter to determine if the notifications it is interested in are supported on the version of Windows running on the current device. and, if so, registers for these notifications. 
 
 ```cpp
 STDMETHODIMP SampleApo::GetApoNotificationRegistrationInfo2(
