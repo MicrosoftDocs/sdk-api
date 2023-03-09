@@ -60,7 +60,7 @@ An [AUDIO_ENDPOINT_PROPERTY_CHANGE_APO_NOTIFICATION_DESCRIPTOR](ns-audioengineex
 
 An [AUDIO_SYSTEMEFFECTS_PROPERTY_CHANGE_APO_NOTIFICATION_DESCRIPTOR](ns-audioengineextensionapo-audio_systemeffects_property_change_apo_notification_descriptor.md)  specifying a system effects property change APO notification.
 
-### -field DUMMYUNIONNAME.audioMicrophoneBoostChange
+### -field DUMMYUNIONNAME.audioMicrophoneBoost
 
 An [AUDIO_MICROPHONE_BOOST_APO_NOTIFICATION_DESCRIPTOR](ns-audioengineextensionapo-audio_microphone_boost_apo_notification_descriptor.md) specifying a microphone boost APO notifications.
 
