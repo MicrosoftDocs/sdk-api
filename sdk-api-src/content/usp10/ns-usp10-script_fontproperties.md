@@ -27,7 +27,7 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: SCRIPT_FONTPROPERTIES
-req.redist: Internet Explorer 5 or later onWindows Me/98/95
+req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ms.custom: 19H1
 f1_keywords:
  - SCRIPT_FONTPROPERTIES
