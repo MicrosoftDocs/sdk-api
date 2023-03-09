@@ -132,7 +132,8 @@ STDMETHODIMP SampleApo::GetApoNotificationRegistrationInfo2(
 }
 ```
 
-The OS will call **GetApoNotificationRegistrationInfo2** if the maximum supported **APO_NOTIFICATION_TYPE** is greater than **APO_NOTIFICATION_TYPE_SYSTEM_EFFECTS_PROPERTY_CHANGE**. Otherwise, the system will call the older method **IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo**. Clients can call the newer method from the older method implementation and pass **APO_NOTIFICATION_TYPE_SYSTEM_EFFECTS_PROPERTY_CHANGE** in the *parameter*. The following example code illustrates this scenario.
+On windows versions prior to 22621, Windows will only call **IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo**, and not the method on **IAudioProcessingObjectNotifications2**. Since the highest supported notification type on windows versions prior to 22621 was **APO_NOTIFICATION_TYPE_SYSTEM_EFFECTS_PROPERTY_CHANGE**, an APO that needs to run on versions 22621 and older, can choose to simplify their code by using the following implementation for **IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo**.
+
 
 ```cpp
 STDMETHODIMP SampleApo::GetApoNotificationRegistrationInfo(
