@@ -410,7 +410,7 @@ Bits 4 through 7 of the member specify the font family and can be one of the fol
 <li>FF_SCRIPT</li>
 <li>FF_SWISS</li>
 </ul>
-The proper value can be obtained by using the Boolean OR operator to join one pitch constant with one family constant.
+The proper value can be obtained by using the bitwise OR (|) operator to join one pitch constant with one family constant.
 
 Font families describe the look of a font in a general way. They are intended for specifying fonts when the exact typeface desired is not available. The values for font families are as follows.
 
