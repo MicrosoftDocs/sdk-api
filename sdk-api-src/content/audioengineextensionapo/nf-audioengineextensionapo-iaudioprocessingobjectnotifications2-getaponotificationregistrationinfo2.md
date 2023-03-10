@@ -4,7 +4,7 @@ tech.root: audio
 title: IAudioProcessingObjectNotifications2::GetApoNotificationRegistrationInfo2
 ms.date: 02/28/2023
 targetos: Windows
-description: Called by the system to allow clients to register to receive notification callbacks for APO endpoint and system effect notifications. This method adds a parameter that can be used to determine the notifications types supported on the current device.
+description: Called by the system to allow clients to register to receive notification callbacks for APO endpoint and system effect notifications. This method adds a parameter that can be used to determine the notifications types supported on the version of Windows running on the current device.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -50,7 +50,7 @@ Called by the system to allow clients to register to receive notification callba
 
 ### -param maxApoNotificationTypeSupported
 
-A value from the [APO_NOTIFICATION_TYPE](./ne-audioengineextensionapo-apo_notification_type.md) enumeration indicating the highest enumeration value supported on the current device. Clients can use a comparison operator to determine if a particular notification type is supported.
+A value from the [APO_NOTIFICATION_TYPE](./ne-audioengineextensionapo-apo_notification_type.md) enumeration indicating the highest enumeration value supported on the version of Windows running on the current device. Clients can use a comparison operator to determine if a particular notification type is supported.
 
 ### -param apoNotifications [out]
 

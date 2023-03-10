@@ -69,7 +69,7 @@ A float value representing the volume increment of the endpoint in decibels. Thi
 
 ### -field step
 
-An unsigned integer value representing the current step in the volume range. Is a value in the range from 0 to *stepCount* - 1, where 0 represents the minimum volume level and *stepCount* - 1 represents the maximum level. Call the [IAudioEndpointVolume::VolumeStepUp](/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepup.md) and [IAudioEndpointVolume::VolumeStepDown](/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepdown.md) methods to increase or decrease the volume level by one interval.
+An unsigned integer value representing the current step in the volume range. Is a value in the range from 0 to *stepCount* - 1, where 0 represents the minimum volume level and *stepCount* - 1 represents the maximum level.
 
 ### -field stepCount
 
