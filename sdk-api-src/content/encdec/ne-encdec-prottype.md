@@ -101,7 +101,7 @@ Error or invalid protection scheme. Treat as Copy Never.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a>
+<a href="/previous-versions/dd375610(v=vs.85)">EnTvRat_GenericLevel</a>
 
 
 

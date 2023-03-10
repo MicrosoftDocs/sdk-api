@@ -56,7 +56,7 @@ The <b>IMSVidEncoder</b> interface represents the <a href="/previous-versions/wi
 
 The <b>IMSVidEncoder</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>. <b>IMSVidEncoder</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

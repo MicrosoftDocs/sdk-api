@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_SCATTER_OPERATOR_DESC
 title: DML_SCATTER_OPERATOR_DESC (DML_SCATTER_ELEMENTS_OPERATOR_DESC)
-description: Copies the whole input tensor to the output, then overwrites selected indices with corresponding values from the updates tensor.
+description: Copies the whole input tensor to the output, then overwrites selected indices with corresponding values from the updates tensor. (DML_SCATTER_OPERATOR_DESC)
 tech.root: directml
 ms.date: 11/04/2020
 req.header: directml.h

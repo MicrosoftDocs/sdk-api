@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_129
-tech.root: fs 
+UID: NS:nvme.NVME_DIRECTIVE_IDENTIFY_RETURN_PARAMETERS
+tech.root: fs
 title: NVME_DIRECTIVE_IDENTIFY_RETURN_PARAMETERS
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains fields that describe return parameters for the Identify Directive.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_DIRECTIVE_IDENTIFY_RETURN_PARAMETERS, *PNVME_DIRECTIVE_IDENTIFY_RETURN_PARAMETERS
@@ -41,6 +41,7 @@ dev_langs:
 
 # NVME_DIRECTIVE_IDENTIFY_RETURN_PARAMETERS structure
 
+
 ## -description
 
 Contains fields that describe return parameters for the Identify Directive.
@@ -62,3 +63,4 @@ This data structure is 4KB in size.
 ## -see-also
 
 - [NVME_DIRECTIVE_IDENTIFY_RETURN_PARAMETERS_DESCRIPTOR](ns-nvme-nvme_directive_identify_return_parameters_descriptor.md)
+

@@ -1,8 +1,8 @@
 ---
 UID: NF:wincrypt.CertRDNValueToStrA
 title: CertRDNValueToStrA function (wincrypt.h)
-description: The CertRDNValueToStr function converts a name in a CERT_RDN_VALUE_BLOB to a null-terminated character string.
-helpviewer_keywords: ["CertRDNValueToStr","CertRDNValueToStr function [Security]","CertRDNValueToStrA","CertRDNValueToStrW","_crypto2_certrdnvaluetostr","security.certrdnvaluetostr","wincrypt/CertRDNValueToStr","wincrypt/CertRDNValueToStrA","wincrypt/CertRDNValueToStrW"]
+description: The CertRDNValueToStr function converts a name in a CERT_RDN_VALUE_BLOB to a null-terminated character string. (ANSI)
+helpviewer_keywords: ["CertRDNValueToStrA", "wincrypt/CertRDNValueToStrA"]
 old-location: security\certrdnvaluetostr.htm
 tech.root: security
 ms.assetid: c1e0af19-320e-411e-85bf-c7f01befcac4

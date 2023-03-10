@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IEmailAction.get_Attachments
 title: IEmailAction::get_Attachments (taskschd.h)
-description: Gets or sets the pointer to an array of attachments that is sent with the email message.
+description: Gets or sets the pointer to an array of attachments that is sent with the email message. (Get)
 helpviewer_keywords: ["Attachments property [Task Scheduler]","Attachments property [Task Scheduler]","IEmailAction interface","IEmailAction interface [Task Scheduler]","Attachments property","IEmailAction.Attachments","IEmailAction.get_Attachments","IEmailAction::Attachments","IEmailAction::get_Attachments","IEmailAction::put_Attachments","get_Attachments","taskschd.iemailaction_attachments","taskschd/IEmailAction::Attachments","taskschd/IEmailAction::get_Attachments","taskschd/IEmailAction::put_Attachments"]
 old-location: taskschd\iemailaction_attachments.htm
 tech.root: taskschd

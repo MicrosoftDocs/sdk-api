@@ -4,7 +4,7 @@ title: Tdiinfo.h header
 ms.assetid: c3457834-4255-3c85-bb1d-d1f4466e775f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winprog
 f1_keywords:
  - tdiinfo

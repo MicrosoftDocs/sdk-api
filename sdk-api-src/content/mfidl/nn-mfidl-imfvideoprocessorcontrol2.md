@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFVideoProcessorControl2
 title: IMFVideoProcessorControl2 (mfidl.h)
-description: Configures the Video Processor MFT.
+description: Configures the Video Processor MFT. (IMFVideoProcessorControl2)
 helpviewer_keywords: ["IMFVideoProcessorControl2","IMFVideoProcessorControl2 interface [Media Foundation]","IMFVideoProcessorControl2 interface [Media Foundation]","described","mf.imfvideoprocessorcontrol2","mfidl/IMFVideoProcessorControl2"]
 old-location: mf\imfvideoprocessorcontrol2.htm
 tech.root: mf

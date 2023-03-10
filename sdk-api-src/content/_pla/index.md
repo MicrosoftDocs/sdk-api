@@ -4,7 +4,7 @@ title: Performance Logs and Alerts
 ms.assetid: 99eb3402-4930-35cb-8472-646e4361517a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Performance Logs and Alerts

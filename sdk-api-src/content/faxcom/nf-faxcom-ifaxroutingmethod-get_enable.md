@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_Enable
 title: IFaxRoutingMethod::get_Enable (faxcom.h)
-description: The IFaxRoutingMethod::get_Enable property is a Boolean value that indicates whether a fax routing method is enabled on a particular fax port.
+description: The IFaxRoutingMethod::get_Enable property is a Boolean value that indicates whether a fax routing method is enabled on a particular fax port. (Get)
 helpviewer_keywords: ["Enable property [Fax Service]","Enable property [Fax Service]","IFaxRoutingMethod interface","IFaxRoutingMethod interface [Fax Service]","Enable property","IFaxRoutingMethod.Enable","IFaxRoutingMethod.get_Enable","IFaxRoutingMethod::Enable","IFaxRoutingMethod::get_Enable","IFaxRoutingMethod::put_Enable","_mfax_ifaxroutingmethod_get_enable","fax._mfax_ifaxroutingmethod_get_enable","fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_enable_cpp","faxcom/IFaxRoutingMethod::Enable","faxcom/IFaxRoutingMethod::get_Enable","faxcom/IFaxRoutingMethod::put_Enable","get_Enable"]
 old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_enable_cpp.htm
 tech.root: Fax

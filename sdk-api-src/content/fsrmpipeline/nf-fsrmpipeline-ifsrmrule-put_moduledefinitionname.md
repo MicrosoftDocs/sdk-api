@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.put_ModuleDefinitionName
 title: IFsrmRule::put_ModuleDefinitionName (fsrmpipeline.h)
-description: The name of the module definition that you want to run this rule.
+description: The name of the module definition that you want to run this rule. (Put)
 helpviewer_keywords: ["IFsrmRule interface [File Server Resource Manager]","ModuleDefinitionName property","IFsrmRule.ModuleDefinitionName","IFsrmRule.put_ModuleDefinitionName","IFsrmRule::ModuleDefinitionName","IFsrmRule::get_ModuleDefinitionName","IFsrmRule::put_ModuleDefinitionName","ModuleDefinitionName property [File Server Resource Manager]","ModuleDefinitionName property [File Server Resource Manager]","IFsrmRule interface","fs.ifsrmrule_moduledefinitionname","fsrm.ifsrmrule_moduledefinitionname","fsrmpipeline/IFsrmRule::ModuleDefinitionName","fsrmpipeline/IFsrmRule::get_ModuleDefinitionName","fsrmpipeline/IFsrmRule::put_ModuleDefinitionName","put_ModuleDefinitionName"]
 old-location: fsrm\ifsrmrule_moduledefinitionname.htm
 tech.root: fsrm

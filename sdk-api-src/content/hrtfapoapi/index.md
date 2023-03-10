@@ -4,7 +4,7 @@ title: Hrtfapoapi.h header
 ms.assetid: a07594a7-e212-3edf-a078-4ba9668a61c4
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: xaudio2
 f1_keywords:
  - hrtfapoapi

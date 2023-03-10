@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_127
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_DIRECTIVE_SEND
+tech.root: fs
 title: NVME_CDW11_DIRECTIVE_SEND
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the Directive Send command.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_DIRECTIVE_SEND, *PNVME_CDW11_DIRECTIVE_SEND
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_DIRECTIVE_SEND structure
+
 
 ## -description
 
@@ -70,3 +71,4 @@ A directive specific value.
 ## -see-also
 
 - [NVME_CDW10_DIRECTIVE_SEND](ns-nvme-nvme_cdw10_dataset_management.md)
+

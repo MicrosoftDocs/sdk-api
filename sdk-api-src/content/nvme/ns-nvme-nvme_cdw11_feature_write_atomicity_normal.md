@@ -1,6 +1,6 @@
 ---
-UID: NS:nvme.__unnamed_union_43
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_FEATURE_WRITE_ATOMICITY_NORMAL
+tech.root: fs
 title: NVME_CDW11_FEATURE_WRITE_ATOMICITY_NORMAL
 ms.date: 02/19/2021 Contains parameters for the Write Atomicity Normal Feature that controls the operation of the Atomic Write Unit Normal (**AWUN**) and Namespace Atomic Write Unit Normal (**NAWUN**) parameters that define the controller’s support for atomic operations.
 ms.topic: language-reference
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_FEATURE_WRITE_ATOMICITY_NORMAL, *PNVME_CDW11_FEATURE_WRITE_ATOMICITY_NORMAL
@@ -41,6 +41,7 @@ dev_langs:
 
 # NVME_CDW11_FEATURE_WRITE_ATOMICITY_NORMAL structure
 
+
 ## -description
 
 Contains parameters for the Write Atomicity Normal Feature that controls the operation of the Atomic Write Unit Normal (**AWUN**) and Namespace Atomic Write Unit Normal (**NAWUN**) parameters that define the controller’s support for atomic operations.
@@ -59,7 +60,7 @@ When this value is set to `1`, the host specifies that **AWUN** and **NAWUN** ar
 
 When this value is cleared to `0`, **AWUN**, **NAWUN**, **AWUPF**, and **NAWUPF** will be honored by the controller.
 
-The **AWUN** and **AWUPF** fields are in the [NVME_IDENTIFY_CONTROLLER_DATA](ns-nvme-nvme_identify_controller_data.md) structure, and the **NAWUN** and **NAWUPF** fields are in the [NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md) structure.
+The **AWUN** and **AWUPF** fields are in the [NVME_IDENTIFY_CONTROLLER_DATA](ns-nvme-nvme_identify_controller_data.md) structure, and the **NAWUN** and **NAWUPF** fields are in the [NVME_IDENTIFY_NAMESPACE_DATA](../nvme/ns-nvme-nvme_identify_namespace_data.md) structure.
 
 ### -field DUMMYSTRUCTNAME.Reserved0
 
@@ -70,4 +71,5 @@ The **AWUN** and **AWUPF** fields are in the [NVME_IDENTIFY_CONTROLLER_DATA](ns-
 ## -see-also
 
 - [NVME_IDENTIFY_CONTROLLER_DATA](ns-nvme-nvme_identify_controller_data.md)
-- [NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md)
+- [NVME_IDENTIFY_NAMESPACE_DATA](../nvme/ns-nvme-nvme_identify_namespace_data.md)
+

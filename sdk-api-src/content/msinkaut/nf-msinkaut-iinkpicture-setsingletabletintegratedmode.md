@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.SetSingleTabletIntegratedMode
 title: IInkPicture::SetSingleTabletIntegratedMode (msinkaut.h)
-description: Allows the ink collector (InkCollector, InkOverlay, or InkPicture) to collect ink from only one tablet. Ink from other tablets is ignored by the ink collector.
+description: Allows the ink collector (InkCollector, InkOverlay, or InkPicture) to collect ink from only one tablet. Ink from other tablets is ignored by the ink collector. (IInkPicture.SetSingleTabletIntegratedMode)
 helpviewer_keywords: ["96787996-c0fd-455f-952e-90ddc8640253","IInkPicture interface [Tablet PC]","SetSingleTabletIntegratedMode method","IInkPicture.SetSingleTabletIntegratedMode","IInkPicture::SetSingleTabletIntegratedMode","SetSingleTabletIntegratedMode","SetSingleTabletIntegratedMode method [Tablet PC]","SetSingleTabletIntegratedMode method [Tablet PC]","IInkPicture interface","msinkaut/IInkPicture::SetSingleTabletIntegratedMode","tablet.inkpicture_setsingletabletintegratedmode"]
 old-location: tablet\inkpicture_setsingletabletintegratedmode.htm
 tech.root: tablet

@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IValueMapItem.put_Key
 title: IValueMapItem::put_Key (pla.h)
-description: Retrieves or sets the name of the item.
+description: Retrieves or sets the name of the item. (Put)
 helpviewer_keywords: ["IValueMapItem interface [PLA]","Key property","IValueMapItem.Key","IValueMapItem.put_Key","IValueMapItem::Key","IValueMapItem::get_Key","IValueMapItem::put_Key","Key property [PLA]","Key property [PLA]","IValueMapItem interface","base.ivaluemapitem_key","pla.ivaluemapitem_key","pla/IValueMapItem::Key","pla/IValueMapItem::get_Key","pla/IValueMapItem::put_Key","put_Key"]
 old-location: pla\ivaluemapitem_key.htm
 tech.root: PLA

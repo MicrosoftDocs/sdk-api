@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarCyFix
 title: VarCyFix function (oleauto.h)
-description: Retrieves the integer portion of a variant of type currency.
+description: Retrieves the integer portion of a variant of type currency. (VarCyFix)
 helpviewer_keywords: ["VarCyFix","VarCyFix function [Automation]","_oa96_VarCyFix","automat.varcyfix","oleauto/VarCyFix"]
 old-location: automat\varcyfix.htm
 tech.root: automat

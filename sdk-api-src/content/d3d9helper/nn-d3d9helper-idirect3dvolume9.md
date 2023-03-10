@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d9helper.IDirect3DVolume9
 title: IDirect3DVolume9 (d3d9helper.h)
-description: Applications use the methods of the IDirect3DVolume9 interface to manipulate volume resources.
+description: The IDirect3DVolume9 interface (d3d9helper.h) provides methods to manipulate volume resources.
 helpviewer_keywords: ["3502e743-9dc5-6b50-07d2-5a1e110c1543","IDirect3DVolume9","IDirect3DVolume9 interface [Direct3D 9]","IDirect3DVolume9 interface [Direct3D 9]","described","d3d9helper/IDirect3DVolume9","direct3d9.idirect3dvolume9"]
 old-location: direct3d9\idirect3dvolume9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9.htm
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: 3502e743-9dc5-6b50-07d2-5a1e110c1543, IDirect3DVolume9, IDirect3DVolume9 interface [Direct3D 9], IDirect3DVolume9 interface [Direct3D 9],described, d3d9helper/IDirect3DVolume9, direct3d9.idirect3dvolume9
 req.header: d3d9helper.h
 req.include-header: D3D9.h

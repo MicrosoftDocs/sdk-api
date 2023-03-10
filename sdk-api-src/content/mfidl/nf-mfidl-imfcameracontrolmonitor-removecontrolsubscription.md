@@ -77,5 +77,7 @@ The explicitly supported controls include the properties under [PROPSETID_VIDCAP
 Specifying a value other than KSPROPERTYSETID_ANYCAMERACONTROL, PROPSETID_VIDCAP_VIDEOPROCAMP, 
 PROPSETID_VIDCAP_CAMERACONTROL or KSPROPERTYSETID_ExtendedCameraControl will result in an error.
 
+To see a code example that implements this method, see [IMFCameraControlNotify](nn-mfidl-imfcameracontrolnotify.md).
+
 ## -see-also
 

@@ -58,7 +58,7 @@ This interface provides access to the Video Mixing Renderer (VMR) filter.
 
 The <b>IMSVidVideoRenderer</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>. <b>IMSVidVideoRenderer</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

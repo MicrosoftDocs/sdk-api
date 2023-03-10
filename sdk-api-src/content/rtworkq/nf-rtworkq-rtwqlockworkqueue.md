@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqLockWorkQueue
 title: RtwqLockWorkQueue function (rtworkq.h)
-description: Locks a work queue.
+description: Locks a work queue. (RtwqLockWorkQueue)
 helpviewer_keywords: ["RtwqLockWorkQueue","RtwqLockWorkQueue function","base.rtwqlockworkqueue","rtworkq/RtwqLockWorkQueue"]
 old-location: base\rtwqlockworkqueue.htm
 tech.root: backup

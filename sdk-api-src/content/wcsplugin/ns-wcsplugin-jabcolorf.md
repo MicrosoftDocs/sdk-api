@@ -1,12 +1,12 @@
 ---
 UID: NS:wcsplugin._JabColorF
 title: JabColorF (wcsplugin.h)
-description: TBD.
+description: JabColorF (wcsplugin.h) is a structure.
 helpviewer_keywords: ["JabColorF","JabColorF structure [Windows Color System]","wcs.jabcolorf","wcsplugin/JChColorF"]
 old-location: wcs\jabcolorf.htm
 tech.root: WCS
 ms.assetid: c92a62b0-6c78-43cd-8b14-201f872c27fa
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: JabColorF, JabColorF structure [Windows Color System], wcs.jabcolorf, wcsplugin/JChColorF
 req.header: wcsplugin.h
 req.include-header: 

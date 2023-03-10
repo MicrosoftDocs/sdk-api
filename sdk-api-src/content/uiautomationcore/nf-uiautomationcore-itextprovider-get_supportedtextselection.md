@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITextProvider.get_SupportedTextSelection
 title: ITextProvider::get_SupportedTextSelection (uiautomationcore.h)
-description: Retrieves a value that specifies the type of text selection that is supported by the control.
+description: Retrieves a value that specifies the type of text selection that is supported by the control. (ITextProvider.get_SupportedTextSelection)
 helpviewer_keywords: ["ITextProvider interface [Windows Accessibility]","SupportedTextSelection property","ITextProvider.SupportedTextSelection","ITextProvider.get_SupportedTextSelection","ITextProvider::SupportedTextSelection","ITextProvider::get_SupportedTextSelection","SupportedTextSelection property [Windows Accessibility]","SupportedTextSelection property [Windows Accessibility]","ITextProvider interface","get_SupportedTextSelection","uiauto.uiauto_ITextProvider_SupportedTextSelection","uiauto_ITextProvider_SupportedTextSelection","uiautomationcore/ITextProvider::SupportedTextSelection","uiautomationcore/ITextProvider::get_SupportedTextSelection","winauto.uiauto_ITextProvider_SupportedTextSelection"]
 old-location: winauto\uiauto_ITextProvider_SupportedTextSelection.htm
 tech.root: WinAuto

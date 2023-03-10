@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_66
+UID: NE:webservices.WS_SECURITY_KEY_ENTROPY_MODE
 title: WS_SECURITY_KEY_ENTROPY_MODE (webservices.h)
 description: Defines how randomness should be contributed to the issued key during a security token negotiation done with message and mixed-mode security.
 helpviewer_keywords: ["WS_SECURITY_KEY_ENTROPY_MODE","WS_SECURITY_KEY_ENTROPY_MODE enumeration [Web Services for Windows]","WS_SECURITY_KEY_ENTROPY_MODE_CLIENT_ONLY","WS_SECURITY_KEY_ENTROPY_MODE_COMBINED","WS_SECURITY_KEY_ENTROPY_MODE_SERVER_ONLY","webservices/WS_SECURITY_KEY_ENTROPY_MODE","webservices/WS_SECURITY_KEY_ENTROPY_MODE_CLIENT_ONLY","webservices/WS_SECURITY_KEY_ENTROPY_MODE_COMBINED","webservices/WS_SECURITY_KEY_ENTROPY_MODE_SERVER_ONLY","wsw.ws_security_key_entropy_mode"]

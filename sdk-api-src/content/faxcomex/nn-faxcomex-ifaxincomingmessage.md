@@ -1,7 +1,7 @@
 ---
 UID: NN:faxcomex.IFaxIncomingMessage
 title: IFaxIncomingMessage (faxcomex.h)
-description: Used by a fax client application to retrieve information about a received fax message in the archive of inbound faxes.
+description: Used by a fax client application to retrieve information about a received fax message in the archive of inbound faxes. (IFaxIncomingMessage)
 helpviewer_keywords: ["IFaxIncomingMessage","IFaxIncomingMessage interface [Fax Service]","IFaxIncomingMessage interface [Fax Service]","described","_mfax_faxincomingmessage_cpp","fax._mfax_faxincomingmessage_cpp","faxcomex/IFaxIncomingMessage"]
 old-location: fax\_mfax_faxincomingmessage_cpp.htm
 tech.root: Fax

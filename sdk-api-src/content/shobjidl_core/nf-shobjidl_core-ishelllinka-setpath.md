@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetPath
 title: IShellLinkA::SetPath (shobjidl_core.h)
-description: Sets the path and file name for the target of a Shell link object.
+description: Sets the path and file name for the target of a Shell link object. (ANSI)
 helpviewer_keywords: ["IShellLink interface [Windows Shell]","SetPath method","IShellLink::SetPath","IShellLinkA interface [Windows Shell]","SetPath method","IShellLinkA.SetPath","IShellLinkA::SetPath","IShellLinkW interface [Windows Shell]","SetPath method","IShellLinkW::SetPath","SetPath","SetPath method [Windows Shell]","SetPath method [Windows Shell]","IShellLink interface","SetPath method [Windows Shell]","IShellLinkA interface","SetPath method [Windows Shell]","IShellLinkW interface","_win32_IShellLink_SetPath","shell.IShellLink_SetPath","shobjidl_core/IShellLink::SetPath","shobjidl_core/IShellLinkA::SetPath","shobjidl_core/IShellLinkW::SetPath"]
 old-location: shell\IShellLink_SetPath.htm
 tech.root: shell

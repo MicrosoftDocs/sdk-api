@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetConnectStatusA
 title: RasGetConnectStatusA function (ras.h)
-description: The RasGetConnectStatus function retrieves information on the current status of the specified remote access connection. An application can use this call to determine when an asynchronous RasDial call is complete.
-helpviewer_keywords: ["RasGetConnectStatus","RasGetConnectStatus function [RAS]","RasGetConnectStatusA","RasGetConnectStatusW","_ras_rasgetconnectstatus","ras/RasGetConnectStatus","ras/RasGetConnectStatusA","ras/RasGetConnectStatusW","rras.rasgetconnectstatus"]
+description: The RasGetConnectStatus function retrieves information on the current status of the specified remote access connection. An application can use this call to determine when an asynchronous RasDial call is complete. (ANSI)
+helpviewer_keywords: ["RasGetConnectStatusA", "ras/RasGetConnectStatusA"]
 old-location: rras\rasgetconnectstatus.htm
 tech.root: RRAS
 ms.assetid: 3b2a2f8d-b1ff-44d2-ba49-60877ca6c104

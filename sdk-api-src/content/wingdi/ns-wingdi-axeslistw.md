@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagAXESLISTW
 title: AXESLISTW (wingdi.h)
-description: The AXESLIST structure contains information on all the axes of a multiple master font.
+description: The AXESLIST structure contains information on all the axes of a multiple master font. (Unicode)
 helpviewer_keywords: ["*LPAXESLISTW","*PAXESLISTW","AXESLIST","AXESLIST structure [Windows GDI]","AXESLISTA","AXESLISTW","PAXESLIST","PAXESLIST structure pointer [Windows GDI]","_win32_AXESLIST_str","gdi.axeslist","wingdi/AXESLIST","wingdi/AXESLISTA","wingdi/AXESLISTW","wingdi/PAXESLIST"]
 old-location: gdi\axeslist.htm
 tech.root: gdi

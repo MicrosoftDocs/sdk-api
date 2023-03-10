@@ -1,7 +1,8 @@
 ---
 UID: NE:wlanapi._WLAN_POWER_SETTING~r1
 title: WLAN_POWER_SETTING
-ms.date: 01/30/2019
+description: The WLAN_POWER_SETTING enumeration specifies the power setting of an interface.
+ms.date: 08/16/2022
 ms.keywords: _WLAN_POWER_SETTING, WLAN_POWER_SETTING
 targetos: Windows
 req.construct-type: enumeration

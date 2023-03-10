@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFace2.GetRecommendedRenderingMode
 title: IDWriteFontFace2::GetRecommendedRenderingMode (dwrite_2.h)
-description: Determines the recommended text rendering and grid-fit mode to be used based on the font, size, world transform, and measuring mode.
+description: Determines the recommended text rendering and grid-fit mode to be used based on the font, size, world transform, and measuring mode. (IDWriteFontFace2.GetRecommendedRenderingMode)
 helpviewer_keywords: ["GetRecommendedRenderingMode","GetRecommendedRenderingMode method [Direct Write]","GetRecommendedRenderingMode method [Direct Write]","IDWriteFontFace2 interface","IDWriteFontFace2 interface [Direct Write]","GetRecommendedRenderingMode method","IDWriteFontFace2.GetRecommendedRenderingMode","IDWriteFontFace2::GetRecommendedRenderingMode","directwrite.idwritefontface2_getrecommendedrenderingmode","dwrite_2/IDWriteFontFace2::GetRecommendedRenderingMode"]
 old-location: directwrite\idwritefontface2_getrecommendedrenderingmode.htm
 tech.root: DirectWrite

@@ -4,7 +4,7 @@ title: GDI+
 ms.assetid: 7cb49be5-6f39-391f-a093-c2e9fa92c4fc
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # GDI+

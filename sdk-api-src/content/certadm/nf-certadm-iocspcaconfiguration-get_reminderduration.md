@@ -1,7 +1,7 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_ReminderDuration
 title: IOCSPCAConfiguration::get_ReminderDuration (certadm.h)
-description: Gets or sets the percentage of a signing certificate lifetime after which a warning event is logged.
+description: Gets or sets the percentage of a signing certificate lifetime after which a warning event is logged. (Get)
 helpviewer_keywords: ["IOCSPCAConfiguration interface [Security]","ReminderDuration property","IOCSPCAConfiguration.ReminderDuration","IOCSPCAConfiguration.get_ReminderDuration","IOCSPCAConfiguration::ReminderDuration","IOCSPCAConfiguration::get_ReminderDuration","IOCSPCAConfiguration::put_ReminderDuration","ReminderDuration property [Security]","ReminderDuration property [Security]","IOCSPCAConfiguration interface","certadm/IOCSPCAConfiguration::ReminderDuration","certadm/IOCSPCAConfiguration::get_ReminderDuration","certadm/IOCSPCAConfiguration::put_ReminderDuration","get_ReminderDuration","security.iocspcaconfiguration_reminderduration_method"]
 old-location: security\iocspcaconfiguration_reminderduration_method.htm
 tech.root: security

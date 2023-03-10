@@ -4,7 +4,7 @@ title: Domain Name System (DNS)
 ms.assetid: 4779b2e0-69bd-384a-9c4c-b3804b03287e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Domain Name System (DNS)

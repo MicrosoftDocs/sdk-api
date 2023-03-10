@@ -4,7 +4,7 @@ title: Gdiplusimaging.h header
 ms.assetid: 94b6f27c-995e-336a-b084-40d41214618e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: gdiplus
 f1_keywords:
  - gdiplusimaging

@@ -4,7 +4,7 @@ title: Subauth.h header
 ms.assetid: 9c39c148-90de-38f5-9692-43d80ffd4b1b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: security
 f1_keywords:
  - subauth

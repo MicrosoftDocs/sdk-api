@@ -2,7 +2,7 @@
 UID: NF:icm.CMConvertIndexToColorName
 title: CMConvertIndexToColorName
 tech.root: wcs
-description: Transforms indices in a color space to an array of names in a named color space.
+description: Transforms indices in a color space to an array of names in a named color space. (CMConvertIndexToColorName)
 ms.date: 02/01/2021
 targetos: Windows
 req.assembly: 
@@ -72,5 +72,5 @@ This function is required in the default CMM. It is optional for all other CMMs.
 
 ## -see-also
 
-* [Basic color management concepts](https://msdn.microsoft.com/en-us/library/dd371805\(v=vs.85\))
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)

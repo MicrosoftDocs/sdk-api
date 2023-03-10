@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_BOOL_DESCRIPTION
 title: WS_BOOL_DESCRIPTION (webservices.h)
-description: Specifies constraints on the set of values which can be deserialized.
+description: Specifies constraints on the set of values which can be deserialized. (WS_BOOL_DESCRIPTION)
 helpviewer_keywords: ["WS_BOOL_DESCRIPTION","WS_BOOL_DESCRIPTION structure [Web Services for Windows]","webservices/WS_BOOL_DESCRIPTION","wsw.ws_bool_description"]
 old-location: wsw\ws_bool_description.htm
 tech.root: wsw

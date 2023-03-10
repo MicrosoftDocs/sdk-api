@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.LinkItem
 title: ITransferSource::LinkItem (shobjidl_core.h)
-description: Not implemented.
+description: Not implemented. (ITransferSource.LinkItem)
 helpviewer_keywords: ["ITransferSource interface [Windows Shell]","LinkItem method","ITransferSource.LinkItem","ITransferSource::LinkItem","LinkItem","LinkItem method [Windows Shell]","LinkItem method [Windows Shell]","ITransferSource interface","_shell_ITransferSource_LinkItem","shell.ITransferSource_LinkItem","shobjidl_core/ITransferSource::LinkItem"]
 old-location: shell\ITransferSource_LinkItem.htm
 tech.root: shell

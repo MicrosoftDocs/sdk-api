@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_DoNotFinalizeMedia
 title: IDiscFormat2TrackAtOnce::get_DoNotFinalizeMedia (imapi2.h)
-description: Determines if the media is left open for writing after writing the audio track.
+description: Determines if the media is left open for writing after writing the audio track. (Get)
 helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","get_DoNotFinalizeMedia method","IDiscFormat2TrackAtOnce.get_DoNotFinalizeMedia","IDiscFormat2TrackAtOnce::get_DoNotFinalizeMedia","get_DoNotFinalizeMedia","get_DoNotFinalizeMedia method [IMAPI]","get_DoNotFinalizeMedia method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_get_donotfinalizemedia","imapi2/IDiscFormat2TrackAtOnce::get_DoNotFinalizeMedia"]
 old-location: imapi\idiscformat2trackatonce_get_donotfinalizemedia.htm
 tech.root: imapi

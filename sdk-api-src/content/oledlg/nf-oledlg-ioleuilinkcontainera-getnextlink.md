@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.GetNextLink
 title: IOleUILinkContainerA::GetNextLink (oledlg.h)
-description: Enumerates the links in a container.
+description: Enumerates the links in a container. (ANSI)
 helpviewer_keywords: ["GetNextLink","GetNextLink method [COM]","GetNextLink method [COM]","IOleUILinkContainer interface","GetNextLink method [COM]","IOleUILinkContainerA interface","GetNextLink method [COM]","IOleUILinkContainerW interface","IOleUILinkContainer interface [COM]","GetNextLink method","IOleUILinkContainer::GetNextLink","IOleUILinkContainerA interface [COM]","GetNextLink method","IOleUILinkContainerA.GetNextLink","IOleUILinkContainerA::GetNextLink","IOleUILinkContainerW interface [COM]","GetNextLink method","IOleUILinkContainerW::GetNextLink","_ole_IOleUILinkContainer_GetNextLink","com.ioleuilinkcontainer_getnextlink","oledlg/IOleUILinkContainer::GetNextLink","oledlg/IOleUILinkContainerA::GetNextLink","oledlg/IOleUILinkContainerW::GetNextLink"]
 old-location: com\ioleuilinkcontainer_getnextlink.htm
 tech.root: com

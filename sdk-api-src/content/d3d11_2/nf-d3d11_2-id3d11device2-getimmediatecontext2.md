@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_2.ID3D11Device2.GetImmediateContext2
 title: ID3D11Device2::GetImmediateContext2 (d3d11_2.h)
-description: Gets an immediate context, which can play back command lists.
+description: Gets an immediate context, which can play back command lists. (ID3D11Device2.GetImmediateContext2)
 helpviewer_keywords: ["GetImmediateContext2","GetImmediateContext2 method [Direct3D 11]","GetImmediateContext2 method [Direct3D 11]","ID3D11Device2 interface","ID3D11Device2 interface [Direct3D 11]","GetImmediateContext2 method","ID3D11Device2.GetImmediateContext2","ID3D11Device2::GetImmediateContext2","d3d11_2/ID3D11Device2::GetImmediateContext2","direct3d11.id3d11device2_getimmediatecontext2"]
 old-location: direct3d11\id3d11device2_getimmediatecontext2.htm
 tech.root: direct3d11

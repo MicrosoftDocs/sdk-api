@@ -1,8 +1,8 @@
 ---
 UID: NF:wincrypt.CryptRetrieveObjectByUrlW
 title: CryptRetrieveObjectByUrlW function (wincrypt.h)
-description: Retrieves the public key infrastructure (PKI) object from a location specified by a URL.
-helpviewer_keywords: ["CONTEXT_OID_CAPI2_ANY","CONTEXT_OID_CERTIFICATE","CONTEXT_OID_CRL","CONTEXT_OID_CTL","CONTEXT_OID_OCSP_RESP","CONTEXT_OID_PKCS7","CRYPT_AIA_RETRIEVAL","CRYPT_ASYNC_RETRIEVAL","CRYPT_CACHE_ONLY_RETRIEVAL","CRYPT_DONT_CACHE_RESULT","CRYPT_HTTP_POST_RETRIEVAL","CRYPT_LDAP_AREC_EXCLUSIVE_RETRIEVAL","CRYPT_LDAP_INSERT_ENTRY_ATTRIBUTE","CRYPT_LDAP_SCOPE_BASE_ONLY_RETRIEVAL","CRYPT_LDAP_SIGN_RETRIEVAL","CRYPT_NOT_MODIFIED_RETRIEVAL","CRYPT_NO_AUTH_RETRIEVAL","CRYPT_OFFLINE_CHECK_RETRIEVAL","CRYPT_PROXY_CACHE_RETRIEVAL","CRYPT_RETRIEVE_MULTIPLE_OBJECTS","CRYPT_STICKY_CACHE_RETRIEVAL","CRYPT_VERIFY_CONTEXT_SIGNATURE","CRYPT_VERIFY_DATA_HASH","CRYPT_WIRE_ONLY_RETRIEVAL","CryptRetrieveObjectByUrl","CryptRetrieveObjectByUrl function [Security]","CryptRetrieveObjectByUrlA","CryptRetrieveObjectByUrlW","NULL","_crypto2_cryptretrieveobjectbyurl","security.cryptretrieveobjectbyurl","wincrypt/CryptRetrieveObjectByUrl","wincrypt/CryptRetrieveObjectByUrlA","wincrypt/CryptRetrieveObjectByUrlW"]
+description: Retrieves the public key infrastructure (PKI) object from a location specified by a URL. (Unicode)
+helpviewer_keywords: ["CONTEXT_OID_CAPI2_ANY", "CONTEXT_OID_CERTIFICATE", "CONTEXT_OID_CRL", "CONTEXT_OID_CTL", "CONTEXT_OID_OCSP_RESP", "CONTEXT_OID_PKCS7", "CRYPT_AIA_RETRIEVAL", "CRYPT_ASYNC_RETRIEVAL", "CRYPT_CACHE_ONLY_RETRIEVAL", "CRYPT_DONT_CACHE_RESULT", "CRYPT_HTTP_POST_RETRIEVAL", "CRYPT_LDAP_AREC_EXCLUSIVE_RETRIEVAL", "CRYPT_LDAP_INSERT_ENTRY_ATTRIBUTE", "CRYPT_LDAP_SCOPE_BASE_ONLY_RETRIEVAL", "CRYPT_LDAP_SIGN_RETRIEVAL", "CRYPT_NOT_MODIFIED_RETRIEVAL", "CRYPT_NO_AUTH_RETRIEVAL", "CRYPT_OFFLINE_CHECK_RETRIEVAL", "CRYPT_PROXY_CACHE_RETRIEVAL", "CRYPT_RETRIEVE_MULTIPLE_OBJECTS", "CRYPT_STICKY_CACHE_RETRIEVAL", "CRYPT_VERIFY_CONTEXT_SIGNATURE", "CRYPT_VERIFY_DATA_HASH", "CRYPT_WIRE_ONLY_RETRIEVAL", "CryptRetrieveObjectByUrl", "CryptRetrieveObjectByUrl function [Security]", "CryptRetrieveObjectByUrlW", "NULL", "_crypto2_cryptretrieveobjectbyurl", "security.cryptretrieveobjectbyurl", "wincrypt/CryptRetrieveObjectByUrl", "wincrypt/CryptRetrieveObjectByUrlW"]
 old-location: security\cryptretrieveobjectbyurl.htm
 tech.root: security
 ms.assetid: 2e205f97-be9b-4358-ba22-d475b6a250b7
@@ -413,11 +413,11 @@ The remote object retrieval manager exposes two provider models. One is the Sche
 
 The second provider model is the Context Provider model that allows for installable creators of the context handles (objects) based on the retrieved encoded bits. These are dispatched based on the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) specified in the call to <b>CryptRetrieveObjectByUrl</b>.
 
-Individual PKI objects such as certificates, trusts lists, revocation lists, PKCS #7 messages, and multiple homogeneous objects can be retrieved. Starting with Windows Vista with Service Pack 1 (SP1) and Windows Server 2008, security of "http:" and "ldap:" retrievals have been hardened. For more information, see <a href="https://support.microsoft.com/kb/946401">http://support.microsoft.com/kb/946401</a>.
+Individual PKI objects such as certificates, trusts lists, revocation lists, PKCS #7 messages, and multiple homogeneous objects can be retrieved. Starting with Windows Vista with Service Pack 1 (SP1) and Windows Server 2008, security of "http:" and "ldap:" retrievals have been hardened.
 
 This function supports "http:" and "ldap:" URL schemes as well as newly defined schemes.
 
-<b>Windows XP:  </b>"ftp:" is not supported for network retrieval. For a summary of changes to the CryptoAPI certificate chain validation logic in Q835732 on Windows XP, see <a href="https://support.microsoft.com/kb/887195">http://support.microsoft.com/kb/887195</a>.
+<b>Windows XP:  </b>"ftp:" is not supported for network retrieval. 
 
 <div class="alert"><b>Note</b>  By default, "file:" is not supported for network retrieval.</div>
 <div> </div>

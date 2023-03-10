@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSGetShaderResources
 title: ID3D10Device::PSGetShaderResources (d3d10.h)
-description: Get the pixel shader resources.
+description: Get the pixel shader resources. (ID3D10Device.PSGetShaderResources)
 helpviewer_keywords: ["54b6aa73-f39a-9734-0be4-f47362f38b2f","ID3D10Device interface [Direct3D 10]","PSGetShaderResources method","ID3D10Device.PSGetShaderResources","ID3D10Device::PSGetShaderResources","PSGetShaderResources","PSGetShaderResources method [Direct3D 10]","PSGetShaderResources method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::PSGetShaderResources","direct3d10.id3d10device_psgetshaderresources"]
 old-location: direct3d10\id3d10device_psgetshaderresources.htm
 tech.root: direct3d10

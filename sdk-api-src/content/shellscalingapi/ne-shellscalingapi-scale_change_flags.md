@@ -1,5 +1,5 @@
 ---
-UID: NE:shellscalingapi.__unnamed_enum_1
+UID: NE:shellscalingapi.SCALE_CHANGE_FLAGS
 title: SCALE_CHANGE_FLAGS (shellscalingapi.h)
 description: Flags that are used to indicate the scaling change that occurred.
 helpviewer_keywords: ["SCALE_CHANGE_FLAGS","SCALE_CHANGE_FLAGS enumeration [Windows Shell]","SCF_PHYSICAL","SCF_SCALE","SCF_VALUE_NONE","shell.scale_change_flags","shellscalingapi/SCALE_CHANGE_FLAGS","shellscalingapi/SCF_PHYSICAL","shellscalingapi/SCF_SCALE","shellscalingapi/SCF_VALUE_NONE"]

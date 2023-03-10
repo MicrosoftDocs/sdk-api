@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.PopRetrievalFilter
 title: ID3D10InfoQueue::PopRetrievalFilter (d3d10sdklayers.h)
-description: Pop a retrieval filter from the top of the retrieval-filter stack.
+description: Pop a retrieval filter from the top of the retrieval-filter stack. (ID3D10InfoQueue.PopRetrievalFilter)
 helpviewer_keywords: ["2b0b3983-c948-10ba-02f6-5f94e829dae6","ID3D10InfoQueue interface [Direct3D 10]","PopRetrievalFilter method","ID3D10InfoQueue.PopRetrievalFilter","ID3D10InfoQueue::PopRetrievalFilter","PopRetrievalFilter","PopRetrievalFilter method [Direct3D 10]","PopRetrievalFilter method [Direct3D 10]","ID3D10InfoQueue interface","d3d10sdklayers/ID3D10InfoQueue::PopRetrievalFilter","direct3d10.id3d10infoqueue_popretrievalfilter"]
 old-location: direct3d10\id3d10infoqueue_popretrievalfilter.htm
 tech.root: direct3d10

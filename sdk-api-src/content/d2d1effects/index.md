@@ -4,7 +4,7 @@ title: D2D1Effects.h header
 ms.assetid: 65605ac9-5b74-3103-8758-108fa3e75a3c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: direct2d
 f1_keywords:
  - d2d1effects

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IShowMessageAction.put_Title
 title: IShowMessageAction::put_Title (taskschd.h)
-description: Gets or sets the title of the message box.
+description: Gets or sets the title of the message box. (Put)
 helpviewer_keywords: ["IShowMessageAction interface [Task Scheduler]","Title property","IShowMessageAction.Title","IShowMessageAction.put_Title","IShowMessageAction::Title","IShowMessageAction::get_Title","IShowMessageAction::put_Title","Title property [Task Scheduler]","Title property [Task Scheduler]","IShowMessageAction interface","put_Title","taskschd.ishowmessageaction_title","taskschd/IShowMessageAction::Title","taskschd/IShowMessageAction::get_Title","taskschd/IShowMessageAction::put_Title"]
 old-location: taskschd\ishowmessageaction_title.htm
 tech.root: taskschd

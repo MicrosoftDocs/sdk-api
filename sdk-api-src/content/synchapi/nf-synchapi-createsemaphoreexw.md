@@ -1,7 +1,7 @@
 ---
 UID: NF:synchapi.CreateSemaphoreExW
 title: CreateSemaphoreExW function (synchapi.h)
-description: Creates or opens a named or unnamed semaphore object and returns a handle to the object.
+description: Creates or opens a named or unnamed semaphore object and returns a handle to the object. (CreateSemaphoreExW)
 helpviewer_keywords: ["CreateSemaphoreExA","CreateSemaphoreExW","CreateSemaphoreExW function","base.createsemaphoreex","synchapi/CreateSemaphoreExA","synchapi/CreateSemaphoreExW"]
 old-location: base\createsemaphoreex.htm
 tech.root: base
@@ -131,7 +131,7 @@ Multiple processes can have handles of the same semaphore object, enabling use o
 <li>A process can specify the semaphore-object handle in a call to the 
 <a href="/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> function to create a duplicate handle that can be used by another process.</li>
 <li>A process can specify the name of a semaphore object in a call to the 
-<a href="/windows/desktop/api/winbase/nf-winbase-opensemaphorea">OpenSemaphore</a> or 
+<a href="/windows/win32/api/synchapi/nf-synchapi-opensemaphorew">OpenSemaphore</a> or 
 <b>CreateSemaphoreEx</b> function.</li>
 </ul>
 Use the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The semaphore object is destroyed when its last handle has been closed.

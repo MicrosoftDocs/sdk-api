@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.get_PivotPointX
 title: IManipulationProcessor::get_PivotPointX (manipulations.h)
-description: The PivotPointX property is the horizontal center of the object.
+description: The PivotPointX property is the horizontal center of the object. (Get)
 helpviewer_keywords: ["IManipulationProcessor interface [Windows Touch]","PivotPointX property","IManipulationProcessor.PivotPointX","IManipulationProcessor.get_PivotPointX","IManipulationProcessor::PivotPointX","IManipulationProcessor::get_PivotPointX","IManipulationProcessor::put_PivotPointX","PivotPointX property [Windows Touch]","PivotPointX property [Windows Touch]","IManipulationProcessor interface","get_PivotPointX","manipulations/IManipulationProcessor::PivotPointX","manipulations/IManipulationProcessor::get_PivotPointX","manipulations/IManipulationProcessor::put_PivotPointX","wintouch.imanipulationprocessor_pivotpointx"]
 old-location: wintouch\imanipulationprocessor_pivotpointx.htm
 tech.root: wintouch

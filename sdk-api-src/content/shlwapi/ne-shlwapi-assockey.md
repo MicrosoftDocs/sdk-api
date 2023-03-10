@@ -1,5 +1,5 @@
 ---
-UID: NE:shlwapi.__unnamed_enum_7
+UID: NE:shlwapi.ASSOCKEY
 title: ASSOCKEY (shlwapi.h)
 description: Specifies the type of key to be returned by IQueryAssociations::GetKey.
 helpviewer_keywords: ["ASSOCKEY","ASSOCKEY enumeration [Windows Shell]","ASSOCKEY_APP","ASSOCKEY_BASECLASS","ASSOCKEY_CLASS","ASSOCKEY_SHELLEXECCLASS","_win32_ASSOCKEY_str","shell.ASSOCKEY_str","shlwapi/ASSOCKEY","shlwapi/ASSOCKEY_APP","shlwapi/ASSOCKEY_BASECLASS","shlwapi/ASSOCKEY_CLASS","shlwapi/ASSOCKEY_SHELLEXECCLASS"]
@@ -71,3 +71,4 @@ A ProgID or class key.
 A BaseClass value.
 
 ### -field ASSOCKEY_MAX
+

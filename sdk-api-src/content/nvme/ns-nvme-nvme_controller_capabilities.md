@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_0
-tech.root: fs 
+UID: NS:nvme.NVME_CONTROLLER_CAPABILITIES
+tech.root: fs
 title: NVME_CONTROLLER_CAPABILITIES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains read only values that specify the basic capabilities of the controller to host software.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CONTROLLER_CAPABILITIES, *PNVME_CONTROLLER_CAPABILITIES
@@ -41,11 +41,12 @@ dev_langs:
 
 # NVME_CONTROLLER_CAPABILITIES structure
 
+
 ## -description
 
 Contains read only values that specify the basic capabilities of the controller to host software.
 
-This structure is used in the Controller Capabilities (**CAP**) field of the [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md) structure.
+This structure is used in the Controller Capabilities (**CAP**) field of the [NVME_CONTROLLER_REGISTERS](../nvme/ns-nvme-nvme_controller_registers.md) structure.
 
 ## -struct-fields
 
@@ -161,4 +162,5 @@ The host will not configure a memory page size in the **MPS** field of [NVME_CON
 ## -see-also
 
 - [NVME_CONTROLLER_CONFIGURATION](ns-nvme-nvme_controller_configuration.md)
-- [NVME_CONTROLLER_REGISTERS](ns-nvme-nvme_controller_registers.md)
+- [NVME_CONTROLLER_REGISTERS](../nvme/ns-nvme-nvme_controller_registers.md)
+

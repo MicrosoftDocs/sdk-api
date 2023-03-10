@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.ExpandToEnclosingUnit
 title: ITextRangeProvider::ExpandToEnclosingUnit (uiautomationcore.h)
-description: Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit.
+description: Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit. (ITextRangeProvider.ExpandToEnclosingUnit)
 helpviewer_keywords: ["ExpandToEnclosingUnit","ExpandToEnclosingUnit method [Windows Accessibility]","ExpandToEnclosingUnit method [Windows Accessibility]","ITextRangeProvider interface","ITextRangeProvider interface [Windows Accessibility]","ExpandToEnclosingUnit method","ITextRangeProvider.ExpandToEnclosingUnit","ITextRangeProvider::ExpandToEnclosingUnit","uiauto.uiauto_ITextRangeProvider_ExpandToEnclosingUnit","uiauto_ITextRangeProvider_ExpandToEnclosingUnit","uiautomationcore/ITextRangeProvider::ExpandToEnclosingUnit","winauto.uiauto_ITextRangeProvider_ExpandToEnclosingUnit"]
 old-location: winauto\uiauto_ITextRangeProvider_ExpandToEnclosingUnit.htm
 tech.root: WinAuto

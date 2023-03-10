@@ -1,7 +1,7 @@
 ---
 UID: NS:winfax._FAX_PRINT_INFOA
 title: FAX_PRINT_INFOA (winfax.h)
-description: The FAX_PRINT_INFO structure contains the information necessary for the fax server to print a fax transmission. The structure includes sender and recipient data, an optional billing code, and delivery report information.
+description: The FAX_PRINT_INFO structure contains the information necessary for the fax server to print a fax transmission. The structure includes sender and recipient data, an optional billing code, and delivery report information. (ANSI)
 helpviewer_keywords: ["*PFAX_PRINT_INFOA","FAX_PRINT_INFO","FAX_PRINT_INFO structure [Fax Service]","FAX_PRINT_INFOA","FAX_PRINT_INFOW","PFAX_PRINT_INFO","PFAX_PRINT_INFO structure pointer [Fax Service]","_mfax_fax_print_info_str","fax._mfax_fax_print_info_str","winfax/FAX_PRINT_INFO","winfax/FAX_PRINT_INFOA","winfax/FAX_PRINT_INFOW","winfax/PFAX_PRINT_INFO"]
 old-location: fax\_mfax_fax_print_info_str.htm
 tech.root: Fax

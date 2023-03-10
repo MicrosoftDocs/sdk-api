@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.put_AutomationElementMode
 title: IUIAutomationCacheRequest::put_AutomationElementMode (uiautomationclient.h)
-description: Indicates whether returned elements contain full references to the underlying UI, or only cached information.
+description: Indicates whether returned elements contain full references to the underlying UI, or only cached information. (Put)
 helpviewer_keywords: ["AutomationElementMode property [Windows Accessibility]","AutomationElementMode property [Windows Accessibility]","IUIAutomationCacheRequest interface","IUIAutomationCacheRequest interface [Windows Accessibility]","AutomationElementMode property","IUIAutomationCacheRequest.AutomationElementMode","IUIAutomationCacheRequest.put_AutomationElementMode","IUIAutomationCacheRequest::AutomationElementMode","IUIAutomationCacheRequest::get_AutomationElementMode","IUIAutomationCacheRequest::put_AutomationElementMode","put_AutomationElementMode","uiauto.uiauto_IUIAutomationCacheRequest_AutomationElementMode","uiauto_IUIAutomationCacheRequest_AutomationElementMode","uiautomationclient/IUIAutomationCacheRequest::AutomationElementMode","uiautomationclient/IUIAutomationCacheRequest::get_AutomationElementMode","uiautomationclient/IUIAutomationCacheRequest::put_AutomationElementMode","winauto.uiauto_IUIAutomationCacheRequest_AutomationElementMode"]
 old-location: winauto\uiauto_IUIAutomationCacheRequest_AutomationElementMode.htm
 tech.root: WinAuto

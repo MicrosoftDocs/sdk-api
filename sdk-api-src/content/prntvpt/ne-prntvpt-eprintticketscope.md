@@ -1,5 +1,5 @@
 ---
-UID: NE:prntvpt.__unnamed_enum_0
+UID: NE:prntvpt.EPrintTicketScope
 title: EPrintTicketScope (prntvpt.h)
 description: Specifies the scope of a print ticket.
 helpviewer_keywords: ["EPrintTicketScope","EPrintTicketScope enumeration [Windows GDI]","_win32_EPrintTicketScope","gdi.eprintticketscope","kPTDocumentScope","kPTJobScope","kPTPageScope","prntvpt/EPrintTicketScope","prntvpt/kPTDocumentScope","prntvpt/kPTJobScope","prntvpt/kPTPageScope"]

@@ -1,5 +1,5 @@
 ---
-UID: NE:qnetwork.__unnamed_enum_0
+UID: NE:qnetwork.AMExtendedSeekingCapabilities
 title: AMExtendedSeekingCapabilities (qnetwork.h)
 description: The AMExtendedSeekingCapabilities enumeration contains flags that describe the extended seeking capabilities of a filter.
 helpviewer_keywords: ["AMExtendedSeekingCapabilities","AMExtendedSeekingCapabilities enumeration [DirectShow]","AMExtendedSeekingCapabilitiesEnumeration","AM_EXSEEK_BUFFERING","AM_EXSEEK_CANSCAN","AM_EXSEEK_CANSEEK","AM_EXSEEK_MARKERSEEK","AM_EXSEEK_NOSTANDARDREPAINT","AM_EXSEEK_SCANWITHOUTCLOCK","AM_EXSEEK_SENDS_VIDEOFRAMEREADY","dshow.amextendedseekingcapabilities","qnetwork/AMExtendedSeekingCapabilities","qnetwork/AM_EXSEEK_BUFFERING","qnetwork/AM_EXSEEK_CANSCAN","qnetwork/AM_EXSEEK_CANSEEK","qnetwork/AM_EXSEEK_MARKERSEEK","qnetwork/AM_EXSEEK_NOSTANDARDREPAINT","qnetwork/AM_EXSEEK_SCANWITHOUTCLOCK","qnetwork/AM_EXSEEK_SENDS_VIDEOFRAMEREADY"]
@@ -89,3 +89,4 @@ See <a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_ex
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+

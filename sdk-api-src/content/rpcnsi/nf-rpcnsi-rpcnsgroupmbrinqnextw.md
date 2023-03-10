@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrInqNextW
 title: RpcNsGroupMbrInqNextW function (rpcnsi.h)
-description: The RpcNsGroupMbrInqNext function returns one entry name from a group at a time.
-helpviewer_keywords: ["RpcNsGroupMbrInqNext","RpcNsGroupMbrInqNext function [RPC]","RpcNsGroupMbrInqNextA","RpcNsGroupMbrInqNextW","_rpc_rpcnsgroupmbrinqnext","rpc.rpcnsgroupmbrinqnext","rpcnsi/RpcNsGroupMbrInqNext","rpcnsi/RpcNsGroupMbrInqNextA","rpcnsi/RpcNsGroupMbrInqNextW"]
+description: The RpcNsGroupMbrInqNext function returns one entry name from a group at a time. (Unicode)
+helpviewer_keywords: ["RpcNsGroupMbrInqNext", "RpcNsGroupMbrInqNext function [RPC]", "RpcNsGroupMbrInqNextW", "_rpc_rpcnsgroupmbrinqnext", "rpc.rpcnsgroupmbrinqnext", "rpcnsi/RpcNsGroupMbrInqNext", "rpcnsi/RpcNsGroupMbrInqNextW"]
 old-location: rpc\rpcnsgroupmbrinqnext.htm
 tech.root: Rpc
 ms.assetid: 58f32594-85de-4d20-86b2-210367ccb7ce

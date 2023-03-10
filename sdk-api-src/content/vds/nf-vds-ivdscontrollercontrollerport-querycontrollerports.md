@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsControllerControllerPort.QueryControllerPorts
 title: IVdsControllerControllerPort::QueryControllerPorts (vds.h)
-description: Returns an IEnumVdsObject object that enumerates the ports of the controller.
+description: The IVdsControllerControllerPort::QueryControllerPorts (vds.h) method returns an IEnumVdsObject object that enumerates the ports of the controller.
 helpviewer_keywords: ["IVdsControllerControllerPort interface [VDS]","QueryControllerPorts method","IVdsControllerControllerPort.QueryControllerPorts","IVdsControllerControllerPort::QueryControllerPorts","QueryControllerPorts","QueryControllerPorts method [VDS]","QueryControllerPorts method [VDS]","IVdsControllerControllerPort interface","base.ivdscontrollercontrollerport_querycontrollerports","vds/IVdsControllerControllerPort::QueryControllerPorts","vdshwprv/IVdsControllerControllerPort::QueryControllerPorts"]
 old-location: base\ivdscontrollercontrollerport_querycontrollerports.htm
 tech.root: base
 ms.assetid: 676d0ae9-7d9e-4dc3-93c2-56c96a05ac0a
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsControllerControllerPort interface [VDS],QueryControllerPorts method, IVdsControllerControllerPort.QueryControllerPorts, IVdsControllerControllerPort::QueryControllerPorts, QueryControllerPorts, QueryControllerPorts method [VDS], QueryControllerPorts method [VDS],IVdsControllerControllerPort interface, base.ivdscontrollercontrollerport_querycontrollerports, vds/IVdsControllerControllerPort::QueryControllerPorts, vdshwprv/IVdsControllerControllerPort::QueryControllerPorts
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns an <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ienumvdsobject">IEnumVdsObject</a> object that 
     enumerates the ports of the controller.

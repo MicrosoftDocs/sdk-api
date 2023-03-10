@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_24
-tech.root: fs 
+UID: NS:nvme.NVME_SET_ATTRIBUTES_ENTRY
+tech.root: fs
 title: NVME_SET_ATTRIBUTES_ENTRY
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains fields that specify information for setting an attribute.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_SET_ATTRIBUTES_ENTRY, *PNVME_SET_ATTRIBUTES_ENTRY
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_SET_ATTRIBUTES_ENTRY structure
+
 
 ## -description
 

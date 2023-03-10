@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.IkeextGetStatistics1
 title: IkeextGetStatistics1 function (fwpmu.h)
-description: Retrieves Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) statistics.
+description: Retrieves Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) statistics. (IkeextGetStatistics1)
 helpviewer_keywords: ["IkeextGetStatistics1","IkeextGetStatistics1 function [Filtering]","fwp.ikeextgetstatistics1","fwpmu/IkeextGetStatistics1"]
 old-location: fwp\ikeextgetstatistics1.htm
 tech.root: fwp

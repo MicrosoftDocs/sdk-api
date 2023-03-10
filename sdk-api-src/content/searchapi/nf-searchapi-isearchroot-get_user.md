@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_User
 title: ISearchRoot::get_User (searchapi.h)
-description: Not implemented.
+description: Not implemented. (ISearchRoot.get_User)
 helpviewer_keywords: ["ISearchRoot interface [search]","get_User method","ISearchRoot.get_User","ISearchRoot::get_User","_search_ISearchRoot_get_User","get_User","get_User method [search]","get_User method [search]","ISearchRoot interface","search._search_ISearchRoot_get_User","searchapi/ISearchRoot::get_User"]
 old-location: search\_search_ISearchRoot_get_User.htm
 tech.root: search

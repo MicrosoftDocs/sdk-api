@@ -2,9 +2,9 @@
 UID: NS:ioringapi.IORING_BUFFER_REF
 tech.root: fs
 title: IORING_BUFFER_REF
-ms.date: 07/16/2021
+ms.date: 08/03/2022
 targetos: Windows
-description: 
+description: IORING_BUFFER_REF represents a reference to a buffer used in an I/O ring operation.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

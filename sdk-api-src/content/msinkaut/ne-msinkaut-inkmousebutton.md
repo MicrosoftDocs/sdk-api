@@ -1,7 +1,7 @@
 ---
 UID: NE:msinkaut.InkMouseButton
 title: InkMouseButton (msinkaut.h)
-description: Specifies which mouse button was pressed.
+description: Specifies which mouse button was pressed. (InkMouseButton)
 helpviewer_keywords: ["38db0d8e-a6db-42fa-8269-69254d38cba8","IMF_Left","IMF_Middle","IMF_Right","InkMouseButton","InkMouseButton enumeration [Tablet PC]","msinkaut/IMF_Left","msinkaut/IMF_Middle","msinkaut/IMF_Right","msinkaut/InkMouseButton","tablet.inkmousebutton"]
 old-location: tablet\inkmousebutton.htm
 tech.root: tablet

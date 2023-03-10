@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-Creating an instance of [IMFContentDecryptionModuleFactory](mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulefactory), a class factory for Content Decryption Module (CDM) objects, for a specified key system. 
+Creating an instance of [IMFContentDecryptionModuleFactory](../mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulefactory.md), a class factory for Content Decryption Module (CDM) objects, for a specified key system. 
 
 ## -parameters
 

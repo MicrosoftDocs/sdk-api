@@ -1,5 +1,5 @@
 ---
-UID: NE:rtworkq.__unnamed_enum_0
+UID: NE:rtworkq.RTWQ_WORKQUEUE_TYPE
 title: RTWQ_WORKQUEUE_TYPE (rtworkq.h)
 description: Specifies the type of work queue for the RtwqAllocateWorkQueue function to create.
 helpviewer_keywords: ["RTWQ_MULTITHREADED_WORKQUEUE","RTWQ_STANDARD_WORKQUEUE","RTWQ_WINDOW_WORKQUEUE","RTWQ_WORKQUEUE_TYPE","RTWQ_WORKQUEUE_TYPE enumeration","base.rtwq_workqueue_type","rtworkq/RTWQ_MULTITHREADED_WORKQUEUE","rtworkq/RTWQ_STANDARD_WORKQUEUE","rtworkq/RTWQ_WINDOW_WORKQUEUE","rtworkq/RTWQ_WORKQUEUE_TYPE"]
@@ -65,3 +65,4 @@ Create a work queue with a message loop.
 ### -field RTWQ_MULTITHREADED_WORKQUEUE:2
 
 Create a multithreaded work queue. This type of work queue uses a thread pool to dispatch work items. The caller is responsible for serializing the work items.
+

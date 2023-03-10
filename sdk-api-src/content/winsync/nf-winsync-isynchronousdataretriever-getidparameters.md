@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.ISynchronousDataRetriever.GetIdParameters
 title: ISynchronousDataRetriever::GetIdParameters (winsync.h)
-description: Gets the ID format schema of the provider.
+description: Gets the ID format schema of the provider. (ISynchronousDataRetriever.GetIdParameters)
 helpviewer_keywords: ["GetIdParameters","GetIdParameters method [Windows Sync]","GetIdParameters method [Windows Sync]","ISynchronousDataRetriever interface","ISynchronousDataRetriever interface [Windows Sync]","GetIdParameters method","ISynchronousDataRetriever.GetIdParameters","ISynchronousDataRetriever::GetIdParameters","winsync.isynchronousdataretriever_getidparameters","winsync/ISynchronousDataRetriever::GetIdParameters"]
 old-location: winsync\isynchronousdataretriever_getidparameters.htm
 tech.root: winsync

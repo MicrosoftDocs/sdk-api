@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_ReportEnabled
 title: IFsrmFileManagementJob::get_ReportEnabled (fsrmreports.h)
-description: Indicates whether the job will generate a report when it runs.
+description: Indicates whether the job will generate a report when it runs. (Get)
 helpviewer_keywords: ["IFsrmFileManagementJob interface [File Server Resource Manager]","ReportEnabled property","IFsrmFileManagementJob.ReportEnabled","IFsrmFileManagementJob.get_ReportEnabled","IFsrmFileManagementJob::ReportEnabled","IFsrmFileManagementJob::get_ReportEnabled","IFsrmFileManagementJob::put_ReportEnabled","ReportEnabled property [File Server Resource Manager]","ReportEnabled property [File Server Resource Manager]","IFsrmFileManagementJob interface","fs.ifsrmfilemanagementjob_reportenabled","fsrm.ifsrmfilemanagementjob_reportenabled","fsrmreports/IFsrmFileManagementJob::ReportEnabled","fsrmreports/IFsrmFileManagementJob::get_ReportEnabled","fsrmreports/IFsrmFileManagementJob::put_ReportEnabled","get_ReportEnabled"]
 old-location: fsrm\ifsrmfilemanagementjob_reportenabled.htm
 tech.root: fsrm

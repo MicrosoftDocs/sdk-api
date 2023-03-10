@@ -1,7 +1,7 @@
 ---
 UID: NE:icftypes.NET_FW_PROFILE_TYPE_
 title: NET_FW_PROFILE_TYPE (icftypes.h)
-description: Specifies the type of profile.
+description: Specifies the type of profile. (NET_FW_PROFILE_TYPE)
 helpviewer_keywords: ["NET_FW_PROFILE_CURRENT","NET_FW_PROFILE_DOMAIN","NET_FW_PROFILE_STANDARD","NET_FW_PROFILE_TYPE","NET_FW_PROFILE_TYPE enumeration [ICS/ICF]","NET_FW_PROFILE_TYPE_","NET_FW_PROFILE_TYPE_MAX","icftypes/NET_FW_PROFILE_CURRENT","icftypes/NET_FW_PROFILE_DOMAIN","icftypes/NET_FW_PROFILE_STANDARD","icftypes/NET_FW_PROFILE_TYPE","icftypes/NET_FW_PROFILE_TYPE_MAX","ics.net_fw_profile_type"]
 old-location: ics\net_fw_profile_type.htm
 tech.root: ics

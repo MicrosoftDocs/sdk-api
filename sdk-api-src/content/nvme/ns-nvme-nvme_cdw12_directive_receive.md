@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_136
-tech.root: fs 
+UID: NS:nvme.NVME_CDW12_DIRECTIVE_RECEIVE
+tech.root: fs
 title: NVME_CDW12_DIRECTIVE_RECEIVE
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains a parameter for allocating stream resources for the Directive Receive command.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW12_DIRECTIVE_RECEIVE
@@ -38,6 +38,7 @@ dev_langs:
 
 # NVME_CDW12_DIRECTIVE_RECEIVE structure
 
+
 ## -description
 
 Contains a parameter for allocating stream resources for the Directive Receive command.
@@ -58,3 +59,4 @@ A [NVME_CDW12_DIRECTIVE_RECEIVE_STREAMS_ALLOCATE_RESOURCES](ns-nvme-nvme_cdw12_d
 
 - [NVME_CDW10_DIRECTIVE_RECEIVE](ns-nvme-nvme_cdw10_directive_receive.md)
 - [NVME_CDW11_DIRECTIVE_RECEIVE](ns-nvme-nvme_cdw11_directive_receive.md)
+

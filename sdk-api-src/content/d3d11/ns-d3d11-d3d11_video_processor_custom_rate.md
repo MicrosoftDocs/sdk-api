@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_CUSTOM_RATE
 title: D3D11_VIDEO_PROCESSOR_CUSTOM_RATE (d3d11.h)
-description: Specifies a custom rate for frame-rate conversion or inverse telecine (IVTC).
+description: Specifies a custom rate for frame-rate conversion or inverse telecine (IVTC). (D3D11_VIDEO_PROCESSOR_CUSTOM_RATE)
 helpviewer_keywords: ["D3D11_VIDEO_PROCESSOR_CUSTOM_RATE","D3D11_VIDEO_PROCESSOR_CUSTOM_RATE structure [Media Foundation]","d3d11/D3D11_VIDEO_PROCESSOR_CUSTOM_RATE","mf.d3d11_video_processor_custom_rate"]
 old-location: mf\d3d11_video_processor_custom_rate.htm
 tech.root: mf

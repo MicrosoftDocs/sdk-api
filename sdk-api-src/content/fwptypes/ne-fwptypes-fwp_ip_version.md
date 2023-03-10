@@ -1,7 +1,7 @@
 ---
 UID: NE:fwptypes.FWP_IP_VERSION_
 title: FWP_IP_VERSION (fwptypes.h)
-description: Specifies the IP version.
+description: Specifies the IP version. (FWP_IP_VERSION)
 helpviewer_keywords: ["FWP_IP_VERSION","FWP_IP_VERSION enumeration [Filtering]","FWP_IP_VERSION_MAX","FWP_IP_VERSION_NONE","FWP_IP_VERSION_V4","FWP_IP_VERSION_V6","fwp.fwp_ip_version_enum","fwptypes/FWP_IP_VERSION","fwptypes/FWP_IP_VERSION_MAX","fwptypes/FWP_IP_VERSION_NONE","fwptypes/FWP_IP_VERSION_V4","fwptypes/FWP_IP_VERSION_V6"]
 old-location: fwp\fwp_ip_version_enum.htm
 tech.root: fwp

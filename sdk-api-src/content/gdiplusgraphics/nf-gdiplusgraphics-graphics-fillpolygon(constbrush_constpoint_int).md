@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillPolygon(constBrush,constPoint,INT)
 title: Graphics::FillPolygon(IN const Brush,IN const Point,IN INT) (gdiplusgraphics.h)
-description: The Graphics::FillPolygon method uses a brush to fill the interior of a polygon.
+description: The Graphics::FillPolygon method uses a brush to fill the interior of a polygon. (overload 4/4)
 helpviewer_keywords: ["FillPolygon","FillPolygon method [GDI+]","FillPolygon method [GDI+]","Graphics class","Graphics class [GDI+]","FillPolygon method","Graphics.FillPolygon","Graphics.FillPolygon(IN const Brush","IN const Point","IN INT)","Graphics.FillPolygon(const Brush*","const Point*","INT)","Graphics::FillPolygon","Graphics::FillPolygon(IN const Brush","IN const Point","IN INT)","_gdiplus_CLASS_Graphics_FillPolygon_Brush_brush_Point_points_INT_count_","gdiplus._gdiplus_CLASS_Graphics_FillPolygon_Brush_brush_Point_points_INT_count_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPolygon_Brush_brush_Point_points_INT_count_.htm
 tech.root: gdiplus

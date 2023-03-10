@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptVerifySignature
 title: BCryptVerifySignature function (bcrypt.h)
-description: Verifies that the specified signature matches the specified hash.
+description: Verifies that the specified signature matches the specified hash. (BCryptVerifySignature)
 helpviewer_keywords: ["BCRYPT_PAD_PKCS1","BCRYPT_PAD_PSS","BCryptVerifySignature","BCryptVerifySignature function [Security]","bcrypt/BCryptVerifySignature","security.bcryptverifysignature_func"]
 old-location: security\bcryptverifysignature_func.htm
 tech.root: security

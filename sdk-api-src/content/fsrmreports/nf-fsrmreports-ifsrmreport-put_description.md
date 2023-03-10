@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.put_Description
 title: IFsrmReport::put_Description (fsrmreports.h)
-description: Retrieves or sets the description of the report.
+description: Retrieves or sets the description of the report. (Put)
 helpviewer_keywords: ["Description property [File Server Resource Manager]","Description property [File Server Resource Manager]","IFsrmReport interface","IFsrmReport interface [File Server Resource Manager]","Description property","IFsrmReport.Description","IFsrmReport.put_Description","IFsrmReport::Description","IFsrmReport::get_Description","IFsrmReport::put_Description","fs.ifsrmreport_description","fsrm.ifsrmreport_description","fsrmreports/IFsrmReport::Description","fsrmreports/IFsrmReport::get_Description","fsrmreports/IFsrmReport::put_Description","put_Description"]
 old-location: fsrm\ifsrmreport_description.htm
 tech.root: fsrm

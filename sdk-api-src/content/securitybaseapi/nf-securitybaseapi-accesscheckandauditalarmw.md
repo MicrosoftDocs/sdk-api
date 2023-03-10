@@ -11,7 +11,7 @@ req.ddi-compliance:
 req.dll: Advapi32.dll 
 req.header: securitybaseapi.h
 req.idl: 
-req.include-header: 
+req.include-header: Windows.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: Advapi32.lib 
@@ -130,7 +130,7 @@ The <b>AccessCheckAndAuditAlarm</b> function fails if the calling thread is not 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-makeabsolutesd">MakeAbsoluteSD</a>  
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-mapgenericmask">MapGenericMask</a>  
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-objectcloseauditalarmw">ObjectCloseAuditAlarm</a>  
-<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-objectopenuditalarmw">ObjectOpenAuditAlarm</a>  
+<a href="/windows/win32/api/securitybaseapi/nf-securitybaseapi-objectopenauditalarmw">ObjectOpenAuditAlarm</a>  
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-objectprivilegeauditalarmw">ObjectPrivilegeAuditAlarm</a>  
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-privilegecheck">PrivilegeCheck</a>  
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-privilegedserviceauditalarmw">PrivilegedServiceAuditAlarm</a>  

@@ -2,9 +2,9 @@
 UID: NS:directml.DML_BATCH_NORMALIZATION_TRAINING_OPERATOR_DESC
 tech.root: directml
 title: DML_BATCH_NORMALIZATION_TRAINING_OPERATOR_DESC
-ms.date: 07/22/2022
+ms.date: 11/30/2022
 targetos: Windows
-description: Performs a batch normalization on the input.
+description: The DML_BATCH_NORMALIZATION_TRAINING_OPERATOR_DESC structure (directml.h) performs a batch normalization on the input.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -98,7 +98,7 @@ The epsilon value to use to avoid division by zero.
 
 Type: \_Maybenull\_ **const [DML_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_operator_desc)\***
 
-An optional fused activation layer to apply after the normalization.
+An optional fused activation layer to apply after the normalization. For more info, see [Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations).
 
 ## -remarks
 
@@ -123,3 +123,5 @@ This operator was introduced in `DML_FEATURE_LEVEL_4_1`.
 | OutputVarianceTensor | Output | { ScaleDimensions[] } | 1 to 8 | FLOAT32, FLOAT16 |
 
 ## -see-also
+
+* [Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations)

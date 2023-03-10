@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetKeyboardLayoutNameA
 title: GetKeyboardLayoutNameA function (winuser.h)
-description: Retrieves the name of the active input locale identifier (formerly called the keyboard layout) for the system.
-helpviewer_keywords: ["GetKeyboardLayoutName","GetKeyboardLayoutName function [Keyboard and Mouse Input]","GetKeyboardLayoutNameA","GetKeyboardLayoutNameW","_win32_GetKeyboardLayoutName","_win32_getkeyboardlayoutname_cpp","inputdev.getkeyboardlayoutname","winui._win32_getkeyboardlayoutname","winuser/GetKeyboardLayoutName","winuser/GetKeyboardLayoutNameA","winuser/GetKeyboardLayoutNameW"]
+description: Retrieves the name of the active input locale identifier (formerly called the keyboard layout) for the system. (ANSI)
+helpviewer_keywords: ["GetKeyboardLayoutNameA", "winuser/GetKeyboardLayoutNameA"]
 old-location: inputdev\getkeyboardlayoutname.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeyboardlayoutname.htm
@@ -69,6 +69,8 @@ Retrieves the name of the active input locale identifier (formerly called the ke
 Type: <b>LPTSTR</b>
 
 The buffer (of at least <b>KL_NAMELENGTH</b> characters in length) that receives the name of the input locale identifier, including the terminating null character. This will be a copy of the string provided to the <a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a> function, unless layout substitution took place.
+
+For a list of the input layouts that are supplied with Windows, see [Keyboard Identifiers and Input Method Editors for Windows](/windows-hardware/manufacture/desktop/windows-language-pack-default-values).
 
 ## -returns
 

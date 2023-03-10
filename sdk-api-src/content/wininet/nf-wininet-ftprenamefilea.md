@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.FtpRenameFileA
 title: FtpRenameFileA function (wininet.h)
-description: Renames a file stored on the FTP server.
-helpviewer_keywords: ["FtpRenameFile","FtpRenameFile function [WinINet]","FtpRenameFileA","FtpRenameFileW","_inet_ftprenamefile_function","wininet.ftprenamefile","wininet/FtpRenameFile","wininet/FtpRenameFileA","wininet/FtpRenameFileW"]
+description: Renames a file stored on the FTP server. (ANSI)
+helpviewer_keywords: ["FtpRenameFileA", "wininet/FtpRenameFileA"]
 old-location: wininet\ftprenamefile.htm
 tech.root: wininet
 ms.assetid: 2c46d8bb-aceb-4dd2-be4f-2c418357d4ae

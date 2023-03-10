@@ -1,7 +1,7 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.get_IpAddressSource
 title: IWdsTransportServicePolicy::get_IpAddressSource (wdstptmgmt.h)
-description: Enables a WDS client computer to configure, for a specified type of IP address, the IP address source from which the WDS transport server obtains a multicast address.
+description: Enables a WDS client computer to configure, for a specified type of IP address, the IP address source from which the WDS transport server obtains a multicast address. (Get)
 helpviewer_keywords: ["IWdsTransportServicePolicy interface [Windows Deployment Services]","IpAddressSource property","IWdsTransportServicePolicy.IpAddressSource","IWdsTransportServicePolicy.get_IpAddressSource","IWdsTransportServicePolicy::IpAddressSource","IWdsTransportServicePolicy::get_IpAddressSource","IWdsTransportServicePolicy::put_IpAddressSource","IpAddressSource property [Windows Deployment Services]","IpAddressSource property [Windows Deployment Services]","IWdsTransportServicePolicy interface","get_IpAddressSource","wds.iwdstransportservicepolicy_ipaddresssource","wdstptmgmt/IWdsTransportServicePolicy::IpAddressSource","wdstptmgmt/IWdsTransportServicePolicy::get_IpAddressSource","wdstptmgmt/IWdsTransportServicePolicy::put_IpAddressSource"]
 old-location: wds\iwdstransportservicepolicy_ipaddresssource.htm
 tech.root: wds

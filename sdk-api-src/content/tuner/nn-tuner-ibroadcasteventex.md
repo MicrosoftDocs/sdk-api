@@ -67,7 +67,7 @@ For information about implementing a class that can source or sink broadcast eve
 
 The <b>IBroadcastEventEx</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a>. <b>IBroadcastEventEx</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -members

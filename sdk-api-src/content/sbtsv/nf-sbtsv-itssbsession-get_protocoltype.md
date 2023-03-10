@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_ProtocolType
 title: ITsSbSession::get_ProtocolType (sbtsv.h)
-description: Retrieves or specifies the protocol type for the session.
+description: Retrieves or specifies the protocol type for the session. (Get)
 helpviewer_keywords: ["ITsSbSession interface [Remote Desktop Services]","ProtocolType property","ITsSbSession.ProtocolType","ITsSbSession.get_ProtocolType","ITsSbSession::ProtocolType","ITsSbSession::get_ProtocolType","ITsSbSession::put_ProtocolType","ProtocolType property [Remote Desktop Services]","ProtocolType property [Remote Desktop Services]","ITsSbSession interface","get_ProtocolType","sbtsv/ITsSbSession::ProtocolType","sbtsv/ITsSbSession::get_ProtocolType","sbtsv/ITsSbSession::put_ProtocolType","termserv.itssbsession_protocoltype"]
 old-location: termserv\itssbsession_protocoltype.htm
 tech.root: TermServ

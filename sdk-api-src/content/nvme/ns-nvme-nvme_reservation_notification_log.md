@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_101
-tech.root: fs 
+UID: NS:nvme.NVME_RESERVATION_NOTIFICATION_LOG
+tech.root: fs
 title: NVME_RESERVATION_NOTIFICATION_LOG
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains fields that specify the information in a Reservation Notification Log page.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_RESERVATION_NOTIFICATION_LOG, *PNVME_RESERVATION_NOTIFICATION_LOG
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_RESERVATION_NOTIFICATION_LOG structure
+
 
 ## -description
 

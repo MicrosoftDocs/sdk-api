@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Multithread.Enter
 title: ID3D10Multithread::Enter (d3d10.h)
-description: Enter a device's critical section.
+description: Enter a device's critical section. (ID3D10Multithread.Enter)
 helpviewer_keywords: ["Enter","Enter method [Direct3D 10]","Enter method [Direct3D 10]","ID3D10Multithread interface","ID3D10Multithread interface [Direct3D 10]","Enter method","ID3D10Multithread.Enter","ID3D10Multithread::Enter","d34de96c-b476-19e4-cf57-4e43604474ab","d3d10/ID3D10Multithread::Enter","direct3d10.id3d10multithread_enter"]
 old-location: direct3d10\id3d10multithread_enter.htm
 tech.root: direct3d10

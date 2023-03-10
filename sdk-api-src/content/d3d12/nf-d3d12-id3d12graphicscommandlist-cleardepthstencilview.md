@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ClearDepthStencilView
 title: ID3D12GraphicsCommandList::ClearDepthStencilView (d3d12.h)
-description: Clears the depth-stencil resource.
+description: Clears the depth-stencil resource. (ID3D12GraphicsCommandList.ClearDepthStencilView)
 helpviewer_keywords: ["ClearDepthStencilView","ClearDepthStencilView method","ClearDepthStencilView method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","ClearDepthStencilView method","ID3D12GraphicsCommandList.ClearDepthStencilView","ID3D12GraphicsCommandList::ClearDepthStencilView","d3d12/ID3D12GraphicsCommandList::ClearDepthStencilView","direct3d12.id3d12graphicscommandlist_cleardepthstencilview"]
 old-location: direct3d12\id3d12graphicscommandlist_cleardepthstencilview.htm
 tech.root: direct3d12
@@ -47,7 +47,6 @@ api_name:
 
 # ID3D12GraphicsCommandList::ClearDepthStencilView
 
-
 ## -description
 
 Clears the depth-stencil resource.
@@ -92,29 +91,24 @@ An array of <b>D3D12_RECT</b> structures for the rectangles in the resource view
 
 ## -remarks
 
+Only direct and bundle command lists support this operation.  
+
 <b>ClearDepthStencilView</b> may be used to initialize resources which alias the same heap memory. See <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a> for more details.
 
 <h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>
 For floating-point inputs, the runtime will set denormalized values to 0 (while preserving NANs).
-          
 
 Validation failure will result in the call to <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> returning <b>E_INVALIDARG</b>.
-          
 
 <h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
 The debug layer will issue errors if the input colors are denormalized.
-          
 
 The debug layer will issue an error if the subresources referenced by the view are not in the appropriate state.
             For <b>ClearDepthStencilView</b>, the state must be in the state <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_DEPTH_WRITE</a>.
-          
 
-
-#### Examples
+## Examples
 
 The <a href="/windows/desktop/direct3d12/working-samples">D3D12Bundles</a> sample uses <b>ID3D12GraphicsCommandList::ClearDepthStencilView</b> as follows:
-        
-
 
 ```cpp
 // Pipeline objects.
@@ -134,10 +128,7 @@ ComPtr<ID3D12DescriptorHeap> m_samplerHeap;
 ComPtr<ID3D12PipelineState> m_pipelineState1;
 ComPtr<ID3D12PipelineState> m_pipelineState2;
 D3D12_RECT m_scissorRect;
-
 ```
-
-
 
 ```cpp
 void D3D12Bundles::PopulateCommandList(FrameResource* pFrameResource)
@@ -190,13 +181,9 @@ void D3D12Bundles::PopulateCommandList(FrameResource* pFrameResource)
 
     ThrowIfFailed(m_commandList->Close());
 }
-
 ```
 
-
 The <a href="/windows/desktop/direct3d12/working-samples">D3D12Multithreading</a> sample uses <b>ID3D12GraphicsCommandList::ClearDepthStencilView</b> as follows:
-        
-
 
 ```cpp
 void FrameResource::Init()
@@ -221,10 +208,7 @@ void FrameResource::Init()
         ThrowIfFailed(m_sceneCommandLists[i]->Reset(m_sceneCommandAllocators[i].Get(), m_pipelineState.Get()));
     }
 }
-
 ```
-
-
 
 ```cpp
 // Assemble the CommandListPre command list.
@@ -252,14 +236,9 @@ void D3D12Multithreading::MidFrame()
 
     ThrowIfFailed(m_pCurrentFrameResource->m_commandLists[CommandListMid]->Close());
 }
-
 ```
 
-
-See <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
-        
-
-<div class="code"></div>
+See <a href="/windows/desktop/direct3d12/notes-on-example-code">Example code in the Direct3D 12 reference</a>.
 
 ## -see-also
 

@@ -38,7 +38,7 @@ helpviewer_keywords:
 
 ## -description
 
-Provides the [CreateContentDecryptionModuleFactory](nf-mfmediaengine-imfmediaengineclassfactory4-createcontentdecryptionmodulefactory.md) method for creating an instance of [IMFContentDecryptionModuleFactory](mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulefactory), a class factory for Content Decryption Module (CDM) objects, for a specified key system. 
+Provides the [CreateContentDecryptionModuleFactory](nf-mfmediaengine-imfmediaengineclassfactory4-createcontentdecryptionmodulefactory.md) method for creating an instance of [IMFContentDecryptionModuleFactory](../mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulefactory.md), a class factory for Content Decryption Module (CDM) objects, for a specified key system. 
 
 ## -remarks
 

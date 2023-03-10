@@ -79,7 +79,7 @@ The hardware supports 9.3 <a href="/windows/desktop/direct3d11/overviews-direct3
 Use this enumeration when creating a device with <a href="/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdevice1">D3D10CreateDevice1</a> or <a href="/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdeviceandswapchain1">D3D10CreateDeviceAndSwapChain1</a>.
 
 Note that 10level9 feature levels 9_1, 9_2, and 9_3 are only available with the Direct3D 11 runtime (Windows 7, Windows Server 2008 R2, updated 
-      Windows Vista with Service Pack 2 (SP2) [<a href="https://support.microsoft.com/kb/971644">KB 971644</a>], and updated Windows Server 2008 [<a href="https://support.microsoft.com/kb/971512/">KB 971512</a>]).
+      Windows Vista with Service Pack 2 (SP2) [<a href="https://support.microsoft.com/topic/information-about-service-pack-2-for-windows-vista-and-for-windows-server-2008-7ddc6fc7-5809-45f9-4003-c351c5a2224e">KB 971644</a>], and updated Windows Server 2008 [<a href="https://support.microsoft.com/kb/971512/">KB 971512</a>]).
 
 For information about limitations creating nonhardware-type devices on certain feature levels, see <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-limitations">Limitations Creating WARP and Reference Devices</a>.
 

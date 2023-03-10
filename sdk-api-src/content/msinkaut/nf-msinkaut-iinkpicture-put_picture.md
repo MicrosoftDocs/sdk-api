@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_Picture
 title: IInkPicture::put_Picture (msinkaut.h)
-description: Gets the graphics file to appear on the InkPicture control.
+description: Gets the graphics file to appear on the InkPicture control. (Put)
 helpviewer_keywords: ["IInkPicture interface [Tablet PC]","Picture property","IInkPicture.Picture","IInkPicture.put_Picture","IInkPicture::Picture","IInkPicture::get_Picture","IInkPicture::put_Picture","InkPicture.get_Picture","InkPicture.put_Picture","Picture property [Tablet PC]","Picture property [Tablet PC]","IInkPicture interface","msinkaut/IInkPicture::Picture","msinkaut/IInkPicture::get_Picture","msinkaut/IInkPicture::put_Picture","put_Picture","tablet.inkpicture_picture"]
 old-location: tablet\inkpicture_picture.htm
 tech.root: tablet

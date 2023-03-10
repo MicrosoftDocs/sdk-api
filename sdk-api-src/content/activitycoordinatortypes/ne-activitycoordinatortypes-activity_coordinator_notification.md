@@ -2,7 +2,7 @@
 UID: NE:activitycoordinatortypes._ACTIVITY_COORDINATOR_NOTIFICATION
 tech.root: activity_coordinator
 title: ACTIVITY_COORDINATOR_NOTIFICATION
-ms.date: 04/25/2022
+ms.date: 02/13/2023
 targetos: Windows
 description: An enumeration of the possible notification types for the subscription callback.
 prerelease: false
@@ -49,7 +49,7 @@ Indicates that the conditions of the policy are met, and the associated activity
 
 ### -field ACTIVITY_COORDINATOR_NOTIFICATION_STOP
 
-Indicates that the conditions of the policy are **not** met, and the associated activity should be stopped or paused now.
+Indicates that the conditions of the policy are _not_ met, and the associated activity should be stopped or paused now.
 
 ## -remarks
 
@@ -57,4 +57,4 @@ Indicates that the conditions of the policy are **not** met, and the associated 
 
 [ACTIVITY_COORDINATOR_CALLBACK](../activitycoordinatortypes/nc-activitycoordinatortypes-activity_coordinator_callback.md)
 
-[SubscribeActivityCoordinatorPolicy](nf-activitycoordinator-subscribeactivitycoordinatorpolicy.md)
+[SubscribeActivityCoordinatorPolicy](../activitycoordinator/nf-activitycoordinator-subscribeactivitycoordinatorpolicy.md)

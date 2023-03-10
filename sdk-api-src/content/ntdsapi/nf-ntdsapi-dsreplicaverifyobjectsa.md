@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsReplicaVerifyObjectsA
 title: DsReplicaVerifyObjectsA function (ntdsapi.h)
-description: Verifies all objects for a naming context with a source.
-helpviewer_keywords: ["DS_EXIST_ADVISORY_MODE","DsReplicaVerifyObjects","DsReplicaVerifyObjects function [Active Directory]","DsReplicaVerifyObjectsA","DsReplicaVerifyObjectsW","ad.dsreplicaverifyobjects","ntdsapi/DsReplicaVerifyObjects","ntdsapi/DsReplicaVerifyObjectsA","ntdsapi/DsReplicaVerifyObjectsW"]
+description: Verifies all objects for a naming context with a source. (ANSI)
+helpviewer_keywords: ["DS_EXIST_ADVISORY_MODE", "DsReplicaVerifyObjectsA", "ntdsapi/DsReplicaVerifyObjectsA"]
 old-location: ad\dsreplicaverifyobjects.htm
 tech.root: ad
 ms.assetid: d0e139dc-6aaf-47e1-a76f-4e84f17aa7c6

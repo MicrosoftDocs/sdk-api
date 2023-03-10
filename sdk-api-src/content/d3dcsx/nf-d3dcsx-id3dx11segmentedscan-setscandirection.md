@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dcsx.ID3DX11SegmentedScan.SetScanDirection
 title: ID3DX11SegmentedScan::SetScanDirection (d3dcsx.h)
-description: Sets which direction to perform scans in.
+description: Sets which direction to perform scans in. (ID3DX11SegmentedScan.SetScanDirection)
 helpviewer_keywords: ["ID3DX11SegmentedScan interface [Direct3D 11]","SetScanDirection method","ID3DX11SegmentedScan.SetScanDirection","ID3DX11SegmentedScan::SetScanDirection","SetScanDirection","SetScanDirection method [Direct3D 11]","SetScanDirection method [Direct3D 11]","ID3DX11SegmentedScan interface","a63add8c-ff04-6737-e439-b59bf93546a1","d3dcsx/ID3DX11SegmentedScan::SetScanDirection","direct3d11.id3dx11segmentedscan_setscandirection"]
 old-location: direct3d11\id3dx11segmentedscan_setscandirection.htm
 tech.root: direct3d11

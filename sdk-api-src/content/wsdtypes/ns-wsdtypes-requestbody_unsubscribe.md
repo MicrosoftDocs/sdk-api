@@ -1,5 +1,5 @@
 ---
-UID: NS:wsdtypes.__unnamed_struct_7
+UID: NS:wsdtypes.REQUESTBODY_Unsubscribe
 title: REQUESTBODY_Unsubscribe (wsdtypes.h)
 description: Represents a WS-Eventing Unsubscribe request message.
 helpviewer_keywords: ["REQUESTBODY_Unsubscribe","REQUESTBODY_Unsubscribe structure","ncd.requestbody_unsubscribe_struct","wsdtypes/REQUESTBODY_Unsubscribe"]
@@ -57,3 +57,4 @@ Represents a WS-Eventing Unsubscribe request message.
 ### -field any
 
 Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+

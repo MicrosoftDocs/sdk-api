@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.SetDescription
 title: IShellLinkW::SetDescription (shobjidl_core.h)
-description: Sets the description for a Shell link object. The description can be any application-defined string.
+description: Sets the description for a Shell link object. The description can be any application-defined string. (Unicode)
 helpviewer_keywords: ["IShellLink interface [Windows Shell]","SetDescription method","IShellLink::SetDescription","IShellLinkA interface [Windows Shell]","SetDescription method","IShellLinkA::SetDescription","IShellLinkW interface [Windows Shell]","SetDescription method","IShellLinkW.SetDescription","IShellLinkW::SetDescription","SetDescription","SetDescription method [Windows Shell]","SetDescription method [Windows Shell]","IShellLink interface","SetDescription method [Windows Shell]","IShellLinkA interface","SetDescription method [Windows Shell]","IShellLinkW interface","_win32_IShellLink_SetDescription","shell.IShellLink_SetDescription","shobjidl_core/IShellLink::SetDescription","shobjidl_core/IShellLinkA::SetDescription","shobjidl_core/IShellLinkW::SetDescription"]
 old-location: shell\IShellLink_SetDescription.htm
 tech.root: shell

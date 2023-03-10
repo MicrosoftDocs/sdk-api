@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_7
+UID: NS:lpmapi.Filter_Spec_IPv4GPI
 title: Filter_Spec_IPv4GPI (lpmapi.h)
 description: The Filter_Spec_IPv4GPI structure contains generalized port ID information about an IPv4 FILTERSPEC.
 helpviewer_keywords: ["Filter_Spec_IPv4GPI","Filter_Spec_IPv4GPI structure [QOS]","lpmapi/Filter_Spec_IPv4GPI","qos.filter_spec_ipv4gpi"]
@@ -66,3 +66,4 @@ Generalized Port Identifier.
 ## -see-also
 
 <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>
+

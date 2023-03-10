@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.get_Cost
 title: IX509EnrollmentPolicyServer::get_Cost (certenroll.h)
-description: Specifies and retrieves an arbitrary cost for contacting the certificate enrollment policy server.
+description: Specifies and retrieves an arbitrary cost for contacting the certificate enrollment policy server. (IX509EnrollmentPolicyServer.get_Cost)
 helpviewer_keywords: ["Cost property [Security]","Cost property [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","Cost property","IX509EnrollmentPolicyServer.Cost","IX509EnrollmentPolicyServer.get_Cost","IX509EnrollmentPolicyServer::Cost","IX509EnrollmentPolicyServer::get_Cost","IX509EnrollmentPolicyServer::put_Cost","certenroll/IX509EnrollmentPolicyServer::Cost","certenroll/IX509EnrollmentPolicyServer::get_Cost","certenroll/IX509EnrollmentPolicyServer::put_Cost","get_Cost","security.ix509enrollmentpolicyserver_cost"]
 old-location: security\ix509enrollmentpolicyserver_cost.htm
 tech.root: security

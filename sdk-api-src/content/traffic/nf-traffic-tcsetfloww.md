@@ -1,8 +1,8 @@
 ---
 UID: NF:traffic.TcSetFlowW
 title: TcSetFlowW function (traffic.h)
-description: The TcSetFlow function sets individual parameters for a given flow.
-helpviewer_keywords: ["TcSetFlow","TcSetFlow function [QOS]","TcSetFlowA","TcSetFlowW","_gqos_tcsetflow","qos.tcsetflow","traffic/TcSetFlow","traffic/TcSetFlowA","traffic/TcSetFlowW"]
+description: The TcSetFlow function sets individual parameters for a given flow. (Unicode)
+helpviewer_keywords: ["TcSetFlow", "TcSetFlow function [QOS]", "TcSetFlowW", "_gqos_tcsetflow", "qos.tcsetflow", "traffic/TcSetFlow", "traffic/TcSetFlowW"]
 old-location: qos\tcsetflow.htm
 tech.root: QOS
 ms.assetid: 9989e26c-7e79-43b7-a5b8-f203c27b2a1e

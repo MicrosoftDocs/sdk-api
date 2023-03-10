@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackRunsLong
 title: SetThreadpoolCallbackRunsLong function (winbase.h)
-description: Indicates that callbacks associated with this callback environment may not return quickly.
+description: Indicates that callbacks associated with this callback environment may not return quickly. (SetThreadpoolCallbackRunsLong)
 helpviewer_keywords: ["SetThreadpoolCallbackRunsLong","SetThreadpoolCallbackRunsLong function","base.setthreadpoolcallbackrunslong","winbase/SetThreadpoolCallbackRunsLong"]
 old-location: base\setthreadpoolcallbackrunslong.htm
 tech.root: backup

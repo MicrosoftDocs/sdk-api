@@ -2,9 +2,9 @@
 UID: NS:directml.DML_PADDING1_OPERATOR_DESC
 tech.root: directml
 title: DML_PADDING1_OPERATOR_DESC
-ms.date: 07/22/2022
+ms.date: 08/12/2022
 targetos: Windows
-description: Inflates the input tensor with constant or mirrored values on the edges, and writes the result to the output.
+description: The DML_PADDING1_OPERATOR_DESC structure (directml.h) inflates the input tensor with constant or mirrored values on the edges, and writes the result to the output.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

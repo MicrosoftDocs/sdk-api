@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_9
-tech.root: fs 
+UID: NS:nvme.NVME_SUBMISSION_QUEUE_TAIL_DOORBELL
+tech.root: fs
 title: NVME_SUBMISSION_QUEUE_TAIL_DOORBELL
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Defines the doorbell register that updates the Tail entry pointer for Submission Queue *y*.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_SUBMISSION_QUEUE_TAIL_DOORBELL, *PNVME_SUBMISSION_QUEUE_TAIL_DOORBELL
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_COMPLETION_QUEUE_HEAD_DOORBELL structure
+
 
 ## -description
 

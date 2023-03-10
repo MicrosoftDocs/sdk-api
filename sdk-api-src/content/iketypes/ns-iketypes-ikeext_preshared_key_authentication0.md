@@ -1,7 +1,7 @@
 ---
 UID: NS:iketypes.IKEEXT_PRESHARED_KEY_AUTHENTICATION0__
 title: IKEEXT_PRESHARED_KEY_AUTHENTICATION0 (iketypes.h)
-description: Stores information needed for pre-shared key authentication.
+description: Stores information needed for pre-shared key authentication. (IKEEXT_PRESHARED_KEY_AUTHENTICATION0)
 helpviewer_keywords: ["IKEEXT_PRESHARED_KEY_AUTHENTICATION0","IKEEXT_PRESHARED_KEY_AUTHENTICATION0 structure [Filtering]","fwp.ikeext_preshared_key_authentication0","iketypes/IKEEXT_PRESHARED_KEY_AUTHENTICATION0"]
 old-location: fwp\ikeext_preshared_key_authentication0.htm
 tech.root: fwp

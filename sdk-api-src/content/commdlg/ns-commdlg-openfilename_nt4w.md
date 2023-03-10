@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg.tagOFN_NT4W
 title: OPENFILENAME_NT4W (commdlg.h)
-description: The OPENFILENAME_NT4 structure is identical to OPENFILENAME with _WIN32_WINNT set to 0x0400.
+description: The OPENFILENAME_NT4 structure is identical to OPENFILENAME with _WIN32_WINNT set to 0x0400. (Unicode)
 helpviewer_keywords: ["*LPOPENFILENAME_NT4W","OPENFILENAME_NT4","OPENFILENAME_NT4 structure [Dialog Boxes]","OPENFILENAME_NT4A","OPENFILENAME_NT4W","_win32_OPENFILENAME_NT4_str","_win32_openfilename_nt4_str_cpp","commdlg/OPENFILENAME_NT4","commdlg/OPENFILENAME_NT4A","commdlg/OPENFILENAME_NT4W","dlgbox.openfilename_nt4_str","winui._win32_openfilename_nt4_str"]
 old-location: dlgbox\openfilename_nt4_str.htm
 tech.root: dlgbox

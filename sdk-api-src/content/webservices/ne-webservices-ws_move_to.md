@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_7
+UID: NE:webservices.WS_MOVE_TO
 title: WS_MOVE_TO (webservices.h)
 description: This enumeration identifies the various ways to move about an xml document.
 helpviewer_keywords: ["WS_MOVE_TO","WS_MOVE_TO enumeration [Web Services for Windows]","WS_MOVE_TO_BOF","WS_MOVE_TO_CHILD_ELEMENT","WS_MOVE_TO_CHILD_NODE","WS_MOVE_TO_END_ELEMENT","WS_MOVE_TO_EOF","WS_MOVE_TO_FIRST_NODE","WS_MOVE_TO_NEXT_ELEMENT","WS_MOVE_TO_NEXT_NODE","WS_MOVE_TO_PARENT_ELEMENT","WS_MOVE_TO_PREVIOUS_ELEMENT","WS_MOVE_TO_PREVIOUS_NODE","WS_MOVE_TO_ROOT_ELEMENT","webservices/WS_MOVE_TO","webservices/WS_MOVE_TO_BOF","webservices/WS_MOVE_TO_CHILD_ELEMENT","webservices/WS_MOVE_TO_CHILD_NODE","webservices/WS_MOVE_TO_END_ELEMENT","webservices/WS_MOVE_TO_EOF","webservices/WS_MOVE_TO_FIRST_NODE","webservices/WS_MOVE_TO_NEXT_ELEMENT","webservices/WS_MOVE_TO_NEXT_NODE","webservices/WS_MOVE_TO_PARENT_ELEMENT","webservices/WS_MOVE_TO_PREVIOUS_ELEMENT","webservices/WS_MOVE_TO_PREVIOUS_NODE","webservices/WS_MOVE_TO_ROOT_ELEMENT","wsw.ws_move_to"]
@@ -109,3 +109,4 @@ Moves to the position logically after the last node in the document.
 ### -field WS_MOVE_TO_CHILD_NODE:11
 
 Moves to the first child of the current node.  If the node has no children then the position is left unchanged.
+

@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_3
+UID: NS:lpmapi.Rsvp_Hop_IPv4
 title: Rsvp_Hop_IPv4 (lpmapi.h)
 description: The Rsvp_Hop_IPv4 structure stores information about an RSVP-enabled IPv4 hop.
 helpviewer_keywords: ["Rsvp_Hop_IPv4","Rsvp_Hop_IPv4 structure [QOS]","lpmapi/Rsvp_Hop_IPv4","qos.rsvp_hop_ipv4"]
@@ -66,3 +66,4 @@ Logical Interface Handle.
 ## -see-also
 
 <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>
+

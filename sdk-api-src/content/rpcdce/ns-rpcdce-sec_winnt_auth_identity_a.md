@@ -1,7 +1,7 @@
 ---
 UID: NS:rpcdce._SEC_WINNT_AUTH_IDENTITY_A
 title: SEC_WINNT_AUTH_IDENTITY_A (rpcdce.h)
-description: The SEC_WINNT_AUTH_IDENTITY structure enables passing a particular user name and password to the run-time library for the purpose of authentication. The structure is valid for Windows and Macintosh.
+description: The SEC_WINNT_AUTH_IDENTITY structure enables passing a particular user name and password to the run-time library for the purpose of authentication. The structure is valid for Windows and Macintosh. (ANSI)
 helpviewer_keywords: ["*PSEC_WINNT_AUTH_IDENTITY","*PSEC_WINNT_AUTH_IDENTITY structure [RPC]","*PSEC_WINNT_AUTH_IDENTITY_A","SEC_WINNT_AUTH_IDENTITY","SEC_WINNT_AUTH_IDENTITY structure [RPC]","SEC_WINNT_AUTH_IDENTITY_A","SEC_WINNT_AUTH_IDENTITY_ANSI","SEC_WINNT_AUTH_IDENTITY_UNICODE","SEC_WINNT_AUTH_IDENTITY_W","_SEC_WINNT_AUTH_IDENTITY_A","_SEC_WINNT_AUTH_IDENTITY_W","_rpc_sec_winnt_auth_identity","rpc.sec_winnt_auth_identity","rpcdce/*PSEC_WINNT_AUTH_IDENTITY","rpcdce/SEC_WINNT_AUTH_IDENTITY"]
 old-location: rpc\sec_winnt_auth_identity.htm
 tech.root: Rpc

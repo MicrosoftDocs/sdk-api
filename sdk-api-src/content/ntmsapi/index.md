@@ -4,7 +4,7 @@ title: Ntmsapi.h header
 ms.assetid: bfdbba3f-aac9-3590-b1f9-5c985ff4abcd
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: fs
 f1_keywords:
  - ntmsapi

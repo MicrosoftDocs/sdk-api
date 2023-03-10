@@ -1,8 +1,8 @@
 ---
 UID: NF:wincred.CredRenameA
 title: CredRenameA function (wincred.h)
-description: CredRename is no longer supported.
-helpviewer_keywords: ["CredRename","CredRename function [Security]","CredRenameA","CredRenameW","_cred_credrename","security.credrename","wincred/CredRename","wincred/CredRenameA","wincred/CredRenameW"]
+description: CredRename is no longer supported. (ANSI)
+helpviewer_keywords: ["CredRenameA", "wincred/CredRenameA"]
 old-location: security\credrename.htm
 tech.root: security
 ms.assetid: e598f2ae-f975-4dd2-bf0b-e2fd96d4c940

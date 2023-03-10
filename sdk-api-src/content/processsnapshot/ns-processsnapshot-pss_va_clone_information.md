@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.__unnamed_struct_1
+UID: NS:processsnapshot.PSS_VA_CLONE_INFORMATION
 title: PSS_VA_CLONE_INFORMATION (processsnapshot.h)
 description: Holds virtual address (VA) clone information returned by PssQuerySnapshot.
 helpviewer_keywords: ["PSS_VA_CLONE_INFORMATION","PSS_VA_CLONE_INFORMATION structure","proc_snap.pss_va_clone_information","processsnapshot/PSS_VA_CLONE_INFORMATION"]
@@ -65,3 +65,4 @@ A handle to the VA clone process.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

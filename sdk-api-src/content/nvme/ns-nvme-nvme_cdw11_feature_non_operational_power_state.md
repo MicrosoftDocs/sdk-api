@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_44
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_FEATURE_NON_OPERATIONAL_POWER_STATE
+tech.root: fs
 title: NVME_CDW11_FEATURE_NON_OPERATIONAL_POWER_STATE
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the Non-Operational Power State Feature that indicates whether permissive mode is enabled for a non-operational power state.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_FEATURE_NON_OPERATIONAL_POWER_STATE, *PNVME_CDW11_FEATURE_NON_OPERATIONAL_POWER_STATE
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_FEATURE_NON_OPERATIONAL_POWER_STATE structure
+
 
 ## -description
 
@@ -72,3 +73,4 @@ Specifies whether permissive mode is enabled for a non-operational power state.
 - [Power Management](ns-nvme-nvme_cdw11_feature_power_management.md)
 - [NVME_POWER_STATE_DESC](ns-nvme-nvme_power_state_desc.md)
 - [NVME_IDENTIFY_CONTROLLER_DATA](nvme\ns-nvme-nvme_identify_controller_data.md)
+

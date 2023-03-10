@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IUpdateInstaller3
 title: IUpdateInstaller3 (wuapi.h)
-description: Installs or uninstalls updates on a computer.
+description: Installs or uninstalls updates on a computer. (IUpdateInstaller3)
 helpviewer_keywords: ["IUpdateInstaller3","IUpdateInstaller3 interface [Windows Update Agent]","IUpdateInstaller3 interface [Windows Update Agent]","described","wua.iupdateinstaller3","wuapi/IUpdateInstaller3"]
 old-location: wua\iupdateinstaller3.htm
 tech.root: wua

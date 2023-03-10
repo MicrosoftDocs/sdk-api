@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqPutWaitingWorkItem
 title: RtwqPutWaitingWorkItem function (rtworkq.h)
-description: Queues a work item that waits for an event to be signaled.
+description: Queues a work item that waits for an event to be signaled. (RtwqPutWaitingWorkItem)
 helpviewer_keywords: ["RtwqPutWaitingWorkItem","RtwqPutWaitingWorkItem function","base.rtwqputwaitingworkitem","rtworkq/RtwqPutWaitingWorkItem"]
 old-location: base\rtwqputwaitingworkitem.htm
 tech.root: backup

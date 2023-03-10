@@ -58,7 +58,7 @@ To obtain a pointer to an <b>IWMIStreamProps</b> interface, call <b>IStream::Que
 
 The <b>IWMIStreamProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMIStreamProps</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

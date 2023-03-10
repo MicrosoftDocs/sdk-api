@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_TRANSITION_STATE
 title: VDS_TRANSITION_STATE (vds.h)
-description: Defines the set of the valid transition state values for a VDS object.
+description: The VDS_TRANSITION_STATE (vds.h) enumeration defines the set of the valid transition state values for a VDS object.
 helpviewer_keywords: ["VDS_TRANSITION_STATE","VDS_TRANSITION_STATE enumeration","VDS_TS_EXTENDING","VDS_TS_RECONFIGING","VDS_TS_RESTRIPING","VDS_TS_SHRINKING","VDS_TS_STABLE","VDS_TS_UNKNOWN","base.vds_transition_state","vds/VDS_TRANSITION_STATE","vds/VDS_TS_EXTENDING","vds/VDS_TS_RECONFIGING","vds/VDS_TS_RESTRIPING","vds/VDS_TS_SHRINKING","vds/VDS_TS_STABLE","vds/VDS_TS_UNKNOWN","vdshwprv/VDS_TRANSITION_STATE","vdshwprv/VDS_TS_EXTENDING","vdshwprv/VDS_TS_RECONFIGING","vdshwprv/VDS_TS_RESTRIPING","vdshwprv/VDS_TS_SHRINKING","vdshwprv/VDS_TS_STABLE","vdshwprv/VDS_TS_UNKNOWN"]
 old-location: base\vds_transition_state.htm
 tech.root: base
 ms.assetid: ef688d1f-136b-4bc8-8209-e30033e752e9
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_TRANSITION_STATE, VDS_TRANSITION_STATE enumeration, VDS_TS_EXTENDING, VDS_TS_RECONFIGING, VDS_TS_RESTRIPING, VDS_TS_SHRINKING, VDS_TS_STABLE, VDS_TS_UNKNOWN, base.vds_transition_state, vds/VDS_TRANSITION_STATE, vds/VDS_TS_EXTENDING, vds/VDS_TS_RECONFIGING, vds/VDS_TS_RESTRIPING, vds/VDS_TS_SHRINKING, vds/VDS_TS_STABLE, vds/VDS_TS_UNKNOWN, vdshwprv/VDS_TRANSITION_STATE, vdshwprv/VDS_TS_EXTENDING, vdshwprv/VDS_TS_RECONFIGING, vdshwprv/VDS_TS_RESTRIPING, vdshwprv/VDS_TS_SHRINKING, vdshwprv/VDS_TS_STABLE, vdshwprv/VDS_TS_UNKNOWN
 req.header: vds.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines 
    the set of the valid transition state values for a VDS object.

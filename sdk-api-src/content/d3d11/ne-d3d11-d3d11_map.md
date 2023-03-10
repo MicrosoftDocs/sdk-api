@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_MAP
 title: D3D11_MAP (d3d11.h)
-description: Identifies a resource to be accessed for reading and writing by the CPU. Applications may combine one or more of these flags.
+description: Identifies a resource to be accessed for reading and writing by the CPU. Applications may combine one or more of these flags. (D3D11_MAP)
 helpviewer_keywords: ["8c057b75-49d4-723a-fe77-d236c5e87682","D3D11_MAP","D3D11_MAP enumeration [Direct3D 11]","D3D11_MAP_READ","D3D11_MAP_READ_WRITE","D3D11_MAP_WRITE","D3D11_MAP_WRITE_DISCARD","D3D11_MAP_WRITE_NO_OVERWRITE","d3d11/D3D11_MAP","d3d11/D3D11_MAP_READ","d3d11/D3D11_MAP_READ_WRITE","d3d11/D3D11_MAP_WRITE","d3d11/D3D11_MAP_WRITE_DISCARD","d3d11/D3D11_MAP_WRITE_NO_OVERWRITE","direct3d11.d3d11_map"]
 old-location: direct3d11\d3d11_map.htm
 tech.root: direct3d11

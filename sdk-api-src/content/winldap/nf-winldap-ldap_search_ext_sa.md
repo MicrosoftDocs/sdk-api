@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_search_ext_sA
 title: ldap_search_ext_sA function (winldap.h)
-description: Synchronously searches the LDAP directory and returns a requested set of attributes for each matched entry.
-helpviewer_keywords: ["LDAP_SCOPE_BASE","LDAP_SCOPE_ONELEVEL","LDAP_SCOPE_SUBTREE","_ldap_ldap_search_ext_s","ldap.ldap__search__ext__s","ldap.ldap_search_ext_s","ldap_search_ext_s","ldap_search_ext_s function [LDAP]","ldap_search_ext_sA","ldap_search_ext_sW","winldap/ldap_search_ext_s","winldap/ldap_search_ext_sA","winldap/ldap_search_ext_sW"]
+description: Synchronously searches the LDAP directory and returns a requested set of attributes for each matched entry. (ldap_search_ext_sA)
+helpviewer_keywords: ["LDAP_SCOPE_BASE", "LDAP_SCOPE_ONELEVEL", "LDAP_SCOPE_SUBTREE", "ldap.ldap__search__ext__s", "ldap_search_ext_sA", "winldap/ldap_search_ext_sA"]
 old-location: ldap\ldap_search_ext_s.htm
 tech.root: ldap
 ms.assetid: 7ce74c35-7a30-4757-a4f7-d5cd4a389584
@@ -149,7 +149,7 @@ The
 
 Use the 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a> function with the <i>ld</i> session handle to set the <b>LDAP_OPT_DEREF</b> option that determine how the search is performed. For more information, see 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. Two other search options, <b>LDAP_OPT_SIZELIMIT</b> and <b>LDAP_OPT_TIMELIMIT</b>, are ignored in favor of the <i>SizeLimit</i> and <i>TimeLimit</i> option parameters in this function.
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. Two other search options, <b>LDAP_OPT_SIZELIMIT</b> and <b>LDAP_OPT_TIMELIMIT</b>, are ignored in favor of the <i>SizeLimit</i> and <i>TimeLimit</i> option parameters in this function.
 
 Upon completion of the search operation, <b>ldap_search_ext_s</b> returns to the caller. Use 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext">ldap_search_ext</a> to have the operation performed asynchronously.
@@ -227,7 +227,7 @@ else
 
 
 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
 
 
 

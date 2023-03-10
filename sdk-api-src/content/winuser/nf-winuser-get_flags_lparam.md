@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GET_FLAGS_LPARAM
 title: GET_FLAGS_LPARAM macro (winuser.h)
-description: Retrieves the state of certain virtual keys from the specified LPARAM value.
+description: Retrieves the state of certain virtual keys from the specified LPARAM value. (GET_FLAGS_LPARAM)
 helpviewer_keywords: ["GET_FLAGS_LPARAM","GET_FLAGS_LPARAM macro [Keyboard and Mouse Input]","_win32_GET_FLAGS_LPARAM","_win32_get_flags_lparam_cpp","inputdev.get_flags_lparam","winui._win32_get_flags_lparam","winuser/GET_FLAGS_LPARAM"]
 old-location: inputdev\get_flags_lparam.htm
 tech.root: inputdev

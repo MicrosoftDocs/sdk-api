@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResource.GetStream
 title: IXpsOMSignatureBlockResource::GetStream (xpsobjectmodel.h)
-description: Gets a new, read-only copy of the stream that is associated with this resource.
+description: Gets a new, read-only copy of the stream that is associated with this resource. (IXpsOMSignatureBlockResource.GetStream)
 helpviewer_keywords: ["GetStream","GetStream method [XPS Documents and Packaging]","GetStream method [XPS Documents and Packaging]","IXpsOMSignatureBlockResource interface","IXpsOMSignatureBlockResource interface [XPS Documents and Packaging]","GetStream method","IXpsOMSignatureBlockResource.GetStream","IXpsOMSignatureBlockResource::GetStream","xps.ixpsomsignatureblockresource_getstream","xpsobjectmodel/IXpsOMSignatureBlockResource::GetStream"]
 old-location: xps\ixpsomsignatureblockresource_getstream.htm
 tech.root: xps

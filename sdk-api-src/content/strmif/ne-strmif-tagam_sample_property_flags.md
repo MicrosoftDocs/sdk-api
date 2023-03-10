@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies values for the [AM_SAMPLE2_PROPERTIES](/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure. These values describe the properties of media samples.
+Specifies values for the [AM_SAMPLE2_PROPERTIES](/windows/win32/api/strmif/ns-strmif-am_sample2_properties) structure. These values describe the properties of media samples.
 
 ## -enum-fields
 
@@ -76,7 +76,7 @@ Time is valid.
 
 ### -field AM_SAMPLE_TIMEDISCONTINUITY:0x40
 
-A time gap in the data starts after this sample. The [AM_SAMPLE2_PROPERTIES](/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure can be <b>NULL</b> in this case.
+A time gap in the data starts after this sample. The [AM_SAMPLE2_PROPERTIES](/windows/win32/api/strmif/ns-strmif-am_sample2_properties) structure can be <b>NULL</b> in this case.
 
 ### -field AM_SAMPLE_FLUSH_ON_PAUSE:0x80
 

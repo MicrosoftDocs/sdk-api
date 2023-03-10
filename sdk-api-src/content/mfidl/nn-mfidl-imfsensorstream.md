@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFSensorStream
 title: IMFSensorStream (mfidl.h)
-description: .
+description: . (IMFSensorStream)
 helpviewer_keywords: ["IMFSensorStream","IMFSensorStream interface [Media Foundation]","IMFSensorStream interface [Media Foundation]","described","mf.imfsensorstream","mfidl/IMFSensorStream"]
 old-location: mf\imfsensorstream.htm
 tech.root: mf

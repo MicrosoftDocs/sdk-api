@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionSaturationEffect.SetSaturation(float)
 title: IDCompositionSaturationEffect::SetSaturation(float) (dcomp.h)
-description: Sets the saturation of the image.
+description: Sets the saturation of the image. (overload 2/2)
 helpviewer_keywords: ["IDCompositionSaturationEffect interface [DirectComposition]","SetSaturation method","IDCompositionSaturationEffect.SetSaturation","IDCompositionSaturationEffect.SetSaturation(float)","IDCompositionSaturationEffect::SetSaturation","IDCompositionSaturationEffect::SetSaturation(float)","SetSaturation","SetSaturation method [DirectComposition]","SetSaturation method [DirectComposition]","IDCompositionSaturationEffect interface","dcomp/IDCompositionSaturationEffect::SetSaturation","directcomp.idcompositionsaturationeffect_setsaturation"]
 old-location: directcomp\idcompositionsaturationeffect_setsaturation.htm
 tech.root: directcomp

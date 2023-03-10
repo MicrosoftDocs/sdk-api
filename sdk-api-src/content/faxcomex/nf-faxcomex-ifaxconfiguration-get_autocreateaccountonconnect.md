@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_AutoCreateAccountOnConnect
 title: IFaxConfiguration::get_AutoCreateAccountOnConnect (faxcomex.h)
-description: Sets or retrieves a value that indicates whether the server automatically creates a fax account once a connection is initiated.
+description: Sets or retrieves a value that indicates whether the server automatically creates a fax account once a connection is initiated. (Get)
 helpviewer_keywords: ["AutoCreateAccountOnConnect property [Fax Service]","AutoCreateAccountOnConnect property [Fax Service]","IFaxConfiguration interface","IFaxConfiguration interface [Fax Service]","AutoCreateAccountOnConnect property","IFaxConfiguration.AutoCreateAccountOnConnect","IFaxConfiguration.get_AutoCreateAccountOnConnect","IFaxConfiguration::AutoCreateAccountOnConnect","IFaxConfiguration::get_AutoCreateAccountOnConnect","IFaxConfiguration::put_AutoCreateAccountOnConnect","_mfax_IFaxConfiguration_AutoCreateAccountOnConnect","fax._mfax_IFaxConfiguration_AutoCreateAccountOnConnect","faxcomex/IFaxConfiguration::AutoCreateAccountOnConnect","faxcomex/IFaxConfiguration::get_AutoCreateAccountOnConnect","faxcomex/IFaxConfiguration::put_AutoCreateAccountOnConnect","get_AutoCreateAccountOnConnect"]
 old-location: fax\_mfax_IFaxConfiguration_AutoCreateAccountOnConnect.htm
 tech.root: Fax

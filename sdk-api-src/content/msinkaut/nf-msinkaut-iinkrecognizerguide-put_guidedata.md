@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizerGuide.put_GuideData
 title: IInkRecognizerGuide::put_GuideData (msinkaut.h)
-description: Gets or sets the InkRecoGuide structure that represents the boundaries of the ink to the recognizer.
+description: Gets or sets the InkRecoGuide structure that represents the boundaries of the ink to the recognizer. (Put)
 helpviewer_keywords: ["154cd57d-0b98-4633-a36d-93207896c9f1","GuideData property [Tablet PC]","GuideData property [Tablet PC]","IInkRecognizerGuide interface","IInkRecognizerGuide interface [Tablet PC]","GuideData property","IInkRecognizerGuide.GuideData","IInkRecognizerGuide.put_GuideData","IInkRecognizerGuide::GuideData","IInkRecognizerGuide::get_GuideData","IInkRecognizerGuide::put_GuideData","InkRecognizerGuide.get_GuideData","InkRecognizerGuide.put_GuideData","get_GuideData","msinkaut/IInkRecognizerGuide::GuideData","msinkaut/IInkRecognizerGuide::get_GuideData","msinkaut/IInkRecognizerGuide::put_GuideData","put_GuideData","tablet.inkrecognizerguide_guidedata"]
 old-location: tablet\inkrecognizerguide_guidedata.htm
 tech.root: tablet

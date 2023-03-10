@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.AddIScsiConnectionA
 title: AddIScsiConnectionA function (iscsidsc.h)
-description: AddIscsiConnection function adds a new iSCSI connection to an existing session.
-helpviewer_keywords: ["AddIScsiConnectionA","AddIscsiConnection","AddIscsiConnection function [iSCSI Discovery Library API]","AddIscsiConnectionA","AddIscsiConnectionW","ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED","ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED","ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED","ISCSI_SECURITY_FLAG_PFS_ENABLED","ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED","ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED","ISCSI_SECURITY_FLAG_VALID","iscsidisc.addiscsiconnection","iscsidsc/AddIscsiConnection","iscsidsc/AddIscsiConnectionA","iscsidsc/AddIscsiConnectionW"]
+description: AddIscsiConnection function adds a new iSCSI connection to an existing session. (ANSI)
+helpviewer_keywords: ["AddIScsiConnectionA", "AddIscsiConnectionA", "ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED", "ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED", "ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED", "ISCSI_SECURITY_FLAG_PFS_ENABLED", "ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED", "ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED", "ISCSI_SECURITY_FLAG_VALID", "iscsidsc/AddIscsiConnectionA"]
 old-location: iscsidisc\addiscsiconnection.htm
 tech.root: iSCSIDisc
 ms.assetid: 919bf77f-f8e5-4fd2-926d-6fbca60b2fb2

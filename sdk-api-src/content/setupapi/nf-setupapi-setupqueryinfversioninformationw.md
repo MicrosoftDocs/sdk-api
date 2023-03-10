@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupQueryInfVersionInformationW
 title: SetupQueryInfVersionInformationW function (setupapi.h)
-description: The SetupQueryInfVersionInformation function returns INF file version information from an SP_INF_INFORMATION structure to a buffer.
-helpviewer_keywords: ["SetupQueryInfVersionInformation","SetupQueryInfVersionInformation function [Setup API]","SetupQueryInfVersionInformationA","SetupQueryInfVersionInformationW","_setupapi_setupqueryinfversioninformation","setup.setupqueryinfversioninformation","setupapi/SetupQueryInfVersionInformation","setupapi/SetupQueryInfVersionInformationA","setupapi/SetupQueryInfVersionInformationW"]
+description: The SetupQueryInfVersionInformation function returns INF file version information from an SP_INF_INFORMATION structure to a buffer. (Unicode)
+helpviewer_keywords: ["SetupQueryInfVersionInformation", "SetupQueryInfVersionInformation function [Setup API]", "SetupQueryInfVersionInformationW", "_setupapi_setupqueryinfversioninformation", "setup.setupqueryinfversioninformation", "setupapi/SetupQueryInfVersionInformation", "setupapi/SetupQueryInfVersionInformationW"]
 old-location: setup\setupqueryinfversioninformation.htm
 tech.root: setup
 ms.assetid: 58768b91-a0c7-4791-8667-2890b742798c

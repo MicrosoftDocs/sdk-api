@@ -4,7 +4,7 @@ title: Waasapi.h header
 ms.assetid: cf8095f2-ec7d-3436-931f-4999d897e04f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: base
 f1_keywords:
  - waasapi

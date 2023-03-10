@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateBlendState
 title: ID3D11Device::CreateBlendState (d3d11.h)
-description: Create a blend-state object that encapsulates blend state for the output-merger stage.
+description: Create a blend-state object that encapsulates blend state for the output-merger stage. (ID3D11Device.CreateBlendState)
 helpviewer_keywords: ["3e6800b8-cd67-743c-c74d-b23a9a29daea","CreateBlendState","CreateBlendState method [Direct3D 11]","CreateBlendState method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CreateBlendState method","ID3D11Device.CreateBlendState","ID3D11Device::CreateBlendState","d3d11/ID3D11Device::CreateBlendState","direct3d11.id3d11device_createblendstate"]
 old-location: direct3d11\id3d11device_createblendstate.htm
 tech.root: direct3d11

@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineInitializeExA
 title: lineInitializeExA function (tapi.h)
-description: The lineInitializeEx function initializes the application's use of TAPI for subsequent use of the line abstraction.
-helpviewer_keywords: ["_tapi2_lineinitializeex","lineInitializeEx","lineInitializeEx function [TAPI 2.2]","lineInitializeExA","lineInitializeExW","tapi/lineInitializeEx","tapi/lineInitializeExA","tapi/lineInitializeExW","tapi2.lineinitializeex"]
+description: The lineInitializeEx function initializes the application's use of TAPI for subsequent use of the line abstraction. (ANSI)
+helpviewer_keywords: ["lineInitializeExA", "tapi/lineInitializeExA"]
 old-location: tapi2\lineinitializeex.htm
 tech.root: tapi3
 ms.assetid: 18cd145d-e434-433a-ab10-91bf5b060c21

@@ -1,12 +1,12 @@
 ---
 UID: NE:tapi3cc.AGENTHANDLER_EVENT
 title: AGENTHANDLER_EVENT (tapi3cc.h)
-description: The AGENTHANDLER_EVENT enum describes agent handler events. The ITAgentHandlerEvent::get_Event method returns a member of this enum to indicate the type of agent handler event that occurred.
+description: The AGENTHANDLER_EVENT enumeration (tapi3cc.h) describes agent handler events. 
 helpviewer_keywords: ["AGENTHANDLER_EVENT","AGENTHANDLER_EVENT enumeration [TAPI 2.2]","AHE_AGENTHANDLER_REMOVED","AHE_NEW_AGENTHANDLER","_tapi3_agenthandler_event","tapi3.agenthandler_event","tapi3cc/AGENTHANDLER_EVENT","tapi3cc/AHE_AGENTHANDLER_REMOVED","tapi3cc/AHE_NEW_AGENTHANDLER"]
 old-location: tapi3\agenthandler_event.htm
 tech.root: tapi3
 ms.assetid: 6d8340a9-dfe5-43bc-a223-d534f5b90cba
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: AGENTHANDLER_EVENT, AGENTHANDLER_EVENT enumeration [TAPI 2.2], AHE_AGENTHANDLER_REMOVED, AHE_NEW_AGENTHANDLER, _tapi3_agenthandler_event, tapi3.agenthandler_event, tapi3cc/AGENTHANDLER_EVENT, tapi3cc/AHE_AGENTHANDLER_REMOVED, tapi3cc/AHE_NEW_AGENTHANDLER
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

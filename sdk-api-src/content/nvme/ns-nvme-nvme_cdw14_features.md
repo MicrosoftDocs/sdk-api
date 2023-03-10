@@ -1,11 +1,11 @@
 ---
-UID: NS:nvme.__unnamed_union_81
-tech.root: fs 
+UID: NS:nvme.NVME_CDW14_FEATURES
+tech.root: fs
 title: NVME_CDW14_FEATURES
-ms.date: 02/19/2021 
+ms.date: 08/09/2022
 ms.topic: language-reference
 targetos: Windows
-description: Contains parameters for the Set Features command that sets the attributes of the specified feature.
+description: The NVME_CDW14_FEATURES structure contains parameters for the Set Features command that sets the attributes of the specified feature.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW14_FEATURES, *PNVME_CDW14_FEATURES
@@ -41,6 +41,7 @@ dev_langs:
 
 # NVME_CDW14_FEATURES structure
 
+
 ## -description
 
 Contains parameters for the Set Features command that sets the attributes of the specified feature.
@@ -65,3 +66,4 @@ Specifies an [NVME_CDW14_FEATURE_HOST_MEMORY_BUFFER](ns-nvme-nvme_cdw14_feature_
 - [NVME_CDW12_FEATURES](ns-nvme-nvme_cdw12_features.md)
 - [NVME_CDW13_FEATURES](ns-nvme-nvme_cdw13_features.md)
 - [NVME_CDW15_FEATURES](ns-nvme-nvme_cdw15_features.md)
+

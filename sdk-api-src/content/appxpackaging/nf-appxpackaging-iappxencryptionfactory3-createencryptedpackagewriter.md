@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory3.CreateEncryptedPackageWriter
 title: IAppxEncryptionFactory3::CreateEncryptedPackageWriter (appxpackaging.h)
-description: Creates a new instance of an IAppxEncryptedPackageWriter.
+description: Creates a new instance of an IAppxEncryptedPackageWriter. (IAppxEncryptionFactory3.CreateEncryptedPackageWriter)
 helpviewer_keywords: ["CreateEncryptedPackageWriter","CreateEncryptedPackageWriter method [App packaging and management]","CreateEncryptedPackageWriter method [App packaging and management]","IAppxEncryptionFactory3 interface","IAppxEncryptionFactory3 interface [App packaging and management]","CreateEncryptedPackageWriter method","IAppxEncryptionFactory3.CreateEncryptedPackageWriter","IAppxEncryptionFactory3::CreateEncryptedPackageWriter","appxpackaging/IAppxEncryptionFactory3::CreateEncryptedPackageWriter","appxpkg.iappxencryptionfactory3_createencryptedpackagewriter"]
 old-location: appxpkg\iappxencryptionfactory3_createencryptedpackagewriter.htm
 tech.root: appxpkg

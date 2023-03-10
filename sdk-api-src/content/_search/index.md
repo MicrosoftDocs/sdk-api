@@ -4,7 +4,7 @@ title: Windows Search
 ms.assetid: b29ae40f-9b92-3070-8037-b6c4cfdc20bc
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Search

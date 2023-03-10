@@ -1,12 +1,12 @@
 ---
 UID: NN:objidlbase.IMalloc
 title: IMalloc (objidlbase.h)
-description: Allocates, frees, and manages memory.
+description: The IMalloc (objidlbase.h) interface allocates, frees, and manages memory.
 helpviewer_keywords: ["IMalloc","IMalloc interface [COM]","IMalloc interface [COM]","described","_com_imalloc","com.imalloc","objidlbase/IMalloc"]
 old-location: com\imalloc.htm
 tech.root: com
 ms.assetid: 047f281e-2665-4d6d-9a0b-918cd3339447
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IMalloc, IMalloc interface [COM], IMalloc interface [COM],described, _com_imalloc, com.imalloc, objidlbase/IMalloc
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

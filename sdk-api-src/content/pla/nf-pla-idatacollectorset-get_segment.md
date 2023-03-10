@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Segment
 title: IDataCollectorSet::get_Segment (pla.h)
-description: Retrieves or sets a value that indicates whether PLA creates new logs if the maximum size or segment duration is reached before the data collector set is stopped.
+description: Retrieves or sets a value that indicates whether PLA creates new logs if the maximum size or segment duration is reached before the data collector set is stopped. (Get)
 helpviewer_keywords: ["IDataCollectorSet interface [PLA]","Segment property","IDataCollectorSet.Segment","IDataCollectorSet.get_Segment","IDataCollectorSet::Segment","IDataCollectorSet::get_Segment","IDataCollectorSet::put_Segment","Segment property [PLA]","Segment property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_segment","get_Segment","pla.idatacollectorset_get_segment","pla/IDataCollectorSet::Segment","pla/IDataCollectorSet::get_Segment","pla/IDataCollectorSet::put_Segment"]
 old-location: pla\idatacollectorset_get_segment.htm
 tech.root: PLA

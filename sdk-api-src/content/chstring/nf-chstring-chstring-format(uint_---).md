@@ -1,11 +1,11 @@
 ---
 UID: NF:chstring.CHString.Format(UINT,...)
 title: CHString::Format
-description: 
+description: The CHString::Format method formats and stores a series of characters and values in a CHString string.
 tech.root: wmi
 helpviewer_keywords: ["CHString::Format"]
 ms.assetid: 5fadf422-fa36-4c68-b150-c79a71346768
-ms.date: 05/13/2019
+ms.date: 08/10/2022
 ms.keywords: CHString::Format
 targetos: Windows
 req.assembly: 

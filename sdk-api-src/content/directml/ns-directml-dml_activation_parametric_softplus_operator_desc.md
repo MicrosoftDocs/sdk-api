@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC
 title: DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC
-description: Performs a parametric softplus activation function on every element in *InputTensor*, placing the result into the corresponding element of *OutputTensor*.
+description: Performs a parametric softplus activation function on every element in *InputTensor*, placing the result into the corresponding element of *OutputTensor*. (DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC)
 helpviewer_keywords: ["DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC","DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC structure","direct3d12.dml_activation_parametric_softplus_operator_desc","directml/DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC"]
 old-location: direct3d12\dml_activation_parametric_softplus_operator_desc.htm
 tech.root: directml

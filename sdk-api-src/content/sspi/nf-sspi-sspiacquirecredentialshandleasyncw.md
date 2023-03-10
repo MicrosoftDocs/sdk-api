@@ -3,7 +3,7 @@ UID: NF:sspi.SspiAcquireCredentialsHandleAsyncW
 title: SspiAcquireCredentialsHandleAsyncW function
 ms.date: 11/4/2019
 targetos: Windows
-description: Asynchronously acquires a handle to preexisting credentials of a security principal.
+description: Asynchronously acquires a handle to preexisting credentials of a security principal. (Unicode)
 tech.root: security
 req.assembly: 
 req.construct-type: function

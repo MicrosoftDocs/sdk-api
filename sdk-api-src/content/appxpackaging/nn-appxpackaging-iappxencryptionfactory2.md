@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptionFactory2
 title: IAppxEncryptionFactory2 (appxpackaging.h)
-description: Creates objects for encrypting, decrypting, reading, and writing Windows app packages and bundles.
+description: Creates objects for encrypting, decrypting, reading, and writing Windows app packages and bundles. (IAppxEncryptionFactory2)
 helpviewer_keywords: ["IAppxEncryptionFactory2","IAppxEncryptionFactory2 interface [App packaging and management]","IAppxEncryptionFactory2 interface [App packaging and management]","described","appxpackaging/IAppxEncryptionFactory2","appxpkg.iappxencryptionfactory2"]
 old-location: appxpkg\iappxencryptionfactory2.htm
 tech.root: appxpkg

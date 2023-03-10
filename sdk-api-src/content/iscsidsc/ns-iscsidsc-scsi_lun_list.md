@@ -1,5 +1,5 @@
 ---
-UID: NS:iscsidsc.__unnamed_struct_3
+UID: NS:iscsidsc.SCSI_LUN_LIST
 title: SCSI_LUN_LIST (iscsidsc.h)
 description: SCSI_LUN_LIST structure is used to construct a list of logical unit numbers (LUNs) associated with target devices.
 helpviewer_keywords: ["*PSCSI_LUN_LIST","PSCSI_LUN_LIST","PSCSI_LUN_LIST structure pointer [iSCSI Discovery Library API]","SCSI_LUN_LIST","SCSI_LUN_LIST structure [iSCSI Discovery Library API]","iscsidisc.scsi_lun_list","iscsidsc/PSCSI_LUN_LIST","iscsidsc/SCSI_LUN_LIST"]
@@ -67,3 +67,4 @@ The LUN assigned by the target subsystem to the target device.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a>
+

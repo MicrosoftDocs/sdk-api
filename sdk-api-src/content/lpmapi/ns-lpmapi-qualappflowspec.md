@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_22
+UID: NS:lpmapi.QualAppFlowSpec
 title: QualAppFlowSpec (lpmapi.h)
 description: The QualAppFlowSpec structure contains FLOWSPEC information for a qualitative application.
 helpviewer_keywords: ["QualAppFlowSpec","QualAppFlowSpec structure [QOS]","lpmapi/QualAppFlowSpec","qos.qualappflowspec"]
@@ -78,3 +78,4 @@ QUALITATIVE Tspec parameters, expressed as a <a href="/previous-versions/windows
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-qualtspecparms">QualTspecParms</a>
+

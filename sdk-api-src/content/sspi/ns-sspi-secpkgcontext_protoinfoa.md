@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgContext_ProtoInfoA
 title: SecPkgContext_ProtoInfoA (sspi.h)
-description: The SecPkgContext_ProtoInfo structure holds information about the protocol in use.
+description: The SecPkgContext_ProtoInfo structure holds information about the protocol in use. (ANSI)
 helpviewer_keywords: ["*PSecPkgContext_ProtoInfoA","PSecPkgContext_ProtoInfo","PSecPkgContext_ProtoInfo structure pointer [Security]","SecPkgContext_ProtoInfo","SecPkgContext_ProtoInfo structure [Security]","SecPkgContext_ProtoInfoA","SecPkgContext_ProtoInfoW","_ssp_secpkgcontext_protoinfo","security.secpkgcontext_protoinfo","sspi/PSecPkgContext_ProtoInfo","sspi/SecPkgContext_ProtoInfo"]
 old-location: security\secpkgcontext_protoinfo.htm
 tech.root: security

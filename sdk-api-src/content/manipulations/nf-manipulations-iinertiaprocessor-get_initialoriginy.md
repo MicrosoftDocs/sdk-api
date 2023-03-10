@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_InitialOriginY
 title: IInertiaProcessor::get_InitialOriginY (manipulations.h)
-description: The InitialOriginY property specifies the starting vertical location for a target with inertia.
+description: The InitialOriginY property specifies the starting vertical location for a target with inertia. (Get)
 helpviewer_keywords: ["IInertiaProcessor interface [Windows Touch]","InitialOriginY property","IInertiaProcessor.InitialOriginY","IInertiaProcessor.get_InitialOriginY","IInertiaProcessor::InitialOriginY","IInertiaProcessor::get_InitialOriginY","IInertiaProcessor::put_InitialOriginY","InitialOriginY property [Windows Touch]","InitialOriginY property [Windows Touch]","IInertiaProcessor interface","get_InitialOriginY","manipulations/IInertiaProcessor::InitialOriginY","manipulations/IInertiaProcessor::get_InitialOriginY","manipulations/IInertiaProcessor::put_InitialOriginY","wintouch.iinertiaprocessor_initialoriginy"]
 old-location: wintouch\iinertiaprocessor_initialoriginy.htm
 tech.root: wintouch

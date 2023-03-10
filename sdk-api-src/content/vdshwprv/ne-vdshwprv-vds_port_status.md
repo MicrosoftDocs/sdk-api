@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_PORT_STATUS
 title: VDS_PORT_STATUS (vdshwprv.h)
-description: Defines the set of object status values for a port.
+description: The VDS_PORT_STATUS enumeration (vdshwprv.h) defines the set of object status values for a port. 
 helpviewer_keywords: ["*PVDS_PORT_STATUS","VDS_PORT_STATUS","VDS_PORT_STATUS enumeration [VDS]","VDS_PRS_FAILED","VDS_PRS_NOT_READY","VDS_PRS_OFFLINE","VDS_PRS_ONLINE","VDS_PRS_REMOVED","VDS_PRS_UNKNOWN","base.vds_port_status","vds/VDS_PORT_STATUS","vds/VDS_PRS_FAILED","vds/VDS_PRS_NOT_READY","vds/VDS_PRS_OFFLINE","vds/VDS_PRS_ONLINE","vds/VDS_PRS_REMOVED","vds/VDS_PRS_UNKNOWN","vdshwprv/VDS_PORT_STATUS","vdshwprv/VDS_PRS_FAILED","vdshwprv/VDS_PRS_NOT_READY","vdshwprv/VDS_PRS_OFFLINE","vdshwprv/VDS_PRS_ONLINE","vdshwprv/VDS_PRS_REMOVED","vdshwprv/VDS_PRS_UNKNOWN"]
 old-location: base\vds_port_status.htm
 tech.root: base
 ms.assetid: 6e363020-caf4-4028-abd5-7f311edb2e69
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*PVDS_PORT_STATUS, VDS_PORT_STATUS, VDS_PORT_STATUS enumeration [VDS], VDS_PRS_FAILED, VDS_PRS_NOT_READY, VDS_PRS_OFFLINE, VDS_PRS_ONLINE, VDS_PRS_REMOVED, VDS_PRS_UNKNOWN, base.vds_port_status, vds/VDS_PORT_STATUS, vds/VDS_PRS_FAILED, vds/VDS_PRS_NOT_READY, vds/VDS_PRS_OFFLINE, vds/VDS_PRS_ONLINE, vds/VDS_PRS_REMOVED, vds/VDS_PRS_UNKNOWN, vdshwprv/VDS_PORT_STATUS, vdshwprv/VDS_PRS_FAILED, vdshwprv/VDS_PRS_NOT_READY, vdshwprv/VDS_PRS_OFFLINE, vdshwprv/VDS_PRS_ONLINE, vdshwprv/VDS_PRS_REMOVED, vdshwprv/VDS_PRS_UNKNOWN'
 req.header: vdshwprv.h
 req.include-header: 
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of object status values for a port.
 

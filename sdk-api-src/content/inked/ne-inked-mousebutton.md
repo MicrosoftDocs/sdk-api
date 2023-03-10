@@ -1,7 +1,7 @@
 ---
 UID: NE:inked.MouseButton
 title: MouseButton (inked.h)
-description: Specifies which mouse button was pressed.
+description: Specifies which mouse button was pressed. (MouseButton)
 helpviewer_keywords: ["LEFT_BUTTON","MIDDLE_BUTTON","MouseButton","MouseButton enumeration [Tablet PC]","NO_BUTTON","RIGHT_BUTTON","cfcbee55-3489-44da-a726-71dc615fa7f5","inked/LEFT_BUTTON","inked/MIDDLE_BUTTON","inked/MouseButton","inked/NO_BUTTON","inked/RIGHT_BUTTON","tablet.mousebutton"]
 old-location: tablet\mousebutton.htm
 tech.root: tablet

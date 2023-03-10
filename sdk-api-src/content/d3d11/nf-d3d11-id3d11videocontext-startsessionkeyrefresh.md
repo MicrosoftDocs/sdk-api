@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.StartSessionKeyRefresh
 title: ID3D11VideoContext::StartSessionKeyRefresh (d3d11.h)
-description: Gets a random number that can be used to refresh the session key.
+description: Gets a random number that can be used to refresh the session key. (ID3D11VideoContext.StartSessionKeyRefresh)
 helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","StartSessionKeyRefresh method","ID3D11VideoContext.StartSessionKeyRefresh","ID3D11VideoContext::StartSessionKeyRefresh","StartSessionKeyRefresh","StartSessionKeyRefresh method [Media Foundation]","StartSessionKeyRefresh method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::StartSessionKeyRefresh","mf.id3d11videocontext_startsessionkeyrefresh"]
 old-location: mf\id3d11videocontext_startsessionkeyrefresh.htm
 tech.root: mf

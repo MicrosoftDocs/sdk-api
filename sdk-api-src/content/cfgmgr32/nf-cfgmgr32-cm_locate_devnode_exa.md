@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Locate_DevNode_ExA
 ms.date: 04/13/2021
 targetos: Windows
-description: The CM_Locate_DevNode_Ex function obtains a device instance handle to the device node that is associated with a specified device instance ID, on a local machine or a remote machine.
+description: The CM_Locate_DevNode_Ex function obtains a device instance handle to the device node that is associated with a specified device instance ID, on a local machine or a remote machine. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1CommandSink2.DrawInk
 title: ID2D1CommandSink2::DrawInk (d2d1_3.h)
-description: Renders the given ink object using the given brush and ink style.
+description: Renders the given ink object using the given brush and ink style. (ID2D1CommandSink2.DrawInk)
 helpviewer_keywords: ["DrawInk","DrawInk method [Direct2D]","DrawInk method [Direct2D]","ID2D1CommandSink2 interface","ID2D1CommandSink2 interface [Direct2D]","DrawInk method","ID2D1CommandSink2.DrawInk","ID2D1CommandSink2::DrawInk","d2d1_3/ID2D1CommandSink2::DrawInk","direct2d.id2d1commandsink2_drawink"]
 old-location: direct2d\id2d1commandsink2_drawink.htm
 tech.root: Direct2D

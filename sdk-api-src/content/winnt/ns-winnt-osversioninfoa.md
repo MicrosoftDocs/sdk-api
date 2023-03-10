@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._OSVERSIONINFOA
 title: OSVERSIONINFOA (winnt.h)
-description: Contains operating system version information.
+description: Contains operating system version information. (ANSI)
 helpviewer_keywords: ["*LPOSVERSIONINFOA","*POSVERSIONINFOA","OSVERSIONINFO","OSVERSIONINFO structure","OSVERSIONINFOA","OSVERSIONINFOW","VER_PLATFORM_WIN32_NT","_OSVERSIONINFOA","_OSVERSIONINFOW","_win32_osversioninfo_str","base.osversioninfo_str","winnt/OSVERSIONINFO","winnt/OSVERSIONINFOA","winnt/OSVERSIONINFOW"]
 old-location: base\osversioninfo_str.htm
 tech.root: winprog

@@ -1,7 +1,7 @@
 ---
 UID: NS:tcpmib._MIB_TCP6ROW2
 title: MIB_TCP6ROW2 (tcpmib.h)
-description: Contains information that describes an IPv6 TCP connection.
+description: Contains information that describes an IPv6 TCP connection. (MIB_TCP6ROW2)
 helpviewer_keywords: ["*PMIB_TCP6ROW2","MIB_TCP6ROW2","MIB_TCP6ROW2 structure [MIB]","MIB_TCP_STATE_CLOSED","MIB_TCP_STATE_CLOSE_WAIT","MIB_TCP_STATE_CLOSING","MIB_TCP_STATE_DELETE_TCB","MIB_TCP_STATE_ESTAB","MIB_TCP_STATE_FIN_WAIT1","MIB_TCP_STATE_FIN_WAIT2","MIB_TCP_STATE_LAST_ACK","MIB_TCP_STATE_LISTEN","MIB_TCP_STATE_SYN_RCVD","MIB_TCP_STATE_SYN_SENT","MIB_TCP_STATE_TIME_WAIT","PMIB_TCP6ROW2","PMIB_TCP6ROW2 structure pointer [MIB]","mib.mib_tcp6row2","tcpmib/MIB_TCP6ROW2","tcpmib/PMIB_TCP6ROW2"]
 old-location: mib\mib_tcp6row2.htm
 tech.root: MIB

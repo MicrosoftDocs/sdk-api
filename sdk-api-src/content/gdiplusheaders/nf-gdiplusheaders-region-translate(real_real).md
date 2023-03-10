@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Region.Translate(REAL,REAL)
 title: Region::Translate
-description: The Region::Translate method offsets this region by specified amounts in the horizontal and vertical directions.
+description: The Region::Translate method offsets this region by specified amounts in the horizontal and vertical directions. (overload 2/2)
 tech.root: gdiplus
 helpviewer_keywords: ["Region::Translate"]
 ms.assetid: 0dc16555-1df7-44b8-85fb-ff0963f3c68e

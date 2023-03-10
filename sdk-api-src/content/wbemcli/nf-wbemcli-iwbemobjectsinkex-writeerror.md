@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.WriteError
 title: IWbemObjectSinkEx::WriteError (wbemcli.h)
-description: TBD
+description: TBD (IWbemObjectSinkEx.WriteError)
 helpviewer_keywords: ["IWbemObjectSinkEx interface [Windows Management Instrumentation]","WriteError method","IWbemObjectSinkEx.WriteError","IWbemObjectSinkEx::WriteError","WriteError","WriteError method [Windows Management Instrumentation]","WriteError method [Windows Management Instrumentation]","IWbemObjectSinkEx interface","wbemcli/IWbemObjectSinkEx::WriteError","wmi.iwbemobjectsinkex_writeerror"]
 old-location: wmi\iwbemobjectsinkex_writeerror.htm
 tech.root: wmi

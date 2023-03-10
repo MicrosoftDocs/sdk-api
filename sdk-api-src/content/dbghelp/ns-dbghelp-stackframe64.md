@@ -1,7 +1,7 @@
 ---
 UID: NS:dbghelp._tagSTACKFRAME64
 title: STACKFRAME64 (dbghelp.h)
-description: Represents a stack frame.
+description: Represents a stack frame. (STACKFRAME64)
 helpviewer_keywords: ["*LPSTACKFRAME64","LPSTACKFRAME64","LPSTACKFRAME64 structure pointer","STACKFRAME","STACKFRAME structure","STACKFRAME64","STACKFRAME64 structure","_tagSTACKFRAME64","_win32_stackframe64_str","base.stackframe64_str","dbghelp/LPSTACKFRAME64","dbghelp/STACKFRAME64"]
 old-location: base\stackframe64_str.htm
 tech.root: Debug

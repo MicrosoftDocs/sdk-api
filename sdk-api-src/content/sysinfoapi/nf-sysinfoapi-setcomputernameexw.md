@@ -1,8 +1,8 @@
 ---
 UID: NF:sysinfoapi.SetComputerNameExW
 title: SetComputerNameExW function (sysinfoapi.h)
-description: Sets a new NetBIOS or DNS name for the local computer.
-helpviewer_keywords: ["ComputerNamePhysicalDnsDomain","ComputerNamePhysicalDnsHostname","ComputerNamePhysicalNetBIOS","SetComputerNameEx","SetComputerNameEx function","SetComputerNameExA","SetComputerNameExW","_win32_setcomputernameex","base.setcomputernameex","sysinfoapi/SetComputerNameEx","sysinfoapi/SetComputerNameExA","sysinfoapi/SetComputerNameExW"]
+description: Sets a new NetBIOS or DNS name for the local computer. (Unicode)
+helpviewer_keywords: ["ComputerNamePhysicalDnsDomain", "ComputerNamePhysicalDnsHostname", "ComputerNamePhysicalNetBIOS", "SetComputerNameEx", "SetComputerNameEx function", "SetComputerNameExW", "_win32_setcomputernameex", "base.setcomputernameex", "sysinfoapi/SetComputerNameEx", "sysinfoapi/SetComputerNameExW"]
 old-location: base\setcomputernameex.htm
 tech.root: winprog
 ms.assetid: 12163456-770c-4f9e-9261-a6ea5f2cd93a

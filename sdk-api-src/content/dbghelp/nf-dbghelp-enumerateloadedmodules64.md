@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.EnumerateLoadedModules64
 title: EnumerateLoadedModules64 function (dbghelp.h)
-description: Enumerates the loaded modules for the specified process.
+description: Enumerates the loaded modules for the specified process. (EnumerateLoadedModules64)
 helpviewer_keywords: ["EnumerateLoadedModules","EnumerateLoadedModules function","EnumerateLoadedModules64","EnumerateLoadedModules64 function","EnumerateLoadedModulesW64","_win32_enumerateloadedmodules64","base.enumerateloadedmodules64","dbghelp/EnumerateLoadedModules","dbghelp/EnumerateLoadedModules64","dbghelp/EnumerateLoadedModulesW64"]
 old-location: base\enumerateloadedmodules64.htm
 tech.root: Debug

@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IDataCollector.put_LogAppend
 title: IDataCollector::put_LogAppend (pla.h)
-description: Retrieves or sets a value that indicates if PLA should append the collected data to the current file.
+description: Retrieves or sets a value that indicates if PLA should append the collected data to the current file. (Put)
 helpviewer_keywords: ["IDataCollector interface [PLA]","LogAppend property","IDataCollector.LogAppend","IDataCollector.put_LogAppend","IDataCollector::LogAppend","IDataCollector::get_LogAppend","IDataCollector::put_LogAppend","LogAppend property [PLA]","LogAppend property [PLA]","IDataCollector interface","base.idatacollector_logappend","pla.idatacollector_logappend","pla/IDataCollector::LogAppend","pla/IDataCollector::get_LogAppend","pla/IDataCollector::put_LogAppend","put_LogAppend"]
 old-location: pla\idatacollector_logappend.htm
 tech.root: PLA

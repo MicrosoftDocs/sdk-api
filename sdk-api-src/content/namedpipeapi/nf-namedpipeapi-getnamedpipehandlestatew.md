@@ -2,9 +2,9 @@
 UID: NF:namedpipeapi.GetNamedPipeHandleStateW
 tech.root: base 
 title: GetNamedPipeHandleStateW
-ms.date: 04/20/2021
+ms.date: 08/05/2022
 targetos: Windows
-description: Retrieves information about a specified named pipe. 
+description: The GetNamedPipeHandleStateW (Unicode) function (winbase.h) retrieves information about a specified named pipe. 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -132,7 +132,7 @@ The <b>GetNamedPipeHandleState</b> function returns successfully even if all of 
 To set the pipe handle state, use the 
 <a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate">SetNamedPipeHandleState</a> function.
 
-<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
+<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax `\\.\pipe\LOCAL\` for the pipe name.
 
 ## -see-also
 

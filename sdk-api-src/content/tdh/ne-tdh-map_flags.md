@@ -129,5 +129,4 @@ uint32  Data6;
 
 
 ## -see-also
-
 <a href="/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a>

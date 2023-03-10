@@ -1,7 +1,7 @@
 ---
 UID: NE:callobj.CALLFRAME_FREE
 title: CALLFRAME_FREE (callobj.h)
-description: Determines the parameter type to be freed.
+description: Determines the parameter type to be freed. (CALLFRAME_FREE)
 helpviewer_keywords: ["CALLFRAME_FREE","CALLFRAME_FREE enumeration [COM]","CALLFRAME_FREE_ALL","CALLFRAME_FREE_IN","CALLFRAME_FREE_INOUT","CALLFRAME_FREE_NONE","CALLFRAME_FREE_OUT","CALLFRAME_FREE_TOP_INOUT","CALLFRAME_FREE_TOP_OUT","_com_CALLFRAME_FREE","callobj/CALLFRAME_FREE","callobj/CALLFRAME_FREE_ALL","callobj/CALLFRAME_FREE_IN","callobj/CALLFRAME_FREE_INOUT","callobj/CALLFRAME_FREE_NONE","callobj/CALLFRAME_FREE_OUT","callobj/CALLFRAME_FREE_TOP_INOUT","callobj/CALLFRAME_FREE_TOP_OUT","com.callframe_free"]
 old-location: com\callframe_free.htm
 tech.root: com

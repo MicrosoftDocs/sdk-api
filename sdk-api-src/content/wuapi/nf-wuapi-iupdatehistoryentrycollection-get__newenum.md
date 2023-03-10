@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntryCollection.get__NewEnum
 title: IUpdateHistoryEntryCollection::get__NewEnum (wuapi.h)
-description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
+description: Gets an IEnumVARIANT interface that can be used to enumerate the collection. (IUpdateHistoryEntryCollection.get__NewEnum)
 helpviewer_keywords: ["IUpdateHistoryEntryCollection interface [Windows Update Agent]","_NewEnum property","IUpdateHistoryEntryCollection._NewEnum","IUpdateHistoryEntryCollection.get__NewEnum","IUpdateHistoryEntryCollection::_NewEnum","IUpdateHistoryEntryCollection::get__NewEnum","_NewEnum property [Windows Update Agent]","_NewEnum property [Windows Update Agent]","IUpdateHistoryEntryCollection interface","get__NewEnum","wua.iupdatehistoryentrycollection__newenum","wuapi/IUpdateHistoryEntryCollection::_NewEnum","wuapi/IUpdateHistoryEntryCollection::get__NewEnum"]
 old-location: wua\iupdatehistoryentrycollection__newenum.htm
 tech.root: wua

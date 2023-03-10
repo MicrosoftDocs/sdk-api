@@ -1,8 +1,8 @@
 ---
 UID: NF:ntdsapi.DsGetDomainControllerInfoA
 title: DsGetDomainControllerInfoA function (ntdsapi.h)
-description: Retrieves data about the domain controllers in a domain.
-helpviewer_keywords: ["1","2","3","DsGetDomainControllerInfo","DsGetDomainControllerInfo function [Active Directory]","DsGetDomainControllerInfoA","DsGetDomainControllerInfoW","_glines_dsgetdomaincontrollerinfo","ad.dsgetdomaincontrollerinfo","ntdsapi/DsGetDomainControllerInfo","ntdsapi/DsGetDomainControllerInfoA","ntdsapi/DsGetDomainControllerInfoW"]
+description: Retrieves data about the domain controllers in a domain. (ANSI)
+helpviewer_keywords: ["1", "2", "3", "DsGetDomainControllerInfoA", "ntdsapi/DsGetDomainControllerInfoA"]
 old-location: ad\dsgetdomaincontrollerinfo.htm
 tech.root: ad
 ms.assetid: 52db3b25-e6b0-4a0d-831b-89a203580cf1

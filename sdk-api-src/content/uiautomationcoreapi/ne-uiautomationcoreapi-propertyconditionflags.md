@@ -1,12 +1,12 @@
 ---
 UID: NE:uiautomationcoreapi.PropertyConditionFlags
 title: PropertyConditionFlags (uiautomationcoreapi.h)
-description: Contains values used in creating property conditions.
+description: The PropertyConditionFlags (uiautomationcoreapi.h) enumeration contains values used in creating property conditions.
 helpviewer_keywords: ["PropertyConditionFlags","PropertyConditionFlags enumeration [Windows Accessibility]","PropertyConditionFlags_IgnoreCase","PropertyConditionFlags_MatchSubstring","PropertyConditionFlags_None","uiauto.uiauto_PropertyConditionFlagsEnum","uiauto_PropertyConditionFlagsEnum","uiautomationclient/PropertyConditionFlags","uiautomationclient/PropertyConditionFlags_IgnoreCase","uiautomationclient/PropertyConditionFlags_MatchSubstring","uiautomationclient/PropertyConditionFlags_None","winauto.uiauto_PropertyConditionFlagsEnum"]
 old-location: winauto\uiauto_PropertyConditionFlagsEnum.htm
 tech.root: WinAuto
 ms.assetid: debe8141-2a91-4774-b533-d6f3ccfc7744
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: PropertyConditionFlags, PropertyConditionFlags enumeration [Windows Accessibility], PropertyConditionFlags_IgnoreCase, PropertyConditionFlags_MatchSubstring, PropertyConditionFlags_None, uiauto.uiauto_PropertyConditionFlagsEnum, uiauto_PropertyConditionFlagsEnum, uiautomationclient/PropertyConditionFlags, uiautomationclient/PropertyConditionFlags_IgnoreCase, uiautomationclient/PropertyConditionFlags_MatchSubstring, uiautomationclient/PropertyConditionFlags_None, winauto.uiauto_PropertyConditionFlagsEnum
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h, Uiautomationcoreapi.h

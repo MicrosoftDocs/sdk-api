@@ -2,9 +2,9 @@
 UID: NF:oleidl.STGMEDIUM_UserMarshal64
 tech.root: com
 title: STGMEDIUM_UserMarshal64 (oleidl.h)
-ms.date: 07/08/2022
+ms.date: 08/15/2022
 targetos: Windows
-description: Marshals a STGMEDIUM object into the RPC buffer.
+description: The STGMEDIUM_UserMarshal64 function (oleidl.h) marshals a STGMEDIUM object into the RPC buffer.
 prerelease: false
 req.assembly: 
 req.construct-type: function

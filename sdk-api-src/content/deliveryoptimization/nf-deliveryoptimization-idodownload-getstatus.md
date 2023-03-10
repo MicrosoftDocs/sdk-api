@@ -2,9 +2,9 @@
 UID: NF:deliveryoptimization.IDODownload.GetStatus
 tech.root: delivery_optimization
 title: IDODownload::GetStatus
-ms.date: 05/04/2022
+ms.date: 08/03/2022
 targetos: Windows
-description: 
+description: IDODownload::GetStatus retrieves a pointer to a DO_DOWNLOAD_STATUS structure that reflects the current status of the download.
 req.assembly: Retrieves a pointer to a **DO_DOWNLOAD_STATUS** structure that reflects the current status of the download.
 req.construct-type: function
 req.ddi-compliance: 

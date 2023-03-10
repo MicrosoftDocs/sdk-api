@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.put_AuthFlags
 title: IX509PolicyServerUrl::put_AuthFlags (certenroll.h)
-description: Specifies and retrieves a value that indicates the authentication type used by the client to authenticate itself to the certificate enrollment policy (CEP) server.
+description: Specifies and retrieves a value that indicates the authentication type used by the client to authenticate itself to the certificate enrollment policy (CEP) server. (Put)
 helpviewer_keywords: ["AuthFlags property [Security]","AuthFlags property [Security]","IX509PolicyServerUrl interface","IX509PolicyServerUrl interface [Security]","AuthFlags property","IX509PolicyServerUrl.AuthFlags","IX509PolicyServerUrl.put_AuthFlags","IX509PolicyServerUrl::AuthFlags","IX509PolicyServerUrl::get_AuthFlags","IX509PolicyServerUrl::put_AuthFlags","X509AuthAnonymous","X509AuthCertificate","X509AuthKerberos","X509AuthUsername","certenroll/IX509PolicyServerUrl::AuthFlags","certenroll/IX509PolicyServerUrl::get_AuthFlags","certenroll/IX509PolicyServerUrl::put_AuthFlags","put_AuthFlags","security.ix509policyserverurl_authflags"]
 old-location: security\ix509policyserverurl_authflags.htm
 tech.root: security

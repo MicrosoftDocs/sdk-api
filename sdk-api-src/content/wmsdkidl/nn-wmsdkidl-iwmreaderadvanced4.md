@@ -58,7 +58,7 @@ An <b>IWMReaderAdvanced4</b> interface exists for every reader object. You can o
 
 The <b>IWMReaderAdvanced4</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced3">IWMReaderAdvanced3</a>. <b>IWMReaderAdvanced4</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

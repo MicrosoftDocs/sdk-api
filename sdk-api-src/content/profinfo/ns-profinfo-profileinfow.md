@@ -1,7 +1,7 @@
 ---
 UID: NS:profinfo._PROFILEINFOW
 title: PROFILEINFOW (profinfo.h)
-description: Contains information used when loading or unloading a user profile.
+description: Contains information used when loading or unloading a user profile. (Unicode)
 helpviewer_keywords: ["*LPPROFILEINFOW","LPPROFILEINFO","LPPROFILEINFO structure pointer [Windows Shell]","PI_APPLYPOLICY","PI_NOUI","PROFILEINFO","PROFILEINFO structure [Windows Shell]","PROFILEINFOA","PROFILEINFOW","_shell_PROFILEINFO","profinfo/LPPROFILEINFO","profinfo/PROFILEINFO","profinfo/PROFILEINFOA","profinfo/PROFILEINFOW","shell.PROFILEINFO"]
 old-location: shell\PROFILEINFO.htm
 tech.root: shell

@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineGetRequestA
 title: lineGetRequestA function (tapi.h)
-description: Retrieves the next by-proxy request for the specified request mode.
-helpviewer_keywords: ["_tapi2_linegetrequest","lineGetRequest","lineGetRequest function [TAPI 2.2]","lineGetRequestA","lineGetRequestW","tapi/lineGetRequest","tapi/lineGetRequestA","tapi/lineGetRequestW","tapi2.linegetrequest"]
+description: Retrieves the next by-proxy request for the specified request mode. (lineGetRequestA)
+helpviewer_keywords: ["lineGetRequestA", "tapi/lineGetRequestA"]
 old-location: tapi2\linegetrequest.htm
 tech.root: tapi3
 ms.assetid: c72ed61f-abbe-4a6d-9f8d-95afbd5dfb04

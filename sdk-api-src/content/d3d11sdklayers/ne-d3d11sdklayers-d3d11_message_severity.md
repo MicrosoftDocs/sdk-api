@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11sdklayers.D3D11_MESSAGE_SEVERITY
 title: D3D11_MESSAGE_SEVERITY (d3d11sdklayers.h)
-description: Debug message severity levels for an information queue.
+description: Debug message severity levels for an information queue. (D3D11_MESSAGE_SEVERITY)
 helpviewer_keywords: ["5817bf39-bfcb-e96c-175e-08c952303b59","D3D11_MESSAGE_SEVERITY","D3D11_MESSAGE_SEVERITY enumeration [Direct3D 11]","D3D11_MESSAGE_SEVERITY_CORRUPTION","D3D11_MESSAGE_SEVERITY_ERROR","D3D11_MESSAGE_SEVERITY_INFO","D3D11_MESSAGE_SEVERITY_MESSAGE","D3D11_MESSAGE_SEVERITY_WARNING","d3d11sdklayers/D3D11_MESSAGE_SEVERITY","d3d11sdklayers/D3D11_MESSAGE_SEVERITY_CORRUPTION","d3d11sdklayers/D3D11_MESSAGE_SEVERITY_ERROR","d3d11sdklayers/D3D11_MESSAGE_SEVERITY_INFO","d3d11sdklayers/D3D11_MESSAGE_SEVERITY_MESSAGE","d3d11sdklayers/D3D11_MESSAGE_SEVERITY_WARNING","direct3d11.d3d11_message_severity"]
 old-location: direct3d11\d3d11_message_severity.htm
 tech.root: direct3d11

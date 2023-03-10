@@ -2,9 +2,9 @@
 UID: NF:oleidl.HACCEL_UserSize
 tech.root: com
 title: HACCEL_UserSize (oleidl.h)
-ms.date: 07/08/2022
+ms.date: 08/15/2022
 targetos: Windows
-description: Calculates the wire size of the HACCEL object and gets its handle and data.
+description: The HACCEL_UserSize function (oleidl.h) calculates the wire size of the HACCEL object and gets its handle and data.
 prerelease: false
 req.assembly: 
 req.construct-type: function

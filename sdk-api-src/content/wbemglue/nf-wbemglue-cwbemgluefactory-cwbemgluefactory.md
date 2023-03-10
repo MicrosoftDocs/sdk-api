@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemglue.CWbemGlueFactory.CWbemGlueFactory
 title: CWbemGlueFactory::CWbemGlueFactory (wbemglue.h)
-description: The CWbemGlueFactory::CWbemGlueFactory constructor initializes a new instance of CWbemGlueFactory. This class is part of the WMI Provider Framework.
+description: The CWbemGlueFactory::CWbemGlueFactory constructor initializes a new instance of CWbemGlueFactory. This class is part of the WMI Provider Framework. (??0CWbemGlueFactory@@QEAA@XZ)
 helpviewer_keywords: ["??0CWbemGlueFactory@@QAE@XZ","??0CWbemGlueFactory@@QEAA@XZ","CWbemGlueFactory","CWbemGlueFactory constructor [Windows Management Instrumentation]","CWbemGlueFactory constructor [Windows Management Instrumentation]","CWbemGlueFactory interface","CWbemGlueFactory interface [Windows Management Instrumentation]","CWbemGlueFactory constructor","CWbemGlueFactory.CWbemGlueFactory","CWbemGlueFactory::CWbemGlueFactory","wbemglue/CWbemGlueFactory::CWbemGlueFactory","wmi.cwbemgluefactory_cwbemgluefactory"]
 old-location: wmi\cwbemgluefactory_cwbemgluefactory.htm
 tech.root: wmi

@@ -4,7 +4,7 @@ title: DML_MATRIX_MULTIPLY_INTEGER_OPERATOR_DESC
 description: Performs a matrix multiplication function on integer data.
 helpviewer_keywords: ["DML_MATRIX_MULTIPLY_INTEGER_OPERATOR_DESC","DML_MATRIX_MULTIPLY_INTEGER_OPERATOR_DESC structure","direct3d12.dml_matrix_multiply_integer_operator_desc","directml/DML_MATRIX_MULTIPLY_INTEGER_OPERATOR_DESC"]
 tech.root: directml
-ms.date: 11/03/2020
+ms.date: 11/30/2022
 ms.keywords: DML_MATRIX_MULTIPLY_INTEGER_OPERATOR_DESC, DML_MATRIX_MULTIPLY_INTEGER_OPERATOR_DESC structure, direct3d12.dml_matrix_multiply_integer_operator_desc, directml/DML_MATRIX_MULTIPLY_INTEGER_OPERATOR_DESC
 req.header: directml.h
 req.include-header: 
@@ -87,11 +87,20 @@ A tensor with which to write the results to. This tensor's dimensions are `{ Bat
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor constraints
-* *ATensor*, *BZeroPointTensor*, and *OutputTensor* must have the same *DimensionCount*.
+* *ATensor*, *BTensor*, and *OutputTensor* must have the same *DimensionCount*.
 * *BTensor* and *BZeroPointTensor* must have the same *DataType*.
 * *ATensor* and *AZeroPointTensor* must have the same *DataType*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_2 and above
+| Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
+| ------ | ---- | ---------- | -------------------------- | -------------------- |
+| ATensor | Input | { [BatchCount], [ChannelCount], M, K } | 2 to 4 | INT8, UINT8 |
+| AZeroPointTensor | Optional input | { [1], [1], AZeroPointCount, [1] } | 1 to 4 | INT8, UINT8 |
+| BTensor | Input | { [BatchCount], [ChannelCount], K, N } | 2 to 4 | INT8, UINT8 |
+| BZeroPointTensor | Optional input | { [1], [1], [1], BZeroPointCount } | 1 to 4 | INT8, UINT8 |
+| OutputTensor | Output | { [BatchCount], [ChannelCount], M, N } | 2 to 4 | INT32 |
+
 ### DML_FEATURE_LEVEL_4_0 and above
 | Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
 | ------ | ---- | ---------- | -------------------------- | -------------------- |

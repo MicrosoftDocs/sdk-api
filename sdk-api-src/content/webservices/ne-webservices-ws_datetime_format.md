@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_102
+UID: NE:webservices.WS_DATETIME_FORMAT
 title: WS_DATETIME_FORMAT (webservices.h)
 description: Specifies the textual format of a WS_DATETIME.
 helpviewer_keywords: ["WS_DATETIME_FORMAT","WS_DATETIME_FORMAT enumeration [Web Services for Windows]","WS_DATETIME_FORMAT_LOCAL","WS_DATETIME_FORMAT_NONE","WS_DATETIME_FORMAT_UTC","webservices/WS_DATETIME_FORMAT","webservices/WS_DATETIME_FORMAT_LOCAL","webservices/WS_DATETIME_FORMAT_NONE","webservices/WS_DATETIME_FORMAT_UTC","wsw.ws_datetime_format"]
@@ -74,3 +74,4 @@ If the system is unable to convert the time to a local format because timezone i
 
 This format displays a time with no timezone.  The time is formatted with no additional information and no
           timezone is implied.  For example, September 27, 2007 at 10:30AM would be represented as "2007-09-27T10:30:00".
+

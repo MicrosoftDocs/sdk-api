@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_ISCSI_LOGIN_TYPE
 title: VDS_ISCSI_LOGIN_TYPE (vdshwprv.h)
-description: Defines the set of valid types for logging into an iSCSI target.
+description: The VDS_ISCSI_LOGIN_TYPE enumeration (vdshwprv.h) defines the set of valid types for logging into an iSCSI target.
 helpviewer_keywords: ["VDS_ILT_BOOT","VDS_ILT_MANUAL","VDS_ILT_PERSISTENT","VDS_ISCSI_LOGIN_TYPE","VDS_ISCSI_LOGIN_TYPE enumeration [VDS]","base.vds_iscsi_login_type","vds/VDS_ILT_BOOT","vds/VDS_ILT_MANUAL","vds/VDS_ILT_PERSISTENT","vds/VDS_ISCSI_LOGIN_TYPE","vdshwprv/VDS_ILT_BOOT","vdshwprv/VDS_ILT_MANUAL","vdshwprv/VDS_ILT_PERSISTENT","vdshwprv/VDS_ISCSI_LOGIN_TYPE"]
 old-location: base\vds_iscsi_login_type.htm
 tech.root: base
 ms.assetid: d40db9ab-6fa5-4efb-83e8-ce1dce5fe0c2
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_ILT_BOOT, VDS_ILT_MANUAL, VDS_ILT_PERSISTENT, VDS_ISCSI_LOGIN_TYPE, VDS_ISCSI_LOGIN_TYPE enumeration [VDS], base.vds_iscsi_login_type, vds/VDS_ILT_BOOT, vds/VDS_ILT_MANUAL, vds/VDS_ILT_PERSISTENT, vds/VDS_ISCSI_LOGIN_TYPE, vdshwprv/VDS_ILT_BOOT, vdshwprv/VDS_ILT_MANUAL, vdshwprv/VDS_ILT_PERSISTENT, vdshwprv/VDS_ISCSI_LOGIN_TYPE
 req.header: vdshwprv.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid types for logging into an iSCSI target.
 

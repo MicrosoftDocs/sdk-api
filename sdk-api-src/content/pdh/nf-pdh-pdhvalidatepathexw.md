@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhValidatePathExW
 title: PdhValidatePathExW function (pdh.h)
-description: Validates that the specified counter is present on the computer or in the log file.
-helpviewer_keywords: ["PdhValidatePathEx","PdhValidatePathEx function [Perf]","PdhValidatePathExA","PdhValidatePathExW","pdh/PdhValidatePathEx","pdh/PdhValidatePathExA","pdh/PdhValidatePathExW","perf.pdhvalidatepathex"]
+description: Validates that the specified counter is present on the computer or in the log file. (Unicode)
+helpviewer_keywords: ["PdhValidatePathEx", "PdhValidatePathEx function [Perf]", "PdhValidatePathExW", "pdh/PdhValidatePathEx", "pdh/PdhValidatePathExW", "perf.pdhvalidatepathex"]
 old-location: perf\pdhvalidatepathex.htm
 tech.root: perf
 ms.assetid: e6b52af7-7276-4565-aa61-73899796a13c

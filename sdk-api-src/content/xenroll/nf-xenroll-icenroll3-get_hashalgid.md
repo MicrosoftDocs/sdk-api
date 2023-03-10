@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.ICEnroll3.get_HashAlgID
 title: ICEnroll3::get_HashAlgID (xenroll.h)
-description: Sets or retrieves the hash algorithm used when signing a PKCS
+description: Sets or retrieves the hash algorithm used when signing a PKCS (Get)
 helpviewer_keywords: ["CEnroll object [Security]","HashAlgID property","HashAlgID property [Security]","HashAlgID property [Security]","CEnroll object","HashAlgID property [Security]","ICEnroll3 interface","HashAlgID property [Security]","ICEnroll4 interface","ICEnroll3 interface [Security]","HashAlgID property","ICEnroll3.HashAlgID","ICEnroll3.get_HashAlgID","ICEnroll3::get_HashAlgID","ICEnroll3::put_HashAlgID","ICEnroll4 interface [Security]","HashAlgID property","ICEnroll4.HashAlgID","ICEnroll4::HashAlgID","ICEnroll4::get_HashAlgID","ICEnroll4::put_HashAlgID","get_HashAlgID","security.icenroll4_hashalgid","xenroll/ICEnroll3::HashAlgID","xenroll/ICEnroll3::get_HashAlgID","xenroll/ICEnroll3::put_HashAlgID","xenroll/ICEnroll4::HashAlgID","xenroll/ICEnroll4::get_HashAlgID","xenroll/ICEnroll4::put_HashAlgID"]
 old-location: security\icenroll4_hashalgid.htm
 tech.root: security

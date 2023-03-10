@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsDrive2.GetProperties2
 title: IVdsDrive2::GetProperties2 (vdshwprv.h)
-description: Returns the properties of a drive object.
+description: The IVdsDrive2::GetProperties2 (vdshwprv.h) method returns the properties of a drive object.
 helpviewer_keywords: ["GetProperties2","GetProperties2 method","GetProperties2 method","IVdsDrive2 interface","IVdsDrive2 interface","GetProperties2 method","IVdsDrive2.GetProperties2","IVdsDrive2::GetProperties2","base.ivdsdrive2_getproperties2","vds/IVdsDrive2::GetProperties2","vdshwprv/IVdsDrive2::GetProperties2"]
 old-location: base\ivdsdrive2_getproperties2.htm
 tech.root: base
 ms.assetid: 635957be-780f-4dee-8d70-b7fc37fecd5c
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsDrive2 interface, IVdsDrive2 interface,GetProperties2 method, IVdsDrive2.GetProperties2, IVdsDrive2::GetProperties2, base.ivdsdrive2_getproperties2, vds/IVdsDrive2::GetProperties2, vdshwprv/IVdsDrive2::GetProperties2
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the properties of a drive object.
 

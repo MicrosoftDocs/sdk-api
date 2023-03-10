@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.ICspStatus
 title: ICspStatus (certenroll.h)
-description: Contains information about a cryptographic provider/algorithm pair.
+description: Contains information about a cryptographic provider/algorithm pair. (ICspStatus)
 helpviewer_keywords: ["ICspStatus","ICspStatus interface [Security]","ICspStatus interface [Security]","described","certenroll/ICspStatus","security.icspstatus"]
 old-location: security\icspstatus.htm
 tech.root: security

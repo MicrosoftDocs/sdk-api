@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMFLOAT4X4.XMFLOAT4X4
 title: XMFLOAT4X4::XMFLOAT4X4 (directxmath.h)
-description: Default constructor for XMFLOAT4X4.
+description: Default constructor for XMFLOAT4X4. (XMFLOAT4X4.XMFLOAT4X4)
 helpviewer_keywords: ["XMFLOAT4X4","XMFLOAT4X4 constructor [DirectX Math Support APIs]","XMFLOAT4X4 constructor [DirectX Math Support APIs]","XMFLOAT4X4 structure","XMFLOAT4X4 structure [DirectX Math Support APIs]","XMFLOAT4X4 constructor","XMFLOAT4X4.XMFLOAT4X4","XMFLOAT4X4.XMFLOAT4X4()","XMFLOAT4X4::XMFLOAT4X4","dxmath.xmfloat4x4_ctor_1"]
 old-location: dxmath\xmfloat4x4_ctor_1.htm
 tech.root: dxmath

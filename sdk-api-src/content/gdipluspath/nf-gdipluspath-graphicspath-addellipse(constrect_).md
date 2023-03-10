@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddEllipse(constRect&)
 title: GraphicsPath::AddEllipse(IN const Rect &) (gdipluspath.h)
-description: The GraphicsPath::AddEllipse method adds an ellipse to this path.
+description: The GraphicsPath::AddEllipse method adds an ellipse to this path. (overload 4/4)
 helpviewer_keywords: ["AddEllipse","AddEllipse method [GDI+]","AddEllipse method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddEllipse method","GraphicsPath.AddEllipse","GraphicsPath.AddEllipse(IN const Rect &)","GraphicsPath.AddEllipse(const Rect&)","GraphicsPath::AddEllipse","GraphicsPath::AddEllipse(IN const Rect &)","_gdiplus_CLASS_GraphicsPath_AddEllipse_Rect_rect_","gdiplus._gdiplus_CLASS_GraphicsPath_AddEllipse_Rect_rect_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddEllipse_Rect_rect_.htm
 tech.root: gdiplus

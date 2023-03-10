@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.RegisterCMMW
 title: RegisterCMMW
-description: Associates a specified identification value with the specified color management module dynamic link library (CMM DLL). When this ID appears in a color profile, Windows can then locate the corresponding CMM so as to create a transform.
+description: Associates a specified identification value with the specified color management module dynamic link library (CMM DLL). When this ID appears in a color profile, Windows can then locate the corresponding CMM so as to create a transform. (Unicode)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

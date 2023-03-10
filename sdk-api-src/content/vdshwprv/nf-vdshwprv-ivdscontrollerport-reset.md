@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsControllerPort.Reset
 title: IVdsControllerPort::Reset (vdshwprv.h)
-description: Reinitializes the controller port.
+description: The IVdsControllerPort::Reset (vdshwprv.h) method reinitializes the controller port.
 helpviewer_keywords: ["IVdsControllerPort interface [VDS]","Reset method","IVdsControllerPort.Reset","IVdsControllerPort::Reset","Reset","Reset method [VDS]","Reset method [VDS]","IVdsControllerPort interface","base.ivdscontrollerport_reset","vds/IVdsControllerPort::Reset","vdshwprv/IVdsControllerPort::Reset"]
 old-location: base\ivdscontrollerport_reset.htm
 tech.root: base
 ms.assetid: e298ef9d-8abb-450b-97d3-e97d64f0e734
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsControllerPort interface [VDS],Reset method, IVdsControllerPort.Reset, IVdsControllerPort::Reset, Reset, Reset method [VDS], Reset method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_reset, vds/IVdsControllerPort::Reset, vdshwprv/IVdsControllerPort::Reset
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Reinitializes the 
    controller port.

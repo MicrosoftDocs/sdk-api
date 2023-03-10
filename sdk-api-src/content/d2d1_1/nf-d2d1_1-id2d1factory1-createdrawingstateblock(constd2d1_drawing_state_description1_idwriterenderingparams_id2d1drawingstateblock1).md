@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1Factory1.CreateDrawingStateBlock(constD2D1_DRAWING_STATE_DESCRIPTION1,IDWriteRenderingParams,ID2D1DrawingStateBlock1)
 title: ID2D1Factory1::CreateDrawingStateBlock (d2d1_1.h)
-description: Creates a new drawing state block, this can be used in subsequent SaveDrawingState and RestoreDrawingState operations on the render target.
+description: Creates a new drawing state block, this can be used in subsequent SaveDrawingState and RestoreDrawingState operations on the render target. (overload 3/3)
 helpviewer_keywords: ["CreateDrawingStateBlock","CreateDrawingStateBlock method [Direct2D]","CreateDrawingStateBlock method [Direct2D]","ID2D1Factory1 interface","ID2D1Factory1 interface [Direct2D]","CreateDrawingStateBlock method","ID2D1Factory1.CreateDrawingStateBlock","ID2D1Factory1::CreateDrawingStateBlock","ID2D1Factory1::CreateDrawingStateBlock(const D2D1_DRAWING_STATE_DESCRIPTION1","IDWriteRenderingParams","ID2D1DrawingStateBlock1)","d2d1_1/ID2D1Factory1::CreateDrawingStateBlock","direct2d.id2d1factory1_createdrawingstateblock"]
 old-location: direct2d\id2d1factory1_createdrawingstateblock.htm
 tech.root: Direct2D

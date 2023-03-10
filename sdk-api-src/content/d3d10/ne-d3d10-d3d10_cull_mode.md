@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10.D3D10_CULL_MODE
 title: D3D10_CULL_MODE (d3d10.h)
-description: Indicates triangles facing a particular direction are not drawn.
+description: Indicates triangles facing a particular direction are not drawn. (D3D10_CULL_MODE)
 helpviewer_keywords: ["2117693b-8d7e-4cd9-dfee-29b015d206b8","D3D10_CULL_BACK","D3D10_CULL_FRONT","D3D10_CULL_MODE","D3D10_CULL_MODE enumeration [Direct3D 10]","D3D10_CULL_NONE","d3d10/D3D10_CULL_BACK","d3d10/D3D10_CULL_FRONT","d3d10/D3D10_CULL_MODE","d3d10/D3D10_CULL_NONE","direct3d10.d3d10_cull_mode"]
 old-location: direct3d10\d3d10_cull_mode.htm
 tech.root: direct3d10

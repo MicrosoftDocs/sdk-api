@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.PushLayer(constD2D1_LAYER_PARAMETERS&,ID2D1Layer)
 title: ID2D1RenderTarget::PushLayer(const D2D1_LAYER_PARAMETERS &,ID2D1Layer) (d2d1.h)
-description: Adds the specified layer to the render target so that it receives all subsequent drawing operations until PopLayer is called.
+description: Adds the specified layer to the render target so that it receives all subsequent drawing operations until PopLayer is called. (overload 2/2)
 helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","PushLayer method","ID2D1RenderTarget.PushLayer","ID2D1RenderTarget.PushLayer(const D2D1_LAYER_PARAMETERS &","ID2D1Layer)","ID2D1RenderTarget::PushLayer","ID2D1RenderTarget::PushLayer(const D2D1_LAYER_PARAMETERS &","ID2D1Layer)","PushLayer","PushLayer method [Direct2D]","PushLayer method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::PushLayer","direct2d.ID2D1RenderTarget_PushLayer_ref_D2D1_LAYER_PARAMETERS_ptr_ID2D1Layer"]
 old-location: direct2d\ID2D1RenderTarget_PushLayer_ref_D2D1_LAYER_PARAMETERS_ptr_ID2D1Layer.htm
 tech.root: Direct2D

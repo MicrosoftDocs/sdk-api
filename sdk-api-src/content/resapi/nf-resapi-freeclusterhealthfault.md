@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.FreeClusterHealthFault
 title: FreeClusterHealthFault function (resapi.h)
-description: TBD.
+description: The FreeClusterHealthFault function is a health fault utility function that is part of the resapi.h header used by Windows Clustering.
 helpviewer_keywords: ["FreeClusterHealthFault","FreeClusterHealthFault function [Failover Cluster]","mscs.freeclusterhealthfault","resapi/FreeClusterHealthFault"]
 old-location: mscs\freeclusterhealthfault.htm
 tech.root: MsCS
 ms.assetid: 5a79d105-dd15-4205-99e6-b389b2adeed5
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: FreeClusterHealthFault, FreeClusterHealthFault function [Failover Cluster], mscs.freeclusterhealthfault, resapi/FreeClusterHealthFault
 req.header: resapi.h
 req.include-header: 

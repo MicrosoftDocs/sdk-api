@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFCollection.GetElementCount
 title: IMFCollection::GetElementCount (mfobjects.h)
-description: Retrieves the number of objects in the collection.
+description: Retrieves the number of objects in the collection. (IMFCollection.GetElementCount)
 helpviewer_keywords: ["4bd46f66-0542-4185-b50e-163cc3b4e2f8","GetElementCount","GetElementCount method [Media Foundation]","GetElementCount method [Media Foundation]","IMFCollection interface","IMFCollection interface [Media Foundation]","GetElementCount method","IMFCollection.GetElementCount","IMFCollection::GetElementCount","mf.imfcollection_getelementcount","mfobjects/IMFCollection::GetElementCount"]
 old-location: mf\imfcollection_getelementcount.htm
 tech.root: mf

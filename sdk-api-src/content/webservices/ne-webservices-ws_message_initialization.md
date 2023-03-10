@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_40
+UID: NE:webservices.WS_MESSAGE_INITIALIZATION
 title: WS_MESSAGE_INITIALIZATION (webservices.h)
 description: Specifies what headers the WsInitializeMessageshould add to the message.
 helpviewer_keywords: ["WS_BLANK_MESSAGE","WS_DUPLICATE_MESSAGE","WS_FAULT_MESSAGE","WS_MESSAGE_INITIALIZATION","WS_MESSAGE_INITIALIZATION enumeration [Web Services for Windows]","WS_REPLY_MESSAGE","WS_REQUEST_MESSAGE","webservices/WS_BLANK_MESSAGE","webservices/WS_DUPLICATE_MESSAGE","webservices/WS_FAULT_MESSAGE","webservices/WS_MESSAGE_INITIALIZATION","webservices/WS_REPLY_MESSAGE","webservices/WS_REQUEST_MESSAGE","wsw.ws_message_initialization"]
@@ -83,3 +83,4 @@ The FaultTo or ReplyTo header of the source message (an <a href="/windows/deskto
                     is used to address the message.  The MessageID header of the source message
                     is used to add a RelatesTo header to the message.  This should only be
                     used when the contents of the message will contain a fault.
+

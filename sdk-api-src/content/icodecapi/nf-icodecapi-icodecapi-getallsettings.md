@@ -5,7 +5,7 @@ helpviewer_keywords: ["GetAllSettings","GetAllSettings method [DirectShow]","Get
 tech.root: mf
 ms.date: 09/22/2020
 targetos: Windows
-description: The GetAllSettings method gets the codec's current properties and writes them to a stream.
+description: The GetAllSettings method gets the codec's current properties and writes them to a stream. (ICodecAPI::GetAllSettings)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

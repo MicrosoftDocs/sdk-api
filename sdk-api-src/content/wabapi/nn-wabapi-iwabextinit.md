@@ -57,6 +57,6 @@ Do not use. This interface ndicates which Windows Address Book (WAB) object is b
 
 The <b>IWABExtInit</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWABExtInit</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

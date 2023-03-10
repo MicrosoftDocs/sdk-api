@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionSaturationEffect.SetSaturation(IDCompositionAnimation)
 title: IDCompositionSaturationEffect::SetSaturation(IDCompositionAnimation) (dcomp.h)
-description: Sets the saturation of the image.
+description: Sets the saturation of the image. (overload 1/2)
 helpviewer_keywords: ["IDCompositionSaturationEffect interface [DirectComposition]","SetSaturation method","IDCompositionSaturationEffect.SetSaturation","IDCompositionSaturationEffect.SetSaturation(IDCompositionAnimation)","IDCompositionSaturationEffect::SetSaturation","IDCompositionSaturationEffect::SetSaturation(IDCompositionAnimation)","SetSaturation","SetSaturation method [DirectComposition]","SetSaturation method [DirectComposition]","IDCompositionSaturationEffect interface","dcomp/IDCompositionSaturationEffect::SetSaturation","directcomp.idcompositionsaturationeffect_setsaturation_2"]
 old-location: directcomp\idcompositionsaturationeffect_setsaturation_2.htm
 tech.root: directcomp

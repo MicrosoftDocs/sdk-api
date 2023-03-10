@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_31
+UID: NS:lpmapi.GenAdspecParams
 title: GenAdspecParams (lpmapi.h)
 description: The GenAdspecParams structure contains general path characterization parameters.
 helpviewer_keywords: ["GenAdspecParams","GenAdspecParams structure [QOS]","lpmapi/GenAdspecParams","qos.genadspecparams"]
@@ -98,3 +98,4 @@ Composed MTU information parameter.
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservservicehdr">IntServServiceHdr</a>
+

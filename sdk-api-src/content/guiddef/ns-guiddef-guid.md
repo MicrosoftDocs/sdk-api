@@ -1,7 +1,8 @@
 ---
 UID: NS:guiddef._GUID
 title: GUID
-ms.date: 4/26/2019
+description: A GUID structure (guiddef.h) identifies an object such as a COM interfaces, or a COM class object, or a manager entry-point vector (EPV).
+ms.date: 08/12/2022
 ms.keywords: _GUID, GUID
 targetos: Windows
 req.construct-type: structure

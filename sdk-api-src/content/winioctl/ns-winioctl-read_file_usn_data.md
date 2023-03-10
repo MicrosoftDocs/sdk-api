@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_17
+UID: NS:winioctl.READ_FILE_USN_DATA
 title: READ_FILE_USN_DATA
 description: Specifies the versions of the update sequence number (USN) change journal supported by the application.
 helpviewer_keywords: ["*PREAD_FILE_USN_DATA","PREAD_FILE_USN_DATA","PREAD_FILE_USN_DATA structure pointer [Files]","READ_FILE_USN_DATA","READ_FILE_USN_DATA structure [Files]","fs.read_file_usn_data","winioctl/PREAD_FILE_USN_DATA","winioctl/READ_FILE_USN_DATA"]
@@ -74,3 +74,4 @@ The highest version of the USN change journal accepted by the application. If th
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
+

@@ -4,7 +4,7 @@ title: Fdi_Fci_Types.h header
 ms.assetid: 912c8328-9a99-3cdb-90f4-3abc27dcb0da
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winprog
 f1_keywords:
  - fdi_fci_types

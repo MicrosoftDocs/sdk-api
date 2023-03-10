@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_Description
 title: IEventSubscription::get_Description (eventsys.h)
-description: A displayable text description of the subscription.
+description: A displayable text description of the subscription. (Get)
 helpviewer_keywords: ["Description property [COM+]","Description property [COM+]","IEventSubscription interface","IEventSubscription interface [COM+]","Description property","IEventSubscription.Description","IEventSubscription.get_Description","IEventSubscription::Description","IEventSubscription::get_Description","IEventSubscription::put_Description","cos.ieventsubscription_description","eventsys/IEventSubscription::Description","eventsys/IEventSubscription::get_Description","eventsys/IEventSubscription::put_Description","get_Description"]
 old-location: cos\ieventsubscription_description.htm
 tech.root: cos

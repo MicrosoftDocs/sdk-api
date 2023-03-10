@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetNPatchMode
 title: IDirect3DDevice9::GetNPatchMode (d3d9helper.h)
-description: Gets the N-patch mode segments.
+description: The IDirect3DDevice9::GetNPatchMode method (d3d9.h) gets the N-patch mode segments.
 helpviewer_keywords: ["GetNPatchMode","GetNPatchMode method [Direct3D 9]","GetNPatchMode method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetNPatchMode method","IDirect3DDevice9.GetNPatchMode","IDirect3DDevice9::GetNPatchMode","a14b100f-853a-c4a3-4c40-bb1bf093d57c","d3d9helper/IDirect3DDevice9::GetNPatchMode","direct3d9.idirect3ddevice9__getnpatchmode"]
 old-location: direct3d9\idirect3ddevice9__getnpatchmode.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getnpatchmode.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: GetNPatchMode, GetNPatchMode method [Direct3D 9], GetNPatchMode method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetNPatchMode method, IDirect3DDevice9.GetNPatchMode, IDirect3DDevice9::GetNPatchMode, a14b100f-853a-c4a3-4c40-bb1bf093d57c, d3d9helper/IDirect3DDevice9::GetNPatchMode, direct3d9.idirect3ddevice9__getnpatchmode
 req.header: d3d9helper.h
 req.include-header: D3D9.h

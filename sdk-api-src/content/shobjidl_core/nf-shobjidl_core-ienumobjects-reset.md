@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IEnumObjects.Reset
 title: IEnumObjects::Reset (shobjidl_core.h)
-description: Resets the enumeration index to 0.
+description: Resets the enumeration index to 0. (IEnumObjects.Reset)
 helpviewer_keywords: ["IEnumObjects interface [Windows Shell]","Reset method","IEnumObjects.Reset","IEnumObjects::Reset","Reset","Reset method [Windows Shell]","Reset method [Windows Shell]","IEnumObjects interface","_shell_IEnumObjects_Reset","shell.IEnumObjects_Reset","shobjidl_core/IEnumObjects::Reset"]
 old-location: shell\IEnumObjects_Reset.htm
 tech.root: shell

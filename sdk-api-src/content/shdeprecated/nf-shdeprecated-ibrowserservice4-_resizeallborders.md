@@ -1,7 +1,7 @@
 ---
 UID: NF:shdeprecated.IBrowserService4._ResizeAllBorders
 title: IBrowserService4::_ResizeAllBorders (shdeprecated.h)
-description: Deprecated.
+description: Deprecated. (IBrowserService4._ResizeAllBorders)
 helpviewer_keywords: ["IBrowserService4 interface [Windows Shell]","_ResizeAllBorders method","IBrowserService4._ResizeAllBorders","IBrowserService4::_ResizeAllBorders","_ResizeAllBorders","_ResizeAllBorders method [Windows Shell]","_ResizeAllBorders method [Windows Shell]","IBrowserService4 interface","_shell_IBrowserService4__ResizeAllBorders","shdeprecated/IBrowserService4::_ResizeAllBorders","shell.IBrowserService4__ResizeAllBorders"]
 old-location: shell\IBrowserService4__ResizeAllBorders.htm
 tech.root: shell

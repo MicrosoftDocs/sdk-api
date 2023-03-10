@@ -1,5 +1,5 @@
 ---
-UID: NE:dwmapi.__unnamed_enum_1
+UID: NE:dwmapi.DWM_SOURCE_FRAME_SAMPLING
 title: DWM_SOURCE_FRAME_SAMPLING (dwmapi.h)
 description: Flags used by the DwmSetPresentParameters function to specify the frame sampling type.
 helpviewer_keywords: ["DWM_SOURCE_FRAME_SAMPLING","DWM_SOURCE_FRAME_SAMPLING enumeration [Desktop Window Manager]","DWM_SOURCE_FRAME_SAMPLING_COVERAGE","DWM_SOURCE_FRAME_SAMPLING_LAST","DWM_SOURCE_FRAME_SAMPLING_POINT","_udwm_dwm_source_frame_sampling","_udwm_dwm_source_frame_sampling_cpp","dwm.dwm_source_frame_sampling","dwmapi/DWM_SOURCE_FRAME_SAMPLING","dwmapi/DWM_SOURCE_FRAME_SAMPLING_COVERAGE","dwmapi/DWM_SOURCE_FRAME_SAMPLING_LAST","dwmapi/DWM_SOURCE_FRAME_SAMPLING_POINT","winui._udwm_dwm_source_frame_sampling"]
@@ -65,3 +65,4 @@ Use the source frame that includes the most refreshes of the output frame. In th
 ### -field DWM_SOURCE_FRAME_SAMPLING_LAST
 
 The maximum recognized <a href="/windows/desktop/api/dwmapi/ne-dwmapi-dwm_source_frame_sampling">DWM_SOURCE_FRAME_SAMPLING</a> value, used for validation purposes.
+

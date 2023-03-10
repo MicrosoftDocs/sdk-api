@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.__unnamed_struct_12
+UID: NS:processsnapshot.PSS_ALLOCATOR
 title: PSS_ALLOCATOR (processsnapshot.h)
 description: Specifies custom functions which the Process Snapshotting functions use to allocate and free the internal walk marker structures.
 helpviewer_keywords: ["PSS_ALLOCATOR","PSS_ALLOCATOR structure","proc_snap.pss_allocator","processsnapshot/PSS_ALLOCATOR"]
@@ -103,3 +103,4 @@ The custom functions are called from <a href="/previous-versions/windows/desktop
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

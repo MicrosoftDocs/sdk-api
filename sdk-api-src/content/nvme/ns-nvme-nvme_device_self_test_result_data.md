@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_96
-tech.root: fs 
+UID: NS:nvme.NVME_DEVICE_SELF_TEST_RESULT_DATA
+tech.root: fs
 title: NVME_DEVICE_SELF_TEST_RESULT_DATA
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains data about the results of a Device Self-Test operation.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_DEVICE_SELF_TEST_RESULT_DATA, *PNVME_DEVICE_SELF_TEST_RESULT_DATA
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_DEVICE_SELF_TEST_RESULT_DATA structure
+
 
 ## -description
 

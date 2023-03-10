@@ -1,15 +1,15 @@
 ---
 UID: NF:processenv.NeedCurrentDirectoryForExePathW
 title: NeedCurrentDirectoryForExePathW function (processenv.h)
-description: Determines whether the current directory should be included in the search path for the specified executable.
-helpviewer_keywords: ["NeedCurrentDirectoryForExePath","NeedCurrentDirectoryForExePath function","NeedCurrentDirectoryForExePathA","NeedCurrentDirectoryForExePathW","base.needcurrentdirectoryforexepath","processenv/NeedCurrentDirectoryForExePath","processenv/NeedCurrentDirectoryForExePathA","processenv/NeedCurrentDirectoryForExePathW","winbase/NeedCurrentDirectoryForExePath","winbase/NeedCurrentDirectoryForExePathA","winbase/NeedCurrentDirectoryForExePathW"]
+description: Determines whether the current directory should be included in the search path for the specified executable. (Unicode)
+helpviewer_keywords: ["NeedCurrentDirectoryForExePath", "NeedCurrentDirectoryForExePath function", "NeedCurrentDirectoryForExePathW", "base.needcurrentdirectoryforexepath", "processenv/NeedCurrentDirectoryForExePath", "processenv/NeedCurrentDirectoryForExePathW"]
 old-location: base\needcurrentdirectoryforexepath.htm
 tech.root: backup
 ms.assetid: 2bdc07b9-bb83-48c2-a668-fda5c69d54ee
 ms.date: 12/05/2018
 ms.keywords: NeedCurrentDirectoryForExePath, NeedCurrentDirectoryForExePath function, NeedCurrentDirectoryForExePathA, NeedCurrentDirectoryForExePathW, base.needcurrentdirectoryforexepath, processenv/NeedCurrentDirectoryForExePath, processenv/NeedCurrentDirectoryForExePathA, processenv/NeedCurrentDirectoryForExePathW, winbase/NeedCurrentDirectoryForExePath, winbase/NeedCurrentDirectoryForExePathA, winbase/NeedCurrentDirectoryForExePathW
 req.header: processenv.h
-req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]

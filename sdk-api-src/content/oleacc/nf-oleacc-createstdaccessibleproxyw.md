@@ -1,8 +1,8 @@
 ---
 UID: NF:oleacc.CreateStdAccessibleProxyW
 title: CreateStdAccessibleProxyW function (oleacc.h)
-description: Creates an accessible object that has the properties and methods of the specified class of system-provided user interface element.
-helpviewer_keywords: ["CreateStdAccessibleProxy","CreateStdAccessibleProxy function [Windows Accessibility]","CreateStdAccessibleProxyA","CreateStdAccessibleProxyW","_msaa_CreateStdAccessibleProxy","msaa.createstdaccessibleproxy","oleacc/CreateStdAccessibleProxy","oleacc/CreateStdAccessibleProxyA","oleacc/CreateStdAccessibleProxyW","winauto.createstdaccessibleproxy"]
+description: Creates an accessible object that has the properties and methods of the specified class of system-provided user interface element. (Unicode)
+helpviewer_keywords: ["CreateStdAccessibleProxy", "CreateStdAccessibleProxy function [Windows Accessibility]", "CreateStdAccessibleProxyW", "_msaa_CreateStdAccessibleProxy", "msaa.createstdaccessibleproxy", "oleacc/CreateStdAccessibleProxy", "oleacc/CreateStdAccessibleProxyW", "winauto.createstdaccessibleproxy"]
 old-location: winauto\createstdaccessibleproxy.htm
 tech.root: WinAuto
 ms.assetid: 724b2a38-f7ca-4423-acd4-0871623d1201

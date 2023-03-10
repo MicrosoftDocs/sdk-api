@@ -4,7 +4,7 @@ title: Ntmsmli.h header
 ms.assetid: 8df94450-5ec6-3edb-99d1-a1712a2956fd
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: fs
 f1_keywords:
  - ntmsmli

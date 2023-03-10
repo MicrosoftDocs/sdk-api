@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_94
-tech.root: fs 
+UID: NS:nvme.NVME_COMMAND_EFFECTS_DATA
+tech.root: fs
 title: NVME_COMMAND_EFFECTS_DATA
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains information that describes the overall possible effect of an Admin or I/O command, including any optional features of the command.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_COMMAND_EFFECTS_DATA, *PNVME_COMMAND_EFFECTS_DATA
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_COMMAND_EFFECTS_DATA structure
+
 
 ## -description
 
@@ -101,3 +102,4 @@ For example, if a namespace capability change may occur, then the host software 
 ## -see-also
 
 - [NVME_COMMAND_EFFECTS_LOG](ns-nvme-nvme_command_effects_log.md)
+

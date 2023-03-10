@@ -4,7 +4,7 @@ title: IP Helper
 ms.assetid: 2d8e8199-22bc-381d-9913-ad803143e6e3
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # IP Helper
@@ -30,5 +30,4 @@ To develop IP Helper, you need these headers:
  * [ws2ipdef.h](../ws2ipdef/index.md)
 
 For programming guidance for this technology, see:
-* [IP Helper](/windows/desktop/iphlp)
-
+* [IP Helper](/windows/win32/IpHlp/ip-helper-start-page)

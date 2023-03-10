@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_77
+UID: NE:webservices.WS_XML_SECURITY_TOKEN_PROPERTY_ID
 title: WS_XML_SECURITY_TOKEN_PROPERTY_ID (webservices.h)
 description: The keys for the bag of properties for the creation of XML security tokens. This enumeration is used within the WS_XML_SECURITY_TOKEN_PROPERTY structure, which is used as parameter for WsCreateXmlSecurityToken.
 helpviewer_keywords: ["WS_XML_SECURITY_TOKEN_PROPERTY_ATTACHED_REFERENCE","WS_XML_SECURITY_TOKEN_PROPERTY_ID","WS_XML_SECURITY_TOKEN_PROPERTY_ID enumeration [Web Services for Windows]","WS_XML_SECURITY_TOKEN_PROPERTY_UNATTACHED_REFERENCE","WS_XML_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME","WS_XML_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME","webservices/WS_XML_SECURITY_TOKEN_PROPERTY_ATTACHED_REFERENCE","webservices/WS_XML_SECURITY_TOKEN_PROPERTY_ID","webservices/WS_XML_SECURITY_TOKEN_PROPERTY_UNATTACHED_REFERENCE","webservices/WS_XML_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME","webservices/WS_XML_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME","wsw.ws_xml_security_token_property_id"]
@@ -78,3 +78,4 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATET
 ### -field WS_XML_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME:4
 
 A <a href="/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> structure that contains the time until when the security token is valid.
+

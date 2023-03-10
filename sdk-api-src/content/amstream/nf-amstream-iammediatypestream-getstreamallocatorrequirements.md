@@ -58,7 +58,7 @@ The <code>GetStreamAllocatorRequirements</code> retrieves the allocator requirem
 
 ### -param pProps [out]
 
-Pointer to an <a href="/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties">ALLOCATOR_PROPERTIES</a> structure that receives the stream allocator requirements.
+Pointer to an <a href="/windows/win32/api/strmif/ns-strmif-allocator_properties">ALLOCATOR_PROPERTIES</a> structure that receives the stream allocator requirements.
 
 ## -returns
 

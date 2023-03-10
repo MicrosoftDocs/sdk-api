@@ -1,8 +1,8 @@
 ---
 UID: NF:psapi.GetDeviceDriverFileNameA
 title: GetDeviceDriverFileNameA function (psapi.h)
-description: Retrieves the path available for the specified device driver.
-helpviewer_keywords: ["GetDeviceDriverFileName","GetDeviceDriverFileName function [PSAPI]","GetDeviceDriverFileNameA","GetDeviceDriverFileNameW","K32GetDeviceDriverFileName","K32GetDeviceDriverFileNameA","K32GetDeviceDriverFileNameW","_win32_getdevicedriverfilename","base.getdevicedriverfilename","psapi.getdevicedriverfilename","psapi/GetDeviceDriverFileName","psapi/GetDeviceDriverFileNameA","psapi/GetDeviceDriverFileNameW","psapi/K32GetDeviceDriverFileName","psapi/K32GetDeviceDriverFileNameA","psapi/K32GetDeviceDriverFileNameW"]
+description: Retrieves the path available for the specified device driver. (ANSI)
+helpviewer_keywords: ["GetDeviceDriverFileNameA", "K32GetDeviceDriverFileNameA", "psapi/GetDeviceDriverFileNameA", "psapi/K32GetDeviceDriverFileNameA"]
 old-location: psapi\getdevicedriverfilename.htm
 tech.root: psapi
 ms.assetid: 6ddbcf7e-e41c-4ea7-b60a-01ed5c98c530

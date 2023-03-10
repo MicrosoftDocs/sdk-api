@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem2.GetProperties2
 title: IVdsSubSystem2::GetProperties2 (vdshwprv.h)
-description: Returns the properties of a subsystem. This method is identical to the IVdsSubSystem::GetProperties method, except that it returns a VDS_SUB_SYSTEM_PROP2 structure instead of a VDS_SUB_SYSTEM_PROP structure.
+description: The VdsSubSystem2::GetProperties2 (vdshwprv.h) method returns the properties of a subsystem.
 helpviewer_keywords: ["GetProperties2","GetProperties2 method","GetProperties2 method","IVdsSubSystem2 interface","IVdsSubSystem2 interface","GetProperties2 method","IVdsSubSystem2.GetProperties2","IVdsSubSystem2::GetProperties2","base.ivdssubsystem2_getproperties2","vds/IVdsSubSystem2::GetProperties2","vdshwprv/IVdsSubSystem2::GetProperties2"]
 old-location: base\ivdssubsystem2_getproperties2.htm
 tech.root: base
 ms.assetid: 1f2164a9-643d-4762-8a2e-31d5c277502e
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsSubSystem2 interface, IVdsSubSystem2 interface,GetProperties2 method, IVdsSubSystem2.GetProperties2, IVdsSubSystem2::GetProperties2, base.ivdssubsystem2_getproperties2, vds/IVdsSubSystem2::GetProperties2, vdshwprv/IVdsSubSystem2::GetProperties2
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the properties of a subsystem. This method is identical to the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-getproperties">IVdsSubSystem::GetProperties</a> method, except that it returns a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop2">VDS_SUB_SYSTEM_PROP2</a> structure instead of a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop">VDS_SUB_SYSTEM_PROP</a> structure.
 

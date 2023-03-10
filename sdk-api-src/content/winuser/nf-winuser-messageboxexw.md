@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.MessageBoxExW
 title: MessageBoxExW function (winuser.h)
-description: Creates, displays, and operates a message box.
-helpviewer_keywords: ["MessageBoxEx","MessageBoxEx function [Dialog Boxes]","MessageBoxExA","MessageBoxExW","_win32_MessageBoxEx","_win32_messageboxex_cpp","dlgbox.messageboxex","winui._win32_messageboxex","winuser/MessageBoxEx","winuser/MessageBoxExA","winuser/MessageBoxExW"]
+description: Creates, displays, and operates a message box. (Unicode)
+helpviewer_keywords: ["MessageBoxEx", "MessageBoxEx function [Dialog Boxes]", "MessageBoxExW", "_win32_MessageBoxEx", "_win32_messageboxex_cpp", "dlgbox.messageboxex", "winui._win32_messageboxex", "winuser/MessageBoxEx", "winuser/MessageBoxExW"]
 old-location: dlgbox\messageboxex.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\messageboxex.htm

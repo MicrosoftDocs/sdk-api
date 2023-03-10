@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Multithread.Leave
 title: ID3D10Multithread::Leave (d3d10.h)
-description: Leave a device's critical section.
+description: Leave a device's critical section. (ID3D10Multithread.Leave)
 helpviewer_keywords: ["ID3D10Multithread interface [Direct3D 10]","Leave method","ID3D10Multithread.Leave","ID3D10Multithread::Leave","Leave","Leave method [Direct3D 10]","Leave method [Direct3D 10]","ID3D10Multithread interface","d3d10/ID3D10Multithread::Leave","direct3d10.id3d10multithread_leave","f69302dd-2d93-2366-c5f5-206d6140c16e"]
 old-location: direct3d10\id3d10multithread_leave.htm
 tech.root: direct3d10

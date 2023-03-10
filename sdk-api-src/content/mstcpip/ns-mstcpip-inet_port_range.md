@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>INET_PORT_RANGE</b> structure provides input data used by the <a href="/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a> IOCTL to acquire a runtime reservation for a block of TCP or UDP ports.
+The <b>INET_PORT_RANGE</b> structure provides input data used by the <a href="/windows/win32/winsock/sio-acquire-port-reservation">SIO_ACQUIRE_PORT_RESERVATION</a> IOCTL to acquire a runtime reservation for a block of TCP or UDP ports.
 
 ## -struct-fields
 
@@ -71,7 +71,7 @@ The number of TCP or UDP port numbers to reserve.
 The  <b>INET_PORT_RANGE</b> structure is supported on Windows Vista and later.
 
 The 
-<b>INET_PORT_RANGE</b> structure is the datatype passed in the input buffer to the <a href="/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a> IOCTL. This IOCTL is used to acquire a runtime reservation for a block of TCP or UDP ports.  
+<b>INET_PORT_RANGE</b> structure is the datatype passed in the input buffer to the <a href="/windows/win32/winsock/sio-acquire-port-reservation">SIO_ACQUIRE_PORT_RESERVATION</a> IOCTL. This IOCTL is used to acquire a runtime reservation for a block of TCP or UDP ports.  
 
 The 
 <b>INET_PORT_RANGE</b> structure is typedefed to the <b>INET_PORT_RESERVATION</b> structure.
@@ -110,12 +110,12 @@ The
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a>
+<a href="/windows/win32/winsock/sio-acquire-port-reservation">SIO_ACQUIRE_PORT_RESERVATION</a>
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)">SIO_ASSOCIATE_PORT_RESERVATION</a>
+<a href="/windows/win32/winsock/sio-associate-port-reservation">SIO_ASSOCIATE_PORT_RESERVATION</a>
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/gg699722(v=vs.85)">SIO_RELEASE_PORT_RESERVATION</a>
+<a href="/windows/win32/winsock/sio-release-port-reservation">SIO_RELEASE_PORT_RESERVATION</a>

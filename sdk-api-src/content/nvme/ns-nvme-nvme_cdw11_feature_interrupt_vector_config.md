@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_42
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_FEATURE_INTERRUPT_VECTOR_CONFIG
+tech.root: fs
 title: NVME_CDW11_FEATURE_INTERRUPT_VECTOR_CONFIG
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters for the Interrupt Vector Configuration Feature that configures settings specific to a particular interrupt vector.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_FEATURE_INTERRUPT_VECTOR_CONFIG, *PNVME_CDW11_FEATURE_INTERRUPT_VECTOR_CONFIG
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_FEATURE_INTERRUPT_VECTOR_CONFIG structure
+
 
 ## -description
 
@@ -72,3 +73,4 @@ By default, coalescing settings are enabled for each interrupt vector. Interrupt
 ## -see-also
 
 - [NVME_CDW11_FEATURES](ns-nvme-nvme_cdw11_features.md)
+

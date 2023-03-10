@@ -4,7 +4,7 @@ tech.root: backup
 title: DeleteTimerQueue
 ms.date: 06/02/2021
 targetos: Windows
-description: Deletes a timer queue. Any pending timers in the queue are canceled and deleted.
+description: Deletes a timer queue. Any pending timers in the queue are canceled and deleted. (DeleteTimerQueue)
 prerelease: false
 req.assembly: 
 req.construct-type: function

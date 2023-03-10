@@ -1,8 +1,8 @@
 ---
 UID: NF:vfw.MCIWndCreateW
 title: MCIWndCreateW function (vfw.h)
-description: The MCIWndCreate function registers the MCIWnd window class and creates an MCIWnd window for using MCI services. MCIWndCreate can also open an MCI device or file (such as an AVI file) and associate it with the MCIWnd window.
-helpviewer_keywords: ["MCIWndCreate","MCIWndCreate function [Windows Multimedia]","MCIWndCreateA","MCIWndCreateW","_win32_MCIWndCreate","multimedia.mciwndcreate","vfw/MCIWndCreate","vfw/MCIWndCreateA","vfw/MCIWndCreateW"]
+description: The MCIWndCreate function registers the MCIWnd window class and creates an MCIWnd window for using MCI services. MCIWndCreate can also open an MCI device or file (such as an AVI file) and associate it with the MCIWnd window. (Unicode)
+helpviewer_keywords: ["MCIWndCreate", "MCIWndCreate function [Windows Multimedia]", "MCIWndCreateW", "_win32_MCIWndCreate", "multimedia.mciwndcreate", "vfw/MCIWndCreate", "vfw/MCIWndCreateW"]
 old-location: multimedia\mciwndcreate.htm
 tech.root: Multimedia
 ms.assetid: 7a4a22e1-6b04-4d46-8427-738181769f5b

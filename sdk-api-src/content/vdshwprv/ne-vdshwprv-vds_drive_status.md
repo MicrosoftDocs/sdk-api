@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_DRIVE_STATUS
 title: VDS_DRIVE_STATUS (vdshwprv.h)
-description: Defines the set of object status values for a drive.
+description: The VDS_DRIVE_STATUS enumeration (vdshwprv.h) defines the set of object status values for a drive. 
 helpviewer_keywords: ["*PVDS_DRIVE_STATUS","VDS_DRIVE_STATUS","VDS_DRIVE_STATUS enumeration [VDS]","VDS_DRS_FAILED","VDS_DRS_NOT_READY","VDS_DRS_OFFLINE","VDS_DRS_ONLINE","VDS_DRS_REMOVED","VDS_DRS_UNKNOWN","base.vds_drive_status","vds/VDS_DRIVE_STATUS","vds/VDS_DRS_FAILED","vds/VDS_DRS_NOT_READY","vds/VDS_DRS_OFFLINE","vds/VDS_DRS_ONLINE","vds/VDS_DRS_REMOVED","vds/VDS_DRS_UNKNOWN","vdshwprv/VDS_DRIVE_STATUS","vdshwprv/VDS_DRS_FAILED","vdshwprv/VDS_DRS_NOT_READY","vdshwprv/VDS_DRS_OFFLINE","vdshwprv/VDS_DRS_ONLINE","vdshwprv/VDS_DRS_REMOVED","vdshwprv/VDS_DRS_UNKNOWN"]
 old-location: base\vds_drive_status.htm
 tech.root: base
 ms.assetid: fff84c91-d207-44fc-bcd6-03e34eaed9e3
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*PVDS_DRIVE_STATUS, VDS_DRIVE_STATUS, VDS_DRIVE_STATUS enumeration [VDS], VDS_DRS_FAILED, VDS_DRS_NOT_READY, VDS_DRS_OFFLINE, VDS_DRS_ONLINE, VDS_DRS_REMOVED, VDS_DRS_UNKNOWN, base.vds_drive_status, vds/VDS_DRIVE_STATUS, vds/VDS_DRS_FAILED, vds/VDS_DRS_NOT_READY, vds/VDS_DRS_OFFLINE, vds/VDS_DRS_ONLINE, vds/VDS_DRS_REMOVED, vds/VDS_DRS_UNKNOWN, vdshwprv/VDS_DRIVE_STATUS, vdshwprv/VDS_DRS_FAILED, vdshwprv/VDS_DRS_NOT_READY, vdshwprv/VDS_DRS_OFFLINE, vdshwprv/VDS_DRS_ONLINE, vdshwprv/VDS_DRS_REMOVED, vdshwprv/VDS_DRS_UNKNOWN'
 req.header: vdshwprv.h
 req.include-header: 
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of object status values for a drive.
 

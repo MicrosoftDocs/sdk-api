@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GraphicsPath(GpPath)
 title: GraphicsPath::GraphicsPath(GpPath) (gdipluspath.h)
-description: This topic lists the constructors of the GraphicsPath class. For a complete class listing, see GraphicsPath Class.
+description: This topic lists the constructors of the GraphicsPath class. For a complete class listing, see GraphicsPath Class. (overload 1/2)
 helpviewer_keywords: ["GraphicsPath","GraphicsPath constructors [GDI+]","GraphicsPath.GraphicsPath","GraphicsPath.GraphicsPath(GpPath)","GraphicsPath::GraphicsPath","GraphicsPath::GraphicsPath(GpPath)","_gdiplus_CLASS_GraphicsPath_Constructors","gdiplus._gdiplus_CLASS_GraphicsPath_Constructors","gdipluspath/GraphicsPath"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Constructors.htm
 tech.root: gdiplus

@@ -56,7 +56,7 @@ The <b>IDvbLogicalChannelDescriptor2</b> interface enables the client to get a l
 
 The <b>IDvbLogicalChannelDescriptor2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchanneldescriptor">IDvbLogicalChannelDescriptor</a>. <b>IDvbLogicalChannelDescriptor2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

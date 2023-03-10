@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortalGroup.AddPortal
 title: IVdsIscsiPortalGroup::AddPortal (vdshwprv.h)
-description: Adds a portal to a portal group.
+description: The IVdsIscsiPortalGroup::AddPortal (vdshwprv.h) method adds a portal to a portal group.
 helpviewer_keywords: ["AddPortal","AddPortal method [VDS]","AddPortal method [VDS]","IVdsIscsiPortalGroup interface","IVdsIscsiPortalGroup interface [VDS]","AddPortal method","IVdsIscsiPortalGroup.AddPortal","IVdsIscsiPortalGroup::AddPortal","base.ivdsiscsiportalgroup_addportal","vds/IVdsIscsiPortalGroup::AddPortal","vdshwprv/IVdsIscsiPortalGroup::AddPortal"]
 old-location: base\ivdsiscsiportalgroup_addportal.htm
 tech.root: base
 ms.assetid: 6a2c1427-5137-47d4-a4b9-88a1bbc1e6c9
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: AddPortal, AddPortal method [VDS], AddPortal method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],AddPortal method, IVdsIscsiPortalGroup.AddPortal, IVdsIscsiPortalGroup::AddPortal, base.ivdsiscsiportalgroup_addportal, vds/IVdsIscsiPortalGroup::AddPortal, vdshwprv/IVdsIscsiPortalGroup::AddPortal
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Adds a portal to a portal group. A portal can belong only to a single portal group within a 
    particular target. It can belong to other portal groups in other targets.

@@ -4,7 +4,7 @@ title: Game Mode
 ms.assetid: 7e85c2c5-8d7f-3617-a348-14e79b75cc10
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Game Mode

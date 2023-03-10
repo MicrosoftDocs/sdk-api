@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SecPkgContext_NamesA
 title: SecPkgContext_NamesA (sspi.h)
-description: The SecPkgContext_Names structure indicates the name of the user associated with a security context. The QueryContextAttributes (General) function uses this structure.
+description: The SecPkgContext_Names structure indicates the name of the user associated with a security context. The QueryContextAttributes (General) function uses this structure. (ANSI)
 helpviewer_keywords: ["*PSecPkgContext_NamesA","SecPkgContext_Names","SecPkgContext_Names structure [Security]","SecPkgContext_NamesA","SecPkgContext_NamesW","_ssp_secpkgcontext_names","pSecPkgContext_Names","pSecPkgContext_Names structure pointer [Security]","security.secpkgcontext_names","sspi/SecPkgContext_Names","sspi/SecPkgContext_NamesA","sspi/SecPkgContext_NamesW","sspi/pSecPkgContext_Names"]
 old-location: security\secpkgcontext_names.htm
 tech.root: security

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetSourceRectangle
 title: IMFVideoProcessorControl::SetSourceRectangle (mfidl.h)
-description: Sets the source rectangle.
+description: Sets the source rectangle. (IMFVideoProcessorControl.SetSourceRectangle)
 helpviewer_keywords: ["IMFVideoProcessorControl interface [Media Foundation]","SetSourceRectangle method","IMFVideoProcessorControl.SetSourceRectangle","IMFVideoProcessorControl::SetSourceRectangle","SetSourceRectangle","SetSourceRectangle method [Media Foundation]","SetSourceRectangle method [Media Foundation]","IMFVideoProcessorControl interface","mf.imfvideoprocessorcontrol_setsourcerectangle","mfidl/IMFVideoProcessorControl::SetSourceRectangle"]
 old-location: mf\imfvideoprocessorcontrol_setsourcerectangle.htm
 tech.root: mf

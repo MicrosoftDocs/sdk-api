@@ -56,7 +56,7 @@ The <b>IATASCLocator2</b> interface enables the network provider to determine th
 
 The <b>IATSCLocator2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsclocator">IATSCLocator</a>. <b>IATSCLocator2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

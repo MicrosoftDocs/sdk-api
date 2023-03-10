@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasEditPhonebookEntryW
 title: RasEditPhonebookEntryW function (ras.h)
-description: The RasEditPhonebookEntry function edits an existing phone-book entry. The function displays a dialog box in which the user can modify the existing information.
-helpviewer_keywords: ["RasEditPhonebookEntry","RasEditPhonebookEntry function [RAS]","RasEditPhonebookEntryA","RasEditPhonebookEntryW","_ras_raseditphonebookentry","ras/RasEditPhonebookEntry","ras/RasEditPhonebookEntryA","ras/RasEditPhonebookEntryW","rras.raseditphonebookentry"]
+description: The RasEditPhonebookEntry function edits an existing phone-book entry. The function displays a dialog box in which the user can modify the existing information. (Unicode)
+helpviewer_keywords: ["RasEditPhonebookEntry", "RasEditPhonebookEntry function [RAS]", "RasEditPhonebookEntryW", "_ras_raseditphonebookentry", "ras/RasEditPhonebookEntry", "ras/RasEditPhonebookEntryW", "rras.raseditphonebookentry"]
 old-location: rras\raseditphonebookentry.htm
 tech.root: RRAS
 ms.assetid: 7fce1ea8-7ed6-4975-af4b-e20a1c1be5fa

@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTSUSERCONFIGA
 title: WTSUSERCONFIGA (wtsapi32.h)
-description: Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server.
+description: Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server. (ANSI)
 helpviewer_keywords: ["*PWTSUSERCONFIGA","PWTSUSERCONFIG","PWTSUSERCONFIG structure pointer [Remote Desktop Services]","WTSUSERCONFIG","WTSUSERCONFIG structure [Remote Desktop Services]","WTSUSERCONFIGA","WTSUSERCONFIGW","termserv.wtsuserconfig","wtsapi32/PWTSUSERCONFIG","wtsapi32/WTSUSERCONFIG","wtsapi32/WTSUSERCONFIGA","wtsapi32/WTSUSERCONFIGW"]
 old-location: termserv\wtsuserconfig.htm
 tech.root: TermServ

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.EndEvent
 title: ID3D12VideoDecodeCommandList::EndEvent
-description: For internal use only. Not intended to be called directly.
+description: For internal use only. Not intended to be called directly. (ID3D12VideoDecodeCommandList::EndEvent)
 helpviewer_keywords: ["ID3D12VideoDecodeCommandList::EndEvent","EndEvent","ID3D12VideoDecodeCommandList.EndEvent","ID3D12VideoDecodeCommandList::EndEvent","ID3D12VideoDecodeCommandList.EndEvent"]
 tech.root: mf
 ms.assetid: 726e14bf-a98a-4554-8ad9-3bd931bc9fd9

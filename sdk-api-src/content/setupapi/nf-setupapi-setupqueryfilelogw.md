@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupQueryFileLogW
 title: SetupQueryFileLogW function (setupapi.h)
-description: The SetupQueryFileLog function returns information from a setup file log.
-helpviewer_keywords: ["SetupFileLogChecksum","SetupFileLogDiskDescription","SetupFileLogDiskTagfile","SetupFileLogOtherInfo","SetupFileLogSourceFile name","SetupQueryFileLog","SetupQueryFileLog function [Setup API]","SetupQueryFileLogA","SetupQueryFileLogW","_setupapi_setupqueryfilelog","setup.setupqueryfilelog","setupapi/SetupQueryFileLog","setupapi/SetupQueryFileLogA","setupapi/SetupQueryFileLogW"]
+description: The SetupQueryFileLog function returns information from a setup file log. (Unicode)
+helpviewer_keywords: ["SetupFileLogChecksum", "SetupFileLogDiskDescription", "SetupFileLogDiskTagfile", "SetupFileLogOtherInfo", "SetupFileLogSourceFile name", "SetupQueryFileLog", "SetupQueryFileLog function [Setup API]", "SetupQueryFileLogW", "_setupapi_setupqueryfilelog", "setup.setupqueryfilelog", "setupapi/SetupQueryFileLog", "setupapi/SetupQueryFileLogW"]
 old-location: setup\setupqueryfilelog.htm
 tech.root: setup
 ms.assetid: c01233ee-4e3a-454b-b2e2-032937c874c9

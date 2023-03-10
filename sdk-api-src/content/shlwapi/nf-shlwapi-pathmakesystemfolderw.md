@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathMakeSystemFolderW
 title: PathMakeSystemFolderW function (shlwapi.h)
-description: Gives an existing folder the proper attributes to become a system folder.
-helpviewer_keywords: ["PathMakeSystemFolder","PathMakeSystemFolder function [Windows Shell]","PathMakeSystemFolderA","PathMakeSystemFolderW","_win32_PathMakeSystemFolder","shell.PathMakeSystemFolder","shlwapi/PathMakeSystemFolder","shlwapi/PathMakeSystemFolderA","shlwapi/PathMakeSystemFolderW"]
+description: Gives an existing folder the proper attributes to become a system folder. (Unicode)
+helpviewer_keywords: ["PathMakeSystemFolder", "PathMakeSystemFolder function [Windows Shell]", "PathMakeSystemFolderW", "_win32_PathMakeSystemFolder", "shell.PathMakeSystemFolder", "shlwapi/PathMakeSystemFolder", "shlwapi/PathMakeSystemFolderW"]
 old-location: shell\PathMakeSystemFolder.htm
 tech.root: shell
 ms.assetid: 5b0faeb8-f8ae-481b-b5b2-cae9efe638e5

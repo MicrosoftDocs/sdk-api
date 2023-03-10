@@ -1,8 +1,8 @@
 ---
 UID: NF:sspi.AddSecurityPackageA
 title: AddSecurityPackageA function (sspi.h)
-description: Adds a security support provider to the list of providers supported by Microsoft Negotiate.
-helpviewer_keywords: ["AddSecurityPackage","AddSecurityPackage function [Security]","AddSecurityPackageA","AddSecurityPackageW","security.addsecuritypackage","sspi/AddSecurityPackage","sspi/AddSecurityPackageA","sspi/AddSecurityPackageW"]
+description: Adds a security support provider to the list of providers supported by Microsoft Negotiate. (ANSI)
+helpviewer_keywords: ["AddSecurityPackageA", "sspi/AddSecurityPackageA"]
 old-location: security\addsecuritypackage.htm
 tech.root: security
 ms.assetid: 35b993d2-87a0-46d0-991f-88358b0cc5e6

@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxSetGlobalRoutingInfoA
 title: FaxSetGlobalRoutingInfoA function (winfax.h)
-description: A fax management application calls the FaxSetGlobalRoutingInfo function to modify fax routing method data, such as routing priority, that applies globally to the fax server.
-helpviewer_keywords: ["FaxSetGlobalRoutingInfo","FaxSetGlobalRoutingInfo function [Fax Service]","FaxSetGlobalRoutingInfoA","FaxSetGlobalRoutingInfoW","_mfax_faxsetglobalroutinginfo","fax._mfax_faxsetglobalroutinginfo","winfax/FaxSetGlobalRoutingInfo","winfax/FaxSetGlobalRoutingInfoA","winfax/FaxSetGlobalRoutingInfoW"]
+description: A fax management application calls the FaxSetGlobalRoutingInfo function to modify fax routing method data, such as routing priority, that applies globally to the fax server. (ANSI)
+helpviewer_keywords: ["FaxSetGlobalRoutingInfoA", "winfax/FaxSetGlobalRoutingInfoA"]
 old-location: fax\_mfax_faxsetglobalroutinginfo.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3jlb.htm

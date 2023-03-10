@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITPluggableTerminalSuperclassInfo.get_CLSID
 title: ITPluggableTerminalSuperclassInfo::get_CLSID (tapi3if.h)
-description: The get_CLSID method gets the CLSID used to CoCreateInstance the terminal.
+description: The get_CLSID method gets the CLSID used to CoCreateInstance the terminal. (ITPluggableTerminalSuperclassInfo.get_CLSID)
 helpviewer_keywords: ["ITPluggableTerminalSuperclassInfo interface [TAPI 2.2]","get_CLSID method","ITPluggableTerminalSuperclassInfo.get_CLSID","ITPluggableTerminalSuperclassInfo::get_CLSID","_tapi3_itpluggableterminalsuperclassinfo_get_clsid","get_CLSID","get_CLSID method [TAPI 2.2]","get_CLSID method [TAPI 2.2]","ITPluggableTerminalSuperclassInfo interface","tapi3.itpluggableterminalsuperclassinfo_get_clsid","tapi3if/ITPluggableTerminalSuperclassInfo::get_CLSID"]
 old-location: tapi3\itpluggableterminalsuperclassinfo_get_clsid.htm
 tech.root: tapi3

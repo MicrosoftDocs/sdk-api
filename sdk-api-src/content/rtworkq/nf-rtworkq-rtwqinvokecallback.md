@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqInvokeCallback
 title: RtwqInvokeCallback function (rtworkq.h)
-description: Invokes a callback method to complete an asynchronous operation.
+description: Invokes a callback method to complete an asynchronous operation. (RtwqInvokeCallback)
 helpviewer_keywords: ["RtwqInvokeCallback","RtwqInvokeCallback function","base.rtwqinvokecallback","rtworkq/RtwqInvokeCallback"]
 old-location: base\rtwqinvokecallback.htm
 tech.root: backup

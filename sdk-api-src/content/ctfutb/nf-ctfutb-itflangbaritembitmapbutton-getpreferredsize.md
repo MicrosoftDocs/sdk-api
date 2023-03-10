@@ -56,7 +56,7 @@ Obtains the preferred size, in pixels, of the bitmap.
 
 ### -param pszDefault [in]
 
-Pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that contains the default size, in pixels, of the bitmap.
+Pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that contains the default size, in pixels, of the bitmap.
 
 ### -param psz [out]
 
@@ -98,4 +98,4 @@ The results of this method are not currently used. The bitmap for a bitmap butto
 
 
 
-<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
+<a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>

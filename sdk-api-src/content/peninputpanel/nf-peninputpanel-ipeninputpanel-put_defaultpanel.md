@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.put_DefaultPanel
 title: IPenInputPanel::put_DefaultPanel (peninputpanel.h)
-description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the default panel type used for input within the PenInputPanel object.
+description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the default panel type used for input within the PenInputPanel object. (Put)
 helpviewer_keywords: ["2b0ff320-02ce-4b23-ae47-91504c93ac24","DefaultPanel property [Tablet PC]","DefaultPanel property [Tablet PC]","IPenInputPanel interface","IPenInputPanel interface [Tablet PC]","DefaultPanel property","IPenInputPanel.DefaultPanel","IPenInputPanel.put_DefaultPanel","IPenInputPanel::DefaultPanel","IPenInputPanel::get_DefaultPanel","IPenInputPanel::put_DefaultPanel","PenInputPanel.get_DefaultPanel","PenInputPanel.put_DefaultPanel","get_DefaultPanel","peninputpanel/IPenInputPanel::DefaultPanel","peninputpanel/IPenInputPanel::get_DefaultPanel","peninputpanel/IPenInputPanel::put_DefaultPanel","put_DefaultPanel","tablet.peninputpanel_defaultpanel"]
 old-location: tablet\peninputpanel_defaultpanel.htm
 tech.root: tablet

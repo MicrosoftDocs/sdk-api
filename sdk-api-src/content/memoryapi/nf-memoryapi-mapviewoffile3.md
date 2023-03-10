@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.MapViewOfFile3
 title: MapViewOfFile3 function (memoryapi.h)
-description: Maps a view of a file or a pagefile-backed section into the address space of the specified process.
+description: Maps a view of a file or a pagefile-backed section into the address space of the specified process. (MapViewOfFile3)
 helpviewer_keywords: ["MEM_LARGE_PAGES","MEM_REPLACE_PLACEHOLDER","MEM_RESERVE","MapViewOfFile3","MapViewOfFile3 function","base.mapviewoffile3","memoryapi/MapViewOfFile3"]
 old-location: base\mapviewoffile3.htm
 tech.root: base

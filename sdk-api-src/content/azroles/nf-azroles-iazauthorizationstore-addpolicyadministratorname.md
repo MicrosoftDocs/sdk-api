@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddPolicyAdministratorName
 title: IAzAuthorizationStore::AddPolicyAdministratorName (azroles.h)
-description: Adds the specified account name to the list of principals that act as policy administrators.
+description: Adds the specified account name to the list of principals that act as policy administrators. (IAzAuthorizationStore.AddPolicyAdministratorName)
 helpviewer_keywords: ["AddPolicyAdministratorName","AddPolicyAdministratorName method [Security]","AddPolicyAdministratorName method [Security]","AzAuthorizationStore object","AddPolicyAdministratorName method [Security]","IAzAuthorizationStore interface","AzAuthorizationStore object [Security]","AddPolicyAdministratorName method","IAzAuthorizationStore interface [Security]","AddPolicyAdministratorName method","IAzAuthorizationStore.AddPolicyAdministratorName","IAzAuthorizationStore::AddPolicyAdministratorName","azroles/IAzAuthorizationStore::AddPolicyAdministratorName","security.azauthorizationstore_addpolicyadministratorname"]
 old-location: security\azauthorizationstore_addpolicyadministratorname.htm
 tech.root: security

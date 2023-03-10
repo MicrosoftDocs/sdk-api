@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Get_Device_IDA
 ms.date: 04/13/2021
 targetos: Windows
-description: The CM_Get_Device_ID function retrieves the device instance ID for a specified device instance on the local machine.
+description: The CM_Get_Device_ID function retrieves the device instance ID for a specified device instance on the local machine. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

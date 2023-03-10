@@ -1,5 +1,5 @@
 ---
-UID: NE:prnasnot.__unnamed_enum_0
+UID: NE:prnasnot.PrintAsyncNotifyUserFilter
 title: PrintAsyncNotifyUserFilter (prnasnot.h)
 description: Specifies whether notifications will go only to listening applications that are associated with the same user as the Print Spooler-hosted sender, or go to a broader set of listening applications.
 helpviewer_keywords: ["PrintAsyncNotifyUserFilter","PrintAsyncNotifyUserFilter enumeration [Windows GDI]","_win32_PrintAsyncNotifyUserFilter","gdi.printasyncnotifyuserfilter","kAllUsers","kPerUser","prnasnot/PrintAsyncNotifyUserFilter","prnasnot/kAllUsers","prnasnot/kPerUser"]
@@ -69,3 +69,4 @@ When passed to <a href="/windows/desktop/api/prnasnot/nf-prnasnot-createprintasy
 Regardless of which value is passed, listeners will receive only the types of notifications for which they have registered.
 
 A user may be simultaneously logged on to multiple terminal server sessions. All of the user's applications, regardless of which session hosts them, will receive notifications for which they have registered.
+

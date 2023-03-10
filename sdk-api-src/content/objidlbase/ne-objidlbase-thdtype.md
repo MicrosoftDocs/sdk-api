@@ -1,12 +1,12 @@
 ---
 UID: NE:objidlbase._THDTYPE
 title: THDTYPE (objidlbase.h)
-description: Indicates whether a particular thread supports a message loop.
+description: The THDTYPE (objidlbase.h) enumeration indicates whether a particular thread supports a message loop.
 helpviewer_keywords: ["THDTYPE","THDTYPE enumeration [COM]","THDTYPE_BLOCKMESSAGES","THDTYPE_PROCESSMESSAGES","_com_THDTYPE","com.thdtype","objidlbase/THDTYPE","objidlbase/THDTYPE_BLOCKMESSAGES","objidlbase/THDTYPE_PROCESSMESSAGES"]
 old-location: com\thdtype.htm
 tech.root: com
 ms.assetid: c1f9ab7b-8915-4433-ae9f-57b1aedcad4d
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: THDTYPE, THDTYPE enumeration [COM], THDTYPE_BLOCKMESSAGES, THDTYPE_PROCESSMESSAGES, _com_THDTYPE, com.thdtype, objidlbase/THDTYPE, objidlbase/THDTYPE_BLOCKMESSAGES, objidlbase/THDTYPE_PROCESSMESSAGES
 req.header: objidlbase.h
 req.include-header: Objidl.h

@@ -60,7 +60,7 @@ The <b>IMSVidStreamBufferSource2</b> interface represents the Stream Buffer Sour
 
 The <b>IMSVidStreamBufferSource2</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource</a>. <b>IMSVidStreamBufferSource2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

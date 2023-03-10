@@ -57,6 +57,6 @@ Do not use. This interface is used to provide access to distribution lists in mo
 
 The <b>IDistList</b> interface inherits from <a href="/previous-versions/office/developer/office-2007/cc839817(v=office.12)">IMAPIContainer</a>. <b>IDistList</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

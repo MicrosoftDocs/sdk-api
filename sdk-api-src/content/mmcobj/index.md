@@ -4,7 +4,7 @@ title: Mmcobj.h header
 ms.assetid: 7f95157e-7412-35a5-8536-40b4788da6e5
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: lwef
 f1_keywords:
  - mmcobj

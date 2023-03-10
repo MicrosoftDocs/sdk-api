@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi._OUTLINETEXTMETRICW
 title: OUTLINETEXTMETRICW (wingdi.h)
-description: The OUTLINETEXTMETRIC structure contains metrics describing a TrueType font.
+description: The OUTLINETEXTMETRIC structure contains metrics describing a TrueType font. (Unicode)
 helpviewer_keywords: ["*LPOUTLINETEXTMETRICW","*NPOUTLINETEXTMETRICW","*POUTLINETEXTMETRICW","OUTLINETEXTMETRIC","OUTLINETEXTMETRIC structure [Windows GDI]","OUTLINETEXTMETRICA","OUTLINETEXTMETRICW","POUTLINETEXTMETRIC","POUTLINETEXTMETRIC structure pointer [Windows GDI]","_win32_OUTLINETEXTMETRIC_str","gdi.outlinetextmetric","wingdi/OUTLINETEXTMETRIC","wingdi/OUTLINETEXTMETRICA","wingdi/OUTLINETEXTMETRICW","wingdi/POUTLINETEXTMETRIC"]
 old-location: gdi\outlinetextmetric.htm
 tech.root: gdi

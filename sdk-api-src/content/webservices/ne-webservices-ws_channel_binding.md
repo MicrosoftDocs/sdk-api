@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_18
+UID: NE:webservices.WS_CHANNEL_BINDING
 title: WS_CHANNEL_BINDING (webservices.h)
 description: Indicates the protocol stack to use for the channel.
 helpviewer_keywords: ["WS_CHANNEL_BINDING","WS_CHANNEL_BINDING enumeration [Web Services for Windows]","WS_CUSTOM_CHANNEL_BINDING","WS_HTTP_CHANNEL_BINDING","WS_NAMEDPIPE_CHANNEL_BINDING","WS_TCP_CHANNEL_BINDING","WS_UDP_CHANNEL_BINDING","webservices/WS_CHANNEL_BINDING","webservices/WS_CUSTOM_CHANNEL_BINDING","webservices/WS_HTTP_CHANNEL_BINDING","webservices/WS_NAMEDPIPE_CHANNEL_BINDING","webservices/WS_TCP_CHANNEL_BINDING","webservices/WS_UDP_CHANNEL_BINDING","wsw.ws_channel_binding"]
@@ -74,3 +74,4 @@ A custom channel or listen implementation. For more information, see <a href="/w
 
 Windows 8 or later:
                     SOAP over named pipes.
+

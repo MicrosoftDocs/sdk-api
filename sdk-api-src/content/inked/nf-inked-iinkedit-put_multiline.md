@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_MultiLine
 title: IInkEdit::put_MultiLine (inked.h)
-description: Gets or sets a value indicating whether an InkEdit control can accept and display multiple lines of text.
+description: Gets or sets a value indicating whether an InkEdit control can accept and display multiple lines of text. (Put)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","MultiLine property","IInkEdit.MultiLine","IInkEdit.put_MultiLine","IInkEdit::MultiLine","IInkEdit::get_MultiLine","IInkEdit::put_MultiLine","InkEdit.get_MultiLine","InkEdit.put_MultiLine","MultiLine property [Tablet PC]","MultiLine property [Tablet PC]","IInkEdit interface","get_MultiLine","inked/IInkEdit::MultiLine","inked/IInkEdit::get_MultiLine","inked/IInkEdit::put_MultiLine","put_MultiLine","tablet.inkedit_multiline"]
 old-location: tablet\inkedit_multiline.htm
 tech.root: tablet

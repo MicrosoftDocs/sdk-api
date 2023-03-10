@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_DiscountRateEnd
 title: IFaxConfiguration::put_DiscountRateEnd (faxcomex.h)
-description: Sets or retrieves a value that indicates the time at which the discount rate period ends.
+description: Sets or retrieves a value that indicates the time at which the discount rate period ends. (Put)
 helpviewer_keywords: ["DiscountRateEnd property [Fax Service]","DiscountRateEnd property [Fax Service]","IFaxConfiguration interface","IFaxConfiguration interface [Fax Service]","DiscountRateEnd property","IFaxConfiguration.DiscountRateEnd","IFaxConfiguration.put_DiscountRateEnd","IFaxConfiguration::DiscountRateEnd","IFaxConfiguration::get_DiscountRateEnd","IFaxConfiguration::put_DiscountRateEnd","_mfax_IFaxConfiguration_DiscountRateEnd","fax._mfax_IFaxConfiguration_DiscountRateEnd","faxcomex/IFaxConfiguration::DiscountRateEnd","faxcomex/IFaxConfiguration::get_DiscountRateEnd","faxcomex/IFaxConfiguration::put_DiscountRateEnd","put_DiscountRateEnd"]
 old-location: fax\_mfax_IFaxConfiguration_DiscountRateEnd.htm
 tech.root: Fax

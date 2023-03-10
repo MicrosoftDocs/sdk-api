@@ -58,7 +58,7 @@ Contains an image that is stored as metadata for a media source. This structure 
 
 ### -field bPictureType
 
-Specifies the type of image. This member is equivalent to the <b>bPictureType</b> member in the <a href="/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_picture">WM_PICTURE</a> structure.
+Specifies the type of image. This member is equivalent to the <b>bPictureType</b> member in the <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_picture">WM_PICTURE</a> structure.
 
 ### -field dwDataLen
 

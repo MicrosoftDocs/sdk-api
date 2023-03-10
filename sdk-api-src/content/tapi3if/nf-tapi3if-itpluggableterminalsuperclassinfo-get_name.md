@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITPluggableTerminalSuperclassInfo.get_Name
 title: ITPluggableTerminalSuperclassInfo::get_Name (tapi3if.h)
-description: The get_Name method gets the terminal's friendly name.
+description: The get_Name method gets the terminal's friendly name. (ITPluggableTerminalSuperclassInfo.get_Name)
 helpviewer_keywords: ["ITPluggableTerminalSuperclassInfo interface [TAPI 2.2]","get_Name method","ITPluggableTerminalSuperclassInfo.get_Name","ITPluggableTerminalSuperclassInfo::get_Name","_tapi3_itpluggableterminalsuperclassinfo_get_name","get_Name","get_Name method [TAPI 2.2]","get_Name method [TAPI 2.2]","ITPluggableTerminalSuperclassInfo interface","tapi3.itpluggableterminalsuperclassinfo_get_name","tapi3if/ITPluggableTerminalSuperclassInfo::get_Name"]
 old-location: tapi3\itpluggableterminalsuperclassinfo_get_name.htm
 tech.root: tapi3

@@ -159,7 +159,7 @@ The width of a window border, in pixels. This is equivalent to the SM_CXEDGE val
 </dl>
 </td>
 <td width="60%">
-The width of a cursor, in pixels. The system cannot create cursors of other sizes.
+The nominal width of a cursor, in pixels.
 
 </td>
 </tr>
@@ -541,7 +541,7 @@ The height of a caption area, in pixels.
 </dl>
 </td>
 <td width="60%">
-The height of a cursor, in pixels. The system cannot create cursors of other sizes.
+The nominal height of a cursor, in pixels.
 
 </td>
 </tr>

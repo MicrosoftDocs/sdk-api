@@ -1,7 +1,7 @@
 ---
 UID: NS:winldap.ldapapiinfoW
 title: LDAPAPIInfoW (winldap.h)
-description: Retrieves data about the API and implementations used.
+description: Retrieves data about the API and implementations used. (Unicode)
 helpviewer_keywords: ["LDAPAPIInfo","LDAPAPIInfo structure [LDAP]","LDAPAPIInfoA","LDAPAPIInfoW","ldap.ldapapiinfo","winldap/LDAPAPIInfo","winldap/LDAPAPIInfoA","winldap/LDAPAPIInfoW"]
 old-location: ldap\ldapapiinfo.htm
 tech.root: ldap
@@ -84,7 +84,7 @@ The API vendor version number. This implementation returns an integer value in t
 
 ## -remarks
 
-A pointer to this structure is passed with the <a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">LDAP_OPT_API_INFO</a> session option, to <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>, to retrieve data about this LDAP API library.  The data returned includes a list of any API extensions supported by the implementation. When the structure data is no longer required, the caller must free the individual strings and string arrays returned in this structure by using the <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a> and <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a> functions.
+A pointer to this structure is passed with the <a href="/previous-versions/windows/desktop/ldap/session-options">LDAP_OPT_API_INFO</a> session option, to <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>, to retrieve data about this LDAP API library.  The data returned includes a list of any API extensions supported by the implementation. When the structure data is no longer required, the caller must free the individual strings and string arrays returned in this structure by using the <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a> and <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a> functions.
 
 
 
@@ -95,7 +95,7 @@ A pointer to this structure is passed with the <a href="/previous-versions/previ
 
 ## -see-also
 
-<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
 
 
 

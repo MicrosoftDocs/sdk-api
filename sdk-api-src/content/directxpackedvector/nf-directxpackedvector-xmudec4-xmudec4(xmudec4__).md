@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUDEC4.XMUDEC4(XMUDEC4&&)
 title: XMUDEC4::XMUDEC4(XMUDEC4 &&) (directxpackedvector.h)
-description: A constructor for XMUDEC4.
+description: A constructor for XMUDEC4. (overload 2/2)
 helpviewer_keywords: ["XMUDEC4","XMUDEC4 structure [DirectX Math Support APIs]","operator = method","XMUDEC4.XMUDEC4","XMUDEC4.XMUDEC4(XMUDEC4 &&)","XMUDEC4.operator =(const XMUDEC4&)","XMUDEC4::XMUDEC4","XMUDEC4::XMUDEC4(XMUDEC4 &&)","dxmath.xmudec4_operator_eq_1","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMUDEC4 structure"]
 old-location: 
 tech.root: dxmath

@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_73
+UID: NE:webservices.WS_SECURITY_TOKEN_PROPERTY_ID
 title: WS_SECURITY_TOKEN_PROPERTY_ID (webservices.h)
 description: Defines the keys for the fields and properties that can be extracted from a security token. Not all properties are valid for all security token types. The function WsGetSecurityTokenProperty uses the values defined here as keys.
 helpviewer_keywords: ["WS_SECURITY_TOKEN_PROPERTY_ATTACHED_REFERENCE_XML","WS_SECURITY_TOKEN_PROPERTY_ID","WS_SECURITY_TOKEN_PROPERTY_ID enumeration [Web Services for Windows]","WS_SECURITY_TOKEN_PROPERTY_KEY_TYPE","WS_SECURITY_TOKEN_PROPERTY_SERIALIZED_XML","WS_SECURITY_TOKEN_PROPERTY_SYMMETRIC_KEY","WS_SECURITY_TOKEN_PROPERTY_UNATTACHED_REFERENCE_XML","WS_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME","WS_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME","webservices/WS_SECURITY_TOKEN_PROPERTY_ATTACHED_REFERENCE_XML","webservices/WS_SECURITY_TOKEN_PROPERTY_ID","webservices/WS_SECURITY_TOKEN_PROPERTY_KEY_TYPE","webservices/WS_SECURITY_TOKEN_PROPERTY_SERIALIZED_XML","webservices/WS_SECURITY_TOKEN_PROPERTY_SYMMETRIC_KEY","webservices/WS_SECURITY_TOKEN_PROPERTY_UNATTACHED_REFERENCE_XML","webservices/WS_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME","webservices/WS_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME","wsw.ws_security_token_property_id"]
@@ -112,3 +112,4 @@ When using this property with <a href="/windows/desktop/api/webservices/nf-webse
                 
 
 The returned buffer should be securely erased or encrypted immediately after use to prevent leaking of sensitive data.
+

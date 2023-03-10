@@ -4,7 +4,7 @@ title: Component Object Model (COM)
 ms.assetid: c245c790-cc58-3030-b206-20f7769711fc
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Component Object Model (COM)

@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskDefinition.put_Data
 title: ITaskDefinition::put_Data (taskschd.h)
-description: Gets or sets the data that is associated with the task.
+description: Gets or sets the data that is associated with the task. (Put)
 helpviewer_keywords: ["Data property [Task Scheduler]","Data property [Task Scheduler]","ITaskDefinition interface","ITaskDefinition interface [Task Scheduler]","Data property","ITaskDefinition.Data","ITaskDefinition.put_Data","ITaskDefinition::Data","ITaskDefinition::get_Data","ITaskDefinition::put_Data","put_Data","taskschd.itaskdefinition_data","taskschd/ITaskDefinition::Data","taskschd/ITaskDefinition::get_Data","taskschd/ITaskDefinition::put_Data"]
 old-location: taskschd\itaskdefinition_data.htm
 tech.root: taskschd

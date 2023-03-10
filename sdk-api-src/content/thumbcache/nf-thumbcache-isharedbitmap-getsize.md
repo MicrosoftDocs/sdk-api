@@ -56,7 +56,7 @@ Retrieves the size of the bitmap contained in an <a href="/windows/desktop/api/t
 
 ### -param pSize [out]
 
-Type: <b><a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>*</b>
 
 When this method returns, contains a pointer to a value that specifies the size, in pixels, of the contained bitmap.
 

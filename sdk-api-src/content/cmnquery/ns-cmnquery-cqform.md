@@ -1,5 +1,5 @@
 ---
-UID: NS:cmnquery.__unnamed_struct_0
+UID: NS:cmnquery.CQFORM
 title: CQFORM (cmnquery.h)
 description: Used to define a query form added to the query dialog box with the CQAddFormsProc callback function.
 helpviewer_keywords: ["*LPCQFORM","CQFF_ISOPTIONAL","CQFF_NOGLOBALPAGES","CQFORM","CQFORM structure [Active Directory]","LPCQFORM","LPCQFORM structure pointer [Active Directory]","_glines_cqform","ad.cqform","cmnquery/CQFORM","cmnquery/LPCQFORM"]
@@ -100,3 +100,4 @@ Pointer to a null-terminated Unicode string that contains the title of the query
 
 
 <a href="/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addforms">IQueryForm::AddForms</a>
+

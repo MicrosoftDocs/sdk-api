@@ -1,7 +1,7 @@
 ---
 UID: NS:advpub._StrEntryA
 title: STRENTRYA (advpub.h)
-description: Represents a registry string replacement.
+description: Represents a registry string replacement. (ANSI)
 helpviewer_keywords: ["*LPSTRENTRYA","LPSTRENTRYA","LPSTRENTRYA structure pointer [Windows API]","STRENTRY","STRENTRYA","STRENTRYA structure [Windows API]","_StrEntryA","_StrEntryA structure [Windows API]","advpub/LPSTRENTRYA","advpub/_StrEntryA","winprog._strentrya"]
 old-location: winprog\_strentrya.htm
 tech.root: winprog

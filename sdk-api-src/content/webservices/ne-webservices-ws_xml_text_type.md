@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_5
+UID: NE:webservices.WS_XML_TEXT_TYPE
 title: WS_XML_TEXT_TYPE (webservices.h)
 description: The type of WS_XML_TEXT structure.
 helpviewer_keywords: ["WS_XML_TEXT_TYPE","WS_XML_TEXT_TYPE enumeration [Web Services for Windows]","WS_XML_TEXT_TYPE_BASE64","WS_XML_TEXT_TYPE_BOOL","WS_XML_TEXT_TYPE_DATETIME","WS_XML_TEXT_TYPE_DECIMAL","WS_XML_TEXT_TYPE_DOUBLE","WS_XML_TEXT_TYPE_FLOAT","WS_XML_TEXT_TYPE_GUID","WS_XML_TEXT_TYPE_INT32","WS_XML_TEXT_TYPE_INT64","WS_XML_TEXT_TYPE_LIST","WS_XML_TEXT_TYPE_QNAME","WS_XML_TEXT_TYPE_TIMESPAN","WS_XML_TEXT_TYPE_UINT64","WS_XML_TEXT_TYPE_UNIQUE_ID","WS_XML_TEXT_TYPE_UTF16","WS_XML_TEXT_TYPE_UTF8","webservices/WS_XML_TEXT_TYPE","webservices/WS_XML_TEXT_TYPE_BASE64","webservices/WS_XML_TEXT_TYPE_BOOL","webservices/WS_XML_TEXT_TYPE_DATETIME","webservices/WS_XML_TEXT_TYPE_DECIMAL","webservices/WS_XML_TEXT_TYPE_DOUBLE","webservices/WS_XML_TEXT_TYPE_FLOAT","webservices/WS_XML_TEXT_TYPE_GUID","webservices/WS_XML_TEXT_TYPE_INT32","webservices/WS_XML_TEXT_TYPE_INT64","webservices/WS_XML_TEXT_TYPE_LIST","webservices/WS_XML_TEXT_TYPE_QNAME","webservices/WS_XML_TEXT_TYPE_TIMESPAN","webservices/WS_XML_TEXT_TYPE_UINT64","webservices/WS_XML_TEXT_TYPE_UNIQUE_ID","webservices/WS_XML_TEXT_TYPE_UTF16","webservices/WS_XML_TEXT_TYPE_UTF8","wsw.ws_xml_text_type"]
@@ -117,3 +117,4 @@ A qualified name.
 ### -field WS_XML_TEXT_TYPE_LIST:16
 
 A list of values that represent their text forms separated by a single whitespace character.
+

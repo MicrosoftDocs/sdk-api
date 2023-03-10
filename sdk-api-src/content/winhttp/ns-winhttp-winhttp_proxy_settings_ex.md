@@ -2,9 +2,9 @@
 UID: NS:winhttp._WINHTTP_PROXY_SETTINGS_EX
 tech.root: http
 title: WINHTTP_PROXY_SETTINGS_EX
-ms.date: 06/29/2022
+ms.date: 08/15/2022
 targetos: Windows
-description: Represents extended proxy settings.
+description: The WINHTTP_PROXY_SETTINGS_EX structure represents extended proxy settings.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

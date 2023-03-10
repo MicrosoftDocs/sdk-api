@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.BeginContainer~r3
 title: Graphics::BeginContainer
-ms.date: 01/30/2019
+description: The Graphics::BeginContainer~r3 method (gdiplusgraphics.h) begins a new graphics container.
+ms.date: 08/19/2022
 ms.keywords: Graphics::BeginContainer
 targetos: Windows
 req.assembly: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetRequiresFlags
 title: ID3D11ShaderReflection::GetRequiresFlags (d3d11shader.h)
-description: Gets a group of flags that indicates the requirements of a shader.
+description: Gets a group of flags that indicates the requirements of a shader. (ID3D11ShaderReflection.GetRequiresFlags)
 helpviewer_keywords: ["GetRequiresFlags","GetRequiresFlags method [Direct3D 11]","GetRequiresFlags method [Direct3D 11]","ID3D11ShaderReflection interface","ID3D11ShaderReflection interface [Direct3D 11]","GetRequiresFlags method","ID3D11ShaderReflection.GetRequiresFlags","ID3D11ShaderReflection::GetRequiresFlags","d3d11shader/ID3D11ShaderReflection::GetRequiresFlags","direct3d11.id3d11shaderreflection_getrequiresflags"]
 old-location: direct3d11\id3d11shaderreflection_getrequiresflags.htm
 tech.root: direct3d11

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12Fence
 title: ID3D12Fence (d3d12.h)
-description: Represents a fence, an object used for synchronization of the CPU and one or more GPUs.
+description: Represents a fence, an object used for synchronization of the CPU and one or more GPUs. (ID3D12Fence)
 helpviewer_keywords: ["ID3D12Fence","ID3D12Fence interface","ID3D12Fence interface","described","d3d12/ID3D12Fence","direct3d12.id3d12fence"]
 old-location: direct3d12\id3d12fence.htm
 tech.root: direct3d12

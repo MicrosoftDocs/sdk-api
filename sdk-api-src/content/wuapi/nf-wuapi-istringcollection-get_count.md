@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IStringCollection.get_Count
 title: IStringCollection::get_Count (wuapi.h)
-description: Gets the number of elements in the collection.
+description: Gets the number of elements in the collection. (IStringCollection.get_Count)
 helpviewer_keywords: ["Count property [Windows Update Agent]","Count property [Windows Update Agent]","IStringCollection interface","IStringCollection interface [Windows Update Agent]","Count property","IStringCollection.Count","IStringCollection.get_Count","IStringCollection::Count","IStringCollection::get_Count","get_Count","wua.istringcollection_count","wuapi/IStringCollection::Count","wuapi/IStringCollection::get_Count"]
 old-location: wua\istringcollection_count.htm
 tech.root: wua

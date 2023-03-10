@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.DragQueryFileA
 title: DragQueryFileA function (shellapi.h)
-description: Retrieves the names of dropped files that result from a successful drag-and-drop operation.
-helpviewer_keywords: ["DragQueryFile","DragQueryFile function [Windows Shell]","DragQueryFileA","DragQueryFileW","_win32_DragQueryFile","shell.DragQueryFile","shellapi/DragQueryFile","shellapi/DragQueryFileA","shellapi/DragQueryFileW"]
+description: Retrieves the names of dropped files that result from a successful drag-and-drop operation. (ANSI)
+helpviewer_keywords: ["DragQueryFileA", "shellapi/DragQueryFileA"]
 old-location: shell\DragQueryFile.htm
 tech.root: shell
 ms.assetid: 93fab381-9035-46c4-ba9d-efb2d0801d84

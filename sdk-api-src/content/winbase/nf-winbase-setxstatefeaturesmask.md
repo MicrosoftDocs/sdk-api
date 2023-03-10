@@ -79,7 +79,7 @@ The <b>SetXStateFeaturesMask</b> function sets the
      <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadcontext">GetThreadContext</a>, 
      <a href="/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext">Wow64GetThreadContext</a>, 
      <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a>, or 
-     <a href="/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a> the application must call 
+     <a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/winbase/nf-winbase-wow64getthreadcontext.md">Wow64SetThreadContext</a> the application must call 
      <b>SetXStateFeaturesMask</b> to specify which set of 
      features to retrieve or set.  The system silently ignores any feature specified in the 
      <i>FeatureMask</i> which is not enabled on the processor.
@@ -121,4 +121,4 @@ The <b>SetXStateFeaturesMask</b> function sets the
 
 
 
-<a href="/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a>
+<a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/winbase/nf-winbase-wow64getthreadcontext.md">Wow64SetThreadContext</a>

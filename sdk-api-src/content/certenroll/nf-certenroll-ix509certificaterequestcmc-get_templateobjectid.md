@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_TemplateObjectId
 title: IX509CertificateRequestCmc::get_TemplateObjectId (certenroll.h)
-description: Retrieves the object identifier (OID) of the template used to create the certificate request.
+description: Retrieves the object identifier (OID) of the template used to create the certificate request. (IX509CertificateRequestCmc.get_TemplateObjectId)
 helpviewer_keywords: ["IX509CertificateRequestCmc interface [Security]","TemplateObjectId property","IX509CertificateRequestCmc.TemplateObjectId","IX509CertificateRequestCmc.get_TemplateObjectId","IX509CertificateRequestCmc::TemplateObjectId","IX509CertificateRequestCmc::get_TemplateObjectId","TemplateObjectId property [Security]","TemplateObjectId property [Security]","IX509CertificateRequestCmc interface","certenroll/IX509CertificateRequestCmc::TemplateObjectId","certenroll/IX509CertificateRequestCmc::get_TemplateObjectId","get_TemplateObjectId","security.ix509certificaterequestcmc_templateobjectid_property"]
 old-location: security\ix509certificaterequestcmc_templateobjectid_property.htm
 tech.root: security

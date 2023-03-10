@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationItemContainerPattern.FindItemByProperty
 title: IUIAutomationItemContainerPattern::FindItemByProperty (uiautomationclient.h)
-description: Retrieves an element within a containing element, based on a specified property value.
+description: Retrieves an element within a containing element, based on a specified property value. (IUIAutomationItemContainerPattern.FindItemByProperty)
 helpviewer_keywords: ["FindItemByProperty","FindItemByProperty method [Windows Accessibility]","FindItemByProperty method [Windows Accessibility]","IUIAutomationItemContainerPattern interface","IUIAutomationItemContainerPattern interface [Windows Accessibility]","FindItemByProperty method","IUIAutomationItemContainerPattern.FindItemByProperty","IUIAutomationItemContainerPattern::FindItemByProperty","uiauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty","uiauto_IUIAutomationItemContainerPattern_FindItemByProperty","uiautomationclient/IUIAutomationItemContainerPattern::FindItemByProperty","winauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty"]
 old-location: winauto\uiauto_IUIAutomationItemContainerPattern_FindItemByProperty.htm
 tech.root: WinAuto

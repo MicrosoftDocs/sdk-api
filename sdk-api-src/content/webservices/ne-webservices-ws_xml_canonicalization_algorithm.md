@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_1
+UID: NE:webservices.WS_XML_CANONICALIZATION_ALGORITHM
 title: WS_XML_CANONICALIZATION_ALGORITHM (webservices.h)
 description: The values for the XML canonicalization algorithms.
 helpviewer_keywords: ["WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM","WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM","WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM","WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM","WS_XML_CANONICALIZATION_ALGORITHM","WS_XML_CANONICALIZATION_ALGORITHM enumeration [Web Services for Windows]","webservices/WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM","webservices/WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM","webservices/WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM","webservices/WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM","webservices/WS_XML_CANONICALIZATION_ALGORITHM","wsw.ws_xml_canonicalization_algorithm"]
@@ -58,12 +58,12 @@ The values for the XML canonicalization algorithms.
 
 The exclusive XML canonicalization algorithm
           represented by the URI 'http://www.w3.org/2001/10/xml-exc-c14n#' and
-          defined in <a href="http://tools.ietf.org/html/rfc3741">RFC 3741</a>.
+          defined in <a href="https://datatracker.ietf.org/doc/html/rfc3741">RFC 3741</a>.
 
 ### -field WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM:1
 
 The exclusive XML canonicalization with comments algorithm
-          defined in <a href="http://tools.ietf.org/html/rfc3741">RFC 3741</a>.
+          defined in <a href="https://datatracker.ietf.org/doc/html/rfc3741">RFC 3741</a>.
 
 ### -field WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM:2
 

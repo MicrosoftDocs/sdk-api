@@ -1,7 +1,8 @@
 ---
 UID: NS:winnt._LARGE_INTEGER~r1
 title: LARGE_INTEGER
-ms.date: 01/30/2019
+description: The LARGE_INTEGER structure represents a 64-bit signed integer value. (LARGE_INTEGER union (winnt.h))
+ms.date: 08/03/2022
 ms.keywords: _LARGE_INTEGER, LARGE_INTEGER
 targetos: Windows
 req.construct-type: structure

@@ -55,7 +55,7 @@ The <code>GetAllocatorRequirements</code> method retrieves the allocator propert
 
 ## -parameters
 
-### -param pProps [in]
+### -param pProps [out]
 
 Pointer to an [ALLOCATOR_PROPERTIES](/windows/desktop/api/strmif/ns-strmif-allocator_properties), structure which is filled in with the requirements.
 

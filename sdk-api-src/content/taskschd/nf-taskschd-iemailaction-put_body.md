@@ -1,12 +1,12 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Body
 title: IEmailAction::put_Body (taskschd.h)
-description: Gets or sets the body of the email that contains the email message.
+description: Gets or sets the body of the email that contains the email message. (Put)
 helpviewer_keywords: ["Body property [Task Scheduler]","Body property [Task Scheduler]","IEmailAction interface","IEmailAction interface [Task Scheduler]","Body property","IEmailAction.Body","IEmailAction.put_Body","IEmailAction::Body","IEmailAction::get_Body","IEmailAction::put_Body","put_Body","taskschd.iemailaction_body","taskschd/IEmailAction::Body","taskschd/IEmailAction::get_Body","taskschd/IEmailAction::put_Body"]
 old-location: taskschd\iemailaction_body.htm
 tech.root: taskschd
 ms.assetid: c2bc5924-8014-4463-9537-a115266776ee
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: Body property [Task Scheduler], Body property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Body property, IEmailAction.Body, IEmailAction.put_Body, IEmailAction::Body, IEmailAction::get_Body, IEmailAction::put_Body, put_Body, taskschd.iemailaction_body, taskschd/IEmailAction::Body, taskschd/IEmailAction::get_Body, taskschd/IEmailAction::put_Body
 req.header: taskschd.h
 req.include-header: 
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="/powershell/module/microsoft.powershell.utility/send-mailmessage">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the body of the email that contains the email message.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:libloaderapi.GetModuleHandleExA
 title: GetModuleHandleExA function (libloaderapi.h)
-description: Retrieves a module handle for the specified module and increments the module's reference count unless GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT is specified. The module must have been loaded by the calling process.
-helpviewer_keywords: ["GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS","GET_MODULE_HANDLE_EX_FLAG_PIN","GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT","GetModuleHandleEx","GetModuleHandleEx function","GetModuleHandleExA","GetModuleHandleExW","_win32_getmodulehandleex","base.getmodulehandleex","libloaderapi/GetModuleHandleEx","libloaderapi/GetModuleHandleExA","libloaderapi/GetModuleHandleExW","winbase/GetModuleHandleEx","winbase/GetModuleHandleExA","winbase/GetModuleHandleExW"]
+description: Retrieves a module handle for the specified module and increments the module's reference count unless GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT is specified. The module must have been loaded by the calling process. (ANSI)
+helpviewer_keywords: ["GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS", "GET_MODULE_HANDLE_EX_FLAG_PIN", "GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT", "GetModuleHandleExA", "libloaderapi/GetModuleHandleExA"]
 old-location: base\getmodulehandleex.htm
 tech.root: base
 ms.assetid: 951c7e6e-1d6d-4393-a675-d2b353c53b87

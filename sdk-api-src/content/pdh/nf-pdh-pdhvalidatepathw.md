@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhValidatePathW
 title: PdhValidatePathW function (pdh.h)
-description: Validates that the counter is present on the computer specified in the counter path.
-helpviewer_keywords: ["PdhValidatePath","PdhValidatePath function [Perf]","PdhValidatePathA","PdhValidatePathW","_win32_pdhvalidatepath","base.pdhvalidatepath","pdh/PdhValidatePath","pdh/PdhValidatePathA","pdh/PdhValidatePathW","perf.pdhvalidatepath"]
+description: Validates that the counter is present on the computer specified in the counter path. (Unicode)
+helpviewer_keywords: ["PdhValidatePath", "PdhValidatePath function [Perf]", "PdhValidatePathW", "_win32_pdhvalidatepath", "base.pdhvalidatepath", "pdh/PdhValidatePath", "pdh/PdhValidatePathW", "perf.pdhvalidatepath"]
 old-location: perf\pdhvalidatepath.htm
 tech.root: perf
 ms.assetid: 9248e63c-2672-466f-85f5-46f26e31dc75

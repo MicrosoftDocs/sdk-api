@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMMATRIX.XMMATRIX(constXMMATRIX&)
 title: XMMATRIX::XMMATRIX(const XMMATRIX &) (directxmath.h)
-description: A constructor for XMMATRIX.
+description: A constructor for XMMATRIX. (overload 2/2)
 helpviewer_keywords: ["XMMATRIX","XMMATRIX constructor [DirectX Math Support APIs]","XMMATRIX constructor [DirectX Math Support APIs]","XMMATRIX structure","XMMATRIX structure [DirectX Math Support APIs]","XMMATRIX constructor","XMMATRIX.XMMATRIX","XMMATRIX.XMMATRIX()","XMMATRIX.XMMATRIX(const XMMATRIX &)","XMMATRIX::XMMATRIX","XMMATRIX::XMMATRIX(const XMMATRIX &)","dxmath.xmmatrix_ctor_1"]
 old-location: 
 tech.root: dxmath

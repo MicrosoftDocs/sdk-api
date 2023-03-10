@@ -102,7 +102,7 @@ Type: <b>DWORD</b>
 </dl>
 </td>
 <td width="60%">
-A close or send is pending, or the receive channel has already been closed.
+A close or receive is pending, or the receive channel has already been closed.
 
 </td>
 </tr>

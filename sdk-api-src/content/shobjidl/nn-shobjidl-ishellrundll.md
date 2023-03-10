@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IShellRunDll
 title: IShellRunDll (shobjidl.h)
-description: Not supported.
+description: Not supported. (IShellRunDll)
 helpviewer_keywords: ["IShellRunDll","IShellRunDll interface [Windows Shell]","IShellRunDll interface [Windows Shell]","described","_shell_IShellRunDll","shell.IShellRunDll","shobjidl/IShellRunDll"]
 old-location: shell\IShellRunDll.htm
 tech.root: shell

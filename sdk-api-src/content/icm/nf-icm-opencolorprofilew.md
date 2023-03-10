@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.OpenColorProfileW
 title: OpenColorProfileW
-description: Creates a handle to a specified color profile. The handle can then be used in other profile management functions.
+description: Creates a handle to a specified color profile. The handle can then be used in other profile management functions. (Unicode)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

@@ -1,7 +1,7 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_ProviderCLSID
 title: IOCSPCAConfiguration::get_ProviderCLSID (certadm.h)
-description: Gets or sets the CLSID of the revocation information provider used by the CA configuration.
+description: Gets or sets the CLSID of the revocation information provider used by the CA configuration. (Get)
 helpviewer_keywords: ["IOCSPCAConfiguration interface [Security]","ProviderCLSID property","IOCSPCAConfiguration.ProviderCLSID","IOCSPCAConfiguration.get_ProviderCLSID","IOCSPCAConfiguration::ProviderCLSID","IOCSPCAConfiguration::get_ProviderCLSID","IOCSPCAConfiguration::put_ProviderCLSID","ProviderCLSID property [Security]","ProviderCLSID property [Security]","IOCSPCAConfiguration interface","certadm/IOCSPCAConfiguration::ProviderCLSID","certadm/IOCSPCAConfiguration::get_ProviderCLSID","certadm/IOCSPCAConfiguration::put_ProviderCLSID","get_ProviderCLSID","security.iocspcaconfiguration_providerclsid_method"]
 old-location: security\iocspcaconfiguration_providerclsid_method.htm
 tech.root: security

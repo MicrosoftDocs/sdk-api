@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiClassGuidsFromNameA
 title: SetupDiClassGuidsFromNameA function (setupapi.h)
-description: The SetupDiClassGuidsFromName function retrieves the GUID(s) associated with the specified class name. This list is built based on the classes currently installed on the system.
-helpviewer_keywords: ["SetupDiClassGuidsFromName","SetupDiClassGuidsFromName function [Device and Driver Installation]","SetupDiClassGuidsFromNameA","SetupDiClassGuidsFromNameW","devinst.setupdiclassguidsfromname","di-rtns_6b309545-3832-4802-9668-21a107f3c651.xml","setupapi/SetupDiClassGuidsFromName"]
+description: The SetupDiClassGuidsFromName function retrieves the GUID(s) associated with the specified class name. This list is built based on the classes currently installed on the system. (ANSI)
+helpviewer_keywords: ["SetupDiClassGuidsFromNameA", "di-rtns_6b309545-3832-4802-9668-21a107f3c651.xml"]
 old-location: devinst\setupdiclassguidsfromname.htm
 tech.root: devinst
 ms.assetid: 54516c6f-ec78-47ea-93f5-a4c7cde5a601

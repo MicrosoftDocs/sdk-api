@@ -4,7 +4,7 @@ title: Timeprov.h header
 ms.assetid: 06cc2056-0006-3b56-8ad9-ae54cf342a15
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: base
 f1_keywords:
  - timeprov

@@ -62,7 +62,7 @@ A pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITE
 
 ### -param ppt [out]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
 A pointer to a structure that receives the position of the item's upper-left corner.
 

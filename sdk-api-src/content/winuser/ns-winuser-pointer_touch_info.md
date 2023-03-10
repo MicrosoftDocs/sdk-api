@@ -97,7 +97,7 @@ A pointer orientation, with a value between 0 and 359, where 0 indicates a touch
 This field defaults to 0 if the device does not report orientation.
 
 > [!NOTE]
-> Some touchscreen devices that support orientation might report a half-range value (0-180) instead of a full range value (0-359).
+> Some touchscreen devices that support orientation will only report half-range (0-180°) values, while other devices will only report full-range (0-359°) values.
 
 ### -field pressure
 
@@ -107,4 +107,4 @@ Type: **UINT32**
 
 ## -see-also
 
-[Structures](/win32/desktop/inputmsg/structures)
+[Structures](/windows/win32/winrt/structures)

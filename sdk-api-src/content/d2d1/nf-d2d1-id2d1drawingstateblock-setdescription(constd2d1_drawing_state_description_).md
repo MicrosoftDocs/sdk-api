@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1DrawingStateBlock.SetDescription(constD2D1_DRAWING_STATE_DESCRIPTION&)
 title: ID2D1DrawingStateBlock::SetDescription(const D2D1_DRAWING_STATE_DESCRIPTION &) (d2d1.h)
-description: Specifies the antialiasing mode, transform, and tags portion of the drawing state.
+description: Specifies the antialiasing mode, transform, and tags portion of the drawing state. (overload 1/2)
 helpviewer_keywords: ["ID2D1DrawingStateBlock interface [Direct2D]","SetDescription method","ID2D1DrawingStateBlock.SetDescription","ID2D1DrawingStateBlock.SetDescription(const D2D1_DRAWING_STATE_DESCRIPTION &)","ID2D1DrawingStateBlock::SetDescription","ID2D1DrawingStateBlock::SetDescription(const D2D1_DRAWING_STATE_DESCRIPTION &)","SetDescription","SetDescription method [Direct2D]","SetDescription method [Direct2D]","ID2D1DrawingStateBlock interface","d2d1/ID2D1DrawingStateBlock::SetDescription","direct2d.ID2D1DrawingStateBlock_SetDescription_ref_D2D1_DRAWING_STATE_DESCRIPTION"]
 old-location: direct2d\ID2D1DrawingStateBlock_SetDescription_ref_D2D1_DRAWING_STATE_DESCRIPTION.htm
 tech.root: Direct2D

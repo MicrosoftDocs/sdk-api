@@ -1,7 +1,7 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN
 title: PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN (winbio_adapter.h)
-description: Performs a vendor-defined control operation that requires elevated privilege.
+description: Performs a vendor-defined control operation that requires elevated privilege.E
 helpviewer_keywords: ["EngineAdapterControlUnitPrivileged","EngineAdapterControlUnitPrivileged callback function [Windows Biometric Framework API]","PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN","PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN callback","secbiomet.engineadaptercontrolunitprivileged","winbio_adapter/EngineAdapterControlUnitPrivileged"]
 old-location: secbiomet\engineadaptercontrolunitprivileged.htm
 tech.root: SecBioMet

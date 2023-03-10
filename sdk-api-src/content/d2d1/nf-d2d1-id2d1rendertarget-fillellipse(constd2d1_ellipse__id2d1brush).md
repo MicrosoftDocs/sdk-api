@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.FillEllipse(constD2D1_ELLIPSE&,ID2D1Brush)
 title: ID2D1RenderTarget::FillEllipse(const D2D1_ELLIPSE &,ID2D1Brush) (d2d1.h)
-description: Paints the interior of the specified ellipse.
+description: Paints the interior of the specified ellipse. (overload 1/2)
 helpviewer_keywords: ["FillEllipse","FillEllipse method [Direct2D]","FillEllipse method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","FillEllipse method","ID2D1RenderTarget.FillEllipse","ID2D1RenderTarget.FillEllipse(const D2D1_ELLIPSE &","ID2D1Brush)","ID2D1RenderTarget::FillEllipse","ID2D1RenderTarget::FillEllipse(const D2D1_ELLIPSE &","ID2D1Brush)","d2d1/ID2D1RenderTarget::FillEllipse","direct2d.ID2D1RenderTarget_FillEllipse_ref_D2D1_ELLIPSE_ptr_ID2D1Brush"]
 old-location: direct2d\ID2D1RenderTarget_FillEllipse_ref_D2D1_ELLIPSE_ptr_ID2D1Brush.htm
 tech.root: Direct2D

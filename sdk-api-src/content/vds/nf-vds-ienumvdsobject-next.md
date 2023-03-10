@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IEnumVdsObject.Next
 title: IEnumVdsObject::Next (vds.h)
-description: Returns a specified number of objects in the enumeration, beginning from the current point. For more information, see Working with Enumeration Objects.
+description: The IEnumVdsObject::Next (vds.h) method returns a specified number of objects in the enumeration, beginning from the current point.
 helpviewer_keywords: ["IEnumVdsObject interface [VDS]","Next method","IEnumVdsObject.Next","IEnumVdsObject::Next","Next","Next method [VDS]","Next method [VDS]","IEnumVdsObject interface","base.ienumvdsobject_next","vds/IEnumVdsObject::Next","vdshwprv/IEnumVdsObject::Next"]
 old-location: base\ienumvdsobject_next.htm
 tech.root: base
 ms.assetid: 372eff29-7481-45aa-ad66-73147f7a631f
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IEnumVdsObject interface [VDS],Next method, IEnumVdsObject.Next, IEnumVdsObject::Next, Next, Next method [VDS], Next method [VDS],IEnumVdsObject interface, base.ienumvdsobject_next, vds/IEnumVdsObject::Next, vdshwprv/IEnumVdsObject::Next
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns a specified number of 
    objects in the enumeration, beginning from the current point. For more information, see <a href="/windows/desktop/VDS/working-with-enumeration-objects">Working with Enumeration Objects</a>.

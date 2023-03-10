@@ -1,12 +1,12 @@
 ---
 UID: NC:dbghelp.PGET_MODULE_BASE_ROUTINE64
 title: PGET_MODULE_BASE_ROUTINE64 (dbghelp.h)
-description: An application-defined callback function used with the StackWalk64 function. It is called when StackWalk64 needs a module base address for a given virtual address.
+description: PGET_MODULE_BASE_ROUTINE64 (dbghelp.h) is an application-defined callback function used with the StackWalk64 function.
 helpviewer_keywords: ["GetModuleBaseProc64","GetModuleBaseProc64 callback","GetModuleBaseProc64 callback function","PGET_MODULE_BASE_ROUTINE","PGET_MODULE_BASE_ROUTINE64","_win32_getmodulebaseproc64","base.getmodulebaseproc64","dbghelp/GetModuleBaseProc64"]
 old-location: base\getmodulebaseproc64.htm
 tech.root: Debug
 ms.assetid: a1060d41-183f-4cb1-8214-afef2996ca66
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: GetModuleBaseProc64, GetModuleBaseProc64 callback, GetModuleBaseProc64 callback function, PGET_MODULE_BASE_ROUTINE, PGET_MODULE_BASE_ROUTINE64, _win32_getmodulebaseproc64, base.getmodulebaseproc64, dbghelp/GetModuleBaseProc64
 req.header: dbghelp.h
 req.include-header: 

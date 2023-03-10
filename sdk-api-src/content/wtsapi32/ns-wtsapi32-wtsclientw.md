@@ -1,7 +1,7 @@
 ---
 UID: NS:wtsapi32._WTSCLIENTW
 title: WTSCLIENTW (wtsapi32.h)
-description: Contains information about a Remote Desktop Connection (RDC) client.
+description: Contains information about a Remote Desktop Connection (RDC) client. (Unicode)
 helpviewer_keywords: ["*PWTSCLIENTW","PWTSCLIENT","PWTSCLIENT structure pointer [Remote Desktop Services]","WTSCLIENT","WTSCLIENT structure [Remote Desktop Services]","WTSCLIENTA","WTSCLIENTW","termserv.wtsclient","wtsapi32/PWTSCLIENT","wtsapi32/WTSCLIENT","wtsapi32/WTSCLIENTA","wtsapi32/WTSCLIENTW"]
 old-location: termserv\wtsclient.htm
 tech.root: TermServ

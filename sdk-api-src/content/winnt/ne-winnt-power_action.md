@@ -1,5 +1,5 @@
 ---
-UID: NE:winnt.__unnamed_enum_2
+UID: NE:winnt.POWER_ACTION
 title: POWER_ACTION (winnt.h)
 description: Defines values that are used to specify system power action types.
 helpviewer_keywords: ["*PPOWER_ACTION","POWER_ACTION","POWER_ACTION enumeration","PPOWER_ACTION","PPOWER_ACTION enumeration pointer","PowerActionHibernate","PowerActionNone","PowerActionReserved","PowerActionShutdown","PowerActionShutdownOff","PowerActionShutdownReset","PowerActionSleep","PowerActionWarmEject","_win32_power_action","base.power_action","winnt/POWER_ACTION","winnt/PPOWER_ACTION","winnt/PowerActionHibernate","winnt/PowerActionNone","winnt/PowerActionReserved","winnt/PowerActionShutdown","winnt/PowerActionShutdownOff","winnt/PowerActionShutdownReset","winnt/PowerActionSleep","winnt/PowerActionWarmEject"]
@@ -101,3 +101,4 @@ Warm eject.
 
 
 <a href="/windows/desktop/Power/power-management-enumeration-types">Power Management Enumeration Types</a>
+

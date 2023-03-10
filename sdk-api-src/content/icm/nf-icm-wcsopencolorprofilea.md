@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.WcsOpenColorProfileA
 title: WcsOpenColorProfileA
-description: Creates a handle to a specified color profile.
+description: Creates a handle to a specified color profile. (ANSI)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

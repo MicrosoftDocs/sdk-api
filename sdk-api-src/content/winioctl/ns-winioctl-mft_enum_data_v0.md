@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_14
+UID: NS:winioctl.MFT_ENUM_DATA_V0
 title: MFT_ENUM_DATA_V0
 description: Contains information defining the boundaries for and starting place of an enumeration of update sequence number (USN) change journal records.
 helpviewer_keywords: ["*PMFT_ENUM_DATA","*PMFT_ENUM_DATA_V0","MFT_ENUM_DATA","MFT_ENUM_DATA_V0","MFT_ENUM_DATA_V0 structure [Files]","PMFT_ENUM_DATA_V0","PMFT_ENUM_DATA_V0 structure pointer [Files]","_win32_mft_enum_data_str","base.mft_enum_data_str","fs.mft_enum_data_str","winioctl/MFT_ENUM_DATA_V0","winioctl/PMFT_ENUM_DATA_V0"]
@@ -89,3 +89,4 @@ The upper boundary of the range of USN values used to filter which files are ret
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
+

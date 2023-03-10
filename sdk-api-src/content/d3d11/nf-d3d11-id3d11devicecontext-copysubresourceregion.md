@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CopySubresourceRegion
 title: ID3D11DeviceContext::CopySubresourceRegion (d3d11.h)
-description: Copy a region from a source resource to a destination resource.
+description: Copy a region from a source resource to a destination resource. (ID3D11DeviceContext.CopySubresourceRegion)
 helpviewer_keywords: ["4fcc18c3-ca99-b51e-9162-bb8b4121db03","CopySubresourceRegion","CopySubresourceRegion method [Direct3D 11]","CopySubresourceRegion method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","CopySubresourceRegion method","ID3D11DeviceContext.CopySubresourceRegion","ID3D11DeviceContext::CopySubresourceRegion","d3d11/ID3D11DeviceContext::CopySubresourceRegion","direct3d11.id3d11devicecontext_copysubresourceregion"]
 old-location: direct3d11\id3d11devicecontext_copysubresourceregion.htm
 tech.root: direct3d11

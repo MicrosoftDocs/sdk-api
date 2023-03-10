@@ -55,13 +55,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 
 
-The <b>BroadcastEvent</b> method is called when the <a href="/previous-versions/windows/desktop/legacy/dd695136(v=vs.85)">MSVidStreamBufferSource</a> object receives a broadcast event through the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a> interface.
+The <b>BroadcastEvent</b> method is called when the <a href="/previous-versions/windows/desktop/legacy/dd695136(v=vs.85)">MSVidStreamBufferSource</a> object receives a broadcast event through the <a href="/previous-versions/dd376294(v=vs.85)">IBroadcastEvent</a> interface.
 
 ## -parameters
 
 ### -param Guid [in]
 
-GUID that specifies the event. For more information, see <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcastevent-fire">IBroadcastEvent::Fire</a>.
+GUID that specifies the event. For more information, see <a href="/previous-versions/ms784798(v=vs.85)">IBroadcastEvent::Fire</a>.
 
 ## -returns
 

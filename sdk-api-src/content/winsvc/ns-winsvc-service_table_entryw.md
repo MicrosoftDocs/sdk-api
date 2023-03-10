@@ -1,7 +1,7 @@
 ---
 UID: NS:winsvc._SERVICE_TABLE_ENTRYW
 title: SERVICE_TABLE_ENTRYW (winsvc.h)
-description: Specifies the ServiceMain function for a service that can run in the calling process. It is used by the StartServiceCtrlDispatcher function.
+description: Specifies the ServiceMain function for a service that can run in the calling process. It is used by the StartServiceCtrlDispatcher function. (Unicode)
 helpviewer_keywords: ["*LPSERVICE_TABLE_ENTRYW","LPSERVICE_TABLE_ENTRY","LPSERVICE_TABLE_ENTRY structure pointer","SERVICE_TABLE_ENTRY","SERVICE_TABLE_ENTRY structure","SERVICE_TABLE_ENTRYA","SERVICE_TABLE_ENTRYW","_win32_service_table_entry_str","base.service_table_entry_str","winsvc/LPSERVICE_TABLE_ENTRY","winsvc/SERVICE_TABLE_ENTRY","winsvc/SERVICE_TABLE_ENTRYA","winsvc/SERVICE_TABLE_ENTRYW"]
 old-location: base\service_table_entry_str.htm
 tech.root: security

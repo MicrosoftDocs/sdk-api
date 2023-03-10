@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiBeginTransactionA
 title: MsiBeginTransactionA function (msi.h)
-description: The MsiBeginTransaction function starts transaction processing of a multiple-package installation and returns an identifier for the transaction.
-helpviewer_keywords: ["MsiBeginTransaction","MsiBeginTransaction function [Setup API]","MsiBeginTransactionA","MsiBeginTransactionW","msi/MsiBeginTransaction","msi/MsiBeginTransactionA","msi/MsiBeginTransactionW","setup.msibegintransaction"]
+description: The MsiBeginTransaction function starts transaction processing of a multiple-package installation and returns an identifier for the transaction. (ANSI)
+helpviewer_keywords: ["MsiBeginTransactionA", "msi/MsiBeginTransactionA"]
 old-location: setup\msibegintransaction.htm
 tech.root: setup
 ms.assetid: 05904e58-b24d-4d2c-8b59-a66ad71b494a

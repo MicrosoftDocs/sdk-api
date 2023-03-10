@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.ClearStoredMessages
 title: ID3D11InfoQueue::ClearStoredMessages (d3d11sdklayers.h)
-description: Clear all messages from the message queue.
+description: Clear all messages from the message queue. (ID3D11InfoQueue.ClearStoredMessages)
 helpviewer_keywords: ["91f1cc59-eb79-3b4f-7f33-0cb027b5d099","ClearStoredMessages","ClearStoredMessages method [Direct3D 11]","ClearStoredMessages method [Direct3D 11]","ID3D11InfoQueue interface","ID3D11InfoQueue interface [Direct3D 11]","ClearStoredMessages method","ID3D11InfoQueue.ClearStoredMessages","ID3D11InfoQueue::ClearStoredMessages","d3d11sdklayers/ID3D11InfoQueue::ClearStoredMessages","direct3d11.id3d11infoqueue_clearstoredmessages"]
 old-location: direct3d11\id3d11infoqueue_clearstoredmessages.htm
 tech.root: direct3d11

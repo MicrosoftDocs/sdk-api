@@ -1,7 +1,7 @@
 ---
 UID: NN:comsvcs.IComMethodEvents
 title: IComMethodEvents (comsvcs.h)
-description: Notifies the subscriber if an object's method has been called, returned, or generated an exception.
+description: Notifies the subscriber if an object's method has been called, returned, or generated an exception. (IComMethodEvents)
 helpviewer_keywords: ["IComMethodEvents","IComMethodEvents interface [COM+]","IComMethodEvents interface [COM+]","described","_dtc_IComMethodEvents","comsvcs/IComMethodEvents","cos.icommethodevents"]
 old-location: cos\icommethodevents.htm
 tech.root: cos

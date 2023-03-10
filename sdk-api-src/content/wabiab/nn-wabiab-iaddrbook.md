@@ -1,7 +1,7 @@
 ---
 UID: NN:wabiab.IAddrBook
 title: IAddrBook (wabiab.h)
-description: Do not use.
+description: Do not use. (IAddrBook)
 helpviewer_keywords: ["IAddrBook","IAddrBook interface [Windows Address Book]","IAddrBook interface [Windows Address Book]","described","_wab_IAddrBook","wab._wab_IAddrBook","wabiab/IAddrBook"]
 old-location: wab\_wab_IAddrBook.htm
 tech.root: wab wab
@@ -57,6 +57,6 @@ Do not use. This interface supports access to the Windows Address Book (WAB) and
 
 The <b>IAddrBook</b> interface inherits from <a href="/previous-versions/office/developer/office-2007/cc815525(v=office.12)">IMAPIProp</a>. <b>IAddrBook</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

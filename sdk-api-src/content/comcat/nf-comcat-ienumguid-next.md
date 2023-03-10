@@ -1,7 +1,7 @@
 ---
 UID: NF:comcat.IEnumGUID.Next
 title: IEnumGUID::Next (comcat.h)
-description: Retrieves the specified number of items in the enumeration sequence.
+description: Retrieves the specified number of items in the enumeration sequence. (IEnumGUID.Next)
 helpviewer_keywords: ["IEnumGUID interface [COM]","Next method","IEnumGUID.Next","IEnumGUID::Next","Next","Next method [COM]","Next method [COM]","IEnumGUID interface","_com_ienumguid_next","com.ienumguid_next","comcat/IEnumGUID::Next"]
 old-location: com\ienumguid_next.htm
 tech.root: com

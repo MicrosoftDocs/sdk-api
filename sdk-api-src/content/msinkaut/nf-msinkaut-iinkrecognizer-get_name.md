@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_Name
 title: IInkRecognizer::get_Name (msinkaut.h)
-description: Gets the name of the object.
+description: Gets the name of the object. (IInkRecognizer.get_Name)
 helpviewer_keywords: ["701951fd-ffb9-40fd-bb2c-7cdeb330f9b7","IInkRecognizer interface [Tablet PC]","Name property","IInkRecognizer.Name","IInkRecognizer.get_Name","IInkRecognizer::Name","IInkRecognizer::get_Name","Name property [Tablet PC]","Name property [Tablet PC]","IInkRecognizer interface","get_Name","msinkaut/IInkRecognizer::Name","msinkaut/IInkRecognizer::get_Name","tablet.iinkrecognizer_name"]
 old-location: tablet\iinkrecognizer_name.htm
 tech.root: tablet

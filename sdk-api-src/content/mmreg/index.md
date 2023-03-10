@@ -4,7 +4,7 @@ title: Mmreg.h header
 ms.assetid: d007b444-9242-3b0d-ba8b-3719f561c30a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: multimedia
 f1_keywords:
  - mmreg
@@ -19,6 +19,6 @@ f1_keywords:
 This header is used by multiple technologies. For more information, see:
 
 - [Audio Devices DDI Reference](../_audio/index.md)
-- [DirectShow](../_dshow/index.md)
+- [DirectShow](/windows/win32/directshow/directshow)
 - [Windows Multimedia](../_multimedia/index.md)
 

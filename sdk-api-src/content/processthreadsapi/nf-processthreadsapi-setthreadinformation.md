@@ -4,7 +4,7 @@ title: SetThreadInformation function (processthreadsapi.h)
 description: Sets information for the specified thread.
 helpviewer_keywords: ["SetThreadInformation","SetThreadInformation function","base.setthreadinformation","processthreadsapi/SetThreadInformation"]
 old-location: base\setthreadinformation.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: c0159bea-870a-46b7-a350-91fe52efae49
 ms.date: 12/05/2018
 ms.keywords: SetThreadInformation, SetThreadInformation function, base.setthreadinformation, processthreadsapi/SetThreadInformation

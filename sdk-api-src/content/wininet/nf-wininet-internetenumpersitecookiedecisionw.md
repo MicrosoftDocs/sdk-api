@@ -1,12 +1,12 @@
 ---
 UID: NF:wininet.InternetEnumPerSiteCookieDecisionW
 title: InternetEnumPerSiteCookieDecisionW function (wininet.h)
-description: Retrieves the domains and cookie settings of websites for which site-specific cookie regulations are set.
-helpviewer_keywords: ["InternetEnumPerSiteCookieDecision","InternetEnumPerSiteCookieDecision function [WinINet]","InternetEnumPerSiteCookieDecisionA","InternetEnumPerSiteCookieDecisionW","wininet.internetenumpersitecookiedecision","winineti/InternetEnumPerSiteCookieDecision","winineti/InternetEnumPerSiteCookieDecisionA","winineti/InternetEnumPerSiteCookieDecisionW"]
+description: The InternetEnumPerSiteCookieDecisionW (Unicode) function (wininet.h) retrieves the domains and cookie settings of websites with set site-specific cookie regulations.
+helpviewer_keywords: ["InternetEnumPerSiteCookieDecision", "InternetEnumPerSiteCookieDecision function [WinINet]", "InternetEnumPerSiteCookieDecisionW", "wininet.internetenumpersitecookiedecision"]
 old-location: wininet\internetenumpersitecookiedecision.htm
 tech.root: wininet
 ms.assetid: de1db7e6-21f4-4bbb-b4fc-277bbd01f32c
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: InternetEnumPerSiteCookieDecision, InternetEnumPerSiteCookieDecision function [WinINet], InternetEnumPerSiteCookieDecisionA, InternetEnumPerSiteCookieDecisionW, wininet.internetenumpersitecookiedecision, winineti/InternetEnumPerSiteCookieDecision, winineti/InternetEnumPerSiteCookieDecisionA, winineti/InternetEnumPerSiteCookieDecisionW
 req.header: wininet.h
 req.include-header: Wininet.h, Winineti.h

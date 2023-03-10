@@ -2,7 +2,7 @@
 UID: NA:audioclientactivationparams
 tech.root: 
 title: audioclientactivationparams
-ms.date: 
+ms.date: 07/14/2021
 ms.topic: language-reference
 targetos: Windows
 description: 

@@ -65,7 +65,7 @@ The <b>IWMHeaderInfo3</b> interface is implemented by the metadata editor object
 
 The <b>IWMHeaderInfo3</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>. <b>IWMHeaderInfo3</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

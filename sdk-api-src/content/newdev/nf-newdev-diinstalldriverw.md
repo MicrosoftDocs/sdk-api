@@ -1,12 +1,12 @@
 ---
 UID: NF:newdev.DiInstallDriverW
 title: DiInstallDriverW function (newdev.h)
-description: The DiInstallDriver function preinstalls a driver in the driver store and then installs the driver on devices present in the system that the driver supports.
-helpviewer_keywords: ["DiInstallDriver","DiInstallDriver function [Device and Driver Installation]","DiInstallDriverA","DiInstallDriverW","devinst.diinstalldriver","di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml","newdev/DiInstallDriver"]
+description: The DiInstallDriver function preinstalls a driver in the driver store and then installs the driver on devices present in the system that the driver supports. (Unicode)
+helpviewer_keywords: ["DiInstallDriver", "DiInstallDriver function [Device and Driver Installation]", "DiInstallDriverW", "devinst.diinstalldriver", "di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml", "newdev/DiInstallDriver"]
 old-location: devinst\diinstalldriver.htm
 tech.root: devinst
 ms.assetid: 7015d05f-235e-42d1-b4e1-9919bbebf185
-ms.date: 07/20/2022
+ms.date: 11/29/2022
 ms.keywords: DiInstallDriver, DiInstallDriver function [Device and Driver Installation], DiInstallDriverA, DiInstallDriverW, devinst.diinstalldriver, di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml, newdev/DiInstallDriver
 req.header: newdev.h
 req.include-header: Newdev.h
@@ -65,19 +65,20 @@ A pointer to a NULL-terminated string that supplies the fully qualified path of 
 
 ### -param Flags [in]
 
-A value of type DWORD that specifies zero or DIIRFLAG_FORCE_INF. Typically, this flag should be set to zero. 
+A value of type DWORD that specifies zero or a combination of one or more flags as described here (*Flags* is typically set to zero). 
 
-If this flag is zero, <b>DiInstallDriver</b> only installs the specified driver on a device if the driver is a better match for a device than the driver that is currently installed on a device. However, if this flag is set to DIIRFLAG_FORCE_INF, <b>DiInstallDriver</b> installs the specified driver on a matching device whether the driver is a better match for the device than the driver that is currently installed on the device. 
+If *Flags* is zero, <b>DiInstallDriver</b> only installs the specified driver on a device if the driver is a better match for a device than the driver that is currently installed on a device. For information about how Windows selects a driver for a device, see <a href="/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
+
+If *Flags* includes DIIRFLAG_FORCE_INF, <b>DiInstallDriver</b> installs the specified driver on a matching device whether or not the driver is a better match for the device than the driver that is currently installed on the device.  If DIIRFLAG_INSTALL_AS_SET is also specified, DIIRFLAG_FORCE_INF is ignored.
 
 <div class="alert"><b>Caution</b>  Forcing the installation of the driver can result in replacing a more compatible or newer driver with a less compatible or older driver. </div>
 <div> </div>
-For information about how Windows selects a driver for a device, see <a href="/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
 
-If this flag is set to DIIRFLAG_INSTALL_AS_SET (supported on Windows 10 version 1709 and later), _InfPath_ should specify a directory instead of a fully qualified path to an INF file and **DiInstallDriver** will install all INF files in that directory with special behavior.  All [driver packages](/windows-hardware/drivers/install/driver-packages) will get staged into the [Driver Store](/windows-hardware/drivers/install/driver-store) but will not be made available to be installed on devices yet.  On next shutdown of the system, these driver packages will be made available to be installed on devices going forward and they will be installed on any devices they are the best match for such that the devices are ready on next boot of the system.
+If *Flags* includes DIIRFLAG_INSTALL_AS_SET (supported on Windows 10 version 1709 and later), _InfPath_ should specify a directory instead of a fully qualified path to an INF file and **DiInstallDriver** will install all INF files in that directory with special behavior.  All [driver packages](/windows-hardware/drivers/install/driver-packages) will get staged into the [Driver Store](/windows-hardware/drivers/install/driver-store) but will not be made available to be installed on devices yet.  On next shutdown of the system, these driver packages will be made available to be installed on devices going forward and they will be installed on any devices they are the best match for such that the devices are ready on next boot of the system.
 
 ### -param NeedReboot [out, optional]
 
-A pointer to a value of type BOOL that <b>DiInstallDriver</b> sets to indicate whether a system is restart is required to complete the installation. This parameter is optional and can be <b>NULL</b>. If the parameter is supplied and a system restart is required to complete the installation, <b>DiInstallDriver</b> sets the value to <b>TRUE</b>. In this case, the caller must prompt the user to restart the system. If this parameter is supplied and a system restart is not required to complete the installation, <b>DiInstallDriver</b> sets the value to <b>FALSE</b>. If the parameter is <b>NULL</b> and a system restart is required to complete the installation, <b>DiInstallDriver</b> displays a system restart dialog box. For more information about this parameter, see the following <b>Remarks</b> section.
+A pointer to a value of type BOOL that <b>DiInstallDriver</b> sets to indicate whether a system restart is required to complete the installation. This parameter is optional and can be <b>NULL</b>. If the parameter is supplied and a system restart is required to complete the installation, <b>DiInstallDriver</b> sets the value to <b>TRUE</b>. In this case, the caller must prompt the user to restart the system. If this parameter is supplied and a system restart is not required to complete the installation, <b>DiInstallDriver</b> sets the value to <b>FALSE</b>. If the parameter is <b>NULL</b> and a system restart is required to complete the installation, <b>DiInstallDriver</b> displays a system restart dialog box. For more information about this parameter, see the following <b>Remarks</b> section.
 
 ## -returns
 
