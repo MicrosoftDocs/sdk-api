@@ -116,6 +116,9 @@ A set of flags that specify which members of this structure contain data to be s
 Type: <b>HIMAGELIST</b>
 
 A handle to the image list. The provider retains ownership of the image list and is ultimately responsible for its disposal.
+For the BCSS_IMAGE uSplitStyle, himlGlyph should have 5 images, one for each of these button states:
+  PBS_NORMAL, PBS_HOT, PBS_PRESSED, PBS_DISABLED, PBS_DEFAULTED
+For the BCSS_GLYPH uSplitStyle, himlGlyph should be a TCHAR
 
 ### -field uSplitStyle
 
