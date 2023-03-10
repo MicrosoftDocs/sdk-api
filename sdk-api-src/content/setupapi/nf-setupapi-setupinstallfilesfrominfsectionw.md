@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupInstallFilesFromInfSectionW
 title: SetupInstallFilesFromInfSectionW function (setupapi.h)
-description: The SetupInstallFilesFromInfSection function queues all the files for an installation that are specified in the Copy Files, Delete Files, and Rename Files sections that are listed by an Install section.
-helpviewer_keywords: ["SetupInstallFilesFromInfSection","SetupInstallFilesFromInfSection function [Setup API]","SetupInstallFilesFromInfSectionA","SetupInstallFilesFromInfSectionW","_setupapi_setupinstallfilesfrominfsection","setup.setupinstallfilesfrominfsection","setupapi/SetupInstallFilesFromInfSection","setupapi/SetupInstallFilesFromInfSectionA","setupapi/SetupInstallFilesFromInfSectionW"]
+description: The SetupInstallFilesFromInfSection function queues all the files for an installation that are specified in the Copy Files, Delete Files, and Rename Files sections that are listed by an Install section. (Unicode)
+helpviewer_keywords: ["SetupInstallFilesFromInfSection", "SetupInstallFilesFromInfSection function [Setup API]", "SetupInstallFilesFromInfSectionW", "_setupapi_setupinstallfilesfrominfsection", "setup.setupinstallfilesfrominfsection", "setupapi/SetupInstallFilesFromInfSection", "setupapi/SetupInstallFilesFromInfSectionW"]
 old-location: setup\setupinstallfilesfrominfsection.htm
 tech.root: setup
 ms.assetid: 9834a3b0-f8f5-4e4d-92b2-d3c5a4939a41

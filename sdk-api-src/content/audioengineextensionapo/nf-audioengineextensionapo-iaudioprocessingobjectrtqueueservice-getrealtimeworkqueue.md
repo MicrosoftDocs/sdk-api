@@ -58,5 +58,7 @@ Returns S_OK on success.
 
 The returned work queue ID is used with the real-time work queue APIs. For more information see [rtworkq.h header](../rtworkq). 
 
+For more information on the Windows 11 APIs for the Audio Processing Objects (APOs) that can ship with audio drivers, see [Windows 11 APIs for Audio Processing Objects](/windows-hardware/drivers/audio/windows-11-apis-for-audio-processing-objects).
+
 ## -see-also
 

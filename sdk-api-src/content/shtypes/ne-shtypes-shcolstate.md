@@ -74,7 +74,7 @@ The value is displayed as a date/time.
 
 ### -field SHCOLSTATE_TYPEMASK:0xf
 
-A mask for display type values SHCOLSTATE_TYPE_STR, SHCOLSTATE_TYPE_STR, and SHCOLSTATE_TYPE_DATE.
+A mask for display type values SHCOLSTATE_TYPE_STR, SHCOLSTATE_TYPE_INT, and SHCOLSTATE_TYPE_DATE.
 
 ### -field SHCOLSTATE_ONBYDEFAULT:0x10
 

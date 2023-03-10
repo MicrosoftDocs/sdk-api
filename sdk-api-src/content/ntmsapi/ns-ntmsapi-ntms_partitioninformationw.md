@@ -1,7 +1,7 @@
 ---
 UID: NS:ntmsapi._NTMS_PARTITIONINFORMATIONW
 title: NTMS_PARTITIONINFORMATIONW (ntmsapi.h)
-description: The NTMS_PARTITIONINFORMATION structure defines the properties specific to the side object.
+description: The NTMS_PARTITIONINFORMATION structure defines the properties specific to the side object. (Unicode)
 helpviewer_keywords: ["NTMS_PARTITIONINFORMATION","NTMS_PARTITIONINFORMATION structure [Files]","NTMS_PARTITIONINFORMATIONA","NTMS_PARTITIONINFORMATIONW","NTMS_PARTSTATE_ALLOCATED","NTMS_PARTSTATE_AVAILABLE","NTMS_PARTSTATE_COMPLETE","NTMS_PARTSTATE_DECOMMISIONED","NTMS_PARTSTATE_FOREIGN","NTMS_PARTSTATE_IMPORT","NTMS_PARTSTATE_INCOMPATIBLE","NTMS_PARTSTATE_RESERVED","NTMS_PARTSTATE_UNPREPARED","_NTMS_PARTITIONINFORMATIONA","_NTMS_PARTITIONINFORMATIONW","_zaw_ntms_partitioninformation","base.ntms_partitioninformation","fs.ntms_partitioninformation","ntmsapi/NTMS_PARTITIONINFORMATION"]
 old-location: fs\ntms_partitioninformation.htm
 tech.root: fs

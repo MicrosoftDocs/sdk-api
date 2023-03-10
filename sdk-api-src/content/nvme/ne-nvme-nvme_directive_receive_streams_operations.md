@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_48
-tech.root: fs 
+UID: NE:nvme.NVME_DIRECTIVE_RECEIVE_STREAMS_OPERATIONS
+tech.root: fs
 title: NVME_DIRECTIVE_RECEIVE_STREAMS_OPERATIONS
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate a directive type for a Streams operation.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_DIRECTIVE_RECEIVE_STREAMS_OPERATIONS enumeration
+
 
 ## -description
 
@@ -59,3 +60,4 @@ Use this enumeration to specify values in the **DTYPE** member of the [NVME_CDW1
 ## -see-also
 
 [NVME_CDW11_DIRECTIVE_RECEIVE](ns-nvme-nvme_cdw11_directive_receive.md)
+

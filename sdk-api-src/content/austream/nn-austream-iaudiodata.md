@@ -62,7 +62,7 @@ Applications use this interface to set and retrieve information on underlying da
 
 The <b>IAudioData</b> interface inherits from <a href="/windows/desktop/api/austream/nn-austream-imemorydata">IMemoryData</a>. <b>IAudioData</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

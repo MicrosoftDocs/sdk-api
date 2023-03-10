@@ -1,7 +1,7 @@
 ---
 UID: NS:ipsectypes.IPSEC_TRAFFIC_STATISTICS0_
 title: IPSEC_TRAFFIC_STATISTICS0 (ipsectypes.h)
-description: Stores IPsec traffic statistics.
+description: Stores IPsec traffic statistics. (IPSEC_TRAFFIC_STATISTICS0)
 helpviewer_keywords: ["IPSEC_TRAFFIC_STATISTICS0","IPSEC_TRAFFIC_STATISTICS0 structure [Filtering]","fwp.ipsec_traffic_statistics0_struct","ipsectypes/IPSEC_TRAFFIC_STATISTICS0"]
 old-location: fwp\ipsec_traffic_statistics0_struct.htm
 tech.root: fwp

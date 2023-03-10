@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientTouchPointer.put_Enabled
 title: IRemoteDesktopClientTouchPointer::put_Enabled (rdpappcontainerclient.h)
-description: Whether the touch pointer feature is enabled on the RDP app container client control.
+description: Whether the touch pointer feature is enabled on the RDP app container client control. (Put)
 helpviewer_keywords: ["Enabled property [Remote Desktop Services]","Enabled property [Remote Desktop Services]","IRemoteDesktopClientTouchPointer interface","IRemoteDesktopClientTouchPointer interface [Remote Desktop Services]","Enabled property","IRemoteDesktopClientTouchPointer.Enabled","IRemoteDesktopClientTouchPointer.put_Enabled","IRemoteDesktopClientTouchPointer::Enabled","IRemoteDesktopClientTouchPointer::get_Enabled","IRemoteDesktopClientTouchPointer::put_Enabled","put_Enabled","rdpappcontainerclient/IRemoteDesktopClientTouchPointer::Enabled","rdpappcontainerclient/IRemoteDesktopClientTouchPointer::get_Enabled","rdpappcontainerclient/IRemoteDesktopClientTouchPointer::put_Enabled","termserv.iremotedesktopclienttouchpointer_enabled"]
 old-location: termserv\iremotedesktopclienttouchpointer_enabled.htm
 tech.root: TermServ

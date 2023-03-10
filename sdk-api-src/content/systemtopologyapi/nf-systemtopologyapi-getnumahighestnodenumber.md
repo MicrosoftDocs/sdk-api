@@ -9,7 +9,7 @@ ms.assetid: ce944fa7-b42a-4b99-ac8d-30bd026fba21
 ms.date: 12/05/2018
 ms.keywords: GetNumaHighestNodeNumber, GetNumaHighestNodeNumber function, _win32_getnumahighestnodenumber, base.getnumahighestnodenumber, systemtopologyapi/GetNumaHighestNodeNumber, winbase/GetNumaHighestNodeNumber
 req.header: systemtopologyapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition, Windows XP with SP2 [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]

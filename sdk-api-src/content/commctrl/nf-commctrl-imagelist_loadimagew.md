@@ -1,8 +1,8 @@
 ---
 UID: NF:commctrl.ImageList_LoadImageW
 title: ImageList_LoadImageW function (commctrl.h)
-description: Creates an image list from the specified bitmap.
-helpviewer_keywords: ["IMAGE_BITMAP","ImageList_LoadImage","ImageList_LoadImage function [Windows Controls]","ImageList_LoadImageA","ImageList_LoadImageW","LR_CREATEDIBSECTION","LR_DEFAULTCOLOR","LR_DEFAULTSIZE","LR_LOADFROMFILE","LR_LOADMAP3DCOLORS","LR_LOADTRANSPARENT","LR_MONOCHROME","LR_SHARED","OBM_ for OEM bitmaps","OCR_ for OEM cursors","OIC_ for OEM icons","_win32_ImageList_LoadImage","_win32_ImageList_LoadImage_cpp","commctrl/ImageList_LoadImage","commctrl/ImageList_LoadImageA","commctrl/ImageList_LoadImageW","controls.ImageList_LoadImage","controls._win32_ImageList_LoadImage"]
+description: Creates an image list from the specified bitmap. (Unicode)
+helpviewer_keywords: ["IMAGE_BITMAP", "ImageList_LoadImage", "ImageList_LoadImage function [Windows Controls]", "ImageList_LoadImageW", "LR_CREATEDIBSECTION", "LR_DEFAULTCOLOR", "LR_DEFAULTSIZE", "LR_LOADFROMFILE", "LR_LOADMAP3DCOLORS", "LR_LOADTRANSPARENT", "LR_MONOCHROME", "LR_SHARED", "OBM_ for OEM bitmaps", "OCR_ for OEM cursors", "OIC_ for OEM icons", "_win32_ImageList_LoadImage", "_win32_ImageList_LoadImage_cpp", "commctrl/ImageList_LoadImage", "commctrl/ImageList_LoadImageW", "controls.ImageList_LoadImage", "controls._win32_ImageList_LoadImage"]
 old-location: controls\ImageList_LoadImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_loadimage.htm

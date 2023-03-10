@@ -1,8 +1,8 @@
 ---
 UID: NF:windns.DnsModifyRecordsInSet_W
 title: DnsModifyRecordsInSet_W function (windns.h)
-description: Function adds, modifies or removes a Resource Record (RR) set that may have been previously registered with DNS servers.
-helpviewer_keywords: ["DnsModifyRecordsInSet","DnsModifyRecordsInSet function [DNS]","DnsModifyRecordsInSet_A","DnsModifyRecordsInSet_UTF8","DnsModifyRecordsInSet_W","_dns_dnsmodifyrecordsinset","dns.dnsmodifyrecordsinset","windns/DnsModifyRecordsInSet","windns/DnsModifyRecordsInSet_A","windns/DnsModifyRecordsInSet_UTF8","windns/DnsModifyRecordsInSet_W"]
+description: Function adds, modifies or removes a Resource Record (RR) set that may have been previously registered with DNS servers. (DnsModifyRecordsInSet_W)
+helpviewer_keywords: ["DnsModifyRecordsInSet", "DnsModifyRecordsInSet function [DNS]", "DnsModifyRecordsInSet_UTF8", "DnsModifyRecordsInSet_W", "_dns_dnsmodifyrecordsinset", "dns.dnsmodifyrecordsinset", "windns/DnsModifyRecordsInSet", "windns/DnsModifyRecordsInSet_UTF8", "windns/DnsModifyRecordsInSet_W"]
 old-location: dns\dnsmodifyrecordsinset.htm
 tech.root: DNS
 ms.assetid: 4287b4e1-a7a2-4b73-b5bb-21bc639bae73

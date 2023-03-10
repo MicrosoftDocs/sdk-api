@@ -70,7 +70,7 @@ active thread will be automatically tagged.
 
 In order to use TraceLogging activities, you need to define an instance of
 either
-[TraceLoggingActivity](nl-traceloggingactivity-traceloggingactivity~r1.md) or
+[TraceLoggingActivity](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity) or
 **TraceLoggingThreadActivity**. After you have created an instance of one of
 these classes, you manipulate activity logging using After you have created an
 instance of one of these classes, you manipulate activity logging using
@@ -99,4 +99,4 @@ This class is not available for store applications.
 
 ## -see-also
 
-[TraceLoggingActivity Class](./nl-traceloggingactivity-traceloggingactivity.md)
+[TraceLoggingActivity Class](/windows/win32/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity)

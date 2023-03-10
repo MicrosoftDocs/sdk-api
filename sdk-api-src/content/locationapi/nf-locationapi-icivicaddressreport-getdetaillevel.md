@@ -1,7 +1,7 @@
 ---
 UID: NF:locationapi.ICivicAddressReport.GetDetailLevel
 title: ICivicAddressReport::GetDetailLevel (locationapi.h)
-description: Reserved.
+description: Reserved. (ICivicAddressReport.GetDetailLevel)
 helpviewer_keywords: ["GetDetailLevel","GetDetailLevel method [WinLocation]","GetDetailLevel method [WinLocation]","ICivicAddressReport interface","ICivicAddressReport interface [WinLocation]","GetDetailLevel method","ICivicAddressReport.GetDetailLevel","ICivicAddressReport::GetDetailLevel","WinLocation_COM_Ref.icivicaddressreport_getdetaillevel","locationapi/ICivicAddressReport::GetDetailLevel"]
 old-location: winlocation_com_ref\icivicaddressreport_getdetaillevel.htm
 tech.root: winlocation

@@ -1,5 +1,5 @@
 ---
-UID: NE:shellapi.__unnamed_enum_0
+UID: NE:shellapi.QUERY_USER_NOTIFICATION_STATE
 title: QUERY_USER_NOTIFICATION_STATE (shellapi.h)
 description: Specifies the state of the machine for the current user in relation to the propriety of sending a notification. Used by SHQueryUserNotificationState.
 helpviewer_keywords: ["QUERY_USER_NOTIFICATION_STATE","QUERY_USER_NOTIFICATION_STATE enumeration [Windows Shell]","QUNS_ACCEPTS_NOTIFICATIONS","QUNS_APP","QUNS_BUSY","QUNS_NOT_PRESENT","QUNS_PRESENTATION_MODE","QUNS_QUIET_TIME","QUNS_RUNNING_D3D_FULL_SCREEN","_shell_QUERY_USER_NOTIFICATION_STATE","shell.QUERY_USER_NOTIFICATION_STATE","shellapi/QUERY_USER_NOTIFICATION_STATE","shellapi/QUNS_ACCEPTS_NOTIFICATIONS","shellapi/QUNS_APP","shellapi/QUNS_BUSY","shellapi/QUNS_NOT_PRESENT","shellapi/QUNS_PRESENTATION_MODE","shellapi/QUNS_QUIET_TIME","shellapi/QUNS_RUNNING_D3D_FULL_SCREEN"]
@@ -87,3 +87,4 @@ Note that during quiet time, if the user is in one of the other blocked modes (Q
 ### -field QUNS_APP:7
 
 <b>Introduced in Windows 8</b>. A Windows Store app is running.
+

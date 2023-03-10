@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_132
-tech.root: fs 
+UID: NS:nvme.NVME_DIRECTIVE_STREAMS_GET_STATUS_DATA
+tech.root: fs
 title: NVME_DIRECTIVE_STREAMS_GET_STATUS_DATA
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains the identifiers of streams that are currently open.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_DIRECTIVE_STREAMS_GET_STATUS_DATA, *PNVME_DIRECTIVE_STREAMS_GET_STATUS_DATA
@@ -41,6 +41,7 @@ dev_langs:
 
 # NVME_DIRECTIVE_STREAMS_GET_STATUS_DATA structure
 
+
 ## -description
 
 Contains the identifiers of streams that are currently open.
@@ -60,3 +61,4 @@ The array is of size **NVME_STREAMS_GET_STATUS_MAX_IDS**.
 ## -remarks
 
 ## -see-also
+

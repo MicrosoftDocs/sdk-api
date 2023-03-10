@@ -79,7 +79,7 @@ The identifier of the hot key.  If the <i>hWnd</i> parameter is NULL, then the h
 Type: <b>UINT</b>
 
 The keys that must be pressed in combination with the key specified by the 
-     <i>uVirtKey</i> parameter in order to generate the <a href="/windows/desktop/inputdev/wm-hotkey">WM_HOTKEY</a> message. The <i>fsModifiers</i> parameter can be a combination of the following values.
+     <i>vk</i> parameter in order to generate the <a href="/windows/desktop/inputdev/wm-hotkey">WM_HOTKEY</a> message. The <i>fsModifiers</i> parameter can be a combination of the following values.
 
 <table>
 <tr>

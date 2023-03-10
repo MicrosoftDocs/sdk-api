@@ -1,12 +1,12 @@
 ---
 UID: NF:netfw.NetworkIsolationFreeAppContainers
 title: NetworkIsolationFreeAppContainers function (netfw.h)
-description: Used to release memory resources allocated to one or more app containers.
+description: The NetworkIsolationFreeAppContainers function is used to release memory resources allocated to one or more app containers.
 helpviewer_keywords: ["NetworkIsolationFreeAppContainers","NetworkIsolationFreeAppContainers function [ICS/ICF]","ics.networkisolationfreeappcontainers","networkisolation/NetworkIsolationFreeAppContainers"]
 old-location: ics\networkisolationfreeappcontainers.htm
 tech.root: ics
 ms.assetid: d850eef3-382e-4b3e-9059-35f3171a07c7
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: NetworkIsolationFreeAppContainers, NetworkIsolationFreeAppContainers function [ICS/ICF], ics.networkisolationfreeappcontainers, networkisolation/NetworkIsolationFreeAppContainers
 req.header: netfw.h
 req.include-header: Netfw.h

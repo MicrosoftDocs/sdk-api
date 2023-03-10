@@ -1,10 +1,10 @@
 ---
 UID: NS:winnt._FILE_SEGMENT_ELEMENT
 title: FILE_SEGMENT_ELEMENT
-ms.date: 06/01/2022
+description: The FILE_SEGMENT_ELEMENT structure represents a segment buffer structure for scatter/gather read/write actions.
+ms.date: 08/03/2022
 ms.topic: language-reference
 targetos: Windows
-description: 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

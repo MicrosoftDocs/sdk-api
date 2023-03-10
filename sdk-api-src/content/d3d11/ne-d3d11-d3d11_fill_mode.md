@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_FILL_MODE
 title: D3D11_FILL_MODE (d3d11.h)
-description: Determines the fill mode to use when rendering triangles.
+description: Determines the fill mode to use when rendering triangles. (D3D11_FILL_MODE)
 helpviewer_keywords: ["D3D11_FILL_MODE","D3D11_FILL_MODE enumeration [Direct3D 11]","D3D11_FILL_SOLID","D3D11_FILL_WIREFRAME","d3d11/D3D11_FILL_MODE","d3d11/D3D11_FILL_SOLID","d3d11/D3D11_FILL_WIREFRAME","d7c0d124-b654-14ba-20c5-ab454511f4d2","direct3d11.d3d11_fill_mode"]
 old-location: direct3d11\d3d11_fill_mode.htm
 tech.root: direct3d11

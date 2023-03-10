@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Stores the property coordinates in a<a href="/previous-versions/dd162807(v=vs.85)">POINTL</a> structure of a specified property bag.
+Stores the property coordinates in a<a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure of a specified property bag.
 
 ## -parameters
 
@@ -68,9 +68,9 @@ A null-terminated property name string.
 
 ### -param value [in]
 
-Type: <b>const <a href="/previous-versions/dd162807(v=vs.85)">POINTL</a>*</b>
+Type: <b>const <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a>*</b>
 
-A pointer to a <a href="/previous-versions/dd162807(v=vs.85)">POINTL</a> structure that specifies the coordinates to store in the  property.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure that specifies the coordinates to store in the  property.
 
 ## -returns
 

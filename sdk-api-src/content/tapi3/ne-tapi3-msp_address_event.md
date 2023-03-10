@@ -1,12 +1,12 @@
 ---
 UID: NE:tapi3.__MIDL___MIDL_itf_tapi3_0000_0018_0001
 title: MSP_ADDRESS_EVENT (tapi3.h)
-description: The MSP_ADDRESS_EVENT constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_ADDRESS_EVENT.
+description: The MSP_ADDRESS_EVENT enumeration (tapi3.h) constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_ADDRESS_EVENT. 
 helpviewer_keywords: ["ADDRESS_TERMINAL_AVAILABLE","ADDRESS_TERMINAL_UNAVAILABLE","MSP_ADDRESS_EVENT","MSP_ADDRESS_EVENT enumeration [TAPI 2.2]","_tapi3_msp_address_event","msp/ADDRESS_TERMINAL_AVAILABLE","msp/ADDRESS_TERMINAL_UNAVAILABLE","msp/MSP_ADDRESS_EVENT","tapi3.msp_address_event"]
 old-location: tapi3\msp_address_event.htm
 tech.root: tapi3
 ms.assetid: 35aecd05-badd-4509-92e5-1936ca075c37
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ADDRESS_TERMINAL_AVAILABLE, ADDRESS_TERMINAL_UNAVAILABLE, MSP_ADDRESS_EVENT, MSP_ADDRESS_EVENT enumeration [TAPI 2.2], _tapi3_msp_address_event, msp/ADDRESS_TERMINAL_AVAILABLE, msp/ADDRESS_TERMINAL_UNAVAILABLE, msp/MSP_ADDRESS_EVENT, tapi3.msp_address_event
 req.header: tapi3.h
 req.include-header: Tapi3.h

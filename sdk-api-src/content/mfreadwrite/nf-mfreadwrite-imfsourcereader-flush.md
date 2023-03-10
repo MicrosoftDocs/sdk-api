@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.Flush
 title: IMFSourceReader::Flush (mfreadwrite.h)
-description: Flushes one or more streams.
+description: Flushes one or more streams. (IMFSourceReader.Flush)
 helpviewer_keywords: ["Flush","Flush method [Media Foundation]","Flush method [Media Foundation]","IMFSourceReader interface","IMFSourceReader interface [Media Foundation]","Flush method","IMFSourceReader.Flush","IMFSourceReader::Flush","MF_SOURCE_READER_ALL_STREAMS","MF_SOURCE_READER_FIRST_AUDIO_STREAM","MF_SOURCE_READER_FIRST_VIDEO_STREAM","mf.imfsourcereader_flush","mfreadwrite/IMFSourceReader::Flush"]
 old-location: mf\imfsourcereader_flush.htm
 tech.root: mf
@@ -125,7 +125,7 @@ In synchronous mode, the method blocks until the operation is complete.
 
 In asynchronous mode, the application's <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onflush">IMFSourceReaderCallback::OnFlush</a> method is called when the flush operation completes. While a flush operation is pending, the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a> method returns <b>MF_E_NOTACCEPTING</b>.
 
-<div class="alert"><b>Note</b>  In Windows 7, there was a bug in the implementation of this method, which causes <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onflush">OnFlush</a> to be called before the flush operation completes. A hotfix is available that fixes this bug. For more information, see <a href="https://support.microsoft.com/help/979567">http://support.microsoft.com/kb/979567</a>.</div>
+<div class="alert"><b>Note</b>  In Windows 7, there was a bug in the implementation of this method, which causes <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onflush">OnFlush</a> to be called before the flush operation completes. A hotfix used to be available that fixed that bug.</div>
 <div> </div>
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 

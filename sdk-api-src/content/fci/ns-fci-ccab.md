@@ -1,5 +1,5 @@
 ---
-UID: NS:fci.__unnamed_struct_0
+UID: NS:fci.CCAB
 title: CCAB (fci.h)
 description: The CCAB structure contains cabinet information.
 helpviewer_keywords: ["*PCCAB","CCAB","CCAB structure [Windows API]","PCCAB","PCCAB structure pointer [Windows API]","fci/CCAB","fci/PCCAB","winprog.ccab"]
@@ -59,7 +59,7 @@ The maximum size, in bytes, of a cabinet  created by FCI.
 
 The maximum size, in bytes, that  a folder will contain before a new folder is created.
 
-## -field cbReserveCFHeader
+### -field cbReserveCFHeader
 
 The size, in bytes, of the CFHeader reserve area. Possible value range is 0-60,000.
 
@@ -102,3 +102,4 @@ The full path that indicates where to create the cabinet.
 ## -see-also
 
 <a href="/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>
+

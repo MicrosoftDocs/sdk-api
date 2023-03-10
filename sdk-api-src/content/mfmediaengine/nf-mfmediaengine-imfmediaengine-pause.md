@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.Pause
 title: IMFMediaEngine::Pause (mfmediaengine.h)
-description: Pauses playback.
+description: Pauses playback. (IMFMediaEngine.Pause)
 helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","Pause method","IMFMediaEngine.Pause","IMFMediaEngine::Pause","Pause","Pause method [Media Foundation]","Pause method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_pause","mfmediaengine/IMFMediaEngine::Pause"]
 old-location: mf\imfmediaengine_pause.htm
 tech.root: mf

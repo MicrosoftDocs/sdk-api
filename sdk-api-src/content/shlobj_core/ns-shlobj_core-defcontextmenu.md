@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj_core.__unnamed_struct_11
+UID: NS:shlobj_core.DEFCONTEXTMENU
 title: DEFCONTEXTMENU (shlobj_core.h)
 description: Contains context menu information used by SHCreateDefaultContextMenu.
 helpviewer_keywords: ["DEFCONTEXTMENU","DEFCONTEXTMENU structure [Windows Shell]","_shell_DEFCONTEXTMENU","shell.DEFCONTEXTMENU","shlobj_core/DEFCONTEXTMENU"]
@@ -120,3 +120,4 @@ A pointer to an HKEY that specifies the registry key from which to load extensio
 If the <b>aKeys</b> and <b>cKeys</b> members are valid and member <b>punkAssociationInfo</b> is also valid (not <b>NULL</b>), the system constructs the menu using the values of <b>aKeys</b> and <b>cKeys</b>, and ignores member <b>punkAssociationInfo</b> (<a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a>).
 
 Members <b>apidl</b> and <b>cidl</b> can be used as parameters to method <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">IShellFolder::GetUIObjectOf</a> to retrieve <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>.
+

@@ -1,7 +1,7 @@
 ---
 UID: NS:ws2def.addrinfoex5
 title: ADDRINFOEX5
-description: Used by the <a href="/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexw">GetAddrInfoExW</a> function to hold host address information when a specific network interface has been requested.
+description: Used by the <a href="/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexw">GetAddrInfoExW</a> function to hold host address information when a specific network interface has been requested. (ADDRINFOEX5)
 tech.root: WinSock
 ms.date: 06/14/2021
 prerelease: false

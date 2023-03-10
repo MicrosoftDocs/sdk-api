@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.RemoveIScsiSendTargetPortalA
 title: RemoveIScsiSendTargetPortalA function (iscsidsc.h)
-description: RemoveIscsiSendTargetPortal function removes a portal from the list of portals to which the iSCSI initiator service sends SendTargets requests for target discovery.
-helpviewer_keywords: ["RemoveIScsiSendTargetPortalA","RemoveIscsiSendTargetPortal","RemoveIscsiSendTargetPortal function [iSCSI Discovery Library API]","RemoveIscsiSendTargetPortalA","RemoveIscsiSendTargetPortalW","iscsidisc.removeiscsisendtargetportal","iscsidsc/RemoveIscsiSendTargetPortal","iscsidsc/RemoveIscsiSendTargetPortalA","iscsidsc/RemoveIscsiSendTargetPortalW"]
+description: RemoveIscsiSendTargetPortal function removes a portal from the list of portals to which the iSCSI initiator service sends SendTargets requests for target discovery. (ANSI)
+helpviewer_keywords: ["RemoveIScsiSendTargetPortalA", "RemoveIscsiSendTargetPortalA", "iscsidsc/RemoveIscsiSendTargetPortalA"]
 old-location: iscsidisc\removeiscsisendtargetportal.htm
 tech.root: iSCSIDisc
 ms.assetid: f9c05a86-3484-4092-b384-c599fbf1e60f

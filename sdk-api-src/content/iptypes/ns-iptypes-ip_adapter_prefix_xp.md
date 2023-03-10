@@ -1,7 +1,7 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_PREFIX_XP
 title: IP_ADAPTER_PREFIX_XP (iptypes.h)
-description: Stores an IP address prefix.
+description: Stores an IP address prefix.I
 helpviewer_keywords: ["*PIP_ADAPTER_PREFIX","*PIP_ADAPTER_PREFIX_XP","IP_ADAPTER_PREFIX","IP_ADAPTER_PREFIX structure [IP Helper]","IP_ADAPTER_PREFIX_XP","PIP_ADAPTER_PREFIX","PIP_ADAPTER_PREFIX structure pointer [IP Helper]","iphlp.ip_adapter_prefix","iptypes/IP_ADAPTER_PREFIX","iptypes/PIP_ADAPTER_PREFIX"]
 old-location: iphlp\ip_adapter_prefix.htm
 tech.root: IpHlp

@@ -4,7 +4,7 @@ title: Evcoll.h header
 ms.assetid: 48850291-5341-30aa-b795-92c8ca6ed55f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: wec
 f1_keywords:
  - evcoll

@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.EndAbort
 title: ICrmCompensator::EndAbort (comsvcs.h)
-description: Notifies the CRM Compensator that it has received all the log records available during the abort phase.
+description: Notifies the CRM Compensator that it has received all the log records available during the abort phase. (ICrmCompensator.EndAbort)
 helpviewer_keywords: ["EndAbort","EndAbort method [COM+]","EndAbort method [COM+]","ICrmCompensator interface","ICrmCompensator interface [COM+]","EndAbort method","ICrmCompensator.EndAbort","ICrmCompensator::EndAbort","_dtc_ICrmCompensator_EndAbort","comsvcs/ICrmCompensator::EndAbort","cos.icrmcompensator_endabort"]
 old-location: cos\icrmcompensator_endabort.htm
 tech.root: cos

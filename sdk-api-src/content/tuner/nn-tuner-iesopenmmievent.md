@@ -58,7 +58,7 @@ For more information about PBDA, download the specification from <a href="https:
 
 The <b>IESOpenMmiEvent</b> interface inherits from <b>IESEvent</b>. <b>IESOpenMmiEvent</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

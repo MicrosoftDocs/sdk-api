@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawPie(constPen,INT,INT,INT,INT,REAL,REAL)
 title: Graphics::DrawPie(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL) (gdiplusgraphics.h)
-description: The Graphics::DrawPie method draws a pie.
+description: The Graphics::DrawPie method draws a pie. (overload 3/4)
 helpviewer_keywords: ["DrawPie","DrawPie method [GDI+]","DrawPie method [GDI+]","Graphics class","Graphics class [GDI+]","DrawPie method","Graphics.DrawPie","Graphics.DrawPie(IN const Pen","IN INT","IN INT","IN INT","IN INT","IN REAL","IN REAL)","Graphics.DrawPie(const Pen*","INT","INT","INT","INT","REAL","REAL)","Graphics::DrawPie","Graphics::DrawPie(IN const Pen","IN INT","IN INT","IN INT","IN INT","IN REAL","IN REAL)","_gdiplus_CLASS_Graphics_DrawPie_Pen_pen_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepA","gdiplus._gdiplus_CLASS_Graphics_DrawPie_Pen_pen_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepA"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawPie_Pen_pen_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepA.htm
 tech.root: gdiplus

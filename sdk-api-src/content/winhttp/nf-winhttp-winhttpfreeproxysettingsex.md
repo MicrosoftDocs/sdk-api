@@ -51,7 +51,7 @@ Frees the data retrieved from a previous call to [WinHttpGetProxySettingsResultE
 
 ### -param ProxySettingsType
 
-Type: \_In\_ **[WINHTTP_PROXY_SETTINGS_TYPE](ne-winhttp-proxy_settings_type.md)**
+Type: \_In\_ **[WINHTTP_PROXY_SETTINGS_TYPE](/windows/win32/api/winhttp/ne-winhttp-winhttp_proxy_settings_type)**
 
 A proxy settings type.
 

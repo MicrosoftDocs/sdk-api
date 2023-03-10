@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiAdvertiseProductExW
 title: MsiAdvertiseProductExW function (msi.h)
-description: The MsiAdvertiseProductEx function generates an advertise script or advertises a product to the computer.
-helpviewer_keywords: ["ADVERTISEFLAGS_MACHINEASSIGN","ADVERTISEFLAGS_USERASSIGN","MSIADVERTISEOPTIONS_INSTANCE","MSIARCHITECTUREFLAGS_AMD64","MSIARCHITECTUREFLAGS_IA64","MSIARCHITECTUREFLAGS_X86","MsiAdvertiseProductEx","MsiAdvertiseProductEx function","MsiAdvertiseProductExA","MsiAdvertiseProductExW","_msi_msiadvertiseproductex","msi/MsiAdvertiseProductEx","msi/MsiAdvertiseProductExA","msi/MsiAdvertiseProductExW","none","setup.msiadvertiseproductex"]
+description: The MsiAdvertiseProductEx function generates an advertise script or advertises a product to the computer. (Unicode)
+helpviewer_keywords: ["ADVERTISEFLAGS_MACHINEASSIGN", "ADVERTISEFLAGS_USERASSIGN", "MSIADVERTISEOPTIONS_INSTANCE", "MSIARCHITECTUREFLAGS_AMD64", "MSIARCHITECTUREFLAGS_IA64", "MSIARCHITECTUREFLAGS_X86", "MsiAdvertiseProductEx", "MsiAdvertiseProductEx function", "MsiAdvertiseProductExW", "_msi_msiadvertiseproductex", "msi/MsiAdvertiseProductEx", "msi/MsiAdvertiseProductExW", "none", "setup.msiadvertiseproductex"]
 old-location: setup\msiadvertiseproductex.htm
 tech.root: setup
 ms.assetid: 27e8deb6-912f-4103-97a6-ec505340dccc

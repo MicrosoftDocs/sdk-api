@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventObjectChange.ChangedSubscription
 title: IEventObjectChange::ChangedSubscription (eventsys.h)
-description: Indicates that a subscription object has been added, modified, or deleted.
+description: Indicates that a subscription object has been added, modified, or deleted. (IEventObjectChange.ChangedSubscription)
 helpviewer_keywords: ["ChangedSubscription","ChangedSubscription method [COM+]","ChangedSubscription method [COM+]","IEventObjectChange interface","IEventObjectChange interface [COM+]","ChangedSubscription method","IEventObjectChange.ChangedSubscription","IEventObjectChange::ChangedSubscription","_cos_IEventObjectChange_ChangedSubscription","cos.ieventobjectchange_changedsubscription","eventsys/IEventObjectChange::ChangedSubscription"]
 old-location: cos\ieventobjectchange_changedsubscription.htm
 tech.root: cos

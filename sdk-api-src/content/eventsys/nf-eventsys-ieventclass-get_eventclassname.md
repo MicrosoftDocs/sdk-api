@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventClass.get_EventClassName
 title: IEventClass::get_EventClassName (eventsys.h)
-description: The ProgID for the event class object.
+description: The ProgID for the event class object. (Get)
 helpviewer_keywords: ["EventClassName property [COM+]","EventClassName property [COM+]","IEventClass interface","IEventClass interface [COM+]","EventClassName property","IEventClass.EventClassName","IEventClass.get_EventClassName","IEventClass::EventClassName","IEventClass::get_EventClassName","IEventClass::put_EventClassName","cos.ieventclass_eventclassname","eventsys/IEventClass::EventClassName","eventsys/IEventClass::get_EventClassName","eventsys/IEventClass::put_EventClassName","get_EventClassName"]
 old-location: cos\ieventclass_eventclassname.htm
 tech.root: cos

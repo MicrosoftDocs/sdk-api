@@ -1,7 +1,7 @@
 ---
 UID: NE:winsvc.SERVICE_REGISTRY_STATE_TYPE
 title: SERVICE_REGISTRY_STATE_TYPE
-description: Specifies a state type for a service registry key.
+description: Specifies a state type for a service registry key. (SERVICE_REGISTRY_STATE_TYPE)
 tech.root: security
 ms.date: 4/26/2019
 ms.keywords: SERVICE_REGISTRY_STATE_TYPE
@@ -51,9 +51,9 @@ Reserved. Represents the maximum value of the enumeration.
 ## -remarks
 
 All per-service registry state types have a lifetime that is scoped to the lifetime of the service installation.
-Once the service is removed by calling [DeleteService](/windows/win32/api/winsvc/ne-winsvc-DeleteService) the registry state is deleted too.
+Once the service is removed by calling [DeleteService](/windows/win32/api/winsvc/nf-winsvc-deleteservice) the registry state is deleted too.
 
 ## -see-also
 
-[GetServiceRegistryStateKey](/windows/win32/api/winsvc/ne-winsvc-getserviceregistrystatekey)
+[GetServiceRegistryStateKey](/windows/win32/api/winsvc/nf-winsvc-getserviceregistrystatekey)
 

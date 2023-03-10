@@ -1,7 +1,7 @@
 ---
 UID: NF:wsdattachment.IWSDInboundAttachment.Close
 title: IWSDInboundAttachment::Close (wsdattachment.h)
-description: Closes the current attachment MIME data stream.
+description: Closes the current attachment MIME data stream. (IWSDInboundAttachment.Close)
 helpviewer_keywords: ["Close","Close method","Close method","IWSDInboundAttachment interface","IWSDInboundAttachment interface","Close method","IWSDInboundAttachment.Close","IWSDInboundAttachment::Close","ncd.iwsdinboundattachment_close","wsdattachment/IWSDInboundAttachment::Close"]
 old-location: ncd\iwsdinboundattachment_close.htm
 tech.root: ncd

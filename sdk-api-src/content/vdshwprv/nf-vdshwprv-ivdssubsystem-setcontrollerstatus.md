@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.SetControllerStatus
 title: IVdsSubSystem::SetControllerStatus (vdshwprv.h)
-description: Sets the status (either online or offline) of the controllers in the subsystem.
+description: The IVdsSubSystem::SetControllerStatus (vdshwprv.h) method sets the status (either online or offline) of the controllers in the subsystem.
 helpviewer_keywords: ["IVdsSubSystem interface [VDS]","SetControllerStatus method","IVdsSubSystem.SetControllerStatus","IVdsSubSystem::SetControllerStatus","SetControllerStatus","SetControllerStatus method [VDS]","SetControllerStatus method [VDS]","IVdsSubSystem interface","base.ivdssubsystem_setcontrollerstatus","vds/IVdsSubSystem::SetControllerStatus","vdshwprv/IVdsSubSystem::SetControllerStatus"]
 old-location: base\ivdssubsystem_setcontrollerstatus.htm
 tech.root: base
 ms.assetid: 080a48a5-1c25-440a-ad3c-528cdaef40e9
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsSubSystem interface [VDS],SetControllerStatus method, IVdsSubSystem.SetControllerStatus, IVdsSubSystem::SetControllerStatus, SetControllerStatus, SetControllerStatus method [VDS], SetControllerStatus method [VDS],IVdsSubSystem interface, base.ivdssubsystem_setcontrollerstatus, vds/IVdsSubSystem::SetControllerStatus, vdshwprv/IVdsSubSystem::SetControllerStatus
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Sets 
    the status (either online or offline) of the controllers in the subsystem.

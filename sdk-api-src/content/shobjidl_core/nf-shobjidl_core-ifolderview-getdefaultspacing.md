@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets a pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the default width (x) and height (y) measurements of an item, including the surrounding white space.
+Gets a pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure containing the default width (x) and height (y) measurements of an item, including the surrounding white space.
 
 ## -parameters
 
 ### -param ppt [out]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
 Pointer to an existing structure to be filled with the default sizing dimensions of the items in the folder's view.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:oleauto.VarDateFromUdateEx
 title: VarDateFromUdateEx function (oleauto.h)
-description: Converts a time and date converted from MS-DOS format to variant format.
+description: Converts a time and date converted from MS-DOS format to variant format. (VarDateFromUdateEx)
 helpviewer_keywords: ["VarDateFromUdateEx","VarDateFromUdateEx function [Automation]","_oa96_VarDateFromUdateEx","automat.vardatefromudateex","oleauto/VarDateFromUdateEx"]
 old-location: automat\vardatefromudateex.htm
 tech.root: automat

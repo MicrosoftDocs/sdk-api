@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_LUN_TYPE
 title: VDS_LUN_TYPE (vds.h)
-description: Defines the set of valid types for a LUN.
+description: The VDS_LUN_TYPE (vds.h) enumeration defines the set of valid types for a LUN.
 helpviewer_keywords: ["*PVDS_LUN_TYPE","VDS_LT_DEFAULT","VDS_LT_FAULT_TOLERANT","VDS_LT_MIRROR","VDS_LT_NON_FAULT_TOLERANT","VDS_LT_PARITY","VDS_LT_RAID01","VDS_LT_RAID03","VDS_LT_RAID05","VDS_LT_RAID10","VDS_LT_RAID15","VDS_LT_RAID2","VDS_LT_RAID3","VDS_LT_RAID30","VDS_LT_RAID4","VDS_LT_RAID5","VDS_LT_RAID50","VDS_LT_RAID51","VDS_LT_RAID53","VDS_LT_RAID6","VDS_LT_RAID60","VDS_LT_RAID61","VDS_LT_SIMPLE","VDS_LT_SPAN","VDS_LT_STRIPE","VDS_LT_UNKNOWN","VDS_LUN_TYPE","VDS_LUN_TYPE enumeration [VDS]","base.vds_lun_type","vds/VDS_LT_DEFAULT","vds/VDS_LT_FAULT_TOLERANT","vds/VDS_LT_MIRROR","vds/VDS_LT_NON_FAULT_TOLERANT","vds/VDS_LT_PARITY","vds/VDS_LT_RAID01","vds/VDS_LT_RAID03","vds/VDS_LT_RAID05","vds/VDS_LT_RAID10","vds/VDS_LT_RAID15","vds/VDS_LT_RAID2","vds/VDS_LT_RAID3","vds/VDS_LT_RAID30","vds/VDS_LT_RAID4","vds/VDS_LT_RAID5","vds/VDS_LT_RAID50","vds/VDS_LT_RAID51","vds/VDS_LT_RAID53","vds/VDS_LT_RAID6","vds/VDS_LT_RAID60","vds/VDS_LT_RAID61","vds/VDS_LT_SIMPLE","vds/VDS_LT_SPAN","vds/VDS_LT_STRIPE","vds/VDS_LT_UNKNOWN","vds/VDS_LUN_TYPE","vdshwprv/VDS_LT_DEFAULT","vdshwprv/VDS_LT_FAULT_TOLERANT","vdshwprv/VDS_LT_MIRROR","vdshwprv/VDS_LT_NON_FAULT_TOLERANT","vdshwprv/VDS_LT_PARITY","vdshwprv/VDS_LT_RAID01","vdshwprv/VDS_LT_RAID03","vdshwprv/VDS_LT_RAID05","vdshwprv/VDS_LT_RAID10","vdshwprv/VDS_LT_RAID15","vdshwprv/VDS_LT_RAID2","vdshwprv/VDS_LT_RAID3","vdshwprv/VDS_LT_RAID30","vdshwprv/VDS_LT_RAID4","vdshwprv/VDS_LT_RAID5","vdshwprv/VDS_LT_RAID50","vdshwprv/VDS_LT_RAID51","vdshwprv/VDS_LT_RAID53","vdshwprv/VDS_LT_RAID6","vdshwprv/VDS_LT_RAID60","vdshwprv/VDS_LT_RAID61","vdshwprv/VDS_LT_SIMPLE","vdshwprv/VDS_LT_SPAN","vdshwprv/VDS_LT_STRIPE","vdshwprv/VDS_LT_UNKNOWN","vdshwprv/VDS_LUN_TYPE"]
 old-location: base\vds_lun_type.htm
 tech.root: base
 ms.assetid: 0952db7d-9dd6-4602-82d4-66d773c14463
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*PVDS_LUN_TYPE, VDS_LT_DEFAULT, VDS_LT_FAULT_TOLERANT, VDS_LT_MIRROR, VDS_LT_NON_FAULT_TOLERANT, VDS_LT_PARITY, VDS_LT_RAID01, VDS_LT_RAID03, VDS_LT_RAID05, VDS_LT_RAID10, VDS_LT_RAID15, VDS_LT_RAID2, VDS_LT_RAID3, VDS_LT_RAID30, VDS_LT_RAID4, VDS_LT_RAID5, VDS_LT_RAID50, VDS_LT_RAID51, VDS_LT_RAID53, VDS_LT_RAID6, VDS_LT_RAID60, VDS_LT_RAID61, VDS_LT_SIMPLE, VDS_LT_SPAN, VDS_LT_STRIPE, VDS_LT_UNKNOWN, VDS_LUN_TYPE, VDS_LUN_TYPE enumeration [VDS], base.vds_lun_type, vds/VDS_LT_DEFAULT, vds/VDS_LT_FAULT_TOLERANT, vds/VDS_LT_MIRROR, vds/VDS_LT_NON_FAULT_TOLERANT, vds/VDS_LT_PARITY, vds/VDS_LT_RAID01, vds/VDS_LT_RAID03, vds/VDS_LT_RAID05, vds/VDS_LT_RAID10, vds/VDS_LT_RAID15, vds/VDS_LT_RAID2, vds/VDS_LT_RAID3, vds/VDS_LT_RAID30, vds/VDS_LT_RAID4, vds/VDS_LT_RAID5, vds/VDS_LT_RAID50, vds/VDS_LT_RAID51, vds/VDS_LT_RAID53, vds/VDS_LT_RAID6, vds/VDS_LT_RAID60, vds/VDS_LT_RAID61, vds/VDS_LT_SIMPLE, vds/VDS_LT_SPAN, vds/VDS_LT_STRIPE, vds/VDS_LT_UNKNOWN, vds/VDS_LUN_TYPE, vdshwprv/VDS_LT_DEFAULT, vdshwprv/VDS_LT_FAULT_TOLERANT, vdshwprv/VDS_LT_MIRROR, vdshwprv/VDS_LT_NON_FAULT_TOLERANT, vdshwprv/VDS_LT_PARITY, vdshwprv/VDS_LT_RAID01, vdshwprv/VDS_LT_RAID03, vdshwprv/VDS_LT_RAID05, vdshwprv/VDS_LT_RAID10, vdshwprv/VDS_LT_RAID15, vdshwprv/VDS_LT_RAID2, vdshwprv/VDS_LT_RAID3, vdshwprv/VDS_LT_RAID30, vdshwprv/VDS_LT_RAID4, vdshwprv/VDS_LT_RAID5, vdshwprv/VDS_LT_RAID50, vdshwprv/VDS_LT_RAID51, vdshwprv/VDS_LT_RAID53, vdshwprv/VDS_LT_RAID6, vdshwprv/VDS_LT_RAID60, vdshwprv/VDS_LT_RAID61, vdshwprv/VDS_LT_SIMPLE, vdshwprv/VDS_LT_SPAN, vdshwprv/VDS_LT_STRIPE, vdshwprv/VDS_LT_UNKNOWN, vdshwprv/VDS_LUN_TYPE'
 req.header: vds.h
 req.include-header: 
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid types for a LUN.
 

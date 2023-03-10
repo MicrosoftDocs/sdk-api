@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResource.GetStream
 title: IXpsOMImageResource::GetStream (xpsobjectmodel.h)
-description: Gets a new, read-only copy of the stream that is associated with this resource.
+description: Gets a new, read-only copy of the stream that is associated with this resource. (IXpsOMImageResource.GetStream)
 helpviewer_keywords: ["GetStream","GetStream method [XPS Documents and Packaging]","GetStream method [XPS Documents and Packaging]","IXpsOMImageResource interface","IXpsOMImageResource interface [XPS Documents and Packaging]","GetStream method","IXpsOMImageResource.GetStream","IXpsOMImageResource::GetStream","xps.ixpsomimageresource_getstream","xpsobjectmodel/IXpsOMImageResource::GetStream"]
 old-location: xps\ixpsomimageresource_getstream.htm
 tech.root: xps

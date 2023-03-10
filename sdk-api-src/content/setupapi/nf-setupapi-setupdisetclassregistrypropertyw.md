@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupDiSetClassRegistryPropertyW
 title: SetupDiSetClassRegistryPropertyW function (setupapi.h)
-description: The SetupDiSetClassRegistryProperty function sets a specified device class property in the registry.
-helpviewer_keywords: ["SetupDiSetClassRegistryProperty","SetupDiSetClassRegistryProperty function [Device and Driver Installation]","SetupDiSetClassRegistryPropertyA","SetupDiSetClassRegistryPropertyW","devinst.setupdisetclassregistryproperty","di-rtns_77b5fc07-42ec-4515-b20c-87cf1c8e4b86.xml","setupapi/SetupDiSetClassRegistryProperty"]
+description: The SetupDiSetClassRegistryProperty function sets a specified device class property in the registry. (Unicode)
+helpviewer_keywords: ["SetupDiSetClassRegistryProperty", "SetupDiSetClassRegistryProperty function [Device and Driver Installation]", "SetupDiSetClassRegistryPropertyW", "devinst.setupdisetclassregistryproperty", "di-rtns_77b5fc07-42ec-4515-b20c-87cf1c8e4b86.xml", "setupapi/SetupDiSetClassRegistryProperty"]
 old-location: devinst\setupdisetclassregistryproperty.htm
 tech.root: devinst
 ms.assetid: 78457461-11ef-44ec-aa60-1adf4a48db8c
-ms.date: 12/05/2018
+ms.date: 01/30/2023
 ms.keywords: SetupDiSetClassRegistryProperty, SetupDiSetClassRegistryProperty function [Device and Driver Installation], SetupDiSetClassRegistryPropertyA, SetupDiSetClassRegistryPropertyW, devinst.setupdisetclassregistryproperty, di-rtns_77b5fc07-42ec-4515-b20c-87cf1c8e4b86.xml, setupapi/SetupDiSetClassRegistryProperty
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -118,6 +118,9 @@ The size, in bytes, of the <i>PropertyBuffer </i> buffer.
 ### -param MachineName [in, optional]
 
 A pointer to a NULL-terminated string that contains the name of a remote system on which to set the specified device class property. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the property is set on the name of the local system.
+
+> [!CAUTION]
+> Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.
 
 ### -param Reserved
 

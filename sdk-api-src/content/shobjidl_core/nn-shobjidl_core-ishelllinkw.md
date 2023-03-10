@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IShellLinkW
 title: IShellLinkW (shobjidl_core.h)
-description: Exposes methods that create, modify, and resolve Shell links.
+description: Exposes methods that create, modify, and resolve Shell links. (Unicode)
 helpviewer_keywords: ["IShellLink","IShellLink interface [Windows Shell]","IShellLink interface [Windows Shell]","described","IShellLinkA","IShellLinkW","_win32_IShellLink","_win32_IShellLink_cpp","shell.IShellLink","shobjidl_core/IShellLink"]
 old-location: shell\IShellLink.htm
 tech.root: shell

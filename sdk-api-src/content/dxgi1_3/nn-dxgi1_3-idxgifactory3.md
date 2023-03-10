@@ -1,7 +1,7 @@
 ---
 UID: NN:dxgi1_3.IDXGIFactory3
 title: IDXGIFactory3 (dxgi1_3.h)
-description: Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.
+description: Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects. (IDXGIFactory3)
 helpviewer_keywords: ["IDXGIFactory3","IDXGIFactory3 interface [DXGI]","IDXGIFactory3 interface [DXGI]","described","direct3ddxgi.idxgifactory3","dxgi1_3/IDXGIFactory3"]
 old-location: direct3ddxgi\idxgifactory3.htm
 tech.root: direct3ddxgi

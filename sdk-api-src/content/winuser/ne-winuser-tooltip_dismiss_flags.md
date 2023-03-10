@@ -1,5 +1,5 @@
 ---
-UID: NE:winuser.__unnamed_enum_2
+UID: NE:winuser.TOOLTIP_DISMISS_FLAGS
 tech.root: inputdev
 title: TOOLTIP_DISMISS_FLAGS
 ms.date: 06/17/2022
@@ -31,7 +31,7 @@ f1_keywords:
 dev_langs:
  - c++
 helpviewer_keywords:
- - __unnamed_enum_2
+ - TOOLTIP_DISMISS_FLAGS
 ---
 
 ## -description

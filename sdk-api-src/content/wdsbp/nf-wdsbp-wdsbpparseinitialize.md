@@ -1,7 +1,7 @@
 ---
 UID: NF:wdsbp.WdsBpParseInitialize
 title: WdsBpParseInitialize function (wdsbp.h)
-description: Receives a handle to the packet sent by the network boot program.
+description: Receives a handle to the packet sent by the network boot program. (WdsBpParseInitialize)
 helpviewer_keywords: ["WDSBP_PK_TYPE_BCD","WDSBP_PK_TYPE_DHCP","WDSBP_PK_TYPE_WDSNBP","WdsBpParseInitialize","WdsBpParseInitialize function [Windows Deployment Services]","wds.wdsbpparseinitialize","wdsbp/WdsBpParseInitialize"]
 old-location: wds\wdsbpparseinitialize.htm
 tech.root: wds

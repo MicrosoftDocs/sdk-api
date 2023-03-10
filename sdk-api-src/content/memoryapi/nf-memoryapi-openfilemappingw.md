@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.OpenFileMappingW
 title: OpenFileMappingW function (memoryapi.h)
-description: Opens a named file mapping object.
+description: Opens a named file mapping object. (OpenFileMappingW)
 helpviewer_keywords: ["OpenFileMapping","OpenFileMapping function","OpenFileMappingA","OpenFileMappingW","_win32_openfilemapping","base.openfilemapping","fs.openfilemapping","winbase/OpenFileMapping","winbase/OpenFileMappingA","winbase/OpenFileMappingW"]
 old-location: base\openfilemapping.htm
 tech.root: base

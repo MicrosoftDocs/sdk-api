@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResource.SetContent
 title: IXpsOMColorProfileResource::SetContent (xpsobjectmodel.h)
-description: Sets the read-only stream to be associated with this resource.
+description: Sets the read-only stream to be associated with this resource. (IXpsOMColorProfileResource.SetContent)
 helpviewer_keywords: ["IXpsOMColorProfileResource interface [XPS Documents and Packaging]","SetContent method","IXpsOMColorProfileResource.SetContent","IXpsOMColorProfileResource::SetContent","SetContent","SetContent method [XPS Documents and Packaging]","SetContent method [XPS Documents and Packaging]","IXpsOMColorProfileResource interface","xps.ixpsomcolorprofileresource_setcontent","xpsobjectmodel/IXpsOMColorProfileResource::SetContent"]
 old-location: xps\ixpsomcolorprofileresource_setcontent.htm
 tech.root: xps

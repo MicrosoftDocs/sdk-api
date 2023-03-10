@@ -1,12 +1,12 @@
 ---
 UID: NN:propidl.IPropertyStorage
 title: IPropertyStorage (propidl.h)
-description: The IPropertyStorage interface manages the persistent properties of a single property set.
+description: The IPropertyStorage interface manages the persistent properties of a single property set. (IPropertyStorage interface)
 helpviewer_keywords: ["IPropertyStorage","IPropertyStorage interface [Structured Storage]","IPropertyStorage interface [Structured Storage]","described","_stg_ipropertystorage","propidl/IPropertyStorage","stg.ipropertystorage"]
 old-location: stg\ipropertystorage.htm
 tech.root: Stg
 ms.assetid: c021f695-db54-4861-9f30-35a81d2dccd5
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: IPropertyStorage, IPropertyStorage interface [Structured Storage], IPropertyStorage interface [Structured Storage],described, _stg_ipropertystorage, propidl/IPropertyStorage, stg.ipropertystorage
 req.header: propidl.h
 req.include-header: Objbase.h, Propidlbase.h

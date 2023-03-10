@@ -4,7 +4,7 @@ title: Dxgiformat.h header
 ms.assetid: 3e1131ca-2ed2-3c3a-b1f2-3158a2fe22f7
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: direct3ddxgi
 f1_keywords:
  - dxgiformat

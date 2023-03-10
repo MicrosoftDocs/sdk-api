@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasDialW
 title: RasDialW function (ras.h)
-description: The RasDial function establishes a RAS connection between a RAS client and a RAS server. The connection data includes callback and user-authentication information.
-helpviewer_keywords: ["0","1","2","RasDial","RasDial function [RAS]","RasDialA","RasDialW","_ras_rasdial","ras/RasDial","ras/RasDialA","ras/RasDialW","rras.rasdial"]
+description: The RasDial function establishes a RAS connection between a RAS client and a RAS server. The connection data includes callback and user-authentication information. (Unicode)
+helpviewer_keywords: ["0", "1", "2", "RasDial", "RasDial function [RAS]", "RasDialW", "_ras_rasdial", "ras/RasDial", "ras/RasDialW", "rras.rasdial"]
 old-location: rras\rasdial.htm
 tech.root: RRAS
 ms.assetid: 579a9038-8216-4948-a065-fd45b97da73a

@@ -1,7 +1,7 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_CLSID
 title: ITPluggableTerminalClassRegistration::get_CLSID (termmgr.h)
-description: The get_CLSID method gets the CLSID used to CoCreateInstance the terminal.
+description: The get_CLSID method gets the CLSID used to CoCreateInstance the terminal. (ITPluggableTerminalClassRegistration.get_CLSID)
 helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","get_CLSID method","ITPluggableTerminalClassRegistration.get_CLSID","ITPluggableTerminalClassRegistration::get_CLSID","_tapi3_itpluggableterminalclassregistration_get_clsid","get_CLSID","get_CLSID method [TAPI 2.2]","get_CLSID method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_get_clsid","termmgr/ITPluggableTerminalClassRegistration::get_CLSID"]
 old-location: tapi3\itpluggableterminalclassregistration_get_clsid.htm
 tech.root: tapi3

@@ -1,12 +1,12 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_FINISH_CAPTURE_FN
 title: PIBIO_SENSOR_FINISH_CAPTURE_FN (winbio_adapter.h)
-description: Retrieves a value that indicates whether the sensor indicator is on or off.
+description: The PIBIO_SENSOR_FINISH_CAPTURE_FN callback (winbio_adapter.h) retrieves a value that indicates whether the sensor indicator is on or off.
 helpviewer_keywords: ["PIBIO_SENSOR_FINISH_CAPTURE_FN","PIBIO_SENSOR_FINISH_CAPTURE_FN callback","SensorAdapterFinishCapture","SensorAdapterFinishCapture callback function [Windows Biometric Framework API]","secbiomet.sensoradapterfinishcapture","winbio_adapter/SensorAdapterFinishCapture"]
 old-location: secbiomet\sensoradapterfinishcapture.htm
 tech.root: SecBioMet
 ms.assetid: f9ede590-5208-40ed-ac62-604a2d13a5a6
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: PIBIO_SENSOR_FINISH_CAPTURE_FN, PIBIO_SENSOR_FINISH_CAPTURE_FN callback, SensorAdapterFinishCapture, SensorAdapterFinishCapture callback function [Windows Biometric Framework API], secbiomet.sensoradapterfinishcapture, winbio_adapter/SensorAdapterFinishCapture
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

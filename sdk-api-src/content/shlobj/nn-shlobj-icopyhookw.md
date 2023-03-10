@@ -1,7 +1,7 @@
 ---
 UID: NN:shlobj.ICopyHookW
 title: ICopyHookW
-description: Exposes a method that creates a copy hook handler.
+description: Exposes a method that creates a copy hook handler. (Unicode)
 helpviewer_keywords: ["ICopyHookW"]
 old-location: 
 tech.root: shell

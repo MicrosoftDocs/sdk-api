@@ -4,7 +4,7 @@ tech.root: Multimedia
 title: joyGetDevCapsA
 ms.date: 04/14/2021
 targetos: Windows
-description: The joyGetDevCaps function queries a joystick to determine its capabilities.
+description: The joyGetDevCaps function queries a joystick to determine its capabilities. (joyGetDevCapsA)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

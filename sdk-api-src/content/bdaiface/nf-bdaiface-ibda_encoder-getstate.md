@@ -156,7 +156,7 @@ Receives the identifier of the signal source. The value is an auxiliary connecto
 
 ### -param SignalFormat [out]
 
-Receives a value from the <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration. This value specifies the analog video standard that is received on the auxiliary input.
+Receives a value from the <a href="/windows/win32/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration. This value specifies the analog video standard that is received on the auxiliary input.
 
 ### -param SignalLock [out]
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddLine(constPointF&,constPointF&)
 title: GraphicsPath::AddLine
-description: The GraphicsPath::AddLine method adds a line to the current figure of this path.
+description: The GraphicsPath::AddLine method adds a line to the current figure of this path. (overload 4/4)
 tech.root: gdiplus
 helpviewer_keywords: ["GraphicsPath::AddLine"]
 ms.assetid: edb6b196-e8f0-4ddd-830b-ff740a94369a

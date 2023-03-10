@@ -2,9 +2,9 @@
 UID: NF:oleidl.HMENU_UserUnmarshal
 tech.root: com
 title: HMENU_UserUnmarshal (oleidl.h)
-ms.date: 07/08/2022
+ms.date: 08/15/2022
 targetos: Windows
-description: Unmarshals a HMENU object from the RPC buffer.
+description: The HMENU_UserUnmarshal function (oleidl.h) unmarshals a HMENU object from the RPC buffer.
 prerelease: false
 req.assembly: 
 req.construct-type: function

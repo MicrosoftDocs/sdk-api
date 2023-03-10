@@ -1,12 +1,12 @@
 ---
 UID: NS:vdshwprv._VDS_FILE_SYSTEM_NOTIFICATION
 title: VDS_FILE_SYSTEM_NOTIFICATION (vdshwprv.h)
-description: Defines the details of file-system events.
+description: The VDS_FILE_SYSTEM_NOTIFICATION structure (vdshwprv.h) defines the details of file-system events.
 helpviewer_keywords: ["VDS_FILE_SYSTEM_NOTIFICATION","VDS_FILE_SYSTEM_NOTIFICATION structure [VDS]","VDS_NF_FILE_SYSTEM_FORMAT_PROGRESS","VDS_NF_FILE_SYSTEM_MODIFY","base.vds_file_system_notification","vds/_VDS_FILE_SYSTEM_NOTIFICATION","vdshwprv/_VDS_FILE_SYSTEM_NOTIFICATION"]
 old-location: base\vds_file_system_notification.htm
 tech.root: base
 ms.assetid: 81d62c22-4f29-43f6-a00e-12502174a768
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: VDS_FILE_SYSTEM_NOTIFICATION, VDS_FILE_SYSTEM_NOTIFICATION structure [VDS], VDS_NF_FILE_SYSTEM_FORMAT_PROGRESS, VDS_NF_FILE_SYSTEM_MODIFY, base.vds_file_system_notification, vds/_VDS_FILE_SYSTEM_NOTIFICATION, vdshwprv/_VDS_FILE_SYSTEM_NOTIFICATION
 req.header: vdshwprv.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the details of file-system events.
 

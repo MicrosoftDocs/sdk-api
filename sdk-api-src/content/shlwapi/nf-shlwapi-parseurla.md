@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.ParseURLA
 title: ParseURLA function (shlwapi.h)
-description: Performs rudimentary parsing of a URL.
-helpviewer_keywords: ["ParseURL","ParseURL function [Windows Shell]","ParseURLA","ParseURLW","_win32_ParseURL","shell.ParseURL","shlwapi/ParseURL","shlwapi/ParseURLA","shlwapi/ParseURLW"]
+description: Performs rudimentary parsing of a URL. (ANSI)
+helpviewer_keywords: ["ParseURLA", "shlwapi/ParseURLA"]
 old-location: shell\ParseURL.htm
 tech.root: shell
 ms.assetid: 3d42dad0-b9eb-4e40-afc8-68cb85b27504

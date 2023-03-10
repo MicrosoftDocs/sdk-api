@@ -2,9 +2,9 @@
 UID: NF:oleidl.HWND_UserMarshal
 tech.root: com
 title: HWND_UserMarshal (oleidl.h)
-ms.date: 07/08/2022
+ms.date: 08/15/2022
 targetos: Windows
-description: Marshals a HWND object into the RPC buffer.
+description: The HWND_UserMarshal function (oleidl.h) marshals a HWND object into the RPC buffer.
 prerelease: false
 req.assembly: 
 req.construct-type: function

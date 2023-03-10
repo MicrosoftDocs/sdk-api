@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10StateBlock.Apply
 title: ID3D10StateBlock::Apply (d3d10effect.h)
-description: Apply the state block to the current device state.
+description: Apply the state block to the current device state. (ID3D10StateBlock.Apply)
 helpviewer_keywords: ["8047c555-4a3e-a6b4-9733-42350b374f15","Apply","Apply method [Direct3D 10]","Apply method [Direct3D 10]","ID3D10StateBlock interface","ID3D10StateBlock interface [Direct3D 10]","Apply method","ID3D10StateBlock.Apply","ID3D10StateBlock::Apply","d3d10effect/ID3D10StateBlock::Apply","direct3d10.id3d10stateblock_apply"]
 old-location: direct3d10\id3d10stateblock_apply.htm
 tech.root: direct3d10

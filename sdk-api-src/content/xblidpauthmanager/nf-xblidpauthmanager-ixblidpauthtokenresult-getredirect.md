@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetRedirect
 title: IXblIdpAuthTokenResult::GetRedirect (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthTokenResult.GetRedirect)
 helpviewer_keywords: ["GetRedirect","GetRedirect method","GetRedirect method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetRedirect method","IXblIdpAuthTokenResult.GetRedirect","IXblIdpAuthTokenResult::GetRedirect","xblidp.ixblidpauthtokenresult_getredirect","xblidpauthmanager/IXblIdpAuthTokenResult::GetRedirect"]
 old-location: xblidp\ixblidpauthtokenresult_getredirect.htm
 tech.root: xblidp

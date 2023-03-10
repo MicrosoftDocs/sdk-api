@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDevice.put_Description
 title: IFaxDevice::put_Description (faxcomex.h)
-description: The IFaxDevice::get_Description property is a null-terminated string that contains a user-friendly description for the fax device. This string is suitable for display to users.
+description: The IFaxDevice::get_Description property is a null-terminated string that contains a user-friendly description for the fax device. This string is suitable for display to users. (Put)
 helpviewer_keywords: ["Description property [Fax Service]","Description property [Fax Service]","IFaxDevice interface","IFaxDevice interface [Fax Service]","Description property","IFaxDevice.Description","IFaxDevice.get_Description","IFaxDevice.put_Description","IFaxDevice::Description","IFaxDevice::get_Description","IFaxDevice::put_Description","_mfax_faxdevice.description","fax._mfax_faxdevice_cpp_mfax_faxdevice_description_cpp","fax._mfax_faxdevice_description","faxcomex/IFaxDevice::Description","faxcomex/IFaxDevice::get_Description","faxcomex/IFaxDevice::put_Description","put_Description"]
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_description_cpp.htm
 tech.root: Fax

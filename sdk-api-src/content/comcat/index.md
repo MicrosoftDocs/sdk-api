@@ -4,7 +4,7 @@ title: Comcat.h header
 ms.assetid: 65650daf-ed77-35e1-bc89-cd88d0ca1d64
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: com
 f1_keywords:
  - comcat

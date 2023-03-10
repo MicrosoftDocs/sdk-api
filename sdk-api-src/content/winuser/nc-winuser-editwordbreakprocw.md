@@ -1,7 +1,7 @@
 ---
 UID: NC:winuser.EDITWORDBREAKPROCW
 title: EDITWORDBREAKPROCW (winuser.h)
-description: An application-defined callback function used with the EM_SETWORDBREAKPROC message.
+description: An application-defined callback function used with the EM_SETWORDBREAKPROC message. (Unicode)
 helpviewer_keywords: ["EDITWORDBREAKPROCA","EDITWORDBREAKPROCW","EditWordBreakProc","EditWordBreakProc callback","EditWordBreakProc callback function [Windows Controls]","WB_CLASSIFY","WB_ISDELIMITER","WB_LEFT","WB_LEFTBREAK","WB_MOVEWORDLEFT","WB_MOVEWORDRIGHT","WB_RIGHT","WB_RIGHTBREAK","_win32_EditWordBreakProc","_win32_EditWordBreakProc_cpp","controls.EditWordBreakProc","controls._win32_EditWordBreakProc","winuser/EDITWORDBREAKPROCA","winuser/EDITWORDBREAKPROCW","winuser/EditWordBreakProc"]
 old-location: controls\EditWordBreakProc.htm
 tech.root: Controls

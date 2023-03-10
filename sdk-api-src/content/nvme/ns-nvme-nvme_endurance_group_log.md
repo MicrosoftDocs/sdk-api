@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_98
-tech.root: fs 
+UID: NS:nvme.NVME_ENDURANCE_GROUP_LOG
+tech.root: fs
 title: NVME_ENDURANCE_GROUP_LOG
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains fields that specify the information in an Endurance Group Information log page that indicates the amount of data being read from and written to an Endurance Group.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_ENDURANCE_GROUP_LOG, *PNVME_ENDURANCE_GROUP_LOG
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_ENDURANCE_GROUP_LOG structure
+
 
 ## -description
 

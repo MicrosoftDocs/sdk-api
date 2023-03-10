@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventClass2.get_PublisherID
 title: IEventClass2::get_PublisherID (eventsys.h)
-description: The CLSID for the event publisher.
+description: The CLSID for the event publisher. (Get)
 helpviewer_keywords: ["IEventClass2 interface [COM+]","PublisherID property","IEventClass2.PublisherID","IEventClass2.get_PublisherID","IEventClass2::PublisherID","IEventClass2::get_PublisherID","IEventClass2::put_PublisherID","PublisherID property [COM+]","PublisherID property [COM+]","IEventClass2 interface","_cos_IEventClass2_get_PublisherID","_cos_IEventClass2_put_PublisherID","cos.ieventclass2_publisherid","eventsys/IEventClass2::PublisherID","eventsys/IEventClass2::get_PublisherID","eventsys/IEventClass2::put_PublisherID","get_PublisherID"]
 old-location: cos\ieventclass2_publisherid.htm
 tech.root: cos

@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_45
-tech.root: fs 
+UID: NS:nvme.NVME_CDW11_FEATURE_LBA_RANGE_TYPE
+tech.root: fs
 title: NVME_CDW11_FEATURE_LBA_RANGE_TYPE
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains a parameter that specifies the number of LBA ranges for the LBA Range Type Feature in the Set Features command.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW11_FEATURE_LBA_RANGE_TYPE, *PNVME_CDW11_FEATURE_LBA_RANGE_TYPE
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CDW11_FEATURE_LBA_RANGE_TYPE structure
+
 
 ## -description
 
@@ -69,3 +70,4 @@ This is optional information that is not required for proper behavior of the sys
 
 - [NVME_LBA_RANGET_TYPE_ENTRY](ns-nvme-nvme_lba_ranget_type_entry.md)
 - [NVME_CDW11_FEATURES](ns-nvme-nvme_cdw11_features.md)
+

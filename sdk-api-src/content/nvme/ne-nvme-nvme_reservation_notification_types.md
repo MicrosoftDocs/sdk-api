@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_33
-tech.root: fs 
+UID: NE:nvme.NVME_RESERVATION_NOTIFICATION_TYPES
+tech.root: fs
 title: NVME_RESERVATION_NOTIFICATION_TYPES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate the type of reservation notification in a Reservation Notification log page.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_RESERVATION_NOTIFICATION_TYPES enumeration
+
 
 ## -description
 
@@ -65,3 +66,4 @@ The reservation is preempted.
 Use this enumeration to specify values in the **NVME_LOG_PAGE_RESERVATION_NOTIFICATION** field of the [NVME_LOG_PAGES](ne-nvme-nvme_log_pages.md) enumeration that is used in the [NVME_ADMIN_COMMAND_GET_LOG_PAGE](ne-nvme-nvme_admin_commands.md) Admin command.
 
 ## -see-also
+

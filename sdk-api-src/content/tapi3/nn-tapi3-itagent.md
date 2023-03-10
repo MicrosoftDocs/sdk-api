@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3.ITAgent
 title: ITAgent (tapi3.h)
-description: Agents are the heart of a call center.
+description: The ITAgent (tapi3.h) interface inherits from the IDispatch interface. Agents are the heart of a call center.
 helpviewer_keywords: ["ITAgent","ITAgent interface [TAPI 2.2]","ITAgent interface [TAPI 2.2]","described","_tapi3_itagent","tapi3.itagent","tapi3cc/ITAgent"]
 old-location: tapi3\itagent.htm
 tech.root: tapi3
 ms.assetid: 6c1409c9-da73-4d21-bf56-07e9ab7b33a0
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITAgent, ITAgent interface [TAPI 2.2], ITAgent interface [TAPI 2.2],described, _tapi3_itagent, tapi3.itagent, tapi3cc/ITAgent
 req.header: tapi3.h
 req.include-header: Tapi3.h

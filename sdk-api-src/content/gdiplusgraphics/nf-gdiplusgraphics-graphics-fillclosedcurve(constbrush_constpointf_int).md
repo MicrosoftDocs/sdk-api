@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillClosedCurve(constBrush,constPointF,INT)
 title: Graphics::FillClosedCurve
-description: The Graphics::FillClosedCurve method creates a closed cardinal spline from an array of points and uses a brush to fill the interior of the spline.
+description: The Graphics::FillClosedCurve method creates a closed cardinal spline from an array of points and uses a brush to fill the interior of the spline. (overload 1/2)
 tech.root: gdiplus
 helpviewer_keywords: ["Graphics::FillClosedCurve"]
 ms.assetid: 2aea6910-6fd0-4611-9de6-65ee0b65421e

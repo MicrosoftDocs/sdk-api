@@ -1,7 +1,7 @@
 ---
 UID: NE:dxva2api._DXVA2_VideoTransferMatrix
 title: DXVA2_VideoTransferMatrix (dxva2api.h)
-description: Describes the conversion matrices between Y'PbPr (component video) and studio R'G'B'.
+description: Describes the conversion matrices between Y'PbPr (component video) and studio R'G'B'. (DXVA2_VideoTransferMatrix)
 helpviewer_keywords: ["682fa0c7-8f17-457f-9f8a-dc9190866152","DXVA2_VideoTransferMatrix","DXVA2_VideoTransferMatrix enumeration [Media Foundation]","DXVA2_VideoTransferMatrixMask","DXVA2_VideoTransferMatrix_BT601","DXVA2_VideoTransferMatrix_BT709","DXVA2_VideoTransferMatrix_SMPTE240M","DXVA2_VideoTransferMatrix_Unknown","dxva2api/DXVA2_VideoTransferMatrix","dxva2api/DXVA2_VideoTransferMatrixMask","dxva2api/DXVA2_VideoTransferMatrix_BT601","dxva2api/DXVA2_VideoTransferMatrix_BT709","dxva2api/DXVA2_VideoTransferMatrix_SMPTE240M","dxva2api/DXVA2_VideoTransferMatrix_Unknown","mf.dxva2_videotransfermatrix"]
 old-location: mf\dxva2_videotransfermatrix.htm
 tech.root: mf

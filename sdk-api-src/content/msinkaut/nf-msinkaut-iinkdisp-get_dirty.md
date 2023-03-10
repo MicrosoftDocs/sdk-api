@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkDisp.get_Dirty
 title: IInkDisp::get_Dirty (msinkaut.h)
-description: Gets or sets the value that specifies whether the strokes of an InkDisp Class object have been modified since the last time the ink was saved.
+description: Gets or sets the value that specifies whether the strokes of an InkDisp Class object have been modified since the last time the ink was saved. (Get)
 helpviewer_keywords: ["3399219f-96a5-4c66-8e41-89927ea1020d","Dirty property [Tablet PC]","Dirty property [Tablet PC]","IInkDisp interface","IInkDisp interface [Tablet PC]","Dirty property","IInkDisp.Dirty","IInkDisp.get_Dirty","IInkDisp::Dirty","IInkDisp::get_Dirty","IInkDisp::put_Dirty","InkDisp.get_Dirty","InkDisp.put_Dirty","get_Dirty","msinkaut/IInkDisp::Dirty","msinkaut/IInkDisp::get_Dirty","msinkaut/IInkDisp::put_Dirty","put_Dirty","tablet.inkdisp_dirty"]
 old-location: tablet\inkdisp_dirty.htm
 tech.root: tablet

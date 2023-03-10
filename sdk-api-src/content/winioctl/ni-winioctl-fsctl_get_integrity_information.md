@@ -1,7 +1,7 @@
 ---
 UID: NI:winioctl.FSCTL_GET_INTEGRITY_INFORMATION
 title: FSCTL_GET_INTEGRITY_INFORMATION
-description: Retrieves the integrity status of a file or directory on a ReFS volume.
+description: Retrieves the integrity status of a file or directory on a ReFS volume. (FSCTL_GET_INTEGRITY_INFORMATION)
 helpviewer_keywords: ["FSCTL_GET_INTEGRITY_INFORMATION","FSCTL_GET_INTEGRITY_INFORMATION control","FSCTL_GET_INTEGRITY_INFORMATION control code [Files]","fs.fsctl_get_integrity_information","winioctl/FSCTL_GET_INTEGRITY_INFORMATION"]
 old-location: fs\fsctl_get_integrity_information.htm
 tech.root: fs

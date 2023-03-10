@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication3.get_BizRulesEnabled
 title: IAzApplication3::get_BizRulesEnabled (azroles.h)
-description: Gets or sets a value that indicates whether business rules are enabled for this application.
+description: Gets or sets a value that indicates whether business rules are enabled for this application. (Get)
 helpviewer_keywords: ["BizRulesEnabled property [Security]","BizRulesEnabled property [Security]","IAzApplication3 interface","IAzApplication3 interface [Security]","BizRulesEnabled property","IAzApplication3.BizRulesEnabled","IAzApplication3.get_BizRulesEnabled","IAzApplication3::BizRulesEnabled","IAzApplication3::get_BizRulesEnabled","IAzApplication3::put_BizRulesEnabled","azroles/IAzApplication3::BizRulesEnabled","azroles/IAzApplication3::get_BizRulesEnabled","azroles/IAzApplication3::put_BizRulesEnabled","get_BizRulesEnabled","security.iazapplication3_bizrulesenabled"]
 old-location: security\iazapplication3_bizrulesenabled.htm
 tech.root: security

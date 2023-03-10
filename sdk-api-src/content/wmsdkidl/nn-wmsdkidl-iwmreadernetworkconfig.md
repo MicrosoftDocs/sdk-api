@@ -58,7 +58,7 @@ An <b>IWMReaderNetworkConfig</b> interface exists for every reader object. You c
 
 The <b>IWMReaderNetworkConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMReaderNetworkConfig</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

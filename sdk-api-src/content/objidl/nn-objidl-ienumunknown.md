@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IEnumUnknown
 title: IEnumUnknown (objidl.h)
-description: Enumerates objects with the IUnknown interface. It can be used to enumerate through the objects in a component containing multiple objects.
+description: The IEnumUnknown interface (objidl.h) enumerates objects with the IUnknown interface.
 helpviewer_keywords: ["IEnumUnknown","IEnumUnknown interface [COM]","IEnumUnknown interface [COM]","described","_com_ienumunknown","com.ienumunknown","objidlbase/IEnumUnknown"]
 old-location: com\ienumunknown.htm
 tech.root: com
 ms.assetid: 5aaed96f-39c1-4201-80d0-a2a8a177b65e
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IEnumUnknown, IEnumUnknown interface [COM], IEnumUnknown interface [COM],described, _com_ienumunknown, com.ienumunknown, objidlbase/IEnumUnknown
 req.header: objidl.h
 req.include-header: ObjIdl.h

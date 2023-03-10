@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.GetCurrentHwProfileA
 title: GetCurrentHwProfileA function (winbase.h)
-description: Retrieves information about the current hardware profile for the local computer.
-helpviewer_keywords: ["GetCurrentHwProfile","GetCurrentHwProfile function","GetCurrentHwProfileA","GetCurrentHwProfileW","_win32_getcurrenthwprofile","base.getcurrenthwprofile","winbase/GetCurrentHwProfile","winbase/GetCurrentHwProfileA","winbase/GetCurrentHwProfileW"]
+description: Retrieves information about the current hardware profile for the local computer. (ANSI)
+helpviewer_keywords: ["GetCurrentHwProfileA", "winbase/GetCurrentHwProfileA"]
 old-location: base\getcurrenthwprofile.htm
 tech.root: winprog
 ms.assetid: 152067bb-3896-43ef-a882-12a159f92cc7

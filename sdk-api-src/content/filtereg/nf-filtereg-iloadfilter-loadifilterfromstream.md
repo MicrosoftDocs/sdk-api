@@ -1,7 +1,7 @@
 ---
 UID: NF:filtereg.ILoadFilter.LoadIFilterFromStream
 title: ILoadFilter::LoadIFilterFromStream (filtereg.h)
-description: Do not use:\_this method is not implemented.
+description: Do not use:\_this method is not implemented. (ILoadFilter.LoadIFilterFromStream)
 helpviewer_keywords: ["ILoadFilter interface [search]","LoadIFilterFromStream method","ILoadFilter.LoadIFilterFromStream","ILoadFilter::LoadIFilterFromStream","LoadIFilterFromStream","LoadIFilterFromStream method [search]","LoadIFilterFromStream method [search]","ILoadFilter interface","filtereg/ILoadFilter::LoadIFilterFromStream","search.iloadfilter_loadifilterfromstream"]
 old-location: search\iloadfilter_loadifilterfromstream.htm
 tech.root: search

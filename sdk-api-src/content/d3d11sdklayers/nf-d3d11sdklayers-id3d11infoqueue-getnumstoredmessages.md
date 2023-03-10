@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.GetNumStoredMessages
 title: ID3D11InfoQueue::GetNumStoredMessages (d3d11sdklayers.h)
-description: Get the number of messages currently stored in the message queue.
+description: Get the number of messages currently stored in the message queue. (ID3D11InfoQueue.GetNumStoredMessages)
 helpviewer_keywords: ["GetNumStoredMessages","GetNumStoredMessages method [Direct3D 11]","GetNumStoredMessages method [Direct3D 11]","ID3D11InfoQueue interface","ID3D11InfoQueue interface [Direct3D 11]","GetNumStoredMessages method","ID3D11InfoQueue.GetNumStoredMessages","ID3D11InfoQueue::GetNumStoredMessages","d3d11sdklayers/ID3D11InfoQueue::GetNumStoredMessages","direct3d11.id3d11infoqueue_getnumstoredmessages","e1be4c55-533e-0e99-92b8-8a9ac2e72584"]
 old-location: direct3d11\id3d11infoqueue_getnumstoredmessages.htm
 tech.root: direct3d11

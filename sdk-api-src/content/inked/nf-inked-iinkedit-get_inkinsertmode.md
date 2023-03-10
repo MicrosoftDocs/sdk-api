@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.get_InkInsertMode
 title: IInkEdit::get_InkInsertMode (inked.h)
-description: Gets or sets a value that specifies how ink is inserted onto the InkEdit control, either as text or as ink.
+description: Gets or sets a value that specifies how ink is inserted onto the InkEdit control, either as text or as ink. (Get)
 helpviewer_keywords: ["6fcc119d-45b1-47d3-98eb-4eb04fccfb61","IInkEdit interface [Tablet PC]","InkInsertMode property","IInkEdit.InkInsertMode","IInkEdit.get_InkInsertMode","IInkEdit::InkInsertMode","IInkEdit::get_InkInsertMode","IInkEdit::put_InkInsertMode","InkEdit.get_InkInsertMode","InkEdit.put_InkInsertMode","InkInsertMode property [Tablet PC]","InkInsertMode property [Tablet PC]","IInkEdit interface","InsertAsInk","InsertAsText","get_InkInsertMode","inked/IInkEdit::InkInsertMode","inked/IInkEdit::get_InkInsertMode","inked/IInkEdit::put_InkInsertMode","put_InkInsertMode","tablet.inkedit_inkinsertmode"]
 old-location: tablet\inkedit_inkinsertmode.htm
 tech.root: tablet

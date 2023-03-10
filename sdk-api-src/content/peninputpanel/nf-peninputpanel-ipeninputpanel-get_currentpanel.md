@@ -1,7 +1,7 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_CurrentPanel
 title: IPenInputPanel::get_CurrentPanel (peninputpanel.h)
-description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets which panel type is currently being used for input within the PenInputPanel object.
+description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets which panel type is currently being used for input within the PenInputPanel object. (IPenInputPanel.get_CurrentPanel)
 helpviewer_keywords: ["536ba874-b9f9-45c9-bf9a-a64679afc861","CurrentPanel property [Tablet PC]","CurrentPanel property [Tablet PC]","IPenInputPanel interface","IPenInputPanel interface [Tablet PC]","CurrentPanel property","IPenInputPanel.CurrentPanel","IPenInputPanel.get_CurrentPanel","IPenInputPanel::CurrentPanel","IPenInputPanel::get_CurrentPanel","IPenInputPanel::put_CurrentPanel","PenInputPanel.get_CurrentPanel","PenInputPanel.put_CurrentPanel","get_CurrentPanel","peninputpanel/IPenInputPanel::CurrentPanel","peninputpanel/IPenInputPanel::get_CurrentPanel","peninputpanel/IPenInputPanel::put_CurrentPanel","put_CurrentPanel","tablet.peninputpanel_currentpanel"]
 old-location: tablet\peninputpanel_currentpanel.htm
 tech.root: tablet

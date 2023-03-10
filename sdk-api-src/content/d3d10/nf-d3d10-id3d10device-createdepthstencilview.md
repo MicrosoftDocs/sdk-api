@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateDepthStencilView
 title: ID3D10Device::CreateDepthStencilView (d3d10.h)
-description: Create a depth-stencil view for accessing resource data.
+description: Create a depth-stencil view for accessing resource data. (ID3D10Device.CreateDepthStencilView)
 helpviewer_keywords: ["CreateDepthStencilView","CreateDepthStencilView method [Direct3D 10]","CreateDepthStencilView method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CreateDepthStencilView method","ID3D10Device.CreateDepthStencilView","ID3D10Device::CreateDepthStencilView","d3d10/ID3D10Device::CreateDepthStencilView","direct3d10.id3d10device_createdepthstencilview","f7b0585b-710f-b4d1-e65f-c30b57116c09"]
 old-location: direct3d10\id3d10device_createdepthstencilview.htm
 tech.root: direct3d10

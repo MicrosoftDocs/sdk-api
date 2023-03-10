@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_INTERCONNECT_FLAG
 title: VDS_INTERCONNECT_FLAG (vds.h)
-description: Defines the set of interconnect types that subsystems can support.
+description: The VDS_INTERCONNECT_FLAG (vds.h) enumeration defines the set of interconnect types that subsystems can support.
 helpviewer_keywords: ["*PVDS_INTERCONNECT_FLAG","VDS_INTERCONNECT_FLAG","VDS_INTERCONNECT_FLAG enumeration","VDS_ITF_FIBRE_CHANNEL","VDS_ITF_ISCSI","VDS_ITF_PCI_RAID","VDS_ITF_SAS","base.vds_interconnect_flag","vds/VDS_INTERCONNECT_FLAG","vds/VDS_ITF_FIBRE_CHANNEL","vds/VDS_ITF_ISCSI","vds/VDS_ITF_PCI_RAID","vds/VDS_ITF_SAS","vdshwprv/VDS_INTERCONNECT_FLAG","vdshwprv/VDS_ITF_FIBRE_CHANNEL","vdshwprv/VDS_ITF_ISCSI","vdshwprv/VDS_ITF_PCI_RAID","vdshwprv/VDS_ITF_SAS"]
 old-location: base\vds_interconnect_flag.htm
 tech.root: base
 ms.assetid: ada895cb-1ff0-43df-8cd5-8ebc70cb97e2
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*PVDS_INTERCONNECT_FLAG, VDS_INTERCONNECT_FLAG, VDS_INTERCONNECT_FLAG enumeration, VDS_ITF_FIBRE_CHANNEL, VDS_ITF_ISCSI, VDS_ITF_PCI_RAID, VDS_ITF_SAS, base.vds_interconnect_flag, vds/VDS_INTERCONNECT_FLAG, vds/VDS_ITF_FIBRE_CHANNEL, vds/VDS_ITF_ISCSI, vds/VDS_ITF_PCI_RAID, vds/VDS_ITF_SAS, vdshwprv/VDS_INTERCONNECT_FLAG, vdshwprv/VDS_ITF_FIBRE_CHANNEL, vdshwprv/VDS_ITF_ISCSI, vdshwprv/VDS_ITF_PCI_RAID, vdshwprv/VDS_ITF_SAS'
 req.header: vds.h
 req.include-header: 
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of interconnect types that subsystems can support.
 

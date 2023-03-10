@@ -1,7 +1,7 @@
 ---
 UID: NS:sspi._SECURITY_FUNCTION_TABLE_A
 title: SecurityFunctionTableA (sspi.h)
-description: The SecurityFunctionTable structure is a dispatch table that contains pointers to the functions defined in SSPI.
+description: The SecurityFunctionTable structure is a dispatch table that contains pointers to the functions defined in SSPI. (ANSI)
 helpviewer_keywords: ["*PSecurityFunctionTableA","PSecurityFunctionTable","PSecurityFunctionTable structure pointer [Security]","SECURITY_SUPPORT_PROVIDER_INTERFACE_VERSION","SECURITY_SUPPORT_PROVIDER_INTERFACE_VERSION structure [Security]","SecurityFunctionTable","SecurityFunctionTable structure [Security]","SecurityFunctionTableA","SecurityFunctionTableW","_ssp_securityfunctiontable","security.securityfunctiontable","sspi/PSecurityFunctionTable","sspi/SECURITY_SUPPORT_PROVIDER_INTERFACE_VERSION","sspi/SecurityFunctionTable","sspi/SecurityFunctionTableA","sspi/SecurityFunctionTableW"]
 old-location: security\securityfunctiontable.htm
 tech.root: security

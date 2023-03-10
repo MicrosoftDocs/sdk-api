@@ -1,12 +1,12 @@
 ---
 UID: NF:winineti.InternetInitializeAutoProxyDll
 title: InternetInitializeAutoProxyDll function (winineti.h)
-description: There are two WinINet functions named InternetInitializeAutoProxyDll.
+description: There are two WinINet functions named InternetInitializeAutoProxyDll. The first refreshes the internal state of proxy configuration and the second is part of WinINet's autoproxy support.
 helpviewer_keywords: ["InternetInitializeAutoProxyDll","InternetInitializeAutoProxyDll function [WinINet]","_inet_internetinitializeautoproxydll_function","wininet.internetinitializeautoproxydll","winineti/InternetInitializeAutoProxyDll"]
 old-location: wininet\internetinitializeautoproxydll.htm
 tech.root: wininet
 ms.assetid: d55d64cb-ee92-4366-a1bb-f5d421ed81c8
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: InternetInitializeAutoProxyDll, InternetInitializeAutoProxyDll function [WinINet], _inet_internetinitializeautoproxydll_function, wininet.internetinitializeautoproxydll, winineti/InternetInitializeAutoProxyDll
 req.header: winineti.h
 req.include-header: Wininet.h

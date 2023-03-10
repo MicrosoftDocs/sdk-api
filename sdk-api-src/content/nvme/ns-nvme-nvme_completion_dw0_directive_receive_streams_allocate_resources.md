@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_134
-tech.root: fs 
+UID: NS:nvme.NVME_COMPLETION_DW0_DIRECTIVE_RECEIVE_STREAMS_ALLOCATE_RESOURCES
+tech.root: fs
 title: NVME_COMPLETION_DW0_DIRECTIVE_RECEIVE_STREAMS_ALLOCATE_RESOURCES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains information about the number of allocated stream resources in a Directive Receive command.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_COMPLETION_DW0_DIRECTIVE_RECEIVE_STREAMS_ALLOCATE_RESOURCES, *PNVME_COMPLETION_DW0_DIRECTIVE_RECEIVE_STREAMS_ALLOCATE_RESOURCES
@@ -41,6 +41,7 @@ dev_langs:
 
 # NVME_COMPLETION_DW0_DIRECTIVE_RECEIVE_STREAMS_ALLOCATE_RESOURCES structure
 
+
 ## -description
 
 Contains information about the number of allocated stream resources in a Directive Receive command.
@@ -65,3 +66,4 @@ The number of allocated Namespace Streams.
 
 - [NVME_CDW12_DIRECTIVE_RECEIVE_STREAMS_ALLOCATE_RESOURCE](ns-nvme-nvme_cdw12_directive_receive_streams_allocate_resources.md)
 - [NVME_CDW12_DIRECTIVE_RECEIVE](ns-nvme-nvme_cdw12_directive_receive.md)
+

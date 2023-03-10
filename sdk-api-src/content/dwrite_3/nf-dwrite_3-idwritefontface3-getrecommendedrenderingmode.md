@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetRecommendedRenderingMode
 title: IDWriteFontFace3::GetRecommendedRenderingMode (dwrite_3.h)
-description: Determines the recommended text rendering and grid-fit mode to be used based on the font, size, world transform, and measuring mode.
+description: Determines the recommended text rendering and grid-fit mode to be used based on the font, size, world transform, and measuring mode. (IDWriteFontFace3.GetRecommendedRenderingMode)
 helpviewer_keywords: ["GetRecommendedRenderingMode","GetRecommendedRenderingMode method [Direct Write]","GetRecommendedRenderingMode method [Direct Write]","IDWriteFontFace3 interface","IDWriteFontFace3 interface [Direct Write]","GetRecommendedRenderingMode method","IDWriteFontFace3.GetRecommendedRenderingMode","IDWriteFontFace3::GetRecommendedRenderingMode","directwrite.idwritefontface3_getrecommendedrenderingmode","dwrite_3/IDWriteFontFace3::GetRecommendedRenderingMode"]
 old-location: directwrite\idwritefontface3_getrecommendedrenderingmode.htm
 tech.root: DirectWrite

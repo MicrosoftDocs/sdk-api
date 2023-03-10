@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10.D3D10_QUERY_MISC_FLAG
 title: D3D10_QUERY_MISC_FLAG (d3d10.h)
-description: Flags that describe miscellaneous query behavior.
+description: Flags that describe miscellaneous query behavior. (D3D10_QUERY_MISC_FLAG)
 helpviewer_keywords: ["D3D10_QUERY_MISC_FLAG","D3D10_QUERY_MISC_FLAG enumeration [Direct3D 10]","D3D10_QUERY_MISC_PREDICATEHINT","afca49a1-e15e-21f0-d3cc-592d3ba4b0cd","d3d10/D3D10_QUERY_MISC_FLAG","d3d10/D3D10_QUERY_MISC_PREDICATEHINT","direct3d10.d3d10_query_misc_flag"]
 old-location: direct3d10\d3d10_query_misc_flag.htm
 tech.root: direct3d10

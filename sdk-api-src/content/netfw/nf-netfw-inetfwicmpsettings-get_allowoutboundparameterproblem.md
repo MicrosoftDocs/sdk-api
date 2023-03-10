@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.get_AllowOutboundParameterProblem
 title: INetFwIcmpSettings::get_AllowOutboundParameterProblem (netfw.h)
-description: Indicates whether this is allowed.
+description: Indicates whether this is allowed. (INetFwIcmpSettings.get_AllowOutboundParameterProblem)
 helpviewer_keywords: ["AllowOutboundParameterProblem property [ICS/ICF]","AllowOutboundParameterProblem property [ICS/ICF]","INetFwIcmpSettings interface","INetFwIcmpSettings interface [ICS/ICF]","AllowOutboundParameterProblem property","INetFwIcmpSettings.AllowOutboundParameterProblem","INetFwIcmpSettings.get_AllowOutboundParameterProblem","INetFwIcmpSettings::AllowOutboundParameterProblem","INetFwIcmpSettings::get_AllowOutboundParameterProblem","INetFwIcmpSettings::put_AllowOutboundParameterProblem","get_AllowOutboundParameterProblem","ics.inetfwicmpsettings_allowoutboundparameterproblem","netfw/INetFwIcmpSettings::AllowOutboundParameterProblem","netfw/INetFwIcmpSettings::get_AllowOutboundParameterProblem","netfw/INetFwIcmpSettings::put_AllowOutboundParameterProblem"]
 old-location: ics\inetfwicmpsettings_allowoutboundparameterproblem.htm
 tech.root: ics

@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_26
+UID: NS:lpmapi.GuarRspec
 title: GuarRspec (lpmapi.h)
 description: The GuarRspec structure contains guaranteed Rspec information.
 helpviewer_keywords: ["GuarRspec","GuarRspec structure [QOS]","lpmapi/GuarRspec","qos.guarrspec"]
@@ -66,3 +66,4 @@ Slack term, in  seconds.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-guarflowspec">GuarFlowSpec</a>
+

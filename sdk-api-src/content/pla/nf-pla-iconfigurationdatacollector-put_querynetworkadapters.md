@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.put_QueryNetworkAdapters
 title: IConfigurationDataCollector::put_QueryNetworkAdapters (pla.h)
-description: Retrieves or sets a value that indicates whether the installed network adapters are queried for their offloading capabilities and other configuration information.
+description: Retrieves or sets a value that indicates whether the installed network adapters are queried for their offloading capabilities and other configuration information. (Put)
 helpviewer_keywords: ["IConfigurationDataCollector interface [PLA]","QueryNetworkAdapters property","IConfigurationDataCollector.QueryNetworkAdapters","IConfigurationDataCollector.put_QueryNetworkAdapters","IConfigurationDataCollector::QueryNetworkAdapters","IConfigurationDataCollector::get_QueryNetworkAdapters","IConfigurationDataCollector::put_QueryNetworkAdapters","QueryNetworkAdapters property [PLA]","QueryNetworkAdapters property [PLA]","IConfigurationDataCollector interface","base.iconfigurationdatacollector_querynetworkadapters","pla.iconfigurationdatacollector_querynetworkadapters","pla/IConfigurationDataCollector::QueryNetworkAdapters","pla/IConfigurationDataCollector::get_QueryNetworkAdapters","pla/IConfigurationDataCollector::put_QueryNetworkAdapters","put_QueryNetworkAdapters"]
 old-location: pla\iconfigurationdatacollector_querynetworkadapters.htm
 tech.root: PLA

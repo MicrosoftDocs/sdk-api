@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.EndStateBlock
 title: IDirect3DDevice9::EndStateBlock (d3d9helper.h)
-description: Signals Direct3D to stop recording a device-state block and retrieve a pointer to the state block interface.
+description: The IDirect3DDevice9::EndStateBlock method (d3d9.h) signals Direct3D to stop recording a device-state block and retrieve a pointer to the state block interface.
 helpviewer_keywords: ["1893d4cf-9e96-8cbc-4c69-17f309bf0986","EndStateBlock","EndStateBlock method [Direct3D 9]","EndStateBlock method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","EndStateBlock method","IDirect3DDevice9.EndStateBlock","IDirect3DDevice9::EndStateBlock","d3d9helper/IDirect3DDevice9::EndStateBlock","direct3d9.idirect3ddevice9__endstateblock"]
 old-location: direct3d9\idirect3ddevice9__endstateblock.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__endstateblock.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 1893d4cf-9e96-8cbc-4c69-17f309bf0986, EndStateBlock, EndStateBlock method [Direct3D 9], EndStateBlock method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],EndStateBlock method, IDirect3DDevice9.EndStateBlock, IDirect3DDevice9::EndStateBlock, d3d9helper/IDirect3DDevice9::EndStateBlock, direct3d9.idirect3ddevice9__endstateblock
 req.header: d3d9helper.h
 req.include-header: D3D9.h

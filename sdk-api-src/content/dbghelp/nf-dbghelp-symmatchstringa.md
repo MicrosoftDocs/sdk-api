@@ -4,7 +4,7 @@ tech.root: Debug
 title: SymMatchStringA
 ms.date: 04/14/2021
 targetos: Windows
-description: Compares the specified string to the specified wildcard expression.
+description: Compares the specified string to the specified wildcard expression. (SymMatchStringA)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

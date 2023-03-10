@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IIdleSettings.get_StopOnIdleEnd
 title: IIdleSettings::get_StopOnIdleEnd (taskschd.h)
-description: Gets or sets a Boolean value that indicates that the Task Scheduler will terminate the task if the idle condition ends before the task is completed. The idle condition ends when the computer is no longer idle.
+description: Gets or sets a Boolean value that indicates that the Task Scheduler will terminate the task if the idle condition ends before the task is completed. The idle condition ends when the computer is no longer idle. (Get)
 helpviewer_keywords: ["IIdleSettings interface [Task Scheduler]","StopOnIdleEnd property","IIdleSettings.StopOnIdleEnd","IIdleSettings.get_StopOnIdleEnd","IIdleSettings::StopOnIdleEnd","IIdleSettings::get_StopOnIdleEnd","IIdleSettings::put_StopOnIdleEnd","StopOnIdleEnd property [Task Scheduler]","StopOnIdleEnd property [Task Scheduler]","IIdleSettings interface","get_StopOnIdleEnd","taskschd.iidlesettings_stoponidleend","taskschd/IIdleSettings::StopOnIdleEnd","taskschd/IIdleSettings::get_StopOnIdleEnd","taskschd/IIdleSettings::put_StopOnIdleEnd"]
 old-location: taskschd\iidlesettings_stoponidleend.htm
 tech.root: taskschd

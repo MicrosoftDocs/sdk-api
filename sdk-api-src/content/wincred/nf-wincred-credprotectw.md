@@ -1,8 +1,8 @@
 ---
 UID: NF:wincred.CredProtectW
 title: CredProtectW function (wincred.h)
-description: Encrypts the specified credentials so that only the current security context can decrypt them.
-helpviewer_keywords: ["CredProtect","CredProtect function [Security]","CredProtectA","CredProtectW","security.credprotect","wincred/CredProtect","wincred/CredProtectA","wincred/CredProtectW"]
+description: Encrypts the specified credentials so that only the current security context can decrypt them. (Unicode)
+helpviewer_keywords: ["CredProtect", "CredProtect function [Security]", "CredProtectW", "security.credprotect", "wincred/CredProtect", "wincred/CredProtectW"]
 old-location: security\credprotect.htm
 tech.root: security
 ms.assetid: 1e299dfb-2ffe-463c-9e2c-b7774a2216e3

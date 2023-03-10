@@ -91,7 +91,7 @@ if (Buffer.dwStatus == MFT_OUTPUT_DATA_BUFFER_STREAM_END)
 }
 
 // Incorrect.
-if ((Buffer.dwStatus &amp; MFT_OUTPUT_DATA_BUFFER_STREAM_END) != 0)
+if ((Buffer.dwStatus & MFT_OUTPUT_DATA_BUFFER_STREAM_END) != 0)
 {
     ...
 }

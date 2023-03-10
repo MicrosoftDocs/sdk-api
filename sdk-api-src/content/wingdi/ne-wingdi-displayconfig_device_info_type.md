@@ -1,5 +1,5 @@
 ---
-UID: NE:wingdi.__unnamed_enum_6
+UID: NE:wingdi.DISPLAYCONFIG_DEVICE_INFO_TYPE
 title: DISPLAYCONFIG_DEVICE_INFO_TYPE (wingdi.h)
 description: The DISPLAYCONFIG_DEVICE_INFO_TYPE enumeration specifies the type of display device info to configure or obtain through the DisplayConfigSetDeviceInfo or DisplayConfigGetDeviceInfo function.
 helpviewer_keywords: ["CCD_Enumerations_29e89f4b-f002-4493-a1dc-5dba3150a7f8.xml","DISPLAYCONFIG_DEVICE_INFO_FORCE_UINT32","DISPLAYCONFIG_DEVICE_INFO_GET_ADAPTER_NAME","DISPLAYCONFIG_DEVICE_INFO_GET_SOURCE_NAME","DISPLAYCONFIG_DEVICE_INFO_GET_SUPPORT_VIRTUAL_RESOLUTION","DISPLAYCONFIG_DEVICE_INFO_GET_TARGET_BASE_TYPE","DISPLAYCONFIG_DEVICE_INFO_GET_TARGET_NAME","DISPLAYCONFIG_DEVICE_INFO_GET_TARGET_PREFERRED_MODE","DISPLAYCONFIG_DEVICE_INFO_SET_SUPPORT_VIRTUAL_RESOLUTION","DISPLAYCONFIG_DEVICE_INFO_SET_TARGET_PERSISTENCE","DISPLAYCONFIG_DEVICE_INFO_TYPE","DISPLAYCONFIG_DEVICE_INFO_TYPE enumeration [Display Devices]","display.displayconfig_device_info_type","wingdi/DISPLAYCONFIG_DEVICE_INFO_FORCE_UINT32","wingdi/DISPLAYCONFIG_DEVICE_INFO_GET_ADAPTER_NAME","wingdi/DISPLAYCONFIG_DEVICE_INFO_GET_SOURCE_NAME","wingdi/DISPLAYCONFIG_DEVICE_INFO_GET_SUPPORT_VIRTUAL_RESOLUTION","wingdi/DISPLAYCONFIG_DEVICE_INFO_GET_TARGET_BASE_TYPE","wingdi/DISPLAYCONFIG_DEVICE_INFO_GET_TARGET_NAME","wingdi/DISPLAYCONFIG_DEVICE_INFO_GET_TARGET_PREFERRED_MODE","wingdi/DISPLAYCONFIG_DEVICE_INFO_SET_SUPPORT_VIRTUAL_RESOLUTION","wingdi/DISPLAYCONFIG_DEVICE_INFO_SET_TARGET_PERSISTENCE","wingdi/DISPLAYCONFIG_DEVICE_INFO_TYPE"]
@@ -88,7 +88,6 @@ Specifies the state of virtual mode support. If the <a href="/windows/desktop/ap
 
 Specifies how to set the state of virtual mode support. If the <a href="/windows/desktop/api/winuser/nf-winuser-displayconfigsetdeviceinfo">DisplayConfigSetDeviceInfo</a> function is successful, <b>DisplayConfigSetDeviceInfo</b> uses info in the <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_support_virtual_resolution">DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION</a> structure to change the state of virtual mode support. Supported starting in WindowsÂ 10.
 
-
 ### -field DISPLAYCONFIG_DEVICE_INFO_GET_ADVANCED_COLOR_INFO:9
 
 ### -field DISPLAYCONFIG_DEVICE_INFO_SET_ADVANCED_COLOR_STATE:10
@@ -97,8 +96,7 @@ Specifies how to set the state of virtual mode support. If the <a href="/windows
 
 Specifies the current SDR white level for an HDR monitor. If the <a href="/windows/desktop/api/winuser/nf-winuser-displayconfigsetdeviceinfo">DisplayConfigGetDeviceInfo</a> function is successful, <b>DisplayConfigGetDeviceInfo</b> return SDR white level info in the <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_sdr_white_level">DISPLAYCONFIG_SDR_WHITE_LEVEL</a> structure.
 
-Supported starting in Windows 10 Fall Creators Update (Version 1709).
-
+Supported starting in Windowsï¿½10 Fall Creators Update (Version 1709).
 
 ### -field DISPLAYCONFIG_DEVICE_INFO_FORCE_UINT32:0xFFFFFFFF
 
@@ -135,3 +133,4 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-displayconfigsetdeviceinfo">DisplayConfigSetDeviceInfo</a>
+

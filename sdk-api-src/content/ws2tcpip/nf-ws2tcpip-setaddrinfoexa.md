@@ -1,8 +1,8 @@
 ---
 UID: NF:ws2tcpip.SetAddrInfoExA
 title: SetAddrInfoExA function (ws2tcpip.h)
-description: Registers or deregisters a name, a service name, and associated addresses with a specific namespace provider.
-helpviewer_keywords: ["NS_ALL","NS_BTH","NS_DNS","NS_EMAIL","NS_NLA","NS_PNRPCLOUD","NS_PNRPNAME","SetAddrInfoEx","SetAddrInfoEx function [Winsock]","SetAddrInfoExA","SetAddrInfoExW","winsock.setaddrinfoex","ws2tcpip/SetAddrInfoEx","ws2tcpip/SetAddrInfoExA","ws2tcpip/SetAddrInfoExW"]
+description: Registers or deregisters a name, a service name, and associated addresses with a specific namespace provider. (ANSI)
+helpviewer_keywords: ["NS_ALL", "NS_BTH", "NS_DNS", "NS_EMAIL", "NS_NLA", "NS_PNRPCLOUD", "NS_PNRPNAME", "SetAddrInfoExA", "ws2tcpip/SetAddrInfoExA"]
 old-location: winsock\setaddrinfoex.htm
 tech.root: WinSock
 ms.assetid: 6d3c5b97-32ce-4eb5-a047-d9b37c37cdda

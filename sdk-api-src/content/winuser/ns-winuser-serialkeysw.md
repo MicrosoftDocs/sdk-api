@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagSERIALKEYSW
 title: SERIALKEYSW (winuser.h)
-description: Contains information about the SerialKeys accessibility feature, which interprets data from a communication aid attached to a serial port as commands causing the system to simulate keyboard and mouse input.
+description: Contains information about the SerialKeys accessibility feature, which interprets data from a communication aid attached to a serial port as commands causing the system to simulate keyboard and mouse input. (Unicode)
 helpviewer_keywords: ["*LPSERIALKEYSW","LPSERIALKEYS","LPSERIALKEYS structure pointer [Windows Accessibility]","SERIALKEYS","SERIALKEYS structure [Windows Accessibility]","SERIALKEYSW","SERKF_AVAILABLE","SERKF_INDICATOR","SERKF_SERIALKEYSON","_win32_SERIALKEYS_str","msaa.serialkeys","tagSERIALKEYSA","tagSERIALKEYSW","winauto.serialkeys","winuser/LPSERIALKEYS","winuser/SERIALKEYS"]
 old-location: winauto\serialkeys.htm
 tech.root: WinAuto

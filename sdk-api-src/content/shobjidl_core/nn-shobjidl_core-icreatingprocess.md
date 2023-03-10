@@ -6,7 +6,7 @@ helpviewer_keywords: ["ICreatingProcess","ICreatingProcess interface [Windows Sh
 old-location: shell\icreatingprocess.htm
 tech.root: shell
 ms.assetid: 68B89E8C-2868-4F33-87A5-66A2FEFC0441
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: ICreatingProcess, ICreatingProcess interface [Windows Shell], ICreatingProcess interface [Windows Shell],described, shell.icreatingprocess, shobjidl_core/ICreatingProcess
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
@@ -58,7 +58,7 @@ The <b>ICreatingProcess</b> interface inherits from the <a href="/windows/deskto
 
 ## -remarks
 
- The caller should install an object into the site chain which implements <a href="/dotnet/api/microsoft.visualstudio.shell.package.microsoft-visualstudio-ole-interop-iserviceprovider-queryservice?view=visualstudiosdk-2017">IServiceProvider::QueryService</a> and responds to the <b>SID_ExecuteCreatingProcess</b> service ID with an object that implements the <b>ICreatingProcess</b> interface.
+ The caller should install an object into the site chain which implements <a href="/dotnet/api/microsoft.visualstudio.shell.package.microsoft-visualstudio-ole-interop-iserviceprovider-queryservice?view=visualstudiosdk-2017&preserve-view=true">IServiceProvider::QueryService</a> and responds to the <b>SID_ExecuteCreatingProcess</b> service ID with an object that implements the <b>ICreatingProcess</b> interface.
 
 After performing the desired operations, the object should forward the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icreatingprocess-oncreating">ICreatingProcess::OnCreating</a> call up the site chain to allow other members of the site chain to participate.
 

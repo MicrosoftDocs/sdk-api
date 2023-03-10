@@ -60,7 +60,7 @@ An HRESULT including the following:
 
 Stopping the camera control monitor pauses control change notifications through [IMFCameraControlNotify::OnChange](nf-mfidl-imfcameracontrolnotify-onchange.md). While the monitor is stopped, clients can add and remove control subscriptions with calls to [AddControlSubscription](nf-mfidl-imfcameracontrolmonitor-addcontrolsubscription.md) and [RemoveControlSubscription](nf-mfidl-imfcameracontrolmonitor-removecontrolsubscription.md).
 
-
+To see a code example that implements this method, see [IMFCameraControlNotify](nn-mfidl-imfcameracontrolnotify.md).
 
 ## -see-also
 

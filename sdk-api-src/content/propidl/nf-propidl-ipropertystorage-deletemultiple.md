@@ -1,12 +1,12 @@
 ---
 UID: NF:propidl.IPropertyStorage.DeleteMultiple
 title: IPropertyStorage::DeleteMultiple (propidl.h)
-description: The DeleteMultiple method deletes as many of the indicated properties as exist in this property set.
+description: The IPropertyStorage::DeleteMultiple method deletes as many of the indicated properties as exist in this property set. 
 helpviewer_keywords: ["DeleteMultiple","DeleteMultiple method [Structured Storage]","DeleteMultiple method [Structured Storage]","IPropertyStorage interface","IPropertyStorage [Strctd Stg]","DeleteMultiple","IPropertyStorage interface [Structured Storage]","DeleteMultiple method","IPropertyStorage.DeleteMultiple","IPropertyStorage::DeleteMultiple","_stg_ipropertystorage_deletemultiple","propidl/IPropertyStorage::DeleteMultiple","stg.ipropertystorage_deletemultiple"]
 old-location: stg\ipropertystorage_deletemultiple.htm
 tech.root: Stg
 ms.assetid: 95c218f1-2bf7-4946-ae9c-934e5916395a
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: DeleteMultiple, DeleteMultiple method [Structured Storage], DeleteMultiple method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],DeleteMultiple, IPropertyStorage interface [Structured Storage],DeleteMultiple method, IPropertyStorage.DeleteMultiple, IPropertyStorage::DeleteMultiple, _stg_ipropertystorage_deletemultiple, propidl/IPropertyStorage::DeleteMultiple, stg.ipropertystorage_deletemultiple
 req.header: propidl.h
 req.include-header: Objbase.h, Propidlbase.h

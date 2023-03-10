@@ -154,12 +154,7 @@ All coordinates passed to the object in <i>wParam</i> and <i>lParam</i> are spec
 
 ## -see-also
 
-<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless</a>
-
-
-
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-ondefwindowmessage">IOleInPlaceSiteWindowless::OnDefWindowMessage</a>
-
-
-
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-setcapture">IOleInPlaceSiteWindowless:SetCapture</a>
+- <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless</a>
+- <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-ondefwindowmessage">IOleInPlaceSiteWindowless::OnDefWindowMessage</a>
+- <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-setcapture">IOleInPlaceSiteWindowless:SetCapture</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

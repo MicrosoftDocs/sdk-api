@@ -63,7 +63,7 @@ Indicates whether or not typed resource 64-bit integer atomics are supported. `t
 
 Type: \_Out\_ **[BOOL](/windows/desktop/winprog/windows-data-types)**
 
-Indicates whether or not typed resource 64-bit integer atomics are supported. `true` if supported, otherwise `false`.
+Indicates whether or not 64-bit integer atomics are supported on `groupshared` variables. `true` if supported, otherwise `false`.
 
 ### -field DerivativesInMeshAndAmplificationShadersSupported
 

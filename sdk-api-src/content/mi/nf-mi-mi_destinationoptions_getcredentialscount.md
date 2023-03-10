@@ -1,7 +1,7 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetCredentialsCount
 title: MI_DestinationOptions_GetCredentialsCount function (mi.h)
-description: Gets the number of previously added credentials.
+description: Gets the number of previously added credentials. (MI_DestinationOptions_GetCredentialsCount)
 helpviewer_keywords: ["MI_DestinationOptions_GetCredentialsCount","MI_DestinationOptions_GetCredentialsCount function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetCredentialsCount","wmi_v2.mi_destinationoptions_getcredentialscount"]
 old-location: wmi_v2\mi_destinationoptions_getcredentialscount.htm
 tech.root: wmi_v2

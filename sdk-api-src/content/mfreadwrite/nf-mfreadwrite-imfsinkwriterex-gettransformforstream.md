@@ -1,7 +1,7 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterEx.GetTransformForStream
 title: IMFSinkWriterEx::GetTransformForStream (mfreadwrite.h)
-description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
+description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream. (IMFSinkWriterEx.GetTransformForStream)
 helpviewer_keywords: ["GetTransformForStream","GetTransformForStream method [Media Foundation]","GetTransformForStream method [Media Foundation]","IMFSinkWriterEx interface","IMFSinkWriterEx interface [Media Foundation]","GetTransformForStream method","IMFSinkWriterEx.GetTransformForStream","IMFSinkWriterEx::GetTransformForStream","mf.imfsinkwriterex_gettransformforstream","mfreadwrite/IMFSinkWriterEx::GetTransformForStream"]
 old-location: mf\imfsinkwriterex_gettransformforstream.htm
 tech.root: mf

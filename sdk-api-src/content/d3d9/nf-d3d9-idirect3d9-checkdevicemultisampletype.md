@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9.IDirect3D9.CheckDeviceMultiSampleType
 title: IDirect3D9::CheckDeviceMultiSampleType (d3d9.h)
-description: Determines if a multisampling technique is available on this device.
+description: The IDirect3D9::CheckDeviceMultiSampleType method (d3d9.h) determines if a multisampling technique is available on this device. 
 helpviewer_keywords: ["38d1da74-ccb7-0331-69f5-3bcd3ba4721c","CheckDeviceMultiSampleType","CheckDeviceMultiSampleType method [Direct3D 9]","CheckDeviceMultiSampleType method [Direct3D 9]","IDirect3D9 interface","IDirect3D9 interface [Direct3D 9]","CheckDeviceMultiSampleType method","IDirect3D9.CheckDeviceMultiSampleType","IDirect3D9::CheckDeviceMultiSampleType","d3d9helper/IDirect3D9::CheckDeviceMultiSampleType","direct3d9.idirect3d9__checkdevicemultisampletype"]
 old-location: direct3d9\idirect3d9__checkdevicemultisampletype.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__checkdevicemultisampletype.htm
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: 38d1da74-ccb7-0331-69f5-3bcd3ba4721c, CheckDeviceMultiSampleType, CheckDeviceMultiSampleType method [Direct3D 9], CheckDeviceMultiSampleType method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],CheckDeviceMultiSampleType method, IDirect3D9.CheckDeviceMultiSampleType, IDirect3D9::CheckDeviceMultiSampleType, d3d9helper/IDirect3D9::CheckDeviceMultiSampleType, direct3d9.idirect3d9__checkdevicemultisampletype
 req.header: d3d9.h
 req.include-header: D3D9.h

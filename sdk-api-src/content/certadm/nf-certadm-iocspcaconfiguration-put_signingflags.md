@@ -1,7 +1,7 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_SigningFlags
 title: IOCSPCAConfiguration::put_SigningFlags (certadm.h)
-description: Gets or sets a combination of flag values. These values specify the management of signing certificates that belong to a certification authority (CA) configuration.
+description: Gets or sets a combination of flag values. These values specify the management of signing certificates that belong to a certification authority (CA) configuration. (Put)
 helpviewer_keywords: ["IOCSPCAConfiguration interface [Security]","SigningFlags property","IOCSPCAConfiguration.SigningFlags","IOCSPCAConfiguration.put_SigningFlags","IOCSPCAConfiguration::SigningFlags","IOCSPCAConfiguration::get_SigningFlags","IOCSPCAConfiguration::put_SigningFlags","SigningFlags property [Security]","SigningFlags property [Security]","IOCSPCAConfiguration interface","certadm/IOCSPCAConfiguration::SigningFlags","certadm/IOCSPCAConfiguration::get_SigningFlags","certadm/IOCSPCAConfiguration::put_SigningFlags","put_SigningFlags","security.iocspcaconfiguration_signingflags_method"]
 old-location: security\iocspcaconfiguration_signingflags_method.htm
 tech.root: security

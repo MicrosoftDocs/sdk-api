@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetRenderState
 title: IDirect3DDevice9::SetRenderState (d3d9helper.h)
-description: Sets a single device render-state parameter.
+description: The IDirect3DDevice9::SetRenderState method (d3d9helper.h) sets a single device render-state parameter.
 helpviewer_keywords: ["80316479-a08a-1e20-c73a-1d392c1204d6","IDirect3DDevice9 interface [Direct3D 9]","SetRenderState method","IDirect3DDevice9.SetRenderState","IDirect3DDevice9::SetRenderState","SetRenderState","SetRenderState method [Direct3D 9]","SetRenderState method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetRenderState","direct3d9.idirect3ddevice9__setrenderstate"]
 old-location: direct3d9\idirect3ddevice9__setrenderstate.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setrenderstate.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 80316479-a08a-1e20-c73a-1d392c1204d6, IDirect3DDevice9 interface [Direct3D 9],SetRenderState method, IDirect3DDevice9.SetRenderState, IDirect3DDevice9::SetRenderState, SetRenderState, SetRenderState method [Direct3D 9], SetRenderState method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetRenderState, direct3d9.idirect3ddevice9__setrenderstate
 req.header: d3d9helper.h
 req.include-header: D3D9.h

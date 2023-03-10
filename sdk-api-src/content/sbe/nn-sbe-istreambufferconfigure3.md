@@ -56,7 +56,7 @@ The <b>IStreamBufferConfigure3</b> interface is exposed by the <a href="/previou
 
 The <b>IStreamBufferConfigure3</b> interface inherits from <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure2">IStreamBufferConfigure2</a>. <b>IStreamBufferConfigure3</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

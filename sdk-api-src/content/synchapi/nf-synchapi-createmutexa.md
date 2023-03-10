@@ -1,15 +1,15 @@
 ---
 UID: NF:synchapi.CreateMutexA
 title: CreateMutexA function (synchapi.h)
-description: Creates or opens a named or unnamed mutex object.
-helpviewer_keywords: ["CreateMutex","CreateMutex function","CreateMutexA","CreateMutexW","_win32_createmutex","base.createmutex","synchapi/CreateMutex","synchapi/CreateMutexA","synchapi/CreateMutexW","winbase/CreateMutex","winbase/CreateMutexA","winbase/CreateMutexW"]
+description: Creates or opens a named or unnamed mutex object. (ANSI)
+helpviewer_keywords: ["CreateMutexA", "synchapi/CreateMutexA"]
 old-location: base\createmutex.htm
 tech.root: base
 ms.assetid: c8315d1c-98c9-4f0a-ae0d-800d7d8100cd
 ms.date: 05/03/2020
 ms.keywords: CreateMutex, CreateMutex function, CreateMutexA, CreateMutexW, _win32_createmutex, base.createmutex, synchapi/CreateMutex, synchapi/CreateMutexA, synchapi/CreateMutexW, winbase/CreateMutex, winbase/CreateMutexA, winbase/CreateMutexW
 req.header: synchapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]

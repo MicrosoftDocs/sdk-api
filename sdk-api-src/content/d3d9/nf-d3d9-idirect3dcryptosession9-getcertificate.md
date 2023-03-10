@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.GetCertificate
 title: IDirect3DCryptoSession9::GetCertificate (d3d9.h)
-description: Gets the driver's certificate chain.
+description: Gets the driver's certificate chain. (IDirect3DCryptoSession9.GetCertificate)
 helpviewer_keywords: ["GetCertificate","GetCertificate method [Media Foundation]","GetCertificate method [Media Foundation]","IDirect3DCryptoSession9 interface","IDirect3DCryptoSession9 interface [Media Foundation]","GetCertificate method","IDirect3DCryptoSession9.GetCertificate","IDirect3DCryptoSession9::GetCertificate","d3d9/IDirect3DCryptoSession9::GetCertificate","mf.idirect3dcryptosession9_getcertificate"]
 old-location: mf\idirect3dcryptosession9_getcertificate.htm
 tech.root: mf

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetGSInputPrimitive
 title: ID3D12ShaderReflection::GetGSInputPrimitive (d3d12shader.h)
-description: Gets the geometry-shader input-primitive description.
+description: Gets the geometry-shader input-primitive description. (ID3D12ShaderReflection.GetGSInputPrimitive)
 helpviewer_keywords: ["GetGSInputPrimitive","GetGSInputPrimitive method","GetGSInputPrimitive method","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","GetGSInputPrimitive method","ID3D12ShaderReflection.GetGSInputPrimitive","ID3D12ShaderReflection::GetGSInputPrimitive","d3d12shader/ID3D12ShaderReflection::GetGSInputPrimitive","direct3d12.id3d12shaderreflection_getgsinputprimitive"]
 old-location: direct3d12\id3d12shaderreflection_getgsinputprimitive.htm
 tech.root: direct3d12

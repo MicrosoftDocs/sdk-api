@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzTask.put_BizRuleImportedPath
 title: IAzTask::put_BizRuleImportedPath (azroles.h)
-description: Sets or retrieves the path to the file from which the business rule (BizRule) is imported.
+description: Sets or retrieves the path to the file from which the business rule (BizRule) is imported. (Put)
 helpviewer_keywords: ["AzTask object [Security]","BizRuleImportedPath property","BizRuleImportedPath property [Security]","BizRuleImportedPath property [Security]","AzTask object","BizRuleImportedPath property [Security]","IAzTask interface","IAzTask interface [Security]","BizRuleImportedPath property","IAzTask.BizRuleImportedPath","IAzTask.put_BizRuleImportedPath","IAzTask::BizRuleImportedPath","IAzTask::get_BizRuleImportedPath","IAzTask::put_BizRuleImportedPath","azroles/IAzTask::BizRuleImportedPath","azroles/IAzTask::get_BizRuleImportedPath","azroles/IAzTask::put_BizRuleImportedPath","put_BizRuleImportedPath","security.iaztask_bizruleimportedpath"]
 old-location: security\iaztask_bizruleimportedpath.htm
 tech.root: security

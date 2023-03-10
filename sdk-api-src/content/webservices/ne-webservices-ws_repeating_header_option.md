@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_41
+UID: NE:webservices.WS_REPEATING_HEADER_OPTION
 title: WS_REPEATING_HEADER_OPTION (webservices.h)
 description: This enum is used to specify whether a header is expected to appear more than once in a message.
 helpviewer_keywords: ["WS_REPEATING_HEADER","WS_REPEATING_HEADER_OPTION","WS_REPEATING_HEADER_OPTION enumeration [Web Services for Windows]","WS_SINGLETON_HEADER","webservices/WS_REPEATING_HEADER","webservices/WS_REPEATING_HEADER_OPTION","webservices/WS_SINGLETON_HEADER","wsw.ws_repeating_header_option"]

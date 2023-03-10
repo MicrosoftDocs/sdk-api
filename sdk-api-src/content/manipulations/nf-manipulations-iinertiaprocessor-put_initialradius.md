@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_InitialRadius
 title: IInertiaProcessor::put_InitialRadius (manipulations.h)
-description: The InitialRadius property specifies the distance from the edge of the target to its center before the object was changed.
+description: The InitialRadius property specifies the distance from the edge of the target to its center before the object was changed. (Put)
 helpviewer_keywords: ["IInertiaProcessor interface [Windows Touch]","InitialRadius property","IInertiaProcessor.InitialRadius","IInertiaProcessor.put_InitialRadius","IInertiaProcessor::InitialRadius","IInertiaProcessor::get_InitialRadius","IInertiaProcessor::put_InitialRadius","InitialRadius property [Windows Touch]","InitialRadius property [Windows Touch]","IInertiaProcessor interface","manipulations/IInertiaProcessor::InitialRadius","manipulations/IInertiaProcessor::get_InitialRadius","manipulations/IInertiaProcessor::put_InitialRadius","put_InitialRadius","wintouch.iinertiaprocessor_initialradius"]
 old-location: wintouch\iinertiaprocessor_initialradius.htm
 tech.root: wintouch

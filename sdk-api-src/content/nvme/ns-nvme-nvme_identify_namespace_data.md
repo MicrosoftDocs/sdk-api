@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_20
-tech.root: fs 
+UID: NS:nvme.NVME_IDENTIFY_NAMESPACE_DATA
+tech.root: fs
 title: NVME_IDENTIFY_NAMESPACE_DATA
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate capabilities and settings that are specific to a particular namespace.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_IDENTIFY_NAMESPACE_DATA, *PNVME_IDENTIFY_NAMESPACE_DATA
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_IDENTIFY_NAMESPACE_DATA structure
+
 
 ## -description
 
@@ -128,7 +129,6 @@ It is recommended that software and controllers transition to an LBA size that i
 A Formatted LBA Size (FLBAS) structure containing fields that indicate the LBA data size and metadata size combination that the namespace has been formatted with.
 
 ### -field FLBAS.LbaFormatIndex
-
 
 Bits 0:3 of the **FLBAS** structure specify one of the 16 supported LBA Formats indicated in this data structure.
 
@@ -320,7 +320,7 @@ A value of `0h` indicates that the size for this namespace is the same size as t
 
 Indicates the namespace specific size of the write operation guaranteed to be written atomically to the NVM during a power fail or error condition.
 
-A value of `0h` indicates that the size for this namespace is the same size as that reported in the **AWUPF** field of the [Identify Controller](ns-nvme-nvme_identify_controller_data.md) data structure. All other values specify a size in terms of logical blocks using the same encoding as the **AWUPF** field. 
+A value of `0h` indicates that the size for this namespace is the same size as that reported in the **AWUPF** field of the [Identify Controller](ns-nvme-nvme_identify_controller_data.md) data structure. All other values specify a size in terms of logical blocks using the same encoding as the **AWUPF** field.
 
 ### -field NACWU
 

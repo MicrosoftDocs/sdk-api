@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetAutodialEnableW
 title: RasGetAutodialEnableW function (ras.h)
-description: The RasGetAutodialEnable function indicates whether the AutoDial feature is enabled for a specified TAPI dialing location.
-helpviewer_keywords: ["RasGetAutodialEnable","RasGetAutodialEnable function [RAS]","RasGetAutodialEnableA","RasGetAutodialEnableW","_ras_rasgetautodialenable","ras/RasGetAutodialEnable","ras/RasGetAutodialEnableA","ras/RasGetAutodialEnableW","rras.rasgetautodialenable"]
+description: The RasGetAutodialEnable function indicates whether the AutoDial feature is enabled for a specified TAPI dialing location. (Unicode)
+helpviewer_keywords: ["RasGetAutodialEnable", "RasGetAutodialEnable function [RAS]", "RasGetAutodialEnableW", "_ras_rasgetautodialenable", "ras/RasGetAutodialEnable", "ras/RasGetAutodialEnableW", "rras.rasgetautodialenable"]
 old-location: rras\rasgetautodialenable.htm
 tech.root: RRAS
 ms.assetid: 221f91e6-86bd-4450-92c8-ec3290712c18

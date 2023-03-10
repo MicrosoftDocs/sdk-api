@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_50
-tech.root: fs 
+UID: NE:nvme.NVME_NVM_COMMANDS
+tech.root: fs
 title: NVME_NVM_COMMANDS
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate a command in the NVM Command Set.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_NVM_COMMANDS enumeration
+
 
 ## -description
 

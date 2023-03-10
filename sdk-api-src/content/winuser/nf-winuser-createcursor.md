@@ -50,7 +50,9 @@ api_name:
 
 ## -description
 
-Creates a cursor having the specified size, bit patterns, and hot spot.
+Creates a monochrome cursor having the specified size, bit patterns, and hot spot.
+
+To create a colored cursor at run time you can use the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function, which creates a cursor based on the content of an [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo) structure.
 
 ## -parameters
 
@@ -88,15 +90,13 @@ The height of the cursor, in pixels.
 
 Type: <b>const VOID*</b>
 
-An array of bytes that contains the bit values for the 
-					AND mask of the cursor, as in a device-dependent monochrome bitmap.
+An array of bytes that contains the bit values for the AND mask of the cursor, as in a <a href="/windows/win32/gdi/device-dependent-bitmaps">device-dependent</a> monochrome bitmap.
 
 ### -param pvXORPlane [in]
 
 Type: <b>const VOID*</b>
 
-An array of bytes that contains the bit values for the 
-					XOR mask of the cursor, as in a device-dependent monochrome bitmap.
+An array of bytes that contains the bit values for the XOR mask of the cursor, as in a <a href="/windows/win32/gdi/device-dependent-bitmaps">device-dependent</a> monochrome bitmap.
 
 ## -returns
 
@@ -110,50 +110,34 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 The <i>nWidth</i> and <i>nHeight</i> parameters must specify a width and height that are supported by the current display driver, because the system cannot create cursors of other sizes. To determine the width and height supported by the display driver, use the <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function, specifying the <b>SM_CXCURSOR</b> or <b>SM_CYCURSOR</b> value. 
 
-Before closing, an application must call the <a href="/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a> function to free any system resources associated with the cursor. 
+Before closing, an application must call the <a href="/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a> function to free any system resources associated with the cursor.
 
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The output returned is in terms of physical coordinates, and  is not affected by the DPI of the calling thread. Note that the cursor created may still be scaled to match the DPI of any given window it is drawn into.
-
 
 #### Examples
 
 For an example, see <a href="/windows/desktop/menurc/using-cursors">Creating a Cursor</a>.
 
-<div class="code"></div>
-
 ## -see-also
 
 <b>Conceptual</b>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-createicon">CreateIcon</a>
 
-
+<a href="/windows/desktop/api/Winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
 
 <a href="/windows/desktop/menurc/cursors">Cursors</a>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a>
-
-
 
 <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
-
-
 
 <b>Other Resources</b>
 
 
-
 <b>Reference</b>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>

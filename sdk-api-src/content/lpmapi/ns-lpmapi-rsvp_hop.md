@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_4
+UID: NS:lpmapi.RSVP_HOP
 title: RSVP_HOP (lpmapi.h)
 description: The RSVP_HOP structure contains information about an RSVP-enabled hop.
 helpviewer_keywords: ["RSVP_HOP","RSVP_HOP structure [QOS]","lpmapi/RSVP_HOP","qos.rsvp_hop"]
@@ -74,3 +74,4 @@ Information about the IPv4 hop, in the form of an <a href="/previous-versions/wi
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvp_hop_ipv4">Rsvp_Hop_IPv4</a>
+

@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_MAX_POOLING2_OPERATOR_DESC
 title: DML_MAX_POOLING2_OPERATOR_DESC
-description: Computes the maximum value across the elements within the sliding window over the input tensor, and optionally returns the indices of the maximum values selected.
+description: Computes the maximum value across the elements within the sliding window over the input tensor, and optionally returns the indices of the maximum values selected. (DML_MAX_POOLING2_OPERATOR_DESC)
 tech.root: directml
 ms.date: 01/19/2022
 req.header: directml.h

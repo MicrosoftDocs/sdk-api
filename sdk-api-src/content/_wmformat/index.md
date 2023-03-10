@@ -4,7 +4,7 @@ title: Windows Media Format 11 SDK
 ms.assetid: d9cec177-31f2-3ccd-a314-e6d46703ed09
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 archived: true
 ---
 
@@ -25,5 +25,4 @@ To develop Windows Media Format 11 SDK, you need these headers:
  * [wmsinternaladminnetsource.h](../wmsinternaladminnetsource/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Media Format 11 SDK](/previous-versions/windows/desktop/wmformat)
-
+* [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk)

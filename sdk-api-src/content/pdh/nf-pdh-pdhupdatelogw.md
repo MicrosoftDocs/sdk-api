@@ -1,8 +1,8 @@
 ---
 UID: NF:pdh.PdhUpdateLogW
 title: PdhUpdateLogW function (pdh.h)
-description: Collects counter data for the current query and writes the data to the log file.
-helpviewer_keywords: ["PdhUpdateLog","PdhUpdateLog function [Perf]","PdhUpdateLogA","PdhUpdateLogW","_win32_pdhupdatelog","base.pdhupdatelog","pdh/PdhUpdateLog","pdh/PdhUpdateLogA","pdh/PdhUpdateLogW","perf.pdhupdatelog"]
+description: Collects counter data for the current query and writes the data to the log file. (Unicode)
+helpviewer_keywords: ["PdhUpdateLog", "PdhUpdateLog function [Perf]", "PdhUpdateLogW", "_win32_pdhupdatelog", "base.pdhupdatelog", "pdh/PdhUpdateLog", "pdh/PdhUpdateLogW", "perf.pdhupdatelog"]
 old-location: perf\pdhupdatelog.htm
 tech.root: perf
 ms.assetid: b2052275-6944-41f4-92ac-38967ed270f3

@@ -4,7 +4,7 @@ title: Cpl.h header
 ms.assetid: e8fa9f63-a6a3-3a6b-b199-c46941dcedbc
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: shell
 f1_keywords:
  - cpl

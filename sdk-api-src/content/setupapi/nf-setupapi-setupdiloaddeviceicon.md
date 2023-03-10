@@ -103,7 +103,7 @@ The format of a resource-identifier string is
 Where:
 
 <ul>
-<li><i>filepath,</i> followed by the backslash character ("\")<i>,</i> is optional and specifies a path of the file that contains the icon.</li>
+<li><i>filepath,</i> followed by the backslash character (\\)<i>,</i> is optional and specifies a path of the file that contains the icon.</li>
 <li><i>FileName</i>, followed by the comma character (",") specifies the name of the file that contains the icon.</li>
 <li><i>ResourceID</i>, preceded by a dash character ("-"), specifies the resource ID of the icon.</li>
 </ul>

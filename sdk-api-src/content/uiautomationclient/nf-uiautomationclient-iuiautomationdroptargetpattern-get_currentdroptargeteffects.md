@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDropTargetPattern.get_CurrentDropTargetEffects
 title: IUIAutomationDropTargetPattern::get_CurrentDropTargetEffects (uiautomationclient.h)
-description: Retrieves an array of localized strings that enumerate the full set of effects that can happen when the user drops a grabbed element on this drop target as part of a drag-and-drop operation.
+description: Retrieves an array of localized strings that enumerate the full set of effects that can happen when the user drops a grabbed element on this drop target as part of a drag-and-drop operation. (IUIAutomationDropTargetPattern.get_CurrentDropTargetEffects)
 helpviewer_keywords: ["CurrentDropTargetEffects property [Windows Accessibility]","CurrentDropTargetEffects property [Windows Accessibility]","IUIAutomationDropTargetPattern interface","IUIAutomationDropTargetPattern interface [Windows Accessibility]","CurrentDropTargetEffects property","IUIAutomationDropTargetPattern.CurrentDropTargetEffects","IUIAutomationDropTargetPattern.get_CurrentDropTargetEffects","IUIAutomationDropTargetPattern::CurrentDropTargetEffects","IUIAutomationDropTargetPattern::get_CurrentDropTargetEffects","get_CurrentDropTargetEffects","uiautomationclient/IUIAutomationDropTargetPattern::CurrentDropTargetEffects","uiautomationclient/IUIAutomationDropTargetPattern::get_CurrentDropTargetEffects","winauto.uiauto_iuiautomationdroptargetpattern_currentdroptargeteffects"]
 old-location: winauto\uiauto_iuiautomationdroptargetpattern_currentdroptargeteffects.htm
 tech.root: WinAuto

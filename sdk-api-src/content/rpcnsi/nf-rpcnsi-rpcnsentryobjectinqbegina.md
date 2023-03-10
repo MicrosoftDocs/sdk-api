@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsEntryObjectInqBeginA
 title: RpcNsEntryObjectInqBeginA function (rpcnsi.h)
-description: The RpcNsEntryObjectInqBegin function creates an inquiry context for the objects of a name-service database entry.
-helpviewer_keywords: ["RpcNsEntryObjectInqBegin","RpcNsEntryObjectInqBegin function [RPC]","RpcNsEntryObjectInqBeginA","RpcNsEntryObjectInqBeginW","_rpc_rpcnsentryobjectinqbegin","rpc.rpcnsentryobjectinqbegin","rpcnsi/RpcNsEntryObjectInqBegin","rpcnsi/RpcNsEntryObjectInqBeginA","rpcnsi/RpcNsEntryObjectInqBeginW"]
+description: The RpcNsEntryObjectInqBegin function creates an inquiry context for the objects of a name-service database entry. (ANSI)
+helpviewer_keywords: ["RpcNsEntryObjectInqBeginA", "rpcnsi/RpcNsEntryObjectInqBeginA"]
 old-location: rpc\rpcnsentryobjectinqbegin.htm
 tech.root: Rpc
 ms.assetid: dc667dc3-0812-43d5-adc2-aa29ee67f045

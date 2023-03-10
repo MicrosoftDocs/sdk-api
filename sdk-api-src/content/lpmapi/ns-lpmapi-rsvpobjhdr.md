@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_0
+UID: NS:lpmapi.RsvpObjHdr
 title: RsvpObjHdr (lpmapi.h)
 description: The RsvpObjHdr structure provides an object header for an RSVP message.
 helpviewer_keywords: ["RsvpObjHdr","RsvpObjHdr structure [QOS]","lpmapi/RsvpObjHdr","qos.rsvpobjhdr"]
@@ -70,3 +70,4 @@ Object C-Type. Must be one of the following:
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-session_ipv4">Session_IPv4</a>
+

@@ -1,12 +1,12 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.TextureBrush~r9
 title: TextureBrush::TextureBrush~r9 (gdiplusbrush.h)
-description: This topic lists the constructors of the TextureBrush class. For a complete class listing, see TextureBrush Class.
+description: The TextureBrush::TextureBrush~r9 constructor (gdiplusbrush.h) lists the constructors of the TextureBrush class.
 helpviewer_keywords: ["TextureBrush","TextureBrush constructors [GDI+]","TextureBrush.TextureBrush","TextureBrush.TextureBrush~r9","TextureBrush::TextureBrush","TextureBrush::TextureBrush~r9","_gdiplus_CLASS_TextureBrush_Constructors","gdiplus._gdiplus_CLASS_TextureBrush_Constructors","gdiplusbrush/TextureBrush"]
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors.htm
-ms.date: 12/05/2018
+ms.date: 08/19/2022
 ms.keywords: TextureBrush, TextureBrush constructors [GDI+], TextureBrush.TextureBrush, TextureBrush.TextureBrush~r9, TextureBrush::TextureBrush, TextureBrush::TextureBrush~r9, _gdiplus_CLASS_TextureBrush_Constructors, gdiplus._gdiplus_CLASS_TextureBrush_Constructors, gdiplusbrush/TextureBrush
 req.header: gdiplusbrush.h
 req.include-header: 

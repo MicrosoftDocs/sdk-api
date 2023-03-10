@@ -57,5 +57,7 @@ An HRESULT including the following:
 
 ## -remarks
 
+To see a code example that implements this method, see [IMFCameraControlNotify](nn-mfidl-imfcameracontrolnotify.md).
+
 ## -see-also
 

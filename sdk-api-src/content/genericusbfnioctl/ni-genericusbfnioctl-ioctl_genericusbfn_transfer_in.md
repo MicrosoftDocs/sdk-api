@@ -1,7 +1,7 @@
 ---
 UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_TRANSFER_IN
 title: IOCTL_GENERICUSBFN_TRANSFER_IN (genericusbfnioctl.h)
-description: This I/O control code (IOCTL) is sent by a user-mode service or application to issue an IN direction transfer on the endpoint that corresponds to the specified pipe ID in the input buffer.
+description: This I/O control code (IOCTL) is sent by a user-mode service or application to issue an IN direction transfer on the endpoint that corresponds to the specified pipe ID in the input buffer. (IOCTL_GENERICUSBFN_TRANSFER_IN)
 helpviewer_keywords: ["IOCTL_GENERICUSBFN_TRANSFER_IN","IOCTL_GENERICUSBFN_TRANSFER_IN control","IOCTL_GENERICUSBFN_TRANSFER_IN control code [Buses]","buses.ioctl_genericusbfn_transfer_in","genericusbfnioctl/IOCTL_GENERICUSBFN_TRANSFER_IN"]
 old-location: buses\ioctl_genericusbfn_transfer_in.htm
 tech.root: buses

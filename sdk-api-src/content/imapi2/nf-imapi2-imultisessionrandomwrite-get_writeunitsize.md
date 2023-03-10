@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IMultisessionRandomWrite.get_WriteUnitSize
 title: IMultisessionRandomWrite::get_WriteUnitSize (imapi2.h)
-description: Retrieves the size of a writable unit on the media.
+description: Retrieves the size of a writable unit on the media. (IMultisessionRandomWrite.get_WriteUnitSize)
 helpviewer_keywords: ["IMultisessionRandomWrite interface [IMAPI]","get_WriteUnitSize method","IMultisessionRandomWrite.get_WriteUnitSize","IMultisessionRandomWrite::get_WriteUnitSize","get_WriteUnitSize","get_WriteUnitSize method [IMAPI]","get_WriteUnitSize method [IMAPI]","IMultisessionRandomWrite interface","imapi.imultisessionrandomwrite_get_writeunitsize","imapi2/IMultisessionRandomWrite::get_WriteUnitSize"]
 old-location: imapi\imultisessionrandomwrite_get_writeunitsize.htm
 tech.root: imapi

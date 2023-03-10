@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_32
-tech.root: fs 
+UID: NS:nvme.NVME_LBA_RANGET_TYPE_ENTRY
+tech.root: fs
 title: NVME_LBA_RANGET_TYPE_ENTRY
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters that specify a single entry in a list of Logical Block Address (LBA) ranges, for the LBA Range Type Feature in the Set Features command.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_LBA_RANGET_TYPE_ENTRY, *PNVME_LBA_RANGET_TYPE_ENTRY
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_LBA_RANGET_TYPE_ENTRY structure
+
 
 ## -description
 
@@ -86,3 +87,4 @@ A Global Unique Identifier (GUID) that uniquely specifies the type of this LBA r
 ## -see-also
 
 - [NVME_CDW11_FEATURE_LBA_RANGE_TYPE](ns-nvme-nvme_cdw11_feature_lba_range_type.md)
+

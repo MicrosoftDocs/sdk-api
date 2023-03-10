@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.phoneGetDevCapsA
 title: phoneGetDevCapsA function (tapi.h)
-description: The phoneGetDevCaps function queries a specified phone device to determine its telephony capabilities.
-helpviewer_keywords: ["_tapi2_phonegetdevcaps","phoneGetDevCaps","phoneGetDevCaps function [TAPI 2.2]","phoneGetDevCapsA","phoneGetDevCapsW","tapi/phoneGetDevCaps","tapi/phoneGetDevCapsA","tapi/phoneGetDevCapsW","tapi2.phonegetdevcaps"]
+description: The phoneGetDevCaps function queries a specified phone device to determine its telephony capabilities. (phoneGetDevCapsA)
+helpviewer_keywords: ["phoneGetDevCapsA", "tapi/phoneGetDevCapsA"]
 old-location: tapi2\phonegetdevcaps.htm
 tech.root: tapi3
 ms.assetid: 7bfef6d7-d5fd-4887-afb8-b1d850df050d

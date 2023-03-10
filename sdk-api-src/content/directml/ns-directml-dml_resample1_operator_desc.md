@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_RESAMPLE1_OPERATOR_DESC
 title: DML_RESAMPLE1_OPERATOR_DESC
-description: Resamples elements from the source to the destination tensor, using the scale factors to compute the destination tensor size. You can use a linear or nearest-neighbor interpolation mode.
+description: Resamples elements from the source to the destination tensor, using the scale factors to compute the destination tensor size. You can use a linear or nearest-neighbor interpolation mode. (DML_RESAMPLE1_OPERATOR_DESC)
 tech.root: directml
 ms.date: 07/20/2022
 req.header: directml.h

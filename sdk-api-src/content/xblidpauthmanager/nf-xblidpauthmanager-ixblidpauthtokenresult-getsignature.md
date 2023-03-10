@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetSignature
 title: IXblIdpAuthTokenResult::GetSignature (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthTokenResult.GetSignature)
 helpviewer_keywords: ["GetSignature","GetSignature method","GetSignature method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetSignature method","IXblIdpAuthTokenResult.GetSignature","IXblIdpAuthTokenResult::GetSignature","xblidp.ixblidpauthtokenresult_getsignature","xblidpauthmanager/IXblIdpAuthTokenResult::GetSignature"]
 old-location: xblidp\ixblidpauthtokenresult_getsignature.htm
 tech.root: xblidp

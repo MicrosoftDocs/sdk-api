@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_11
-tech.root: fs 
+UID: NS:nvme.NVME_CONTROLLER_REGISTERS
+tech.root: fs
 title: NVME_CONTROLLER_REGISTERS
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Specifies the register map for the controller.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CONTROLLER_REGISTERS, *PNVME_CONTROLLER_REGISTERS
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CONTROLLER_REGISTERS structure
+
 
 ## -description
 

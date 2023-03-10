@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_ProcessMode
 title: ITraceDataCollector::put_ProcessMode (pla.h)
-description: Retrieves or sets a value that indicates whether the session is a private, in-process session.
+description: Retrieves or sets a value that indicates whether the session is a private, in-process session. (Put)
 helpviewer_keywords: ["ITraceDataCollector interface [PLA]","ProcessMode property","ITraceDataCollector.ProcessMode","ITraceDataCollector.put_ProcessMode","ITraceDataCollector::ProcessMode","ITraceDataCollector::get_ProcessMode","ITraceDataCollector::put_ProcessMode","ProcessMode property [PLA]","ProcessMode property [PLA]","ITraceDataCollector interface","base.itracedatacollector_processmode","pla.itracedatacollector_processmode","pla/ITraceDataCollector::ProcessMode","pla/ITraceDataCollector::get_ProcessMode","pla/ITraceDataCollector::put_ProcessMode","put_ProcessMode"]
 old-location: pla\itracedatacollector_processmode.htm
 tech.root: PLA

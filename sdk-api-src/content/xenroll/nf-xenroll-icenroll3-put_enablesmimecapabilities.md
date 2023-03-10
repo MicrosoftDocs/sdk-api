@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.ICEnroll3.put_EnableSMIMECapabilities
 title: ICEnroll3::put_EnableSMIMECapabilities (xenroll.h)
-description: The ICEnroll4::EnableSMIMECapabilities property controls whether the PKCS
+description: The ICEnroll4::EnableSMIMECapabilities property controls whether the PKCS (Put)
 helpviewer_keywords: ["CEnroll object [Security]","EnableSMIMECapabilities property","EnableSMIMECapabilities property [Security]","EnableSMIMECapabilities property [Security]","CEnroll object","EnableSMIMECapabilities property [Security]","ICEnroll3 interface","EnableSMIMECapabilities property [Security]","ICEnroll4 interface","ICEnroll3 interface [Security]","EnableSMIMECapabilities property","ICEnroll3.EnableSMIMECapabilities","ICEnroll3.put_EnableSMIMECapabilities","ICEnroll3::get_EnableSMIMECapabilities","ICEnroll3::put_EnableSMIMECapabilities","ICEnroll4 interface [Security]","EnableSMIMECapabilities property","ICEnroll4.EnableSMIMECapabilities","ICEnroll4::EnableSMIMECapabilities","ICEnroll4::get_EnableSMIMECapabilities","ICEnroll4::put_EnableSMIMECapabilities","put_EnableSMIMECapabilities","security.icenroll4_enablesmimecapabilities","xenroll/ICEnroll3::EnableSMIMECapabilities","xenroll/ICEnroll3::get_EnableSMIMECapabilities","xenroll/ICEnroll3::put_EnableSMIMECapabilities","xenroll/ICEnroll4::EnableSMIMECapabilities","xenroll/ICEnroll4::get_EnableSMIMECapabilities","xenroll/ICEnroll4::put_EnableSMIMECapabilities"]
 old-location: security\icenroll4_enablesmimecapabilities.htm
 tech.root: security

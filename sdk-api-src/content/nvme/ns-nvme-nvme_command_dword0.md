@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_159
-tech.root: fs 
+UID: NS:nvme.NVME_COMMAND_DWORD0
+tech.root: fs
 title: NVME_COMMAND_DWORD0
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains parameters that are common for all Admin commands and NVM commands.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_COMMAND_DWORD0, *PNVME_COMMAND_DWORD0
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_COMMAND_DWORD0 structure
+
 
 ## -description
 
@@ -87,3 +88,4 @@ Specifies a unique identifier for the command when combined with the Submission 
 ## -remarks
 
 ## -see-also
+

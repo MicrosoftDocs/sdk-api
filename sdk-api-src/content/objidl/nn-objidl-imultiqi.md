@@ -1,12 +1,12 @@
 ---
 UID: NN:objidl.IMultiQI
 title: IMultiQI (objidl.h)
-description: Enables a client to query an object proxy, or handler, for multiple interfaces by using a single RPC call.
+description: The IMultiQI interface (objidl.h) enables a client to query an object proxy or handler for multiple interfaces by using a single RPC call.
 helpviewer_keywords: ["IMultiQI","IMultiQI interface [COM]","IMultiQI interface [COM]","described","_com_imultiqi","com.imultiqi","objidlbase/IMultiQI"]
 old-location: com\imultiqi.htm
 tech.root: com
 ms.assetid: 5e50396f-2931-403f-946a-dc096cb012cc
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IMultiQI, IMultiQI interface [COM], IMultiQI interface [COM],described, _com_imultiqi, com.imultiqi, objidlbase/IMultiQI
 req.header: objidl.h
 req.include-header: ObjIdl.h

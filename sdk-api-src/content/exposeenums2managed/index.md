@@ -4,7 +4,7 @@ title: Exposeenums2Managed.h header
 ms.assetid: 5cb45e6c-2148-3d2e-8f5d-3963b3bdcdee
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winprog
 f1_keywords:
  - exposeenums2managed

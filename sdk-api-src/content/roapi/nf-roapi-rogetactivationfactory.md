@@ -1,7 +1,7 @@
 ---
 UID: NF:roapi.RoGetActivationFactory
 title: RoGetActivationFactory function (roapi.h)
-description: Gets the activation factory for the specified runtime class.
+description: Gets the activation factory for the specified runtime class. (RoGetActivationFactory)
 helpviewer_keywords: ["RoGetActivationFactory","RoGetActivationFactory function [Windows Runtime]","WinRTGetActivationFactory","roapi/RoGetActivationFactory","roapi/WinRTGetActivationFactory","winrt.rogetactivationfactory","winrt.winrtgetactivationfactory"]
 old-location: winrt\rogetactivationfactory.htm
 tech.root: WinRT
@@ -42,6 +42,7 @@ api_type:
 api_location:
  - combase.dll
  - API-MS-Win-Core-Winrt-l1-1-0.dll
+ - api-ms-win-core-winrt-string-l1-1-0.dll
 api_name:
  - RoGetActivationFactory
  - WinRTGetActivationFactory

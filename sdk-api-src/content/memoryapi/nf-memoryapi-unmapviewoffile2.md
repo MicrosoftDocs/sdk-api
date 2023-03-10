@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - Kernel32.dll
+ - api-ms-win-core-memory-l1-1-5.dll
 api_name:
  - UnmapViewOfFile2
 ---

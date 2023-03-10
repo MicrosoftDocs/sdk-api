@@ -4,7 +4,7 @@ title: Sensor device driver reference
 ms.assetid: 8a7a095d-53d4-30a8-a1d2-4ef29c8a344d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Sensor device driver reference

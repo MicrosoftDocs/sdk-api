@@ -1,8 +1,8 @@
 ---
 UID: NF:imagehlp.MapFileAndCheckSumW
 title: MapFileAndCheckSumW function (imagehlp.h)
-description: Computes the checksum of the specified file.
-helpviewer_keywords: ["MapFileAndCheckSum","MapFileAndCheckSum function","MapFileAndCheckSumA","MapFileAndCheckSumW","_win32_mapfileandchecksum","base.mapfileandchecksum","imagehlp/MapFileAndCheckSum","imagehlp/MapFileAndCheckSumA","imagehlp/MapFileAndCheckSumW"]
+description: Computes the checksum of the specified file. (Unicode)
+helpviewer_keywords: ["MapFileAndCheckSum", "MapFileAndCheckSum function", "MapFileAndCheckSumW", "_win32_mapfileandchecksum", "base.mapfileandchecksum", "imagehlp/MapFileAndCheckSum", "imagehlp/MapFileAndCheckSumW"]
 old-location: base\mapfileandchecksum.htm
 tech.root: Debug
 ms.assetid: e8fac3cc-bddf-419d-a245-d7af84d2c7f7

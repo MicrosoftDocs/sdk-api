@@ -86,7 +86,7 @@ The address returned by <b>CommandLineToArgvW</b> is the address of the first el
 
 <b>CommandLineToArgvW</b> allocates a block of contiguous memory for pointers to the argument strings, and for the argument strings themselves; the calling application must free the memory used by the argument list when it is no longer needed. To free the memory, use a single call to the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
-For more information about the <i>argv</i> and <i>argc</i> argument convention, see <a href="/previous-versions/88w63h9k(v=vs.85)">Argument Definitions</a> and <a href="/previous-versions/17w5ykft(v=vs.85)">Parsing C++ Command-Line Arguments</a>.
+For more information about the <i>argv</i> and <i>argc</i> argument convention, see <a href="/previous-versions/88w63h9k(v=vs.85)">Argument Definitions</a> and <a href="/cpp/c-language/parsing-c-command-line-arguments">Parsing C Command-Line Arguments</a>.
 
 The <a href="/windows/desktop/api/processenv/nf-processenv-getcommandlinew">GetCommandLineW</a> function can be used to get a command line string that is suitable for use as the <i>lpCmdLine</i> parameter.
 

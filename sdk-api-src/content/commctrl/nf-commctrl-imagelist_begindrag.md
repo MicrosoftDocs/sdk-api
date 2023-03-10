@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.ImageList_BeginDrag
 title: ImageList_BeginDrag function (commctrl.h)
-description: Begins dragging an image.
+description: Begins dragging an image. (ImageList_BeginDrag)
 helpviewer_keywords: ["ImageList_BeginDrag","ImageList_BeginDrag function [Windows Controls]","_win32_ImageList_BeginDrag","_win32_ImageList_BeginDrag_cpp","commctrl/ImageList_BeginDrag","controls.ImageList_BeginDrag","controls._win32_ImageList_BeginDrag"]
 old-location: controls\ImageList_BeginDrag.htm
 tech.root: Controls

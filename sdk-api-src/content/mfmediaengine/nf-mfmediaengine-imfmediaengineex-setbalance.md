@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetBalance
 title: IMFMediaEngineEx::SetBalance (mfmediaengine.h)
-description: Sets the audio balance.
+description: Sets the audio balance. (IMFMediaEngineEx.SetBalance)
 helpviewer_keywords: ["IMFMediaEngineEx interface [Media Foundation]","SetBalance method","IMFMediaEngineEx.SetBalance","IMFMediaEngineEx::SetBalance","SetBalance","SetBalance method [Media Foundation]","SetBalance method [Media Foundation]","IMFMediaEngineEx interface","mf.imfmediaengineex_setbalance","mfmediaengine/IMFMediaEngineEx::SetBalance"]
 old-location: mf\imfmediaengineex_setbalance.htm
 tech.root: mf

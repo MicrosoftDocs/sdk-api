@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_SLICE_OPERATOR_DESC
 title: DML_SLICE_OPERATOR_DESC
-description: Extracts a single subregion (a "slice") of an input tensor.
+description: Extracts a single subregion (a "slice") of an input tensor. (DML_SLICE_OPERATOR_DESC)
 helpviewer_keywords: ["DML_SLICE_OPERATOR_DESC","DML_SLICE_OPERATOR_DESC structure","direct3d12.dml_slice_operator_desc","directml/DML_SLICE_OPERATOR_DESC"]
 old-location: direct3d12\dml_slice_operator_desc.htm
 tech.root: directml

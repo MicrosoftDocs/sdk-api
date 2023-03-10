@@ -59,7 +59,7 @@ The <b>IXDSCodecConfig</b> interface configures the <a href="/previous-versions/
 
 The <b>IXDSCodecConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXDSCodecConfig</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

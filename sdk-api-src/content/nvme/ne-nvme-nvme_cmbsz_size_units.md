@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_4
-tech.root: fs 
+UID: NE:nvme.NVME_CMBSZ_SIZE_UNITS
+tech.root: fs
 title: NVME_CMBSZ_SIZE_UNITS
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that specify the size units that indicate the size of the Controller Memory Buffer.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -33,6 +33,7 @@ dev_langs:
 ---
 
 # NVME_CMBSZ_SIZE_UNITS enumeration
+
 
 ## -description
 
@@ -75,3 +76,4 @@ The size of the Controller Memory Buffer indicated in the **SZ** member of the [
 ## -see-also
 
 [NVME_CONTROLLER_MEMORY_BUFFER_SIZE](ns-nvme-nvme_controller_memory_buffer_size.md) structure
+

@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.CancelWrite
 title: IDiscFormat2RawCD::CancelWrite (imapi2.h)
-description: Cancels the current write operation.
+description: Cancels the current write operation. (IDiscFormat2RawCD.CancelWrite)
 helpviewer_keywords: ["CancelWrite","CancelWrite method [IMAPI]","CancelWrite method [IMAPI]","IDiscFormat2RawCD interface","IDiscFormat2RawCD interface [IMAPI]","CancelWrite method","IDiscFormat2RawCD.CancelWrite","IDiscFormat2RawCD::CancelWrite","imapi.idiscformat2rawcd_cancelwrite","imapi2/IDiscFormat2RawCD::CancelWrite"]
 old-location: imapi\idiscformat2rawcd_cancelwrite.htm
 tech.root: imapi

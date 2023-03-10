@@ -4,7 +4,7 @@ title: Certbcli.h header
 ms.assetid: 7dfb68f5-a353-389e-8f70-11dc35667822
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: security
 f1_keywords:
  - certbcli

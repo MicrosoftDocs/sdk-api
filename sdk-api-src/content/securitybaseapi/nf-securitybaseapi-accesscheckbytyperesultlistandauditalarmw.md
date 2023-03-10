@@ -4,14 +4,14 @@ tech.root: security
 title: AccessCheckByTypeResultListAndAuditAlarmW
 ms.date: 04/20/2021
 targetos: Windows
-description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread.
+description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread. (AccessCheckByTypeResultListAndAuditAlarmW)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: Advapi32.dll 
 req.header: securitybaseapi.h
 req.idl: 
-req.include-header: 
+req.include-header: Windows.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: Advapi32.lib 

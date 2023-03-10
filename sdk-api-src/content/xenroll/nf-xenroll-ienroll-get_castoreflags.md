@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.get_CAStoreFlags
 title: IEnroll::get_CAStoreFlags (xenroll.h)
-description: The CAStoreFlags property of IEnroll4 sets or retrieves a flag that controls the certification authority (CA) store when the store is opened.
+description: The CAStoreFlags property of IEnroll4 sets or retrieves a flag that controls the certification authority (CA) store when the store is opened. (Get)
 helpviewer_keywords: ["CAStoreFlags property [Security]","CAStoreFlags property [Security]","IEnroll interface","IEnroll interface [Security]","CAStoreFlags property","IEnroll.CAStoreFlags","IEnroll.get_CAStoreFlags","IEnroll::CAStoreFlags","IEnroll::get_CAStoreFlags","IEnroll::put_CAStoreFlags","get_CAStoreFlags","security.ienroll4_castoreflags","xenroll/IEnroll::CAStoreFlags","xenroll/IEnroll::get_CAStoreFlags","xenroll/IEnroll::put_CAStoreFlags"]
 old-location: security\ienroll4_castoreflags.htm
 tech.root: security

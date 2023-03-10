@@ -6,7 +6,7 @@ helpviewer_keywords: ["CfReleaseTransferKey","CfReleaseTransferKey function","cf
 old-location: cloudapi\cfreleasetransferkey.htm
 tech.root: cloudapi
 ms.assetid: 53B40C34-EB1F-445B-B1B3-B539C2FADECE
-ms.date: 12/05/2018
+ms.date: 02/27/2023
 ms.keywords: CfReleaseTransferKey, CfReleaseTransferKey function, cfapi/CfReleaseTransferKey, cloudApi.cfreleasetransferkey
 req.header: cfapi.h
 req.include-header: 
@@ -47,10 +47,9 @@ api_name:
 
 # CfReleaseTransferKey function
 
-
 ## -description
 
-Releases a transfer key obtained by <a href="/windows/desktop/api/cfapi/nf-cfapi-cfgettransferkey">CfGetTransferKey</a>.
+Releases a transfer key obtained by [CfGetTransferKey](/windows/win32/api/cfapi/nf-cfapi-cfgettransferkey).
 
 ## -parameters
 
@@ -62,4 +61,6 @@ The file handle of the placeholder.
 
 An opaque handle to the placeholder.
 
-## -returns
+## -see-also
+
+[CfGetTransferKey](/windows/win32/api/cfapi/nf-cfapi-cfgettransferkey)

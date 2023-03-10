@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.GetFeatureMask
 title: ID3D11Debug::GetFeatureMask (d3d11sdklayers.h)
-description: Get a bitfield of flags that indicates which debug features are on or off.
+description: Get a bitfield of flags that indicates which debug features are on or off. (ID3D11Debug.GetFeatureMask)
 helpviewer_keywords: ["433c837f-7fd5-8e03-76ca-d912879e10fd","GetFeatureMask","GetFeatureMask method [Direct3D 11]","GetFeatureMask method [Direct3D 11]","ID3D11Debug interface","ID3D11Debug interface [Direct3D 11]","GetFeatureMask method","ID3D11Debug.GetFeatureMask","ID3D11Debug::GetFeatureMask","d3d11sdklayers/ID3D11Debug::GetFeatureMask","direct3d11.id3d11debug_getfeaturemask"]
 old-location: direct3d11\id3d11debug_getfeaturemask.htm
 tech.root: direct3d11

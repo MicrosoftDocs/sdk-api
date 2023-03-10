@@ -1,7 +1,7 @@
 ---
 UID: NF:objidl.IEnumMoniker.Skip
 title: IEnumMoniker::Skip (objidl.h)
-description: Skips over the specified number of items in the enumeration sequence.
+description: Skips over the specified number of items in the enumeration sequence. (IEnumMoniker.Skip)
 helpviewer_keywords: ["IEnumMoniker interface [COM]","Skip method","IEnumMoniker.Skip","IEnumMoniker::Skip","Skip","Skip method [COM]","Skip method [COM]","IEnumMoniker interface","_ole_ienummoniker_skip","com.ienummoniker_skip","objidl/IEnumMoniker::Skip"]
 old-location: com\ienummoniker_skip.htm
 tech.root: com

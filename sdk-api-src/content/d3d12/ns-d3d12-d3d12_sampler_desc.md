@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_SAMPLER_DESC
 title: D3D12_SAMPLER_DESC (d3d12.h)
-description: Describes a sampler state.
+description: Describes a sampler state. (D3D12_SAMPLER_DESC)
 helpviewer_keywords: ["D3D12_SAMPLER_DESC","D3D12_SAMPLER_DESC structure","d3d12/D3D12_SAMPLER_DESC","direct3d12.d3d12_sampler_desc"]
 old-location: direct3d12\d3d12_sampler_desc.htm
 tech.root: direct3d12

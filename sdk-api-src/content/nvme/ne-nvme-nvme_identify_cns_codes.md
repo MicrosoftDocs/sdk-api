@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_16
-tech.root: fs 
+UID: NE:nvme.NVME_IDENTIFY_CNS_CODES
+tech.root: fs
 title: NVME_IDENTIFY_CNS_CODES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate the type of controller or namespace information that will be returned in the Controller or Namespace Structure (CNS) member of the NVME_CDW10_IDENTIFY structure.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -34,6 +34,7 @@ dev_langs:
 
 # NVME_IDENTIFY_CNS_CODES enumeration
 
+
 ## -description
 
 Contains values that indicate the type of controller or namespace information that will be returned in the Controller or Namespace Structure (**CNS**) member of the Identify command [NVME_CDW10_IDENTIFY](ns-nvme-nvme_command_dword0.md) structure.
@@ -44,7 +45,7 @@ Contains values that indicate the type of controller or namespace information th
 
 Information for a specific namespace will be returned.
 
-The Identify Namespace [NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md) structure is returned to the host for the namespace specified in the Namespace Identifier (**NSID**) member of the [NVME_COMMAND](ns-nvme-nvme_command.md) structure, if the namespace is attached to this controller.
+The Identify Namespace [NVME_IDENTIFY_NAMESPACE_DATA](../nvme/ns-nvme-nvme_identify_namespace_data.md) structure is returned to the host for the namespace specified in the Namespace Identifier (**NSID**) member of the [NVME_COMMAND](ns-nvme-nvme_command.md) structure, if the namespace is attached to this controller.
 
 If the specified namespace is an inactive namespace ID, then the controller returns a zero filled data structure.
 
@@ -74,6 +75,7 @@ An [NVM_SET_LIST](ns-nvme-nvm_set_list.md) will be returned.
 
 [NVME_COMMAND](ns-nvme-nvme_command.md)
 [NVME_CDW10_IDENTIFY](ns-nvme-nvme_command_dword0.md)
-[NVME_IDENTIFY_NAMESPACE_DATA](ns-nvme-nvme_identify_namespace_data.md)
+[NVME_IDENTIFY_NAMESPACE_DATA](../nvme/ns-nvme-nvme_identify_namespace_data.md)
 [NVME_IDENTIFY_CONTROLLER_DATA](ns-nvme-nvme_identify_controller_data.md)
 [NVM_SET_LIST](ns-nvme-nvm_set_list.md)
+

@@ -4,7 +4,7 @@ title: Cscobj.h header
 ms.assetid: 9cc082e3-9819-3507-b9ff-9018d3ecc51f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: of
 f1_keywords:
  - cscobj

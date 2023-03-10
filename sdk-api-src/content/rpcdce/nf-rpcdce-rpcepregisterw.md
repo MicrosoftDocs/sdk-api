@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcEpRegisterW
 title: RpcEpRegisterW function (rpcdce.h)
-description: The RpcEpRegister function adds to or replaces server address information in the local endpoint-map database.
-helpviewer_keywords: ["RpcEpRegister","RpcEpRegister function [RPC]","RpcEpRegisterA","RpcEpRegisterW","_rpc_rpcepregister","rpc.rpcepregister","rpcdce/RpcEpRegister","rpcdce/RpcEpRegisterA","rpcdce/RpcEpRegisterW"]
+description: The RpcEpRegisterW (Unicode) function (rpcdce.h) adds to or replaces server address information in the local endpoint-map database.
+helpviewer_keywords: ["RpcEpRegister", "RpcEpRegister function [RPC]", "RpcEpRegisterW", "_rpc_rpcepregister", "rpc.rpcepregister", "rpcdce/RpcEpRegister", "rpcdce/RpcEpRegisterW"]
 old-location: rpc\rpcepregister.htm
 tech.root: Rpc
 ms.assetid: 35656cdd-b1ae-43d3-a5c7-92bdb7726d5b
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: RpcEpRegister, RpcEpRegister function [RPC], RpcEpRegisterA, RpcEpRegisterW, _rpc_rpcepregister, rpc.rpcepregister, rpcdce/RpcEpRegister, rpcdce/RpcEpRegisterA, rpcdce/RpcEpRegisterW
 req.header: rpcdce.h
 req.include-header: Rpc.h

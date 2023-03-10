@@ -1,12 +1,12 @@
 ---
 UID: NN:d3d9.IDirect3DQuery9
 title: IDirect3DQuery9 (d3d9.h)
-description: Applications use the methods of the IDirect3DQuery9 interface to perform asynchronous queries on a driver.
+description: The IDirect3DQuery9 (d3d9.h) interface applications use the methods of the IDirect3DQuery9 interface to perform asynchronous queries on a driver.
 helpviewer_keywords: ["6e601b3e-6b1d-4777-8fd2-a1c3ed1d5565","IDirect3DQuery9","IDirect3DQuery9 interface [Direct3D 9]","IDirect3DQuery9 interface [Direct3D 9]","described","d3d9helper/IDirect3DQuery9","direct3d9.idirect3dquery9"]
 old-location: direct3d9\idirect3dquery9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dquery9.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 6e601b3e-6b1d-4777-8fd2-a1c3ed1d5565, IDirect3DQuery9, IDirect3DQuery9 interface [Direct3D 9], IDirect3DQuery9 interface [Direct3D 9],described, d3d9helper/IDirect3DQuery9, direct3d9.idirect3dquery9
 req.header: d3d9.h
 req.include-header: D3D9.h

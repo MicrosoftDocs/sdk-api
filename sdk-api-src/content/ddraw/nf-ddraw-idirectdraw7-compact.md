@@ -1,7 +1,7 @@
 ---
 UID: NF:ddraw.IDirectDraw7.Compact
 title: IDirectDraw7::Compact (ddraw.h)
-description: This method is not currently implemented.
+description: This method is not currently implemented. (IDirectDraw7.Compact)
 helpviewer_keywords: ["Compact","Compact method [DirectDraw]","Compact method [DirectDraw]","IDirectDraw7 interface","IDirectDraw7 interface [DirectDraw]","Compact method","IDirectDraw7.Compact","IDirectDraw7::Compact","ddraw/IDirectDraw7::Compact","directdraw.idirectdraw7_compact"]
 old-location: directdraw\idirectdraw7_compact.htm
 tech.root: directdraw

@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_PROVIDER_LBSUPPORT_FLAG
 title: VDS_PROVIDER_LBSUPPORT_FLAG (vdshwprv.h)
-description: Specifies the set of valid flags for indicating which load balance policies a hardware provider supports.
+description: The VDS_PROVIDER_LBSUPPORT_FLAG enumeration (vdshwprv.h) specifies the set of valid flags for indicating which load balance policies a hardware provider supports. 
 helpviewer_keywords: ["VDS_LBF_DYN_LEAST_QUEUE_DEPTH","VDS_LBF_FAILOVER","VDS_LBF_LEAST_BLOCKS","VDS_LBF_ROUND_ROBIN","VDS_LBF_ROUND_ROBIN_WITH_SUBSET","VDS_LBF_VENDOR_SPECIFIC","VDS_LBF_WEIGHTED_PATHS","VDS_PROVIDER_LBSUPPORT_FLAG","VDS_PROVIDER_LBSUPPORT_FLAG enumeration [VDS]","base.vds_provider_lbsupport_flag","vds/VDS_LBF_DYN_LEAST_QUEUE_DEPTH","vds/VDS_LBF_FAILOVER","vds/VDS_LBF_LEAST_BLOCKS","vds/VDS_LBF_ROUND_ROBIN","vds/VDS_LBF_ROUND_ROBIN_WITH_SUBSET","vds/VDS_LBF_VENDOR_SPECIFIC","vds/VDS_LBF_WEIGHTED_PATHS","vds/VDS_PROVIDER_LBSUPPORT_FLAG","vdshwprv/VDS_LBF_DYN_LEAST_QUEUE_DEPTH","vdshwprv/VDS_LBF_FAILOVER","vdshwprv/VDS_LBF_LEAST_BLOCKS","vdshwprv/VDS_LBF_ROUND_ROBIN","vdshwprv/VDS_LBF_ROUND_ROBIN_WITH_SUBSET","vdshwprv/VDS_LBF_VENDOR_SPECIFIC","vdshwprv/VDS_LBF_WEIGHTED_PATHS","vdshwprv/VDS_PROVIDER_LBSUPPORT_FLAG"]
 old-location: base\vds_provider_lbsupport_flag.htm
 tech.root: base
 ms.assetid: bfc9aabf-b9ce-4b36-b68a-b74628092962
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: VDS_LBF_DYN_LEAST_QUEUE_DEPTH, VDS_LBF_FAILOVER, VDS_LBF_LEAST_BLOCKS, VDS_LBF_ROUND_ROBIN, VDS_LBF_ROUND_ROBIN_WITH_SUBSET, VDS_LBF_VENDOR_SPECIFIC, VDS_LBF_WEIGHTED_PATHS, VDS_PROVIDER_LBSUPPORT_FLAG, VDS_PROVIDER_LBSUPPORT_FLAG enumeration [VDS], base.vds_provider_lbsupport_flag, vds/VDS_LBF_DYN_LEAST_QUEUE_DEPTH, vds/VDS_LBF_FAILOVER, vds/VDS_LBF_LEAST_BLOCKS, vds/VDS_LBF_ROUND_ROBIN, vds/VDS_LBF_ROUND_ROBIN_WITH_SUBSET, vds/VDS_LBF_VENDOR_SPECIFIC, vds/VDS_LBF_WEIGHTED_PATHS, vds/VDS_PROVIDER_LBSUPPORT_FLAG, vdshwprv/VDS_LBF_DYN_LEAST_QUEUE_DEPTH, vdshwprv/VDS_LBF_FAILOVER, vdshwprv/VDS_LBF_LEAST_BLOCKS, vdshwprv/VDS_LBF_ROUND_ROBIN, vdshwprv/VDS_LBF_ROUND_ROBIN_WITH_SUBSET, vdshwprv/VDS_LBF_VENDOR_SPECIFIC, vdshwprv/VDS_LBF_WEIGHTED_PATHS, vdshwprv/VDS_PROVIDER_LBSUPPORT_FLAG
 req.header: vdshwprv.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Specifies the set of valid flags for indicating which load balance policies a hardware provider 
     supports.

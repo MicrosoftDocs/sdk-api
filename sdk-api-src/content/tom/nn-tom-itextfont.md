@@ -1,7 +1,7 @@
 ---
 UID: NN:tom.ITextFont
 title: ITextFont (tom.h)
-description: Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, ITextFont and ITextPara.
+description: Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, ITextFont and ITextPara. (ITextFont)
 helpviewer_keywords: ["ITextFont","ITextFont interface [Windows Controls]","ITextFont interface [Windows Controls]","described","_win32_ITextFont","_win32_ITextFont_cpp","controls.ITextFont","controls._win32_ITextFont","tom/ITextFont"]
 old-location: controls\ITextFont.htm
 tech.root: Controls

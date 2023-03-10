@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.IEnumRangeExceptions.Clone
 title: IEnumRangeExceptions::Clone (winsync.h)
-description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
+description: Clones the enumerator and returns a new enumerator that is in the same state as the current one. (IEnumRangeExceptions.Clone)
 helpviewer_keywords: ["Clone","Clone method [Windows Sync]","Clone method [Windows Sync]","IEnumRangeExceptions interface","IEnumRangeExceptions interface [Windows Sync]","Clone method","IEnumRangeExceptions.Clone","IEnumRangeExceptions::Clone","winsync.ienumrangeexceptions_clone","winsync/IEnumRangeExceptions::Clone"]
 old-location: winsync\ienumrangeexceptions_clone.htm
 tech.root: winsync

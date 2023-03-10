@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_13
+UID: NE:webservices.WS_XML_WRITER_OUTPUT_TYPE
 title: WS_XML_WRITER_OUTPUT_TYPE (webservices.h)
 description: The type of WS_XML_WRITER_OUTPUT structure.
 helpviewer_keywords: ["WS_XML_WRITER_OUTPUT_TYPE","WS_XML_WRITER_OUTPUT_TYPE enumeration [Web Services for Windows]","WS_XML_WRITER_OUTPUT_TYPE_BUFFER","WS_XML_WRITER_OUTPUT_TYPE_STREAM","webservices/WS_XML_WRITER_OUTPUT_TYPE","webservices/WS_XML_WRITER_OUTPUT_TYPE_BUFFER","webservices/WS_XML_WRITER_OUTPUT_TYPE_STREAM","wsw.ws_xml_writer_output_type"]
@@ -57,3 +57,4 @@ The type of <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_writ
 ### -field WS_XML_WRITER_OUTPUT_TYPE_BUFFER:1
 
 ### -field WS_XML_WRITER_OUTPUT_TYPE_STREAM:2
+

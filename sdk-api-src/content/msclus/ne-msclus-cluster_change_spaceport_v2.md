@@ -1,12 +1,12 @@
 ---
 UID: NE:msclus.CLUSTER_CHANGE_SPACEPORT_V2
 title: CLUSTER_CHANGE_SPACEPORT_V2 (msclus.h)
-description: TBD.
+description: The CLUSTER_CHANGE_SPACEPORT_V2 enumeration (msclus.h) is related to failover clusters, with more information to be determined.
 helpviewer_keywords: ["CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2","CLUSTER_CHANGE_SPACEPORT_V2","CLUSTER_CHANGE_SPACEPORT_V2 enumeration [Failover Cluster]","clusapi/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2","clusapi/CLUSTER_CHANGE_SPACEPORT_V2","msclus/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2","msclus/CLUSTER_CHANGE_SPACEPORT_V2","mscs.cluster_change_spaceport_v2"]
 old-location: mscs\cluster_change_spaceport_v2.htm
 tech.root: MsCS
 ms.assetid: CB4E924B-50E5-4637-8D1C-2A195EF67966
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2, CLUSTER_CHANGE_SPACEPORT_V2, CLUSTER_CHANGE_SPACEPORT_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2, clusapi/CLUSTER_CHANGE_SPACEPORT_V2, msclus/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2, msclus/CLUSTER_CHANGE_SPACEPORT_V2, mscs.cluster_change_spaceport_v2
 req.header: msclus.h
 req.include-header: 

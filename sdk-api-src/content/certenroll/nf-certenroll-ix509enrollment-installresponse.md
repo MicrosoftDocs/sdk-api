@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509Enrollment.InstallResponse
 title: IX509Enrollment::InstallResponse (certenroll.h)
-description: Installs a certificate chain on the end-entity computer.
+description: Installs a certificate chain on the end-entity computer. (IX509Enrollment.InstallResponse)
 helpviewer_keywords: ["AllowNoOutstandingRequest","AllowNone","AllowUntrustedCertificate","AllowUntrustedRoot","IX509Enrollment interface [Security]","InstallResponse method","IX509Enrollment.InstallResponse","IX509Enrollment::InstallResponse","InstallResponse","InstallResponse method [Security]","InstallResponse method [Security]","IX509Enrollment interface","certenroll/IX509Enrollment::InstallResponse","security.ix509enrollment_installresponse_method"]
 old-location: security\ix509enrollment_installresponse_method.htm
 tech.root: security

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.INewShortcutHookW.GetName
 title: INewShortcutHookW::GetName (shlobj.h)
-description: Gets the file name of the shortcut object, without the extension.
+description: Gets the file name of the shortcut object, without the extension. (Unicode)
 helpviewer_keywords: ["GetName","GetName method [Windows Shell]","GetName method [Windows Shell]","INewShortcutHook interface","INewShortcutHook interface [Windows Shell]","GetName method","INewShortcutHook::GetName","INewShortcutHookA","INewShortcutHookA::GetName","INewShortcutHookW","INewShortcutHookW.GetName","INewShortcutHookW::GetName","_win32_INewShortcutHook_GetName","shell.INewShortcutHook_GetName","shlobj/INewShortcutHook::GetName"]
 old-location: shell\INewShortcutHook_GetName.htm
 tech.root: shell

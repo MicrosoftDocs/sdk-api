@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.BoundingOrientedBox
 title: BoundingOrientedBox::BoundingOrientedBox
-description: Creates an instance of BoundingOrientedBox.
+description: Creates an instance of BoundingOrientedBox. (BoundingOrientedBox.BoundingOrientedBox)
 helpviewer_keywords: ["BoundingOrientedBox","BoundingOrientedBox constructor [DirectX Math Support APIs]","BoundingOrientedBox constructor [DirectX Math Support APIs]","BoundingOrientedBox interface","BoundingOrientedBox interface [DirectX Math Support APIs]","BoundingOrientedBox constructor","BoundingOrientedBox.BoundingOrientedBox","BoundingOrientedBox.BoundingOrientedBox()","BoundingOrientedBox::BoundingOrientedBox","dxmath.boundingorientedbox_ctor_2"]
 old-location: dxmath\boundingorientedbox_ctor_2.htm
 tech.root: dxmath

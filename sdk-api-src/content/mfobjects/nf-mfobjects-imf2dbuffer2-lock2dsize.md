@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer2.Lock2DSize
 title: IMF2DBuffer2::Lock2DSize (mfobjects.h)
-description: Gives the caller access to the memory in the buffer.
+description: Gives the caller access to the memory in the buffer. (IMF2DBuffer2.Lock2DSize)
 helpviewer_keywords: ["IMF2DBuffer2 interface [Media Foundation]","Lock2DSize method","IMF2DBuffer2.Lock2DSize","IMF2DBuffer2::Lock2DSize","Lock2DSize","Lock2DSize method [Media Foundation]","Lock2DSize method [Media Foundation]","IMF2DBuffer2 interface","mf.imf2dbuffer2_lock2dsize","mfobjects/IMF2DBuffer2::Lock2DSize"]
 old-location: mf\imf2dbuffer2_lock2dsize.htm
 tech.root: mf

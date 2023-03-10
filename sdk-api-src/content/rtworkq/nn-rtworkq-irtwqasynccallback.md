@@ -1,7 +1,7 @@
 ---
 UID: NN:rtworkq.IRtwqAsyncCallback
 title: IRtwqAsyncCallback (rtworkq.h)
-description: Callback interface to notify the application when an asynchronous method completes.
+description: Callback interface to notify the application when an asynchronous method completes. (IRtwqAsyncCallback)
 helpviewer_keywords: ["IRtwqAsyncCallback","IRtwqAsyncCallback interface","IRtwqAsyncCallback interface","described","base.irtwqasynccallback","rtworkq/IRtwqAsyncCallback"]
 old-location: base\irtwqasynccallback.htm
 tech.root: backup

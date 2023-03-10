@@ -4,7 +4,7 @@ title: Cscapi.h header
 ms.assetid: 598b385b-173a-3709-a828-b99a978ee252
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: of
 f1_keywords:
  - cscapi

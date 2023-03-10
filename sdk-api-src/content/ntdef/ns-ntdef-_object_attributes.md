@@ -245,9 +245,7 @@ Driver routines that run in a process context other than that of the system proc
 
 
 <a href="/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
-�
 
-�
 
 
 f1_keywords: 

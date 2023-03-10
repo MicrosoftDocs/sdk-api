@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.ICancelMethodCalls.TestCancel
 title: ICancelMethodCalls::TestCancel (objidl.h)
-description: Determines whether a call has been canceled.
+description: The ICancelMethodCalls::TestCancel method (objidl.h) determines whether a call has been canceled.
 helpviewer_keywords: ["ICancelMethodCalls interface [COM]","TestCancel method","ICancelMethodCalls.TestCancel","ICancelMethodCalls::TestCancel","TestCancel","TestCancel method [COM]","TestCancel method [COM]","ICancelMethodCalls interface","_com_icancelmethodcalls_testcancel","com.icancelmethodcalls_testcancel","objidlbase/ICancelMethodCalls::TestCancel"]
 old-location: com\icancelmethodcalls_testcancel.htm
 tech.root: com
 ms.assetid: 31141d97-241e-4717-b707-e37d86c2267d
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: ICancelMethodCalls interface [COM],TestCancel method, ICancelMethodCalls.TestCancel, ICancelMethodCalls::TestCancel, TestCancel, TestCancel method [COM], TestCancel method [COM],ICancelMethodCalls interface, _com_icancelmethodcalls_testcancel, com.icancelmethodcalls_testcancel, objidlbase/ICancelMethodCalls::TestCancel
 req.header: objidl.h
 req.include-header: ObjIdl.h

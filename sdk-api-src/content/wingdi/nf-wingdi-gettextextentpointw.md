@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.GetTextExtentPointW
 title: GetTextExtentPointW function (wingdi.h)
-description: The GetTextExtentPoint function computes the width and height of the specified string of text.
-helpviewer_keywords: ["GetTextExtentPoint","GetTextExtentPoint function [Windows GDI]","GetTextExtentPointA","GetTextExtentPointW","_win32_GetTextExtentPoint","gdi.gettextextentpoint","wingdi/GetTextExtentPoint","wingdi/GetTextExtentPointA","wingdi/GetTextExtentPointW"]
+description: The GetTextExtentPoint function computes the width and height of the specified string of text. (Unicode)
+helpviewer_keywords: ["GetTextExtentPoint", "GetTextExtentPoint function [Windows GDI]", "GetTextExtentPointW", "_win32_GetTextExtentPoint", "gdi.gettextextentpoint", "wingdi/GetTextExtentPoint", "wingdi/GetTextExtentPointW"]
 old-location: gdi\gettextextentpoint.htm
 tech.root: gdi
 ms.assetid: 731085ce-009d-42e1-885f-2f5151e0f6d3
@@ -78,7 +78,7 @@ The <a href="/windows/desktop/gdi/specifying-length-of-text-output-string">lengt
 
 ### -param lpsz [out]
 
-A pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the dimensions of the string, in logical units.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that receives the dimensions of the string, in logical units.
 
 ## -returns
 
@@ -115,7 +115,7 @@ The calculated string width takes into account the intercharacter spacing set by
 
 
 
-<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
+<a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>
 
 
 

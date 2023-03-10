@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupDiGetHwProfileFriendlyNameExA
 title: SetupDiGetHwProfileFriendlyNameExA function (setupapi.h)
-description: The SetupDiGetHwProfileFriendlyNameEx function retrieves the friendly name associated with a hardware profile ID on a local or remote computer.
-helpviewer_keywords: ["SetupDiGetHwProfileFriendlyNameEx","SetupDiGetHwProfileFriendlyNameEx function [Device and Driver Installation]","SetupDiGetHwProfileFriendlyNameExA","SetupDiGetHwProfileFriendlyNameExW","devinst.setupdigethwprofilefriendlynameex","di-rtns_43d54c1e-047c-491c-93a1-cd5eff918a58.xml","setupapi/SetupDiGetHwProfileFriendlyNameEx"]
+description: The SetupDiGetHwProfileFriendlyNameEx function retrieves the friendly name associated with a hardware profile ID on a local or remote computer. (ANSI)
+helpviewer_keywords: ["SetupDiGetHwProfileFriendlyNameExA", "di-rtns_43d54c1e-047c-491c-93a1-cd5eff918a58.xml"]
 old-location: devinst\setupdigethwprofilefriendlynameex.htm
 tech.root: devinst
 ms.assetid: 839c1e4c-cfa6-4f59-979c-24623a040d5c
-ms.date: 12/05/2018
+ms.date: 01/30/2023
 ms.keywords: SetupDiGetHwProfileFriendlyNameEx, SetupDiGetHwProfileFriendlyNameEx function [Device and Driver Installation], SetupDiGetHwProfileFriendlyNameExA, SetupDiGetHwProfileFriendlyNameExW, devinst.setupdigethwprofilefriendlynameex, di-rtns_43d54c1e-047c-491c-93a1-cd5eff918a58.xml, setupapi/SetupDiGetHwProfileFriendlyNameEx
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -75,6 +75,9 @@ A pointer to a variable to receive the number of characters required to store th
 ### -param MachineName [in, optional]
 
 A pointer to NULL-terminated string that contains the name of a remote computer on which the hardware profile ID resides. This parameter is optional and can be <b>NULL</b>. If <i>MachineName</i> is <b>NULL</b>, the hardware profile ID is on the local computer.
+
+> [!CAUTION]
+> Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.
 
 ### -param Reserved
 

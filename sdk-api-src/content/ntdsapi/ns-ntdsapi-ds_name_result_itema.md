@@ -1,7 +1,7 @@
 ---
-UID: NS:ntdsapi.__unnamed_struct_0
+UID: NS:ntdsapi.DS_NAME_RESULT_ITEMA
 title: DS_NAME_RESULT_ITEMA (ntdsapi.h)
-description: The DS_NAME_RESULT_ITEM structure contains a name converted by the DsCrackNames function, along with associated error and domain data.
+description: The DS_NAME_RESULT_ITEM structure contains a name converted by the DsCrackNames function, along with associated error and domain data. (ANSI)
 helpviewer_keywords: ["*PDS_NAME_RESULT_ITEMA","DS_NAME_RESULT_ITEM","DS_NAME_RESULT_ITEM structure [Active Directory]","DS_NAME_RESULT_ITEMA","DS_NAME_RESULT_ITEMW","PDS_NAME_RESULT_ITEM","PDS_NAME_RESULT_ITEM structure pointer [Active Directory]","_glines_ds_name_result_item","ad.ds__name__result__item","ad.ds_name_result_item","ntdsapi/DS_NAME_RESULT_ITEM","ntdsapi/DS_NAME_RESULT_ITEMA","ntdsapi/DS_NAME_RESULT_ITEMW","ntdsapi/PDS_NAME_RESULT_ITEM"]
 old-location: ad\ds_name_result_item.htm
 tech.root: ad
@@ -97,3 +97,4 @@ The <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a>
+

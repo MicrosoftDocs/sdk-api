@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_54
+UID: NE:webservices.WS_SECURE_CONVERSATION_VERSION
 title: WS_SECURE_CONVERSATION_VERSION (webservices.h)
 description: Defines the WS-SecureConversation specification version to be used with message security and mixed-mode security.
 helpviewer_keywords: ["WS_SECURE_CONVERSATION_VERSION","WS_SECURE_CONVERSATION_VERSION enumeration [Web Services for Windows]","WS_SECURE_CONVERSATION_VERSION_1_3","WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005","webservices/WS_SECURE_CONVERSATION_VERSION","webservices/WS_SECURE_CONVERSATION_VERSION_1_3","webservices/WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005","wsw.ws_secure_conversation_version"]

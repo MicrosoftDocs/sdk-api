@@ -2,9 +2,9 @@
 UID: NF:mfidl.IMFCameraControlMonitor.Shutdown
 tech.root: mf
 title: IMFCameraControlMonitor::Shutdown
-ms.date: 05/03/2022
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The IMFCameraControlMonitor::Shutdown function shuts down the camera control monitor and cleans up associated resources.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -49,6 +49,8 @@ Shuts down the camera control monitor and cleans up associated resources.
 ## -remarks
 
 Clients are not required to call [Stop](nf-mfidl-imfcameracontrolmonitor-stop.md) before calling **Shutdown**. After calling **Shutdown** subsequent calls to [Start](nf-mfidl-imfcameracontrolmonitor-start.md), [Stop](nf-mfidl-imfcameracontrolmonitor-stop.md), [AddControlSubscription](nf-mfidl-imfcameracontrolmonitor-addcontrolsubscription.md), or [RemoveControlSubscription](nf-mfidl-imfcameracontrolmonitor-addcontrolsubscription.md) will result in an error.
+
+To see a code example that implements this method, see [IMFCameraControlNotify](nn-mfidl-imfcameracontrolnotify.md).
 
 ## -see-also
 

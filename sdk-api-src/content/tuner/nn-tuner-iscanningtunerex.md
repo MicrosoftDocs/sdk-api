@@ -59,7 +59,7 @@ The <b>IScanningTunerEx</b> interface is an extended version of <a href="/previo
 
 The <b>IScanningTunerEx</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtuner">IScanningTuner</a>. <b>IScanningTunerEx</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

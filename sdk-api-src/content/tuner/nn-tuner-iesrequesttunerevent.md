@@ -56,7 +56,7 @@ Contains methods that enable a Protected Broadcast Driver Architecture (PBDA)-su
 
 The <b>IESRequestTunerEvent</b> interface inherits from <b>IESEvent</b>. <b>IESRequestTunerEvent</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

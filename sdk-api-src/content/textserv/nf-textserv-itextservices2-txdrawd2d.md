@@ -62,7 +62,7 @@ The Direct2D rendering object that draws the text services object.
 
 ### -param lprcBounds
 
-Type: <b><a href="/previous-versions/dd162907(v=vs.85)">LPCRECTL</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-rectl">LPCRECTL</a></b>
 
 The bounding (client) rectangle.
 

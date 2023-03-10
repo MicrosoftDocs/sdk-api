@@ -1,8 +1,8 @@
 ---
 UID: NF:processenv.ExpandEnvironmentStringsA
 title: ExpandEnvironmentStringsA function (processenv.h)
-description: Expands environment-variable strings and replaces them with the values defined for the current user.
-helpviewer_keywords: ["ExpandEnvironmentStrings","ExpandEnvironmentStrings function","ExpandEnvironmentStringsA","ExpandEnvironmentStringsW","_win32_expandenvironmentstrings","base.expandenvironmentstrings","processenv/ExpandEnvironmentStrings","processenv/ExpandEnvironmentStringsA","processenv/ExpandEnvironmentStringsW"]
+description: Expands environment-variable strings and replaces them with the values defined for the current user. (ANSI)
+helpviewer_keywords: ["ExpandEnvironmentStringsA", "processenv/ExpandEnvironmentStringsA"]
 old-location: base\expandenvironmentstrings.htm
 tech.root: winprog
 ms.assetid: b563e8ed-311d-4971-94f3-9c9fde4a2f30

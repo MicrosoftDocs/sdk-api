@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11DepthStencilView
 title: ID3D11DepthStencilView (d3d11.h)
-description: A depth-stencil-view interface accesses a texture resource during depth-stencil testing.
+description: A depth-stencil-view interface accesses a texture resource during depth-stencil testing. (ID3D11DepthStencilView)
 helpviewer_keywords: ["5e846266-8e0b-d52b-2f70-8936cbeb0bd1","ID3D11DepthStencilView","ID3D11DepthStencilView interface [Direct3D 11]","ID3D11DepthStencilView interface [Direct3D 11]","described","d3d11/ID3D11DepthStencilView","direct3d11.id3d11depthstencilview"]
 old-location: direct3d11\id3d11depthstencilview.htm
 tech.root: direct3d11

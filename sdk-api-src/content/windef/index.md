@@ -4,7 +4,7 @@ title: Windef.h header
 ms.assetid: d38cdf1b-ef65-394e-984c-8776732b0365
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: gdi
 f1_keywords:
  - windef

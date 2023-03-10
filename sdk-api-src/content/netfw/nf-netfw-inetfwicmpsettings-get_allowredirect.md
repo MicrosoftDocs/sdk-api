@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.get_AllowRedirect
 title: INetFwIcmpSettings::get_AllowRedirect (netfw.h)
-description: Indicates whether redirect is allowed.
+description: Indicates whether redirect is allowed. (Get)
 helpviewer_keywords: ["AllowRedirect property [ICS/ICF]","AllowRedirect property [ICS/ICF]","INetFwIcmpSettings interface","INetFwIcmpSettings interface [ICS/ICF]","AllowRedirect property","INetFwIcmpSettings.AllowRedirect","INetFwIcmpSettings.get_AllowRedirect","INetFwIcmpSettings::AllowRedirect","INetFwIcmpSettings::get_AllowRedirect","INetFwIcmpSettings::put_AllowRedirect","get_AllowRedirect","ics.inetfwicmpsettings_allowredirect","netfw/INetFwIcmpSettings::AllowRedirect","netfw/INetFwIcmpSettings::get_AllowRedirect","netfw/INetFwIcmpSettings::put_AllowRedirect"]
 old-location: ics\inetfwicmpsettings_allowredirect.htm
 tech.root: ics

@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Query_And_Remove_SubTreeA
 ms.date: 04/13/2021
 targetos: Windows
-description: The CM_Query_And_Remove_SubTree function checks whether a device instance and its children can be removed and, if so, it removes them.
+description: The CM_Query_And_Remove_SubTree function checks whether a device instance and its children can be removed and, if so, it removes them. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

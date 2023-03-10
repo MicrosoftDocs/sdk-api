@@ -2,7 +2,7 @@
 UID: NN:wtsprotocol.IWRdsEnhancedFastReconnectArbitrator
 tech.root: TermServ
 title: IWRdsEnhancedFastReconnectArbitrator
-ms.date: 
+ms.date: 10/06/2021
 ms.topic: language-reference
 targetos: Windows
 description: Exposes a method called by the Remote Desktop Services service to obtain the session ID that is to be reconnected to in the enhanced fast reconnect sequence.

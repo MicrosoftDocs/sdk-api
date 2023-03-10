@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.wsprintfA
 title: wsprintfA function (winuser.h)
-description: Writes formatted data to the specified buffer.
-helpviewer_keywords: ["_win32_wsprintf","_win32_wsprintf_cpp","menurc.wsprintf","winui._win32_wsprintf","winuser/wsprintf","winuser/wsprintfA","winuser/wsprintfW","wsprintf","wsprintf function [Menus and Other Resources]","wsprintfA","wsprintfW"]
+description: Writes formatted data to the specified buffer. (ANSI)
+helpviewer_keywords: ["winuser/wsprintfA", "wsprintfA"]
 old-location: menurc\wsprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\wsprintf.htm

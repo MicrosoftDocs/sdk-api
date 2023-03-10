@@ -45,6 +45,7 @@ api_location:
  - API-MS-Win-Core-rtlsupport-l1-1-0.dll
  - ntdll.dll
  - API-MS-Win-Core-rtlsupport-l1-2-0.dll
+ - ntoskrnl.exe
 api_name:
  - RtlUnwindEx
 ---

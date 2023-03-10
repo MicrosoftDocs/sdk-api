@@ -1,8 +1,8 @@
 ---
 UID: NF:psapi.GetModuleBaseNameA
 title: GetModuleBaseNameA function (psapi.h)
-description: Retrieves the base name of the specified module.
-helpviewer_keywords: ["GetModuleBaseName","GetModuleBaseName function [PSAPI]","GetModuleBaseNameA","GetModuleBaseNameW","K32GetModuleBaseName","K32GetModuleBaseNameA","K32GetModuleBaseNameW","_win32_getmodulebasename","base.getmodulebasename","psapi.getmodulebasename","psapi/GetModuleBaseName","psapi/GetModuleBaseNameA","psapi/GetModuleBaseNameW","psapi/K32GetModuleBaseName","psapi/K32GetModuleBaseNameA","psapi/K32GetModuleBaseNameW"]
+description: Retrieves the base name of the specified module. (ANSI)
+helpviewer_keywords: ["GetModuleBaseNameA", "K32GetModuleBaseNameA", "psapi/GetModuleBaseNameA", "psapi/K32GetModuleBaseNameA"]
 old-location: psapi\getmodulebasename.htm
 tech.root: psapi
 ms.assetid: 31a9eb69-95f0-4dd7-8fd5-296f2cff0b8a

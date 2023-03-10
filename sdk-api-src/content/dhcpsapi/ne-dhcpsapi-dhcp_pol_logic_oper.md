@@ -1,5 +1,5 @@
 ---
-UID: NE:dhcpsapi.__unnamed_enum_4
+UID: NE:dhcpsapi.DHCP_POL_LOGIC_OPER
 title: DHCP_POL_LOGIC_OPER (dhcpsapi.h)
 description: The DHCP_POL_LOGIC_OPER enumeration defines how to group the constituent conditions and sub-expressions of an expression in a DHCP server policy.
 helpviewer_keywords: ["DHCP_POL_LOGIC_OPER","DHCP_POL_LOGIC_OPER enumeration [DHCP]","DhcpLogicalAnd","DhcpLogicalOr","dhcp.dhcp_pol_logic_oper","dhcpsapi/DHCP_POL_LOGIC_OPER","dhcpsapi/DhcpLogicalAnd","dhcpsapi/DhcpLogicalOr"]
@@ -77,3 +77,4 @@ The results of the constituent conditions and sub-expressions must be logically 
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcphlprmodifyv4policyexpr">DhcpHlprModifyV4PolicyExpr</a>
+

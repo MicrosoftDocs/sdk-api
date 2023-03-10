@@ -4,7 +4,7 @@ title: Sensevts.h header
 ms.assetid: a4cf7dfb-e50b-30c0-939b-550e3e803e8a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: sens
 f1_keywords:
  - sensevts

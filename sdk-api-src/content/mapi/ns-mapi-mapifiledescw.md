@@ -1,5 +1,5 @@
 ---
-UID: NS:mapi.__unnamed_struct_1
+UID: NS:mapi.MapiFileDescW
 title: MapiFileDescW (mapi.h)
 description: A MapiFileDescW structure contains information about a file containing a message attachment stored as a temporary file. That file can contain a static OLE object, an embedded OLE object, an embedded message, and other types of files.
 helpviewer_keywords: ["*lpMapiFileDescW","MAPI_OLE","MAPI_OLE_STATIC","MapiFileDescW","MapiFileDescW structure","lpMapiFileDescW","lpMapiFileDescW structure pointer","mapi.mapifiledescw","mapi/MapiFileDescW","mapi/lpMapiFileDescW"]
@@ -165,3 +165,4 @@ When using the <b>MapiFileDescW</b> member <b>nPosition</b>, the client applicat
 
 
 <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a>
+

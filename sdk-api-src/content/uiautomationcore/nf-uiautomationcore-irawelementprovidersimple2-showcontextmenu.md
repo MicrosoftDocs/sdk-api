@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderSimple2.ShowContextMenu
 title: IRawElementProviderSimple2::ShowContextMenu (uiautomationcore.h)
-description: Programmatically invokes a context menu on the target element.
+description: Programmatically invokes a context menu on the target element. (IRawElementProviderSimple2.ShowContextMenu)
 helpviewer_keywords: ["IRawElementProviderSimple2 interface [Windows Accessibility]","ShowContextMenu method","IRawElementProviderSimple2.ShowContextMenu","IRawElementProviderSimple2::ShowContextMenu","ShowContextMenu","ShowContextMenu method [Windows Accessibility]","ShowContextMenu method [Windows Accessibility]","IRawElementProviderSimple2 interface","uiautomationcore/IRawElementProviderSimple2::ShowContextMenu","winauto.uiauto_IRawElementProviderSimple2_ShowContextMenu"]
 old-location: winauto\uiauto_IRawElementProviderSimple2_ShowContextMenu.htm
 tech.root: WinAuto

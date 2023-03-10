@@ -1,8 +1,8 @@
 ---
-UID: NE:nvme.__unnamed_enum_45
-tech.root: fs 
+UID: NE:nvme.NVME_DIRECTIVE_TYPES
+tech.root: fs
 title: NVME_DIRECTIVE_TYPES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains values that indicate a type of directive.
@@ -12,7 +12,7 @@ req.header: nvme.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -34,6 +34,7 @@ dev_langs:
 
 # NVME_DIRECTIVE_TYPES enumeration
 
+
 ## -description
 
 Contains values that indicate a type of directive.
@@ -51,5 +52,4 @@ A directive for a Streams operation.
 ## -remarks
 
 ## -see-also
-
 

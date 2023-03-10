@@ -1,7 +1,7 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_Count
 title: ICatalogCollection::get_Count (comadmin.h)
-description: Retrieves the number of items in the collection.
+description: Retrieves the number of items in the collection. (ICatalogCollection.get_Count)
 helpviewer_keywords: ["Count property [COM+]","Count property [COM+]","ICatalogCollection interface","ICatalogCollection interface [COM+]","Count property","ICatalogCollection.Count","ICatalogCollection.get_Count","ICatalogCollection::Count","ICatalogCollection::get_Count","_cos_ICatalogCollection_get_Count","comadmin/ICatalogCollection::Count","comadmin/ICatalogCollection::get_Count","cos.icatalogcollection_count","get_Count"]
 old-location: cos\icatalogcollection_count.htm
 tech.root: cos

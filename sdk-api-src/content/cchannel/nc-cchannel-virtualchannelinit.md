@@ -67,7 +67,7 @@ Pointer to a variable that receives a handle that identifies the client connecti
 
 ### -param pChannel [in, out]
 
-Pointer to an array of <a href="/windows/desktop/api/pchannel/ns-pchannel-tagchannel_def">CHANNEL_DEF</a> 
+Pointer to an array of <a href="/previous-versions/windows/embedded/aa513856(v=msdn.10)">CHANNEL_DEF</a> 
       structures. Each structure contains the name and initialization options of a virtual channel that the client 
       DLL will open. Note that the <b>VirtualChannelInit</b> call does not open these 
       virtual channels; it only reserves the names for use by this application.
@@ -109,14 +109,14 @@ You should not make assumptions about the number of available virtual channels b
    <b>CHANNEL_RC_TOO_MANY_CHANNELS</b> return code after calling this function.
 
 When <b>VirtualChannelInit</b> returns, the <b>options</b> member of each 
-   <a href="/windows/desktop/api/pchannel/ns-pchannel-tagchannel_def">CHANNEL_DEF</a> structure includes 
+   <a href="/previous-versions/windows/embedded/aa513856(v=msdn.10)">CHANNEL_DEF</a> structure includes 
    <b>CHANNEL_OPTION_INITIALIZED</b> if the channel was successfully initialized.
 
 The maximum number of channels per client session is <b>CHANNEL_MAX_COUNT</b>.
 
 ## -see-also
 
-<a href="/windows/desktop/api/pchannel/ns-pchannel-tagchannel_def">CHANNEL_DEF</a>
+<a href="/previous-versions/windows/embedded/aa513856(v=msdn.10)">CHANNEL_DEF</a>
 
 
 

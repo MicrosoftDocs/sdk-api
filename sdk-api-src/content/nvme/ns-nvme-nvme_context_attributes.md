@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_143
-tech.root: fs 
+UID: NS:nvme.NVME_CONTEXT_ATTRIBUTES
+tech.root: fs
 title: NVME_CONTEXT_ATTRIBUTES
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Specifies optional context attributes for a logical block range (LBA range).
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CONTEXT_ATTRIBUTES, *PNVME_CONTEXT_ATTRIBUTES
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_CONTEXT_ATTRIBUTES structure
+
 
 ## -description
 

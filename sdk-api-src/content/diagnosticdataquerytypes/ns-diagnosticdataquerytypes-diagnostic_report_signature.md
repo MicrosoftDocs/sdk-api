@@ -51,7 +51,7 @@ A string that specifies the name of this application event.
 
 ### -field parameters
 
-Type: **[DIAGNOSTIC_DATA_REPORT_PARAMETER\[\]](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_report_parameter)**
+Type: **[DIAGNOSTIC_DATA_REPORT_PARAMETER\[\]](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_report_parameter)**
 A list of parameters for this report.
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10Debug.GetFeatureMask
 title: ID3D10Debug::GetFeatureMask (d3d10sdklayers.h)
-description: Get a bitfield of flags that indicates which debug features are on or off.
+description: Get a bitfield of flags that indicates which debug features are on or off. (ID3D10Debug.GetFeatureMask)
 helpviewer_keywords: ["93e580f1-8c61-62ef-6cc4-d08f50c59438","GetFeatureMask","GetFeatureMask method [Direct3D 10]","GetFeatureMask method [Direct3D 10]","ID3D10Debug interface","ID3D10Debug interface [Direct3D 10]","GetFeatureMask method","ID3D10Debug.GetFeatureMask","ID3D10Debug::GetFeatureMask","d3d10sdklayers/ID3D10Debug::GetFeatureMask","direct3d10.id3d10debug_getfeaturemask"]
 old-location: direct3d10\id3d10debug_getfeaturemask.htm
 tech.root: direct3d10

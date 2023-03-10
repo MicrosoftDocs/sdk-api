@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.FindFontFace
 title: IDWriteFontSet::FindFontFace (dwrite_3.h)
-description: Gets the index of the matching font face reference in the font set, with the same file, face index, and simulations.
+description: Gets the index of the matching font face reference in the font set, with the same file, face index, and simulations. (IDWriteFontSet.FindFontFace)
 helpviewer_keywords: ["FindFontFace","FindFontFace method [Direct Write]","FindFontFace method [Direct Write]","IDWriteFontSet interface","IDWriteFontSet interface [Direct Write]","FindFontFace method","IDWriteFontSet.FindFontFace","IDWriteFontSet::FindFontFace","directwrite.idwritefontset_findfontface","dwrite_3/IDWriteFontSet::FindFontFace"]
 old-location: directwrite\idwritefontset_findfontface.htm
 tech.root: DirectWrite

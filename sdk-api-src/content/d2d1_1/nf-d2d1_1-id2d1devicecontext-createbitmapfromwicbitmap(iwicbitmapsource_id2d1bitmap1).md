@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitmap1)
 title: ID2D1DeviceContext::CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitmap1) (d2d1_1.h)
-description: Creates an ID2D1Bitmap by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.
+description: Creates an ID2D1Bitmap by copying the specified Microsoft Windows Imaging Component (WIC) bitmap. (overload 1/4)
 helpviewer_keywords: ["CreateBitmapFromWicBitmap","CreateBitmapFromWicBitmap interface [Direct2D]","CreateBitmapFromWicBitmap method","CreateBitmapFromWicBitmap method [Direct2D]","CreateBitmapFromWicBitmap method [Direct2D]","CreateBitmapFromWicBitmap interface","CreateBitmapFromWicBitmap::CreateBitmapFromWicBitmap","ID2D1DeviceContext.CreateBitmapFromWicBitmap","ID2D1DeviceContext.CreateBitmapFromWicBitmap(IWICBitmapSource","ID2D1Bitmap1)","ID2D1DeviceContext::CreateBitmapFromWicBitmap","ID2D1DeviceContext::CreateBitmapFromWicBitmap(IWICBitmapSource","ID2D1Bitmap1)","d2d1_3/CreateBitmapFromWicBitmap::CreateBitmapFromWicBitmap","direct2d.id2d1devicecontext_createbitmapfromwicbitmap_3"]
 old-location: direct2d\id2d1devicecontext_createbitmapfromwicbitmap_3.htm
 tech.root: Direct2D

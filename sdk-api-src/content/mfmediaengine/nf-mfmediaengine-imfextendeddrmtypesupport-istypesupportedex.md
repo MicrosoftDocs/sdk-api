@@ -117,7 +117,7 @@ The following table lists the supported individual feature queries, organized by
 |3     |Display 2<sup>*</sup>|hdr         |1 (supported)         |Does the target support High Dynamic Range (HDR) rendering         |Y       |
 |4     |Output Protection|hdcp         |0 (off), 1 (on without HDCP 2.2 Type 1 restriction), 2 (on with HDCP 2.2 Type 1 restriction         |Do all intersecting enabled displays support at least the request protection level?         |Y       |
 |5     |General: Efficiency<sup>**</sup>|efficiency-setting         |0 (off = no restriction), 1 (on = limit resolution when on battery power)         |Does the user want battery life, streaming overhead, and/or download speed in preference to highest resolution?<sup>****</sup>         |Y       |
-|6a     |Decryption|encryption-type         |“cenc” or “cbcs”        |Is this encryption type supported for decryption with the specified codec / key-system? If value is unspecified, default value of "cenc" is used.        |N       |
+|6a     |Decryption|encryption-type         |“cenc” or “cbcs”, with optional "-clearlead" suffix. |Is this encryption type supported for decryption with the specified codec / key-system? If value is unspecified, default value of "cenc" is used. Starting with Windows Build 22621, the suffix "-clearlead" is supported. When "-clearlead" is appended to the encryption type value, support for using clear content at the very beginning of encrypted content is also requested. Clear content at the beginning of the content speeds up the time to presenting the first frame.       |N       |
 |6b     |Decryption|encryption-iv-size         |8 or 16 |Is this Initialization Vector (IV) size (in bytes) supported for decryption with the specified codec / key-system? If value is unspecified, default value of 8 is used.        |N       |
 
 <sup>*</sup> Only supported on Windows 10, version 1607 and newer OS versions
@@ -170,7 +170,6 @@ The following shows the most common usage for 1080p 8-bit H.264 SDR content with
 
 `IsTypeSupported(‘com.microsoft.playready.recommendation.3000’,’video/mp4;codecs=”avc1,mp4a”;features=”decode-res-x=1920,decode-res-y=1080,decode-bitrate=10000,decode-fps=30,decode-bpc=8,display-res-x=1920,display-res-y=1080,display-bpc=8,hdcp=1”’);`
 
-A convenient way to try out the queries is to use Microsoft Edge’s F12 console.  Click on the ellipsis (**…**) menu and select **F12 Developer Tools**.  Select **Console** from the headings in the toolbar.  In the console command prompt, enter "MSMediaKeys.isTypeSupportedWithFeatures" and paste in the entire query strings above, including parentheses.  Results will be “” for **NotSupported**, “maybe” for **Maybe**, and “probably” for **Probably**.
 
 ## -see-also
 [MF_MEDIA_ENGINE_CANPLAY](ne-mfmediaengine-mf_media_engine_canplay)

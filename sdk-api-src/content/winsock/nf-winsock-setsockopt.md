@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock.setsockopt
 title: setsockopt function (winsock.h)
-description: Sets a socket option.
+description: The setsockopt function (winsock.h) sets a socket option.
 helpviewer_keywords: ["_win32_setsockopt_2","setsockopt","setsockopt function [Winsock]","winsock.setsockopt_2","winsock/setsockopt"]
 old-location: winsock\setsockopt_2.htm
 tech.root: WinSock
 ms.assetid: 3a6960c9-0c04-4403-aee1-ce250459dc30
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: _win32_setsockopt_2, setsockopt, setsockopt function [Winsock], winsock.setsockopt_2, winsock/setsockopt
 req.header: winsock.h
 req.include-header: Winsock2.h

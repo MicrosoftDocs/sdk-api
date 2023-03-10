@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteFontSetBuilder1
 title: IDWriteFontSetBuilder1 (dwrite_3.h)
-description: Contains methods for building a font set.
+description: Contains methods for building a font set. (IDWriteFontSetBuilder1)
 helpviewer_keywords: ["IDWriteFontSetBuilder1","IDWriteFontSetBuilder1 interface [Direct Write]","IDWriteFontSetBuilder1 interface [Direct Write]","described","directwrite.idwritefontsetbuilder1","dwrite_3/IDWriteFontSetBuilder1"]
 old-location: directwrite\idwritefontsetbuilder1.htm
 tech.root: DirectWrite

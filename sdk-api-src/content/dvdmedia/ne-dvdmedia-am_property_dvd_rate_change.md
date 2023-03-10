@@ -1,5 +1,5 @@
 ---
-UID: NE:dvdmedia.__unnamed_enum_7
+UID: NE:dvdmedia.AM_PROPERTY_DVD_RATE_CHANGE
 title: AM_PROPERTY_DVD_RATE_CHANGE (dvdmedia.h)
 description: The AM_PROPERTY_DVD_RATE_CHANGE enumeration is not used.
 helpviewer_keywords: ["AM_PROPERTY_DVD_RATE_CHANGE","AM_PROPERTY_DVD_RATE_CHANGE enumeration [DirectShow]","AM_RATE_ChangeRate","AM_RATE_DecoderPosition","AM_RATE_DecoderVersion","AM_RATE_FullDataRateMax","AM_RATE_ReverseDecode","dshow.am_property_dvd_rate_change","dvdmedia/AM_PROPERTY_DVD_RATE_CHANGE","dvdmedia/AM_RATE_ChangeRate","dvdmedia/AM_RATE_DecoderPosition","dvdmedia/AM_RATE_DecoderVersion","dvdmedia/AM_RATE_FullDataRateMax","dvdmedia/AM_RATE_ReverseDecode"]
@@ -81,3 +81,4 @@ This enumeration is defined in dvdmedia.h but was never used. It is included her
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+

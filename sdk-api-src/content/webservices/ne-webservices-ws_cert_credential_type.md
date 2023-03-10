@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_70
+UID: NE:webservices.WS_CERT_CREDENTIAL_TYPE
 title: WS_CERT_CREDENTIAL_TYPE (webservices.h)
 description: The type of the certificate credential, used as a selector for subtypes of WS_CERT_CREDENTIAL.
 helpviewer_keywords: ["WS_CERT_CREDENTIAL_TYPE","WS_CERT_CREDENTIAL_TYPE enumeration [Web Services for Windows]","WS_CUSTOM_CERT_CREDENTIAL_TYPE","WS_SUBJECT_NAME_CERT_CREDENTIAL_TYPE","WS_THUMBPRINT_CERT_CREDENTIAL_TYPE","webservices/WS_CERT_CREDENTIAL_TYPE","webservices/WS_CUSTOM_CERT_CREDENTIAL_TYPE","webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL_TYPE","webservices/WS_THUMBPRINT_CERT_CREDENTIAL_TYPE","wsw.ws_cert_credential_type"]
@@ -66,3 +66,4 @@ Type id for the certificate credential <a href="/windows/win32/api/webservices/n
 ### -field WS_CUSTOM_CERT_CREDENTIAL_TYPE:3
 
 Type id for the certificate credential <a href="/windows/desktop/api/webservices/ns-webservices-ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>.
+

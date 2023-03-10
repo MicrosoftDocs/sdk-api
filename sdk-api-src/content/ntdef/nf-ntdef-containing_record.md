@@ -2,9 +2,9 @@
 UID: NF:ntdef.CONTAINING_RECORD
 tech.root: 
 title: CONTAINING_RECORD
-ms.date: 07/16/2021
+description: The CONTAINING_RECORD macro returns the base address of an instance of a structure given the type and the address of a field within the containing structure.
+ms.date: 08/03/2022
 targetos: Windows
-description: 
 prerelease: false
 req.assembly: 
 req.construct-type: function

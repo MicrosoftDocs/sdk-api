@@ -76,7 +76,7 @@ Because you can call <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsur
 
 
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>Unlock</b> method.
+
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:d3dcompiler.D3DCompileFromFile
 title: D3DCompileFromFile function (d3dcompiler.h)
-description: Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target.
+description: Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target. (D3DCompileFromFile)
 helpviewer_keywords: ["D3DCompileFromFile","D3DCompileFromFile function [HLSL]","d3dcompiler/D3DCompileFromFile","direct3dhlsl.d3dcompilefromfile"]
 old-location: direct3dhlsl\d3dcompilefromfile.htm
 tech.root: direct3dhlsl

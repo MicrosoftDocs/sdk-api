@@ -1,10 +1,7 @@
 ---
 UID: NF:evntrace.FlushTraceW
 title: FlushTraceW function (evntrace.h)
-description:
-  The FlushTrace function causes an event tracing session to immediately deliver
-  buffered events for the specified session. The ControlTrace function
-  supersedes this function.
+description: The FlushTraceW (Unicode) function (evntrace.h) causes an event tracing session to immediately deliver buffered events for the specified session.
 helpviewer_keywords:
   [
     "FlushTrace",
@@ -21,7 +18,7 @@ helpviewer_keywords:
 old-location: etw\flushtrace.htm
 tech.root: ETW
 ms.assetid: bc7d0dac-93d9-4614-9cb6-fee99765eb39
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords:
   FlushTrace, FlushTrace function [ETW], FlushTraceA, FlushTraceW,
   _evt_flushtrace, base.flushtrace, etw.flushtrace, evntrace/FlushTrace,

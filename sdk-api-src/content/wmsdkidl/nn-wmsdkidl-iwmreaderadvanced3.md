@@ -58,7 +58,7 @@ The <b>IWMReaderAdvanced3</b> interface provides additional functionality to the
 
 The <b>IWMReaderAdvanced3</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2</a>. <b>IWMReaderAdvanced3</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

@@ -1,11 +1,11 @@
 ---
-UID: NS:nvme.__unnamed_struct_104
-tech.root: fs 
+UID: NS:nvme.NVME_CDW10_FIRMWARE_DOWNLOAD
+tech.root: fs
 title: NVME_CDW10_FIRMWARE_DOWNLOAD
-ms.date: 02/19/2021 
+ms.date: 08/09/2022
 ms.topic: language-reference
 targetos: Windows
-description: Contains parameters for the Firmware Image Download command that is used to copy a new firmware image (in whole or in part) to the controller.
+description: The NVME_CDW10_FIRMWARE_DOWNLOAD structure contains parameters for the Firmware Image Download command that copies a new firmware image to the controller.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_CDW10_FIRMWARE_DOWNLOAD, *PNVME_CDW10_FIRMWARE_DOWNLOAD
@@ -41,6 +41,7 @@ dev_langs:
 
 # NVME_CDW10_FIRMWARE_DOWNLOAD structure
 
+
 ## -description
 
 Contains parameters for the Firmware Image Download command that is used to copy a new firmware image (in whole or in part) to the controller.
@@ -62,3 +63,4 @@ The Firmware Image Download command may be submitted while other commands on the
 ## -see-also
 
 - [NVME_CDW11_FIRMWARE_DOWNLOAD](ns-nvme-nvme_cdw11_firmware_download.md)
+

@@ -4,7 +4,7 @@ title: Xaudio2Fx.h header
 ms.assetid: 5f39ed02-5d31-35b4-8add-f7d37e0d9cbf
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: xaudio2
 f1_keywords:
  - xaudio2fx

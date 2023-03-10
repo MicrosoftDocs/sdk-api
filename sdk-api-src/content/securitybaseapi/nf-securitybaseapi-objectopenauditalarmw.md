@@ -4,14 +4,14 @@ tech.root: security
 title: ObjectOpenAuditAlarmW
 ms.date: 04/20/2021 
 targetos: Windows
-description: Generates audit messages when a client application attempts to gain access to an object or to create a new one.
+description: Generates audit messages when a client application attempts to gain access to an object or to create a new one. (ObjectOpenAuditAlarmW)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
 req.dll: Advapi32.dll 
 req.header: securitybaseapi.h
 req.idl: 
-req.include-header: 
+req.include-header: Windows.h
 req.irql: 
 req.kmdf-ver: 
 req.lib: Advapi32.lib 

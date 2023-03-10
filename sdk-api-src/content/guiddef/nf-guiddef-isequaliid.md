@@ -46,6 +46,15 @@ helpviewer_keywords:
 
 Evaluates to a Boolean value that indicates whether two IIDs are equal.
 
+## -syntax
+
+```cpp
+BOOL IsEqualIID(
+  riid1,
+  riid2
+);
+```
+
 ## -parameters
 
 ### -param riid1

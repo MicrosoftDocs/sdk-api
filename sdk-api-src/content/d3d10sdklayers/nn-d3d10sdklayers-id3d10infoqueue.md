@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10sdklayers.ID3D10InfoQueue
 title: ID3D10InfoQueue (d3d10sdklayers.h)
-description: An information-queue interface stores, retrieves, and filters debug messages. The queue consists of a message queue, an optional storage filter stack, and a optional retrieval filter stack.
+description: An information-queue interface stores, retrieves, and filters debug messages. The queue consists of a message queue, an optional storage filter stack, and a optional retrieval filter stack. (ID3D10InfoQueue)
 helpviewer_keywords: ["1ef0bd38-23d3-fa53-cf27-ff502bb674f2","ID3D10InfoQueue","ID3D10InfoQueue interface [Direct3D 10]","ID3D10InfoQueue interface [Direct3D 10]","described","d3d10sdklayers/ID3D10InfoQueue","direct3d10.id3d10infoqueue"]
 old-location: direct3d10\id3d10infoqueue.htm
 tech.root: direct3d10

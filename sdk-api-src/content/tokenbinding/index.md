@@ -4,7 +4,7 @@ title: Tokenbinding.h header
 ms.assetid: 0500b7b7-3170-3d52-aea2-d053280287e1
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: security
 f1_keywords:
  - tokenbinding

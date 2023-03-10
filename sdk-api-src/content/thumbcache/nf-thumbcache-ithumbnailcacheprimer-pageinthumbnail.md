@@ -1,7 +1,7 @@
 ---
 UID: NF:thumbcache.IThumbnailCachePrimer.PageInThumbnail
 title: IThumbnailCachePrimer::PageInThumbnail (thumbcache.h)
-description: .
+description: . (IThumbnailCachePrimer.PageInThumbnail)
 helpviewer_keywords: ["IThumbnailCachePrimer interface [Windows Shell]","PageInThumbnail method","IThumbnailCachePrimer.PageInThumbnail","IThumbnailCachePrimer::PageInThumbnail","PageInThumbnail","PageInThumbnail method [Windows Shell]","PageInThumbnail method [Windows Shell]","IThumbnailCachePrimer interface","shell.IThumbnailCachePrimer_PageInThumbnail","thumbcache/IThumbnailCachePrimer::PageInThumbnail"]
 old-location: shell\IThumbnailCachePrimer_PageInThumbnail.htm
 tech.root: shell

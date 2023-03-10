@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwOpenPort.put_Enabled
 title: INetFwOpenPort::put_Enabled (netfw.h)
-description: Indicates whether the settings for this port are currently enabled.
+description: Indicates whether the settings for this port are currently enabled. (Put)
 helpviewer_keywords: ["Enabled property [ICS/ICF]","Enabled property [ICS/ICF]","INetFwOpenPort interface","INetFwOpenPort interface [ICS/ICF]","Enabled property","INetFwOpenPort.Enabled","INetFwOpenPort.put_Enabled","INetFwOpenPort::Enabled","INetFwOpenPort::get_Enabled","INetFwOpenPort::put_Enabled","ics.inetfwopenport_enabled","netfw/INetFwOpenPort::Enabled","netfw/INetFwOpenPort::get_Enabled","netfw/INetFwOpenPort::put_Enabled","put_Enabled"]
 old-location: ics\inetfwopenport_enabled.htm
 tech.root: ics

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.get_Recipients
 title: IFaxIncomingMessage2::get_Recipients (faxcomex.h)
-description: Contains the recipients associated with the inbound fax message. This property is a null-terminated string.
+description: Contains the recipients associated with the inbound fax message. This property is a null-terminated string. (Get)
 helpviewer_keywords: ["IFaxIncomingMessage2 interface [Fax Service]","Recipients property","IFaxIncomingMessage2.Recipients","IFaxIncomingMessage2.get_Recipients","IFaxIncomingMessage2.put_Recipients","IFaxIncomingMessage2::Recipients","IFaxIncomingMessage2::get_Recipients","IFaxIncomingMessage2::put_Recipients","Recipients property [Fax Service]","Recipients property [Fax Service]","IFaxIncomingMessage2 interface","_mfax_faxincomingmessage.recipients","fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_recipients_cpp","fax._mfax_faxincomingmessage_recipients","faxcomex/IFaxIncomingMessage2::Recipients","faxcomex/IFaxIncomingMessage2::get_Recipients","faxcomex/IFaxIncomingMessage2::put_Recipients","get_Recipients"]
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_recipients_cpp.htm
 tech.root: Fax

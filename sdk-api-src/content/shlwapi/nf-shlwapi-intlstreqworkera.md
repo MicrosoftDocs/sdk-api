@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.IntlStrEqWorkerA
 title: IntlStrEqWorkerA function (shlwapi.h)
-description: Compares a specified number of characters from the beginning of two localized strings.
-helpviewer_keywords: ["IntlStrEqWorker","IntlStrEqWorker function [Windows Shell]","IntlStrEqWorkerA","IntlStrEqWorkerW","_win32_IntlStrEqWorker","shell.IntlStrEqWorker","shlwapi/IntlStrEqWorker","shlwapi/IntlStrEqWorkerA","shlwapi/IntlStrEqWorkerW"]
+description: Compares a specified number of characters from the beginning of two localized strings. (ANSI)
+helpviewer_keywords: ["IntlStrEqWorkerA", "shlwapi/IntlStrEqWorkerA"]
 old-location: shell\IntlStrEqWorker.htm
 tech.root: shell
 ms.assetid: bc8e823e-79b2-49fd-950d-96a6e7256377

@@ -6,7 +6,7 @@ helpviewer_keywords: ["SetupDiSetClassPropertyEx","SetupDiSetClassPropertyEx fun
 old-location: devinst\setupdisetclasspropertyex.htm
 tech.root: devinst
 ms.assetid: 99b58da2-0398-4dc1-8c9e-0eefaf03bf91
-ms.date: 12/05/2018
+ms.date: 01/30/2023
 ms.keywords: SetupDiSetClassPropertyEx, SetupDiSetClassPropertyEx function [Device and Driver Installation], SetupDiSetClassPropertyExW, devinst.setupdisetclasspropertyex, di-rtns_1366f35d-3801-4b88-b8e3-9ea25292558e.xml, setupapi/SetupDiSetClassPropertyEx
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -96,6 +96,9 @@ One of the following values, which specifies whether the class is a device setup
 ### -param MachineName [in, optional]
 
 A pointer to a NULL-terminated Unicode string that contains the UNC name, including the "\\" prefix, of a computer. This pointer can be set to <b>NULL</b>. If the pointer is <b>NULL</b>, <b>SetupDiSetClassPropertyEx</b> sets the class property for a class that is installed on the local computer.
+
+> [!CAUTION]
+> Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.
 
 ### -param Reserved
 

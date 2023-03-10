@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.get_SelStart
 title: IInkEdit::get_SelStart (inked.h)
-description: Gets or sets the starting point of the text that is selected in the InkEdit control (run time only).
+description: Gets or sets the starting point of the text that is selected in the InkEdit control (run time only). (Get)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","SelStart property","IInkEdit.SelStart","IInkEdit.get_SelStart","IInkEdit::SelStart","IInkEdit::get_SelStart","IInkEdit::put_SelStart","InkEdit.get_SelStart","InkEdit.put_SelStart","SelStart property [Tablet PC]","SelStart property [Tablet PC]","IInkEdit interface","get_SelStart","inked/IInkEdit::SelStart","inked/IInkEdit::get_SelStart","inked/IInkEdit::put_SelStart","put_SelStart","tablet.inkedit_selstart"]
 old-location: tablet\inkedit_selstart.htm
 tech.root: tablet

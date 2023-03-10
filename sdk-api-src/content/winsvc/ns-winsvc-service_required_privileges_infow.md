@@ -1,7 +1,7 @@
 ---
 UID: NS:winsvc._SERVICE_REQUIRED_PRIVILEGES_INFOW
 title: SERVICE_REQUIRED_PRIVILEGES_INFOW (winsvc.h)
-description: Represents the required privileges for a service.
+description: Represents the required privileges for a service. (Unicode)
 helpviewer_keywords: ["*LPSERVICE_REQUIRED_PRIVILEGES_INFOW","LPSERVICE_REQUIRED_PRIVILEGES_INFO","LPSERVICE_REQUIRED_PRIVILEGES_INFO structure pointer","SERVICE_REQUIRED_PRIVILEGES_INFO","SERVICE_REQUIRED_PRIVILEGES_INFO structure","SERVICE_REQUIRED_PRIVILEGES_INFOA","SERVICE_REQUIRED_PRIVILEGES_INFOW","base.service_required_privileges_info","winsvc/LPSERVICE_REQUIRED_PRIVILEGES_INFO","winsvc/SERVICE_REQUIRED_PRIVILEGES_INFO","winsvc/SERVICE_REQUIRED_PRIVILEGES_INFOA","winsvc/SERVICE_REQUIRED_PRIVILEGES_INFOW"]
 old-location: base\service_required_privileges_info.htm
 tech.root: security

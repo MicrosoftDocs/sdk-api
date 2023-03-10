@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMF2DBuffer2
 title: IMF2DBuffer2 (mfobjects.h)
-description: Represents a buffer that contains a two-dimensional surface, such as a video frame.
+description: Represents a buffer that contains a two-dimensional surface, such as a video frame. (IMF2DBuffer2)
 helpviewer_keywords: ["IMF2DBuffer2","IMF2DBuffer2 interface [Media Foundation]","IMF2DBuffer2 interface [Media Foundation]","described","mf.imf2dbuffer2","mfobjects/IMF2DBuffer2"]
 old-location: mf\imf2dbuffer2.htm
 tech.root: mf

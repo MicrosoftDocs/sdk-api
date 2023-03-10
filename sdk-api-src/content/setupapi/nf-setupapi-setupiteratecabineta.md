@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupIterateCabinetA
 title: SetupIterateCabinetA function (setupapi.h)
-description: The SetupIterateCabinet function iterates through all the files in a cabinet and sends a notification to a callback function for each file found.
-helpviewer_keywords: ["SetupIterateCabinet","SetupIterateCabinet function [Setup API]","SetupIterateCabinetA","SetupIterateCabinetW","_setupapi_setupiteratecabinet","setup.setupiteratecabinet","setupapi/SetupIterateCabinet","setupapi/SetupIterateCabinetA","setupapi/SetupIterateCabinetW"]
+description: The SetupIterateCabinet function iterates through all the files in a cabinet and sends a notification to a callback function for each file found. (ANSI)
+helpviewer_keywords: ["SetupIterateCabinetA", "setupapi/SetupIterateCabinetA"]
 old-location: setup\setupiteratecabinet.htm
 tech.root: setup
 ms.assetid: 2fa2d140-fa8e-41a8-9800-d10e5559fab4

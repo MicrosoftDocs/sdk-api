@@ -4,7 +4,7 @@ title: Propkeydef.h header
 ms.assetid: 8e466ab0-4e0e-34b9-93c4-891a816b9acf
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: shell
 f1_keywords:
  - propkeydef

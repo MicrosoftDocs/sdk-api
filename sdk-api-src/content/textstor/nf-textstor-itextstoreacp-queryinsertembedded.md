@@ -1,7 +1,7 @@
 ---
 UID: NF:textstor.ITextStoreACP.QueryInsertEmbedded
 title: ITextStoreACP::QueryInsertEmbedded (textstor.h)
-description: Gets a value indicating whether the specified object can be inserted into the document.
+description: Gets a value indicating whether the specified object can be inserted into the document. (ITextStoreACP.QueryInsertEmbedded)
 helpviewer_keywords: ["ITextStoreACP interface [Text Services Framework]","QueryInsertEmbedded method","ITextStoreACP.QueryInsertEmbedded","ITextStoreACP::QueryInsertEmbedded","QueryInsertEmbedded","QueryInsertEmbedded method [Text Services Framework]","QueryInsertEmbedded method [Text Services Framework]","ITextStoreACP interface","_tsf_itextstoreacp_queryinsertembedded_ref","textstor/ITextStoreACP::QueryInsertEmbedded","tsf.itextstoreacp_queryinsertembedded"]
 old-location: tsf\itextstoreacp_queryinsertembedded.htm
 tech.root: TSF

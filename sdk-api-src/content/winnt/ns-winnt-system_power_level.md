@@ -1,5 +1,5 @@
 ---
-UID: NS:winnt.__unnamed_struct_22
+UID: NS:winnt.SYSTEM_POWER_LEVEL
 title: SYSTEM_POWER_LEVEL (winnt.h)
 description: Contains information about system battery drain policy settings.
 helpviewer_keywords: ["*PSYSTEM_POWER_LEVEL","PSYSTEM_POWER_LEVEL","PSYSTEM_POWER_LEVEL structure pointer","SYSTEM_POWER_LEVEL","SYSTEM_POWER_LEVEL structure","_win32_system_power_level_str","base.system_power_level_str","winnt/PSYSTEM_POWER_LEVEL","winnt/SYSTEM_POWER_LEVEL"]
@@ -86,3 +86,4 @@ The minimum system sleep state to enter when the battery discharges below the va
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-power_action_policy">POWER_ACTION_POLICY</a>
+

@@ -4,7 +4,7 @@ title: WPD Application Programming Interface
 ms.assetid: 5764d0d2-f296-38a9-9d56-8a2adb838489
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # WPD Application Programming Interface

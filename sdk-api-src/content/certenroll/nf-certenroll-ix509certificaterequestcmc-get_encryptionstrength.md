@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_EncryptionStrength
 title: IX509CertificateRequestCmc::get_EncryptionStrength (certenroll.h)
-description: Specifies or retrieves the relative encryption level applied to the private key to be archived.
+description: Specifies or retrieves the relative encryption level applied to the private key to be archived. (Get)
 helpviewer_keywords: ["EncryptionStrength property [Security]","EncryptionStrength property [Security]","IX509CertificateRequestCmc interface","IX509CertificateRequestCmc interface [Security]","EncryptionStrength property","IX509CertificateRequestCmc.EncryptionStrength","IX509CertificateRequestCmc.get_EncryptionStrength","IX509CertificateRequestCmc::EncryptionStrength","IX509CertificateRequestCmc::get_EncryptionStrength","IX509CertificateRequestCmc::put_EncryptionStrength","certenroll/IX509CertificateRequestCmc::EncryptionStrength","certenroll/IX509CertificateRequestCmc::get_EncryptionStrength","certenroll/IX509CertificateRequestCmc::put_EncryptionStrength","get_EncryptionStrength","security.ix509certificaterequestcmc_encryptionstrength_property"]
 old-location: security\ix509certificaterequestcmc_encryptionstrength_property.htm
 tech.root: security

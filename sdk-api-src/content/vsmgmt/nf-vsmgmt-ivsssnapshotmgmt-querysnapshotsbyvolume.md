@@ -1,7 +1,7 @@
 ---
 UID: NF:vsmgmt.IVssSnapshotMgmt.QuerySnapshotsByVolume
 title: IVssSnapshotMgmt::QuerySnapshotsByVolume (vsmgmt.h)
-description: Reserved for system use.
+description: Reserved for system use. (IVssSnapshotMgmt.QuerySnapshotsByVolume)
 helpviewer_keywords: ["IVssSnapshotMgmt interface [VSS]","QuerySnapshotsByVolume method","IVssSnapshotMgmt.QuerySnapshotsByVolume","IVssSnapshotMgmt::QuerySnapshotsByVolume","QuerySnapshotsByVolume","QuerySnapshotsByVolume method [VSS]","QuerySnapshotsByVolume method [VSS]","IVssSnapshotMgmt interface","base.ivsssnapshotmgmt_querysnapshotsbyvolume","vsmgmt/IVssSnapshotMgmt::QuerySnapshotsByVolume"]
 old-location: base\ivsssnapshotmgmt_querysnapshotsbyvolume.htm
 tech.root: base

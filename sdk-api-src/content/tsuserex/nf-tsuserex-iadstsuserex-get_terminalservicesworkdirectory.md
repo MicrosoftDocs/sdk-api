@@ -1,7 +1,7 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_TerminalServicesWorkDirectory
 title: IADsTSUserEx::get_TerminalServicesWorkDirectory (tsuserex.h)
-description: The working directory path for the user.
+description: The working directory path for the user. (Get)
 helpviewer_keywords: ["IADsTSUserEx interface [Remote Desktop Services]","TerminalServicesWorkDirectory property","IADsTSUserEx.TerminalServicesWorkDirectory","IADsTSUserEx.get_TerminalServicesWorkDirectory","IADsTSUserEx::TerminalServicesWorkDirectory","IADsTSUserEx::get_TerminalServicesWorkDirectory","IADsTSUserEx::put_TerminalServicesWorkDirectory","TerminalServicesWorkDirectory property [Remote Desktop Services]","TerminalServicesWorkDirectory property [Remote Desktop Services]","IADsTSUserEx interface","get_TerminalServicesWorkDirectory","termserv.iadstsuserex_terminalservicesworkdirectory","tsuserex/IADsTSUserEx::TerminalServicesWorkDirectory","tsuserex/IADsTSUserEx::get_TerminalServicesWorkDirectory","tsuserex/IADsTSUserEx::put_TerminalServicesWorkDirectory"]
 old-location: termserv\iadstsuserex_terminalservicesworkdirectory.htm
 tech.root: TermServ

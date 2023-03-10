@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11shader._D3D11_SHADER_DESC
 title: D3D11_SHADER_DESC (d3d11shader.h)
-description: Describes a shader.
+description: Describes a shader. (D3D11_SHADER_DESC)
 helpviewer_keywords: ["60a58f35-71f5-ec69-15ed-a355dd62d5f7","D3D11_SHADER_DESC","D3D11_SHADER_DESC structure [Direct3D 11]","d3d11shader/D3D11_SHADER_DESC","direct3d11.d3d11_shader_desc"]
 old-location: direct3d11\d3d11_shader_desc.htm
 tech.root: direct3d11

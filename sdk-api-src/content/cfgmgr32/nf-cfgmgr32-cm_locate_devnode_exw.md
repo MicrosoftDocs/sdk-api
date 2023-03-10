@@ -1,8 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Locate_DevNode_ExW
 title: CM_Locate_DevNode_ExW function (cfgmgr32.h)
-description: The CM_Locate_DevNode_Ex function obtains a device instance handle to the device node that is associated with a specified device instance ID, on a local machine or a remote machine.
-helpviewer_keywords: ["CM_Locate_DevNode_Ex","CM_Locate_DevNode_Ex function [Device and Driver Installation]","CM_Locate_DevNode_ExW","cfgmgr32/CM_Locate_DevNode_Ex","cfgmgr32/CM_Locate_DevNode_ExW","cfgmgrfn_33bc675e-9f3a-4485-ac79-1ce406cc43bf.xml","devinst.cm_locate_devnode_ex"]
+description: The CM_Locate_DevNode_Ex function obtains a device instance handle to the device node that is associated with a specified device instance ID, on a local machine or a remote machine. (Unicode)
+helpviewer_keywords: ["CM_Locate_DevNode_Ex", "CM_Locate_DevNode_Ex function [Device and Driver Installation]", "CM_Locate_DevNode_ExW", "cfgmgr32/CM_Locate_DevNode_Ex", "cfgmgr32/CM_Locate_DevNode_ExW", "cfgmgrfn_33bc675e-9f3a-4485-ac79-1ce406cc43bf.xml", "devinst.cm_locate_devnode_ex"]
 old-location: devinst\cm_locate_devnode_ex.htm
 tech.root: devinst
 ms.assetid: 255d828c-5a71-4d53-80ee-b0a0b3e97414

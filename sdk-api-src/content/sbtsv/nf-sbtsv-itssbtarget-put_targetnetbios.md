@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.put_TargetNetbios
 title: ITsSbTarget::put_TargetNetbios (sbtsv.h)
-description: Retrieves or specifies the NetBIOS name of the target.
+description: Retrieves or specifies the NetBIOS name of the target. (Put)
 helpviewer_keywords: ["ITsSbTarget interface [Remote Desktop Services]","TargetNetbios property","ITsSbTarget.TargetNetbios","ITsSbTarget.put_TargetNetbios","ITsSbTarget::TargetNetbios","ITsSbTarget::get_TargetNetbios","ITsSbTarget::put_TargetNetbios","ITsSbTargetEx interface [Remote Desktop Services]","TargetNetbios property","ITsSbTargetEx.TargetNetbios","ITsSbTargetEx::get_TargetNetbios","ITsSbTargetEx::put_TargetNetbios","TargetNetbios property [Remote Desktop Services]","TargetNetbios property [Remote Desktop Services]","ITsSbTarget interface","TargetNetbios property [Remote Desktop Services]","ITsSbTargetEx interface","put_TargetNetbios","sbtsv/ITsSbTarget::TargetNetbios","sbtsv/ITsSbTarget::get_TargetNetbios","sbtsv/ITsSbTarget::put_TargetNetbios","sbtsv/ITsSbTargetEx::TargetNetbios","sbtsv/ITsSbTargetEx::get_TargetNetbios","sbtsv/ITsSbTargetEx::put_TargetNetbios","termserv.itssbtarget_targetnetbios"]
 old-location: termserv\itssbtarget_targetnetbios.htm
 tech.root: TermServ

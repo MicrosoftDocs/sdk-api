@@ -1,0 +1,61 @@
+{
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/sdk-api",
+  "git_repository_branch_open_to_public_contributors": "docs",
+  "branches_to_filter": [],
+  "dependent_repositories": [
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft",
+      "branch": "main",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+      "branch": "main",
+      "branch_mapping": {}
+    }
+  ],
+  "branch_target_mapping": {
+    "live": [
+      "Publish",
+      "Pdf"
+    ]
+  },
+  "contribution_branch_mappings": {},
+  "redirection_files": [
+    ".openpublishing.redirection.in-out.json",
+    ".openpublishing.redirection.tilde.json"
+],
+  "docsets_to_publish": [
+    {
+      "docset_name": "sdk-api-build",
+      "build_source_folder": "sdk-api-src/content",
+      "build_output_subfolder": "sdk-api-build",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": true,
+      "xref_query_tags": [
+        "/dotnet", "/uwp/api", "/windows/winui/api", "/windows/win32/api/", "/windows/windows-app-sdk/api/winrt", "/windows/windows-app-sdk/api/win32"
+      ],
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    }
+  ],
+  "notification_subscribers": [],
+  "sync_notification_subscribers": [],
+  "skip_source_output_uploading": false,
+  "need_preview_pull_request": false,
+  "need_generate_pdf_url_template": true,
+  "targets": {
+    "pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  }
+}

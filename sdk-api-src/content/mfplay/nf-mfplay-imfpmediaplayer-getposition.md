@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetPosition
 title: IMFPMediaPlayer::GetPosition (mfplay.h)
-description: Gets the current playback position.
+description: Gets the current playback position. (IMFPMediaPlayer.GetPosition)
 helpviewer_keywords: ["GetPosition","GetPosition method [Media Foundation]","GetPosition method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetPosition method","IMFPMediaPlayer.GetPosition","IMFPMediaPlayer::GetPosition","MFP_POSITIONTYPE_100NS","mf.imfpmediaplayer_getposition","mfplay/IMFPMediaPlayer::GetPosition"]
 old-location: mf\imfpmediaplayer_getposition.htm
 tech.root: mf

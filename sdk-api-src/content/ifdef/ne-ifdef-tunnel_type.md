@@ -1,5 +1,5 @@
 ---
-UID: NE:ifdef.__unnamed_enum_0
+UID: NE:ifdef.TUNNEL_TYPE
 title: TUNNEL_TYPE (ifdef.h)
 description: The TUNNEL_TYPE enumeration type defines the encapsulation method used by a tunnel, as described by the Internet Assigned Names Authority (IANA).
 helpviewer_keywords: ["*PTUNNEL_TYPE","PTUNNEL_TYPE","PTUNNEL_TYPE enumeration pointer [Network Drivers Starting with Windows Vista]","TUNNEL_TYPE","TUNNEL_TYPE enumeration [Network Drivers Starting with Windows Vista]","TUNNEL_TYPE_6TO4","TUNNEL_TYPE_DIRECT","TUNNEL_TYPE_IPHTTPS","TUNNEL_TYPE_ISATAP","TUNNEL_TYPE_NONE","TUNNEL_TYPE_OTHER","TUNNEL_TYPE_TEREDO","ifdef/PTUNNEL_TYPE","ifdef/TUNNEL_TYPE","ifdef/TUNNEL_TYPE_6TO4","ifdef/TUNNEL_TYPE_DIRECT","ifdef/TUNNEL_TYPE_IPHTTPS","ifdef/TUNNEL_TYPE_ISATAP","ifdef/TUNNEL_TYPE_NONE","ifdef/TUNNEL_TYPE_OTHER","ifdef/TUNNEL_TYPE_TEREDO","net_if_enums_ref_46dc254b-c521-4b6e-9780-598bcf1942fa.xml","netvista.tunnel_type"]

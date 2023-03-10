@@ -1,7 +1,7 @@
 ---
 UID: NN:oaidl.ICreateTypeLib
 title: ICreateTypeLib (oaidl.h)
-description: Provides the methods for creating and managing the component or file that contains type information.
+description: Provides the methods for creating and managing the component or file that contains type information. (ICreateTypeLib)
 helpviewer_keywords: ["ICreateTypeLib","ICreateTypeLib interface [Automation]","ICreateTypeLib interface [Automation]","described","_oa96_ICreateTypeLib_Interface","automat.icreatetypelib","oaidl/ICreateTypeLib"]
 old-location: automat\icreatetypelib.htm
 tech.root: automat

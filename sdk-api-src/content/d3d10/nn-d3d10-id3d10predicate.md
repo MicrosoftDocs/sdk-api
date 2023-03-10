@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10Predicate
 title: ID3D10Predicate (d3d10.h)
-description: A predicate interface determines whether geometry should be processed depending on the results of a previous draw call.
+description: A predicate interface determines whether geometry should be processed depending on the results of a previous draw call. (ID3D10Predicate)
 helpviewer_keywords: ["350beb86-4869-80f7-d757-00ebb1191143","ID3D10Predicate","ID3D10Predicate interface [Direct3D 10]","ID3D10Predicate interface [Direct3D 10]","described","d3d10/ID3D10Predicate","direct3d10.id3d10predicate"]
 old-location: direct3d10\id3d10predicate.htm
 tech.root: direct3d10

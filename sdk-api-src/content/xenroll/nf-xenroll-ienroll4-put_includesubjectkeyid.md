@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll4.put_IncludeSubjectKeyID
 title: IEnroll4::put_IncludeSubjectKeyID (xenroll.h)
-description: The IncludeSubjectKeyID property of IEnroll4 determines whether the subject key ID extension is added to the certificate request that is generated.
+description: The IncludeSubjectKeyID property of IEnroll4 determines whether the subject key ID extension is added to the certificate request that is generated. (Put)
 helpviewer_keywords: ["IEnroll4 interface [Security]","IncludeSubjectKeyID property","IEnroll4.IncludeSubjectKeyID","IEnroll4.put_IncludeSubjectKeyID","IEnroll4::IncludeSubjectKeyID","IEnroll4::get_IncludeSubjectKeyID","IEnroll4::put_IncludeSubjectKeyID","IncludeSubjectKeyID property [Security]","IncludeSubjectKeyID property [Security]","IEnroll4 interface","put_IncludeSubjectKeyID","security.ienroll4_includesubjectkeyid","xenroll/IEnroll4::IncludeSubjectKeyID","xenroll/IEnroll4::get_IncludeSubjectKeyID","xenroll/IEnroll4::put_IncludeSubjectKeyID"]
 old-location: security\ienroll4_includesubjectkeyid.htm
 tech.root: security

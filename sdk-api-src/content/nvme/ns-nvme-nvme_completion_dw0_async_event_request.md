@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_struct_14
-tech.root: fs 
+UID: NS:nvme.NVME_COMPLETION_DW0_ASYNC_EVENT_REQUEST
+tech.root: fs
 title: NVME_COMPLETION_DW0_ASYNC_EVENT_REQUEST
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains information about an asynchronous event that is posted to the Admin Completion Queue in DWord 0 of a Completion Queue Entry. Asynchronous events are used to notify the host software of status, error, and health information.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_COMPLETION_DW0_ASYNC_EVENT_REQUEST, *PNVME_COMPLETION_DW0_ASYNC_EVENT_REQUEST
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_COMPLETION_DW0_ASYNC_EVENT_REQUEST structure
+
 
 ## -description
 
@@ -67,7 +68,7 @@ Depending on the value of **AsyncEventType**, this field will contain one of the
 - [NVME_ASYNC_EVENT_HEALTH_STATUS_CODES](ne-nvme-nvme_async_event_health_status_codes.md)
 - [NVME_ASYNC_EVENT_NOTICE_CODES](ne-nvme-nvme_async_event_notice_codes.md)
 - [NVME_ASYNC_EVENT_TYPE_VENDOR_SPECIFIC_CODES](ne-nvme-nvme_async_event_type_vendor_specific_codes.md)
- 
+
 ### -field LogPage
 
 Indicates the log page associated with the asynchronous event. This log page must be read by the host to clear the event.
@@ -79,3 +80,4 @@ Indicates the log page associated with the asynchronous event. This log page mus
 ## -see-also
 
 - [NVME_CDW11_FEATURE_ASYNC_EVENT_CONFIG](ns-nvme-nvme_cdw11_feature_async_event_config.md)
+

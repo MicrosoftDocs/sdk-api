@@ -60,9 +60,11 @@ An [IPropertyStore](../propsys/nn-propsys-ipropertystore.md) representing the pr
 
 ### -field propertyKey
 
-A [PROPERTYKEY](wtypes/ns-wtypes-propertykey) structure identifying the property associated with the notification.
+A [PROPERTYKEY](/windows/win32/api/wtypes/ns-wtypes-propertykey) structure identifying the property associated with the notification.
 
 ## -remarks
+
+For more information on the Windows 11 APIs for the Audio Processing Objects (APOs) that can ship with audio drivers, see [Windows 11 APIs for Audio Processing Objects](/windows-hardware/drivers/audio/windows-11-apis-for-audio-processing-objects).
 
 ## -see-also
 

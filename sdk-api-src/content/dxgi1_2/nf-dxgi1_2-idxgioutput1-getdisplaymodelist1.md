@@ -1,7 +1,7 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutput1.GetDisplayModeList1
 title: IDXGIOutput1::GetDisplayModeList1 (dxgi1_2.h)
-description: Gets the display modes that match the requested format and other input options.
+description: Gets the display modes that match the requested format and other input options. (IDXGIOutput1.GetDisplayModeList1)
 helpviewer_keywords: ["GetDisplayModeList1","GetDisplayModeList1 method [DXGI]","GetDisplayModeList1 method [DXGI]","IDXGIOutput1 interface","IDXGIOutput1 interface [DXGI]","GetDisplayModeList1 method","IDXGIOutput1.GetDisplayModeList1","IDXGIOutput1::GetDisplayModeList1","direct3ddxgi.idxgioutput1_getdisplaymodelist1","dxgi1_2/IDXGIOutput1::GetDisplayModeList1"]
 old-location: direct3ddxgi\idxgioutput1_getdisplaymodelist1.htm
 tech.root: direct3ddxgi

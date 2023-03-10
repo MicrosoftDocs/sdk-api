@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut15.IInkDivisionResult.get_Strokes
 title: IInkDivisionResult::get_Strokes (msinkaut15.h)
-description: Gets the collection of strokes that are contained in an object or used to create an object.
+description: Gets the collection of strokes that are contained in an object or used to create an object. (IInkDivisionResult.get_Strokes)
 helpviewer_keywords: ["IInkDivisionResult interface [Tablet PC]","Strokes property","IInkDivisionResult.Strokes","IInkDivisionResult.get_Strokes","IInkDivisionResult::Strokes","IInkDivisionResult::get_Strokes","Strokes property [Tablet PC]","Strokes property [Tablet PC]","IInkDivisionResult interface","b65f1b71-b0a4-4de2-9321-f660bcd2d3ce","get_Strokes","msinkaut15/IInkDivisionResult::Strokes","msinkaut15/IInkDivisionResult::get_Strokes","tablet.iinkdivisionresult_strokes"]
 old-location: tablet\iinkdivisionresult_strokes.htm
 tech.root: tablet

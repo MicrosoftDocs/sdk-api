@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.Clear
 title: ISmimeCapabilities::Clear (certenroll.h)
-description: Removes all objects from the collection.
+description: Removes all objects from the collection. (ISmimeCapabilities.Clear)
 helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","ISmimeCapabilities interface","ISmimeCapabilities interface [Security]","Clear method","ISmimeCapabilities.Clear","ISmimeCapabilities::Clear","certenroll/ISmimeCapabilities::Clear","security.ismimecapabilities_clear_method"]
 old-location: security\ismimecapabilities_clear_method.htm
 tech.root: security

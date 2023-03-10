@@ -1,12 +1,12 @@
 ---
 UID: NE:networkisolation._INET_FIREWALL_AC_CREATION_TYPE
 title: INET_FIREWALL_AC_CREATION_TYPE (networkisolation.h)
-description: Specifies the type of app container creation events for which notifications will be delivered.
+description: The INET_FIREWALL_AC_CREATION_TYPE enumeration specifies the type of app container creation events for which notifications will be delivered. 
 helpviewer_keywords: ["INET_FIREWALL_AC_BINARY","INET_FIREWALL_AC_CREATION_TYPE","INET_FIREWALL_AC_CREATION_TYPE enumeration [ICS/ICF]","INET_FIREWALL_AC_MAX","INET_FIREWALL_AC_NONE","INET_FIREWALL_AC_PACKAGE_ID_ONLY","ics.inet_firewall_ac_creation_type","networkisolation/INET_FIREWALL_AC_BINARY","networkisolation/INET_FIREWALL_AC_CREATION_TYPE","networkisolation/INET_FIREWALL_AC_MAX","networkisolation/INET_FIREWALL_AC_NONE","networkisolation/INET_FIREWALL_AC_PACKAGE_ID_ONLY"]
 old-location: ics\inet_firewall_ac_creation_type.htm
 tech.root: ics
 ms.assetid: 01a1f735-889e-424e-860e-ca86f0abd126
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: INET_FIREWALL_AC_BINARY, INET_FIREWALL_AC_CREATION_TYPE, INET_FIREWALL_AC_CREATION_TYPE enumeration [ICS/ICF], INET_FIREWALL_AC_MAX, INET_FIREWALL_AC_NONE, INET_FIREWALL_AC_PACKAGE_ID_ONLY, ics.inet_firewall_ac_creation_type, networkisolation/INET_FIREWALL_AC_BINARY, networkisolation/INET_FIREWALL_AC_CREATION_TYPE, networkisolation/INET_FIREWALL_AC_MAX, networkisolation/INET_FIREWALL_AC_NONE, networkisolation/INET_FIREWALL_AC_PACKAGE_ID_ONLY
 req.header: networkisolation.h
 req.include-header: Netfw.h

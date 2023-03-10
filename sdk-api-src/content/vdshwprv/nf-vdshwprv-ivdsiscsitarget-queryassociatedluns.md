@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.QueryAssociatedLuns
 title: IVdsIscsiTarget::QueryAssociatedLuns (vdshwprv.h)
-description: Returns a enumeration of the LUNs associated with the target.
+description: The IVdsIscsiTarget::QueryAssociatedLuns (vdshwprv.h) method returns a enumeration of the LUNs associated with the target.
 helpviewer_keywords: ["IVdsIscsiTarget interface [VDS]","QueryAssociatedLuns method","IVdsIscsiTarget.QueryAssociatedLuns","IVdsIscsiTarget::QueryAssociatedLuns","QueryAssociatedLuns","QueryAssociatedLuns method [VDS]","QueryAssociatedLuns method [VDS]","IVdsIscsiTarget interface","base.ivdsiscsitarget_queryassociatedluns","vds/IVdsIscsiTarget::QueryAssociatedLuns","vdshwprv/IVdsIscsiTarget::QueryAssociatedLuns"]
 old-location: base\ivdsiscsitarget_queryassociatedluns.htm
 tech.root: base
 ms.assetid: 3f375c0b-7400-4660-8cb1-5291fd0dd52c
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsIscsiTarget interface [VDS],QueryAssociatedLuns method, IVdsIscsiTarget.QueryAssociatedLuns, IVdsIscsiTarget::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_queryassociatedluns, vds/IVdsIscsiTarget::QueryAssociatedLuns, vdshwprv/IVdsIscsiTarget::QueryAssociatedLuns
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns a enumeration of the LUNs associated with the target.
 

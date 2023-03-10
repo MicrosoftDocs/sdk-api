@@ -101,6 +101,10 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <td>The specified effect is not registered by the system.</td>
 </tr>
 <tr>
+<td>E_NOTFOUND</td>
+<td>Other possible HRESULT for an effect not being registered (like D2DERR_EFFECT_IS_NOT_REGISTERED).</td>
+</tr>
+<tr>
 <td>D2DERR_INSUFFICIENT_DEVICE_CAPABILITIES </td>
 <td>The effect requires capabilities not supported by the D2D device.</td>
 </tr>

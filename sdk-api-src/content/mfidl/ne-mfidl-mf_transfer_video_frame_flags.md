@@ -1,7 +1,7 @@
 ---
 UID: NE:mfidl.MF_TRANSFER_VIDEO_FRAME_FLAGS
 title: MF_TRANSFER_VIDEO_FRAME_FLAGS (mfidl.h)
-description: .
+description: . (MF_TRANSFER_VIDEO_FRAME_FLAGS)
 helpviewer_keywords: ["MF_TRANSFER_VIDEO_FRAME_DEFAULT","MF_TRANSFER_VIDEO_FRAME_FLAGS","MF_TRANSFER_VIDEO_FRAME_FLAGS enumeration [Streaming Media Devices]","MF_TRANSFER_VIDEO_FRAME_IGNORE_PAR","MF_TRANSFER_VIDEO_FRAME_STRETCH","mfidl/MF_TRANSFER_VIDEO_FRAME_DEFAULT","mfidl/MF_TRANSFER_VIDEO_FRAME_FLAGS","mfidl/MF_TRANSFER_VIDEO_FRAME_IGNORE_PAR","mfidl/MF_TRANSFER_VIDEO_FRAME_STRETCH","stream.mf_transfer_video_frame_flags"]
 old-location: stream\mf_transfer_video_frame_flags.htm
 tech.root: stream

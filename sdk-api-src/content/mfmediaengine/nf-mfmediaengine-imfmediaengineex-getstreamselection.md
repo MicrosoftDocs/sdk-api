@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetStreamSelection
 title: IMFMediaEngineEx::GetStreamSelection (mfmediaengine.h)
-description: Queries whether a stream is selected to play.
+description: Queries whether a stream is selected to play. (IMFMediaEngineEx.GetStreamSelection)
 helpviewer_keywords: ["FALSE","GetStreamSelection","GetStreamSelection method [Media Foundation]","GetStreamSelection method [Media Foundation]","IMFMediaEngineEx interface","IMFMediaEngineEx interface [Media Foundation]","GetStreamSelection method","IMFMediaEngineEx.GetStreamSelection","IMFMediaEngineEx::GetStreamSelection","TRUE","mf.imfmediaengineex_getstreamselection","mfmediaengine/IMFMediaEngineEx::GetStreamSelection"]
 old-location: mf\imfmediaengineex_getstreamselection.htm
 tech.root: mf

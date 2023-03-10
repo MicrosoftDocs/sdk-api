@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IMDSPDeviceControl.Pause
 title: IMDSPDeviceControl::Pause (mswmdm.h)
-description: The Pause method pauses the current play or record session at the current position within the content.
+description: The Pause method pauses the current play or record session at the current position within the content. (IMDSPDeviceControl.Pause)
 helpviewer_keywords: ["IMDSPDeviceControl interface [windows Media Device Manager]","Pause method","IMDSPDeviceControl.Pause","IMDSPDeviceControl::Pause","IMDSPDeviceControlPause","Pause","Pause method [windows Media Device Manager]","Pause method [windows Media Device Manager]","IMDSPDeviceControl interface","mswmdm/IMDSPDeviceControl::Pause","wmdm.imdspdevicecontrol_pause"]
 old-location: wmdm\imdspdevicecontrol_pause.htm
 tech.root: WMDM

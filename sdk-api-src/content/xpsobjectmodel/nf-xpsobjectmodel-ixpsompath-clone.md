@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.Clone
 title: IXpsOMPath::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.
+description: Makes a deep copy of the interface. (IXpsOMPath.Clone)
 helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","Clone method","IXpsOMPath.Clone","IXpsOMPath::Clone","xps.ixpsompath_clone","xpsobjectmodel/IXpsOMPath::Clone"]
 old-location: xps\ixpsompath_clone.htm
 tech.root: xps

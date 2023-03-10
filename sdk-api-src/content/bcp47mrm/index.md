@@ -3,7 +3,7 @@ UID: NA:bcp47mrm
 title: bcp47mrm.h header
 ms.date: 05/11/2021
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: menurc
 f1_keywords:
  - bcp47mrm

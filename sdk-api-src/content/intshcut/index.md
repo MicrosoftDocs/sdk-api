@@ -4,7 +4,7 @@ title: Intshcut.h header
 ms.assetid: 8ad078b1-c5a8-3609-9401-88a6546547c0
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: shell
 f1_keywords:
  - intshcut

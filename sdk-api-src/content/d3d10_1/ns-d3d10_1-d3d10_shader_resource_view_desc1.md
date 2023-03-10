@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10_1.D3D10_SHADER_RESOURCE_VIEW_DESC1
 title: D3D10_SHADER_RESOURCE_VIEW_DESC1 (d3d10_1.h)
-description: Describes a shader-resource view.
+description: Describes a shader-resource view. (D3D10_SHADER_RESOURCE_VIEW_DESC1)
 helpviewer_keywords: ["7b42f6ed-d20a-945b-ecb4-4ba1aa8d083c","D3D10_SHADER_RESOURCE_VIEW_DESC1","D3D10_SHADER_RESOURCE_VIEW_DESC1 structure [Direct3D 10]","d3d10_1/D3D10_SHADER_RESOURCE_VIEW_DESC1","direct3d10.d3d10_shader_resource_view_desc1"]
 old-location: direct3d10\d3d10_shader_resource_view_desc1.htm
 tech.root: direct3d10

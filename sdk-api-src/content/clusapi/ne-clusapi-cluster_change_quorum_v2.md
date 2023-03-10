@@ -1,12 +1,12 @@
 ---
 UID: NE:clusapi.CLUSTER_CHANGE_QUORUM_V2
 title: CLUSTER_CHANGE_QUORUM_V2 (clusapi.h)
-description: Defines the notifications that are generated for quorum-specific information.
+description: CLUSTER_CHANGE_QUORUM_V2 (clusapi.h) defines the notifications that are generated for quorum-specific information.
 helpviewer_keywords: ["CLUSTER_CHANGE_QUORUM_ALL_V2","CLUSTER_CHANGE_QUORUM_STATE_V2","CLUSTER_CHANGE_QUORUM_V2","CLUSTER_CHANGE_QUORUM_V2 enumeration [Failover Cluster]","clusapi/CLUSTER_CHANGE_QUORUM_ALL_V2","clusapi/CLUSTER_CHANGE_QUORUM_STATE_V2","clusapi/CLUSTER_CHANGE_QUORUM_V2","msclus/CLUSTER_CHANGE_QUORUM_ALL_V2","msclus/CLUSTER_CHANGE_QUORUM_STATE_V2","msclus/CLUSTER_CHANGE_QUORUM_V2","mscs.cluster_change_quorum_v2"]
 old-location: mscs\cluster_change_quorum_v2.htm
 tech.root: MsCS
 ms.assetid: 373E451C-B05F-4D46-9303-60D2C6090228
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: CLUSTER_CHANGE_QUORUM_ALL_V2, CLUSTER_CHANGE_QUORUM_STATE_V2, CLUSTER_CHANGE_QUORUM_V2, CLUSTER_CHANGE_QUORUM_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_QUORUM_ALL_V2, clusapi/CLUSTER_CHANGE_QUORUM_STATE_V2, clusapi/CLUSTER_CHANGE_QUORUM_V2, msclus/CLUSTER_CHANGE_QUORUM_ALL_V2, msclus/CLUSTER_CHANGE_QUORUM_STATE_V2, msclus/CLUSTER_CHANGE_QUORUM_V2, mscs.cluster_change_quorum_v2
 req.header: clusapi.h
 req.include-header: 

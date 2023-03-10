@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrCmpNICA
 title: StrCmpNICA function (shlwapi.h)
-description: Compares a specified number of characters from the beginning of two strings using C run-time (ASCII) collation rules. The comparison is not case-sensitive.
-helpviewer_keywords: ["StrCmpNIC","StrCmpNIC function [Windows Shell]","StrCmpNICA","StrCmpNICW","_shell_StrCmpNIC","shell.StrCmpNIC","shlwapi/StrCmpNIC","shlwapi/StrCmpNICA","shlwapi/StrCmpNICW"]
+description: Compares a specified number of characters from the beginning of two strings using C run-time (ASCII) collation rules. The comparison is not case-sensitive. (ANSI)
+helpviewer_keywords: ["StrCmpNICA", "shlwapi/StrCmpNICA"]
 old-location: shell\StrCmpNIC.htm
 tech.root: shell
 ms.assetid: ed2e7df9-7f36-4566-8a3e-e3517307a584

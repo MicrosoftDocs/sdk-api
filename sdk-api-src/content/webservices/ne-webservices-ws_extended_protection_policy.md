@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_67
+UID: NE:webservices.WS_EXTENDED_PROTECTION_POLICY
 title: WS_EXTENDED_PROTECTION_POLICY (webservices.h)
 description: Defines if Extended Protection data should be validated.
 helpviewer_keywords: ["WS_EXTENDED_PROTECTION_POLICY","WS_EXTENDED_PROTECTION_POLICY enumeration [Web Services for Windows]","WS_EXTENDED_PROTECTION_POLICY_ALWAYS","WS_EXTENDED_PROTECTION_POLICY_NEVER","WS_EXTENDED_PROTECTION_POLICY_WHEN_SUPPORTED","webservices/WS_EXTENDED_PROTECTION_POLICY","webservices/WS_EXTENDED_PROTECTION_POLICY_ALWAYS","webservices/WS_EXTENDED_PROTECTION_POLICY_NEVER","webservices/WS_EXTENDED_PROTECTION_POLICY_WHEN_SUPPORTED","wsw.ws_extended_protection_policy"]
@@ -78,3 +78,4 @@ This is the default.
 
 Extended protection data is required to be present and is always validated. Clients that are not extended-protection-aware cannot authenticate to a server 
                     setting this flag.
+

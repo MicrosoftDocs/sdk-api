@@ -1,8 +1,8 @@
 ---
-UID: NS:nvme.__unnamed_union_6
-tech.root: fs 
+UID: NS:nvme.NVME_ADMIN_COMPLETION_QUEUE_BASE_ADDRESS
+tech.root: fs
 title: NVME_ADMIN_COMPLETION_QUEUE_BASE_ADDRESS
-ms.date: 02/19/2021 
+ms.date: 02/19/2021
 ms.topic: language-reference
 targetos: Windows
 description: Contains the base memory address of the Admin Completion Queue.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 10 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NVME_ADMIN_COMPLETION_QUEUE_BASE_ADDRESS, *PNVME_ADMIN_COMPLETION_QUEUE_BASE_ADDRESS
@@ -40,6 +40,7 @@ dev_langs:
 ---
 
 # NVME_ADMIN_COMPLETION_QUEUE_BASE_ADDRESS structure
+
 
 ## -description
 

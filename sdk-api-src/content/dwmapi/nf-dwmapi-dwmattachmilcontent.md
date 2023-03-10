@@ -1,7 +1,7 @@
 ---
 UID: NF:dwmapi.DwmAttachMilContent
 title: DwmAttachMilContent function (dwmapi.h)
-description: This function is not implemented.
+description: This function is not implemented. (DwmAttachMilContent)
 helpviewer_keywords: ["DwmAttachMilContent","DwmAttachMilContent function [Desktop Window Manager]","_udwm_dwmattachmilcontent","_udwm_dwmattachmilcontent_cpp","dwm.dwmattachmilcontent","dwmapi/DwmAttachMilContent","winui._udwm_dwmattachmilcontent"]
 old-location: dwm\dwmattachmilcontent.htm
 tech.root: dwm

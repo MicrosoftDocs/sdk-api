@@ -1,7 +1,7 @@
 ---
 UID: NF:clusapi.ClusterRegCloseReadBatchEx
 title: ClusterRegCloseReadBatchEx function (clusapi.h)
-description: Executes a read batch and returns results from the read batch executions.
+description: Executes a read batch and returns results from the read batch executions. (ClusterRegCloseReadBatchEx)
 helpviewer_keywords: ["ClusterRegCloseReadBatchEx","ClusterRegCloseReadBatchEx function [Failover Cluster]","IsolatedRead","None","PCLUSTER_REG_CLOSE_READ_BATCH_EX","PCLUSTER_REG_CLOSE_READ_BATCH_EX function [Failover Cluster]","clusapi/ClusterRegCloseReadBatchEx","clusapi/PCLUSTER_REG_CLOSE_READ_BATCH_EX","mscs.clusterregclosereadbatchex"]
 old-location: mscs\clusterregclosereadbatchex.htm
 tech.root: MsCS

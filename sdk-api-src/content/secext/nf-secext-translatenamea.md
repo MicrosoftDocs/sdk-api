@@ -1,8 +1,8 @@
 ---
 UID: NF:secext.TranslateNameA
 title: TranslateNameA function (secext.h)
-description: Converts a directory service object name from one format to another.
-helpviewer_keywords: ["TranslateName","TranslateName function","TranslateNameA","TranslateNameW","_win32_translatename","base.translatename","secext/TranslateName","secext/TranslateNameA","secext/TranslateNameW"]
+description: Converts a directory service object name from one format to another. (ANSI)
+helpviewer_keywords: ["TranslateNameA", "secext/TranslateNameA"]
 old-location: base\translatename.htm
 tech.root: winprog
 ms.assetid: 4df25519-e7d6-46ea-b0e8-ba1f82e5f94f

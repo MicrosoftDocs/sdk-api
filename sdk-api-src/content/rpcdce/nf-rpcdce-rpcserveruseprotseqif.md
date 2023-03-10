@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcServerUseProtseqIf
 title: RpcServerUseProtseqIf function (rpcdce.h)
-description: The RpcServerUseProtseqIf function tells the RPC run-time library to use the specified protocol sequence combined with the endpoints in the interface specification for receiving remote procedure calls.
+description: The RpcServerUseProtseqIf function (rpcdce.h) tells the RPC run-time library to use the specified protocol sequence and endpoints in the interface specification for receiving remote procedure calls. 
 helpviewer_keywords: ["RpcServerUseProtseqIf","RpcServerUseProtseqIf function [RPC]","RpcServerUseProtseqIfA","RpcServerUseProtseqIfW","_rpc_rpcserveruseprotseqif","rpc.rpcserveruseprotseqif","rpcdce/RpcServerUseProtseqIf","rpcdce/RpcServerUseProtseqIfA","rpcdce/RpcServerUseProtseqIfW"]
 old-location: rpc\rpcserveruseprotseqif.htm
 tech.root: Rpc
 ms.assetid: 41c1fa20-266a-4071-91b3-d0fd8196871b
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: RpcServerUseProtseqIf, RpcServerUseProtseqIf function [RPC], RpcServerUseProtseqIfA, RpcServerUseProtseqIfW, _rpc_rpcserveruseprotseqif, rpc.rpcserveruseprotseqif, rpcdce/RpcServerUseProtseqIf, rpcdce/RpcServerUseProtseqIfA, rpcdce/RpcServerUseProtseqIfW
 req.header: rpcdce.h
 req.include-header: Rpc.h

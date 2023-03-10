@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.get_ExistingCACertificate
 title: ICertSrvSetupKeyInformation::get_ExistingCACertificate (casetup.h)
-description: Gets or sets the binary value that has been encoded by using Distinguished Encoding Rules (DER) and that is the binary value of the certification authority (CA) certificate that corresponds to an existing key.
+description: Gets or sets the binary value that has been encoded by using Distinguished Encoding Rules (DER) and that is the binary value of the certification authority (CA) certificate that corresponds to an existing key. (Get)
 helpviewer_keywords: ["ExistingCACertificate property [Security]","ExistingCACertificate property [Security]","ICertSrvSetupKeyInformation interface","ICertSrvSetupKeyInformation interface [Security]","ExistingCACertificate property","ICertSrvSetupKeyInformation.ExistingCACertificate","ICertSrvSetupKeyInformation.get_ExistingCACertificate","ICertSrvSetupKeyInformation::ExistingCACertificate","ICertSrvSetupKeyInformation::get_ExistingCACertificate","ICertSrvSetupKeyInformation::put_ExistingCACertificate","casetup/ICertSrvSetupKeyInformation::ExistingCACertificate","casetup/ICertSrvSetupKeyInformation::get_ExistingCACertificate","casetup/ICertSrvSetupKeyInformation::put_ExistingCACertificate","get_ExistingCACertificate","security.icertsrvsetupkeyinformation_existingcacertificate"]
 old-location: security\icertsrvsetupkeyinformation_existingcacertificate.htm
 tech.root: security

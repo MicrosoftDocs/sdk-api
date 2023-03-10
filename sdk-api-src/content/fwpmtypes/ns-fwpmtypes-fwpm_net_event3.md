@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT3_
 title: FWPM_NET_EVENT3 (fwpmtypes.h)
-description: Contains information about all event types.
+description: Contains information about all event types. (FWPM_NET_EVENT3)
 old-location: fwp\fwpm_net_event3.htm
 tech.root: fwp
 ms.assetid: 2D71C44C-B553-46DD-8943-DCC979A7DC6B

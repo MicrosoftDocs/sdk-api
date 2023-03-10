@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IAutomaticUpdatesSettings2
 title: IAutomaticUpdatesSettings2 (wuapi.h)
-description: Contains the settings that are available in Automatic Updates.
+description: Contains the settings that are available in Automatic Updates. (IAutomaticUpdatesSettings2)
 helpviewer_keywords: ["IAutomaticUpdatesSettings2","IAutomaticUpdatesSettings2 interface [Windows Update Agent]","IAutomaticUpdatesSettings2 interface [Windows Update Agent]","described","wua.iautomaticupdatessettings2","wuapi/IAutomaticUpdatesSettings2"]
 old-location: wua\iautomaticupdatessettings2.htm
 tech.root: wua

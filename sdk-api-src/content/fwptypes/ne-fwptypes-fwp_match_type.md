@@ -125,11 +125,21 @@ Only sortable data types support <b>FWP_MATCH_NOT_EQUAL</b>.<div class="alert"><
 
 ### -field FWP_MATCH_PREFIX
 
+
+*This flag has a misleading name.* It tests whether the value **ends** with the condition value, i.e. it the suffix, not the prefix.
+
+The types FWP_BYTE_BLOB_TYPE (when it contains a string) and FWP_UNICODE_STRING_TYPE support this match type.
+
 ### -field FWP_MATCH_NOT_PREFIX
+
+*This flag has a misleading name.* It tests whether the value does not **end** with the condition value, i.e. it checks the suffix, not the prefix.
+
+The types FWP_BYTE_BLOB_TYPE (when it contains a string) and FWP_UNICODE_STRING_TYPE support this match type.
+
 
 ### -field FWP_MATCH_TYPE_MAX
 
-Maximum value for testing purposes.
+Maximum value for testing purposes. Do not rely on this value in code, as it may change when you recompile with a newer SDK.
 
 ## -remarks
 

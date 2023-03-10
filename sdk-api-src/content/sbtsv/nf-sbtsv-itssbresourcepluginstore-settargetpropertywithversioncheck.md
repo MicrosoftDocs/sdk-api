@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck
 title: ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck (sbtsv.h)
-description: Sets the value of a property of a target.
+description: Sets the value of a property of a target. (ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck)
 helpviewer_keywords: ["ITsSbResourcePluginStore interface [Remote Desktop Services]","SetTargetPropertyWithVersionCheck method","ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck","ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck","SetTargetPropertyWithVersionCheck","SetTargetPropertyWithVersionCheck method [Remote Desktop Services]","SetTargetPropertyWithVersionCheck method [Remote Desktop Services]","ITsSbResourcePluginStore interface","sbtsv/ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck","termserv.itssbresourcepluginstore_settargetpropertywithversioncheck"]
 old-location: termserv\itssbresourcepluginstore_settargetpropertywithversioncheck.htm
 tech.root: TermServ

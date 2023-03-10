@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IRpcChannelBuffer.GetDestCtx
 title: IRpcChannelBuffer::GetDestCtx (objidlbase.h)
-description: Retrieves the destination context for the RPC channel.
+description: The IRpcChannelBuffer::GetDestCtx (objidlbase.h) method retrieves the destination context for the RPC channel.
 helpviewer_keywords: ["GetDestCtx","GetDestCtx method [COM]","GetDestCtx method [COM]","IRpcChannelBuffer interface","IRpcChannelBuffer interface [COM]","GetDestCtx method","IRpcChannelBuffer.GetDestCtx","IRpcChannelBuffer::GetDestCtx","_com_irpcchannelbuffer_getdestctx","com.irpcchannelbuffer_getdestctx","objidlbase/IRpcChannelBuffer::GetDestCtx"]
 old-location: com\irpcchannelbuffer_getdestctx.htm
 tech.root: com
 ms.assetid: 34599869-0c85-403a-88c2-ea8e865d533a
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: GetDestCtx, GetDestCtx method [COM], GetDestCtx method [COM],IRpcChannelBuffer interface, IRpcChannelBuffer interface [COM],GetDestCtx method, IRpcChannelBuffer.GetDestCtx, IRpcChannelBuffer::GetDestCtx, _com_irpcchannelbuffer_getdestctx, com.irpcchannelbuffer_getdestctx, objidlbase/IRpcChannelBuffer::GetDestCtx
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

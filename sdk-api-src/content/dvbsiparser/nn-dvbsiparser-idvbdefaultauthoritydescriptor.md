@@ -57,6 +57,6 @@ The default authority descriptor is the first part of the CRID and identifies th
 
 The <b>IDvbDefaultAuthorityDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbDefaultAuthorityDescriptor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

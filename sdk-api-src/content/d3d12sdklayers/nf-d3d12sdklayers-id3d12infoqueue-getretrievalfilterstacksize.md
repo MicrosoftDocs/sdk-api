@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetRetrievalFilterStackSize
 title: ID3D12InfoQueue::GetRetrievalFilterStackSize (d3d12sdklayers.h)
-description: Get the size of the retrieval-filter stack in bytes.
+description: Get the size of the retrieval-filter stack in bytes. (ID3D12InfoQueue.GetRetrievalFilterStackSize)
 helpviewer_keywords: ["GetRetrievalFilterStackSize","GetRetrievalFilterStackSize method","GetRetrievalFilterStackSize method","ID3D12InfoQueue interface","ID3D12InfoQueue interface","GetRetrievalFilterStackSize method","ID3D12InfoQueue.GetRetrievalFilterStackSize","ID3D12InfoQueue::GetRetrievalFilterStackSize","d3d12sdklayers/ID3D12InfoQueue::GetRetrievalFilterStackSize","direct3d12.id3d12infoqueue_getretrievalfilterstacksize"]
 old-location: direct3d12\id3d12infoqueue_getretrievalfilterstacksize.htm
 tech.root: direct3d12

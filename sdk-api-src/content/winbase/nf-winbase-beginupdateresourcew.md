@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.BeginUpdateResourceW
 title: BeginUpdateResourceW function (winbase.h)
-description: Retrieves a handle that can be used by the UpdateResource function to add, delete, or replace resources in a binary module.
-helpviewer_keywords: ["BeginUpdateResource","BeginUpdateResource function [Menus and Other Resources]","BeginUpdateResourceA","BeginUpdateResourceW","_win32_BeginUpdateResource","_win32_beginupdateresource_cpp","menurc.beginupdateresource","winbase/BeginUpdateResource","winbase/BeginUpdateResourceA","winbase/BeginUpdateResourceW","winui._win32_beginupdateresource"]
+description: Retrieves a handle that can be used by the UpdateResource function to add, delete, or replace resources in a binary module. (Unicode)
+helpviewer_keywords: ["BeginUpdateResource", "BeginUpdateResource function [Menus and Other Resources]", "BeginUpdateResourceW", "_win32_BeginUpdateResource", "_win32_beginupdateresource_cpp", "menurc.beginupdateresource", "winbase/BeginUpdateResource", "winbase/BeginUpdateResourceW", "winui._win32_beginupdateresource"]
 old-location: menurc\beginupdateresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\beginupdateresource.htm

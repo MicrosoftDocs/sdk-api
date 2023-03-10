@@ -1,5 +1,5 @@
 ---
-UID: NS:avifmt.__unnamed_struct_1
+UID: NS:avifmt.AVIStreamHeader
 title: AVIStreamHeader (avifmt.h)
 description: The AVISTREAMHEADER structure contains information about one stream in an AVI file.
 helpviewer_keywords: ["auds","mids","txts","vids","AVISF_DISABLED","AVISF_VIDEO_PALCHANGES","AVISTREAMHEADER","AVISTREAMHEADER structure [DirectShow]","AVISTREAMHEADERStructure","AVIStreamHeader","_avistreamheader","avifmt/AVISTREAMHEADER","dshow.avistreamheader"]
@@ -191,3 +191,4 @@ The header file Vfw.h defines a <b>AVIStreamHeader</b> structure that is equival
 <a href="/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+
