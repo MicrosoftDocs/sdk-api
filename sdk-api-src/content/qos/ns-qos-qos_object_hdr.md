@@ -1,5 +1,5 @@
 ---
-UID: NS:qos.__unnamed_struct_0
+UID: NS:qos.QOS_OBJECT_HDR
 title: QOS_OBJECT_HDR (qos.h)
 description: The QOS object QOS_OBJECT_HDR is attached to each QOS object. It specifies the object type and its length.
 helpviewer_keywords: ["*LPQOS_OBJECT_HDR","LPQOS_OBJECT_HDR","LPQOS_OBJECT_HDR structure pointer [QOS]","QOS_OBJECT_DESTADDR","QOS_OBJECT_END_OF_LIST","QOS_OBJECT_HDR","QOS_OBJECT_HDR structure [QOS]","QOS_OBJECT_SD_MODE","QOS_OBJECT_SHAPING_RATE","RSVP_OBJECT_ADSPEC","RSVP_OBJECT_FILTERSPEC_LIST","RSVP_OBJECT_POLICY_INFO","RSVP_OBJECT_RESERVE_INFO","_gqos_qos_object_hdr","qos.qos_object_hdr","qos/LPQOS_OBJECT_HDR","qos/QOS_OBJECT_HDR"]

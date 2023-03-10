@@ -56,7 +56,7 @@ The <b>IMSVidCtl</b> interface is the main interface for the <a href="/previous-
 
 The <b>IMSVidCtl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMSVidCtl</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

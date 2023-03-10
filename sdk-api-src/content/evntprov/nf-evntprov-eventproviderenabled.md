@@ -76,8 +76,7 @@ api_name:
 Determines whether an event provider should generate a particular event based on
 the event's Level and Keyword.
 
-Returns **FALSE** if ETW can quickly determine that no session is listening for
-a specified event from the given provider. Otherwise returns **TRUE**.
+Returns **FALSE** if ETW can quickly determine that no session is listening for a specified event from the given provider. Otherwise returns **TRUE**.
 
 ## -parameters
 
@@ -100,6 +99,10 @@ A 64-bit bitmask used to indicate an event's membership in a set of event
 categories. See
 [EVENT_DESCRIPTOR](/windows/desktop/api/evntprov/ns-evntprov-event_descriptor)
 for more information about event keyword values.
+
+## -returns
+
+Returns **FALSE** if ETW can quickly determine that no session is listening for a specified event from the given provider. Otherwise returns **TRUE**.
 
 ## -remarks
 

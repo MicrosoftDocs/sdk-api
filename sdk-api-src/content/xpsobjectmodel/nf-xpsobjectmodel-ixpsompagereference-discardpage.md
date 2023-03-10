@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMPageReference::DiscardPage
 
-
 ## -description
 
 Discards the page from memory.

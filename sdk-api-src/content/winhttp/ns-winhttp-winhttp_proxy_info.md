@@ -117,8 +117,7 @@ The proxy server list contains one or more of the following strings separated by
 
 
 ``` syntax
-([&lt;scheme&gt;=][&lt;scheme&gt;"://"]&lt;server&gt;[":"&lt;port&gt;])
-
+([<scheme>=][<scheme>"://"]<server>[":"<port>])
 ```
 
 The proxy bypass list contains one or more server names separated by semicolons or whitespace.  The proxy bypass list can also contain the string "&lt;local&gt;" to indicate that all local intranet sites are bypassed.  Local intranet sites are considered to be all servers that do not contain a period in their name.

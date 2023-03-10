@@ -1,10 +1,10 @@
 ---
-UID: NE:dwmapi.__unnamed_enum_0
+UID: NE:dwmapi.DWM_WINDOW_CORNER_PREFERENCE
 tech.root: dwm
 title: DWM_WINDOW_CORNER_PREFERENCE (dwmapi.h)
-ms.date: 02/14/2022
+description: The DWM_WINDOW_CORNER_PREFERENCE enumeration (dwmapi.h) specifies the rounded corner preference for a window.
+ms.date: 08/12/2022
 targetos: Windows
-description: 
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 

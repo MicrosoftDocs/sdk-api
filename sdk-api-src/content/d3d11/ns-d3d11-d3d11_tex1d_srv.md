@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11.D3D11_TEX1D_SRV
 title: D3D11_TEX1D_SRV (d3d11.h)
-description: Specifies the subresource from a 1D texture to use in a shader-resource view.
+description: Specifies the subresource from a 1D texture to use in a shader-resource view. (D3D11_TEX1D_SRV)
 helpviewer_keywords: ["1bcdba84-70d7-54b7-24fa-091adf73ae90","D3D11_TEX1D_SRV","D3D11_TEX1D_SRV structure [Direct3D 11]","d3d11/D3D11_TEX1D_SRV","direct3d11.d3d11_tex1d_srv"]
 old-location: direct3d11\d3d11_tex1d_srv.htm
 tech.root: direct3d11

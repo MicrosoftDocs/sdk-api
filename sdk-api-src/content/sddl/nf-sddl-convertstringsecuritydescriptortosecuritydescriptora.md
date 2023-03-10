@@ -1,8 +1,8 @@
 ---
 UID: NF:sddl.ConvertStringSecurityDescriptorToSecurityDescriptorA
 title: ConvertStringSecurityDescriptorToSecurityDescriptorA function (sddl.h)
-description: Converts a string-format security descriptor into a valid, functional security descriptor.
-helpviewer_keywords: ["ConvertStringSecurityDescriptorToSecurityDescriptor","ConvertStringSecurityDescriptorToSecurityDescriptor function [Security]","ConvertStringSecurityDescriptorToSecurityDescriptorA","ConvertStringSecurityDescriptorToSecurityDescriptorW","_win32_convertstringsecuritydescriptortosecuritydescriptor","sddl/ConvertStringSecurityDescriptorToSecurityDescriptor","sddl/ConvertStringSecurityDescriptorToSecurityDescriptorA","sddl/ConvertStringSecurityDescriptorToSecurityDescriptorW","security.convertstringsecuritydescriptortosecuritydescriptor"]
+description: Converts a string-format security descriptor into a valid, functional security descriptor. (ANSI)
+helpviewer_keywords: ["ConvertStringSecurityDescriptorToSecurityDescriptorA", "sddl/ConvertStringSecurityDescriptorToSecurityDescriptorA"]
 old-location: security\convertstringsecuritydescriptortosecuritydescriptor.htm
 tech.root: security
 ms.assetid: c5654148-fb4c-436d-9378-a1168fc82607

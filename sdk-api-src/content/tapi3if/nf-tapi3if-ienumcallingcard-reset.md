@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.IEnumCallingCard.Reset
 title: IEnumCallingCard::Reset (tapi3if.h)
-description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
+description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages. (IEnumCallingCard.Reset)
 helpviewer_keywords: ["IEnumCallingCard interface [TAPI 2.2]","Reset method","IEnumCallingCard.Reset","IEnumCallingCard::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumCallingCard interface","_tapi3_ienumcallingcard_reset","tapi3.ienumcallingcard_reset","tapi3if/IEnumCallingCard::Reset"]
 old-location: tapi3\ienumcallingcard_reset.htm
 tech.root: tapi3

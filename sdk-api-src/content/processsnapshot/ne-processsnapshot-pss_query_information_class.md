@@ -1,5 +1,5 @@
 ---
-UID: NE:processsnapshot.__unnamed_enum_3
+UID: NE:processsnapshot.PSS_QUERY_INFORMATION_CLASS
 title: PSS_QUERY_INFORMATION_CLASS (processsnapshot.h)
 description: Specifies what information PssQuerySnapshot function returns.
 helpviewer_keywords: ["PSS_QUERY_AUXILIARY_PAGES_INFORMATION","PSS_QUERY_HANDLE_INFORMATION","PSS_QUERY_HANDLE_TRACE_INFORMATION","PSS_QUERY_INFORMATION_CLASS","PSS_QUERY_INFORMATION_CLASS enumeration","PSS_QUERY_PERFORMANCE_COUNTERS","PSS_QUERY_PROCESS_INFORMATION","PSS_QUERY_THREAD_INFORMATION","PSS_QUERY_VA_CLONE_INFORMATION","PSS_QUERY_VA_SPACE_INFORMATION","proc_snap.pss_query_information_class","processsnapshot/PSS_QUERY_AUXILIARY_PAGES_INFORMATION","processsnapshot/PSS_QUERY_HANDLE_INFORMATION","processsnapshot/PSS_QUERY_HANDLE_TRACE_INFORMATION","processsnapshot/PSS_QUERY_INFORMATION_CLASS","processsnapshot/PSS_QUERY_PERFORMANCE_COUNTERS","processsnapshot/PSS_QUERY_PROCESS_INFORMATION","processsnapshot/PSS_QUERY_THREAD_INFORMATION","processsnapshot/PSS_QUERY_VA_CLONE_INFORMATION","processsnapshot/PSS_QUERY_VA_SPACE_INFORMATION"]
@@ -89,3 +89,4 @@ Returns a <a href="/previous-versions/windows/desktop/api/processsnapshot/ns-pro
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

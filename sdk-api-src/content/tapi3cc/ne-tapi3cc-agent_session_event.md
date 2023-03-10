@@ -1,12 +1,12 @@
 ---
 UID: NE:tapi3cc.AGENT_SESSION_EVENT
 title: AGENT_SESSION_EVENT (tapi3cc.h)
-description: The AGENT_SESSION_EVENT enum describes agent session events. The ITAgentSessionEvent::get_Event method returns a member of this enum to indicate the type of agent session event that occurred.
+description: The AGENT_SESSION_EVENT enumeration (tapi3cc.h) describes agent session events.
 helpviewer_keywords: ["AGENT_SESSION_EVENT","AGENT_SESSION_EVENT enumeration [TAPI 2.2]","ASE_BUSY","ASE_END","ASE_NEW_SESSION","ASE_NOT_READY","ASE_READY","ASE_WRAPUP","_tapi3_agent_session_event","tapi3.agent_session_event","tapi3cc/AGENT_SESSION_EVENT","tapi3cc/ASE_BUSY","tapi3cc/ASE_END","tapi3cc/ASE_NEW_SESSION","tapi3cc/ASE_NOT_READY","tapi3cc/ASE_READY","tapi3cc/ASE_WRAPUP"]
 old-location: tapi3\agent_session_event.htm
 tech.root: tapi3
 ms.assetid: 44eb7669-6c0b-4b9c-a209-9f15f27a1ba9
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: AGENT_SESSION_EVENT, AGENT_SESSION_EVENT enumeration [TAPI 2.2], ASE_BUSY, ASE_END, ASE_NEW_SESSION, ASE_NOT_READY, ASE_READY, ASE_WRAPUP, _tapi3_agent_session_event, tapi3.agent_session_event, tapi3cc/AGENT_SESSION_EVENT, tapi3cc/ASE_BUSY, tapi3cc/ASE_END, tapi3cc/ASE_NEW_SESSION, tapi3cc/ASE_NOT_READY, tapi3cc/ASE_READY, tapi3cc/ASE_WRAPUP
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

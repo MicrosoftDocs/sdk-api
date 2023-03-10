@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.DrawText
 title: DrawText function (winuser.h)
-description: The DrawText function draws formatted text in the specified rectangle. It formats the text according to the specified method (expanding tabs, justifying characters, breaking lines, and so forth).
+description: The DrawText function draws formatted text in the specified rectangle. It formats the text according to the specified method (expanding tabs, justifying characters, breaking lines, and so forth). (DrawTextW)
 helpviewer_keywords: ["DT_BOTTOM","DT_CALCRECT","DT_CENTER","DT_EDITCONTROL","DT_END_ELLIPSIS","DT_EXPANDTABS","DT_EXTERNALLEADING","DT_HIDEPREFIX","DT_INTERNAL","DT_LEFT","DT_MODIFYSTRING","DT_NOCLIP","DT_NOFULLWIDTHCHARBREAK","DT_NOPREFIX","DT_PATH_ELLIPSIS","DT_PREFIXONLY","DT_RIGHT","DT_RTLREADING","DT_SINGLELINE","DT_TABSTOP","DT_TOP","DT_VCENTER","DT_WORDBREAK","DT_WORD_ELLIPSIS","DrawText","DrawText function [Windows GDI]","DrawTextA","DrawTextW","_win32_DrawText","gdi.drawtext","winuser/DrawText","winuser/DrawTextA","winuser/DrawTextW"]
 old-location: gdi\drawtext.htm
 tech.root: gdi

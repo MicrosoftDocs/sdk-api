@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathStripPathA
 title: PathStripPathA function (shlwapi.h)
-description: Removes the path portion of a fully qualified path and file.
-helpviewer_keywords: ["PathStripPath","PathStripPath function [Windows Shell]","PathStripPathA","PathStripPathW","_win32_PathStripPath","shell.PathStripPath","shlwapi/PathStripPath","shlwapi/PathStripPathA","shlwapi/PathStripPathW"]
+description: Removes the path portion of a fully qualified path and file. (ANSI)
+helpviewer_keywords: ["PathStripPathA", "shlwapi/PathStripPathA"]
 old-location: shell\PathStripPath.htm
 tech.root: shell
 ms.assetid: 84b439f2-f570-4e7f-bc3f-e0fdd185ea15

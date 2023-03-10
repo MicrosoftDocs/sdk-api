@@ -135,7 +135,7 @@ To write to the end of file, specify both the <b>Offset</b> and
 
 For more information about different combinations of <i>lpOverlapped</i> and 
        <b>FILE_FLAG_OVERLAPPED</b>, see the Remarks section and the 
-       <a href="https://docs.microsoft.com/">Synchronization and File Position</a> section.
+       <a href="/">Synchronization and File Position</a> section.
 
 ## -returns
 
@@ -158,7 +158,7 @@ The <b>WriteFile</b> function returns when one of the following
 <ul>
 <li>The number of bytes requested is written.</li>
 <li>A read operation releases buffer space on the read end of the pipe (if the write was blocked). For more 
-      information, see the <a href="https://docs.microsoft.com/">Pipes</a> section.</li>
+      information, see the <a href="/">Pipes</a> section.</li>
 <li>An asynchronous handle is being used and the write is occurring asynchronously.</li>
 <li>An error occurs.</li>
 </ul>
@@ -184,7 +184,7 @@ I/O operations that are canceled complete with the error <b>ERROR_OPERATION_ABOR
 The <b>WriteFile</b> function may fail with 
     <b>ERROR_NOT_ENOUGH_QUOTA</b>, which means the calling process's buffer could not be 
     page-locked. For more information, see 
-    <a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a>.
+    <a href="/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsize">SetProcessWorkingSetSize</a>.
 
 If part of the file is locked by another process and the write operation overlaps the locked portion, 
     <b>WriteFile</b> fails.
@@ -197,7 +197,7 @@ Accessing the output buffer while a write operation is using the buffer may lead
     written from that buffer. Applications must not write to, reallocate, or free the output buffer that a write 
     operation is using until the write operation completes. This can be particularly problematic when using an 
     asynchronous file handle. Additional information regarding synchronous versus asynchronous file handles can be 
-    found later in the <a href="https://docs.microsoft.com/">Synchronization and File Position</a> 
+    found later in the <a href="#synchronization-and-file-position">Synchronization and File Position</a> 
     section and 
     <a href="/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
 
@@ -389,7 +389,7 @@ Considerations for working with synchronous file handles:
        <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure and 
        <b>WriteFile</b> does not return until the write operation is 
        complete. The system updates the <b>OVERLAPPED</b> Internal and InternalHigh fields 
-       before <b>WriteFile</b> returns.</li>
+       and the file pointer before <b>WriteFile</b> returns.</li>
 </ul>
 For more information, see <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> and 
       <a href="/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.

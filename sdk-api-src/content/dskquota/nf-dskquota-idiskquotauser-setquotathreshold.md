@@ -56,7 +56,7 @@ Sets the user's warning threshold value on the volume. The threshold is an arbit
 
 ### -param llThreshold [in]
 
-The warning threshold value.
+The warning threshold value, in bytes.
 
 ### -param fWriteThrough [in]
 

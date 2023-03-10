@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11_4.ID3D11VideoContext2
 title: ID3D11VideoContext2 (d3d11_4.h)
-description: Provides the video functionality of a Microsoft Direct3D 11 device.
+description: Provides the video functionality of a Microsoft Direct3D 11 device. (ID3D11VideoContext2)
 helpviewer_keywords: ["ID3D11VideoContext2","ID3D11VideoContext2 interface [Media Foundation]","ID3D11VideoContext2 interface [Media Foundation]","described","d3d11_4/ID3D11VideoContext2","mf.id3d11videocontext2","mf.id3dvideocontext2"]
 old-location: mf\id3d11videocontext2.htm
 tech.root: mf

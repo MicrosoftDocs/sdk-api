@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.IOleUIObjInfoA.GetConvertInfo
 title: IOleUIObjInfoA::GetConvertInfo (oledlg.h)
-description: Gets the conversion information associated with the specified object.
+description: Gets the conversion information associated with the specified object. (ANSI)
 helpviewer_keywords: ["GetConvertInfo","GetConvertInfo method [COM]","GetConvertInfo method [COM]","IOleUIObjInfo interface","GetConvertInfo method [COM]","IOleUIObjInfoA interface","GetConvertInfo method [COM]","IOleUIObjInfoW interface","IOleUIObjInfo interface [COM]","GetConvertInfo method","IOleUIObjInfo::GetConvertInfo","IOleUIObjInfoA interface [COM]","GetConvertInfo method","IOleUIObjInfoA.GetConvertInfo","IOleUIObjInfoA::GetConvertInfo","IOleUIObjInfoW interface [COM]","GetConvertInfo method","IOleUIObjInfoW::GetConvertInfo","_ole_IOleUIObjInfo_GetConvertInfo","com.ioleuiobjinfo_getconvertinfo","oledlg/IOleUIObjInfo::GetConvertInfo","oledlg/IOleUIObjInfoA::GetConvertInfo","oledlg/IOleUIObjInfoW::GetConvertInfo"]
 old-location: com\ioleuiobjinfo_getconvertinfo.htm
 tech.root: com

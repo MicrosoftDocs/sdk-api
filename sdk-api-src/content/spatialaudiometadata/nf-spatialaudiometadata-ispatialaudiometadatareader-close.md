@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataReader.Close
 title: ISpatialAudioMetadataReader::Close (spatialaudiometadata.h)
-description: Completes any necessary operations on the SpatialAudioMetadataItems object and releases the object.
+description: Completes any necessary operations on the SpatialAudioMetadataItems object and releases the object. (ISpatialAudioMetadataReader.Close)
 helpviewer_keywords: ["Close","Close method [Core Audio]","Close method [Core Audio]","ISpatialAudioMetadataReader interface","ISpatialAudioMetadataReader interface [Core Audio]","Close method","ISpatialAudioMetadataReader.Close","ISpatialAudioMetadataReader::Close","coreaudio.ispatialaudiometadatareader_close","spatialaudiometadata/ISpatialAudioMetadataReader::Close"]
 old-location: coreaudio\ispatialaudiometadatareader_close.htm
 tech.root: CoreAudio

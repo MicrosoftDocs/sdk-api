@@ -1,12 +1,12 @@
 ---
 UID: NF:iads.IADsSecurityUtility.put_SecurityMask
 title: IADsSecurityUtility::put_SecurityMask (iads.h)
-description: Determines which elements of the security descriptor to retrieve or set.
+description: Determines which elements of the security descriptor to retrieve or set. (Put)
 helpviewer_keywords: ["IADsSecurityUtility interface [ADSI]","SecurityMask property","IADsSecurityUtility.SecurityMask","IADsSecurityUtility.put_SecurityMask","IADsSecurityUtility::SecurityMask","IADsSecurityUtility::get_SecurityMask","IADsSecurityUtility::put_SecurityMask","SecurityMask property [ADSI]","SecurityMask property [ADSI]","IADsSecurityUtility interface","adsi.iadssecurityutility_securitymask","iads/IADsSecurityUtility::SecurityMask","iads/IADsSecurityUtility::get_SecurityMask","iads/IADsSecurityUtility::put_SecurityMask","put_SecurityMask"]
 old-location: adsi\iadssecurityutility_securitymask.htm
 tech.root: adsi
 ms.assetid: b54ebe68-f7ce-484e-9378-04662b7a1051
-ms.date: 12/05/2018
+ms.date: 02/14/2023
 ms.keywords: IADsSecurityUtility interface [ADSI],SecurityMask property, IADsSecurityUtility.SecurityMask, IADsSecurityUtility.put_SecurityMask, IADsSecurityUtility::SecurityMask, IADsSecurityUtility::get_SecurityMask, IADsSecurityUtility::put_SecurityMask, SecurityMask property [ADSI], SecurityMask property [ADSI],IADsSecurityUtility interface, adsi.iadssecurityutility_securitymask, iads/IADsSecurityUtility::SecurityMask, iads/IADsSecurityUtility::get_SecurityMask, iads/IADsSecurityUtility::put_SecurityMask, put_SecurityMask
 req.header: iads.h
 req.include-header: 
@@ -49,27 +49,28 @@ api_name:
 
 # IADsSecurityUtility::put_SecurityMask
 
-
 ## -description
 
-The <b>SecurityMask</b> property determines which elements of the security descriptor to retrieve or set. This property must be set prior to calling <a href="/windows/desktop/api/iads/nf-iads-iadssecurityutility-getsecuritydescriptor">IADsSecurityUtility.GetSecurityDescriptor</a> or <a href="/windows/desktop/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor">IADsSecurityUtility.SetSecurityDescriptor</a>.
+The **SecurityMask** property determines which elements of the security descriptor to retrieve or set. This property must be set prior to calling [IADsSecurityUtility.GetSecurityDescriptor](/windows/win32/api/iads/nf-iads-iadssecurityutility-getsecuritydescriptor) or [IADsSecurityUtility.SetSecurityDescriptor](/windows/win32/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor).
 
 This property is read/write.
 
 ## -parameters
 
+### -param lnSecurityMask
+
+Specifies the security information to retrieve or set.
+
+## -returns
+
+An **HRESULT** value that indicates the success or failure of the call.
+
 ## -see-also
 
-<a href="/windows/win32/api/iads/ne-iads-ads_security_info_enum">ADS_SECURITY_INFO_ENUM</a>
+[ADS_SECURITY_INFO_ENUM](/windows/win32/api/iads/ne-iads-ads_security_info_enum)
 
+[IADsSecurityUtility](/windows/win32/api/iads/nn-iads-iadssecurityutility)
 
+[IADsSecurityUtility.GetSecurityDescriptor](/windows/win32/api/iads/nf-iads-iadssecurityutility-getsecuritydescriptor)
 
-<a href="/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a>
-
-
-
-<a href="/windows/desktop/api/iads/nf-iads-iadssecurityutility-getsecuritydescriptor">IADsSecurityUtility.GetSecurityDescriptor</a>
-
-
-
-<a href="/windows/desktop/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor">IADsSecurityUtility.SetSecurityDescriptor</a>
+[IADsSecurityUtility.SetSecurityDescriptor](/windows/win32/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor)

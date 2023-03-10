@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_ClientId
 title: IX509CertificateRequest::get_ClientId (certenroll.h)
-description: Specifies and retrieves a value that identifies the executable that created the request.
+description: Specifies and retrieves a value that identifies the executable that created the request. (Get)
 helpviewer_keywords: ["ClientId property [Security]","ClientId property [Security]","IX509CertificateRequest interface","IX509CertificateRequest interface [Security]","ClientId property","IX509CertificateRequest.ClientId","IX509CertificateRequest.get_ClientId","IX509CertificateRequest::ClientId","IX509CertificateRequest::get_ClientId","IX509CertificateRequest::put_ClientId","certenroll/IX509CertificateRequest::ClientId","certenroll/IX509CertificateRequest::get_ClientId","certenroll/IX509CertificateRequest::put_ClientId","get_ClientId","security.ix509certificaterequest_clientid_property"]
 old-location: security\ix509certificaterequest_clientid_property.htm
 tech.root: security

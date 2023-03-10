@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCustomStrokes.get_Count
 title: IInkCustomStrokes::get_Count (msinkaut.h)
-description: Gets the number of objects or collections contained in a collection.
+description: Gets the number of objects or collections contained in a collection. (IInkCustomStrokes.get_Count)
 helpviewer_keywords: ["Count property [Tablet PC]","Count property [Tablet PC]","IInkCustomStrokes interface","IInkCustomStrokes interface [Tablet PC]","Count property","IInkCustomStrokes.Count","IInkCustomStrokes.get_Count","IInkCustomStrokes::Count","IInkCustomStrokes::get_Count","get_Count","msinkaut/IInkCustomStrokes::Count","msinkaut/IInkCustomStrokes::get_Count","tablet.iinkcustomstrokes_count"]
 old-location: tablet\iinkcustomstrokes_count.htm
 tech.root: tablet

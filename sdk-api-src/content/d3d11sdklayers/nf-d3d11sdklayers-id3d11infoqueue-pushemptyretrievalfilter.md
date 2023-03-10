@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.PushEmptyRetrievalFilter
 title: ID3D11InfoQueue::PushEmptyRetrievalFilter (d3d11sdklayers.h)
-description: Push an empty retrieval filter onto the retrieval-filter stack.
+description: Push an empty retrieval filter onto the retrieval-filter stack. (ID3D11InfoQueue.PushEmptyRetrievalFilter)
 helpviewer_keywords: ["7de89d7b-e322-173f-aed7-4b318336eadc","ID3D11InfoQueue interface [Direct3D 11]","PushEmptyRetrievalFilter method","ID3D11InfoQueue.PushEmptyRetrievalFilter","ID3D11InfoQueue::PushEmptyRetrievalFilter","PushEmptyRetrievalFilter","PushEmptyRetrievalFilter method [Direct3D 11]","PushEmptyRetrievalFilter method [Direct3D 11]","ID3D11InfoQueue interface","d3d11sdklayers/ID3D11InfoQueue::PushEmptyRetrievalFilter","direct3d11.id3d11infoqueue_pushemptyretrievalfilter"]
 old-location: direct3d11\id3d11infoqueue_pushemptyretrievalfilter.htm
 tech.root: direct3d11

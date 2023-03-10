@@ -1,7 +1,7 @@
-﻿---
+---
 UID: NF:evntrace.StartTraceA
 title: StartTraceA function (evntrace.h)
-description: The StartTrace function starts an event tracing session.
+description: The StartTrace function starts an event tracing session. (ANSI)
 helpviewer_keywords:
   [
     "StartTrace",
@@ -26,8 +26,8 @@ ms.keywords:
 req.header: evntrace.h
 req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -40,11 +40,11 @@ req.type-library:
 req.lib:
   Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on
   Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows
-  Server 2008, Windows Vista and Windows XP
+  Server 2008, Windows Vista
 req.dll:
   Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on
   Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows
-  Server 2008, Windows Vista and Windows XP
+  Server 2008, Windows Vista
 req.irql:
 targetos: Windows
 req.typenames:
@@ -107,10 +107,6 @@ to INVALID_HANDLE_VALUE. The session handle is 0 if the handle is not valid.
 Null-terminated string that contains the name of the event tracing session. The
 session name is limited to 1,024 characters, is case-insensitive, and must be
 unique.
-
-**Windows 2000:** Session names are case-sensitive. As a result, duplicate
-session names are allowed. However, to reduce confusion, you should make sure
-your session names are unique.
 
 > [!Important]
 > Use a descriptive name for your session so that the session's
@@ -180,8 +176,7 @@ are some common errors and their causes.
   - The **LogFileMode** member of _Properties_ specifies a combination of flags
     that is not valid.
   - The **Wnode.Guid** member is **SystemTraceControlGuid**, but the
-    _InstanceName_ parameter is not **KERNEL_LOGGER_NAME**. **Windows 2000:**
-    This case does not return an error.
+    _InstanceName_ parameter is not **KERNEL_LOGGER_NAME**.
 
 - **ERROR_ALREADY_EXISTS**
 
@@ -207,8 +202,6 @@ are some common errors and their causes.
   Choose a drive with more space, or decrease the size specified in
   **MaximumFileSize** (if used).
 
-  **Windows 2000:** Does not require an additional 200 MB available disk space.
-
 - **ERROR_ACCESS_DENIED**
 
   Only users with administrative privileges, users in the Performance Log Users
@@ -217,8 +210,6 @@ are some common errors and their causes.
   control trace sessions, add them to the Performance Log Users group. Only
   users with administrative privileges and services running as LocalSystem can
   control an NT Kernel Logger session.
-
-  **Windows XP and Windows 2000:** Anyone can control a trace session.
 
   If the user is a member of the Performance Log Users group, they may not have
   permission to create the log file in the specified folder.
@@ -266,9 +257,6 @@ You cannot start more than one session with the same session GUID (as specified
 by `Properties.Wnode.Guid`). In most cases, you will set `Properties.Wnode.Guid`
 to all-zero (i.e. **GUID_NULL**) to allow the ETW system to generate a new GUID
 for the session.
-
-**Windows Server 2003:** You can start more than one session with the same
-session GUID.
 
 To specify a private logger session, set **Wnode.Guid** member of _Properties_
 to the provider's control GUID, not the private logger session's control GUID.
@@ -324,9 +312,6 @@ To specify an NT Kernel Logger session (deprecated), set _InstanceName_ to
 **SystemTraceControlGuid**. If you do not specify the GUID as
 **SystemTraceControlGuid**, ETW will override the GUID value and set it to
 **SystemTraceControlGuid**.
-
-**Windows 2000:** To start the kernel session, the session name must be
-**KERNEL_LOGGER_NAME** and the GUID must be **SystemTraceControlGuid**.
 
 ### Examples
 

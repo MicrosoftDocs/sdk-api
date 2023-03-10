@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11sdklayers.D3D11_INFO_QUEUE_FILTER_DESC
 title: D3D11_INFO_QUEUE_FILTER_DESC (d3d11sdklayers.h)
-description: Allow or deny certain types of messages to pass through a filter.
+description: Allow or deny certain types of messages to pass through a filter. (D3D11_INFO_QUEUE_FILTER_DESC)
 helpviewer_keywords: ["06785e69-a7e6-f154-5f99-7c38c12d6958","D3D11_INFO_QUEUE_FILTER_DESC","D3D11_INFO_QUEUE_FILTER_DESC structure [Direct3D 11]","d3d11sdklayers/D3D11_INFO_QUEUE_FILTER_DESC","direct3d11.d3d11_info_queue_filter_desc"]
 old-location: direct3d11\d3d11_info_queue_filter_desc.htm
 tech.root: direct3d11

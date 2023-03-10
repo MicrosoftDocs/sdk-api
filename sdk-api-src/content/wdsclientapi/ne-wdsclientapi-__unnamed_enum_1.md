@@ -1,12 +1,12 @@
 ---
 UID: NE:wdsclientapi.__unnamed_enum_1
 title: __unnamed_enum_1 (wdsclientapi.h)
-description: This enumeration is used by the WdsCliLog function.
+description: The __unnamed_enum_1 (wdsclientapi.h) enumeration is used by the WdsCliLog function.
 helpviewer_keywords: ["WDS_LOG_TYPE_CLIENT","WDS_LOG_TYPE_CLIENT_APPLY_FINISHED","WDS_LOG_TYPE_CLIENT_APPLY_STARTED","WDS_LOG_TYPE_CLIENT_ERROR","WDS_LOG_TYPE_CLIENT_FINISHED","WDS_LOG_TYPE_CLIENT_GENERIC_MESSAGE","WDS_LOG_TYPE_CLIENT_IMAGE_SELECTED","WDS_LOG_TYPE_CLIENT_MAX_CODE","WDS_LOG_TYPE_CLIENT_STARTED","__unnamed_enum_1","enumeration [Windows Deployment Services]","wds.wds_log_type_client","wdsclientapi/","wdsclientapi/WDS_LOG_TYPE_CLIENT_APPLY_FINISHED","wdsclientapi/WDS_LOG_TYPE_CLIENT_APPLY_STARTED","wdsclientapi/WDS_LOG_TYPE_CLIENT_ERROR","wdsclientapi/WDS_LOG_TYPE_CLIENT_FINISHED","wdsclientapi/WDS_LOG_TYPE_CLIENT_GENERIC_MESSAGE","wdsclientapi/WDS_LOG_TYPE_CLIENT_IMAGE_SELECTED","wdsclientapi/WDS_LOG_TYPE_CLIENT_MAX_CODE","wdsclientapi/WDS_LOG_TYPE_CLIENT_STARTED"]
 old-location: wds\wds_log_type_client.htm
 tech.root: wds
 ms.assetid: 6e49de64-28e4-41d6-a8cd-58348262b438
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: WDS_LOG_TYPE_CLIENT, WDS_LOG_TYPE_CLIENT_APPLY_FINISHED, WDS_LOG_TYPE_CLIENT_APPLY_STARTED, WDS_LOG_TYPE_CLIENT_ERROR, WDS_LOG_TYPE_CLIENT_FINISHED, WDS_LOG_TYPE_CLIENT_GENERIC_MESSAGE, WDS_LOG_TYPE_CLIENT_IMAGE_SELECTED, WDS_LOG_TYPE_CLIENT_MAX_CODE, WDS_LOG_TYPE_CLIENT_STARTED, __unnamed_enum_1, enumeration [Windows Deployment Services], wds.wds_log_type_client, wdsclientapi/, wdsclientapi/WDS_LOG_TYPE_CLIENT_APPLY_FINISHED, wdsclientapi/WDS_LOG_TYPE_CLIENT_APPLY_STARTED, wdsclientapi/WDS_LOG_TYPE_CLIENT_ERROR, wdsclientapi/WDS_LOG_TYPE_CLIENT_FINISHED, wdsclientapi/WDS_LOG_TYPE_CLIENT_GENERIC_MESSAGE, wdsclientapi/WDS_LOG_TYPE_CLIENT_IMAGE_SELECTED, wdsclientapi/WDS_LOG_TYPE_CLIENT_MAX_CODE, wdsclientapi/WDS_LOG_TYPE_CLIENT_STARTED
 req.header: wdsclientapi.h
 req.include-header: 

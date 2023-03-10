@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d11shader._D3D11_SHADER_TYPE_DESC
 title: D3D11_SHADER_TYPE_DESC (d3d11shader.h)
-description: Describes a shader-variable type.
+description: Describes a shader-variable type. (D3D11_SHADER_TYPE_DESC)
 helpviewer_keywords: ["071e4c6b-35a1-909a-b08c-bb43e4a73d5a","D3D11_SHADER_TYPE_DESC","D3D11_SHADER_TYPE_DESC structure [Direct3D 11]","d3d11shader/D3D11_SHADER_TYPE_DESC","direct3d11.d3d11_shader_type_desc"]
 old-location: direct3d11\d3d11_shader_type_desc.htm
 tech.root: direct3d11

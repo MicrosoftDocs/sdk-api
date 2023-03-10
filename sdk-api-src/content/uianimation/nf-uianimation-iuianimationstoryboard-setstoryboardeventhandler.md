@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.SetStoryboardEventHandler
 title: IUIAnimationStoryboard::SetStoryboardEventHandler (uianimation.h)
-description: Specifies a handler for storyboard events.
+description: Specifies a handler for storyboard events. (IUIAnimationStoryboard.SetStoryboardEventHandler)
 helpviewer_keywords: ["IUIAnimationStoryboard interface [Windows Animation]","SetStoryboardEventHandler method","IUIAnimationStoryboard.SetStoryboardEventHandler","IUIAnimationStoryboard::SetStoryboardEventHandler","SetStoryboardEventHandler","SetStoryboardEventHandler method [Windows Animation]","SetStoryboardEventHandler method [Windows Animation]","IUIAnimationStoryboard interface","uianimation.iuianimationstoryboard_setstoryboardeventhandler","uianimation/IUIAnimationStoryboard::SetStoryboardEventHandler"]
 old-location: uianimation\iuianimationstoryboard_setstoryboardeventhandler.htm
 tech.root: UIAnimation

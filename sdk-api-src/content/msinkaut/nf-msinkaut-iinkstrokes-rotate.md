@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokes.Rotate
 title: IInkStrokes::Rotate (msinkaut.h)
-description: Rotates the ink using an angle in degrees around a center point of the rotation.
+description: Rotates the ink using an angle in degrees around a center point of the rotation. (IInkStrokes.Rotate)
 helpviewer_keywords: ["3b3d5a58-31e8-4d0e-a1c9-25bb36bb8d9c","IInkStrokes interface [Tablet PC]","Rotate method","IInkStrokes.Rotate","IInkStrokes::Rotate","Rotate","Rotate method [Tablet PC]","Rotate method [Tablet PC]","IInkStrokes interface","msinkaut/IInkStrokes::Rotate","tablet.inkstrokes_rotate"]
 old-location: tablet\inkstrokes_rotate.htm
 tech.root: tablet

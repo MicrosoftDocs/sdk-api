@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.IEnroll.put_MyStoreFlags
 title: IEnroll::put_MyStoreFlags (xenroll.h)
-description: Sets or retrieves the registry location used for the MY store.
+description: Sets or retrieves the registry location used for the MY store. (Put)
 helpviewer_keywords: ["IEnroll interface [Security]","MyStoreFlags property","IEnroll.MyStoreFlags","IEnroll.put_MyStoreFlags","IEnroll::MyStoreFlags","IEnroll::get_MyStoreFlags","IEnroll::put_MyStoreFlags","MyStoreFlags property [Security]","MyStoreFlags property [Security]","IEnroll interface","put_MyStoreFlags","security.ienroll4_mystoreflags","xenroll/IEnroll::MyStoreFlags","xenroll/IEnroll::get_MyStoreFlags","xenroll/IEnroll::put_MyStoreFlags"]
 old-location: security\ienroll4_mystoreflags.htm
 tech.root: security

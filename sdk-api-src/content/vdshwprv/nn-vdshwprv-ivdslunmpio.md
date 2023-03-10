@@ -1,12 +1,12 @@
 ---
 UID: NN:vdshwprv.IVdsLunMpio
 title: IVdsLunMpio (vdshwprv.h)
-description: Provides methods for performing query and configuration operations on a LUN with MPIO extensions.
+description: The IVdsLunMpio interface (vdshwprv.h) provides methods for performing query and configuration operations on a LUN with MPIO extensions. 
 helpviewer_keywords: ["IVdsLunMpio","IVdsLunMpio interface [VDS]","IVdsLunMpio interface [VDS]","described","base.ivdslunmpio","vds/IVdsLunMpio","vdshwprv/IVdsLunMpio"]
 old-location: base\ivdslunmpio.htm
 tech.root: base
 ms.assetid: 0c7ab50a-306e-44f8-976d-0e65e36b0fea
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsLunMpio, IVdsLunMpio interface [VDS], IVdsLunMpio interface [VDS],described, base.ivdslunmpio, vds/IVdsLunMpio, vdshwprv/IVdsLunMpio
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for performing 
    query and configuration operations on a LUN with MPIO extensions.

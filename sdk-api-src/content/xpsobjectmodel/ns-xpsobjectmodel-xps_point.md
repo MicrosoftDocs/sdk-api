@@ -1,7 +1,7 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0017
 title: XPS_POINT (xpsobjectmodel.h)
-description: Represents an x- and y-coordinate pair in two-dimensional space.
+description: Represents an x- and y-coordinate pair in two-dimensional space. (XPS_POINT)
 helpviewer_keywords: ["XPS_POINT","XPS_POINT structure [XPS Documents and Packaging]","xps.xps_point","xpsobjectmodel/XPS_POINT"]
 old-location: xps\xps_point.htm
 tech.root: xps

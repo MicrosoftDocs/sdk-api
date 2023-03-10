@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.GetExceptionMode
 title: ID3D11Device::GetExceptionMode (d3d11.h)
-description: Get the exception-mode flags.
+description: Get the exception-mode flags. (ID3D11Device.GetExceptionMode)
 helpviewer_keywords: ["00dedc29-911b-cd5e-0b45-8f2505b70599","GetExceptionMode","GetExceptionMode method [Direct3D 11]","GetExceptionMode method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","GetExceptionMode method","ID3D11Device.GetExceptionMode","ID3D11Device::GetExceptionMode","d3d11/ID3D11Device::GetExceptionMode","direct3d11.id3d11device_getexceptionmode"]
 old-location: direct3d11\id3d11device_getexceptionmode.htm
 tech.root: direct3d11

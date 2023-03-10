@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_DynamicRendering
 title: IInkPicture::put_DynamicRendering (msinkaut.h)
-description: Gets or sets the value that specifies whether ink is rendered as it is drawn.
+description: Gets or sets the value that specifies whether ink is rendered as it is drawn. (IInkPicture.put_DynamicRendering)
 helpviewer_keywords: ["DynamicRendering property [Tablet PC]","DynamicRendering property [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","DynamicRendering property","IInkPicture.DynamicRendering","IInkPicture.put_DynamicRendering","IInkPicture::DynamicRendering","IInkPicture::get_DynamicRendering","IInkPicture::put_DynamicRendering","InkPicture.get_DynamicRendering","InkPicture.put_DynamicRendering","get_DynamicRendering","msinkaut/IInkPicture::DynamicRendering","msinkaut/IInkPicture::get_DynamicRendering","msinkaut/IInkPicture::put_DynamicRendering","put_DynamicRendering","tablet.inkpicture_dynamicrendering"]
 old-location: tablet\inkpicture_dynamicrendering.htm
 tech.root: tablet

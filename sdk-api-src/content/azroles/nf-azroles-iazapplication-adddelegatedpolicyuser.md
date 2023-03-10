@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.AddDelegatedPolicyUser
 title: IAzApplication::AddDelegatedPolicyUser (azroles.h)
-description: Adds the specified security identifier (SID) in text form to the list of principals that act as delegated policy users.
+description: Adds the specified security identifier (SID) in text form to the list of principals that act as delegated policy users. (IAzApplication.AddDelegatedPolicyUser)
 helpviewer_keywords: ["AddDelegatedPolicyUser","AddDelegatedPolicyUser method [Security]","AddDelegatedPolicyUser method [Security]","AzApplication object","AddDelegatedPolicyUser method [Security]","IAzApplication interface","AzApplication object [Security]","AddDelegatedPolicyUser method","IAzApplication interface [Security]","AddDelegatedPolicyUser method","IAzApplication.AddDelegatedPolicyUser","IAzApplication::AddDelegatedPolicyUser","azroles/IAzApplication::AddDelegatedPolicyUser","security.iazapplication_adddelegatedpolicyuser"]
 old-location: security\iazapplication_adddelegatedpolicyuser.htm
 tech.root: security

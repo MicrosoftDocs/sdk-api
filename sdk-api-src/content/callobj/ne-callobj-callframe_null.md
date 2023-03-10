@@ -1,7 +1,7 @@
 ---
 UID: NE:callobj.CALLFRAME_NULL
 title: CALLFRAME_NULL (callobj.h)
-description: Determines the parameter type to be freed.
+description: Determines the parameter type to be freed. (CALLFRAME_NULL)
 helpviewer_keywords: ["CALLFRAME_NULL","CALLFRAME_NULL enumeration [COM]","CALLFRAME_NULL_ALL","CALLFRAME_NULL_INOUT","CALLFRAME_NULL_NONE","CALLFRAME_NULL_OUT","callobj/CALLFRAME_NULL","callobj/CALLFRAME_NULL_ALL","callobj/CALLFRAME_NULL_INOUT","callobj/CALLFRAME_NULL_NONE","callobj/CALLFRAME_NULL_OUT","com.callframe_null"]
 old-location: com\callframe_null.htm
 tech.root: com

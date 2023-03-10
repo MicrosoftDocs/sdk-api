@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_TILED_RESOURCE_COORDINATE
 title: D3D12_TILED_RESOURCE_COORDINATE (d3d12.h)
-description: Describes the coordinates of a tiled resource.
+description: Describes the coordinates of a tiled resource. (D3D12_TILED_RESOURCE_COORDINATE)
 helpviewer_keywords: ["D3D12_TILED_RESOURCE_COORDINATE","D3D12_TILED_RESOURCE_COORDINATE structure","d3d12/D3D12_TILED_RESOURCE_COORDINATE","direct3d12.d3d12_tiled_resource_coordinate"]
 old-location: direct3d12\d3d12_tiled_resource_coordinate.htm
 tech.root: direct3d12

@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteFontList1.GetFont
 title: IDWriteFontList1::GetFont (dwrite_3.h)
-description: Gets a font given its zero-based index.
+description: Gets a font given its zero-based index. (IDWriteFontList1.GetFont)
 helpviewer_keywords: ["GetFont","GetFont method [Direct Write]","GetFont method [Direct Write]","IDWriteFontList1 interface","IDWriteFontList1 interface [Direct Write]","GetFont method","IDWriteFontList1.GetFont","IDWriteFontList1::GetFont","directwrite.idwritefontlist1_getfont","dwrite_3/IDWriteFontList1::GetFont"]
 old-location: directwrite\idwritefontlist1_getfont.htm
 tech.root: DirectWrite

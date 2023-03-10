@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.SetStandardColorSpaceProfileA
 title: SetStandardColorSpaceProfileA
-description: Registers a specified profile for a given standard [color space](/windows/win32/wcs/c). The profile can be queried using [GetStandardColorSpaceProfileW](/windows/win32/api/icm/nf-icm-getstandardcolorspaceprofilew).
+description: Registers a specified profile for a given standard [color space](/windows/win32/wcs/c). The profile can be queried using [GetStandardColorSpaceProfileW](/windows/win32/api/icm/nf-icm-getstandardcolorspaceprofilew). (ANSI)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(constWCHAR,constWmfPlaceableFileHeader)
 title: Metafile::Metafile(IN const WCHAR,IN const WmfPlaceableFileHeader) (gdiplusheaders.h)
-description: This topic lists the constructors of the Metafile class. For a complete class listing, see Metafile Class.
+description: This topic lists the constructors of the Metafile class. For a complete class listing, see Metafile Class. (overload 1/2)
 helpviewer_keywords: ["Metafile","Metafile constructors [GDI+]","Metafile.Metafile","Metafile.Metafile(IN const WCHAR","IN const WmfPlaceableFileHeader)","Metafile::Metafile","Metafile::Metafile(IN const WCHAR","IN const WmfPlaceableFileHeader)","_gdiplus_CLASS_Metafile_Constructors","gdiplus._gdiplus_CLASS_Metafile_Constructors","gdiplusheaders/Metafile"]
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Constructors.htm
 tech.root: gdiplus

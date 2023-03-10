@@ -4,7 +4,7 @@ title: Locationapi.h header
 ms.assetid: bad5cac7-9346-349c-87c7-57bca80e3c48
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winlocation
 f1_keywords:
  - locationapi

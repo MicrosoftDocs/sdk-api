@@ -1,7 +1,7 @@
 ---
 UID: NN:mfmp2dlna.IMFDLNASinkInit
 title: IMFDLNASinkInit (mfmp2dlna.h)
-description: Initializes the Digital Living Network Alliance (DLNA) media sink.
+description: Initializes the Digital Living Network Alliance (DLNA) media sink. (IMFDLNASinkInit)
 helpviewer_keywords: ["IMFDLNASinkInit","IMFDLNASinkInit interface [Media Foundation]","IMFDLNASinkInit interface [Media Foundation]","described","mf.imfdlnasinkinit","mfmp2dlna/IMFDLNASinkInit"]
 old-location: mf\imfdlnasinkinit.htm
 tech.root: mf

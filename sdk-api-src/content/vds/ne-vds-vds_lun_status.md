@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_LUN_STATUS
 title: VDS_LUN_STATUS (vds.h)
-description: Defines the set of object status values for a LUN.
+description: The VDS_LUN_STATUS (vds.h) enumeration defines the set of object status values for a LUN.
 helpviewer_keywords: ["*PVDS_LUN_STATUS","VDS_LS_FAILED","VDS_LS_NOT_READY","VDS_LS_OFFLINE","VDS_LS_ONLINE","VDS_LS_UNKNOWN","VDS_LUN_STATUS","VDS_LUN_STATUS enumeration [VDS]","base.vds_lun_status","vds/VDS_LS_FAILED","vds/VDS_LS_NOT_READY","vds/VDS_LS_OFFLINE","vds/VDS_LS_ONLINE","vds/VDS_LS_UNKNOWN","vds/VDS_LUN_STATUS","vdshwprv/VDS_LS_FAILED","vdshwprv/VDS_LS_NOT_READY","vdshwprv/VDS_LS_OFFLINE","vdshwprv/VDS_LS_ONLINE","vdshwprv/VDS_LS_UNKNOWN","vdshwprv/VDS_LUN_STATUS"]
 old-location: base\vds_lun_status.htm
 tech.root: base
 ms.assetid: dac82973-d8c0-430b-aeea-163af7d94d24
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*PVDS_LUN_STATUS, VDS_LS_FAILED, VDS_LS_NOT_READY, VDS_LS_OFFLINE, VDS_LS_ONLINE, VDS_LS_UNKNOWN, VDS_LUN_STATUS, VDS_LUN_STATUS enumeration [VDS], base.vds_lun_status, vds/VDS_LS_FAILED, vds/VDS_LS_NOT_READY, vds/VDS_LS_OFFLINE, vds/VDS_LS_ONLINE, vds/VDS_LS_UNKNOWN, vds/VDS_LUN_STATUS, vdshwprv/VDS_LS_FAILED, vdshwprv/VDS_LS_NOT_READY, vdshwprv/VDS_LS_OFFLINE, vdshwprv/VDS_LS_ONLINE, vdshwprv/VDS_LS_UNKNOWN, vdshwprv/VDS_LUN_STATUS'
 req.header: vds.h
 req.include-header: 
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of object status values for a LUN.
 

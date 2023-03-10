@@ -1,8 +1,8 @@
 ---
 UID: NF:winfax.FaxGetConfigurationW
 title: FaxGetConfigurationW function (winfax.h)
-description: The FaxGetConfiguration function returns to a fax client application the global configuration settings for the fax server to which the client has connected.
-helpviewer_keywords: ["FaxGetConfiguration","FaxGetConfiguration function [Fax Service]","FaxGetConfigurationA","FaxGetConfigurationW","_mfax_faxgetconfiguration","fax._mfax_faxgetconfiguration","winfax/FaxGetConfiguration","winfax/FaxGetConfigurationA","winfax/FaxGetConfigurationW"]
+description: The FaxGetConfiguration function returns to a fax client application the global configuration settings for the fax server to which the client has connected. (Unicode)
+helpviewer_keywords: ["FaxGetConfiguration", "FaxGetConfiguration function [Fax Service]", "FaxGetConfigurationW", "_mfax_faxgetconfiguration", "fax._mfax_faxgetconfiguration", "winfax/FaxGetConfiguration", "winfax/FaxGetConfigurationW"]
 old-location: fax\_mfax_faxgetconfiguration.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6nn2.htm

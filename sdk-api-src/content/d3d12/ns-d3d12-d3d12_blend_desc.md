@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_BLEND_DESC
 title: D3D12_BLEND_DESC (d3d12.h)
-description: Describes the blend state.
+description: Describes the blend state. (D3D12_BLEND_DESC)
 helpviewer_keywords: ["D3D12_BLEND_DESC","D3D12_BLEND_DESC structure","d3d12/D3D12_BLEND_DESC","direct3d12.d3d12_blend_desc"]
 old-location: direct3d12\d3d12_blend_desc.htm
 tech.root: direct3d12

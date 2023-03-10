@@ -1,5 +1,5 @@
 ---
-UID: NS:lmdfs.__unnamed_struct_2
+UID: NS:lmdfs.DFS_GET_PKT_ENTRY_STATE_ARG
 title: DFS_GET_PKT_ENTRY_STATE_ARG (lmdfs.h)
 description: Input buffer used with the FSCTL_DFS_GET_PKT_ENTRY_STATE control code.
 helpviewer_keywords: ["*PDFS_GET_PKT_ENTRY_STATE_ARG","DFS_GET_PKT_ENTRY_STATE_ARG","DFS_GET_PKT_ENTRY_STATE_ARG structure [Distributed File System]","PDFS_GET_PKT_ENTRY_STATE_ARG","PDFS_GET_PKT_ENTRY_STATE_ARG structure pointer [Distributed File System]","dfs.dfs_get_pkt_entry_state_arg","lmdfs/DFS_GET_PKT_ENTRY_STATE_ARG","lmdfs/PDFS_GET_PKT_ENTRY_STATE_ARG"]
@@ -135,3 +135,4 @@ On input this contains the three Unicode strings in order. The Unicode strings a
 
 
 <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a>
+

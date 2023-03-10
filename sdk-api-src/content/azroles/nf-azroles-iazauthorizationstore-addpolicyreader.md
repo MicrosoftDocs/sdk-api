@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddPolicyReader
 title: IAzAuthorizationStore::AddPolicyReader (azroles.h)
-description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy readers.
+description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy readers. (IAzAuthorizationStore.AddPolicyReader)
 helpviewer_keywords: ["AddPolicyReader","AddPolicyReader method [Security]","AddPolicyReader method [Security]","AzAuthorizationStore object","AddPolicyReader method [Security]","IAzAuthorizationStore interface","AzAuthorizationStore object [Security]","AddPolicyReader method","IAzAuthorizationStore interface [Security]","AddPolicyReader method","IAzAuthorizationStore.AddPolicyReader","IAzAuthorizationStore::AddPolicyReader","azroles/IAzAuthorizationStore::AddPolicyReader","security.azauthorizationstore_addpolicyreader"]
 old-location: security\azauthorizationstore_addpolicyreader.htm
 tech.root: security

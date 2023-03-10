@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3.ITACDGroupEvent
 title: ITACDGroupEvent (tapi3.h)
-description: The ITACDGroupEvent interface contains methods that retrieve the description of Automatic Call Distribution (ACD) group events.
+description: The ITACDGroupEvent (tapi3.h) interface contains methods that retrieve the description of Automatic Call Distribution (ACD) group events.
 helpviewer_keywords: ["ITACDGroupEvent","ITACDGroupEvent interface [TAPI 2.2]","ITACDGroupEvent interface [TAPI 2.2]","described","_tapi3_itacdgroupevent","tapi3.itacdgroupevent","tapi3cc/ITACDGroupEvent"]
 old-location: tapi3\itacdgroupevent.htm
 tech.root: tapi3
 ms.assetid: 5770dca5-cf71-4211-ba9f-0fe7a3bbb614
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITACDGroupEvent, ITACDGroupEvent interface [TAPI 2.2], ITACDGroupEvent interface [TAPI 2.2],described, _tapi3_itacdgroupevent, tapi3.itacdgroupevent, tapi3cc/ITACDGroupEvent
 req.header: tapi3.h
 req.include-header: Tapi3.h

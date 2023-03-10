@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_RASTERIZER_DESC
 title: D3D12_RASTERIZER_DESC (d3d12.h)
-description: Describes rasterizer state.
+description: Describes rasterizer state. (D3D12_RASTERIZER_DESC)
 helpviewer_keywords: ["D3D12_RASTERIZER_DESC","D3D12_RASTERIZER_DESC structure","d3d12/D3D12_RASTERIZER_DESC","direct3d12.d3d12_rasterizer_desc"]
 old-location: direct3d12\d3d12_rasterizer_desc.htm
 tech.root: direct3d12
@@ -110,7 +110,7 @@ Specifies whether to enable line antialiasing; only applies if doing line drawin
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The sample count that is forced while UAV rendering or rasterizing. Valid values are 0, 1, 2, 4, 8, and optionally 16. 0 indicates that the sample count is not forced.
+The sample count that is forced while UAV rendering or rasterizing. Valid values are 0, 1, 4, 8, and optionally 16. 0 indicates that the sample count is not forced.
 
 <div class="alert"><b>Note</b>  If you want to render with <b>ForcedSampleCount</b> set to 1 or greater, you must follow these guidelines:
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCbPrintfA
 title: StringCbPrintfA function (strsafe.h)
-description: Writes formatted data to the specified string.
-helpviewer_keywords: ["StringCbPrintf","StringCbPrintf function [Menus and Other Resources]","StringCbPrintfA","StringCbPrintfW","_shell_StringCbPrintf","_shell_stringcbprintf_cpp","menurc.stringcbprintf","strsafe/StringCbPrintf","strsafe/StringCbPrintfA","strsafe/StringCbPrintfW","winui._shell_stringcbprintf"]
+description: Writes formatted data to the specified string. (StringCbPrintfA)
+helpviewer_keywords: ["StringCbPrintfA", "strsafe/StringCbPrintfA"]
 old-location: menurc\stringcbprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbprintf.htm

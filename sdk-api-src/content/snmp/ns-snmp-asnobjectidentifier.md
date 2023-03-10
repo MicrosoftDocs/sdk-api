@@ -1,5 +1,5 @@
 ---
-UID: NS:snmp.__unnamed_struct_1
+UID: NS:snmp.AsnObjectIdentifier
 title: AsnObjectIdentifier (snmp.h)
 description: The AsnObjectIdentifier structure represents object identifiers. This structure is used by multiple SNMP functions. This structure is not used by the WinSNMP API functions.
 helpviewer_keywords: ["AsnObjectIdentifier","AsnObjectIdentifier structure [SNMP]","AsnObjectName","_snmp_asnobjectidentifier_str","snmp.asnobjectidentifier_str","snmp/AsnObjectIdentifier"]
@@ -73,3 +73,4 @@ Pointer to an array of integers that represents the object identifier.
 
 
 <a href="/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
+

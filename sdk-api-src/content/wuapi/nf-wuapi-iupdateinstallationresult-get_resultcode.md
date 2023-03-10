@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateInstallationResult.get_ResultCode
 title: IUpdateInstallationResult::get_ResultCode (wuapi.h)
-description: Gets an OperationResultCode value that specifies the result of an operation on an update.
+description: Gets an OperationResultCode value that specifies the result of an operation on an update. (IUpdateInstallationResult.get_ResultCode)
 helpviewer_keywords: ["IUpdateInstallationResult interface [Windows Update Agent]","ResultCode property","IUpdateInstallationResult.ResultCode","IUpdateInstallationResult.get_ResultCode","IUpdateInstallationResult::ResultCode","IUpdateInstallationResult::get_ResultCode","ResultCode property [Windows Update Agent]","ResultCode property [Windows Update Agent]","IUpdateInstallationResult interface","get_ResultCode","wua.iupdateinstallationresult_resultcode","wuapi/IUpdateInstallationResult::ResultCode","wuapi/IUpdateInstallationResult::get_ResultCode"]
 old-location: wua\iupdateinstallationresult_resultcode.htm
 tech.root: wua

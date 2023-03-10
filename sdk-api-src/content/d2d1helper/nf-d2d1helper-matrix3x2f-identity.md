@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Identity
 title: Matrix3x2F::Identity (d2d1helper.h)
-description: Creates an identity matrix.
+description: Creates an identity matrix. (Matrix3x2F.Identity)
 helpviewer_keywords: ["D2D1.Matrix3x2F.Identity","D2D1::Matrix3x2F::Identity","Identity","Identity method [Direct2D]","Identity method [Direct2D]","Matrix3x2F class","Matrix3x2F class [Direct2D]","Identity method","Matrix3x2F.Identity","Matrix3x2F::Identity","d2d1helper/Matrix3x2F::Identity","direct2d.colorf_identity","direct2d.matrix3x2f_identity"]
 old-location: direct2d\matrix3x2f_identity.htm
 tech.root: Direct2D

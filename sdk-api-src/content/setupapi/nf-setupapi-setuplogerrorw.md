@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupLogErrorW
 title: SetupLogErrorW function (setupapi.h)
-description: The SetupLogError function writes an error message to a log file.
-helpviewer_keywords: ["SetupLogError","SetupLogError function [Setup API]","SetupLogErrorA","SetupLogErrorW","_setupapi_setuplogerror","setup.setuplogerror","setupapi/SetupLogError","setupapi/SetupLogErrorA","setupapi/SetupLogErrorW"]
+description: The SetupLogError function writes an error message to a log file. (Unicode)
+helpviewer_keywords: ["SetupLogError", "SetupLogError function [Setup API]", "SetupLogErrorW", "_setupapi_setuplogerror", "setup.setuplogerror", "setupapi/SetupLogError", "setupapi/SetupLogErrorW"]
 old-location: setup\setuplogerror.htm
 tech.root: setup
 ms.assetid: 1e003338-9ada-48cb-89cc-557f12a43cd0

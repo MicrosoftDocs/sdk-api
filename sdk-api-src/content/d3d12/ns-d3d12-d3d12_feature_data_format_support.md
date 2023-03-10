@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_FORMAT_SUPPORT
 title: D3D12_FEATURE_DATA_FORMAT_SUPPORT (d3d12.h)
-description: Describes which resources are supported by the current graphics driver for a given format.
+description: Describes which resources are supported by the current graphics driver for a given format. (D3D12_FEATURE_DATA_FORMAT_SUPPORT)
 helpviewer_keywords: ["D3D12_FEATURE_DATA_FORMAT_SUPPORT","D3D12_FEATURE_DATA_FORMAT_SUPPORT structure","d3d12/D3D12_FEATURE_DATA_FORMAT_SUPPORT","direct3d12.d3d12_feature_data_format_support"]
 old-location: direct3d12\d3d12_feature_data_format_support.htm
 tech.root: direct3d12

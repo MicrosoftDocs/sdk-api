@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSQueryUserConfigA
 title: WTSQueryUserConfigA function (wtsapi32.h)
-description: Retrieves configuration information for the specified user on the specified domain controller or Remote Desktop Session Host (RD Session Host) server.
-helpviewer_keywords: ["WTSQueryUserConfig","WTSQueryUserConfig function [Remote Desktop Services]","WTSQueryUserConfigA","WTSQueryUserConfigW","_win32_wtsqueryuserconfig","termserv.wtsqueryuserconfig","wtsapi32/WTSQueryUserConfig","wtsapi32/WTSQueryUserConfigA","wtsapi32/WTSQueryUserConfigW"]
+description: Retrieves configuration information for the specified user on the specified domain controller or Remote Desktop Session Host (RD Session Host) server. (ANSI)
+helpviewer_keywords: ["WTSQueryUserConfigA", "wtsapi32/WTSQueryUserConfigA"]
 old-location: termserv\wtsqueryuserconfig.htm
 tech.root: TermServ
 ms.assetid: aabbcc03-3241-49ab-ab11-ccd3e6893e78

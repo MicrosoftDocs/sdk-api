@@ -163,7 +163,7 @@ Black pen.
 </dl>
 </td>
 <td width="60%">
-Solid pen color. The default color is white. The color can be changed by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-setdcpencolor">SetDCPenColor</a> function. For more information, see the Remarks section.
+Solid pen color. The default color is black. The color can be changed by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-setdcpencolor">SetDCPenColor</a> function. For more information, see the Remarks section.
 
 </td>
 </tr>

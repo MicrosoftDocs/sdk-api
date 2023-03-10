@@ -76,3 +76,5 @@ Shell extension handlers that export this interface must also export <a href="/w
 
 <div class="alert"><b>Note</b>  <b>Windows Vista and later:</b> Prior to Windows Vista this interface was declared in Shlobj.h.</div>
 <div> </div>
+<div class="alert"><b>Note</b> Windows 11 refines the behavior of the contextual file operations in the right-click context menu of File Explorer and the Share dialog. Please see  <a href="/windows/apps/get-started/make-apps-great-for-windows">Top 11 things you can do to make your app great on Windows 11 </a>
+<div></div>

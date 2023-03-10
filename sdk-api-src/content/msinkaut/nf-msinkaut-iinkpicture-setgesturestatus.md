@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.SetGestureStatus
 title: IInkPicture::SetGestureStatus (msinkaut.h)
-description: Modifies the interest of the object or control in a known gesture.
+description: Modifies the interest of the object or control in a known gesture. (IInkPicture.SetGestureStatus)
 helpviewer_keywords: ["7bab227f-d095-48e8-856f-6446e62826dd","IInkPicture","IInkPicture interface [Tablet PC]","SetGestureStatus method","IInkPicture.SetGestureStatus","IInkPicture::SetGestureStatus","SetGestureStatus","SetGestureStatus method [Tablet PC]","SetGestureStatus method [Tablet PC]","IInkPicture interface","msinkaut/IInkPicture::SetGestureStatus","tablet.inkpicture_setgesturestatus"]
 old-location: tablet\inkpicture_setgesturestatus.htm
 tech.root: tablet

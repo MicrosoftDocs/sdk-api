@@ -56,7 +56,7 @@ The <b>IMPEG2ComponentType</b> interface is implemented on <a href="/previous-ve
 
 The <b>IMPEG2ComponentType</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilanguagecomponenttype">ILanguageComponentType</a>. <b>IMPEG2ComponentType</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

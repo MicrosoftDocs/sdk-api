@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsHwProviderStoragePools.QueryMaxLunCreateSizeInStoragePool
 title: IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool (vds.h)
-description: Returns the maximum size of the LUN that can be created in the storage pool based on the specified LUN type and hints.
+description: The IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool method (vds.h) returns the maximum size of the LUN that can be created in the storage pool.
 helpviewer_keywords: ["IVdsHwProviderStoragePools interface","QueryMaxLunCreateSizeInStoragePool method","IVdsHwProviderStoragePools.QueryMaxLunCreateSizeInStoragePool","IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool","QueryMaxLunCreateSizeInStoragePool","QueryMaxLunCreateSizeInStoragePool method","QueryMaxLunCreateSizeInStoragePool method","IVdsHwProviderStoragePools interface","base.ivdshwproviderstoragepools_querymaxluncreatesizeinstoragepool","vds/IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool","vdshwprv/IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool"]
 old-location: base\ivdshwproviderstoragepools_querymaxluncreatesizeinstoragepool.htm
 tech.root: base
 ms.assetid: 37a802e2-4573-4f47-bf54-b2197034722d
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsHwProviderStoragePools interface,QueryMaxLunCreateSizeInStoragePool method, IVdsHwProviderStoragePools.QueryMaxLunCreateSizeInStoragePool, IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool, QueryMaxLunCreateSizeInStoragePool, QueryMaxLunCreateSizeInStoragePool method, QueryMaxLunCreateSizeInStoragePool method,IVdsHwProviderStoragePools interface, base.ivdshwproviderstoragepools_querymaxluncreatesizeinstoragepool, vds/IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool, vdshwprv/IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the maximum size of the LUN that can be created in the <a href="/windows/desktop/VDS/storage-pool-object">storage pool</a> based on the specified LUN type and hints.
 

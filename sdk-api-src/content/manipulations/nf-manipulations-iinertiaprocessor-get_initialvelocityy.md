@@ -1,7 +1,7 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_InitialVelocityY
 title: IInertiaProcessor::get_InitialVelocityY (manipulations.h)
-description: The InitialVelocityY property specifies the initial movement of the target object on the vertical axis.
+description: The InitialVelocityY property specifies the initial movement of the target object on the vertical axis. (Get)
 helpviewer_keywords: ["IInertiaProcessor interface [Windows Touch]","InitialVelocityY property","IInertiaProcessor.InitialVelocityY","IInertiaProcessor.get_InitialVelocityY","IInertiaProcessor::InitialVelocityY","IInertiaProcessor::get_InitialVelocityY","IInertiaProcessor::put_InitialVelocityY","InitialVelocityY property [Windows Touch]","InitialVelocityY property [Windows Touch]","IInertiaProcessor interface","get_InitialVelocityY","manipulations/IInertiaProcessor::InitialVelocityY","manipulations/IInertiaProcessor::get_InitialVelocityY","manipulations/IInertiaProcessor::put_InitialVelocityY","wintouch.iinertiaprocessor_initialvelocityy"]
 old-location: wintouch\iinertiaprocessor_initialvelocityy.htm
 tech.root: wintouch

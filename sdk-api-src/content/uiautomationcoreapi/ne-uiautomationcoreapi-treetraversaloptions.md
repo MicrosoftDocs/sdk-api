@@ -1,12 +1,12 @@
 ---
 UID: NE:uiautomationcoreapi.TreeTraversalOptions
 title: TreeTraversalOptions (uiautomationcoreapi.h)
-description: Defines values that can be used to customize tree navigation order.
+description: The TreeTraversalOptions (uiautomationcoreapi.h) enumeration defines values that can be used to customize tree navigation order.
 helpviewer_keywords: ["TreeTraversalOptions","TreeTraversalOptions enumeration [Windows Accessibility]","TreeTraversalOptions_Default","TreeTraversalOptions_LastToFirstOrder","TreeTraversalOptions_PostOrder","uiautomationclient/TreeTraversalOptions","uiautomationclient/TreeTraversalOptions_Default","uiautomationclient/TreeTraversalOptions_LastToFirstOrder","uiautomationclient/TreeTraversalOptions_PostOrder","winauto.uiauto_TreeTraversalOptions"]
 old-location: winauto\uiauto_TreeTraversalOptions.htm
 tech.root: WinAuto
 ms.assetid: BB1A65F5-797A-4240-9082-041068A87709
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: TreeTraversalOptions, TreeTraversalOptions enumeration [Windows Accessibility], TreeTraversalOptions_Default, TreeTraversalOptions_LastToFirstOrder, TreeTraversalOptions_PostOrder, uiautomationclient/TreeTraversalOptions, uiautomationclient/TreeTraversalOptions_Default, uiautomationclient/TreeTraversalOptions_LastToFirstOrder, uiautomationclient/TreeTraversalOptions_PostOrder, winauto.uiauto_TreeTraversalOptions
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h, Uiautomationcoreapi.h

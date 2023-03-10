@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiInstallClassA
 title: SetupDiInstallClassA function (setupapi.h)
-description: The SetupDiInstallClass function installs the ClassInstall32 section of the specified INF file.
-helpviewer_keywords: ["SetupDiInstallClass","SetupDiInstallClass function [Device and Driver Installation]","SetupDiInstallClassA","SetupDiInstallClassW","devinst.setupdiinstallclass","di-rtns_9d55009f-08f3-448c-9c1e-468e995f8cb9.xml","setupapi/SetupDiInstallClass"]
+description: The SetupDiInstallClass function installs the ClassInstall32 section of the specified INF file. (ANSI)
+helpviewer_keywords: ["SetupDiInstallClassA", "di-rtns_9d55009f-08f3-448c-9c1e-468e995f8cb9.xml"]
 old-location: devinst\setupdiinstallclass.htm
 tech.root: devinst
 ms.assetid: 6709936b-cd44-444a-a0c0-14b5ebce5226

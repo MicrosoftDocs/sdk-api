@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLunPlex.GetProperties
 title: IVdsLunPlex::GetProperties (vdshwprv.h)
-description: Returns the properties of the LUN plex.
+description: The IVdsLunPlex::GetProperties (vdshwprv.h) method returns the properties of the LUN plex.
 helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsLunPlex interface","IVdsLunPlex interface [VDS]","GetProperties method","IVdsLunPlex.GetProperties","IVdsLunPlex::GetProperties","base.ivdslunplex_getproperties","vds/IVdsLunPlex::GetProperties","vdshwprv/IVdsLunPlex::GetProperties"]
 old-location: base\ivdslunplex_getproperties.htm
 tech.root: base
 ms.assetid: ded24edd-fa6a-48f3-a448-690078f034bb
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],GetProperties method, IVdsLunPlex.GetProperties, IVdsLunPlex::GetProperties, base.ivdslunplex_getproperties, vds/IVdsLunPlex::GetProperties, vdshwprv/IVdsLunPlex::GetProperties
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the properties of the LUN plex.
 

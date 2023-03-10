@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.ClearDepthStencilView
 title: ID3D11DeviceContext::ClearDepthStencilView (d3d11.h)
-description: Clears the depth-stencil resource.
+description: Clears the depth-stencil resource. (ID3D11DeviceContext.ClearDepthStencilView)
 helpviewer_keywords: ["ClearDepthStencilView","ClearDepthStencilView method [Direct3D 11]","ClearDepthStencilView method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","ClearDepthStencilView method","ID3D11DeviceContext.ClearDepthStencilView","ID3D11DeviceContext::ClearDepthStencilView","d3d11/ID3D11DeviceContext::ClearDepthStencilView","d4e31518-5c9c-aa0c-b817-a09a4886e3f2","direct3d11.id3d11devicecontext_cleardepthstencilview"]
 old-location: direct3d11\id3d11devicecontext_cleardepthstencilview.htm
 tech.root: direct3d11

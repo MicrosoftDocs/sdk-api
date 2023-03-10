@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.put_Url
 title: IX509PolicyServerUrl::put_Url (certenroll.h)
-description: Specifies or retrieves the URL for the certificate enrollment policy (CEP) server.
+description: Specifies or retrieves the URL for the certificate enrollment policy (CEP) server. (Put)
 helpviewer_keywords: ["IX509PolicyServerUrl interface [Security]","Url property","IX509PolicyServerUrl.Url","IX509PolicyServerUrl.put_Url","IX509PolicyServerUrl::Url","IX509PolicyServerUrl::get_Url","IX509PolicyServerUrl::put_Url","Url property [Security]","Url property [Security]","IX509PolicyServerUrl interface","certenroll/IX509PolicyServerUrl::Url","certenroll/IX509PolicyServerUrl::get_Url","certenroll/IX509PolicyServerUrl::put_Url","put_Url","security.ix509policyserverurl_url"]
 old-location: security\ix509policyserverurl_url.htm
 tech.root: security

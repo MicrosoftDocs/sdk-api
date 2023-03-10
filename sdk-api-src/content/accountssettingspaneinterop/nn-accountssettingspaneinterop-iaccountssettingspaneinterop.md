@@ -2,9 +2,9 @@
 UID: NN:accountssettingspaneinterop.IAccountsSettingsPaneInterop
 tech.root: winrt
 title: IAccountsSettingsPaneInterop
-ms.date: 04/16/2021
+ms.date: 08/10/2022
 targetos: Windows
-description: 
+description: IAccountsSettingsPaneInterop enables interoperability with a WinRT AccountsSettingsPane object and provides access to members to show the accounts pane.
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventClass.put_OwnerSID
 title: IEventClass::put_OwnerSID (eventsys.h)
-description: The security ID of the event class object's creator. This property is supported only for backward compatibility.
+description: The security ID of the event class object's creator. This property is supported only for backward compatibility. (Put)
 helpviewer_keywords: ["IEventClass interface [COM+]","OwnerSID property","IEventClass.OwnerSID","IEventClass.put_OwnerSID","IEventClass::OwnerSID","IEventClass::get_OwnerSID","IEventClass::put_OwnerSID","OwnerSID property [COM+]","OwnerSID property [COM+]","IEventClass interface","cos.ieventclass_ownersid","eventsys/IEventClass::OwnerSID","eventsys/IEventClass::get_OwnerSID","eventsys/IEventClass::put_OwnerSID","put_OwnerSID"]
 old-location: cos\ieventclass_ownersid.htm
 tech.root: cos

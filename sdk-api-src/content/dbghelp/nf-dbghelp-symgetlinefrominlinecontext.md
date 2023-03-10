@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymGetLineFromInlineContext
 title: SymGetLineFromInlineContext function (dbghelp.h)
-description: Locates the source line for the specified inline context.
+description: The SymGetLineFromInlineContext function (dbghelp.h) locates the source line for the specified inline context.
 helpviewer_keywords: ["SymGetLineFromInlineContext","SymGetLineFromInlineContext function","SymGetLineFromInlineContextW","base.symgetlinefrominlinecontext","dbghelp/SymGetLineFromInlineContext","dbghelp/SymGetLineFromInlineContextW"]
 old-location: base\symgetlinefrominlinecontext.htm
 tech.root: Debug
 ms.assetid: 0c362bd9-7496-436b-9e01-2054dc3dfc57
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymGetLineFromInlineContext, SymGetLineFromInlineContext function, SymGetLineFromInlineContextW, base.symgetlinefrominlinecontext, dbghelp/SymGetLineFromInlineContext, dbghelp/SymGetLineFromInlineContextW
 req.header: dbghelp.h
 req.include-header: 

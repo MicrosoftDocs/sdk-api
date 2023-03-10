@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiSetClassInstallParamsA
 title: SetupDiSetClassInstallParamsA function (setupapi.h)
-description: The SetupDiSetClassInstallParams function sets or clears class install parameters for a device information set or a particular device information element.
-helpviewer_keywords: ["SetupDiSetClassInstallParams","SetupDiSetClassInstallParams function [Device and Driver Installation]","SetupDiSetClassInstallParamsA","SetupDiSetClassInstallParamsW","devinst.setupdisetclassinstallparams","di-rtns_4bbd92e2-cdae-4b03-9b30-931b6155dc2c.xml","setupapi/SetupDiSetClassInstallParams"]
+description: The SetupDiSetClassInstallParams function sets or clears class install parameters for a device information set or a particular device information element. (ANSI)
+helpviewer_keywords: ["SetupDiSetClassInstallParamsA", "di-rtns_4bbd92e2-cdae-4b03-9b30-931b6155dc2c.xml"]
 old-location: devinst\setupdisetclassinstallparams.htm
 tech.root: devinst
 ms.assetid: a7f35e32-eaad-440b-8109-7320048ec7ba

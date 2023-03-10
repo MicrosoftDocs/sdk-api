@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.SetIScsiInitiatorNodeNameA
 title: SetIScsiInitiatorNodeNameA function (iscsidsc.h)
-description: SetIscsiInitiatorNodeName function establishes an initiator node name for the computer. This name is utilized by any initiator nodes on the computer that are communicating with other nodes.
-helpviewer_keywords: ["SetIScsiInitiatorNodeNameA","SetIscsiInitiatorNodeName","SetIscsiInitiatorNodeName function [iSCSI Discovery Library API]","SetIscsiInitiatorNodeNameA","SetIscsiInitiatorNodeNameW","iscsidisc.setiscsiinitiatornodename","iscsidsc/SetIscsiInitiatorNodeName","iscsidsc/SetIscsiInitiatorNodeNameA","iscsidsc/SetIscsiInitiatorNodeNameW"]
+description: SetIscsiInitiatorNodeName function establishes an initiator node name for the computer. This name is utilized by any initiator nodes on the computer that are communicating with other nodes. (ANSI)
+helpviewer_keywords: ["SetIScsiInitiatorNodeNameA", "SetIscsiInitiatorNodeNameA", "iscsidsc/SetIscsiInitiatorNodeNameA"]
 old-location: iscsidisc\setiscsiinitiatornodename.htm
 tech.root: iSCSIDisc
 ms.assetid: 4758fbde-da94-4da2-9c04-d2bec2c61752

@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.__unnamed_struct_16
+UID: NS:winioctl.CREATE_USN_JOURNAL_DATA
 title: CREATE_USN_JOURNAL_DATA
 description: Contains information that describes an update sequence number (USN) change journal.
 helpviewer_keywords: ["*PCREATE_USN_JOURNAL_DATA","CREATE_USN_JOURNAL_DATA","CREATE_USN_JOURNAL_DATA structure [Files]","PCREATE_USN_JOURNAL_DATA","PCREATE_USN_JOURNAL_DATA structure pointer [Files]","_win32_create_usn_journal_data_str","base.create_usn_journal_data_str","fs.create_usn_journal_data_str","winioctl/CREATE_USN_JOURNAL_DATA","winioctl/PCREATE_USN_JOURNAL_DATA"]
@@ -77,3 +77,4 @@ For more information, see
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_usn_journal">FSCTL_CREATE_USN_JOURNAL</a>
+

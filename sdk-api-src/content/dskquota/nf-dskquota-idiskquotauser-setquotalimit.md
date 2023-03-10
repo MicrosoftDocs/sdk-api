@@ -56,7 +56,7 @@ Sets the user's quota limit value on the volume. The limit is set as the maximum
 
 ### -param llLimit [in]
 
-The default quota limit, in bytes. If this value is -1, the user has an unlimited quota.
+The quota limit, in bytes. If this value is -1, the user has an unlimited quota.
 
 ### -param fWriteThrough [in]
 

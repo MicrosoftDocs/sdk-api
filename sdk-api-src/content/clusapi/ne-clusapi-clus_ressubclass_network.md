@@ -1,12 +1,12 @@
 ---
 UID: NE:clusapi.CLUS_RESSUBCLASS_NETWORK
 title: CLUS_RESSUBCLASS_NETWORK (clusapi.h)
-description: Identifies a resource subclass that manages an IP address provider.
+description: CLUS_RESSUBCLASS_NETWORK (clusapi.h) identifies a resource subclass that manages an IP address provider.
 helpviewer_keywords: ["CLUS_RESSUBCLASS_NETWORK","CLUS_RESSUBCLASS_NETWORK enumeration [Failover Cluster]","CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL","clusapi/CLUS_RESSUBCLASS_NETWORK","clusapi/CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL","msclus/CLUS_RESSUBCLASS_NETWORK","msclus/CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL","mscs.clus_ressubclass_network"]
 old-location: mscs\clus_ressubclass_network.htm
 tech.root: MsCS
 ms.assetid: 1dea2545-f0d4-4730-87af-19de135c1640
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: CLUS_RESSUBCLASS_NETWORK, CLUS_RESSUBCLASS_NETWORK enumeration [Failover Cluster], CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL, clusapi/CLUS_RESSUBCLASS_NETWORK, clusapi/CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL, msclus/CLUS_RESSUBCLASS_NETWORK, msclus/CLUS_RESSUBCLASS_NETWORK_INTERNET_PROTOCOL, mscs.clus_ressubclass_network
 req.header: clusapi.h
 req.include-header: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.Commit
 title: IDCompositionDevice::Commit (dcomp.h)
-description: Commits all DirectComposition commands that are pending on this device.
+description: Commits all DirectComposition commands that are pending on this device. (IDCompositionDevice.Commit)
 helpviewer_keywords: ["Commit","Commit method [DirectComposition]","Commit method [DirectComposition]","IDCompositionDevice interface","IDCompositionDevice interface [DirectComposition]","Commit method","IDCompositionDevice.Commit","IDCompositionDevice::Commit","dcomp/IDCompositionDevice::Commit","directcomp.idcompositiondevice_commit"]
 old-location: directcomp\idcompositiondevice_commit.htm
 tech.root: directcomp

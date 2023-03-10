@@ -2,7 +2,7 @@
 UID: NF:traceloggingprovider.TraceLoggingUnregister
 title: TraceLoggingUnregister
 description: Unregisters a TraceLogging provider.
-ms.date: 5/7/2019
+ms.date: 06/06/2022
 ms.keywords: TraceLoggingUnregister
 targetos: Windows
 req.assembly:
@@ -71,7 +71,7 @@ and all uses of the provider handle will be safe no-ops. In particular, it is a
 safe no-op to call **TraceLoggingWrite** or **TraceLoggingUnregister** with an
 unregistered provider handle.
 
-> [!Important]
+> [!IMPORTANT]
 > If your DLL or driver calls `TraceLoggingRegister` on a provider
 > handle, it **must** call `TraceLoggingUnregister` on that provider handle
 > before the DLL or driver unloads. If a DLL unloads without calling

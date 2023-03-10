@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsHwProvider.Reenumerate
 title: IVdsHwProvider::Reenumerate (vdshwprv.h)
-description: Discovers newly connected and disconnected subsystems.
+description: The IVdsHwProvider::Reenumerate (vdshwprv.h) method discovers newly connected and disconnected subsystems.
 helpviewer_keywords: ["IVdsHwProvider interface [VDS]","Reenumerate method","IVdsHwProvider.Reenumerate","IVdsHwProvider::Reenumerate","Reenumerate","Reenumerate method [VDS]","Reenumerate method [VDS]","IVdsHwProvider interface","base.ivdshwprovider_reenumerate","vds/IVdsHwProvider::Reenumerate","vdshwprv/IVdsHwProvider::Reenumerate"]
 old-location: base\ivdshwprovider_reenumerate.htm
 tech.root: base
 ms.assetid: aeb06a98-8896-446f-abd5-ea40be0bea40
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsHwProvider interface [VDS],Reenumerate method, IVdsHwProvider.Reenumerate, IVdsHwProvider::Reenumerate, Reenumerate, Reenumerate method [VDS], Reenumerate method [VDS],IVdsHwProvider interface, base.ivdshwprovider_reenumerate, vds/IVdsHwProvider::Reenumerate, vdshwprv/IVdsHwProvider::Reenumerate
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Discovers newly 
    connected and disconnected subsystems.

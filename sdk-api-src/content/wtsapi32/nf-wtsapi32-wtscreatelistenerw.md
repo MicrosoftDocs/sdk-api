@@ -1,8 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSCreateListenerW
 title: WTSCreateListenerW function (wtsapi32.h)
-description: Creates a new Remote Desktop Services listener or configures an existing listener.
-helpviewer_keywords: ["WTSCreateListener","WTSCreateListener function [Remote Desktop Services]","WTSCreateListenerA","WTSCreateListenerW","WTS_LISTENER_CREATE","WTS_LISTENER_UPDATE","termserv.wtscreatelistener","wtsapi32/WTSCreateListener","wtsapi32/WTSCreateListenerA","wtsapi32/WTSCreateListenerW"]
+description: Creates a new Remote Desktop Services listener or configures an existing listener. (Unicode)
+helpviewer_keywords: ["WTSCreateListener", "WTSCreateListener function [Remote Desktop Services]", "WTSCreateListenerW", "WTS_LISTENER_CREATE", "WTS_LISTENER_UPDATE", "termserv.wtscreatelistener", "wtsapi32/WTSCreateListener", "wtsapi32/WTSCreateListenerW"]
 old-location: termserv\wtscreatelistener.htm
 tech.root: TermServ
 ms.assetid: 057facde-43b6-44c4-944a-7ad7854ec1e6

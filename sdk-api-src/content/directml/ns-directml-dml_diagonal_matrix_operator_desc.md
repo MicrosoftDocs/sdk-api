@@ -3,7 +3,7 @@ UID: NS:directml.DML_DIAGONAL_MATRIX_OPERATOR_DESC
 title: DML_DIAGONAL_MATRIX_OPERATOR_DESC
 description: Generates an identity-like matrix with ones (or other explicit value) on the major diagonal, and zeros everywhere else.
 tech.root: directml
-ms.date: 10/29/2020
+ms.date: 07/20/2022
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -120,6 +120,11 @@ OutputTensor: (Sizes:{1,1,3,2}, DataType:FLOAT32)
 This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| OutputTensor | Output | 2 to 4 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+
 ### DML_FEATURE_LEVEL_4_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |

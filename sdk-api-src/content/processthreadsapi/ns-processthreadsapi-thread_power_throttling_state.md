@@ -4,7 +4,7 @@ title: THREAD_POWER_THROTTLING_STATE (processthreadsapi.h)
 description: Specifies the throttling policies and how to apply them to a target thread when that thread is subject to power management.
 helpviewer_keywords: ["PTHREAD_POWER_THROTTLING_STATE","PTHREAD_POWER_THROTTLING_STATE structure pointer","THREAD_POWER_THROTTLING_CURRENT_VERSION","THREAD_POWER_THROTTLING_EXECUTION_SPEED","THREAD_POWER_THROTTLING_STATE","THREAD_POWER_THROTTLING_STATE structure","base.thread_power_throttling_state","processthreadsapi/PTHREAD_POWER_THROTTLING_STATE","processthreadsapi/THREAD_POWER_THROTTLING_STATE"]
 old-location: base\thread_power_throttling_state.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 2E4D3A93-F4EE-4293-BE28-239B48E869B4
 ms.date: 12/05/2018
 ms.keywords: PTHREAD_POWER_THROTTLING_STATE, PTHREAD_POWER_THROTTLING_STATE structure pointer, THREAD_POWER_THROTTLING_CURRENT_VERSION, THREAD_POWER_THROTTLING_EXECUTION_SPEED, THREAD_POWER_THROTTLING_STATE, THREAD_POWER_THROTTLING_STATE structure, base.thread_power_throttling_state, processthreadsapi/PTHREAD_POWER_THROTTLING_STATE, processthreadsapi/THREAD_POWER_THROTTLING_STATE

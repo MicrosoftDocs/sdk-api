@@ -58,7 +58,7 @@ The <b>IMPEG2_TIF_CONTROL</b> interface is implemented by the <a href="/previous
 
 The <b>IMPEG2_TIF_CONTROL</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMPEG2_TIF_CONTROL</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMPluginControl.IsDisabled
 title: IAMPluginControl::IsDisabled (strmif.h)
-description: Queries whether a class identifier (CLSID) appears in the blocked list.
+description: Queries whether a class identifier (CLSID) appears in the blocked list. (IAMPluginControl.IsDisabled)
 helpviewer_keywords: ["IAMPluginControl interface [DirectShow]","IsDisabled method","IAMPluginControl.IsDisabled","IAMPluginControl::IsDisabled","IsDisabled","IsDisabled method [DirectShow]","IsDisabled method [DirectShow]","IAMPluginControl interface","dshow.iamplugincontrol_isdisabled","strmif/IAMPluginControl::IsDisabled"]
 old-location: dshow\iamplugincontrol_isdisabled.htm
 tech.root: dshow

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the properties of the audio stream by populating an <a href="/win32/api/audioclient/ns-audioclient-audioclientproperties-r1">AudioClientProperties</a> structure.
+Sets the properties of the audio stream by populating an <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties-r1">AudioClientProperties</a> structure.
 
 ## -parameters
 

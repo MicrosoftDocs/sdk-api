@@ -34,6 +34,7 @@
     "sas.h",
     "schannel.h",
     "identityprovider.h",
+    "isolatedwindowsenvironmentutils.h",
     "scardssp.h",
     "identitystore.h",
     "scardmgr.h",

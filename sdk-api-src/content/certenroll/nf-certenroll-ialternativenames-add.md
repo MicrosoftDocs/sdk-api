@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IAlternativeNames.Add
 title: IAlternativeNames::Add (certenroll.h)
-description: Adds an object to the collection.
+description: Adds an object to the collection. (IAlternativeNames.Add)
 helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","IAlternativeNames interface","IAlternativeNames interface [Security]","Add method","IAlternativeNames.Add","IAlternativeNames::Add","certenroll/IAlternativeNames::Add","security.ialternativenames_add_method"]
 old-location: security\ialternativenames_add_method.htm
 tech.root: security

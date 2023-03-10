@@ -1,5 +1,5 @@
 ---
-UID: NS:dsquery.__unnamed_struct_0
+UID: NS:dsquery.DSQUERYINITPARAMS
 title: DSQUERYINITPARAMS (dsquery.h)
 description: Describes the data used to initialize a browse dialog box in the directory service query.
 helpviewer_keywords: ["*LPDSQUERYINITPARAMS","DSQPF_ENABLEADMINFEATURES","DSQPF_ENABLEADVANCEDFEATURES","DSQPF_HASCREDENTIALS","DSQPF_NOCHOOSECOLUMNS","DSQPF_NOSAVE","DSQPF_SAVELOCATION","DSQPF_SHOWHIDDENOBJECTS","DSQUERYINITPARAMS","DSQUERYINITPARAMS structure [Active Directory]","LPDSQUERYINITPARAMS","LPDSQUERYINITPARAMS structure pointer [Active Directory]","_glines_dsqueryinitparams","ad.dsqueryinitparams","dsquery/DSQUERYINITPARAMS","dsquery/LPDSQUERYINITPARAMS"]
@@ -148,3 +148,4 @@ This structure is specific to the <b>CLSID_DsQuery</b> query handler. This struc
 
 
 <a href="/windows/desktop/api/cmnquery/ns-cmnquery-openquerywindow">OPENQUERYWINDOW</a>
+

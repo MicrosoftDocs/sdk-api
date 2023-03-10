@@ -1,8 +1,8 @@
 ---
 UID: NF:winnls.EnumDateFormatsA
 title: EnumDateFormatsA function (winnls.h)
-description: Enumerates the long date, short date, or year/month formats that are available for a specified locale.
-helpviewer_keywords: ["EnumDateFormats","EnumDateFormats function [Internationalization for Windows Applications]","EnumDateFormatsA","EnumDateFormatsW","_win32_EnumDateFormats","intl.enumdateformats","winnls/EnumDateFormats","winnls/EnumDateFormatsA","winnls/EnumDateFormatsW"]
+description: Enumerates the long date, short date, or year/month formats that are available for a specified locale. (ANSI)
+helpviewer_keywords: ["EnumDateFormatsA", "winnls/EnumDateFormatsA"]
 old-location: intl\enumdateformats.htm
 tech.root: Intl
 ms.assetid: 77b5e753-aee9-42d8-a0fa-27b065fc3b20

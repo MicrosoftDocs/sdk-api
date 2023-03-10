@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Get_Resource_Conflict_DetailsA
 ms.date: 04/13/2021
 targetos: Windows
-description: The CM_Get_Resource_Conflict_Details function obtains the details about one of the resource conflicts in a conflict list.
+description: The CM_Get_Resource_Conflict_Details function obtains the details about one of the resource conflicts in a conflict list. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

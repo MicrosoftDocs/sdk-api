@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10Texture1D
 title: ID3D10Texture1D (d3d10.h)
-description: A 1D texture interface accesses texel data, which is structured memory.
+description: A 1D texture interface accesses texel data, which is structured memory. (ID3D10Texture1D)
 helpviewer_keywords: ["ID3D10Texture1D","ID3D10Texture1D interface [Direct3D 10]","ID3D10Texture1D interface [Direct3D 10]","described","d2aff301-d0e7-6d38-4b16-a1f90a64ba0e","d3d10/ID3D10Texture1D","direct3d10.id3d10texture1d"]
 old-location: direct3d10\id3d10texture1d.htm
 tech.root: direct3d10

@@ -56,7 +56,7 @@ The <b>IAnalogRadioTuningSpace</b> interface provides methods for getting and se
 
 The <b>IAnalogRadioTuningSpace</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a>. <b>IAnalogRadioTuningSpace</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

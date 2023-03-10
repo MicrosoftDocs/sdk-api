@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.ScheduleTransition
 title: IUIAnimationManager::ScheduleTransition (uianimation.h)
-description: Creates and schedules a single-transition storyboard.
+description: Creates and schedules a single-transition storyboard. (IUIAnimationManager.ScheduleTransition)
 helpviewer_keywords: ["IUIAnimationManager interface [Windows Animation]","ScheduleTransition method","IUIAnimationManager.ScheduleTransition","IUIAnimationManager::ScheduleTransition","ScheduleTransition","ScheduleTransition method [Windows Animation]","ScheduleTransition method [Windows Animation]","IUIAnimationManager interface","uianimation.iuianimationmanager_scheduletransition","uianimation/IUIAnimationManager::ScheduleTransition"]
 old-location: uianimation\iuianimationmanager_scheduletransition.htm
 tech.root: UIAnimation

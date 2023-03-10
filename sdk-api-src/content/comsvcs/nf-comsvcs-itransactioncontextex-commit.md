@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ITransactionContextEx.Commit
 title: ITransactionContextEx::Commit (comsvcs.h)
-description: Attempts to commit the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
+description: Attempts to commit the work of all COM objects participating in the current transaction. The transaction ends on return from this method. (ITransactionContextEx.Commit)
 helpviewer_keywords: ["Commit","Commit method [COM+]","Commit method [COM+]","ITransactionContextEx interface","ITransactionContextEx interface [COM+]","Commit method","ITransactionContextEx.Commit","ITransactionContextEx::Commit","_cos_ITransactionContextEx_Commit","comsvcs/ITransactionContextEx::Commit","cos.itransactioncontextex_commit"]
 old-location: cos\itransactioncontextex_commit.htm
 tech.root: cos

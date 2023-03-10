@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_BLEND_OP
 title: D3D11_BLEND_OP (d3d11.h)
-description: RGB or alpha blending operation.
+description: RGB or alpha blending operation. (D3D11_BLEND_OP)
 helpviewer_keywords: ["2c289d70-b751-5cb8-a8b5-4db1d10f3c9d","D3D11_BLEND_OP","D3D11_BLEND_OP enumeration [Direct3D 11]","D3D11_BLEND_OP_ADD","D3D11_BLEND_OP_MAX","D3D11_BLEND_OP_MIN","D3D11_BLEND_OP_REV_SUBTRACT","D3D11_BLEND_OP_SUBTRACT","d3d11/D3D11_BLEND_OP","d3d11/D3D11_BLEND_OP_ADD","d3d11/D3D11_BLEND_OP_MAX","d3d11/D3D11_BLEND_OP_MIN","d3d11/D3D11_BLEND_OP_REV_SUBTRACT","d3d11/D3D11_BLEND_OP_SUBTRACT","direct3d11.d3d11_blend_op"]
 old-location: direct3d11\d3d11_blend_op.htm
 tech.root: direct3d11

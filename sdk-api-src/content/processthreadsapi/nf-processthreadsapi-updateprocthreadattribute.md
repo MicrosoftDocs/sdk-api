@@ -2,14 +2,14 @@
 UID: NF:processthreadsapi.UpdateProcThreadAttribute
 title: UpdateProcThreadAttribute function (processthreadsapi.h)
 description: Updates the specified attribute in a list of attributes for process and thread creation.
-helpviewer_keywords: ["PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY","PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY","PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY","PROC_THREAD_ATTRIBUTE_HANDLE_LIST","PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR","PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY","PROC_THREAD_ATTRIBUTE_PARENT_PROCESS","PROC_THREAD_ATTRIBUTE_PREFERRED_NODE","PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL","PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES","PROC_THREAD_ATTRIBUTE_UMS_THREAD","PROC_THREAD_ATTRIBUTE_JOB_LIST","UpdateProcThreadAttribute","UpdateProcThreadAttribute function","base.updateprocthreadattribute","processthreadsapi/UpdateProcThreadAttribute","winbase/UpdateProcThreadAttribute"]
+helpviewer_keywords: ["PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY","PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY","PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY","PROC_THREAD_ATTRIBUTE_HANDLE_LIST","PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR","PROC_THREAD_ATTRIBUTE_MACHINE_TYPE","PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY","PROC_THREAD_ATTRIBUTE_PARENT_PROCESS","PROC_THREAD_ATTRIBUTE_PREFERRED_NODE","PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL","PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES","PROC_THREAD_ATTRIBUTE_UMS_THREAD","PROC_THREAD_ATTRIBUTE_JOB_LIST","UpdateProcThreadAttribute","UpdateProcThreadAttribute function","base.updateprocthreadattribute","processthreadsapi/UpdateProcThreadAttribute","winbase/UpdateProcThreadAttribute"]
 old-location: base\updateprocthreadattribute.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 5fc3e04f-9b2a-440c-a9aa-d78d9b25b341
 ms.date: 02/02/2021
-ms.keywords: PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY, PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY, PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY, PROC_THREAD_ATTRIBUTE_HANDLE_LIST, PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR, PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY, PROC_THREAD_ATTRIBUTE_PARENT_PROCESS, PROC_THREAD_ATTRIBUTE_PREFERRED_NODE, PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL, PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES, PROC_THREAD_ATTRIBUTE_UMS_THREAD, PROC_THREAD_ATTRIBUTE_JOB_LIST, UpdateProcThreadAttribute, UpdateProcThreadAttribute function, base.updateprocthreadattribute, processthreadsapi/UpdateProcThreadAttribute, winbase/UpdateProcThreadAttribute
+ms.keywords: PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY, PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY, PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY, PROC_THREAD_ATTRIBUTE_HANDLE_LIST, PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR, PROC_THREAD_ATTRIBUTE_MACHINE_TYPE, PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY, PROC_THREAD_ATTRIBUTE_PARENT_PROCESS, PROC_THREAD_ATTRIBUTE_PREFERRED_NODE, PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL, PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES, PROC_THREAD_ATTRIBUTE_UMS_THREAD, PROC_THREAD_ATTRIBUTE_JOB_LIST, UpdateProcThreadAttribute, UpdateProcThreadAttribute function, base.updateprocthreadattribute, processthreadsapi/UpdateProcThreadAttribute, winbase/UpdateProcThreadAttribute
 req.header: processthreadsapi.h
-req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
@@ -86,7 +86,7 @@ The attribute key to update in the attribute list. This parameter can be one of 
 <td width="60%">
 The <i>lpValue</i> parameter is a pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structure that specifies the processor group affinity for the new thread.
 
-<b>Windows Server 2008 and Windows Vista:  </b>This value is not supported until Windows 7 and Windows Server 2008 R2.
+Supported in Windows 7 and newer and Windows Server 2008 R2 and newer.
 
 </td>
 </tr>
@@ -112,10 +112,25 @@ These handles must be created as inheritable handles and must not include pseudo
 <td width="60%">
 The <i>lpValue</i> parameter is a pointer to a  <a href="/windows/desktop/api/winnt/ns-winnt-processor_number">PROCESSOR_NUMBER</a> structure that specifies the ideal processor for the new thread.
 
-<b>Windows Server 2008 and Windows Vista:  </b>This value is not supported until Windows 7 and Windows Server 2008 R2.
+Supported in Windows 7 and newer and Windows Server 2008 R2 and newer.
 
 </td>
 </tr>
+ 
+<tr>
+<td width="40%"><a id="PROC_THREAD_ATTRIBUTE_MACHINE_TYPE"></a><a id="proc_thread_attribute_machine_type"></a><dl>
+<dt><b>PROC_THREAD_ATTRIBUTE_MACHINE_TYPE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>lpValue</i> parameter is a pointer to a <b>WORD</b> that specifies the machine architecture of the child process.
+
+Supported in Windows 11 and newer.
+
+The  <b>WORD</b> pointed to by <i>lpValue</i> can be a value listed on <a href="/windows/win32/sysinfo/image-file-machine-constants">IMAGE FILE MACHINE CONSTANTS</a>.
+</td>
+</tr>
+
 <tr>
 <td width="40%"><a id="PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY"></a><a id="proc_thread_attribute_mitigation_policy"></a><dl>
 <dt><b>PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY</b></dt>
@@ -126,9 +141,9 @@ The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> or <b>DWORD64</b> th
 
 The specified policy overrides the policies set for the application and the system and cannot be changed after the child process starts running.  
 
-<b>Windows Server 2008 and Windows Vista:  </b>This value is not supported until Windows 7 and Windows Server 2008 R2.
-
 The  <b>DWORD</b> or <b>DWORD64</b> pointed to by <i>lpValue</i> can be one or more of the values listed in the remarks.
+
+Supported in Windows 7 and newer and Windows Server 2008 R2 and newer.
 
 </td>
 </tr>
@@ -152,7 +167,7 @@ Attributes inherited from the specified process include handles, the device map,
 <td width="60%">
 The <i>lpValue</i> parameter is a pointer to the node number of the preferred NUMA node for the new process.
 
-<b>Windows Server 2008 and Windows Vista:  </b>This value is not supported until Windows 7 and Windows Server 2008 R2.
+Supported in Windows 7 and newer and Windows Server 2008 R2 and newer.
 
 </td>
 </tr>
@@ -166,7 +181,9 @@ The <i>lpValue</i> parameter is a pointer to a <a href="/windows/desktop/api/win
 
 After the UMS thread is created, the system queues it to the specified completion list. The UMS thread runs only when an application's UMS scheduler retrieves the UMS thread from the completion list and selects it to run.  For more information, see <a href="/windows/desktop/ProcThread/user-mode-scheduling">User-Mode Scheduling</a>.
 
-<b>Windows Server 2008 and Windows Vista:  </b>This value is not supported until Windows 7 and Windows Server 2008 R2.
+Supported in Windows 7 and newer and Windows Server 2008 R2 and newer.
+
+Not supported in Windows 11 and newer (see [User-Mode Scheduling](/windows/win32/procthread/user-mode-scheduling)).
 
 </td>
 </tr>
@@ -178,7 +195,7 @@ After the UMS thread is created, the system queues it to the specified completio
 <td width="60%">
 The <i>lpValue</i> parameter is a pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-security_capabilities">SECURITY_CAPABILITIES</a> structure that defines the security capabilities of an app container. If this attribute is set the new process will be created as an AppContainer process.
 
-<b>Windows 7, Windows Server 2008 R2, Windows Server 2008 and Windows Vista:  </b>This value is not supported until  Windows 8 and Windows Server 2012.
+Supported in Windows 8 and newer and Windows Server 2012 and newer.
 
 </td>
 </tr>
@@ -190,7 +207,8 @@ The <i>lpValue</i> parameter is a pointer to a <a href="/windows/desktop/api/win
 <td width="60%">
 The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> value of <b>PROTECTION_LEVEL_SAME</b>. This specifies the protection level of the child process to be the same as the protection level of its parent process.
 
-<b>Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 and Windows Vista: </b>This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+Supported in Windows 8.1 and newer and Windows Server 2012 R2 and newer.
+
 </td>
 </tr>
 <tr>
@@ -203,7 +221,8 @@ The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> value that specifies
 
 For information on the possible values for the <b>DWORD</b> to which <i>lpValue</i> points, see Remarks.
 
-<b>Windows 8.1, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 and Windows Vista: </b>This value is not supported until Windows 10 and Windows Server 2016.
+Supported in Windows 10 and newer and Windows Server 2016 and newer.
+
 </td>
 </tr>
 <tr>
@@ -218,7 +237,8 @@ The <i>lpValue</i> parameter is a pointer to a <b>DWORD</b> value that specifies
 
 For information about the possible values for the <b>DWORD</b> to which <i>lpValue</i> points, see Remarks.
 
-This value is not supported until Windows 10 Version 1703 and Windows Server Version 1709.
+Supported in Windows 10 Version 1703 and newer and Windows Server Version 1709 and newer.
+
 </td>
 </tr>
 <tr>
@@ -229,7 +249,8 @@ This value is not supported until Windows 10 Version 1703 and Windows Server Ver
 <td width="60%">
 The <i>lpValue</i> parameter is a pointer to a list of job handles to be assigned to the child process, in the order specified.
 
-<b>Windows 8.1, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 and Windows Vista: </b>This value is not supported until Windows 10 and Windows Server 2016.
+Supported in Windows 10 and newer and Windows Server 2016 and newer.
+
 </td>
 </tr>
 <tr>
@@ -240,7 +261,7 @@ The <i>lpValue</i> parameter is a pointer to a list of job handles to be assigne
 <td width="60%">
 The <i>lpValue</i> parameter is a pointer to a <b>DWORD64</b> value that specifies the set of optional XState features to enable for the new thread.
 
-This value is not supported until Windows 11 and Windows Server 2022.
+Supported in Windows 11 and newer and Windows Server 2022 and newer.
 
 </td>
 </tr>
@@ -249,7 +270,7 @@ This value is not supported until Windows 11 and Windows Server 2022.
 
 ### -param lpValue [in]
 
-A pointer to the attribute value. This value must persist until the attribute list is destroyed using the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist">DeleteProcThreadAttributeList</a> function.
+A pointer to the attribute value. <b>This value must persist until the attribute list is destroyed using the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist">DeleteProcThreadAttributeList</a> function</b>.
 
 ### -param cbSize [in]
 

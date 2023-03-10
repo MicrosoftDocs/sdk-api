@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetCombineUrlW
 title: InternetCombineUrlW function (wininet.h)
-description: Combines a base and relative URL into a single URL. The resultant URL is canonicalized (see InternetCanonicalizeUrl).
-helpviewer_keywords: ["InternetCombineUrl","InternetCombineUrl function [WinINet]","InternetCombineUrlA","InternetCombineUrlW","_inet_internetcombineurl_function","wininet.internetcombineurl","wininet/InternetCombineUrl","wininet/InternetCombineUrlA","wininet/InternetCombineUrlW"]
+description: Combines a base and relative URL into a single URL. The resultant URL is canonicalized (see InternetCanonicalizeUrl). (Unicode)
+helpviewer_keywords: ["InternetCombineUrl", "InternetCombineUrl function [WinINet]", "InternetCombineUrlW", "_inet_internetcombineurl_function", "wininet.internetcombineurl", "wininet/InternetCombineUrl", "wininet/InternetCombineUrlW"]
 old-location: wininet\internetcombineurl.htm
 tech.root: wininet
 ms.assetid: 2efcf28a-e82b-47f2-8e8c-95fee70a87e4

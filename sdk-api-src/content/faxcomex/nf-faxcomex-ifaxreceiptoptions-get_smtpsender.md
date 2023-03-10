@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.get_SMTPSender
 title: IFaxReceiptOptions::get_SMTPSender (faxcomex.h)
-description: The IFaxReceiptOptions::get_SMTPSender property is a null-terminated string that contains the Simple Mail Transport Protocol (SMTP) email address for the sender of the mail message receipt.
+description: The IFaxReceiptOptions::get_SMTPSender property is a null-terminated string that contains the Simple Mail Transport Protocol (SMTP) email address for the sender of the mail message receipt. (Get)
 helpviewer_keywords: ["IFaxReceiptOptions interface [Fax Service]","SMTPSender property","IFaxReceiptOptions.SMTPSender","IFaxReceiptOptions.get_SMTPSender","IFaxReceiptOptions.put_SMTPSender","IFaxReceiptOptions::SMTPSender","IFaxReceiptOptions::get_SMTPSender","IFaxReceiptOptions::put_SMTPSender","SMTPSender property [Fax Service]","SMTPSender property [Fax Service]","IFaxReceiptOptions interface","_mfax_faxreceiptoptions.smtpsender","fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpsender_cpp","fax._mfax_faxreceiptoptions_smtpsender","faxcomex/IFaxReceiptOptions::SMTPSender","faxcomex/IFaxReceiptOptions::get_SMTPSender","faxcomex/IFaxReceiptOptions::put_SMTPSender","get_SMTPSender"]
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpsender_cpp.htm
 tech.root: Fax

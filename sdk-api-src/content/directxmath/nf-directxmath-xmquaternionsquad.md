@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMQuaternionSquad
 title: XMQuaternionSquad function (directxmath.h)
-description: Interpolates between four unit quaternions, using spherical quadrangle interpolation.
+description: Interpolates between four unit quaternions, using spherical quadrangle interpolation. (XMQuaternionSquad)
 helpviewer_keywords: ["Use DirectX..XMQuaternionSquad","XMQuaternionSquad","XMQuaternionSquad method [DirectX Math Support APIs]","dxmath.xmquaternionsquad"]
 old-location: dxmath\xmquaternionsquad.htm
 tech.root: dxmath

@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.ICodecAPI.SetValueWithNotify
 title: ICodecAPI::SetValueWithNotify (strmif.h)
-description: The SetValueWithNotify method sets a property on a codec and returns a list of other properties that changed as a result.
+description: The SetValueWithNotify method sets a property on a codec and returns a list of other properties that changed as a result. (ICodecAPI.SetValueWithNotify)
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetValueWithNotify method","ICodecAPI.SetValueWithNotify","ICodecAPI::SetValueWithNotify","ICodecAPISetValueWithNotify","SetValueWithNotify","SetValueWithNotify method [DirectShow]","SetValueWithNotify method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setvaluewithnotify","strmif/ICodecAPI::SetValueWithNotify"]
 old-location: dshow\icodecapi_setvaluewithnotify.htm
 tech.root: dshow

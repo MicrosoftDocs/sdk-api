@@ -1,7 +1,8 @@
 ---
 UID: NE:wlanapi._WLAN_INTERFACE_STATE~r1
 title: WLAN_INTERFACE_STATE
-ms.date: 01/30/2019
+description: The WLAN_INTERFACE_STATE enumeration indicates the state of an interface.
+ms.date: 08/16/2022
 ms.keywords: _WLAN_INTERFACE_STATE, WLAN_INTERFACE_STATE
 targetos: Windows
 req.construct-type: enumeration

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.Clone
 title: IXpsOMCoreProperties::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.
+description: Makes a deep copy of the interface. (IXpsOMCoreProperties.Clone)
 helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","Clone method","IXpsOMCoreProperties.Clone","IXpsOMCoreProperties::Clone","xps.ixpsomcoreproperties_clone","xpsobjectmodel/IXpsOMCoreProperties::Clone"]
 old-location: xps\ixpsomcoreproperties_clone.htm
 tech.root: xps

@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.SetVolumeMountPointA
 title: SetVolumeMountPointA function (winbase.h)
-description: Associates a volume with a drive letter or a directory on another volume.
-helpviewer_keywords: ["SetVolumeMountPoint","SetVolumeMountPoint function [Files]","SetVolumeMountPointA","SetVolumeMountPointW","_win32_setvolumemountpoint","base.setvolumemountpoint","fs.setvolumemountpoint","winbase/SetVolumeMountPoint","winbase/SetVolumeMountPointA","winbase/SetVolumeMountPointW"]
+description: Associates a volume with a drive letter or a directory on another volume. (ANSI)
+helpviewer_keywords: ["SetVolumeMountPointA", "winbase/SetVolumeMountPointA"]
 old-location: fs\setvolumemountpoint.htm
 tech.root: fs
 ms.assetid: 1535fe64-221a-4756-a9ba-81bbe7596598
@@ -65,7 +65,7 @@ Associates a volume with a drive letter or a directory on another volume.
 
 ### -param lpszVolumeMountPoint [in]
 
-The user-mode path to be associated with the volume. This may be a drive letter (for example, "X:\") or a directory 
+The user-mode path to be associated with the volume. This may be a drive letter (for example, "X:\\") or a directory 
       on another volume (for example, "Y:\MountX\"). The string must end with a trailing backslash ('\').
 
 ### -param lpszVolumeName [in]

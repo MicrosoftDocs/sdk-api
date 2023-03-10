@@ -1,7 +1,7 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.get_HWND
 title: IRealTimeStylus::get_HWND (rtscom.h)
-description: Gets or sets the handle value associated with the window the RealTimeStylus object uses.
+description: Gets or sets the handle value associated with the window the RealTimeStylus object uses. (Get)
 helpviewer_keywords: ["HWND property [Tablet PC]","HWND property [Tablet PC]","IRealTimeStylus interface","IRealTimeStylus interface [Tablet PC]","HWND property","IRealTimeStylus.HWND","IRealTimeStylus.get_HWND","IRealTimeStylus.put_HWND","IRealTimeStylus::HWND","IRealTimeStylus::get_HWND","IRealTimeStylus::put_HWND","b6bc8053-80fa-45f3-8096-272b471a5f6d","get_HWND","rtscom/IRealTimeStylus::HWND","rtscom/IRealTimeStylus::get_HWND","rtscom/IRealTimeStylus::put_HWND","tablet.irealtimestylus_hwnd"]
 old-location: tablet\irealtimestylus_hwnd.htm
 tech.root: tablet

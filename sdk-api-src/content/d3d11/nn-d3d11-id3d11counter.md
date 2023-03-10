@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11Counter
 title: ID3D11Counter (d3d11.h)
-description: This interface encapsulates methods for measuring GPU performance.
+description: This interface encapsulates methods for measuring GPU performance. (ID3D11Counter)
 helpviewer_keywords: ["ID3D11Counter","ID3D11Counter interface [Direct3D 11]","ID3D11Counter interface [Direct3D 11]","described","d3d11/ID3D11Counter","direct3d11.id3d11counter","e8e19b70-2584-4e44-1faf-1bc2d275606a"]
 old-location: direct3d11\id3d11counter.htm
 tech.root: direct3d11

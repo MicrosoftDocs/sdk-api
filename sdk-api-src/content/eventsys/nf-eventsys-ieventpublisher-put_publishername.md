@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventPublisher.put_PublisherName
 title: IEventPublisher::put_PublisherName (eventsys.h)
-description: The display name for the event publisher.
+description: The display name for the event publisher. (Put)
 helpviewer_keywords: ["IEventPublisher interface [COM]","PublisherName property","IEventPublisher.PublisherName","IEventPublisher.put_PublisherName","IEventPublisher::PublisherName","IEventPublisher::get_PublisherName","IEventPublisher::put_PublisherName","PublisherName property [COM]","PublisherName property [COM]","IEventPublisher interface","_com_ieventpublisher_publishername","com.ieventpublisher_publishername","eventsys/IEventPublisher::PublisherName","eventsys/IEventPublisher::get_PublisherName","eventsys/IEventPublisher::put_PublisherName","put_PublisherName"]
 old-location: com\ieventpublisher_publishername.htm
 tech.root: com

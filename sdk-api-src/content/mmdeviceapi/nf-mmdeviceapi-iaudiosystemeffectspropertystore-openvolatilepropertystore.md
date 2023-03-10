@@ -76,5 +76,7 @@ Returns an HRESULT including, but not limited to the following:
 
 This method will only open existing property stores under the context registry keys. It will not create a new key if one is not present in the associated INF file. Attempting to access a property store that does not already exist will result in an E_NOTFOUND error.
 
+For more information on the Windows 11 APIs for the Audio Processing Objects (APOs) that can ship with audio drivers, see [Windows 11 APIs for Audio Processing Objects](/windows-hardware/drivers/audio/windows-11-apis-for-audio-processing-objects).
+
 ## -see-also
 

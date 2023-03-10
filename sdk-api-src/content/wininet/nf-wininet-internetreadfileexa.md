@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetReadFileExA
 title: InternetReadFileExA function (wininet.h)
-description: Reads data from a handle opened by the InternetOpenUrl or HttpOpenRequest function.
-helpviewer_keywords: ["InternetReadFileEx","InternetReadFileEx function [WinINet]","InternetReadFileExA","InternetReadFileExW","_inet_internetreadfileex_function","wininet.internetreadfileex","wininet/InternetReadFileEx","wininet/InternetReadFileExA","wininet/InternetReadFileExW"]
+description: Reads data from a handle opened by the InternetOpenUrl or HttpOpenRequest function. (ANSI)
+helpviewer_keywords: ["InternetReadFileExA", "wininet/InternetReadFileExA"]
 old-location: wininet\internetreadfileex.htm
 tech.root: wininet
 ms.assetid: 04e7bb7e-d925-41fd-8333-3cb443a04c5b

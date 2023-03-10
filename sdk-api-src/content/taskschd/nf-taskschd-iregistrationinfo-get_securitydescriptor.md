@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.get_SecurityDescriptor
 title: IRegistrationInfo::get_SecurityDescriptor (taskschd.h)
-description: Gets or sets the security descriptor of the task.
+description: Gets or sets the security descriptor of the task. (Get)
 helpviewer_keywords: ["IRegistrationInfo interface [Task Scheduler]","SecurityDescriptor property","IRegistrationInfo.SecurityDescriptor","IRegistrationInfo.get_SecurityDescriptor","IRegistrationInfo::SecurityDescriptor","IRegistrationInfo::get_SecurityDescriptor","IRegistrationInfo::put_SecurityDescriptor","SecurityDescriptor property [Task Scheduler]","SecurityDescriptor property [Task Scheduler]","IRegistrationInfo interface","get_SecurityDescriptor","taskschd.iregistrationinfo_securitydescriptor","taskschd/IRegistrationInfo::SecurityDescriptor","taskschd/IRegistrationInfo::get_SecurityDescriptor","taskschd/IRegistrationInfo::put_SecurityDescriptor"]
 old-location: taskschd\iregistrationinfo_securitydescriptor.htm
 tech.root: taskschd

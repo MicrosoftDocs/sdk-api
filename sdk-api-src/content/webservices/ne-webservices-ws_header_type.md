@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_42
+UID: NE:webservices.WS_HEADER_TYPE
 title: WS_HEADER_TYPE (webservices.h)
 description: Identifies a type of header.
 helpviewer_keywords: ["WS_ACTION_HEADER","WS_FAULT_TO_HEADER","WS_FROM_HEADER","WS_HEADER_TYPE","WS_HEADER_TYPE enumeration [Web Services for Windows]","WS_MESSAGE_ID_HEADER","WS_RELATES_TO_HEADER","WS_REPLY_TO_HEADER","WS_TO_HEADER","webservices/WS_ACTION_HEADER","webservices/WS_FAULT_TO_HEADER","webservices/WS_FROM_HEADER","webservices/WS_HEADER_TYPE","webservices/WS_MESSAGE_ID_HEADER","webservices/WS_RELATES_TO_HEADER","webservices/WS_REPLY_TO_HEADER","webservices/WS_TO_HEADER","wsw.ws_header_type"]
@@ -167,3 +167,4 @@ This header is used with <a href="/windows/desktop/api/webservices/ne-webservice
                 
 
 This header is not supported for <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a>.
+

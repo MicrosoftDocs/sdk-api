@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_modify_extW
 title: ldap_modify_extW function (winldap.h)
-description: The ldap_modify_ext function changes an existing entry.
-helpviewer_keywords: ["_ldap_ldap_modify_ext","ldap.ldap__modify__ext","ldap.ldap_modify_ext","ldap_modify_ext","ldap_modify_ext function [LDAP]","ldap_modify_extA","ldap_modify_extW","winldap/ldap_modify_ext","winldap/ldap_modify_extA","winldap/ldap_modify_extW"]
+description: The ldap_modify_extW (Unicode) function (winldap.h) initiates an asynchronous operation to modify an existing entry. 
+helpviewer_keywords: ["_ldap_ldap_modify_ext", "ldap.ldap__modify__ext", "ldap.ldap_modify_ext", "ldap_modify_ext", "ldap_modify_ext function [LDAP]", "ldap_modify_extW", "winldap/ldap_modify_ext", "winldap/ldap_modify_extW"]
 old-location: ldap\ldap_modify_ext.htm
 tech.root: ldap
 ms.assetid: a11f4944-d574-4215-a25e-536adf21c469
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _ldap_ldap_modify_ext, ldap.ldap__modify__ext, ldap.ldap_modify_ext, ldap_modify_ext, ldap_modify_ext function [LDAP], ldap_modify_extA, ldap_modify_extW, winldap/ldap_modify_ext, winldap/ldap_modify_extA, winldap/ldap_modify_extW
 req.header: winldap.h
 req.include-header: 

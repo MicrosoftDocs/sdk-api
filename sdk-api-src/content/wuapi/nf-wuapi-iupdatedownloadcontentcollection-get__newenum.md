@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IUpdateDownloadContentCollection.get__NewEnum
 title: IUpdateDownloadContentCollection::get__NewEnum (wuapi.h)
-description: Gets an IEnumVARIANT interface that is used to enumerate the collection.
+description: Gets an IEnumVARIANT interface that is used to enumerate the collection. (IUpdateDownloadContentCollection.get__NewEnum)
 helpviewer_keywords: ["IUpdateDownloadContentCollection interface [Windows Update Agent]","_NewEnum property","IUpdateDownloadContentCollection._NewEnum","IUpdateDownloadContentCollection.get__NewEnum","IUpdateDownloadContentCollection::_NewEnum","IUpdateDownloadContentCollection::get__NewEnum","_NewEnum property [Windows Update Agent]","_NewEnum property [Windows Update Agent]","IUpdateDownloadContentCollection interface","get__NewEnum","wua.iupdatedownloadcontentcollection__newenum","wuapi/IUpdateDownloadContentCollection::_NewEnum","wuapi/IUpdateDownloadContentCollection::get__NewEnum"]
 old-location: wua\iupdatedownloadcontentcollection__newenum.htm
 tech.root: wua

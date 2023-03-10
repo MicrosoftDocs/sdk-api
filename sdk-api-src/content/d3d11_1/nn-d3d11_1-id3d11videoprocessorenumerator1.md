@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11_1.ID3D11VideoProcessorEnumerator1
 title: ID3D11VideoProcessorEnumerator1 (d3d11_1.h)
-description: Enumerates the video processor capabilities of a Microsoft Direct3D 11 device.
+description: Enumerates the video processor capabilities of a Microsoft Direct3D 11 device. (ID3D11VideoProcessorEnumerator1)
 helpviewer_keywords: ["ID3D11VideoProcessorEnumerator1","ID3D11VideoProcessorEnumerator1 interface [Media Foundation]","ID3D11VideoProcessorEnumerator1 interface [Media Foundation]","described","d3d11_1/ID3D11VideoProcessorEnumerator1","mf.id3d11videoprocessorenumerator1"]
 old-location: mf\id3d11videoprocessorenumerator1.htm
 tech.root: mf

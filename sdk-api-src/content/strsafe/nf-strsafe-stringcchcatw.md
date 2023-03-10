@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchCatW
 title: StringCchCatW function (strsafe.h)
-description: Concatenates one string to another string.
-helpviewer_keywords: ["StringCchCat","StringCchCat function [Menus and Other Resources]","StringCchCatA","StringCchCatW","_shell_StringCchCat","_shell_stringcchcat_cpp","menurc.stringcchcat","strsafe/StringCchCat","strsafe/StringCchCatA","strsafe/StringCchCatW","winui._shell_stringcchcat"]
+description: Concatenates one string to another string. (StringCchCatW)
+helpviewer_keywords: ["StringCchCat", "StringCchCat function [Menus and Other Resources]", "StringCchCatW", "_shell_StringCchCat", "_shell_stringcchcat_cpp", "menurc.stringcchcat", "strsafe/StringCchCat", "strsafe/StringCchCatW", "winui._shell_stringcchcat"]
 old-location: menurc\stringcchcat.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcat.htm

@@ -59,7 +59,7 @@ The <b>IBDA_SignalProperties</b> interface is implemented by a BDA device filter
 
 The <b>IBDA_SignalProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_SignalProperties</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

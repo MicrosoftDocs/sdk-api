@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltAddW
 title: RpcNsProfileEltAddW function (rpcnsi.h)
-description: The RpcNsProfileEltAdd function adds an element to a profile. If necessary, it creates the entry.
-helpviewer_keywords: ["RpcNsProfileEltAdd","RpcNsProfileEltAdd function [RPC]","RpcNsProfileEltAddA","RpcNsProfileEltAddW","_rpc_rpcnsprofileeltadd","rpc.rpcnsprofileeltadd","rpcnsi/RpcNsProfileEltAdd","rpcnsi/RpcNsProfileEltAddA","rpcnsi/RpcNsProfileEltAddW"]
+description: The RpcNsProfileEltAdd function adds an element to a profile. If necessary, it creates the entry. (Unicode)
+helpviewer_keywords: ["RpcNsProfileEltAdd", "RpcNsProfileEltAdd function [RPC]", "RpcNsProfileEltAddW", "_rpc_rpcnsprofileeltadd", "rpc.rpcnsprofileeltadd", "rpcnsi/RpcNsProfileEltAdd", "rpcnsi/RpcNsProfileEltAddW"]
 old-location: rpc\rpcnsprofileeltadd.htm
 tech.root: Rpc
 ms.assetid: e0a2d4b9-853c-4578-8a15-e0be7bfc0b9b

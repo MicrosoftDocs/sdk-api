@@ -1,7 +1,7 @@
 ---
 UID: NF:portabledeviceapi.IEnumPortableDeviceObjectIDs.Reset
 title: IEnumPortableDeviceObjectIDs::Reset (portabledeviceapi.h)
-description: The Reset method resets the enumeration sequence to the beginning.
+description: The Reset method resets the enumeration sequence to the beginning. (IEnumPortableDeviceObjectIDs.Reset)
 helpviewer_keywords: ["IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK]","Reset method","IEnumPortableDeviceObjectIDs.Reset","IEnumPortableDeviceObjectIDs::Reset","IEnumPortableDeviceObjectIDsReset","Reset","Reset method [Windows Portable Devices SDK]","Reset method [Windows Portable Devices SDK]","IEnumPortableDeviceObjectIDs interface","portabledeviceapi/IEnumPortableDeviceObjectIDs::Reset","wpdsdk.ienumportabledeviceobjectids_reset"]
 old-location: wpdsdk\ienumportabledeviceobjectids_reset.htm
 tech.root: wpdsdk

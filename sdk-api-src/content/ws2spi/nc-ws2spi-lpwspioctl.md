@@ -4,7 +4,7 @@ title: LPWSPIOCTL
 description: The LPWSPIoctl function controls the mode of a socket.
 tech.root: winsock
 helpviewer_keywords: ["LPWSPIOCTL"]
-ms.date: 9/12/2019
+ms.date: 08/16/2022
 ms.keywords: LPWSPIOCTL
 targetos: Windows
 req.assembly: 
@@ -233,7 +233,7 @@ Obtains a list of local transport addresses of the socket's protocol family to w
 -   Issue **SIO_ADDRESS_LIST_QUERY** IOCTL
 -   Whenever **SIO_ADDRESS_LIST_CHANGE** IOCTL notifies the application of address list change (either through overlapped I/O or by signaling FD_ADDRESS_LIST_CHANGE event), the whole sequence of actions should be repeated.
 
-For more detailed information, see the [**SIO_ADDRESS_LIST_QUERY**](/previous-versions/windows/desktop/legacy/dd877219(v%3Dvs.85))  reference. **SIO_ADDRESS_LIST_QUERY** is supported on Windows 2000 and later.
+For more detailed information, see the [**SIO_ADDRESS_LIST_QUERY**](/windows/win32/winsock/sio-address-list-query) reference. **SIO_ADDRESS_LIST_QUERY** is supported on Windows 2000 and later.
 
 </dd> <dt>
 
@@ -292,9 +292,9 @@ If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer
 <span id="SIO_BSP_HANDLE_SELECT__opcode_setting__O__T__1_"></span><span id="sio_bsp_handle_select__opcode_setting__o__t__1_"></span><span id="SIO_BSP_HANDLE_SELECT__OPCODE_SETTING__O__T__1_"></span>**SIO_BSP_HANDLE_SELECT** (opcode setting: O, T==1)
 </dt> <dd>
 
-Retrieves the base service provider handle for a socket used by the [**select**](/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15) function. The returned value is a **SOCKET**.
+Retrieves the base service provider handle for a socket used by the [**select**](/sql/t-sql/queries/select-transact-sql) function. The returned value is a **SOCKET**.
 
-This Ioctl is used by a layered service provider to ensure the provider intercept the [**select**](/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15) function.
+This Ioctl is used by a layered service provider to ensure the provider intercept the [**select**](/sql/t-sql/queries/select-transact-sql) function.
 
 If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer</i> is less than the size of a **SOCKET**) or the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault).
 

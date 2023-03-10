@@ -1,5 +1,5 @@
 ---
-UID: NE:shlwapi.__unnamed_enum_4
+UID: NE:shlwapi.SHREGENUM_FLAGS
 title: SHREGENUM_FLAGS (shlwapi.h)
 description: Provides a set of values that indicate the base key that will be used for an enumeration.
 helpviewer_keywords: ["SHREGENUM_BOTH","SHREGENUM_DEFAULT","SHREGENUM_FLAGS","SHREGENUM_FLAGS enumeration [Windows Shell]","SHREGENUM_HKCU","SHREGENUM_HKLM","_win32_SHREGENUM_FLAGS","shell.SHREGENUM_FLAGS","shlwapi/SHREGENUM_BOTH","shlwapi/SHREGENUM_DEFAULT","shlwapi/SHREGENUM_FLAGS","shlwapi/SHREGENUM_HKCU","shlwapi/SHREGENUM_HKLM"]

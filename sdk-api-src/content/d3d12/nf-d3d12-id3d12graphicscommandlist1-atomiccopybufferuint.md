@@ -6,7 +6,7 @@ helpviewer_keywords: ["AtomicCopyBufferUINT","AtomicCopyBufferUINT method","Atom
 old-location: direct3d12\id3d12graphicscommandlist1_atomiccopybufferuint.htm
 tech.root: direct3d12
 ms.assetid: 745B641F-B136-46A2-A0EE-F5FDC13656E5
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: AtomicCopyBufferUINT, AtomicCopyBufferUINT method, AtomicCopyBufferUINT method,ID3D12GraphicsCommandList1 interface, ID3D12GraphicsCommandList1 interface,AtomicCopyBufferUINT method, ID3D12GraphicsCommandList1.AtomicCopyBufferUINT, ID3D12GraphicsCommandList1::AtomicCopyBufferUINT, d3d12/ID3D12GraphicsCommandList1::AtomicCopyBufferUINT, direct3d12.id3d12graphicscommandlist1_atomiccopybufferuint
 req.header: d3d12.h
 req.include-header: 
@@ -62,7 +62,7 @@ This function supports a primary data element of type UINT (32bit). A different 
 
 Type: <b>ID3D12Resource*</b>
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015&preserve-view=true">SAL</a>: <code>_In_</code>
 
 The resource that the UINT primary data element is copied into.
 
@@ -76,7 +76,7 @@ An offset into the destination resource buffer that specifies where the primary 
 
 Type: <b>ID3D12Resource*</b>
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015&preserve-view=true">SAL</a>: <code>_In_</code>
 
 The resource that the UINT primary data element is copied from. This data is typically an address, index, or other handle that shader code can use to locate the most-recent version of latency-sensitive information.
 
@@ -96,7 +96,7 @@ The number of dependent resources.
 
 Type: <b>ID3D12Resource*</b>
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_reads_(Dependencies)</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015&preserve-view=true">SAL</a>: <code>_In_reads_(Dependencies)</code>
 
 An array of resources that contain the dependent elements of the data payload.
 
@@ -104,7 +104,7 @@ An array of resources that contain the dependent elements of the data payload.
 
 Type: <b>const <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_subresource_range_uint64">D3D12_SUBRESOURCE_RANGE_UINT64</a>*</b>
 
-<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_reads_(Dependencies)</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015&preserve-view=true">SAL</a>: <code>_In_reads_(Dependencies)</code>
 
 An array of subresource ranges that specify the dependent elements of the data payload. These elements are completely updated before the primary data element is itself atomically copied. This ensures that the entire operation is logically atomic; that is, the primary data element never refers to an incomplete data payload.
 

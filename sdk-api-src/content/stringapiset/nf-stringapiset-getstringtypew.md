@@ -127,7 +127,7 @@ For an overview of the use of the string functions, see <a href="/windows/deskto
 
 The values of the <i>lpSrcStr</i> and <i>lpCharType</i> parameters must not be the same. If they are the same, the function fails with ERROR_INVALID_PARAMETER.
 
-The <i>Locale</i> parameter used by the corresponding <a href="/windows/desktop/api/winnls/nf-winnls-getstringtypea">GetStringTypeA</a> function is not used by this function. Because of the parameter difference, an application cannot automatically invoke the proper ANSI or Unicode version of a <b>GetStringType*</b> function through the use of the #define UNICODE switch. An application can circumvent this limitation by using <a href="/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a>, which is the recommended function.
+The <i>Locale</i> parameter used by the corresponding <a href="/windows/desktop/api/winnls/nf-winnls-getstringtypea">GetStringTypeA</a> function is not used by this function. Because of the parameter difference, an application cannot automatically invoke the proper ANSI or Unicode version of a <b>GetStringType*</b> function through the use of the #define UNICODE switch. An application can circumvent this limitation by using <a href="/windows/win32/api/stringapiset/nf-stringapiset-getstringtypeexw">GetStringTypeEx</a>, which is the recommended function.
 
 <b>Supported Character Types</b>
 
@@ -423,7 +423,7 @@ C3_HIGHSURROGATE and C3_LOWSURROGATE are listed only for completeness, and shoul
 
 
 
-<a href="/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a>
+<a href="/windows/win32/api/stringapiset/nf-stringapiset-getstringtypeexw">GetStringTypeEx</a>
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:oledlg.tagOLEUICHANGEICONA
 title: OLEUICHANGEICONA
-description: Contains information that the OLE User Interface Library uses to initialize the Change Icon dialog box, and it contains space for the library to return information when the dialog box is dismissed.
+description: Contains information that the OLE User Interface Library uses to initialize the Change Icon dialog box, and it contains space for the library to return information when the dialog box is dismissed. (ANSI)
 tech.root: com
 helpviewer_keywords: ["tagOLEUICHANGEICONA","OLEUICHANGEICONA"]
 ms.date: 4/26/2019

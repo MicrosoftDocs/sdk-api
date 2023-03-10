@@ -58,7 +58,7 @@ As with <a href="/windows/desktop/wmformat/iwmprofile">IWMProfile</a>, <b>IWMPro
 
 The <b>IWMProfile2</b> interface inherits from <a href="/windows/desktop/wmformat/iwmprofile">IWMProfile</a>. <b>IWMProfile2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

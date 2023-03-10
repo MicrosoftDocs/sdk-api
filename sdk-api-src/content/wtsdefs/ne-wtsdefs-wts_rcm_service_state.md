@@ -1,5 +1,5 @@
 ---
-UID: NE:wtsdefs.__unnamed_enum_0
+UID: NE:wtsdefs.WTS_RCM_SERVICE_STATE
 title: WTS_RCM_SERVICE_STATE (wtsdefs.h)
 description: Contains information about the state of the Remote Desktop Services service.
 helpviewer_keywords: ["WRDS_RCM_SERVICE_STATE","WRDS_RCM_SERVICE_STATE enumeration [Remote Desktop Services]","WTS_RCM_SERVICE_STATE","WTS_RCM_SERVICE_STATE enumeration [Remote Desktop Services]","WTS_SERVICE_NONE","WTS_SERVICE_START","WTS_SERVICE_STOP","termserv.wts_rcm_service_state","wtsdefs/WRDS_RCM_SERVICE_STATE","wtsdefs/WTS_RCM_SERVICE_STATE","wtsdefs/WTS_SERVICE_NONE","wtsdefs/WTS_SERVICE_START","wtsdefs/WTS_SERVICE_STOP"]
@@ -69,3 +69,4 @@ The RCM service is stopping.
 ## -remarks
 
 This enumeration type is used by the <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_service_state">WTS_SERVICE_STATE</a> structure.
+

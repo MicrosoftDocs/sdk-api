@@ -4,7 +4,7 @@ title: Rtmv2.h header
 ms.assetid: f4ff69dd-1b51-30ae-94a0-61610edf0d30
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: rras
 f1_keywords:
  - rtmv2

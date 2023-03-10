@@ -1,7 +1,7 @@
 ---
 UID: NF:ws2tcpip.WSAGetRecvIPEcn
 title: WSAGetRecvIPEcn
-description: TBD
+description: TBD (WSAGetRecvIPEcn)
 ms.date: 11/13/2020
 targetos: Windows
 req.assembly: 

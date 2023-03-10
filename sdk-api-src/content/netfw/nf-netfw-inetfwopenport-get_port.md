@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_Port
 title: INetFwOpenPort::get_Port (netfw.h)
-description: Specifies the host-ordered port number for this port.
+description: Specifies the host-ordered port number for this port. (Get)
 helpviewer_keywords: ["INetFwOpenPort interface [ICS/ICF]","Port property","INetFwOpenPort.Port","INetFwOpenPort.get_Port","INetFwOpenPort::Port","INetFwOpenPort::get_Port","INetFwOpenPort::put_Port","Port property [ICS/ICF]","Port property [ICS/ICF]","INetFwOpenPort interface","get_Port","ics.inetfwopenport_port","netfw/INetFwOpenPort::Port","netfw/INetFwOpenPort::get_Port","netfw/INetFwOpenPort::put_Port"]
 old-location: ics\inetfwopenport_port.htm
 tech.root: ics

@@ -2,10 +2,10 @@
 UID: NF:icm.ColorProfileRemoveDisplayAssociation
 tech.root: wcs
 title: ColorProfileRemoveDisplayAssociation
-ms.date: 02/01/2021
+ms.date: 08/03/2022
 
 targetos: Windows
-description: 
+description: ColorProfileRemoveDisplayAssociation disassociates an installed color profile from a specified display in the given scope.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

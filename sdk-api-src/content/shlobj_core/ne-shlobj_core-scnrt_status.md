@@ -1,5 +1,5 @@
 ---
-UID: NE:shlobj_core.__unnamed_enum_8
+UID: NE:shlobj_core.SCNRT_STATUS
 title: SCNRT_STATUS (shlobj_core.h)
 description: Indicates whether to enable or disable Async Register and Deregister for SHChangeNotifyRegisterThread.
 helpviewer_keywords: ["SCNRT_DISABLE","SCNRT_ENABLE","SCNRT_STATUS","SCNRT_STATUS enumeration [Windows Shell]","_shell_SCNRT_STATUS","shell.SCNRT_STATUS","shlobj_core/SCNRT_DISABLE","shlobj_core/SCNRT_ENABLE","shlobj_core/SCNRT_STATUS"]
@@ -65,3 +65,4 @@ Disable Async Register and Deregister for <a href="/windows/desktop/api/shlobj/n
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj/nf-shlobj-shchangenotifyregisterthread">SHChangeNotifyRegisterThread</a>
+

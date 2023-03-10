@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.SetUrlCacheGroupAttributeW
 title: SetUrlCacheGroupAttributeW function (wininet.h)
-description: Sets the attribute information of the specified cache group.
-helpviewer_keywords: ["SetUrlCacheGroupAttribute","SetUrlCacheGroupAttribute function [WinINet]","SetUrlCacheGroupAttributeA","SetUrlCacheGroupAttributeW","_inet_seturlcachegroupattribute_function","wininet.seturlcachegroupattribute","wininet/SetUrlCacheGroupAttribute","wininet/SetUrlCacheGroupAttributeA","wininet/SetUrlCacheGroupAttributeW"]
+description: Sets the attribute information of the specified cache group. (Unicode)
+helpviewer_keywords: ["SetUrlCacheGroupAttribute", "SetUrlCacheGroupAttribute function [WinINet]", "SetUrlCacheGroupAttributeW", "_inet_seturlcachegroupattribute_function", "wininet.seturlcachegroupattribute", "wininet/SetUrlCacheGroupAttribute", "wininet/SetUrlCacheGroupAttributeW"]
 old-location: wininet\seturlcachegroupattribute.htm
 tech.root: wininet
 ms.assetid: dd4e94cd-0fe5-414a-8a43-8777403e8a45

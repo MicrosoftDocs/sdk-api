@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextEditPattern.GetConversionTarget
 title: IUIAutomationTextEditPattern::GetConversionTarget (uiautomationclient.h)
-description: Returns the current conversion target range.
+description: Returns the current conversion target range. (IUIAutomationTextEditPattern.GetConversionTarget)
 helpviewer_keywords: ["GetConversionTarget","GetConversionTarget method [Windows Accessibility]","GetConversionTarget method [Windows Accessibility]","IUIAutomationTextEditPattern interface","IUIAutomationTextEditPattern interface [Windows Accessibility]","GetConversionTarget method","IUIAutomationTextEditPattern.GetConversionTarget","IUIAutomationTextEditPattern::GetConversionTarget","uiautomationclient/IUIAutomationTextEditPattern::GetConversionTarget","winauto.uiauto_IUIAutomationTextEditPattern_GetConversionTarget"]
 old-location: winauto\uiauto_IUIAutomationTextEditPattern_GetConversionTarget.htm
 tech.root: WinAuto

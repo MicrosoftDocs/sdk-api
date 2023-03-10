@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_103
+UID: NE:webservices.WS_METADATA_STATE
 title: WS_METADATA_STATE (webservices.h)
 description: The state of the metadata object.
 helpviewer_keywords: ["WS_METADATA_STATE","WS_METADATA_STATE enumeration [Web Services for Windows]","WS_METADATA_STATE_CREATED","WS_METADATA_STATE_FAULTED","WS_METADATA_STATE_RESOLVED","webservices/WS_METADATA_STATE","webservices/WS_METADATA_STATE_CREATED","webservices/WS_METADATA_STATE_FAULTED","webservices/WS_METADATA_STATE_RESOLVED","wsw.ws_metadata_state"]
@@ -76,3 +76,4 @@ The following diagram illustrates the functions that
                 cause state transitions in the metadata object.
             
 :::image type="content" source="./images/MetadataStates.png" border="false" alt-text="Diagram of the state transitions for a Metadata object showing the functions that cause transitions between the Created, Faulted, and Resolved states.":::
+

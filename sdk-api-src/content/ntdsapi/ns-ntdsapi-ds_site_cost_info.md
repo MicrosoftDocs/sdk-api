@@ -1,5 +1,5 @@
 ---
-UID: NS:ntdsapi.__unnamed_struct_10
+UID: NS:ntdsapi.DS_SITE_COST_INFO
 title: DS_SITE_COST_INFO (ntdsapi.h)
 description: The DS_SITE_COST_INFO structure is used with the DsQuerySitesByCost function to contain communication cost data.
 helpviewer_keywords: ["*PDS_SITE_COST_INFO","DS_SITE_COST_INFO","DS_SITE_COST_INFO structure [Active Directory]","ERROR_DS_OBJ_NOT_FOUND","ERROR_SUCCESS","ad.ds_site_cost_info","ntdsapi/DS_SITE_COST_INFO"]
@@ -83,3 +83,4 @@ If the <b>errorCode</b> member contains <b>ERROR_SUCCESS</b>, this member contai
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesbycosta">DsQuerySitesByCost</a>
+

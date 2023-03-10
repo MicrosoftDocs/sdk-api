@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.ISignerCertificate.put_UIContextMessage
 title: ISignerCertificate::put_UIContextMessage (certenroll.h)
-description: Specifies or retrieves a string that contains user interface text associated with the signing certificate.
+description: Specifies or retrieves a string that contains user interface text associated with the signing certificate. (Put)
 helpviewer_keywords: ["ISignerCertificate interface [Security]","UIContextMessage property","ISignerCertificate.UIContextMessage","ISignerCertificate.put_UIContextMessage","ISignerCertificate::UIContextMessage","ISignerCertificate::get_UIContextMessage","ISignerCertificate::put_UIContextMessage","UIContextMessage property [Security]","UIContextMessage property [Security]","ISignerCertificate interface","certenroll/ISignerCertificate::UIContextMessage","certenroll/ISignerCertificate::get_UIContextMessage","certenroll/ISignerCertificate::put_UIContextMessage","put_UIContextMessage","security.isignercertificate_uicontextmessage_property"]
 old-location: security\isignercertificate_uicontextmessage_property.htm
 tech.root: security

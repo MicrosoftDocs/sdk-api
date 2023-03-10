@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymGetSourceFileChecksum
 title: SymGetSourceFileChecksum function (dbghelp.h)
-description: Retrieves the specified source file checksum from the source server.
+description: The SymGetSourceFileChecksum function (dbghelp.h) retrieves the specified source file checksum from the source server.
 helpviewer_keywords: ["SymGetSourceFileChecksum","SymGetSourceFileChecksum function","SymGetSourceFileChecksumW","base.symgetsourcefilechecksum","dbghelp/SymGetSourceFileChecksum","dbghelp/SymGetSourceFileChecksumW"]
 old-location: base\symgetsourcefilechecksum.htm
 tech.root: Debug
 ms.assetid: 6F45FEC4-AFB9-4612-A840-B806034F33E2
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymGetSourceFileChecksum, SymGetSourceFileChecksum function, SymGetSourceFileChecksumW, base.symgetsourcefilechecksum, dbghelp/SymGetSourceFileChecksum, dbghelp/SymGetSourceFileChecksumW
 req.header: dbghelp.h
 req.include-header: 

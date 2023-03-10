@@ -56,7 +56,7 @@ Encapsulates the methods needed to provide information about the icon of a DLNA 
 
 The <b>IDeviceIcon</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IDeviceIcon</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

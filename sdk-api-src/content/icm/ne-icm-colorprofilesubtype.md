@@ -1,5 +1,5 @@
 ---
-UID: NE:icm.__unnamed_enum_2
+UID: NE:icm.COLORPROFILESUBTYPE
 title: COLORPROFILESUBTYPE
 description: Specifies the subtype of the color profile.
 tech.root: wcs
@@ -143,3 +143,4 @@ COLORPROFILESUBTYPE Global default can be or?d with WCS\_DEFAULT to set this GMM
 
 * [**COLORPROFILETYPE**](/windows/win32/api/icm/ne-icm-colorprofiletype)
 * [**WcsSetDefaultColorProfile**](/windows/win32/api/icm/nf-icm-wcssetdefaultcolorprofile)
+

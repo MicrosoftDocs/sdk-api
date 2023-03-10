@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation6.get_ConnectionRecoveryBehavior
 title: IUIAutomation6::get_ConnectionRecoveryBehavior (uiautomationclient.h)
-description: Indicates whether an accessible technology client adjusts provider request timeouts when the provider is non-responsive.
+description: Indicates whether an accessible technology client adjusts provider request timeouts when the provider is non-responsive. (Get)
 helpviewer_keywords: ["ConnectionRecoveryBehavior property [Windows Accessibility]","ConnectionRecoveryBehavior property [Windows Accessibility]","IUIAutomation6 interface","IUIAutomation6 interface [Windows Accessibility]","ConnectionRecoveryBehavior property","IUIAutomation6.ConnectionRecoveryBehavior","IUIAutomation6.get_ConnectionRecoveryBehavior","IUIAutomation6::ConnectionRecoveryBehavior","IUIAutomation6::get_ConnectionRecoveryBehavior","IUIAutomation6::put_ConnectionRecoveryBehavior","get_ConnectionRecoveryBehavior","uiautomationclient/IUIAutomation6::ConnectionRecoveryBehavior","uiautomationclient/IUIAutomation6::get_ConnectionRecoveryBehavior","uiautomationclient/IUIAutomation6::put_ConnectionRecoveryBehavior","winauto.uiauto_IUIAutomation6_ConnectionRecoveryBehavior"]
 old-location: winauto\uiauto_IUIAutomation6_ConnectionRecoveryBehavior.htm
 tech.root: WinAuto

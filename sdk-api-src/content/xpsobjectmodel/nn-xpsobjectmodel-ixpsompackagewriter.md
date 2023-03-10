@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMPackageWriter interface
 
-
 ## -description
 
 Incrementally writes the parts of an XPS document to  a package file.

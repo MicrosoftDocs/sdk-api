@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.CopySubresourceRegion
 title: ID3D10Device::CopySubresourceRegion (d3d10.h)
-description: Copy a region from a source resource to a destination resource.
+description: Copy a region from a source resource to a destination resource. (ID3D10Device.CopySubresourceRegion)
 helpviewer_keywords: ["6ed5c759-9864-ef56-3e1a-e3f8ff730dff","CopySubresourceRegion","CopySubresourceRegion method [Direct3D 10]","CopySubresourceRegion method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CopySubresourceRegion method","ID3D10Device.CopySubresourceRegion","ID3D10Device::CopySubresourceRegion","d3d10/ID3D10Device::CopySubresourceRegion","direct3d10.id3d10device_copysubresourceregion"]
 old-location: direct3d10\id3d10device_copysubresourceregion.htm
 tech.root: direct3d10

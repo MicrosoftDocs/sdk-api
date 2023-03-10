@@ -1,7 +1,7 @@
 ---
 UID: NS:wininet._INTERNET_CACHE_GROUP_INFOA
 title: INTERNET_CACHE_GROUP_INFOA (wininet.h)
-description: Contains the information for a particular cache group.
+description: Contains the information for a particular cache group. (ANSI)
 helpviewer_keywords: ["*LPINTERNET_CACHE_GROUP_INFOA","INTERNET_CACHE_GROUP_INFO","INTERNET_CACHE_GROUP_INFO structure [WinINet]","INTERNET_CACHE_GROUP_INFOA","INTERNET_CACHE_GROUP_INFOW","LPINTERNET_CACHE_GROUP_INFO","LPINTERNET_CACHE_GROUP_INFO structure pointer [WinINet]","_inet_internet_cache_group_info_structure","wininet.internet_cache_group_info","wininet/INTERNET_CACHE_GROUP_INFO","wininet/INTERNET_CACHE_GROUP_INFOA","wininet/INTERNET_CACHE_GROUP_INFOW","wininet/LPINTERNET_CACHE_GROUP_INFO"]
 old-location: wininet\internet_cache_group_info.htm
 tech.root: wininet

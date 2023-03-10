@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMSignatureBlockResourceCollection interface
 
-
 ## -description
 
 A collection of <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomsignatureblockresource">IXpsOMSignatureBlockResource</a> interface pointers.

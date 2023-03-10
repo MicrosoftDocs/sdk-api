@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d10.D3D10_MAP
 title: D3D10_MAP (d3d10.h)
-description: Identifies a resource to be accessed for reading and writing by the CPU. Applications may combine one or more of these flags.
+description: Identifies a resource to be accessed for reading and writing by the CPU. Applications may combine one or more of these flags. (D3D10_MAP)
 helpviewer_keywords: ["851d7498-d47c-94c7-f2ce-7635689c4642","D3D10_MAP","D3D10_MAP enumeration [Direct3D 10]","D3D10_MAP_READ","D3D10_MAP_READ_WRITE","D3D10_MAP_WRITE","D3D10_MAP_WRITE_DISCARD","D3D10_MAP_WRITE_NO_OVERWRITE","d3d10/D3D10_MAP","d3d10/D3D10_MAP_READ","d3d10/D3D10_MAP_READ_WRITE","d3d10/D3D10_MAP_WRITE","d3d10/D3D10_MAP_WRITE_DISCARD","d3d10/D3D10_MAP_WRITE_NO_OVERWRITE","direct3d10.d3d10_map"]
 old-location: direct3d10\d3d10_map.htm
 tech.root: direct3d10

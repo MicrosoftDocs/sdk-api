@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwService.put_Scope
 title: INetFwService::put_Scope (netfw.h)
-description: Controls the network scope from which the port can listen.
+description: Controls the network scope from which the port can listen. (INetFwService.put_Scope)
 helpviewer_keywords: ["INetFwService interface [ICS/ICF]","Scope property","INetFwService.Scope","INetFwService.put_Scope","INetFwService::Scope","INetFwService::get_Scope","INetFwService::put_Scope","Scope property [ICS/ICF]","Scope property [ICS/ICF]","INetFwService interface","ics.inetfwservice_scope","netfw/INetFwService::Scope","netfw/INetFwService::get_Scope","netfw/INetFwService::put_Scope","put_Scope"]
 old-location: ics\inetfwservice_scope.htm
 tech.root: ics

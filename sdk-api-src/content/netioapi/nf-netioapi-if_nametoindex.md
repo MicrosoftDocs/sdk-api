@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - Iphlpapi.dll
+ - kernel32.dll
 api_name:
  - if_nametoindex
 ---

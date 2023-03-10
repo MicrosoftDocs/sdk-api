@@ -68,9 +68,9 @@ A null-terminated property name string.
 
 ### -param value [out]
 
-Type: <b><a href="/previous-versions/dd162907(v=vs.85)">RECTL</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a>*</b>
 
-When this function returns, contains a pointer to a <a href="/previous-versions/dd162907(v=vs.85)">RECTL</a> structure that contains the property coordinates.
+When this function returns, contains a pointer to a <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that contains the property coordinates.
 
 ## -returns
 

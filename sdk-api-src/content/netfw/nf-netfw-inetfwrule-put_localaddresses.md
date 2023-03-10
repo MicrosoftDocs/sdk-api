@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.put_LocalAddresses
 title: INetFwRule::put_LocalAddresses (netfw.h)
-description: Specifies the list of local addresses for this rule.
+description: Specifies the list of local addresses for this rule. (Put)
 helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","LocalAddresses property","INetFwRule.LocalAddresses","INetFwRule.put_LocalAddresses","INetFwRule::LocalAddresses","INetFwRule::get_LocalAddresses","INetFwRule::put_LocalAddresses","LocalAddresses property [ICS/ICF]","LocalAddresses property [ICS/ICF]","INetFwRule interface","ics.inetfwrule_localaddresses","netfw/INetFwRule::LocalAddresses","netfw/INetFwRule::get_LocalAddresses","netfw/INetFwRule::put_LocalAddresses","put_LocalAddresses"]
 old-location: ics\inetfwrule_localaddresses.htm
 tech.root: ics

@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_SUB_SYSTEM_STATUS
 title: VDS_SUB_SYSTEM_STATUS (vds.h)
-description: Defines the set of object status values for a subsystem.
+description: The VDS_SUB_SYSTEM_STATUS (vds.h) enumeration defines the set of object status values for a subsystem.
 helpviewer_keywords: ["*PVDS_SUB_SYSTEM_STATUS","VDS_SSS_FAILED","VDS_SSS_NOT_READY","VDS_SSS_OFFLINE","VDS_SSS_ONLINE","VDS_SSS_PARTIALLY_MANAGED","VDS_SSS_UNKNOWN","VDS_SUB_SYSTEM_STATUS","VDS_SUB_SYSTEM_STATUS enumeration [VDS]","base.vds_sub_system_status","vds/VDS_SSS_FAILED","vds/VDS_SSS_NOT_READY","vds/VDS_SSS_OFFLINE","vds/VDS_SSS_ONLINE","vds/VDS_SSS_PARTIALLY_MANAGED","vds/VDS_SSS_UNKNOWN","vds/VDS_SUB_SYSTEM_STATUS","vdshwprv/VDS_SSS_FAILED","vdshwprv/VDS_SSS_NOT_READY","vdshwprv/VDS_SSS_OFFLINE","vdshwprv/VDS_SSS_ONLINE","vdshwprv/VDS_SSS_PARTIALLY_MANAGED","vdshwprv/VDS_SSS_UNKNOWN","vdshwprv/VDS_SUB_SYSTEM_STATUS"]
 old-location: base\vds_sub_system_status.htm
 tech.root: base
 ms.assetid: 3393ff1f-df0f-4053-9127-d99196660f4b
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*PVDS_SUB_SYSTEM_STATUS, VDS_SSS_FAILED, VDS_SSS_NOT_READY, VDS_SSS_OFFLINE, VDS_SSS_ONLINE, VDS_SSS_PARTIALLY_MANAGED, VDS_SSS_UNKNOWN, VDS_SUB_SYSTEM_STATUS, VDS_SUB_SYSTEM_STATUS enumeration [VDS], base.vds_sub_system_status, vds/VDS_SSS_FAILED, vds/VDS_SSS_NOT_READY, vds/VDS_SSS_OFFLINE, vds/VDS_SSS_ONLINE, vds/VDS_SSS_PARTIALLY_MANAGED, vds/VDS_SSS_UNKNOWN, vds/VDS_SUB_SYSTEM_STATUS, vdshwprv/VDS_SSS_FAILED, vdshwprv/VDS_SSS_NOT_READY, vdshwprv/VDS_SSS_OFFLINE, vdshwprv/VDS_SSS_ONLINE, vdshwprv/VDS_SSS_PARTIALLY_MANAGED, vdshwprv/VDS_SSS_UNKNOWN, vdshwprv/VDS_SUB_SYSTEM_STATUS'
 req.header: vds.h
 req.include-header: 
@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the 
    set of object status values for a subsystem.

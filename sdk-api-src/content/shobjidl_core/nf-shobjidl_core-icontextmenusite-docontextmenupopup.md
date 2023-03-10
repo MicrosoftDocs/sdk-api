@@ -181,7 +181,7 @@ This value is not available.
 
 ### -param pt [in]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 Location where you want the shortcut menu to appear. This point specifies the location of the menu's upper left corner in screen coordinates.
 

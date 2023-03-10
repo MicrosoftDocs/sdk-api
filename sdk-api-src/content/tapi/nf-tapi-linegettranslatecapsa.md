@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineGetTranslateCapsA
 title: lineGetTranslateCapsA function (tapi.h)
-description: The lineGetTranslateCaps function returns address translation capabilities.
-helpviewer_keywords: ["_tapi2_linegettranslatecaps","lineGetTranslateCaps","lineGetTranslateCaps function [TAPI 2.2]","lineGetTranslateCapsA","lineGetTranslateCapsW","tapi/lineGetTranslateCaps","tapi/lineGetTranslateCapsA","tapi/lineGetTranslateCapsW","tapi2.linegettranslatecaps"]
+description: The lineGetTranslateCaps function returns address translation capabilities. (lineGetTranslateCapsA)
+helpviewer_keywords: ["lineGetTranslateCapsA", "tapi/lineGetTranslateCapsA"]
 old-location: tapi2\linegettranslatecaps.htm
 tech.root: tapi3
 ms.assetid: 77437b06-fb02-44b5-8642-b3de700853ef

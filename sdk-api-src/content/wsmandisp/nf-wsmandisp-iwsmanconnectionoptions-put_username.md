@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptions.put_UserName
 title: IWSManConnectionOptions::put_UserName (wsmandisp.h)
-description: Sets and gets the user name of a local or a domain account on the remote computer. This property determines the user name for authentication.
+description: Sets and gets the user name of a local or a domain account on the remote computer. This property determines the user name for authentication. (Put)
 helpviewer_keywords: ["IWSManConnectionOptions interface [Windows Remote Management]","UserName property","IWSManConnectionOptions.UserName","IWSManConnectionOptions.put_UserName","IWSManConnectionOptions::UserName","IWSManConnectionOptions::get_UserName","IWSManConnectionOptions::put_UserName","UserName property [Windows Remote Management]","UserName property [Windows Remote Management]","IWSManConnectionOptions interface","put_UserName","winrm.iwsmanconnectionoptions_username","wsmandisp/IWSManConnectionOptions::UserName","wsmandisp/IWSManConnectionOptions::get_UserName","wsmandisp/IWSManConnectionOptions::put_UserName"]
 old-location: winrm\iwsmanconnectionoptions_username.htm
 tech.root: winrm

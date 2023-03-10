@@ -1,12 +1,12 @@
 ---
 UID: NF:objidl.IRpcChannelBuffer.GetBuffer
 title: IRpcChannelBuffer::GetBuffer (objidl.h)
-description: Retrieves a buffer into which data can be marshaled for transmission.
+description: The IRpcChannelBuffer::GetBuffer method (objidl.h) retrieves a buffer into which data can be marshaled for transmission.
 helpviewer_keywords: ["GetBuffer","GetBuffer method [COM]","GetBuffer method [COM]","IRpcChannelBuffer interface","IRpcChannelBuffer interface [COM]","GetBuffer method","IRpcChannelBuffer.GetBuffer","IRpcChannelBuffer::GetBuffer","_com_irpcchannelbuffer_getbuffer","com.irpcchannelbuffer_getbuffer","objidlbase/IRpcChannelBuffer::GetBuffer"]
 old-location: com\irpcchannelbuffer_getbuffer.htm
 tech.root: com
 ms.assetid: 775a15df-8bcf-4c1b-a8b9-5c7c03106c09
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: GetBuffer, GetBuffer method [COM], GetBuffer method [COM],IRpcChannelBuffer interface, IRpcChannelBuffer interface [COM],GetBuffer method, IRpcChannelBuffer.GetBuffer, IRpcChannelBuffer::GetBuffer, _com_irpcchannelbuffer_getbuffer, com.irpcchannelbuffer_getbuffer, objidlbase/IRpcChannelBuffer::GetBuffer
 req.header: objidl.h
 req.include-header: ObjIdl.h

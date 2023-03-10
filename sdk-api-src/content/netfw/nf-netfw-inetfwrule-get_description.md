@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwRule.get_Description
 title: INetFwRule::get_Description (netfw.h)
-description: Specifies the description of this rule.
+description: Specifies the description of this rule. (Get)
 helpviewer_keywords: ["Description property [ICS/ICF]","Description property [ICS/ICF]","INetFwRule interface","INetFwRule interface [ICS/ICF]","Description property","INetFwRule.Description","INetFwRule.get_Description","INetFwRule::Description","INetFwRule::get_Description","INetFwRule::put_Description","get_Description","ics.inetfwrule_description","netfw/INetFwRule::Description","netfw/INetFwRule::get_Description","netfw/INetFwRule::put_Description"]
 old-location: ics\inetfwrule_description.htm
 tech.root: ics

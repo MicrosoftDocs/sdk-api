@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextDocument.GetSelection
 title: ITextDocument::GetSelection (tom.h)
-description: Gets the active selection.
+description: Gets the active selection. (ITextDocument.GetSelection)
 helpviewer_keywords: ["GetSelection","GetSelection method [Windows Controls]","GetSelection method [Windows Controls]","ITextDocument interface","ITextDocument interface [Windows Controls]","GetSelection method","ITextDocument.GetSelection","ITextDocument::GetSelection","_win32_ITextDocument_GetSelection","_win32_ITextDocument_GetSelection_cpp","controls.ITextDocument_GetSelection","controls._win32_ITextDocument_GetSelection","tom/ITextDocument::GetSelection"]
 old-location: controls\ITextDocument_GetSelection.htm
 tech.root: Controls

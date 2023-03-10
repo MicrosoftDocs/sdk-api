@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.CopyFileTransactedW
 title: CopyFileTransactedW function (winbase.h)
-description: Copies an existing file to a new file as a transacted operation, notifying the application of its progress through a callback function.
-helpviewer_keywords: ["COPY_FILE_COPY_SYMLINK","COPY_FILE_FAIL_IF_EXISTS","COPY_FILE_OPEN_SOURCE_FOR_WRITE","COPY_FILE_RESTARTABLE","CopyFileTransacted","CopyFileTransacted function [Files]","CopyFileTransactedA","CopyFileTransactedW","fs.copyfiletransacted","winbase/CopyFileTransacted","winbase/CopyFileTransactedA","winbase/CopyFileTransactedW"]
+description: Copies an existing file to a new file as a transacted operation, notifying the application of its progress through a callback function. (Unicode)
+helpviewer_keywords: ["COPY_FILE_COPY_SYMLINK", "COPY_FILE_FAIL_IF_EXISTS", "COPY_FILE_OPEN_SOURCE_FOR_WRITE", "COPY_FILE_RESTARTABLE", "CopyFileTransacted", "CopyFileTransacted function [Files]", "CopyFileTransactedW", "fs.copyfiletransacted", "winbase/CopyFileTransacted", "winbase/CopyFileTransactedW"]
 old-location: fs\copyfiletransacted.htm
 tech.root: fs
 ms.assetid: 118392de-166b-413e-99c9-b3deb756de0e

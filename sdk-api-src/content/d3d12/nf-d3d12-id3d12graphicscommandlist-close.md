@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.Close
 title: ID3D12GraphicsCommandList::Close (d3d12.h)
-description: Indicates that recording to the command list has finished.
+description: Indicates that recording to the command list has finished. (ID3D12GraphicsCommandList.Close)
 helpviewer_keywords: ["Close","Close method","Close method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","Close method","ID3D12GraphicsCommandList.Close","ID3D12GraphicsCommandList::Close","d3d12/ID3D12GraphicsCommandList::Close","direct3d12.id3d12graphicscommandlist_close"]
 old-location: direct3d12\id3d12graphicscommandlist_close.htm
 tech.root: direct3d12

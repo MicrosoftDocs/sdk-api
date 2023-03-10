@@ -57,6 +57,7 @@ api_location:
   - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
   - API-MS-Win-eventing-provider-l1-1-0.dll
   - API-MS-Win-Eventing-Provider-L1-1-1.dll
+  - ntdll.dll
 api_name:
   - EventWriteTransfer
 ---

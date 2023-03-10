@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_81
+UID: NE:webservices.WS_TYPE
 title: WS_TYPE (webservices.h)
 description: The types supported for serialization.
 helpviewer_keywords: ["WS_ANY_ATTRIBUTES_TYPE","WS_BOOL_TYPE","WS_BYTES_TYPE","WS_BYTE_ARRAY_TYPE","WS_CHAR_ARRAY_TYPE","WS_CUSTOM_TYPE","WS_DATETIME_TYPE","WS_DECIMAL_TYPE","WS_DESCRIPTION_TYPE","WS_DOUBLE_TYPE","WS_DURATION_TYPE","WS_ENDPOINT_ADDRESS_TYPE","WS_ENUM_TYPE","WS_FAULT_TYPE","WS_FLOAT_TYPE","WS_GUID_TYPE","WS_INT16_TYPE","WS_INT32_TYPE","WS_INT64_TYPE","WS_INT8_TYPE","WS_STRING_TYPE","WS_STRUCT_TYPE","WS_TIMESPAN_TYPE","WS_TYPE","WS_TYPE enumeration [Web Services for Windows]","WS_UINT16_TYPE","WS_UINT32_TYPE","WS_UINT64_TYPE","WS_UINT8_TYPE","WS_UNION_TYPE","WS_UNIQUE_ID_TYPE","WS_UTF8_ARRAY_TYPE","WS_VOID_TYPE","WS_WSZ_TYPE","WS_XML_BUFFER_TYPE","WS_XML_QNAME_TYPE","WS_XML_STRING_TYPE","webservices/WS_ANY_ATTRIBUTES_TYPE","webservices/WS_BOOL_TYPE","webservices/WS_BYTES_TYPE","webservices/WS_BYTE_ARRAY_TYPE","webservices/WS_CHAR_ARRAY_TYPE","webservices/WS_CUSTOM_TYPE","webservices/WS_DATETIME_TYPE","webservices/WS_DECIMAL_TYPE","webservices/WS_DESCRIPTION_TYPE","webservices/WS_DOUBLE_TYPE","webservices/WS_DURATION_TYPE","webservices/WS_ENDPOINT_ADDRESS_TYPE","webservices/WS_ENUM_TYPE","webservices/WS_FAULT_TYPE","webservices/WS_FLOAT_TYPE","webservices/WS_GUID_TYPE","webservices/WS_INT16_TYPE","webservices/WS_INT32_TYPE","webservices/WS_INT64_TYPE","webservices/WS_INT8_TYPE","webservices/WS_STRING_TYPE","webservices/WS_STRUCT_TYPE","webservices/WS_TIMESPAN_TYPE","webservices/WS_TYPE","webservices/WS_UINT16_TYPE","webservices/WS_UINT32_TYPE","webservices/WS_UINT64_TYPE","webservices/WS_UINT8_TYPE","webservices/WS_UNION_TYPE","webservices/WS_UNIQUE_ID_TYPE","webservices/WS_UTF8_ARRAY_TYPE","webservices/WS_VOID_TYPE","webservices/WS_WSZ_TYPE","webservices/WS_XML_BUFFER_TYPE","webservices/WS_XML_QNAME_TYPE","webservices/WS_XML_STRING_TYPE","wsw.ws_type"]
@@ -2649,3 +2649,4 @@ Another example is the <b>WS_STRUCT_TYPE</b>, which allows for the specification
 Type description pointers accompany <b>WS_TYPE</b> in the various APIs and structures 
                 that are based on serialization.  This should be <b>NULL</b> or non-<b>NULL</b> based on whether or not
                 the type description is not defined, optional or required.
+

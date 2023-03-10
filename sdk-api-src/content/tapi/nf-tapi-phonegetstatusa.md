@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.phoneGetStatusA
 title: phoneGetStatusA function (tapi.h)
-description: The phoneGetStatus function enables an application to query the specified open phone device for its overall status.
-helpviewer_keywords: ["_tapi2_phonegetstatus","phoneGetStatus","phoneGetStatus function [TAPI 2.2]","phoneGetStatusA","phoneGetStatusW","tapi/phoneGetStatus","tapi/phoneGetStatusA","tapi/phoneGetStatusW","tapi2.phonegetstatus"]
+description: The phoneGetStatus function enables an application to query the specified open phone device for its overall status. (phoneGetStatusA)
+helpviewer_keywords: ["phoneGetStatusA", "tapi/phoneGetStatusA"]
 old-location: tapi2\phonegetstatus.htm
 tech.root: tapi3
 ms.assetid: d2e9e209-54f5-4895-b57a-a5f4c24e063e

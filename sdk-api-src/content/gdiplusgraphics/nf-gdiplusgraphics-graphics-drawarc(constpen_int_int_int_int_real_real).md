@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawArc(constPen,INT,INT,INT,INT,REAL,REAL)
 title: Graphics::DrawArc(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL) (gdiplusgraphics.h)
-description: The Graphics::DrawArc method draws an arc. The arc is part of an ellipse.
+description: The Graphics::DrawArc method draws an arc. The arc is part of an ellipse. (overload 2/3)
 helpviewer_keywords: ["DrawArc","DrawArc method [GDI+]","DrawArc method [GDI+]","Graphics class","Graphics class [GDI+]","DrawArc method","Graphics.DrawArc","Graphics.DrawArc(IN const Pen","IN INT","IN INT","IN INT","IN INT","IN REAL","IN REAL)","Graphics.DrawArc(const Pen*","INT","INT","INT","INT","REAL","REAL)","Graphics::DrawArc","Graphics::DrawArc(IN const Pen","IN INT","IN INT","IN INT","IN INT","IN REAL","IN REAL)","_gdiplus_CLASS_Graphics_DrawArc_Pen_pen_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepA","gdiplus._gdiplus_CLASS_Graphics_DrawArc_Pen_pen_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepA"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawArc_Pen_pen_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepA.htm
 tech.root: gdiplus

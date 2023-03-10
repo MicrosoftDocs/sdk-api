@@ -1,7 +1,7 @@
 ---
 UID: NF:propsys.PSRegisterPropertySchema
 title: PSRegisterPropertySchema function (propsys.h)
-description: Informs the schema subsystem of the addition of a property description schema file.
+description: Informs the schema subsystem of the addition of a property description schema file. (PSRegisterPropertySchema)
 helpviewer_keywords: ["PSRegisterPropertySchema","PSRegisterPropertySchema function [Windows Properties]","properties.PSRegisterPropertySchema","propsys/PSRegisterPropertySchema","shell.PSRegisterPropertySchema","shell_PSRegisterPropertySchema"]
 old-location: properties\PSRegisterPropertySchema.htm
 tech.root: properties

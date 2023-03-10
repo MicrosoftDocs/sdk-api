@@ -4,7 +4,7 @@ title: Rdpencomapi.h header
 ms.assetid: 319da130-d8d3-329d-a985-0c9eccf7efad
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: rdp
 f1_keywords:
  - rdpencomapi

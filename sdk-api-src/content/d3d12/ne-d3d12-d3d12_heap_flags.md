@@ -69,7 +69,7 @@ The heap is allowed to contain swap-chain surfaces.
 
 ### -field D3D12_HEAP_FLAG_SHARED_CROSS_ADAPTER:0x20
 
-The heap is allowed to share resources across adapters. Refer to <a href="/windows/desktop/direct3d12/shared-heaps">Shared Heaps</a>.
+The heap is allowed to share resources across adapters. Refer to <a href="/windows/desktop/direct3d12/shared-heaps">Shared Heaps</a>. A protected session cannot be mixed with resources that are shared across adapters.
 
 ### -field D3D12_HEAP_FLAG_DENY_RT_DS_TEXTURES:0x40
 

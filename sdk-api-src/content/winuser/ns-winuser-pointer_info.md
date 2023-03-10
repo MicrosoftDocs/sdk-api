@@ -96,7 +96,7 @@ Window to which this message was targeted. If the pointer is captured, either im
 
 ### -field ptPixelLocation
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The predicted screen coordinates of the pointer, in pixels. 
 
@@ -104,7 +104,7 @@ The predicted value is based on the pointer position reported by the digitizer a
 
 ### -field ptHimetricLocation
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The predicted screen coordinates of the pointer, in HIMETRIC units. 
 
@@ -112,13 +112,13 @@ The predicted value is based on the pointer position reported by the digitizer a
 
 ### -field ptPixelLocationRaw
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The screen coordinates of the pointer, in pixels. For adjusted screen coordinates, see <b>ptPixelLocation</b>.
 
 ### -field ptHimetricLocationRaw
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 The screen coordinates of the pointer, in HIMETRIC units. For adjusted screen coordinates, see <b>ptHimetricLocation</b>.
 

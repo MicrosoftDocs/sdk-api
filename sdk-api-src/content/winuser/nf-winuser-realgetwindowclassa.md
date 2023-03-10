@@ -4,7 +4,7 @@ tech.root: winmsg
 title: RealGetWindowClassA
 ms.date: 04/14/2021
 targetos: Windows
-description: Retrieves a string that specifies the window type.
+description: Retrieves a string that specifies the window type. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

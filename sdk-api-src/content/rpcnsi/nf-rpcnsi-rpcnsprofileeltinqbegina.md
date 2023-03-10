@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltInqBeginA
 title: RpcNsProfileEltInqBeginA function (rpcnsi.h)
-description: The RpcNsProfileEltInqBegin function creates an inquiry context for viewing the elements in a profile.
-helpviewer_keywords: ["RPC_C_PROFILE_ALL_ELTS","RPC_C_PROFILE_DEFAULT_ELT","RPC_C_PROFILE_MATCH_BY_BOTH","RPC_C_PROFILE_MATCH_BY_IF","RPC_C_PROFILE_MATCH_BY_MBR","RPC_C_VERS_ALL","RPC_C_VERS_COMPATIBLE","RPC_C_VERS_EXACT","RPC_C_VERS_MAJOR_ONLY","RPC_C_VERS_UPTO","RpcNsProfileEltInqBegin","RpcNsProfileEltInqBegin function [RPC]","RpcNsProfileEltInqBeginA","RpcNsProfileEltInqBeginW","_rpc_rpcnsprofileeltinqbegin","rpc.rpcnsprofileeltinqbegin","rpcnsi/RpcNsProfileEltInqBegin","rpcnsi/RpcNsProfileEltInqBeginA","rpcnsi/RpcNsProfileEltInqBeginW"]
+description: The RpcNsProfileEltInqBegin function creates an inquiry context for viewing the elements in a profile. (ANSI)
+helpviewer_keywords: ["RPC_C_PROFILE_ALL_ELTS", "RPC_C_PROFILE_DEFAULT_ELT", "RPC_C_PROFILE_MATCH_BY_BOTH", "RPC_C_PROFILE_MATCH_BY_IF", "RPC_C_PROFILE_MATCH_BY_MBR", "RPC_C_VERS_ALL", "RPC_C_VERS_COMPATIBLE", "RPC_C_VERS_EXACT", "RPC_C_VERS_MAJOR_ONLY", "RPC_C_VERS_UPTO", "RpcNsProfileEltInqBeginA", "rpcnsi/RpcNsProfileEltInqBeginA"]
 old-location: rpc\rpcnsprofileeltinqbegin.htm
 tech.root: Rpc
 ms.assetid: 5b14eb21-0c3e-4f12-b1dc-95b364d87a4f

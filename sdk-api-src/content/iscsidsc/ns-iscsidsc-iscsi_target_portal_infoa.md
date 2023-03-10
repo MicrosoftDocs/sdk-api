@@ -1,7 +1,7 @@
 ---
-UID: NS:iscsidsc.__unnamed_struct_9
+UID: NS:iscsidsc.ISCSI_TARGET_PORTAL_INFOA
 title: ISCSI_TARGET_PORTAL_INFOA (iscsidsc.h)
-description: ISCSI_TARGET_PORTAL_INFO structure contains information about a target portal.
+description: ISCSI_TARGET_PORTAL_INFO structure contains information about a target portal. (ANSI)
 helpviewer_keywords: ["*PISCSI_TARGET_PORTAL_INFOA","ISCSI_TARGET_PORTAL_INFO","ISCSI_TARGET_PORTAL_INFO structure [iSCSI Discovery Library API]","ISCSI_TARGET_PORTAL_INFOA","ISCSI_TARGET_PORTAL_INFOW","PISCSI_TARGET_PORTAL_INFO","PISCSI_TARGET_PORTAL_INFO structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_target_portal_info","iscsidsc/ISCSI_TARGET_PORTAL_INFO","iscsidsc/ISCSI_TARGET_PORTAL_INFOA","iscsidsc/ISCSI_TARGET_PORTAL_INFOW","iscsidsc/PISCSI_TARGET_PORTAL_INFO"]
 old-location: iscsidisc\iscsi_target_portal_info.htm
 tech.root: iSCSIDisc

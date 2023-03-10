@@ -1,7 +1,7 @@
 ---
 UID: NF:vsmgmt.IVssEnumMgmtObject.Next
 title: IVssEnumMgmtObject::Next (vsmgmt.h)
-description: Returns the specified number of objects from the specified list of enumerated objects.
+description: Returns the specified number of objects from the specified list of enumerated objects. (IVssEnumMgmtObject.Next)
 helpviewer_keywords: ["IVssEnumMgmtObject interface [VSS]","Next method","IVssEnumMgmtObject.Next","IVssEnumMgmtObject::Next","Next","Next method [VSS]","Next method [VSS]","IVssEnumMgmtObject interface","base.ivssenummgmtobject_next","vsmgmt/IVssEnumMgmtObject::Next"]
 old-location: base\ivssenummgmtobject_next.htm
 tech.root: base

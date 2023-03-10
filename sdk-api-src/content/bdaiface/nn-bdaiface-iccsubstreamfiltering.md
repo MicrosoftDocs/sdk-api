@@ -59,7 +59,7 @@ The <b>ICCSubStreamFiltering</b> interface sets the filtering on the closed capt
 
 The <b>ICCSubStreamFiltering</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICCSubStreamFiltering</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

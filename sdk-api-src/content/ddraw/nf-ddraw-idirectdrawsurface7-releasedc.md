@@ -72,7 +72,7 @@ If it fails, the method can return one of the following error values:
 
 <b>ReleaseDC</b> also unlocks the surface that was previously locked when the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a> method was called.
 
-You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>ReleaseDC</b> method.
+
 
 ## -see-also
 

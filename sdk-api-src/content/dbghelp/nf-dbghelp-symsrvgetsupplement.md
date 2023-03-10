@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymSrvGetSupplement
 title: SymSrvGetSupplement function (dbghelp.h)
-description: Retrieves the specified file from the supplement for a symbol store.
+description: The SymSrvGetSupplement function (dbghelp.h) retrieves the specified file from the supplement for a symbol store.
 helpviewer_keywords: ["SymSrvGetSupplement","SymSrvGetSupplement function","SymSrvGetSupplementW","base.symsrvgetsupplement","dbghelp/SymSrvGetSupplement","dbghelp/SymSrvGetSupplementW"]
 old-location: base\symsrvgetsupplement.htm
 tech.root: Debug
 ms.assetid: 2cad61c6-c8a1-437f-8e2c-1fa70eb348c2
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymSrvGetSupplement, SymSrvGetSupplement function, SymSrvGetSupplementW, base.symsrvgetsupplement, dbghelp/SymSrvGetSupplement, dbghelp/SymSrvGetSupplementW
 req.header: dbghelp.h
 req.include-header: 

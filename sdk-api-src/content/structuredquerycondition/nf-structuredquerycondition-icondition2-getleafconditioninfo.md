@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquerycondition.ICondition2.GetLeafConditionInfo
 title: ICondition2::GetLeafConditionInfo (structuredquerycondition.h)
-description: Retrieves the property name, operation, and value from a leaf search condition node.
+description: Retrieves the property name, operation, and value from a leaf search condition node. (ICondition2.GetLeafConditionInfo)
 helpviewer_keywords: ["GetLeafConditionInfo","GetLeafConditionInfo method [search]","GetLeafConditionInfo method [search]","ICondition2 interface","ICondition2 interface [search]","GetLeafConditionInfo method","ICondition2.GetLeafConditionInfo","ICondition2::GetLeafConditionInfo","_search_ICondition2_GetLeafConditionInfo","search._search_ICondition2_GetLeafConditionInfo","structuredquerycondition/ICondition2::GetLeafConditionInfo"]
 old-location: search\_search_ICondition2_GetLeafConditionInfo.htm
 tech.root: search

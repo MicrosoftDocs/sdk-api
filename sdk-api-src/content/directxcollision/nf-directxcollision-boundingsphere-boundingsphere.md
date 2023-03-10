@@ -1,7 +1,7 @@
 ---
 UID: NF:directxcollision.BoundingSphere.BoundingSphere
 title: BoundingSphere::BoundingSphere
-description: Creates an instance of the BoundingSphere class.
+description: Creates an instance of the BoundingSphere class. (BoundingSphere::BoundingSphere)
 tech.root: dxmath
 helpviewer_keywords: ["BoundingSphere::BoundingSphere"]
 ms.date: 04/22/2019

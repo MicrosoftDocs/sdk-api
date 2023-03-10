@@ -1,7 +1,7 @@
 ---
 UID: NF:structuredquery.IConditionFactory.MakeNot
 title: IConditionFactory::MakeNot (structuredquery.h)
-description: Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node).
+description: Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node). (IConditionFactory.MakeNot)
 helpviewer_keywords: ["IConditionFactory interface [search]","MakeNot method","IConditionFactory.MakeNot","IConditionFactory::MakeNot","MakeNot","MakeNot method [search]","MakeNot method [search]","IConditionFactory interface","_search_IConditionFactory_MakeNot","search._search_IConditionFactory_MakeNot","structuredquery/IConditionFactory::MakeNot"]
 old-location: search\_search_IConditionFactory_MakeNot.htm
 tech.root: search

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.Clone
 title: IXpsOMLinearGradientBrush::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.
+description: Makes a deep copy of the interface. (IXpsOMLinearGradientBrush.Clone)
 helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMLinearGradientBrush interface","IXpsOMLinearGradientBrush interface [XPS Documents and Packaging]","Clone method","IXpsOMLinearGradientBrush.Clone","IXpsOMLinearGradientBrush::Clone","xps.ixpsomlineargradientbrush_clone","xpsobjectmodel/IXpsOMLinearGradientBrush::Clone"]
 old-location: xps\ixpsomlineargradientbrush_clone.htm
 tech.root: xps

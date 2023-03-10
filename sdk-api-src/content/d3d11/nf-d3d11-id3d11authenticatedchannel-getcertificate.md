@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11AuthenticatedChannel.GetCertificate
 title: ID3D11AuthenticatedChannel::GetCertificate (d3d11.h)
-description: Gets the driver's certificate chain.
+description: Gets the driver's certificate chain. (ID3D11AuthenticatedChannel.GetCertificate)
 helpviewer_keywords: ["GetCertificate","GetCertificate method [Media Foundation]","GetCertificate method [Media Foundation]","ID3D11AuthenticatedChannel interface","ID3D11AuthenticatedChannel interface [Media Foundation]","GetCertificate method","ID3D11AuthenticatedChannel.GetCertificate","ID3D11AuthenticatedChannel::GetCertificate","d3d11/ID3D11AuthenticatedChannel::GetCertificate","mf.id3d11authenticatedchannel_getcertificate"]
 old-location: mf\id3d11authenticatedchannel_getcertificate.htm
 tech.root: mf

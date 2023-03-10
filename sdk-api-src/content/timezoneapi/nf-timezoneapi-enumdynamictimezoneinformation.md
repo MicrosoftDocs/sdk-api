@@ -82,7 +82,7 @@ This function returns DWORD. Possible return values include:
 The following example demonstrates looping through the potential timezones until **ERROR_NO_MORE_ITEMS** is returned, indicating that there are no more time zone entries in the registry.
 
 ```cpp
-std::vector<std::wstring> possibleTimezones;
+std::vector<DYNAMIC_TIME_ZONE_INFORMATION> possibleTimezones;
 DYNAMIC_TIME_ZONE_INFORMATION dynamicTimezone = {};
 DWORD dwResult = 0;
 DWORD i = 0;

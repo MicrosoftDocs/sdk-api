@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_escape_filter_elementA
 title: ldap_escape_filter_elementA function (winldap.h)
-description: The ldap_escape_filter_element function converts a filter element to a null-terminated character string that can be passed safely in a search filter.
-helpviewer_keywords: ["_ldap_ldap_escape_filter_element","ldap.ldap__escape__filter__element","ldap.ldap_escape_filter_element","ldap_escape_filter_element","ldap_escape_filter_element function [LDAP]","ldap_escape_filter_elementA","ldap_escape_filter_elementW","winldap/ldap_escape_filter_element","winldap/ldap_escape_filter_elementA","winldap/ldap_escape_filter_elementW"]
+description: The ldap_escape_filter_element function converts a filter element to a null-terminated character string that can be passed safely in a search filter. (ldap_escape_filter_elementA)
+helpviewer_keywords: ["ldap.ldap__escape__filter__element", "ldap_escape_filter_elementA", "winldap/ldap_escape_filter_elementA"]
 old-location: ldap\ldap_escape_filter_element.htm
 tech.root: ldap
 ms.assetid: d3bc558c-7327-400e-a436-35adae8fc302

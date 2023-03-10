@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_PROVIDER_TYPE
 title: VDS_PROVIDER_TYPE (vds.h)
-description: Defines the set of valid types for a provider.
+description: The VDS_PROVIDER_TYPE (vds.h) enumeration defines the set of valid types for a provider.
 helpviewer_keywords: ["VDS_PROVIDER_TYPE","VDS_PROVIDER_TYPE enumeration [VDS]","VDS_PT_HARDWARE","VDS_PT_MAX","VDS_PT_SOFTWARE","VDS_PT_UNKNOWN","VDS_PT_VIRTUALDISK","base.vds_provider_type","vds/VDS_PROVIDER_TYPE","vds/VDS_PT_HARDWARE","vds/VDS_PT_MAX","vds/VDS_PT_SOFTWARE","vds/VDS_PT_UNKNOWN","vds/VDS_PT_VIRTUALDISK","vdshwprv/VDS_PROVIDER_TYPE","vdshwprv/VDS_PT_HARDWARE","vdshwprv/VDS_PT_MAX","vdshwprv/VDS_PT_SOFTWARE","vdshwprv/VDS_PT_UNKNOWN","vdshwprv/VDS_PT_VIRTUALDISK"]
 old-location: base\vds_provider_type.htm
 tech.root: base
 ms.assetid: a794e054-1389-4b54-9ad3-eb32b9dd0a5b
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_PROVIDER_TYPE, VDS_PROVIDER_TYPE enumeration [VDS], VDS_PT_HARDWARE, VDS_PT_MAX, VDS_PT_SOFTWARE, VDS_PT_UNKNOWN, VDS_PT_VIRTUALDISK, base.vds_provider_type, vds/VDS_PROVIDER_TYPE, vds/VDS_PT_HARDWARE, vds/VDS_PT_MAX, vds/VDS_PT_SOFTWARE, vds/VDS_PT_UNKNOWN, vds/VDS_PT_VIRTUALDISK, vdshwprv/VDS_PROVIDER_TYPE, vdshwprv/VDS_PT_HARDWARE, vdshwprv/VDS_PT_MAX, vdshwprv/VDS_PT_SOFTWARE, vdshwprv/VDS_PT_UNKNOWN, vdshwprv/VDS_PT_VIRTUALDISK
 req.header: vds.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set 
    of valid types for a provider.

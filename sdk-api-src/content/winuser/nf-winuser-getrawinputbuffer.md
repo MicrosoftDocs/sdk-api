@@ -128,4 +128,4 @@ internal struct RAWINPUT
 
 **Reference**
 
-[About Raw Input](/windows/win32/inputdev/about-raw-input)
+[Raw Input Overview](/windows/win32/inputdev/about-raw-input)

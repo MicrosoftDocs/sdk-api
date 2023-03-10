@@ -1,5 +1,5 @@
 ---
-UID: NE:tcpestats.__unnamed_enum_1
+UID: NE:tcpestats.TCP_SOFT_ERROR
 title: TCP_SOFT_ERROR (tcpestats.h)
 description: Defines the reason for non-fatal or soft errors recorded on a TCP connection.
 helpviewer_keywords: ["*PTCP_SOFT_ERROR","TCP_SOFT_ERROR","TCP_SOFT_ERROR enumeration [IP Helper]","TcpErrorAboveAckWindow","TcpErrorAboveDataWindow","TcpErrorAboveTsWindow","TcpErrorBelowAckWindow","TcpErrorBelowDataWindow","TcpErrorBelowTsWindow","TcpErrorDataChecksumError","TcpErrorDataLengthError","TcpErrorMaxSoftError","TcpErrorNone","iphlp.tcp_soft_error","tcpestats/TCP_SOFT_ERROR","tcpestats/TcpErrorAboveAckWindow","tcpestats/TcpErrorAboveDataWindow","tcpestats/TcpErrorAboveTsWindow","tcpestats/TcpErrorBelowAckWindow","tcpestats/TcpErrorBelowDataWindow","tcpestats/TcpErrorBelowTsWindow","tcpestats/TcpErrorDataChecksumError","tcpestats/TcpErrorDataLengthError","tcpestats/TcpErrorMaxSoftError","tcpestats/TcpErrorNone"]
@@ -128,3 +128,4 @@ The values in this enumeration are defined in the IETF draft RFC on the TCP Exte
 
 
 <a href="/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>
+

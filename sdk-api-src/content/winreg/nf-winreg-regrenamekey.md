@@ -4,7 +4,7 @@ tech.root: winprog
 title: RegRenameKey
 ms.date: 03/15/2021
 targetos: Windows
-description: Changes the name of the specified registry key.
+description: Changes the name of the specified registry key. (RegRenameKey)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

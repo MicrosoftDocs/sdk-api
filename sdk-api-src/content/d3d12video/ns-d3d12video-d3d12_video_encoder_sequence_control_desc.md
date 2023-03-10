@@ -2,9 +2,9 @@
 UID: NS:d3d12video.D3D12_VIDEO_ENCODER_SEQUENCE_CONTROL_DESC
 tech.root: mf
 title: D3D12_VIDEO_ENCODER_SEQUENCE_CONTROL_DESC
-ms.date: 07/01/2021
+description: The D3D12_VIDEO_ENCODER_SEQUENCE_CONTROL_DESC represents parameters for the input of the video encoding operation at a sequence level.
+ms.date: 08/16/2022
 targetos: Windows
-description: 
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -50,7 +50,7 @@ A bitwise OR combination of values from the [D3D12_VIDEO_ENCODER_SEQUENCE_CONTRO
 
 A [D3D12_VIDEO_ENCODER_INTRA_REFRESH](ns-d3d12video-d3d12_video_encoder_intra_refresh.md) structure specifying the parameters for the intra-refresh mode that should be used when triggering intra-refresh sessions.
 
-The use of bidirectional reference frames (B Frames) is mutually exclusive with intra-refresh. Callers should verify that the GOP structure doesn't contain B frames if intra-refresh modes are active. When querying for [D3D12_FEATURE_DATA_VIDEO_ENCODER_SUPPORT](ns-d3d12video-d3d12_feature_data_video_encoder_support.md) with an intra-refresh mode other than [D3D12_VIDEO_ENCODER_INTRA_REFRESH_MODE_NONE](ns-d3d12video-d3d12_feature_data_video_encoder_intra_refresh_mode.md), the specified [D3D12_VIDEO_ENCODER_SEQUENCE_GOP_STRUCTURE](D3D12_VIDEO_ENCODER_SEQUENCE_GOP_STRUCTURE) set must not contain B frames, or the query will return no support.
+The use of bidirectional reference frames (B Frames) is mutually exclusive with intra-refresh. Callers should verify that the GOP structure doesn't contain B frames if intra-refresh modes are active. When querying for [D3D12_FEATURE_DATA_VIDEO_ENCODER_SUPPORT](ns-d3d12video-d3d12_feature_data_video_encoder_support.md) with an intra-refresh mode other than [D3D12_VIDEO_ENCODER_INTRA_REFRESH_MODE_NONE](ns-d3d12video-d3d12_feature_data_video_encoder_intra_refresh_mode.md), the specified [D3D12_VIDEO_ENCODER_SEQUENCE_GOP_STRUCTURE](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_encoder_sequence_gop_structure) set must not contain B frames, or the query will return no support.
 
 The usage of infinite intra-refresh is possible by requesting periodically a new wave of intra-refresh after each of them finishes.
 
@@ -97,7 +97,7 @@ A [D3D12_VIDEO_ENCODER_PICTURE_CONTROL_SUBREGIONS_LAYOUT_DATA](ns-d3d12video-d3d
 
 ### -field CodecGopSequence
 
-A [D3D12_VIDEO_ENCODER_SEQUENCE_GOP_STRUCTURE](ns-d3d12video-d3d12_video_encoder_sequence_gop_structure.md) structure specifying the current GOP used in the video sequence, in display order. Calls to [EncodeFrame](nf-d3d12video-id3d12videoencodecommandlist2-encodeframe.md) must follow this GOP but in encode order after B-Frames reordering.
+A [D3D12_VIDEO_ENCODER_SEQUENCE_GOP_STRUCTURE](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_encoder_sequence_gop_structure) structure specifying the current GOP used in the video sequence, in display order. Calls to [EncodeFrame](nf-d3d12video-id3d12videoencodecommandlist2-encodeframe.md) must follow this GOP but in encode order after B-Frames reordering.
 
 Check support for GOP dynamic reconfiguration in [D3D12_VIDEO_ENCODER_SUPPORT_FLAG_SEQUENCE_GOP_RECONFIGURATION_AVAILABLE](ne-d3d12video-d3d12_video_encoder_support_flags.md). If no support is given for this, *CodecGopSequence* indicates the target GOP pattern (in display order) of the full encoding session and must not be changed during the encoding session. Otherwise this indicates the new GOP subregion mode used starting at the associated **EncodeFrame** command.
 

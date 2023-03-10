@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMGeometry interface
 
-
 ## -description
 
 Describes the shape of a path or of a clipping region.

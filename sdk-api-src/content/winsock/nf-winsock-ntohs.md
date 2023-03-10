@@ -1,12 +1,12 @@
 ---
 UID: NF:winsock.ntohs
 title: ntohs function (winsock.h)
-description: The ntohs function converts a u_short from TCP/IP network byte order to host byte order (which is little-endian on Intel processors).
+description: The ntohs function (winsock.h) converts a u_short from TCP/IP network byte order to host byte order, which is little-endian on Intel processors.
 helpviewer_keywords: ["_win32_ntohs_2","ntohs","ntohs function [Winsock]","winsock.ntohs_2","winsock/ntohs"]
 old-location: winsock\ntohs_2.htm
 tech.root: WinSock
 ms.assetid: 9946df13-3b40-4bcb-91ca-10684b3fc9a5
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: _win32_ntohs_2, ntohs, ntohs function [Winsock], winsock.ntohs_2, winsock/ntohs
 req.header: winsock.h
 req.include-header: Winsock2.h

@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_set_option
 title: ldap_set_option function (winldap.h)
-description: Sets options on connection blocks.
+description: The ldap_set_option function (winldap.h) sets options on connection blocks.  
 helpviewer_keywords: ["_ldap_ldap_set_option","ldap.ldap__set__option","ldap.ldap_set_option","ldap_set_option","ldap_set_option function [LDAP]","ldap_set_optionW","winldap/ldap_set_option","winldap/ldap_set_optionW"]
 old-location: ldap\ldap_set_option.htm
 tech.root: ldap
 ms.assetid: b6d6b285-7302-4812-bbcb-0aeb5b53cf23
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: _ldap_ldap_set_option, ldap.ldap__set__option, ldap.ldap_set_option, ldap_set_option, ldap_set_option function [LDAP], ldap_set_optionW, winldap/ldap_set_option, winldap/ldap_set_optionW
 req.header: winldap.h
 req.include-header: 

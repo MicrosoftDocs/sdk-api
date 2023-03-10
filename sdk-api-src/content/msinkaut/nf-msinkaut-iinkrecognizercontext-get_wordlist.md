@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.get_WordList
 title: IInkRecognizerContext::get_WordList (msinkaut.h)
-description: Gets or sets the word list that is used in the recognition process to improve the recognition results.
+description: Gets or sets the word list that is used in the recognition process to improve the recognition results. (IInkRecognizerContext.get_WordList)
 helpviewer_keywords: ["893950d4-c19c-4635-ad66-6e363860280a","IInkRecognizerContext interface [Tablet PC]","WordList property","IInkRecognizerContext.WordList","IInkRecognizerContext.get_WordList","IInkRecognizerContext::WordList","IInkRecognizerContext::get_WordList","IInkRecognizerContext::putref_WordList","InkRecognizerContext.get_WordList","WordList property [Tablet PC]","WordList property [Tablet PC]","IInkRecognizerContext interface","get_WordList","msinkaut/IInkRecognizerContext::WordList","msinkaut/IInkRecognizerContext::get_WordList","msinkaut/IInkRecognizerContext::putref_WordList","putref_WordList","tablet.inkrecognizercontext_wordlist"]
 old-location: tablet\inkrecognizercontext_wordlist.htm
 tech.root: tablet

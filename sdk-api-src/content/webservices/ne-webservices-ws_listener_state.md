@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_35
+UID: NE:webservices.WS_LISTENER_STATE
 title: WS_LISTENER_STATE (webservices.h)
 description: The different states that a listener can be in.
 helpviewer_keywords: ["WS_LISTENER_STATE","WS_LISTENER_STATE enumeration [Web Services for Windows]","WS_LISTENER_STATE_CLOSED","WS_LISTENER_STATE_CLOSING","WS_LISTENER_STATE_CREATED","WS_LISTENER_STATE_FAULTED","WS_LISTENER_STATE_OPEN","WS_LISTENER_STATE_OPENING","webservices/WS_LISTENER_STATE","webservices/WS_LISTENER_STATE_CLOSED","webservices/WS_LISTENER_STATE_CLOSING","webservices/WS_LISTENER_STATE_CREATED","webservices/WS_LISTENER_STATE_FAULTED","webservices/WS_LISTENER_STATE_OPEN","webservices/WS_LISTENER_STATE_OPENING","wsw.ws_listener_state"]
@@ -81,3 +81,4 @@ Note that only the valid state transitions are shown.  Using
                 <b>WS_E_INVALID_OPERATION</b> error being returned from
                 the function (or crash in the case of <a href="/windows/desktop/api/webservices/nf-webservices-wsfreelistener">WsFreeListener</a>).
             See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.
+

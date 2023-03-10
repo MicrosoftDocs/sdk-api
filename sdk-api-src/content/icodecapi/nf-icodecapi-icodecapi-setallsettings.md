@@ -3,7 +3,7 @@ UID: NF:icodecapi.ICodecAPI.SetAllSettings
 title: ICodecAPI::SetAllSettings
 ms.date: 09/22/2020
 targetos: Windows
-description: The SetAllSettings method reads codec properties from a stream and sets them on the codec.
+description: The SetAllSettings method reads codec properties from a stream and sets them on the codec. (ICodecAPI::SetAllSettings)
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetAllSettings method","ICodecAPI.SetAllSettings","ICodecAPI::SetAllSettings","ICodecAPISetAllSettings","SetAllSettings","SetAllSettings method [DirectShow]","SetAllSettings method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setallsettings","icodecapi/ICodecAPI::SetAllSettings"]
 tech.root: mf
 req.assembly: 

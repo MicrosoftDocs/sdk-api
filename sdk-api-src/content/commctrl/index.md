@@ -4,7 +4,7 @@ title: Commctrl.h header
 ms.assetid: 38ce207b-07a6-3a3d-83f7-f3650aa5a746
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: controls
 f1_keywords:
  - commctrl

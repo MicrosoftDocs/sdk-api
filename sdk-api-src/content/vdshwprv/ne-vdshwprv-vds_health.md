@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_HEALTH
 title: VDS_HEALTH (vdshwprv.h)
-description: Defines the set of health state values for a VDS object.
+description: The VDS_HEALTH enumeration (vdshwprv.h) defines the set of health state values for a VDS object.
 helpviewer_keywords: ["VDS_HEALTH","VDS_HEALTH enumeration [VDS]","VDS_H_DEGRADED","VDS_H_FAILED","VDS_H_FAILED_REDUNDANCY","VDS_H_FAILED_REDUNDANCY_FAILING","VDS_H_FAILING","VDS_H_FAILING_REDUNDANCY","VDS_H_HEALTHY","VDS_H_PENDING_FAILURE","VDS_H_REBUILDING","VDS_H_REPLACED","VDS_H_STALE","VDS_H_UNKNOWN","base.vds_health","vds/VDS_HEALTH","vds/VDS_H_DEGRADED","vds/VDS_H_FAILED","vds/VDS_H_FAILED_REDUNDANCY","vds/VDS_H_FAILED_REDUNDANCY_FAILING","vds/VDS_H_FAILING","vds/VDS_H_FAILING_REDUNDANCY","vds/VDS_H_HEALTHY","vds/VDS_H_PENDING_FAILURE","vds/VDS_H_REBUILDING","vds/VDS_H_REPLACED","vds/VDS_H_STALE","vds/VDS_H_UNKNOWN","vdshwprv/VDS_HEALTH","vdshwprv/VDS_H_DEGRADED","vdshwprv/VDS_H_FAILED","vdshwprv/VDS_H_FAILED_REDUNDANCY","vdshwprv/VDS_H_FAILED_REDUNDANCY_FAILING","vdshwprv/VDS_H_FAILING","vdshwprv/VDS_H_FAILING_REDUNDANCY","vdshwprv/VDS_H_HEALTHY","vdshwprv/VDS_H_PENDING_FAILURE","vdshwprv/VDS_H_REBUILDING","vdshwprv/VDS_H_REPLACED","vdshwprv/VDS_H_STALE","vdshwprv/VDS_H_UNKNOWN"]
 old-location: base\vds_health.htm
 tech.root: base
 ms.assetid: c65d9266-d691-4711-8225-a442e90d8ba3
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_HEALTH, VDS_HEALTH enumeration [VDS], VDS_H_DEGRADED, VDS_H_FAILED, VDS_H_FAILED_REDUNDANCY, VDS_H_FAILED_REDUNDANCY_FAILING, VDS_H_FAILING, VDS_H_FAILING_REDUNDANCY, VDS_H_HEALTHY, VDS_H_PENDING_FAILURE, VDS_H_REBUILDING, VDS_H_REPLACED, VDS_H_STALE, VDS_H_UNKNOWN, base.vds_health, vds/VDS_HEALTH, vds/VDS_H_DEGRADED, vds/VDS_H_FAILED, vds/VDS_H_FAILED_REDUNDANCY, vds/VDS_H_FAILED_REDUNDANCY_FAILING, vds/VDS_H_FAILING, vds/VDS_H_FAILING_REDUNDANCY, vds/VDS_H_HEALTHY, vds/VDS_H_PENDING_FAILURE, vds/VDS_H_REBUILDING, vds/VDS_H_REPLACED, vds/VDS_H_STALE, vds/VDS_H_UNKNOWN, vdshwprv/VDS_HEALTH, vdshwprv/VDS_H_DEGRADED, vdshwprv/VDS_H_FAILED, vdshwprv/VDS_H_FAILED_REDUNDANCY, vdshwprv/VDS_H_FAILED_REDUNDANCY_FAILING, vdshwprv/VDS_H_FAILING, vdshwprv/VDS_H_FAILING_REDUNDANCY, vdshwprv/VDS_H_HEALTHY, vdshwprv/VDS_H_PENDING_FAILURE, vdshwprv/VDS_H_REBUILDING, vdshwprv/VDS_H_REPLACED, vdshwprv/VDS_H_STALE, vdshwprv/VDS_H_UNKNOWN
 req.header: vdshwprv.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of 
    health state values for a VDS object.

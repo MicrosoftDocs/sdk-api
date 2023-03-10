@@ -72,7 +72,7 @@ The **TraceLoggingThreadActivityIdSetter** class has these constructors.
 | Constructor                                                                                                                                          | Description                                                           |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | [TraceLoggingThreadActivityIdSetter Constructor](<./nf-traceloggingactivity-traceloggingactivity-setrelatedactivityid(constguid).md>)                | Creates a new **TraceLoggingThreadActivityIdSetter** object.          |
-| [TraceLoggingThreadActivityIdSetter Constructor](./nf-traceloggingactivity-traceloggingthreadactivityidsetter-traceloggingthreadactivityidsetter.md) | Saves the original activity ID and sets a new activity on the thread. |
+| [TraceLoggingThreadActivityIdSetter Constructor](/windows/win32/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-traceloggingthreadactivityidsetter(constguid_)) | Saves the original activity ID and sets a new activity on the thread. |
 | [TraceLoggingThreadActivityIdSetter Destructor](./nf-traceloggingactivity-traceloggingthreadactivityidsetter-~traceloggingthreadactivityidsetter.md) | Restores the original activity ID to the thread.                      |
 
 ## -remarks

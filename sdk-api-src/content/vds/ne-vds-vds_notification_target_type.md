@@ -1,12 +1,12 @@
 ---
 UID: NE:vds._VDS_NOTIFICATION_TARGET_TYPE
 title: VDS_NOTIFICATION_TARGET_TYPE (vds.h)
-description: Defines the set of the valid target types (subjects) of a VDS notification.
+description: The VDS_NOTIFICATION_TARGET_TYPE (vds.h) enumeration defines the set of the valid target types (subjects) of a VDS notification.
 helpviewer_keywords: ["VDS_NOTIFICATION_TARGET_TYPE","VDS_NOTIFICATION_TARGET_TYPE enumeration [VDS]","VDS_NTT_CONTROLLER","VDS_NTT_DISK","VDS_NTT_DRIVE","VDS_NTT_DRIVE_LETTER","VDS_NTT_FILE_SYSTEM","VDS_NTT_LUN","VDS_NTT_MOUNT_POINT","VDS_NTT_PACK","VDS_NTT_PARTITION","VDS_NTT_PORT","VDS_NTT_PORTAL","VDS_NTT_PORTAL_GROUP","VDS_NTT_SERVICE","VDS_NTT_SUB_SYSTEM","VDS_NTT_TARGET","VDS_NTT_UNKNOWN","VDS_NTT_VOLUME","base.vds_notification_target_type","vds/VDS_NOTIFICATION_TARGET_TYPE","vds/VDS_NTT_CONTROLLER","vds/VDS_NTT_DISK","vds/VDS_NTT_DRIVE","vds/VDS_NTT_DRIVE_LETTER","vds/VDS_NTT_FILE_SYSTEM","vds/VDS_NTT_LUN","vds/VDS_NTT_MOUNT_POINT","vds/VDS_NTT_PACK","vds/VDS_NTT_PARTITION","vds/VDS_NTT_PORT","vds/VDS_NTT_PORTAL","vds/VDS_NTT_PORTAL_GROUP","vds/VDS_NTT_SERVICE","vds/VDS_NTT_SUB_SYSTEM","vds/VDS_NTT_TARGET","vds/VDS_NTT_UNKNOWN","vds/VDS_NTT_VOLUME","vdshwprv/VDS_NOTIFICATION_TARGET_TYPE","vdshwprv/VDS_NTT_CONTROLLER","vdshwprv/VDS_NTT_DISK","vdshwprv/VDS_NTT_DRIVE","vdshwprv/VDS_NTT_DRIVE_LETTER","vdshwprv/VDS_NTT_FILE_SYSTEM","vdshwprv/VDS_NTT_LUN","vdshwprv/VDS_NTT_MOUNT_POINT","vdshwprv/VDS_NTT_PACK","vdshwprv/VDS_NTT_PARTITION","vdshwprv/VDS_NTT_PORT","vdshwprv/VDS_NTT_PORTAL","vdshwprv/VDS_NTT_PORTAL_GROUP","vdshwprv/VDS_NTT_SERVICE","vdshwprv/VDS_NTT_SUB_SYSTEM","vdshwprv/VDS_NTT_TARGET","vdshwprv/VDS_NTT_UNKNOWN","vdshwprv/VDS_NTT_VOLUME"]
 old-location: base\vds_notification_target_type.htm
 tech.root: base
 ms.assetid: ce1f67b4-f7ea-4797-9073-0d80879c4a63
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_NOTIFICATION_TARGET_TYPE, VDS_NOTIFICATION_TARGET_TYPE enumeration [VDS], VDS_NTT_CONTROLLER, VDS_NTT_DISK, VDS_NTT_DRIVE, VDS_NTT_DRIVE_LETTER, VDS_NTT_FILE_SYSTEM, VDS_NTT_LUN, VDS_NTT_MOUNT_POINT, VDS_NTT_PACK, VDS_NTT_PARTITION, VDS_NTT_PORT, VDS_NTT_PORTAL, VDS_NTT_PORTAL_GROUP, VDS_NTT_SERVICE, VDS_NTT_SUB_SYSTEM, VDS_NTT_TARGET, VDS_NTT_UNKNOWN, VDS_NTT_VOLUME, base.vds_notification_target_type, vds/VDS_NOTIFICATION_TARGET_TYPE, vds/VDS_NTT_CONTROLLER, vds/VDS_NTT_DISK, vds/VDS_NTT_DRIVE, vds/VDS_NTT_DRIVE_LETTER, vds/VDS_NTT_FILE_SYSTEM, vds/VDS_NTT_LUN, vds/VDS_NTT_MOUNT_POINT, vds/VDS_NTT_PACK, vds/VDS_NTT_PARTITION, vds/VDS_NTT_PORT, vds/VDS_NTT_PORTAL, vds/VDS_NTT_PORTAL_GROUP, vds/VDS_NTT_SERVICE, vds/VDS_NTT_SUB_SYSTEM, vds/VDS_NTT_TARGET, vds/VDS_NTT_UNKNOWN, vds/VDS_NTT_VOLUME, vdshwprv/VDS_NOTIFICATION_TARGET_TYPE, vdshwprv/VDS_NTT_CONTROLLER, vdshwprv/VDS_NTT_DISK, vdshwprv/VDS_NTT_DRIVE, vdshwprv/VDS_NTT_DRIVE_LETTER, vdshwprv/VDS_NTT_FILE_SYSTEM, vdshwprv/VDS_NTT_LUN, vdshwprv/VDS_NTT_MOUNT_POINT, vdshwprv/VDS_NTT_PACK, vdshwprv/VDS_NTT_PARTITION, vdshwprv/VDS_NTT_PORT, vdshwprv/VDS_NTT_PORTAL, vdshwprv/VDS_NTT_PORTAL_GROUP, vdshwprv/VDS_NTT_SERVICE, vdshwprv/VDS_NTT_SUB_SYSTEM, vdshwprv/VDS_NTT_TARGET, vdshwprv/VDS_NTT_UNKNOWN, vdshwprv/VDS_NTT_VOLUME
 req.header: vds.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of the valid target types (subjects) of a VDS notification.
 

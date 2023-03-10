@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3cc.IEnumACDGroup.Reset
 title: IEnumACDGroup::Reset (tapi3cc.h)
-description: The Reset method resets the enumeration sequence to the beginning.
+description: The IEnumACDGroup::Reset method (tapi3cc.h) resets the enumeration sequence to the beginning.
 helpviewer_keywords: ["IEnumACDGroup interface [TAPI 2.2]","Reset method","IEnumACDGroup.Reset","IEnumACDGroup::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumACDGroup interface","_tapi3_ienumacdgroup_reset","tapi3.ienumacdgroup_reset","tapi3cc/IEnumACDGroup::Reset"]
 old-location: tapi3\ienumacdgroup_reset.htm
 tech.root: tapi3
 ms.assetid: 66c51bdd-c820-4670-a80d-27cfa080f08f
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: IEnumACDGroup interface [TAPI 2.2],Reset method, IEnumACDGroup.Reset, IEnumACDGroup::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumACDGroup interface, _tapi3_ienumacdgroup_reset, tapi3.ienumacdgroup_reset, tapi3cc/IEnumACDGroup::Reset
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

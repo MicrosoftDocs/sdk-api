@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsLun.QueryMaxLunExtendSize
 title: IVdsLun::QueryMaxLunExtendSize (vdshwprv.h)
-description: Returns the maximum size by which a LUN can be extended.
+description: The IVdsLun::QueryMaxLunExtendSize (vdshwprv.h) method returns the maximum size by which a LUN can be extended.
 helpviewer_keywords: ["IVdsLun interface","QueryMaxLunExtendSize method","IVdsLun.QueryMaxLunExtendSize","IVdsLun::QueryMaxLunExtendSize","QueryMaxLunExtendSize","QueryMaxLunExtendSize method","QueryMaxLunExtendSize method","IVdsLun interface","base.ivdslun_querymaxlunextendsize","vds/IVdsLun::QueryMaxLunExtendSize","vdshwprv/IVdsLun::QueryMaxLunExtendSize"]
 old-location: base\ivdslun_querymaxlunextendsize.htm
 tech.root: base
 ms.assetid: ac30de71-7a2e-4a65-a37b-34a0d01ca645
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsLun interface,QueryMaxLunExtendSize method, IVdsLun.QueryMaxLunExtendSize, IVdsLun::QueryMaxLunExtendSize, QueryMaxLunExtendSize, QueryMaxLunExtendSize method, QueryMaxLunExtendSize method,IVdsLun interface, base.ivdslun_querymaxlunextendsize, vds/IVdsLun::QueryMaxLunExtendSize, vdshwprv/IVdsLun::QueryMaxLunExtendSize
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the maximum size by which a LUN can be extended.
 

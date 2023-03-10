@@ -1,8 +1,8 @@
 ---
 UID: NF:winsock2.WSASetServiceA
 title: WSASetServiceA function (winsock2.h)
-description: The WSASetService function registers or removes from the registry a service instance within one or more namespaces.
-helpviewer_keywords: ["RNRSERVICE_DELETE","RNRSERVICE_DEREGISTER","RNRSERVICE_REGISTER","SERVICE_MULTIPLE","WSASetService","WSASetService function [Winsock]","WSASetServiceA","WSASetServiceW","_win32_wsasetservice_2","winsock.wsasetservice_2","winsock2/WSASetService","winsock2/WSASetServiceA","winsock2/WSASetServiceW"]
+description: The WSASetService function registers or removes from the registry a service instance within one or more namespaces. (ANSI)
+helpviewer_keywords: ["RNRSERVICE_DELETE", "RNRSERVICE_DEREGISTER", "RNRSERVICE_REGISTER", "SERVICE_MULTIPLE", "WSASetServiceA", "winsock2/WSASetServiceA"]
 old-location: winsock\wsasetservice_2.htm
 tech.root: WinSock
 ms.assetid: 21a8ff26-4c9e-4846-a75a-1a27c746edab

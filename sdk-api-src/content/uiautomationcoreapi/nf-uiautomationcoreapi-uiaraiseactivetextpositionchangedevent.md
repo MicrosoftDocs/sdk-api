@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseActiveTextPositionChangedEvent
 title: UiaRaiseActiveTextPositionChangedEvent function (uiautomationcoreapi.h)
-description: Called by a provider to notify the Microsoft UI Automation core that a text control has programmatically changed text.
+description: Called by a provider to notify the Microsoft UI Automation core that a text control has programmatically changed text. (UiaRaiseActiveTextPositionChangedEvent)
 helpviewer_keywords: ["UiaRaiseActiveTextPositionChangedEvent","UiaRaiseActiveTextPositionChangedEvent function [Windows Accessibility]","uiautomationcoreapi/UiaRaiseActiveTextPositionChangedEvent","winauto.uiauto_UiaRaiseActiveTextPositionChangedEventFunction"]
 old-location: winauto\uiauto_UiaRaiseActiveTextPositionChangedEventFunction.htm
 tech.root: WinAuto

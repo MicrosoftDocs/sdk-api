@@ -1,7 +1,7 @@
 ---
 UID: NS:richedit._findtextexw
 title: FINDTEXTEXW (richedit.h)
-description: Contains information about text to search for in a rich edit control. This structure is used with the EM_FINDTEXTEX message.
+description: Contains information about text to search for in a rich edit control. This structure is used with the EM_FINDTEXTEX message. (Unicode)
 helpviewer_keywords: ["FINDTEXTEX","FINDTEXTEX structure [Windows Controls]","FINDTEXTEXA","FINDTEXTEXW","_win32_FINDTEXTEX_str","_win32_FINDTEXTEX_str_cpp","controls.FINDTEXTEX","controls._win32_FINDTEXTEX_str","richedit/FINDTEXTEX","richedit/FINDTEXTEXA","richedit/FINDTEXTEXW"]
 old-location: controls\FINDTEXTEX.htm
 tech.root: Controls

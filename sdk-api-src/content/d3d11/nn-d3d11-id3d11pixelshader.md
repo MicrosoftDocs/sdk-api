@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d11.ID3D11PixelShader
 title: ID3D11PixelShader (d3d11.h)
-description: A pixel-shader interface manages an executable program (a pixel shader) that controls the pixel-shader stage.
+description: A pixel-shader interface manages an executable program (a pixel shader) that controls the pixel-shader stage. (ID3D11PixelShader)
 helpviewer_keywords: ["49390d89-6546-de4c-d03d-c7914ecb86eb","ID3D11PixelShader","ID3D11PixelShader interface [Direct3D 11]","ID3D11PixelShader interface [Direct3D 11]","described","d3d11/ID3D11PixelShader","direct3d11.id3d11pixelshader"]
 old-location: direct3d11\id3d11pixelshader.htm
 tech.root: direct3d11

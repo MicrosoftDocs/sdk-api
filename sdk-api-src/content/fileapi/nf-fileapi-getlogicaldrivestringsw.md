@@ -1,7 +1,7 @@
 ---
 UID: NF:fileapi.GetLogicalDriveStringsW
 title: GetLogicalDriveStringsW function (fileapi.h)
-description: Fills a buffer with strings that specify valid drives in the system.
+description: Fills a buffer with strings that specify valid drives in the system. (GetLogicalDriveStringsW)
 helpviewer_keywords: ["GetLogicalDriveStrings","GetLogicalDriveStrings function [Files]","GetLogicalDriveStringsA","GetLogicalDriveStringsW","_win32_getlogicaldrivestrings","base.getlogicaldrivestrings","fileapi/GetLogicalDriveStrings","fileapi/GetLogicalDriveStringsA","fileapi/GetLogicalDriveStringsW","fs.getlogicaldrivestrings","winbase/GetLogicalDriveStrings","winbase/GetLogicalDriveStringsA","winbase/GetLogicalDriveStringsW"]
 old-location: fs\getlogicaldrivestrings.htm
 tech.root: fs

@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_UseMouseForInput
 title: IInkEdit::put_UseMouseForInput (inked.h)
-description: Gets or sets a value that indicates whether the mouse can be used as an input device.
+description: Gets or sets a value that indicates whether the mouse can be used as an input device. (Put)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","UseMouseForInput property","IInkEdit.UseMouseForInput","IInkEdit.put_UseMouseForInput","IInkEdit::UseMouseForInput","IInkEdit::get_UseMouseForInput","IInkEdit::put_UseMouseForInput","InkEdit.get_UseMouseForInput","InkEdit.put_UseMouseForInput","UseMouseForInput property [Tablet PC]","UseMouseForInput property [Tablet PC]","IInkEdit interface","e4a425db-6a81-494d-818f-50a53d8c124b","get_UseMouseForInput","inked/IInkEdit::UseMouseForInput","inked/IInkEdit::get_UseMouseForInput","inked/IInkEdit::put_UseMouseForInput","put_UseMouseForInput","tablet.inkedit_usemouseforinput"]
 old-location: tablet\inkedit_usemouseforinput.htm
 tech.root: tablet

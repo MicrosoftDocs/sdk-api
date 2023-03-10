@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DriverManufacturer
 title: IWindowsDriverUpdate::get_DriverManufacturer (wuapi.h)
-description: Gets the language-invariant name of the manufacturer of the Windows driver update.
+description: Gets the language-invariant name of the manufacturer of the Windows driver update. (IWindowsDriverUpdate.get_DriverManufacturer)
 helpviewer_keywords: ["DriverManufacturer property [Windows Update Agent]","DriverManufacturer property [Windows Update Agent]","IWindowsDriverUpdate interface","IWindowsDriverUpdate interface [Windows Update Agent]","DriverManufacturer property","IWindowsDriverUpdate.DriverManufacturer","IWindowsDriverUpdate.get_DriverManufacturer","IWindowsDriverUpdate::DriverManufacturer","IWindowsDriverUpdate::get_DriverManufacturer","get_DriverManufacturer","wua.iwindowsdriverupdate_drivermanufacturer","wuapi/IWindowsDriverUpdate::DriverManufacturer","wuapi/IWindowsDriverUpdate::get_DriverManufacturer"]
 old-location: wua\iwindowsdriverupdate_drivermanufacturer.htm
 tech.root: wua

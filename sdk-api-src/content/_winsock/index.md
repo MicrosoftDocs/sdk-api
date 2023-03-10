@@ -4,7 +4,7 @@ title: Windows Sockets 2
 ms.assetid: 517f0d35-1c4a-3ed3-b68d-6bb755388d9e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Sockets 2

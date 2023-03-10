@@ -65,6 +65,6 @@ The Video Renderer does not load DirectDraw until it is connected, and likewise 
 
 The <b>IDirectDrawVideo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectDrawVideo</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 

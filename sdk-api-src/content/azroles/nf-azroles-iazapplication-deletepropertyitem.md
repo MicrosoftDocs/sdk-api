@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.DeletePropertyItem
 title: IAzApplication::DeletePropertyItem (azroles.h)
-description: Removes the specified principal from the specified list of principals.
+description: Removes the specified principal from the specified list of principals. (IAzApplication.DeletePropertyItem)
 helpviewer_keywords: ["AZ_PROP_DELEGATED_POLICY_USERS","AZ_PROP_DELEGATED_POLICY_USERS_NAME","AZ_PROP_POLICY_ADMINS","AZ_PROP_POLICY_ADMINS_NAME","AZ_PROP_POLICY_READERS","AZ_PROP_POLICY_READERS_NAME","AzApplication object [Security]","DeletePropertyItem method","DeletePropertyItem","DeletePropertyItem method [Security]","DeletePropertyItem method [Security]","AzApplication object","DeletePropertyItem method [Security]","IAzApplication interface","IAzApplication interface [Security]","DeletePropertyItem method","IAzApplication.DeletePropertyItem","IAzApplication::DeletePropertyItem","azroles/IAzApplication::DeletePropertyItem","security.iazapplication_deletepropertyitem"]
 old-location: security\iazapplication_deletepropertyitem.htm
 tech.root: security

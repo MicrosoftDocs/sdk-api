@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.put_MessageText
 title: IFsrmActionEmail::put_MessageText (fsrm.h)
-description: Retrieves or sets the message text of the email that is sent when this action generates email.
+description: Retrieves or sets the message text of the email that is sent when this action generates email. (Put)
 helpviewer_keywords: ["IFsrmActionEmail interface [File Server Resource Manager]","MessageText property","IFsrmActionEmail.MessageText","IFsrmActionEmail.put_MessageText","IFsrmActionEmail2 interface [File Server Resource Manager]","MessageText property","IFsrmActionEmail2.MessageText","IFsrmActionEmail2::MessageText","IFsrmActionEmail2::get_MessageText","IFsrmActionEmail2::put_MessageText","IFsrmActionEmail::get_MessageText","IFsrmActionEmail::put_MessageText","MessageText property [File Server Resource Manager]","MessageText property [File Server Resource Manager]","IFsrmActionEmail interface","MessageText property [File Server Resource Manager]","IFsrmActionEmail2 interface","fs.ifsrmactionemail_messagetext","fsrm.ifsrmactionemail_messagetext","fsrm/IFsrmActionEmail2::MessageText","fsrm/IFsrmActionEmail2::get_MessageText","fsrm/IFsrmActionEmail2::put_MessageText","fsrm/IFsrmActionEmail::MessageText","fsrm/IFsrmActionEmail::get_MessageText","fsrm/IFsrmActionEmail::put_MessageText","put_MessageText"]
 old-location: fsrm\ifsrmactionemail_messagetext.htm
 tech.root: fsrm

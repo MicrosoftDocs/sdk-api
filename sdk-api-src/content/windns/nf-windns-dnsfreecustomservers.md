@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsFreeCustomServers
 title: DnsFreeCustomServers
-description: Frees an array of custom servers that was returned from [DnsGetApplicationSettings](nf-windns-dnsgetapplicationsettings.md).
+description: Frees the array of custom servers that was returned from a previous call to [DnsGetApplicationSettings](/windows/win32/api/windns/nf-windns-dnsgetapplicationsettings).
 tech.root: DNS
 ms.date: 09/01/2021
 req.construct-type: function
@@ -44,7 +44,7 @@ prerelease: false
 
 ## -description
 
-Frees an array of custom servers that was returned from [DnsGetApplicationSettings](nf-windns-dnsgetapplicationsettings.md).
+Frees the array of custom servers that was returned from a previous call to [DnsGetApplicationSettings](/windows/win32/api/windns/nf-windns-dnsgetapplicationsettings).
 
 ## -parameters
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetAccessibilityLongDescription
 title: IXpsOMPath::GetAccessibilityLongDescription (xpsobjectmodel.h)
-description: Gets the long (detailed) textual description of the object's contents.
+description: Gets the long (detailed) textual description of the object's contents. (IXpsOMPath.GetAccessibilityLongDescription)
 helpviewer_keywords: ["GetAccessibilityLongDescription","GetAccessibilityLongDescription method [XPS Documents and Packaging]","GetAccessibilityLongDescription method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetAccessibilityLongDescription method","IXpsOMPath.GetAccessibilityLongDescription","IXpsOMPath::GetAccessibilityLongDescription","xps.ixpsompath_getaccessibilitylongdescription","xpsobjectmodel/IXpsOMPath::GetAccessibilityLongDescription"]
 old-location: xps\ixpsompath_getaccessibilitylongdescription.htm
 tech.root: xps

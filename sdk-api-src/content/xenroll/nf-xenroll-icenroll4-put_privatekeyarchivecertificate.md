@@ -1,7 +1,7 @@
 ---
 UID: NF:xenroll.ICEnroll4.put_PrivateKeyArchiveCertificate
 title: ICEnroll4::put_PrivateKeyArchiveCertificate (xenroll.h)
-description: Sets or retrieves the certificate that is used to archive a private key with a PKCS
+description: Sets or retrieves the certificate that is used to archive a private key with a PKCS (Put)
 helpviewer_keywords: ["CEnroll object [Security]","PrivateKeyArchiveCertificate property","ICEnroll4 interface [Security]","PrivateKeyArchiveCertificate property","ICEnroll4.PrivateKeyArchiveCertificate","ICEnroll4.put_PrivateKeyArchiveCertificate","ICEnroll4::PrivateKeyArchiveCertificate","ICEnroll4::get_PrivateKeyArchiveCertificate","ICEnroll4::put_PrivateKeyArchiveCertificate","PrivateKeyArchiveCertificate property [Security]","PrivateKeyArchiveCertificate property [Security]","CEnroll object","PrivateKeyArchiveCertificate property [Security]","ICEnroll4 interface","_xen_icenroll4_privatekeyarchivecertificate","put_PrivateKeyArchiveCertificate","security.icenroll4_privatekeyarchivecertificate","xenroll/ICEnroll4::PrivateKeyArchiveCertificate","xenroll/ICEnroll4::get_PrivateKeyArchiveCertificate","xenroll/ICEnroll4::put_PrivateKeyArchiveCertificate"]
 old-location: security\icenroll4_privatekeyarchivecertificate.htm
 tech.root: security

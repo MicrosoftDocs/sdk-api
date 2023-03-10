@@ -4,7 +4,7 @@ title: Winsock.h header
 ms.assetid: b50d09cb-ca2b-3a78-8fe5-abfad8d866f6
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winsock
 f1_keywords:
  - winsock

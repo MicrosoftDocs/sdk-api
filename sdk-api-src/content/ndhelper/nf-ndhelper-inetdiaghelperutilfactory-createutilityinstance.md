@@ -1,7 +1,7 @@
 ---
 UID: NF:ndhelper.INetDiagHelperUtilFactory.CreateUtilityInstance
 title: INetDiagHelperUtilFactory::CreateUtilityInstance (ndhelper.h)
-description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use.
+description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use. (INetDiagHelperUtilFactory.CreateUtilityInstance)
 helpviewer_keywords: ["CreateUtilityInstance","CreateUtilityInstance method [NDF]","CreateUtilityInstance method [NDF]","INetDiagHelperUtilFactory interface","INetDiagHelperUtilFactory interface [NDF]","CreateUtilityInstance method","INetDiagHelperUtilFactory.CreateUtilityInstance","INetDiagHelperUtilFactory::CreateUtilityInstance","ndf.inetdiaghelperutilfactory_createutilityinstance","ndhelper/INetDiagHelperUtilFactory::CreateUtilityInstance"]
 old-location: ndf\inetdiaghelperutilfactory_createutilityinstance.htm
 tech.root: NDF

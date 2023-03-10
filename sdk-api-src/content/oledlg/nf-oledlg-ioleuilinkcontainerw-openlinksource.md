@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerW.OpenLinkSource
 title: IOleUILinkContainerW::OpenLinkSource (oledlg.h)
-description: Opens the link's source.
+description: Opens the link's source. (Unicode)
 helpviewer_keywords: ["IOleUILinkContainer interface [COM]","OpenLinkSource method","IOleUILinkContainer::OpenLinkSource","IOleUILinkContainerA interface [COM]","OpenLinkSource method","IOleUILinkContainerA::OpenLinkSource","IOleUILinkContainerW interface [COM]","OpenLinkSource method","IOleUILinkContainerW.OpenLinkSource","IOleUILinkContainerW::OpenLinkSource","OpenLinkSource","OpenLinkSource method [COM]","OpenLinkSource method [COM]","IOleUILinkContainer interface","OpenLinkSource method [COM]","IOleUILinkContainerA interface","OpenLinkSource method [COM]","IOleUILinkContainerW interface","_ole_IOleUILinkContainer_OpenLinkSource","com.ioleuilinkcontainer_openlinksource","oledlg/IOleUILinkContainer::OpenLinkSource","oledlg/IOleUILinkContainerA::OpenLinkSource","oledlg/IOleUILinkContainerW::OpenLinkSource"]
 old-location: com\ioleuilinkcontainer_openlinksource.htm
 tech.root: com

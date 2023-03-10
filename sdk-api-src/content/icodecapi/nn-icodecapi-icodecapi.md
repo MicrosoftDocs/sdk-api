@@ -1,9 +1,9 @@
 ---
 UID: NN:icodecapi.ICodecAPI
 title: ICodecAPI
-ms.date: 09/22/2020
+ms.date: 08/05/2022
 targetos: Windows
-description:  The ICodecAPI interface sets and retrieves settings on an encoder or decoder filter.
+description:  The ICodecAPI interface sets and retrieves settings on an encoder or decoder filter, and defines a generic mechanism for setting properties on a codec.
 helpviewer_keywords: ["ICodecAPI","ICodecAPI interface [DirectShow]","ICodecAPI interface [DirectShow]","described","ICodecAPIInterface","dshow.icodecapi","icodecapi/ICodecAPI"]
 tech.root: mf
 req.assembly: 

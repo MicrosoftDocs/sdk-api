@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMPart interface
 
-
 ## -description
 
 The base interface for all XPS document part interfaces.

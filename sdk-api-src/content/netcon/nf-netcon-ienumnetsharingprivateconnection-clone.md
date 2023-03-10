@@ -1,7 +1,7 @@
 ---
 UID: NF:netcon.IEnumNetSharingPrivateConnection.Clone
 title: IEnumNetSharingPrivateConnection::Clone (netcon.h)
-description: The Clone method creates a new enumeration interface from this enumeration.
+description: The Clone method creates a new enumeration interface from this enumeration. (IEnumNetSharingPrivateConnection.Clone)
 helpviewer_keywords: ["Clone","Clone method [ICS/ICF]","Clone method [ICS/ICF]","IEnumNetSharingPrivateConnection interface","IEnumNetSharingPrivateConnection interface [ICS/ICF]","Clone method","IEnumNetSharingPrivateConnection.Clone","IEnumNetSharingPrivateConnection::Clone","_ics_ienumnetsharingprivateconnection_clone","ics.ienumnetsharingprivateconnection_clone","netcon/IEnumNetSharingPrivateConnection::Clone"]
 old-location: ics\ienumnetsharingprivateconnection_clone.htm
 tech.root: ics

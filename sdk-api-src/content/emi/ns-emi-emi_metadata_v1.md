@@ -1,5 +1,5 @@
 ---
-UID: NS:emi.__unnamed_struct_3
+UID: NS:emi.EMI_METADATA_V1
 title: EMI_METADATA_V1 (emi.h)
 description: The EMI_METADATA structure provides metadata about a device that supports the Energy Metering Interface (EMI) interface, such as the hardware model and hardware revision.
 helpviewer_keywords: ["EMI_METADATA","EMI_METADATA structure [Power Metering and Budgeting Devices]","EMI_METADATA_V1","PEMI_METADATA","PEMI_METADATA structure pointer [Power Metering and Budgeting Devices]","emi/EMI_METADATA","emi/PEMI_METADATA","powermeter.emi_metadata"]
@@ -87,3 +87,4 @@ This structure is returned through a successful completion of an <a href="/windo
 <a href="/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>
 
 <a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a>
+

@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetBlue(IDCompositionAnimation)
 title: IDCompositionShadowEffect::SetBlue(IDCompositionAnimation) (dcomp.h)
-description: Sets the blue value for the color of the shadow.
+description: Sets the blue value for the color of the shadow. (overload 2/2)
 helpviewer_keywords: ["IDCompositionShadowEffect interface [DirectComposition]","SetBlue method","IDCompositionShadowEffect.SetBlue","IDCompositionShadowEffect.SetBlue(IDCompositionAnimation)","IDCompositionShadowEffect::SetBlue","IDCompositionShadowEffect::SetBlue(IDCompositionAnimation)","SetBlue","SetBlue method [DirectComposition]","SetBlue method [DirectComposition]","IDCompositionShadowEffect interface","dcomp/IDCompositionShadowEffect::SetBlue","directcomp.idcompositionshadoweffect_setblue_2"]
 old-location: directcomp\idcompositionshadoweffect_setblue_2.htm
 tech.root: directcomp

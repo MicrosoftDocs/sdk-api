@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_DisableConsumerDvdCompatibilityMode
 title: IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode (imapi2.h)
-description: Determines if a DVD recording session includes tasks that can increase the chance that a device can play the DVD.
+description: Determines if a DVD recording session includes tasks that can increase the chance that a device can play the DVD. (Put)
 helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","put_DisableConsumerDvdCompatibilityMode method","IDiscFormat2Data.put_DisableConsumerDvdCompatibilityMode","IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode","imapi.idiscformat2data_put_disableconsumerdvdcompatibilitymode","imapi2/IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode","put_DisableConsumerDvdCompatibilityMode","put_DisableConsumerDvdCompatibilityMode method [IMAPI]","put_DisableConsumerDvdCompatibilityMode method [IMAPI]","IDiscFormat2Data interface"]
 old-location: imapi\idiscformat2data_put_disableconsumerdvdcompatibilitymode.htm
 tech.root: imapi

@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_NamespaceRoots
 title: IFsrmFileManagementJob::put_NamespaceRoots (fsrmreports.h)
-description: An array of local directory paths that will be scanned when the file management job is run.
+description: An array of local directory paths that will be scanned when the file management job is run. (Put)
 helpviewer_keywords: ["IFsrmFileManagementJob interface [File Server Resource Manager]","NamespaceRoots property","IFsrmFileManagementJob.NamespaceRoots","IFsrmFileManagementJob.put_NamespaceRoots","IFsrmFileManagementJob::NamespaceRoots","IFsrmFileManagementJob::get_NamespaceRoots","IFsrmFileManagementJob::put_NamespaceRoots","NamespaceRoots property [File Server Resource Manager]","NamespaceRoots property [File Server Resource Manager]","IFsrmFileManagementJob interface","fs.ifsrmfilemanagementjob_namespaceroots","fsrm.ifsrmfilemanagementjob_namespaceroots","fsrmreports/IFsrmFileManagementJob::NamespaceRoots","fsrmreports/IFsrmFileManagementJob::get_NamespaceRoots","fsrmreports/IFsrmFileManagementJob::put_NamespaceRoots","put_NamespaceRoots"]
 old-location: fsrm\ifsrmfilemanagementjob_namespaceroots.htm
 tech.root: fsrm

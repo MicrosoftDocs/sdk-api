@@ -65,7 +65,7 @@ A caller-allocated buffer that is used to hold the user-friendly name for the de
 
 ### -param pcchDeviceFriendlyName [in, out]
 
-On input, the maximum number of characters that <i>pDeviceFriendlyName</i> can hold, not including the termination character. On output, the number of characters that is returned by <i>pDeviceFriendlyName</i>, not including the termination character.
+On input, the maximum number of characters that <i>pDeviceFriendlyName</i> can hold, including the termination character. On output, the number of characters that is returned by <i>pDeviceFriendlyName</i>, also including the termination character.
 
 ## -returns
 

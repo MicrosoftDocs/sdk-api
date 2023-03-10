@@ -60,7 +60,7 @@ Use the default marshaling behavior, which is to marshal interfaces when an agil
 
 ### -field AGILEREFERENCE_DELAYEDMARSHAL:1
 
-Marshaling happens on demand.  Use this option only in situations where it's known that an object is only resolved from the same apartment in which it was registered.
+Marshaling happens on demand.  Use this option only in situations where it's very likely that an object is resolved only from the same apartment in which it was registered.
 
 ## -see-also
 

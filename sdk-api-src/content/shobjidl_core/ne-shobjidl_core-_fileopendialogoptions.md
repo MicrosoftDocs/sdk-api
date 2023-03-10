@@ -96,7 +96,7 @@ The item returned must exist. This is a default value for the Open dialog.
 
 ### -field FOS_CREATEPROMPT:0x2000
 
-Prompt for creation if the item returned in the save dialog does not exist. Note that this does not actually create the item.
+Prompt for creation if the item returned in the open dialog does not exist. Note that this does not actually create the item.
 
 ### -field FOS_SHAREAWARE:0x4000
 

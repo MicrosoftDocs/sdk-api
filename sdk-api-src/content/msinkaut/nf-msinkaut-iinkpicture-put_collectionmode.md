@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_CollectionMode
 title: IInkPicture::put_CollectionMode (msinkaut.h)
-description: Gets or sets the collection mode that determines whether ink, gestures, or both are recognized as the user writes.
+description: Gets or sets the collection mode that determines whether ink, gestures, or both are recognized as the user writes. (Put)
 helpviewer_keywords: ["CollectionMode property [Tablet PC]","CollectionMode property [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","CollectionMode property","IInkPicture.CollectionMode","IInkPicture.put_CollectionMode","IInkPicture::CollectionMode","IInkPicture::get_CollectionMode","IInkPicture::put_CollectionMode","InkPicture.get_CollectionMode","InkPicture.put_CollectionMode","fe3d1158-b99b-4ae1-a509-c6f34b42615f","msinkaut/IInkPicture::CollectionMode","msinkaut/IInkPicture::get_CollectionMode","msinkaut/IInkPicture::put_CollectionMode","put_CollectionMode","tablet.inkpicture_collectionmode"]
 old-location: tablet\inkpicture_collectionmode.htm
 tech.root: tablet

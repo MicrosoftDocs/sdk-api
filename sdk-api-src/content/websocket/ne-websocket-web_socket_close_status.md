@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>WEB_SOCKET_CLOSE_STATUS</b> enumeration specifies the WebSocket close status as defined by <a href="http://tools.ietf.org/html/rfc6455">WSPROTO</a>.
+The <b>WEB_SOCKET_CLOSE_STATUS</b> enumeration specifies the WebSocket close status as defined by <a href="https://datatracker.ietf.org/doc/html/rfc6455">WSPROTO</a>.
 
 ## -enum-fields
 

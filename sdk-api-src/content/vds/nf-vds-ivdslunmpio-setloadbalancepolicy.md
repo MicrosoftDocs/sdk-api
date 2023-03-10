@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsLunMpio.SetLoadBalancePolicy
 title: IVdsLunMpio::SetLoadBalancePolicy (vds.h)
-description: Sets the load balance policy on the LUN.
+description: The IVdsLunMpio::SetLoadBalancePolicy method (vds.h) sets the load balance policy on the LUN.
 helpviewer_keywords: ["IVdsLunMpio interface [VDS]","SetLoadBalancePolicy method","IVdsLunMpio.SetLoadBalancePolicy","IVdsLunMpio::SetLoadBalancePolicy","SetLoadBalancePolicy","SetLoadBalancePolicy method [VDS]","SetLoadBalancePolicy method [VDS]","IVdsLunMpio interface","base.ivdslunmpio_setloadbalancepolicy","vds/IVdsLunMpio::SetLoadBalancePolicy","vdshwprv/IVdsLunMpio::SetLoadBalancePolicy"]
 old-location: base\ivdslunmpio_setloadbalancepolicy.htm
 tech.root: base
 ms.assetid: 2f3eb00a-864e-4fb7-a722-4537e6b8dd42
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsLunMpio interface [VDS],SetLoadBalancePolicy method, IVdsLunMpio.SetLoadBalancePolicy, IVdsLunMpio::SetLoadBalancePolicy, SetLoadBalancePolicy, SetLoadBalancePolicy method [VDS], SetLoadBalancePolicy method [VDS],IVdsLunMpio interface, base.ivdslunmpio_setloadbalancepolicy, vds/IVdsLunMpio::SetLoadBalancePolicy, vdshwprv/IVdsLunMpio::SetLoadBalancePolicy
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Sets the load balance policy on the LUN.
 

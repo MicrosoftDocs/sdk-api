@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj_core.__unnamed_struct_9
+UID: NS:shlobj_core.AUTO_SCROLL_DATA
 title: AUTO_SCROLL_DATA (shlobj_core.h)
 description: AUTO_SCROLL_DATA may be altered or unavailable.
 helpviewer_keywords: ["AUTO_SCROLL_DATA","AUTO_SCROLL_DATA structure [Windows Shell]","_win32_AUTO_SCROLL_DATA_str","shell.AUTO_SCROLL_DATA_str","shlobj_core/AUTO_SCROLL_DATA"]
@@ -88,7 +88,7 @@ Indicates that the window should scroll.
 
 ### -field pts
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>[NUM_POINTS]</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>[NUM_POINTS]</b>
 
 A pointer to the current scroll coordinates. The index of this array is <b>iNextSample</b>.
 
@@ -105,3 +105,4 @@ NUM_POINTS is currently set to <code>3</code>.
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_autoscroll">DAD_AutoScroll</a>
+

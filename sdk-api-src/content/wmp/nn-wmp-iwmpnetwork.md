@@ -56,7 +56,7 @@ The <b>IWMPNetwork</b> interface provides methods relating to the network connec
 
 The <b>IWMPNetwork</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPNetwork</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

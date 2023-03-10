@@ -1,8 +1,8 @@
 ---
 UID: NF:newdev.DiUninstallDriverW
 title: DiUninstallDriverW function (newdev.h)
-description: The DiUninstallDriver function removes a driver package from any devices it is installed on by installing those devices with another matching driver package, if available, or the null driver if no other matching driver package is available. Then the specified driver package is removed from the driver store.
-helpviewer_keywords: ["DiUninstallDriver","DiUninstallDriver function [Device and Driver Installation]","DiUninstallDriverA","DiUninstallDriverW","devinst.diuninstalldriver","di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml","newdev/DiUninstallDriver"]
+description: The DiUninstallDriver function removes a driver package from any devices it is installed on by installing those devices with another matching driver package, if available, or the null driver if no other matching driver package is available. Then the specified driver package is removed from the driver store. (Unicode)
+helpviewer_keywords: ["DiUninstallDriver", "DiUninstallDriver function [Device and Driver Installation]", "DiUninstallDriverW", "devinst.diuninstalldriver", "di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml", "newdev/DiUninstallDriver"]
 old-location: devinst\diuninstalldriver.htm
 tech.root: devinst
 ms.assetid: 7015d05f-235e-42d1-b4e1-9919bbebf185

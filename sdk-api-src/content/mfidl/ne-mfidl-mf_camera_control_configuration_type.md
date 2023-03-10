@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl.__MIDL___MIDL_itf_mfidl_0000_0136_0001
-tech.root:mf
+tech.root: mf
 title: MF_CAMERA_CONTROL_CONFIGURATION_TYPE
 ms.date: 05/05/2022
 targetos: Windows

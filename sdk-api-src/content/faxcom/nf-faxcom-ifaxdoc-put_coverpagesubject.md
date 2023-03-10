@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_CoverpageSubject
 title: IFaxDoc::put_CoverpageSubject (faxcom.h)
-description: Sets or retrieves the CoverpageSubject property of a FaxDoc object. The CoverpageSubject property is a null-terminated string that contains the subject line of the fax transmission.
+description: Sets or retrieves the CoverpageSubject property of a FaxDoc object. The CoverpageSubject property is a null-terminated string that contains the subject line of the fax transmission. (Put)
 helpviewer_keywords: ["CoverpageSubject property [Fax Service]","CoverpageSubject property [Fax Service]","IFaxDoc interface","IFaxDoc interface [Fax Service]","CoverpageSubject property","IFaxDoc.CoverpageSubject","IFaxDoc.put_CoverpageSubject","IFaxDoc::CoverpageSubject","IFaxDoc::get_CoverpageSubject","IFaxDoc::put_CoverpageSubject","_mfax_ifaxdoc_get_coverpagesubject","fax._mfax_ifaxdoc_get_coverpagesubject","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_coverpagesubject_cpp","faxcom/IFaxDoc::CoverpageSubject","faxcom/IFaxDoc::get_CoverpageSubject","faxcom/IFaxDoc::put_CoverpageSubject","put_CoverpageSubject"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_coverpagesubject_cpp.htm
 tech.root: Fax

@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMDocumentStructureResource interface
 
-
 ## -description
 
 Provides access to the  XML content of the resource stream of the DocumentStructure part.The <b>IXpsOMDocumentStructureResource</b> interface enables a program to read  and replace the XML content of the DocumentStructure part.

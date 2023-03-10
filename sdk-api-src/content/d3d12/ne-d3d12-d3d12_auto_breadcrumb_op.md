@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12.D3D12_AUTO_BREADCRUMB_OP
 title: D3D12_AUTO_BREADCRUMB_OP
-description: Defines constants that specify render/compute GPU operations.
+description: Defines constants that specify render/compute GPU operations. (D3D12_AUTO_BREADCRUMB_OP)
 tech.root: direct3d12
 helpviewer_keywords: ["D3D12_AUTO_BREADCRUMB_OP","D3D12_AUTO_BREADCRUMB_OP enumeration","d3d12/D3D12_AUTO_BREADCRUMB_OP","d3d12/D3D12_AUTO_BREADCRUMB_OP enumeration","direct3d12.d3d12_auto_breadcrumb_op"]
 ms.date: 02/07/2019

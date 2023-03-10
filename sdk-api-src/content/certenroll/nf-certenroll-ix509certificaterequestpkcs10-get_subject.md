@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_Subject
 title: IX509CertificateRequestPkcs10::get_Subject (certenroll.h)
-description: Specifies or retrieves the X.500 distinguished name of the entity requesting the certificate.
+description: Specifies or retrieves the X.500 distinguished name of the entity requesting the certificate. (Get)
 helpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","Subject property","IX509CertificateRequestPkcs10.Subject","IX509CertificateRequestPkcs10.get_Subject","IX509CertificateRequestPkcs10::Subject","IX509CertificateRequestPkcs10::get_Subject","IX509CertificateRequestPkcs10::put_Subject","Subject property [Security]","Subject property [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::Subject","certenroll/IX509CertificateRequestPkcs10::get_Subject","certenroll/IX509CertificateRequestPkcs10::put_Subject","get_Subject","security.ix509certificaterequestpkcs10_subject_property"]
 old-location: security\ix509certificaterequestpkcs10_subject_property.htm
 tech.root: security

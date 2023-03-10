@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_PROVIDER_FLAG
 title: VDS_PROVIDER_FLAG (vdshwprv.h)
-description: Defines the set of valid flags for a provider object.
+description: The VDS_PROVIDER_FLAG enumeration (vdshwprv.h) defines the set of valid flags for a provider object.
 helpviewer_keywords: ["VDS_PF_DYNAMIC","VDS_PF_INTERNAL_HARDWARE_PROVIDER","VDS_PF_ONE_DISK_ONLY_PER_PACK","VDS_PF_ONE_PACK_ONLINE_ONLY","VDS_PF_SUPPORT_DYNAMIC","VDS_PF_SUPPORT_DYNAMIC_1394","VDS_PF_SUPPORT_FAULT_TOLERANT","VDS_PF_SUPPORT_MIRROR","VDS_PF_SUPPORT_RAID5","VDS_PF_VOLUME_SPACE_MUST_BE_CONTIGUOUS","VDS_PROVIDER_FLAG","VDS_PROVIDER_FLAG enumeration [VDS]","base.vds_provider_flag","vds/VDS_PF_DYNAMIC","vds/VDS_PF_INTERNAL_HARDWARE_PROVIDER","vds/VDS_PF_ONE_DISK_ONLY_PER_PACK","vds/VDS_PF_ONE_PACK_ONLINE_ONLY","vds/VDS_PF_SUPPORT_DYNAMIC","vds/VDS_PF_SUPPORT_DYNAMIC_1394","vds/VDS_PF_SUPPORT_FAULT_TOLERANT","vds/VDS_PF_SUPPORT_MIRROR","vds/VDS_PF_SUPPORT_RAID5","vds/VDS_PF_VOLUME_SPACE_MUST_BE_CONTIGUOUS","vds/VDS_PROVIDER_FLAG","vdshwprv/VDS_PF_DYNAMIC","vdshwprv/VDS_PF_INTERNAL_HARDWARE_PROVIDER","vdshwprv/VDS_PF_ONE_DISK_ONLY_PER_PACK","vdshwprv/VDS_PF_ONE_PACK_ONLINE_ONLY","vdshwprv/VDS_PF_SUPPORT_DYNAMIC","vdshwprv/VDS_PF_SUPPORT_DYNAMIC_1394","vdshwprv/VDS_PF_SUPPORT_FAULT_TOLERANT","vdshwprv/VDS_PF_SUPPORT_MIRROR","vdshwprv/VDS_PF_SUPPORT_RAID5","vdshwprv/VDS_PF_VOLUME_SPACE_MUST_BE_CONTIGUOUS","vdshwprv/VDS_PROVIDER_FLAG"]
 old-location: base\vds_provider_flag.htm
 tech.root: base
 ms.assetid: 610e11a8-6670-4e76-baa6-58dd78f7611b
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: VDS_PF_DYNAMIC, VDS_PF_INTERNAL_HARDWARE_PROVIDER, VDS_PF_ONE_DISK_ONLY_PER_PACK, VDS_PF_ONE_PACK_ONLINE_ONLY, VDS_PF_SUPPORT_DYNAMIC, VDS_PF_SUPPORT_DYNAMIC_1394, VDS_PF_SUPPORT_FAULT_TOLERANT, VDS_PF_SUPPORT_MIRROR, VDS_PF_SUPPORT_RAID5, VDS_PF_VOLUME_SPACE_MUST_BE_CONTIGUOUS, VDS_PROVIDER_FLAG, VDS_PROVIDER_FLAG enumeration [VDS], base.vds_provider_flag, vds/VDS_PF_DYNAMIC, vds/VDS_PF_INTERNAL_HARDWARE_PROVIDER, vds/VDS_PF_ONE_DISK_ONLY_PER_PACK, vds/VDS_PF_ONE_PACK_ONLINE_ONLY, vds/VDS_PF_SUPPORT_DYNAMIC, vds/VDS_PF_SUPPORT_DYNAMIC_1394, vds/VDS_PF_SUPPORT_FAULT_TOLERANT, vds/VDS_PF_SUPPORT_MIRROR, vds/VDS_PF_SUPPORT_RAID5, vds/VDS_PF_VOLUME_SPACE_MUST_BE_CONTIGUOUS, vds/VDS_PROVIDER_FLAG, vdshwprv/VDS_PF_DYNAMIC, vdshwprv/VDS_PF_INTERNAL_HARDWARE_PROVIDER, vdshwprv/VDS_PF_ONE_DISK_ONLY_PER_PACK, vdshwprv/VDS_PF_ONE_PACK_ONLINE_ONLY, vdshwprv/VDS_PF_SUPPORT_DYNAMIC, vdshwprv/VDS_PF_SUPPORT_DYNAMIC_1394, vdshwprv/VDS_PF_SUPPORT_FAULT_TOLERANT, vdshwprv/VDS_PF_SUPPORT_MIRROR, vdshwprv/VDS_PF_SUPPORT_RAID5, vdshwprv/VDS_PF_VOLUME_SPACE_MUST_BE_CONTIGUOUS, vdshwprv/VDS_PROVIDER_FLAG
 req.header: vdshwprv.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set 
    of valid flags for a provider object.

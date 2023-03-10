@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineGetAgentCapsA
 title: lineGetAgentCapsA function (tapi.h)
-description: The lineGetAgentCaps function obtains the agent-related capabilities supported on the specified line device. If a specific agent is named, the capabilities include a listing of ACD groups into which the agent is permitted to log in.
-helpviewer_keywords: ["_tapi2_linegetagentcaps","lineGetAgentCaps","lineGetAgentCaps function [TAPI 2.2]","lineGetAgentCapsA","lineGetAgentCapsW","tapi/lineGetAgentCaps","tapi/lineGetAgentCapsA","tapi/lineGetAgentCapsW","tapi2.linegetagentcaps"]
+description: The lineGetAgentCaps function obtains the agent-related capabilities supported on the specified line device. If a specific agent is named, the capabilities include a listing of ACD groups into which the agent is permitted to log in. (ANSI)
+helpviewer_keywords: ["lineGetAgentCapsA", "tapi/lineGetAgentCapsA"]
 old-location: tapi2\linegetagentcaps.htm
 tech.root: tapi3
 ms.assetid: 04bb6c00-2654-4707-ab11-2490ab5d9ab0

@@ -1,5 +1,5 @@
 ---
-UID: NS:dvdmedia.__unnamed_struct_7
+UID: NS:dvdmedia.AM_QueryRate
 title: AM_QueryRate (dvdmedia.h)
 description: The AM_QueryRate structure is used to query the decoder's maximum full-frame rate for forward and reverse playback.
 helpviewer_keywords: ["AM_QueryRate","AM_QueryRate structure [DirectShow]","AM_QueryRateStructure","dshow.am_queryrate","dvdmedia/AM_QueryRate"]
@@ -73,3 +73,4 @@ Rate is the inverse of speed. For example, if the playback speed is 2x, the rate
 
 
 <a href="/windows/desktop/DirectShow/rate-change-property-set">Rate Change Property Set</a>
+

@@ -1,12 +1,12 @@
 ---
 UID: NE:vdshwprv._VDS_LUN_PLEX_STATUS
 title: VDS_LUN_PLEX_STATUS (vdshwprv.h)
-description: Defines the set of object status values for a LUN plex.
+description: The VDS_LUN_PLEX_STATUS enumeration (vdshwprv.h) defines the set of object status values for a LUN plex.
 helpviewer_keywords: ["VDS_LPS_FAILED","VDS_LPS_NOT_READY","VDS_LPS_OFFLINE","VDS_LPS_ONLINE","VDS_LPS_UNKNOWN","VDS_LUN_PLEX_STATUS","VDS_LUN_PLEX_STATUS enumeration [VDS]","base.vds_lun_plex_status","vds/VDS_LPS_FAILED","vds/VDS_LPS_NOT_READY","vds/VDS_LPS_OFFLINE","vds/VDS_LPS_ONLINE","vds/VDS_LPS_UNKNOWN","vds/VDS_LUN_PLEX_STATUS","vdshwprv/VDS_LPS_FAILED","vdshwprv/VDS_LPS_NOT_READY","vdshwprv/VDS_LPS_OFFLINE","vdshwprv/VDS_LPS_ONLINE","vdshwprv/VDS_LPS_UNKNOWN","vdshwprv/VDS_LUN_PLEX_STATUS"]
 old-location: base\vds_lun_plex_status.htm
 tech.root: base
 ms.assetid: 04eed033-45b3-42bc-a304-25525cddd085
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_LPS_FAILED, VDS_LPS_NOT_READY, VDS_LPS_OFFLINE, VDS_LPS_ONLINE, VDS_LPS_UNKNOWN, VDS_LUN_PLEX_STATUS, VDS_LUN_PLEX_STATUS enumeration [VDS], base.vds_lun_plex_status, vds/VDS_LPS_FAILED, vds/VDS_LPS_NOT_READY, vds/VDS_LPS_OFFLINE, vds/VDS_LPS_ONLINE, vds/VDS_LPS_UNKNOWN, vds/VDS_LUN_PLEX_STATUS, vdshwprv/VDS_LPS_FAILED, vdshwprv/VDS_LPS_NOT_READY, vdshwprv/VDS_LPS_OFFLINE, vdshwprv/VDS_LPS_ONLINE, vdshwprv/VDS_LPS_UNKNOWN, vdshwprv/VDS_LUN_PLEX_STATUS
 req.header: vdshwprv.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of object status values for a LUN plex.
 

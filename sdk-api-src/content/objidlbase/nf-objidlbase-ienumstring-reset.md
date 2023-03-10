@@ -1,12 +1,12 @@
 ---
 UID: NF:objidlbase.IEnumString.Reset
 title: IEnumString::Reset (objidlbase.h)
-description: Resets the enumeration sequence to the beginning.
+description: The IEnumString::Reset (objidlbase.h) method resets the enumeration sequence to the beginning.
 helpviewer_keywords: ["IEnumString interface [COM]","Reset method","IEnumString.Reset","IEnumString::Reset","Reset","Reset method [COM]","Reset method [COM]","IEnumString interface","_com_ienumstring_reset","com.ienumstring_reset","objidlbase/IEnumString::Reset"]
 old-location: com\ienumstring_reset.htm
 tech.root: com
 ms.assetid: 6f134738-b5ed-4f45-bf91-eeb28c8965c6
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: IEnumString interface [COM],Reset method, IEnumString.Reset, IEnumString::Reset, Reset, Reset method [COM], Reset method [COM],IEnumString interface, _com_ienumstring_reset, com.ienumstring_reset, objidlbase/IEnumString::Reset
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

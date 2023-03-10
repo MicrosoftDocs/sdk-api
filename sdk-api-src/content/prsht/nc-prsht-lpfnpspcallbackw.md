@@ -1,7 +1,7 @@
 ---
 UID: NC:prsht.LPFNPSPCALLBACKW
 title: LPFNPSPCALLBACKW (prsht.h)
-description: Specifies an application-defined callback function that a property sheet calls when a page is created and when it is about to be destroyed. An application can use this function to perform initialization and cleanup operations for the page.
+description: Specifies an application-defined callback function that a property sheet calls when a page is created and when it is about to be destroyed. An application can use this function to perform initialization and cleanup operations for the page. (Unicode)
 helpviewer_keywords: ["LPFNPSPCALLBACK","LPFNPSPCALLBACK callback","LPFNPSPCALLBACK callback function [Windows Controls]","LPFNPSPCALLBACKA","LPFNPSPCALLBACKW","PSPCB_ADDREF","PSPCB_CREATE","PSPCB_RELEASE","_win32_PropSheetPageProc","_win32_PropSheetPageProc_cpp","controls.PropSheetPageProc","controls._win32_PropSheetPageProc","prsht/LPFNPSPCALLBACK"]
 old-location: controls\PropSheetPageProc.htm
 tech.root: Controls

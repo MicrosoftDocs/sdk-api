@@ -1,8 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsEntryExpandNameA
 title: RpcNsEntryExpandNameA function (rpcnsi.h)
-description: The RpcNsEntryExpandName function expands a name-service entry name. This function is supported by Active Directory.
-helpviewer_keywords: ["RpcNsEntryExpandName","RpcNsEntryExpandName function [RPC]","RpcNsEntryExpandNameA","RpcNsEntryExpandNameW","_rpc_rpcnsentryexpandname","rpc.rpcnsentryexpandname","rpcnsi/RpcNsEntryExpandName","rpcnsi/RpcNsEntryExpandNameA","rpcnsi/RpcNsEntryExpandNameW"]
+description: The RpcNsEntryExpandName function expands a name-service entry name. This function is supported by Active Directory. (ANSI)
+helpviewer_keywords: ["RpcNsEntryExpandNameA", "rpcnsi/RpcNsEntryExpandNameA"]
 old-location: rpc\rpcnsentryexpandname.htm
 tech.root: Rpc
 ms.assetid: a93052c2-3fb1-448a-b4bf-70b9676de69a

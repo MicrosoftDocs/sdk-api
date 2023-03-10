@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_50
+UID: NE:webservices.WS_WINDOWS_INTEGRATED_AUTH_PACKAGE
 title: WS_WINDOWS_INTEGRATED_AUTH_PACKAGE (webservices.h)
 description: Defines the specific SSP package to be used for Windows Integrated Authentication.
 helpviewer_keywords: ["WS_WINDOWS_INTEGRATED_AUTH_PACKAGE","WS_WINDOWS_INTEGRATED_AUTH_PACKAGE enumeration [Web Services for Windows]","WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_KERBEROS","WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_NTLM","WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_SPNEGO","webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE","webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_KERBEROS","webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_NTLM","webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_SPNEGO","wsw.ws_windows_integrated_auth_package"]

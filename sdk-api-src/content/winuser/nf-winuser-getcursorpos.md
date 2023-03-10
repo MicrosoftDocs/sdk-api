@@ -68,7 +68,7 @@ Retrieves the position of the mouse cursor, in screen coordinates.
 
 Type: <b>LPPOINT</b>
 
-A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the screen coordinates of the cursor.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that receives the screen coordinates of the cursor.
 
 ## -returns
 
@@ -117,7 +117,7 @@ For an example, see <a href="/windows/desktop/menurc/using-cursors">Using the Ke
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

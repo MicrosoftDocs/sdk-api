@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.CVssWriter.OnBackOffIOOnVolume
 title: CVssWriter::OnBackOffIOOnVolume (vswriter.h)
-description: Not supported.
+description: Not supported. (CVssWriter.OnBackOffIOOnVolume)
 helpviewer_keywords: ["CVssWriter interface [VSS]","OnBackOffIOOnVolume method","CVssWriter.OnBackOffIOOnVolume","CVssWriter::OnBackOffIOOnVolume","OnBackOffIOOnVolume","OnBackOffIOOnVolume method [VSS]","OnBackOffIOOnVolume method [VSS]","CVssWriter interface","_win32_cvsswriter_onbackoffioonvolume","base.cvsswriter_onbackoffioonvolume","vswriter/CVssWriter::OnBackOffIOOnVolume"]
 old-location: base\cvsswriter_onbackoffioonvolume.htm
 tech.root: base

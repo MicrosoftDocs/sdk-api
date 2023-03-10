@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.AssociateColorProfileWithDeviceA
 title: AssociateColorProfileWithDeviceA
-description: Associates a specified color profile with a specified device.
+description: Associates a specified color profile with a specified device. (ANSI)
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

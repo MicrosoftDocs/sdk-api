@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.CreateDCA
 title: CreateDCA function (wingdi.h)
-description: The CreateDC function creates a device context (DC) for a device using the specified name.
-helpviewer_keywords: ["CreateDC","CreateDC function [Windows GDI]","CreateDCA","CreateDCW","_win32_CreateDC","gdi.createdc","wingdi/CreateDC","wingdi/CreateDCA","wingdi/CreateDCW"]
+description: The CreateDC function creates a device context (DC) for a device using the specified name. (ANSI)
+helpviewer_keywords: ["CreateDCA", "wingdi/CreateDCA"]
 old-location: gdi\createdc.htm
 tech.root: gdi
 ms.assetid: 6fc443c8-da97-4196-a9ed-179a4e583849

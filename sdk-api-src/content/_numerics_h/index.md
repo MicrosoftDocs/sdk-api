@@ -4,7 +4,7 @@ title: windowsnumerics.h APIs
 ms.assetid: b9cac013-64b0-3818-a2bc-91f1189620ce
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # windowsnumerics.h APIs

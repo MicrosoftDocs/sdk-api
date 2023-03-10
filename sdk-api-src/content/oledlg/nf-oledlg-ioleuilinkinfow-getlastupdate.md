@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.IOleUILinkInfoW.GetLastUpdate
 title: IOleUILinkInfoW::GetLastUpdate (oledlg.h)
-description: Determines the last time the object was updated.
+description: Determines the last time the object was updated. (Unicode)
 helpviewer_keywords: ["GetLastUpdate","GetLastUpdate method [COM]","GetLastUpdate method [COM]","IOleUILinkInfo interface","GetLastUpdate method [COM]","IOleUILinkInfoA interface","GetLastUpdate method [COM]","IOleUILinkInfow interface","IOleUILinkInfo interface [COM]","GetLastUpdate method","IOleUILinkInfo::GetLastUpdate","IOleUILinkInfoA","IOleUILinkInfoA interface [COM]","GetLastUpdate method","IOleUILinkInfoA::GetLastUpdate","IOleUILinkInfoW","IOleUILinkInfoW.GetLastUpdate","IOleUILinkInfoW::GetLastUpdate","IOleUILinkInfow interface [COM]","GetLastUpdate method","IOleUILinkInfow::GetLastUpdate","_ole_IOleUILinkInfo_GetLastUpdate","com.ioleuilinkinfo_getlastupdate","oledlg/IOleUILinkInfo::GetLastUpdate","oledlg/IOleUILinkInfoA::GetLastUpdate","oledlg/IOleUILinkInfow::GetLastUpdate"]
 old-location: com\ioleuilinkinfo_getlastupdate.htm
 tech.root: com

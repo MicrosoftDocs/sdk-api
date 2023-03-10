@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsLunPlex
 title: IVdsLunPlex (vds.h)
-description: Provides methods for performing query and configuration operations on a LUN plex.
+description: The IVdsLunPlex interface (vds.h) provides methods for performing query and configuration operations on a LUN plex.  
 helpviewer_keywords: ["IVdsLunPlex","IVdsLunPlex interface [VDS]","IVdsLunPlex interface [VDS]","described","base.ivdslunplex","vds/IVdsLunPlex","vdshwprv/IVdsLunPlex"]
 old-location: base\ivdslunplex.htm
 tech.root: base
 ms.assetid: de795ae2-784c-43d7-a34c-546af31d2747
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsLunPlex, IVdsLunPlex interface [VDS], IVdsLunPlex interface [VDS],described, base.ivdslunplex, vds/IVdsLunPlex, vdshwprv/IVdsLunPlex
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for performing query and configuration operations on a LUN plex.
 

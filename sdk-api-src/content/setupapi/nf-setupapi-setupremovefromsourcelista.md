@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupRemoveFromSourceListA
 title: SetupRemoveFromSourceListA function (setupapi.h)
-description: The SetupRemoveFromSourceList function removes a value from the list of installation sources for either the current user or the system. The system and user lists are merged at run time.
-helpviewer_keywords: ["SetupRemoveFromSourceList","SetupRemoveFromSourceList function [Setup API]","SetupRemoveFromSourceListA","SetupRemoveFromSourceListW","_setupapi_setupremovefromsourcelist","setup.setupremovefromsourcelist","setupapi/SetupRemoveFromSourceList","setupapi/SetupRemoveFromSourceListA","setupapi/SetupRemoveFromSourceListW"]
+description: The SetupRemoveFromSourceList function removes a value from the list of installation sources for either the current user or the system. The system and user lists are merged at run time. (ANSI)
+helpviewer_keywords: ["SetupRemoveFromSourceListA", "setupapi/SetupRemoveFromSourceListA"]
 old-location: setup\setupremovefromsourcelist.htm
 tech.root: setup
 ms.assetid: 9e87f481-7d6a-4d8e-8f71-d104de3533f8

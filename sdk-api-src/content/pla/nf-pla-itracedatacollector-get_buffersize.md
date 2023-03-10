@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_BufferSize
 title: ITraceDataCollector::get_BufferSize (pla.h)
-description: Retrieves or sets the suggested buffer size for each buffer in the event tracing session.
+description: Retrieves or sets the suggested buffer size for each buffer in the event tracing session. (Get)
 helpviewer_keywords: ["BufferSize property [PLA]","BufferSize property [PLA]","ITraceDataCollector interface","ITraceDataCollector interface [PLA]","BufferSize property","ITraceDataCollector.BufferSize","ITraceDataCollector.get_BufferSize","ITraceDataCollector::BufferSize","ITraceDataCollector::get_BufferSize","ITraceDataCollector::put_BufferSize","base.itracedatacollector_buffersize","get_BufferSize","pla.itracedatacollector_buffersize","pla/ITraceDataCollector::BufferSize","pla/ITraceDataCollector::get_BufferSize","pla/ITraceDataCollector::put_BufferSize"]
 old-location: pla\itracedatacollector_buffersize.htm
 tech.root: PLA

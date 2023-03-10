@@ -2,10 +2,10 @@
 UID: NF:processthreadsapi.SetProcessDefaultCpuSetMasks
 tech.root: ProcThread
 title: SetProcessDefaultCpuSetMasks
-ms.date: 03/12/2021
+ms.date: 08/05/2022
 ms.topic: language-reference
 targetos: Windows
-description: Sets the default CPU Sets assignment for threads in the specified process.
+description: The SetProcessDefaultCpuSetMasks function (processthreadsapi.h) sets the default CPU Sets assignment for threads in the specified process.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

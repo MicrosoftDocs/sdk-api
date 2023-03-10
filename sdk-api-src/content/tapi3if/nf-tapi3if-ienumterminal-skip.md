@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.IEnumTerminal.Skip
 title: IEnumTerminal::Skip (tapi3if.h)
-description: The Skip method skips over the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
+description: The Skip method skips over the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages. (IEnumTerminal.Skip)
 helpviewer_keywords: ["IEnumTerminal interface [TAPI 2.2]","Skip method","IEnumTerminal.Skip","IEnumTerminal::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumTerminal interface","_tapi3_ienumterminal_skip","tapi3.ienumterminal_skip","tapi3if/IEnumTerminal::Skip"]
 old-location: tapi3\ienumterminal_skip.htm
 tech.root: tapi3

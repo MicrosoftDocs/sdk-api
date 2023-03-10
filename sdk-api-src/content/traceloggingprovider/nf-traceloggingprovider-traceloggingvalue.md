@@ -14,7 +14,7 @@ helpviewer_keywords:
 old-location: tracelogging\traceloggingvalue.htm
 tech.root: tracelogging
 ms.assetid: F4013632-3DC8-413C-B25F-64DE070FA4A8
-ms.date: 12/05/2018
+ms.date: 06/06/2022
 ms.keywords:
   TraceLoggingValue, TraceLoggingValue macro, tracelogging.traceloggingvalue,
   traceloggingprovider/TraceLoggingValue
@@ -68,24 +68,32 @@ for C++ that adds a field with an automatically-deduced type to the event.
 
 The event field value.
 
-#### - name [in, optional]
+### -param __VA_ARGS__ [in, optional]
 
-The name to use for the event field. If provided, the name parameter must be a
-string literal (not a variable) and must not contain any '\0' characters. If not
-provided, the event field name will be based on _value_.
+Optional _name_, _description_, and _tags_ parameters for the field definition.
 
-#### - description [in, optional]
+TraceLoggingValue can be specified with 1, 2, 3, or 4 parameters. If a parameter
+is not specified, a default will be used. For example, `TraceLoggingValue(a+b)`
+is equivalent to `TraceLoggingValue(a+b, "a+b", "", 0)`.
 
-The description of the event field's value. If provided, the description
-parameter must be a string literal and will be included in the
-[PDB](/windows-hardware/drivers/debugger/symbols).
+- `[in, optional] name`
 
-#### - tags [in, optional]
+  The name to use for the event field. If provided, the name parameter must be a
+  string literal (not a variable) and must not contain any '\0' characters. If
+  not provided, the event field name will be based on _value_.
 
-A compile-time constant integer value. The low 28 bits of the value will be
-included in the field's metadata. The semantics of this value are defined by the
-event consumer. During event processing, this value can be retrieved from the
-[EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
+- `[in, optional] description`
+
+  The description of the event field's value. If provided, the description
+  parameter must be a string literal and will be included in the
+  [PDB](/windows-hardware/drivers/debugger/symbols).
+
+- `[in, optional] tags`
+
+  A compile-time constant integer value. The low 28 bits of the value will be
+  included in the field's metadata. The semantics of this value are defined by
+  the event consumer. During event processing, this value can be retrieved from
+  the [EVENT_PROPERTY_INFO](../tdh/ns-tdh-event_property_info.md) Tags field.
 
 ## -remarks
 
@@ -93,10 +101,6 @@ In C++ code, `TraceLoggingValue(value, ...)` can be used as a parameter to an
 invocation of a
 [TraceLoggingWrite](./nf-traceloggingprovider-traceloggingwrite.md) macro. Each
 TraceLoggingValue parameter adds one field to the event.
-
-TraceLoggingValue can be specified with 1, 2, 3, or 4 parameters. If a parameter
-is not specified, a default will be used. For example, `TraceLoggingValue(a+b)`
-is equivalent to `TraceLoggingValue(a+b, "a+b", "", 0)`.
 
 The type of the field in the ETW event is automatically deduced from the type of
 the _value_ expression. Based on the type of _value_,
@@ -116,7 +120,7 @@ TraceLogging wrapper macros as follows:
 | `GUID`          | TraceLoggingGuid       |
 | `FILETIME`      | TraceLoggingFileTime   |
 | `SYSTEMTIME`    | TraceLoggingSystemTime |
-| `SID*`          | TraceLoggingSid        | Requires non-NULL and valid `SID`.                       |
+| `SID*`          | TraceLoggingSid        | Must be non-NULL and must point to a valid `SID`.        |
 | `void*`         | TraceLoggingPointer    | Logs the pointer value, not the referenced data.         |
 | `char*`         | TraceLoggingString     | Zero-terminated CP_ACP string. NULL is treated as `""`.  |
 | `char16_t*`     | TraceLoggingString16   | Zero-terminated UTF-16 string. NULL is treated as `u""`. |

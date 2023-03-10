@@ -1,7 +1,7 @@
 ---
 UID: NF:chstring.CHString.LoadStringW(UINT)
 title: CHString::LoadStringW(UINT) (chstring.h)
-description: The LoadStringW method reads a Windows string resource (identified by nID) into an existing CHString object.
+description: The LoadStringW method reads a Windows string resource (identified by nID) into an existing CHString object. (overload 1/2)
 helpviewer_keywords: ["CHString interface [Windows Management Instrumentation]","LoadStringW method","CHString.LoadStringW","CHString.LoadStringW(UINT)","CHString::LoadStringW","CHString::LoadStringW(UINT)","LoadStringW","LoadStringW method [Windows Management Instrumentation]","LoadStringW method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_loadstringw","chstring/CHString::LoadStringW","wmi.chstring_loadstringw"]
 old-location: wmi\chstring_loadstringw.htm
 tech.root: wmi

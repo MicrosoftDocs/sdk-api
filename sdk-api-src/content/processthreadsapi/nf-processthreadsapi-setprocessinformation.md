@@ -4,7 +4,7 @@ title: SetProcessInformation function (processthreadsapi.h)
 description: Sets information for the specified process.
 helpviewer_keywords: ["SetProcessInformation","SetProcessInformation function","base.setprocessinformation","processthreadsapi/SetProcessInformation"]
 old-location: base\setprocessinformation.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 1739fadf-6b43-4b89-8a17-87d9867d5197
 ms.date: 12/05/2018
 ms.keywords: SetProcessInformation, SetProcessInformation function, base.setprocessinformation, processthreadsapi/SetProcessInformation

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.StrNCatW
 title: StrNCatW function (shlwapi.h)
-description: Appends a specified number of characters from the beginning of one string to the end of another.
-helpviewer_keywords: ["StrNCat","StrNCat function [Windows Shell]","StrNCatA","StrNCatW","_win32_StrNCat","shell.StrNCat","shlwapi/StrNCat","shlwapi/StrNCatA","shlwapi/StrNCatW"]
+description: Appends a specified number of characters from the beginning of one string to the end of another. (Unicode)
+helpviewer_keywords: ["StrNCat", "StrNCat function [Windows Shell]", "StrNCatW", "_win32_StrNCat", "shell.StrNCat", "shlwapi/StrNCat", "shlwapi/StrNCatW"]
 old-location: shell\StrNCat.htm
 tech.root: shell
 ms.assetid: 28099350-5759-4595-8353-3452c5cf6ca8

@@ -1,12 +1,12 @@
 ---
 UID: NE:clusapi.CLUSTER_NODE_DRAIN_STATUS
 title: CLUSTER_NODE_DRAIN_STATUS (clusapi.h)
-description: Enumerates the possible values of the status of a node drain.
+description: CLUSTER_NODE_DRAIN_STATUS (clusapi.h) enumerates the possible values of the status of a node drain.
 helpviewer_keywords: ["CLUSTER_NODE_DRAIN_STATUS","CLUSTER_NODE_DRAIN_STATUS enumeration [Failover Cluster]","ClusterNodeDrainStatusCount","NodeDrainStatusCompleted","NodeDrainStatusFailed","NodeDrainStatusInProgress","NodeDrainStatusNotInitiated","clusapi/CLUSTER_NODE_DRAIN_STATUS","clusapi/ClusterNodeDrainStatusCount","clusapi/NodeDrainStatusCompleted","clusapi/NodeDrainStatusFailed","clusapi/NodeDrainStatusInProgress","clusapi/NodeDrainStatusNotInitiated","msclus/CLUSTER_NODE_DRAIN_STATUS","msclus/ClusterNodeDrainStatusCount","msclus/NodeDrainStatusCompleted","msclus/NodeDrainStatusFailed","msclus/NodeDrainStatusInProgress","msclus/NodeDrainStatusNotInitiated","mscs.cluster_node_drain_status"]
 old-location: mscs\cluster_node_drain_status.htm
 tech.root: MsCS
 ms.assetid: B6BC00A8-7D1E-4A86-8756-42917160DF30
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CLUSTER_NODE_DRAIN_STATUS, CLUSTER_NODE_DRAIN_STATUS enumeration [Failover Cluster], ClusterNodeDrainStatusCount, NodeDrainStatusCompleted, NodeDrainStatusFailed, NodeDrainStatusInProgress, NodeDrainStatusNotInitiated, clusapi/CLUSTER_NODE_DRAIN_STATUS, clusapi/ClusterNodeDrainStatusCount, clusapi/NodeDrainStatusCompleted, clusapi/NodeDrainStatusFailed, clusapi/NodeDrainStatusInProgress, clusapi/NodeDrainStatusNotInitiated, msclus/CLUSTER_NODE_DRAIN_STATUS, msclus/ClusterNodeDrainStatusCount, msclus/NodeDrainStatusCompleted, msclus/NodeDrainStatusFailed, msclus/NodeDrainStatusInProgress, msclus/NodeDrainStatusNotInitiated, mscs.cluster_node_drain_status
 req.header: clusapi.h
 req.include-header: 

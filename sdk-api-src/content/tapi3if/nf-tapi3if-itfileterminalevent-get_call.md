@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITFileTerminalEvent.get_Call
 title: ITFileTerminalEvent::get_Call (tapi3if.h)
-description: The get_Call method gets a pointer to the call information interface for the call on which the event has occurred.
+description: The get_Call method gets a pointer to the call information interface for the call on which the event has occurred. (ITFileTerminalEvent.get_Call)
 helpviewer_keywords: ["ITFileTerminalEvent interface [TAPI 2.2]","get_Call method","ITFileTerminalEvent.get_Call","ITFileTerminalEvent::get_Call","_tapi3_itfileterminalevent_get_call","get_Call","get_Call method [TAPI 2.2]","get_Call method [TAPI 2.2]","ITFileTerminalEvent interface","tapi3.itfileterminalevent_get_call","tapi3if/ITFileTerminalEvent::get_Call"]
 old-location: tapi3\itfileterminalevent_get_call.htm
 tech.root: tapi3

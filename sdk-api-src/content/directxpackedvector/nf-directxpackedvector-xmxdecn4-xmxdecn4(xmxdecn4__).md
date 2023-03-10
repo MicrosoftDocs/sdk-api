@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMXDECN4.XMXDECN4(XMXDECN4&&)
 title: XMXDECN4::XMXDECN4(XMXDECN4 &&) (directxpackedvector.h)
-description: A constructor for XMXDECN4.
+description: A constructor for XMXDECN4. (overload 2/2)
 helpviewer_keywords: ["XMXDECN4","XMXDECN4 constructor [DirectX Math Support APIs]","XMXDECN4 constructor [DirectX Math Support APIs]","XMXDECN4 structure","XMXDECN4 structure [DirectX Math Support APIs]","XMXDECN4 constructor","XMXDECN4.XMXDECN4","XMXDECN4.XMXDECN4()","XMXDECN4.XMXDECN4(XMXDECN4 &&)","XMXDECN4::XMXDECN4","XMXDECN4::XMXDECN4(XMXDECN4 &&)","dxmath.xmxdecn4_ctor_1"]
 old-location: 
 tech.root: dxmath

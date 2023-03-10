@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMVisualCollection interface
 
-
 ## -description
 
 A collection of <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a> interface pointers.

@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzScope.CreateTask
 title: IAzScope::CreateTask (azroles.h)
-description: Creates an IAzTask object with the specified name.
+description: Creates an IAzTask object with the specified name. (IAzScope.CreateTask)
 helpviewer_keywords: ["AzScope object [Security]","CreateTask method","CreateTask","CreateTask method [Security]","CreateTask method [Security]","AzScope object","CreateTask method [Security]","IAzScope interface","IAzScope interface [Security]","CreateTask method","IAzScope.CreateTask","IAzScope::CreateTask","azroles/IAzScope::CreateTask","security.iazscope_createtask"]
 old-location: security\iazscope_createtask.htm
 tech.root: security

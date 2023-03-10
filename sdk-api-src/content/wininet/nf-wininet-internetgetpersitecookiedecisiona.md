@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetGetPerSiteCookieDecisionA
 title: InternetGetPerSiteCookieDecisionA function (wininet.h)
-description: Retrieves a decision on cookies for a given domain.
-helpviewer_keywords: ["InternetGetPerSiteCookieDecision","InternetGetPerSiteCookieDecision function [WinINet]","InternetGetPerSiteCookieDecisionA","InternetGetPerSiteCookieDecisionW","wininet.internetgetpersitecookiedecision","wininet/InternetGetPerSiteCookieDecision","wininet/InternetGetPerSiteCookieDecisionA","wininet/InternetGetPerSiteCookieDecisionW"]
+description: Retrieves a decision on cookies for a given domain. (ANSI)
+helpviewer_keywords: ["InternetGetPerSiteCookieDecisionA", "wininet/InternetGetPerSiteCookieDecisionA"]
 old-location: wininet\internetgetpersitecookiedecision.htm
 tech.root: wininet
 ms.assetid: 04fa4c33-077c-4b16-8170-c3770783c98a

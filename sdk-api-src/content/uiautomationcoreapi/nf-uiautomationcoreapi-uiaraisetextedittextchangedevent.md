@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseTextEditTextChangedEvent
 title: UiaRaiseTextEditTextChangedEvent function (uiautomationcoreapi.h)
-description: Called by a provider to notify the Microsoft UI Automation core that a text control has programmatically changed text.
+description: Called by a provider to notify the Microsoft UI Automation core that a text control has programmatically changed text. (UiaRaiseTextEditTextChangedEvent)
 helpviewer_keywords: ["UiaRaiseTextEditTextChangedEvent","UiaRaiseTextEditTextChangedEvent function [Windows Accessibility]","uiautomationcoreapi/UiaRaiseTextEditTextChangedEvent","winauto.uiauto_UiaRaiseTextEditTextChangedEventFunction"]
 old-location: winauto\uiauto_UiaRaiseTextEditTextChangedEventFunction.htm
 tech.root: WinAuto

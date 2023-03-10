@@ -1,5 +1,5 @@
 ---
-UID: NE:cryptxml.__unnamed_enum_1
+UID: NE:cryptxml.CRYPT_XML_PROPERTY_ID
 title: CRYPT_XML_PROPERTY_ID (cryptxml.h)
 description: Specifies the type and usage of the XML property.
 helpviewer_keywords: ["CRYPT_XML_PROPERTY_DOC_DECLARATION","CRYPT_XML_PROPERTY_ID","CRYPT_XML_PROPERTY_ID enumeration [Security]","CRYPT_XML_PROPERTY_MAX_HEAP_SIZE","CRYPT_XML_PROPERTY_MAX_SIGNATURES","CRYPT_XML_PROPERTY_SIGNATURE_LOCATION","CRYPT_XML_PROPERTY_XML_OUTPUT_CHARSET","cryptxml/CRYPT_XML_PROPERTY_DOC_DECLARATION","cryptxml/CRYPT_XML_PROPERTY_ID","cryptxml/CRYPT_XML_PROPERTY_MAX_HEAP_SIZE","cryptxml/CRYPT_XML_PROPERTY_MAX_SIGNATURES","cryptxml/CRYPT_XML_PROPERTY_SIGNATURE_LOCATION","cryptxml/CRYPT_XML_PROPERTY_XML_OUTPUT_CHARSET","security.crypt_xml_property_id"]
@@ -104,3 +104,4 @@ Specifies an encoding character set of XML fragments for custom elements. This p
 
 If a property value is defined as a pointer to data, then the pointer must be valid 
   for the entire period of the signature operation.
+

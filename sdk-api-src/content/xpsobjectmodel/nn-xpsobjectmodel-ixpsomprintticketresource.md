@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMPrintTicketResource interface
 
-
 ## -description
 
 Provides an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface to a <b>PrintTicket</b> resource.

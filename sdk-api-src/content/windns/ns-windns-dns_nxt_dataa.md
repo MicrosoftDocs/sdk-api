@@ -1,7 +1,7 @@
 ---
-UID: NS:windns.__unnamed_struct_29
+UID: NS:windns.DNS_NXT_DATAA
 title: DNS_NXT_DATAA (windns.h)
-description: The DNS_NXT_DATA structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of RFC 2535.
+description: The DNS_NXT_DATA structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of RFC 2535. (ANSI)
 helpviewer_keywords: ["*PDNS_NXT_DATA","*PDNS_NXT_DATAA","DNS_NXT_DATA","DNS_NXT_DATA structure [DNS]","DNS_NXT_DATAA","PDNS_NXT_DATA","PDNS_NXT_DATA structure pointer [DNS]","_dns_dns_nxt_data","dns.dns_nxt_data","windns/DNS_NXT_DATA","windns/PDNS_NXT_DATA"]
 old-location: dns\dns_nxt_data.htm
 tech.root: DNS
@@ -89,3 +89,4 @@ The
 ## -see-also
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+

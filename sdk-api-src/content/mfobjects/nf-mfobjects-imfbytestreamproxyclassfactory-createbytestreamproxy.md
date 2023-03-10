@@ -1,7 +1,7 @@
 ---
 UID: NF:mfobjects.IMFByteStreamProxyClassFactory.CreateByteStreamProxy
 title: IMFByteStreamProxyClassFactory::CreateByteStreamProxy (mfobjects.h)
-description: Creates a proxy to a byte stream.
+description: Creates a proxy to a byte stream. (IMFByteStreamProxyClassFactory.CreateByteStreamProxy)
 helpviewer_keywords: ["CreateByteStreamProxy","CreateByteStreamProxy method [Media Foundation]","CreateByteStreamProxy method [Media Foundation]","IMFByteStreamProxyClassFactory interface","IMFByteStreamProxyClassFactory interface [Media Foundation]","CreateByteStreamProxy method","IMFByteStreamProxyClassFactory.CreateByteStreamProxy","IMFByteStreamProxyClassFactory::CreateByteStreamProxy","mf.imfbytestreamproxyclassfactory_createbytestreamproxy","mfobjects/IMFByteStreamProxyClassFactory::CreateByteStreamProxy"]
 old-location: mf\imfbytestreamproxyclassfactory_createbytestreamproxy.htm
 tech.root: mf

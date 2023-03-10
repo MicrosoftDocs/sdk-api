@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkCollector.SetGestureStatus
 title: IInkCollector::SetGestureStatus (msinkaut.h)
-description: Modifies the interest of the object or control in a known gesture.
+description: Modifies the interest of the object or control in a known gesture. (IInkCollector.SetGestureStatus)
 helpviewer_keywords: ["7bab227f-d095-48e8-856f-6446e62826dd","IInkCollector interface [Tablet PC]","SetGestureStatus method","IInkCollector.SetGestureStatus","IInkCollector::SetGestureStatus","SetGestureStatus","SetGestureStatus method [Tablet PC]","SetGestureStatus method [Tablet PC]","IInkCollector interface","msinkaut/IInkCollector::SetGestureStatus","tablet.inkcollector_setgesturestatus"]
 old-location: tablet\inkcollector_setgesturestatus.htm
 tech.root: tablet

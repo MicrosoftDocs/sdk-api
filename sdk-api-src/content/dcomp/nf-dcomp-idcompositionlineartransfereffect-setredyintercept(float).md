@@ -1,7 +1,7 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetRedYIntercept(float)
 title: IDCompositionLinearTransferEffect::SetRedYIntercept(float) (dcomp.h)
-description: Sets the Y-intercept of the linear function for the red channel.
+description: Sets the Y-intercept of the linear function for the red channel. (overload 1/2)
 helpviewer_keywords: ["IDCompositionLinearTransferEffect interface [DirectComposition]","SetRedYIntercept method","IDCompositionLinearTransferEffect.SetRedYIntercept","IDCompositionLinearTransferEffect.SetRedYIntercept(float)","IDCompositionLinearTransferEffect::SetRedYIntercept","IDCompositionLinearTransferEffect::SetRedYIntercept(float)","SetRedYIntercept","SetRedYIntercept method [DirectComposition]","SetRedYIntercept method [DirectComposition]","IDCompositionLinearTransferEffect interface","dcomp/IDCompositionLinearTransferEffect::SetRedYIntercept","directcomp.idcompositionlineartransfereffect_setredyintercept"]
 old-location: directcomp\idcompositionlineartransfereffect_setredyintercept.htm
 tech.root: directcomp

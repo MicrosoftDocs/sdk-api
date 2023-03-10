@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.IsIdentity
 title: Matrix3x2F::IsIdentity (d2d1helper.h)
-description: Indicates whether this matrix is the identity matrix.
+description: Indicates whether this matrix is the identity matrix. (Matrix3x2F.IsIdentity)
 helpviewer_keywords: ["D2D1.Matrix3x2F.IsIdentity","D2D1::Matrix3x2F::IsIdentity","IsIdentity","IsIdentity method [Direct2D]","IsIdentity method [Direct2D]","Matrix3x2F interface","Matrix3x2F interface [Direct2D]","IsIdentity method","Matrix3x2F.IsIdentity","Matrix3x2F::IsIdentity","d2d1helper/Matrix3x2F::IsIdentity","direct2d.matrix3x2f_isidentity"]
 old-location: direct2d\matrix3x2f_isidentity.htm
 tech.root: Direct2D

@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMUSHORTN4.XMUSHORTN4(uint64_t)
 title: XMUSHORTN4::XMUSHORTN4(uint64_t) (directxpackedvector.h)
-description: A constructor for XMUSHORTN4.
+description: A constructor for XMUSHORTN4. (overload 2/3)
 helpviewer_keywords: ["XMUSHORTN4","XMUSHORTN4 constructor [DirectX Math Support APIs]","XMUSHORTN4 constructor [DirectX Math Support APIs]","XMUSHORTN4 structure","XMUSHORTN4 structure [DirectX Math Support APIs]","XMUSHORTN4 constructor","XMUSHORTN4.XMUSHORTN4","XMUSHORTN4.XMUSHORTN4()","XMUSHORTN4.XMUSHORTN4(uint64_t)","XMUSHORTN4::XMUSHORTN4","XMUSHORTN4::XMUSHORTN4(uint64_t)","dxmath.xmushortn4_ctor_1"]
 old-location: 
 tech.root: dxmath

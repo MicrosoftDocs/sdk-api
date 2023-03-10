@@ -1,12 +1,12 @@
 ---
 UID: NS:tcpmib._MIB_TCPROW_W2K
 title: MIB_TCPROW_W2K (tcpmib.h)
-description: Contains information that descibes an IPv4 TCP connection.
+description: MIB_TCPROW_W2K (tcpmib.h) contains information that describes an IPv4 TCP connection.
 helpviewer_keywords: ["*PMIB_TCPROW","*PMIB_TCPROW_W2K","MIB_TCPROW","MIB_TCPROW structure [MIB]","MIB_TCPROW_LH","MIB_TCPROW_W2K","MIB_TCP_STATE_CLOSED","MIB_TCP_STATE_CLOSE_WAIT","MIB_TCP_STATE_CLOSING","MIB_TCP_STATE_DELETE_TCB","MIB_TCP_STATE_ESTAB","MIB_TCP_STATE_FIN_WAIT1","MIB_TCP_STATE_FIN_WAIT2","MIB_TCP_STATE_LAST_ACK","MIB_TCP_STATE_LISTEN","MIB_TCP_STATE_SYN_RCVD","MIB_TCP_STATE_SYN_SENT","MIB_TCP_STATE_TIME_WAIT","PMIB_TCPROW","PMIB_TCPROW structure pointer [MIB]","_mpr_mib_tcprow","iprtrmib/MIB_TCPROW","iprtrmib/PMIB_TCPROW","mib.mib_tcprow","rras.mib_tcprow","tcpmib/MIB_TCPROW","tcpmib/PMIB_TCPROW"]
 old-location: mib\mib_tcprow.htm
 tech.root: MIB
 ms.assetid: 36364854-caa8-4652-be8e-f741b36d9fd7
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*PMIB_TCPROW, *PMIB_TCPROW_W2K, MIB_TCPROW, MIB_TCPROW structure [MIB], MIB_TCPROW_LH, MIB_TCPROW_W2K, MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCPROW, PMIB_TCPROW structure pointer [MIB], _mpr_mib_tcprow, iprtrmib/MIB_TCPROW, iprtrmib/PMIB_TCPROW, mib.mib_tcprow, rras.mib_tcprow, tcpmib/MIB_TCPROW, tcpmib/PMIB_TCPROW'
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h

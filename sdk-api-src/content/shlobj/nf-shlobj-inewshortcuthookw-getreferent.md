@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj.INewShortcutHookW.GetReferent
 title: INewShortcutHookW::GetReferent (shlobj.h)
-description: Gets the referent of the shortcut object.
+description: Gets the referent of the shortcut object. (Unicode)
 helpviewer_keywords: ["GetReferent","GetReferent method [Windows Shell]","GetReferent method [Windows Shell]","INewShortcutHook interface","INewShortcutHook interface [Windows Shell]","GetReferent method","INewShortcutHook::GetReferent","INewShortcutHookA","INewShortcutHookA::GetReferent","INewShortcutHookW","INewShortcutHookW.GetReferent","INewShortcutHookW::GetReferent","_win32_INewShortcutHook_GetReferent","shell.INewShortcutHook_GetReferent","shlobj/INewShortcutHook::GetReferent"]
 old-location: shell\INewShortcutHook_GetReferent.htm
 tech.root: shell

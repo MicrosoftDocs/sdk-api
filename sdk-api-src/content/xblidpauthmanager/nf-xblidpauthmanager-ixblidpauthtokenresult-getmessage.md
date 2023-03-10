@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetMessage
 title: IXblIdpAuthTokenResult::GetMessage (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthTokenResult.GetMessage)
 helpviewer_keywords: ["GetMessage","GetMessage method","GetMessage method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetMessage method","IXblIdpAuthTokenResult.GetMessage","IXblIdpAuthTokenResult::GetMessage","xblidp.ixblidpauthtokenresult_getmessage","xblidpauthmanager/IXblIdpAuthTokenResult::GetMessage"]
 old-location: xblidp\ixblidpauthtokenresult_getmessage.htm
 tech.root: xblidp

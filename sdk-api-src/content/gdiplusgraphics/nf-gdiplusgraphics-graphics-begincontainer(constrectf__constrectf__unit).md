@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.BeginContainer(constRectF&,constRectF&,Unit)
 title: Graphics::BeginContainer (gdiplusgraphics.h)
-description: The Graphics::BeginContainer method begins a new graphics container.
+description: The Graphics::BeginContainer method begins a new graphics container. (overload 2/2)
 helpviewer_keywords: ["BeginContainer","BeginContainer method [GDI+]","BeginContainer method [GDI+]","Graphics class","Graphics class [GDI+]","BeginContainer method","Graphics.BeginContainer","Graphics.BeginContainer()","Graphics::BeginContainer","_gdiplus_CLASS_Graphics_BeginContainer_","gdiplus._gdiplus_CLASS_Graphics_BeginContainer_"]
 old-location: 
 tech.root: gdiplus

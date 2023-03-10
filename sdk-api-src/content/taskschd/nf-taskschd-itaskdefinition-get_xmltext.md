@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskDefinition.get_XmlText
 title: ITaskDefinition::get_XmlText (taskschd.h)
-description: Gets or sets the XML-formatted definition of the task.
+description: Gets or sets the XML-formatted definition of the task. (Get)
 helpviewer_keywords: ["ITaskDefinition interface [Task Scheduler]","XmlText property","ITaskDefinition.XmlText","ITaskDefinition.get_XmlText","ITaskDefinition::XmlText","ITaskDefinition::get_XmlText","ITaskDefinition::put_XmlText","XmlText property [Task Scheduler]","XmlText property [Task Scheduler]","ITaskDefinition interface","get_XmlText","taskschd.itaskdefinition_xmltext","taskschd/ITaskDefinition::XmlText","taskschd/ITaskDefinition::get_XmlText","taskschd/ITaskDefinition::put_XmlText"]
 old-location: taskschd\itaskdefinition_xmltext.htm
 tech.root: taskschd

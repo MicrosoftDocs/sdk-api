@@ -47,7 +47,6 @@ api_name:
 
 # IXpsOMImageBrush interface
 
-
 ## -description
 
 A brush that uses a raster image as a source.

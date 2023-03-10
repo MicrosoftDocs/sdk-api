@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.get_Read
 title: IFaxIncomingMessage2::get_Read (faxcomex.h)
-description: A flag that indicates if the fax has been read.
+description: A flag that indicates if the fax has been read. (Get)
 helpviewer_keywords: ["IFaxIncomingMessage2 interface [Fax Service]","Read property","IFaxIncomingMessage2.Read","IFaxIncomingMessage2.get_Read","IFaxIncomingMessage2.put_Read","IFaxIncomingMessage2::Read","IFaxIncomingMessage2::get_Read","IFaxIncomingMessage2::put_Read","Read property [Fax Service]","Read property [Fax Service]","IFaxIncomingMessage2 interface","_mfax_faxincomingmessage.read","fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_read_cpp","fax._mfax_faxincomingmessage_read","faxcomex/IFaxIncomingMessage2::Read","faxcomex/IFaxIncomingMessage2::get_Read","faxcomex/IFaxIncomingMessage2::put_Read","get_Read"]
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_read_cpp.htm
 tech.root: Fax

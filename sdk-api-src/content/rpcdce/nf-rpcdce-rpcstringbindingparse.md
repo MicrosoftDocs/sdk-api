@@ -1,12 +1,12 @@
 ---
 UID: NF:rpcdce.RpcStringBindingParse
 title: RpcStringBindingParse function (rpcdce.h)
-description: The RpcStringBindingParse function returns the object UUID part and the address parts of a string binding as separate strings.
+description: The RpcStringBindingParse function (rpcdce.h) returns the object UUID part and the address parts of a string binding as separate strings.
 helpviewer_keywords: ["RpcStringBindingParse","RpcStringBindingParse function [RPC]","RpcStringBindingParseA","RpcStringBindingParseW","_rpc_rpcstringbindingparse","rpc.rpcstringbindingparse","rpcdce/RpcStringBindingParse","rpcdce/RpcStringBindingParseA","rpcdce/RpcStringBindingParseW"]
 old-location: rpc\rpcstringbindingparse.htm
 tech.root: Rpc
 ms.assetid: c55d0259-e251-42d0-8565-ce71ab3bb59c
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: RpcStringBindingParse, RpcStringBindingParse function [RPC], RpcStringBindingParseA, RpcStringBindingParseW, _rpc_rpcstringbindingparse, rpc.rpcstringbindingparse, rpcdce/RpcStringBindingParse, rpcdce/RpcStringBindingParseA, rpcdce/RpcStringBindingParseW
 req.header: rpcdce.h
 req.include-header: Rpc.h

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.Simplify(D2D1_GEOMETRY_SIMPLIFICATION_OPTION,constD2D1_MATRIX_3X2_F&,FLOAT,ID2D1SimplifiedGeometrySink)
 title: ID2D1Geometry::Simplify(D2D1_GEOMETRY_SIMPLIFICATION_OPTION,const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1SimplifiedGeometrySink) (d2d1.h)
-description: Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an ID2D1SimplifiedGeometrySink.
+description: Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an ID2D1SimplifiedGeometrySink. (overload 4/4)
 helpviewer_keywords: ["ID2D1Geometry interface [Direct2D]","Simplify method","ID2D1Geometry.Simplify","ID2D1Geometry.Simplify(D2D1_GEOMETRY_SIMPLIFICATION_OPTION","const D2D1_MATRIX_3X2_F &","FLOAT","ID2D1SimplifiedGeometrySink)","ID2D1Geometry::Simplify","ID2D1Geometry::Simplify(D2D1_GEOMETRY_SIMPLIFICATION_OPTION","const D2D1_MATRIX_3X2_F &","FLOAT","ID2D1SimplifiedGeometrySink)","Simplify","Simplify method [Direct2D]","Simplify method [Direct2D]","ID2D1Geometry interface","d2d1/ID2D1Geometry::Simplify","direct2d.ID2D1Geometry_Simplify_D2D1_GEOMETRY_SIMPLIFICATION_OPTION_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1SimplifiedGeometrySink"]
 old-location: direct2d\ID2D1Geometry_Simplify_D2D1_GEOMETRY_SIMPLIFICATION_OPTION_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1SimplifiedGeometrySink.htm
 tech.root: Direct2D

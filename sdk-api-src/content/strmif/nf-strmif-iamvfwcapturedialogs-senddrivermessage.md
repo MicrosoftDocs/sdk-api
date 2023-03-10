@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMVfwCaptureDialogs.SendDriverMessage
 title: IAMVfwCaptureDialogs::SendDriverMessage (strmif.h)
-description: The SendDriverMessage method sends a driver-specific message.
+description: The SendDriverMessage method sends a driver-specific message. (IAMVfwCaptureDialogs.SendDriverMessage)
 helpviewer_keywords: ["IAMVfwCaptureDialogs interface [DirectShow]","SendDriverMessage method","IAMVfwCaptureDialogs.SendDriverMessage","IAMVfwCaptureDialogs::SendDriverMessage","IAMVfwCaptureDialogsSendDriverMessage","SendDriverMessage","SendDriverMessage method [DirectShow]","SendDriverMessage method [DirectShow]","IAMVfwCaptureDialogs interface","dshow.iamvfwcapturedialogs_senddrivermessage","strmif/IAMVfwCaptureDialogs::SendDriverMessage"]
 old-location: dshow\iamvfwcapturedialogs_senddrivermessage.htm
 tech.root: dshow

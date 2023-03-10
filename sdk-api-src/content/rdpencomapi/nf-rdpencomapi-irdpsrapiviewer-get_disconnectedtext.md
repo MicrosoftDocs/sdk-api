@@ -1,7 +1,7 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_DisconnectedText
 title: IRDPSRAPIViewer::get_DisconnectedText (rdpencomapi.h)
-description: Retrieves or sets the text that appears centered in the control before a connection is terminated.
+description: Retrieves or sets the text that appears centered in the control before a connection is terminated. (Get)
 helpviewer_keywords: ["DisconnectedText property [RDP]","DisconnectedText property [RDP]","IRDPSRAPIViewer interface","DisconnectedText property [RDP]","RDPViewer object","IRDPSRAPIViewer interface [RDP]","DisconnectedText property","IRDPSRAPIViewer.DisconnectedText","IRDPSRAPIViewer.get_DisconnectedText","IRDPSRAPIViewer::DisconnectedText","IRDPSRAPIViewer::get_DisconnectedText","IRDPSRAPIViewer::put_DisconnectedText","RDPViewer object [RDP]","DisconnectedText property","get_DisconnectedText","rdp.irdpsrapiviewer_disconnectedtext","rdpencomapi/IRDPSRAPIViewer::DisconnectedText","rdpencomapi/IRDPSRAPIViewer::get_DisconnectedText","rdpencomapi/IRDPSRAPIViewer::put_DisconnectedText"]
 old-location: rdp\irdpsrapiviewer_disconnectedtext.htm
 tech.root: rdp

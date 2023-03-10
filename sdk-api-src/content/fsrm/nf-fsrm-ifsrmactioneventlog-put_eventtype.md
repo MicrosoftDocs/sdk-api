@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmActionEventLog.put_EventType
 title: IFsrmActionEventLog::put_EventType (fsrm.h)
-description: Retrieves or sets the type of event that the action logs when it runs.
+description: Retrieves or sets the type of event that the action logs when it runs. (Put)
 helpviewer_keywords: ["EventType property [File Server Resource Manager]","EventType property [File Server Resource Manager]","IFsrmActionEventLog interface","IFsrmActionEventLog interface [File Server Resource Manager]","EventType property","IFsrmActionEventLog.EventType","IFsrmActionEventLog.put_EventType","IFsrmActionEventLog::EventType","IFsrmActionEventLog::get_EventType","IFsrmActionEventLog::put_EventType","fs.ifsrmactioneventlog_eventtype","fsrm.ifsrmactioneventlog_eventtype","fsrm/IFsrmActionEventLog::EventType","fsrm/IFsrmActionEventLog::get_EventType","fsrm/IFsrmActionEventLog::put_EventType","put_EventType"]
 old-location: fsrm\ifsrmactioneventlog_eventtype.htm
 tech.root: fsrm

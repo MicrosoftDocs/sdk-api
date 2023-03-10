@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CreateWindowExA
 title: CreateWindowExA function (winuser.h)
-description: Creates an overlapped, pop-up, or child window with an extended window style; otherwise, this function is identical to the CreateWindow function.
-helpviewer_keywords: ["CreateWindowEx","CreateWindowEx function [Windows and Messages]","CreateWindowExA","CreateWindowExW","_win32_CreateWindowEx","_win32_createwindowex_cpp","winmsg.createwindowex","winui._win32_createwindowex","winuser/CreateWindowEx","winuser/CreateWindowExA","winuser/CreateWindowExW"]
+description: Creates an overlapped, pop-up, or child window with an extended window style; otherwise, this function is identical to the CreateWindow function. (ANSI)
+helpviewer_keywords: ["CreateWindowExA", "winuser/CreateWindowExA"]
 old-location: winmsg\createwindowex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\createwindowex.htm

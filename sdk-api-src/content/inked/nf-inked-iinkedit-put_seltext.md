@@ -1,7 +1,7 @@
 ---
 UID: NF:inked.IInkEdit.put_SelText
 title: IInkEdit::put_SelText (inked.h)
-description: Gets or sets the selected text within the InkEdit control (run time only).
+description: Gets or sets the selected text within the InkEdit control (run time only). (Put)
 helpviewer_keywords: ["IInkEdit interface [Tablet PC]","SelText property","IInkEdit.SelText","IInkEdit.put_SelText","IInkEdit::SelText","IInkEdit::get_SelText","IInkEdit::put_SelText","InkEdit.get_SelText","InkEdit.put_SelText","SelText property [Tablet PC]","SelText property [Tablet PC]","IInkEdit interface","get_SelText","inked/IInkEdit::SelText","inked/IInkEdit::get_SelText","inked/IInkEdit::put_SelText","put_SelText","tablet.inkedit_seltext"]
 old-location: tablet\inkedit_seltext.htm
 tech.root: tablet

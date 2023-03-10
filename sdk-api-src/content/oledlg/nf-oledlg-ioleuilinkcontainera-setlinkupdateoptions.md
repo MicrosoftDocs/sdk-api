@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.SetLinkUpdateOptions
 title: IOleUILinkContainerA::SetLinkUpdateOptions (oledlg.h)
-description: Sets a link's update options to automatic or manual.
+description: Sets a link's update options to automatic or manual. (ANSI)
 helpviewer_keywords: ["IOleUILinkContainer interface [COM]","SetLinkUpdateOptions method","IOleUILinkContainer::SetLinkUpdateOptions","IOleUILinkContainerA interface [COM]","SetLinkUpdateOptions method","IOleUILinkContainerA.SetLinkUpdateOptions","IOleUILinkContainerA::SetLinkUpdateOptions","IOleUILinkContainerW interface [COM]","SetLinkUpdateOptions method","IOleUILinkContainerW::SetLinkUpdateOptions","SetLinkUpdateOptions","SetLinkUpdateOptions method [COM]","SetLinkUpdateOptions method [COM]","IOleUILinkContainer interface","SetLinkUpdateOptions method [COM]","IOleUILinkContainerA interface","SetLinkUpdateOptions method [COM]","IOleUILinkContainerW interface","_ole_IOleUILinkContainer_SetLinkUpdateOptions","com.ioleuilinkcontainer_setlinkupdateoptions","oledlg/IOleUILinkContainer::SetLinkUpdateOptions","oledlg/IOleUILinkContainerA::SetLinkUpdateOptions","oledlg/IOleUILinkContainerW::SetLinkUpdateOptions"]
 old-location: com\ioleuilinkcontainer_setlinkupdateoptions.htm
 tech.root: com

@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.GopherGetLocatorTypeW
 title: GopherGetLocatorTypeW function (wininet.h)
-description: Parses a Gopher locator and determines its attributes.
-helpviewer_keywords: ["GopherGetLocatorType","GopherGetLocatorType function [WinINet]","GopherGetLocatorTypeA","GopherGetLocatorTypeW","_inet_gophergetlocatortype_function","wininet.gophergetlocatortype","wininet/GopherGetLocatorType","wininet/GopherGetLocatorTypeA","wininet/GopherGetLocatorTypeW"]
+description: Parses a Gopher locator and determines its attributes. (Unicode)
+helpviewer_keywords: ["GopherGetLocatorType", "GopherGetLocatorType function [WinINet]", "GopherGetLocatorTypeW", "_inet_gophergetlocatortype_function", "wininet.gophergetlocatortype", "wininet/GopherGetLocatorType", "wininet/GopherGetLocatorTypeW"]
 old-location: wininet\gophergetlocatortype.htm
 tech.root: wininet
 ms.assetid: e6f0ef67-c411-43ff-a477-5a8635057f2c

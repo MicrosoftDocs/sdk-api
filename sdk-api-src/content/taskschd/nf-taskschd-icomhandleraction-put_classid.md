@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IComHandlerAction.put_ClassId
 title: IComHandlerAction::put_ClassId (taskschd.h)
-description: Gets or sets the identifier of the handler class.
+description: Gets or sets the identifier of the handler class. (Put)
 helpviewer_keywords: ["ClassId property [Task Scheduler]","ClassId property [Task Scheduler]","IComHandlerAction interface","IComHandlerAction interface [Task Scheduler]","ClassId property","IComHandlerAction.ClassId","IComHandlerAction.put_ClassId","IComHandlerAction::ClassId","IComHandlerAction::get_ClassId","IComHandlerAction::put_ClassId","put_ClassId","taskschd.icomhandleraction_classid","taskschd/IComHandlerAction::ClassId","taskschd/IComHandlerAction::get_ClassId","taskschd/IComHandlerAction::put_ClassId"]
 old-location: taskschd\icomhandleraction_classid.htm
 tech.root: taskschd

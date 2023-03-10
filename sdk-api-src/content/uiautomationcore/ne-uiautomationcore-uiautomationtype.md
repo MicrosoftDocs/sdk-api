@@ -72,7 +72,7 @@ A double-precision floating-point number.
 
 ### -field UIAutomationType_Point:0x5
 
-A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the x- and y-coordinates of a point.
+A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure containing the x- and y-coordinates of a point.
 
 ### -field UIAutomationType_Rect:0x6
 
@@ -108,7 +108,7 @@ An array of double-precision floating-point numbers. This type is not supported 
 
 ### -field UIAutomationType_PointArray
 
-An array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures, each containing the x- and y-coordinates of a point. This type is not supported for a custom UI Automation property.
+An array of <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structures, each containing the x- and y-coordinates of a point. This type is not supported for a custom UI Automation property.
 
 ### -field UIAutomationType_RectArray
 
@@ -136,7 +136,7 @@ The address of a variable that receives a double-precision floating-point number
 
 ### -field UIAutomationType_OutPoint
 
-The address of a variable that receives a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure.
+The address of a variable that receives a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure.
 
 ### -field UIAutomationType_OutRect
 
@@ -164,7 +164,7 @@ The address of a variable that receives an array of double-precision floating-po
 
 ### -field UIAutomationType_OutPointArray
 
-The address of a variable that receives an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures.
+The address of a variable that receives an array of <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structures.
 
 ### -field UIAutomationType_OutRectArray
 
