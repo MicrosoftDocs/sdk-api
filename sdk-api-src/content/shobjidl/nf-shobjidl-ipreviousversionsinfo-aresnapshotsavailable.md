@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.IPreviousVersionsInfo.AreSnapshotsAvailable
 title: IPreviousVersionsInfo::AreSnapshotsAvailable (shobjidl.h)
-description: Queries for the availablilty of a Windows Server 2003 volume image recorded by the system at an earlier time.
+description: Queries for the availability of a Windows Server 2003 volume image recorded by the system at an earlier time.
 helpviewer_keywords: ["AreSnapshotsAvailable","AreSnapshotsAvailable method [Windows Shell]","AreSnapshotsAvailable method [Windows Shell]","IPreviousVersionsInfo interface","FALSE","IPreviousVersionsInfo interface [Windows Shell]","AreSnapshotsAvailable method","IPreviousVersionsInfo.AreSnapshotsAvailable","IPreviousVersionsInfo::AreSnapshotsAvailable","TRUE","_shell_IPreviousVersionsInfo_AreSnapshotsAvailable","shell.IPreviousVersionsInfo_AreSnapshotsAvailable","shobjidl/IPreviousVersionsInfo::AreSnapshotsAvailable"]
 old-location: shell\IPreviousVersionsInfo_AreSnapshotsAvailable.htm
 tech.root: shell
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Queries for the availablilty of a Windows Server 2003 volume image recorded by the system at an earlier time.
+Queries for the availability of a Windows Server 2003 volume image recorded by the system at an earlier time.
 
 ## -parameters
 

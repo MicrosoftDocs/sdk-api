@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkCollector
 title: IInkCollector (msinkaut.h)
-description: .
+description: . (IInkCollector)
 helpviewer_keywords: ["IInkCollector","IInkCollector interface [Tablet PC]","IInkCollector interface [Tablet PC]","described","msinkaut/IInkCollector","tablet.iinkcollector"]
 old-location: tablet\iinkcollector.htm
 tech.root: tablet
@@ -54,12 +54,7 @@ Represents the object used to capture ink from available tablet devices.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkCollector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkCollector</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Events</a></li>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IInkCollector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. 
 
 ## -remarks
 

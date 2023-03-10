@@ -1,7 +1,7 @@
 ---
 UID: NF:securitybaseapi.AddAuditAccessAceEx
 title: AddAuditAccessAceEx function (securitybaseapi.h)
-description: Adds a system-audit access control entry (ACE) to the end of a system access control list (SACL).
+description: Adds a system-audit access control entry (ACE) to the end of a system access control list (SACL). (AddAuditAccessAceEx)
 helpviewer_keywords: ["AddAuditAccessAceEx","AddAuditAccessAceEx function [Security]","CONTAINER_INHERIT_ACE","FAILED_ACCESS_ACE_FLAG","INHERITED_ACE","INHERIT_ONLY_ACE","NO_PROPAGATE_INHERIT_ACE","OBJECT_INHERIT_ACE","SUCCESSFUL_ACCESS_ACE_FLAG","_win32_addauditaccessaceex","security.addauditaccessaceex","securitybaseapi/AddAuditAccessAceEx"]
 old-location: security\addauditaccessaceex.htm
 tech.root: security

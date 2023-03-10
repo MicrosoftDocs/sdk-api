@@ -56,7 +56,7 @@ The <b>IKEEXT_MM_SA_STATE</b> enumerated type defines the states for the Main Mo
 
 ## -enum-fields
 
-### -field IKEEXT_MM_SA_STATE_NONE
+### -field IKEEXT_MM_SA_STATE_NONE:0
 
 Initial state.  No packets have been sent to the peer.
 

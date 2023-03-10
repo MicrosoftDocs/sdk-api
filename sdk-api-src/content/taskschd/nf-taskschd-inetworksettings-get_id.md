@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.INetworkSettings.get_Id
 title: INetworkSettings::get_Id (taskschd.h)
-description: Gets or sets a GUID value that identifies a network profile.
+description: Gets or sets a GUID value that identifies a network profile. (Get)
 helpviewer_keywords: ["INetworkSettings interface [Task Scheduler]","Id property","INetworkSettings.Id","INetworkSettings.get_Id","INetworkSettings::Id","INetworkSettings::get_Id","INetworkSettings::put_Id","Id property [Task Scheduler]","Id property [Task Scheduler]","INetworkSettings interface","get_Id","taskschd.inetworksettings_id","taskschd/INetworkSettings::Id","taskschd/INetworkSettings::get_Id","taskschd/INetworkSettings::put_Id"]
 old-location: taskschd\inetworksettings_id.htm
 tech.root: taskschd

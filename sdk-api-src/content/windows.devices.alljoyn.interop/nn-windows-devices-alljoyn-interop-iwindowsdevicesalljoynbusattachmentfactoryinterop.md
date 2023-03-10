@@ -54,10 +54,7 @@ This interface allows for the creation of <b>alljoyn_busattachment</b> without t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsDevicesAllJoynBusAttachmentFactoryInterop</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable </a>. <b>IWindowsDevicesAllJoynBusAttachmentFactoryInterop</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWindowsDevicesAllJoynBusAttachmentFactoryInterop</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable </a>. <b>IWindowsDevicesAllJoynBusAttachmentFactoryInterop</b> also has these types of members:
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NC:winsock2.LPWSAOVERLAPPED_COMPLETION_ROUTINE
 title: LPWSAOVERLAPPED_COMPLETION_ROUTINE
-description: TBD
-ms.date: 
+description: TBD (LPWSAOVERLAPPED_COMPLETION_ROUTINE)
+ms.date: 07/27/2022
 tech.root: WinSock
 targetos: Windows
 req.assembly: 
@@ -18,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

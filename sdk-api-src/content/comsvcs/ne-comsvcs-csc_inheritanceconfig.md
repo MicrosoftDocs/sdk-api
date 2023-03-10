@@ -56,7 +56,7 @@ Indicates whether to create a new context based on the current context or to cre
 
 ## -enum-fields
 
-### -field CSC_Inherit
+### -field CSC_Inherit:0
 
 The new context is created from the existing context.
 

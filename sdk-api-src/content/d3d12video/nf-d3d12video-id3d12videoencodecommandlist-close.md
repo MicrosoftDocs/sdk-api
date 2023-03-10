@@ -3,7 +3,7 @@ UID: NF:d3d12video.ID3D12VideoEncodeCommandList.Close
 title: ID3D12VideoEncodeCommandList::Close
 ms.date: 11/4/2019
 targetos: Windows
-description: Indicates that recording to the command list has finished.
+description: Indicates that recording to the command list has finished. (ID3D12VideoEncodeCommandList::Close)
 tech.root: mf
 req.assembly: 
 req.construct-type: function
@@ -43,7 +43,7 @@ dev_langs:
 
 Indicates that recording to the command list has finished.
 
-## -parameters
+
 
 ## -returns
 

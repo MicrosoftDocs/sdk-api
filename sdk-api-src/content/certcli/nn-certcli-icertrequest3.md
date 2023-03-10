@@ -1,7 +1,7 @@
 ---
 UID: NN:certcli.ICertRequest3
 title: ICertRequest3 (certcli.h)
-description: Provide communications between a client or intermediary application and Certificate Services.
+description: Provide communications between a client or intermediary application and Certificate Services. (ICertRequest3)
 helpviewer_keywords: ["ICertRequest3","ICertRequest3 interface [Security]","ICertRequest3 interface [Security]","described","certcli/ICertRequest3","security.icertrequest3"]
 old-location: security\icertrequest3.htm
 tech.root: security
@@ -70,10 +70,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertRequest3</b> interface inherits from <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest2">ICertRequest2</a>, <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a>, and <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. <b>ICertRequest3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICertRequest3</b> interface inherits from <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest2">ICertRequest2</a>, <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a>, and <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. <b>ICertRequest3</b> also has these types of members:
 
 ## -see-also
 

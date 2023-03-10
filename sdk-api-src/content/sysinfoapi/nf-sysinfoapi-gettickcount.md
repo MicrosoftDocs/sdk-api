@@ -60,7 +60,7 @@ api_name:
 
 Retrieves the number of milliseconds that have elapsed since the system was started, up to 49.7 days.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2fs.DFileSystemImageEvents
 title: DFileSystemImageEvents (imapi2fs.h)
-description: Implement this interface to receive notifications of the current write operation.
+description: Implement this interface to receive notifications of the current write operation. (DFileSystemImageEvents)
 helpviewer_keywords: ["DFileSystemImageEvents","DFileSystemImageEvents interface [IMAPI]","DFileSystemImageEvents interface [IMAPI]","described","imapi.dfilesystemimageevents","imapi2fs/DFileSystemImageEvents"]
 old-location: imapi\dfilesystemimageevents.htm
 tech.root: imapi
@@ -54,10 +54,7 @@ Implement this interface to receive notifications of the current write operation
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DFileSystemImageEvents</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DFileSystemImageEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>DFileSystemImageEvents</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DFileSystemImageEvents</b> also has these types of members:
 
 ## -see-also
 

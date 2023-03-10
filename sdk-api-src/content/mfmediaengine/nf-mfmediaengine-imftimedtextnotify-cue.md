@@ -58,7 +58,7 @@ Called when a cue event occurs in a text track.
 
 Type: <b><a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_cue_event">MF_TIMED_TEXT_CUE_EVENT</a></b>
 
-A value specifying the type of event that has occured.
+A value specifying the type of event that has occurred.
 
 ### -param currentTime [in]
 

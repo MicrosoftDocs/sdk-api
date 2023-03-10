@@ -73,7 +73,7 @@ Message object state must be set to <b>WS_MESSAGE_STATE_EMPTY</b>  or <b>WS_MESS
 A pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> object.  The <b>action</b> field of <b>WS_MESSAGE_DESCRIPTION</b> is used as the <b>action</b> header for the reply message.  This field can be <b>NULL</b> if no action is required.
                 
 
-The <b>bodyElementDescription</b>  field of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a>is used to serialize the body of the reply message.  This field may be <b>NULL</b> if no body element is desired.  See <a href="/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> for information about how the <b>bodyElementDescription</b> is used to serialize a value.
+The <b>bodyElementDescription</b>  field of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> is used to serialize the body of the reply message.  This field may be <b>NULL</b> if no body element is desired.  See <a href="/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> for information about how the <b>bodyElementDescription</b> is used to serialize a value.
 
 ### -param writeOption [in]
 

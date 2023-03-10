@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentStructureResource.GetStream
 title: IXpsOMDocumentStructureResource::GetStream (xpsobjectmodel.h)
-description: Gets a new, read-only copy of the stream that is associated with this resource.
+description: Gets a new, read-only copy of the stream that is associated with this resource. (IXpsOMDocumentStructureResource.GetStream)
 helpviewer_keywords: ["GetStream","GetStream method [XPS Documents and Packaging]","GetStream method [XPS Documents and Packaging]","IXpsOMDocumentStructureResource interface","IXpsOMDocumentStructureResource interface [XPS Documents and Packaging]","GetStream method","IXpsOMDocumentStructureResource.GetStream","IXpsOMDocumentStructureResource::GetStream","xps.ixpsomdocumentstructureresource_getstream","xpsobjectmodel/IXpsOMDocumentStructureResource::GetStream"]
 old-location: xps\ixpsomdocumentstructureresource_getstream.htm
 tech.root: xps

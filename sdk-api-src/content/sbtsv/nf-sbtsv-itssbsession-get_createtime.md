@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_CreateTime
 title: ITsSbSession::get_CreateTime (sbtsv.h)
-description: Retrieves or specifies the time the session was created.
+description: Retrieves or specifies the time the session was created. (Get)
 helpviewer_keywords: ["CreateTime property [Remote Desktop Services]","CreateTime property [Remote Desktop Services]","ITsSbSession interface","ITsSbSession interface [Remote Desktop Services]","CreateTime property","ITsSbSession.CreateTime","ITsSbSession.get_CreateTime","ITsSbSession::CreateTime","ITsSbSession::get_CreateTime","ITsSbSession::put_CreateTime","get_CreateTime","sbtsv/ITsSbSession::CreateTime","sbtsv/ITsSbSession::get_CreateTime","sbtsv/ITsSbSession::put_CreateTime","termserv.itssbsession_createtime"]
 old-location: termserv\itssbsession_createtime.htm
 tech.root: TermServ

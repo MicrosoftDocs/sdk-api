@@ -1,7 +1,7 @@
 ---
 UID: NF:azroles.IAzApplication.AddPolicyAdministratorName
 title: IAzApplication::AddPolicyAdministratorName (azroles.h)
-description: Adds the specified account name to the list of principals that act as policy administrators.
+description: Adds the specified account name to the list of principals that act as policy administrators. (IAzApplication.AddPolicyAdministratorName)
 helpviewer_keywords: ["AddPolicyAdministratorName","AddPolicyAdministratorName method [Security]","AddPolicyAdministratorName method [Security]","AzApplication object","AddPolicyAdministratorName method [Security]","IAzApplication interface","AzApplication object [Security]","AddPolicyAdministratorName method","IAzApplication interface [Security]","AddPolicyAdministratorName method","IAzApplication.AddPolicyAdministratorName","IAzApplication::AddPolicyAdministratorName","azroles/IAzApplication::AddPolicyAdministratorName","security.iazapplication_addpolicyadministratorname"]
 old-location: security\iazapplication_addpolicyadministratorname.htm
 tech.root: security

@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFVideoProcessorControl2
 title: IMFVideoProcessorControl2 (mfidl.h)
-description: Configures the Video Processor MFT.
+description: Configures the Video Processor MFT. (IMFVideoProcessorControl2)
 helpviewer_keywords: ["IMFVideoProcessorControl2","IMFVideoProcessorControl2 interface [Media Foundation]","IMFVideoProcessorControl2 interface [Media Foundation]","described","mf.imfvideoprocessorcontrol2","mfidl/IMFVideoProcessorControl2"]
 old-location: mf\imfvideoprocessorcontrol2.htm
 tech.root: mf
@@ -54,10 +54,7 @@ Configures the <a href="/windows/desktop/medfound/video-processor-mft">Video Pro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoProcessorControl2</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol">IMFVideoProcessorControl</a>. <b>IMFVideoProcessorControl2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFVideoProcessorControl2</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol">IMFVideoProcessorControl</a>. <b>IMFVideoProcessorControl2</b> also has these types of members:
 
 ## -remarks
 

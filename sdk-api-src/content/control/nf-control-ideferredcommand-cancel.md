@@ -53,7 +53,7 @@ api_name:
 
 The <code>Cancel</code> method cancels a command that the application previously queued.
 
-## -parameters
+
 
 ## -returns
 

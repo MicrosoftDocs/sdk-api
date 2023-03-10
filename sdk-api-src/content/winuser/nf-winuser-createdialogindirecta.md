@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CreateDialogIndirectA
 title: CreateDialogIndirectA macro (winuser.h)
-description: Creates a modeless dialog box from a dialog box template in memory. The CreateDialogIndirect macro uses the CreateDialogIndirectParam function.
-helpviewer_keywords: ["CreateDialogIndirect","CreateDialogIndirect function [Dialog Boxes]","CreateDialogIndirectA","CreateDialogIndirectW","_win32_CreateDialogIndirect","_win32_createdialogindirect_cpp","dlgbox.createdialogindirect","winui._win32_createdialogindirect","winuser/CreateDialogIndirect","winuser/CreateDialogIndirectA","winuser/CreateDialogIndirectW"]
+description: Creates a modeless dialog box from a dialog box template in memory. The CreateDialogIndirect macro uses the CreateDialogIndirectParam function. (ANSI)
+helpviewer_keywords: ["CreateDialogIndirectA", "winuser/CreateDialogIndirectA"]
 old-location: dlgbox\createdialogindirect.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialogindirect.htm

@@ -1,8 +1,8 @@
 ---
 UID: NF:windns.DnsQuery_A
 title: DnsQuery_A function (windns.h)
-description: Is the generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface.
-helpviewer_keywords: ["DnsQuery","DnsQuery function [DNS]","DnsQuery_A","DnsQuery_UTF8","DnsQuery_W","_dns_dnsquery","dns.dnsquery","windns/DnsQuery","windns/DnsQuery_A","windns/DnsQuery_UTF8","windns/DnsQuery_W"]
+description: Is the generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface. (DnsQuery_A)
+helpviewer_keywords: ["DnsQuery", "DnsQuery function [DNS]", "DnsQuery_A", "_dns_dnsquery", "dns.dnsquery", "windns/DnsQuery", "windns/DnsQuery_A"]
 old-location: dns\dnsquery.htm
 tech.root: DNS
 ms.assetid: 3d810b76-cea1-4904-9b5a-c2566b332c2c
@@ -61,7 +61,7 @@ The
 <li><b>DnsQuery_A</b> (for ANSI encoding)</li>
 <li><b>DnsQuery_W</b> (for Unicode encoding)</li>
 <li><b>DnsQuery_UTF8</b> (for UTF-8 encoding)</li>
-</ul>Windows 8: The <a href="/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a> function should be used if an application requires asynchronous querries to the DNS namespace.
+</ul>Windows 8: The <a href="/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a> function should be used if an application requires asynchronous queries to the DNS namespace.
 
 ## -parameters
 

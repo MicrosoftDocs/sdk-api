@@ -1,7 +1,7 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.GetGamerAccount
 title: IXblIdpAuthManager::GetGamerAccount (xblidpauthmanager.h)
-description: Reserved for Microsoft use.
+description: Reserved for Microsoft use. (IXblIdpAuthManager.GetGamerAccount)
 helpviewer_keywords: ["GetGamerAccount","GetGamerAccount method","GetGamerAccount method","IXblIdpAuthManager interface","IXblIdpAuthManager interface","GetGamerAccount method","IXblIdpAuthManager.GetGamerAccount","IXblIdpAuthManager::GetGamerAccount","xblidp.ixblidpauthmanager_getgameraccount","xblidpauthmanager/IXblIdpAuthManager::GetGamerAccount"]
 old-location: xblidp\ixblidpauthmanager_getgameraccount.htm
 tech.root: xblidp
@@ -66,7 +66,7 @@ Type: <b>__RPC__deref_out_opt_string*</b>
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

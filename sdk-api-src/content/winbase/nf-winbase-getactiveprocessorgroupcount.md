@@ -54,7 +54,7 @@ api_name:
 
 Returns the number of active processor groups in the system.
 
-## -parameters
+
 
 ## -returns
 

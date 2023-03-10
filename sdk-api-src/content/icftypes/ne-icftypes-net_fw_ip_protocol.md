@@ -60,15 +60,15 @@ The
 
 ## -enum-fields
 
-### -field NET_FW_IP_PROTOCOL_TCP
+### -field NET_FW_IP_PROTOCOL_TCP:6
 
 Transmission Control Protocol.
 
-### -field NET_FW_IP_PROTOCOL_UDP
+### -field NET_FW_IP_PROTOCOL_UDP:17
 
 User Datagram Protocol.
 
-### -field NET_FW_IP_PROTOCOL_ANY
+### -field NET_FW_IP_PROTOCOL_ANY:256
 
 ## -see-also
 

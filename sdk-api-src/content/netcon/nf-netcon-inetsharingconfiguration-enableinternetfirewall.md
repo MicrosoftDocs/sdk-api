@@ -55,7 +55,7 @@ api_name:
 The 
 <b>EnableInternetFirewall</b> methods enables Internet Connection Firewall on this connection.
 
-## -parameters
+
 
 ## -returns
 

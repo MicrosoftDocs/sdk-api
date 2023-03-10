@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_60
+UID: NE:webservices.WS_PROTECTION_LEVEL
 title: WS_PROTECTION_LEVEL (webservices.h)
 description: Defines the required integrity and confidentiality levels for sent and received messages.
 helpviewer_keywords: ["WS_PROTECTION_LEVEL","WS_PROTECTION_LEVEL enumeration [Web Services for Windows]","WS_PROTECTION_LEVEL_NONE","WS_PROTECTION_LEVEL_SIGN","WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT","webservices/WS_PROTECTION_LEVEL","webservices/WS_PROTECTION_LEVEL_NONE","webservices/WS_PROTECTION_LEVEL_SIGN","webservices/WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT","wsw.ws_protection_level"]
@@ -59,15 +59,15 @@ transport and mixed-mode security.
 
 ## -enum-fields
 
-### -field WS_PROTECTION_LEVEL_NONE
+### -field WS_PROTECTION_LEVEL_NONE:1
 
 No signing or encryption.
 
-### -field WS_PROTECTION_LEVEL_SIGN
+### -field WS_PROTECTION_LEVEL_SIGN:2
 
 Only signing.
 
-### -field WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT
+### -field WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT:3
 
 Signing and encryption.
 

@@ -5,7 +5,7 @@ title: SetThreadSelectedCpuSetMasks
 ms.date: 03/12/2021
 ms.topic: language-reference
 targetos: Windows
-description: Sets the selected CPU Sets assignment for the specified thread. This assignment overrides the process default assignment, if one is set.
+description: Sets the selected CPU Sets assignment for the specified thread. This assignment overrides the process default assignment, if one is set. (SetThreadSelectedCpuSetMasks)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 11
+req.target-min-winversvr: Windows Server 2022
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

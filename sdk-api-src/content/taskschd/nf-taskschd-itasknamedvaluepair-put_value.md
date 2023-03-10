@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ITaskNamedValuePair.put_Value
 title: ITaskNamedValuePair::put_Value (taskschd.h)
-description: Gets or sets the value that is associated with a name in a name-value pair.
+description: Gets or sets the value that is associated with a name in a name-value pair. (Put)
 helpviewer_keywords: ["ITaskNamedValuePair interface [Task Scheduler]","Value property","ITaskNamedValuePair.Value","ITaskNamedValuePair.put_Value","ITaskNamedValuePair::Value","ITaskNamedValuePair::get_Value","ITaskNamedValuePair::put_Value","Value property [Task Scheduler]","Value property [Task Scheduler]","ITaskNamedValuePair interface","put_Value","taskschd.itasknamedvaluepair_value","taskschd/ITaskNamedValuePair::Value","taskschd/ITaskNamedValuePair::get_Value","taskschd/ITaskNamedValuePair::put_Value"]
 old-location: taskschd\itasknamedvaluepair_value.htm
 tech.root: taskschd

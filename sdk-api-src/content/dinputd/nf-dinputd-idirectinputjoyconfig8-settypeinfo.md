@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::SetTypeInfo </b>method creates a new joystick type or redefines information about an existing joystick type.
+The <b>IDirectInputJoyConfig8::SetTypeInfo </b> method creates a new joystick type or redefines information about an existing joystick type.
 
 ## -parameters
 

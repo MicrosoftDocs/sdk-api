@@ -1,7 +1,7 @@
 ---
 UID: NF:directxpackedvector.XMBYTEN4.XMBYTEN4(constXMBYTEN4&)
 title: XMBYTEN4::XMBYTEN4(const XMBYTEN4 &) (directxpackedvector.h)
-description: A constructor for XMBYTEN4.
+description: A constructor for XMBYTEN4. (overload 2/2)
 helpviewer_keywords: ["XMBYTEN4","XMBYTEN4 constructor [DirectX Math Support APIs]","XMBYTEN4 constructor [DirectX Math Support APIs]","XMBYTEN4 structure","XMBYTEN4 structure [DirectX Math Support APIs]","XMBYTEN4 constructor","XMBYTEN4.XMBYTEN4","XMBYTEN4.XMBYTEN4()","XMBYTEN4.XMBYTEN4(const XMBYTEN4 &)","XMBYTEN4::XMBYTEN4","XMBYTEN4::XMBYTEN4(const XMBYTEN4 &)","dxmath.xmbyten4_ctor_1"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMBYTEN4, XMBYTEN4 constructor [DirectX Math Support APIs], XMBYTEN
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

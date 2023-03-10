@@ -1,8 +1,8 @@
 ---
 UID: NF:oledlg.OleUIInsertObjectW
 title: OleUIInsertObjectW function (oledlg.h)
-description: Invokes the standard Insert Object dialog box, which allows the user to select an object source and class name, as well as the option of displaying the object as itself or as an icon.
-helpviewer_keywords: ["OleUIInsertObject","OleUIInsertObject function [COM]","OleUIInsertObjectA","OleUIInsertObjectW","_ole_OleUIInsertObject","com.oleuiinsertobject","oledlg/OleUIInsertObject","oledlg/OleUIInsertObjectA","oledlg/OleUIInsertObjectW"]
+description: Invokes the standard Insert Object dialog box, which allows the user to select an object source and class name, as well as the option of displaying the object as itself or as an icon. (Unicode)
+helpviewer_keywords: ["OleUIInsertObject", "OleUIInsertObject function [COM]", "OleUIInsertObjectW", "_ole_OleUIInsertObject", "com.oleuiinsertobject", "oledlg/OleUIInsertObject", "oledlg/OleUIInsertObjectW"]
 old-location: com\oleuiinsertobject.htm
 tech.root: com
 ms.assetid: f0ca8c0d-2538-4197-a830-d5ffb9f8b635
@@ -445,7 +445,9 @@ By default, <b>OleUIInsertObject</b> does not validate object servers, however, 
 
 To free an <b>HMETAFILEPICT</b> returned from the <b>Insert Object</b> or <b>Paste Special</b> dialog box, delete the attached metafile on the handle, as follows:
 
-<pre class="syntax" xml:space="preserve"><code>void FreeHmetafilepict(HMETAFILEPICT hmfp) 
+
+``` syntax
+void FreeHmetafilepict(HMETAFILEPICT hmfp) 
 { 
     if (hmfp != NULL) 
         { 
@@ -461,7 +463,9 @@ To free an <b>HMETAFILEPICT</b> returned from the <b>Insert Object</b> or <b>Pas
         exit(0);
         }
 } 
-</code></pre>
+
+```
+
 
 
 

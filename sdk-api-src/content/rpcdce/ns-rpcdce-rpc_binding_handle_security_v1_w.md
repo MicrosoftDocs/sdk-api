@@ -1,7 +1,7 @@
 ---
 UID: NS:rpcdce._RPC_BINDING_HANDLE_SECURITY_V1_W
 title: RPC_BINDING_HANDLE_SECURITY_V1_W (rpcdce.h)
-description: Contains the basic security options with which to create an RPC binding handle.
+description: Contains the basic security options with which to create an RPC binding handle. (Unicode)
 helpviewer_keywords: ["*PRPC_BINDING_HANDLE_SECURITY_V1_W","RPC_BINDING_HANDLE_SECURITY","RPC_BINDING_HANDLE_SECURITY structure [RPC]","RPC_BINDING_HANDLE_SECURITY_V1","RPC_BINDING_HANDLE_SECURITY_V1 structure [RPC]","RPC_BINDING_HANDLE_SECURITY_V1_A","RPC_BINDING_HANDLE_SECURITY_V1_W","_RPC_BINDING_HANDLE_SECURITY_V1_A","_RPC_BINDING_HANDLE_SECURITY_V1_W","rpc.rpc_binding_handle_security_v1","rpcdce/RPC_BINDING_HANDLE_SECURITY","rpcdce/RPC_BINDING_HANDLE_SECURITY_V1"]
 old-location: rpc\rpc_binding_handle_security_v1.htm
 tech.root: Rpc

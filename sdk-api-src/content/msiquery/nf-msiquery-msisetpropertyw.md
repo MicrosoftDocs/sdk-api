@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiSetPropertyW
 title: MsiSetPropertyW function (msiquery.h)
-description: The MsiSetProperty function sets the value for an installation property.
-helpviewer_keywords: ["MsiSetProperty","MsiSetProperty function","MsiSetPropertyA","MsiSetPropertyW","_msi_msisetproperty","msiquery/MsiSetProperty","msiquery/MsiSetPropertyA","msiquery/MsiSetPropertyW","setup.msisetproperty"]
+description: The MsiSetProperty function sets the value for an installation property. (Unicode)
+helpviewer_keywords: ["MsiSetProperty", "MsiSetProperty function", "MsiSetPropertyW", "_msi_msisetproperty", "msiquery/MsiSetProperty", "msiquery/MsiSetPropertyW", "setup.msisetproperty"]
 old-location: setup\msisetproperty.htm
 tech.root: setup
 ms.assetid: f6376a19-579a-4e25-8ab6-bb66c623dd25

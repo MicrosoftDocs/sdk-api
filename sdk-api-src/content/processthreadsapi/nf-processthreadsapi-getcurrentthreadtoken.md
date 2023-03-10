@@ -52,7 +52,7 @@ api_name:
 
 Retrieves a pseudo-handle that you can use as a shorthand way to refer to the <a href="/windows/desktop/SecGloss/i-gly">impersonation token</a> that was assigned to the current thread.
 
-## -parameters
+
 
 ## -returns
 

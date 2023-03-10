@@ -114,7 +114,9 @@ One or more parameters are invalid.
 
 An application can determine if a key event will be handled by the keystroke manager with this method. If this method is successful and <i>pfEaten</i> receives <b>TRUE</b>, the application should call <a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-keydown">ITfKeystrokeMgr::KeyDown</a>. If this method does not return S_OK or <i>pfEaten</i> receives <b>FALSE</b>, the application should not call <b>ITfKeystrokeMgr::KeyDown</b> . The following is an example of how this is implemented.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 if(msg.message == WM_KEYDOWN)
 {
     if( pKeyboardMgr-&gt;TestKeyDown(msg.wParam, msg.lParam, &amp;fEaten) == S_OK 
@@ -130,25 +132,16 @@ if(msg.message == WM_KEYDOWN)
         //Let the application process the key. 
     }
 }
-</code></pre>
+
+```
+
 If the keystroke manager does not handle the key event, it passes the key event to the TSF text services by calling the text service <a href="/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-ontestkeydown">ITfKeyEventSink::OnTestKeyDown</a> method.
 
 ## -see-also
 
-<a href="/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-ontestkeydown">ITfKeyEventSink::OnTestKeyDown</a>
-
-
-
-<a href="/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
-
-
-
-<a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-keydown">ITfKeystrokeMgr::KeyDown</a>
-
-
-
-<a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-testkeyup">ITfKeystrokeMgr::TestKeyUp</a>
-
-
-
-<a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
+- <a href="/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-ontestkeydown">ITfKeyEventSink::OnTestKeyDown</a>
+- <a href="/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
+- <a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-keydown">ITfKeystrokeMgr::KeyDown</a>
+- <a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-testkeyup">ITfKeystrokeMgr::TestKeyUp</a>
+- <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
+- <a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>

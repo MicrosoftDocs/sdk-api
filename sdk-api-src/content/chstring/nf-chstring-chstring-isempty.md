@@ -61,7 +61,7 @@ api_name:
 
 The <b>IsEmpty</b> method tests a <a href="/windows/desktop/WmiSdk/chstring">CHString</a> string for the empty condition.
 
-## -parameters
+
 
 ## -returns
 

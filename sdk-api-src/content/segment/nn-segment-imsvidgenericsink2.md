@@ -58,9 +58,9 @@ The <b>IMSVidGenericSink2</b> interface represents a generic output device that 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidGenericSink2</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidgenericsink">IMSVidGenericSink</a>. <b>IMSVidGenericSink2</b> also has these types of members:
+The <b>IMSVidGenericSink2</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidgenericsink">IMSVidGenericSink</a>. <b>IMSVidGenericSink2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

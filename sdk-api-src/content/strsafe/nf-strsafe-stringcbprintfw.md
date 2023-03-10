@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCbPrintfW
 title: StringCbPrintfW function (strsafe.h)
-description: Writes formatted data to the specified string.
-helpviewer_keywords: ["StringCbPrintf","StringCbPrintf function [Menus and Other Resources]","StringCbPrintfA","StringCbPrintfW","_shell_StringCbPrintf","_shell_stringcbprintf_cpp","menurc.stringcbprintf","strsafe/StringCbPrintf","strsafe/StringCbPrintfA","strsafe/StringCbPrintfW","winui._shell_stringcbprintf"]
+description: Writes formatted data to the specified string. (StringCbPrintfW)
+helpviewer_keywords: ["StringCbPrintf", "StringCbPrintf function [Menus and Other Resources]", "StringCbPrintfW", "_shell_StringCbPrintf", "_shell_stringcbprintf_cpp", "menurc.stringcbprintf", "strsafe/StringCbPrintf", "strsafe/StringCbPrintfW", "winui._shell_stringcbprintf"]
 old-location: menurc\stringcbprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbprintf.htm
@@ -142,7 +142,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-Compared to  the functions it replaces, <b>StringCbPrintf</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbPrintf</b>always null-terminates a nonzero-length destination buffer.
+Compared to  the functions it replaces, <b>StringCbPrintf</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbPrintf</b> always null-terminates a nonzero-length destination buffer.
 
 Behavior is undefined if the strings pointed to by <i>pszDest</i>, <i>pszFormat</i>, or any argument strings overlap.
 

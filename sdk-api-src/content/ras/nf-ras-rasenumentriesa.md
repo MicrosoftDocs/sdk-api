@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasEnumEntriesA
 title: RasEnumEntriesA function (ras.h)
-description: The RasEnumEntries function lists all entry names in a remote access phone book.
-helpviewer_keywords: ["RasEnumEntries","RasEnumEntries function [RAS]","RasEnumEntriesA","RasEnumEntriesW","_ras_rasenumentries","ras/RasEnumEntries","ras/RasEnumEntriesA","ras/RasEnumEntriesW","rras.rasenumentries"]
+description: The RasEnumEntries function lists all entry names in a remote access phone book. (ANSI)
+helpviewer_keywords: ["RasEnumEntriesA", "ras/RasEnumEntriesA"]
 old-location: rras\rasenumentries.htm
 tech.root: RRAS
 ms.assetid: 9df7402f-c93e-45d4-925a-f2ce9d547bce
@@ -115,7 +115,7 @@ If the function fails, the return value is one of the following error codes or a
 </dl>
 </td>
 <td width="60%">
-The <i>lprasentryname</i> buffer is not large enough. The <i>lpcb</i>parameter is less than the <b>dwSize</b> member in the <i>lprasentryname</i>parameter which should be set prior to calling the function. The function returns the required buffer size in the variable pointed to by <i>lpcb</i>.
+The <i>lprasentryname</i> buffer is not large enough. The <i>lpcb</i> parameter is less than the <b>dwSize</b> member in the <i>lprasentryname</i> parameter which should be set prior to calling the function. The function returns the required buffer size in the variable pointed to by <i>lpcb</i>.
 
 <b>Windows Vista or later:  </b>The <i>lprasentryname</i> buffer may be set to <b>NULL</b> and the variable pointed to by <i>lpcb</i> may be set to zero. The function will return the required buffer size in the variable pointed to by <i>lpcb</i>.
 

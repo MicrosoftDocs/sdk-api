@@ -60,12 +60,12 @@ Receives the stream content code.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
 For a list of content codes associated with the value returned in the <i>pbVal</i>  parameter, see Table 26 in Section 6.2.9 of the DVB standards document,  
-      <a href="https://docs.microsoft.com/">Digital Video Broadcasting Specification for Service Information (SI) in DVB systems</a>.
+      <a href="/">Digital Video Broadcasting Specification for Service Information (SI) in DVB systems</a>.
 
 ## -see-also
 

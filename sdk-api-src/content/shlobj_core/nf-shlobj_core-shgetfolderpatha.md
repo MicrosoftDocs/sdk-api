@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.SHGetFolderPathA
 title: SHGetFolderPathA function (shlobj_core.h)
-description: Deprecated.
+description: Deprecated. (SHGetFolderPathA)
 old-location: shell\SHGetFolderPath.htm
 tech.root: shell
 ms.assetid: a240abc0-e0a6-4f95-8e74-7dc410970212
@@ -126,7 +126,7 @@ A pointer to a <b>null</b>-terminated string of length MAX_PATH which will recei
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

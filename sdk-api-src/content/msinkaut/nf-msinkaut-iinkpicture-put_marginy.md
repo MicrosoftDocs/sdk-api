@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_MarginY
 title: IInkPicture::put_MarginY (msinkaut.h)
-description: Gets or sets the y-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window.
+description: Gets or sets the y-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window. (IInkPicture.put_MarginY)
 helpviewer_keywords: ["IInkPicture interface [Tablet PC]","MarginY property","IInkPicture.MarginY","IInkPicture.put_MarginY","IInkPicture::MarginY","IInkPicture::get_MarginY","IInkPicture::put_MarginY","InkPicture.get_MarginY","InkPicture.put_MarginY","MarginY property [Tablet PC]","MarginY property [Tablet PC]","IInkPicture interface","get_MarginY","msinkaut/IInkPicture::MarginY","msinkaut/IInkPicture::get_MarginY","msinkaut/IInkPicture::put_MarginY","put_MarginY","tablet.inkpicture_marginy"]
 old-location: tablet\inkpicture_marginy.htm
 tech.root: tablet

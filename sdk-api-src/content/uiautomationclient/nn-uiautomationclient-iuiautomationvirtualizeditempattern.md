@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationVirtualizedItemPattern
 title: IUIAutomationVirtualizedItemPattern (uiautomationclient.h)
-description: Represents an virtualized item, which is an item that is represented by a placeholder automation element in the Microsoft UI Automation tree.
+description: Represents a virtualized item, which is an item that is represented by a placeholder automation element in the Microsoft UI Automation tree.
 helpviewer_keywords: ["IUIAutomationVirtualizedItemPattern","IUIAutomationVirtualizedItemPattern interface [Windows Accessibility]","IUIAutomationVirtualizedItemPattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationVirtualizedItemPattern","uiauto_IUIAutomationVirtualizedItemPattern","uiautomationclient/IUIAutomationVirtualizedItemPattern","winauto.uiauto_IUIAutomationVirtualizedItemPattern"]
 old-location: winauto\uiauto_IUIAutomationVirtualizedItemPattern.htm
 tech.root: WinAuto
@@ -50,14 +50,11 @@ api_name:
 
 ## -description
 
-Represents an virtualized item, which is an item that is represented by a placeholder automation element in the Microsoft UI Automation tree.
+Represents a virtualized item, which is an item that is represented by a placeholder automation element in the Microsoft UI Automation tree.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationVirtualizedItemPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationVirtualizedItemPattern</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IUIAutomationVirtualizedItemPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationVirtualizedItemPattern</b> also has these types of members:
 
 ## -remarks
 

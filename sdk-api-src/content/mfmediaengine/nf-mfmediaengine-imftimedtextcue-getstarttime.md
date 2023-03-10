@@ -52,7 +52,7 @@ api_name:
 
 Gets the start time of the cue in the track.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Gets the string length of the tag name.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.SHLocalStrDupW
 title: SHLocalStrDupW function (shlwapi.h)
-description: Makes a copy of a string in newly allocated memory.
-helpviewer_keywords: ["SHLocalStrDup","SHLocalStrDup function [Windows Shell]","SHLocalStrDupA","SHLocalStrDupW","_shell_SHLocalStrDup","shell.SHLocalStrDup","shlwapi/SHLocalStrDup","shlwapi/SHLocalStrDupA","shlwapi/SHLocalStrDupW"]
+description: Makes a copy of a string in newly allocated memory. (SHLocalStrDupW)
+helpviewer_keywords: ["SHLocalStrDup", "SHLocalStrDup function [Windows Shell]", "SHLocalStrDupW", "_shell_SHLocalStrDup", "shell.SHLocalStrDup", "shlwapi/SHLocalStrDup", "shlwapi/SHLocalStrDupW"]
 old-location: shell\SHLocalStrDup.htm
 tech.root: shell
 ms.assetid: 79da6160-b1b1-41c3-9b21-229aadf251dd
@@ -72,7 +72,7 @@ The address of a pointer to an allocated string that, when this function returns
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

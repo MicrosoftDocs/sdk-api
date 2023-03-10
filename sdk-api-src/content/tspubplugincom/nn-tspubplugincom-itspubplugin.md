@@ -56,11 +56,7 @@ Resources that can be exposed through <b>ItsPubPlugin</b> typically include Remo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ItsPubPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ItsPubPlugin</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>ItsPubPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ItsPubPlugin</b> also has these types of members:
 
 ## -remarks
 
@@ -68,7 +64,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ItsPubPlugin</b> interface in
 
 <ol>
 <li>Implement the plug-in in a DLL and register the DLL by using the Regsvr32.exe tool.</li>
-<li>Create a subkey named for the CLSID of the DLL under the following key:<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<li>Create a subkey named for the CLSID of the DLL under the following key:<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows NT</b>

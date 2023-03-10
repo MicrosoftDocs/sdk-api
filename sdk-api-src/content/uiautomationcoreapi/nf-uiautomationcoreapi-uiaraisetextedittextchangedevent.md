@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseTextEditTextChangedEvent
 title: UiaRaiseTextEditTextChangedEvent function (uiautomationcoreapi.h)
-description: Called by a provider to notify the Microsoft UI Automation core that a text control has programmatically changed text.
+description: Called by a provider to notify the Microsoft UI Automation core that a text control has programmatically changed text. (UiaRaiseTextEditTextChangedEvent)
 helpviewer_keywords: ["UiaRaiseTextEditTextChangedEvent","UiaRaiseTextEditTextChangedEvent function [Windows Accessibility]","uiautomationcoreapi/UiaRaiseTextEditTextChangedEvent","winauto.uiauto_UiaRaiseTextEditTextChangedEventFunction"]
 old-location: winauto\uiauto_UiaRaiseTextEditTextChangedEventFunction.htm
 tech.root: WinAuto
@@ -77,7 +77,7 @@ The event data. Should be assignable as a <b>VAR</b> of type <b>VT_BSTR</b>.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

@@ -1,12 +1,12 @@
 ---
 UID: NF:winldap.ldap_initW
 title: ldap_initW function (winldap.h)
-description: Initializes a session with an LDAP server.
-helpviewer_keywords: ["_ldap_ldap_init","ldap.ldap__init","ldap.ldap_init","ldap_init","ldap_init function [LDAP]","ldap_initA","ldap_initW","winldap/ldap_init","winldap/ldap_initA","winldap/ldap_initW"]
+description: The ldap_initW (Unicode) function (winldap.h) initializes a session with an LDAP server. 
+helpviewer_keywords: ["_ldap_ldap_init", "ldap.ldap__init", "ldap.ldap_init", "ldap_init", "ldap_init function [LDAP]", "ldap_initW", "winldap/ldap_init", "winldap/ldap_initW"]
 old-location: ldap\ldap_init.htm
 tech.root: ldap
 ms.assetid: c0aa5a9e-ed46-42fb-9c02-728afea51505
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _ldap_ldap_init, ldap.ldap__init, ldap.ldap_init, ldap_init, ldap_init function [LDAP], ldap_initA, ldap_initW, winldap/ldap_init, winldap/ldap_initA, winldap/ldap_initW
 req.header: winldap.h
 req.include-header: 

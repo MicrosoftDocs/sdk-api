@@ -4,7 +4,7 @@ title: Wtypes.h header
 ms.assetid: aba348b1-6708-3974-997a-5f118bf78bc9
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: automat
 f1_keywords:
  - wtypes
@@ -16,7 +16,11 @@ f1_keywords:
 
 ## -description
 
-This header is used by Automation. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Automation](../_automat/index.md)
+- [Component Object Model (COM)](../_com/index.md)
+- [Developer Notes](../_winprog/index.md)
+- [Structured Storage](../_stg/index.md)
+- [Windows Property System](../_properties/index.md)
 

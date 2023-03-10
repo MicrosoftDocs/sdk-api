@@ -56,13 +56,13 @@ Specifies the OS-provided adapter memory budget, in bytes, that your application
 
 Type: **uint64_t**
 
-Specifies your applicaton's current adapter memory usage, in bytes.
+Specifies your application's current adapter memory usage, in bytes.
 
 ### -field availableForReservation
 
 Type: **uint64_t**
 
-Specifies the amount of adapter memory, in bytes, that your application has available for reservation. To reserve this adapter memory, your application should call [IDXCoreAdapter::SetState](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate) with *state* set to [DXCoreAdapterState::AdapterMemoryBudget](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate).
+Specifies the amount of adapter memory, in bytes, that your application has available for reservation. To reserve this adapter memory, your application should call [IDXCoreAdapter::SetState](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate) with *state* set to [DXCoreAdapterState::AdapterMemoryBudget](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate).
 
 ### -field availableForReservation
 

@@ -109,7 +109,7 @@ To support hit detection on non-rectangular objects, the container needs a relia
      <b>IViewObjectEx::QueryHitPoint</b>.
 
 <div class="alert"><b>Note</b>  Because this method is part of the <a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a> 
-     interface, the container can figure whether an mouse hit is over an object without having to necessarily launch 
+     interface, the container can figure whether a mouse hit is over an object without having to necessarily launch 
      the server. If the hit happens to be inside the object, then it is likely that the object will be in-place 
      activated and the server started.</div>
 <div> </div>

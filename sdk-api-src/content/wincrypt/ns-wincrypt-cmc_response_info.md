@@ -1,7 +1,7 @@
 ---
 UID: NS:wincrypt._CMC_RESPONSE_INFO
 title: CMC_RESPONSE_INFO (wincrypt.h)
-description: Provides a means of communicating different pieces of tagged information.
+description: Provides a means of communicating different pieces of tagged information. (CMC_RESPONSE_INFO)
 helpviewer_keywords: ["*PCMC_RESPONSE_INFO","CMC_RESPONSE_INFO","CMC_RESPONSE_INFO structure [Security]","PCMC_RESPONSE_INFO","PCMC_RESPONSE_INFO structure pointer [Security]","_crypto2_cmc_response_info","security.cmc_response_info","wincrypt/CMC_RESPONSE_INFO","wincrypt/PCMC_RESPONSE_INFO"]
 old-location: security\cmc_response_info.htm
 tech.root: security

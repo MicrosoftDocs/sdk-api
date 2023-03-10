@@ -53,7 +53,7 @@ api_name:
 
 The <b>LinearGradientBrush::GetInterpolationColorCount</b> method gets the number of colors currently set to be interpolated for this linear gradient brush.
 
-## -parameters
+
 
 ## -returns
 

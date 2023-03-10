@@ -62,7 +62,7 @@ Instance of <code>XMBYTE2</code> used to update the current <code>XMBYTE2</code>
 ## -returns
 
 The current instance of <code>XMBYTE2</code> whose vector component data has been updated
-	    to match those of the <code>XMBYTE2</code> instance specified by the <b>Byte2</b>argument.
+	    to match those of the <code>XMBYTE2</code> instance specified by the <b>Byte2</b> argument.
 
 ## -see-also
 

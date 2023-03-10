@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMF2DBuffer2
 title: IMF2DBuffer2 (mfobjects.h)
-description: Represents a buffer that contains a two-dimensional surface, such as a video frame.
+description: Represents a buffer that contains a two-dimensional surface, such as a video frame. (IMF2DBuffer2)
 helpviewer_keywords: ["IMF2DBuffer2","IMF2DBuffer2 interface [Media Foundation]","IMF2DBuffer2 interface [Media Foundation]","described","mf.imf2dbuffer2","mfobjects/IMF2DBuffer2"]
 old-location: mf\imf2dbuffer2.htm
 tech.root: mf
@@ -54,10 +54,7 @@ Represents a buffer that contains a two-dimensional surface, such as a video fra
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMF2DBuffer2</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>. <b>IMF2DBuffer2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMF2DBuffer2</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>. <b>IMF2DBuffer2</b> also has these types of members:
 
 ## -remarks
 

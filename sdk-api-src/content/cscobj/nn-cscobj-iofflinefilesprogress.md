@@ -1,7 +1,7 @@
 ---
 UID: NN:cscobj.IOfflineFilesProgress
 title: IOfflineFilesProgress (cscobj.h)
-description: Used to report progress back to callers of lengthy Offline Files operations.
+description: Used to report progress back to callers of lengthy Offline Files operations. (IOfflineFilesProgress)
 helpviewer_keywords: ["IOfflineFilesProgress","IOfflineFilesProgress interface [Offline Files]","IOfflineFilesProgress interface [Offline Files]","described","cscobj/IOfflineFilesProgress","of.iofflinefilesprogress"]
 old-location: of\iofflinefilesprogress.htm
 tech.root: of
@@ -55,10 +55,7 @@ Used to report progress back to callers of lengthy Offline Files operations. Thi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesProgress</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IOfflineFilesProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesProgress</b> also has these types of members:
 
 ## -see-also
 

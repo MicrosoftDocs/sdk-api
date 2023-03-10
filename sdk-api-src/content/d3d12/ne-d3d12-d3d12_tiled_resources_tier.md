@@ -54,7 +54,7 @@ Identifies the tier level at which tiled resources are supported.
 
 ## -enum-fields
 
-### -field D3D12_TILED_RESOURCES_TIER_NOT_SUPPORTED
+### -field D3D12_TILED_RESOURCES_TIER_NOT_SUPPORTED:0
 
 Indicates that textures cannot be created with the <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_layout">D3D12_TEXTURE_LAYOUT_64KB_UNDEFINED_SWIZZLE</a> layout.
             
@@ -62,7 +62,7 @@ Indicates that textures cannot be created with the <a href="/windows/desktop/api
 
 <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createreservedresource">ID3D12Device::CreateReservedResource</a> cannot be used, not even for buffers.
 
-### -field D3D12_TILED_RESOURCES_TIER_1
+### -field D3D12_TILED_RESOURCES_TIER_1:1
 
 Indicates that 2D textures can be created with the D3D12_TEXTURE_LAYOUT_64KB_UNDEFINED_SWIZZLE layout.
               Limitations exist for certain resource formats and properties.
@@ -79,7 +79,7 @@ GPU reads or writes to NULL mappings are undefined.
 
 When the size of a texture mipmap level is an integer multiple of the standard tile shape for its format, it is guaranteed to be nonpacked.
 
-### -field D3D12_TILED_RESOURCES_TIER_2
+### -field D3D12_TILED_RESOURCES_TIER_2:2
 
 Indicates that a superset of Tier_1 functionality is supported, including this additional support:
             
@@ -98,11 +98,11 @@ Indicates that a superset of Tier_1 functionality is supported, including this a
 </ul>
 Adapters that support feature level 12_0 all support TIER_2 or greater.
 
-### -field D3D12_TILED_RESOURCES_TIER_3
+### -field D3D12_TILED_RESOURCES_TIER_3:3
 
 Indicates that a superset of Tier 2 is supported, with the addition that 3D textures (<a href="/windows/desktop/direct3d12/volume-tiled-resources">Volume Tiled Resources</a>) are supported.
 
-### -field D3D12_TILED_RESOURCES_TIER_4
+### -field D3D12_TILED_RESOURCES_TIER_4:4
 
 ## -remarks
 

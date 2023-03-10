@@ -1,12 +1,12 @@
 ---
 UID: NS:immdev.tagREGISTERWORDA
 title: REGISTERWORDA (immdev.h)
-description: Contains reading information or a word to register.
+description: The REGISTERWORDA (ANSI) structure (immdev.h) contains reading information or a word to register. 
 helpviewer_keywords: ["*LPREGISTERWORDA","*NPREGISTERWORDA","*PREGISTERWORDA","PREGISTERWORD","PREGISTERWORD structure pointer [Internationalization for Windows Applications]","REGISTERWORD","REGISTERWORD structure [Internationalization for Windows Applications]","REGISTERWORDA","REGISTERWORDW","_win32_REGISTERWORD_str","imm/PREGISTERWORD","imm/REGISTERWORD","imm/REGISTERWORDA","imm/REGISTERWORDW","intl.registerword","tagREGISTERWORDA","tagREGISTERWORDW"]
 old-location: intl\registerword.htm
 tech.root: Intl
 ms.assetid: 70a11a96-a0e3-4741-be91-b85eb38cd767
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*LPREGISTERWORDA, *NPREGISTERWORDA, *PREGISTERWORDA, PREGISTERWORD, PREGISTERWORD structure pointer [Internationalization for Windows Applications], REGISTERWORD, REGISTERWORD structure [Internationalization for Windows Applications], REGISTERWORDA, REGISTERWORDW, _win32_REGISTERWORD_str, imm/PREGISTERWORD, imm/REGISTERWORD, imm/REGISTERWORDA, imm/REGISTERWORDW, intl.registerword, tagREGISTERWORDA, tagREGISTERWORDW'
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

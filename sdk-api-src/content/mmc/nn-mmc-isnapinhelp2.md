@@ -1,7 +1,7 @@
 ---
 UID: NN:mmc.ISnapinHelp2
 title: ISnapinHelp2 (mmc.h)
-description: Allows snap-ins to add HTML Help support.
+description: Allows snap-ins to add HTML Help support. (ISnapinHelp2)
 helpviewer_keywords: ["ISnapinHelp2","ISnapinHelp2 interface [MMC]","ISnapinHelp2 interface [MMC]","described","_slate_isnapinhelp2","mmc.isnapinhelp2","mmc/ISnapinHelp2"]
 old-location: mmc\isnapinhelp2.htm
 tech.root: mmc
@@ -65,10 +65,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISnapinHelp2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISnapinHelp2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISnapinHelp2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISnapinHelp2</b> also has these types of members:
 
 ## -see-also
 

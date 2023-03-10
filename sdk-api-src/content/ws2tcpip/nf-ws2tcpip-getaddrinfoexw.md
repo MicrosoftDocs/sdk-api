@@ -1,8 +1,8 @@
 ---
 UID: NF:ws2tcpip.GetAddrInfoExW
 title: GetAddrInfoExW function (ws2tcpip.h)
-description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request.
-helpviewer_keywords: ["GetAddrInfoEx","GetAddrInfoEx function [Winsock]","GetAddrInfoExA","GetAddrInfoExW","NS_ALL","NS_BTH","NS_DNS","NS_EMAIL","NS_NETBT","NS_NLA","NS_NTDS","NS_PNRPCLOUD","NS_PNRPNAME","NS_WINS","winsock.getaddrinfoex","ws2tcpip/GetAddrInfoEx","ws2tcpip/GetAddrInfoExA","ws2tcpip/GetAddrInfoExW"]
+description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request. (Unicode)
+helpviewer_keywords: ["GetAddrInfoEx", "GetAddrInfoEx function [Winsock]", "GetAddrInfoExW", "NS_ALL", "NS_BTH", "NS_DNS", "NS_EMAIL", "NS_NETBT", "NS_NLA", "NS_NTDS", "NS_PNRPCLOUD", "NS_PNRPNAME", "NS_WINS", "winsock.getaddrinfoex", "ws2tcpip/GetAddrInfoEx", "ws2tcpip/GetAddrInfoExW"]
 old-location: winsock\getaddrinfoex.htm
 tech.root: WinSock
 ms.assetid: cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39
@@ -376,7 +376,7 @@ There was insufficient memory to perform the operation.
 </td>
 <td width="60%">
 An address incompatible with the requested protocol was used. This error is returned if the <b>ai_family</b> member of the 
-			<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a>structure pointed to by the <i>pHints</i> parameter is not supported.
+			<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure pointed to by the <i>pHints</i> parameter is not supported.
 
 </td>
 </tr>
@@ -479,7 +479,7 @@ This is usually a temporary error during hostname resolution and means that the 
 </td>
 <td width="60%">
 The specified class was not found. The <i>pServiceName</i> parameter is not supported for the specified <b>ai_socktype</b> member of the 
-			<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a>structure pointed to by the <i>pHints</i> parameter.
+			<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure pointed to by the <i>pHints</i> parameter.
 
 </td>
 </tr>
@@ -518,7 +518,7 @@ Windows 7 with Service Pack 1 (SP1) and Windows Server 2008 R2 with Service 
 
 A hotfix is available for Windows 7 and Windows Server 2008 R2 that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address.  This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see <a href="https://support.microsoft.com/kb/2386184">Knowledge Base (KB) 2386184</a>.   
 
-A similar hotfix is also available for Windows Vista with Service Pack 2 (SP2) and Windows Server 2008 with Service Pack 2 (SP2) that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see <a href="https://support.microsoft.com/kb/975808">Knowledge Base (KB) 975808</a>. 
+A similar hotfix is also available for Windows Vista with Service Pack 2 (SP2) and Windows Server 2008 with Service Pack 2 (SP2) that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS. 
 
 
 Callers of the 
@@ -548,7 +548,7 @@ When <b>GetAddrInfoEx</b> is called from a service, if the operation is the resu
 
 
 The 
-<b>GetAddrInfoEx</b> function can be used to convert a text string representation of an IP address to an <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a>structure that contains a   <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure for the IP address and other information. To be used in this way, the string pointed to by the <i>pName</i> parameter must contain a text representation of an IP address and the <b>addrinfoex</b>structure pointed to by the <i>pHints</i> parameter must have the AI_NUMERICHOST flag set in the <b>ai_flags</b> member. The string pointed to by the <i>pName</i> parameter may contain a text representation of either an IPv4 or an IPv6 address. The text IP address is converted to an <b>addrinfoex</b>structure pointed to by the <i>ppResult</i> parameter. The returned <b>addrinfoex</b>structure contains a <b>sockaddr</b> structure for the IP address along with additional information about the IP address. 
+<b>GetAddrInfoEx</b> function can be used to convert a text string representation of an IP address to an <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure that contains a   <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure for the IP address and other information. To be used in this way, the string pointed to by the <i>pName</i> parameter must contain a text representation of an IP address and the <b>addrinfoex</b> structure pointed to by the <i>pHints</i> parameter must have the AI_NUMERICHOST flag set in the <b>ai_flags</b> member. The string pointed to by the <i>pName</i> parameter may contain a text representation of either an IPv4 or an IPv6 address. The text IP address is converted to an <b>addrinfoex</b> structure pointed to by the <i>ppResult</i> parameter. The returned <b>addrinfoex</b> structure contains a <b>sockaddr</b> structure for the IP address along with additional information about the IP address. 
 
 Multiple namespace providers may be installed on a local computer for the same namespace. For example, the base Windows TCP/IP networking software registers for the NS_DNS namespace. The Microsoft Forefront Threat Management Gateway (TMG) and the older Microsoft Internet Security and Acceleration (ISA) Server include Firewall Client software that also registers for the NS_DNS namespace. When the <i>dwNameSpace</i> parameter is set to a value (NS_DNS, for example) and the <i>lpNspId</i> parameter is <b>NULL</b>, the results returned by the <b>GetAddrInfoEx</b> function are the merged results from all namespace providers that register for the specified namespace with duplicate results eliminated. The <i>lpNspId</i> parameter should be set to the GUID of the specific namespace provider if only a single namespace provider is to be queried. 
 
@@ -1100,7 +1100,7 @@ The <a href="/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a> fu
 
 
 
-The <a href="/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a> function can be used to convert an IDN name to an ASCII form that then can be passed in the <i>pName</i> parameter to the <b>GetAddrInfoEx</b> function when the ASCII version of this function is used (when UNICODE and _UNICODE are not  defined). To pass this IDN name to the  <b>GetAddrInfoEx</b> function when the wide character version of this function is used (when UNICODE or _UNICODE is defined), you can use the <a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> function to convert the  <b>CHAR</b>string into a <b>WCHAR</b> string. 
+The <a href="/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a> function can be used to convert an IDN name to an ASCII form that then can be passed in the <i>pName</i> parameter to the <b>GetAddrInfoEx</b> function when the ASCII version of this function is used (when UNICODE and _UNICODE are not  defined). To pass this IDN name to the  <b>GetAddrInfoEx</b> function when the wide character version of this function is used (when UNICODE or _UNICODE is defined), you can use the <a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> function to convert the <b>CHAR</b> string into a <b>WCHAR</b> string. 
 
 <h3><a id="ai_flags"></a><a id="AI_FLAGS"></a>Use of ai_flags in the hints parameter</h3>
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:bdaiface.IBDA_DiseqCommand
 title: IBDA_DiseqCommand (bdaiface.h)
-description: Controls cable television satelite equipment, using Digital Satellite Equipment Control (DiSEqC) commands.
+description: Controls cable television satellite equipment, using Digital Satellite Equipment Control (DiSEqC) commands.
 helpviewer_keywords: ["IBDA_DiseqCommand","IBDA_DiseqCommand interface [Microsoft TV Technologies]","IBDA_DiseqCommand interface [Microsoft TV Technologies]","described","bdaiface/IBDA_DiseqCommand","mstv.ibda_diseqcommand"]
 old-location: mstv\ibda_diseqcommand.htm
 tech.root: mstv
@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Controls cable television satelite equipment, using Digital Satellite Equipment Control (DiSEqC) commands.
+Controls cable television satellite equipment, using Digital Satellite Equipment Control (DiSEqC) commands.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DiseqCommand</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_DiseqCommand</b> also has these types of members:
+The <b>IBDA_DiseqCommand</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_DiseqCommand</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

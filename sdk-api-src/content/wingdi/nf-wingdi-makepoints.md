@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MAKEPOINTS</b> macro converts a value that contains the x- and y-coordinates of a point into a <a href="/previous-versions/dd162808(v=vs.85)">POINTS</a> structure.
+The <b>MAKEPOINTS</b> macro converts a value that contains the x- and y-coordinates of a point into a <a href="/windows/win32/api/windef/ns-windef-points">POINTS</a> structure.
 
 ## -parameters
 

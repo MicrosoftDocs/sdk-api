@@ -52,7 +52,7 @@ Returns the object implementing the current instance of XMVECTORU8 cast to a __m
 
 <div class="alert"><b>Note</b>  This operator is only available for C++ based development.</div>
 
-## -parameters
+
 
 ## -remarks
 

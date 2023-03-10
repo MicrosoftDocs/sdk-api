@@ -53,7 +53,7 @@ api_name:
 
 Processes all pending Command updates.
 
-## -parameters
+
 
 ## -returns
 

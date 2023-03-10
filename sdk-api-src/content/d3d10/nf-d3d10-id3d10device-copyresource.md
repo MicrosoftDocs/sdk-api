@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10Device.CopyResource
 title: ID3D10Device::CopyResource (d3d10.h)
-description: Copy the entire contents of the source resource to the destination resource using the GPU.
+description: Copy the entire contents of the source resource to the destination resource using the GPU. (ID3D10Device.CopyResource)
 helpviewer_keywords: ["7cc09321-049c-23b4-3867-f1b76d332515","CopyResource","CopyResource method [Direct3D 10]","CopyResource method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CopyResource method","ID3D10Device.CopyResource","ID3D10Device::CopyResource","d3d10/ID3D10Device::CopyResource","direct3d10.id3d10device_copyresource"]
 old-location: direct3d10\id3d10device_copyresource.htm
 tech.root: direct3d10
@@ -75,7 +75,7 @@ This method is unusual in that it causes the GPU to perform the copy operation (
 <li>Must be different resources.</li>
 <li>Must be the same <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">type</a>.</li>
 <li>Must have identical dimensions (including width, height, depth, and size as appropriate).</li>
-<li>Must have compatible <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">formats</a>, which means the formats must be identical or at least from the same type group. For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. Beginning with Direct3D 10.1, <b>CopyResource</b> can copy between a few format types. For more info, see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.</li>
+<li>Must have compatible <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">formats</a>, which means the formats must be identical or at least from the same type group. For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to a DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. Beginning with Direct3D 10.1, <b>CopyResource</b> can copy between a few format types. For more info, see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.</li>
 <li>May not be currently <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-mapping">mapped</a>.</li>
 </ul>
 <b>CopyResource</b>  supports only copy; it does not support any stretch, color key, blend, or format conversions. Beginning with Direct3D 10.1, <b>CopyResource</b> can reinterpret the resource data between a few format types. For more info, see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.

@@ -1,7 +1,7 @@
 ---
 UID: NN:vsprov.IVssFileShareSnapshotProvider
 title: IVssFileShareSnapshotProvider (vsprov.h)
-description: .
+description: . (IVssFileShareSnapshotProvider)
 helpviewer_keywords: ["IVssFileShareSnapshotProvider","IVssFileShareSnapshotProvider interface [VSS]","IVssFileShareSnapshotProvider interface [VSS]","described","base.ivssfilesharesnapshotprovider","vsprov/IVssFileShareSnapshotProvider"]
 old-location: base\ivssfilesharesnapshotprovider.htm
 tech.root: base
@@ -55,8 +55,5 @@ Contains the methods used by VSS to manage shadow copy volumes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssFileShareSnapshotProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssFileShareSnapshotProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVssFileShareSnapshotProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssFileShareSnapshotProvider</b> also has these types of members:
 

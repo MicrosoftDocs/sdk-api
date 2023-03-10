@@ -56,19 +56,19 @@ The <b>WMPTaskType</b> enumeration represents Windows Media Player task panes.
 
 ## -enum-fields
 
-### -field wmpttBrowse
+### -field wmpttBrowse:1
 
 The <b>Browse</b> task pane.
 
-### -field wmpttSync
+### -field wmpttSync:2
 
 The <b>Sync</b> task pane.
 
-### -field wmpttBurn
+### -field wmpttBurn:3
 
 The <b>Burn</b> task pane.
 
-### -field wmpttCurrent
+### -field wmpttCurrent:4
 
 Other task pane.
 

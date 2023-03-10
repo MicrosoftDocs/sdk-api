@@ -9,8 +9,8 @@ ms.keywords: DML_INTERMEDIATE_GRAPH_EDGE_DESC, DML_INTERMEDIATE_GRAPH_EDGE_DESC 
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -84,6 +84,6 @@ This API was introduced in DirectML version `1.1.0`.
 
 ## -see-also
 
-* [IDMLDevice1::CompileGraph method](/windows/desktop/api/directml/nf-directml-idmldevice1-compilegraph)[DML_GRAPH_DESC struct](dml_graph_desc.md)    
+* [IDMLDevice1::CompileGraph method](/windows/desktop/api/directml/nf-directml-idmldevice1-compilegraph), [DML_GRAPH_DESC struct](/windows/win32/api/directml/ns-directml-dml_graph_desc)    
 * [DML_GRAPH_DESC structure](/windows/desktop/api/directml/ns-directml-dml_graph_desc)
 * [DML_GRAPH_EDGE_DESC structure](/windows/desktop/api/directml/ns-directml-dml_graph_edge_desc)

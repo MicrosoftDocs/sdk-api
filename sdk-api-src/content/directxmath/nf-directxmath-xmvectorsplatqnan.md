@@ -52,7 +52,7 @@ api_name:
 
 Returns a vector, each of whose components are QNaN (0x7CF00000).
 
-## -parameters
+
 
 ## -returns
 

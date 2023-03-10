@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxManifestReader5
 title: IAppxManifestReader5 (appxpackaging.h)
-description: Represents an object model of the package manifest that provides methods to access manifest elements and attributes.
+description: Represents an object model of the package manifest that provides methods to access manifest elements and attributes. (IAppxManifestReader5)
 helpviewer_keywords: ["IAppxManifestReader5","IAppxManifestReader5 interface [App packaging and management]","IAppxManifestReader5 interface [App packaging and management]","described","appxpackaging/IAppxManifestReader5","appxpkg.iappxmanifestreader5"]
 old-location: appxpkg\iappxmanifestreader5.htm
 tech.root: appxpkg
@@ -54,8 +54,5 @@ Represents an object model of the package manifest that provides methods to acce
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestReader5</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestReader5</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxManifestReader5</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestReader5</b> also has these types of members:
 

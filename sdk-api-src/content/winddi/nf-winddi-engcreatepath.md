@@ -52,7 +52,7 @@ api_name:
 
 The <b>EngCreatePath</b> function allocates a path for the driver's temporary use.
 
-## -parameters
+
 
 ## -returns
 

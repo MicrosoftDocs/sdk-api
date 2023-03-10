@@ -50,15 +50,12 @@ api_name:
 
 ## -description
 
-This interface is used by the RemoteFX graphics services API to create the graphics virtual channels necessary for remoting graphics data. The channel implementer provides a pointer to this interface in the <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsremotefxgraphicsconnection-getvirtualchanneltransport">IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport</a> method.
+This interface is used by the RemoteFX graphics services API to create the graphics virtual channels necessary for remoting graphics data. The channel implementer provides a pointer to this interface in the <a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/wtsprotocol/nf-wtsprotocol-iwrdsremotefxgraphicsconnection-getvirtualchanneltransport.md">IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsGraphicsChannelManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsGraphicsChannelManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWRdsGraphicsChannelManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsGraphicsChannelManager</b> also has these types of members:
 
 ## -see-also
 
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsremotefxgraphicsconnection-getvirtualchanneltransport">IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport</a>
+<a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/wtsprotocol/nf-wtsprotocol-iwrdsremotefxgraphicsconnection-getvirtualchanneltransport.md">IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport</a>

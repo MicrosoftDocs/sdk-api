@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.UrlCanonicalizeW
 title: UrlCanonicalizeW function (shlwapi.h)
-description: Converts a URL string into canonical form.
-helpviewer_keywords: ["URL_DONT_SIMPLIFY","URL_ESCAPE_AS_UTF8","URL_ESCAPE_PERCENT","URL_ESCAPE_SPACES_ONLY","URL_ESCAPE_UNSAFE","URL_NO_META","URL_PLUGGABLE_PROTOCOL","URL_UNESCAPE","UrlCanonicalize","UrlCanonicalize function [Windows Shell]","UrlCanonicalizeA","UrlCanonicalizeW","_win32_UrlCanonicalize","shell.UrlCanonicalize","shlwapi/UrlCanonicalize","shlwapi/UrlCanonicalizeA","shlwapi/UrlCanonicalizeW"]
+description: Converts a URL string into canonical form. (Unicode)
+helpviewer_keywords: ["URL_DONT_SIMPLIFY", "URL_ESCAPE_AS_UTF8", "URL_ESCAPE_PERCENT", "URL_ESCAPE_SPACES_ONLY", "URL_ESCAPE_UNSAFE", "URL_NO_META", "URL_PLUGGABLE_PROTOCOL", "URL_UNESCAPE", "UrlCanonicalize", "UrlCanonicalize function [Windows Shell]", "UrlCanonicalizeW", "_win32_UrlCanonicalize", "shell.UrlCanonicalize", "shlwapi/UrlCanonicalize", "shlwapi/UrlCanonicalizeW"]
 old-location: shell\UrlCanonicalize.htm
 tech.root: shell
 ms.assetid: 70802745-0611-4d37-800e-b50d5ea23426
@@ -176,7 +176,7 @@ Un-escape any escape sequences that the URLs contain, with two exceptions. The e
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

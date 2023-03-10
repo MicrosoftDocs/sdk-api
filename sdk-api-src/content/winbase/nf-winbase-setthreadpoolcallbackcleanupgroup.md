@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackCleanupGroup
 title: SetThreadpoolCallbackCleanupGroup function (winbase.h)
-description: Associates the specified cleanup group with the specified callback environment.
+description: Associates the specified cleanup group with the specified callback environment. (SetThreadpoolCallbackCleanupGroup)
 helpviewer_keywords: ["SetThreadpoolCallbackCleanupGroup","SetThreadpoolCallbackCleanupGroup function","base.setthreadpoolcallbackcleanupgroup","winbase/SetThreadpoolCallbackCleanupGroup"]
 old-location: base\setthreadpoolcallbackcleanupgroup.htm
 tech.root: backup

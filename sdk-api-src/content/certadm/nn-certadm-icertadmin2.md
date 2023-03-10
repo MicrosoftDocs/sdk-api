@@ -70,8 +70,5 @@ The <b>ICertAdmin2</b> interface is used to perform the following tasks:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertAdmin2</b> interface inherits from <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> and <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. <b>ICertAdmin2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICertAdmin2</b> interface inherits from <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> and <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. <b>ICertAdmin2</b> also has these types of members:
 

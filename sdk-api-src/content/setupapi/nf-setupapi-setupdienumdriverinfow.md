@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupDiEnumDriverInfoW
 title: SetupDiEnumDriverInfoW function (setupapi.h)
-description: The SetupDiEnumDriverInfo function enumerates the members of a driver list.
-helpviewer_keywords: ["SetupDiEnumDriverInfo","SetupDiEnumDriverInfo function [Device and Driver Installation]","SetupDiEnumDriverInfoA","SetupDiEnumDriverInfoW","devinst.setupdienumdriverinfo","di-rtns_8d84a225-9dac-4ab3-8c9a-5048284d82be.xml","setupapi/SetupDiEnumDriverInfo"]
+description: The SetupDiEnumDriverInfo function enumerates the members of a driver list. (Unicode)
+helpviewer_keywords: ["SetupDiEnumDriverInfo", "SetupDiEnumDriverInfo function [Device and Driver Installation]", "SetupDiEnumDriverInfoW", "devinst.setupdienumdriverinfo", "di-rtns_8d84a225-9dac-4ab3-8c9a-5048284d82be.xml", "setupapi/SetupDiEnumDriverInfo"]
 old-location: devinst\setupdienumdriverinfo.htm
 tech.root: devinst
 ms.assetid: c4a66d0c-e9a9-41f8-87df-576795667b5c
-ms.date: 12/05/2018
+ms.date: 02/13/2023
 ms.keywords: SetupDiEnumDriverInfo, SetupDiEnumDriverInfo function [Device and Driver Installation], SetupDiEnumDriverInfoA, SetupDiEnumDriverInfoW, devinst.setupdienumdriverinfo, di-rtns_8d84a225-9dac-4ab3-8c9a-5048284d82be.xml, setupapi/SetupDiEnumDriverInfo
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -87,7 +87,7 @@ The zero-based index of the driver information member to retrieve.
 
 ### -param DriverInfoData [out]
 
-A pointer to a caller-initialized <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_drvinfo_data_v1_a">SP_DRVINFO_DATA</a> structure that receives information about the enumerated driver. The caller must set <i>DriverInfoData.</i><b>cbSize</b> to <b>sizeof(</b>SP_DRVINFO_DATA<b>)</b> before calling <b>SetupDiEnumDriverInfo</b>. If the <b>cbSize</b> member is not properly set, <b>SetupDiEnumDriverInfo</b> will return <b>FALSE</b>.  
+A pointer to a caller-initialized <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_drvinfo_data_v2_w">SP_DRVINFO_DATA</a> structure that receives information about the enumerated driver. The caller must set <i>DriverInfoData.</i><b>cbSize</b> to <b>sizeof(</b>SP_DRVINFO_DATA<b>)</b> before calling <b>SetupDiEnumDriverInfo</b>. If the <b>cbSize</b> member is not properly set, <b>SetupDiEnumDriverInfo</b> will return <b>FALSE</b>.  
 
 
 ##### - DriverType.SPDIT_CLASSDRIVER

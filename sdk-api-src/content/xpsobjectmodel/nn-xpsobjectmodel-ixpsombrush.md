@@ -47,17 +47,13 @@ api_name:
 
 # IXpsOMBrush interface
 
-
 ## -description
 
 Defines objects that are used to paint graphical objects. Classes that derive from <b>IXpsOMBrush</b> describe how the area is painted.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMBrush</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable">IXpsOMShareable</a>. <b>IXpsOMBrush</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IXpsOMBrush</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable">IXpsOMShareable</a>. <b>IXpsOMBrush</b> also has these types of members:
 
 ## -see-also
 

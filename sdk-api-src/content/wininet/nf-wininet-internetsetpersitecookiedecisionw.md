@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetSetPerSiteCookieDecisionW
 title: InternetSetPerSiteCookieDecisionW function (wininet.h)
-description: Sets a decision on cookies for a given domain.
-helpviewer_keywords: ["InternetSetPerSiteCookieDecision","InternetSetPerSiteCookieDecision function [WinINet]","InternetSetPerSiteCookieDecisionA","InternetSetPerSiteCookieDecisionW","wininet.internetsetpersitecookiedecision","wininet/InternetSetPerSiteCookieDecision","wininet/InternetSetPerSiteCookieDecisionA","wininet/InternetSetPerSiteCookieDecisionW"]
+description: Sets a decision on cookies for a given domain. (Unicode)
+helpviewer_keywords: ["InternetSetPerSiteCookieDecision", "InternetSetPerSiteCookieDecision function [WinINet]", "InternetSetPerSiteCookieDecisionW", "wininet.internetsetpersitecookiedecision", "wininet/InternetSetPerSiteCookieDecision", "wininet/InternetSetPerSiteCookieDecisionW"]
 old-location: wininet\internetsetpersitecookiedecision.htm
 tech.root: wininet
 ms.assetid: c25699b9-f79a-443b-b9a4-461c379fa8e4
@@ -70,7 +70,7 @@ Returns <b>TRUE</b> if the decision is set and <b>FALSE</b> otherwise.
 
 ## -remarks
 
-WinINet minimizes the domain specified in the <i>pchHostName</i> parameter and sets the cookie policy on the minimimum legal domain. For example, if the specified host name is  widgets.microsoft.com, the policy is set on the minimized host name microsoft.com.
+WinINet minimizes the domain specified in the <i>pchHostName</i> parameter and sets the cookie policy on the minimum legal domain. For example, if the specified host name is  widgets.microsoft.com, the policy is set on the minimized host name microsoft.com.
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 

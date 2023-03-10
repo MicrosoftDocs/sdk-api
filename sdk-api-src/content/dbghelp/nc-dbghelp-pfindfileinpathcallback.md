@@ -1,12 +1,12 @@
 ---
 UID: NC:dbghelp.PFINDFILEINPATHCALLBACK
 title: PFINDFILEINPATHCALLBACK (dbghelp.h)
-description: An application-defined callback function used with the SymFindFileInPath function.
+description: PFINDFILEINPATHCALLBACK (dbghelp.h) is an application-defined callback function used with the SymFindFileInPath function.
 helpviewer_keywords: ["PFINDFILEINPATHCALLBACK","PFINDFILEINPATHCALLBACKW","SymFindFileInPathProc","SymFindFileInPathProc callback","SymFindFileInPathProc callback function","_win32_symfindfileinpathproc","base.symfindfileinpathproc","dbghelp/SymFindFileInPathProc"]
 old-location: base\symfindfileinpathproc.htm
 tech.root: Debug
 ms.assetid: e579158e-053d-4c81-a2c3-ac3af3d3a201
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: PFINDFILEINPATHCALLBACK, PFINDFILEINPATHCALLBACKW, SymFindFileInPathProc, SymFindFileInPathProc callback, SymFindFileInPathProc callback function, _win32_symfindfileinpathproc, base.symfindfileinpathproc, dbghelp/SymFindFileInPathProc
 req.header: dbghelp.h
 req.include-header: 

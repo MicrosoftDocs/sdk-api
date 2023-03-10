@@ -54,7 +54,7 @@ api_name:
 The 
 <b>Cancel</b> method cancels an incomplete asynchronous operation.
 
-## -parameters
+
 
 ## -returns
 

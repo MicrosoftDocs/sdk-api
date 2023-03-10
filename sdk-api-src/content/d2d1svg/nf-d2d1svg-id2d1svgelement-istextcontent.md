@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.IsTextContent
 title: ID2D1SvgElement::IsTextContent (d2d1svg.h)
-description: Returns a boolean indicating wether this element represents text content.
+description: Returns a boolean indicating whether this element represents text content.
 helpviewer_keywords: ["ID2D1SvgElement interface [Direct2D]","IsTextContent method","ID2D1SvgElement.IsTextContent","ID2D1SvgElement::IsTextContent","IsTextContent","IsTextContent method [Direct2D]","IsTextContent method [Direct2D]","ID2D1SvgElement interface","d2d1svg/ID2D1SvgElement::IsTextContent","direct2d.id2d1svgelement_istextcontent"]
 old-location: direct2d\id2d1svgelement_istextcontent.htm
 tech.root: Direct2D
@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-Returns a boolean indicating wether this element represents text content.
+Returns a boolean indicating whether this element represents text content.
 
-## -parameters
+
 
 ## -returns
 

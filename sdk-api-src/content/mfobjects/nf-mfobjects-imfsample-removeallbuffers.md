@@ -53,7 +53,7 @@ api_name:
 
 Removes all of the buffers from the sample.
 
-## -parameters
+
 
 ## -returns
 

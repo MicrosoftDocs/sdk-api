@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathFindSuffixArrayW
 title: PathFindSuffixArrayW function (shlwapi.h)
-description: Determines whether a given file name has one of a list of suffixes.
-helpviewer_keywords: ["PathFindSuffixArray","PathFindSuffixArray function [Windows Shell]","PathFindSuffixArrayA","PathFindSuffixArrayW","_win32_PathFindSuffixArray","shell.PathFindSuffixArray","shlwapi/PathFindSuffixArray","shlwapi/PathFindSuffixArrayA","shlwapi/PathFindSuffixArrayW"]
+description: Determines whether a given file name has one of a list of suffixes. (Unicode)
+helpviewer_keywords: ["PathFindSuffixArray", "PathFindSuffixArray function [Windows Shell]", "PathFindSuffixArrayW", "_win32_PathFindSuffixArray", "shell.PathFindSuffixArray", "shlwapi/PathFindSuffixArray", "shlwapi/PathFindSuffixArrayW"]
 old-location: shell\PathFindSuffixArray.htm
 tech.root: shell
 ms.assetid: e2285f7d-bb5d-48c5-bdf1-10ca410389f0

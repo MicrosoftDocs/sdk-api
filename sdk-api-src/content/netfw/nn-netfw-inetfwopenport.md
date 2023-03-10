@@ -57,11 +57,7 @@ The <b>INetFwOpenPort</b> interface provides access to the properties of a port 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwOpenPort</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwOpenPort</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>INetFwOpenPort</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwOpenPort</b> also has these types of members:
 
 ## -remarks
 
@@ -71,7 +67,7 @@ When creating new ports, this interface is supported by the
 <b>HNetCfg.FWOpenPort</b> COM object. 
 
 For reading or modifying existing ports,
-instances of this interface are retrieved through the <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenports">INetFwOpenPorts</a>collection. 
+instances of this interface are retrieved through the <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenports">INetFwOpenPorts</a> collection. 
 
 All configuration changes take effect immediately.
 

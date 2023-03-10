@@ -56,15 +56,15 @@ Defines the possible DVD video compression types.
 
 ## -enum-fields
 
-### -field DVD_VideoCompression_Other
+### -field DVD_VideoCompression_Other:0
 
 Unrecognized compression type.
 
-### -field DVD_VideoCompression_MPEG1
+### -field DVD_VideoCompression_MPEG1:1
 
 MPEG-1 compression type.
 
-### -field DVD_VideoCompression_MPEG2
+### -field DVD_VideoCompression_MPEG2:2
 
 MPEG-2 compression type.
 

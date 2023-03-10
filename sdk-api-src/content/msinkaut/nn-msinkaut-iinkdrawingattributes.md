@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkDrawingAttributes
 title: IInkDrawingAttributes (msinkaut.h)
-description: .
+description: . (IInkDrawingAttributes)
 helpviewer_keywords: ["IInkDrawingAttributes","IInkDrawingAttributes interface [Tablet PC]","IInkDrawingAttributes interface [Tablet PC]","described","msinkaut/IInkDrawingAttributes","tablet.iinkdrawingattributes"]
 old-location: tablet\iinkdrawingattributes.htm
 tech.root: tablet
@@ -54,11 +54,7 @@ Represents the attributes applied to ink when drawn.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkDrawingAttributes</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkDrawingAttributes</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IInkDrawingAttributes</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkDrawingAttributes</b> also has these types of members:
 
 ## -see-also
 

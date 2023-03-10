@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.__unnamed_struct_7
+UID: NS:processsnapshot.PSS_PERFORMANCE_COUNTERS
 title: PSS_PERFORMANCE_COUNTERS (processsnapshot.h)
 description: Holds performance counters returned by PssQuerySnapshot.
 helpviewer_keywords: ["PSS_PERFORMANCE_COUNTERS","PSS_PERFORMANCE_COUNTERS structure","proc_snap.pss_performance_counters","processsnapshot/PSS_PERFORMANCE_COUNTERS"]
@@ -109,3 +109,4 @@ The count of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FI
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
+

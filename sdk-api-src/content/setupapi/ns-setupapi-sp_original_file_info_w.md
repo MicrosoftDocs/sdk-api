@@ -1,7 +1,7 @@
 ---
 UID: NS:setupapi._SP_ORIGINAL_FILE_INFO_W
 title: SP_ORIGINAL_FILE_INFO_W (setupapi.h)
-description: The SP_ORIGINAL_FILE_INFO structure receives the original INF file name and catalog file information returned by SetupQueryInfOriginalFileInformation.
+description: The SP_ORIGINAL_FILE_INFO structure receives the original INF file name and catalog file information returned by SetupQueryInfOriginalFileInformation. (Unicode)
 helpviewer_keywords: ["*PSP_ORIGINAL_FILE_INFO_W","PSP_ORIGINAL_FILE_INFO","PSP_ORIGINAL_FILE_INFO structure pointer [Setup API]","SP_ORIGINAL_FILE_INFO","SP_ORIGINAL_FILE_INFO structure [Setup API]","SP_ORIGINAL_FILE_INFO_W","_setupapi_sp_original_file_info","setup.sp_original_file_info","setupapi/PSP_ORIGINAL_FILE_INFO","setupapi/SP_ORIGINAL_FILE_INFO"]
 old-location: setup\sp_original_file_info.htm
 tech.root: setup

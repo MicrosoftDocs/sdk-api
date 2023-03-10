@@ -57,7 +57,9 @@ Performs a buffered read of the raw input messages data found in the calling thr
 
 Type: **PRAWINPUT**
 
-A pointer to a buffer of [RAWINPUT](ns-winuser-rawinput.md) structures that contain the raw input data. If **NULL**, size of the first raw input message data (minimum required buffer), in bytes, is returned in \**pcbSize*.
+A pointer to a buffer of [RAWINPUT](ns-winuser-rawinput.md) structures that contain the raw input data. Buffer should be aligned on a pointer boundary, which is a **DWORD** on 32-bit architectures and a **QWORD** on 64-bit architectures.
+
+If **NULL**, size of the first raw input message data (minimum required buffer), in bytes, is returned in \**pcbSize*.
 
 ### -param pcbSize [in, out]
 
@@ -126,4 +128,4 @@ internal struct RAWINPUT
 
 **Reference**
 
-[About Raw Input](/windows/win32/inputdev/about-raw-input)
+[Raw Input Overview](/windows/win32/inputdev/about-raw-input)

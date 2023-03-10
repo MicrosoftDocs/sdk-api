@@ -56,7 +56,7 @@ Retrieves the property value that specifies if a file item in the file system im
 
 ### -param pVal [out]
 
-Pointer to a value that indicates if the Real-Time attribute of the file is set in the file system image.  A value of <b>VARIANT_TRUE</b>indicates the attribute is set; otherwise, <b>VARIANT_FALSE</b>.
+Pointer to a value that indicates if the Real-Time attribute of the file is set in the file system image.  A value of <b>VARIANT_TRUE</b> indicates the attribute is set; otherwise, <b>VARIANT_FALSE</b>.
 
 ## -returns
 

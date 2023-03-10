@@ -135,7 +135,6 @@ The schema information for supplied provider GUID was not found.
 </table>
 
 ## -see-also
-
 <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
 
 

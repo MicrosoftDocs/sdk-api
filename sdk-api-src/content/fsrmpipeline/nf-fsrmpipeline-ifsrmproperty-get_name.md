@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmProperty.get_Name
 title: IFsrmProperty::get_Name (fsrmpipeline.h)
-description: The name of the property.
+description: The name of the property. (IFsrmProperty.get_Name)
 helpviewer_keywords: ["IFsrmProperty interface [File Server Resource Manager]","Name property","IFsrmProperty.Name","IFsrmProperty.get_Name","IFsrmProperty::Name","IFsrmProperty::get_Name","Name property [File Server Resource Manager]","Name property [File Server Resource Manager]","IFsrmProperty interface","fs.ifsrmproperty_name","fsrm.ifsrmproperty_name","fsrmpipeline/IFsrmProperty::Name","fsrmpipeline/IFsrmProperty::get_Name","get_Name"]
 old-location: fsrm\ifsrmproperty_name.htm
 tech.root: fsrm

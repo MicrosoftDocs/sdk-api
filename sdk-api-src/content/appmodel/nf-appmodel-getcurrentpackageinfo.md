@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetCurrentPackageInfo
 title: GetCurrentPackageInfo function (appmodel.h)
-description: Gets the package information for the calling process.
+description: Gets the package information for the calling process. (GetCurrentPackageInfo)
 helpviewer_keywords: ["GetCurrentPackageInfo","GetCurrentPackageInfo function [App packaging and management]","appmodel/GetCurrentPackageInfo","appxpkg.getcurrentpackageinfo"]
 old-location: appxpkg\getcurrentpackageinfo.htm
 tech.root: appxpkg

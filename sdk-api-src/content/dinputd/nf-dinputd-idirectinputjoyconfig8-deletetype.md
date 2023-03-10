@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::DeleteType </b>method removes information about a joystick type. Use this method with caution; it is the caller's responsibility to ensure that no joystick refers to the deleted type.
+The <b>IDirectInputJoyConfig8::DeleteType </b> method removes information about a joystick type. Use this method with caution; it is the caller's responsibility to ensure that no joystick refers to the deleted type.
 
 ## -parameters
 

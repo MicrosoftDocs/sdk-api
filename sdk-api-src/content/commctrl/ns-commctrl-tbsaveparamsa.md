@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagTBSAVEPARAMSA
 title: TBSAVEPARAMSA (commctrl.h)
-description: Specifies the location in the registry where the TB_SAVERESTORE message stores and retrieves information about the state of a toolbar.
+description: Specifies the location in the registry where the TB_SAVERESTORE message stores and retrieves information about the state of a toolbar. (ANSI)
 helpviewer_keywords: ["*LPTBSAVEPARAMSA","TBSAVEPARAMS","TBSAVEPARAMS structure [Windows Controls]","TBSAVEPARAMSA","TBSAVEPARAMSW","_win32_TBSAVEPARAMS","_win32_TBSAVEPARAMS_cpp","commctrl/TBSAVEPARAMS","commctrl/TBSAVEPARAMSA","commctrl/TBSAVEPARAMSW","controls.TBSAVEPARAMS","controls._win32_TBSAVEPARAMS"]
 old-location: controls\TBSAVEPARAMS.htm
 tech.root: Controls

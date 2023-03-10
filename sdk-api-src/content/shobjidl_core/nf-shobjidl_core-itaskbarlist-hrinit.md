@@ -52,7 +52,7 @@ api_name:
 
 Initializes the taskbar list object. This method must be called before any other <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a> methods can be called.
 
-## -parameters
+
 
 ## -returns
 

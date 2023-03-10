@@ -52,7 +52,7 @@ api_name:
 
 The <b>RestoreLocalFirewallDefaults</b> method restores the local firewall configuration to its default state.
 
-## -parameters
+
 
 ## -returns
 

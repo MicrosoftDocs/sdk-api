@@ -151,16 +151,24 @@ The edit context identified by <i>ec</i> does not have a read-only or read/write
 
 This method obtains a range of text that contains a non-empty value for the property. If the property has no value at the specified point, <i>ppRange</i> receives <b>NULL</b> and the method returns S_FALSE. In the following example, if <i>aPos</i> contains TF_ANCHOR_START, the returned range would contain "is". If <i>aPos</i> contains TF_ANCHOR_END, the method would return S_FALSE because the property does not exist at the end point of the range.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 COLOR: RRRRR   RR          GGGGGGGG
 TEXT:  this &lt;a&gt;is som&lt;/a&gt;e colored text
-</code></pre>
+
+```
+
 If <i>aPos</i> contains TF_ANCHOR_START, this method ignores property ranges that end immediately before the start anchor. Likewise, if <i>aPos</i> contains TF_ANCHOR_END, this method ignores property ranges that start immediately after the end anchor. In the following example, if <i>aPos</i> contains TF_ANCHOR_START, the returned range would contain "colored " and not "some " because the R value property ends at the start anchor point and the G value property begins at the start anchor. If <i>aPos</i> contains TF_ANCHOR_END, the returned range would contain "colored " and not "text".
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 COLOR:         RRRRR   GGGGGGGG    BBBB
 TEXT:  this is some &lt;a&gt;colored &lt;/a&gt;text
-</code></pre>
+
+```
+
 
 ## -see-also
 

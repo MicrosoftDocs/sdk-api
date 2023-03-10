@@ -56,7 +56,7 @@ The <b>GetInputDataPointer</b> method gets a pointer to the buffer from which da
 
 ### -param pConnectionProperty [in, out]
 
- A pointer to an <a href="/windows/desktop/api/audioapotypes/ns-audioapotypes-apo_connection_property">APO_CONNECTION_PROPERTY</a>structure.
+ A pointer to an <a href="/windows/desktop/api/audioapotypes/ns-audioapotypes-apo_connection_property">APO_CONNECTION_PROPERTY</a> structure.
 
 The caller sets the member values as follows:
 
@@ -97,7 +97,7 @@ This method returns a pointer from the endpoint to the buffer <i>pConnectionProp
     passed in the <i>pConnectionProperty</i> parameter.
 
 Passing zero in the <b>u32ValidFrameCount</b> member is a valid request. In this case,
-    the input pointer must be valid but the endpoint does not read from it. The <i>pConnectionProperty</i>-&gt;<b>u32ValidFrameCount</b>value must be less than or equal to the maximum  frame count supported by the endpoint. To get the supported number of frames, call the <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-getframesperpacket">IAudioEndpoint::GetFramesPerPacket</a> method.
+    the input pointer must be valid but the endpoint does not read from it. The <i>pConnectionProperty</i>-&gt;<b>u32ValidFrameCount</b> value must be less than or equal to the maximum  frame count supported by the endpoint. To get the supported number of frames, call the <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-getframesperpacket">IAudioEndpoint::GetFramesPerPacket</a> method.
 
 This method can be called from a real-time processing thread. The
     implementation of this method must not block, access

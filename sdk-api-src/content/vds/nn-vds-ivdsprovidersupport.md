@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsProviderSupport
 title: IVdsProviderSupport (vds.h)
-description: Provides a method to indicate what versions of the VDS interfaces are supported by the provider.
+description: The IVdsProviderSupport interface (vds.h) provides a method to indicate what versions of the VDS interfaces are supported by the provider.
 helpviewer_keywords: ["IVdsProviderSupport","IVdsProviderSupport interface","IVdsProviderSupport interface","described","base.ivdsprovidersupport","vds/IVdsProviderSupport","vdshwprv/IVdsProviderSupport"]
 old-location: base\ivdsprovidersupport.htm
 tech.root: base
 ms.assetid: 74e17a86-75ec-429b-9efb-80812ca4b431
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsProviderSupport, IVdsProviderSupport interface, IVdsProviderSupport interface,described, base.ivdsprovidersupport, vds/IVdsProviderSupport, vdshwprv/IVdsProviderSupport
 req.header: vds.h
 req.include-header: 
@@ -51,17 +51,14 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides a method 
     to indicate what versions of the VDS interfaces are supported by the provider.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsProviderSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsProviderSupport</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsProviderSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsProviderSupport</b> also has these types of members:
 
 ## -see-also
 

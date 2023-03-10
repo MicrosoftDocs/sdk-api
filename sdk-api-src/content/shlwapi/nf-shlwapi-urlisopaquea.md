@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.UrlIsOpaqueA
 title: UrlIsOpaqueA function (shlwapi.h)
-description: Returns whether a URL is opaque.
-helpviewer_keywords: ["UrlIsOpaque","UrlIsOpaque function [Windows Shell]","UrlIsOpaqueA","UrlIsOpaqueW","_win32_UrlIsOpaque","shell.UrlIsOpaque","shlwapi/UrlIsOpaque","shlwapi/UrlIsOpaqueA","shlwapi/UrlIsOpaqueW"]
+description: Returns whether a URL is opaque. (ANSI)
+helpviewer_keywords: ["UrlIsOpaqueA", "shlwapi/UrlIsOpaqueA"]
 old-location: shell\UrlIsOpaque.htm
 tech.root: shell
 ms.assetid: 460f4d41-2796-496d-9199-f2d1cd6e4a24
@@ -76,7 +76,11 @@ A URL that has a scheme that is not followed by two slashes (//) is opaque. For 
 
 				
 
-<pre class="syntax" xml:space="preserve"><code>UrlIs(pszURL, URLIS_OPAQUE)</code></pre>
+
+``` syntax
+UrlIs(pszURL, URLIS_OPAQUE)
+```
+
 
 
 

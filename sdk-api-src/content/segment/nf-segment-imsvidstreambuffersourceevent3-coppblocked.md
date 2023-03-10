@@ -57,7 +57,7 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>COPPBlocked</b> method is called when the content is blocked because of the Certified Output Protection Protocol (COPP) status.
 
-## -parameters
+
 
 ## -returns
 

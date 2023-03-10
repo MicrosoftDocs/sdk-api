@@ -54,8 +54,5 @@ Supports the creation of proof of possession cookies.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProofOfPossessionCookieInfoManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProofOfPossessionCookieInfoManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IProofOfPossessionCookieInfoManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProofOfPossessionCookieInfoManager</b> also has these types of members:
 

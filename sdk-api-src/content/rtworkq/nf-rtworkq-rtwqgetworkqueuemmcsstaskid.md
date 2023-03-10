@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqGetWorkQueueMMCSSTaskId
 title: RtwqGetWorkQueueMMCSSTaskId function (rtworkq.h)
-description: Retrieves the Multimedia Class Scheduler Service (MMCSS) task identifier currently associated with this work queue.
+description: Retrieves the Multimedia Class Scheduler Service (MMCSS) task identifier currently associated with this work queue. (RtwqGetWorkQueueMMCSSTaskId)
 helpviewer_keywords: ["RtwqGetWorkQueueMMCSSTaskId","RtwqGetWorkQueueMMCSSTaskId function","base.rtwqgetworkqueuemmcsstaskid","rtworkq/RtwqGetWorkQueueMMCSSTaskId"]
 old-location: base\rtwqgetworkqueuemmcsstaskid.htm
 tech.root: backup
@@ -64,7 +64,7 @@ Receives the task identifier.
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

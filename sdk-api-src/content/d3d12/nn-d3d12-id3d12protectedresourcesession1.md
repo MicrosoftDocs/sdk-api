@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12ProtectedResourceSession1
 title: ID3D12ProtectedResourceSession1 (d3d12.h)
-description: Monitors the validity of a protected resource session.
+description: Monitors the validity of a protected resource session. (ID3D12ProtectedResourceSession1)
 helpviewer_keywords: ["ID3D12ProtectedResourceSession1","ID3D12ProtectedResourceSession1 interface","ID3D12ProtectedResourceSession1 interface","described","d3d12/ID3D12ProtectedResourceSession1","direct3d12.id3d12protectedresourcesession1"]
 tech.root: direct3d12
 ms.date: 09/16/2020
@@ -9,8 +9,8 @@ ms.keywords: ID3D12ProtectedResourceSession1, ID3D12ProtectedResourceSession1 in
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

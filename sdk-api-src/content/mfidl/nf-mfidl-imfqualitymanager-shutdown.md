@@ -53,7 +53,7 @@ api_name:
 
 Called when the Media Session is shutting down.
 
-## -parameters
+
 
 ## -returns
 

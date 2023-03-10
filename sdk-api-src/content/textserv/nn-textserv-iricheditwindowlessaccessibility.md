@@ -54,10 +54,7 @@ Enables the host container of a windowless rich edit control to obtain the Micro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRicheditWindowlessAccessibility</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRicheditWindowlessAccessibility</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IRicheditWindowlessAccessibility</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRicheditWindowlessAccessibility</b> also has these types of members:
 
 ## -see-also
 

@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 Selects the upper directional button from the displayed menu.
 
-## -parameters
+
 
 ## -returns
 

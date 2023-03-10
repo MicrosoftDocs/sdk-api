@@ -64,7 +64,7 @@ A pointer to a string of Unicode characters that contains the name of the securi
 
 ### -field ValueType
 
-A union tag value that indicates the type of information contained in the <b>Values</b> member. The <b>ValueType</b> member must be one of the following values.
+A union tag value that indicates the type of information contained in the <b>Values</b> member. The <b>ValueType</b> member must be one of the following values (see remarks for additional information).
 
 <table>
 <tr>
@@ -258,6 +258,10 @@ Pointer to an array of <b>ValueCount</b> members where each member is a fully qu
 ### -field Values.pOctetString
 
 Pointer to an array of <b>ValueCount</b> members where each member is  an octet string of type <a href="/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
+
+## -remarks
+
+The field value type indicates that the value can be an octet string or a SID. However, the [Directory Services documentation for claims entries](/openspecs/windows_protocols/ms-adts/252d7e10-eaf8-44e9-8b8d-205b384f5782) specifies that effective possible data types for claims are limited to Int64, UInt64, UnicodeString, and Boolean.
 
 ## -see-also
 

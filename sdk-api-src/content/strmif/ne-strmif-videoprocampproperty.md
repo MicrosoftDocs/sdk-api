@@ -56,7 +56,7 @@ The <b>VideoProcAmpProperty</b> enumeration specifies video properties on a vide
 
 ## -enum-fields
 
-### -field VideoProcAmp_Brightness
+### -field VideoProcAmp_Brightness:0
 
 Specifies the brightness, also called the <i>black level</i>. For NTSC, the value is expressed in IRE units * 100. For non-NTSC sources, the units are arbitrary, with zero representing blanking and 10,000 representing pure white. Values range from –10,000 to 10,000.
 

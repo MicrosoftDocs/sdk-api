@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetSourceRectangle
 title: IMFVideoProcessorControl::SetSourceRectangle (mfidl.h)
-description: Sets the source rectangle.
+description: Sets the source rectangle. (IMFVideoProcessorControl.SetSourceRectangle)
 helpviewer_keywords: ["IMFVideoProcessorControl interface [Media Foundation]","SetSourceRectangle method","IMFVideoProcessorControl.SetSourceRectangle","IMFVideoProcessorControl::SetSourceRectangle","SetSourceRectangle","SetSourceRectangle method [Media Foundation]","SetSourceRectangle method [Media Foundation]","IMFVideoProcessorControl interface","mf.imfvideoprocessorcontrol_setsourcerectangle","mfidl/IMFVideoProcessorControl::SetSourceRectangle"]
 old-location: mf\imfvideoprocessorcontrol_setsourcerectangle.htm
 tech.root: mf
@@ -60,7 +60,7 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

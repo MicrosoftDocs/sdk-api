@@ -52,7 +52,7 @@ api_name:
 
 Indicates if the DirectXMath Library supports the current platform.
 
-## -parameters
+
 
 ## -returns
 
@@ -69,7 +69,7 @@ On Windows, this function is implemented using
 Therefore, when executed on windows, <code>XMVerifyCPUSupport</code> shares platform support requirements of
    <code>IsProcessorFeaturePresent</code>.
 
-<div class="alert"><b>Note</b>  To avoid a hard dependancy on windows.h, if <i>IsProcessorFeaturePresent</i> is not defined this function always returns
+<div class="alert"><b>Note</b>  To avoid a hard dependency on windows.h, if <i>IsProcessorFeaturePresent</i> is not defined this function always returns
    <code>false</code>. Be sure to include "windows.h" before "directxmath.h" in any module where you are calling this function.</div>
 <div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

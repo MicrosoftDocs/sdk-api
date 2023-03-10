@@ -1,7 +1,7 @@
 ---
 UID: NF:filtereg.ILoadFilter.LoadIFilterFromStream
 title: ILoadFilter::LoadIFilterFromStream (filtereg.h)
-description: Do not use:\_this method is not implemented.
+description: Do not use:\_this method is not implemented. (ILoadFilter.LoadIFilterFromStream)
 helpviewer_keywords: ["ILoadFilter interface [search]","LoadIFilterFromStream method","ILoadFilter.LoadIFilterFromStream","ILoadFilter::LoadIFilterFromStream","LoadIFilterFromStream","LoadIFilterFromStream method [search]","LoadIFilterFromStream method [search]","ILoadFilter interface","filtereg/ILoadFilter::LoadIFilterFromStream","search.iloadfilter_loadifilterfromstream"]
 old-location: search\iloadfilter_loadifilterfromstream.htm
 tech.root: search
@@ -74,7 +74,7 @@ Do not use: this method is not implemented.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

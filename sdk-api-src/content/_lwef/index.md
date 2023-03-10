@@ -4,7 +4,7 @@ title: Legacy Windows Environment Features
 ms.assetid: 384117d0-d2cd-3434-b330-5f546ef90ab4
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Legacy Windows Environment Features

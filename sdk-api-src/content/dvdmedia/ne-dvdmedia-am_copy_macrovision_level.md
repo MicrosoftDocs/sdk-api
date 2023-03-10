@@ -1,5 +1,5 @@
 ---
-UID: NE:dvdmedia.__unnamed_enum_4
+UID: NE:dvdmedia.AM_COPY_MACROVISION_LEVEL
 title: AM_COPY_MACROVISION_LEVEL (dvdmedia.h)
 description: Identifies the analog copy protection level.
 helpviewer_keywords: ["*PAM_COPY_MACROVISION_LEVEL","AM_COPY_MACROVISION_LEVEL","AM_COPY_MACROVISION_LEVEL enumeration [DirectShow]","AM_MACROVISION_DISABLED","AM_MACROVISION_LEVEL1","AM_MACROVISION_LEVEL2","AM_MACROVISION_LEVEL3","PAM_COPY_MACROVISION_LEVEL","PAM_COPY_MACROVISION_LEVEL enumeration pointer [DirectShow]","dshow.am_copy_macrovision_level","dvdmedia/AM_COPY_MACROVISION_LEVEL","dvdmedia/AM_MACROVISION_DISABLED","dvdmedia/AM_MACROVISION_LEVEL1","dvdmedia/AM_MACROVISION_LEVEL2","dvdmedia/AM_MACROVISION_LEVEL3","dvdmedia/PAM_COPY_MACROVISION_LEVEL"]
@@ -56,19 +56,19 @@ Identifies the analog copy protection level.
 
 ## -enum-fields
 
-### -field AM_MACROVISION_DISABLED
+### -field AM_MACROVISION_DISABLED:0
 
 Disabled.
 
-### -field AM_MACROVISION_LEVEL1
+### -field AM_MACROVISION_LEVEL1:1
 
 Level 1.
 
-### -field AM_MACROVISION_LEVEL2
+### -field AM_MACROVISION_LEVEL2:2
 
 Level 2.
 
-### -field AM_MACROVISION_LEVEL3
+### -field AM_MACROVISION_LEVEL3:3
 
 Level 3.
 
@@ -79,3 +79,4 @@ The <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_copy
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dvd-copy-protection-property-set">DVD Copy Protection Property Set</a>
+

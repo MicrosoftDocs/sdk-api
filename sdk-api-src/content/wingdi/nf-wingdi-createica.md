@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.CreateICA
 title: CreateICA function (wingdi.h)
-description: The CreateIC function creates an information context for the specified device.
-helpviewer_keywords: ["CreateIC","CreateIC function [Windows GDI]","CreateICA","CreateICW","_win32_CreateIC","gdi.createic","wingdi/CreateIC","wingdi/CreateICA","wingdi/CreateICW"]
+description: The CreateIC function creates an information context for the specified device. (ANSI)
+helpviewer_keywords: ["CreateICA", "wingdi/CreateICA"]
 old-location: gdi\createic.htm
 tech.root: gdi
 ms.assetid: dcb08ce7-9ded-497c-936c-48d3026a0004

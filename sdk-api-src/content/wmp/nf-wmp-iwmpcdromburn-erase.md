@@ -52,7 +52,7 @@ api_name:
 
 The <b>erase</b> method erases the current CD.
 
-## -parameters
+
 
 ## -returns
 

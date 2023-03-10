@@ -1,7 +1,7 @@
 ---
 UID: NF:gamingtcui.ShowPlayerPickerUI
 title: ShowPlayerPickerUI function (gamingtcui.h)
-description: Do not use. This API is only supported for Xbox developers.
+description: Do not use. This API is only supported for Xbox developers. (ShowPlayerPickerUI)
 helpviewer_keywords: ["ShowPlayerPickerUI","ShowPlayerPickerUI function","gamingtcui/ShowPlayerPickerUI","tcui.showplayerpickerui"]
 old-location: tcui\showplayerpickerui.htm
 tech.root: tcui

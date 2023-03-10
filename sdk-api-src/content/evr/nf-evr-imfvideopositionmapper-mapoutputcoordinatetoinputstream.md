@@ -122,19 +122,31 @@ In the following diagram, R(dest) is the destination rectangle for the video. Yo
 
 The position of P relative to R(dest) in <i>normalized</i> coordinates is calculated as follows:
 
-<pre class="syntax" xml:space="preserve"><code>float xn = float(x + 0.5) / widthDest;
+
+``` syntax
+float xn = float(x + 0.5) / widthDest;
 float xy = float(y + 0.5) / heightDest;
-</code></pre>
+
+```
+
 where <i>widthDest</i> and <i>heightDest</i> are the width and height of R(dest) in pixels.
 
 To calculate the position of P relative to R1, call <b>MapOutputCoordinateToInputStream</b> as follows:
 
-<pre class="syntax" xml:space="preserve"><code>float x1 = 0, y1 = 0;
-hr = pMap-&gt;MapOutputCoordinateToInputStream(xn, yn, 0, dwInputStreamIndex, &amp;x1, &amp;y1);</code></pre>
+
+``` syntax
+float x1 = 0, y1 = 0;
+hr = pMap-&gt;MapOutputCoordinateToInputStream(xn, yn, 0, dwInputStreamIndex, &amp;x1, &amp;y1);
+```
+
 The values returned in <i>x1</i> and <i>y1</i> are normalized to the range [0...1]. To convert back to pixel coordinates, scale these values by the size of R1:
 
-<pre class="syntax" xml:space="preserve"><code>int scaledx = int(floor(x1 * widthR1));
-int scaledy = int(floor(xy * heightR1));</code></pre>
+
+``` syntax
+int scaledx = int(floor(x1 * widthR1));
+int scaledy = int(floor(xy * heightR1));
+```
+
 Note that <i>x1</i> and <i>y1</i> might fall outside the range [0...1] if P lies outside of R1.
 
 ## -see-also

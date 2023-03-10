@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiEvaluateConditionA
 title: MsiEvaluateConditionA function (msiquery.h)
-description: The MsiEvaluateCondition function evaluates a conditional expression containing property names and values.
-helpviewer_keywords: ["MsiEvaluateCondition","MsiEvaluateCondition function","MsiEvaluateConditionA","MsiEvaluateConditionW","_msi_msievaluatecondition","msiquery/MsiEvaluateCondition","msiquery/MsiEvaluateConditionA","msiquery/MsiEvaluateConditionW","setup.msievaluatecondition"]
+description: The MsiEvaluateCondition function evaluates a conditional expression containing property names and values. (ANSI)
+helpviewer_keywords: ["MsiEvaluateConditionA", "msiquery/MsiEvaluateConditionA"]
 old-location: setup\msievaluatecondition.htm
 tech.root: setup
 ms.assetid: 8a444bad-8537-40ec-8c7d-6835e4319580

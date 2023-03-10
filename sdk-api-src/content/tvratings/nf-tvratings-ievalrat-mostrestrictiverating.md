@@ -56,27 +56,27 @@ The <b>MostRestrictiveRating</b> method compares two ratings and returns the mor
 
 ### -param enSystem1 [in]
 
-The rating system of the first rating to compare, specified as a member of the <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration.
+The rating system of the first rating to compare, specified as a member of the <a href="/previous-versions/dd375612(v=vs.85)">EnTvRat_System</a> enumeration.
 
 ### -param enEnLevel1 [in]
 
-The rating level of the first rating, specified as a member of the <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration.
+The rating level of the first rating, specified as a member of the <a href="/previous-versions/dd375610(v=vs.85)">EnTvRat_GenericLevel</a> enumeration.
 
 ### -param lbfEnAttr1 [in]
 
-Specifies the content attributes of the first rating, as a bitwise combination of flags from the <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration.
+Specifies the content attributes of the first rating, as a bitwise combination of flags from the <a href="/previous-versions/dd318226(v=vs.85)">BfEnTvRat_GenericAttributes</a> enumeration.
 
 ### -param enSystem2 [in]
 
-The rating system of the second rating to compare, specified as a member of the <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration.
+The rating system of the second rating to compare, specified as a member of the <a href="/previous-versions/dd375612(v=vs.85)">EnTvRat_System</a> enumeration.
 
 ### -param enEnLevel2 [in]
 
-The rating level of the second rating, specified as a member of the <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration.
+The rating level of the second rating, specified as a member of the <a href="/previous-versions/dd375610(v=vs.85)">EnTvRat_GenericLevel</a> enumeration.
 
 ### -param lbfEnAttr2 [in]
 
-Specifies the content attributes of the second rating, as a bitwise combination of flags from the <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration.
+Specifies the content attributes of the second rating, as a bitwise combination of flags from the <a href="/previous-versions/dd318226(v=vs.85)">BfEnTvRat_GenericAttributes</a> enumeration.
 
 ### -param penSystem [out]
 
@@ -88,7 +88,7 @@ Receives the rating level of the more restrictive rating.
 
 ### -param plbfEnAttr [out]
 
-Receives a bitwise combination of flags from the <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration.
+Receives a bitwise combination of flags from the <a href="/previous-versions/dd318226(v=vs.85)">BfEnTvRat_GenericAttributes</a> enumeration.
 
 ## -returns
 

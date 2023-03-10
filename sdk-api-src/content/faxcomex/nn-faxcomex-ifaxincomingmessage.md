@@ -1,7 +1,7 @@
 ---
 UID: NN:faxcomex.IFaxIncomingMessage
 title: IFaxIncomingMessage (faxcomex.h)
-description: Used by a fax client application to retrieve information about a received fax message in the archive of inbound faxes.
+description: Used by a fax client application to retrieve information about a received fax message in the archive of inbound faxes. (IFaxIncomingMessage)
 helpviewer_keywords: ["IFaxIncomingMessage","IFaxIncomingMessage interface [Fax Service]","IFaxIncomingMessage interface [Fax Service]","described","_mfax_faxincomingmessage_cpp","fax._mfax_faxincomingmessage_cpp","faxcomex/IFaxIncomingMessage"]
 old-location: fax\_mfax_faxincomingmessage_cpp.htm
 tech.root: Fax
@@ -56,11 +56,7 @@ The <b>IFaxIncomingMessage</b> interface is accessed through the <a href="/previ
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxIncomingMessage</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxIncomingMessage</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IFaxIncomingMessage</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxIncomingMessage</b> also has these types of members:
 
 ## -remarks
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>fastReverse</b> method starts fast play of the media item in the reverse direction.
 
-## -parameters
+
 
 ## -returns
 

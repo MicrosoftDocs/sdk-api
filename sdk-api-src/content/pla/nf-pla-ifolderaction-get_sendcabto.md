@@ -1,7 +1,7 @@
 ---
 UID: NF:pla.IFolderAction.get_SendCabTo
 title: IFolderAction::get_SendCabTo (pla.h)
-description: Retrieves or sets the destination of the cabinet file if the action is to send a cabinet file.
+description: Retrieves or sets the destination of the cabinet file if the action is to send a cabinet file. (Get)
 helpviewer_keywords: ["IFolderAction interface [PLA]","SendCabTo property","IFolderAction.SendCabTo","IFolderAction.get_SendCabTo","IFolderAction::SendCabTo","IFolderAction::get_SendCabTo","IFolderAction::put_SendCabTo","SendCabTo property [PLA]","SendCabTo property [PLA]","IFolderAction interface","base.ifolderaction_sendcabto","get_SendCabTo","pla.ifolderaction_sendcabto","pla/IFolderAction::SendCabTo","pla/IFolderAction::get_SendCabTo","pla/IFolderAction::put_SendCabTo"]
 old-location: pla\ifolderaction_sendcabto.htm
 tech.root: PLA

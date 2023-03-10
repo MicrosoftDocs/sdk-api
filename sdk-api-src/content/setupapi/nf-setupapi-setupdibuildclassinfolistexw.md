@@ -1,12 +1,12 @@
 ---
 UID: NF:setupapi.SetupDiBuildClassInfoListExW
 title: SetupDiBuildClassInfoListExW function (setupapi.h)
-description: The SetupDiBuildClassInfoListEx function returns a list of setup class GUIDs that includes every class installed on the local system or a remote system.
-helpviewer_keywords: ["SetupDiBuildClassInfoListEx","SetupDiBuildClassInfoListEx function [Device and Driver Installation]","SetupDiBuildClassInfoListExA","SetupDiBuildClassInfoListExW","devinst.setupdibuildclassinfolistex","di-rtns_beaf3abb-65f5-4b7a-b0a1-5b8eab484eff.xml","setupapi/SetupDiBuildClassInfoListEx"]
+description: The SetupDiBuildClassInfoListEx function returns a list of setup class GUIDs that includes every class installed on the local system or a remote system. (Unicode)
+helpviewer_keywords: ["SetupDiBuildClassInfoListEx", "SetupDiBuildClassInfoListEx function [Device and Driver Installation]", "SetupDiBuildClassInfoListExW", "devinst.setupdibuildclassinfolistex", "di-rtns_beaf3abb-65f5-4b7a-b0a1-5b8eab484eff.xml", "setupapi/SetupDiBuildClassInfoListEx"]
 old-location: devinst\setupdibuildclassinfolistex.htm
 tech.root: devinst
 ms.assetid: 32c6c548-79f8-41be-ad9a-5456972a16eb
-ms.date: 12/05/2018
+ms.date: 01/30/2023
 ms.keywords: SetupDiBuildClassInfoListEx, SetupDiBuildClassInfoListEx function [Device and Driver Installation], SetupDiBuildClassInfoListExA, SetupDiBuildClassInfoListExW, devinst.setupdibuildclassinfolistex, di-rtns_beaf3abb-65f5-4b7a-b0a1-5b8eab484eff.xml, setupapi/SetupDiBuildClassInfoListEx
 req.header: setupapi.h
 req.include-header: Setupapi.h
@@ -60,15 +60,9 @@ The <b>SetupDiBuildClassInfoListEx</b> function returns a list of setup class GU
 
 Flags used to control exclusion of classes from the list. If no flags are specified, all setup classes are included in the list. Can be a combination of the following values:
 
-
-
-
-
 #### DIBCI_NOINSTALLCLASS
 
 Exclude a class if it has the <b>NoInstallClass</b> value entry in its registry key.
-
-
 
 #### DIBCI_NODISPLAYCLASS
 
@@ -89,6 +83,9 @@ A pointer to a variable that receives the number of GUIDs returned. If this numb
 ### -param MachineName [in, optional]
 
 A pointer to a NULL-terminated string that contains the name of a remote computer from which to retrieve installed setup classes. This parameter is optional and can be <b>NULL</b>. If <i>MachineName</i> is <b>NULL</b>, this function builds a list of classes installed on the local computer.
+
+> [!CAUTION]
+> Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.
 
 ### -param Reserved
 

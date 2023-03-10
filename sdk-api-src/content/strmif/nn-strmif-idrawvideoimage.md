@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IDrawVideoImage
 title: IDrawVideoImage (strmif.h)
-description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated. (IDrawVideoImage)
 helpviewer_keywords: ["IDrawVideoImage","IDrawVideoImage interface [DirectShow]","IDrawVideoImage interface [DirectShow]","described","IDrawVideoImageInterface","dshow.idrawvideoimage","strmif/IDrawVideoImage"]
 old-location: dshow\idrawvideoimage.htm
 tech.root: dshow
@@ -54,14 +54,11 @@ api_name:
 <div> </div>
 The <code>IDrawVideoImage</code> interface enables an application to draw the same video image in multiple places simultaneously on the screen. The <a href="/windows/desktop/DirectShow/video-renderer-filter">Video Renderer</a> filter exposes this interface. The Video Mixing Renderer (VMR) filter provides a better way to accomplish the same effect, through the use of multiple input streams.
 
-To use this interface, call <b>DrawVideoImageBegin</b> to put the Video Renderer into GDI mode. Then the application can call the <b>DrawVideoImageDraw</b> method as often as necessary. The renderer simply takes the current video frame and draws it to the specified rectangle. This process is asynchronous to the delivery of frames to the renderer on the filter graph thread. The application is responsible for the frame rate at which it renders images; this rate will never be the same as the rate of the frames being delivered to the filter. In other words, calling this method is like taking a periodic shapshot of the video and putting it into a device context of your choosing at a rate of your choosing.
+To use this interface, call <b>DrawVideoImageBegin</b> to put the Video Renderer into GDI mode. Then the application can call the <b>DrawVideoImageDraw</b> method as often as necessary. The renderer simply takes the current video frame and draws it to the specified rectangle. This process is asynchronous to the delivery of frames to the renderer on the filter graph thread. The application is responsible for the frame rate at which it renders images; this rate will never be the same as the rate of the frames being delivered to the filter. In other words, calling this method is like taking a periodic snapshot of the video and putting it into a device context of your choosing at a rate of your choosing.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDrawVideoImage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDrawVideoImage</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDrawVideoImage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDrawVideoImage</b> also has these types of members:
 
 ## -see-also
 

@@ -62,7 +62,11 @@ The <b>HRESULT</b> value.
 
 This macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define HRESULT_FACILITY(hr)  (((hr) &gt;&gt; 16) &amp; 0x1fff)</code></pre>
+
+``` syntax
+#define HRESULT_FACILITY(hr)  (((hr) &gt;&gt; 16) &amp; 0x1fff)
+```
+
 
 ## -see-also
 

@@ -58,7 +58,7 @@ This operator assigns the vector component data from one instance of <a href="/w
 
 ### -param unnamedParam1
 
-Instance of <code>XMU565</code> used to update the current <code>XMU565</code>structure.
+Instance of <code>XMU565</code> used to update the current <code>XMU565</code> structure.
 
 ## -returns
 

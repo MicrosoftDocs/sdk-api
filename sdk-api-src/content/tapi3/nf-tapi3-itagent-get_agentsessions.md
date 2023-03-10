@@ -1,12 +1,12 @@
 ---
 UID: NF:tapi3.ITAgent.get_AgentSessions
 title: ITAgent::get_AgentSessions (tapi3.h)
-description: The get_AgentSessions method creates a collection of current agent sessions. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateAgentSessions method.
+description: The ITAgent::get_AgentSessions method (tapi3.h) creates a collection of current agent sessions.
 helpviewer_keywords: ["ITAgent interface [TAPI 2.2]","get_AgentSessions method","ITAgent.get_AgentSessions","ITAgent::get_AgentSessions","_tapi3_itagent_get_agentsessions","get_AgentSessions","get_AgentSessions method [TAPI 2.2]","get_AgentSessions method [TAPI 2.2]","ITAgent interface","tapi3.itagent_get_agentsessions","tapi3cc/ITAgent::get_AgentSessions"]
 old-location: tapi3\itagent_get_agentsessions.htm
 tech.root: tapi3
 ms.assetid: 25503eae-ebee-4b57-ab5c-b3f152de9a96
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITAgent interface [TAPI 2.2],get_AgentSessions method, ITAgent.get_AgentSessions, ITAgent::get_AgentSessions, _tapi3_itagent_get_agentsessions, get_AgentSessions, get_AgentSessions method [TAPI 2.2], get_AgentSessions method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_agentsessions, tapi3cc/ITAgent::get_AgentSessions
 req.header: tapi3.h
 req.include-header: Tapi3.h

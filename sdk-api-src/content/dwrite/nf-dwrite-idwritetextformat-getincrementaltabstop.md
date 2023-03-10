@@ -52,7 +52,7 @@ api_name:
 
  Gets the  incremental tab stop position.
 
-## -parameters
+
 
 ## -returns
 

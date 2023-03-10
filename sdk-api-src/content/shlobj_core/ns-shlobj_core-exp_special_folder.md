@@ -1,5 +1,5 @@
 ---
-UID: NS:shlobj_core.__unnamed_struct_3
+UID: NS:shlobj_core.EXP_SPECIAL_FOLDER
 title: EXP_SPECIAL_FOLDER (shlobj_core.h)
 description: Holds an extra data block used by IShellLinkDataList. It holds special folder information.
 helpviewer_keywords: ["*LPEXP_SPECIAL_FOLDER","EXP_SPECIAL_FOLDER","EXP_SPECIAL_FOLDER structure [Windows Shell]","LPEXP_SPECIAL_FOLDER","LPEXP_SPECIAL_FOLDER structure pointer [Windows Shell]","_win32_EXP_SPECIAL_FOLDER_str","shell.EXP_SPECIAL_FOLDER_str","shlobj_core/EXP_SPECIAL_FOLDER","shlobj_core/LPEXP_SPECIAL_FOLDER"]
@@ -79,3 +79,4 @@ The ID of the special folder that the link points into.
 Type: <b>DWORD</b>
 
 The offset into the saved PIDL.
+

@@ -116,7 +116,7 @@ The font object is attached to a range that has been deleted.
 
 ## -remarks
 
-You can use the <a href="/windows/desktop/api/tom/nf-tom-itextfont-setweight">ITextFont::SetWeight</a> and <a href="/windows/desktop/api/tom/nf-tom-itextfont-getweight">ITextFont::GetWeight</a> methods to set or retrieve the font weight more precisely than the <a href="/windows/desktop/api/tom/nf-tom-itextfont-setbold">ITextFont::SetBold</a>and <b>ITextFont::GetBold</b> methods.
+You can use the <a href="/windows/desktop/api/tom/nf-tom-itextfont-setweight">ITextFont::SetWeight</a> and <a href="/windows/desktop/api/tom/nf-tom-itextfont-getweight">ITextFont::GetWeight</a> methods to set or retrieve the font weight more precisely than the <a href="/windows/desktop/api/tom/nf-tom-itextfont-setbold">ITextFont::SetBold</a> and <b>ITextFont::GetBold</b> methods.
 
 ## -see-also
 

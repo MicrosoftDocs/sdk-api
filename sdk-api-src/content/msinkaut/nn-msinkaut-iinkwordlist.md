@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkWordList
 title: IInkWordList (msinkaut.h)
-description: .
+description: . (IInkWordList)
 helpviewer_keywords: ["IInkWordList","IInkWordList interface [Tablet PC]","IInkWordList interface [Tablet PC]","described","msinkaut/IInkWordList","tablet.iinkwordlist"]
 old-location: tablet\iinkwordlist.htm
 tech.root: tablet
@@ -54,8 +54,5 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkWordList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkWordList</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IInkWordList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkWordList</b> also has these types of members:
 

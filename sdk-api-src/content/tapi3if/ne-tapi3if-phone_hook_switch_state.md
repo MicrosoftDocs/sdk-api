@@ -55,19 +55,19 @@ The
 
 ## -enum-fields
 
-### -field PHSS_ONHOOK
+### -field PHSS_ONHOOK:0x1
 
 Indicates that the phone is onhook.
 
-### -field PHSS_OFFHOOK_MIC_ONLY
+### -field PHSS_OFFHOOK_MIC_ONLY:0x2
 
 Indicates that only the phone's microphone is offhook.
 
-### -field PHSS_OFFHOOK_SPEAKER_ONLY
+### -field PHSS_OFFHOOK_SPEAKER_ONLY:0x4
 
 Indicates that only the phone's speaker is offhook.
 
-### -field PHSS_OFFHOOK
+### -field PHSS_OFFHOOK:0x8
 
 Indicates that the phone is offhook.
 

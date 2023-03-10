@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsVolumeMF2
 title: IVdsVolumeMF2 (vds.h)
-description: Provides methods to perform additional file system management operations on the volume object.
+description: Provides methods to perform additional file system management operations on the volume object. (IVdsVolumeMF2)
 helpviewer_keywords: ["IVdsVolumeMF2","IVdsVolumeMF2 interface","IVdsVolumeMF2 interface","described","base.ivdsvolumemf2","vds/IVdsVolumeMF2"]
 old-location: base\ivdsvolumemf2.htm
 tech.root: base
@@ -51,14 +51,11 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
  Provides methods to perform additional file system management operations on the volume object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVolumeMF2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolumeMF2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsVolumeMF2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolumeMF2</b> also has these types of members:
 

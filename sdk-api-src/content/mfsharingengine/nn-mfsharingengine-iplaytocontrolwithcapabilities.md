@@ -54,10 +54,7 @@ Provides functionality for the <a href="/windows/desktop/api/mfsharingengine/nn-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPlayToControlWithCapabilities</b> interface inherits from <b>IPlayToControl</b>. <b>IPlayToControlWithCapabilities</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPlayToControlWithCapabilities</b> interface inherits from <b>IPlayToControl</b>. <b>IPlayToControlWithCapabilities</b> also has these types of members:
 
 ## -see-also
 

@@ -11,8 +11,8 @@ req.header: gdiplusinit.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -37,19 +37,19 @@ Defines constants that specify parameters for startup.
 
 ## -enum-fields
 
-### -field GdiplusStartupDefault
+### -field GdiplusStartupDefault:0
 
 Specfies default startup.
 
-### -field GdiplusStartupNoSetRound
+### -field GdiplusStartupNoSetRound:1
 
 Specifies no set round for startup.
 
-### -field GdiplusStartupSetPSValue
+### -field GdiplusStartupSetPSValue:2
 
 Specifies a pixel shader value for startup.
 
-### -field GdiplusStartupTransparencyMask
+### -field GdiplusStartupTransparencyMask:0xFF000000
 
 Specifies a transparency mask for startup.
 

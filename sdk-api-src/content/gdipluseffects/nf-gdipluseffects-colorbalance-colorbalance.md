@@ -53,7 +53,7 @@ api_name:
 
 Creates a new <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorbalance">ColorBalance</a> object.
 
-## -parameters
+
 
 ## -see-also
 

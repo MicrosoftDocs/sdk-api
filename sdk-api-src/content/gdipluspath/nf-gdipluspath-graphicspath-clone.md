@@ -53,7 +53,7 @@ api_name:
 
 The <b>GraphicsPath::Clone</b> method creates a new <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object, and initializes it with the contents of this <b>GraphicsPath</b> object.
 
-## -parameters
+
 
 ## -returns
 

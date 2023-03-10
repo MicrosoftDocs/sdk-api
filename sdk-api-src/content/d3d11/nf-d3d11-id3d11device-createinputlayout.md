@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateInputLayout
 title: ID3D11Device::CreateInputLayout (d3d11.h)
-description: Create an input-layout object to describe the input-buffer data for the input-assembler stage.
+description: Create an input-layout object to describe the input-buffer data for the input-assembler stage. (ID3D11Device.CreateInputLayout)
 helpviewer_keywords: ["7e1008d3-1c16-4b6f-6b61-949b59c5f6d2","CreateInputLayout","CreateInputLayout method [Direct3D 11]","CreateInputLayout method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CreateInputLayout method","ID3D11Device.CreateInputLayout","ID3D11Device::CreateInputLayout","d3d11/ID3D11Device::CreateInputLayout","direct3d11.id3d11device_createinputlayout"]
 old-location: direct3d11\id3d11device_createinputlayout.htm
 tech.root: direct3d11

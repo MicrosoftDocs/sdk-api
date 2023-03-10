@@ -54,7 +54,7 @@ api_name:
 The <b>IVMRMixerBitmap</b> interface enables an application to blend a static image from a bitmap or DirectDraw surface onto the video stream, when using the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7).
 
 
-<div class="alert"><b>Note</b>  For the VMR-9, use the <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrmixerbitmap9">IVMRMixerBitmap9</a> interface.</div>
+<div class="alert"><b>Note</b>  For the VMR-9, use the <a href="/previous-versions/ms787059(v=vs.85)">IVMRMixerBitmap9</a> interface.</div>
 <div> </div>
 
 
@@ -64,10 +64,7 @@ Internally, the VMR uses its mixer component to perform the blending operation. 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRMixerBitmap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRMixerBitmap</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVMRMixerBitmap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRMixerBitmap</b> also has these types of members:
 
 ## -see-also
 

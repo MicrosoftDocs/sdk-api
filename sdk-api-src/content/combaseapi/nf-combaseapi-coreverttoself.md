@@ -57,7 +57,7 @@ api_name:
 
 Restores the authentication information on a thread of execution.
 
-## -parameters
+
 
 ## -returns
 
@@ -69,10 +69,14 @@ This function supports the standard return values, including S_OK to indicate su
 
 <b>CoRevertToSelf</b> encapsulates the following common sequence of calls (error handling excluded):
 
-<pre class="syntax" xml:space="preserve"><code>    CoGetCallContext(IID_IServerSecurity, (void**)&amp;pss);
+
+``` syntax
+    CoGetCallContext(IID_IServerSecurity, (void**)&amp;pss);
     pss-&gt;RevertToSelf();
     pss-&gt;Release();
-</code></pre>
+
+```
+
 
 ## -see-also
 

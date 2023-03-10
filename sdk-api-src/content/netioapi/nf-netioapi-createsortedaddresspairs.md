@@ -104,7 +104,7 @@ If the function fails, the return value is one of the following error codes.
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed to the function. This error is returned if the <i>DestinationAddressList</i>, <i>SortedAddressPairList</i>, or  <i>SortedAddressPairCount</i> parameters <b>NULL</b>,  or the <i>DestinationAddressCount</i> was greated than 500. This error is also returned if the <i>SourceAddressList</i> is not <b>NULL</b> or the <i>SourceAddressPairCount</i> parameter is not zero. 
+An invalid parameter was passed to the function. This error is returned if the <i>DestinationAddressList</i>, <i>SortedAddressPairList</i>, or  <i>SortedAddressPairCount</i> parameters <b>NULL</b>,  or the <i>DestinationAddressCount</i> was greater than 500. This error is also returned if the <i>SourceAddressList</i> is not <b>NULL</b> or the <i>SourceAddressPairCount</i> parameter is not zero. 
 
 </td>
 </tr>

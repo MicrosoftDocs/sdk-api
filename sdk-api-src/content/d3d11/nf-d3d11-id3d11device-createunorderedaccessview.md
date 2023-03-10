@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateUnorderedAccessView
 title: ID3D11Device::CreateUnorderedAccessView (d3d11.h)
-description: Creates a view for accessing an unordered access resource.
+description: Creates a view for accessing an unordered access resource. (ID3D11Device.CreateUnorderedAccessView)
 helpviewer_keywords: ["CreateUnorderedAccessView","CreateUnorderedAccessView method [Direct3D 11]","CreateUnorderedAccessView method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CreateUnorderedAccessView method","ID3D11Device.CreateUnorderedAccessView","ID3D11Device::CreateUnorderedAccessView","d3d11/ID3D11Device::CreateUnorderedAccessView","direct3d11.id3d11device_createunorderedaccessview","e40c2139-4401-eb51-d806-6b5f91c06ee6"]
 old-location: direct3d11\id3d11device_createunorderedaccessview.htm
 tech.root: direct3d11

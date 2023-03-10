@@ -1,7 +1,7 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.SetClipRegion
 title: IWMResizerProps::SetClipRegion (wmcodecdsp.h)
-description: Sets the source rectangle.
+description: Sets the source rectangle. (IWMResizerProps.SetClipRegion)
 helpviewer_keywords: ["IWMResizerProps interface [Media Foundation]","SetClipRegion method","IWMResizerProps.SetClipRegion","IWMResizerProps::SetClipRegion","SetClipRegion","SetClipRegion method [Media Foundation]","SetClipRegion method [Media Foundation]","IWMResizerProps interface","codecapi.iwmresizerpropssetclipregion","mf.iwmresizerpropssetclipregion","wmcodecdsp/IWMResizerProps::SetClipRegion"]
 old-location: mf\iwmresizerpropssetclipregion.htm
 tech.root: mf

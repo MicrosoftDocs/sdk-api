@@ -1,7 +1,7 @@
 ---
 UID: NN:dxgi1_4.IDXGIFactory4
 title: IDXGIFactory4 (dxgi1_4.h)
-description: Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.
+description: Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects. (IDXGIFactory4)
 helpviewer_keywords: ["IDXGIFactory4","IDXGIFactory4 interface [DXGI]","IDXGIFactory4 interface [DXGI]","described","direct3ddxgi.idxgifactory4","dxgi1_4/IDXGIFactory4"]
 old-location: direct3ddxgi\idxgifactory4.htm
 tech.root: direct3ddxgi
@@ -55,10 +55,7 @@ Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory4</b> interface inherits from <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgifactory3">IDXGIFactory3</a>. <b>IDXGIFactory4</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDXGIFactory4</b> interface inherits from <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgifactory3">IDXGIFactory3</a>. <b>IDXGIFactory4</b> also has these types of members:
 
 ## -see-also
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCbCatExW
 title: StringCbCatExW function (strsafe.h)
-description: Concatenates one string to another string.
-helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCbCatEx","StringCbCatEx function [Menus and Other Resources]","StringCbCatExA","StringCbCatExW","_shell_StringCbCatEx","_shell_stringcbcatex_cpp","menurc.stringcbcatex","strsafe/StringCbCatEx","strsafe/StringCbCatExA","strsafe/StringCbCatExW","winui._shell_stringcbcatex"]
+description: Concatenates one string to another string. (StringCbCatExW)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCbCatEx", "StringCbCatEx function [Menus and Other Resources]", "StringCbCatExW", "_shell_StringCbCatEx", "_shell_stringcbcatex_cpp", "menurc.stringcbcatex", "strsafe/StringCbCatEx", "strsafe/StringCbCatExW", "winui._shell_stringcbcatex"]
 old-location: menurc\stringcbcatex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcatex.htm
@@ -221,7 +221,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-<b>StringCbCatEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCatEx</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
+<b>StringCbCatEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCatEx</b> always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 

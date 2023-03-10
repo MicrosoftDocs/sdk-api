@@ -7,8 +7,8 @@ ms.date: 11/03/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -107,10 +107,15 @@ OutputCoordinatesTensor: (Sizes:{1,1,8,3}, DataType:UINT32)
 ## Availability
 This operator was introduced in `DML_FEATURE_LEVEL_3_0`.
 
-## Tensor constraints
-*InputTensor*, *OutputCoordinatesTensor*, and `OutputCountTensor` must have the same *DimensionCount*.
-
 ## Tensor support
+### DML_FEATURE_LEVEL_4_0 and above
+| Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
+| ------ | ---- | ---------- | -------------------------- | -------------------- |
+| InputTensor | Input | { [D0], [D1], [D2], [D3], [D4], [D5], [D6], D7 } | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+| OutputCountTensor | Output | { [1], [1], [1], [1], [1], [1], [1], 1 } | 1 to 8 | UINT32 |
+| OutputCoordinatesTensor | Output | { [1], [1], [1], [1], [1], [1], M, N } | 2 to 8 | UINT32 |
+
+### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
 | ------ | ---- | ---------- | -------------------------- | -------------------- |
 | InputTensor | Input | { [D0], D1, D2, D3, D4 } | 4 to 5 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |

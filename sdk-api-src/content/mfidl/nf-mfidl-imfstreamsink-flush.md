@@ -53,7 +53,7 @@ api_name:
 
 Causes the stream sink to drop any samples that it has received and has not rendered yet.
 
-## -parameters
+
 
 ## -returns
 

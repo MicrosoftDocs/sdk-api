@@ -54,7 +54,7 @@ api_name:
 The <b>Image::GetFrameDimensionsCount</b> method gets the number of frame dimensions in this 
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
-## -parameters
+
 
 ## -returns
 

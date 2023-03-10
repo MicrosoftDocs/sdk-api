@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer2_QueryInterface
 title: CStdStubBuffer2_QueryInterface function (rpcproxy.h)
-description: Implements the IRpcStubBuffer::QueryInterface method.
+description: Implements the IRpcStubBuffer::QueryInterface method. (CStdStubBuffer2_QueryInterface)
 helpviewer_keywords: ["CStdStubBuffer2_QueryInterface","CStdStubBuffer2_QueryInterface function [RPC]","rpc.cstdstubbuffer2_queryinterface","rpcproxy/CStdStubBuffer2_QueryInterface"]
 old-location: rpc\cstdstubbuffer2_queryinterface.htm
 tech.root: Rpc

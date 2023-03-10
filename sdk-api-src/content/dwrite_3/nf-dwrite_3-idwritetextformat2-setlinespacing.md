@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite_3.IDWriteTextFormat2.SetLineSpacing
 title: IDWriteTextFormat2::SetLineSpacing (dwrite_3.h)
-description: Set line spacing.
+description: Set line spacing. (IDWriteTextFormat2.SetLineSpacing)
 helpviewer_keywords: ["IDWriteTextFormat2 interface [Direct Write]","SetLineSpacing method","IDWriteTextFormat2.SetLineSpacing","IDWriteTextFormat2::SetLineSpacing","SetLineSpacing","SetLineSpacing method [Direct Write]","SetLineSpacing method [Direct Write]","IDWriteTextFormat2 interface","directwrite.idwritetextformat2_setlinespacing","dwrite_3/IDWriteTextFormat2::SetLineSpacing"]
 old-location: directwrite\idwritetextformat2_setlinespacing.htm
 tech.root: DirectWrite
@@ -64,7 +64,7 @@ How to manage space between lines.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

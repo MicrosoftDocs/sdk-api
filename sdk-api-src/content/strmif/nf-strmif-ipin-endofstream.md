@@ -57,7 +57,7 @@ The <code>EndOfStream</code> method notifies the pin that no additional data is 
 
 Applications should not call this method. This method is called by other filters to signal the end of the stream.
 
-## -parameters
+
 
 ## -returns
 

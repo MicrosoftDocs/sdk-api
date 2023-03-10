@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMVectorGetY
 title: XMVectorGetY function (directxmath.h)
-description: Retrieve the y component of an XMVECTOR Data Type.
+description: Retrieve the y component of an XMVECTOR Data Type. (XMVectorGetY)
 helpviewer_keywords: ["Use DirectX..XMVectorGetY","XMVectorGetY","XMVectorGetY method [DirectX Math Support APIs]","dxmath.xmvectorgety"]
 old-location: dxmath\xmvectorgety.htm
 tech.root: dxmath

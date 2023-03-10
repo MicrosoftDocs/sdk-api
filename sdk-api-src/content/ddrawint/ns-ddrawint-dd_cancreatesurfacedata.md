@@ -64,7 +64,7 @@ Points to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_g
 
 ### -field lpDDSurfaceDesc
 
-Points to a <a href="/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a> structure that contains a description of the surface or buffer to be created. See the Remarks section for additional information about this member.
+Points to a <a href="/windows/win32/api/ddraw/ns-ddraw-ddsurfacedesc">DDSURFACEDESC</a> structure that contains a description of the surface or buffer to be created. See the Remarks section for additional information about this member.
 
 ### -field bIsDifferentPixelFormat
 

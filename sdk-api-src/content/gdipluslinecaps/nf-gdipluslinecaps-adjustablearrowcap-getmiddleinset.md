@@ -53,7 +53,7 @@ api_name:
 
 The <b>AdjustableArrowCap::GetMiddleInset</b> method gets the value of the inset. The middle inset is the number of units that the midpoint of the base shifts towards the vertex.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.ILaunchTargetMonitor
 title: ILaunchTargetMonitor (shobjidl_core.h)
-description: .
+description: . (ILaunchTargetMonitor)
 helpviewer_keywords: ["ILaunchTargetMonitor","ILaunchTargetMonitor interface [Windows Shell]","ILaunchTargetMonitor interface [Windows Shell]","described","shell.ILaunchTargetMonitor","shobjidl_core/ILaunchTargetMonitor"]
 old-location: shell\ILaunchTargetMonitor.htm
 tech.root: shell
@@ -54,8 +54,5 @@ Provides a method for retrieving the target monitor for the application being la
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILaunchTargetMonitor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILaunchTargetMonitor</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ILaunchTargetMonitor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILaunchTargetMonitor</b> also has these types of members:
 

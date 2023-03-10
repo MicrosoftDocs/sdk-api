@@ -1,7 +1,7 @@
 ---
 UID: NN:shdeprecated.IBrowserService
 title: IBrowserService (shdeprecated.h)
-description: Deprecated.
+description: Deprecated. (IBrowserService)
 helpviewer_keywords: ["IBrowserService","IBrowserService interface [Windows Shell]","IBrowserService interface [Windows Shell]","described","shdeprecated/IBrowserService","shell.IBrowserService","zone_IBrowserService"]
 old-location: shell\IBrowserService.htm
 tech.root: shell
@@ -55,10 +55,7 @@ Deprecated. The methods exposed by this interface are analogous to virtual prote
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBrowserService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBrowserService</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IBrowserService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBrowserService</b> also has these types of members:
 
 ## -remarks
 

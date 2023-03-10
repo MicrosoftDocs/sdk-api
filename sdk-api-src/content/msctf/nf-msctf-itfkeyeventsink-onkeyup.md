@@ -91,3 +91,7 @@ The method was successful.
 </td>
 </tr>
 </table>
+
+## -see-also
+
+[ITfKeyEventSink interface](nn-msctf-itfkeyeventsink.md), [WM_KEYUP](/windows/win32/inputdev/wm-keyup), [Keyboard Input](/windows/win32/inputdev/keyboard-input)

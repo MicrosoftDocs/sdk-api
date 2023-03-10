@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.CreateDialogIndirectParamW
 title: CreateDialogIndirectParamW function (winuser.h)
-description: Creates a modeless dialog box from a dialog box template in memory.
-helpviewer_keywords: ["CreateDialogIndirectParam","CreateDialogIndirectParam function [Dialog Boxes]","CreateDialogIndirectParamA","CreateDialogIndirectParamW","_win32_CreateDialogIndirectParam","_win32_createdialogindirectparam_cpp","dlgbox.createdialogindirectparam","winui._win32_createdialogindirectparam","winuser/CreateDialogIndirectParam","winuser/CreateDialogIndirectParamA","winuser/CreateDialogIndirectParamW"]
+description: Creates a modeless dialog box from a dialog box template in memory. (Unicode)
+helpviewer_keywords: ["CreateDialogIndirectParam", "CreateDialogIndirectParam function [Dialog Boxes]", "CreateDialogIndirectParamW", "_win32_CreateDialogIndirectParam", "_win32_createdialogindirectparam_cpp", "dlgbox.createdialogindirectparam", "winui._win32_createdialogindirectparam", "winuser/CreateDialogIndirectParam", "winuser/CreateDialogIndirectParamW"]
 old-location: dlgbox\createdialogindirectparam.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialogindirectparam.htm

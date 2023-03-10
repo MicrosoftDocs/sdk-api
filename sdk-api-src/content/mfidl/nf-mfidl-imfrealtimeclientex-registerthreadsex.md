@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFRealTimeClientEx.RegisterThreadsEx
 title: IMFRealTimeClientEx::RegisterThreadsEx (mfidl.h)
-description: Notifies the object to register its worker threads with the Multimedia Class Scheduler Service (MMCSS).
+description: Notifies the object to register its worker threads with the Multimedia Class Scheduler Service (MMCSS). (IMFRealTimeClientEx.RegisterThreadsEx)
 helpviewer_keywords: ["IMFRealTimeClientEx interface [Media Foundation]","RegisterThreadsEx method","IMFRealTimeClientEx.RegisterThreadsEx","IMFRealTimeClientEx::RegisterThreadsEx","RegisterThreadsEx","RegisterThreadsEx method [Media Foundation]","RegisterThreadsEx method [Media Foundation]","IMFRealTimeClientEx interface","mf.imfrealtimeclientex_registerthreadsex","mfidl/IMFRealTimeClientEx::RegisterThreadsEx"]
 old-location: mf\imfrealtimeclientex_registerthreadsex.htm
 tech.root: mf
@@ -68,7 +68,7 @@ The base priority of the thread.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -81,7 +81,7 @@ Otherwise, if the value of <code>*pdwTaskIndex</code> is zero on input, the obje
 <li>Any additional worker threads call <a href="/windows/desktop/api/avrt/nf-avrt-avsetmmthreadcharacteristicsa">AvSetMmThreadCharacteristics</a> using the new task identifier.</li>
 <li>Return the new task identifier to the caller, by setting <code>*pdwTaskIndex</code> equal to the task identifier.</li>
 </ol>
-If the value of <code>*pdwTaskIndex</code> is nonzero on input, the parameter contains an existing MMCSS task identifer. In that case, all worker threads of the object should register themselves for that task by calling <a href="/windows/desktop/api/avrt/nf-avrt-avsetmmthreadcharacteristicsa">AvSetMmThreadCharacteristics</a>.
+If the value of <code>*pdwTaskIndex</code> is nonzero on input, the parameter contains an existing MMCSS task identifier. In that case, all worker threads of the object should register themselves for that task by calling <a href="/windows/desktop/api/avrt/nf-avrt-avsetmmthreadcharacteristicsa">AvSetMmThreadCharacteristics</a>.
 
 ## -see-also
 

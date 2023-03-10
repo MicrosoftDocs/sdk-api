@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_2.IDWriteTextLayout2
 title: IDWriteTextLayout2 (dwrite_2.h)
-description: Represents a block of text after it has been fully analyzed and formatted.
+description: Represents a block of text after it has been fully analyzed and formatted. (IDWriteTextLayout2)
 helpviewer_keywords: ["IDWriteTextLayout2","IDWriteTextLayout2 interface [Direct Write]","IDWriteTextLayout2 interface [Direct Write]","described","directwrite.idwritetextlayout2","dwrite_2/IDWriteTextLayout2"]
 old-location: directwrite\idwritetextlayout2.htm
 tech.root: DirectWrite
@@ -54,10 +54,7 @@ Represents a block of text after it has been fully analyzed and formatted.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextLayout2</b> interface inherits from <a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextlayout1">IDWriteTextLayout1</a>. <b>IDWriteTextLayout2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteTextLayout2</b> interface inherits from <a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextlayout1">IDWriteTextLayout1</a>. <b>IDWriteTextLayout2</b> also has these types of members:
 
 ## -see-also
 

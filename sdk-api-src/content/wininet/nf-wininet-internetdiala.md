@@ -1,12 +1,12 @@
 ---
 UID: NF:wininet.InternetDialA
 title: InternetDialA function (wininet.h)
-description: Initiates a connection to the Internet using a modem.
-helpviewer_keywords: ["InternetDial","InternetDial function [WinINet]","InternetDialA","InternetDialW","_inet_internetdial_function","wininet.internetdial","winineti/InternetDial","winineti/InternetDialA","winineti/InternetDialW"]
+description: The InternetDialA (ANSI) function (wininet.h) initiates a connection to the Internet using a modem.
+helpviewer_keywords: ["InternetDialA"]
 old-location: wininet\internetdial.htm
 tech.root: wininet
 ms.assetid: b8ce748b-9879-4f68-aea1-32e2bfaee8ab
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: InternetDial, InternetDial function [WinINet], InternetDialA, InternetDialW, _inet_internetdial_function, wininet.internetdial, winineti/InternetDial, winineti/InternetDialA, winineti/InternetDialW
 req.header: wininet.h
 req.include-header: Wininet.h, Winineti.h, Wininet.h, Winineti.h
@@ -132,7 +132,7 @@ Shows the <b>Work Offline</b> button instead of the <b>Cancel</b> button in the 
 
 ### -param lpdwConnection [out]
 
-Pointer to a variable that specifies the connection number. This number is a unique indentifier for the connection that can be used in other functions, such as <a href="/windows/desktop/api/wininet/nf-wininet-internethangup">InternetHangUp</a>.
+Pointer to a variable that specifies the connection number. This number is a unique identifier for the connection that can be used in other functions, such as <a href="/windows/desktop/api/wininet/nf-wininet-internethangup">InternetHangUp</a>.
 
 ### -param dwReserved [in]
 

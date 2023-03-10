@@ -54,7 +54,7 @@ Describes match criteria. Used by methods of the <a href="/windows/desktop/api/s
 
 ## -enum-fields
 
-### -field FFFP_EXACTMATCH
+### -field FFFP_EXACTMATCH:0
 
 Exact match.
 

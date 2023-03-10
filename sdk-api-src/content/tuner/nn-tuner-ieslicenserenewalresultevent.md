@@ -54,9 +54,9 @@ Implements methods that get information from a  <b>LicenseRenewalResult</b> even
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IESLicenseRenewalResultEvent</b> interface inherits from <b>IESEvent</b>. <b>IESLicenseRenewalResultEvent</b> also has these types of members:
+The <b>IESLicenseRenewalResultEvent</b> interface inherits from <b>IESEvent</b>. <b>IESLicenseRenewalResultEvent</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

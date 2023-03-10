@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmSetting.get_DisableCommandLine
 title: IFsrmSetting::get_DisableCommandLine (fsrm.h)
-description: Retrieves or sets a value that determines whether FSRM prevents command line actions from running.
+description: Retrieves or sets a value that determines whether FSRM prevents command line actions from running. (Get)
 helpviewer_keywords: ["DisableCommandLine property [File Server Resource Manager]","DisableCommandLine property [File Server Resource Manager]","FsrmSetting class","DisableCommandLine property [File Server Resource Manager]","IFsrmSetting interface","FsrmSetting class [File Server Resource Manager]","DisableCommandLine property","IFsrmSetting interface [File Server Resource Manager]","DisableCommandLine property","IFsrmSetting.DisableCommandLine","IFsrmSetting.get_DisableCommandLine","IFsrmSetting::DisableCommandLine","IFsrmSetting::get_DisableCommandLine","IFsrmSetting::put_DisableCommandLine","fs.ifsrmsetting_disablecommandline","fsrm.ifsrmsetting_disablecommandline","fsrm/IFsrmSetting::DisableCommandLine","fsrm/IFsrmSetting::get_DisableCommandLine","fsrm/IFsrmSetting::put_DisableCommandLine","get_DisableCommandLine"]
 old-location: fsrm\ifsrmsetting_disablecommandline.htm
 tech.root: fsrm

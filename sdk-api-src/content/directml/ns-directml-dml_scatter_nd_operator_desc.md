@@ -1,14 +1,14 @@
 ---
 UID: NS:directml.DML_SCATTER_ND_OPERATOR_DESC
 title: DML_SCATTER_ND_OPERATOR_DESC (DML_SCATTER_ELEMENTS_OPERATOR_DESC)
-description: Copies the whole input tensor to the output, then overwrites selected indices with corresponding values from the updates tensor.
+description: Copies the whole input tensor to the output, then overwrites selected indices with corresponding values from the updates tensor. (DML_SCATTER_ND_OPERATOR_DESC)
 tech.root: directml
 ms.date: 11/04/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -138,10 +138,19 @@ OutputTensor: (Sizes:{8}, DataType:FLOAT32)
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor constraints
-* *IndicesTensor*, *InputTensor*, *OutputTensor*, and `UpdatesTensor` must have the same *DimensionCount*.
-* *InputTensor*, *OutputTensor*, and `UpdatesTensor` must have the same *DataType*.
+* *IndicesTensor*, *InputTensor*, *OutputTensor*, and *UpdatesTensor* must have the same *DimensionCount*.
+* *InputTensor*, *OutputTensor*, and *UpdatesTensor* must have the same *DataType*.
 
 ## Tensor support
+
+### DML_FEATURE_LEVEL_4_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| IndicesTensor | Input | 1 to 8 | INT64, INT32, UINT64, UINT32 |
+| UpdatesTensor | Input | 1 to 8 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+
 ### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |

@@ -60,16 +60,13 @@ api_name:
 The <b>TRefPointerCollection</b> class is a container 
     class that collects pointers to objects. These pointers can be enumerated.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">TRefPointerCollection</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>TRefPointerCollection</b> class has these methods.
+<b>TRefPointerCollection</b> has these types of members:
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-add">Add</a>
 </td>
@@ -79,7 +76,7 @@ Adds an item to a collection and calls the <a href="/windows/desktop/api/unknwn/
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-beginenum">BeginEnum</a>
 </td>
@@ -89,7 +86,7 @@ Begins an enumeration of a collection. Call this method with the cursor to be in
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-empty">Empty</a>
 </td>
@@ -98,7 +95,7 @@ Empties out the list, releasing all held pointers.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-endenum">EndEnum</a>
 </td>
@@ -107,7 +104,7 @@ Ends enumeration of a collection. Call this method when the enumerating operatio
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-getnext">GetNext</a>
 </td>
@@ -118,7 +115,7 @@ Gets next item from the list and calls the <a href="/windows/desktop/api/unknwn/
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-getsize">GetSize</a>
 </td>
@@ -127,7 +124,7 @@ Returns the number of items in the list.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-trefpointercollection(consttrefpointercollection_)">TRefPointerCollection</a>
 </td>

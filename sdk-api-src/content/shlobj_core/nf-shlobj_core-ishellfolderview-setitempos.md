@@ -64,7 +64,7 @@ A PIDL that corresponds to the item for which the position is being set.
 
 ### -param ppt [in]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
 A pointer to a structure that contains the new coordinates of the item relative to the ListView contained in the view.
 
@@ -72,4 +72,4 @@ A pointer to a structure that contains the new coordinates of the item relative 
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

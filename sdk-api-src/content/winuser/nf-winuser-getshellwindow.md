@@ -62,7 +62,7 @@ req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 
 Retrieves a handle to the Shell's desktop window.
 
-## -parameters
+
 
 ## -returns
 

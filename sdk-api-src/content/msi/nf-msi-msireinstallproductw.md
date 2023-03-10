@@ -1,8 +1,8 @@
 ---
 UID: NF:msi.MsiReinstallProductW
 title: MsiReinstallProductW function (msi.h)
-description: Reinstalls products.
-helpviewer_keywords: ["MsiReinstallProduct","MsiReinstallProduct function","MsiReinstallProductA","MsiReinstallProductW","REINSTALLMODE_FILEEQUALVERSION","REINSTALLMODE_FILEEXACT","REINSTALLMODE_FILEMISSING","REINSTALLMODE_FILEOLDERVERSION","REINSTALLMODE_FILEREPLACE","REINSTALLMODE_FILEVERIFY","REINSTALLMODE_MACHINEDATA","REINSTALLMODE_PACKAGE","REINSTALLMODE_SHORTCUT","REINSTALLMODE_USERDATA","_msi_msireinstallproduct","msi/MsiReinstallProduct","msi/MsiReinstallProductA","msi/MsiReinstallProductW","setup.msireinstallproduct"]
+description: Reinstalls products. (Unicode)
+helpviewer_keywords: ["MsiReinstallProduct", "MsiReinstallProduct function", "MsiReinstallProductW", "REINSTALLMODE_FILEEQUALVERSION", "REINSTALLMODE_FILEEXACT", "REINSTALLMODE_FILEMISSING", "REINSTALLMODE_FILEOLDERVERSION", "REINSTALLMODE_FILEREPLACE", "REINSTALLMODE_FILEVERIFY", "REINSTALLMODE_MACHINEDATA", "REINSTALLMODE_PACKAGE", "REINSTALLMODE_SHORTCUT", "REINSTALLMODE_USERDATA", "_msi_msireinstallproduct", "msi/MsiReinstallProduct", "msi/MsiReinstallProductW", "setup.msireinstallproduct"]
 old-location: setup\msireinstallproduct.htm
 tech.root: setup
 ms.assetid: ad69868e-d653-417d-b902-d0d62e05c985
@@ -138,7 +138,7 @@ Force all files to be reinstalled, regardless of checksum or version.
 </td>
 <td width="60%">
 Rewrite all required registry entries from the 
-<a href="/windows/desktop/Msi/registry-table">Registry Table</a> that go to the<b>HKEY_CURRENT_USER</b></p>  or <b>HKEY_USERS</b></p> registry hive.
+<a href="/windows/desktop/Msi/registry-table">Registry Table</a> that go to the <b>HKEY_CURRENT_USER</b></p>  or <b>HKEY_USERS</b></p> registry hive.
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Rewrite all required registry entries from the
 </td>
 <td width="60%">
 Rewrite all required registry entries from the 
-<a href="/windows/desktop/Msi/registry-table">Registry Table</a> that go to the <b>HKEY_LOCAL_MACHINE</b></p>or <b>HKEY_CLASSES_ROOT</b></p> registry hive. Rewrite all information from the 
+<a href="/windows/desktop/Msi/registry-table">Registry Table</a> that go to the <b>HKEY_LOCAL_MACHINE</b></p> or <b>HKEY_CLASSES_ROOT</b></p> registry hive. Rewrite all information from the 
 <a href="/windows/desktop/Msi/class-table">Class Table</a>, 
 <a href="/windows/desktop/Msi/verb-table">Verb Table</a>, 
 <a href="/windows/desktop/Msi/publishcomponent-table">PublishComponent Table</a>, 

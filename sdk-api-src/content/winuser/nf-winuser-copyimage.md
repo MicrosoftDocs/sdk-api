@@ -173,6 +173,17 @@ Returns the original <i>hImage</i> if it satisfies the criteria for the copy—t
 </td>
 <td width="60%">
 If this is set and a new bitmap is created, the bitmap is created as a DIB section. Otherwise, the bitmap image is created as a device-dependent bitmap. This flag is only valid if <i>uType</i> is <b>IMAGE_BITMAP</b>.
+ 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="LR_DEFAULTCOLOR"></a><a id="lr_defaultcolor"></a><dl>
+<dt><b>LR_DEFAULTCOLOR</b></dt>
+<dt>0x00000000</dt>
+</dl>
+</td>
+<td width="60%">
+Uses the default color format.
 
 </td>
 </tr>

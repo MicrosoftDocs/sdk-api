@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 Checks if the memory supported by the allocator requires the use of the <a href="/windows/desktop/api/strmif/nf-strmif-iamdevmemorycontrol-writesync">IAMDevMemoryControl::WriteSync</a> method.
 
-## -parameters
+
 
 ## -returns
 

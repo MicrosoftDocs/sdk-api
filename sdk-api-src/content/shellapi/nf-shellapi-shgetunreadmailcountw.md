@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.SHGetUnreadMailCountW
 title: SHGetUnreadMailCountW function (shellapi.h)
-description: Retrieves a specified user's unread message count for any or all email accounts.
-helpviewer_keywords: ["SHGetUnreadMailCount","SHGetUnreadMailCount function [Windows Shell]","SHGetUnreadMailCountW","_shell_SHGetUnreadMailCount","shell.SHGetUnreadMailCount","shellapi/SHGetUnreadMailCount","shellapi/SHGetUnreadMailCountW"]
+description: Retrieves a specified user's unread message count for any or all email accounts. (Unicode)
+helpviewer_keywords: ["SHGetUnreadMailCount", "SHGetUnreadMailCount function [Windows Shell]", "SHGetUnreadMailCountW", "_shell_SHGetUnreadMailCount", "shell.SHGetUnreadMailCount", "shellapi/SHGetUnreadMailCount", "shellapi/SHGetUnreadMailCountW"]
 old-location: shell\SHGetUnreadMailCount.htm
 tech.root: shell
 ms.assetid: d2a57fa0-13fe-4e12-89cc-8a6dbdb44f08
@@ -95,4 +95,4 @@ The maximum size, in characters, of the ShellExecute command buffer pointed to b
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

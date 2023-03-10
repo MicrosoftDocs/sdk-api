@@ -47,7 +47,6 @@ api_name:
 
 # wglCreateContext function
 
-
 ## -description
 
 The <b>wglCreateContext</b> function creates a new OpenGL rendering context, which is suitable for drawing on the device referenced by <i>hdc</i>. The rendering context has the same pixel format as the device context.
@@ -56,7 +55,7 @@ The <b>wglCreateContext</b> function creates a new OpenGL rendering context, whi
 
 ### -param unnamedParam1
 
-Handle to a device context for which the function creates a suitable OpenGL rendering context.
+Typically named `handleToDeviceContext`. Handle to a device context for which the function creates a suitable OpenGL rendering context.
 
 ## -returns
 
@@ -72,7 +71,9 @@ To use OpenGL, you create a rendering context, select it as a thread's current r
 
 The following code example shows <b>wglCreateContext</b> usage.
 
-<pre class="syntax" xml:space="preserve"><code>HDC    hdc; 
+
+``` syntax
+HDC    hdc; 
 HGLRC  hglrc; 
  
 // create a rendering context  
@@ -89,7 +90,9 @@ wglMakeCurrent (hdc, hglrc);
 wglMakeCurrent (NULL, NULL) ; 
  
 // delete the rendering context  
-wglDeleteContext (hglrc);</code></pre>
+wglDeleteContext (hglrc);
+```
+
 
 ## -see-also
 

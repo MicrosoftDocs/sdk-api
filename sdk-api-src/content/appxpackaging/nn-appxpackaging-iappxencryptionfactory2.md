@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptionFactory2
 title: IAppxEncryptionFactory2 (appxpackaging.h)
-description: Creates objects for encrypting, decrypting, reading, and writing Windows app packages and bundles.
+description: Creates objects for encrypting, decrypting, reading, and writing Windows app packages and bundles. (IAppxEncryptionFactory2)
 helpviewer_keywords: ["IAppxEncryptionFactory2","IAppxEncryptionFactory2 interface [App packaging and management]","IAppxEncryptionFactory2 interface [App packaging and management]","described","appxpackaging/IAppxEncryptionFactory2","appxpkg.iappxencryptionfactory2"]
 old-location: appxpkg\iappxencryptionfactory2.htm
 tech.root: appxpkg
@@ -54,8 +54,5 @@ Creates objects for encrypting, decrypting,  reading, and writing Windows app pa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxEncryptionFactory2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptionFactory2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxEncryptionFactory2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptionFactory2</b> also has these types of members:
 

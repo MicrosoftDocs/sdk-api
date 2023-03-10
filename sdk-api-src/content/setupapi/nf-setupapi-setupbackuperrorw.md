@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupBackupErrorW
 title: SetupBackupErrorW function (setupapi.h)
-description: The SetupBackupError function generates a dialog box that informs the user of a backup error.
-helpviewer_keywords: ["SetupBackupError","SetupBackupError function [Setup API]","SetupBackupErrorA","SetupBackupErrorW","_setupapi_setupbackuperror","setup.setupbackuperror","setupapi/SetupBackupError","setupapi/SetupBackupErrorA","setupapi/SetupBackupErrorW"]
+description: The SetupBackupError function generates a dialog box that informs the user of a backup error. (Unicode)
+helpviewer_keywords: ["SetupBackupError", "SetupBackupError function [Setup API]", "SetupBackupErrorW", "_setupapi_setupbackuperror", "setup.setupbackuperror", "setupapi/SetupBackupError", "setupapi/SetupBackupErrorW"]
 old-location: setup\setupbackuperror.htm
 tech.root: setup
 ms.assetid: 4c2a8a63-29e7-4750-9239-6693754dff58

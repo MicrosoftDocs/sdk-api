@@ -1,8 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiCreateDeviceInfoW
 title: SetupDiCreateDeviceInfoW function (setupapi.h)
-description: The SetupDiCreateDeviceInfo function creates a new device information element and adds it as a new member to the specified device information set.
-helpviewer_keywords: ["SetupDiCreateDeviceInfo","SetupDiCreateDeviceInfo function [Device and Driver Installation]","SetupDiCreateDeviceInfoA","SetupDiCreateDeviceInfoW","devinst.setupdicreatedeviceinfo","di-rtns_a4c64729-99b8-44d0-a404-1def9567bf33.xml","setupapi/SetupDiCreateDeviceInfo"]
+description: The SetupDiCreateDeviceInfo function creates a new device information element and adds it as a new member to the specified device information set. (Unicode)
+helpviewer_keywords: ["SetupDiCreateDeviceInfo", "SetupDiCreateDeviceInfo function [Device and Driver Installation]", "SetupDiCreateDeviceInfoW", "devinst.setupdicreatedeviceinfo", "di-rtns_a4c64729-99b8-44d0-a404-1def9567bf33.xml", "setupapi/SetupDiCreateDeviceInfo"]
 old-location: devinst\setupdicreatedeviceinfo.htm
 tech.root: devinst
 ms.assetid: 7d42167f-9af4-4aee-b641-a93ade1e3969
@@ -65,7 +65,7 @@ A pointer to a NULL-terminated string that supplies either a full <a href="/wind
 
 ### -param ClassGuid [in]
 
-A pointer to the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> GUID for the device. If the device setup class of the device is not known, set *<i>ClassGuid</i> to a GUID_NULL structure.
+A pointer to the <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> GUID for the device. If the device setup class of the device is not known, set *<i>ClassGuid</i> to a GUID_NULL structure.
 
 ### -param DeviceDescription [in, optional]
 

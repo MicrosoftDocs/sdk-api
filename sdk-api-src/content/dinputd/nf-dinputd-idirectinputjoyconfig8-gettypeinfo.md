@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::GetTypeInfo </b>method obtains information about a joystick type.
+The <b>IDirectInputJoyConfig8::GetTypeInfo </b> method obtains information about a joystick type.
 
 ## -parameters
 

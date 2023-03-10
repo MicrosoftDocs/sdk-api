@@ -52,7 +52,7 @@ api_name:
 
 The <b>Cancel</b> method cancels an ongoing diagnosis or repair.
 
-## -parameters
+
 
 ## -returns
 

@@ -58,7 +58,7 @@ The <b>MANDATORY_LEVEL</b> enumeration lists the possible security levels.
 
 ## -enum-fields
 
-### -field MandatoryLevelUntrusted
+### -field MandatoryLevelUntrusted:0
 
 The required security level is untrusted.
 

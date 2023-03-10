@@ -1,7 +1,7 @@
 ---
 UID: NN:uiautomationcore.IObjectModelProvider
 title: IObjectModelProvider (uiautomationcore.h)
-description: Provides access to the underlying object model implemented by a control or application.
+description: Provides access to the underlying object model implemented by a control or application. (IObjectModelProvider)
 helpviewer_keywords: ["IObjectModelProvider","IObjectModelProvider interface [Windows Accessibility]","IObjectModelProvider interface [Windows Accessibility]","described","uiautomationcore/IObjectModelProvider","winauto.uiauto_IObjectModelProvider"]
 old-location: winauto\uiauto_IObjectModelProvider.htm
 tech.root: WinAuto
@@ -54,10 +54,7 @@ Provides access to the underlying object model implemented by a control or appli
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectModelProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectModelProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IObjectModelProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectModelProvider</b> also has these types of members:
 
 ## -see-also
 

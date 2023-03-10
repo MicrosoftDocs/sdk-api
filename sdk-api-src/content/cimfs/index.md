@@ -5,7 +5,7 @@ tech.root: cimfs
 title: cimfs
 ms.date: 9/9/2019
 ms.keywords: cimfs
-ms.topic: portal
+ms.topic: overview
 targetos: Windows
 ms.prod: windows
 req.assembly: 
@@ -26,6 +26,7 @@ req.target-min-winversvr: Windows Server, version 2004 (10.0; Build 19041)
 req.target-type: 
 req.typenames: 
 req.type-library: 
+ - cimfs.lib
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
@@ -46,7 +47,10 @@ f1_keywords:
 Provides the ability to construct and mount Composite Images (CIMs).
 
 ## -remarks
+Link with cimfs.lib
+
+This header is used by CimFS. For more information, see:
+
+- [CimFS](../_cimfs/index.md)
 
 ## -see-also
-
-## -examples

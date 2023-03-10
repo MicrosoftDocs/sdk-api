@@ -1,12 +1,12 @@
 ---
 UID: NF:resapi.FreeClusterCrypt
 title: FreeClusterCrypt function (resapi.h)
-description: TBD.
+description: The FreeClusterCrypt function is a health fault utility function that is part of the resapi.h header used by Windows Clustering.
 helpviewer_keywords: ["FreeClusterCrypt","FreeClusterCrypt function [Failover Cluster]","PFREE_CLUSTER_CRYPT","PFREE_CLUSTER_CRYPT function [Failover Cluster]","mscs.freeclustercrypt","resapi/FreeClusterCrypt","resapi/PFREE_CLUSTER_CRYPT"]
 old-location: mscs\freeclustercrypt.htm
 tech.root: MsCS
 ms.assetid: 33EE9915-2204-4431-8B72-014D47AB4651
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: FreeClusterCrypt, FreeClusterCrypt function [Failover Cluster], PFREE_CLUSTER_CRYPT, PFREE_CLUSTER_CRYPT function [Failover Cluster], mscs.freeclustercrypt, resapi/FreeClusterCrypt, resapi/PFREE_CLUSTER_CRYPT
 req.header: resapi.h
 req.include-header: 

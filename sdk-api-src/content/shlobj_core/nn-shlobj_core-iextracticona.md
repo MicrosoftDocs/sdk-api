@@ -1,7 +1,7 @@
 ---
 UID: NN:shlobj_core.IExtractIconA
 title: IExtractIconA (shlobj_core.h)
-description: Exposes methods that allow a client to retrieve the icon that is associated with one of the objects in a folder.
+description: Exposes methods that allow a client to retrieve the icon that is associated with one of the objects in a folder. (ANSI)
 helpviewer_keywords: ["IExtractIcon","IExtractIcon interface [Windows Shell]","IExtractIcon interface [Windows Shell]","described","IExtractIconA","IExtractIconW","_win32_IExtractIcon","shell.IExtractIcon","shlobj_core/IExtractIcon"]
 old-location: shell\IExtractIcon.htm
 tech.root: shell
@@ -54,10 +54,7 @@ Exposes methods that allow a client to retrieve the icon that is associated with
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtractIcon</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExtractIcon</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IExtractIcon</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExtractIcon</b> also has these types of members:
 
 ## -remarks
 

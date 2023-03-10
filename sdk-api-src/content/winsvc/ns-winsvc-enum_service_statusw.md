@@ -1,7 +1,7 @@
 ---
 UID: NS:winsvc._ENUM_SERVICE_STATUSW
 title: ENUM_SERVICE_STATUSW (winsvc.h)
-description: Contains the name of a service in a service control manager database and information about that service. It is used by the EnumDependentServices and EnumServicesStatus functions.
+description: Contains the name of a service in a service control manager database and information about that service. It is used by the EnumDependentServices and EnumServicesStatus functions. (Unicode)
 helpviewer_keywords: ["*LPENUM_SERVICE_STATUSW","ENUM_SERVICE_STATUS","ENUM_SERVICE_STATUS structure","ENUM_SERVICE_STATUSA","ENUM_SERVICE_STATUSW","LPENUM_SERVICE_STATUS","LPENUM_SERVICE_STATUS structure pointer","_win32_enum_service_status_str","base.enum_service_status_str","winsvc/ENUM_SERVICE_STATUS","winsvc/ENUM_SERVICE_STATUSA","winsvc/ENUM_SERVICE_STATUSW","winsvc/LPENUM_SERVICE_STATUS"]
 old-location: base\enum_service_status_str.htm
 tech.root: security

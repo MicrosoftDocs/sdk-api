@@ -1,8 +1,8 @@
 ---
 UID: NF:winsvc.QueryServiceConfig2A
 title: QueryServiceConfig2A function (winsvc.h)
-description: Retrieves the optional configuration parameters of the specified service.
-helpviewer_keywords: ["QueryServiceConfig2","QueryServiceConfig2 function","QueryServiceConfig2A","QueryServiceConfig2W","SERVICE_CONFIG_DELAYED_AUTO_START_INFO","SERVICE_CONFIG_DESCRIPTION","SERVICE_CONFIG_FAILURE_ACTIONS","SERVICE_CONFIG_FAILURE_ACTIONS_FLAG","SERVICE_CONFIG_LAUNCH_PROTECTED","SERVICE_CONFIG_PREFERRED_NODE","SERVICE_CONFIG_PRESHUTDOWN_INFO","SERVICE_CONFIG_REQUIRED_PRIVILEGES_INFO","SERVICE_CONFIG_SERVICE_SID_INFO","SERVICE_CONFIG_TRIGGER_INFO","_win32_queryserviceconfig2","base.queryserviceconfig2","winsvc/QueryServiceConfig2","winsvc/QueryServiceConfig2A","winsvc/QueryServiceConfig2W"]
+description: Retrieves the optional configuration parameters of the specified service. (ANSI)
+helpviewer_keywords: ["QueryServiceConfig2A", "SERVICE_CONFIG_DELAYED_AUTO_START_INFO", "SERVICE_CONFIG_DESCRIPTION", "SERVICE_CONFIG_FAILURE_ACTIONS", "SERVICE_CONFIG_FAILURE_ACTIONS_FLAG", "SERVICE_CONFIG_LAUNCH_PROTECTED", "SERVICE_CONFIG_PREFERRED_NODE", "SERVICE_CONFIG_PRESHUTDOWN_INFO", "SERVICE_CONFIG_REQUIRED_PRIVILEGES_INFO", "SERVICE_CONFIG_SERVICE_SID_INFO", "SERVICE_CONFIG_TRIGGER_INFO", "winsvc/QueryServiceConfig2A"]
 old-location: base\queryserviceconfig2.htm
 tech.root: security
 ms.assetid: cb090e59-aeff-4420-bb7c-912a4911006f

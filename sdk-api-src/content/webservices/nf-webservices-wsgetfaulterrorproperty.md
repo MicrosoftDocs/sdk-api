@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsGetFaultErrorProperty
 title: WsGetFaultErrorProperty function (webservices.h)
-description: Retrieves a Fault error property of an WS_ERROR object referenced by the error parameter.
+description: Retrieves a Fault error property of a WS_ERROR object referenced by the error parameter.
 helpviewer_keywords: ["WsGetFaultErrorProperty","WsGetFaultErrorProperty function [Web Services for Windows]","webservices/WsGetFaultErrorProperty","wsw.wsgetfaulterrorproperty"]
 old-location: wsw\wsgetfaulterrorproperty.htm
 tech.root: wsw

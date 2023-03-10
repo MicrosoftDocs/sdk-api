@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.SetSegmentAtEnd(constD2D1_INK_BEZIER_SEGMENT)
 title: ID2D1Ink::SetSegmentAtEnd (d2d1_3.h)
-description: Updates the last segment in this ink object with new control points.
+description: Updates the last segment in this ink object with new control points. (overload 1/2)
 helpviewer_keywords: ["ID2D1Ink interface [Direct2D]","SetSegmentAtEnd method","ID2D1Ink.SetSegmentAtEnd","ID2D1Ink::SetSegmentAtEnd","ID2D1Ink::SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT)","SetSegmentAtEnd","SetSegmentAtEnd method [Direct2D]","SetSegmentAtEnd method [Direct2D]","ID2D1Ink interface","d2d1_3/ID2D1Ink::SetSegmentAtEnd","direct2d.id2d1ink_setsegmentatend"]
 old-location: direct2d\id2d1ink_setsegmentatend.htm
 tech.root: Direct2D
@@ -64,7 +64,7 @@ A pointer to the segment data with which to overwrite this ink object's last seg
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

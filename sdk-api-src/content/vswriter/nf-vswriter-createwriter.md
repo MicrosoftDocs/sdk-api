@@ -1,7 +1,7 @@
 ---
 UID: NF:vswriter.CreateWriter
 title: CreateWriter function (vswriter.h)
-description: This function is reserved for system use.
+description: This function is reserved for system use. (CreateWriter)
 helpviewer_keywords: ["CreateWriter","CreateWriter function","base.createwriter","vswriter/CreateWriter"]
 old-location: base\createwriter.htm
 tech.root: base

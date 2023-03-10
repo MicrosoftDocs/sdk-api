@@ -52,7 +52,7 @@ api_name:
 
 Disconnects an online identity from the current domain user.
 
-## -parameters
+
 
 ## -returns
 

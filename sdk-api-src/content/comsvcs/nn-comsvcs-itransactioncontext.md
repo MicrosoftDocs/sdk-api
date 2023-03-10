@@ -57,10 +57,7 @@ Enables you to compose the work of multiple COM+ objects in a single transaction
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionContext</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITransactionContext</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITransactionContext</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITransactionContext</b> also has these types of members:
 
 ## -remarks
 
@@ -68,13 +65,17 @@ Using the transaction context object to control a transaction limits the reuse o
 
 You obtain a reference to the <b>ITransactionContext</b> interface by creating a transaction context object with the appropriate call, as in the following example.
 
-<pre class="syntax" xml:space="preserve"><code>hr = CoCreateInstance(
+
+``` syntax
+hr = CoCreateInstance(
        CLSID_TransactionContext, 
        NULL, 
        CLSCTX_INPROC,
        IID_ITransactionContext, 
        (void**)&amp;m_pTransactionContext);
-</code></pre>
+
+```
+
 
 ## -see-also
 

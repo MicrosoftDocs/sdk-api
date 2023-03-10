@@ -1,7 +1,7 @@
 ---
 UID: NF:fwpmu.FwpmNetEventSubscribe2
 title: FwpmNetEventSubscribe2 function (fwpmu.h)
-description: Is used to request the delivery of notifications regarding a particular net event.
+description: Is used to request the delivery of notifications regarding a particular net event. (FwpmNetEventSubscribe2)
 helpviewer_keywords: ["FwpmNetEventSubscribe2","FwpmNetEventSubscribe2 function [Filtering]","fwp.fwpmneteventsubscribe2","fwpmu/FwpmNetEventSubscribe2"]
 old-location: fwp\fwpmneteventsubscribe2.htm
 tech.root: fwp
@@ -61,11 +61,11 @@ Handle for an open session to the filter engine. Call <a href="/windows/desktop/
 
 ### -param subscription [in]
 
-The notifications which will be delivered.
+An [FWPM_NET_EVENT_SUBSCRIPTION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0) structure which describes which notifications will be delivered. 
 
 ### -param callback [in]
 
-Function pointer that will be invoked when a notification is ready for delivery.
+Pointer to a function of type [FWPM_NET_EVENT_CALLBACK2](/windows/win32/api/fwpmu/nc-fwpmu-fwpm_net_event_callback2) that will be invoked when a notification is ready for delivery.
 
 ### -param context [in, optional]
 
@@ -73,7 +73,7 @@ Optional context pointer. This pointer is passed to the <i>callback</i> function
 
 ### -param eventsHandle [out]
 
-Handle to the newly created subscription.
+Handle to the newly created subscription. Call [FwpmNetEventUnsubscribe0](/windows/win32/api/fwpmu/nf-fwpmu-fwpmneteventunsubscribe0) to close this handle when the subscription is no longer needed.
 
 ## -returns
 

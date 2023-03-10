@@ -53,7 +53,7 @@ api_name:
 
 The <b>EnumerateAttributesClose</b> method frees the resources connected with attribute enumeration.
 
-## -parameters
+
 
 ## -returns
 

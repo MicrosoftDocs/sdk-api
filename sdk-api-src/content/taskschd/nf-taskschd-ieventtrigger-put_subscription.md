@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IEventTrigger.put_Subscription
 title: IEventTrigger::put_Subscription (taskschd.h)
-description: Gets or sets a query string that identifies the event that fires the trigger.
+description: Gets or sets a query string that identifies the event that fires the trigger. (Put)
 helpviewer_keywords: ["IEventTrigger interface [Task Scheduler]","Subscription property","IEventTrigger.Subscription","IEventTrigger.put_Subscription","IEventTrigger::Subscription","IEventTrigger::get_Subscription","IEventTrigger::put_Subscription","Subscription property [Task Scheduler]","Subscription property [Task Scheduler]","IEventTrigger interface","put_Subscription","taskschd.ieventtrigger_subscription","taskschd/IEventTrigger::Subscription","taskschd/IEventTrigger::get_Subscription","taskschd/IEventTrigger::put_Subscription"]
 old-location: taskschd\ieventtrigger_subscription.htm
 tech.root: taskschd

@@ -52,7 +52,7 @@ api_name:
 
 Reports the number of physical adapters (nodes) that are associated with this device.
 
-## -parameters
+
 
 ## -returns
 

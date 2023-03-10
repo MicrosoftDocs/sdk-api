@@ -54,7 +54,7 @@ api_name:
 
 The <b>waveInGetNumDevs</b> function returns the number of waveform-audio input devices present in the system.
 
-## -parameters
+
 
 ## -returns
 

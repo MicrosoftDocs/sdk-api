@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemStateChanged
 title: INameSpaceTreeControlEvents::OnItemStateChanged (shobjidl.h)
-description: Not implemented.
+description: Not implemented. (INameSpaceTreeControlEvents.OnItemStateChanged)
 helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnItemStateChanged method","INameSpaceTreeControlEvents.OnItemStateChanged","INameSpaceTreeControlEvents::OnItemStateChanged","OnItemStateChanged","OnItemStateChanged method [Windows Shell]","OnItemStateChanged method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnItemStateChanged","shell.INameSpaceTreeControlEvents_OnItemStateChanged","shobjidl/INameSpaceTreeControlEvents::OnItemStateChanged"]
 old-location: shell\INameSpaceTreeControlEvents_OnItemStateChanged.htm
 tech.root: shell
@@ -76,4 +76,4 @@ One or more values from the <a href="/windows/win32/api/shobjidl_core/ne-shobjid
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

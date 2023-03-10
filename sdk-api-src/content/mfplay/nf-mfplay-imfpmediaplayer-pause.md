@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.Pause
 title: IMFPMediaPlayer::Pause (mfplay.h)
-description: Pauses playback.
+description: Pauses playback. (IMFPMediaPlayer.Pause)
 helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","Pause method","IMFPMediaPlayer.Pause","IMFPMediaPlayer::Pause","Pause","Pause method [Media Foundation]","Pause method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_pause","mfplay/IMFPMediaPlayer::Pause"]
 old-location: mf\imfpmediaplayer_pause.htm
 tech.root: mf
@@ -56,7 +56,7 @@ api_name:
 
 Pauses playback. While playback is paused, the most recent video frame is displayed, and audio is silent.
 
-## -parameters
+
 
 ## -returns
 

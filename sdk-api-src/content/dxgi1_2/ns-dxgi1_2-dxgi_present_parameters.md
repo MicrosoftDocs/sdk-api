@@ -81,12 +81,16 @@ The scroll rectangle and the list of dirty rectangles could overlap.  In this si
 The following diagram and coordinates illustrate this example.
 
 <img alt="Illustration of scroll and dirty rectangles overlapping" border="" src="./images/DXGIPresentParam.png"/>
-<pre class="syntax" xml:space="preserve"><code>DirtyRectsCount = 2
+
+``` syntax
+DirtyRectsCount = 2
 pDirtyRects[ 0 ] = { 10, 30, 40, 50 } // Video
 pDirtyRects[ 1 ] = { 0, 70, 50, 80 } // New line
 *pScrollRect = { 0, 0, 50, 70 }
 *pScrollOffset = { 0, -10 }
-</code></pre>
+
+```
+
 Parts of the previous frame and content that the application renders are combined to produce the final frame that the operating system presents on the display screen. Most of the window is scrolled from the previous frame. The  application must update the video frame with the new chunk of content that appears due to scrolling.
 
 The dashed rectangle shows the scroll rectangle in the current frame. The scroll rectangle is  specified by the <b>pScrollRect</b> member.

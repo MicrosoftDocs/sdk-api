@@ -1,7 +1,7 @@
 ---
 UID: NF:dbghelp.SymGetSymPrev
 title: SymGetSymPrev function (dbghelp.h)
-description: Retrieves the symbol information for the previous symbol.
+description: Retrieves the symbol information for the previous symbol. (SymGetSymPrev)
 helpviewer_keywords: ["SymGetSymPrev","SymGetSymPrev function","SymGetSymPrev64","SymGetSymPrev64 function","_win32_symgetsymprev64","base.symgetsymprev64","dbghelp/SymGetSymPrev","dbghelp/SymGetSymPrev64"]
 old-location: base\symgetsymprev64.htm
 tech.root: Debug

@@ -1,7 +1,7 @@
 ---
 UID: NN:vds.IVdsVDisk
 title: IVdsVDisk (vds.h)
-description: Defines methods for managing a virtual disk.
+description: Defines methods for managing a virtual disk. (IVdsVDisk)
 helpviewer_keywords: ["IVdsVDisk","IVdsVDisk interface","IVdsVDisk interface","described","base.ivdsvdisk","vds/IVdsVDisk"]
 old-location: base\ivdsvdisk.htm
 tech.root: base
@@ -51,16 +51,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines methods for managing a virtual disk.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVDisk</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVDisk</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsVDisk</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVDisk</b> also has these types of members:
 
 ## -see-also
 

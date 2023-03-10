@@ -1,8 +1,8 @@
 ---
 UID: NF:tapi.lineGetQueueListA
 title: lineGetQueueListA function (tapi.h)
-description: The lineGetQueueList function returns a list of queues associated with a particular ACD Group.
-helpviewer_keywords: ["_tapi2_linegetqueuelist","lineGetQueueList","lineGetQueueList function [TAPI 2.2]","lineGetQueueListA","lineGetQueueListW","tapi/lineGetQueueList","tapi/lineGetQueueListA","tapi/lineGetQueueListW","tapi2.linegetqueuelist"]
+description: The lineGetQueueList function returns a list of queues associated with a particular ACD Group. (ANSI)
+helpviewer_keywords: ["lineGetQueueListA", "tapi/lineGetQueueListA"]
 old-location: tapi2\linegetqueuelist.htm
 tech.root: tapi3
 ms.assetid: 3921ab24-c9c8-4068-a885-e55759f04076

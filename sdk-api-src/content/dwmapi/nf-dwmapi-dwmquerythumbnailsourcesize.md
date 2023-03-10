@@ -60,11 +60,11 @@ A handle to the thumbnail to retrieve the source window size from.
 
 ### -param pSize [out]
 
-A pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that, when this function returns successfully, receives the size of the source thumbnail.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that, when this function returns successfully, receives the size of the source thumbnail.
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

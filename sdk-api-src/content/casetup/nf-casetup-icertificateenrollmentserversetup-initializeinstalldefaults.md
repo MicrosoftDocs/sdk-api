@@ -52,7 +52,7 @@ api_name:
 
 The <b>InitializeInstallDefaults</b> method initializes the <a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a> object with a default configuration.
 
-## -parameters
+
 
 ## -returns
 

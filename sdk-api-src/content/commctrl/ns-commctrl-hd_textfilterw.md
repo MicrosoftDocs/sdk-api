@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl._HD_TEXTFILTERW
 title: HD_TEXTFILTERW (commctrl.h)
-description: Contains information about header control text filters.
+description: Contains information about header control text filters. (Unicode)
 helpviewer_keywords: ["*LPHD_TEXTFILTERW","HDTEXTFILTER","HDTEXTFILTER structure [Windows Controls]","HD_TEXTFILTERA","HD_TEXTFILTERW","LPHD_TEXTFILTER","LPHD_TEXTFILTER structure pointer [Windows Controls]","_HD_TEXTFILTERA","_HD_TEXTFILTERW","_win32_HDTEXTFILTER_Structure","_win32_HDTEXTFILTER_Structure_cpp","commctrl/HDTEXTFILTER","commctrl/LPHD_TEXTFILTER","controls.HDTEXTFILTER","controls._win32_HDTEXTFILTER_Structure"]
 old-location: controls\HDTEXTFILTER.htm
 tech.root: Controls

@@ -1,7 +1,8 @@
 ---
 UID: NF:heapapi.HeapSummary
 title: HeapSummary
-ms.date: 4/26/2019
+description: The HeapSummary function (heapapi.h) summarizes the specified heap.
+ms.date: 08/04/2022
 ms.keywords: HeapSummary
 targetos: Windows
 req.assembly: 
@@ -17,8 +18,8 @@ req.lib: kernel32.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

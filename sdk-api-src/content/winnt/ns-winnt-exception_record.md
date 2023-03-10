@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._EXCEPTION_RECORD
 title: EXCEPTION_RECORD (winnt.h)
-description: Describes an exception.
+description: Describes an exception. (EXCEPTION_RECORD)
 helpviewer_keywords: ["*PEXCEPTION_RECORD","EXCEPTION_ACCESS_VIOLATION","EXCEPTION_ARRAY_BOUNDS_EXCEEDED","EXCEPTION_BREAKPOINT","EXCEPTION_DATATYPE_MISALIGNMENT","EXCEPTION_FLT_DENORMAL_OPERAND","EXCEPTION_FLT_DIVIDE_BY_ZERO","EXCEPTION_FLT_INEXACT_RESULT","EXCEPTION_FLT_INVALID_OPERATION","EXCEPTION_FLT_OVERFLOW","EXCEPTION_FLT_STACK_CHECK","EXCEPTION_FLT_UNDERFLOW","EXCEPTION_ILLEGAL_INSTRUCTION","EXCEPTION_INT_DIVIDE_BY_ZERO","EXCEPTION_INT_OVERFLOW","EXCEPTION_INVALID_DISPOSITION","EXCEPTION_IN_PAGE_ERROR","EXCEPTION_NONCONTINUABLE_EXCEPTION","EXCEPTION_PRIV_INSTRUCTION","EXCEPTION_RECORD","EXCEPTION_RECORD structure","EXCEPTION_RECORD64","EXCEPTION_SINGLE_STEP","EXCEPTION_STACK_OVERFLOW","PEXCEPTION_RECORD","PEXCEPTION_RECORD structure pointer","_EXCEPTION_RECORD","_win32_exception_record_str","base.exception_record_str","winnt/EXCEPTION_RECORD","winnt/PEXCEPTION_RECORD"]
 old-location: base\exception_record_str.htm
 tech.root: Debug
@@ -275,7 +275,34 @@ Another exception code is likely to occur when debugging console processes. It d
 
 ### -field ExceptionFlags
 
-The exception flags. This member can be either zero, indicating a continuable exception, or <b>EXCEPTION_NONCONTINUABLE</b> indicating a noncontinuable exception. Any attempt to continue execution after a noncontinuable exception causes the <b>EXCEPTION_NONCONTINUABLE_EXCEPTION</b> exception.
+This member contains zero or more exception flags. The following table describes some of the commonly seen exception flags. Exception flags not present in the following table should be treated as reserved for system use.
+
+<table>
+<tr>
+<th>Exception flag</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="EXCEPTION_NONCONTINUABLE"></a><a id="exception_noncontinuable"></a><dl>
+<dt><b>EXCEPTION_NONCONTINUABLE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The presence of this flag indicates that the exception is a noncontinuable exception, whereas the absence of this flag indicates that the exception is a continuable exception.
+Any attempt to continue execution after a noncontinuable exception causes the <b>EXCEPTION_NONCONTINUABLE_EXCEPTION</b> exception.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="EXCEPTION_SOFTWARE_ORIGINATE"></a><a id="exception_software_originate"></a><dl>
+<dt><b>EXCEPTION_SOFTWARE_ORIGINATE</b></dt>
+</dl>
+</td>
+<td width="60%">
+This flag is reserved for system use.
+
+</td>
+</tr>
+</table>
 
 ### -field ExceptionRecord
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteTextFormat3
 title: IDWriteTextFormat3
-description: Describes the font and paragraph properties used to format text, and it describes locale information.
+description: Describes the font and paragraph properties used to format text, and it describes locale information. (IDWriteTextFormat3)
 helpviewer_keywords: ["IDWriteTextFormat3","IDWriteTextFormat3 interface [Direct Write]","IDWriteTextFormat3 interface [Direct Write]","described","directwrite.idwritetextformat3","dwrite_3/IDWriteTextFormat3"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
@@ -17,8 +17,8 @@ req.lib: Dwrite.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: Windows
 req.unicode-ansi: 
 f1_keywords:

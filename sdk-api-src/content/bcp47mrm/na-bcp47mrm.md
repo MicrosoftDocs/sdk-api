@@ -18,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: Windows Server 2022
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.type-library: 
@@ -47,6 +47,3 @@ Provides functions for working with [BCP-47 language tags](https://tools.ietf.or
 ## -remarks
 
 ## -see-also
-
-## -examples
-

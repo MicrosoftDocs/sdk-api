@@ -99,7 +99,7 @@ Retrieve the value or values of the lexicographic successor of the specified var
 </td>
 <td width="60%">
 Validate the values of the specified variables. This operation maximizes the probability of a successful write during the 
-<a href="https://docs.microsoft.com/">COMMIT request</a>.
+COMMIT request.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ Pointer to an octet string that contains user-defined context information.
 
 
 The extension agent can use this parameter to store context information used during multiphase SNMP SET operations. The extension agent must release resources associated with this parameter during the 
-<a href="https://docs.microsoft.com/">CLEANUP request</a>. The SNMP service does not release any resources associated with this parameter. For additional information, see the following Remarks section.
+CLEANUP request. The SNMP service does not release any resources associated with this parameter. For additional information, see the following Remarks section.
 
 ### -param pErrorStatus [out]
 
@@ -374,10 +374,10 @@ If the function fails, the return value is <b>FALSE</b>.
 The SNMP service calls the 
 <b>SnmpExtensionQueryEx</b> function multiple times to process an incoming SNMP SET request. The service can call 
 <b>SnmpExtensionQueryEx</b> during the 
-<a href="https://docs.microsoft.com/">TEST request</a> phase, the 
-<a href="https://docs.microsoft.com/">COMMIT request</a> phase, the 
-<a href="https://docs.microsoft.com/">UNDO request</a> phase, and the 
-<a href="https://docs.microsoft.com/">CLEANUP request</a> phase.
+TEST request phase, the 
+COMMIT request phase, the 
+UNDO request phase, and the 
+CLEANUP request phase.
 
 <h3><a id="_snmp_test_request"></a><a id="_SNMP_TEST_REQUEST"></a>TEST request</h3>
 The SNMP service processes an SNMP SET request type by first calling the 

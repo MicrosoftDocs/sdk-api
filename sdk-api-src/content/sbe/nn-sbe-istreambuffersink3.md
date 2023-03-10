@@ -54,9 +54,9 @@ The <b>IStreamBufferSink3</b> interface is exposed by the <a href="/previous-ver
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferSink3</b> interface inherits from <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink2">IStreamBufferSink2</a>. <b>IStreamBufferSink3</b> also has these types of members:
+The <b>IStreamBufferSink3</b> interface inherits from <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink2">IStreamBufferSink2</a>. <b>IStreamBufferSink3</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

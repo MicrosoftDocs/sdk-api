@@ -45,9 +45,6 @@ api_name:
  - ID3D12Device.GetCustomHeapProperties
 ---
 
-# ID3D12Device::GetCustomHeapProperties
-
-
 ## -description
 
 Divulges the equivalent custom heap properties that are used for non-custom heap types, based on the adapter's architectural properties.

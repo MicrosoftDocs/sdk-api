@@ -59,7 +59,7 @@ This operator assigns the vector component data from one instance of <a href="/w
 
 ### -param unnamedParam1
 
-Instance of <code>XMFLOAT3X3</code> used to update the current <code>XMFLOAT3X3</code>structure.
+Instance of <code>XMFLOAT3X3</code> used to update the current <code>XMFLOAT3X3</code> structure.
 
 ## -returns
 

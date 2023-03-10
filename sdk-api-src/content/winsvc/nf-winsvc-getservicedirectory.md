@@ -66,15 +66,20 @@ This value is set to the required length of the buffer in units of WCHARs. This 
 
 ## -returns
 
-Returns ERROR_SUCCESS when all operations complete successfully and the NULL-terminated state path is written to lpPathBuffer. Returns ERROR_INSUFFICIENT_BUFFER is returned if *lpPathBuffer* was not large enough to contain the state path, or if *lpPathBuffer* was NULL. In this case the required buffer length in WCHARs is returned via *lpcchRequiredBufferLength*. If some other failure occurs, a Win32 error code is returned.
+Returns ERROR_SUCCESS when all operations complete successfully and the NULL-terminated state path is written to *lpPathBuffer*. Returns ERROR_INSUFFICIENT_BUFFER if *lpPathBuffer* was not large enough to contain the state path, or if *lpPathBuffer* was NULL. In this case the required buffer length in WCHARs is returned via *lpcchRequiredBufferLength*. If some other failure occurs, a Win32 error code is returned.
 
 ## -remarks
 
 For **ServiceDirectoryPersistentState**, the security of the directory is set to only provide write access to the local system account and the service SID. Ensure service SIDs are enabled for any service that calls this API. For more information, see [SERVICE_SID_INFO](./ns-winsvc-service_sid_info.md).
+
+For a similar API that provides service state that can be shared with associated programs, see [GetSharedServiceDirectory](nf-winsvc-getsharedservicedirectory.md).
 
 All service state directories are deleted by the service control manager once the service is uninstalled.
 
 ## -see-also
 
 [RegisterServiceCtrlHandler](./nf-winsvc-registerservicectrlhandlera.md)
+
+[GetSharedServiceDirectory](./nf-winsvc-getsharedservicedirectory.md)
+
 [SERVICE_SID_INFO](./ns-winsvc-service_sid_info.md)

@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkStrokes
 title: IInkStrokes (msinkaut.h)
-description: .
+description: . (IInkStrokes)
 helpviewer_keywords: ["IInkStrokes","IInkStrokes interface [Tablet PC]","IInkStrokes interface [Tablet PC]","described","msinkaut/IInkStrokes","tablet.iinkstrokes"]
 old-location: tablet\iinkstrokes.htm
 tech.root: tablet
@@ -56,12 +56,7 @@ A stroke is a set of properties and point data that the digitizer captures that 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkStrokes</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkStrokes</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Events</a></li>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IInkStrokes</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. 
 
 ## -see-also
 

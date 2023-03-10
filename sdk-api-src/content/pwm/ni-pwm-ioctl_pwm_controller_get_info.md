@@ -72,11 +72,9 @@ The size of the output buffer must be exactly equal to the size of the requested
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length
 
-<text></text>
 
 ### -status-block
 

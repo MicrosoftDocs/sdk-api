@@ -65,10 +65,7 @@ The application thread that uses this interface must be initialized for COM. For
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionManager2</b> interface inherits from <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager</a>. <b>IAudioSessionManager2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAudioSessionManager2</b> interface inherits from <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager</a>. <b>IAudioSessionManager2</b> also has these types of members:
 
 ## -remarks
 

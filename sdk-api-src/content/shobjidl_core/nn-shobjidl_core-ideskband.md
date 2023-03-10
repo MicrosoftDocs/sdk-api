@@ -55,10 +55,7 @@ Used to obtain information about a band object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDeskBand</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a>. <b>IDeskBand</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDeskBand</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a>. <b>IDeskBand</b> also has these types of members:
 
 ## -remarks
 

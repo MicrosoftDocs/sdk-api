@@ -52,7 +52,7 @@ api_name:
 
 Test a pass to see if it contains valid syntax.
 
-## -parameters
+
 
 ## -returns
 

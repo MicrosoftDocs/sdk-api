@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.put_SenderFaxNumber
 title: IFaxIncomingMessage2::put_SenderFaxNumber (faxcomex.h)
-description: Contains the sender's fax number associated with the inbound fax message. This property is a null-terminated string.
+description: Contains the sender's fax number associated with the inbound fax message. This property is a null-terminated string. (Put)
 helpviewer_keywords: ["IFaxIncomingMessage2 interface [Fax Service]","SenderFaxNumber property","IFaxIncomingMessage2.SenderFaxNumber","IFaxIncomingMessage2.get_SenderFaxNumber","IFaxIncomingMessage2.put_SenderFaxNumber","IFaxIncomingMessage2::SenderFaxNumber","IFaxIncomingMessage2::get_SenderFaxNumber","IFaxIncomingMessage2::put_SenderFaxNumber","SenderFaxNumber property [Fax Service]","SenderFaxNumber property [Fax Service]","IFaxIncomingMessage2 interface","_mfax_faxincomingmessage.senderfaxnumber","fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_senderfaxnumber_cpp","fax._mfax_faxincomingmessage_senderfaxnumber","faxcomex/IFaxIncomingMessage2::SenderFaxNumber","faxcomex/IFaxIncomingMessage2::get_SenderFaxNumber","faxcomex/IFaxIncomingMessage2::put_SenderFaxNumber","put_SenderFaxNumber"]
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_senderfaxnumber_cpp.htm
 tech.root: Fax

@@ -1,7 +1,7 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_Name
 title: ITPluggableTerminalClassRegistration::get_Name (termmgr.h)
-description: The get_Name method gets the terminal's friendly name.
+description: The get_Name method gets the terminal's friendly name. (ITPluggableTerminalClassRegistration.get_Name)
 helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","get_Name method","ITPluggableTerminalClassRegistration.get_Name","ITPluggableTerminalClassRegistration::get_Name","_tapi3_itpluggableterminalclassregistration_get_name","get_Name","get_Name method [TAPI 2.2]","get_Name method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_get_name","termmgr/ITPluggableTerminalClassRegistration::get_Name"]
 old-location: tapi3\itpluggableterminalclassregistration_get_name.htm
 tech.root: tapi3
@@ -62,7 +62,7 @@ The <b>BSTR</b> representation of the friendly name. The <b>BSTR</b> is allocate
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

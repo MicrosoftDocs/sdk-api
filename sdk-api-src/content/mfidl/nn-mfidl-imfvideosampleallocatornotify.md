@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFVideoSampleAllocatorNotify
 title: IMFVideoSampleAllocatorNotify (mfidl.h)
-description: The callback for the IMFVideoSampleAllocatorCallback interface.
+description: The callback for the IMFVideoSampleAllocatorCallback interface. (IMFVideoSampleAllocatorNotify)
 helpviewer_keywords: ["IMFVideoSampleAllocatorNotify","IMFVideoSampleAllocatorNotify interface [Media Foundation]","IMFVideoSampleAllocatorNotify interface [Media Foundation]","described","mf.imfvideosampleallocatornotify","mfidl/IMFVideoSampleAllocatorNotify"]
 old-location: mf\imfvideosampleallocatornotify.htm
 tech.root: mf
@@ -54,10 +54,7 @@ The callback for the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosample
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoSampleAllocatorNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoSampleAllocatorNotify</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFVideoSampleAllocatorNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoSampleAllocatorNotify</b> also has these types of members:
 
 ## -see-also
 

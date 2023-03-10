@@ -55,10 +55,7 @@ The <code>IBasicVideo2</code> interface extends the <a href="/windows/desktop/ap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicVideo2</b> interface inherits from <a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo</a>. <b>IBasicVideo2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IBasicVideo2</b> interface inherits from <a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo</a>. <b>IBasicVideo2</b> also has these types of members:
 
 ## -see-also
 

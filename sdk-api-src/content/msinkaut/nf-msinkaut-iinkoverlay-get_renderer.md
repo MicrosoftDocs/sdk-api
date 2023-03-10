@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_Renderer
 title: IInkOverlay::get_Renderer (msinkaut.h)
-description: Gets or sets the InkRenderer object that is used to draw ink.
+description: Gets or sets the InkRenderer object that is used to draw ink. (IInkOverlay.get_Renderer)
 helpviewer_keywords: ["IInkOverlay interface [Tablet PC]","Renderer property","IInkOverlay.Renderer","IInkOverlay.get_Renderer","IInkOverlay::Renderer","IInkOverlay::get_Renderer","IInkOverlay::put_Renderer","InkOverlay.get_Renderer","InkOverlay.put_Renderer","Renderer property [Tablet PC]","Renderer property [Tablet PC]","IInkOverlay interface","get_Renderer","msinkaut/IInkOverlay::Renderer","msinkaut/IInkOverlay::get_Renderer","msinkaut/IInkOverlay::put_Renderer","putref_Renderer","tablet.inkoverlay_renderer"]
 old-location: tablet\inkoverlay_renderer.htm
 tech.root: tablet

@@ -1,7 +1,7 @@
 ---
 UID: NF:netioapi.SetNetworkInformation
 title: SetNetworkInformation function (netioapi.h)
-description: Reserved for future use. Do not use this function.
+description: Reserved for future use. Do not use this function. (SetNetworkInformation)
 helpviewer_keywords: ["SetNetworkInformation","SetNetworkInformation function [Network Drivers Starting with Windows Vista]","iphelper_d0cffca7-e9e7-404a-ab30-e2a2d6f66c14.xml","netioapi/SetNetworkInformation","netvista.setnetworkinformation"]
 old-location: netvista\setnetworkinformation.htm
 tech.root: NetVista

@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Get_Class_Registry_PropertyA
 ms.date: 04/12/2021
 targetos: Windows
-description: The CM_Get_Class_Registry_Property function retrieves a device setup class property.
+description: The CM_Get_Class_Registry_Property function retrieves a device setup class property. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -56,7 +56,7 @@ The <b>CM_Get_Class_Registry_Property</b> function retrieves a <a href="/windows
 
 ### -param ClassGuid [in]
 
-A pointer to the GUID that represents the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> for which to retrieve a property.
+A pointer to the GUID that represents the <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> for which to retrieve a property.
 
 ### -param ulProperty [in]
 
@@ -100,7 +100,7 @@ A pointer to a buffer that receives the requested property data. For more inform
 
 ### -param pulLength [in, out]
 
-A pointer to variable of type ULONG whose value, on input, is the size, in bytes, of the buffer that is supplied by <i>Buffer</i>. On return, <b>CM_Get_Class_Registry_Property </b>sets this variable to the size, in bytes, of the requested property.
+A pointer to variable of type ULONG whose value, on input, is the size, in bytes, of the buffer that is supplied by <i>Buffer</i>. On return, <b>CM_Get_Class_Registry_Property </b> sets this variable to the size, in bytes, of the requested property.
 
 ### -param ulFlags [in]
 
@@ -112,11 +112,11 @@ A handle to a remote machine from which to retrieve the specified device class p
 
 ## -returns
 
-If the operation succeeds, <b>CM_Get_Class_Registry_Property </b>returns CR_SUCCESS. Otherwise, the function returns one of the other CR_<i>Xxx</i> status codes that are defined in <i>Cfgmgr32.h</i>.
+If the operation succeeds, <b>CM_Get_Class_Registry_Property </b> returns CR_SUCCESS. Otherwise, the function returns one of the other CR_<i>Xxx</i> status codes that are defined in <i>Cfgmgr32.h</i>.
 
 ## -remarks
 
-To determine the size, in bytes, of a property before attempting to retrieve the property, first call <b>CM_Get_Class_Registry_Property</b>, supplying a <b>NULL</b><i>Buffer</i> pointer and a <b>*</b><i>pulLength </i>value of zero. In response to such a call, the function does not retrieve the property, but sets <b>*</b><i>pulLength</i> to the size of the requested property and returns CR_BUFFER_SMALL. After obtaining the property size, call <b>CM_Get_Class_Registry_Property</b> again, supplying a <i>Buffer</i> pointer to the buffer to receive the property data and supplying the property size in <b>*</b><i>pulLength</i>.
+To determine the size, in bytes, of a property before attempting to retrieve the property, first call <b>CM_Get_Class_Registry_Property</b>, supplying a <b>NULL</b><i>Buffer</i> pointer and a <b>*</b><i>pulLength </i> value of zero. In response to such a call, the function does not retrieve the property, but sets <b>*</b><i>pulLength</i> to the size of the requested property and returns CR_BUFFER_SMALL. After obtaining the property size, call <b>CM_Get_Class_Registry_Property</b> again, supplying a <i>Buffer</i> pointer to the buffer to receive the property data and supplying the property size in <b>*</b><i>pulLength</i>.
 
 ## -see-also
 

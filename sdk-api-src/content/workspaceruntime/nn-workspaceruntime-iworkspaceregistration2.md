@@ -1,7 +1,7 @@
 ---
 UID: NN:workspaceruntime.IWorkspaceRegistration2
 title: IWorkspaceRegistration2 (workspaceruntime.h)
-description: Exposes methods that add and remove references to custom clients in RemoteApp and Desktop Connection.
+description: Exposes methods that add and remove references to custom clients in RemoteApp and Desktop Connection. (IWorkspaceRegistration2)
 helpviewer_keywords: ["IWorkspaceRegistration2","IWorkspaceRegistration2 interface [Remote Desktop Services]","IWorkspaceRegistration2 interface [Remote Desktop Services]","described","termserv.iworkspaceregistration2","workspaceruntime/IWorkspaceRegistration2"]
 old-location: termserv\iworkspaceregistration2.htm
 tech.root: TermServ
@@ -56,8 +56,5 @@ Exposes methods that add and remove references to custom clients in RemoteApp an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceRegistration2</b> interface inherits from <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspaceregistration">IWorkspaceRegistration</a>. <b>IWorkspaceRegistration2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWorkspaceRegistration2</b> interface inherits from <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspaceregistration">IWorkspaceRegistration</a>. <b>IWorkspaceRegistration2</b> also has these types of members:
 

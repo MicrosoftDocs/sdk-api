@@ -56,15 +56,15 @@ Describes whether an item that matches the search criteria of a rowset is curren
 
 ## -enum-fields
 
-### -field ROWSETEVENT_ITEMSTATE_NOTINROWSET
+### -field ROWSETEVENT_ITEMSTATE_NOTINROWSET:0
 
 The item is definitely not in the rowset.
 
-### -field ROWSETEVENT_ITEMSTATE_INROWSET
+### -field ROWSETEVENT_ITEMSTATE_INROWSET:1
 
 The item is definitely contained within the rowset.
 
-### -field ROWSETEVENT_ITEMSTATE_UNKNOWN
+### -field ROWSETEVENT_ITEMSTATE_UNKNOWN:2
 
 The item may be in the rowset.
 

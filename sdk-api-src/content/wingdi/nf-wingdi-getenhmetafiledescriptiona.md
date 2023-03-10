@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.GetEnhMetaFileDescriptionA
 title: GetEnhMetaFileDescriptionA function (wingdi.h)
-description: The GetEnhMetaFileDescription function retrieves an optional text description from an enhanced-format metafile and copies the string to the specified buffer.
-helpviewer_keywords: ["GetEnhMetaFileDescription","GetEnhMetaFileDescription function [Windows GDI]","GetEnhMetaFileDescriptionA","GetEnhMetaFileDescriptionW","_win32_GetEnhMetaFileDescription","gdi.getenhmetafiledescription","wingdi/GetEnhMetaFileDescription","wingdi/GetEnhMetaFileDescriptionA","wingdi/GetEnhMetaFileDescriptionW"]
+description: The GetEnhMetaFileDescription function retrieves an optional text description from an enhanced-format metafile and copies the string to the specified buffer. (ANSI)
+helpviewer_keywords: ["GetEnhMetaFileDescriptionA", "wingdi/GetEnhMetaFileDescriptionA"]
 old-location: gdi\getenhmetafiledescription.htm
 tech.root: gdi
 ms.assetid: 51f4f617-fe53-4463-b222-cb6860d15dd6
@@ -82,7 +82,7 @@ If the function fails, the return value is GDI_ERROR.
 
 ## -remarks
 
-The optional text description contains two strings, the first identifying the application that created the enhanced metafile and the second identifying the picture contained in the metafile. The strings are separated by a null character and terminated with two null charactersfor example, "XYZ Graphics Editor\0Bald Eagle\0\0" where \0 represents the null character.
+The optional text description contains two strings, the first identifying the application that created the enhanced metafile and the second identifying the picture contained in the metafile. The strings are separated by a null character and terminated with two null characters, for example, "XYZ Graphics Editor\0Bald Eagle\0\0" where \0 represents the null character.
 
 Where text arguments must use Unicode characters, use this function as a wide-character function. Where text arguments must use characters from the Windows character set, use this function as an ANSI function.
 

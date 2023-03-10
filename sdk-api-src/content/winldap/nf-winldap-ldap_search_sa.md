@@ -1,8 +1,8 @@
 ---
 UID: NF:winldap.ldap_search_sA
 title: ldap_search_sA function (winldap.h)
-description: The ldap_search_s function synchronously searches the LDAP directory and returns a requested set of attributes for each matched entry.
-helpviewer_keywords: ["LDAP_SCOPE_BASE","LDAP_SCOPE_ONELEVEL","LDAP_SCOPE_SUBTREE","_ldap_ldap_search_s","ldap.ldap__search__s","ldap.ldap_search_s","ldap_search_s","ldap_search_s function [LDAP]","ldap_search_sA","ldap_search_sW","winldap/ldap_search_s","winldap/ldap_search_sA","winldap/ldap_search_sW"]
+description: The ldap_search_s function synchronously searches the LDAP directory and returns a requested set of attributes for each matched entry. (ldap_search_sA)
+helpviewer_keywords: ["LDAP_SCOPE_BASE", "LDAP_SCOPE_ONELEVEL", "LDAP_SCOPE_SUBTREE", "ldap.ldap__search__s", "ldap_search_sA", "winldap/ldap_search_sA"]
 old-location: ldap\ldap_search_s.htm
 tech.root: ldap
 ms.assetid: ed0a2c43-c38f-4991-b652-a1df4f739478
@@ -101,7 +101,7 @@ Boolean value that should be zero if both attribute types and values are to be r
 
 ### -param res [out]
 
-Contains the results of the search upon completion of the call. Can also contain partial results or extended data when the function call fails with an error code. Free results returned with a call to <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_msgfree">ldap_msgfree</a>when they are no longer required by the application.
+Contains the results of the search upon completion of the call. Can also contain partial results or extended data when the function call fails with an error code. Free results returned with a call to <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_msgfree">ldap_msgfree</a> when they are no longer required by the application.
 
 
 ##### - scope.LDAP_SCOPE_BASE

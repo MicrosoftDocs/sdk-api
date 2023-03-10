@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventSystem.Remove
 title: IEventSystem::Remove (eventsys.h)
-description: Removes one or more subscription or event objects from the event data store.
+description: Removes one or more subscription or event objects from the event data store. (IEventSystem.Remove)
 helpviewer_keywords: ["IEventSystem interface [COM+]","Remove method","IEventSystem.Remove","IEventSystem::Remove","Remove","Remove method [COM+]","Remove method [COM+]","IEventSystem interface","_cos_IEventSystem_Remove","cos.ieventsystem_remove","eventsys/IEventSystem::Remove"]
 old-location: cos\ieventsystem_remove.htm
 tech.root: cos

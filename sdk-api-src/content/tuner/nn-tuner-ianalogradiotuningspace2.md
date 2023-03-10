@@ -57,9 +57,9 @@ The <b>IAnalogRadioTuningSpace2</b> interface provides methods for getting and s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAnalogRadioTuningSpace2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogradiotuningspace">IAnalogRadioTuningSpace</a>. <b>IAnalogRadioTuningSpace2</b> also has these types of members:
+The <b>IAnalogRadioTuningSpace2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogradiotuningspace">IAnalogRadioTuningSpace</a>. <b>IAnalogRadioTuningSpace2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

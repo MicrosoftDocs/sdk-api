@@ -1,7 +1,7 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.UpdateVideo
 title: IMFPMediaPlayer::UpdateVideo (mfplay.h)
-description: Updates the video frame.
+description: Updates the video frame. (IMFPMediaPlayer.UpdateVideo)
 helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","UpdateVideo method","IMFPMediaPlayer.UpdateVideo","IMFPMediaPlayer::UpdateVideo","UpdateVideo","UpdateVideo method [Media Foundation]","UpdateVideo method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_updatevideo","mfplay/IMFPMediaPlayer::UpdateVideo"]
 old-location: mf\imfpmediaplayer_updatevideo.htm
 tech.root: mf
@@ -56,7 +56,7 @@ api_name:
 
 Updates the video frame.
 
-## -parameters
+
 
 ## -returns
 

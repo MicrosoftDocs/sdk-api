@@ -58,13 +58,13 @@ The <b>RIO_NOTIFICATION_COMPLETION_TYPE</b> enumeration specifies the type of co
 
 ## -enum-fields
 
-### -field RIO_EVENT_COMPLETION
+### -field RIO_EVENT_COMPLETION:1
 
 An event handle is used to signal completion queue notifications. 
 
 An event handle is provided as the <b>EventNotify.EventHandle</b> member in the <a href="/windows/desktop/api/mswsock/ns-mswsock-rio_notification_completion">RIO_NOTIFICATION_COMPLETION</a> structure passed to the <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreatecompletionqueue">RIOCreateCompletionQueue</a> function when the <a href="/windows/desktop/WinSock/riocqueue">RIO_CQ</a> is created. The completion of the <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify">RIONotify</a> function for this <b>RIO_CQ</b> will signal the event.  The  <b>Event.NotifyReset</b> member in the <b>RIO_NOTIFICATION_COMPLETION</b> structure passed to the <b>RIOCreateCompletionQueue</b> function when the <b>RIO_CQ</b> is created indicates whether or not the event should be reset as part of a call to the <b>RIONotify</b> function.
 
-### -field RIO_IOCP_COMPLETION
+### -field RIO_IOCP_COMPLETION:2
 
 An I/O completion port handle is used to signal completion queue notifications.
 

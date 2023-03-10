@@ -54,11 +54,11 @@ Specifies the units in which the timed text is measured.
 
 ## -enum-fields
 
-### -field MF_TIMED_TEXT_UNIT_TYPE_PIXELS
+### -field MF_TIMED_TEXT_UNIT_TYPE_PIXELS:0
 
 The timed text is measured in pixels.
 
-### -field MF_TIMED_TEXT_UNIT_TYPE_PERCENTAGE
+### -field MF_TIMED_TEXT_UNIT_TYPE_PERCENTAGE:1
 
 The timed text is measured as a percentage.
 

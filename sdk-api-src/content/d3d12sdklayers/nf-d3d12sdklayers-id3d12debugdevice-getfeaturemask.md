@@ -52,7 +52,7 @@ api_name:
 
 Gets a bit field of flags that indicates which debug features are on or off.
 
-## -parameters
+
 
 ## -returns
 

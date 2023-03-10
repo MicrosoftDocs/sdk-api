@@ -1,8 +1,8 @@
 ---
 UID: NF:windns.DnsValidateName_A
 title: DnsValidateName_A function (windns.h)
-description: The DnsValidateName function validates the status of a specified DNS name.
-helpviewer_keywords: ["DnsValidateName","DnsValidateName function [DNS]","DnsValidateName_A","DnsValidateName_UTF8","DnsValidateName_W","_dns_dnsvalidatename","dns.dnsvalidatename","windns/DnsValidateName","windns/DnsValidateName_A","windns/DnsValidateName_UTF8","windns/DnsValidateName_W"]
+description: The DnsValidateName function validates the status of a specified DNS name. (DnsValidateName_A)
+helpviewer_keywords: ["DnsValidateName", "DnsValidateName function [DNS]", "DnsValidateName_A", "_dns_dnsvalidatename", "dns.dnsvalidatename", "windns/DnsValidateName", "windns/DnsValidateName_A"]
 old-location: dns\dnsvalidatename.htm
 tech.root: DNS
 ms.assetid: efdbd217-6936-42c1-a1eb-8655a62513ee

@@ -1,7 +1,7 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectOutputConnector
 title: IMILBitmapEffectOutputConnector (mileffects.h)
-description: Exposes methods that define an output connector.
+description: Exposes methods that define an output connector. (IMILBitmapEffectOutputConnector)
 helpviewer_keywords: ["IMILBitmapEffectOutputConnector","IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects]","IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffectoutputconnector","mileffects/IMILBitmapEffectOutputConnector","wibe._wibe_imilbitmapeffectoutputconnector"]
 old-location: wibe\_wibe_imilbitmapeffectoutputconnector.htm
 tech.root: wibe
@@ -54,8 +54,5 @@ Exposes methods that define an output connector.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectOutputConnector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectOutputConnector</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMILBitmapEffectOutputConnector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectOutputConnector</b> also has these types of members:
 

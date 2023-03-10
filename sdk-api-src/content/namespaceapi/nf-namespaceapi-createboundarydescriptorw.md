@@ -2,9 +2,9 @@
 UID: NF:namespaceapi.CreateBoundaryDescriptorW
 tech.root: backup 
 title: CreateBoundaryDescriptorW
-ms.date: 04/20/2021
+ms.date: 08/05/2022
 targetos: Windows
-description: Creates a boundary descriptor. 
+description: The CreateBoundaryDescriptorW (Unicode) function (namespaceapi.h) creates a boundary descriptor. 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -58,7 +58,11 @@ The name of the boundary descriptor.
 
 ### -param Flags [in]
 
-This parameter is reserved for future use.
+A combination of the following flags that are combined by using a bitwise **OR** operation.
+
+| Flag                                                            | Description |
+| --------------------------------------------------------------- | ----------- |
+| **CREATE_BOUNDARY_DESCRIPTOR_ADD_APPCONTAINER_SID** (0x01)<br>**Note:** This value is not supported prior to Windows 8.     | Required for creating a boundary descriptor in an appcontainer process, regardless of producer or consumer.       |
 
 ## -returns
 

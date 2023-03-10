@@ -56,7 +56,7 @@ Describes how to interpret the <i>signingTime</i> parameter, which is a record o
 
 ## -enum-fields
 
-### -field OPC_SIGNATURE_TIME_FORMAT_MILLISECONDS
+### -field OPC_SIGNATURE_TIME_FORMAT_MILLISECONDS:0
 
 The format is the complete date with hours, minutes, and seconds expressed as a decimal fraction.
 
@@ -64,7 +64,7 @@ Syntax: <i>YYYY</i>-<i>MM</i>-<i>DD</i>T<i>hh</i>:<i>mm</i>:<i>ss</i>.<i>s</i><i
 
 A value of "2010-03-09T18:45:32.3-08:00" would represent 6:45:32.3 P.M. on March 9, 2010 Pacific Time.
 
-### -field OPC_SIGNATURE_TIME_FORMAT_SECONDS
+### -field OPC_SIGNATURE_TIME_FORMAT_SECONDS:1
 
 The format is the complete date with hours, minutes, and seconds.
 
@@ -72,7 +72,7 @@ Syntax: <i>YYYY</i>-<i>MM</i>-<i>DD</i>T<i>hh</i>:<i>mm</i>:<i>ss</i><i>TZD</i>
 
 A value of "2010-03-09T18:45:32-08:00" would represent 6:45:32 P.M. on March 9, 2010  Pacific Time.
 
-### -field OPC_SIGNATURE_TIME_FORMAT_MINUTES
+### -field OPC_SIGNATURE_TIME_FORMAT_MINUTES:2
 
 The format is the complete date with hours and  minutes.
 
@@ -80,7 +80,7 @@ Syntax: <i>YYYY</i>-<i>MM</i>-<i>DD</i>T<i>hh</i>:<i>mm</i><i>TZD</i>
 
 A value of "2010-03-09T18:45-08:00" would represent 6:45 P.M. on March 9, 2010 Pacific Time.
 
-### -field OPC_SIGNATURE_TIME_FORMAT_DAYS
+### -field OPC_SIGNATURE_TIME_FORMAT_DAYS:3
 
 The format is the complete date.
 
@@ -88,7 +88,7 @@ Syntax: <i>YYYY</i>-<i>MM</i>-<i>DD</i>
 
 A value of "2010-03-09" would represent March 9, 2010.
 
-### -field OPC_SIGNATURE_TIME_FORMAT_MONTHS
+### -field OPC_SIGNATURE_TIME_FORMAT_MONTHS:4
 
 The format is the year and month.
 
@@ -96,7 +96,7 @@ Syntax: <i>YYYY</i>-<i>MM</i>
 
 A value of "2010-03" would represent March, 2010.
 
-### -field OPC_SIGNATURE_TIME_FORMAT_YEARS
+### -field OPC_SIGNATURE_TIME_FORMAT_YEARS:5
 
 The format is the year.
 

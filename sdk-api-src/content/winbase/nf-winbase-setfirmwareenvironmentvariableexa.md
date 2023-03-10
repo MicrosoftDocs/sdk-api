@@ -2,7 +2,7 @@
 UID: NF:winbase.SetFirmwareEnvironmentVariableExA
 title: SetFirmwareEnvironmentVariableExA function (winbase.h)
 description: Sets the value of the specified firmware environment variable as the attributes that indicate how this variable is stored and maintained.
-helpviewer_keywords: ["SetFirmwareEnvironmentVariableEx","SetFirmwareEnvironmentVariableEx function","SetFirmwareEnvironmentVariableExA","SetFirmwareEnvironmentVariableExW","VARIABLE_ATTRIBUTE_APPEND_WRITE","VARIABLE_ATTRIBUTE_AUTHENTICATED_WRITE_ACCESS","VARIABLE_ATTRIBUTE_BOOTSERVICE_ACCESS","VARIABLE_ATTRIBUTE_HARDWARE_ERROR_RECORD","VARIABLE_ATTRIBUTE_NON_VOLATILE","VARIABLE_ATTRIBUTE_RUNTIME_ACCESS","VARIABLE_ATTRIBUTE_TIME_BASED_AUTHENTICATED_WRITE_ACCESS","base.setfirmwareenvironmentvariableex","winbase/SetFirmwareEnvironmentVariableEx","winbase/SetFirmwareEnvironmentVariableExA","winbase/SetFirmwareEnvironmentVariableExW"]
+helpviewer_keywords: ["SetFirmwareEnvironmentVariableExA", "VARIABLE_ATTRIBUTE_APPEND_WRITE", "VARIABLE_ATTRIBUTE_AUTHENTICATED_WRITE_ACCESS", "VARIABLE_ATTRIBUTE_BOOTSERVICE_ACCESS", "VARIABLE_ATTRIBUTE_HARDWARE_ERROR_RECORD", "VARIABLE_ATTRIBUTE_NON_VOLATILE", "VARIABLE_ATTRIBUTE_RUNTIME_ACCESS", "VARIABLE_ATTRIBUTE_TIME_BASED_AUTHENTICATED_WRITE_ACCESS", "winbase/SetFirmwareEnvironmentVariableExA"]
 old-location: base\setfirmwareenvironmentvariableex.htm
 tech.root: winprog
 ms.assetid: D3C2F03F-66F6-40A4-830E-058BBA925ACD
@@ -179,7 +179,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
-Starting with Windows 10, version 1803, Universal Windows apps can read and write UEFI firmware variables. See <a href="/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a>for details.
+Starting with Windows 10, version 1803, Universal Windows apps can read and write UEFI firmware variables. See <a href="/windows/desktop/SysInfo/access-uefi-firmware-variables-from-a-universal-windows-app">Access UEFI firmware variables from a Universal Windows App</a> for details.
 
 Starting with Windows 10, version 1803, reading UEFI firmware variables is also supported from User-Mode Driver Framework (UMDF) drivers. Writing UEFI firmware variables from UMDF drivers is not supported.
 

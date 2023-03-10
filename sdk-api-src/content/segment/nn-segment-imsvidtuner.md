@@ -54,9 +54,9 @@ The <b>IMSVidTuner</b> interface manages tuning devices. It is exposed by the <a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidTuner</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidvideoinputdevice">IMSVidVideoInputDevice</a>. <b>IMSVidTuner</b> also has these types of members:
+The <b>IMSVidTuner</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidvideoinputdevice">IMSVidVideoInputDevice</a>. <b>IMSVidTuner</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

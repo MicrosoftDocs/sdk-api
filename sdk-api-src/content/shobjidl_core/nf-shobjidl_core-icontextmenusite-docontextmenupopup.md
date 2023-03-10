@@ -116,7 +116,7 @@ Optional flags specifying how the shortcut menu can be changed. This parameter c
 
 This value is not available.
 
-<b>Windows Server 2003 and Windows XP:  </b>0x00000040. This flag is set when a static menu is being constructed. Only the browser should use this flag. All other shortcut menu extensions should ignore this flag.
+<b>Windows Server 2003 and Windows XP:</b> 0x00000040. This flag is set when a static menu is being constructed. Only the browser should use this flag. All other shortcut menu extensions should ignore this flag.
 
 
 
@@ -124,7 +124,7 @@ This value is not available.
 
 0x00000080. This flag is set when the calling application is invoking a context menu on an item in the view (as opposed to the background of the view).
 
-<b>Windows Server 2003 and Windows XP:  </b>This value is not available.
+<b>Windows Server 2003 and Windows XP:</b> This value is not available.
 
 
 
@@ -138,7 +138,7 @@ This value is not available.
 
 0x00000200. This flag is set when the calling application intends to invoke verbs that are otherwise disabled, such as legacy menus.
 
-<b>Windows Server 2003 and Windows XP:  </b>This value is not available.
+<b>Windows Server 2003 and Windows XP:</b> This value is not available.
 
 
 
@@ -146,7 +146,7 @@ This value is not available.
 
 0x00000400. This flag is set if the verb state can be evaluated asynchronously.
 
-<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not available.
+<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:</b> This value is not available.
 
 
 
@@ -155,7 +155,7 @@ This value is not available.
 0x00000800. Informs context menu handlers that do not support the invocation of a verb through a canonical verb name to bypass that processing in their <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu">IContextMenu::QueryContextMenu</a> implementation.
 
 
-<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not available.
+<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:</b> This value is not available.
 
 
 
@@ -163,7 +163,7 @@ This value is not available.
 
 0x00001000. 
 
-<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not available.
+<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:</b> This value is not available.
 
 
 
@@ -171,7 +171,7 @@ This value is not available.
 
 0x00001000. When no verb is explicitly specified, do not use a default verb in its place.
 
-<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not available.
+<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:</b> This value is not available.
 
 
 
@@ -181,7 +181,7 @@ This value is not available.
 
 ### -param pt [in]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 Location where you want the shortcut menu to appear. This point specifies the location of the menu's upper left corner in screen coordinates.
 
@@ -189,4 +189,4 @@ Location where you want the shortcut menu to appear. This point specifies the lo
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

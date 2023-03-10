@@ -53,6 +53,8 @@ api_name:
 The <b>WinHttpReadData</b> function reads data from a handle opened by the 
 <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a> function.
 
+Also see [WinHttpReadDataEx](nf-winhttp-winhttpreaddataex.md).
+
 ## -parameters
 
 ### -param hRequest [in]

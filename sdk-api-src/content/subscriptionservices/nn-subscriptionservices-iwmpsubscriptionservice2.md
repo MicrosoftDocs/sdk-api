@@ -56,9 +56,9 @@ The <b>IWMPSubscriptionService2</b> interface extends <b>IWMPSubscriptionService
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSubscriptionService2</b> interface inherits from <a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice">IWMPSubscriptionService</a>. <b>IWMPSubscriptionService2</b> also has these types of members:
+The <b>IWMPSubscriptionService2</b> interface inherits from <a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice">IWMPSubscriptionService</a>. <b>IWMPSubscriptionService2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

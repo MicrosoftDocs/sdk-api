@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_Tablet
 title: IInkPicture::get_Tablet (msinkaut.h)
-description: Gets either the IInkTablet object to which a cursor belongs or the IInkTablet object that an object or control is currently using to collect input.
+description: Gets either the IInkTablet object to which a cursor belongs or the IInkTablet object that an object or control is currently using to collect input. (IInkPicture.get_Tablet)
 helpviewer_keywords: ["IInkPicture interface [Tablet PC]","Tablet property","IInkPicture.Tablet","IInkPicture.get_Tablet","IInkPicture::Tablet","IInkPicture::get_Tablet","InkPicture.get_Tablet","Tablet property [Tablet PC]","Tablet property [Tablet PC]","IInkPicture interface","get_Tablet","msinkaut/IInkPicture::Tablet","msinkaut/IInkPicture::get_Tablet","tablet.inkpicture_tablet"]
 old-location: tablet\inkpicture_tablet.htm
 tech.root: tablet

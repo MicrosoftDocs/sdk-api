@@ -52,7 +52,7 @@ api_name:
 
 Starts the component load balancing service if the service is currently installed.
 
-## -parameters
+
 
 ## -returns
 

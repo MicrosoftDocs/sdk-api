@@ -53,7 +53,7 @@ api_name:
 
 The <b>PathGradientBrush::ResetTransform</b> method resets the transformation matrix of this path gradient brush to the identity matrix. This means that no transformation will take place.
 
-## -parameters
+
 
 ## -returns
 

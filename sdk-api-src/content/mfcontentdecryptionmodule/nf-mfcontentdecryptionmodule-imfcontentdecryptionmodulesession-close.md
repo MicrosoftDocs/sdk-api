@@ -43,7 +43,7 @@ dev_langs:
 
 Indicates that the application no longer needs the session and the Content Decryption Module (CDM) should release any resources associated with the session and close it.
 
-## -parameters
+
 
 ## -returns
 

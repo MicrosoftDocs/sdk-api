@@ -206,7 +206,7 @@ This field applies only when <b>fwHeadMode</b> includes ACM_MPEG_JOINTSTEREO. Fo
 
 ### -field wHeadEmphasis
 
-Sepecifies the de-emphasis required by the decoder:
+Specifies the de-emphasis required by the decoder:
 
 <table>
 <tr>
@@ -302,7 +302,7 @@ An encoder will use these flags to set the corresponding bits in the MPEG audio 
 
 ### -field dwPTSLow
 
-Specifies the least signifcant 32 bits of the presentation time stamp (PTS) of the first frame of the audio stream.
+Specifies the least significant 32 bits of the presentation time stamp (PTS) of the first frame of the audio stream.
 
 ### -field dwPTSHigh
 

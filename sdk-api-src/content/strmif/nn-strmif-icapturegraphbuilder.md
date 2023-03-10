@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.ICaptureGraphBuilder
 title: ICaptureGraphBuilder (strmif.h)
-description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated. (ICaptureGraphBuilder)
 helpviewer_keywords: ["ICaptureGraphBuilder","ICaptureGraphBuilder interface [DirectShow]","ICaptureGraphBuilder interface [DirectShow]","described","ICaptureGraphBuilderInterface","dshow.icapturegraphbuilder","strmif/ICaptureGraphBuilder"]
 old-location: dshow\icapturegraphbuilder.htm
 tech.root: dshow
@@ -56,10 +56,7 @@ The <code>ICaptureGraphBuilder</code> interface enables you to build capture gra
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICaptureGraphBuilder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICaptureGraphBuilder</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ICaptureGraphBuilder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICaptureGraphBuilder</b> also has these types of members:
 
 ## -see-also
 

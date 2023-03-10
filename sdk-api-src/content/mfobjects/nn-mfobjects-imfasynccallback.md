@@ -1,7 +1,7 @@
 ---
 UID: NN:mfobjects.IMFAsyncCallback
 title: IMFAsyncCallback (mfobjects.h)
-description: Callback interface to notify the application when an asynchronous method completes.
+description: Callback interface to notify the application when an asynchronous method completes. (IMFAsyncCallback)
 helpviewer_keywords: ["7edff985-da59-4cc0-96de-1a92e03a7d41","IMFAsyncCallback","IMFAsyncCallback interface [Media Foundation]","IMFAsyncCallback interface [Media Foundation]","described","mf.imfasynccallback","mfobjects/IMFAsyncCallback"]
 old-location: mf\imfasynccallback.htm
 tech.root: mf
@@ -55,10 +55,7 @@ Callback interface to notify the application when an asynchronous method complet
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAsyncCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAsyncCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFAsyncCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAsyncCallback</b> also has these types of members:
 
 ## -remarks
 

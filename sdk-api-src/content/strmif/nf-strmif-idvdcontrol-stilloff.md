@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 Resumes playback, canceling still mode.
 
-## -parameters
+
 
 ## -returns
 

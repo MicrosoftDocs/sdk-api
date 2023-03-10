@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IUpdate2
 title: IUpdate2 (wuapi.h)
-description: Contains the properties and methods that are available to an update.
+description: Contains the properties and methods that are available to an update. (IUpdate2)
 helpviewer_keywords: ["IUpdate2","IUpdate2 interface [Windows Update Agent]","IUpdate2 interface [Windows Update Agent]","described","wua.iupdate2","wuapi/IUpdate2"]
 old-location: wua\iupdate2.htm
 tech.root: wua
@@ -54,11 +54,7 @@ Contains the  properties and methods that are available to an update.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdate2</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>. <b>IUpdate2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IUpdate2</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>. <b>IUpdate2</b> also has these types of members:
 
 ## -see-also
 

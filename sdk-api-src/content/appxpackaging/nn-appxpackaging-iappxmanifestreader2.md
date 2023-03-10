@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxManifestReader2
 title: IAppxManifestReader2 (appxpackaging.h)
-description: Represents an object model of the package manifest that provides methods to access manifest elements and attributes.
+description: Represents an object model of the package manifest that provides methods to access manifest elements and attributes. (IAppxManifestReader2)
 helpviewer_keywords: ["IAppxManifestReader2","IAppxManifestReader2 interface [App packaging and management]","IAppxManifestReader2 interface [App packaging and management]","described","appxpackaging/IAppxManifestReader2","appxpkg.iappxmanifestreader2"]
 old-location: appxpkg\iappxmanifestreader2.htm
 tech.root: appxpkg
@@ -54,10 +54,7 @@ Represents an object model of the package manifest that provides methods to acce
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestReader2</b> interface inherits from <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>. <b>IAppxManifestReader2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxManifestReader2</b> interface inherits from <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>. <b>IAppxManifestReader2</b> also has these types of members:
 
 ## -remarks
 

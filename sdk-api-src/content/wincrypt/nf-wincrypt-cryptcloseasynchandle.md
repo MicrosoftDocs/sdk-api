@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptCloseAsyncHandle
 title: CryptCloseAsyncHandle
-ms.date: 4/26/2019
+description: The CryptCloseAsyncHandle function (wincrypt.h) closes an async handle.
+ms.date: 08/03/2022
 ms.keywords: CryptCloseAsyncHandle
 targetos: Windows
 req.assembly: 
@@ -17,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

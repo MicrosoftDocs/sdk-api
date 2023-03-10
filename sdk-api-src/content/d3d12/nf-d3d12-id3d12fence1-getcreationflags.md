@@ -52,7 +52,7 @@ api_name:
 
 Gets the flags used to create the fence represented by the current instance.
 
-## -parameters
+
 
 ## -returns
 

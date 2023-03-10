@@ -56,7 +56,7 @@ The <b>ONEX_REASON_CODE</b> enumerated type specifies the possible values that i
 
 ## -enum-fields
 
-### -field ONEX_REASON_CODE_SUCCESS
+### -field ONEX_REASON_CODE_SUCCESS:0
 
 Indicates the 802.1X authentication was a success.
 

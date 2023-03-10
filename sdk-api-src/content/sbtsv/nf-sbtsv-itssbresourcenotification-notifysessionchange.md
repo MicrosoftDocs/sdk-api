@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotification.NotifySessionChange
 title: ITsSbResourceNotification::NotifySessionChange (sbtsv.h)
-description: Notifies registered plug-ins about state changes in a session object.
+description: Notifies registered plug-ins about state changes in a session object. (ITsSbResourceNotification.NotifySessionChange)
 helpviewer_keywords: ["ITsSbResourceNotification interface [Remote Desktop Services]","NotifySessionChange method","ITsSbResourceNotification.NotifySessionChange","ITsSbResourceNotification::NotifySessionChange","NotifySessionChange","NotifySessionChange method [Remote Desktop Services]","NotifySessionChange method [Remote Desktop Services]","ITsSbResourceNotification interface","sbtsv/ITsSbResourceNotification::NotifySessionChange","termserv.itssbresourcenotification_notifysessionchange"]
 old-location: termserv\itssbresourcenotification_notifysessionchange.htm
 tech.root: TermServ
@@ -64,7 +64,7 @@ A pointer to a session object. This object is a copy of the object present in th
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

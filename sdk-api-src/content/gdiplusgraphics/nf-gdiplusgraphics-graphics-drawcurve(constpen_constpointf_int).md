@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawCurve(constPen,constPointF,INT)
 title: Graphics::DrawCurve
-description: The Graphics::DrawCurve method draws a cardinal spline.
+description: The Graphics::DrawCurve method draws a cardinal spline. (overload 2/6)
 tech.root: gdiplus
 helpviewer_keywords: ["Graphics::DrawCurve"]
 ms.assetid: c42c3e85-d967-4b68-983b-fa96be63d1e8

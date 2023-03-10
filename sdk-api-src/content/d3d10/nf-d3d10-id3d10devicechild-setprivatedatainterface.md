@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10.ID3D10DeviceChild.SetPrivateDataInterface
 title: ID3D10DeviceChild::SetPrivateDataInterface (d3d10.h)
-description: Associate an IUnknown-derived interface with this device child and associate that interface with an application-defined guid.
+description: Associate an IUnknown-derived interface with this device child and associate that interface with an application-defined guid. (ID3D10DeviceChild.SetPrivateDataInterface)
 helpviewer_keywords: ["ID3D10DeviceChild interface [Direct3D 10]","SetPrivateDataInterface method","ID3D10DeviceChild.SetPrivateDataInterface","ID3D10DeviceChild::SetPrivateDataInterface","SetPrivateDataInterface","SetPrivateDataInterface method [Direct3D 10]","SetPrivateDataInterface method [Direct3D 10]","ID3D10DeviceChild interface","adb67004-d0c8-2bcc-dda9-a0dbc070dbda","d3d10/ID3D10DeviceChild::SetPrivateDataInterface","direct3d10.id3d10devicechild_setprivatedatainterface"]
 old-location: direct3d10\id3d10devicechild_setprivatedatainterface.htm
 tech.root: direct3d10
@@ -75,7 +75,7 @@ This method returns one of the following <a href="/windows/desktop/direct3d10/d3
 
 ## -remarks
 
-When this method is called ::addref() will be called on the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface, and when the device child is detroyed ::release() will be called on the IUnknown-derived interface.
+When this method is called ::addref() will be called on the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface, and when the device child is destroyed ::release() will be called on the IUnknown-derived interface.
 
 ## -see-also
 

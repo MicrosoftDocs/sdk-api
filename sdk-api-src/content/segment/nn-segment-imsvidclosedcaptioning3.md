@@ -57,9 +57,9 @@ The <b>IMSVidClosedCaptioning3</b> interface retrieves the teletext filter. The 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidClosedCaptioning3</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidclosedcaptioning2">IMSVidClosedCaptioning2</a>. <b>IMSVidClosedCaptioning3</b> also has these types of members:
+The <b>IMSVidClosedCaptioning3</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidclosedcaptioning2">IMSVidClosedCaptioning2</a>. <b>IMSVidClosedCaptioning3</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

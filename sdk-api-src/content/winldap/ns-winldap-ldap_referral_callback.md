@@ -156,7 +156,7 @@ Pointer to a wide, null-terminated string that contains the DN of the referred-t
 Pointer to a null-terminated string that contains the name of the referred-to server; that is the server to which a connection must be made.
 
 </li>
-<li><i>PortNumber</i>Port on the referred-to server, to which a connection must be made.
+<li><i>PortNumber</i> Port on the referred-to server, to which a connection must be made.
 
 </li>
 <li>

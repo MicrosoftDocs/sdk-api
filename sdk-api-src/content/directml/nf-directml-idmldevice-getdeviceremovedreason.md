@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the reason that the DirectML device was removed.
 
-## -parameters
+
 
 ## -returns
 

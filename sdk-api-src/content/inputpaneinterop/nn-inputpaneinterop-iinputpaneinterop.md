@@ -54,10 +54,7 @@ Enables access to the members of the <a href="/uwp/api/windows.ui.viewmanagement
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInputPaneInterop</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IInputPaneInterop</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IInputPaneInterop</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IInputPaneInterop</b> also has these types of members:
 
 ## -remarks
 
@@ -71,7 +68,9 @@ For an example that uses the <b>IInputPaneInterop</b> interface, see the <a href
 
 The following example shows the definition of the IInputPaneInterop interface.
 
-<pre class="syntax" xml:space="preserve"><code>[
+
+``` syntax
+[
     uuid(75CF2C57-9195-4931-8332-F0B409E916AF),
 ]
 interface IInputPaneInterop : IInspectable
@@ -80,7 +79,9 @@ interface IInputPaneInterop : IInspectable
     HRESULT GetForWindow([in] HWND appWindow, [in] REFIID riid,
         [out, retval, iid_is(riid)] void** inputPane);
 }
-</code></pre>
+
+```
+
 For store apps, use the <a href="/uwp/api/windows.ui.viewmanagement.inputpane.getforcurrentview">InputPane.GetForCurrentView</a> method to get an <a href="/uwp/api/windows.ui.viewmanagement.inputpane">InputPane</a> object.
 
 ## -see-also

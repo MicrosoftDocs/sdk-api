@@ -52,7 +52,7 @@ api_name:
 
 Used to indicate that the source buffer has been aborted.
 
-## -parameters
+
 
 ## -see-also
 

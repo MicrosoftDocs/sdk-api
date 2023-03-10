@@ -56,9 +56,9 @@ The <code>IMediaStreamFilter</code> interface is supported by the Media Stream f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaStreamFilter</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a>. <b>IMediaStreamFilter</b> also has these types of members:
+The <b>IMediaStreamFilter</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a>. <b>IMediaStreamFilter</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

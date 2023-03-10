@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_8
+UID: NS:lpmapi.FILTER_SPEC
 title: FILTER_SPEC (lpmapi.h)
 description: The FILTER_SPEC structure stores information about an RSVP FILTERSPEC.
 helpviewer_keywords: ["FILTER_SPEC","FILTER_SPEC structure [QOS]","SENDER_TEMPLATE","lpmapi/FILTER_SPEC","qos.filter_spec"]
@@ -86,3 +86,4 @@ FILTERSPEC GPI information, in the form of a <a href="/previous-versions/windows
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
+

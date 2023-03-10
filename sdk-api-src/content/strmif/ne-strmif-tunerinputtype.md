@@ -1,7 +1,7 @@
 ---
 UID: NE:strmif.tagTunerInputType
 title: TunerInputType (strmif.h)
-description: Specifies the frequency of a TV tuner (cable or antenna).
+description: Specifies the frequency of a TV tuner (cable or antenna). (TunerInputType)
 helpviewer_keywords: ["TunerInputAntenna","TunerInputCable","TunerInputType","TunerInputType enumeration [DirectShow]","TunerInputTypeEnumeration","dshow.tunerinputtype","strmif/TunerInputAntenna","strmif/TunerInputCable","strmif/TunerInputType"]
 old-location: dshow\tunerinputtype.htm
 tech.root: dshow
@@ -56,7 +56,7 @@ Specifies the frequency of a TV tuner (cable or antenna).
 
 ## -enum-fields
 
-### -field TunerInputCable
+### -field TunerInputCable:0
 
 Indicates cable frequency.
 

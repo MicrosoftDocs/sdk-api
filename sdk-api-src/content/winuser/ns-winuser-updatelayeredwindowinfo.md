@@ -76,13 +76,13 @@ If <b>hdcSrc</b> is <b>NULL</b>, <b>hdcDst</b> must be <b>NULL</b>.
 
 ### -field pptDst
 
-Type: <b>const <a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b>const <a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
 The new screen position of the layered window. If the new position is unchanged from the current position, <b>pptDst</b> can be <b>NULL</b>.
 
 ### -field psize
 
-Type: <b>const <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
+Type: <b>const <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a>*</b>
 
 The new size of the layered window. If the size of the window will not change, this parameter can be <b>NULL</b>. If <b>hdcSrc</b> is <b>NULL</b>, <b>psize</b> must be <b>NULL</b>.
 
@@ -94,7 +94,7 @@ A handle to the DC for the surface that defines the layered window. This handle 
 
 ### -field pptSrc
 
-Type: <b>const <a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b>const <a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
 The location of the layer in the device context. If <b>hdcSrc</b> is <b>NULL</b>, <b>pptSrc</b> should be <b>NULL</b>.
 

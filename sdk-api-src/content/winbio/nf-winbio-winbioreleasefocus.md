@@ -55,7 +55,7 @@ api_name:
 
 Releases window focus.
 
-## -parameters
+
 
 ## -returns
 

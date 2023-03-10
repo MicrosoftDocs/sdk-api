@@ -59,10 +59,7 @@ The <b>IQuery</b> interface is reserved for future use.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQuery</b> interface inherits from <a href="/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree">ICommandTree</a>. <b>IQuery</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IQuery</b> interface inherits from <a href="/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree">ICommandTree</a>. <b>IQuery</b> also has these types of members:
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents.OnObjPoolGetObject
 title: IComObjectPoolEvents::OnObjPoolGetObject (comsvcs.h)
-description: Generated when a non-transactional object is obtained from the pool.
+description: Generated when a non-transactional object is obtained from the pool. (IComObjectPoolEvents.OnObjPoolGetObject)
 helpviewer_keywords: ["IComObjectPoolEvents interface [COM+]","OnObjPoolGetObject method","IComObjectPoolEvents.OnObjPoolGetObject","IComObjectPoolEvents::OnObjPoolGetObject","OnObjPoolGetObject","OnObjPoolGetObject method [COM+]","OnObjPoolGetObject method [COM+]","IComObjectPoolEvents interface","_dtc_IComObjectPoolEvents_OnObjPoolGetObject","comsvcs/IComObjectPoolEvents::OnObjPoolGetObject","cos.icomobjectpoolevents_onobjpoolgetobject"]
 old-location: cos\icomobjectpoolevents_onobjpoolgetobject.htm
 tech.root: cos

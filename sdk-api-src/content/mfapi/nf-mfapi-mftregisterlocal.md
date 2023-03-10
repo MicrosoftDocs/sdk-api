@@ -1,7 +1,7 @@
 ---
 UID: NF:mfapi.MFTRegisterLocal
 title: MFTRegisterLocal function (mfapi.h)
-description: Registers a Media Foundation transform (MFT) in the caller's process.
+description: Registers a Media Foundation transform (MFT) in the caller's process. (MFTRegisterLocal)
 helpviewer_keywords: ["MFTRegisterLocal","MFTRegisterLocal function [Media Foundation]","mf.mftregisterlocal","mfapi/MFTRegisterLocal"]
 old-location: mf\mftregisterlocal.htm
 tech.root: mf
@@ -88,7 +88,7 @@ A pointer to an array of <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

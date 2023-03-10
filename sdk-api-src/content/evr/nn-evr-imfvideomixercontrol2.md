@@ -64,10 +64,7 @@ To get a pointer to the interface, call <a href="/windows/desktop/api/mfidl/nf-m
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoMixerControl2</b> interface inherits from <a href="/windows/desktop/api/evr/nn-evr-imfvideomixercontrol">IMFVideoMixerControl</a>. <b>IMFVideoMixerControl2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFVideoMixerControl2</b> interface inherits from <a href="/windows/desktop/api/evr/nn-evr-imfvideomixercontrol">IMFVideoMixerControl</a>. <b>IMFVideoMixerControl2</b> also has these types of members:
 
 ## -see-also
 

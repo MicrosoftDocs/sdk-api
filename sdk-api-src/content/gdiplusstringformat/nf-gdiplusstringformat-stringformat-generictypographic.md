@@ -54,7 +54,7 @@ api_name:
 The <b>StringFormat::GenericTypographic</b> method creates a generic, typographic 
 			<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>IAzBizRuleParameters::RemoveAll</b> method removes all parameters from the list of parameters available to business rule (BizRule) scripts.
 
-## -parameters
+
 
 ## -see-also
 

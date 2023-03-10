@@ -1,8 +1,9 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList5.RSSetShadingRateImage
 title: ID3D12GraphicsCommandList5::RSSetShadingRateImage
+description: The ID3D12GraphicsCommandList5::RSSetShadingRateImage method (d3d12.h) sets the screen-space shading-rate image for variable-rate shading (VRS).
 tech.root: direct3d12
-ms.date: 01/31/2019
+ms.date: 08/10/2022
 ms.keywords: ID3D12GraphicsCommandList5::RSSetShadingRateImage
 targetos: Windows
 req.assembly: 
@@ -18,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

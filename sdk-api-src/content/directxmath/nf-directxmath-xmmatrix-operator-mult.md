@@ -69,7 +69,7 @@ An instance of <code>XMMATRIX</code> containing the result of the matrix multipl
 The current <code>XMMATRIX</code> is the left hand side of the matrix multiplication.  That is  the matrix operation <i>mat2 =  mat1 * M  </i> can be implemented as:
 
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span><table>
 <tr>
 <th></th>
 </tr>
@@ -85,7 +85,7 @@ The current <code>XMMATRIX</code> is the left hand side of the matrix multiplica
 </table></span></div>
 
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span><table>
 <tr>
 <th></th>
 </tr>

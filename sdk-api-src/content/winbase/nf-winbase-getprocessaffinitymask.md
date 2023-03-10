@@ -90,6 +90,8 @@ A process affinity mask is a bit vector in which each bit represents the process
 
 A process affinity mask is a subset of the system affinity mask. A process is only allowed to run on the processors configured into a system. Therefore, the process affinity mask cannot specify a 1 bit for a processor when the system affinity mask specifies a 0 bit for that processor.
 
+Starting with Windows 11 and Windows Server 2022, on a system with more than 64 processors, process and thread affinities span all processors in the system, across all <a href="/windows/desktop/ProcThread/processor-groups">processor groups</a>, by default. The <b>GetProcessAffinityMask</b> function sets the <i>lpProcessAffinityMask</i> and <i>lpSystemAffinityMask</i> to the process and system processor masks over the process' primary group. If the process had explicitly set the affinity of one or more of its threads outside of the process' primary group, the function returns zero for both affinity masks. If, however, <i>hHandle</i> specifies a handle to the current process, the function always uses the calling thread's primary group (which by default is the same as the process' primary group) in order to set the <i>lpProcessAffinityMask</i> and <i>lpSystemAffinityMask</i>.
+
 ## -see-also
 
 <a href="/windows/desktop/ProcThread/multiple-processors">Multiple Processors</a>

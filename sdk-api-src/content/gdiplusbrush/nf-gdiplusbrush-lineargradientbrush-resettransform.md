@@ -53,7 +53,7 @@ api_name:
 
 The <b>LinearGradientBrush::ResetTransform</b> method resets the transformation matrix of this linear gradient brush to the identity matrix. This means that no transformation takes place.
 
-## -parameters
+
 
 ## -returns
 

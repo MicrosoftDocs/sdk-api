@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_DrawingAttributes
 title: IInkStrokeDisp::get_DrawingAttributes (msinkaut.h)
-description: Gets or sets the drawing attributes to apply to ink as it is drawn.
+description: Gets or sets the drawing attributes to apply to ink as it is drawn. (IInkStrokeDisp.get_DrawingAttributes)
 helpviewer_keywords: ["DrawingAttributes property [Tablet PC]","DrawingAttributes property [Tablet PC]","IInkStrokeDisp interface","IInkStrokeDisp interface [Tablet PC]","DrawingAttributes property","IInkStrokeDisp.DrawingAttributes","IInkStrokeDisp.get_DrawingAttributes","IInkStrokeDisp.put_DrawingAttributes","IInkStrokeDisp::DrawingAttributes","IInkStrokeDisp::get_DrawingAttributes","IInkStrokeDisp::put_DrawingAttributes","get_DrawingAttributes","msinkaut/IInkStrokeDisp::DrawingAttributes","msinkaut/IInkStrokeDisp::get_DrawingAttributes","msinkaut/IInkStrokeDisp::put_DrawingAttributes","tablet.iinkstrokedisp_drawingattributes"]
 old-location: tablet\iinkstrokedisp_drawingattributes.htm
 tech.root: tablet

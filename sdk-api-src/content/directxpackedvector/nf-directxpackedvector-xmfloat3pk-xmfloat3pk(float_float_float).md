@@ -83,7 +83,7 @@ Value to be stored in the x-component of the new instance of <code>XMFLOAT3PK</c
 	  
 
 The value stored is transformed from the standard 32 floating point format (sign bit,
-	      8 bit exponent, 23 bit mantissa), to an 10 bit floating point format (5 bit exponent,
+	      8 bit exponent, 23 bit mantissa), to a 10 bit floating point format (5 bit exponent,
 	      5 bit mantissa).  As the target format does not support a sign bit, <b>_z</b> must be
 	      greater than zero.
 

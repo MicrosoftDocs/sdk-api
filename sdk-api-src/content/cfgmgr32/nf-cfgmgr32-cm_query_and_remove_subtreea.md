@@ -4,7 +4,7 @@ tech.root: devinst
 title: CM_Query_And_Remove_SubTreeA
 ms.date: 04/13/2021
 targetos: Windows
-description: The CM_Query_And_Remove_SubTree function checks whether a device instance and its children can be removed and, if so, it removes them.
+description: The CM_Query_And_Remove_SubTree function checks whether a device instance and its children can be removed and, if so, it removes them. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -84,7 +84,6 @@ The purpose of the <b>CM_Query_And_Remove_SubTree</b> function is to allow an ap
 
 <b>CM_Query_And_Remove_SubTree</b> supports setting the flags parameter <i>ulFlags</i> with one of the following two flags; these flags apply only if Windows or an installer vetoes the removal of a device:
 
-
 | Flag | Description |
 |------|-------------|
 | CM_REMOVE_UI_OK | The function allows a user dialog box to be displayed to indicate the reason for the veto. This is the default flag setting. |
@@ -101,7 +100,6 @@ The device status is reset by the one of the following:
 - Calling [CM_Setup_DevNode](nf-cfgmgr32-cm_setup_devnode.md) for the device and specifying CM_SETUP_DEVNODE_RESET. After the device status is reset in this manner, the device can be restarted by calling [CM_Reenumerate_DevNode](nf-cfgmgr32-cm_reenumerate_devnode.md) for the device instance. After resetting the device status, any other operation that enumerates the device will also restart the device, for example, if the Device Manager is used to reenumerate devices.
 - The device is detached and reattached, or the computer is restarted. In this case, the device status will be reset and the device will be restarted.
 - If this flag is not set, the device status does not have to be reset. You can restart the removed device by a calling <b>CM_Setup_DevNode</b> for the device and by specifying CM_SETUP_DEVNODE_READY. Any other operation that reenumerates the device will also restart the device. An example of an operation that reenumerates a device is calling <b>CM_Reenumerate_DevNode</b> for the device, detaching and reattaching the device, or restarting the computer. |
-
 
 Windows applications that do not require the low-level operation <b>CM_Query_And_Remove_SubTree</b> should use the <a href="/windows-hardware/drivers/install/dif-propertychange">DIF_PROPERTYCHANGE</a> request to disable a device instead of using <b>CM_Query_And_Remove_SubTree</b> to remove a device. The DIF_PROPERTYCHANGE request can be used to enable, disable, restart, stop, or change the properties of a device.
 

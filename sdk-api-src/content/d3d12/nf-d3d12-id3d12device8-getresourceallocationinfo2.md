@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device8.GetResourceAllocationInfo2
 title: ID3D12Device8::GetResourceAllocationInfo2
-description: Gets rich info about the size and alignment of memory required for a collection of resources on this adapter.
+description: Gets rich info about the size and alignment of memory required for a collection of resources on this adapter. (ID3D12Device8::GetResourceAllocationInfo2)
 helpviewer_keywords: ["ID3D12Device8 interface","GetResourceAllocationInfo2 method","ID3D12Device8.GetResourceAllocationInfo2","ID3D12Device8::GetResourceAllocationInfo2","GetResourceAllocationInfo2","GetResourceAllocationInfo2 method","GetResourceAllocationInfo2 method","ID3D12Device8 interface","direct3d12.id3d12device7_getresourceallocationinfo2","d3d12/ID3D12Device8::GetResourceAllocationInfo2"]
 tech.root: direct3d12
 ms.date: 09/16/2020
@@ -19,8 +19,8 @@ req.lib: d3d12.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

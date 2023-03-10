@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxBundleManifestReader2
 title: IAppxBundleManifestReader2 (appxpackaging.h)
-description: Provides a read-only object model for manifests of bundle packages.
+description: Provides a read-only object model for manifests of bundle packages. (IAppxBundleManifestReader2)
 helpviewer_keywords: ["IAppxBundleManifestReader2","IAppxBundleManifestReader2 interface [App packaging and management]","IAppxBundleManifestReader2 interface [App packaging and management]","described","appxpackaging/IAppxBundleManifestReader2","appxpkg.iappxbundlemanifestreader2"]
 old-location: appxpkg\iappxbundlemanifestreader2.htm
 tech.root: appxpkg
@@ -54,10 +54,7 @@ Provides a read-only object model for manifests of bundle packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleManifestReader2</b> interface inherits from <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestreader">IAppxBundleManifestReader</a>. <b>IAppxBundleManifestReader2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxBundleManifestReader2</b> interface inherits from <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestreader">IAppxBundleManifestReader</a>. <b>IAppxBundleManifestReader2</b> also has these types of members:
 
 ## -see-also
 

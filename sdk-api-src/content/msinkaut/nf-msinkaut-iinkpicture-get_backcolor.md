@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_BackColor
 title: IInkPicture::get_BackColor (msinkaut.h)
-description: Gets or sets the background color for the InkPicture control.
+description: Gets or sets the background color for the InkPicture control. (Get)
 helpviewer_keywords: ["BackColor property [Tablet PC]","BackColor property [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","BackColor property","IInkPicture.BackColor","IInkPicture.get_BackColor","IInkPicture::BackColor","IInkPicture::get_BackColor","IInkPicture::put_BackColor","InkPicture.get_BackColor","InkPicture.put_BackColor","get_BackColor","msinkaut/IInkPicture::BackColor","msinkaut/IInkPicture::get_BackColor","msinkaut/IInkPicture::put_BackColor","put_BackColor","tablet.inkpicture_backcolor"]
 old-location: tablet\inkpicture_backcolor.htm
 tech.root: tablet

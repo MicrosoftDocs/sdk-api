@@ -51,7 +51,9 @@ api_name:
 ## -description
 
 The <b>IX509ExtensionCertificatePolicies</b> interface enables you to specify a collection of policy information terms, each of which consists of an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and optional policy qualifiers. A single policy term is defined by an <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicy">ICertificatePolicy</a> object. The following syntax shows the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension. The extension value is encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and included in the <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ----------------------------------------------------------------------
 -- CertificatePolicies
 -- XCN_OID_CERT_POLICIES (2.5.29.32)
@@ -104,7 +106,9 @@ CpsURLs ::= SEQUENCE OF SEQUENCE
 
 CertificatePolicies95 ::= SEQUENCE OF PolicyQualifiers
     
-</code></pre>When included in a certificate issued to an end entity, this extension identifies the policies under which the certificate was issued and the purposes for which the certificate can be used. Applications that have specific policy requirements should compare these to the collection of policy <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) in the certificate.
+
+```
+When included in a certificate issued to an end entity, this extension identifies the policies under which the certificate was issued and the purposes for which the certificate can be used. Applications that have specific policy requirements should compare these to the collection of policy <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) in the certificate.
 
 When included in a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> certificate, this extension limits the set of policies for the certification paths extending from the certification authority certificate. If a certification authority does not want to limit this set, it can assert <b>XCN_OID_ANY_CERT_POLICY</b> (2.5.29.32.0).
 
@@ -168,11 +172,7 @@ To add this extension object to a  PKCS #10 request or a CMC request, you must f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionCertificatePolicies</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionCertificatePolicies</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IX509ExtensionCertificatePolicies</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionCertificatePolicies</b> also has these types of members:
 
 ## -see-also
 
@@ -180,7 +180,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionCertificatePoli
 
 
 
-<a href="/windows/desktop/api/mmcobj/nn-mmcobj-extensions">Extensions</a>
+<a href="/windows/win32/seccrypto/extensions">Extensions</a>
 
 
 

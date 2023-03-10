@@ -1,12 +1,12 @@
 ---
 UID: NF:tlhelp32.Process32Next
 title: Process32Next function (tlhelp32.h)
-description: Retrieves information about the next process recorded in a system snapshot.
+description: The Process32Next function (tlhelp32.h) retrieves information about the next process recorded in a system snapshot.
 helpviewer_keywords: ["Process32Next","Process32Next function [ToolHelp]","Process32NextW","_win32_process32next","base.process32next","tlhelp32/Process32Next","tlhelp32/Process32NextW","toolhelp.process32next"]
 old-location: toolhelp\process32next.htm
 tech.root: ToolHelp
 ms.assetid: 843a95fd-27ae-4215-83d0-82fc402b82b6
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: Process32Next, Process32Next function [ToolHelp], Process32NextW, _win32_process32next, base.process32next, tlhelp32/Process32Next, tlhelp32/Process32NextW, toolhelp.process32next
 req.header: tlhelp32.h
 req.include-header: 

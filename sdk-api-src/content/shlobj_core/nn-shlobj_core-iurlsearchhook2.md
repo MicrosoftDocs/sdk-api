@@ -54,10 +54,7 @@ Exposes a method that is used by the browser to translate the address of an unkn
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IURLSearchHook2</b> interface inherits from <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook">IURLSearchHook</a>. <b>IURLSearchHook2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IURLSearchHook2</b> interface inherits from <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook">IURLSearchHook</a>. <b>IURLSearchHook2</b> also has these types of members:
 
 ## -remarks
 

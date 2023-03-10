@@ -53,7 +53,7 @@ api_name:
 
 Requests notification when the enabling action is completed.
 
-## -parameters
+
 
 ## -returns
 
@@ -90,7 +90,7 @@ The method succeeded and no action was required.
 
 ## -remarks
 
-If you use a manual enabling action, call this method to be notified when the operation completes. If this method returns S_OK, the content enabler will send an <a href="/windows/desktop/medfound/meenablercompleted">MEEnablerCompleted</a> event when the operation is completed. If the application cancels the operatation before completing it, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-cancel">IMFContentEnabler::Cancel</a>.
+If you use a manual enabling action, call this method to be notified when the operation completes. If this method returns S_OK, the content enabler will send an <a href="/windows/desktop/medfound/meenablercompleted">MEEnablerCompleted</a> event when the operation is completed. If the application cancels the operation before completing it, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-cancel">IMFContentEnabler::Cancel</a>.
 
 You do not have to call <b>MonitorEnable</b> when you use automatic enabling by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-automaticenable">IMFContentEnabler::AutomaticEnable</a>.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:winsock2.WSASetBlockingHook
 title: WSASetBlockingHook function (winsock2.h)
-description: This function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0.
+description: This function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0. (WSASetBlockingHook)
 helpviewer_keywords: ["WSASetBlockingHook","WSASetBlockingHook function [Winsock]","_win32_wsasetblockinghook_2","winsock.wsasetblockinghook_2","winsock2/WSASetBlockingHook"]
 old-location: winsock\wsasetblockinghook_2.htm
 tech.root: WinSock

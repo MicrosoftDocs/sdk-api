@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateHwndRenderTarget(constD2D1_RENDER_TARGET_PROPERTIES,constD2D1_HWND_RENDER_TARGET_PROPERTIES,ID2D1HwndRenderTarget)
 title: ID2D1Factory::CreateHwndRenderTarget (d2d1.h)
-description: Creates an ID2D1HwndRenderTarget, a render target that renders to a window.
+description: Creates an ID2D1HwndRenderTarget, a render target that renders to a window. (overload 1/2)
 helpviewer_keywords: ["CreateHwndRenderTarget","CreateHwndRenderTarget methods [Direct2D]","ID2D1Factory.CreateHwndRenderTarget","ID2D1Factory::CreateHwndRenderTarget","d2d1/CreateHwndRenderTarget","direct2d.id2d1factory_createhwndrendertarget"]
 old-location: direct2d\id2d1factory_createhwndrendertarget.htm
 tech.root: Direct2D
@@ -75,7 +75,7 @@ When this method returns, contains the address of the pointer to the <a href="/w
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -remarks
 

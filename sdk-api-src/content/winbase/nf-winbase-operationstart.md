@@ -88,7 +88,9 @@ For Windows Server 2012, this prefetching functionality needs to be enabled and
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>    BOOL Success;
+
+``` syntax
+    BOOL Success;
     DWORD ErrorCode;
     OPERATION_START_PARAMETERS OpStart;
     OPERATION_END_PARAMETERS OpEnd;
@@ -130,7 +132,9 @@ For Windows Server 2012, this prefetching functionality needs to be enabled and
         fprintf(stderr, "OperationEnd failed: %d\n", GetLastError());
                   }
 
-</code></pre>
+
+```
+
 
 ## -see-also
 

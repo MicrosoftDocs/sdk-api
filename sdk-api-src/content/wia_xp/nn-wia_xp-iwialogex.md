@@ -1,7 +1,7 @@
 ---
 UID: NN:wia_xp.IWiaLogEx
 title: IWiaLogEx (wia_xp.h)
-description: This interface is not supported.
+description: This interface is not supported. (IWiaLogEx)
 helpviewer_keywords: ["IWiaLogEx","IWiaLogEx interface [WIA]","IWiaLogEx interface [WIA]","described","_wia_IWiaLogEx","wia._wia_IWiaLogEx","wia_xp/IWiaLogEx"]
 old-location: wia\_wia_IWiaLogEx.htm
 tech.root: wia
@@ -54,8 +54,5 @@ This interface is not supported.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaLogEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaLogEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWiaLogEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaLogEx</b> also has these types of members:
 

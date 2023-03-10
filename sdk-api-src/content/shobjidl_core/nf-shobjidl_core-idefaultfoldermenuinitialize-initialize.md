@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IDefaultFolderMenuInitialize.Initialize
 title: IDefaultFolderMenuInitialize::Initialize (shobjidl_core.h)
-description: .
+description: . (IDefaultFolderMenuInitialize.Initialize)
 helpviewer_keywords: ["IDefaultFolderMenuInitialize interface [Windows Shell]","Initialize method","IDefaultFolderMenuInitialize.Initialize","IDefaultFolderMenuInitialize::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IDefaultFolderMenuInitialize interface","shell.IDefaultFolderMenuInitialize_Initialize","shobjidl_core/IDefaultFolderMenuInitialize::Initialize"]
 old-location: shell\IDefaultFolderMenuInitialize_Initialize.htm
 tech.root: shell
@@ -108,7 +108,7 @@ Specifies where to load extensions from.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -52,7 +52,7 @@ api_name:
 
 Instructs the enumerator to position itself at the beginning of the list of elements.
 
-## -parameters
+
 
 ## -returns
 

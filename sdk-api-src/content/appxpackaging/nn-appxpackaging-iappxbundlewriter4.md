@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxBundleWriter4
 title: IAppxBundleWriter4 (appxpackaging.h)
-description: Provides a write-only object model for bundle packages.
+description: Provides a write-only object model for bundle packages. (IAppxBundleWriter4)
 helpviewer_keywords: ["IAppxBundleWriter4","IAppxBundleWriter4 interface [App packaging and management]","IAppxBundleWriter4 interface [App packaging and management]","described","appxpackaging/IAppxBundleWriter4","appxpkg.iappxbundlewriter4"]
 old-location: appxpkg\iappxbundlewriter4.htm
 tech.root: appxpkg
@@ -54,8 +54,5 @@ Provides a write-only object model for bundle packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleWriter4</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleWriter4</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxBundleWriter4</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleWriter4</b> also has these types of members:
 

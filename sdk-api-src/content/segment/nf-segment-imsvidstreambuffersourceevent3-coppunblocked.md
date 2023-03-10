@@ -57,7 +57,7 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>COPPUnblocked</b> method is called when the content is unblocked after a <b>COPPBlocked</b> event.
 
-## -parameters
+
 
 ## -returns
 

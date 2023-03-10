@@ -4,7 +4,7 @@ title: Image Mastering API
 ms.assetid: d5ee2b29-ba7f-3360-9fd6-16f32572a676
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Image Mastering API

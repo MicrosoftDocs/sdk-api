@@ -52,7 +52,7 @@ api_name:
 
 Reset a stopped audio stream.
 
-## -parameters
+
 
 ## -returns
 

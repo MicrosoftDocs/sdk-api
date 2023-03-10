@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentStructureResource.GetOwner
 title: IXpsOMDocumentStructureResource::GetOwner (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMDocument interface that contains the resource.
+description: Gets a pointer to the IXpsOMDocument interface that contains the resource. (IXpsOMDocumentStructureResource.GetOwner)
 helpviewer_keywords: ["GetOwner","GetOwner method [XPS Documents and Packaging]","GetOwner method [XPS Documents and Packaging]","IXpsOMDocumentStructureResource interface","IXpsOMDocumentStructureResource interface [XPS Documents and Packaging]","GetOwner method","IXpsOMDocumentStructureResource.GetOwner","IXpsOMDocumentStructureResource::GetOwner","xps.ixpsomdocumentstructureresource_getowner","xpsobjectmodel/IXpsOMDocumentStructureResource::GetOwner"]
 old-location: xps\ixpsomdocumentstructureresource_getowner.htm
 tech.root: xps

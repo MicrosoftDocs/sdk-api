@@ -77,7 +77,7 @@ This callback function does not return a value.
 When defined, callback would disallow all concurrency on a session based channel. If concurrency on a session based channel is desirable an application should not define <i>WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</i> on the <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_contract">WS_SERVICE_CONTRACT</a>.
                 
 
-At the time of the invocation of the callback, service model has performed <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessagestart">WsReadMessageStart</a> on the receiving <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a>. It is the responsibility of the application implementing <i>WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</i>to process the body and perform <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessageend">WsReadMessageEnd</a> operation.
+At the time of the invocation of the callback, service model has performed <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessagestart">WsReadMessageStart</a> on the receiving <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a>. It is the responsibility of the application implementing <i>WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</i> to process the body and perform <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessageend">WsReadMessageEnd</a> operation.
  
 If the callback fails, the underlying channel is aborted.
                 
@@ -89,7 +89,9 @@ See also, <a href="/windows/desktop/wsw/untypedserviceexample">UnTypedServiceExa
 
 Defining a WS_SERVICE_MESSAGE_RECEIVE_CALLBACK
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 // Method contract for the service
 static WS_SERVICE_CONTRACT calculatorContract = 
 {
@@ -97,13 +99,19 @@ static WS_SERVICE_CONTRACT calculatorContract =
     NULL, 
     DefaultMessageHandlerCallback, // WS_SERVICE_MESSAGE_RECEIVE_CALLBACK
     NULL
-};</code></pre>
+};
+```
+
 Accessing the incoming <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a> property
             
 
-<pre class="syntax" xml:space="preserve"><code>HRESULT CALLBACK MessageRecieved(const WS_OPERATION_CONTEXT* context, const WS_ASYNC_CONTEXT* asyncContext, WS_ERROR* error)
+
+``` syntax
+HRESULT CALLBACK MessageRecieved(const WS_OPERATION_CONTEXT* context, const WS_ASYNC_CONTEXT* asyncContext, WS_ERROR* error)
 {
     :
     hr = WsGetOperationContextProperty(context, WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE, &amp;requestMessage, sizeof(requestMessage), NULL, error);
     :
-}</code></pre>
+}
+```
+

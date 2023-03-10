@@ -1,7 +1,7 @@
 ---
 UID: NN:searchapi.ISearchProtocol2
 title: ISearchProtocol2 (searchapi.h)
-description: Provides methods for invoking, initializing, and managing IUrlAccessor objects.
+description: Provides methods for invoking, initializing, and managing IUrlAccessor objects. (ISearchProtocol2)
 helpviewer_keywords: ["ISearchProtocol2","ISearchProtocol2 interface [search]","ISearchProtocol2 interface [search]","described","_search_ISearchProtocol2","search._search_ISearchProtocol2","searchapi/ISearchProtocol2"]
 old-location: search\_search_ISearchProtocol2.htm
 tech.root: search
@@ -56,10 +56,7 @@ The protocol handler implements the protocol for accessing a content source in i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchProtocol2</b> interface inherits from <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchprotocol">ISearchProtocol</a>. <b>ISearchProtocol2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISearchProtocol2</b> interface inherits from <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchprotocol">ISearchProtocol</a>. <b>ISearchProtocol2</b> also has these types of members:
 
 ## -see-also
 

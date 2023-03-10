@@ -53,7 +53,7 @@ api_name:
 
 The <b>GraphicsPath::GetLastStatus</b> method returns a value that indicates the nature of this <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object's most recent method failure.
 
-## -parameters
+
 
 ## -returns
 

@@ -63,10 +63,7 @@ To obtain an instance of the <b>IVssComponentEx</b>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssComponentEx</b> interface inherits from <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>. <b>IVssComponentEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVssComponentEx</b> interface inherits from <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>. <b>IVssComponentEx</b> also has these types of members:
 
 ## -see-also
 

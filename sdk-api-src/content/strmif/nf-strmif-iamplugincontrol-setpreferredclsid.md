@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IAMPluginControl.SetPreferredClsid
 title: IAMPluginControl::SetPreferredClsid (strmif.h)
-description: Adds a class identifier (CLSID) to the preferred list or removes a CLSID from the list.
+description: Adds a class identifier (CLSID) to the preferred list or removes a CLSID from the list. (IAMPluginControl.SetPreferredClsid)
 helpviewer_keywords: ["IAMPluginControl interface [DirectShow]","SetPreferredClsid method","IAMPluginControl.SetPreferredClsid","IAMPluginControl::SetPreferredClsid","SetPreferredClsid","SetPreferredClsid method [DirectShow]","SetPreferredClsid method [DirectShow]","IAMPluginControl interface","dshow.iamplugincontrol_setpreferredclsid","strmif/IAMPluginControl::SetPreferredClsid"]
 old-location: dshow\iamplugincontrol_setpreferredclsid.htm
 tech.root: dshow
@@ -64,7 +64,7 @@ Pointer to the CLSID to add to the list. If this parameter is <b>NULL</b>, the e
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

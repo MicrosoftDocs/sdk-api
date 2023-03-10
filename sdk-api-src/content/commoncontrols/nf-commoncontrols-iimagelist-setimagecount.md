@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.SetImageCount
 title: IImageList::SetImageCount (commoncontrols.h)
-description: Resizes an existing image list.
+description: Resizes an existing image list. (IImageList.SetImageCount)
 helpviewer_keywords: ["IImageList interface [Windows Controls]","SetImageCount method","IImageList.SetImageCount","IImageList::SetImageCount","SetImageCount","SetImageCount method [Windows Controls]","SetImageCount method [Windows Controls]","IImageList interface","comctl_IImageList_SetImageCount","comctl_IImageList_SetImageCount_cpp","commoncontrols/IImageList::SetImageCount","controls.IImageList_SetImageCount","controls.comctl_IImageList_SetImageCount"]
 old-location: controls\IImageList_SetImageCount.htm
 tech.root: Controls
@@ -64,7 +64,7 @@ A value that specifies the new size of the image list.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

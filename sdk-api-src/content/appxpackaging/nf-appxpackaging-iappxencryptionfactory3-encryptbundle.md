@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory3.EncryptBundle
 title: IAppxEncryptionFactory3::EncryptBundle (appxpackaging.h)
-description: Creates an encrypted Windows app bundle from an unencrypted one.
+description: Creates an encrypted Windows app bundle from an unencrypted one. (IAppxEncryptionFactory3.EncryptBundle)
 helpviewer_keywords: ["EncryptBundle","EncryptBundle method [App packaging and management]","EncryptBundle method [App packaging and management]","IAppxEncryptionFactory3 interface","IAppxEncryptionFactory3 interface [App packaging and management]","EncryptBundle method","IAppxEncryptionFactory3.EncryptBundle","IAppxEncryptionFactory3::EncryptBundle","appxpackaging/IAppxEncryptionFactory3::EncryptBundle","appxpkg.iappxencryptionfactory3_encryptbundle"]
 old-location: appxpkg\iappxencryptionfactory3_encryptbundle.htm
 tech.root: appxpkg
@@ -60,7 +60,7 @@ A readable stream from the app bundle to encrypt.
 
 ### -param outputStream [in]
 
-A writeable stream for writing the resulting encrypted app bundle.
+A writable stream for writing the resulting encrypted app bundle.
 
 ### -param settings [in]
 
@@ -76,7 +76,7 @@ Files exempted from the bundle writer.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

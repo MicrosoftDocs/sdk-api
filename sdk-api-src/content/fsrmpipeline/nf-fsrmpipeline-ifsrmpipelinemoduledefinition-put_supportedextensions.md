@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_SupportedExtensions
 title: IFsrmPipelineModuleDefinition::put_SupportedExtensions (fsrmpipeline.h)
-description: The list of file extensions supported by this module.
+description: The list of file extensions supported by this module. (Put)
 helpviewer_keywords: ["IFsrmPipelineModuleDefinition interface [File Server Resource Manager]","SupportedExtensions property","IFsrmPipelineModuleDefinition.SupportedExtensions","IFsrmPipelineModuleDefinition.put_SupportedExtensions","IFsrmPipelineModuleDefinition::SupportedExtensions","IFsrmPipelineModuleDefinition::get_SupportedExtensions","IFsrmPipelineModuleDefinition::put_SupportedExtensions","SupportedExtensions property [File Server Resource Manager]","SupportedExtensions property [File Server Resource Manager]","IFsrmPipelineModuleDefinition interface","fs.ifsrmpipelinemoduledefinition_supportedextensions","fsrm.ifsrmpipelinemoduledefinition_supportedextensions","fsrmpipeline/IFsrmPipelineModuleDefinition::SupportedExtensions","fsrmpipeline/IFsrmPipelineModuleDefinition::get_SupportedExtensions","fsrmpipeline/IFsrmPipelineModuleDefinition::put_SupportedExtensions","put_SupportedExtensions"]
 old-location: fsrm\ifsrmpipelinemoduledefinition_supportedextensions.htm
 tech.root: fsrm

@@ -1,7 +1,7 @@
 ---
 UID: NN:mbnapi.IMbnRadioEvents
 title: IMbnRadioEvents (mbnapi.h)
-description: Notification interface used to indicate a change in the radio state as well as the completion of a programatic change in the state .
+description: Notification interface used to indicate a change in the radio state as well as the completion of a programmatic change in the state .
 helpviewer_keywords: ["IMbnRadioEvents","IMbnRadioEvents interface [Microsoft Broadband Networks]","IMbnRadioEvents interface [Microsoft Broadband Networks]","described","mbn.imbnradioevents","mbnapi/IMbnRadioEvents"]
 old-location: mbn\imbnradioevents.htm
 tech.root: mbn
@@ -53,14 +53,11 @@ api_name:
 > [!IMPORTANT]
 > Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
-Notification interface used to indicate a change in the radio state as well as the completion of a programatic change in the state .
+Notification interface used to indicate a change in the radio state as well as the completion of a programmatic change in the state .
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnRadioEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnRadioEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMbnRadioEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnRadioEvents</b> also has these types of members:
 
 ## -remarks
 

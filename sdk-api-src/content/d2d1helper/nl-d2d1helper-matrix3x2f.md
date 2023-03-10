@@ -54,12 +54,7 @@ The <b>Matrix3x2F</b> class represents a 3-by-2 matrix and provides convenience 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">Matrix3x2F</b> class inherits from <a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>. <b>Matrix3x2F</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Constructors</a></li>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Operators</a></li>
-</ul>
+The <b>Matrix3x2F</b> class inherits from <a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>.
 
 ## -remarks
 

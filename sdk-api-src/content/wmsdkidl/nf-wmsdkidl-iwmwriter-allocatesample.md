@@ -63,7 +63,7 @@ The <b>AllocateSample</b> method allocates a buffer that can be used to provide 
 
 ### -param ppSample [out]
 
-Pointer to a pointer to an <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface to an object containing the sample.
+Pointer to a pointer to an <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface to an object containing the sample.
 
 ## -returns
 

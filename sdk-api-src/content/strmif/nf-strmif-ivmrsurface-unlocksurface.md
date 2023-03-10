@@ -53,7 +53,7 @@ api_name:
 
 The <code>UnlockSurface</code> method unlocks the attached DirectDraw surface.
 
-## -parameters
+
 
 ## -returns
 

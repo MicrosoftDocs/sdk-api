@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.MoveFileExA
 title: MoveFileExA function (winbase.h)
-description: Moves an existing file or directory, including its children, with various move options.
+description: Moves an existing file or directory, including its children, with various move options. (ANSI)
 old-location: fs\movefileex.htm
 tech.root: FileIO
 ms.assetid: 5fb4f897-66ed-49d7-913a-fb6e7cecdfa3
@@ -198,7 +198,7 @@ If a file named <i>lpNewFileName</i> exists, the function replaces its contents 
          regarding access control lists (ACLs) are met. For more information, see the Remarks section of this 
          topic.
 
-If <i>lpNewFileName</i> or <i>lpExistingFileName</i> name a directory and <i>lpExistingFileName</i> exists, an error is reported.
+If <i>lpNewFileName</i> names an existing directory, an error is reported.
 
 </td>
 </tr>

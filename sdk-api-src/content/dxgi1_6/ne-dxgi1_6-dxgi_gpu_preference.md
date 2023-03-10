@@ -56,7 +56,7 @@ The preference of GPU for the app to run on.
 
 ## -enum-fields
 
-### -field DXGI_GPU_PREFERENCE_UNSPECIFIED
+### -field DXGI_GPU_PREFERENCE_UNSPECIFIED:0
 
 No preference of GPU.
 

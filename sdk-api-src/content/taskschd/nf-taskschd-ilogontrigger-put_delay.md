@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.ILogonTrigger.put_Delay
 title: ILogonTrigger::put_Delay (taskschd.h)
-description: Gets or sets a value that indicates the amount of time between when the user logs on and when the task is started.
+description: Gets or sets a value that indicates the amount of time between when the user logs on and when the task is started. (Put)
 helpviewer_keywords: ["Delay property [Task Scheduler]","Delay property [Task Scheduler]","ILogonTrigger interface","ILogonTrigger interface [Task Scheduler]","Delay property","ILogonTrigger.Delay","ILogonTrigger.put_Delay","ILogonTrigger::Delay","ILogonTrigger::get_Delay","ILogonTrigger::put_Delay","put_Delay","taskschd.ilogontrigger_delay","taskschd/ILogonTrigger::Delay","taskschd/ILogonTrigger::get_Delay","taskschd/ILogonTrigger::put_Delay"]
 old-location: taskschd\ilogontrigger_delay.htm
 tech.root: taskschd

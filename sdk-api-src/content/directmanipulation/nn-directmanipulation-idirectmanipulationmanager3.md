@@ -57,10 +57,7 @@ The <b>IDirectManipulationManager3</b> interface adds support for retrieving an 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectManipulationManager3</b> interface inherits from <b>IDirectManipulationManager2</b>. <b>IDirectManipulationManager3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDirectManipulationManager3</b> interface inherits from <b>IDirectManipulationManager2</b>. <b>IDirectManipulationManager3</b> also has these types of members:
 
 ## -see-also
 

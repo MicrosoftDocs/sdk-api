@@ -6,7 +6,7 @@ helpviewer_keywords: ["ActivateForFile","ActivateForFile method [Windows Shell]"
 old-location: shell\IApplicationActivationManager_ActivateForFile.htm
 tech.root: shell
 ms.assetid: E7EBB743-4847-4966-A2EA-486BBA6A4A6F
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: ActivateForFile, ActivateForFile method [Windows Shell], ActivateForFile method [Windows Shell],IApplicationActivationManager interface, IApplicationActivationManager interface [Windows Shell],ActivateForFile method, IApplicationActivationManager.ActivateForFile, IApplicationActivationManager::ActivateForFile, shell.IApplicationActivationManager_ActivateForFile, shobjidl_core/IApplicationActivationManager::ActivateForFile
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
@@ -60,7 +60,7 @@ The application user model ID of the Windows Store app.
 
 ### -param itemArray [in]
 
-A pointer to an array of Shell items, each representing a file. This value is converted to a <a href="/cpp/cppcx/platform-collections-vectorview-class?view=vs-2019">VectorView</a> of <a href="/uwp/api/windows.storage.istorageitem">StorageItem</a> objects that is passed to the app through <a href="/uwp/api/windows.applicationmodel.activation.fileactivatedeventargs">FileActivatedEventArgs</a>.
+A pointer to an array of Shell items, each representing a file. This value is converted to a <a href="/cpp/cppcx/platform-collections-vectorview-class?view=vs-2019&preserve-view=true">VectorView</a> of <a href="/uwp/api/windows.storage.istorageitem">StorageItem</a> objects that is passed to the app through <a href="/uwp/api/windows.applicationmodel.activation.fileactivatedeventargs">FileActivatedEventArgs</a>.
 
 ### -param verb [in]
 
@@ -68,11 +68,11 @@ The verb being applied to the file or files specified by <i>itemArray</i>.
 
 ### -param processId [out]
 
-A pointer to a value that, when this method returns successfully, receives the process ID of the app instance that fulfils this contract.
+A pointer to a value that, when this method returns successfully, receives the process ID of the app instance that fulfills this contract.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

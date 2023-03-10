@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.ReportIScsiInitiatorListA
 title: ReportIScsiInitiatorListA function (iscsidsc.h)
-description: ReportIscsiInitiatorList function retrieves the list of initiator Host Bus Adapters that are running on the machine.
-helpviewer_keywords: ["ReportIScsiInitiatorListA","ReportIscsiInitiatorList","ReportIscsiInitiatorList function [iSCSI Discovery Library API]","ReportIscsiInitiatorListA","ReportIscsiInitiatorListW","iscsidisc.reportiscsiinitiatorlist","iscsidsc/ReportIscsiInitiatorList","iscsidsc/ReportIscsiInitiatorListA","iscsidsc/ReportIscsiInitiatorListW"]
+description: ReportIscsiInitiatorList function retrieves the list of initiator Host Bus Adapters that are running on the machine. (ANSI)
+helpviewer_keywords: ["ReportIScsiInitiatorListA", "ReportIscsiInitiatorListA", "iscsidsc/ReportIscsiInitiatorListA"]
 old-location: iscsidisc\reportiscsiinitiatorlist.htm
 tech.root: iSCSIDisc
 ms.assetid: 7039fab5-ac76-4420-994b-b8c18196b022

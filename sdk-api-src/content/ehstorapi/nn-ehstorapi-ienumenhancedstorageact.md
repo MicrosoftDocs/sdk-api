@@ -54,10 +54,7 @@ Use this interface as the top level enumerator for all IEEE 1667 Addressable Con
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumEnhancedStorageACT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumEnhancedStorageACT</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumEnhancedStorageACT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumEnhancedStorageACT</b> also has these types of members:
 
 ## -see-also
 

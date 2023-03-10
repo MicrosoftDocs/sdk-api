@@ -4,7 +4,7 @@ title: Oleidl.h header
 ms.assetid: 3326aed1-ea73-3859-bb65-481eb2610f91
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: com
 f1_keywords:
  - oleidl
@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Component Object Model (COM). For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Component Object Model (COM)](../_com/index.md)
+- [The Windows Shell](../_shell/index.md)
 

@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.__unnamed_enum_29
+UID: NE:webservices.WS_ENDPOINT_ADDRESS_EXTENSION_TYPE
 title: WS_ENDPOINT_ADDRESS_EXTENSION_TYPE (webservices.h)
 description: This identifies a type of extension within the extensions field of the WS_ENDPOINT_ADDRESS.
 helpviewer_keywords: ["WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS","WS_ENDPOINT_ADDRESS_EXTENSION_TYPE","WS_ENDPOINT_ADDRESS_EXTENSION_TYPE enumeration [Web Services for Windows]","webservices/WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS","webservices/WS_ENDPOINT_ADDRESS_EXTENSION_TYPE","wsw.ws_endpoint_address_extension_type"]
@@ -55,9 +55,10 @@ This identifies a type of extension within the extensions field of the
 
 ## -enum-fields
 
-### -field WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS
+### -field WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS:1
 
 The address that metadata can be downloaded from the endpoint.
                 
 
 The type of the extension value is <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>.
+

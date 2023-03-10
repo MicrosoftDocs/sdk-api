@@ -53,7 +53,7 @@ api_name:
 
 Gets the current locality of the file.
 
-## -parameters
+
 
 ## -returns
 

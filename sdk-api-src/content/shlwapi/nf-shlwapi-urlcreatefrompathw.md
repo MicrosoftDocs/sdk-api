@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.UrlCreateFromPathW
 title: UrlCreateFromPathW function (shlwapi.h)
-description: Converts a Microsoft MS-DOS path to a canonicalized URL.
-helpviewer_keywords: ["UrlCreateFromPath","UrlCreateFromPath function [Windows Shell]","UrlCreateFromPathA","UrlCreateFromPathW","_win32_UrlCreateFromPath","shell.UrlCreateFromPath","shlwapi/UrlCreateFromPath","shlwapi/UrlCreateFromPathA","shlwapi/UrlCreateFromPathW"]
+description: Converts a Microsoft MS-DOS path to a canonicalized URL. (Unicode)
+helpviewer_keywords: ["UrlCreateFromPath", "UrlCreateFromPath function [Windows Shell]", "UrlCreateFromPathW", "_win32_UrlCreateFromPath", "shell.UrlCreateFromPath", "shlwapi/UrlCreateFromPath", "shlwapi/UrlCreateFromPathW"]
 old-location: shell\UrlCreateFromPath.htm
 tech.root: shell
 ms.assetid: b69ab203-daab-4951-b3b9-c5ca37c532b3

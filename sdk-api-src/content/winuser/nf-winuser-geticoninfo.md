@@ -313,7 +313,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -remarks
 
-<b>GetIconInfo</b> creates bitmaps for the <b>hbmMask</b> and <b>hbmCol</b>or members of <a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>. The calling application must manage these bitmaps and delete them when they are no longer necessary.
+<b>GetIconInfo</b> creates bitmaps for the <b>hbmMask</b> and <b>hbmColor</b> or members of <a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>. The calling application must manage these bitmaps and delete them when they are no longer necessary.
 
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The output returned is not affected by the DPI of the calling thread.
@@ -322,46 +322,30 @@ This API does not participate in DPI virtualization. The output returned is not 
 
 <b>Conceptual</b>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-createicon">CreateIcon</a>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-drawicon">DrawIcon</a>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-drawiconex">DrawIconEx</a>
 
-
-
 <a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>
-
-
 
 <a href="/windows/desktop/menurc/icons">Icons</a>
 
-
-
 <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
-
-
 
 <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectory">LookupIconIdFromDirectory</a>
 
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps</a>
 
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
+
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a>
 
 <b>Reference</b>

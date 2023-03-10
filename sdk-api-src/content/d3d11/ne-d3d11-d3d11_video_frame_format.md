@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_FRAME_FORMAT
 title: D3D11_VIDEO_FRAME_FORMAT (d3d11.h)
-description: Describes how a video stream is interlaced.
+description: Describes how a video stream is interlaced. (D3D11_VIDEO_FRAME_FORMAT)
 helpviewer_keywords: ["D3D11_VIDEO_FRAME_FORMAT","D3D11_VIDEO_FRAME_FORMAT enumeration [Media Foundation]","D3D11_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST","D3D11_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST","D3D11_VIDEO_FRAME_FORMAT_PROGRESSIVE","d3d11/D3D11_VIDEO_FRAME_FORMAT","d3d11/D3D11_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST","d3d11/D3D11_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST","d3d11/D3D11_VIDEO_FRAME_FORMAT_PROGRESSIVE","mf.d3d11_video_frame_format"]
 old-location: mf\d3d11_video_frame_format.htm
 tech.root: mf
@@ -54,15 +54,15 @@ Describes how a video stream is interlaced.
 
 ## -enum-fields
 
-### -field D3D11_VIDEO_FRAME_FORMAT_PROGRESSIVE
+### -field D3D11_VIDEO_FRAME_FORMAT_PROGRESSIVE:0
 
 Frames are progressive.
 
-### -field D3D11_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST
+### -field D3D11_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST:1
 
 Frames are interlaced. The top field of each frame is displayed first.
 
-### -field D3D11_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST
+### -field D3D11_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST:2
 
 Frame are interlaced. The bottom field of each frame is displayed first.
 

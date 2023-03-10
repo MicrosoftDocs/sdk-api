@@ -53,7 +53,7 @@ api_name:
 
 Makes <a href="/windows/desktop/SecAuthZ/access-control-lists">ACLs</a> consistent on the Directory Service and the system  volume folder (SysVol) of the GPO. <a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-isaclconsistent">IsACLConsistent</a> can be used to check for consistency of ACLs between the Directory Service and system volume folder (SysVol).
 
-## -parameters
+
 
 ## -returns
 

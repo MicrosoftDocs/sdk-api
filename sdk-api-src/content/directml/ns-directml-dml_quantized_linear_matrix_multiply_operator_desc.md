@@ -8,8 +8,8 @@ ms.date: 11/03/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -121,11 +121,28 @@ A tensor to write the results to. This tensor's dimensions are `{ BatchCount, Ch
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor constraints
-* *ATensor* and `AZeroPointTensor` must have the same *DataType*.
-* *BTensor* and `BZeroPointTensor` must have the same *DataType*.
-* *OutputTensor* and `OutputZeroPointTensor` must have the same *DataType*.
+* *AScaleTensor*, *AZeroPointTensor*, *BScaleTensor*, *BZeroPointTensor*, *OutputScaleTensor*, and *OutputZeroPointTensor* must have the same *DimensionCount*.
+* *ATensor*, *BTensor*, and *OutputTensor* must have the same *DimensionCount*.
+* *BTensor* and *BZeroPointTensor* must have the same *DataType*.
+* *OutputTensor* and *OutputZeroPointTensor* must have the same *DataType*.
+* *AScaleTensor*, *AZeroPointTensor*, *BScaleTensor*, *BZeroPointTensor*, *OutputScaleTensor*, and *OutputZeroPointTensor* must have the same *DimensionCount*.
+* *ATensor* and *AZeroPointTensor* must have the same *DataType*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_4_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| ATensor | Input | 2 to 4 | INT8, UINT8 |
+| AScaleTensor | Input | 1 to 4 | FLOAT32 |
+| AZeroPointTensor | Optional input | 1 to 4 | INT8, UINT8 |
+| BTensor | Input | 2 to 4 | INT8, UINT8 |
+| BScaleTensor | Input | 1 to 4 | FLOAT32 |
+| BZeroPointTensor | Optional input | 1 to 4 | INT8, UINT8 |
+| OutputScaleTensor | Input | 1 to 4 | FLOAT32 |
+| OutputZeroPointTensor | Optional input | 1 to 4 | INT8, UINT8 |
+| OutputTensor | Output | 2 to 4 | INT8, UINT8 |
+
+### DML_FEATURE_LEVEL_2_1 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | ATensor | Input | 4 | INT8, UINT8 |

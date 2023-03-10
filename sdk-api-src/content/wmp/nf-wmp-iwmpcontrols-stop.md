@@ -52,7 +52,7 @@ api_name:
 
 The <b>stop</b> method stops playback of the media item.
 
-## -parameters
+
 
 ## -returns
 

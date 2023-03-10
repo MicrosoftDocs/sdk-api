@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IAMPhysicalPinInfo
 title: IAMPhysicalPinInfo (strmif.h)
-description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated. (IAMPhysicalPinInfo)
 helpviewer_keywords: ["IAMPhysicalPinInfo","IAMPhysicalPinInfo interface [DirectShow]","IAMPhysicalPinInfo interface [DirectShow]","described","IAMPhysicalPinInfoInterface","dshow.iamphysicalpininfo","strmif/IAMPhysicalPinInfo"]
 old-location: dshow\iamphysicalpininfo.htm
 tech.root: dshow
@@ -56,10 +56,7 @@ This interface enables an application or filter to retrieve information about a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMPhysicalPinInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMPhysicalPinInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAMPhysicalPinInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMPhysicalPinInfo</b> also has these types of members:
 
 ## -see-also
 

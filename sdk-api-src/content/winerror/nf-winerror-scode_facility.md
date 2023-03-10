@@ -62,7 +62,11 @@ The status code.
 
 This macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define SCODE_FACILITY(sc)    (((sc) &gt;&gt; 16) &amp; 0x1fff)</code></pre>
+
+``` syntax
+#define SCODE_FACILITY(sc)    (((sc) &gt;&gt; 16) &amp; 0x1fff)
+```
+
 
 ## -see-also
 

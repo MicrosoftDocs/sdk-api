@@ -4,7 +4,7 @@ tech.root: directdraw
 title: DirectDrawEnumerateA
 ms.date: 04/14/2021
 targetos: Windows
-description: This function is superseded by the DirectDrawEnumerateEx function.
+description: This function is superseded by the DirectDrawEnumerateEx function. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -18,8 +18,8 @@ req.lib: Ddraw.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: Windows 
 req.type-library: 
 req.umdf-ver: 

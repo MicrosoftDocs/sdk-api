@@ -1,11 +1,11 @@
 ---
 UID: NF:chstring.CHString.Mid(int,int)
 title: CHString::Mid
-description: 
+description: The CHString::Mid method extracts a substring of length nCount characters from a CHString string, starting at position nFirst (zero-based). 
 tech.root: wmi
 helpviewer_keywords: ["CHString::Mid"]
 ms.assetid: f79f7b70-0587-4d5d-8a18-c61bd3c69212
-ms.date: 01/30/2019
+ms.date: 08/10/2022
 ms.keywords: CHString::Mid
 targetos: Windows
 req.assembly: 

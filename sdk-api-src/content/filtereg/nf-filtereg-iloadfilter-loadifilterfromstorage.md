@@ -1,7 +1,7 @@
 ---
 UID: NF:filtereg.ILoadFilter.LoadIFilterFromStorage
 title: ILoadFilter::LoadIFilterFromStorage (filtereg.h)
-description: Do not use:\_this method is not implemented.
+description: Do not use:\_this method is not implemented. (ILoadFilter.LoadIFilterFromStorage)
 helpviewer_keywords: ["ILoadFilter interface [search]","LoadIFilterFromStorage method","ILoadFilter.LoadIFilterFromStorage","ILoadFilter::LoadIFilterFromStorage","LoadIFilterFromStorage","LoadIFilterFromStorage method [search]","LoadIFilterFromStorage method [search]","ILoadFilter interface","filtereg/ILoadFilter::LoadIFilterFromStorage","search.iloadfilter_loadifilterfromstorage"]
 old-location: search\iloadfilter_loadifilterfromstorage.htm
 tech.root: search
@@ -74,7 +74,7 @@ Do not use: this method is not implemented.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

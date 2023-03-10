@@ -91,7 +91,7 @@ For a more complex example, suppose that a compound array contains the values 0.
 
 
 The following example gets the compound array for a 
-						<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object. Assuming that a compound array has been set for this <b>Pen</b>object, the code then gets the entries that have been set for this pen.
+						<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object. Assuming that a compound array has been set for this <b>Pen</b> object, the code then gets the entries that have been set for this pen.
 
 
 ```cpp

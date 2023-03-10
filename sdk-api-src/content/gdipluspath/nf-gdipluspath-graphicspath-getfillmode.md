@@ -53,7 +53,7 @@ api_name:
 
 The <b>GraphicsPath::GetFillMode</b> method gets the fill mode of this path.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10Query
 title: ID3D10Query (d3d10.h)
-description: A query interface queries information from the GPU.
+description: A query interface queries information from the GPU. (ID3D10Query)
 helpviewer_keywords: ["44824060-7dfe-0b44-7549-6ab5b12a7e8f","ID3D10Query","ID3D10Query interface [Direct3D 10]","ID3D10Query interface [Direct3D 10]","described","d3d10/ID3D10Query","direct3d10.id3d10query"]
 old-location: direct3d10\id3d10query.htm
 tech.root: direct3d10
@@ -55,10 +55,7 @@ A query interface queries information from the GPU.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Query</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10asynchronous">ID3D10Asynchronous</a>. <b>ID3D10Query</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D10Query</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10asynchronous">ID3D10Asynchronous</a>. <b>ID3D10Query</b> also has these types of members:
 
 ## -remarks
 
@@ -83,7 +80,7 @@ pDevice->CreateQuery(&queryDesc, &pQuery);
 
 pQuery->Begin();
 
-... // Issue graphis commands, do whatever
+... // Issue graphics commands, do whatever
 
 pQuery->End();
 

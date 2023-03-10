@@ -1,8 +1,8 @@
 ---
 UID: NF:shellapi.ShellExecuteA
 title: ShellExecuteA function (shellapi.h)
-description: Performs an operation on a specified file.
-helpviewer_keywords: ["NULL","ShellExecute","ShellExecute function [Windows Shell]","ShellExecuteA","ShellExecuteW","_win32_ShellExecute","_win32_ShellExecute_cpp","edit","explore","find","open","print","shell.ShellExecute","shellapi/ShellExecute","shellapi/ShellExecuteA","shellapi/ShellExecuteW"]
+description: Performs an operation on a specified file. (ShellExecuteA)
+helpviewer_keywords: ["NULL", "ShellExecuteA", "edit", "explore", "find", "open", "print", "shellapi/ShellExecuteA"]
 old-location: shell\ShellExecute.htm
 tech.root: shell
 ms.assetid: 8b1f3978-a0ee-4684-8a37-98e270b63897
@@ -142,7 +142,7 @@ The flags that specify how an application is to be displayed when it is opened. 
 
 Type: <b>HINSTANCE</b>
 
-If the function succeeds, it returns a value greater than 32. If the function fails, it returns an error value that indicates the cause of the failure. The return value is cast as an HINSTANCE for backward compatibility with 16-bit Windows applications. It is not a true HINSTANCE, however. It can be cast only to an <b>int</b> and compared to either 32 or the following error codes below.
+If the function succeeds, it returns a value greater than 32. If the function fails, it returns an error value that indicates the cause of the failure. The return value is cast as an HINSTANCE for backward compatibility with 16-bit Windows applications. It is not a true HINSTANCE, however. It can be cast only to an <b>INT_PTR</b> and compared to either 32 or the following error codes below.
 
 <table>
 <tr>
@@ -316,6 +316,8 @@ A sharing violation occurred.
 </tr>
 </table>
 
+Call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
+
 ## -remarks
 
 Because <b>ShellExecute</b> can delegate execution to Shell extensions (data sources, context menu handlers, verb implementations) that are activated using Component Object Model (COM), COM should be initialized before <b>ShellExecute</b> is called. Some Shell extensions require the COM single-threaded apartment (STA) type. In that case, COM should be initialized as shown here:
@@ -328,7 +330,7 @@ CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE)
 ```
 
 
-There are certainly instances where <b>ShellExecute</b> does not use one of these types of Shell extension and those instances would not require COM to be initialized at all. Nonetheless, it is good practice to <i>always</i> initalize COM before using this function.
+There are certainly instances where <b>ShellExecute</b> does not use one of these types of Shell extension and those instances would not require COM to be initialized at all. Nonetheless, it is good practice to <i>always</i> initialize COM before using this function.
 
 This method allows you to execute any commands in a folder's shortcut menu or stored in the registry.
 
@@ -384,6 +386,10 @@ To obtain information about the application that is launched as a result of call
 ## -see-also
 
 <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>
+
+
+
+<a href="/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcessA</a>
 
 
 

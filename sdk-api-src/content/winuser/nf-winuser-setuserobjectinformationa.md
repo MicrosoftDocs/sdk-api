@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.SetUserObjectInformationA
 title: SetUserObjectInformationA function (winuser.h)
-description: Sets information about the specified window station or desktop object.
-helpviewer_keywords: ["SetUserObjectInformation","SetUserObjectInformation function [Windows Stations and Desktops]","SetUserObjectInformationA","SetUserObjectInformationW","UOI_FLAGS","UOI_TIMERPROC_EXCEPTION_SUPPRESSION","_win32_setuserobjectinformation","base.setuserobjectinformation","winstation.setuserobjectinformation","winuser/SetUserObjectInformation","winuser/SetUserObjectInformationA","winuser/SetUserObjectInformationW"]
+description: Sets information about the specified window station or desktop object. (ANSI)
+helpviewer_keywords: ["SetUserObjectInformationA", "UOI_FLAGS", "UOI_TIMERPROC_EXCEPTION_SUPPRESSION", "winuser/SetUserObjectInformationA"]
 old-location: winstation\setuserobjectinformation.htm
 tech.root: winstation
 ms.assetid: 42ce6946-1659-41a3-8ba7-21588583b4bd

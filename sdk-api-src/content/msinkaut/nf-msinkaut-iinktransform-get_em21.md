@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkTransform.get_eM21
 title: IInkTransform::get_eM21 (msinkaut.h)
-description: Gets or sets the element in the second row, first column of the affine transform matrix that is represented by an InkTransform object.
+description: Gets or sets the element in the second row, first column of the affine transform matrix that is represented by an InkTransform object. (Get)
 helpviewer_keywords: ["66fd4f89-7e50-4594-9010-54baed20f2e6","IInkTransform interface [Tablet PC]","eM21 property","IInkTransform.eM21","IInkTransform.get_eM21","IInkTransform::eM21","IInkTransform::get_eM21","IInkTransform::put_eM21","InkTransform.get_eM21","InkTransform.put_eM21","eM21 property [Tablet PC]","eM21 property [Tablet PC]","IInkTransform interface","get_eM21","msinkaut/IInkTransform::eM21","msinkaut/IInkTransform::get_eM21","msinkaut/IInkTransform::put_eM21","put_eM21","tablet.inktransform_em21"]
 old-location: tablet\inktransform_em21.htm
 tech.root: tablet

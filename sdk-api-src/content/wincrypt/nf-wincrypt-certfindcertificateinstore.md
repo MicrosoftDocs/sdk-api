@@ -232,7 +232,7 @@ Search for a certificate with an exact match of the entire issuer name with the 
 <td width="60%">
 Data type of <i>pvFindPara</i>: <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
-Searches for a certificate with an subject that matches the issuer in <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>.
+Searches for a certificate with a subject that matches the issuer in <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>.
 
 Instead of using <b>CertFindCertificateInStore</b> with this value, use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> function.
 

@@ -56,19 +56,19 @@ Defines the context in which the report is initiated.
 
 ## -enum-fields
 
-### -field FsrmReportGenerationContext_Undefined
+### -field FsrmReportGenerationContext_Undefined:1
 
 The context is unknown. Do not use this flag.
 
-### -field FsrmReportGenerationContext_ScheduledReport
+### -field FsrmReportGenerationContext_ScheduledReport:2
 
 The report will run as a scheduled report.
 
-### -field FsrmReportGenerationContext_InteractiveReport
+### -field FsrmReportGenerationContext_InteractiveReport:3
 
 The report will run on demand.
 
-### -field FsrmReportGenerationContext_IncidentReport
+### -field FsrmReportGenerationContext_IncidentReport:4
 
 The report will run in response to a quota or file screen event.
 

@@ -54,10 +54,7 @@ Exposes a method that encapsulates a change to a single property.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyChange</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-iobjectwithpropertykey">IObjectWithPropertyKey</a>. <b>IPropertyChange</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPropertyChange</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-iobjectwithpropertykey">IObjectWithPropertyKey</a>. <b>IPropertyChange</b> also has these types of members:
 
 ## -see-also
 

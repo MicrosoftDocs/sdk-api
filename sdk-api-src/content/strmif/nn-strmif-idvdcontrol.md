@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IDvdControl
 title: IDvdControl (strmif.h)
-description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated. (IDvdControl)
 helpviewer_keywords: ["IDvdControl","IDvdControl interface [DirectShow]","IDvdControl interface [DirectShow]","described","IDvdControlInterface","dshow.idvdcontrol","strmif/IDvdControl"]
 old-location: dshow\idvdcontrol.htm
 tech.root: dshow
@@ -56,10 +56,7 @@ The <code>IDvdControl</code> interface controls the playback and search mechanis
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvdControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvdControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDvdControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvdControl</b> also has these types of members:
 
 ## -see-also
 

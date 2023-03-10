@@ -1,7 +1,7 @@
 ---
 UID: NF:winsync.IEnumSyncChanges.Clone
 title: IEnumSyncChanges::Clone (winsync.h)
-description: This method is not implemented.
+description: This method is not implemented. (IEnumSyncChanges.Clone)
 helpviewer_keywords: ["Clone","Clone method [Windows Sync]","Clone method [Windows Sync]","IEnumSyncChanges interface","IEnumSyncChanges interface [Windows Sync]","Clone method","IEnumSyncChanges.Clone","IEnumSyncChanges::Clone","winsync.ienumsyncchanges_clone","winsync/IEnumSyncChanges::Clone"]
 old-location: winsync\ienumsyncchanges_clone.htm
 tech.root: winsync

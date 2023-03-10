@@ -58,7 +58,7 @@ Specifies the type of a sub-object in a pipeline state stream description.
 
 
 
-### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_ROOT_SIGNATURE
+### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_ROOT_SIGNATURE:0
 
 Indicates a root signature subobject type.
 The corresponding subobject type is **[ID3D12RootSignature](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature)**.
@@ -150,7 +150,7 @@ The corresponding subobject type is **[D3D12_PRIMITIVE_TOPOLOGY_TYPE](/windows/w
 
 ### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_RENDER_TARGET_FORMATS
 
-Indicates a render target formats subobject type. The corresponding subobject type is **[D3D12_RT_FORMAT_ARRAY](/windows/win32/api/d3d12/ne-d3d12-d3d12_rt_format_array)** structure, which wraps an array of render target formats along with a count of the array elements.
+Indicates a render target formats subobject type. The corresponding subobject type is **[D3D12_RT_FORMAT_ARRAY](/windows/win32/api/d3d12/ns-d3d12-d3d12_rt_format_array)** structure, which wraps an array of render target formats along with a count of the array elements.
 
 
 ### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_DEPTH_STENCIL_FORMAT
@@ -193,13 +193,13 @@ Indicates a view instancing subobject type.
 The corresponding subobject type is **[D3D12_VIEW_INSTANCING_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_view_instancing_desc)**.
 
 
-### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_AS
+### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_AS:24
 
 Indicates an amplification shader subobject type.
 The corresponding subobject type is **[D3D12_SHADER_BYTECODE](/windows/win32/api/d3d12/ns-d3d12-d3d12_shader_bytecode)**.
 
 
-### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_MS
+### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_MS:25
 
 Indicates a mesh shader subobject type.
 The corresponding subobject type is **[D3D12_SHADER_BYTECODE](/windows/win32/api/d3d12/ns-d3d12-d3d12_shader_bytecode)**.
@@ -221,10 +221,10 @@ This enum is used in the creation of pipeline state objects using the ID3D12Devi
 
 ## -see-also
 
-See <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc"><b>D3D12_PIPELINE_STATE_STREAM_DESC</b></a> for a description of the layout and behaviour of a streaming pipeline desc.
+See <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc"><b>D3D12_PIPELINE_STATE_STREAM_DESC</b></a> for a description of the layout and behavior of a streaming pipeline desc.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
+<a href="/windows/win32/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

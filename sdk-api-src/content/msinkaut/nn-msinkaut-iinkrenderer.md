@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkRenderer
 title: IInkRenderer (msinkaut.h)
-description: .
+description: . (IInkRenderer)
 helpviewer_keywords: ["IInkRenderer","IInkRenderer interface [Tablet PC]","IInkRenderer interface [Tablet PC]","described","msinkaut/IInkRenderer","tablet.iinkrenderer"]
 old-location: tablet\iinkrenderer.htm
 tech.root: tablet
@@ -54,10 +54,7 @@ Represents the management of mappings from ink to the display window. Use the In
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRenderer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRenderer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IInkRenderer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRenderer</b> also has these types of members:
 
 ## -remarks
 

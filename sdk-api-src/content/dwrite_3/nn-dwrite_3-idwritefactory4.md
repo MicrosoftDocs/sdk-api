@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteFactory4
 title: IDWriteFactory4 (dwrite_3.h)
-description: The root factory interface for all DirectWrite objects.
+description: The root factory interface for all DirectWrite objects. (IDWriteFactory4)
 helpviewer_keywords: ["IDWriteFactory4","IDWriteFactory4 interface [Direct Write]","IDWriteFactory4 interface [Direct Write]","described","directwrite.idwritefactory4","dwrite_3/IDWriteFactory4"]
 old-location: directwrite\idwritefactory4.htm
 tech.root: DirectWrite
@@ -55,8 +55,5 @@ The root factory interface for all DirectWrite objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory4</b> interface inherits from <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory3">IDWriteFactory3</a>. <b>IDWriteFactory4</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteFactory4</b> interface inherits from <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory3">IDWriteFactory3</a>. <b>IDWriteFactory4</b> also has these types of members:
 

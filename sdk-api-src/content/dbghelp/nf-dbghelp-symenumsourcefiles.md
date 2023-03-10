@@ -1,12 +1,12 @@
 ---
 UID: NF:dbghelp.SymEnumSourceFiles
 title: SymEnumSourceFiles function (dbghelp.h)
-description: Enumerates all source files in a process.
+description: The SymEnumSourceFiles function (dbghelp.h) enumerates all source files in a process.
 helpviewer_keywords: ["SymEnumSourceFiles","SymEnumSourceFiles function","SymEnumSourceFilesW","base.symenumsourcefiles","dbghelp/SymEnumSourceFiles","dbghelp/SymEnumSourceFilesW"]
 old-location: base\symenumsourcefiles.htm
 tech.root: Debug
 ms.assetid: 4649bdc6-74c5-4529-bedc-64e0277144d0
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymEnumSourceFiles, SymEnumSourceFiles function, SymEnumSourceFilesW, base.symenumsourcefiles, dbghelp/SymEnumSourceFiles, dbghelp/SymEnumSourceFilesW
 req.header: dbghelp.h
 req.include-header: 

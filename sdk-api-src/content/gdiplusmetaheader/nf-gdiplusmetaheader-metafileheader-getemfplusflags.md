@@ -53,7 +53,7 @@ api_name:
 
 The <b>MetafileHeader::GetEmfPlusFlags</b> method gets a flag that indicates whether the associated metafile was recorded against a video display device context.
 
-## -parameters
+
 
 ## -returns
 

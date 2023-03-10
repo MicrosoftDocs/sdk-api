@@ -61,7 +61,7 @@ This method must be called if a backup operation terminates after the creation o
 If 
 <b>AbortBackup</b> is called and no shadow copy or backup operations are underway, it is ignored.
 
-## -parameters
+
 
 ## -returns
 

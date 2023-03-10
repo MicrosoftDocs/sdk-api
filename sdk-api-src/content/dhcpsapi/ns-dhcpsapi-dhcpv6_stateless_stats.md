@@ -1,5 +1,5 @@
 ---
-UID: NS:dhcpsapi.__unnamed_struct_2
+UID: NS:dhcpsapi.DHCPV6_STATELESS_STATS
 title: DHCPV6_STATELESS_STATS (dhcpsapi.h)
 description: The DHCPV6_STATELESS_STATS structure defines an array of stateless IPv6 subnet statistics.
 helpviewer_keywords: ["*LPDHCPV6_STATELESS_STATS","*PDHCPV6_STATELESS_STATS","DHCPV6_STATELESS_STATS","DHCPV6_STATELESS_STATS structure [DHCP]","LPDHCPV6_STATELESS_STATS","LPDHCPV6_STATELESS_STATS structure pointer [DHCP]","PDHCPV6_STATELESS_STATS","PDHCPV6_STATELESS_STATS structure pointer [DHCP]","dhcp.dhcpv6_stateless_stats","dhcpsapi/DHCPV6_STATELESS_STATS","dhcpsapi/LPDHCPV6_STATELESS_STATS","dhcpsapi/PDHCPV6_STATELESS_STATS"]
@@ -75,3 +75,4 @@ Pointer to a list of <a href="/previous-versions/windows/desktop/api/dhcpsapi/ns
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv6getstatelessstatistics">DhcpV6GetStatelessStatistics</a>
+

@@ -3,7 +3,7 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordLocaleTags
 title: DdqGetDiagnosticRecordLocaleTags
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordLocaleTags
-description: Fetches information for all known tags under the specified locale and provides a handle, HDIAGNOSTIC_EVENT_TAG_DESCRIPTION, to the data. An example locale would be “en-US”. An example return value is a DIAGNOSTIC_EVENT_TAG_DESCRIPTION resource that contains the following data: tag: 11, name: “Device Connectivity and Configuration” and description: “Data that describes the connections and configuration of the devices connected to the service and the network, including device identifiers (e.g IP addresses) configuration, setting and performance”.
+description: "Fetches information for all known tags under the specified locale and provides a handle, HDIAGNOSTIC_EVENT_TAG_DESCRIPTION, to the data. An example locale would be “en-US”. An example return value is a DIAGNOSTIC_EVENT_TAG_DESCRIPTION resource that contains the following data: tag: 11, name: “Device Connectivity and Configuration” and description: “Data that describes the connections and configuration of the devices connected to the service and the network, including device identifiers (e.g IP addresses) configuration, setting and performance”."
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
@@ -67,7 +67,7 @@ Returns S_OK on successful completion.
 
 ## -remarks
 
-For more details about the tag description data type, see our [**DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION**]("/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_tag_description").
+For more details about the tag description data type, see our [**DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION**](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_tag_description).
 
 ## -see-also
 

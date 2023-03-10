@@ -3,7 +3,7 @@ UID: NN:d3d12video.ID3D12VideoDecodeCommandList2
 title: ID3D12VideoDecodeCommandList2
 ms.date: 1/23/2020
 targetos: Windows
-description: Adds support for video extension commands.
+description: Adds support for video extension commands. (ID3D12VideoDecodeCommandList2)
 tech.root: mf
 req.assembly: 
 req.construct-type: iface
@@ -14,8 +14,8 @@ req.include-header:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.unicode-ansi: 
 topic_type:

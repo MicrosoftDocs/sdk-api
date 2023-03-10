@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetPropW
 title: GetPropW function (winuser.h)
-description: Retrieves a data handle from the property list of the specified window. The character string identifies the handle to be retrieved. The string and handle must have been added to the property list by a previous call to the SetProp function.
-helpviewer_keywords: ["GetProp","GetProp function [Windows and Messages]","GetPropA","GetPropW","_win32_GetProp","_win32_getprop_cpp","winmsg.getprop","winui._win32_getprop","winuser/GetProp","winuser/GetPropA","winuser/GetPropW"]
+description: Retrieves a data handle from the property list of the specified window. The character string identifies the handle to be retrieved. The string and handle must have been added to the property list by a previous call to the SetProp function. (Unicode)
+helpviewer_keywords: ["GetProp", "GetProp function [Windows and Messages]", "GetPropW", "_win32_GetProp", "_win32_getprop_cpp", "winmsg.getprop", "winui._win32_getprop", "winuser/GetProp", "winuser/GetPropW"]
 old-location: winmsg\getprop.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\getprop.htm

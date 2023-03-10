@@ -52,7 +52,7 @@ api_name:
 
 Suspends handling keystrokes.
 
-## -parameters
+
 
 ## -returns
 

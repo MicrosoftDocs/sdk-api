@@ -66,7 +66,9 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
 The <b>SIZEL</b> structure is defined in Wtypes.h as follows.
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct tagSIZEL
+
+``` syntax
+typedef struct tagSIZEL
     {
     LONG cx;
     LONG cy;
@@ -74,7 +76,9 @@ The <b>SIZEL</b> structure is defined in Wtypes.h as follows.
 
 typedef struct tagSIZEL *PSIZEL;
 
-typedef struct tagSIZEL *LPSIZEL;</code></pre>
+typedef struct tagSIZEL *LPSIZEL;
+```
+
 
 ## -see-also
 

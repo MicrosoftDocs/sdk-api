@@ -1,8 +1,8 @@
 ---
 UID: NF:newdev.DiUninstallDriverW
 title: DiUninstallDriverW function (newdev.h)
-description: The DiUninstallDriver function removes a driver package from any devices it is installed on by installing those devices with another matching driver package, if available, or the null driver if no other matching driver package is available. Then the specified driver package is removed from the driver store.
-helpviewer_keywords: ["DiUninstallDriver","DiUninstallDriver function [Device and Driver Installation]","DiUninstallDriverA","DiUninstallDriverW","devinst.diuninstalldriver","di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml","newdev/DiUninstallDriver"]
+description: The DiUninstallDriver function removes a driver package from any devices it is installed on by installing those devices with another matching driver package, if available, or the null driver if no other matching driver package is available. Then the specified driver package is removed from the driver store. (Unicode)
+helpviewer_keywords: ["DiUninstallDriver", "DiUninstallDriver function [Device and Driver Installation]", "DiUninstallDriverW", "devinst.diuninstalldriver", "di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml", "newdev/DiUninstallDriver"]
 old-location: devinst\diuninstalldriver.htm
 tech.root: devinst
 ms.assetid: 7015d05f-235e-42d1-b4e1-9919bbebf185
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DiUninstallDriver</b> function removes a driver package from any devices it is installed on by installing those devices with another matching driver package, if available, or the null driver if no other matching driver package is available. Then the specified driver package is removed from the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-store">driver store.</a> 
+The <b>DiUninstallDriver</b> function removes a driver package from any devices it is installed on by installing those devices with another matching driver package, if available, or the null driver if no other matching driver package is available. Then the specified driver package is removed from the <a href="/windows-hardware/drivers/install/driver-store">driver store.</a> 
 
 ## -parameters
 
@@ -72,7 +72,7 @@ If this flag is zero, <b>DiUninstallDriver</b> removes the driver package from a
 
 <div class="alert"><b>Caution:</b>  Forcing the uninstallation of the driver package can result in replacing a more compatible or newer driver package with a less compatible or older driver. </div>
 <div> </div>
-For information about how Windows selects a driver package for a device, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
+For information about how Windows selects a driver package for a device, see <a href="/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
 
 ### -param NeedReboot [out, optional]
 

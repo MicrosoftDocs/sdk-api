@@ -64,7 +64,7 @@ Determines whether the current window procedure is processing a message that was
 
 To obtain additional information about how the message was sent, use the <a href="/windows/desktop/api/winuser/nf-winuser-insendmessageex">InSendMessageEx</a> function.
 
-## -parameters
+
 
 ## -returns
 

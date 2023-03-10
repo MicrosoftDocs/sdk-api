@@ -60,8 +60,8 @@ The <b>Region::Complement</b> method updates this region to the portion of anoth
 Type: <b>const <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>*</b>
 
 Pointer to a 
-					<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object to use to update this 
-					<b>Region</b>object.
+					<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a> object to use to update this 
+					<b>Region</b> object.
 
 ## -returns
 

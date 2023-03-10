@@ -52,7 +52,7 @@ api_name:
 
  Gets a value that indicates what simulations are applied to the specified font.
 
-## -parameters
+
 
 ## -returns
 

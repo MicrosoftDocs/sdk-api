@@ -1,7 +1,7 @@
 ---
 UID: NC:winsvc.LPSERVICE_MAIN_FUNCTIONW
 title: LPSERVICE_MAIN_FUNCTIONW (winsvc.h)
-description: The entry point for a service.
+description: The entry point for a service. (Unicode)
 helpviewer_keywords: ["LPSERVICE_MAIN_FUNCTION","LPSERVICE_MAIN_FUNCTION callback","LPSERVICE_MAIN_FUNCTION callback function","LPSERVICE_MAIN_FUNCTIONA","LPSERVICE_MAIN_FUNCTIONW","ServiceMain","_win32_servicemain","base.servicemain","winsvc/LPSERVICE_MAIN_FUNCTION","winsvc/LPSERVICE_MAIN_FUNCTIONA","winsvc/LPSERVICE_MAIN_FUNCTIONW"]
 old-location: base\servicemain.htm
 tech.root: security

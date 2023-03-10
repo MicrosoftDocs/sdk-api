@@ -56,7 +56,7 @@ The <b>put_Presenter</b> method sets the presenter object for the <a href="/wind
 
 ### -param pAllocPresent [in]
 
-Pointer to a presenter's <a href="/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a> interface. This interface is documented in this Media Foundation SDK documentaion.
+Pointer to a presenter's <a href="/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a> interface. This interface is documented in this Media Foundation SDK documentation.
 
 ## -returns
 

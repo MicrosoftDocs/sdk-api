@@ -47,22 +47,26 @@ api_name:
 
 # IXpsDocumentPackageTarget interface
 
-
 ## -description
 
 The <b>IXpsDocumentPackageTarget</b> interface contains the elements needed for printing XPS content in the Document Printing model.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsDocumentPackageTarget</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsDocumentPackageTarget</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IXpsDocumentPackageTarget</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsDocumentPackageTarget</b> also has these types of members:
 
-## -see-also
+## -members
 
 <a href="/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetargetfactory">IPrintDocumentPackageTargetFactory</a>
 
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsdocumentpackagetarget-getxpstype">GetXpsType</a>
+</td>
+<td align="left" width="63%">
+Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a> enumerated value for the document package.
 
 
 <a href="/uwp/api/windows.graphics.printing.printmanager">Windows.Graphics.Printing.PrintManager</a>

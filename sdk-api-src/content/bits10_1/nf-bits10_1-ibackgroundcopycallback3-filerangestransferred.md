@@ -90,7 +90,7 @@ BITS generates a high volume of events; consider creating a timer and polling fo
 
 #### Examples
 
-For an example of how to use this function, see the example code for the <a href="/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopycallback3">IBackgroundCopyCallback3</a>interface.
+For an example of how to use this function, see the example code for the <a href="/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopycallback3">IBackgroundCopyCallback3</a> interface.
 
 <div class="code"></div>
 

@@ -119,7 +119,9 @@ A quota was exceeded.
 
 An example that reads an element containing an integer value.
 
-<pre class="syntax" xml:space="preserve"><code>// Advance the reader to the element
+
+``` syntax
+// Advance the reader to the element
 HRESULT hr = WsReadToStartElement(reader, localName, ns, NULL, error);
 if (FAILED(hr))
 {
@@ -143,10 +145,14 @@ hr = WsReadEndElement(reader, error);
 if (FAILED(hr))
 {
     return hr;
-}</code></pre>
+}
+```
+
 The grammar for the values types.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 WS_BOOL_VALUE_TYPE     = "true"
                        | "false"
                        | "1"
@@ -184,4 +190,6 @@ MM                     = 1-31
 tz                     = "Z"
                        | sign hh ":" mm
 d7                     = digit digit? digit? digit? digit? digit? digit?
-</code></pre>
+
+```
+

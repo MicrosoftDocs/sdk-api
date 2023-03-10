@@ -52,7 +52,7 @@ api_name:
 
 Requests that a task begin.
 
-## -parameters
+
 
 ## -returns
 

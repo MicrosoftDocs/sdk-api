@@ -52,7 +52,7 @@ api_name:
 
 Deletes the job from the transfer queue and removes related temporary files from the client (downloads) and server (uploads).
 
-## -parameters
+
 
 ## -returns
 

@@ -55,4 +55,4 @@ The
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstream-unselectterminal">UnselectTerminal</a>). It also calls 
 <a href="/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-mspcallrelease">MSPCallRelease</a> on the call object. This is needed to break the circular refcount.
 
-## -parameters
+

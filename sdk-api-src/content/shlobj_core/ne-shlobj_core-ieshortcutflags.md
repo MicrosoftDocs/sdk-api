@@ -56,19 +56,19 @@ Specifies how a shortcut should be handled by the browser.
 
 ## -enum-fields
 
-### -field IESHORTCUT_NEWBROWSER
+### -field IESHORTCUT_NEWBROWSER:0x01
 
 A new browser window should be opened for each shortcut.
 
-### -field IESHORTCUT_OPENNEWTAB
+### -field IESHORTCUT_OPENNEWTAB:0x02
 
 The current or topmost browser window should open the link in a new foreground tab.
 
-### -field IESHORTCUT_FORCENAVIGATE
+### -field IESHORTCUT_FORCENAVIGATE:0x04
 
 The current or topmost browser window should open the link.
 
-### -field IESHORTCUT_BACKGROUNDTAB
+### -field IESHORTCUT_BACKGROUNDTAB:0x08
 
 The current or topmost browser window should open the link in a new  background tab.
 

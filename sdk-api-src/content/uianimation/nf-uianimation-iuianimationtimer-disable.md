@@ -52,7 +52,7 @@ api_name:
 
 Disables the animation timer.
 
-## -parameters
+
 
 ## -returns
 

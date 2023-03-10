@@ -2,10 +2,10 @@
 UID: NF:icm.ColorProfileRemoveDisplayAssociation
 tech.root: wcs
 title: ColorProfileRemoveDisplayAssociation
-ms.date: 02/01/2021
+ms.date: 08/03/2022
 
 targetos: Windows
-description: 
+description: ColorProfileRemoveDisplayAssociation disassociates an installed color profile from a specified display in the given scope.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -71,8 +71,8 @@ Specifies to which association list the new profile is added.
 
 ## -remarks
 
-See [connecting and configuring displays](https://docs.microsoft.com/windows-hardware/drivers/display/connecting-and-configuring-displays) for information on display adapter IDs and source IDs.
+See [connecting and configuring displays](/windows-hardware/drivers/display/connecting-and-configuring-displays) for information on display adapter IDs and source IDs.
 
 ## -see-also
 
-[Connecting and configuring displays](https://docs.microsoft.com/windows-hardware/drivers/display/connecting-and-configuring-displays)
+[Connecting and configuring displays](/windows-hardware/drivers/display/connecting-and-configuring-displays)

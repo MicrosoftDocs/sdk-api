@@ -59,7 +59,7 @@ api_name:
 
 The <b>RemoveAll</b> method removes all the <a href="/windows/desktop/WmiSdk/chstring">CHString</a> members from this array.
 
-## -parameters
+
 
 ## -remarks
 

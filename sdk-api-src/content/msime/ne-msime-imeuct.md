@@ -1,5 +1,5 @@
 ---
-UID: NE:msime.__unnamed_enum_2
+UID: NE:msime.IMEUCT
 title: IMEUCT (msime.h)
 description: Type of user comment in a IMEWRD structure.
 helpviewer_keywords: ["IFED_UCT_NONE","IFED_UCT_STRING_SJIS","IFED_UCT_STRING_UNICODE","IFED_UCT_USER_DEFINED","IMEUCT","IMEUCT enumeration [Internationalization for Windows Applications]","intl.imeuct","msime/IFED_UCT_NONE","msime/IFED_UCT_STRING_SJIS","msime/IFED_UCT_STRING_UNICODE","msime/IFED_UCT_USER_DEFINED","msime/IMEUCT"]
@@ -75,3 +75,4 @@ The comment is in a user-defined format.
 ## -see-also
 
 <a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>
+

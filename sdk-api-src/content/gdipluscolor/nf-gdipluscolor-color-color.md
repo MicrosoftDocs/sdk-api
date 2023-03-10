@@ -53,7 +53,7 @@ api_name:
 
 Creates a <b>Color::Color</b> object and initializes it to opaque black. This is the default constructor.
 
-## -parameters
+
 
 ## -see-also
 

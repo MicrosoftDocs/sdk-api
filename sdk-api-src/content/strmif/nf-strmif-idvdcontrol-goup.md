@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 Halts playback of the current media file and starts playback of the designated previous program chain (PGC).
 
-## -parameters
+
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedBundleWriter3.AddPayloadPackageEncrypted
 title: IAppxEncryptedBundleWriter3::AddPayloadPackageEncrypted (appxpackaging.h)
-description: Encrypts a new payload package to the bundle.
+description: Encrypts a new payload package to the bundle. (IAppxEncryptedBundleWriter3.AddPayloadPackageEncrypted)
 helpviewer_keywords: ["AddPayloadPackageEncrypted","AddPayloadPackageEncrypted method [App packaging and management]","AddPayloadPackageEncrypted method [App packaging and management]","IAppxEncryptedBundleWriter3 interface","IAppxEncryptedBundleWriter3 interface [App packaging and management]","AddPayloadPackageEncrypted method","IAppxEncryptedBundleWriter3.AddPayloadPackageEncrypted","IAppxEncryptedBundleWriter3::AddPayloadPackageEncrypted","appxpackaging/IAppxEncryptedBundleWriter3::AddPayloadPackageEncrypted","appxpkg.iappxencryptedbundlewriter3_addpayloadpackageencrypted"]
 old-location: appxpkg\iappxencryptedbundlewriter3_addpayloadpackageencrypted.htm
 tech.root: appxpkg
@@ -68,7 +68,7 @@ A flag for whether this package is a default applicable package.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

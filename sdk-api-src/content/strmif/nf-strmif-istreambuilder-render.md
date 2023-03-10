@@ -71,7 +71,7 @@ Returns an <b>HRESULT</b> value. A return code of S_OK indicates that the stream
 
 The following code illustrates how to implement this method on an output pin. This example assumes that the filter requires a custom renderer downstream from it.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

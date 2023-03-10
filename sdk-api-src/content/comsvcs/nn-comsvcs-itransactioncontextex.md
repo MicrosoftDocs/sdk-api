@@ -57,10 +57,7 @@ Provides basic methods for a generic transactional object that begins a transact
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionContextEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransactionContextEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITransactionContextEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransactionContextEx</b> also has these types of members:
 
 ## -remarks
 
@@ -68,13 +65,17 @@ Using the transaction context object to control a transaction limits the reuse o
 
 You obtain a reference to the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontext">ITransactionContext</a> interface by creating a transaction context object with the appropriate call, as in the following example.
 
-<pre class="syntax" xml:space="preserve"><code>hr = CoCreateInstance(
+
+``` syntax
+hr = CoCreateInstance(
        CLSID_TransactionContextEx, 
        NULL, 
        CLSCTX_INPROC,
        IID_ITransactionContextEx, 
        (void**)&amp;m_pTransactionContext);
-</code></pre>
+
+```
+
 
 ## -see-also
 

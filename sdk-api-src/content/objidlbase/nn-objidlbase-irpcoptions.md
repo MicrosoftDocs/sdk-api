@@ -1,12 +1,12 @@
 ---
 UID: NN:objidlbase.IRpcOptions
 title: IRpcOptions (objidlbase.h)
-description: Enables callers to set or query the values of various properties that control how COM handles remote procedure calls (RPC).
+description: The IRpcOptions (objidlbase.h) interface enables callers to set or query the values of various properties that control how COM handles remote procedure calls (RPC).
 helpviewer_keywords: ["IRpcOptions","IRpcOptions interface [COM]","IRpcOptions interface [COM]","described","_com_irpcoptions","com.irpcoptions","objidlbase/IRpcOptions"]
 old-location: com\irpcoptions.htm
 tech.root: com
 ms.assetid: aa5db8ac-4c29-43cf-a7ed-a870df9dfb82
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IRpcOptions, IRpcOptions interface [COM], IRpcOptions interface [COM],described, _com_irpcoptions, com.irpcoptions, objidlbase/IRpcOptions
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
@@ -54,10 +54,7 @@ Enables callers to set or query the values of various properties that control ho
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcOptions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcOptions</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IRpcOptions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcOptions</b> also has these types of members:
 
 ## -remarks
 

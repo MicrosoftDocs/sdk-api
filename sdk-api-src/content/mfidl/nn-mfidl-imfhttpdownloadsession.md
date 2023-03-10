@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFHttpDownloadSession
 title: IMFHttpDownloadSession (mfidl.h)
-description: Applications implement this interface to override the default implementation of the HTTP and HTTPS protocols used by Microsoft Media Foundation.
+description: Applications implement this interface to override the default implementation of the HTTP and HTTPS protocols used by Microsoft Media Foundation. (IMFHttpDownloadSession)
 helpviewer_keywords: ["IMFHttpDownloadSession","IMFHttpDownloadSession interface [Media Foundation]","IMFHttpDownloadSession interface [Media Foundation]","described","mf.imfhttpdownloadsession","mfidl/IMFHttpDownloadSession"]
 old-location: mf\imfhttpdownloadsession.htm
 tech.root: mf
@@ -57,8 +57,5 @@ Applications implement this interface to override the default implementation of 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFHttpDownloadSession</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFHttpDownloadSession</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFHttpDownloadSession</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFHttpDownloadSession</b> also has these types of members:
 

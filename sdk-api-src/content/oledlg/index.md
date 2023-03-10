@@ -4,7 +4,7 @@ title: Oledlg.h header
 ms.assetid: 81c9c2f7-b96d-35c7-8dff-6f9d55ca81e4
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: com
 f1_keywords:
  - oledlg

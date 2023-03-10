@@ -53,7 +53,7 @@ api_name:
 
 Invalidate the pointer to the resource retrieved by <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10buffer-map">ID3D10Buffer::Map</a> and reenable GPU access to the resource.
 
-## -parameters
+
 
 ## -remarks
 

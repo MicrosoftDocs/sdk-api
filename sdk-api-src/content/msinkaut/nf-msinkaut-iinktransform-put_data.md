@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkTransform.put_Data
 title: IInkTransform::put_Data (msinkaut.h)
-description: Gets or sets access to the XFORM structure.
+description: Gets or sets access to the XFORM structure. (Put)
 helpviewer_keywords: ["Data property [Tablet PC]","Data property [Tablet PC]","IInkTransform interface","IInkTransform interface [Tablet PC]","Data property","IInkTransform.Data","IInkTransform.put_Data","IInkTransform::Data","IInkTransform::get_Data","IInkTransform::put_Data","InkTransform.get_Data","InkTransform.put_Data","f22c0ef8-8604-4719-bc93-a265a19defd0","get_Data","msinkaut/IInkTransform::Data","msinkaut/IInkTransform::get_Data","msinkaut/IInkTransform::put_Data","put_Data","tablet.inktransform_data"]
 old-location: tablet\inktransform_data.htm
 tech.root: tablet

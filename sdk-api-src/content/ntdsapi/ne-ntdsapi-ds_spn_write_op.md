@@ -1,5 +1,5 @@
 ---
-UID: NE:ntdsapi.__unnamed_enum_4
+UID: NE:ntdsapi.DS_SPN_WRITE_OP
 title: DS_SPN_WRITE_OP (ntdsapi.h)
 description: The DS_SPN_WRITE_OP enumeration identifies the type of write operation that should be performed by the DsWriteAccountSpn function.
 helpviewer_keywords: ["DS_SPN_ADD_SPN_OP","DS_SPN_DELETE_SPN_OP","DS_SPN_REPLACE_SPN_OP","DS_SPN_WRITE_OP","DS_SPN_WRITE_OP enumeration [Active Directory]","_glines_ds_spn_write_op","ad.ds__spn__write__op","ad.ds_spn_write_op","ntdsapi/DS_SPN_ADD_SPN_OP","ntdsapi/DS_SPN_DELETE_SPN_OP","ntdsapi/DS_SPN_REPLACE_SPN_OP","ntdsapi/DS_SPN_WRITE_OP"]
@@ -54,15 +54,15 @@ The <b>DS_SPN_WRITE_OP</b> enumeration identifies the type of write operation th
 
 ## -enum-fields
 
-### -field DS_SPN_ADD_SPN_OP
+### -field DS_SPN_ADD_SPN_OP:0
 
 Adds the specified service principal names (SPNs) to the object identified by the <i>pszAccount</i> parameter in <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a>.
 
-### -field DS_SPN_REPLACE_SPN_OP
+### -field DS_SPN_REPLACE_SPN_OP:1
 
 Removes all SPNs currently registered on the account identified by the <i>pszAccount</i> parameter in <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a> and replaces them with the SPNs specified  by the <i>rpszSpn</i> parameter in <b>DsWriteAccountSpn</b>.
 
-### -field DS_SPN_DELETE_SPN_OP
+### -field DS_SPN_DELETE_SPN_OP:2        
 
 Deletes the specified SPNs from the object identified by the <i>pszAccount</i> parameter in <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a>.
 
@@ -73,3 +73,4 @@ Deletes the specified SPNs from the object identified by the <i>pszAccount</i> p
 
 
 <a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
+

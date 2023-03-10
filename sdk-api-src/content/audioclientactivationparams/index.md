@@ -3,7 +3,7 @@ UID: NA:audioclientactivationparams
 title: Audioclientactivationparams.h header
 ms.date: 01/21/2021
 ms.keywords: 
-ms.topic: language-reference
+ms.topic: overview
 tech.root: coreaudio
 f1_keywords:
  - audioclientactivationparams
@@ -18,6 +18,4 @@ f1_keywords:
 This header is used by Core Audio APIs. For more information, see:
 
 - [Core Audio APIs](../_coreaudio/index.md)
-
-
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:vsmgmt.IVssEnumMgmtObject
 title: IVssEnumMgmtObject (vsmgmt.h)
-description: Contains methods to iterate over and perform other operations on a list of enumerated objects.
+description: Contains methods to iterate over and perform other operations on a list of enumerated objects. (IVssEnumMgmtObject)
 helpviewer_keywords: ["IVssEnumMgmtObject","IVssEnumMgmtObject interface [Files]","IVssEnumMgmtObject interface [Files]","described","base.ivssenummgmtobject","vsmgmt/IVssEnumMgmtObject"]
 old-location: base\ivssenummgmtobject.htm
 tech.root: base
@@ -68,10 +68,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssEnumMgmtObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssEnumMgmtObject</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVssEnumMgmtObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssEnumMgmtObject</b> also has these types of members:
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxActivityLogging.get_DatabasePath
 title: IFaxActivityLogging::get_DatabasePath (faxcomex.h)
-description: The IFaxActivityLogging::get_DatabasePath property is a null-terminated string that contains the path to the activity log database file.
+description: The IFaxActivityLogging::get_DatabasePath property is a null-terminated string that contains the path to the activity log database file. (Get)
 helpviewer_keywords: ["DatabasePath property [Fax Service]","DatabasePath property [Fax Service]","IFaxActivityLogging interface","IFaxActivityLogging interface [Fax Service]","DatabasePath property","IFaxActivityLogging.DatabasePath","IFaxActivityLogging.get_DatabasePath","IFaxActivityLogging.put_DatabasePath","IFaxActivityLogging::DatabasePath","IFaxActivityLogging::get_DatabasePath","IFaxActivityLogging::put_DatabasePath","_mfax_faxactivitylogging.databasepath","fax._mfax_faxactivitylogging_cpp_mfax_faxactivitylogging_databasepath_cpp","fax._mfax_faxactivitylogging_databasepath","faxcomex/IFaxActivityLogging::DatabasePath","faxcomex/IFaxActivityLogging::get_DatabasePath","faxcomex/IFaxActivityLogging::put_DatabasePath","get_DatabasePath"]
 old-location: fax\_mfax_faxactivitylogging_cpp_mfax_faxactivitylogging_databasepath_cpp.htm
 tech.root: Fax

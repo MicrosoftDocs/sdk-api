@@ -56,15 +56,15 @@ Specifies sort order. It is used as a parameter in the <a href="/windows/desktop
 
 ## -enum-fields
 
-### -field TS_SB_SORT_BY_NONE
+### -field TS_SB_SORT_BY_NONE:0
 
 Do not sort.
 
-### -field TS_SB_SORT_BY_NAME
+### -field TS_SB_SORT_BY_NAME:0x1
 
 Sort by target name.
 
-### -field TS_SB_SORT_BY_PROP
+### -field TS_SB_SORT_BY_PROP:0x2
 
 Sort by a specified property.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:wininet.InternetCreateUrlA
 title: InternetCreateUrlA function (wininet.h)
-description: Creates a URL from its component parts.
-helpviewer_keywords: ["InternetCreateUrl","InternetCreateUrl function [WinINet]","InternetCreateUrlA","InternetCreateUrlW","_inet_internetcreateurl_function","wininet.internetcreateurl","wininet/InternetCreateUrl","wininet/InternetCreateUrlA","wininet/InternetCreateUrlW"]
+description: Creates a URL from its component parts. (ANSI)
+helpviewer_keywords: ["InternetCreateUrlA", "wininet/InternetCreateUrlA"]
 old-location: wininet\internetcreateurl.htm
 tech.root: wininet
 ms.assetid: b01bb684-0b2f-4c17-ab32-9f83fdd89e69
@@ -103,7 +103,7 @@ Pointer to a buffer that receives the URL.
 ### -param lpdwUrlLength [in, out]
 
 Pointer to a variable that specifies the size of the 
-URL<i>lpszUrl</i> buffer, in <b>TCHARs</b>. When the function returns, this parameter receives the size of the URL string, excluding the NULL terminator. If 
+URL <i>lpszUrl</i> buffer, in <b>TCHARs</b>. When the function returns, this parameter receives the size of the URL string, excluding the NULL terminator. If 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER, this parameter receives the number of bytes required to hold the created URL.
 
 ## -returns

@@ -1,12 +1,12 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortal.GetIpsecSecurity
 title: IVdsIscsiPortal::GetIpsecSecurity (vdshwprv.h)
-description: Not supported.This method is reserved for future use.
+description: The IVdsIscsiPortal::GetIpsecSecurity (vdshwprv.h) method is not supported but is reserved for future use.
 helpviewer_keywords: ["GetIpsecSecurity","GetIpsecSecurity method","GetIpsecSecurity method","IVdsIscsiPortal interface","IVdsIscsiPortal interface","GetIpsecSecurity method","IVdsIscsiPortal.GetIpsecSecurity","IVdsIscsiPortal::GetIpsecSecurity","base.ivdsiscsiportal_getipsecsecurity","vds/IVdsIscsiPortal::GetIpsecSecurity","vdshwprv/IVdsIscsiPortal::GetIpsecSecurity"]
 old-location: base\ivdsiscsiportal_getipsecsecurity.htm
 tech.root: base
 ms.assetid: c815856f-94a2-4748-b9ac-54a2ef69c97e
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetIpsecSecurity, GetIpsecSecurity method, GetIpsecSecurity method,IVdsIscsiPortal interface, IVdsIscsiPortal interface,GetIpsecSecurity method, IVdsIscsiPortal.GetIpsecSecurity, IVdsIscsiPortal::GetIpsecSecurity, base.ivdsiscsiportal_getipsecsecurity, vds/IVdsIscsiPortal::GetIpsecSecurity, vdshwprv/IVdsIscsiPortal::GetIpsecSecurity
 req.header: vdshwprv.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Not supported.
 

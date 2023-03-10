@@ -1,12 +1,12 @@
 ---
 UID: NF:sspi.QueryContextAttributesExA
 title: QueryContextAttributesExA function (sspi.h)
-description: Enables a transport application to query a security package for certain attributes of a security context.
-helpviewer_keywords: ["QueryContextAttributesEx","QueryContextAttributesEx function [Security]","QueryContextAttributesExA","QueryContextAttributesExW","SECPKG_ATTR_ACCESS_TOKEN","SECPKG_ATTR_APP_DATA","SECPKG_ATTR_AUTHORITY","SECPKG_ATTR_CLIENT_SPECIFIED_TARGET","SECPKG_ATTR_CONNECTION_INFO","SECPKG_ATTR_CREDS_2","SECPKG_ATTR_DCE_INFO","SECPKG_ATTR_EAP_KEY_BLOCK","SECPKG_ATTR_ENDPOINT_BINDINGS","SECPKG_ATTR_FLAGS","SECPKG_ATTR_ISSUER_LIST_EX","SECPKG_ATTR_KEY_INFO","SECPKG_ATTR_LAST_CLIENT_TOKEN_STATUS","SECPKG_ATTR_LIFESPAN","SECPKG_ATTR_LOCAL_CERT_CONTEXT","SECPKG_ATTR_LOCAL_CRED","SECPKG_ATTR_NAMES","SECPKG_ATTR_NATIVE_NAMES","SECPKG_ATTR_NEGOTIATION_INFO","SECPKG_ATTR_PACKAGE_INFO","SECPKG_ATTR_PASSWORD_EXPIRY","SECPKG_ATTR_REMOTE_CERT_CONTEXT","SECPKG_ATTR_ROOT_STORE","SECPKG_ATTR_SESSION_INFO","SECPKG_ATTR_SESSION_KEY","SECPKG_ATTR_SIZES","SECPKG_ATTR_STREAM_SIZES","SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES","SECPKG_ATTR_SUPPORTED_SIGNATURES","SECPKG_ATTR_TARGET_INFORMATION","SECPKG_ATTR_UNIQUE_BINDINGS","security.querycontextattributesex","sspi/QueryContextAttributesEx","sspi/QueryContextAttributesExA","sspi/QueryContextAttributesExW"]
+description: The QueryContextAttributesExA (ANSI) function (sspi.h) enables a transport application to query a security package for certain attributes of a security context.
+helpviewer_keywords: ["QueryContextAttributesExA", "SECPKG_ATTR_ACCESS_TOKEN", "SECPKG_ATTR_APP_DATA", "SECPKG_ATTR_AUTHORITY", "SECPKG_ATTR_CLIENT_SPECIFIED_TARGET", "SECPKG_ATTR_CONNECTION_INFO", "SECPKG_ATTR_CREDS_2", "SECPKG_ATTR_DCE_INFO", "SECPKG_ATTR_EAP_KEY_BLOCK", "SECPKG_ATTR_ENDPOINT_BINDINGS", "SECPKG_ATTR_FLAGS", "SECPKG_ATTR_ISSUER_LIST_EX", "SECPKG_ATTR_KEY_INFO", "SECPKG_ATTR_LAST_CLIENT_TOKEN_STATUS", "SECPKG_ATTR_LIFESPAN", "SECPKG_ATTR_LOCAL_CERT_CONTEXT", "SECPKG_ATTR_LOCAL_CRED", "SECPKG_ATTR_NAMES", "SECPKG_ATTR_NATIVE_NAMES", "SECPKG_ATTR_NEGOTIATION_INFO", "SECPKG_ATTR_PACKAGE_INFO", "SECPKG_ATTR_PASSWORD_EXPIRY", "SECPKG_ATTR_REMOTE_CERT_CONTEXT", "SECPKG_ATTR_ROOT_STORE", "SECPKG_ATTR_SESSION_INFO", "SECPKG_ATTR_SESSION_KEY", "SECPKG_ATTR_SIZES", "SECPKG_ATTR_STREAM_SIZES", "SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES", "SECPKG_ATTR_SUPPORTED_SIGNATURES", "SECPKG_ATTR_TARGET_INFORMATION", "SECPKG_ATTR_UNIQUE_BINDINGS", "sspi/QueryContextAttributesExA"]
 old-location: security\querycontextattributesex.htm
 tech.root: security
 ms.assetid: FD91EE99-F94E-44CE-9331-933D0CAA5F75
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: QueryContextAttributesEx, QueryContextAttributesEx function [Security], QueryContextAttributesExA, QueryContextAttributesExW, SECPKG_ATTR_ACCESS_TOKEN, SECPKG_ATTR_APP_DATA, SECPKG_ATTR_AUTHORITY, SECPKG_ATTR_CLIENT_SPECIFIED_TARGET, SECPKG_ATTR_CONNECTION_INFO, SECPKG_ATTR_CREDS_2, SECPKG_ATTR_DCE_INFO, SECPKG_ATTR_EAP_KEY_BLOCK, SECPKG_ATTR_ENDPOINT_BINDINGS, SECPKG_ATTR_FLAGS, SECPKG_ATTR_ISSUER_LIST_EX, SECPKG_ATTR_KEY_INFO, SECPKG_ATTR_LAST_CLIENT_TOKEN_STATUS, SECPKG_ATTR_LIFESPAN, SECPKG_ATTR_LOCAL_CERT_CONTEXT, SECPKG_ATTR_LOCAL_CRED, SECPKG_ATTR_NAMES, SECPKG_ATTR_NATIVE_NAMES, SECPKG_ATTR_NEGOTIATION_INFO, SECPKG_ATTR_PACKAGE_INFO, SECPKG_ATTR_PASSWORD_EXPIRY, SECPKG_ATTR_REMOTE_CERT_CONTEXT, SECPKG_ATTR_ROOT_STORE, SECPKG_ATTR_SESSION_INFO, SECPKG_ATTR_SESSION_KEY, SECPKG_ATTR_SIZES, SECPKG_ATTR_STREAM_SIZES, SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES, SECPKG_ATTR_SUPPORTED_SIGNATURES, SECPKG_ATTR_TARGET_INFORMATION, SECPKG_ATTR_UNIQUE_BINDINGS, security.querycontextattributesex, sspi/QueryContextAttributesEx, sspi/QueryContextAttributesExA, sspi/QueryContextAttributesExW
 req.header: sspi.h
 req.include-header: Security.h
@@ -278,7 +278,7 @@ Queries the life span of the context.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a>structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a> structure.
 
 Finds a certificate context that contains a local end certificate.
 
@@ -344,7 +344,8 @@ Returns information about the security package to be used with the negotiation p
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_packageinfoa">SecPkgContext_PackageInfo</a>structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/win32/api/sspi/ns-sspi-secpkgcontext_packageinfoa">SecPkgContext_PackageInfo</a> structure.
+
 
 Returns information on the SSP in use.
 
@@ -370,7 +371,7 @@ Returns password expiration information.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a>structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a> structure.
 
 Finds a certificate context that contains the end certificate supplied by the server.
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:sspi.InitSecurityInterfaceW
 title: InitSecurityInterfaceW function (sspi.h)
-description: The InitSecurityInterface function returns a pointer to an SSPI dispatch table. This function enables clients to use SSPI without binding directly to an implementation of the interface.
-helpviewer_keywords: ["InitSecurityInterface","InitSecurityInterface function [Security]","InitSecurityInterfaceA","InitSecurityInterfaceW","_ssp_initsecurityinterface","security.initsecurityinterface","sspi/InitSecurityInterface","sspi/InitSecurityInterfaceA","sspi/InitSecurityInterfaceW"]
+description: The InitSecurityInterface function returns a pointer to an SSPI dispatch table. This function enables clients to use SSPI without binding directly to an implementation of the interface. (Unicode)
+helpviewer_keywords: ["InitSecurityInterface", "InitSecurityInterface function [Security]", "InitSecurityInterfaceW", "_ssp_initsecurityinterface", "security.initsecurityinterface", "sspi/InitSecurityInterface", "sspi/InitSecurityInterfaceW"]
 old-location: security\initsecurityinterface.htm
 tech.root: security
 ms.assetid: 1026eeab-e2d6-45f2-9677-82d6cfbf4e12
@@ -43,6 +43,7 @@ api_location:
  - Secur32.dll
  - security.dll
  - schannel.dll
+ - kernel32.dll
 api_name:
  - InitSecurityInterface
  - InitSecurityInterfaceA
@@ -56,7 +57,7 @@ api_name:
 
 The <b>InitSecurityInterface</b> function returns a pointer to an SSPI dispatch table. This function enables clients to use SSPI without binding directly to an implementation of the interface.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchCatExW
 title: StringCchCatExW function (strsafe.h)
-description: Concatenates one string to another string.
-helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchCatEx","StringCchCatEx function [Menus and Other Resources]","StringCchCatExA","StringCchCatExW","_shell_StringCchCatEx","_shell_stringcchcatex_cpp","menurc.stringcchcatex","strsafe/StringCchCatEx","strsafe/StringCchCatExA","strsafe/StringCchCatExW","winui._shell_stringcchcatex"]
+description: Concatenates one string to another string. (StringCchCatExW)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCchCatEx", "StringCchCatEx function [Menus and Other Resources]", "StringCchCatExW", "_shell_StringCchCatEx", "_shell_stringcchcatex_cpp", "menurc.stringcchcatex", "strsafe/StringCchCatEx", "strsafe/StringCchCatExW", "winui._shell_stringcchcatex"]
 old-location: menurc\stringcchcatex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcatex.htm
@@ -76,7 +76,7 @@ Concatenates one  string to another string. The size of the destination buffer i
 
 Type: <b>LPTSTR</b>
 
-The destination buffer, which contains the string that is to be concatened to <i>pszSrc</i>, and that will receive the entire resultant string. The string at <i>pszSrc</i> is added to the end of the string at <i>pszDest</i>.
+The destination buffer, which contains the string that is to be concatenated to <i>pszSrc</i>, and that will receive the entire resultant string. The string at <i>pszSrc</i> is added to the end of the string at <i>pszDest</i>.
 
 ### -param cchDest [in]
 
@@ -221,7 +221,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-<b>StringCchCatEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCatEx</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
+<b>StringCchCatEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCatEx</b> always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:sbtsv.ITsSbResourceNotification
 title: ITsSbResourceNotification (sbtsv.h)
-description: Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to notify plug-ins of any state changes that occur in the session, target, and client connection objects.
+description: Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to notify plug-ins of any state changes that occur in the session, target, and client connection objects. (ITsSbResourceNotification)
 helpviewer_keywords: ["ITsSbResourceNotification","ITsSbResourceNotification interface [Remote Desktop Services]","ITsSbResourceNotification interface [Remote Desktop Services]","described","sbtsv/ITsSbResourceNotification","termserv.itssbresourcenotification"]
 old-location: termserv\itssbresourcenotification.htm
 tech.root: TermServ
@@ -54,10 +54,7 @@ Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) us
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbResourceNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbResourceNotification</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITsSbResourceNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbResourceNotification</b> also has these types of members:
 
 ## -see-also
 

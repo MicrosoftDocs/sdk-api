@@ -74,7 +74,9 @@ It's similar to the existing <a href="/windows/desktop/api/directxmath/nf-direct
 
 <b>XMVectorExpE</b> is implemented like this:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 XMVECTOR Result;
 
 Result.x = expf(V.x);
@@ -83,7 +85,9 @@ Result.z = expf(V.z);
 Result.w = expf(V.w);
 
 return Result;
-</code></pre>
+
+```
+
 
 ## -see-also
 

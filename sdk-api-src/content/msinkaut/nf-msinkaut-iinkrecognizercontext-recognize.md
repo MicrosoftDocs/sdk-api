@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.Recognize
 title: IInkRecognizerContext::Recognize (msinkaut.h)
-description: Performs recognition on an InkStrokes collection and returns recognition results.
+description: Performs recognition on an InkStrokes collection and returns recognition results. (IInkRecognizerContext.Recognize)
 helpviewer_keywords: ["83695dfd-3634-47e7-8311-7216876a827a","IInkRecognizerContext interface [Tablet PC]","Recognize method","IInkRecognizerContext.Recognize","IInkRecognizerContext::Recognize","Recognize","Recognize method [Tablet PC]","Recognize method [Tablet PC]","IInkRecognizerContext interface","msinkaut/IInkRecognizerContext::Recognize","tablet.inkrecognizercontext_recognize"]
 old-location: tablet\inkrecognizercontext_recognize.htm
 tech.root: tablet

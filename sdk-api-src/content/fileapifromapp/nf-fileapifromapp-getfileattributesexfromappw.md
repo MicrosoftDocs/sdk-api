@@ -64,8 +64,8 @@ This parameter can be the following value from the [**GET\_FILEEX\_INFO\_LEVELS*
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

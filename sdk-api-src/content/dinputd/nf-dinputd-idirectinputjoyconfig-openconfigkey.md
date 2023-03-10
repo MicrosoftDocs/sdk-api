@@ -1,7 +1,7 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig.OpenConfigKey
 title: IDirectInputJoyConfig::OpenConfigKey (dinputd.h)
-description: The IDirectInputJoyConfig8::OpenConfigKey method opens IDirectInputJoyConfigthe registry key associated with a joystick configuration.
+description: The IDirectInputJoyConfig8::OpenConfigKey method opens IDirectInputJoyConfig the registry key associated with a joystick configuration.
 helpviewer_keywords: ["IDirectInputJoyConfig interface [Human Input Devices]","OpenConfigKey method","IDirectInputJoyConfig.OpenConfigKey","IDirectInputJoyConfig::OpenConfigKey","OpenConfigKey","OpenConfigKey (IDirectInputJoyConfig8)","OpenConfigKey method [Human Input Devices]","OpenConfigKey method [Human Input Devices]","IDirectInputJoyConfig interface","di_ref_d0c78a58-7e2c-46bb-a974-4996a2e488a3.xml","dinputd/IDirectInputJoyConfig::OpenConfigKey","hid.idirectinputjoyconfig8_openconfigkey"]
 old-location: hid\idirectinputjoyconfig8_openconfigkey.htm
 tech.root: hid
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::OpenConfigKey </b>method opens IDirectInputJoyConfigthe registry key associated with a joystick configuration. Control panel applications can use this key to store per-joystick persistent information, such as button mappings. Such private information should be kept in a subkey named <b>OEM</b>; do not store private information in the main configuration key. The application should use <b>RegCloseKey</b> to close the registry key.
+The <b>IDirectInputJoyConfig8::OpenConfigKey </b> method opens IDirectInputJoyConfig the registry key associated with a joystick configuration. Control panel applications can use this key to store per-joystick persistent information, such as button mappings. Such private information should be kept in a subkey named <b>OEM</b>; do not store private information in the main configuration key. The application should use <b>RegCloseKey</b> to close the registry key.
 
 ## -parameters
 

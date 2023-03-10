@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d10.D3D10_TEX1D_SRV
 title: D3D10_TEX1D_SRV (d3d10.h)
-description: Specifies the subresource from a 1D texture to use in a shader-resource view.
+description: Specifies the subresource from a 1D texture to use in a shader-resource view. (D3D10_TEX1D_SRV)
 helpviewer_keywords: ["D3D10_TEX1D_SRV","D3D10_TEX1D_SRV structure [Direct3D 10]","d3d10/D3D10_TEX1D_SRV","d4d7de7d-f574-5d27-4164-a30ae50fa54b","direct3d10.d3d10_tex1d_srv"]
 old-location: direct3d10\d3d10_tex1d_srv.htm
 tech.root: direct3d10

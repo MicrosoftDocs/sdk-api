@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFRateControl.SetRate
 title: IMFRateControl::SetRate (mfidl.h)
-description: Sets the playback rate.
+description: Sets the playback rate. (IMFRateControl.SetRate)
 helpviewer_keywords: ["428d73fa-f284-4861-a41e-04ea7709db0f","IMFRateControl interface [Media Foundation]","SetRate method","IMFRateControl.SetRate","IMFRateControl::SetRate","SetRate","SetRate method [Media Foundation]","SetRate method [Media Foundation]","IMFRateControl interface","mf.imfratecontrol_setrate","mfidl/IMFRateControl::SetRate"]
 old-location: mf\imfratecontrol_setrate.htm
 tech.root: mf
@@ -61,7 +61,7 @@ If <b>TRUE</b>, the media streams are thinned. Otherwise, the stream is not thin
 
 ### -param flRate [in]
 
-The requested playback rate. Postive values indicate forward playback, negative values indicate reverse playback, and zero indicates scrubbing (the source delivers a single frame).
+The requested playback rate. Positive values indicate forward playback, negative values indicate reverse playback, and zero indicates scrubbing (the source delivers a single frame).
 
 ## -returns
 

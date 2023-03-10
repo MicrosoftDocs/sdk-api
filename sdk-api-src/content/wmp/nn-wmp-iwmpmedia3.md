@@ -54,9 +54,9 @@ The <b>IWMPMedia3</b> interface provides methods that supplement the <b>IWMPMedi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMedia3</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia2">IWMPMedia2</a>. <b>IWMPMedia3</b> also has these types of members:
+The <b>IWMPMedia3</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia2">IWMPMedia2</a>. <b>IWMPMedia3</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

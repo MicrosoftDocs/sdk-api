@@ -54,7 +54,7 @@ Indicates the current view state of a Windows Store app. Used by <a href="/windo
 
 ## -enum-fields
 
-### -field AVS_FULLSCREEN_LANDSCAPE
+### -field AVS_FULLSCREEN_LANDSCAPE:0
 
 The current app's view is full-screen (has no snapped app adjacent to it), and is in landscape orientation.
 

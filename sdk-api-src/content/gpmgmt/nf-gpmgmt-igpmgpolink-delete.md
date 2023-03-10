@@ -53,7 +53,7 @@ api_name:
 
 Removes the GPO link from the scope of management (SOM). The method does not delete the GPO.
 
-## -parameters
+
 
 ## -returns
 

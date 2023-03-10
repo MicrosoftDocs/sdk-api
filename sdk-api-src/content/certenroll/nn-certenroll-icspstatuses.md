@@ -1,7 +1,7 @@
 ---
 UID: NN:certenroll.ICspStatuses
 title: ICspStatuses (certenroll.h)
-description: Contains information about a cryptographic provider/algorithm pair.
+description: Contains information about a cryptographic provider/algorithm pair. (ICspStatuses)
 helpviewer_keywords: ["ICspStatuses","ICspStatuses interface [Security]","ICspStatuses interface [Security]","described","certenroll/ICspStatuses","security.icspstatuses"]
 old-location: security\icspstatuses.htm
 tech.root: security
@@ -89,11 +89,7 @@ The <b>ICspStatuses</b> interface defines methods and properties that can be use
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspStatuses</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICspStatuses</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>ICspStatuses</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICspStatuses</b> also has these types of members:
 
 ## -see-also
 

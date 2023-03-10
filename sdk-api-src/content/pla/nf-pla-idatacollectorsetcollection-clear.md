@@ -52,7 +52,7 @@ api_name:
 
 Removes all data collector sets from the collection.
 
-## -parameters
+
 
 ## -returns
 

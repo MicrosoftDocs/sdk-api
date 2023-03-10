@@ -55,10 +55,7 @@ Applications use the methods of the <b>IDirect3D9Ex</b> interface (which inherit
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3D9Ex</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>. <b>IDirect3D9Ex</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDirect3D9Ex</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>. <b>IDirect3D9Ex</b> also has these types of members:
 
 ## -remarks
 

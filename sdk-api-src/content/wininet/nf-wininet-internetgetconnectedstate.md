@@ -1,12 +1,12 @@
 ---
 UID: NF:wininet.InternetGetConnectedState
 title: InternetGetConnectedState function (wininet.h)
-description: Note  Using this API is not recommended, use the INetworkListManager::GetConnectivity method instead. Retrieves the connected state of the local system.
+description: The InternetGetConnectedState function (wininet.h) retrieves the connected state of the local system and is not recommended for use.
 helpviewer_keywords: ["INTERNET_CONNECTION_CONFIGURED","INTERNET_CONNECTION_LAN","INTERNET_CONNECTION_MODEM","INTERNET_CONNECTION_MODEM_BUSY","INTERNET_CONNECTION_OFFLINE","INTERNET_CONNECTION_PROXY","INTERNET_RAS_INSTALLED","InternetGetConnectedState","InternetGetConnectedState function [WinINet]","_inet_internetgetconnectedstate_function","wininet.internetgetconnectedstate","winineti/InternetGetConnectedState"]
 old-location: wininet\internetgetconnectedstate.htm
 tech.root: wininet
 ms.assetid: 500765b8-fbe4-4bba-894e-cc7f114d9eaa
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: INTERNET_CONNECTION_CONFIGURED, INTERNET_CONNECTION_LAN, INTERNET_CONNECTION_MODEM, INTERNET_CONNECTION_MODEM_BUSY, INTERNET_CONNECTION_OFFLINE, INTERNET_CONNECTION_PROXY, INTERNET_RAS_INSTALLED, InternetGetConnectedState, InternetGetConnectedState function [WinINet], _inet_internetgetconnectedstate_function, wininet.internetgetconnectedstate, winineti/InternetGetConnectedState
 req.header: wininet.h
 req.include-header: Wininet.h

@@ -79,7 +79,7 @@ To mitigate this issue and get the client to report the results without an exces
 <ul>
 <li>
 Set the WinRM network delay time to a very low value by invoking the following command:
-<b>winrm set winrm/config/client @{NetworkDelayms="</b><i>DesiredValue</i><b>"}</b>where <i>DesiredValue</i> is the network delay value, in milliseconds. The lowest network delay that can be specified is 500 milliseconds.
+<b>winrm set winrm/config/client @{NetworkDelayms="</b><i>DesiredValue</i><b>"}</b> where <i>DesiredValue</i> is the network delay value, in milliseconds. The lowest network delay that can be specified is 500 milliseconds.
 
 The network delay value helps to account for network latency while reaching the target machine. If you set tiny network delay and operation timeout values, however, you might not be able to communicate with a target machine that takes a long time to reach. Also, a change in the network delay value affects the entire machine, not just one operation.
 

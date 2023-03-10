@@ -56,11 +56,11 @@ Indicates the sides of a DVD disc.
 
 ## -enum-fields
 
-### -field DVD_SIDE_A
+### -field DVD_SIDE_A:1
 
 Side A.
 
-### -field DVD_SIDE_B
+### -field DVD_SIDE_B:2
 
 Side B.
 

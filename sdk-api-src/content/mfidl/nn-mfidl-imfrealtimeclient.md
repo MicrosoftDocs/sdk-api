@@ -1,7 +1,7 @@
 ---
 UID: NN:mfidl.IMFRealTimeClient
 title: IMFRealTimeClient (mfidl.h)
-description: Notifies a pipeline object to register itself with the Multimedia Class Scheduler Service (MMCSS).
+description: Notifies a pipeline object to register itself with the Multimedia Class Scheduler Service (MMCSS). (IMFRealTimeClient)
 helpviewer_keywords: ["IMFRealTimeClient","IMFRealTimeClient interface [Media Foundation]","IMFRealTimeClient interface [Media Foundation]","described","b1d1901e-dd49-421f-9212-61e32cff411e","mf.imfrealtimeclient","mfidl/IMFRealTimeClient"]
 old-location: mf\imfrealtimeclient.htm
 tech.root: mf
@@ -57,10 +57,7 @@ Any pipeline object that creates worker threads should implement this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFRealTimeClient</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFRealTimeClient</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMFRealTimeClient</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFRealTimeClient</b> also has these types of members:
 
 ## -remarks
 

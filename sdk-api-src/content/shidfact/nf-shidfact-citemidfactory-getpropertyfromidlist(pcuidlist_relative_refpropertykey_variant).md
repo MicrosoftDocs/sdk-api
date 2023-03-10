@@ -1,7 +1,7 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetPropertyFromIDList(PCUIDLIST_RELATIVE,REFPROPERTYKEY,VARIANT)
 title: CItemIDFactory::GetPropertyFromIDList (shidfact.h)
-description: Gets a property from the IPropertyStore within the IDList as a variant, using the key.
+description: Gets a property from the IPropertyStore within the IDList as a variant, using the key. (overload 1/4)
 helpviewer_keywords: ["CItemIDFactory interface [Windows Shell]","GetPropertyFromIDList method","CItemIDFactory.GetPropertyFromIDList","CItemIDFactory::GetPropertyFromIDList","GetPropertyFromIDList","GetPropertyFromIDList method [Windows Shell]","GetPropertyFromIDList method [Windows Shell]","CItemIDFactory interface","shell.citemidfactory_getpropertyfromidlist_key","shidfact/CItemIDFactory::GetPropertyFromIDList"]
 old-location: shell\citemidfactory_getpropertyfromidlist_key.htm
 tech.root: shell
@@ -81,7 +81,7 @@ When this method returns, contains a pointer to the property. If <i>rkey</i> is 
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

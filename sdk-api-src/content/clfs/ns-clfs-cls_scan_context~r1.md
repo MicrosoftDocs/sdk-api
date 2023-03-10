@@ -1,7 +1,8 @@
 ---
 UID: NS:clfs._CLS_SCAN_CONTEXT~r1
 title: CLS_SCAN_CONTEXT
-ms.date: 01/30/2019
+description: The CLS_SCAN_CONTEXT structure contains information about the containers that are being scanned by ScanLogContainers.
+ms.date: 08/01/2022
 ms.keywords: _CLS_SCAN_CONTEXT, CLS_SCAN_CONTEXT
 targetos: Windows
 req.construct-type: structure
@@ -13,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: CLS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT
 req.umdf-ver: 

@@ -1,15 +1,15 @@
 ---
 UID: NF:directml.DMLCreateDevice1
 title: DMLCreateDevice1 function
-description: Creates a DirectML device for a given Direct3D 12 device.
+description: Creates a DirectML device for a given Direct3D 12 device. (DMLCreateDevice1)
 helpviewer_keywords: ["DMLCreateDevice1","DMLCreateDevice1 function","direct3d12.dmlcreatedevice1","directml/DMLCreateDevice1"]
 tech.root: directml
 ms.date: 11/04/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -93,8 +93,6 @@ If the function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [HRES
 
 If this version of DirectML doesn't support the *minimumFeatureLevel* requested, then this function will return **DXGI_ERROR_UNSUPPORTED**.
 
-The Graphics Tools Feature on Demand (FOD) must be installed in order to use the DirectML debug layers. If the [DML_CREATE_DEVICE_FLAG_DEBUG](/windows/win32/api/directml/ne-directml-dml_create_device_flags) flag is specified in *flags* and the debug layers are not installed, then **DMLCreateDevice1** returns **DXGI_ERROR_SDK_COMPONENT_MISSING**.
-
 ## -remarks
 
 A newer version of this function, [DMLCreateDevice1](/windows/win32/api/directml/nf-directml-dmlcreatedevice1), was introduced in DirectML version 1.1.0. **DMLCreateDevice1** is equivalent to calling **DMLCreateDevice1** and supplying a *minimumFeatureLevel* of [DML_FEATURE_LEVEL_1_0](/windows/win32/api/directml/ne-directml-dml_feature_level).
@@ -105,6 +103,6 @@ This API was introduced in DirectML version `1.1.0`.
 
 ## -see-also
 * [DML_FEATURE_LEVEL enumeration](/windows/win32/api/directml/ne-directml-dml_feature_level)
-* [DirectML version history](/windows/win32/direct3d12/dml-version-history)
-* [DirectML feature level history](/windows/win32/direct3d12/dml-feature_level-history)    
-* [Using the DirectML debug layer](/windows/win32/direct3d12/dml-debug-layer)
+* [DirectML version history](/windows/ai/directml/dml-version-history)
+* [DirectML feature level history](/windows/ai/directml/dml-feature-level-history)    
+* [Using the DirectML debug layer](/windows/ai/directml/dml-debug-layer)

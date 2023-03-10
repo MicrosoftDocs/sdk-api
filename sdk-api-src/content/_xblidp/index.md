@@ -4,7 +4,7 @@ title: XblIdpAuthManager
 ms.assetid: 171eec04-c9a1-34cd-9e47-c871eea2a356
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # XblIdpAuthManager

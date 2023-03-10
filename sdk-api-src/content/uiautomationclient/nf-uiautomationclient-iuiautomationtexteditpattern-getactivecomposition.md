@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextEditPattern.GetActiveComposition
 title: IUIAutomationTextEditPattern::GetActiveComposition (uiautomationclient.h)
-description: Returns the active composition.
+description: Returns the active composition. (IUIAutomationTextEditPattern.GetActiveComposition)
 helpviewer_keywords: ["GetActiveComposition","GetActiveComposition method [Windows Accessibility]","GetActiveComposition method [Windows Accessibility]","IUIAutomationTextEditPattern interface","IUIAutomationTextEditPattern interface [Windows Accessibility]","GetActiveComposition method","IUIAutomationTextEditPattern.GetActiveComposition","IUIAutomationTextEditPattern::GetActiveComposition","uiautomationclient/IUIAutomationTextEditPattern::GetActiveComposition","winauto.uiauto_IUIAutomationTextEditPattern_GetActiveComposition"]
 old-location: winauto\uiauto_IUIAutomationTextEditPattern_GetActiveComposition.htm
 tech.root: WinAuto
@@ -64,7 +64,7 @@ Pointer to the range of the current conversion (none if there is no conversion).
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

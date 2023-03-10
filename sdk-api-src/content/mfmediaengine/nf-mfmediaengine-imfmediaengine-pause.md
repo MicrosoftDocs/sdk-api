@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.Pause
 title: IMFMediaEngine::Pause (mfmediaengine.h)
-description: Pauses playback.
+description: Pauses playback. (IMFMediaEngine.Pause)
 helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","Pause method","IMFMediaEngine.Pause","IMFMediaEngine::Pause","Pause","Pause method [Media Foundation]","Pause method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_pause","mfmediaengine/IMFMediaEngine::Pause"]
 old-location: mf\imfmediaengine_pause.htm
 tech.root: mf
@@ -52,11 +52,11 @@ api_name:
 
 Pauses playback.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

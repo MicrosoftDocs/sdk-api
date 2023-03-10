@@ -1,7 +1,7 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.put_TargetFQDN
 title: ITsSbTarget::put_TargetFQDN (sbtsv.h)
-description: Retrieves or specifies the fully qualified domain name of the target.
+description: Retrieves or specifies the fully qualified domain name of the target. (ITsSbTargetEx.put_TargetFQDN)
 helpviewer_keywords: ["ITsSbTarget interface [Remote Desktop Services]","TargetFQDN property","ITsSbTarget.TargetFQDN","ITsSbTarget.put_TargetFQDN","ITsSbTarget::TargetFQDN","ITsSbTarget::get_TargetFQDN","ITsSbTarget::put_TargetFQDN","ITsSbTargetEx interface [Remote Desktop Services]","TargetFQDN property","ITsSbTargetEx.TargetFQDN","ITsSbTargetEx::get_TargetFQDN","ITsSbTargetEx::put_TargetFQDN","TargetFQDN property [Remote Desktop Services]","TargetFQDN property [Remote Desktop Services]","ITsSbTarget interface","TargetFQDN property [Remote Desktop Services]","ITsSbTargetEx interface","put_TargetFQDN","sbtsv/ITsSbTarget::TargetFQDN","sbtsv/ITsSbTarget::get_TargetFQDN","sbtsv/ITsSbTarget::put_TargetFQDN","sbtsv/ITsSbTargetEx::TargetFQDN","sbtsv/ITsSbTargetEx::get_TargetFQDN","sbtsv/ITsSbTargetEx::put_TargetFQDN","termserv.itssbtarget_targetfqdn"]
 old-location: termserv\itssbtarget_targetfqdn.htm
 tech.root: TermServ

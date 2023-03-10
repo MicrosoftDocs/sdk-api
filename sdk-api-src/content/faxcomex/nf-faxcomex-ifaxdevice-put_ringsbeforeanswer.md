@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcomex.IFaxDevice.put_RingsBeforeAnswer
 title: IFaxDevice::put_RingsBeforeAnswer (faxcomex.h)
-description: The IFaxDevice::get_RingsBeforeAnswer property is a number that specifies the number of rings that occur before the fax device answers an incoming fax call.
+description: The IFaxDevice::get_RingsBeforeAnswer property is a number that specifies the number of rings that occur before the fax device answers an incoming fax call. (Put)
 helpviewer_keywords: ["IFaxDevice interface [Fax Service]","RingsBeforeAnswer property","IFaxDevice.RingsBeforeAnswer","IFaxDevice.get_RingsBeforeAnswer","IFaxDevice.put_RingsBeforeAnswer","IFaxDevice::RingsBeforeAnswer","IFaxDevice::get_RingsBeforeAnswer","IFaxDevice::put_RingsBeforeAnswer","RingsBeforeAnswer property [Fax Service]","RingsBeforeAnswer property [Fax Service]","IFaxDevice interface","_mfax_faxdevice.ringsbeforeanswer","fax._mfax_faxdevice_cpp_mfax_faxdevice_ringsbeforeanswer_cpp","fax._mfax_faxdevice_ringsbeforeanswer","faxcomex/IFaxDevice::RingsBeforeAnswer","faxcomex/IFaxDevice::get_RingsBeforeAnswer","faxcomex/IFaxDevice::put_RingsBeforeAnswer","put_RingsBeforeAnswer"]
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_ringsbeforeanswer_cpp.htm
 tech.root: Fax

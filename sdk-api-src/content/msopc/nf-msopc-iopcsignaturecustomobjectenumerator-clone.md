@@ -56,7 +56,7 @@ Creates a copy of the current <a href="/previous-versions/windows/desktop/api/ms
 
 ### -param copy [out, retval]
 
-A pointer to a copy of the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturecustomobjectenumerator">IOpcSignatureCustomObjectEnumerator</a>interface pointer.
+A pointer to a copy of the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturecustomobjectenumerator">IOpcSignatureCustomObjectEnumerator</a> interface pointer.
 
 ## -returns
 

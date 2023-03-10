@@ -370,7 +370,7 @@ void PrintIfEntry2(PMIB_IF_ROW2 pIfRow)
         wprintf(L"Interface down\n");
         break;
     case NET_IF_ADMIN_STATUS_TESTING:
-        wprintf(L"Interafce in test mode\n");
+        wprintf(L"Interface in test mode\n");
         break;
     default:
         wprintf(L"Unknown status %ld\n", pIfRow->AdminStatus);

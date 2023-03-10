@@ -1,7 +1,7 @@
 ---
 UID: NF:dwmapi.DwmGetGraphicsStreamClient
 title: DwmGetGraphicsStreamClient function (dwmapi.h)
-description: This function is not implemented.
+description: This function is not implemented. (DwmGetGraphicsStreamClient)
 helpviewer_keywords: ["DwmGetGraphicsStreamClient","DwmGetGraphicsStreamClient function [Desktop Window Manager]","_udwm_dwmgetgraphicsstreamclient","_udwm_dwmgetgraphicsstreamclient_cpp","dwm.dwmgetgraphicsstreamclient","dwmapi/DwmGetGraphicsStreamClient","winui._udwm_dwmgetgraphicsstreamclient"]
 old-location: dwm\dwmgetgraphicsstreamclient.htm
 tech.root: dwm
@@ -60,5 +60,5 @@ This function is deprecated and only returns DWM_E_COMPOSITIONDISABLED in Window
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

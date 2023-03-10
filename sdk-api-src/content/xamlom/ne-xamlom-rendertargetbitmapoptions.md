@@ -54,7 +54,7 @@ Defines constants that specify what parts of the visual tree should be rendered.
 
 ## -enum-fields
 
-### -field RenderTarget
+### -field RenderTarget:0
 
 Only the texture associated with the visual should be rendered.
 

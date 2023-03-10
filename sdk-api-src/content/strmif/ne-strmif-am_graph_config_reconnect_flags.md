@@ -56,15 +56,15 @@ Specifies how to reconnect filters when dynamically rebuilding the filter graph.
 
 ## -enum-fields
 
-### -field AM_GRAPH_CONFIG_RECONNECT_DIRECTCONNECT
+### -field AM_GRAPH_CONFIG_RECONNECT_DIRECTCONNECT:0x1
 
 Do not insert additional filters into the graph while reconnecting, aside from any filter explicitly requested.
 
-### -field AM_GRAPH_CONFIG_RECONNECT_CACHE_REMOVED_FILTERS
+### -field AM_GRAPH_CONFIG_RECONNECT_CACHE_REMOVED_FILTERS:0x2
 
 Place filters removed from the graph into the filter cache.
 
-### -field AM_GRAPH_CONFIG_RECONNECT_USE_ONLY_CACHED_FILTERS
+### -field AM_GRAPH_CONFIG_RECONNECT_USE_ONLY_CACHED_FILTERS:0x4
 
 When inserting additional filters into the graph, use only filters currently in the filter cache.
 

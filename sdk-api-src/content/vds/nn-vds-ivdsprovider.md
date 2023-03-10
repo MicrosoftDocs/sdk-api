@@ -1,12 +1,12 @@
 ---
 UID: NN:vds.IVdsProvider
 title: IVdsProvider (vds.h)
-description: Returns the properties of a hardware or software provider.
+description: The IVdsProvider interface (vds.h) returns the properties of a hardware or software provider.  
 helpviewer_keywords: ["IVdsProvider","IVdsProvider interface [VDS]","IVdsProvider interface [VDS]","described","base.ivdsprovider","vds/IVdsProvider","vdshwprv/IVdsProvider"]
 old-location: base\ivdsprovider.htm
 tech.root: base
 ms.assetid: c09aa32f-d859-44b1-8656-973ba1b6a167
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsProvider, IVdsProvider interface [VDS], IVdsProvider interface [VDS],described, base.ivdsprovider, vds/IVdsProvider, vdshwprv/IVdsProvider
 req.header: vds.h
 req.include-header: 
@@ -51,17 +51,14 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the properties of 
    a hardware or software provider.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVdsProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsProvider</b> also has these types of members:
 
 ## -see-also
 

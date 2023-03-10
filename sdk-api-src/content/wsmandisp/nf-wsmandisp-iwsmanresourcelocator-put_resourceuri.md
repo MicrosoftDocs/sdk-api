@@ -1,7 +1,7 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.put_ResourceURI
 title: IWSManResourceLocator::put_ResourceURI (wsmandisp.h)
-description: The resource URI of the requested resource. This property can contain only the path, not a query string for specific instances.
+description: The resource URI of the requested resource. This property can contain only the path, not a query string for specific instances. (Put)
 helpviewer_keywords: ["IWSManResourceLocator interface [Windows Remote Management]","ResourceURI property","IWSManResourceLocator.ResourceURI","IWSManResourceLocator.put_ResourceURI","IWSManResourceLocator::ResourceURI","IWSManResourceLocator::get_ResourceURI","IWSManResourceLocator::put_ResourceURI","ResourceURI property [Windows Remote Management]","ResourceURI property [Windows Remote Management]","IWSManResourceLocator interface","ResourceURI property [Windows Remote Management]","WSMan object","WSMan object [Windows Remote Management]","ResourceURI property","put_ResourceURI","winrm.iwsmanresourcelocator_resourceuri","wsmandisp/IWSManResourceLocator::ResourceURI","wsmandisp/IWSManResourceLocator::get_ResourceURI","wsmandisp/IWSManResourceLocator::put_ResourceURI"]
 old-location: winrm\iwsmanresourcelocator_resourceuri.htm
 tech.root: winrm
@@ -65,10 +65,18 @@ This property is read/write.
 
 The following is an example of a proper path for  <b>ResourceURI</b>.
 
-<pre class="syntax" xml:space="preserve"><code>"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service"</code></pre>
+
+``` syntax
+"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service"
+```
+
 The following path does not work because it  contains a key for a specific instance. Use the <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanresourcelocator-addselector">IWSManResourceLocator::AddSelector</a> method to specify a particular instance.
 
-<pre class="syntax" xml:space="preserve"><code>"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=winmgmt"</code></pre>
+
+``` syntax
+"http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=winmgmt"
+```
+
 The corresponding scripting method is <a href="/windows/desktop/WinRM/resourcelocator-resourceuri">ResourceLocator.ResourceURI</a>.
 
 ## -see-also

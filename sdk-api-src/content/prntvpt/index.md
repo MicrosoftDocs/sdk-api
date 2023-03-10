@@ -4,7 +4,7 @@ title: Prntvpt.h header
 ms.assetid: 2821ccc2-2f0e-337a-b304-993919ce0fd2
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: gdi
 f1_keywords:
  - prntvpt
@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows GDI. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Windows GDI](../_gdi/index.md)
+- [XPS Documents](../_xps/index.md)
 

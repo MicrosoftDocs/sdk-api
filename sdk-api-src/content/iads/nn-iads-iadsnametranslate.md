@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>IADsNameTranslate</b>interface translates distinguished names (DNs) among various
+The <b>IADsNameTranslate</b> interface translates distinguished names (DNs) among various
   formats as defined in the 
    <a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a> enumeration.
   The feature is available to objects in Active Directory.
@@ -63,13 +63,13 @@ Name
 
 First, create an instance of the <b>IADsNameTranslate</b> object.
 
-Second, initialize the <b>IADsNameTranslate</b>object by specifying the directory server using the  
-     <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a>or 
+Second, initialize the <b>IADsNameTranslate</b> object by specifying the directory server using the  
+     <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a> or 
      <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-initex">IADsNameTranslate::InitEx</a> methods.
 
 Third, set the directory object on the server by specifying the name with the <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a> method and the format with the <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a> method.
 
-Fourth, retrieve the object name in the specified format with the <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate::Get</a>or 
+Fourth, retrieve the object name in the specified format with the <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate::Get</a> or 
      <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a> method.
 
 The following code example shows how to create an <b>IADsNameTranslate</b> object in Visual C++, Visual Basic, and
@@ -82,11 +82,7 @@ The following code example shows how to create an <b>IADsNameTranslate</b> objec
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsNameTranslate</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsNameTranslate</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IADsNameTranslate</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsNameTranslate</b> also has these types of members:
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.Clone
 title: IXpsOMGlyphs::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.
+description: Makes a deep copy of the interface. (IXpsOMGlyphs.Clone)
 helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","Clone method","IXpsOMGlyphs.Clone","IXpsOMGlyphs::Clone","xps.ixpsomglyphs_clone","xpsobjectmodel/IXpsOMGlyphs::Clone"]
 old-location: xps\ixpsomglyphs_clone.htm
 tech.root: xps

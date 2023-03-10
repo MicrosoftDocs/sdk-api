@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::SetUserValues </b>method sets the user settings for the joystick.
+The <b>IDirectInputJoyConfig8::SetUserValues </b> method sets the user settings for the joystick.
 
 ## -parameters
 

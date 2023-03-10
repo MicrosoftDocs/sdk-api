@@ -64,13 +64,13 @@ The number of elements to retrieve.
 
 Type: <b><a href="/windows/desktop/api/searchapi/nn-searchapi-isearchscoperule">ISearchScopeRule</a>**</b>
 
-On return, contains a pointer to an array of <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchscoperule">ISearchScopeRule</a> elements.
+A pointer to an array which this method will initialize with <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchscoperule">ISearchScopeRule</a> elements.
 
 ### -param pceltFetched [in, out]
 
 Type: <b>ULONG*</b>
 
-On return, contains a pointer to the actual number of elements retrieved. Can be <b>NULL</b> if <i>celt</i> == 1, otherwise it must not be <b>NULL</b>.
+A pointer that this method will set to the actual number of elements retrieved. Can be <b>NULL</b> if <i>celt</i> == 1, otherwise it must not be <b>NULL</b>.
 
 ## -returns
 

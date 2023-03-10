@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasDeleteEntryA
 title: RasDeleteEntryA function (ras.h)
-description: The RasDeleteEntry function deletes an entry from a phone book.
-helpviewer_keywords: ["RasDeleteEntry","RasDeleteEntry function [RAS]","RasDeleteEntryA","RasDeleteEntryW","_ras_rasdeleteentry","ras/RasDeleteEntry","ras/RasDeleteEntryA","ras/RasDeleteEntryW","rras.rasdeleteentry"]
+description: The RasDeleteEntry function deletes an entry from a phone book. (ANSI)
+helpviewer_keywords: ["RasDeleteEntryA", "ras/RasDeleteEntryA"]
 old-location: rras\rasdeleteentry.htm
 tech.root: RRAS
 ms.assetid: 80a6c2d3-917b-4d13-867f-a1399d434105
@@ -145,7 +145,7 @@ DWORD __cdecl wmain(){
     dwRet |= StringCchCopyN(lpentry->szDeviceName, RAS_MaxDeviceName, lpszdevicename, DEVICE_NAME_LENGTH);
     dwRet |= StringCchCopyN(lpentry->szDeviceType, RAS_MaxDeviceType, lpszdevicetype, DEVICE_TYPE_LENGTH);
     if (dwRet != ERROR_SUCCESS){
-        wprintf(L"RASENTRY structure initilization failed");
+        wprintf(L"RASENTRY structure initialization failed");
         HeapFree(GetProcessHeap(), 0, lpentry);
         return 0;
     }

@@ -4,7 +4,7 @@ tech.root: Debug
 title: SymAddSourceStreamA
 ms.date: 04/14/2021
 targetos: Windows
-description: Adds the stream to the specified module for use by the Source Server.
+description: Adds the stream to the specified module for use by the Source Server. (SymAddSourceStreamA)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -18,8 +18,8 @@ req.lib: Dbghelp.lib
 req.max-support: 
 req.namespace: 
 req.redist: DbgHelp.dll 6.8 or later 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: Windows 
 req.type-library: 
 req.umdf-ver: 

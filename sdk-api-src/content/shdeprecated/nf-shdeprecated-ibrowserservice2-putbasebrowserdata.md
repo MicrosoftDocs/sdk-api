@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Gets a structure that allows read/write access to protected members of the base class. Note, however, that state should only be updated by the base browser.
 
-## -parameters
+
 
 ## -returns
 

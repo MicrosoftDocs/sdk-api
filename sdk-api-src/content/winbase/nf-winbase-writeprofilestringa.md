@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.WriteProfileStringA
 title: WriteProfileStringA function (winbase.h)
-description: Copies a string into the specified section of the Win.ini file.
-helpviewer_keywords: ["WriteProfileString","WriteProfileString function","WriteProfileStringA","WriteProfileStringW","_win32_writeprofilestring","base.writeprofilestring","winbase/WriteProfileString","winbase/WriteProfileStringA","winbase/WriteProfileStringW"]
+description: Copies a string into the specified section of the Win.ini file. (ANSI)
+helpviewer_keywords: ["WriteProfileStringA", "winbase/WriteProfileStringA"]
 old-location: base\writeprofilestring.htm
 tech.root: winprog
 ms.assetid: d3fb74bb-7ce9-4669-8f00-02ac8a95ddd5
@@ -82,7 +82,7 @@ A section in the Win.ini file must have the following form: <i>key</i>=<i>string
 
 The system keeps a cached version of the most recent registry file mapping to improve performance. If all parameters are <b>NULL</b>, the function flushes the cache. While the system is editing the cached version of the file, processes that edit the file itself will use the original file until the cache has been cleared.
 
-The system maps most .ini file references to the registry, using the mapping defined under the following registry key: <pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+The system maps most .ini file references to the registry, using the mapping defined under the following registry key: <pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows NT</b>

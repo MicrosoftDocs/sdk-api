@@ -1,8 +1,8 @@
 ---
 UID: NF:fileapi.GetFullPathNameA
 title: GetFullPathNameA function (fileapi.h)
-description: Retrieves the full path and file name of the specified file.
-helpviewer_keywords: ["GetFullPathName","GetFullPathName function [Files]","GetFullPathNameA","GetFullPathNameW","_win32_getfullpathname","base.getfullpathname","fileapi/GetFullPathName","fileapi/GetFullPathNameA","fileapi/GetFullPathNameW","fs.getfullpathname","winbase/GetFullPathName","winbase/GetFullPathNameA","winbase/GetFullPathNameW"]
+description: Retrieves the full path and file name of the specified file. (ANSI)
+helpviewer_keywords: ["GetFullPathNameA", "fileapi/GetFullPathNameA"]
 old-location: fs\getfullpathname.htm
 tech.root: fs
 ms.assetid: 4cf59ee3-4065-4096-a2b5-fbed20aa5caa
@@ -80,12 +80,7 @@ This parameter can be a short (the 8.3 form) or long file name. This string can 
        name.
 
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
-       To extend this limit to 32,767 wide characters, call the Unicode version of the function (<b>GetFullPathNameW</b>), and prepend 
-       "\\\\?\\" to the path. For more information, see 
-       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
-
-<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>GetFullPathNameW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
-<div> </div>
+       To extend this limit to 32,767 wide characters, call the Unicode version of the function (<b>GetFullPathNameW</b>).
 
 ### -param nBufferLength [in]
 

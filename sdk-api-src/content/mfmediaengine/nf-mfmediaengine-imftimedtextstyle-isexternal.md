@@ -52,7 +52,7 @@ api_name:
 
 Determines whether the timed-text style is external.
 
-## -parameters
+
 
 ## -returns
 

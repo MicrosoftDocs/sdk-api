@@ -55,7 +55,7 @@ api_name:
 
 The <b>Clear</b> method removes all items from the property vault.
 
-## -parameters
+
 
 ## -returns
 

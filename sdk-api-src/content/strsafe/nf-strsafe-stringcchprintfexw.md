@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchPrintfExW
 title: StringCchPrintfExW function (strsafe.h)
-description: Writes formatted data to the specified string.
-helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchPrintfEx","StringCchPrintfEx function [Menus and Other Resources]","StringCchPrintfExA","StringCchPrintfExW","_shell_StringCchPrintfEx","_shell_stringcchprintfex_cpp","menurc.stringcchprintfex","strsafe/StringCchPrintfEx","strsafe/StringCchPrintfExA","strsafe/StringCchPrintfExW","winui._shell_stringcchprintfex"]
+description: Writes formatted data to the specified string. (StringCchPrintfExW)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCchPrintfEx", "StringCchPrintfEx function [Menus and Other Resources]", "StringCchPrintfExW", "_shell_StringCchPrintfEx", "_shell_stringcchprintfex_cpp", "menurc.stringcchprintfex", "strsafe/StringCchPrintfEx", "strsafe/StringCchPrintfExW", "winui._shell_stringcchprintfex"]
 old-location: menurc\stringcchprintfex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchprintfex.htm
@@ -223,7 +223,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-Compared to  the functions it replaces, <b>StringCchPrintfEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchPrintfEx</b>always null-terminates a nonzero-length destination buffer.
+Compared to  the functions it replaces, <b>StringCchPrintfEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchPrintfEx</b> always null-terminates a nonzero-length destination buffer.
 
 Behavior is undefined if the strings pointed to by <i>pszDest</i>, <i>pszFormat</i>, or any argument strings overlap.
 

@@ -57,18 +57,18 @@ The <b>MBN_INTERFACE_CAPS_CONSTANTS</b> enumerated type defines the maximum leng
 
 ## -enum-fields
 
-### -field MBN_DEVICEID_LEN
+### -field MBN_DEVICEID_LEN:18
 
 This constant defines the maximum string size of the <b>deviceID</b> member of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_interface_caps">MBN_INTERFACE_CAPS</a> structure.
 
-### -field MBN_MANUFACTURER_LEN
+### -field MBN_MANUFACTURER_LEN:32
 
 This constant defines the maximum string size of the <b>manufacturer</b> member of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_interface_caps">MBN_INTERFACE_CAPS</a> structure.
 
-### -field MBN_MODEL_LEN
+### -field MBN_MODEL_LEN:32
 
 This constant defines the maximum string size of the <b>model</b> member of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_interface_caps">MBN_INTERFACE_CAPS</a> structure.
 
-### -field MBN_FIRMWARE_LEN
+### -field MBN_FIRMWARE_LEN:32
 
 This constant defines the maximum string size of the <b>firmwareInfo</b> member of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_interface_caps">MBN_INTERFACE_CAPS</a> structure.

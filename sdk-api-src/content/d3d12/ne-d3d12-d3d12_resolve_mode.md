@@ -54,19 +54,19 @@ Specifies a resolve operation.
 
 ## -enum-fields
 
-### -field D3D12_RESOLVE_MODE_DECOMPRESS
+### -field D3D12_RESOLVE_MODE_DECOMPRESS:0
 
 Resolves compressed source samples to their uncompressed values. When using this operation, the source and destination resources must have the same sample count, unlike the min, max, and average operations that require the destination to have a sample count of 1.
 
-### -field D3D12_RESOLVE_MODE_MIN
+### -field D3D12_RESOLVE_MODE_MIN:1
 
 Resolves the source samples to their minimum value. It can be used with any render target or depth stencil format.
 
-### -field D3D12_RESOLVE_MODE_MAX
+### -field D3D12_RESOLVE_MODE_MAX:2
 
 Resolves the source samples to their maximum value. It can be used with any render target or depth stencil format.
 
-### -field D3D12_RESOLVE_MODE_AVERAGE
+### -field D3D12_RESOLVE_MODE_AVERAGE:3
 
 Resolves the source samples to their average value. It can be used with any non-integer render target format, including the depth plane. It can't be used with integer render target formats, including the stencil plane.
 

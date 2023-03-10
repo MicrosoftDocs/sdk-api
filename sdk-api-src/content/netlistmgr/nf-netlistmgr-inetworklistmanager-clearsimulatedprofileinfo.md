@@ -52,7 +52,7 @@ api_name:
 
 Clears the connection profile values previously applied to the internet connection profile by <a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-setsimulatedprofileinfo">SetSimulatedProfileInfo</a>. The next internet connection query, via <a href="/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a>, will use system information.
 
-## -parameters
+
 
 ## -returns
 

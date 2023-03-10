@@ -54,10 +54,7 @@ The <b>IMDServiceProvider3</b> interface extends the <a href="/windows/desktop/a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDServiceProvider3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider2">IMDServiceProvider2</a>. <b>IMDServiceProvider3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IMDServiceProvider3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider2">IMDServiceProvider2</a>. <b>IMDServiceProvider3</b> also has these types of members:
 
 ## -see-also
 

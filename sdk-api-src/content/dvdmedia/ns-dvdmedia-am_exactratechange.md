@@ -1,5 +1,5 @@
 ---
-UID: NS:dvdmedia.__unnamed_struct_8
+UID: NS:dvdmedia.AM_ExactRateChange
 title: AM_ExactRateChange (dvdmedia.h)
 description: The AM_ExactRateChange structure is not supported. Use AM_SimpleRateChange.
 helpviewer_keywords: ["AM_ExactRateChange","AM_ExactRateChange structure [DirectShow]","AM_ExactRateChangeStructure","dshow.am_exactratechange","dvdmedia/AM_ExactRateChange"]
@@ -65,3 +65,4 @@ Reserved.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/rate-change-property-set">Rate Change Property Set</a>
+

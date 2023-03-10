@@ -52,7 +52,7 @@ api_name:
 
 Returns <b>S_OK</b> if the operation associated with the current instance of this interface should continue.
 
-## -parameters
+
 
 ## -returns
 

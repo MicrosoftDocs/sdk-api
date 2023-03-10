@@ -54,7 +54,7 @@ Flags for fetching information about the content of a placeholder file or direct
 
 ## -enum-fields
 
-### -field CF_CALLBACK_FETCH_PLACEHOLDERS_FLAG_NONE
+### -field CF_CALLBACK_FETCH_PLACEHOLDERS_FLAG_NONE:0x00000000
 
 No fetch placeholder flags.
 

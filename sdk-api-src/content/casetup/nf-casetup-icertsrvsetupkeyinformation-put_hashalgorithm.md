@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.put_HashAlgorithm
 title: ICertSrvSetupKeyInformation::put_HashAlgorithm (casetup.h)
-description: Gets or sets the name of the hashing algorithm used to sign or verify the certification authority (CA) certificate for the key.
+description: Gets or sets the name of the hashing algorithm used to sign or verify the certification authority (CA) certificate for the key. (Put)
 helpviewer_keywords: ["HashAlgorithm property [Security]","HashAlgorithm property [Security]","ICertSrvSetupKeyInformation interface","ICertSrvSetupKeyInformation interface [Security]","HashAlgorithm property","ICertSrvSetupKeyInformation.HashAlgorithm","ICertSrvSetupKeyInformation.put_HashAlgorithm","ICertSrvSetupKeyInformation::HashAlgorithm","ICertSrvSetupKeyInformation::get_HashAlgorithm","ICertSrvSetupKeyInformation::put_HashAlgorithm","casetup/ICertSrvSetupKeyInformation::HashAlgorithm","casetup/ICertSrvSetupKeyInformation::get_HashAlgorithm","casetup/ICertSrvSetupKeyInformation::put_HashAlgorithm","put_HashAlgorithm","security.icertsrvsetupkeyinformation_hashalgorithm"]
 old-location: security\icertsrvsetupkeyinformation_hashalgorithm.htm
 tech.root: security

@@ -1,7 +1,8 @@
 ---
 UID: NE:wlanapi._WLAN_INTF_OPCODE~r1
 title: WLAN_INTF_OPCODE
-ms.date: 01/30/2019
+description: The WLAN_INTF_OPCODE enumeration defines various opcodes used to set and query parameters on a wireless interface.
+ms.date: 08/16/2022
 ms.keywords: _WLAN_INTF_OPCODE, WLAN_INTF_OPCODE
 targetos: Windows
 req.construct-type: enumeration
@@ -10,8 +11,8 @@ req.header: wlanapi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -85,7 +86,7 @@ This opcode can only be used in a query operation with the <a href="/windows/des
 
 ### -field wlan_intf_opcode_channel_number
 
-The opcose used to query the current channel on which the wireless interface is operating. This opcode can only be used in a query operation with the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a> function.
+The opcode used to query the current channel on which the wireless interface is operating. This opcode can only be used in a query operation with the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a> function.
 
 ### -field wlan_intf_opcode_supported_infrastructure_auth_cipher_pairs
 
@@ -121,17 +122,17 @@ This value is an extension to native wireless APIs added to support the wireless
 
 ### -field wlan_intf_opcode_management_frame_protection_capable
 
-The opcode used to query whether Managememt Frame Protection (MFP) is supported in the device driver associated with the Wireless interface. This opcode can only be used in a query operation with the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a> function. 
+The opcode used to query whether Management Frame Protection (MFP) is supported in the device driver associated with the Wireless interface. This opcode can only be used in a query operation with the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a> function. 
 
 MFP is defined in the IEEE 802.11w-2009 amendment to 802.11 standard.
 
 This value is supported on Windows 8 and  on Windows Server 2012.
 
-### -field wlan_intf_opcode_autoconf_end
+### -field wlan_intf_opcode_autoconf_end:0x0fffffff
 
 Not used.
 
-### -field wlan_intf_opcode_msm_start
+### -field wlan_intf_opcode_msm_start:0x10000100
 
 Not used.
 
@@ -143,23 +144,23 @@ The opcode used to query driver statistics. This opcode can only be used in a qu
 
 Opcode used to query the received signal strength. This opcode can only be used in a query operation with the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a> function.
 
-### -field wlan_intf_opcode_msm_end
+### -field wlan_intf_opcode_msm_end:0x1fffffff
 
 Not used.
 
-### -field wlan_intf_opcode_security_start
+### -field wlan_intf_opcode_security_start:0x20010000
 
 Not used.
 
-### -field wlan_intf_opcode_security_end
+### -field wlan_intf_opcode_security_end:0x2fffffff
 
 Not used.
 
-### -field wlan_intf_opcode_ihv_start
+### -field wlan_intf_opcode_ihv_start:0x30000000
 
 Not used.
 
-### -field wlan_intf_opcode_ihv_end
+### -field wlan_intf_opcode_ihv_end:0x3fffffff
 
 ## -remarks
 

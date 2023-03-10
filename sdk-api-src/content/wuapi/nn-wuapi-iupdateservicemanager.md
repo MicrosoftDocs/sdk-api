@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IUpdateServiceManager
 title: IUpdateServiceManager (wuapi.h)
-description: Adds or removes the registration of the update service with Windows Update Agent or Automatic Updates.
+description: Adds or removes the registration of the update service with Windows Update Agent or Automatic Updates. (IUpdateServiceManager)
 helpviewer_keywords: ["IUpdateServiceManager","IUpdateServiceManager interface [Windows Update Agent]","IUpdateServiceManager interface [Windows Update Agent]","described","wua.iupdateservicemanager","wuapi/IUpdateServiceManager"]
 old-location: wua\iupdateservicemanager.htm
 tech.root: wua
@@ -54,11 +54,7 @@ Adds or removes the registration of the update service with Windows Update Agent
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateServiceManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateServiceManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IUpdateServiceManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateServiceManager</b> also has these types of members:
 
 ## -remarks
 

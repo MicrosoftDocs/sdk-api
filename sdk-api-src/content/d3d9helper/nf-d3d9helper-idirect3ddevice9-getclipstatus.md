@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetClipStatus
 title: IDirect3DDevice9::GetClipStatus (d3d9helper.h)
-description: Retrieves the clip status.
+description: The IDirect3DDevice9::GetClipStatus method (d3d9.h) retrieves the clip status.
 helpviewer_keywords: ["GetClipStatus","GetClipStatus method [Direct3D 9]","GetClipStatus method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","GetClipStatus method","IDirect3DDevice9.GetClipStatus","IDirect3DDevice9::GetClipStatus","d3d9helper/IDirect3DDevice9::GetClipStatus","df453492-e7c5-c7f3-db0d-498aa59e68b8","direct3d9.idirect3ddevice9__getclipstatus"]
 old-location: direct3d9\idirect3ddevice9__getclipstatus.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getclipstatus.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: GetClipStatus, GetClipStatus method [Direct3D 9], GetClipStatus method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetClipStatus method, IDirect3DDevice9.GetClipStatus, IDirect3DDevice9::GetClipStatus, d3d9helper/IDirect3DDevice9::GetClipStatus, df453492-e7c5-c7f3-db0d-498aa59e68b8, direct3d9.idirect3ddevice9__getclipstatus
 req.header: d3d9helper.h
 req.include-header: D3D9.h

@@ -52,7 +52,7 @@ api_name:
 
 Shuts down an object pool.
 
-## -parameters
+
 
 ## -returns
 

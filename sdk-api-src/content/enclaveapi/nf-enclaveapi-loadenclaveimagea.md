@@ -4,7 +4,7 @@ tech.root: base
 title: LoadEnclaveImageA
 ms.date: 04/14/2021
 targetos: Windows
-description: Loads an image and all of its imports into an enclave.
+description: Loads an image and all of its imports into an enclave. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IFilterMapper
 title: IFilterMapper (strmif.h)
-description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated. (IFilterMapper)
 helpviewer_keywords: ["IFilterMapper","IFilterMapper interface [DirectShow]","IFilterMapper interface [DirectShow]","described","IFilterMapperInterface","dshow.ifiltermapper","strmif/IFilterMapper"]
 old-location: dshow\ifiltermapper.htm
 tech.root: dshow
@@ -56,10 +56,7 @@ This interface provides methods for registering and unregistering filters, and f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterMapper</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilterMapper</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IFilterMapper</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilterMapper</b> also has these types of members:
 
 ## -see-also
 

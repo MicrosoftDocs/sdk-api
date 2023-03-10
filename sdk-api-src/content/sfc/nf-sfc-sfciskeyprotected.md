@@ -128,7 +128,7 @@ A key is protected by WRP if the path exists and is protected by WRP. The <b>Sfc
 For example, if the following registry key exists on the system and is protected by WRP:
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Classes</b>
          <b>Microsoft</b>
@@ -138,7 +138,7 @@ For example, if the following registry key exists on the system and is protected
 The <b>SfcIsKeyProtected</b> function returns a nonzero value for the following subkey. The new subkey does not need to exist for the function to determine that it is WRP-protected.
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Classes</b>
          <b>Microsoft</b>

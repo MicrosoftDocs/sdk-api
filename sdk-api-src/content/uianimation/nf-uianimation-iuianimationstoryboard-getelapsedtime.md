@@ -1,7 +1,7 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.GetElapsedTime
 title: IUIAnimationStoryboard::GetElapsedTime (uianimation.h)
-description: Gets the time that has elapsed since the storyboard started playing.
+description: Gets the time that has elapsed since the storyboard started playing. (IUIAnimationStoryboard.GetElapsedTime)
 helpviewer_keywords: ["GetElapsedTime","GetElapsedTime method [Windows Animation]","GetElapsedTime method [Windows Animation]","IUIAnimationStoryboard interface","IUIAnimationStoryboard interface [Windows Animation]","GetElapsedTime method","IUIAnimationStoryboard.GetElapsedTime","IUIAnimationStoryboard::GetElapsedTime","uianimation.iuianimationstoryboard_getelapsedtime","uianimation/IUIAnimationStoryboard::GetElapsedTime"]
 old-location: uianimation\iuianimationstoryboard_getelapsedtime.htm
 tech.root: UIAnimation

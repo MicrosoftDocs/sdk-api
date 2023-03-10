@@ -4,7 +4,7 @@ title: Bdaiface.h header
 ms.assetid: c1391053-4104-38c7-9fee-0ff090101ae6
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: mstv
 archived: true
 f1_keywords:
@@ -17,7 +17,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Microsoft TV Technologies. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
-- [Microsoft TV Technologies](../_mstv/index.md)
+- [DirectShow](../_dshow/index.md)
+- [Microsoft TV Technologies](https://learn.microsoft.com/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal)
 

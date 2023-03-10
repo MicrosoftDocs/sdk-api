@@ -52,7 +52,7 @@ api_name:
 
 The <b>DisableVideo</b> method disables the video renderer.
 
-## -parameters
+
 
 ## -returns
 

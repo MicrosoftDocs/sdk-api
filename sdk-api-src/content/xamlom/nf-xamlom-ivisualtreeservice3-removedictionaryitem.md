@@ -6,7 +6,7 @@ helpviewer_keywords: ["IVisualTreeService3 interface","RemoveDictionaryItem meth
 old-location: xaml_diagnostics\ivisualtreeservice3_removedictionaryitem.htm
 tech.root: xaml_diagnostics
 ms.assetid: 6239D855-7408-47ED-9090-E7726E7E403E
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: IVisualTreeService3 interface,RemoveDictionaryItem method, IVisualTreeService3.RemoveDictionaryItem, IVisualTreeService3::RemoveDictionaryItem, RemoveDictionaryItem, RemoveDictionaryItem method, RemoveDictionaryItem method,IVisualTreeService3 interface, xaml_diagnostics.ivisualtreeservice3_removedictionaryitem, xamlom/IVisualTreeService3::RemoveDictionaryItem
 req.header: xamlom.h
 req.include-header: 
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-	Removes an item from a <a href="/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
+	Removes an item from a <a href="/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8&preserve-view=true">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ The key of the resource to remove.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

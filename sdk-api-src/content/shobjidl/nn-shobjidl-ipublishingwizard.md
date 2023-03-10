@@ -54,10 +54,7 @@ Exposes methods for working with the Online Print Wizard, the Web Publishing Wiz
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPublishingWizard</b> interface inherits from <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iwizardextension">IWizardExtension</a>. <b>IPublishingWizard</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPublishingWizard</b> interface inherits from <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iwizardextension">IWizardExtension</a>. <b>IPublishingWizard</b> also has these types of members:
 
 ## -remarks
 

@@ -73,7 +73,7 @@ Specifies the y-coordinate, in logical units, of the new position, in logical un
 
 ### -param lppt [out]
 
-Pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the previous current position. If this parameter is a <b>NULL</b> pointer, the previous position is not returned.
+Pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that receives the previous current position. If this parameter is a <b>NULL</b> pointer, the previous position is not returned.
 
 ## -returns
 
@@ -110,7 +110,7 @@ For an example, see <a href="/windows/desktop/gdi/drawing-markers">Drawing Marke
 
 
 
-<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 

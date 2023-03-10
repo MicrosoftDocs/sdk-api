@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.WritePrivateProfileStructW
 title: WritePrivateProfileStructW function (winbase.h)
-description: Copies data into a key in the specified section of an initialization file. As it copies the data, the function calculates a checksum and appends it to the end of the data.
-helpviewer_keywords: ["WritePrivateProfileStruct","WritePrivateProfileStruct function","WritePrivateProfileStructA","WritePrivateProfileStructW","_win32_writeprivateprofilestruct","base.writeprivateprofilestruct","winbase/WritePrivateProfileStruct","winbase/WritePrivateProfileStructA","winbase/WritePrivateProfileStructW"]
+description: Copies data into a key in the specified section of an initialization file. As it copies the data, the function calculates a checksum and appends it to the end of the data. (Unicode)
+helpviewer_keywords: ["WritePrivateProfileStruct", "WritePrivateProfileStruct function", "WritePrivateProfileStructW", "_win32_writeprivateprofilestruct", "base.writeprivateprofilestruct", "winbase/WritePrivateProfileStruct", "winbase/WritePrivateProfileStructW"]
 old-location: base\writeprivateprofilestruct.htm
 tech.root: winprog
 ms.assetid: 21b1927c-40b0-4b79-931b-6d3db176fb71
@@ -60,11 +60,11 @@ Copies data into a key in the specified section of an initialization file. As it
 
 ### -param lpszSection [in]
 
-The name of the section to which the string will be copied. If the section does not exist, it is created. The name of the section is case independent, the string can be any combination of uppercase and lowercase letters.
+The name of the section to which the struct data will be copied. If the section does not exist, it is created. The name of the section is case independent.
 
 ### -param lpszKey [in]
 
-The name of the key to be associated with a string. If the key does not exist in the specified section, it is created. If this parameter is <b>NULL</b>, the entire section, including all keys and entries within the section, is deleted.
+The name of the key to be associated with a struct. If the key does not exist in the specified section, it is created. If this parameter is <b>NULL</b>, the entire section, including all keys and entries within the section, is deleted.
 
 ### -param lpStruct [in]
 
@@ -82,7 +82,7 @@ If the file was created using Unicode characters, the function writes Unicode ch
 
 ## -returns
 
-If the function successfully copies the string to the initialization file, the return value is nonzero.
+If the function successfully copies the struct to the initialization file, the return value is nonzero.
 
 If the function fails, or if it flushes the cached version of the most recently accessed initialization file, the return value is zero. To get extended error information, call 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -93,11 +93,17 @@ A section in the initialization file must have the following form:
 				
 			
 
-<pre class="syntax" xml:space="preserve"><code>[section]
-key=string
+
+
+``` syntax
+[section]
+key=struct
+
       .
       .
-      .</code></pre>
+      .
+```
+
 If the <i>szFile</i> parameter does not contain a full path and file name for the file, 
 <a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a> searches the Windows directory for the file. If the file does not exist, this function creates the file in the Windows directory.
 
@@ -106,7 +112,7 @@ If <i>szFile</i> contains a full path and file name and the file does not exist,
 
 The system keeps a cached version of the most recent registry file mapping to improve performance. If all parameters are <b>NULL</b>, the function flushes the cache. While the system is editing the cached version of the file, processes that edit the file itself will use the original file until the cache has been cleared.
 
-The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows NT</b>

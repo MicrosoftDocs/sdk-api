@@ -1,8 +1,8 @@
 ---
 UID: NF:winbase.WritePrivateProfileSectionW
 title: WritePrivateProfileSectionW function (winbase.h)
-description: Replaces the keys and values for the specified section in an initialization file.
-helpviewer_keywords: ["WritePrivateProfileSection","WritePrivateProfileSection function","WritePrivateProfileSectionA","WritePrivateProfileSectionW","_win32_writeprivateprofilesection","base.writeprivateprofilesection","winbase/WritePrivateProfileSection","winbase/WritePrivateProfileSectionA","winbase/WritePrivateProfileSectionW"]
+description: Replaces the keys and values for the specified section in an initialization file. (Unicode)
+helpviewer_keywords: ["WritePrivateProfileSection", "WritePrivateProfileSection function", "WritePrivateProfileSectionW", "_win32_writeprivateprofilesection", "base.writeprivateprofilesection", "winbase/WritePrivateProfileSection", "winbase/WritePrivateProfileSectionW"]
 old-location: base\writeprivateprofilesection.htm
 tech.root: winprog
 ms.assetid: 23f9e012-4196-437a-9e22-0524b37505b4
@@ -100,7 +100,7 @@ This operation is atomic; no operations that read from or write to the specified
 
 The system keeps a cached version of the most recent registry file mapping to improve performance. If all parameters are <b>NULL</b>, the function flushes the cache. While the system is editing the cached version of the file, processes that edit the file itself will use the original file until the cache has been cleared.
 
-The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows NT</b>

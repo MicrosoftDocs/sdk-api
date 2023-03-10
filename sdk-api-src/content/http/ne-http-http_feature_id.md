@@ -11,8 +11,8 @@ req.header: http.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
@@ -43,23 +43,23 @@ Defines constants that specify an identifier for an HTTP feature.
 
 ## -enum-fields
 
-### -field HttpFeatureUnknown
+### -field HttpFeatureUnknown:0
 
 Specifies an unknown feature.
 
-### -field HttpFeatureResponseTrailers
+### -field HttpFeatureResponseTrailers:1
 
 Specifies HTTP response trailers.
 
-### -field HttpFeatureApiTimings
+### -field HttpFeatureApiTimings:2
 
 Specifies HTTP API timings.
 
-### -field HttpFeatureDelegateEx
+### -field HttpFeatureDelegateEx:3
 
 Specifies a request for delegation.
 
-### -field HttpFeaturemax
+### -field HttpFeaturemax:0xFFFFFFFF
 
 Specifies the maximum number of supported features.
 

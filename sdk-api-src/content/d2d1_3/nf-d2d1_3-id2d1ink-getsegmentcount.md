@@ -52,7 +52,7 @@ api_name:
 
 Returns the number of segments in this ink object.
 
-## -parameters
+
 
 ## -returns
 

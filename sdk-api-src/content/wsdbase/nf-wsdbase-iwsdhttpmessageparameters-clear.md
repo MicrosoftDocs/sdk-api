@@ -52,7 +52,7 @@ api_name:
 
 Clears the HTTP headers used for SOAP-over-HTTP transmissions.
 
-## -parameters
+
 
 ## -returns
 

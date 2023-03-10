@@ -1,7 +1,7 @@
 ---
 UID: NN:wpcapi.IWindowsParentalControlsCore
 title: IWindowsParentalControlsCore (wpcapi.h)
-description: .
+description: . (IWindowsParentalControlsCore)
 helpviewer_keywords: ["IWindowsParentalControlsCore","IWindowsParentalControlsCore interface","IWindowsParentalControlsCore interface","described","parcon.iwindowsparentalcontrolscore","wpcapi/IWindowsParentalControlsCore"]
 old-location: parcon\iwindowsparentalcontrolscore.htm
 tech.root: parcon
@@ -54,8 +54,5 @@ The **IWindowsParentalControlsCore** interface is used to retrieve pointers for 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsParentalControlsCore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWindowsParentalControlsCore</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWindowsParentalControlsCore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWindowsParentalControlsCore</b> also has these types of members:
 

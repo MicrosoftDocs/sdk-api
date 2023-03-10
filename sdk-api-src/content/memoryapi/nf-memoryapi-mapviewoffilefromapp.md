@@ -1,7 +1,7 @@
 ---
 UID: NF:memoryapi.MapViewOfFileFromApp
 title: MapViewOfFileFromApp function (memoryapi.h)
-description: Maps a view of a file mapping into the address space of a calling Windows Store app.
+description: Maps a view of a file mapping into the address space of a calling Windows Store app. (MapViewOfFileFromApp)
 helpviewer_keywords: ["FILE_MAP_ALL_ACCESS","FILE_MAP_COPY","FILE_MAP_LARGE_PAGES","FILE_MAP_READ","FILE_MAP_TARGETS_INVALID","FILE_MAP_WRITE","MapViewOfFileFromApp","MapViewOfFileFromApp function","base.mapviewoffilefromapp","memoryapi/MapViewOfFileFromApp"]
 old-location: base\mapviewoffilefromapp.htm
 tech.root: base
@@ -22,7 +22,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
 targetos: Windows

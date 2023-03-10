@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegOpenKeyW
 title: RegOpenKeyW function (winreg.h)
-description: Opens the specified registry key.
-helpviewer_keywords: ["RegOpenKey","RegOpenKey function","RegOpenKeyA","RegOpenKeyW","_win32_regopenkey","base.regopenkey","winreg/RegOpenKey","winreg/RegOpenKeyA","winreg/RegOpenKeyW"]
+description: Opens the specified registry key. (Unicode)
+helpviewer_keywords: ["RegOpenKey", "RegOpenKey function", "RegOpenKeyW", "_win32_regopenkey", "base.regopenkey", "winreg/RegOpenKey", "winreg/RegOpenKeyW"]
 old-location: base\regopenkey.htm
 tech.root: winprog
 ms.assetid: bad0a0f8-1889-4eff-98be-084c95d69f3b
@@ -68,11 +68,11 @@ A handle to an open registry key. This handle is returned by the
 <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a> function, or it can be one of the following 
 <a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:
 
-<b>HKEY_CLASSES_ROOT</b>
-<b>HKEY_CURRENT_CONFIG</b>
-<b>HKEY_CURRENT_USER</b>
-<b>HKEY_LOCAL_MACHINE</b>
-<b>HKEY_USERS</b>
+* <b>HKEY_CLASSES_ROOT</b>
+* <b>HKEY_CURRENT_CONFIG</b>
+* <b>HKEY_CURRENT_USER</b>
+* <b>HKEY_LOCAL_MACHINE</b>
+* <b>HKEY_USERS</b>
 
 ### -param lpSubKey [in, optional]
 

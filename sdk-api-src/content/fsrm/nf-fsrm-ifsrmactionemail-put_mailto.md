@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.put_MailTo
 title: IFsrmActionEmail::put_MailTo (fsrm.h)
-description: Retrieves or sets the email address to which email is sent when this action generates email.
+description: Retrieves or sets the email address to which email is sent when this action generates email. (Put)
 helpviewer_keywords: ["IFsrmActionEmail interface [File Server Resource Manager]","MailTo property","IFsrmActionEmail.MailTo","IFsrmActionEmail.put_MailTo","IFsrmActionEmail2 interface [File Server Resource Manager]","MailTo property","IFsrmActionEmail2.MailTo","IFsrmActionEmail2::MailTo","IFsrmActionEmail2::get_MailTo","IFsrmActionEmail2::put_MailTo","IFsrmActionEmail::get_MailTo","IFsrmActionEmail::put_MailTo","MailTo property [File Server Resource Manager]","MailTo property [File Server Resource Manager]","IFsrmActionEmail interface","MailTo property [File Server Resource Manager]","IFsrmActionEmail2 interface","fs.ifsrmactionemail_mailto","fsrm.ifsrmactionemail_mailto","fsrm/IFsrmActionEmail2::MailTo","fsrm/IFsrmActionEmail2::get_MailTo","fsrm/IFsrmActionEmail2::put_MailTo","fsrm/IFsrmActionEmail::MailTo","fsrm/IFsrmActionEmail::get_MailTo","fsrm/IFsrmActionEmail::put_MailTo","put_MailTo"]
 old-location: fsrm\ifsrmactionemail_mailto.htm
 tech.root: fsrm

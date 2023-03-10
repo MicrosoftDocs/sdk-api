@@ -1,7 +1,7 @@
 ---
 UID: NS:commctrl.tagNMTBGETINFOTIPA
 title: NMTBGETINFOTIPA (commctrl.h)
-description: Contains and receives infotip information for a toolbar item. This structure is used with the TBN_GETINFOTIP notification code.
+description: Contains and receives infotip information for a toolbar item. This structure is used with the TBN_GETINFOTIP notification code. (ANSI)
 helpviewer_keywords: ["*LPNMTBGETINFOTIPA","LPNMTBGETINFOTIP","LPNMTBGETINFOTIP structure pointer [Windows Controls]","NMTBGETINFOTIP","NMTBGETINFOTIP structure [Windows Controls]","NMTBGETINFOTIPA","NMTBGETINFOTIPW","_win32_NMTBGETINFOTIP","_win32_NMTBGETINFOTIP_cpp","commctrl/LPNMTBGETINFOTIP","commctrl/NMTBGETINFOTIP","commctrl/NMTBGETINFOTIPA","commctrl/NMTBGETINFOTIPW","controls.NMTBGETINFOTIP","controls._win32_NMTBGETINFOTIP"]
 old-location: controls\NMTBGETINFOTIP.htm
 tech.root: Controls

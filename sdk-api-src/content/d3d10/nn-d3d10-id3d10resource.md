@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10Resource
 title: ID3D10Resource (d3d10.h)
-description: A resource interface provides common actions on all resources.
+description: A resource interface provides common actions on all resources. (ID3D10Resource)
 helpviewer_keywords: ["ID3D10Resource","ID3D10Resource interface [Direct3D 10]","ID3D10Resource interface [Direct3D 10]","described","a827797e-b4b8-c82b-c567-463061c6d963","d3d10/ID3D10Resource","direct3d10.id3d10resource"]
 old-location: direct3d10\id3d10resource.htm
 tech.root: direct3d10
@@ -55,10 +55,7 @@ A resource interface provides common actions on all <a href="/windows/desktop/di
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Resource</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>. <b>ID3D10Resource</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D10Resource</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>. <b>ID3D10Resource</b> also has these types of members:
 
 ## -remarks
 

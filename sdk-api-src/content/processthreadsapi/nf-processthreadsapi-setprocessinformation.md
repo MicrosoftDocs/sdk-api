@@ -4,7 +4,7 @@ title: SetProcessInformation function (processthreadsapi.h)
 description: Sets information for the specified process.
 helpviewer_keywords: ["SetProcessInformation","SetProcessInformation function","base.setprocessinformation","processthreadsapi/SetProcessInformation"]
 old-location: base\setprocessinformation.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 1739fadf-6b43-4b89-8a17-87d9867d5197
 ms.date: 12/05/2018
 ms.keywords: SetProcessInformation, SetProcessInformation function, base.setprocessinformation, processthreadsapi/SetProcessInformation
@@ -123,7 +123,11 @@ To help improve system performance, applications should use the
     higher priority pages. This improves overall system performance because higher priority pages are less likely to 
     be trimmed from the working set and then trigger a page fault when they are accessed again. 
 
-**ProcessPowerThrottling** enables throttling policies on a process, which can be used to balance out performance and power efficiency in cases where optimal performance is not required. When a proces opts in to throttling, the system will try to increase power efficiency through strategies such as capping CPU frequency or using more power efficient cores. Power throttling is typically used when the process is not contributing to the user experience, which provides longer battery life without obvious compromises to an application's performance. If an application doesn't explicitly handle power throttling, the system will use its own heuristics to automatically manage power throttling.
+**ProcessPowerThrottling** enables throttling policies on a process, which can be used to balance out performance and power efficiency in cases where optimal performance is not required. 
+
+When a process opts into enabling <code>PROCESS_POWER_THROTTLING_EXECUTION_SPEED</code>, the process will be classified as EcoQoS. The system will try to increase power efficiency through strategies such as reducing CPU frequency or using more power efficient cores. EcoQoS should be used when the work is not contributing to the foreground user experience, which provides longer battery life, and reduced heat and fan noise. EcoQoS should not be used for performance critical or foreground user experiences. (Prior to Windows 11, the EcoQoS level did not exist and the process was labeled as LowQoS). If an application does not explicitly enable <code>PROCESS_POWER_THROTTLING_EXECUTION_SPEED</code>, the system will use its own heuristics to automatically infer a Quality of Service level. For more information, see <a href="/windows/win32/procthread/quality-of-service">Quality of Service</a>.
+
+When a process opts into enabling <code>PROCESS_POWER_THROTTLING_IGNORE_TIMER_RESOLUTION</code>, any current timer resolution requests made by the process will be ignored. Timers belonging to the process are no longer guaranteed to expire with higher timer resolution, which can improve power efficiency. After explicitly disabling <code>PROCESS_POWER_THROTTLING_IGNORE_TIMER_RESOLUTION</code>, the system remembers and honors any previous timer resolution request by the process. By default in Windows 11 if a window owning process becomes fully occluded, minimized, or otherwise non-visible to the end user, and non-audible, Windows may automatically ignore the timer resolution request and thus does not guarantee a higher resolution than the default system resolution.
 
 #### Examples
 
@@ -132,7 +136,9 @@ The following example shows how to call
      <b>ProcessMemoryPriority</b> to set low memory priority as the default for the calling 
      process.
 
-<pre class="syntax" xml:space="preserve"><code>    DWORD ErrorCode;
+
+``` syntax
+    DWORD ErrorCode;
     BOOL Success;
     MEMORY_PRIORITY_INFORMATION MemPrio;
 
@@ -140,30 +146,35 @@ The following example shows how to call
     // Set low memory priority on the current process.
     //
 
-    ZeroMemory(&amp;MemPrio, sizeof(MemPrio));
+    ZeroMemory(&MemPrio, sizeof(MemPrio));
     MemPrio.MemoryPriority = MEMORY_PRIORITY_LOW;
 
     Success = SetProcessInformation(GetCurrentProcess(),
                                    ProcessMemoryPriority,
-                                   &amp;MemPrio,
+                                   &MemPrio,
                                    sizeof(MemPrio));
 
     if (!Success) {
         ErrorCode = GetLastError();
         fprintf(stderr, "Set process memory priority failed: %d\n", ErrorCode);
         goto cleanup;
-    }</code></pre>
+    }
+```
+
 The following example shows how to call 
      <b>SetProcessInformation</b> with 
-     <b>ProcessPowerThrottling</b> to enable throttling policies on a process. 
+     <b>ProcessPowerThrottling</b> to control the Quality of Service of a process. 
 
-<pre class="syntax" xml:space="preserve"><code>PROCESS_POWER_THROTTLING_STATE PowerThrottling;
-RtlZeroMemory(&amp;PowerThrottling, sizeof(PowerThrottling));
+
+``` syntax
+PROCESS_POWER_THROTTLING_STATE PowerThrottling;
+RtlZeroMemory(&PowerThrottling, sizeof(PowerThrottling));
 PowerThrottling.Version = PROCESS_POWER_THROTTLING_CURRENT_VERSION;
 
 //
-// Turn ExecutionSpeed throttling on. ControlMask selects the mechanism and
-// StateMask declares which mechanism should be on or off.
+// EcoQoS
+// Turn EXECUTION_SPEED throttling on. 
+// ControlMask selects the mechanism and StateMask declares which mechanism should be on or off.
 //
 
 PowerThrottling.ControlMask = PROCESS_POWER_THROTTLING_EXECUTION_SPEED;
@@ -171,12 +182,13 @@ PowerThrottling.StateMask = PROCESS_POWER_THROTTLING_EXECUTION_SPEED;
 
 SetProcessInformation(GetCurrentProcess(), 
                       ProcessPowerThrottling, 
-                      &amp;PowerThrottling, 
+                      &PowerThrottling,
                       sizeof(PowerThrottling));
 
 //
-// Turn ExecutionSpeed throttling off. ControlMask selects the mechanism and
-// StateMask is set to zero as mechanisms should be turned off.
+// HighQoS
+// Turn EXECUTION_SPEED throttling off. 
+// ControlMask selects the mechanism and StateMask is set to zero as mechanisms should be turned off.
 //
 
 PowerThrottling.ControlMask = PROCESS_POWER_THROTTLING_EXECUTION_SPEED;
@@ -184,8 +196,63 @@ PowerThrottling.StateMask = 0;
 
 SetProcessInformation(GetCurrentProcess(), 
                       ProcessPowerThrottling, 
-                      &amp;PowerThrottling, 
+                      &PowerThrottling,
                       sizeof(PowerThrottling));
+
+```
+
+
+The following example shows how to call 
+     <b>SetProcessInformation</b> with 
+     <b>ProcessPowerThrottling</b> to control the Timer Resolution of a process. 
+
+
+``` syntax
+PROCESS_POWER_THROTTLING_STATE PowerThrottling;
+RtlZeroMemory(&PowerThrottling, sizeof(PowerThrottling));
+PowerThrottling.Version = PROCESS_POWER_THROTTLING_CURRENT_VERSION;
+
+//
+// Ignore Timer Resolution Requests.
+// Turn IGNORE_TIMER_RESOLUTION throttling on. 
+// ControlMask selects the mechanism and StateMask declares which mechanism should be on or off.
+//
+
+PowerThrottling.ControlMask = PROCESS_POWER_THROTTLING_IGNORE_TIMER_RESOLUTION;
+PowerThrottling.StateMask = PROCESS_POWER_THROTTLING_IGNORE_TIMER_RESOLUTION;
+
+SetProcessInformation(GetCurrentProcess(), 
+                      ProcessPowerThrottling, 
+                      &PowerThrottling,
+                      sizeof(PowerThrottling));
+
+//
+// Always honor Timer Resolution Requests.
+// Turn IGNORE_TIMER_RESOLUTION throttling off. 
+// ControlMask selects the mechanism and StateMask is set to zero as mechanisms should be turned off.
+//
+
+PowerThrottling.ControlMask = PROCESS_POWER_THROTTLING_IGNORE_TIMER_RESOLUTION;
+PowerThrottling.StateMask = 0;
+
+SetProcessInformation(GetCurrentProcess(), 
+                      ProcessPowerThrottling, 
+                      &PowerThrottling,
+                      sizeof(PowerThrottling));
+
+```
+
+
+
+The following example shows how to call 
+     <b>SetProcessInformation</b> with 
+     <b>ProcessPowerThrottling</b> to reset to the default system managed behavior.
+
+
+``` syntax
+PROCESS_POWER_THROTTLING_STATE PowerThrottling;
+RtlZeroMemory(&PowerThrottling, sizeof(PowerThrottling));
+PowerThrottling.Version = PROCESS_POWER_THROTTLING_CURRENT_VERSION;
 
 //
 // Let system manage all power throttling. ControlMask is set to 0 as we don’t want 
@@ -197,9 +264,11 @@ PowerThrottling.StateMask = 0;
 
 SetProcessInformation(GetCurrentProcess(), 
                       ProcessPowerThrottling, 
-                      &amp;PowerThrottling, 
+                      &PowerThrottling,
                       sizeof(PowerThrottling));
- </code></pre>
+ 
+```
+
 
 ## -see-also
 

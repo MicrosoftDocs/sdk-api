@@ -1,7 +1,7 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.GetLinkSource
 title: IOleUILinkContainerA::GetLinkSource (oledlg.h)
-description: Retrieves information about a link that can be displayed in the Links dialog box.
+description: Retrieves information about a link that can be displayed in the Links dialog box. (ANSI)
 helpviewer_keywords: ["GetLinkSource","GetLinkSource method [COM]","GetLinkSource method [COM]","IOleUILinkContainer interface","GetLinkSource method [COM]","IOleUILinkContainerA interface","GetLinkSource method [COM]","IOleUILinkContainerW interface","IOleUILinkContainer interface [COM]","GetLinkSource method","IOleUILinkContainer::GetLinkSource","IOleUILinkContainerA interface [COM]","GetLinkSource method","IOleUILinkContainerA.GetLinkSource","IOleUILinkContainerA::GetLinkSource","IOleUILinkContainerW interface [COM]","GetLinkSource method","IOleUILinkContainerW::GetLinkSource","_ole_IOleUILinkContainer_GetLinkSource","com.ioleuilinkcontainer_getlinksource","oledlg/IOleUILinkContainer::GetLinkSource","oledlg/IOleUILinkContainerA::GetLinkSource","oledlg/IOleUILinkContainerW::GetLinkSource"]
 old-location: com\ioleuilinkcontainer_getlinksource.htm
 tech.root: com

@@ -54,10 +54,7 @@ Provides an interface for the implementation of drawing behaviors when a <a href
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVirtualSurfaceUpdatesCallbackNative</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVirtualSurfaceUpdatesCallbackNative</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IVirtualSurfaceUpdatesCallbackNative</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVirtualSurfaceUpdatesCallbackNative</b> also has these types of members:
 
 ## -remarks
 

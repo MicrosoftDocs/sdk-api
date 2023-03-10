@@ -53,7 +53,7 @@ api_name:
 
 The <code>WaitForEnd</code> method blocks the DVD Navigator until the command associated with this object completes or is canceled.
 
-## -parameters
+
 
 ## -returns
 

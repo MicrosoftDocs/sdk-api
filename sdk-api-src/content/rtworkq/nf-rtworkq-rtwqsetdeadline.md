@@ -1,7 +1,7 @@
 ---
 UID: NF:rtworkq.RtwqSetDeadline
 title: RtwqSetDeadline function (rtworkq.h)
-description: Sets a deadline by which the work in a work queue must be completed.
+description: Sets a deadline by which the work in a work queue must be completed. (RtwqSetDeadline)
 helpviewer_keywords: ["RtwqSetDeadline","RtwqSetDeadline function","base.rtwqsetdeadline","rtworkq/RtwqSetDeadline"]
 old-location: base\rtwqsetdeadline.htm
 tech.root: backup
@@ -60,7 +60,7 @@ The identifier for the work queue. The identifier is returned by the <a href="/w
 
 ### -param deadlineInHNS [in]
 
- The deadline for the work in the queue to be completed, in milliseconds.
+ The deadline for the work in the queue to be completed, in hundred-nanosecond units. For example, if `deadlineInHNS` is 9600, that represents 9600 hundred-nanoseconds, which is equal to 960 microseconds, or 0.96 milliseconds.
 
 ### -param pRequest [in, out]
 
@@ -68,7 +68,7 @@ Receives a handle to the request that can be used to cancel the request by calli
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

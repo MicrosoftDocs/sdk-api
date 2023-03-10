@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d11_4.ID3D11VideoDevice2.CheckFeatureSupport
 title: ID3D11VideoDevice2::CheckFeatureSupport
-description: Gets information about the features that are supported by the current video driver.
+description: Gets information about the features that are supported by the current video driver. (ID3D11VideoDevice2::CheckFeatureSupport)
 tech.root: direct3d11
 helpviewer_keywords: ["ID3D11VideoDevice2::CheckFeatureSupport"]
 ms.date: 4/26/2019
@@ -20,8 +20,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

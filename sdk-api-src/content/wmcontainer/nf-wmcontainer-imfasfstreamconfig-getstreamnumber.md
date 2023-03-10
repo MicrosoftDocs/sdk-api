@@ -53,7 +53,7 @@ api_name:
 
 Retrieves the stream number of the stream.
 
-## -parameters
+
 
 ## -returns
 

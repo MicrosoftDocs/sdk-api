@@ -1,7 +1,7 @@
 ---
 UID: NS:mmeapi.tagWAVEINCAPSA
 title: WAVEINCAPSA (mmeapi.h)
-description: The WAVEINCAPS structure describes the capabilities of a waveform-audio input device.
+description: The WAVEINCAPS structure describes the capabilities of a waveform-audio input device. (WAVEINCAPSA)
 helpviewer_keywords: ["*LPWAVEINCAPSA","*NPWAVEINCAPSA","*PWAVEINCAPSA","WAVEINCAPS","WAVEINCAPS structure [Windows Multimedia]","WAVEINCAPSA","_win32_WAVEINCAPS_str","mmeapi/WAVEINCAPS","multimedia.waveincaps","tagWAVEINCAPSA","tagWAVEINCAPSW","waveincaps_tag"]
 old-location: multimedia\waveincaps.htm
 tech.root: Multimedia

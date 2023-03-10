@@ -1,7 +1,7 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.get_Existing
 title: ICertSrvSetupKeyInformation::get_Existing (casetup.h)
-description: Gets or sets a value that indicates whether the private key already exists.
+description: Gets or sets a value that indicates whether the private key already exists. (Get)
 helpviewer_keywords: ["Existing property [Security]","Existing property [Security]","ICertSrvSetupKeyInformation interface","ICertSrvSetupKeyInformation interface [Security]","Existing property","ICertSrvSetupKeyInformation.Existing","ICertSrvSetupKeyInformation.get_Existing","ICertSrvSetupKeyInformation::Existing","ICertSrvSetupKeyInformation::get_Existing","ICertSrvSetupKeyInformation::put_Existing","casetup/ICertSrvSetupKeyInformation::Existing","casetup/ICertSrvSetupKeyInformation::get_Existing","casetup/ICertSrvSetupKeyInformation::put_Existing","get_Existing","security.icertsrvsetupkeyinformation_existing"]
 old-location: security\icertsrvsetupkeyinformation_existing.htm
 tech.root: security

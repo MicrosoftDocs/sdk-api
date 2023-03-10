@@ -1,7 +1,7 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_Direction
 title: ITPluggableTerminalClassRegistration::get_Direction (termmgr.h)
-description: The get_Direction method gets the direction supported by the terminal.
+description: The get_Direction method gets the direction supported by the terminal. (ITPluggableTerminalClassRegistration.get_Direction)
 helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","get_Direction method","ITPluggableTerminalClassRegistration.get_Direction","ITPluggableTerminalClassRegistration::get_Direction","_tapi3_itpluggableterminalclassregistration_get_direction","get_Direction","get_Direction method [TAPI 2.2]","get_Direction method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_get_direction","termmgr/ITPluggableTerminalClassRegistration::get_Direction"]
 old-location: tapi3\itpluggableterminalclassregistration_get_direction.htm
 tech.root: tapi3
@@ -62,7 +62,7 @@ The
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

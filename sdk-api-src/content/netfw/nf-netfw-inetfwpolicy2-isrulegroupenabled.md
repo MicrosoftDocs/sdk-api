@@ -1,7 +1,7 @@
 ---
 UID: NF:netfw.INetFwPolicy2.IsRuleGroupEnabled
 title: INetFwPolicy2::IsRuleGroupEnabled (netfw.h)
-description: Determines whether a specified group of firewall rules are enabled or disabled.
+description: Determines whether a specified group of firewall rules are enabled or disabled. (INetFwPolicy2.IsRuleGroupEnabled)
 helpviewer_keywords: ["INetFwPolicy2 interface [ICS/ICF]","IsRuleGroupEnabled method","INetFwPolicy2.IsRuleGroupEnabled","INetFwPolicy2::IsRuleGroupEnabled","IsRuleGroupEnabled","IsRuleGroupEnabled method [ICS/ICF]","IsRuleGroupEnabled method [ICS/ICF]","INetFwPolicy2 interface","ics.inetfwpolicy2_isrulegroupenabled","netfw/INetFwPolicy2::IsRuleGroupEnabled"]
 old-location: ics\inetfwpolicy2_isrulegroupenabled.htm
 tech.root: ics

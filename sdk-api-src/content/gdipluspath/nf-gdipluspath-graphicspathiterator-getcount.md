@@ -53,7 +53,7 @@ api_name:
 
 The <b>GraphicsPathIterator::GetCount</b> method returns the number of data points in the path.
 
-## -parameters
+
 
 ## -returns
 

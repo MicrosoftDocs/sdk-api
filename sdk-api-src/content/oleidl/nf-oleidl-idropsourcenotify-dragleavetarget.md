@@ -52,7 +52,7 @@ api_name:
 
 OLE calls this method when the user drags the mouse cursor out of a potential drop target window.
 
-## -parameters
+
 
 ## -returns
 

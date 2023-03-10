@@ -1,7 +1,7 @@
 ---
 UID: NF:mfidl.IMFSourceResolver.BeginCreateObjectFromByteStream
 title: IMFSourceResolver::BeginCreateObjectFromByteStream (mfidl.h)
-description: Begins an asynchronous request to create a media source from a byte stream.
+description: Begins an asynchronous request to create a media source from a byte stream. (IMFSourceResolver.BeginCreateObjectFromByteStream)
 helpviewer_keywords: ["6e218b93-4855-40dd-96cc-c4ee02792c14","BeginCreateObjectFromByteStream","BeginCreateObjectFromByteStream method [Media Foundation]","BeginCreateObjectFromByteStream method [Media Foundation]","IMFSourceResolver interface","IMFSourceResolver interface [Media Foundation]","BeginCreateObjectFromByteStream method","IMFSourceResolver.BeginCreateObjectFromByteStream","IMFSourceResolver::BeginCreateObjectFromByteStream","mf.imfsourceresolver_begincreateobjectfrombytestream","mfidl/IMFSourceResolver::BeginCreateObjectFromByteStream"]
 old-location: mf\imfsourceresolver_begincreateobjectfrombytestream.htm
 tech.root: mf
@@ -81,7 +81,7 @@ A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncca
 
 ### -param punkState [in]
 
-A oointer to the <b>IUnknown</b> interface of a state object, defined by the caller. This parameter can be <b>NULL</b>. You can use this object to hold state information. The object is returned to the caller when the callback is invoked.
+A pointer to the <b>IUnknown</b> interface of a state object, defined by the caller. This parameter can be <b>NULL</b>. You can use this object to hold state information. The object is returned to the caller when the callback is invoked.
 
 ## -returns
 

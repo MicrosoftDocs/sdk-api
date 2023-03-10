@@ -51,7 +51,9 @@ api_name:
 ## -description
 
 The <b>IPolicyQualifier</b> interface represents a qualifier that can be associated with a certificate policy. The following syntax shows the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structures that define <a href="/windows/desktop/SecGloss/c-gly">certificate policies</a> and their associated qualifiers. The value is encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and included in the <a href="/windows/desktop/SecGloss/c-gly">certificate request</a> with the policy object it qualifies.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ----------------------------------------------------------------------
 -- CertificatePolicies
 -- XCN_OID_CERT_POLICIES (2.5.29.32)
@@ -96,7 +98,9 @@ CpsURLs ::= SEQUENCE OF SEQUENCE
    digest              -- Not supported
 }
 
-</code></pre> Policy qualifiers can be used when an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) is considered insufficient to fully identify a policy. Qualifiers are defined by using the <b>IPolicyQualifier</b> interface and can be associated with a policy by adding qualifiers to the <a href="/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifiers">IPolicyQualifiers</a> collection retrieved from an  <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicy">ICertificatePolicy</a> object. A Windows <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> supports the following qualifiers.<table>
+
+```
+ Policy qualifiers can be used when an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) is considered insufficient to fully identify a policy. Qualifiers are defined by using the <b>IPolicyQualifier</b> interface and can be associated with a policy by adding qualifiers to the <a href="/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifiers">IPolicyQualifiers</a> collection retrieved from an  <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicy">ICertificatePolicy</a> object. A Windows <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> supports the following qualifiers.<table>
 <tr>
 <th>Value</th>
 <th>Description</th>
@@ -122,11 +126,7 @@ Unless one user notice in the chain duplicates another, all notices in the certi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPolicyQualifier</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IPolicyQualifier</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IPolicyQualifier</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IPolicyQualifier</b> also has these types of members:
 
 ## -see-also
 

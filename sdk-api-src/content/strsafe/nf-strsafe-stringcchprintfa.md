@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCchPrintfA
 title: StringCchPrintfA function (strsafe.h)
-description: Writes formatted data to the specified string.
-helpviewer_keywords: ["StringCchPrintf","StringCchPrintf function [Menus and Other Resources]","StringCchPrintfA","StringCchPrintfW","_shell_StringCchPrintf","_shell_stringcchprintf_cpp","menurc.stringcchprintf","strsafe/StringCchPrintf","strsafe/StringCchPrintfA","strsafe/StringCchPrintfW","winui._shell_stringcchprintf"]
+description: Writes formatted data to the specified string. (StringCchPrintfA)
+helpviewer_keywords: ["StringCchPrintfA", "strsafe/StringCchPrintfA"]
 old-location: menurc\stringcchprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchprintf.htm
@@ -141,7 +141,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-Compared to  the functions it replaces, <b>StringCchPrintf</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchPrintf</b>always null-terminates a nonzero-length destination buffer.
+Compared to  the functions it replaces, <b>StringCchPrintf</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchPrintf</b> always null-terminates a nonzero-length destination buffer.
 
 Behavior is undefined if the strings pointed to by <i>pszDest</i>, <i>pszFormat</i>, or any argument strings overlap.
 

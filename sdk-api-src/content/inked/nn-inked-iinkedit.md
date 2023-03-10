@@ -1,7 +1,7 @@
 ---
 UID: NN:inked.IInkEdit
 title: IInkEdit (inked.h)
-description: .
+description: . (IInkEdit)
 helpviewer_keywords: ["IInkEdit","IInkEdit interface [Tablet PC]","IInkEdit interface [Tablet PC]","described","inked/IInkEdit","tablet.iinkedit_"]
 old-location: tablet\iinkedit_.htm
 tech.root: tablet
@@ -47,17 +47,10 @@ api_name:
 
 # IInkEdit interface
 
-
 ## -description
 
-
+The **InkEdit** object enables you to collect ink, recognize ink, and display ink as text.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkEdit</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkEdit</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Events</a></li>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
+The **IInkEdit** interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. **IInkEdit** also has these types of members:

@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteFontList1
 title: IDWriteFontList1 (dwrite_3.h)
-description: Represents a list of fonts.
+description: Represents a list of fonts. (IDWriteFontList1)
 helpviewer_keywords: ["IDWriteFontList1","IDWriteFontList1 interface [Direct Write]","IDWriteFontList1 interface [Direct Write]","described","directwrite.idwritefontlist1","dwrite_3/IDWriteFontList1"]
 old-location: directwrite\idwritefontlist1.htm
 tech.root: DirectWrite
@@ -54,10 +54,7 @@ Represents a list of fonts.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontList1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>. <b>IDWriteFontList1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteFontList1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>. <b>IDWriteFontList1</b> also has these types of members:
 
 ## -see-also
 

@@ -54,15 +54,15 @@ For stereo 3D video, specifies whether the data in frame 0 or frame 1 is flipped
 
 ## -enum-fields
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_FLIP_NONE
+### -field D3D11_VIDEO_PROCESSOR_STEREO_FLIP_NONE:0
 
 Neither frame is flipped.
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_FLIP_FRAME0
+### -field D3D11_VIDEO_PROCESSOR_STEREO_FLIP_FRAME0:1
 
 The data in frame 0 is flipped.
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_FLIP_FRAME1
+### -field D3D11_VIDEO_PROCESSOR_STEREO_FLIP_FRAME1:2
 
 The data in frame 1 is flipped.
 

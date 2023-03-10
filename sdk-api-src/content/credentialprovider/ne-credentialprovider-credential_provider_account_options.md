@@ -54,15 +54,15 @@ Indicates the type of credential that a credential provider should return to ass
 
 ## -enum-fields
 
-### -field CPAO_NONE
+### -field CPAO_NONE:0
 
 Default. Do not return a credential to associate with the "Other user" tile.
 
-### -field CPAO_EMPTY_LOCAL
+### -field CPAO_EMPTY_LOCAL:0x1
 
 Return a credential to associate with the "Other user" tile. This credential can only be used for a local account.
 
-### -field CPAO_EMPTY_CONNECTED
+### -field CPAO_EMPTY_CONNECTED:0x2
 
 Return a credential to associate with the "Other user" tile. This credential can only be used for a Microsoft account.
 

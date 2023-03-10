@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.D3D12CreateDevice
 title: D3D12CreateDevice function (d3d12.h)
-description: Creates a device that represents the display adapter.
+description: Creates a device that represents the display adapter. (D3D12CreateDevice)
 helpviewer_keywords: ["D3D12CreateDevice","D3D12CreateDevice function","d3d12/D3D12CreateDevice","direct3d12.d3d12createdevice"]
 old-location: direct3d12\d3d12createdevice.htm
 tech.root: direct3d12
@@ -104,13 +104,15 @@ Direct3D 12 devices are singletons per adapter. If a Direct3D 12 device already 
 
 In order to be sure to pick up the first adapter that supports D3D12, use the following code. 
 
-<pre class="syntax" xml:space="preserve"><code>void GetHardwareAdapter(IDXGIFactory4* pFactory, IDXGIAdapter1** ppAdapter)
+
+``` syntax
+void GetHardwareAdapter(IDXGIFactory4* pFactory, IDXGIAdapter1** ppAdapter)
 {
     *ppAdapter = nullptr;
     for (UINT adapterIndex = 0; ; ++adapterIndex)
     {
         IDXGIAdapter1* pAdapter = nullptr;
-        if (DXGI_ERROR_NOT_FOUND == pFactory-&gt;EnumAdapters1(adapterIndex, &amp;pAdapter))
+        if (DXGI_ERROR_NOT_FOUND == pFactory->EnumAdapters1(adapterIndex, &pAdapter))
         {
             // No more adapters to enumerate.
             break;
@@ -123,10 +125,12 @@ In order to be sure to pick up the first adapter that supports D3D12, use the fo
             *ppAdapter = pAdapter;
             return;
         }
-        pAdapter-&gt;Release();
+        pAdapter->Release();
     }
 }
-</code></pre>
+
+```
+
 The function signature PFN_D3D12_CREATE_DEVICE is provided as a typedef, so that you can use dynamic linking techniques (<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>) instead of statically linking.
       
 

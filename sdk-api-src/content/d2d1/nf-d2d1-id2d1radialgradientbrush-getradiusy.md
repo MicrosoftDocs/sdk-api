@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the y-radius of the gradient ellipse.
 
-## -parameters
+
 
 ## -returns
 

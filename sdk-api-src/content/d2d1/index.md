@@ -4,7 +4,7 @@ title: D2D1.h header
 ms.assetid: 987984de-3b73-3b3f-8ffc-38d9e4024997
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: direct2d
 f1_keywords:
  - d2d1

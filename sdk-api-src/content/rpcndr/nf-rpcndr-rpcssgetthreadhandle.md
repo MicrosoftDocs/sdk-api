@@ -53,7 +53,7 @@ api_name:
 The 
 <b>RpcSsGetThreadHandle</b> function returns a thread handle for the stub memory–management environment.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasEnumConnectionsA
 title: RasEnumConnectionsA function (ras.h)
-description: The RasEnumConnections function lists all active RAS connections. It returns each connection's handle and phone-book entry name.
-helpviewer_keywords: ["RasEnumConnections","RasEnumConnections function [RAS]","RasEnumConnectionsA","RasEnumConnectionsW","_ras_rasenumconnections","ras/RasEnumConnections","ras/RasEnumConnectionsA","ras/RasEnumConnectionsW","rras.rasenumconnections"]
+description: The RasEnumConnections function lists all active RAS connections. It returns each connection's handle and phone-book entry name. (ANSI)
+helpviewer_keywords: ["RasEnumConnectionsA", "ras/RasEnumConnectionsA"]
 old-location: rras\rasenumconnections.htm
 tech.root: RRAS
 ms.assetid: b581cfbf-a55e-4f56-89cd-168aa23af550
@@ -108,7 +108,7 @@ If the function fails, the return value is from <a href="/windows/desktop/RRAS/r
 </dl>
 </td>
 <td width="60%">
-The <i>lprasconn</i> buffer is not large enough. The <i>lpcb</i>parameter is less than the <b>dwSize</b> member in the <i>lprasconn</i>parameter which is should be set prior to calling the function. The function returns the required buffer size in the variable pointed to by <i>lpcb</i>.
+The <i>lprasconn</i> buffer is not large enough. The <i>lpcb</i> parameter is less than the <b>dwSize</b> member in the <i>lprasconn</i> parameter which is should be set prior to calling the function. The function returns the required buffer size in the variable pointed to by <i>lpcb</i>.
 
 </td>
 </tr>

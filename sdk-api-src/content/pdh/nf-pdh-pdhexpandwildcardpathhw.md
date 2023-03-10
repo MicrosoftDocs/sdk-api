@@ -1,12 +1,12 @@
 ---
 UID: NF:pdh.PdhExpandWildCardPathHW
 title: PdhExpandWildCardPathHW function (pdh.h)
-description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters.This function is identical to the PdhExpandWildCardPath function, except that it supports the use of handles to data sources.
-helpviewer_keywords: ["PDH_NOEXPANDCOUNTERS","PDH_NOEXPANDINSTANCES","PdhExpandWildCardPathH","PdhExpandWildCardPathH function [Perf]","PdhExpandWildCardPathHA","PdhExpandWildCardPathHW","_win32_pdhexpandwildcardpathh","base.pdhexpandwildcardpathh","pdh/PdhExpandWildCardPathH","pdh/PdhExpandWildCardPathHA","pdh/PdhExpandWildCardPathHW","perf.pdhexpandwildcardpathh"]
+description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters.This function is identical to the PdhExpandWildCardPath function, except that it supports the use of handles to data sources. (Unicode)
+helpviewer_keywords: ["PDH_NOEXPANDCOUNTERS", "PDH_NOEXPANDINSTANCES", "PdhExpandWildCardPathH", "PdhExpandWildCardPathH function [Perf]", "PdhExpandWildCardPathHW", "_win32_pdhexpandwildcardpathh", "base.pdhexpandwildcardpathh", "pdh/PdhExpandWildCardPathH", "pdh/PdhExpandWildCardPathHW", "perf.pdhexpandwildcardpathh"]
 old-location: perf\pdhexpandwildcardpathh.htm
 tech.root: perf
 ms.assetid: d7d13beb-02ab-4204-808e-d395197f09e1
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: PDH_NOEXPANDCOUNTERS, PDH_NOEXPANDINSTANCES, PdhExpandWildCardPathH, PdhExpandWildCardPathH function [Perf], PdhExpandWildCardPathHA, PdhExpandWildCardPathHW, _win32_pdhexpandwildcardpathh, base.pdhexpandwildcardpathh, pdh/PdhExpandWildCardPathH, pdh/PdhExpandWildCardPathHA, pdh/PdhExpandWildCardPathHW, perf.pdhexpandwildcardpathh
 req.header: pdh.h
 req.include-header: 
@@ -112,6 +112,15 @@ Do not expand the instance name if the path contains a wildcard character for pa
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="PDH_REFRESHCOUNTERS"></a><a id="pdh_PDH_REFRESHCOUNTERS"></a><dl>
+<dt><b>PDH_REFRESHCOUNTERS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Refresh the counter list.
+</td>
+</tr>
 </table>
 
 ## -returns
@@ -215,7 +224,7 @@ If a wildcard character is specified in the counter name, all counters of the sp
 
 Partial counter path string matches (for example, "pro*") are  supported.
 
-<b>Prior to Windows Vista:  </b>Partial wildcard matches are not supprted.
+<b>Prior to Windows Vista:  </b>Partial wildcard matches are not supported.
 
 
 
@@ -226,12 +235,10 @@ Partial counter path string matches (for example, "pro*") are  supported.
 
 ## -see-also
 
-<a href="/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a>
+[PdhBindInputDataSourceA function](nf-pdh-pdhbindinputdatasourcea.md)
 
+[PdhEnumObjectItemsHA function](nf-pdh-pdhenumobjectitemsha.md)
 
+[PdhEnumObjectsHA function](nf-pdh-pdhenumobjectsha.md)
 
-<a href="/windows/desktop/api/pdh/nf-pdh-pdhenumobjectitemsha">PdhEnumObjectItemsH</a>
-
-
-
-<a href="/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsha">PdhEnumObjectsH</a>
+[PdhExpandWildCardPathW function](nf-pdh-pdhexpandwildcardpathw.md)

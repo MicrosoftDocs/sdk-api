@@ -1,12 +1,12 @@
 ---
 UID: NF:immdev.ImmConfigureIMEA
 title: ImmConfigureIMEA function (immdev.h)
-description: Displays the configuration dialog box for the IME of the specified input locale identifier.
-helpviewer_keywords: ["IME_CONFIG_GENERAL","IME_CONFIG_REGISTERWORD","IME_CONFIG_SELECTDICTIONARY","ImmConfigureIME","ImmConfigureIME function [Internationalization for Windows Applications]","ImmConfigureIMEA","ImmConfigureIMEW","_win32_ImmConfigureIME","imm/ImmConfigureIME","imm/ImmConfigureIMEA","imm/ImmConfigureIMEW","intl.immconfigureime"]
+description: The ImmConfigureIMEA (ANSI) function (immdev.h) displays the configuration dialog box for the IME of the specified input locale identifier.
+helpviewer_keywords: ["IME_CONFIG_GENERAL", "IME_CONFIG_REGISTERWORD", "IME_CONFIG_SELECTDICTIONARY", "ImmConfigureIMEA"]
 old-location: intl\immconfigureime.htm
 tech.root: Intl
 ms.assetid: acefb3a0-82c7-4af6-8ef0-aba561f570c1
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: IME_CONFIG_GENERAL, IME_CONFIG_REGISTERWORD, IME_CONFIG_SELECTDICTIONARY, ImmConfigureIME, ImmConfigureIME function [Internationalization for Windows Applications], ImmConfigureIMEA, ImmConfigureIMEW, _win32_ImmConfigureIME, imm/ImmConfigureIME, imm/ImmConfigureIMEA, imm/ImmConfigureIMEW, intl.immconfigureime
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h

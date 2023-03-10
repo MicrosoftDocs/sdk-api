@@ -1,7 +1,7 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_Schedule
 title: ISearchRoot::get_Schedule (searchapi.h)
-description: Not implemented.
+description: Not implemented. (ISearchRoot.get_Schedule)
 helpviewer_keywords: ["ISearchRoot interface [search]","get_Schedule method","ISearchRoot.get_Schedule","ISearchRoot::get_Schedule","_search_ISearchRoot_get_Schedule","get_Schedule","get_Schedule method [search]","get_Schedule method [search]","ISearchRoot interface","search._search_ISearchRoot_get_Schedule","searchapi/ISearchRoot::get_Schedule"]
 old-location: search\_search_ISearchRoot_get_Schedule.htm
 tech.root: search
@@ -64,7 +64,7 @@ Returns the address of a pointer to a null-terminated, Unicode buffer that conta
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

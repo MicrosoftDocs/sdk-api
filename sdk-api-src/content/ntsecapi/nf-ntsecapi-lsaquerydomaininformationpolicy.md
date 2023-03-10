@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>LsaQueryDomainInformationPolicy</b> function retrieves domain information from the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a>object.
+The <b>LsaQueryDomainInformationPolicy</b> function retrieves domain information from the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ A handle to the <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> obje
 
 ### -param InformationClass [in]
 
-<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_domain_information_class">POLICY_DOMAIN_INFORMATION_CLASS</a> enumeration that specifies the information to be returned from the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a>object. The following table shows the possible values.
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_domain_information_class">POLICY_DOMAIN_INFORMATION_CLASS</a> enumeration that specifies the information to be returned from the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object. The following table shows the possible values.
 
 <table>
 <tr>
@@ -122,4 +122,4 @@ The policy database is
 
 ## -remarks
 
-The POLICY_VIEW_LOCAL_INFORMATION access type is required to retrieve domain information from the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a>object. For more information, see <a href="/windows/desktop/SecMgmt/policy-object-access-rights">Policy Object Access Rights</a>.
+The POLICY_VIEW_LOCAL_INFORMATION access type is required to retrieve domain information from the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object. For more information, see <a href="/windows/desktop/SecMgmt/policy-object-access-rights">Policy Object Access Rights</a>.

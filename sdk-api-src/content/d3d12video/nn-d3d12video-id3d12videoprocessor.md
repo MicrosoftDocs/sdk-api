@@ -45,7 +45,7 @@ Provides methods for getting information about the parameters to the call to [ID
 
 ## -inheritance
 
-**ID3D12VideoProcessor** interits from [ID3D12Pageable](/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable).
+**ID3D12VideoProcessor** inherits from [ID3D12Pageable](/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable).
 
 ## -remarks
 

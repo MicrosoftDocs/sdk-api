@@ -111,7 +111,7 @@ Specifies the size, in bytes, of the user data buffer provided in <i>pUserData</
 
 A pointer to the user data specific to this authentication used to   pre-populate the user data.
 When this API is called for the first time, or when a new authentication session starts, this parameter is <b>NULL</b>.
-Otherwise, set this parameter to the <b>pUserData</b> member of the structure pointed to by the<i>ppResult</i> parameter received by <b>EapPeerGetResult</b>.
+Otherwise, set this parameter to the <b>pUserData</b> member of the structure pointed to by the <i>ppResult</i> parameter received by <b>EapPeerGetResult</b>.
 
 
 
@@ -129,7 +129,7 @@ Returns <b>TRUE</b> if the user identity and user data blob are not returned suc
 
 #### pdwSizeOfUserDataOut
 
-Specifies the size, in bytes, of the <i>ppUserDataOut</i>buffer.
+Specifies the size, in bytes, of the <i>ppUserDataOut</i> buffer.
 
 
 

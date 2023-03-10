@@ -54,9 +54,9 @@ The <b>IWMPControls3</b> interface provides methods that supplement the <b>IWMPC
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPControls3</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols2">IWMPControls2</a>. <b>IWMPControls3</b> also has these types of members:
+The <b>IWMPControls3</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols2">IWMPControls2</a>. <b>IWMPControls3</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

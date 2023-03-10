@@ -1,7 +1,7 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_CryptAttributes
 title: IX509CertificateRequestPkcs10::get_CryptAttributes (certenroll.h)
-description: Retrieves an ICryptAttributes collection of optional certificate attributes.
+description: Retrieves an ICryptAttributes collection of optional certificate attributes. (IX509CertificateRequestPkcs10.get_CryptAttributes)
 helpviewer_keywords: ["CryptAttributes property [Security]","CryptAttributes property [Security]","IX509CertificateRequestPkcs10 interface","IX509CertificateRequestPkcs10 interface [Security]","CryptAttributes property","IX509CertificateRequestPkcs10.CryptAttributes","IX509CertificateRequestPkcs10.get_CryptAttributes","IX509CertificateRequestPkcs10::CryptAttributes","IX509CertificateRequestPkcs10::get_CryptAttributes","certenroll/IX509CertificateRequestPkcs10::CryptAttributes","certenroll/IX509CertificateRequestPkcs10::get_CryptAttributes","get_CryptAttributes","security.ix509certificaterequestpkcs10_cryptattributes_property"]
 old-location: security\ix509certificaterequestpkcs10_cryptattributes_property.htm
 tech.root: security

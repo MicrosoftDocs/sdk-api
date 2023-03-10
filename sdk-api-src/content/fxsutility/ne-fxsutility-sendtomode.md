@@ -1,5 +1,5 @@
 ---
-UID: NE:fxsutility.__unnamed_enum_0
+UID: NE:fxsutility.SendToMode
 title: SendToMode (fxsutility.h)
 description: Defines the way a file will be faxed from within an application. With Windows Vista there is only one possible value.
 helpviewer_keywords: ["SEND_TO_FAX_RECIPIENT_ATTACHMENT","SendToMode","SendToMode enumeration [Fax Service]","_mfax_sendtomode","fax._mfax_sendtomode","fxsutility/SEND_TO_FAX_RECIPIENT_ATTACHMENT","fxsutility/SendToMode"]
@@ -69,3 +69,4 @@ This enumeration is used primarily as a parameter for the <a href="/previous-ver
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-shell-fax-extension-functions">Shell Fax Extension Functions</a>
+

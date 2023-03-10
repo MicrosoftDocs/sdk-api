@@ -1,12 +1,12 @@
 ---
 UID: NS:vds._VDS_PATH_ID
 title: VDS_PATH_ID (vds.h)
-description: Defines a unique identification for a path.
+description: The VDS_PATH_ID structure (vds.h) defines a unique identification for a path.  
 helpviewer_keywords: ["VDS_PATH_ID","VDS_PATH_ID structure [VDS]","base.vds_path_id","vds/VDS_PATH_ID","vdshwprv/VDS_PATH_ID"]
 old-location: base\vds_path_id.htm
 tech.root: base
 ms.assetid: bfb786fc-eb03-4449-b631-fb85813c08c8
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_PATH_ID, VDS_PATH_ID structure [VDS], base.vds_path_id, vds/VDS_PATH_ID, vdshwprv/VDS_PATH_ID
 req.header: vds.h
 req.include-header: 
@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines a unique 
    identification for a path.

@@ -1,15 +1,15 @@
 ---
 UID: NN:directml.IDMLDevice1
 title: IDMLDevice1
-description: Represents a DirectML device, which is used to create operators, binding tables, command recorders, and other objects.
+description: Represents a DirectML device, which is used to create operators, binding tables, command recorders, and other objects. (IDMLDevice1)
 helpviewer_keywords: ["IDMLDevice1","IDMLDevice1 interface","IDMLDevice1 interface","described","direct3d12.idmldevice1","directml/IDMLDevice1"]
 tech.root: directml
 ms.date: 11/04/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

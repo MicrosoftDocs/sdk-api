@@ -1,8 +1,8 @@
 ---
 UID: NF:winreg.RegDeleteValueW
 title: RegDeleteValueW function (winreg.h)
-description: Removes a named value from the specified registry key.
-helpviewer_keywords: ["RegDeleteValue","RegDeleteValue function","RegDeleteValueA","RegDeleteValueW","_win32_regdeletevalue","base.regdeletevalue","winreg/RegDeleteValue","winreg/RegDeleteValueA","winreg/RegDeleteValueW"]
+description: Removes a named value from the specified registry key. (Unicode)
+helpviewer_keywords: ["RegDeleteValue", "RegDeleteValue function", "RegDeleteValueW", "_win32_regdeletevalue", "base.regdeletevalue", "winreg/RegDeleteValue", "winreg/RegDeleteValueW"]
 old-location: base\regdeletevalue.htm
 tech.root: winprog
 ms.assetid: 4393b4ef-cd10-40d4-bb12-2d84e7cb7d3c
@@ -77,7 +77,7 @@ This handle is returned by the
 <a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:
 
 
-<pre xml:space="preserve"><b></b>
+<pre><b></b>
    <b>HKEY_CLASSES_ROOT</b>
    <b>HKEY_CURRENT_CONFIG</b>
    <b>HKEY_CURRENT_USER</b>

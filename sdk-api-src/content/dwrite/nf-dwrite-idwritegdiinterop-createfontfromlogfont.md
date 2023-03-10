@@ -1,7 +1,7 @@
 ---
 UID: NF:dwrite.IDWriteGdiInterop.CreateFontFromLOGFONT
 title: IDWriteGdiInterop::CreateFontFromLOGFONT (dwrite.h)
-description: Creates a font object that matches the properties specified by the LOGFONT structure.
+description: Creates a font object that matches the properties specified by the LOGFONT structure. (IDWriteGdiInterop.CreateFontFromLOGFONT)
 helpviewer_keywords: ["CreateFontFromLOGFONT","CreateFontFromLOGFONT method [Direct Write]","CreateFontFromLOGFONT method [Direct Write]","IDWriteGdiInterop interface","IDWriteGdiInterop interface [Direct Write]","CreateFontFromLOGFONT method","IDWriteGdiInterop.CreateFontFromLOGFONT","IDWriteGdiInterop::CreateFontFromLOGFONT","directwrite.IDWriteGdiInterop_CreateFontFromLOGFONT","dwrite/IDWriteGdiInterop::CreateFontFromLOGFONT"]
 old-location: directwrite\IDWriteGdiInterop_CreateFontFromLOGFONT.htm
 tech.root: DirectWrite
@@ -70,7 +70,7 @@ When this method returns, contains an address of a  pointer to a newly created <
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

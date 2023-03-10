@@ -52,7 +52,7 @@ api_name:
 
 Returns to the beginning of the enumeration sequence.
 
-## -parameters
+
 
 ## -returns
 

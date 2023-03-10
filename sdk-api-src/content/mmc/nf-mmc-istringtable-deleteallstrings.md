@@ -52,7 +52,7 @@ api_name:
 
 The <b>IStringTable::DeleteAllStrings</b> method enables a snap-in to delete all strings from the snap-in's string table.
 
-## -parameters
+
 
 ## -returns
 

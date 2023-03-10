@@ -4,6 +4,6 @@
     "dcomp.h",
     "dcompanimation.h",
     "dcomptypes.h"
-  ],
+ ],
   "displayName": "DirectComposition"
 }

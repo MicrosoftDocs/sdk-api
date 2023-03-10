@@ -57,9 +57,9 @@ The <b>IScanningTuner</b> interface is implemented on the <a href="/previous-ver
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IScanningTuner</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/bda-network-provider-filter">ITuner</a>. <b>IScanningTuner</b> also has these types of members:
+The <b>IScanningTuner</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/bda-network-provider-filter">ITuner</a>. <b>IScanningTuner</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

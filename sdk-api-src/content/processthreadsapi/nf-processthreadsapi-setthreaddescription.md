@@ -4,7 +4,7 @@ title: SetThreadDescription function (processthreadsapi.h)
 description: Assigns a description to a thread.
 helpviewer_keywords: ["SetThreadDescription","SetThreadDescription function","base.setthreaddescription","processthreadsapi/SetThreadDescription"]
 old-location: base\setthreaddescription.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: 0C17C60A-8DC9-4DB1-A3ED-5AFEBE598CBB
 ms.date: 12/05/2018
 ms.keywords: SetThreadDescription, SetThreadDescription function, base.setthreaddescription, processthreadsapi/SetThreadDescription

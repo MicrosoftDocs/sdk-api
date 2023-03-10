@@ -59,7 +59,7 @@ api_name:
 
 Returns the <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> of the Region Format setting for the current user.
 
-## -parameters
+
 
 ## -returns
 

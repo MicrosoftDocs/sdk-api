@@ -55,7 +55,7 @@ api_name:
 
 The <b>PreDecode</b> method is called by the reader object before a sample from the output to which the <b>IWMPlayerHook</b> interface is assigned is passed to the video processor for decoding.
 
-## -parameters
+
 
 ## -returns
 

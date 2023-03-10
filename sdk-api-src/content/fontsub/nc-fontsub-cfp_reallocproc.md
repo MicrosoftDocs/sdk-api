@@ -65,7 +65,7 @@ Returns a void pointer to the reallocated (and possibly moved) memory block. The
 
 ## -remarks
 
-<a href="/previous-versions/visualstudio/visual-studio-2010/xbebcx7d(v=vs.100)">realloc</a>conforms to this type; the application can either use <b>realloc</b> or a more specialized function for memory reallocation. Whatever function is chosen, there must also be appropriate functions for initial allocation and to free this memory.
+<a href="/previous-versions/visualstudio/visual-studio-2010/xbebcx7d(v=vs.100)">realloc</a> conforms to this type; the application can either use <b>realloc</b> or a more specialized function for memory reallocation. Whatever function is chosen, there must also be appropriate functions for initial allocation and to free this memory.
 
 ## -see-also
 

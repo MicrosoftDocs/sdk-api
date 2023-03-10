@@ -54,7 +54,7 @@ Specifies the case requirements of keywords, if any, for a query.
 
 ## -enum-fields
 
-### -field CASE_REQUIREMENT_ANY
+### -field CASE_REQUIREMENT_ANY:0
 
 Keywords are recognized regardless of case.
 

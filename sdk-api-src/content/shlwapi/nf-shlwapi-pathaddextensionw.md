@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.PathAddExtensionW
 title: PathAddExtensionW function (shlwapi.h)
-description: Adds a file name extension to a path string.
-helpviewer_keywords: ["PathAddExtension","PathAddExtension function [Windows Shell]","PathAddExtensionA","PathAddExtensionW","_win32_PathAddExtension","shell.PathAddExtension","shlwapi/PathAddExtension","shlwapi/PathAddExtensionA","shlwapi/PathAddExtensionW"]
+description: Adds a file name extension to a path string. (Unicode)
+helpviewer_keywords: ["PathAddExtension", "PathAddExtension function [Windows Shell]", "PathAddExtensionW", "_win32_PathAddExtension", "shell.PathAddExtension", "shlwapi/PathAddExtension", "shlwapi/PathAddExtensionW"]
 old-location: shell\PathAddExtension.htm
 tech.root: shell
 ms.assetid: 2c113d11-11d5-4362-bad5-c859d65aca2a

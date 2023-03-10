@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.GetChildren
 title: IUIAutomationTextRange::GetChildren (uiautomationclient.h)
-description: Retrieves a collection of all embedded objects that fall within the text range.
+description: Retrieves a collection of all embedded objects that fall within the text range. (IUIAutomationTextRange.GetChildren)
 helpviewer_keywords: ["GetChildren","GetChildren method [Windows Accessibility]","GetChildren method [Windows Accessibility]","IUIAutomationTextRange interface","IUIAutomationTextRange interface [Windows Accessibility]","GetChildren method","IUIAutomationTextRange.GetChildren","IUIAutomationTextRange::GetChildren","uiauto.uiauto_IUIAutomationTextRange_GetChildren","uiauto_IUIAutomationTextRange_GetChildren","uiautomationclient/IUIAutomationTextRange::GetChildren","winauto.uiauto_IUIAutomationTextRange_GetChildren"]
 old-location: winauto\uiauto_IUIAutomationTextRange_GetChildren.htm
 tech.root: WinAuto
@@ -64,7 +64,7 @@ Receives a pointer to the collection of all child objects that fall within the r
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NN:xenroll.IEnroll2
 title: IEnroll2 (xenroll.h)
-description: Represents the Certificate Enrollment Control and is used primarily to generate certificate requests.
+description: Represents the Certificate Enrollment Control and is used primarily to generate certificate requests. (IEnroll2)
 helpviewer_keywords: ["IEnroll2","IEnroll2 interface [Security]","IEnroll2 interface [Security]","described","security.ienroll2","xenroll/IEnroll2"]
 old-location: security\ienroll2.htm
 tech.root: security
@@ -56,11 +56,7 @@ The <b>IEnroll2</b> interface represents the Certificate Enrollment Control and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnroll2</b> interface inherits from <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a>. <b>IEnroll2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IEnroll2</b> interface inherits from <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a>. <b>IEnroll2</b> also has these types of members:
 
 ## -see-also
 

@@ -55,7 +55,7 @@ api_name:
 The 
 <b>SetupOpenFileQueue</b> function creates a setup file queue.
 
-## -parameters
+
 
 ## -returns
 

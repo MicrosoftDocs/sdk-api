@@ -4,7 +4,7 @@ tech.root: dlgbox
 title: DefDlgProcA
 ms.date: 04/14/2021
 targetos: Windows
-description: Calls the default dialog box window procedure to provide default processing for any window messages that a dialog box with a private window class does not process.
+description: Calls the default dialog box window procedure to provide default processing for any window messages that a dialog box with a private window class does not process. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -55,7 +55,7 @@ Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputP
 
 Sends collected ink to the recognizer and posts the recognition result.
 
-## -parameters
+
 
 ## -returns
 

@@ -62,10 +62,7 @@ An app obtains a pointer to this interface by calling TSF manager <a href="/wind
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnGetLinguisticAlternates</b> interface inherits from <a href="/windows/desktop/api/msctf/nn-msctf-itffunction">ITfFunction</a>. <b>ITfFnGetLinguisticAlternates</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITfFnGetLinguisticAlternates</b> interface inherits from <a href="/windows/desktop/api/msctf/nn-msctf-itffunction">ITfFunction</a>. <b>ITfFnGetLinguisticAlternates</b> also has these types of members:
 
 ## -see-also
 

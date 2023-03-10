@@ -59,7 +59,7 @@ api_name:
 
 The <b>GetBSTR</b> method gets the time span as a <b>BSTR</b> in <a href="/windows/desktop/WmiSdk/date-and-time-format">Date and Time format</a>.
 
-## -parameters
+
 
 ## -returns
 

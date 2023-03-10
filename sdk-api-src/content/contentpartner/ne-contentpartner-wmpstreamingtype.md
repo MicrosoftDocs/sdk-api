@@ -56,19 +56,19 @@ The <b>WMPStreamingType</b> enumeration specifies the type of streaming media.
 
 ## -enum-fields
 
-### -field wmpstUnknown
+### -field wmpstUnknown:0
 
 Unknown type.
 
-### -field wmpstMusic
+### -field wmpstMusic:1
 
 The plug-in must return a URL for music content.
 
-### -field wmpstVideo
+### -field wmpstVideo:2
 
 The plug-in must return a URL for video content.
 
-### -field wmpstRadio
+### -field wmpstRadio:3
 
 The plug-in must return a URL for radio content.
 

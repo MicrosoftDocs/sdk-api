@@ -1,8 +1,8 @@
 ---
 UID: NF:msiquery.MsiGetPropertyA
 title: MsiGetPropertyA function (msiquery.h)
-description: The MsiGetProperty function gets the value for an installer property.
-helpviewer_keywords: ["MsiGetProperty","MsiGetProperty function","MsiGetPropertyA","MsiGetPropertyW","_msi_msigetproperty","msiquery/MsiGetProperty","msiquery/MsiGetPropertyA","msiquery/MsiGetPropertyW","setup.msigetproperty"]
+description: The MsiGetProperty function gets the value for an installer property. (ANSI)
+helpviewer_keywords: ["MsiGetPropertyA", "msiquery/MsiGetPropertyA"]
 old-location: setup\msigetproperty.htm
 tech.root: setup
 ms.assetid: f2844673-3440-4b43-a9d0-31b9e8086f6f
@@ -67,11 +67,11 @@ A null-terminated string that specifies the name of the property.
 
 ### -param szValueBuf [out]
 
-Pointer to the buffer that receives the null terminated string containing the value of the property. Do not attempt to determine the size of the buffer by passing in a null (value=0) for <i>szValueBuf</i>. You can get the size of the buffer by passing in an empty string (for example ""). The function will then return ERROR_MORE_DATA and <i>pchValueBuf </i>will contain the required buffer size in TCHARs, not including the terminating null character. On return of ERROR_SUCCESS, <i>pcchValueBuf </i>contains the number of TCHARs written to the buffer, not including the terminating null character.
+Pointer to the buffer that receives the null terminated string containing the value of the property. Do not attempt to determine the size of the buffer by passing in a null (value=0) for <i>szValueBuf</i>. You can get the size of the buffer by passing in an empty string (for example ""). The function will then return ERROR_MORE_DATA and <i>pchValueBuf </i> will contain the required buffer size in TCHARs, not including the terminating null character. On return of ERROR_SUCCESS, <i>pcchValueBuf </i> contains the number of TCHARs written to the buffer, not including the terminating null character.
 
 ### -param pcchValueBuf [in, out]
 
-Pointer to the variable that specifies the size, in TCHARs, of the buffer pointed to by the variable <i>szValueBuf</i>. When the function returns ERROR_SUCCESS, this variable contains the size of the data copied to <i>szValueBuf</i>, not including the terminating null character. If <i>szValueBuf </i>is not large enough, the function returns ERROR_MORE_DATA and stores the required size, not including the terminating null character, in the variable pointed to by <i>pchValueBuf</i>.
+Pointer to the variable that specifies the size, in TCHARs, of the buffer pointed to by the variable <i>szValueBuf</i>. When the function returns ERROR_SUCCESS, this variable contains the size of the data copied to <i>szValueBuf</i>, not including the terminating null character. If <i>szValueBuf </i> is not large enough, the function returns ERROR_MORE_DATA and stores the required size, not including the terminating null character, in the variable pointed to by <i>pchValueBuf</i>.
 
 ## -returns
 

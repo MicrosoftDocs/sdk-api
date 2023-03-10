@@ -68,9 +68,13 @@ After an application has finished drawing with the new font object, it should al
 
 The <b>SelectFont</b> macro is equivalent to calling <a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> as follows:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ((HFONT) SelectObject((hdc), (HGDIOBJ)(HFONT)(hfont)))
-</code></pre>
+
+```
+
 
 ## -see-also
 

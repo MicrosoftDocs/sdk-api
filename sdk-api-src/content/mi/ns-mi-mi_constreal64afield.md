@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ConstReal64AField
 title: MI_ConstReal64AField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_ConstReal64AField)
 helpviewer_keywords: ["MI_ConstReal64AField","MI_ConstReal64AField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_ConstReal64AField","wmi._mi_constreal64afield","wmi_v2.mi_constreal64afield"]
 old-location: wmi_v2\mi_constreal64afield.htm
 tech.root: wmi_v2

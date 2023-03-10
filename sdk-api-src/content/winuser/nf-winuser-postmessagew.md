@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.PostMessageW
 title: PostMessageW function (winuser.h)
-description: Places (posts) a message in the message queue associated with the thread that created the specified window and returns without waiting for the thread to process the message.
-helpviewer_keywords: ["HWND_BROADCAST","PostMessage","PostMessage function [Windows and Messages]","PostMessageA","PostMessageW","_win32_PostMessage","_win32_postmessage_cpp","winmsg.postmessage","winui._win32_postmessage","winuser/PostMessage","winuser/PostMessageA","winuser/PostMessageW"]
+description: Places (posts) a message in the message queue associated with the thread that created the specified window and returns without waiting for the thread to process the message. (Unicode)
+helpviewer_keywords: ["HWND_BROADCAST", "PostMessage", "PostMessage function [Windows and Messages]", "PostMessageW", "_win32_PostMessage", "_win32_postmessage_cpp", "winmsg.postmessage", "winui._win32_postmessage", "winuser/PostMessage", "winuser/PostMessageW"]
 old-location: winmsg\postmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postmessage.htm
@@ -155,7 +155,7 @@ There is a limit of 10,000 posted messages per message queue. This limit should 
 				
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows NT</b>

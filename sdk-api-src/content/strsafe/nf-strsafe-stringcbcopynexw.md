@@ -1,8 +1,8 @@
 ---
 UID: NF:strsafe.StringCbCopyNExW
 title: StringCbCopyNExW function (strsafe.h)
-description: Copies the specified number of bytes from one string to another.
-helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCbCopyNEx","StringCbCopyNEx function [Menus and Other Resources]","StringCbCopyNExA","StringCbCopyNExW","_shell_StringCbCopyNEx","_shell_stringcbcopynex_cpp","menurc.stringcbcopynex","strsafe/StringCbCopyNEx","strsafe/StringCbCopyNExA","strsafe/StringCbCopyNExW","winui._shell_stringcbcopynex"]
+description: Copies the specified number of bytes from one string to another. (StringCbCopyNExW)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCbCopyNEx", "StringCbCopyNEx function [Menus and Other Resources]", "StringCbCopyNExW", "_shell_StringCbCopyNEx", "_shell_stringcbcopynex_cpp", "menurc.stringcbcopynex", "strsafe/StringCbCopyNEx", "strsafe/StringCbCopyNExW", "winui._shell_stringcbcopynex"]
 old-location: menurc\stringcbcopynex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopynex.htm
@@ -218,7 +218,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-<b>StringCbCopyNEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCopyNEx</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
+<b>StringCbCopyNEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCopyNEx</b> always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
 While this routine is meant as a replacement for <a href="/previous-versions/visualstudio/visual-studio-2010/xdsywd25(v=vs.100)">strncpy</a>, there are differences in behavior. If <i>cbSrc</i> is larger than the number of bytes in <i>pszSrc</i>, <b>StringCbCopyNEx</b>—unlike <b>strncpy</b>—does not continue to pad <i>pszDest</i> with null characters until <i>cbSrc</i> bytes have been copied.
 

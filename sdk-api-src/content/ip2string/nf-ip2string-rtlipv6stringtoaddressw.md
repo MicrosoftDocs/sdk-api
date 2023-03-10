@@ -1,8 +1,8 @@
 ---
 UID: NF:ip2string.RtlIpv6StringToAddressW
 title: RtlIpv6StringToAddressW function (ip2string.h)
-description: Converts a string representation of an IPv6 address to a binary IPv6 address.
-helpviewer_keywords: ["RtlIpv6StringToAddress","RtlIpv6StringToAddress function [IP Helper]","RtlIpv6StringToAddressA","RtlIpv6StringToAddressW","ip2string/RtlIpv6StringToAddress","ip2string/RtlIpv6StringToAddressA","ip2string/RtlIpv6StringToAddressW","iphlp.rtlipv6stringtoaddress"]
+description: Converts a string representation of an IPv6 address to a binary IPv6 address. (Unicode)
+helpviewer_keywords: ["RtlIpv6StringToAddress", "RtlIpv6StringToAddress function [IP Helper]", "RtlIpv6StringToAddressW", "ip2string/RtlIpv6StringToAddress", "ip2string/RtlIpv6StringToAddressW", "iphlp.rtlipv6stringtoaddress"]
 old-location: iphlp\rtlipv6stringtoaddress.htm
 tech.root: IpHlp
 ms.assetid: 3cd3bfcf-e9b2-4ee6-8e93-a31a70fc3ad3

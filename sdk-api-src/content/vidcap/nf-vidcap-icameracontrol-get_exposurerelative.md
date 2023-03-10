@@ -71,7 +71,7 @@ Receives the relative exposure. To get the range of possible values, call <a hre
 <td>Default exposure time.</td>
 </tr>
 <tr>
-<td>Postive value</td>
+<td>Positive value</td>
 <td>Incremented by one step.</td>
 </tr>
 <tr>
@@ -82,7 +82,7 @@ Receives the relative exposure. To get the range of possible values, call <a hre
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>.
+Receives one or more flags. See <a href="/windows/win32/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>.
 
 ## -returns
 

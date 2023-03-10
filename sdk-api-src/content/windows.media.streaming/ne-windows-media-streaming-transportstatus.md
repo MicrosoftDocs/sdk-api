@@ -54,13 +54,13 @@ Defines the available transport status as defined by the UPnP Guidelines.
 
 ## -enum-fields
 
-### -field TransportStatus_Unknown
+### -field TransportStatus_Unknown:0
 
-### -field TransportStatus_Ok
+### -field TransportStatus_Ok:1
 
-### -field TransportStatus_ErrorOccurred
+### -field TransportStatus_ErrorOccurred:2
 
-### -field TransportStatus_Last
+### -field TransportStatus_Last:3
 
 #### - ErrorOccurred
 

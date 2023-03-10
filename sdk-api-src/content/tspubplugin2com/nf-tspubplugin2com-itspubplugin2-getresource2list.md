@@ -1,7 +1,7 @@
 ---
 UID: NF:tspubplugin2com.ItsPubPlugin2.GetResource2List
 title: ItsPubPlugin2::GetResource2List (tspubplugin2com.h)
-description: Retrieves a list of resources assigned to the specified user.
+description: Retrieves a list of resources assigned to the specified user. (ItsPubPlugin2.GetResource2List)
 helpviewer_keywords: ["GetResource2List","GetResource2List method [Remote Desktop Services]","GetResource2List method [Remote Desktop Services]","ItsPubPlugin2 interface","ItsPubPlugin2 interface [Remote Desktop Services]","GetResource2List method","ItsPubPlugin2.GetResource2List","ItsPubPlugin2::GetResource2List","termserv.itspubplugin2_getresource2list","tspubplugin2com/ItsPubPlugin2::GetResource2List"]
 old-location: termserv\itspubplugin2_getresource2list.htm
 tech.root: TermServ
@@ -73,7 +73,7 @@ The address of an array of <a href="/windows/win32/api/tspubplugin2com/ns-tspubp
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

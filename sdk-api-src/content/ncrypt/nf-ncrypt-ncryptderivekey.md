@@ -1,7 +1,7 @@
 ---
 UID: NF:ncrypt.NCryptDeriveKey
 title: NCryptDeriveKey function (ncrypt.h)
-description: Derives a key from a secret agreement value.
+description: Derives a key from a secret agreement value. (NCryptDeriveKey)
 helpviewer_keywords: ["BCRYPT_KDF_HASH","BCRYPT_KDF_HMAC","BCRYPT_KDF_SP80056A_CONCAT","BCRYPT_KDF_TLS_PRF","KDF_USE_SECRET_AS_HMAC_KEY_FLAG","NCryptDeriveKey","NCryptDeriveKey function [Security]","ncrypt/NCryptDeriveKey","security.ncryptderivekey"]
 old-location: security\ncryptderivekey.htm
 tech.root: security
@@ -127,7 +127,9 @@ Optional
 
 The call to the KDF is made as shown in the following pseudocode.
 
-<pre class="syntax" xml:space="preserve"><code>KDF-Prepend = KDF_SECRET_PREPEND[0] + 
+
+``` syntax
+KDF-Prepend = KDF_SECRET_PREPEND[0] + 
     KDF_SECRET_PREPEND[1] + 
     ... +
     KDF_SECRET_PREPEND[n]
@@ -140,7 +142,9 @@ KDF-Append = KDF_SECRET_APPEND[0] +
 KDF-Output = Hash(
     KDF-Prepend + 
     hSharedSecret + 
-    KDF-Append)</code></pre>
+    KDF-Append)
+```
+
 
 
 #### BCRYPT_KDF_HMAC (L"HMAC")
@@ -220,7 +224,9 @@ Optional
 
 The call to the KDF is made as shown in the following pseudocode.
 
-<pre class="syntax" xml:space="preserve"><code>KDF-Prepend = KDF_SECRET_PREPEND[0] + 
+
+``` syntax
+KDF-Prepend = KDF_SECRET_PREPEND[0] + 
     KDF_SECRET_PREPEND[1] + 
     ... +
     KDF_SECRET_PREPEND[n]
@@ -234,7 +240,9 @@ KDF-Output = HMAC-Hash(
     KDF_HMAC_KEY,
     KDF-Prepend + 
     hSharedSecret + 
-    KDF-Append)</code></pre>
+    KDF-Append)
+```
+
 
 
 #### BCRYPT_KDF_TLS_PRF (L"TLS_PRF")
@@ -282,10 +290,14 @@ Required
 
 The call to the KDF is made as shown in the following pseudocode.
 
-<pre class="syntax" xml:space="preserve"><code>KDF-Output = PRF(
+
+``` syntax
+KDF-Output = PRF(
     hSharedSecret, 
     KDF_TLS_PRF_LABEL, 
-    KDF_TLS_PRF_SEED)</code></pre>
+    KDF_TLS_PRF_SEED)
+```
+
 
 
 #### BCRYPT_KDF_SP80056A_CONCAT (L"SP800_56A_CONCAT")
@@ -376,13 +388,17 @@ Optional
 
 The call to the KDF is made as shown in the following pseudocode.
 
-<pre class="syntax" xml:space="preserve"><code>KDF-Output = SP_800-56A_KDF(
+
+``` syntax
+KDF-Output = SP_800-56A_KDF(
 	   hSharedSecret,
 	   KDF_ALGORITHMID,
 	   KDF_PARTYUINFO,
 	   KDF_PARTYVINFO,
 	   KDF_SUPPPUBINFO,
-	   KDF_SUPPPRIVINFO)</code></pre>
+	   KDF_SUPPPRIVINFO)
+```
+
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
 
@@ -391,7 +407,7 @@ The call to the KDF is made as shown in the following pseudocode.
 
 ### -param pParameterList [in, optional]
 
-The address of a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that contains the KDF parameters. This parameter is optional and can be <b>NULL</b> if it is not needed.
+The address of a <a href="/windows/win32/api/bcrypt/ns-bcrypt-bcryptbufferdesc">NCryptBufferDesc</a> structure that contains the KDF parameters. This parameter is optional and can be <b>NULL</b> if it is not needed.
 
 ### -param pbDerivedKey [out, optional]
 
@@ -504,14 +520,18 @@ Parameter[3].length = sizeof (pbValue3);
 
 If the above parameter values are specified, the concatenated values to the actual KDF are as follows.
 
-<pre class="syntax" xml:space="preserve"><code>Type: KDF_SECRET_PREPEND
+
+``` syntax
+Type: KDF_SECRET_PREPEND
 Value: {0x04, 0x05, 0x20, 0x21, 0x22, 0x23}, length 6
 
 Type: KDF_SECRET_APPEND
 Value: {0x01, 0x10, 0x11, 0x12}, length 4
-</code></pre>
+
+```
+
 A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 ## -see-also
 
-<a href="/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a>
+<a href="/windows/win32/api/bcrypt/ns-bcrypt-bcryptbufferdesc">NCryptBufferDesc</a>

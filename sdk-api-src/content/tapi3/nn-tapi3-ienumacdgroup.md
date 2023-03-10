@@ -1,12 +1,12 @@
 ---
 UID: NN:tapi3.IEnumACDGroup
 title: IEnumACDGroup (tapi3.h)
-description: The IEnumACDGroup interface provides COM-standard enumeration methods for the ITACDGroup interface. The ITAgentHandler::EnumerateACDGroups method returns a pointer to IEnumACDGroup.
+description: The IEnumACDGroup (tapi3.h) interface provides COM-standard enumeration methods for the ITACDGroup interface.
 helpviewer_keywords: ["IEnumACDGroup","IEnumACDGroup interface [TAPI 2.2]","IEnumACDGroup interface [TAPI 2.2]","described","_tapi3_ienumacdgroup","tapi3.ienumacdgroup","tapi3cc/IEnumACDGroup"]
 old-location: tapi3\ienumacdgroup.htm
 tech.root: tapi3
 ms.assetid: 301cd27e-00ac-44a4-b5c6-0efcb36ad974
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: IEnumACDGroup, IEnumACDGroup interface [TAPI 2.2], IEnumACDGroup interface [TAPI 2.2],described, _tapi3_ienumacdgroup, tapi3.ienumacdgroup, tapi3cc/IEnumACDGroup
 req.header: tapi3.h
 req.include-header: Tapi3.h
@@ -58,10 +58,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumACDGroup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumACDGroup</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumACDGroup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumACDGroup</b> also has these types of members:
 
 ## -see-also
 

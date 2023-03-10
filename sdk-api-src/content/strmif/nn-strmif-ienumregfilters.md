@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IEnumRegFilters
 title: IEnumRegFilters (strmif.h)
-description: Note  This interface has been deprecated.
+description: Note  This interface has been deprecated. (IEnumRegFilters)
 helpviewer_keywords: ["IEnumRegFilters","IEnumRegFilters interface [DirectShow]","IEnumRegFilters interface [DirectShow]","described","IEnumRegFiltersInterface","dshow.ienumregfilters","strmif/IEnumRegFilters"]
 old-location: dshow\ienumregfilters.htm
 tech.root: dshow
@@ -56,10 +56,7 @@ This interface provides methods for enumerating registered filters. The <a href=
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumRegFilters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumRegFilters</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IEnumRegFilters</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumRegFilters</b> also has these types of members:
 
 ## -see-also
 

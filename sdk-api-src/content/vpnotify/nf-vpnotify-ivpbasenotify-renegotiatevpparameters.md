@@ -52,7 +52,7 @@ api_name:
 
 The <code>RenegotiateVPParameters</code> method initializes the connection to the decoder.
 
-## -parameters
+
 
 ## -returns
 

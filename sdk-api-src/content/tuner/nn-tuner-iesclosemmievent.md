@@ -54,9 +54,9 @@ Receives <b>CloseMMI</b> events from a Media Sink Device (MSD) device under the 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IESCloseMmiEvent</b> interface inherits from <b>IESEvent</b>. <b>IESCloseMmiEvent</b> also has these types of members:
+The <b>IESCloseMmiEvent</b> interface inherits from <b>IESEvent</b>. <b>IESCloseMmiEvent</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

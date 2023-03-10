@@ -1,7 +1,7 @@
 ---
 UID: NN:wia_xp.IWiaLog
 title: IWiaLog (wia_xp.h)
-description: This interface is not supported.
+description: This interface is not supported. (IWiaLog)
 helpviewer_keywords: ["IWiaLog","IWiaLog interface [WIA]","IWiaLog interface [WIA]","described","_wia_IWiaLog","wia._wia_IWiaLog","wia_xp/IWiaLog"]
 old-location: wia\_wia_IWiaLog.htm
 tech.root: wia
@@ -54,8 +54,5 @@ This interface is not supported.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaLog</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaLog</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IWiaLog</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaLog</b> also has these types of members:
 

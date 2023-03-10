@@ -55,10 +55,7 @@ This interface enables a single method to support variable refresh rate displays
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory5</b> interface inherits from <a href="/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgifactory4">IDXGIFactory4</a>. <b>IDXGIFactory5</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDXGIFactory5</b> interface inherits from <a href="/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgifactory4">IDXGIFactory4</a>. <b>IDXGIFactory5</b> also has these types of members:
 
 ## -see-also
 

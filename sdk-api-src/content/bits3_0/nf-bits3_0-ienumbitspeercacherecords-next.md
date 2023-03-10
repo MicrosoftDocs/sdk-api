@@ -1,7 +1,7 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeerCacheRecords.Next
 title: IEnumBitsPeerCacheRecords::Next (bits3_0.h)
-description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
+description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements. (IEnumBitsPeerCacheRecords.Next)
 helpviewer_keywords: ["IEnumBitsPeerCacheRecords interface [BITS]","Next method","IEnumBitsPeerCacheRecords.Next","IEnumBitsPeerCacheRecords::Next","Next","Next method [BITS]","Next method [BITS]","IEnumBitsPeerCacheRecords interface","bits.ienumbitspeercacherecords_next","bits3_0/IEnumBitsPeerCacheRecords::Next"]
 old-location: bits\ienumbitspeercacherecords_next.htm
 tech.root: Bits

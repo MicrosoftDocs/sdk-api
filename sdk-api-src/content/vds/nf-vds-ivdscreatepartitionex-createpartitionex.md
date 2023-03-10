@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Creates a partition on a basic disk.
    
@@ -206,7 +206,7 @@ This method operates on basic disks having either a GPT or MBR
 <b>Windows Server 2003:  </b>Callers can align only the first partition of a MBR disk and must place the starting offset in 
     the first cylinder or the beginning of the second cylinder, at the cylinder boundary.
 
-If the <i>ullOffset</i> parameter is specified and its value is not already aligned using the values under the <b>HKEY_LOCAL_MACHINE<b>System</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>Vds</b>&#92;<b>Alignment</b></b> registry subkey, its value will be aligned automatically using the following values: The default alignment is 1 MB if the disk is 4 GB or larger, or 64 KB if the disk is smaller than 4 GB.
+If the <i>ullOffset</i> parameter is specified and its value is not already aligned using the values under the <b>HKEY_LOCAL_MACHINE</b>&#92;<b>System</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>Vds</b>&#92;<b>Alignment</b> registry subkey, its value will be aligned automatically using the following values: The default alignment is 1 MB if the disk is 4 GB or larger, or 64 KB if the disk is smaller than 4 GB.
 
 <b>Windows Server 2003:  </b>Unaligned partition offsets are rounded to the nearest cylinder boundary for MBR disks, or to the nearest sector boundary for GPT disks.
 

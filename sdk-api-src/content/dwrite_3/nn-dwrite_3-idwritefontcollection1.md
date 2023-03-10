@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteFontCollection1
 title: IDWriteFontCollection1 (dwrite_3.h)
-description: An object that encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory.
+description: An object that encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory. (IDWriteFontCollection1)
 helpviewer_keywords: ["IDWriteFontCollection1","IDWriteFontCollection1 interface [Direct Write]","IDWriteFontCollection1 interface [Direct Write]","described","directwrite.idwritefontcollection1","dwrite_3/IDWriteFontCollection1"]
 old-location: directwrite\idwritefontcollection1.htm
 tech.root: DirectWrite
@@ -54,10 +54,7 @@ An object that encapsulates a set of fonts, such as the set of fonts installed o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontCollection1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a>. <b>IDWriteFontCollection1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteFontCollection1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a>. <b>IDWriteFontCollection1</b> also has these types of members:
 
 ## -see-also
 

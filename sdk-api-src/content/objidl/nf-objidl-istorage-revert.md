@@ -52,7 +52,7 @@ api_name:
 
 The <b>Revert</b> method discards all changes that have been made to the storage object since the last commit operation.
 
-## -parameters
+
 
 ## -returns
 

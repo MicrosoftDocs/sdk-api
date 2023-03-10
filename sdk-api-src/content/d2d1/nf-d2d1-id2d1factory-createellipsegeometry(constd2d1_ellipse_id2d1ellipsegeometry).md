@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateEllipseGeometry(constD2D1_ELLIPSE,ID2D1EllipseGeometry)
 title: ID2D1Factory::CreateEllipseGeometry (d2d1.h)
-description: Creates an ID2D1EllipseGeometry.
+description: Creates an ID2D1EllipseGeometry. (overload 1/2)
 helpviewer_keywords: ["CreateEllipseGeometry","CreateEllipseGeometry methods [Direct2D]","ID2D1Factory.CreateEllipseGeometry","ID2D1Factory::CreateEllipseGeometry","d2d1/CreateEllipseGeometry","direct2d.id2d1factory_createellipsegeometry"]
 old-location: direct2d\id2d1factory_createellipsegeometry.htm
 tech.root: Direct2D
@@ -67,7 +67,7 @@ When this method returns, contains the address of the pointer to the ellipse geo
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -see-also
 

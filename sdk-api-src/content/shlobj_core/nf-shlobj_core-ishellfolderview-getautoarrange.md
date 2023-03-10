@@ -54,7 +54,7 @@ api_name:
 
 Gets the current state of the folder's Auto Arrange mode.
 
-## -parameters
+
 
 ## -returns
 

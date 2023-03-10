@@ -52,7 +52,7 @@ api_name:
 
 Performs the action specified by an <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesiloaction">IEnhancedStorageSiloAction</a> object.
 
-## -parameters
+
 
 ## -returns
 

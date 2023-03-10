@@ -69,6 +69,6 @@ The operator initializer itself doesn't need to be initialized—GPU initializat
 
 ## -see-also
 
-[Binding in DirectML](/windows/desktop/direct3d12/dml-binding)
+[Binding in DirectML](/windows/ai/directml/dml-binding)
 
 [IDMLDispatchable](/windows/win32/api/directml/nn-directml-idmldispatchable)

@@ -1,7 +1,7 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_HashAlgorithm
 title: IOCSPCAConfiguration::put_HashAlgorithm (certadm.h)
-description: Gets or sets an identifier for the hash algorithm used to sign a certificate.
+description: Gets or sets an identifier for the hash algorithm used to sign a certificate. (Put)
 helpviewer_keywords: ["HashAlgorithm property [Security]","HashAlgorithm property [Security]","IOCSPCAConfiguration interface","IOCSPCAConfiguration interface [Security]","HashAlgorithm property","IOCSPCAConfiguration.HashAlgorithm","IOCSPCAConfiguration.put_HashAlgorithm","IOCSPCAConfiguration::HashAlgorithm","IOCSPCAConfiguration::get_HashAlgorithm","IOCSPCAConfiguration::put_HashAlgorithm","certadm/IOCSPCAConfiguration::HashAlgorithm","certadm/IOCSPCAConfiguration::get_HashAlgorithm","certadm/IOCSPCAConfiguration::put_HashAlgorithm","put_HashAlgorithm","security.iocspcaconfiguration_hashalgorithm_method","security.iocspcaconfiguration_hashalgorithmid_method"]
 old-location: security\iocspcaconfiguration_hashalgorithm_method.htm
 tech.root: security

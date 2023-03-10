@@ -1,11 +1,11 @@
 ---
 UID: NF:winbase.WaitNamedPipeA
 title: WaitNamedPipeA function (winbase.h)
-description: Waits until either a time-out interval elapses or an instance of the specified named pipe is available for connection (that is, the pipe's server process has a pending ConnectNamedPipe operation on the pipe).
+description: The WaitNamedPipeA (ANSI) function (winbase.h) waits until either a time-out interval elapses or an instance of the specified named pipe is available for connection (that is, the pipe's server process has a pending ConnectNamedPipe operation on the pipe).
 old-location: base\waitnamedpipe.htm
 tech.root: ipc
 ms.assetid: cbb2300b-5d5f-4a7b-994b-63b747e9ccfc
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: NMPWAIT_USE_DEFAULT_WAIT, NMPWAIT_WAIT_FOREVER, WaitNamedPipe, WaitNamedPipe function, WaitNamedPipeA, WaitNamedPipeW, _win32_waitnamedpipe, base.waitnamedpipe, winbase/WaitNamedPipe, winbase/WaitNamedPipeA, winbase/WaitNamedPipeW
 req.header: winbase.h
 req.include-header: Windows.h
@@ -125,7 +125,7 @@ If the time-out interval expires, the <b>WaitNamedPipe</b> function will fail wi
 
 If the function succeeds, the process should use the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function to open a handle to the named pipe. A return value of <b>TRUE</b> indicates that there is at least one instance of the pipe available. A subsequent <b>CreateFile</b> call to the pipe can fail, because the instance was closed by the server or opened by another client.
 
-<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
+<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax `\\.\pipe\LOCAL\` for the pipe name.
 
 
 #### Examples

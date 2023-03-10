@@ -56,10 +56,7 @@ This method works in conjunction with the implementation of <a href="/windows/de
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyPage2</b> interface inherits from <b>IPropertyPage</b>. <b>IPropertyPage2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPropertyPage2</b> interface inherits from <b>IPropertyPage</b>. <b>IPropertyPage2</b> also has these types of members:
 
 ## -see-also
 

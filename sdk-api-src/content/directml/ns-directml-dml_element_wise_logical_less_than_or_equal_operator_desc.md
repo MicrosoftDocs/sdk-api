@@ -8,8 +8,8 @@ ms.date: 10/30/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -73,8 +73,8 @@ The output tensor to write the results to.
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## Tensor constraints
-* *ATensor* and *BTensor* must have the same *DataType*.
 * *ATensor*, *BTensor*, and *OutputTensor* must have the same *DimensionCount* and *Sizes*.
+* *ATensor* and *BTensor* must have the same *DataType*.
 
 ## Availability
 This operator was introduced in `DML_FEATURE_LEVEL_3_0`.
@@ -84,6 +84,15 @@ This operator was introduced in `DML_FEATURE_LEVEL_3_0`.
 * *ATensor*, *BTensor*, and *OutputTensor* must have the same *DimensionCount* and *Sizes*.
 
 ## Tensor support
+
+### DML_FEATURE_LEVEL_4_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| ATensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| BTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | UINT32, UINT8 |
+
+### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | ATensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |

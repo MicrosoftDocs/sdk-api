@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationRule.put_ExecutionOption
 title: IFsrmClassificationRule::put_ExecutionOption (fsrmpipeline.h)
-description: Determines how to apply the rule to the file.
+description: Determines how to apply the rule to the file. (Put)
 helpviewer_keywords: ["ExecutionOption property [File Server Resource Manager]","ExecutionOption property [File Server Resource Manager]","IFsrmClassificationRule interface","IFsrmClassificationRule interface [File Server Resource Manager]","ExecutionOption property","IFsrmClassificationRule.ExecutionOption","IFsrmClassificationRule.put_ExecutionOption","IFsrmClassificationRule::ExecutionOption","IFsrmClassificationRule::get_ExecutionOption","IFsrmClassificationRule::put_ExecutionOption","fs.ifsrmclassificationrule_executionoption","fsrm.ifsrmclassificationrule_executionoption","fsrmpipeline/IFsrmClassificationRule::ExecutionOption","fsrmpipeline/IFsrmClassificationRule::get_ExecutionOption","fsrmpipeline/IFsrmClassificationRule::put_ExecutionOption","put_ExecutionOption"]
 old-location: fsrm\ifsrmclassificationrule_executionoption.htm
 tech.root: fsrm

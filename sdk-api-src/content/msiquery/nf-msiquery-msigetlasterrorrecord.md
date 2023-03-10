@@ -54,7 +54,7 @@ The
 <b>MsiGetLastErrorRecord</b> function returns the error record that was last returned for the calling process. This function returns a handle that should be closed using 
 <a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
 
-## -parameters
+
 
 ## -returns
 

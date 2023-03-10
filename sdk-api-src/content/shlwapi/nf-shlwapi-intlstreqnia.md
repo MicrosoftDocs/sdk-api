@@ -1,8 +1,8 @@
 ---
 UID: NF:shlwapi.IntlStrEqNIA
 title: IntlStrEqNIA macro (shlwapi.h)
-description: Performs a case-insensitive comparison of a specified number of characters from the beginning of two localized strings.
-helpviewer_keywords: ["IntlStrEqNI","IntlStrEqNI function [Windows Shell]","IntlStrEqNIA","IntlStrEqNIW","_win32_IntlStrEqNI","shell.IntlStrEqNI","shlwapi/IntlStrEqNI","shlwapi/IntlStrEqNIA","shlwapi/IntlStrEqNIW"]
+description: Performs a case-insensitive comparison of a specified number of characters from the beginning of two localized strings. (ANSI)
+helpviewer_keywords: ["IntlStrEqNIA", "shlwapi/IntlStrEqNIA"]
 old-location: shell\IntlStrEqNI.htm
 tech.root: shell
 ms.assetid: 3d201726-b24a-4739-84fb-49b54d3f0f07
@@ -78,7 +78,11 @@ The number of characters to be compared, starting from the beginning of the stri
 
 This function retrieves the thread locale and uses <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> to do a case-insensitive comparison of the first <i>nChar</i> characters. It is equivalent to:
 
-<pre class="syntax" xml:space="preserve"><code>IntlStrEqWorker(FALSE, pszStr1, pszStr2, nChar)</code></pre>
+
+``` syntax
+IntlStrEqWorker(FALSE, pszStr1, pszStr2, nChar)
+```
+
 
 
 

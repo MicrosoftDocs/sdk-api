@@ -53,7 +53,7 @@ api_name:
 The 
 <b>Delete</b> method removes the current terminal superclass from the registry.
 
-## -parameters
+
 
 ## -returns
 

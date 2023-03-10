@@ -284,6 +284,11 @@ For asynchronous completion, you can receive notification in one of three ways:
     <b>ERROR_NOACCESS</b> when the buffer is not aligned on a <b>DWORD</b> 
     boundary.
 
+<b>ReadDirectoryChangesW</b> fails with
+<b>ERROR_NOTIFY_ENUM_DIR</b>
+when the system was unable to record all the changes to the directory.
+In this case, you should compute the changes by enumerating the directory or subtree.
+
 If you opened the file using the short name, you can receive change notifications for the short name.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following 

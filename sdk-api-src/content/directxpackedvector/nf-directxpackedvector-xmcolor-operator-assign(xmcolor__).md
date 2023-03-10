@@ -62,7 +62,7 @@ Instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedve
 
 ## -returns
 
- The current instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>whose vector component data has been updated to match those of the <b>XMCOLOR</b>instance specified by the <i>Color</i> argument.
+ The current instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> whose vector component data has been updated to match those of the <b>XMCOLOR</b> instance specified by the <i>Color</i> argument.
 
 ## -see-also
 

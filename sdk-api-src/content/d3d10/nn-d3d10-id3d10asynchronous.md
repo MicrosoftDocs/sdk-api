@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d10.ID3D10Asynchronous
 title: ID3D10Asynchronous (d3d10.h)
-description: This interface encapsulates methods for retrieving data from the GPU asynchronously.
+description: This interface encapsulates methods for retrieving data from the GPU asynchronously. (ID3D10Asynchronous)
 helpviewer_keywords: ["ID3D10Asynchronous","ID3D10Asynchronous interface [Direct3D 10]","ID3D10Asynchronous interface [Direct3D 10]","described","bbcae8e9-6f10-e6ca-52e5-20302edce780","d3d10/ID3D10Asynchronous","direct3d10.id3d10asynchronous"]
 old-location: direct3d10\id3d10asynchronous.htm
 tech.root: direct3d10
@@ -55,10 +55,7 @@ This interface encapsulates methods for retrieving data from the GPU asynchronou
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Asynchronous</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>. <b>ID3D10Asynchronous</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ID3D10Asynchronous</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>. <b>ID3D10Asynchronous</b> also has these types of members:
 
 ## -remarks
 

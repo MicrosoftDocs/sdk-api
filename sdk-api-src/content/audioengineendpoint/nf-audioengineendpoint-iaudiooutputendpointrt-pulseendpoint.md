@@ -1,7 +1,7 @@
 ---
 UID: NF:audioengineendpoint.IAudioOutputEndpointRT.PulseEndpoint
 title: IAudioOutputEndpointRT::PulseEndpoint (audioengineendpoint.h)
-description: Is reserved.
+description: Is reserved. (IAudioOutputEndpointRT.PulseEndpoint)
 helpviewer_keywords: ["IAudioOutputEndpointRT interface [Remote Desktop Services]","PulseEndpoint method","IAudioOutputEndpointRT.PulseEndpoint","IAudioOutputEndpointRT::PulseEndpoint","PulseEndpoint","PulseEndpoint method [Remote Desktop Services]","PulseEndpoint method [Remote Desktop Services]","IAudioOutputEndpointRT interface","audioengineendpoint/IAudioOutputEndpointRT::PulseEndpoint","termserv.iaudiooutputendpointrt_pulseendpoint"]
 old-location: termserv\iaudiooutputendpointrt_pulseendpoint.htm
 tech.root: TermServ
@@ -54,7 +54,7 @@ The <b>PulseEndpoint</b> method is  reserved.
 
 This method is called by the audio engine at the end of a processing pass. The event handle is set by calling the <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-seteventhandle">IAudioEndpoint::SetEventHandle</a> method.
 
-## -parameters
+
 
 ## -remarks
 

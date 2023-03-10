@@ -53,7 +53,7 @@ api_name:
 The 
 <b>RemoveAll</b> method removes all the items from the collection.
 
-## -parameters
+
 
 ## -returns
 

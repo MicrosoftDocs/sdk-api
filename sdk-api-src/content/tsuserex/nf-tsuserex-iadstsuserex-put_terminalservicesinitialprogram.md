@@ -1,7 +1,7 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_TerminalServicesInitialProgram
 title: IADsTSUserEx::put_TerminalServicesInitialProgram (tsuserex.h)
-description: The path and file name of the application that the user wants to start automatically when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
+description: The path and file name of the application that the user wants to start automatically when the user logs on to the Remote Desktop Session Host (RD Session Host) server. (Put)
 helpviewer_keywords: ["IADsTSUserEx interface [Remote Desktop Services]","TerminalServicesInitialProgram property","IADsTSUserEx.TerminalServicesInitialProgram","IADsTSUserEx.put_TerminalServicesInitialProgram","IADsTSUserEx::TerminalServicesInitialProgram","IADsTSUserEx::get_TerminalServicesInitialProgram","IADsTSUserEx::put_TerminalServicesInitialProgram","TerminalServicesInitialProgram property [Remote Desktop Services]","TerminalServicesInitialProgram property [Remote Desktop Services]","IADsTSUserEx interface","put_TerminalServicesInitialProgram","termserv.iadstsuserex_terminalservicesinitialprogram","tsuserex/IADsTSUserEx::TerminalServicesInitialProgram","tsuserex/IADsTSUserEx::get_TerminalServicesInitialProgram","tsuserex/IADsTSUserEx::put_TerminalServicesInitialProgram"]
 old-location: termserv\iadstsuserex_terminalservicesinitialprogram.htm
 tech.root: TermServ

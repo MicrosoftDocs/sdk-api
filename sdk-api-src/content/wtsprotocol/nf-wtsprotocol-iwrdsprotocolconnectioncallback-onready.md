@@ -52,7 +52,7 @@ api_name:
 
 Requests that the Remote Desktop Services service continue the connection process for that client.
 
-## -parameters
+
 
 ## -returns
 

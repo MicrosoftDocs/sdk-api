@@ -53,7 +53,9 @@ api_name:
 The <b>IX509CertificateRequestPkcs10</b> interface represents a PKCS #10 certificate request. The public key cryptography standard (PKCS) #10 defines the format of messages sent to a certification or registration authority to request a public-key certificate.
 
 A PKCS #10 ASN.1 request object contains a version identifier, the subject name, a public key and a set of attributes as shown by the following syntax example.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 --------------------------------------------------------------------
 -- Certificate request.
 --------------------------------------------------------------------
@@ -101,8 +103,12 @@ Attribute ::= SEQUENCE
 {
    type               EncodedObjectID,
    values             AttributeSetValue
-}</code></pre>The <b>CertificationRequestInfo</b> ASN.1 object is wrapped in a <b>CertificationRequest</b> object as shown by the following syntax. The <b>CertificationRequest</b> object also includes the signature and  the signature algorithm. A PKCS #10 request must be signed by the associated private key or null-signed if it is a cross-certification request. You can call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_rawdata">RawData</a> property to retrieve the signed <b>CertificationRequest</b> object, and you can call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-get_rawdatatobesigned">RawDataToBeSigned</a> property to retrieve the unsigned <b>CertificationRequestInfo</b> object.
-<pre class="syntax" xml:space="preserve"><code>
+}
+```
+The <b>CertificationRequestInfo</b> ASN.1 object is wrapped in a <b>CertificationRequest</b> object as shown by the following syntax. The <b>CertificationRequest</b> object also includes the signature and  the signature algorithm. A PKCS #10 request must be signed by the associated private key or null-signed if it is a cross-certification request. You can call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_rawdata">RawData</a> property to retrieve the signed <b>CertificationRequest</b> object, and you can call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-get_rawdatatobesigned">RawDataToBeSigned</a> property to retrieve the unsigned <b>CertificationRequestInfo</b> object.
+
+``` syntax
+
 --------------------------------------------------------------------
 -- Certificate request.
 --------------------------------------------------------------------
@@ -121,7 +127,9 @@ AlgorithmIdentifier ::= SEQUENCE
    algorithm           EncodedObjectID,
    parameters          ANY OPTIONAL
 }
-</code></pre>The following properties can be set before calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-encode">Encode</a> method:<ul>
+
+```
+The following properties can be set before calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-encode">Encode</a> method:<ul>
 <li>
 <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_alternatesignaturealgorithm">AlternateSignatureAlgorithm</a>
 </li>
@@ -165,11 +173,7 @@ The following properties must be set, if at all, before calling the Encode metho
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestPkcs10</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>. <b>IX509CertificateRequestPkcs10</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IX509CertificateRequestPkcs10</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>. <b>IX509CertificateRequestPkcs10</b> also has these types of members:
 
 ## -see-also
 

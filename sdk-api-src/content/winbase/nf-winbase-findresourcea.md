@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.FindResourceA
 title: FindResourceA function (winbase.h)
-description: Determines the location of a resource with the specified type and name in the specified module.
+description: Determines the location of a resource with the specified type and name in the specified module. (FindResourceA)
 helpviewer_keywords: ["FindResource","FindResource function [Menus and Other Resources]","FindResourceA","FindResourceW","_win32_FindResource","_win32_findresource_cpp","menurc.findresource","winbase/FindResource","winbase/FindResourceA","winbase/FindResourceW","winui._win32_findresource"]
 old-location: menurc\findresource.htm
 tech.root: menurc
@@ -87,9 +87,7 @@ The name of the resource. Alternately, rather than a pointer, this parameter can
 
 Type: <b>LPCTSTR</b>
 
-The resource type. Alternately, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the given 
-
-resource type. For standard resource types, see <a href="/windows/desktop/menurc/resource-types">Resource Types</a>. For more information, see the Remarks section below.
+The resource type. Alternately, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the given resource type. For standard resource types, see <a href="/windows/desktop/menurc/resource-types">Resource Types</a>. For more information, see the Remarks section below.
 
 ## -returns
 

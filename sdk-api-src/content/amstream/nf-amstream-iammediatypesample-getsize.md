@@ -55,7 +55,7 @@ api_name:
 
 The <code>GetSize</code> method retrieves the size of the buffer data area, in bytes.
 
-## -parameters
+
 
 ## -returns
 

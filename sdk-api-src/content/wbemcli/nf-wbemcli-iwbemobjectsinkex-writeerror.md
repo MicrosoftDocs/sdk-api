@@ -1,7 +1,7 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.WriteError
 title: IWbemObjectSinkEx::WriteError (wbemcli.h)
-description: TBD
+description: TBD (IWbemObjectSinkEx.WriteError)
 helpviewer_keywords: ["IWbemObjectSinkEx interface [Windows Management Instrumentation]","WriteError method","IWbemObjectSinkEx.WriteError","IWbemObjectSinkEx::WriteError","WriteError","WriteError method [Windows Management Instrumentation]","WriteError method [Windows Management Instrumentation]","IWbemObjectSinkEx interface","wbemcli/IWbemObjectSinkEx::WriteError","wmi.iwbemobjectsinkex_writeerror"]
 old-location: wmi\iwbemobjectsinkex_writeerror.htm
 tech.root: wmi
@@ -60,7 +60,7 @@ TBD
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

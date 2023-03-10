@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_3.IDWriteTextLayout3
 title: IDWriteTextLayout3 (dwrite_3.h)
-description: Represents a block of text after it has been fully analyzed and formatted.
+description: Represents a block of text after it has been fully analyzed and formatted. (IDWriteTextLayout3)
 helpviewer_keywords: ["IDWriteTextLayout3","IDWriteTextLayout3 interface [Direct Write]","IDWriteTextLayout3 interface [Direct Write]","described","directwrite.idwritetextlayout3","dwrite_3/IDWriteTextLayout3"]
 old-location: directwrite\idwritetextlayout3.htm
 tech.root: DirectWrite
@@ -54,10 +54,7 @@ Represents a block of text after it has been fully analyzed and formatted.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextLayout3</b> interface inherits from <a href="/windows/win32/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>. <b>IDWriteTextLayout3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteTextLayout3</b> interface inherits from <a href="/windows/win32/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>. <b>IDWriteTextLayout3</b> also has these types of members:
 
 ## -see-also
 

@@ -52,7 +52,7 @@ api_name:
 
 Generates a value that indicates whether the item—typically some type of external device—is connected.
 
-## -parameters
+
 
 ## -returns
 

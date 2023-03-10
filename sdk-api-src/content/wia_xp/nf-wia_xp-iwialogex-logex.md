@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_xp.IWiaLogEx.LogEx
 title: IWiaLogEx::LogEx (wia_xp.h)
-description: This method is not supported.
+description: This method is not supported. (IWiaLogEx.LogEx)
 helpviewer_keywords: ["IWiaLogEx interface [WIA]","LogEx method","IWiaLogEx.LogEx","IWiaLogEx::LogEx","LogEx","LogEx method [WIA]","LogEx method [WIA]","IWiaLogEx interface","_wia_IWiaLogEx_LogEx","wia._wia_IWiaLogEx_LogEx","wia_xp/IWiaLogEx::LogEx"]
 old-location: wia\_wia_IWiaLogEx_LogEx.htm
 tech.root: wia
@@ -78,5 +78,5 @@ Type: <b>BSTR</b>
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:wtypes.tagCY~r1
 title: CY
-ms.date: 01/30/2019
+description: The CY structure is useful for calculations involving money, or for any fixed-point calculation where accuracy is particularly important.
+ms.date: 08/03/2022
 ms.keywords: tagCY, CY
 targetos: Windows
 req.construct-type: structure
@@ -13,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: CY
 req.umdf-ver: 

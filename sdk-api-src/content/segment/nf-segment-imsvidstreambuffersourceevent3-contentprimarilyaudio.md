@@ -57,7 +57,7 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>ContentPrimarilyAudio</b> method is called when the Stream Buffer Engine is processing primarily audio data.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,8 +1,8 @@
 ---
 UID: NF:wingdi.RemoveFontResourceW
 title: RemoveFontResourceW function (wingdi.h)
-description: The RemoveFontResource function removes the fonts in the specified file from the system font table.
-helpviewer_keywords: ["RemoveFontResource","RemoveFontResource function [Windows GDI]","RemoveFontResourceA","RemoveFontResourceW","_win32_RemoveFontResource","gdi.removefontresource","wingdi/RemoveFontResource","wingdi/RemoveFontResourceA","wingdi/RemoveFontResourceW"]
+description: The RemoveFontResource function removes the fonts in the specified file from the system font table. (Unicode)
+helpviewer_keywords: ["RemoveFontResource", "RemoveFontResource function [Windows GDI]", "RemoveFontResourceW", "_win32_RemoveFontResource", "gdi.removefontresource", "wingdi/RemoveFontResource", "wingdi/RemoveFontResourceW"]
 old-location: gdi\removefontresource.htm
 tech.root: gdi
 ms.assetid: ccc0ac8b-e373-47a9-a362-64fd79a33d0c
@@ -80,7 +80,9 @@ When you try to replace an existing font file that contains a font with outstand
 
 <div class="alert"><b>Note</b>  Apps where the original font file is in use will still be able to access the original file and won't use the new font until the font reloads. Call <a href="/windows/desktop/api/wingdi/nf-wingdi-addfontresourcea">AddFontResource</a> to reload the font.  We recommend that you call <b>AddFontResource</b> the same number of times as the call to <b>RemoveFontResource</b> succeeded as shown in this example code.</div>
 <div> </div>
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 int i = 0;
 while( RemoveFontResource( FontFile ) )
 {
@@ -93,7 +95,9 @@ while( i-- )
 {
     AddFontResource( FontFile );
 }
-</code></pre>
+
+```
+
 
 
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetDescription
 title: IShellLinkA::SetDescription (shobjidl_core.h)
-description: Sets the description for a Shell link object. The description can be any application-defined string.
+description: Sets the description for a Shell link object. The description can be any application-defined string. (ANSI)
 helpviewer_keywords: ["IShellLink interface [Windows Shell]","SetDescription method","IShellLink::SetDescription","IShellLinkA interface [Windows Shell]","SetDescription method","IShellLinkA.SetDescription","IShellLinkA::SetDescription","IShellLinkW interface [Windows Shell]","SetDescription method","IShellLinkW::SetDescription","SetDescription","SetDescription method [Windows Shell]","SetDescription method [Windows Shell]","IShellLink interface","SetDescription method [Windows Shell]","IShellLinkA interface","SetDescription method [Windows Shell]","IShellLinkW interface","_win32_IShellLink_SetDescription","shell.IShellLink_SetDescription","shobjidl_core/IShellLink::SetDescription","shobjidl_core/IShellLinkA::SetDescription","shobjidl_core/IShellLinkW::SetDescription"]
 old-location: shell\IShellLink_SetDescription.htm
 tech.root: shell
@@ -66,7 +66,7 @@ A pointer to a buffer containing the new description string.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

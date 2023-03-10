@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IGraphBuilder.RenderFile
 title: IGraphBuilder::RenderFile (strmif.h)
-description: The RenderFile method builds a filter graph that renders the specified file.
+description: The RenderFile method builds a filter graph that renders the specified file. (IGraphBuilder.RenderFile)
 helpviewer_keywords: ["IGraphBuilder interface [DirectShow]","RenderFile method","IGraphBuilder.RenderFile","IGraphBuilder::RenderFile","IGraphBuilderRenderFile","RenderFile","RenderFile method [DirectShow]","RenderFile method [DirectShow]","IGraphBuilder interface","dshow.igraphbuilder_renderfile","strmif/IGraphBuilder::RenderFile"]
 old-location: dshow\igraphbuilder_renderfile.htm
 tech.root: dshow
@@ -274,7 +274,7 @@ Note that the <code>RenderFile</code> method does not remove any filters from th
 
 The following example renders an AVI file for default playback:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -288,7 +288,7 @@ hr = pGraph-&gt;RenderFile(L"C:\\Media\\Example.avi", 0);
 </table></span></div>
 The following example downloads an AVI file over HTTP, using the <a href="/windows/desktop/DirectShow/file-source--url--filter">File Source (URL)</a> filter:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

@@ -74,7 +74,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 
 The initial value of an animation variable is specified when the variable is created. After an animation variable is created, its value cannot be changed directly; it must be updated through the animation manager.
 
-An animation variable is typically created to represent each visual characteristic that is to be animated. For example, an application might create three animation variables for the X, Y, and Z coordinates of an object  that can move freely within a a three-dimensional space.
+An animation variable is typically created to represent each visual characteristic that is to be animated. For example, an application might create three animation variables for the X, Y, and Z coordinates of an object that can move freely within a three-dimensional space.
 
 ## -see-also
 

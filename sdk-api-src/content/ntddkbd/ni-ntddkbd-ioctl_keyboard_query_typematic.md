@@ -72,11 +72,9 @@ The size of a <a href="/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typemati
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length
 
-<text></text>
 
 ### -status-block
 

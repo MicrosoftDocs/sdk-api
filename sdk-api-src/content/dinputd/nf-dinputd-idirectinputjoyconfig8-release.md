@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::Release </b>method decreases the reference count of the DirectInputJoyConfig object by 1. This method is part of the <b>IUnknown</b> interface inherited by DirectInputJoyConfig.
+The <b>IDirectInputJoyConfig8::Release </b> method decreases the reference count of the DirectInputJoyConfig object by 1. This method is part of the <b>IUnknown</b> interface inherited by DirectInputJoyConfig.
 
-## -parameters
+
 
 ## -returns
 

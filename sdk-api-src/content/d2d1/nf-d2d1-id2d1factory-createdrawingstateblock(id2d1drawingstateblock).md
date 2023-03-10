@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateDrawingStateBlock(ID2D1DrawingStateBlock)
 title: ID2D1Factory::CreateDrawingStateBlock(ID2D1DrawingStateBlock) (d2d1.h)
-description: Creates an ID2D1DrawingStateBlock that can be used with the SaveDrawingState and RestoreDrawingState methods of a render target.
+description: Creates an ID2D1DrawingStateBlock that can be used with the SaveDrawingState and RestoreDrawingState methods of a render target. (overload 3/3)
 helpviewer_keywords: ["CreateDrawingStateBlock","CreateDrawingStateBlock method [Direct2D]","CreateDrawingStateBlock method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreateDrawingStateBlock method","ID2D1Factory.CreateDrawingStateBlock","ID2D1Factory.CreateDrawingStateBlock(ID2D1DrawingStateBlock)","ID2D1Factory::CreateDrawingStateBlock","ID2D1Factory::CreateDrawingStateBlock(ID2D1DrawingStateBlock)","d2d1/ID2D1Factory::CreateDrawingStateBlock","direct2d.ID2D1Factory_CreateDrawingStateBlock_ptr_ptr_ID2D1DrawingStateBlock"]
 old-location: direct2d\ID2D1Factory_CreateDrawingStateBlock_ptr_ptr_ID2D1DrawingStateBlock.htm
 tech.root: Direct2D
@@ -64,7 +64,7 @@ When this method returns, contains the address of a pointer to the new drawing s
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -see-also
 

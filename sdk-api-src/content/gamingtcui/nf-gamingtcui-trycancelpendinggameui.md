@@ -1,7 +1,7 @@
 ---
 UID: NF:gamingtcui.TryCancelPendingGameUI
 title: TryCancelPendingGameUI function (gamingtcui.h)
-description: Do not use. This API is only supported for Xbox developers.
+description: Do not use. This API is only supported for Xbox developers. (TryCancelPendingGameUI)
 helpviewer_keywords: ["TryCancelPendingGameUI","TryCancelPendingGameUI function","gamingtcui/TryCancelPendingGameUI","tcui.trycancelpendinggameui"]
 old-location: tcui\trycancelpendinggameui.htm
 tech.root: tcui
@@ -59,7 +59,7 @@ Do not use. This API is only supported for Xbox developers.
 
 To learn more about becoming a Xbox developer, see <a href="https://www.xbox.com/Developers">Developing Games for Xbox One and Windows 10</a>.
 
-## -parameters
+
 
 ## -returns
 

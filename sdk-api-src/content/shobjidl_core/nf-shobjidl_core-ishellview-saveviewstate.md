@@ -52,7 +52,7 @@ api_name:
 
 Saves the Shell's view settings so the current state can be restored during a subsequent browsing session.
 
-## -parameters
+
 
 ## -returns
 

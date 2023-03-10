@@ -14,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: TCP_INFO_v1, *PTCP_INFO_v1
 req.umdf-ver: 
@@ -163,7 +163,7 @@ The total number of bytes sent in the "Sender Limited" state.
 ## -remarks
 
 To get an instance of this structure,  call the 
-   <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> or <a href="/previous-versions/windows/hardware/network/ff566296(v=vs.85)">LPWSPIoctl</a> function with the <a href="/previous-versions/windows/desktop/legacy/mt823415(v=vs.85)">SIO_TCP_INFO</a> 
+   <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> or <a href="/previous-versions/windows/hardware/network/ff566296(v=vs.85)">LPWSPIoctl</a> function with the <a href="/windows/win32/winsock/sio-tcp-info">SIO_TCP_INFO</a> 
    control code. Specify 1 for the *lpvInBuffer* field to retrieve the v1 version of this structure.
 
 ## -see-also

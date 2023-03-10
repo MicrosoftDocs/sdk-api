@@ -1,7 +1,7 @@
 ---
 UID: NF:wuapi.IStringCollection.Insert
 title: IStringCollection::Insert (wuapi.h)
-description: Inserts an item into the collection at the specified position.
+description: Inserts an item into the collection at the specified position. (IStringCollection.Insert)
 helpviewer_keywords: ["IStringCollection interface [Windows Update Agent]","Insert method","IStringCollection.Insert","IStringCollection::Insert","Insert","Insert method [Windows Update Agent]","Insert method [Windows Update Agent]","IStringCollection interface","wua.istringcollection_insert","wuapi/IStringCollection::Insert"]
 old-location: wua\istringcollection_insert.htm
 tech.root: wua

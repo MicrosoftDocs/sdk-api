@@ -53,7 +53,7 @@ api_name:
 
 The <code>Commit</code> method allocates the buffer memory.
 
-## -parameters
+
 
 ## -returns
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:commctrl.__unnamed_struct_4
+UID: NS:commctrl.TBMETRICS
 title: TBMETRICS (commctrl.h)
 description: Defines the metrics of a toolbar that are used to shrink or expand toolbar items.
 helpviewer_keywords: ["*LPTBMETRICS","LPTBMETRICS","LPTBMETRICS structure pointer [Windows Controls]","TBMETRICS","TBMETRICS structure [Windows Controls]","commctrl/LPTBMETRICS","commctrl/TBMETRICS","controls.TBMETRICS","controls.inet_TBMETRICS","inet_TBMETRICS","inet_TBMETRICS_cpp"]
@@ -132,3 +132,4 @@ The metrics specified by <b>TBMETRICS</b> structure are used to size the non-ani
 The padding values are used to create a blank area between the edge of the button and the button's image and/or text. Where and how much padding is actually applied depends on the type of the button and whether it has an image. The horizontal padding is applied to both the right and left of the button, and the vertical padding is applied to both the top and bottom of the button. Padding is only applied to buttons that have the <a href="/windows/desktop/Controls/toolbar-control-and-button-styles">TBSTYLE_AUTOSIZE</a> style.
 
 Although values for <b>cxBarPad</b> and <b>cyBarPad</b> can be set and retrieved they currently have no effect and are not used.
+

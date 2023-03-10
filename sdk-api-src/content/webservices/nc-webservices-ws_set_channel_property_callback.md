@@ -132,5 +132,5 @@ It is up to the custom channel implementation to determine the
                 set of properties it wishes to support.
             
 
-If a property is not supported, the <b>E_INVALIDARG </b>should be returned.
+If a property is not supported, the <b>E_INVALIDARG </b> should be returned.
             (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)

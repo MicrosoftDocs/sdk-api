@@ -1,12 +1,12 @@
 ---
 UID: NN:objidlbase.IRpcStubBuffer
 title: IRpcStubBuffer (objidlbase.h)
-description: Controls the RPC stub used to marshal data between COM components.
+description: The IRpcStubBuffer (objidlbase.h) interface controls the RPC stub used to marshal data between COM components.
 helpviewer_keywords: ["IRpcStubBuffer","IRpcStubBuffer interface [COM]","IRpcStubBuffer interface [COM]","described","_com_irpcstubbuffer","com.irpcstubbuffer","objidlbase/IRpcStubBuffer"]
 old-location: com\irpcstubbuffer.htm
 tech.root: com
 ms.assetid: 0aa724f0-6110-4ebf-a0c1-d309074a61d9
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IRpcStubBuffer, IRpcStubBuffer interface [COM], IRpcStubBuffer interface [COM],described, _com_irpcstubbuffer, com.irpcstubbuffer, objidlbase/IRpcStubBuffer
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
@@ -54,10 +54,7 @@ Controls the RPC stub used to marshal data between COM components.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcStubBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcStubBuffer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IRpcStubBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcStubBuffer</b> also has these types of members:
 
 ## -see-also
 

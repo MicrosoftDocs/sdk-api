@@ -115,8 +115,11 @@ This structure is used with
 The proxy server list contains one or more of the following strings separated by semicolons or whitespace.
 
 
-<pre class="syntax" xml:space="preserve"><code>([&lt;scheme&gt;=][&lt;scheme&gt;"://"]&lt;server&gt;[":"&lt;port&gt;])
-</code></pre>
+
+``` syntax
+([<scheme>=][<scheme>"://"]<server>[":"<port>])
+```
+
 The proxy bypass list contains one or more server names separated by semicolons or whitespace.  The proxy bypass list can also contain the string "&lt;local&gt;" to indicate that all local intranet sites are bypassed.  Local intranet sites are considered to be all servers that do not contain a period in their name.
 
 <div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>

@@ -56,7 +56,7 @@ Describes the connection state of an item in the Offline Files cache.
 
 ## -enum-fields
 
-### -field OFFLINEFILES_CONNECT_STATE_UNKNOWN
+### -field OFFLINEFILES_CONNECT_STATE_UNKNOWN:0
 
 Returned by <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesconnectioninfo-getconnectstate">IOfflineFilesConnectionInfo::GetConnectState</a> if the method fails.
 

@@ -54,12 +54,12 @@ Specifies how the <a href="/windows/desktop/Direct2D/crop">Crop effect</a> handl
 
 ## -enum-fields
 
-### -field D2D1_BORDER_MODE_SOFT
+### -field D2D1_BORDER_MODE_SOFT:0
 
  If the crop rectangle falls on fractional pixel coordinates, the effect applies antialiasing which results in a soft edge.
 
-### -field D2D1_BORDER_MODE_HARD
+### -field D2D1_BORDER_MODE_HARD:1
 
 If the crop rectangle falls on fractional pixel coordinates, the effect clamps which results in a hard edge.
 
-### -field D2D1_BORDER_MODE_FORCE_DWORD
+### -field D2D1_BORDER_MODE_FORCE_DWORD:0xffffffff

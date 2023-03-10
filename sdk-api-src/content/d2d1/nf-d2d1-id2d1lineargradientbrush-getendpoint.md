@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the ending coordinates of the linear gradient.
 
-## -parameters
+
 
 ## -returns
 

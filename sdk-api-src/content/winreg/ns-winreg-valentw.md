@@ -1,7 +1,7 @@
 ---
 UID: NS:winreg.value_entW
 title: VALENTW (winreg.h)
-description: Contains information about a registry value. The RegQueryMultipleValues function uses this structure.
+description: Contains information about a registry value. The RegQueryMultipleValues function uses this structure. (Unicode)
 helpviewer_keywords: ["*PVALENTW","PVALENT","PVALENT structure pointer","VALENT","VALENT structure","VALENTA","VALENTW","_win32_valent_str","base.valent_str","winreg/PVALENT","winreg/VALENT","winreg/VALENTA","winreg/VALENTW"]
 old-location: base\valent_str.htm
 tech.root: winprog

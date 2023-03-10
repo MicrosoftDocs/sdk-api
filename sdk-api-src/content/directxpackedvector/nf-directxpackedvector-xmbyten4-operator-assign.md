@@ -11,8 +11,8 @@ ms.keywords: DirectX::PackedVector.XMBYTEN4.operator =, DirectX::PackedVector::X
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -64,7 +64,7 @@ Instance of <code>XMBYTEN4</code> used to update the current <code>XMBYTEN4</cod
 
 ## -returns
 
-The current instance of <code>XMBYTEN4</code> whose vector component data has been updated to match those of the <code>XMBYTEN4</code> instance specified by the <b>Byte4</b>argument.
+The current instance of <code>XMBYTEN4</code> whose vector component data has been updated to match those of the <code>XMBYTEN4</code> instance specified by the <b>Byte4</b> argument.
 
 ## -see-also
 

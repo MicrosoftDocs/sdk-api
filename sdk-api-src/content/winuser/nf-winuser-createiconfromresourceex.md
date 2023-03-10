@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.CreateIconFromResourceEx
 title: CreateIconFromResourceEx function (winuser.h)
-description: Creates an icon or cursor from resource bits describing the icon.
+description: Creates an icon or cursor from resource bits describing the icon. (CreateIconFromResourceEx)
 helpviewer_keywords: ["CreateIconFromResourceEx","CreateIconFromResourceEx function [Menus and Other Resources]","LR_DEFAULTCOLOR","LR_DEFAULTSIZE","LR_MONOCHROME","LR_SHARED","_win32_CreateIconFromResourceEx","_win32_createiconfromresourceex_cpp","menurc.createiconfromresourceex","winui._win32_createiconfromresourceex","winuser/CreateIconFromResourceEx"]
 old-location: menurc\createiconfromresourceex.htm
 tech.root: menurc
@@ -176,7 +176,7 @@ For an example, see <a href="/windows/desktop/menurc/using-icons">Sharing Icon R
 
 ## -see-also
 
-<a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a>
 
 
 

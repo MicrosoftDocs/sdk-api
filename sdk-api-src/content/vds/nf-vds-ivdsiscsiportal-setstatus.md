@@ -1,12 +1,12 @@
 ---
 UID: NF:vds.IVdsIscsiPortal.SetStatus
 title: IVdsIscsiPortal::SetStatus (vds.h)
-description: Sets the status of a portal to the specified value.
+description: The IVdsIscsiPortal::SetStatus method (vds.h) sets the status of a portal to the specified value.
 helpviewer_keywords: ["IVdsIscsiPortal interface [VDS]","SetStatus method","IVdsIscsiPortal.SetStatus","IVdsIscsiPortal::SetStatus","SetStatus","SetStatus method [VDS]","SetStatus method [VDS]","IVdsIscsiPortal interface","base.ivdsiscsiportal_setstatus","vds/IVdsIscsiPortal::SetStatus","vdshwprv/IVdsIscsiPortal::SetStatus"]
 old-location: base\ivdsiscsiportal_setstatus.htm
 tech.root: base
 ms.assetid: 6c63fa36-bccb-4731-999a-c6f8b565b38f
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsIscsiPortal interface [VDS],SetStatus method, IVdsIscsiPortal.SetStatus, IVdsIscsiPortal::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_setstatus, vds/IVdsIscsiPortal::SetStatus, vdshwprv/IVdsIscsiPortal::SetStatus
 req.header: vds.h
 req.include-header: 
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Not supported.
 

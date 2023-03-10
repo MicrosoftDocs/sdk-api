@@ -94,12 +94,16 @@ After the service provider returns from the
 <b>TSPI_lineGetAddressCaps</b> function, TAPI sets the <b>dwCallInfoStates</b> and <b>dwCallStates</b> members of the 
 <a href="/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a> structure as follows:
 
-<pre class="syntax" xml:space="preserve"><code>LINEADDRESSCAPS.dwCallInfoStates |=
+
+``` syntax
+LINEADDRESSCAPS.dwCallInfoStates |=
     LINECALLINFOSTATE_NUMOWNERINCR |
     LINECALLINFOSTATE_NUMOWNERDECR |
     LINECALLINFOSTATE_NUMMONITORS;
 
-LINEADDRESSCAPS.dwCallStates |= LINECALLSTATE_UNKNOWN;</code></pre>
+LINEADDRESSCAPS.dwCallStates |= LINECALLSTATE_UNKNOWN;
+```
+
 
 ## -see-also
 

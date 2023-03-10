@@ -1,8 +1,8 @@
 ---
 UID: NF:winnetwk.WNetCancelConnectionA
 title: WNetCancelConnectionA function (winnetwk.h)
-description: The WNetCancelConnection function cancels an existing network connection.
-helpviewer_keywords: ["WNetCancelConnection","WNetCancelConnection function [Windows Networking (WNet)]","WNetCancelConnectionA","WNetCancelConnectionW","_win32_wnetcancelconnection","winnetwk/WNetCancelConnection","winnetwk/WNetCancelConnectionA","winnetwk/WNetCancelConnectionW","wnet.wnetcancelconnection"]
+description: The WNetCancelConnection function cancels an existing network connection. (ANSI)
+helpviewer_keywords: ["WNetCancelConnectionA", "winnetwk/WNetCancelConnectionA"]
 old-location: wnet\wnetcancelconnection.htm
 tech.root: WNet
 ms.assetid: e180d497-5e14-459a-8cf6-5664dfb88419

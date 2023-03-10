@@ -54,7 +54,7 @@ Returns a <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_fixed32">DXVA
 
 You can use this function for DirectX Video Acceleration (DXVA) operations that require alpha values expressed as fixed-point numbers.
 
-## -parameters
+
 
 ## -returns
 

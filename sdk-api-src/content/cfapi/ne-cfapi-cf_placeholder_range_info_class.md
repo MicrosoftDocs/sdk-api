@@ -54,15 +54,15 @@ Types of the range of placeholder file data.
 
 ## -enum-fields
 
-### -field CF_PLACEHOLDER_RANGE_INFO_ONDISK
+### -field CF_PLACEHOLDER_RANGE_INFO_ONDISK:1
 
 On-disk data is data that is physical present in the file, which is a super set of other types of ranges.
 
-### -field CF_PLACEHOLDER_RANGE_INFO_VALIDATED
+### -field CF_PLACEHOLDER_RANGE_INFO_VALIDATED:2
 
 Validated data is a subset of the on-disk data that is currently in sync with the cloud.
 
-### -field CF_PLACEHOLDER_RANGE_INFO_MODIFIED
+### -field CF_PLACEHOLDER_RANGE_INFO_MODIFIED:3
 
 Modified data is a subset of the on-disk data that is currently not in sync with the cloud, i.e., either modified or appended.
 

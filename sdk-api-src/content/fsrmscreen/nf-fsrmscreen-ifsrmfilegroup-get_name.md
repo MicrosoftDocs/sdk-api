@@ -1,7 +1,7 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroup.get_Name
 title: IFsrmFileGroup::get_Name (fsrmscreen.h)
-description: Retrieves or sets the name of the file group.
+description: Retrieves or sets the name of the file group. (Get)
 helpviewer_keywords: ["IFsrmFileGroup interface [File Server Resource Manager]","Name property","IFsrmFileGroup.Name","IFsrmFileGroup.get_Name","IFsrmFileGroup::Name","IFsrmFileGroup::get_Name","IFsrmFileGroup::put_Name","Name property [File Server Resource Manager]","Name property [File Server Resource Manager]","IFsrmFileGroup interface","fs.ifsrmfilegroup_name","fsrm.ifsrmfilegroup_name","fsrmscreen/IFsrmFileGroup::Name","fsrmscreen/IFsrmFileGroup::get_Name","fsrmscreen/IFsrmFileGroup::put_Name","get_Name"]
 old-location: fsrm\ifsrmfilegroup_name.htm
 tech.root: fsrm

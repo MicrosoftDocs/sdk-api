@@ -1,9 +1,9 @@
 ---
 UID: NN:mfidl.IMFExtendedCameraController
 title: IMFExtendedCameraController
-ms.date: 1/23/2020
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The IMFExtendedCameraController interface allows apps to retrieve an instance of IMFExtendedCameraControl, which is used to configure a capture device's extended properties.
 tech.root: mf
 req.assembly: 
 req.construct-type: iface
@@ -14,8 +14,8 @@ req.include-header:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 19041
+req.target-min-winversvr: Windows 10 Build 19041
 req.target-type: 
 req.unicode-ansi: 
 topic_type:

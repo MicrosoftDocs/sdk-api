@@ -1,7 +1,7 @@
 ---
 UID: NS:ntsecapi._SECURITY_LOGON_SESSION_DATA
 title: SECURITY_LOGON_SESSION_DATA (ntsecapi.h)
-description: Contains information about a logon session.
+description: Contains information about a logon session. (SECURITY_LOGON_SESSION_DATA)
 helpviewer_keywords: ["*PSECURITY_LOGON_SESSION_DATA","LOGON_NOT_OPTIMIZED","LOGON_OPTIMIZED","LOGON_PKINIT","LOGON_WINLOGON","PSECURITY_LOGON_SESSION_DATA","PSECURITY_LOGON_SESSION_DATA structure pointer [Security]","SECURITY_LOGON_SESSION_DATA","SECURITY_LOGON_SESSION_DATA structure [Security]","_SECURITY_LOGON_SESSION_DATA","_lsa_security_logon_session_data","ntsecapi/PSECURITY_LOGON_SESSION_DATA","ntsecapi/SECURITY_LOGON_SESSION_DATA","security.security_logon_session_data"]
 old-location: security\security_logon_session_data.htm
 tech.root: security
@@ -212,13 +212,13 @@ The time that the logon session must end.
 
 ### -field PasswordLastSet
 
-The time  when the user last changed the password.
+The time  when the user last changed the password.   <b>Note</b> It is up to the Authentication Package to initialize this value and it may not be initialized.
 
 <b>Windows Server 2003 R2, Windows XP with SP1 and earlier, Windows Server 2003 and Windows XP:  </b>This member is not supported.
 
 ### -field PasswordCanChange
 
-The password can be changed during the logon session.
+The password can be changed during the logon session. 
 
 <b>Windows Server 2003 R2, Windows XP with SP1 and earlier, Windows Server 2003 and Windows XP:  </b>This member is not supported.
 

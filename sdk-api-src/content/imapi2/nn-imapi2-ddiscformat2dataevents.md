@@ -1,7 +1,7 @@
 ---
 UID: NN:imapi2.DDiscFormat2DataEvents
 title: DDiscFormat2DataEvents (imapi2.h)
-description: Implement this interface to receive notifications of the current write operation.
+description: Implement this interface to receive notifications of the current write operation. (DDiscFormat2DataEvents)
 helpviewer_keywords: ["DDiscFormat2DataEvents","DDiscFormat2DataEvents interface [IMAPI]","DDiscFormat2DataEvents interface [IMAPI]","described","imapi.ddiscformat2dataevents","imapi2/DDiscFormat2DataEvents"]
 old-location: imapi\ddiscformat2dataevents.htm
 tech.root: imapi
@@ -54,10 +54,7 @@ Implement this interface to receive notifications of the current write operation
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DDiscFormat2DataEvents</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DDiscFormat2DataEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>DDiscFormat2DataEvents</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DDiscFormat2DataEvents</b> also has these types of members:
 
 ## -see-also
 

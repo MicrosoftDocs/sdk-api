@@ -1,11 +1,11 @@
 ---
 UID: NF:mswsock.TransmitFile
 title: TransmitFile function (mswsock.h)
-description: Transmits file data over a connected socket handle.
+description: The TransmitFile function (mswsock.h) transmits file data over a connected socket handle.
 old-location: winsock\transmitfile_2.htm
 tech.root: WinSock
 ms.assetid: 45db763e-735d-48ac-a0e4-6e63b5dda7a5
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: LPFN_TRANSMITFILE, LPFN_TRANSMITFILE function [Winsock], TF_DISCONNECT, TF_REUSE_SOCKET, TF_USE_DEFAULT_WORKER, TF_USE_KERNEL_APC, TF_USE_SYSTEM_THREAD, TF_WRITE_BEHIND, TransmitFile, TransmitFile function [Winsock], _win32_transmitfile_2, winsock.transmitfile_2, winsock/LPFN_TRANSMITFILE, winsock/TransmitFile
 req.header: mswsock.h
 req.include-header: Mswsock.h
@@ -390,7 +390,7 @@ Server versions of Windows optimize the
 
 
 
-If the <b>TransmitFile</b> function is called with TCP socket (protocol of IPPROTO_TCP) with both the <b>TF_DISCONNECT</b>and <b>TF_REUSE_SOCKET</b> flags specified, the call will not complete until the two following conditions are met.<ul>
+If the <b>TransmitFile</b> function is called with TCP socket (protocol of IPPROTO_TCP) with both the <b>TF_DISCONNECT</b> and <b>TF_REUSE_SOCKET</b> flags specified, the call will not complete until the two following conditions are met.<ul>
 <li>All pending receive data sent by remote side (received prior to a FIN from the remote side) on the TCP socket has been read.
 </li>
 <li> The remote side has closed the connection (completed the graceful TCP connection closure).</li>

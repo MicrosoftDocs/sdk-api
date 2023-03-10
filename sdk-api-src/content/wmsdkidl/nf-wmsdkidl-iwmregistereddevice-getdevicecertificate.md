@@ -57,7 +57,7 @@ The <b>GetDeviceCertificate</b> method retrieves the certificate of the device.
 
 ### -param ppCertificate [out]
 
-Address of a variable that receives a pointer to the <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface of the buffer object that contains the certificate data.
+Address of a variable that receives a pointer to the <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface of the buffer object that contains the certificate data.
 
 ## -returns
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateMetadataReaderFromContainer
 title: IWICComponentFactory::CreateMetadataReaderFromContainer (wincodecsdk.h)
-description: Creates an IWICMetadataReader based on the given parameters.
+description: Creates an IWICMetadataReader based on the given parameters. (IWICComponentFactory.CreateMetadataReaderFromContainer)
 helpviewer_keywords: ["CreateMetadataReaderFromContainer","CreateMetadataReaderFromContainer method [Windows Imaging Component]","CreateMetadataReaderFromContainer method [Windows Imaging Component]","IWICComponentFactory interface","IWICComponentFactory interface [Windows Imaging Component]","CreateMetadataReaderFromContainer method","IWICComponentFactory.CreateMetadataReaderFromContainer","IWICComponentFactory::CreateMetadataReaderFromContainer","_wic_codec_iwiccomponentfactory_createmetadatareaderfromcontainer","wic._wic_codec_iwiccomponentfactory_createmetadatareaderfromcontainer","wincodecsdk/IWICComponentFactory::CreateMetadataReaderFromContainer"]
 old-location: wic\_wic_codec_iwiccomponentfactory_createmetadatareaderfromcontainer.htm
 tech.root: wic
@@ -88,4 +88,4 @@ A pointer that receives a pointer to the new metadata reader
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

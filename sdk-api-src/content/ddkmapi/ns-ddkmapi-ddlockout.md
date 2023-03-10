@@ -141,7 +141,7 @@ DDSCAPS_FLIP
 
 </td>
 <td>
-This surface is a part of a surface flipping structure. When this capability is passed to the application's <b>CreateSurface</b> method, a front buffer and one or more back buffers are created. DirectDraw sets the DDSCAPS_FRONTBUFFER bit on the front-buffer surface and the DDSCAPS_BACKBUFFER bit on the surface adjacent to the front-buffer surface. The <b>dwBackBufferCount</b> member of the <a href="/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a> structure must be set to at least 1 in order for the method call to succeed. The DDSCAPS_COMPLEX capability must always be set when creating multiple surfaces by using the <b>CreateSurface</b> method. 
+This surface is a part of a surface flipping structure. When this capability is passed to the application's <b>CreateSurface</b> method, a front buffer and one or more back buffers are created. DirectDraw sets the DDSCAPS_FRONTBUFFER bit on the front-buffer surface and the DDSCAPS_BACKBUFFER bit on the surface adjacent to the front-buffer surface. The <b>dwBackBufferCount</b> member of the <a href="/windows/win32/api/ddraw/ns-ddraw-ddsurfacedesc">DDSURFACEDESC</a> structure must be set to at least 1 in order for the method call to succeed. The DDSCAPS_COMPLEX capability must always be set when creating multiple surfaces by using the <b>CreateSurface</b> method. 
 
 </td>
 </tr>

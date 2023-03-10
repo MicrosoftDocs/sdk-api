@@ -1,7 +1,7 @@
 ---
 UID: NF:directxmath.XMINT2.XMINT2(XMINT2&&)
 title: XMINT2::XMINT2(XMINT2 &&) (directxmath.h)
-description: A constructor for XMINT2.
+description: A constructor for XMINT2. (overload 1/2)
 helpviewer_keywords: ["XMINT2","XMINT2 constructor [DirectX Math Support APIs]","XMINT2 constructor [DirectX Math Support APIs]","XMINT2 structure","XMINT2 structure [DirectX Math Support APIs]","XMINT2 constructor","XMINT2.XMINT2","XMINT2.XMINT2()","XMINT2.XMINT2(XMINT2 &&)","XMINT2::XMINT2","XMINT2::XMINT2(XMINT2 &&)","dxmath.xmint2_ctor_1"]
 old-location: 
 tech.root: dxmath
@@ -11,8 +11,8 @@ ms.keywords: XMINT2, XMINT2 constructor [DirectX Math Support APIs], XMINT2 cons
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

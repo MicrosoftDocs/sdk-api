@@ -64,6 +64,10 @@ A handle to the header control.
 
 The <b>Header_GetItemCount</b> macro is defined as follows. 
 
-<pre class="syntax" xml:space="preserve"><code>#define Header_GetItemCount(hwndHD)   \
 
-       (int)SendMessage((hwndHD), HDM_GETITEMCOUNT, 0, 0L)</code></pre>
+``` syntax
+#define Header_GetItemCount(hwndHD)   \
+
+       (int)SendMessage((hwndHD), HDM_GETITEMCOUNT, 0, 0L)
+```
+

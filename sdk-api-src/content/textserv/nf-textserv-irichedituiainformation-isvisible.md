@@ -52,7 +52,7 @@ api_name:
 
 Indicates whether a windowless rich edit control is currently visible.
 
-## -parameters
+
 
 ## -returns
 

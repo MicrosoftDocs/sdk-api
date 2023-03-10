@@ -52,7 +52,7 @@ api_name:
 
 Called by XAudio2 just before an audio processing pass begins.
 
-## -parameters
+
 
 ## -remarks
 

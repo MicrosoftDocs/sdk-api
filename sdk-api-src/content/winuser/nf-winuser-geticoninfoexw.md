@@ -1,8 +1,8 @@
 ---
 UID: NF:winuser.GetIconInfoExW
 title: GetIconInfoExW function (winuser.h)
-description: Retrieves information about the specified icon or cursor. GetIconInfoEx extends GetIconInfo by using the newer ICONINFOEX structure.
-helpviewer_keywords: ["GetIconInfoEx","GetIconInfoEx function [Menus and Other Resources]","GetIconInfoExA","GetIconInfoExW","IDC_APPSTARTING","IDC_ARROW","IDC_CROSS","IDC_HAND","IDC_HELP","IDC_IBEAM","IDC_NO","IDC_SIZEALL","IDC_SIZENESW","IDC_SIZENS","IDC_SIZENWSE","IDC_SIZEWE","IDC_UPARROW","IDC_WAIT","IDI_APPLICATION","IDI_ASTERISK","IDI_EXCLAMATION","IDI_HAND","IDI_QUESTION","IDI_WINLOGO","_win32_GetIconInfoEx","_win32_geticoninfoex_cpp","menurc.geticoninfoex","winui._win32_geticoninfoex","winuser/GetIconInfoEx","winuser/GetIconInfoExA","winuser/GetIconInfoExW"]
+description: Retrieves information about the specified icon or cursor. GetIconInfoEx extends GetIconInfo by using the newer ICONINFOEX structure. (Unicode)
+helpviewer_keywords: ["GetIconInfoEx", "GetIconInfoEx function [Menus and Other Resources]", "GetIconInfoExW", "IDC_APPSTARTING", "IDC_ARROW", "IDC_CROSS", "IDC_HAND", "IDC_HELP", "IDC_IBEAM", "IDC_NO", "IDC_SIZEALL", "IDC_SIZENESW", "IDC_SIZENS", "IDC_SIZENWSE", "IDC_SIZEWE", "IDC_UPARROW", "IDC_WAIT", "IDI_APPLICATION", "IDI_ASTERISK", "IDI_EXCLAMATION", "IDI_HAND", "IDI_QUESTION", "IDI_WINLOGO", "_win32_GetIconInfoEx", "_win32_geticoninfoex_cpp", "menurc.geticoninfoex", "winui._win32_geticoninfoex", "winuser/GetIconInfoEx", "winuser/GetIconInfoExW"]
 old-location: menurc\geticoninfoex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\geticoninfoex.htm
@@ -305,14 +305,10 @@ Type: <b>BOOL</b>
 
 ## -remarks
 
-<b>GetIconInfoEx</b> creates bitmaps for the <b>hbmMask</b> and <b>hbmCol</b> or members of <a href="/windows/desktop/api/winuser/ns-winuser-iconinfoexa">ICONINFOEX</a>. The calling application must manage these bitmaps and delete them when they are no longer necessary.
+<b>GetIconInfoEx</b> creates bitmaps for the <b>hbmMask</b> and <b>hbmColor</b> or members of <a href="/windows/desktop/api/winuser/ns-winuser-iconinfoexa">ICONINFOEX</a>. The calling application must manage these bitmaps and delete them when they are no longer necessary.
 
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The output returned is not affected by the DPI of the calling thread.
-
-
-
-
 
 > [!NOTE]
 > The winuser.h header defines GetIconInfoEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

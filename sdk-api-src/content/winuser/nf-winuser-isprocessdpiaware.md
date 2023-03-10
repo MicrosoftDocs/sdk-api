@@ -56,7 +56,7 @@ api_name:
 
 Determines whether the current process is dots per inch (dpi) aware such that it adjusts the sizes of UI elements to compensate for the dpi setting.
 
-## -parameters
+
 
 ## -returns
 

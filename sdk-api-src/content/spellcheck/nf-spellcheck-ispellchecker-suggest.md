@@ -1,7 +1,7 @@
 ---
 UID: NF:spellcheck.ISpellChecker.Suggest
 title: ISpellChecker::Suggest (spellcheck.h)
-description: Retrieves spelling suggestions for the supplied text.
+description: Retrieves spelling suggestions for the supplied text. (ISpellChecker.Suggest)
 helpviewer_keywords: ["ISpellChecker interface [Internationalization for Windows Applications]","Suggest method","ISpellChecker.Suggest","ISpellChecker::Suggest","Suggest","Suggest method [Internationalization for Windows Applications]","Suggest method [Internationalization for Windows Applications]","ISpellChecker interface","intl.ispellchecker_suggest","spellcheck/ISpellChecker::Suggest"]
 old-location: intl\ispellchecker_suggest.htm
 tech.root: Intl

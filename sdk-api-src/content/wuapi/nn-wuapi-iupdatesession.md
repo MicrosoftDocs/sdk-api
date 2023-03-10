@@ -1,7 +1,7 @@
 ---
 UID: NN:wuapi.IUpdateSession
 title: IUpdateSession (wuapi.h)
-description: Represents a session in which the caller can perform operations that involve updates. For example, this interface represents sessions in which the caller performs a search, download, installation, or uninstallation operation.
+description: Represents a session in which the caller can perform operations that involve updates. For example, this interface represents sessions in which the caller performs a search, download, installation, or uninstallation operation. (IUpdateSession)
 helpviewer_keywords: ["IUpdateSession","IUpdateSession interface [Windows Update Agent]","IUpdateSession interface [Windows Update Agent]","described","wua.iupdatesession","wuapi/IUpdateSession"]
 old-location: wua\iupdatesession.htm
 tech.root: wua
@@ -54,11 +54,7 @@ Represents a session in which the caller can perform operations that involve upd
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateSession</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateSession</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IUpdateSession</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateSession</b> also has these types of members:
 
 ## -remarks
 

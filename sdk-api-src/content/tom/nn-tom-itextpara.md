@@ -1,7 +1,7 @@
 ---
 UID: NN:tom.ITextPara
 title: ITextPara (tom.h)
-description: Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, ITextFont and ITextPara.
+description: Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, ITextFont and ITextPara. (ITextPara)
 helpviewer_keywords: ["ITextPara","ITextPara interface [Windows Controls]","ITextPara interface [Windows Controls]","described","_win32_ITextPara","_win32_ITextPara_cpp","controls.ITextPara","controls._win32_ITextPara","tom/ITextPara"]
 old-location: controls\ITextPara.htm
 tech.root: Controls
@@ -54,10 +54,7 @@ Text Object Model (TOM) rich text-range attributes are accessed through a pair o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextPara</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITextPara</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ITextPara</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITextPara</b> also has these types of members:
 
 ## -remarks
 

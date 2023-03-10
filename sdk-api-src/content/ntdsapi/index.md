@@ -4,7 +4,7 @@ title: Ntdsapi.h header
 ms.assetid: cb6ec198-ba04-3c17-b674-2b0630c2a5d4
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: ad
 f1_keywords:
  - ntdsapi
@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Active Directory Domain Services. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Active Directory Domain Services](../_ad/index.md)
+- [Active Directory Lightweight Directory Services](../_adam/index.md)
 

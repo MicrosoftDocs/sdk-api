@@ -1,8 +1,8 @@
 ---
 UID: NF:ras.RasGetSubEntryPropertiesW
 title: RasGetSubEntryPropertiesW function (ras.h)
-description: The RasGetSubEntryProperties function retrieves information about a subentry for a specified phone-book entry.
-helpviewer_keywords: ["RasGetSubEntryProperties","RasGetSubEntryProperties function [RAS]","RasGetSubEntryPropertiesA","RasGetSubEntryPropertiesW","_ras_rasgetsubentryproperties","ras/RasGetSubEntryProperties","ras/RasGetSubEntryPropertiesA","ras/RasGetSubEntryPropertiesW","rras.rasgetsubentryproperties"]
+description: The RasGetSubEntryProperties function retrieves information about a subentry for a specified phone-book entry. (Unicode)
+helpviewer_keywords: ["RasGetSubEntryProperties", "RasGetSubEntryProperties function [RAS]", "RasGetSubEntryPropertiesW", "_ras_rasgetsubentryproperties", "ras/RasGetSubEntryProperties", "ras/RasGetSubEntryPropertiesW", "rras.rasgetsubentryproperties"]
 old-location: rras\rasgetsubentryproperties.htm
 tech.root: RRAS
 ms.assetid: 6efe7824-54a1-491c-a568-21e23e98ed46

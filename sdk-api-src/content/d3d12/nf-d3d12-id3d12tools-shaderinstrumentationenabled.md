@@ -52,7 +52,7 @@ api_name:
 
 Determines whether shader instrumentation is enabled.
 
-## -parameters
+
 
 ## -returns
 
@@ -62,7 +62,7 @@ Returns TRUE if shader instrumentation is enabled; otherwise FALSE.
 
 ## -remarks
 
-Do not use this interface in your application, its not intended or supported for any scenario other than to enable tooling such as PIX.
+Do not use this interface in your application, it's not intended or supported for any scenario other than to enable tooling such as PIX.
 
 Developer Mode must be enabled for this interface to respond.
 

@@ -4,7 +4,7 @@ title: Indexsrv.h header
 ms.assetid: 9322b589-ec22-3f3d-9f92-5cc7ded5709b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: indexsrv
 f1_keywords:
  - indexsrv
@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Indexing Service. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Indexing Service](../_indexsrv/index.md)
+- [Windows Search](../_search/index.md)
 

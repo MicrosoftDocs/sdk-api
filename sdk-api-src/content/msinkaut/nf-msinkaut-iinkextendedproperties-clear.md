@@ -53,7 +53,7 @@ api_name:
 
 Clears all of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> objects from the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection.
 
-## -parameters
+
 
 ## -returns
 

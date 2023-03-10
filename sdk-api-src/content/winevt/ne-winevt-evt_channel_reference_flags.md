@@ -56,7 +56,7 @@ Defines the values that specify how a channel is referenced.
 
 ## -enum-fields
 
-### -field EvtChannelReferenceImported
+### -field EvtChannelReferenceImported:0x1
 
 Specifies that the channel is imported.
 

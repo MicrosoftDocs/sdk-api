@@ -1,7 +1,7 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_StrictFileSystemCompliance
 title: IFileSystemImage::get_StrictFileSystemCompliance (imapi2fs.h)
-description: Determines the compliance level for creating and developing the file-system image.
+description: Determines the compliance level for creating and developing the file-system image. (Get)
 helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_StrictFileSystemCompliance method","IFileSystemImage.get_StrictFileSystemCompliance","IFileSystemImage::get_StrictFileSystemCompliance","get_StrictFileSystemCompliance","get_StrictFileSystemCompliance method [IMAPI]","get_StrictFileSystemCompliance method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_strictfilesystemcompliance","imapi2fs/IFileSystemImage::get_StrictFileSystemCompliance"]
 old-location: imapi\ifilesystemimage_get_strictfilesystemcompliance.htm
 tech.root: imapi

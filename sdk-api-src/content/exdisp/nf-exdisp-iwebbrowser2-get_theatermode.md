@@ -1,7 +1,7 @@
 ---
 UID: NF:exdisp.IWebBrowser2.get_TheaterMode
 title: IWebBrowser2::get_TheaterMode (exdisp.h)
-description: Sets or gets whether the object is in theater mode.
+description: Sets or gets whether the object is in theater mode. (Get)
 helpviewer_keywords: ["IWebBrowser2 interface [Windows API]","TheaterMode property","IWebBrowser2.TheaterMode","IWebBrowser2.get_TheaterMode","IWebBrowser2.put_TheaterMode","IWebBrowser2::TheaterMode","IWebBrowser2::get_TheaterMode","IWebBrowser2::put_TheaterMode","TheaterMode property [Windows API]","TheaterMode property [Windows API]","IWebBrowser2 interface","VARIANT_FALSE","VARIANT_TRUE","exdisp/IWebBrowser2::TheaterMode","exdisp/IWebBrowser2::get_TheaterMode","exdisp/IWebBrowser2::put_TheaterMode","get_TheaterMode","winprog.iwebbrowser2_theatermode"]
 old-location: winprog\iwebbrowser2_theatermode.htm
 tech.root: winprog

@@ -4,7 +4,7 @@ title: Certenc.h header
 ms.assetid: 85d548ab-64b8-378d-b871-637af43e23eb
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: security
 f1_keywords:
  - certenc

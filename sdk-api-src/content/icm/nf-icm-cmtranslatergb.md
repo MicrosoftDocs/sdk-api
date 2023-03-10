@@ -62,8 +62,8 @@ Specifies how the transform should be used to make the translation. This paramet
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -1,7 +1,7 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateStrokeStyle(constD2D1_STROKE_STYLE_PROPERTIES,constFLOAT,UINT32,ID2D1StrokeStyle)
 title: ID2D1Factory::CreateStrokeStyle (d2d1.h)
-description: Creates an ID2D1StrokeStyle that describes start cap, dash pattern, and other features of a stroke.
+description: Creates an ID2D1StrokeStyle that describes start cap, dash pattern, and other features of a stroke. (overload 1/2)
 helpviewer_keywords: ["CreateStrokeStyle","CreateStrokeStyle method [Direct2D]","CreateStrokeStyle method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreateStrokeStyle method","ID2D1Factory.CreateStrokeStyle","ID2D1Factory::CreateStrokeStyle","ID2D1Factory::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES","const FLOAT","UINT32","ID2D1StrokeStyle)","d2d1/ID2D1Factory::CreateStrokeStyle","direct2d.ID2D1Factory_CreateStrokeStyle_ptr_D2D1_STROKE_STYLE_PROPERTIES_ptr_FLOAT_ptr_ptr_ID2D1StrokeStyle"]
 old-location: direct2d\ID2D1Factory_CreateStrokeStyle_ptr_D2D1_STROKE_STYLE_PROPERTIES_ptr_FLOAT_ptr_ptr_ID2D1StrokeStyle.htm
 tech.root: Direct2D
@@ -82,7 +82,7 @@ When this method returns, contains the address of the pointer to the stroke styl
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 ## -see-also
 

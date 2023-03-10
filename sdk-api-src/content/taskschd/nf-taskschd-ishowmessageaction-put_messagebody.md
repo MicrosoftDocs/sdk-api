@@ -1,7 +1,7 @@
 ---
 UID: NF:taskschd.IShowMessageAction.put_MessageBody
 title: IShowMessageAction::put_MessageBody (taskschd.h)
-description: Gets or sets the message text that is displayed in the body of the message box.
+description: Gets or sets the message text that is displayed in the body of the message box. (Put)
 helpviewer_keywords: ["IShowMessageAction interface [Task Scheduler]","MessageBody property","IShowMessageAction.MessageBody","IShowMessageAction.put_MessageBody","IShowMessageAction::MessageBody","IShowMessageAction::get_MessageBody","IShowMessageAction::put_MessageBody","MessageBody property [Task Scheduler]","MessageBody property [Task Scheduler]","IShowMessageAction interface","put_MessageBody","taskschd.ishowmessageaction_messagebody","taskschd/IShowMessageAction::MessageBody","taskschd/IShowMessageAction::get_MessageBody","taskschd/IShowMessageAction::put_MessageBody"]
 old-location: taskschd\ishowmessageaction_messagebody.htm
 tech.root: taskschd

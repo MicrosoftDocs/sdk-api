@@ -1,12 +1,12 @@
 ---
 UID: NN:unknwn.IClassFactory
 title: IClassFactory
-description: Enables a class of objects to be created.
+description: The IClassFactory interface enables a class of objects to be created.
 helpviewer_keywords: ["IClassFactory","IClassFactory interface [COM]","IClassFactory interface [COM]","described","_com_iclassfactory","com.iclassfactory","unknwnbase/IClassFactory"]
 old-location: com\iclassfactory.htm
 tech.root: com
 ms.assetid: f624f833-2b69-43bc-92cd-c4ecbe6051c5
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IClassFactory, IClassFactory interface [COM], IClassFactory interface [COM],described, _com_iclassfactory, com.iclassfactory, unknwnbase/IClassFactory
 req.header: unknwn.h
 req.include-header: Unknwn.h
@@ -51,10 +51,7 @@ Enables a class of objects to be created.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClassFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IClassFactory</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IClassFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IClassFactory</b> also has these types of members:
 
 ## -see-also
 

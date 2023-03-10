@@ -1,7 +1,7 @@
 ---
 UID: NS:wingdi.tagGCP_RESULTSA
 title: GCP_RESULTSA (wingdi.h)
-description: The GCP_RESULTS structure contains information about characters in a string. This structure receives the results of the GetCharacterPlacement function. For some languages, the first element in the arrays may contain more, language-dependent information.
+description: The GCP_RESULTS structure contains information about characters in a string. This structure receives the results of the GetCharacterPlacement function. For some languages, the first element in the arrays may contain more, language-dependent information. (ANSI)
 helpviewer_keywords: ["*LPGCP_RESULTSA","GCPCLASS_ARABIC","GCPCLASS_HEBREW","GCPCLASS_LATIN","GCPCLASS_LATINNUMBER","GCPCLASS_LATINNUMERICSEPARATOR","GCPCLASS_LATINNUMERICTERMINATOR","GCPCLASS_LOCALNUMBER","GCPCLASS_NEUTRAL","GCPCLASS_NUMERICSEPARATOR","GCPCLASS_POSTBOUNDLTR","GCPCLASS_POSTBOUNDRTL","GCPCLASS_PREBOUNDLTR","GCPCLASS_PREBOUNDRTL","GCP_RESULTS","GCP_RESULTS structure [Windows GDI]","GCP_RESULTSA","GCP_RESULTSW","LPGCP_RESULTS","LPGCP_RESULTS structure pointer [Windows GDI]","_win32_GCP_RESULTS_str","gdi.gcp_results","wingdi/GCP_RESULTS","wingdi/GCP_RESULTSA","wingdi/GCP_RESULTSW","wingdi/LPGCP_RESULTS"]
 old-location: gdi\gcp_results.htm
 tech.root: gdi
@@ -80,9 +80,13 @@ A pointer to the array that receives the distances between adjacent character ce
 
 The distances in this array are in display order. To find the distance for the <i>i</i><sup>th</sup> character in the original string, use the <b>lpOrder</b> array as follows:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 width = lpDx[lpOrder[i]];
-</code></pre>
+
+```
+
 
 ### -field lpCaretPos
 
@@ -90,13 +94,17 @@ A pointer to the array that receives the caret position values or is <b>NULL</b>
 
 The values in this array are in input order. To find the caret position value for the <i>i</i><sup>th</sup> character in the original string, use the array as follows:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 position = lpCaretPos[i];
-</code></pre>
+
+```
+
 
 ### -field lpClass
 
-A pointer to the array that contains and/or receives character classifications. The values indicate how to lay out characters in the string and are similar (but not identical) to the CT_CTYPE2 values returned by the <a href="/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a> function. Each element of the array can be set to zero or one of the following values.
+A pointer to the array that contains and/or receives character classifications. The values indicate how to lay out characters in the string and are similar (but not identical) to the CT_CTYPE2 values returned by the <a href="/previous-versions/ms960831(v%3dmsdn.10)">GetStringTypeEx</a> function. Each element of the array can be set to zero or one of the following values.
 
 <table>
 <tr>

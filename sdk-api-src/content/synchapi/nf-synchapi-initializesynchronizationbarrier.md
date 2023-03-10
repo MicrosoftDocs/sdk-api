@@ -78,7 +78,7 @@ The number of times an individual thread should spin while waiting for other thr
 
 ## -returns
 
-<b>TRUE </b>if the barrier was successfully initialized. If the barrier was not 
+<b>TRUE </b> if the barrier was successfully initialized. If the barrier was not 
       successfully initialized, this function returns <b>FALSE</b>. Use 
       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information.
 

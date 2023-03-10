@@ -52,7 +52,7 @@ api_name:
 
 The <b>Init</b> method sets the <a href="/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> object to its initial state.
 
-## -parameters
+
 
 ## -returns
 

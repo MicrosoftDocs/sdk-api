@@ -4,7 +4,7 @@ title: Data Access and Storage
 ms.assetid: a9f12332-38ed-3ca3-94de-b920c35101cd
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Data Access and Storage
@@ -22,13 +22,16 @@ To develop Data Access and Storage, you need these headers:
  * [dskquota.h](../dskquota/index.md)
  * [fileapi.h](../fileapi/index.md)
  * [fileapifromapp.h](../fileapifromapp/index.md)
+ * [ioringapi.h](../ioringapi/index.md)
  * [ktmtypes.h](../ktmtypes/index.md)
  * [ktmw32.h](../ktmw32/index.md)
  * [lmshare.h](../lmshare/index.md)
  * [lmstats.h](../lmstats/index.md)
  * [lzexpand.h](../lzexpand/index.md)
+ * [ntioring_x.h](../ntioring_x/index.md)
  * [ntmsapi.h](../ntmsapi/index.md)
  * [ntmsmli.h](../ntmsmli/index.md)
+ * [nvme.h](../nvme/index.md)
  * [txfw32.h](../txfw32/index.md)
  * [winefs.h](../winefs/index.md)
  * [wofapi.h](../wofapi/index.md)

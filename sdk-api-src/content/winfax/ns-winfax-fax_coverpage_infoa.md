@@ -1,7 +1,7 @@
 ---
 UID: NS:winfax._FAX_COVERPAGE_INFOA
 title: FAX_COVERPAGE_INFOA (winfax.h)
-description: The FAX_COVERPAGE_INFO structure contains data to display on the cover page of a fax transmission. The SizeOfStruct and CoverPageName members are required; other members are optional.
+description: The FAX_COVERPAGE_INFO structure contains data to display on the cover page of a fax transmission. The SizeOfStruct and CoverPageName members are required; other members are optional. (ANSI)
 helpviewer_keywords: ["*PFAX_COVERPAGE_INFOA","FAX_COVERPAGE_INFO","FAX_COVERPAGE_INFO structure [Fax Service]","FAX_COVERPAGE_INFOA","FAX_COVERPAGE_INFOW","PFAX_COVERPAGE_INFO","PFAX_COVERPAGE_INFO structure pointer [Fax Service]","_mfax_fax_coverpage_info_str","fax._mfax_fax_coverpage_info_str","winfax/FAX_COVERPAGE_INFO","winfax/FAX_COVERPAGE_INFOA","winfax/FAX_COVERPAGE_INFOW","winfax/PFAX_COVERPAGE_INFO"]
 old-location: fax\_mfax_fax_coverpage_info_str.htm
 tech.root: Fax

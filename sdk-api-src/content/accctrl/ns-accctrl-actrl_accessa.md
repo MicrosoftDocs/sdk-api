@@ -1,7 +1,7 @@
 ---
 UID: NS:accctrl._ACTRL_ALISTA
 title: ACTRL_ACCESSA (accctrl.h)
-description: Contains an array of access-control lists for an object and its properties.
+description: Contains an array of access-control lists for an object and its properties. (ANSI)
 helpviewer_keywords: ["*PACTRL_ACCESSA","*PACTRL_AUDITA","ACTRL_ACCESS","ACTRL_ACCESS structure [COM]","ACTRL_ACCESSA","ACTRL_ACCESSW","ACTRL_AUDIT","ACTRL_AUDITA","PACTRL_ACCESS","PACTRL_ACCESS structure pointer [COM]","PACTRL_ACCESSW_ALLOCATE_ALL_NODES","_ACTRL_ALISTA","_ACTRL_ALISTW","accctrl/ACTRL_ACCESS","accctrl/ACTRL_ACCESSA","accctrl/ACTRL_ACCESSW","accctrl/PACTRL_ACCESS","com.actrl_access"]
 old-location: com\actrl_access.htm
 tech.root: com
@@ -76,7 +76,11 @@ An array of <a href="/windows/desktop/api/accctrl/ns-accctrl-actrl_property_entr
 
 Note the following type definition.
 
-<pre class="syntax" xml:space="preserve"><code>typedef PACTRL_ACCESSW PACTRL_ACCESSW_ALLOCATE_ALL_NODES;</code></pre>
+
+``` syntax
+typedef PACTRL_ACCESSW PACTRL_ACCESSW_ALLOCATE_ALL_NODES;
+```
+
 
 
 

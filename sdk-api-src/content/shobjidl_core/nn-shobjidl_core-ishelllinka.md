@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IShellLinkA
 title: IShellLinkA (shobjidl_core.h)
-description: Exposes methods that create, modify, and resolve Shell links.
+description: Exposes methods that create, modify, and resolve Shell links. (ANSI)
 helpviewer_keywords: ["IShellLink","IShellLink interface [Windows Shell]","IShellLink interface [Windows Shell]","described","IShellLinkA","IShellLinkW","_win32_IShellLink","_win32_IShellLink_cpp","shell.IShellLink","shobjidl_core/IShellLink"]
 old-location: shell\IShellLink.htm
 tech.root: shell
@@ -56,10 +56,7 @@ Exposes methods that create, modify, and resolve Shell links.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellLink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellLink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IShellLink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellLink</b> also has these types of members:
 
 ## -remarks
 

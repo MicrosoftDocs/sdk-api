@@ -52,7 +52,7 @@ api_name:
 
 Deallocates variables that were allocated with the <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-lockforprocess">LockForProcess</a> method.
 
-## -parameters
+
 
 ## -remarks
 

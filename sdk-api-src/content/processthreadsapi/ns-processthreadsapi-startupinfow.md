@@ -1,15 +1,15 @@
 ---
 UID: NS:processthreadsapi._STARTUPINFOW
 title: STARTUPINFOW (processthreadsapi.h)
-description: Specifies the window station, desktop, standard handles, and appearance of the main window for a process at creation time.
+description: Specifies the window station, desktop, standard handles, and appearance of the main window for a process at creation time. (Unicode)
 helpviewer_keywords: ["*LPSTARTUPINFOW","LPSTARTUPINFO","LPSTARTUPINFO structure pointer","STARTF_FORCEOFFFEEDBACK","STARTF_FORCEONFEEDBACK","STARTF_PREVENTPINNING","STARTF_RUNFULLSCREEN","STARTF_TITLEISAPPID","STARTF_TITLEISLINKNAME","STARTF_UNTRUSTEDSOURCE","STARTF_USECOUNTCHARS","STARTF_USEFILLATTRIBUTE","STARTF_USEHOTKEY","STARTF_USEPOSITION","STARTF_USESHOWWINDOW","STARTF_USESIZE","STARTF_USESTDHANDLES","STARTUPINFO","STARTUPINFO structure","STARTUPINFOA","STARTUPINFOW","_win32_startupinfo_str","base.startupinfo_str","processthreadsapi/LPSTARTUPINFO","processthreadsapi/STARTUPINFO","processthreadsapi/STARTUPINFOA","processthreadsapi/STARTUPINFOW","winbase/LPSTARTUPINFO","winbase/STARTUPINFO","winbase/STARTUPINFOA","winbase/STARTUPINFOW"]
 old-location: base\startupinfo_str.htm
-tech.root: backup
+tech.root: processthreadsapi
 ms.assetid: cf4b795c-52c1-4573-8328-99ee13f68bb3
 ms.date: 12/05/2018
 ms.keywords: '*LPSTARTUPINFOW, LPSTARTUPINFO, LPSTARTUPINFO structure pointer, STARTF_FORCEOFFFEEDBACK, STARTF_FORCEONFEEDBACK, STARTF_PREVENTPINNING, STARTF_RUNFULLSCREEN, STARTF_TITLEISAPPID, STARTF_TITLEISLINKNAME, STARTF_UNTRUSTEDSOURCE, STARTF_USECOUNTCHARS, STARTF_USEFILLATTRIBUTE, STARTF_USEHOTKEY, STARTF_USEPOSITION, STARTF_USESHOWWINDOW, STARTF_USESIZE, STARTF_USESTDHANDLES, STARTUPINFO, STARTUPINFO structure, STARTUPINFOA, STARTUPINFOW, _win32_startupinfo_str, base.startupinfo_str, processthreadsapi/LPSTARTUPINFO, processthreadsapi/STARTUPINFO, processthreadsapi/STARTUPINFOA, processthreadsapi/STARTUPINFOW, winbase/LPSTARTUPINFO, winbase/STARTUPINFO, winbase/STARTUPINFOA, winbase/STARTUPINFOW'
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -395,7 +395,7 @@ If a GUI process is being started and neither STARTF_FORCEONFEEDBACK or STARTF_F
 
 If a process is launched from the taskbar or jump list, the system sets [GetStartupInfo](./nf-processthreadsapi-getstartupinfow.md) to retrieve the <b>STARTUPINFO</b> structure and check that <b>hStdOutput</b> is set. If so, use <a href="/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a> to check whether <b>hStdOutput</b> is a valid monitor handle (HMONITOR). The process can then use the handle to position its windows.
 
-If the [GetStartupInfo](./nf-processthreadsapi-getstartupinfow.md) function, then applications should be aware that the command line is untrusted. If this flag is set, applications should disable potentially dangerous features such as macros, downloaded content, and automatic printing. This flag is optional. Applications that call <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> are encouraged to set this flag when launching a program with a untrusted command line so that the created process can apply appropriate policy.
+If the <b>STARTF_UNTRUSTEDSOURCE</b> flag is specified, the application should be aware that the command line is untrusted. If this flag is set, applications should disable potentially dangerous features such as macros, downloaded content, and automatic printing. This flag is optional. Applications that call <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> are encouraged to set this flag when launching a program with untrusted command line arguments (e.g. those provided by web content) so that the newly created process can apply appropriate policy.
 
 The <b>STARTF_UNTRUSTEDSOURCE</b> flag is supported starting in Windows Vista, but it is not defined in the SDK header files prior to the Windows 10 SDK. To use the flag in versions prior to Windows 10, you can define it manually in your program.
 

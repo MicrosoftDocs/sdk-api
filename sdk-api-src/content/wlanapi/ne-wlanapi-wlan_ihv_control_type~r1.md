@@ -1,7 +1,8 @@
 ---
 UID: NE:wlanapi._WLAN_IHV_CONTROL_TYPE~r1
 title: WLAN_IHV_CONTROL_TYPE
-ms.date: 01/30/2019
+description: The WLAN_IHV_CONTROL_TYPE enumeration specifies the type of software bypassed by a vendor-specific method.
+ms.date: 08/16/2022
 ms.keywords: _WLAN_IHV_CONTROL_TYPE, WLAN_IHV_CONTROL_TYPE
 targetos: Windows
 req.construct-type: enumeration
@@ -10,8 +11,8 @@ req.header: wlanapi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 

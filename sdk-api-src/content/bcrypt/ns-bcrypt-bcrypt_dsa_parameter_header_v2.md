@@ -105,13 +105,17 @@ The structure applies to DSA keys that exceed 1024 bits in length but are less t
 
 This structure is used as a header for a larger buffer. The DSA parameters blob has the following format in contiguous memory. The Seed, q, Modulus, and Generator are in big-endian format.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 BCRYPT_DSA_PARAMETER_HEADER_V2
 Seed[cbSeedLength]      // Big-endian.
 q[cbGroupSize]          // Big-endian.
 Modulus[cbKeyLength]    // Big-endian.
 Generator[cbKeyLength]  // Big-endian.
-</code></pre>
+
+```
+
 
 ## -see-also
 

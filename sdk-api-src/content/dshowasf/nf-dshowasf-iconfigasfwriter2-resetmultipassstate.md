@@ -52,7 +52,7 @@ api_name:
 
 The <code>ResetMultiPassState</code> method resets the filter when a preprocessing encoding pass is canceled before it is completed.
 
-## -parameters
+
 
 ## -returns
 

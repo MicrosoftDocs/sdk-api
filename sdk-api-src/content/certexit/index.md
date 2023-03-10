@@ -4,7 +4,7 @@ title: Certexit.h header
 ms.assetid: 1782a23c-c631-39ea-9cab-4b29b4abdb98
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: security
 f1_keywords:
  - certexit

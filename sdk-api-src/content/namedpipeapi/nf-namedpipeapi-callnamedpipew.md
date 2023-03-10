@@ -4,7 +4,7 @@ tech.root: base
 title: CallNamedPipeW
 ms.date: 04/19/2021
 targetos: Windows
-description: Connects to a message-type pipe (and waits if an instance of the pipe is not available), writes to and reads from the pipe, and then closes the pipe.
+description: Connects to a message-type pipe (and waits if an instance of the pipe is not available), writes to and reads from the pipe, and then closes the pipe. (CallNamedPipeW)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -138,7 +138,7 @@ Calling <b>CallNamedPipe</b> is equivalent to calling the <a href="/windows/desk
 
 <b>CallNamedPipe</b> fails if the pipe is a byte-type pipe.
 
-<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
+<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax `\\.\pipe\LOCAL\` for the pipe name.
 
 ### Examples
 

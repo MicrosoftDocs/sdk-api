@@ -1,12 +1,12 @@
 ---
 UID: NF:networkisolation.NetworkIsolationSetupAppContainerBinaries
 title: NetworkIsolationSetupAppContainerBinaries function (networkisolation.h)
-description: Is used by software installers to provide information about the image paths of applications that are running in an app container.
+description: The NetworkIsolationSetupAppContainerBinaries function is used by software installers to provide information about the image paths of applications that are running in an app container. 
 helpviewer_keywords: ["NetworkIsolationSetupAppContainerBinaries","NetworkIsolationSetupAppContainerBinaries function [ICS/ICF]","ics.networkisolationsetupappcontainerbinaries","networkisolation/NetworkIsolationSetupAppContainerBinaries"]
 old-location: ics\networkisolationsetupappcontainerbinaries.htm
 tech.root: ics
 ms.assetid: 67a183ec-b318-4f43-9241-cc34b9b251f1
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: NetworkIsolationSetupAppContainerBinaries, NetworkIsolationSetupAppContainerBinaries function [ICS/ICF], ics.networkisolationsetupappcontainerbinaries, networkisolation/NetworkIsolationSetupAppContainerBinaries
 req.header: networkisolation.h
 req.include-header: Netfw.h

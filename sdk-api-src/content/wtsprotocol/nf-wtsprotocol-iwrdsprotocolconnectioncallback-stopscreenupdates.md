@@ -52,7 +52,7 @@ api_name:
 
 Requests that the Remote Desktop Services service stop updating the client screen.
 
-## -parameters
+
 
 ## -returns
 

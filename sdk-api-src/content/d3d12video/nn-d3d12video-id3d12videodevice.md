@@ -45,7 +45,7 @@ Provides video decoding and processing capabilities of a Microsoft Direct3D 12 d
 
 ## -inheritance
 
-ID3D12VideoDevice interits from IUnknown.
+ID3D12VideoDevice inherits from IUnknown.
 
 ## -remarks
 

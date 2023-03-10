@@ -54,7 +54,7 @@ The <b>WMPSyncState</b> enumeration type defines the possible operational states
 
 ## -enum-fields
 
-### -field wmpssUnknown
+### -field wmpssUnknown:0
 
 Synchronization state is unknown.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITPhone.DeviceSpecificVariant
 title: ITPhone::DeviceSpecificVariant (tapi3if.h)
-description: The DeviceSpecificVariant method enables service providers to provide access to features not offered by other TAPI functions.
+description: The DeviceSpecificVariant method enables service providers to provide access to features not offered by other TAPI functions. (ITPhone.DeviceSpecificVariant)
 helpviewer_keywords: ["DeviceSpecificVariant","DeviceSpecificVariant method [TAPI 2.2]","DeviceSpecificVariant method [TAPI 2.2]","ITPhone interface","ITPhone interface [TAPI 2.2]","DeviceSpecificVariant method","ITPhone.DeviceSpecificVariant","ITPhone::DeviceSpecificVariant","_tapi3_itphone_devicespecificvariant","tapi3.itphone_devicespecificvariant","tapi3if/ITPhone::DeviceSpecificVariant"]
 old-location: tapi3\itphone_devicespecificvariant.htm
 tech.root: tapi3

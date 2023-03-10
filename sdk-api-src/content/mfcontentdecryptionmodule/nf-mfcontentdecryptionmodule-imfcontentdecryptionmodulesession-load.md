@@ -1,9 +1,9 @@
 ---
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleSession.Load
 title: IMFContentDecryptionModuleSession::Load
-ms.date: 11/26/2019
+ms.date: 08/05/2022
 targetos: Windows
-description: 
+description: The IMFContentDecryptionModuleSession::Load function loads the data for the specified session into the IMFContentDecryptionModuleSession object.
 tech.root: mf
 req.assembly: 
 req.construct-type: function

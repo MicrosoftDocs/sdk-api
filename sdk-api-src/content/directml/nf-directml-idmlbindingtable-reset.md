@@ -75,6 +75,6 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-<a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
+<a href="/windows/ai/directml/dml-binding">Binding in DirectML</a>
 
 [IDMLBindingTable](/windows/win32/api/directml/nn-directml-idmlbindingtable)

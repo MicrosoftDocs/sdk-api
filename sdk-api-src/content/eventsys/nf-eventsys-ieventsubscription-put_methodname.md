@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_MethodName
 title: IEventSubscription::put_MethodName (eventsys.h)
-description: The name of the event method.
+description: The name of the event method. (Put)
 helpviewer_keywords: ["IEventSubscription interface [COM+]","MethodName property","IEventSubscription.MethodName","IEventSubscription.put_MethodName","IEventSubscription::MethodName","IEventSubscription::get_MethodName","IEventSubscription::put_MethodName","MethodName property [COM+]","MethodName property [COM+]","IEventSubscription interface","cos.ieventsubscription_methodname","eventsys/IEventSubscription::MethodName","eventsys/IEventSubscription::get_MethodName","eventsys/IEventSubscription::put_MethodName","put_MethodName"]
 old-location: cos\ieventsubscription_methodname.htm
 tech.root: cos

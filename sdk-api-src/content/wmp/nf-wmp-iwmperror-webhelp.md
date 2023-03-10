@@ -52,7 +52,7 @@ api_name:
 
 The <b>webHelp</b> method launches the Windows Media Player Web Help page to display further information about the first error in the error queue (index zero).
 
-## -parameters
+
 
 ## -returns
 
@@ -83,7 +83,7 @@ The Web Help pages always contain the latest and most detailed information about
 To access the Web Help pages directly, use the following error code and support center links.
 
 <ul>
-<li><a href="https://support.microsoft.com/help/886273">Windows Media Player Error Code Information</a></li>
+<li><a href="https://support.microsoft.com/windows/windows-media-player-errors-b3a9ccc1-6267-093e-0aa3-ea860644ecd4">Windows Media Player errors</a></li>
 <li><a href="https://support.microsoft.com/ph/7763#tab0">Windows Media Player Solution Center</a></li>
 </ul>
 <b>Windows Media Player 10 Mobile: </b>This method always returns S_OK, but does not launch the Windows Media Player Web Help page.

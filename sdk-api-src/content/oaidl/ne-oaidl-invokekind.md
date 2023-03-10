@@ -56,19 +56,19 @@ Specifies the way a function is invoked.
 
 ## -enum-fields
 
-### -field INVOKE_FUNC
+### -field INVOKE_FUNC:1
 
 The member is called using a normal function invocation syntax.
 
-### -field INVOKE_PROPERTYGET
+### -field INVOKE_PROPERTYGET:2
 
 The function is invoked using a normal property-access syntax.
 
-### -field INVOKE_PROPERTYPUT
+### -field INVOKE_PROPERTYPUT:4
 
 The function is invoked using a property value assignment syntax. Syntactically, a typical programming language might represent changing a property in the same way as assignment. For example: object.property : = value.
 
-### -field INVOKE_PROPERTYPUTREF
+### -field INVOKE_PROPERTYPUTREF:8
 
 The function is invoked using a property reference assignment syntax.
 

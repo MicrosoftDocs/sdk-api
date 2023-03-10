@@ -56,8 +56,5 @@ The methods in this interface are called by the RemoteApp and Desktop Connection
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ItsPubPlugin2</b> interface inherits from <a href="/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a>. <b>ItsPubPlugin2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ItsPubPlugin2</b> interface inherits from <a href="/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a>. <b>ItsPubPlugin2</b> also has these types of members:
 

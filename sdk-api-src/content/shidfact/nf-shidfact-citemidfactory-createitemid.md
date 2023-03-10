@@ -68,11 +68,11 @@ When this method returns, contains a pointer to the ItemID containing the client
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-The size of the user supplied data must equal sizeof(T). Do not use structs with variably allocated array/string members. The struct must also follow standard <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> for persistance and portability.
+The size of the user supplied data must equal sizeof(T). Do not use structs with variably allocated array/string members. The struct must also follow standard <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> for persistence and portability.
 
 ## -see-also
 

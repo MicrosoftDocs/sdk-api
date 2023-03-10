@@ -8,8 +8,8 @@ ms.date: 10/28/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -126,7 +126,7 @@ AxisCount: 2
 Axes: {0, 1}
 AxisDirection: DML_AXIS_DIRECTION_INCREASING
 OutputTensor: (Sizes:{1, 1}, DataType:UINT32)
-[[7]]  // argmin({1, 2, 3, 3, 0, 4, 2, 5, 2})
+[[7]]  // argmax({1, 2, 3, 3, 0, 4, 2, 5, 2})
 ```
 
 ## -remarks
@@ -143,6 +143,13 @@ This operator was introduced in `DML_FEATURE_LEVEL_3_0`.
 *InputTensor* and *OutputTensor* must have the same *DimensionCount*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_4_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | INT64, INT32, UINT64, UINT32 |
+
+### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |

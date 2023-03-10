@@ -54,9 +54,9 @@ Offers  access to global spanning events and their data from the <a href="/previ
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2GlobalEvent2</b> interface inherits from <b>ISBE2GlobalEvent</b>. <b>ISBE2GlobalEvent2</b> also has these types of members:
+The <b>ISBE2GlobalEvent2</b> interface inherits from <b>ISBE2GlobalEvent</b>. <b>ISBE2GlobalEvent2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

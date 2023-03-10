@@ -1,7 +1,7 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientDepartment
 title: IFaxDoc::put_RecipientDepartment (faxcom.h)
-description: Sets or retrieves the RecipientDepartment property of a FaxDoc object. The RecipientDepartment property is a null-terminated string that contains the department of the recipient of the fax transmission.
+description: Sets or retrieves the RecipientDepartment property of a FaxDoc object. The RecipientDepartment property is a null-terminated string that contains the department of the recipient of the fax transmission. (Put)
 helpviewer_keywords: ["IFaxDoc interface [Fax Service]","RecipientDepartment property","IFaxDoc.RecipientDepartment","IFaxDoc.put_RecipientDepartment","IFaxDoc::RecipientDepartment","IFaxDoc::get_RecipientDepartment","IFaxDoc::put_RecipientDepartment","RecipientDepartment property [Fax Service]","RecipientDepartment property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_recipientdepartment","fax._mfax_ifaxdoc_get_recipientdepartment","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientdepartment_cpp","faxcom/IFaxDoc::RecipientDepartment","faxcom/IFaxDoc::get_RecipientDepartment","faxcom/IFaxDoc::put_RecipientDepartment","put_RecipientDepartment"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientdepartment_cpp.htm
 tech.root: Fax

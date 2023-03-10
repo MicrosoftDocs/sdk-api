@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.IComTransactionEvents.OnTransactionStart
 title: IComTransactionEvents::OnTransactionStart (comsvcs.h)
-description: Generated when a Microsoft Distributed Transaction Coordinator (DTC) transaction starts.
+description: Generated when a Microsoft Distributed Transaction Coordinator (DTC) transaction starts. (IComTransactionEvents.OnTransactionStart)
 helpviewer_keywords: ["IComTransactionEvents interface [COM+]","OnTransactionStart method","IComTransactionEvents.OnTransactionStart","IComTransactionEvents::OnTransactionStart","OnTransactionStart","OnTransactionStart method [COM+]","OnTransactionStart method [COM+]","IComTransactionEvents interface","_dtc_IComTransactionEvents_OnTransactionStart","comsvcs/IComTransactionEvents::OnTransactionStart","cos.icomtransactionevents_ontransactionstart"]
 old-location: cos\icomtransactionevents_ontransactionstart.htm
 tech.root: cos

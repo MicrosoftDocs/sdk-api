@@ -4,7 +4,7 @@ tech.root: shell
 title: SHSetUnreadMailCountA
 ms.date: 04/14/2021
 targetos: Windows
-description: Stores the current user's unread message count for a specified email account in the registry.
+description: Stores the current user's unread message count for a specified email account in the registry. (ANSI)
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>DhcpDsInit</b> function initializes memory within the directory service for a new DHCP server process.
 
-## -parameters
+
 
 ## -returns
 

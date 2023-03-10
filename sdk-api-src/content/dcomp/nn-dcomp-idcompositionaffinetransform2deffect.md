@@ -1,7 +1,7 @@
 ---
 UID: NN:dcomp.IDCompositionAffineTransform2DEffect
 title: IDCompositionAffineTransform2DEffect (dcomp.h)
-description: The arithmetic composite effect is used to combine 2 images using a weighted sum of pixels from the input images.
+description: The arithmetic composite effect is used to combine 2 images using a weighted sum of pixels from the input images. (IDCompositionAffineTransform2DEffect)
 helpviewer_keywords: ["IDCompositionAffineTransform2DEffect","IDCompositionAffineTransform2DEffect interface [DirectComposition]","IDCompositionAffineTransform2DEffect interface [DirectComposition]","described","dcomp/IDCompositionAffineTransform2DEffect","directcomp.idcompositionaffinetransform2deffect"]
 old-location: directcomp\idcompositionaffinetransform2deffect.htm
 tech.root: directcomp
@@ -54,10 +54,7 @@ The arithmetic composite effect is used to combine 2 images using a weighted sum
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionAffineTransform2DEffect</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>. <b>IDCompositionAffineTransform2DEffect</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDCompositionAffineTransform2DEffect</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>. <b>IDCompositionAffineTransform2DEffect</b> also has these types of members:
 
 ## -see-also
 

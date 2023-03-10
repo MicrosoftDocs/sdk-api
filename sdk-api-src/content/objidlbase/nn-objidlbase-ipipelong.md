@@ -1,12 +1,12 @@
 ---
 UID: NN:objidlbase.IPipeLong
 title: IPipeLong (objidlbase.h)
-description: Transfers data of the long integer type (which is 32 bits wide).
+description: The IPipeLong (objidlbase.h) interface transfers data of the long integer type (which is 32 bits wide).
 helpviewer_keywords: ["IPipeLong","IPipeLong interface [COM]","IPipeLong interface [COM]","described","_com_ipipelong","com.ipipelong","objidlbase/IPipeLong"]
 old-location: com\ipipelong.htm
 tech.root: com
 ms.assetid: c1b4d3b3-e1bf-4441-8cea-b667b82c4c27
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IPipeLong, IPipeLong interface [COM], IPipeLong interface [COM],described, _com_ipipelong, com.ipipelong, objidlbase/IPipeLong
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
@@ -54,10 +54,7 @@ Transfers data of the long integer type (which is 32 bits wide).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPipeLong</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPipeLong</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPipeLong</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPipeLong</b> also has these types of members:
 
 ## -remarks
 

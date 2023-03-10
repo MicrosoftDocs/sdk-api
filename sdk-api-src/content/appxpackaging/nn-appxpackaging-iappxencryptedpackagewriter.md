@@ -1,7 +1,7 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptedPackageWriter
 title: IAppxEncryptedPackageWriter (appxpackaging.h)
-description: Provides a write-only object model for encrypted app packages.
+description: Provides a write-only object model for encrypted app packages. (IAppxEncryptedPackageWriter)
 helpviewer_keywords: ["IAppxEncryptedPackageWriter","IAppxEncryptedPackageWriter interface [App packaging and management]","IAppxEncryptedPackageWriter interface [App packaging and management]","described","appxpackaging/IAppxEncryptedPackageWriter","appxpkg.iappxencryptedpackagewriter"]
 old-location: appxpkg\iappxencryptedpackagewriter.htm
 tech.root: appxpkg
@@ -54,8 +54,5 @@ Provides a write-only object model for encrypted app packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxEncryptedPackageWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptedPackageWriter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IAppxEncryptedPackageWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptedPackageWriter</b> also has these types of members:
 

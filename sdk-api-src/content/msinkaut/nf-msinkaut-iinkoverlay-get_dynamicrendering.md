@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_DynamicRendering
 title: IInkOverlay::get_DynamicRendering (msinkaut.h)
-description: Gets or sets the value that specifies whether ink is rendered as it is drawn.
+description: Gets or sets the value that specifies whether ink is rendered as it is drawn. (IInkOverlay.get_DynamicRendering)
 helpviewer_keywords: ["1e0e231a-82bc-4d22-9467-4c7b29f4b405","DynamicRendering property [Tablet PC]","DynamicRendering property [Tablet PC]","IInkOverlay interface","IInkOverlay interface [Tablet PC]","DynamicRendering property","IInkOverlay.DynamicRendering","IInkOverlay.get_DynamicRendering","IInkOverlay::DynamicRendering","IInkOverlay::get_DynamicRendering","IInkOverlay::put_DynamicRendering","InkOverlay.get_DynamicRendering","InkOverlay.put_DynamicRendering","get_DynamicRendering","msinkaut/IInkOverlay::DynamicRendering","msinkaut/IInkOverlay::get_DynamicRendering","msinkaut/IInkOverlay::put_DynamicRendering","put_DynamicRendering","tablet.inkoverlay_dynamicrendering"]
 old-location: tablet\inkoverlay_dynamicrendering.htm
 tech.root: tablet

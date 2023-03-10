@@ -54,23 +54,23 @@ Indicates video compression capabilities.
 
 ## -enum-fields
 
-### -field CompressionCaps_CanQuality
+### -field CompressionCaps_CanQuality:0x1
 
 Video compressor supports the <a href="/windows/desktop/api/strmif/nf-strmif-iamvideocompression-put_quality">IAMVideoCompression::put_Quality</a> and <a href="/windows/desktop/api/strmif/nf-strmif-iamvideocompression-get_quality">IAMVideoCompression::get_Quality</a> methods.
 
-### -field CompressionCaps_CanCrunch
+### -field CompressionCaps_CanCrunch:0x2
 
 Video compressor can compress video to a specified data rate. If the compressor has this capability then the output pins media type will contain the data rate in the <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure's <b>dwBitRate</b> member. The only way to set the data rate is to set <b>dwBitRate</b>.
 
-### -field CompressionCaps_CanKeyFrame
+### -field CompressionCaps_CanKeyFrame:0x4
 
 Video compressor supports the <a href="/windows/desktop/api/strmif/nf-strmif-iamvideocompression-put_keyframerate">IAMVideoCompression::put_KeyFrameRate</a> and <a href="/windows/desktop/api/strmif/nf-strmif-iamvideocompression-get_keyframerate">IAMVideoCompression::get_KeyFrameRate</a> methods.
 
-### -field CompressionCaps_CanBFrame
+### -field CompressionCaps_CanBFrame:0x8
 
 Video compressor supports the <a href="/windows/desktop/api/strmif/nf-strmif-iamvideocompression-put_pframesperkeyframe">IAMVideoCompression::put_PFramesPerKeyFrame</a> and <a href="/windows/desktop/api/strmif/nf-strmif-iamvideocompression-get_pframesperkeyframe">IAMVideoCompression::get_PFramesPerKeyFrame</a> methods.
 
-### -field CompressionCaps_CanWindow
+### -field CompressionCaps_CanWindow:0x10
 
 Video compressor supports the <a href="/windows/desktop/api/strmif/nf-strmif-iamvideocompression-put_windowsize">IAMVideoCompression::put_WindowSize</a> and <a href="/windows/desktop/api/strmif/nf-strmif-iamvideocompression-get_windowsize">IAMVideoCompression::get_WindowSize</a> methods.
 

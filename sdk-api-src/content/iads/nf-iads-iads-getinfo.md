@@ -52,7 +52,7 @@ api_name:
 
 The <b>IADs::GetInfo</b> method loads into the property cache values of the supported properties of this ADSI object from the underlying directory store.
 
-## -parameters
+
 
 ## -returns
 

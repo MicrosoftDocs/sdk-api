@@ -53,7 +53,7 @@ api_name:
 
 The <b>GraphicsPath::CloseFigure</b> method closes the current figure of this path.
 
-## -parameters
+
 
 ## -returns
 

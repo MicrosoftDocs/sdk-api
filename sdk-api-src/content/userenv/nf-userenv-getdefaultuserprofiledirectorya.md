@@ -1,8 +1,8 @@
 ---
 UID: NF:userenv.GetDefaultUserProfileDirectoryA
 title: GetDefaultUserProfileDirectoryA function (userenv.h)
-description: Retrieves the path to the root of the default user's profile.
-helpviewer_keywords: ["GetDefaultUserProfileDirectory","GetDefaultUserProfileDirectory function [Windows Shell]","GetDefaultUserProfileDirectoryA","GetDefaultUserProfileDirectoryW","_shell_GetDefaultUserProfileDirectory","shell.GetDefaultUserProfileDirectory","userenv/GetDefaultUserProfileDirectory","userenv/GetDefaultUserProfileDirectoryA","userenv/GetDefaultUserProfileDirectoryW"]
+description: Retrieves the path to the root of the default user's profile. (ANSI)
+helpviewer_keywords: ["GetDefaultUserProfileDirectoryA", "userenv/GetDefaultUserProfileDirectoryA"]
 old-location: shell\GetDefaultUserProfileDirectory.htm
 tech.root: shell
 ms.assetid: 14ff99cb-838a-442b-9f51-414bd7c0a2ef
@@ -82,10 +82,18 @@ Type: <b>BOOL</b>
 
 The following is an example of the path returned by <b>GetDefaultUserProfileDirectory</b> in Windows XP:
 
-<pre class="syntax" xml:space="preserve"><code>C:\Documents and Settings\Default User</code></pre>
+
+``` syntax
+C:\Documents and Settings\Default User
+```
+
 The following is an example of the path returned by <b>GetDefaultUserProfileDirectory</b> in Windows 7:
 
-<pre class="syntax" xml:space="preserve"><code>C:\Users\Default</code></pre>
+
+``` syntax
+C:\Users\Default
+```
+
 To obtain the paths of subdirectories of this directory, use the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">SHGetFolderPath</a> (Windows XP and earlier) or <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a> (Windows Vista) function.
 
 

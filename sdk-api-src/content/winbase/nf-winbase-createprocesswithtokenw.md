@@ -189,7 +189,7 @@ An environment block consists of a null-terminated block of null-terminated stri
 
 Because the equal sign (=) is used as a separator, it must not be used in the name of an environment variable.
 
-An environment block can contain Unicode or ANSI characters. If the environment block pointed to by <i>lpEnvironment</i> contains Unicode characters, be sure that <i>dwCreationFlags</i> includes CREATE_UNICODE_ENVIRONMENT.  If this parameter is NULL and the environment block of the parent process contains Unicode characters, you must also ensure that <i>dwCreationFlags</i> includes CREATE_UNICODE_ENVIRONMENT.
+An environment block can contain Unicode or ANSI characters. If the environment block pointed to by <i>lpEnvironment</i> contains Unicode characters, be sure that <i>dwCreationFlags</i> includes CREATE_UNICODE_ENVIRONMENT.
 
 An ANSI environment block is terminated by two zero bytes: one for the last string, one more to terminate the block. A Unicode environment block is terminated by four zero bytes: two for the last string and two more to terminate the block.
 
@@ -275,15 +275,23 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0500
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
 The <i>lpApplicationName</i> parameter can be NULL, in which case the executable name must be the first white space–delimited string in <i>lpCommandLine</i>. If the executable or path name has a space in it, there is a risk that a different executable could be run because of the way the function parses spaces. The following example is dangerous because the function will attempt to run "Program.exe", if it exists, instead of "MyApp.exe".
 
-<pre class="syntax" xml:space="preserve"><code>	LPTSTR szCmdline = L"C:\\Program Files\\MyApp";
-	CreateProcessWithTokenW(/*...*/, szCmdline, /*...*/);</code></pre>
+
+``` syntax
+	LPTSTR szCmdline = L"C:\\Program Files\\MyApp";
+	CreateProcessWithTokenW(/*...*/, szCmdline, /*...*/);
+```
+
 If a malicious user were to create an application called "Program.exe" on a system, any program that incorrectly calls 
 <b>CreateProcessWithTokenW</b> using the Program Files directory will run this application instead of the intended application.
 
 To avoid this problem, do not pass NULL for <i>lpApplicationName</i>. If you do pass NULL for <i>lpApplicationName</i>, use quotation marks around the executable path in <i>lpCommandLine</i>, as shown in the example below.
 
-<pre class="syntax" xml:space="preserve"><code>	LPTSTR szCmdline = L"\"C:\\Program Files\\MyApp\"";
-	CreateProcessWithTokenW(/*...*/, szCmdline, /*...*/);</code></pre>
+
+``` syntax
+	LPTSTR szCmdline = L"\"C:\\Program Files\\MyApp\"";
+	CreateProcessWithTokenW(/*...*/, szCmdline, /*...*/);
+```
+
 
 ## -see-also
 

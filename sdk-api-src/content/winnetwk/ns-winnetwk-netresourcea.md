@@ -1,7 +1,7 @@
 ---
 UID: NS:winnetwk._NETRESOURCEA
 title: NETRESOURCEA (winnetwk.h)
-description: The following structure contains information about a network resource. It is used by several of the network provider functions, including NPOpenEnum and NPAddConnection.
+description: The following structure contains information about a network resource. It is used by several of the network provider functions, including NPOpenEnum and NPAddConnection. (ANSI)
 helpviewer_keywords: ["*LPNETRESOURCEA","LPNETRESOURCE","LPNETRESOURCE structure pointer [Security]","NETRESOURCE","NETRESOURCE structure [Security]","NETRESOURCEA","NETRESOURCEW","RESOURCEDISPLAYTYPE_DIRECTORY","RESOURCEDISPLAYTYPE_DOMAIN","RESOURCEDISPLAYTYPE_GENERIC","RESOURCEDISPLAYTYPE_NETWORK","RESOURCEDISPLAYTYPE_SERVER","RESOURCEDISPLAYTYPE_SHARE","RESOURCETYPE_ANY","RESOURCETYPE_DISK","RESOURCETYPE_PRINT","RESOURCEUSAGE_CONNECTABLE","RESOURCEUSAGE_CONTAINER","RESOURCE_CONNECTED","RESOURCE_CONTEXT","RESOURCE_GLOBALNET","_mnp_netresource","security.netresource","winnetwk/LPNETRESOURCE","winnetwk/NETRESOURCE","winnetwk/NETRESOURCEA","winnetwk/NETRESOURCEW"]
 old-location: security\netresource.htm
 tech.root: security

@@ -54,10 +54,7 @@ This interface exposes methods used to enumerate and manipulate property values.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyStore</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPropertyStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyStore</b> also has these types of members:
 
 ## -see-also
 
@@ -65,4 +62,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyStore</b> interface 
 
 
 
-<a href="/windows/win32/api/audioenginebaseapo/ns-audioenginebaseapo-audiofxextensionparams">AudioFXExtensionParams</a>
+<a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/audioenginebaseapo/ns-audioenginebaseapo-audiofxextensionparams.md">AudioFXExtensionParams</a>

@@ -140,11 +140,12 @@ events into groups called activities.
 
 For activity IDs to be useful, newly-generated activity IDs must be
 locally-unique, i.e. the same ID must not be generated twice within the trace.
-**GUID**s (globally-unique identifiers) can be used as activity IDs, but the
-generation of a globally-unique ID is more expensive than the generation of a
-locally-unique ID. **EventActivityIdControl** can generate IDs that are
-guaranteed to be unique across all processes on the local system until the
-system reboots.
+
+You can create activity IDs using **EventActivityIdControl**, which generates
+locally-unique IDs that are guaranteed to be unique across all processes on the
+local system until the system reboots. You can also use a GUID (globally-unique
+identifier) as an activity ID. You can create a GUID using an API such as
+[UuidCreate](../rpcdce/nf-rpcdce-uuidcreate.md).
 
 User-mode threads have a thread-local 128-bit activity ID value (the thread's
 activity ID). The thread activity ID is initialized to 0 (i.e. **GUID_NULL**)
@@ -154,10 +155,11 @@ ID for all events written by **EventWrite** and for all events written by
 **EventWriteTransfer** or **EventWriteEx** where the _ActivityId_ parameter is
 **NULL**.
 
-> **Important:** A function that alters a thread's activity ID should be careful
+> [!Important]
+> A function that alters a thread's activity ID should be careful
 > to restore the original activity ID before exiting. Otherwise, the function's
-> activity ID will interfere with the activities of components that call the
-> function.
+> changes to the thread's activity ID will interfere with the activities of
+> components that call the function.
 
 ### Using an explicitly-specified activity ID
 

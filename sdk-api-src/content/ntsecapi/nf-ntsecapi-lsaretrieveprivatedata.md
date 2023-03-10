@@ -1,7 +1,7 @@
 ---
 UID: NF:ntsecapi.LsaRetrievePrivateData
 title: LsaRetrievePrivateData function (ntsecapi.h)
-description: Do not use the LSA private data functions. Instead, use the CryptProtectData and CryptUnprotectData functions.
+description: Do not use the LSA private data functions. Instead, use the CryptProtectData and CryptUnprotectData functions. (LsaRetrievePrivateData)
 helpviewer_keywords: ["G$","L$","LsaRetrievePrivateData","LsaRetrievePrivateData function [Security]","M$","_lsa_lsaretrieveprivatedata","ntsecapi/LsaRetrievePrivateData","security.lsaretrieveprivatedata"]
 old-location: security\lsaretrieveprivatedata.htm
 tech.root: security

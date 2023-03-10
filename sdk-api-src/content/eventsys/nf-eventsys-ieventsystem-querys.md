@@ -1,7 +1,7 @@
 ---
 UID: NF:eventsys.IEventSystem.QueryS
 title: IEventSystem::QueryS (eventsys.h)
-description: Retrieves a collection of subscription or event objects from the event data store.
+description: Retrieves a collection of subscription or event objects from the event data store. (IEventSystem.QueryS)
 helpviewer_keywords: ["IEventSystem interface [COM+]","QueryS method","IEventSystem.QueryS","IEventSystem::QueryS","QueryS","QueryS method [COM+]","QueryS method [COM+]","IEventSystem interface","_cos_IEventSystem_QueryS","cos.ieventsystem_querys","eventsys/IEventSystem::QueryS"]
 old-location: cos\ieventsystem_querys.htm
 tech.root: cos

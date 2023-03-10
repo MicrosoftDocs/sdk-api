@@ -1,7 +1,7 @@
 ---
 UID: NF:provider.Provider.PutInstance(IWbemClassObject,long,MethodContext)
 title: Provider::PutInstance(IWbemClassObject,long,MethodContext) (provider.h)
-description: The PutInstance method updates an instance.
+description: The PutInstance method updates an instance. (overload 1/2)
 helpviewer_keywords: ["Provider interface [Windows Management Instrumentation]","PutInstance method","Provider.PutInstance","Provider.PutInstance(IWbemClassObject","long","MethodContext)","Provider::PutInstance","Provider::PutInstance(IWbemClassObject","long","MethodContext)","PutInstance","PutInstance method [Windows Management Instrumentation]","PutInstance method [Windows Management Instrumentation]","Provider interface","_hmm_provider_putinstance","provider/Provider::PutInstance","wmi.provider_putinstance"]
 old-location: wmi\provider_putinstance.htm
 tech.root: wmi

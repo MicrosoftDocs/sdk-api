@@ -4,7 +4,7 @@ title: Xpsprint.h header
 ms.assetid: 524a2d16-e008-3c44-abbc-c5e395e9df57
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: gdi
 f1_keywords:
  - xpsprint

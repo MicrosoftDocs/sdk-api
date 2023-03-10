@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::GetUserValues </b>method obtains information about user settings for the joystick.
+The <b>IDirectInputJoyConfig8::GetUserValues </b> method obtains information about user settings for the joystick.
 
 ## -parameters
 

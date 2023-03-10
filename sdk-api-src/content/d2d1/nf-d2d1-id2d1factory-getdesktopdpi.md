@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetDesktopDpi","GetDesktopDpi method [Direct2D]","GetDesk
 old-location: direct2d\ID2D1Factory_GetDesktopDpi.htm
 tech.root: Direct2D
 ms.assetid: dd46252b-80eb-42c2-a2b4-5c49ef124bd5
-ms.date: 12/05/2018
+ms.date: 05/25/2022
 ms.keywords: GetDesktopDpi, GetDesktopDpi method [Direct2D], GetDesktopDpi method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],GetDesktopDpi method, ID2D1Factory.GetDesktopDpi, ID2D1Factory::GetDesktopDpi, d2d1/ID2D1Factory::GetDesktopDpi, direct2d.ID2D1Factory_GetDesktopDpi
 req.header: d2d1.h
 req.include-header: 
@@ -45,12 +45,12 @@ api_name:
  - ID2D1Factory.GetDesktopDpi
 ---
 
-# ID2D1Factory::GetDesktopDpi
-
-
 ## -description
 
-Retrieves the current desktop dots per inch (DPI). To refresh this value, call <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-reloadsystemmetrics">ReloadSystemMetrics</a>.
+> [!IMPORTANT]
+> **ID2D1Factory::GetDesktopDpi** is deprecated. For a desktop app, instead use [GetDpiForWindow](/windows/win32/api/winuser/nf-winuser-getdpiforwindow). For a Universal Windows Platform (UWP) app, instead use [DisplayInformation::LogicalDpi](/uwp/api/windows.graphics.display.displayinformation.logicaldpi).
+
+Retrieves the current desktop dots per inch (DPI). To refresh this value, call [ReloadSystemMetrics](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-reloadsystemmetrics).
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Retrieves the current desktop dots per inch (DPI). To refresh this value, call <
 
 Type: <b>FLOAT*</b>
 
- When this method returns, contains the horizontal DPI of the desktop. You must allocate storage for this parameter.
+When this method returns, contains the horizontal DPI of the desktop. You must allocate storage for this parameter.
 
 ### -param dpiY [out]
 
@@ -70,50 +70,8 @@ When this method returns, contains the vertical DPI of the desktop. You must all
 
 Use this method to obtain the system DPI when setting physical pixel values, such as when you specify the size of a window.
 
-
-## Examples
-
-The following code uses the <b>GetDesktopDpi</b> method to obtain the system DPI and set the initial size of a window.
-
-
-```cpp
-
-        // Because the CreateWindow function takes its size in pixels,
-        // obtain the system DPI and use it to scale the window size.
-        FLOAT dpiX, dpiY;
-
-        // The factory returns the current system DPI. This is also the value it will use
-        // to create its own windows.
-        m_pDirect2dFactory->GetDesktopDpi(&dpiX, &dpiY);
-
-
-        // Create the window.
-        m_hwnd = CreateWindow(
-            L"D2DDemoApp",
-            L"Direct2D Demo App",
-            WS_OVERLAPPEDWINDOW,
-            CW_USEDEFAULT,
-            CW_USEDEFAULT,
-            static_cast<UINT>(ceil(640.f * dpiX / 96.f)),
-            static_cast<UINT>(ceil(480.f * dpiY / 96.f)),
-            NULL,
-            NULL,
-            HINST_THISCOMPONENT,
-            this
-            );
-
-```
-
-
-For more information about enabling high-DPI scenarios, see <a href="/windows/win32/Direct2D/how-to--size-a-window-properly-for-high-dpi-displays">How to Ensure that Your Application Displays Properly on High-DPI Displays</a>.
-
-<div class="code"></div>
-
 ## -see-also
 
-<a href="/windows/win32/Direct2D/how-to--size-a-window-properly-for-high-dpi-displays">How to Ensure that Your Application Displays Properly on High-DPI Displays</a>
-
-
-
-<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
-
+* [GetDpiForWindow](/windows/win32/api/winuser/nf-winuser-getdpiforwindow)
+* [ID2D1Factory](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)
+* [How to ensure that your application displays properly on a high-DPI display](/windows/win32/Direct2D/how-to--size-a-window-properly-for-high-dpi-displays)

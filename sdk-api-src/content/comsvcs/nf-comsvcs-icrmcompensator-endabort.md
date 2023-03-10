@@ -1,7 +1,7 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.EndAbort
 title: ICrmCompensator::EndAbort (comsvcs.h)
-description: Notifies the CRM Compensator that it has received all the log records available during the abort phase.
+description: Notifies the CRM Compensator that it has received all the log records available during the abort phase. (ICrmCompensator.EndAbort)
 helpviewer_keywords: ["EndAbort","EndAbort method [COM+]","EndAbort method [COM+]","ICrmCompensator interface","ICrmCompensator interface [COM+]","EndAbort method","ICrmCompensator.EndAbort","ICrmCompensator::EndAbort","_dtc_ICrmCompensator_EndAbort","comsvcs/ICrmCompensator::EndAbort","cos.icrmcompensator_endabort"]
 old-location: cos\icrmcompensator_endabort.htm
 tech.root: cos
@@ -52,11 +52,11 @@ api_name:
 
 Notifies the CRM Compensator that it has received all the log records available during the abort phase. All log records for this transaction can be discarded from the log after this method has completed.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

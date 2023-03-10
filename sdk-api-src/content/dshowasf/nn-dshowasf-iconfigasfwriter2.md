@@ -54,9 +54,9 @@ The <code>IConfigAsfWriter2</code> interface extends the <a href="/windows/deskt
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConfigAsfWriter2</b> interface inherits from <a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter</a>. <b>IConfigAsfWriter2</b> also has these types of members:
+The <b>IConfigAsfWriter2</b> interface inherits from <a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter</a>. <b>IConfigAsfWriter2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -see-also

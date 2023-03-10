@@ -1,7 +1,7 @@
 ---
 UID: NF:commoncontrols.IImageList.AddMasked
 title: IImageList::AddMasked (commoncontrols.h)
-description: Adds an image or images to an image list, generating a mask from the specified bitmap.
+description: Adds an image or images to an image list, generating a mask from the specified bitmap. (IImageList.AddMasked)
 helpviewer_keywords: ["AddMasked","AddMasked method [Windows Controls]","AddMasked method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","AddMasked method","IImageList.AddMasked","IImageList::AddMasked","comctl_IImageList_AddMasked","comctl_IImageList_AddMasked_cpp","commoncontrols/IImageList::AddMasked","controls.IImageList_AddMasked","controls.comctl_IImageList_AddMasked"]
 old-location: controls\IImageList_AddMasked.htm
 tech.root: Controls
@@ -76,7 +76,7 @@ A pointer to an <b>int</b> that contains the index of the first new image when i
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

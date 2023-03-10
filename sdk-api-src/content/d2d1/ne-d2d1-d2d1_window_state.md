@@ -54,15 +54,15 @@ Describes whether a window is occluded.
 
 ## -enum-fields
 
-### -field D2D1_WINDOW_STATE_NONE
+### -field D2D1_WINDOW_STATE_NONE:0x0000000
 
 The window is not occluded.
 
-### -field D2D1_WINDOW_STATE_OCCLUDED
+### -field D2D1_WINDOW_STATE_OCCLUDED:0x0000001
 
 The window is occluded.
 
-### -field D2D1_WINDOW_STATE_FORCE_DWORD
+### -field D2D1_WINDOW_STATE_FORCE_DWORD:0xffffffff
 
 ## -remarks
 

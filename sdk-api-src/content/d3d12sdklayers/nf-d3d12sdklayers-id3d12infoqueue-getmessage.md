@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetMessage
 title: ID3D12InfoQueue::GetMessage (d3d12sdklayers.h)
-description: Get a message from the message queue.
+description: Get a message from the message queue. (ID3D12InfoQueue.GetMessage)
 helpviewer_keywords: ["GetMessage","GetMessage method","GetMessage method","ID3D12InfoQueue interface","ID3D12InfoQueue interface","GetMessage method","ID3D12InfoQueue.GetMessage","ID3D12InfoQueue::GetMessage","d3d12sdklayers/ID3D12InfoQueue::GetMessage","direct3d12.id3d12infoqueue_getmessage"]
 old-location: direct3d12\id3d12infoqueue_getmessage.htm
 tech.root: direct3d12
@@ -92,15 +92,19 @@ Applications should call this method twice to retrieve a message - first to obta
 
 
 
-<pre class="syntax" xml:space="preserve"><code> 
+
+``` syntax
+ 
 // Get the size of the message
 SIZE_T messageLength = 0;
-HRESULT hr = pInfoQueue-&gt;GetMessage(0, NULL, &amp;messageLength);
+HRESULT hr = pInfoQueue->GetMessage(0, NULL, &messageLength);
 
 // Allocate space and get the message
 D3D12_MESSAGE * pMessage = (D3D12_MESSAGE*)malloc(messageLength);
-hr = pInfoQueue-&gt;GetMessage(0, pMessage, &amp;messageLength); 
-</code></pre>
+hr = pInfoQueue->GetMessage(0, pMessage, &messageLength); 
+
+```
+
 
 ## -see-also
 

@@ -107,7 +107,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 </dl>
 </td>
 <td width="60%">
-The source<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>contained more than <i>crgsz</i> values. The buffer pointed to by <i>prgsz</i>.
+The source<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> contained more than <i>crgsz</i> values. The buffer pointed to by <i>prgsz</i>.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ The source<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARI
 </dl>
 </td>
 <td width="60%">
-The<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>was not of the appropriate type.
+The<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> was not of the appropriate type.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ The<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>
 
 ## -remarks
 
-This helper function is used in places where the calling application expects a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold an vector of string values with a fixed number of elements.
+This helper function is used in places where the calling application expects a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a vector of string values with a fixed number of elements.
 
 This function works for the following <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> types:
             
@@ -136,7 +136,7 @@ This function works for the following <a href="/windows/desktop/api/propidl/ns-p
 <li>VT_VECTOR | VT_BSTR</li>
 <li>VT_ARRAY | VT_BSTR</li>
 </ul>
-If the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has a supported type, this helper function extracts up to <i>crgsz</i> string values and places an allocated copy of each into the buffer pointed to by prgsz. If the<b>PROPVARIANT</b>contains more elements than will fit into the <i>prgsz</i> buffer, this function returns an error and sets <i>pcElem</i> to 0.
+If the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has a supported type, this helper function extracts up to <i>crgsz</i> string values and places an allocated copy of each into the buffer pointed to by prgsz. If the <b>PROPVARIANT</b> contains more elements than will fit into the <i>prgsz</i> buffer, this function returns an error and sets <i>pcElem</i> to 0.
 
 Since each string in pointed to by the output buffer has been newly allocated, the calling application is responsible for using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free each string in the output buffer when they are no longer needed.
 

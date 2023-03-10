@@ -80,7 +80,8 @@ generated event will use the ProviderId associated with the handle.
 
 An 8-bit number used to describe an event's severity or importance.
 
-> **Important:** ProviderId, Level and Keyword are the primary means for
+> [!Important]
+> ProviderId, Level and Keyword are the primary means for
 > filtering events. Other kinds of filtering are possible but have much higher
 > overhead. Always assign a nonzero level and keyword to every event.
 
@@ -92,7 +93,8 @@ event level.
 A 64-bit bitmask used to indicate an event's membership in a set of event
 categories.
 
-> **Important:** ProviderId, Level and Keyword are the primary means for
+> [!Important]
+> ProviderId, Level and Keyword are the primary means for
 > filtering events. Other kinds of filtering are possible but have much higher
 > overhead. Always assign a nonzero level and keyword to every event.
 

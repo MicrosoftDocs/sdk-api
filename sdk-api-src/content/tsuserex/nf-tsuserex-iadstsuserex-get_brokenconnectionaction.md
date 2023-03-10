@@ -1,7 +1,7 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_BrokenConnectionAction
 title: IADsTSUserEx::get_BrokenConnectionAction (tsuserex.h)
-description: A value that specifies the action to take when a Remote Desktop Services session limit is reached.
+description: A value that specifies the action to take when a Remote Desktop Services session limit is reached. (Get)
 helpviewer_keywords: ["BrokenConnectionAction property [Remote Desktop Services]","BrokenConnectionAction property [Remote Desktop Services]","IADsTSUserEx interface","IADsTSUserEx interface [Remote Desktop Services]","BrokenConnectionAction property","IADsTSUserEx.BrokenConnectionAction","IADsTSUserEx.get_BrokenConnectionAction","IADsTSUserEx::BrokenConnectionAction","IADsTSUserEx::get_BrokenConnectionAction","IADsTSUserEx::put_BrokenConnectionAction","get_BrokenConnectionAction","termserv.iadstsuserex_brokenconnectionaction","tsuserex/IADsTSUserEx::BrokenConnectionAction","tsuserex/IADsTSUserEx::get_BrokenConnectionAction","tsuserex/IADsTSUserEx::put_BrokenConnectionAction"]
 old-location: termserv\iadstsuserex_brokenconnectionaction.htm
 tech.root: TermServ

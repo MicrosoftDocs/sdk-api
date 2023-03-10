@@ -54,9 +54,9 @@ The <b>IMSVidPlayback</b> interface controls a Video Control playback device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidPlayback</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice</a>. <b>IMSVidPlayback</b> also has these types of members:
+The <b>IMSVidPlayback</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice</a>. <b>IMSVidPlayback</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

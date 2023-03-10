@@ -1,180 +1,185 @@
 ---
 UID: NF:evntrace.StopTraceW
 title: StopTraceW function (evntrace.h)
-description: The StopTrace function stops the specified event tracing session. The ControlTrace function supersedes this function.
-helpviewer_keywords: ["StopTrace","StopTrace function [ETW]","StopTraceA","StopTraceW","_evt_stoptrace","base.stoptrace","etw.stoptrace","evntrace/StopTrace","evntrace/StopTraceA","evntrace/StopTraceW"]
+description: The StopTraceW (Unicode) function (evntrace.h) stops the specified event tracing session. The ControlTrace function supersedes this function.
+helpviewer_keywords:
+  [
+    "StopTrace",
+    "StopTrace function [ETW]",
+    "StopTraceA",
+    "StopTraceW",
+    "_evt_stoptrace",
+    "base.stoptrace",
+    "etw.stoptrace",
+    "evntrace/StopTrace",
+    "evntrace/StopTraceA",
+    "evntrace/StopTraceW",
+  ]
 old-location: etw\stoptrace.htm
 tech.root: ETW
 ms.assetid: 604274a1-c4ed-4746-b69a-e18969f969db
-ms.date: 12/05/2018
-ms.keywords: StopTrace, StopTrace function [ETW], StopTraceA, StopTraceW, _evt_stoptrace, base.stoptrace, etw.stoptrace, evntrace/StopTrace, evntrace/StopTraceA, evntrace/StopTraceW
+ms.date: 08/04/2022
+ms.keywords:
+  StopTrace, StopTrace function [ETW], StopTraceA, StopTraceW, _evt_stoptrace,
+  base.stoptrace, etw.stoptrace, evntrace/StopTrace, evntrace/StopTraceA,
+  evntrace/StopTraceW
 req.header: evntrace.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
 req.unicode-ansi: StopTraceW (Unicode) and StopTraceA (ANSI)
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
-req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
-req.irql: 
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+  Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on
+  Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows
+  Server 2008, Windows Vista and Windows XP
+req.dll:
+  Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on
+  Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows
+  Server 2008, Windows Vista and Windows XP
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
 f1_keywords:
- - StopTraceW
- - evntrace/StopTraceW
+  - StopTraceW
+  - evntrace/StopTraceW
 dev_langs:
- - c++
+  - c++
 topic_type:
- - APIRef
- - kbSyntax
+  - APIRef
+  - kbSyntax
 api_type:
- - DllExport
+  - DllExport
 api_location:
- - Sechost.dll
- - Advapi32.dll
- - AdvApi32Legacy.dll
- - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
- - API-MS-Win-Eventing-Controller-l1-1-0.dll
- - API-MS-Win-Eventing-Legacy-l1-1-0.dll
- - KernelBase.dll
+  - Sechost.dll
+  - Advapi32.dll
+  - AdvApi32Legacy.dll
+  - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+  - API-MS-Win-Eventing-Controller-l1-1-0.dll
+  - API-MS-Win-Eventing-Legacy-l1-1-0.dll
+  - KernelBase.dll
 api_name:
- - StopTrace
- - StopTraceA
- - StopTraceW
+  - StopTrace
+  - StopTraceA
+  - StopTraceW
 ---
 
 # StopTraceW function
 
-
 ## -description
 
-The 
-<b>StopTrace</b> function stops the specified event tracing session. 
-   
+The **StopTrace** function stops the specified event tracing session.
 
-The 
-<a href="/windows/desktop/ETW/controltrace">ControlTrace</a> function supersedes this function.
+This function is obsolete. The
+[ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracew) function
+supersedes this function.
 
 ## -parameters
 
 ### -param TraceHandle
 
-Handle to the event tracing session that you want to stop, or <b>NULL</b>. You must specify <i>SessionHandle</i> if <i>SessionName</i> is <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not <b>NULL</b>. The handle is returned by the <a href="/windows/desktop/ETW/starttrace">StartTrace</a> function.
+Handle to the event tracing session to be stopped, or 0. You must specify a
+non-zero _TraceHandle_ if _InstanceName_ is **NULL**. This parameter will be
+used only if _InstanceName_ is **NULL**. The handle is returned by the
+[StartTrace](/windows/win32/api/evntrace/nf-evntrace-starttracew).
 
 ### -param InstanceName
 
-Pointer to a null-terminated string that specifies the name of the event tracing session that you want to 
-      stop, or <b>NULL</b>. You must specify <i>SessionName</i> if 
-      <i>SessionHandle</i> is <b>NULL</b>.
+Name of the event tracing session to be stopped, or **NULL**. You must specify
+_InstanceName_ if _TraceHandle_ is 0.
 
-To specify the NT Kernel Logger session, set <i>SessionName</i> to 
-      <b>KERNEL_LOGGER_NAME</b>.
+To specify the NT Kernel Logger session, set _InstanceName_ to
+**KERNEL_LOGGER_NAME**.
 
 ### -param Properties
 
-Pointer to an <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> 
-      structure that receives the final properties and statistics for the session.
+Pointer to an
+[EVENT_TRACE_PROPERTIES](/windows/desktop/ETW/event-trace-properties) structure
+that receives the final properties and statistics for the session.
 
-If you are using a newly 
-      initialized structure, you only need to set the <b>Wnode.BufferSize</b>, 
-      <b>Wnode.Guid</b>,  <b>LoggerNameOffset</b>, and 
-      <b>LogFileNameOffset</b> members of the structure. You can use the maximum session name 
-      (1024 characters) and maximum log file name (1024 characters) lengths to calculate the buffer size and offsets 
-      if not known. 
+If you are using a newly initialized structure, you only need to set the
+**Wnode.BufferSize**, **Wnode.Guid**, **LoggerNameOffset**, and
+**LogFileNameOffset** members of the structure. You can use the maximum session
+name (1024 characters) and maximum log file name (1024 characters) lengths to
+calculate the buffer size and offsets if not known.
 
-<b>Starting with Windows 10, version 1703:  </b>For better performance in cross process scenarios, you can now pass filtering in to <b>StopTrace</b> for  system wide private loggers. You will need to pass in the new <a href="/windows/desktop/ETW/event-trace-properties-v2">EVENT_TRACE_PROPERTIES_V2</a> structure to include filtering information. See <a href="/windows/desktop/ETW/configuring-and-starting-a-private-logger-session">Configuring and Starting a Private Logger Session</a> for more details.
+**Starting with Windows 10, version 1703:** For better performance in cross
+process scenarios, you can now pass filtering in to **StopTrace** for system
+wide private loggers. You will need to pass in the new
+[EVENT_TRACE_PROPERTIES_V2](/windows/desktop/ETW/event-trace-properties-v2)
+structure to include filtering information. See
+[Configuring and Starting a Private Logger Session](/windows/desktop/ETW/configuring-and-starting-a-private-logger-session)
+for more details.
 
 ## -returns
 
 If the function succeeds, the return value is ERROR_SUCCESS.
-      
 
-If the function fails, the return value is one of the 
-       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
-       common errors and their causes.
+If the function fails, the return value is one of the
+[system error codes](/windows/win32/debug/system-error-codes). The following
+are some common errors and their causes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_BAD_LENGTH</b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the following is true:
+- **ERROR_BAD_LENGTH**
 
-<ul>
-<li>The <b>Wnode.BufferSize</b> member of <i>Properties</i> specifies an incorrect size.</li>
-<li><i>Properties</i> does not have sufficient space allocated to hold a copy of the session name and log file name (if used).</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the following is true:
+  One of the following is true:
 
-<ul>
-<li><i>Properties</i> is <b>NULL</b>.</li>
-<li><i>SessionName</i> and <i>SessionHandle</i> are both <b>NULL</b>.</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Only users with administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can control event tracing sessions. To grant a restricted user the ability to control trace sessions, add them to the Performance Log Users group.
+  - The **Wnode.BufferSize** member of _Properties_ specifies an incorrect size.
+  - _Properties_ does not have sufficient space allocated to hold a copy of the
+    session name and log file name (if used).
 
-<b>Windows XP and Windows 2000:  </b>Anyone can control a trace session.
+- **ERROR_INVALID_PARAMETER**
 
-</td>
-</tr>
-</table>
+  One of the following is true:
+
+  - _Properties_ is **NULL**.
+  - _InstanceName_ and _TraceHandle_ are both **NULL**.
+  - _InstanceName_ is **NULL** and _TraceHandle_ is not a valid handle.
+
+- **ERROR_ACCESS_DENIED** Only users with administrative privileges, users in
+  the Performance Log Users group, and services running as LocalSystem,
+  LocalService, NetworkService can control event tracing sessions. To grant a
+  restricted user the ability to control trace sessions, add them to the
+  Performance Log Users group.
+
+  **Windows XP and Windows 2000:** Anyone can control a trace session.
 
 ## -remarks
 
-Controllers call this function.
+Event trace controllers call this function.
 
-If <b>LogFileMode</b> contains <b>EVENT_TRACE_FILE_MODE_PREALLOCATE</b>, 
-    <a href="/windows/desktop/ETW/starttrace">StartTrace</a> extends the log file to 
-    <b>MaximumFileSize</b> bytes. The file occupies the entire space during logging, for both 
-    circular and sequential logs. When you stop the logger, the log file is reduced to the size needed.
+This function is obsolete. Instead, use
+[ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracew) with
+_ControlCode_ set to **EVENT_TRACE_CONTROL_STOP**.
 
-Note that it is not safe to stop a trace session from DllMain.
+If **LogFileMode** contains **EVENT_TRACE_FILE_MODE_PREALLOCATE**,
+[StartTrace](/windows/desktop/ETW/starttrace) extends the log file to
+**MaximumFileSize** bytes. The file occupies the entire space during logging,
+for both circular and sequential logs. When you stop the logger, the log file is
+reduced to the size needed.
 
-
-
-
+Do not call **StopTrace** from DllMain (may cause deadlock).
 
 > [!NOTE]
-> The evntrace.h header defines StopTrace as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+> The evntrace.h header defines StopTrace as an alias which
+> automatically selects the ANSI or Unicode version of this function based on
+> the definition of the UNICODE preprocessor constant. Mixing usage of the
+> encoding-neutral alias with code that not encoding-neutral can lead to
+> mismatches that result in compilation or runtime errors. For more information,
+> see
+> [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-<a href="/windows/desktop/ETW/controltrace">ControlTrace</a>
+[ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracew)
 
-
-
-<a href="/windows/desktop/ETW/starttrace">StartTrace</a>
+[StartTrace](/windows/desktop/ETW/starttrace)

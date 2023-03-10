@@ -1,7 +1,7 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetGlyphIndices
 title: IXpsOMGlyphsEditor::GetGlyphIndices (xpsobjectmodel.h)
-description: Gets an array of XPS_GLYPH_INDEX structures that describe the specific glyph indices in the font.
+description: Gets an array of XPS_GLYPH_INDEX structures that describe the specific glyph indices in the font. (IXpsOMGlyphsEditor.GetGlyphIndices)
 helpviewer_keywords: ["GetGlyphIndices","GetGlyphIndices method [XPS Documents and Packaging]","GetGlyphIndices method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","GetGlyphIndices method","IXpsOMGlyphsEditor.GetGlyphIndices","IXpsOMGlyphsEditor::GetGlyphIndices","xps.ixpsomglyphseditor_getglyphindices","xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphIndices"]
 old-location: xps\ixpsomglyphseditor_getglyphindices.htm
 tech.root: xps

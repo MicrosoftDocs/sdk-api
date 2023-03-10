@@ -1,7 +1,7 @@
 ---
 UID: NN:msinkaut.IInkRecognizers
 title: IInkRecognizers (msinkaut.h)
-description: .
+description: . (IInkRecognizers)
 helpviewer_keywords: ["IInkRecognizers","IInkRecognizers interface [Tablet PC]","IInkRecognizers interface [Tablet PC]","described","msinkaut/IInkRecognizers","tablet.iinkrecognizers"]
 old-location: tablet\iinkrecognizers.htm
 tech.root: tablet
@@ -54,11 +54,7 @@ Represents a collection of IInkRecognizer objects having the ability to create a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRecognizers</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRecognizers</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IInkRecognizers</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRecognizers</b> also has these types of members:
 
 ## -see-also
 

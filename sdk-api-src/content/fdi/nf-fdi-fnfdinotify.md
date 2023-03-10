@@ -114,7 +114,7 @@ Information identifying the file to be copied.
 When this value is set, the <a href="/windows/desktop/api/fdi/ns-fdi-fdinotification">FDINOTIFICATION</a> structure is populated with the following information:
 
 <ul>
-<li><b>psz1</b>will point to the name of a file in the cabinet; cb will equal the uncompressed size of the file</li>
+<li><b>psz1</b> will point to the name of a file in the cabinet; cb will equal the uncompressed size of the file</li>
 <li><b>date</b> will equal the file's 16-bit MS-DOS date</li>
 <li><b>time</b> will equal the file's 16-bit MS-DOS time</li>
 <li><b>attribs</b> will equal the file's 16-bit MS-DOS attributes</li>
@@ -135,7 +135,7 @@ Close the file, set relevant information.
 When this value is set, the <a href="/windows/desktop/api/fdi/ns-fdi-fdinotification">FDINOTIFICATION</a> structure is populated with the following information:
 
 <ul>
-<li><b>psz1</b>will point to the name of a file in the cabinet</li>
+<li><b>psz1</b> will point to the name of a file in the cabinet</li>
 <li><b>hf</b> will be a file handle (which originated from <b>fdintCOPY_FILE</b>)</li>
 <li><b>date</b> date will equal the file's 16-bit MS-DOS date</li>
 <li><b>time</b> time will equal the file's 16-bit MS-DOS time</li>
@@ -158,7 +158,7 @@ File continued to next cabinet.
 When this value is set, the <a href="/windows/desktop/api/fdi/ns-fdi-fdinotification">FDINOTIFICATION</a> structure is populated with the following information: 
 
 <ul>
-<li><b>psz1</b>will point to the name of the next cabinet on which the current file is continued</li>
+<li><b>psz1</b> will point to the name of the next cabinet on which the current file is continued</li>
 <li><b>psz2</b> will be a file handle (which originated from <b>fdintCOPY_FILE</b>)</li>
 <li><b>psz3</b> will point to the cabinet path information</li>
 <li><b>fdie</b> will equal a success or error value</li>

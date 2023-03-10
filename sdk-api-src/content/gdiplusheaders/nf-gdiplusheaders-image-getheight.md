@@ -53,7 +53,7 @@ api_name:
 
 The <b>Image::GetHeight</b> method gets the image height, in pixels, of this image.
 
-## -parameters
+
 
 ## -returns
 

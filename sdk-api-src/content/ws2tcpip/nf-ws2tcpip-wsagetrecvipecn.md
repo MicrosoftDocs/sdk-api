@@ -1,7 +1,7 @@
 ---
 UID: NF:ws2tcpip.WSAGetRecvIPEcn
 title: WSAGetRecvIPEcn
-description: TBD
+description: TBD (WSAGetRecvIPEcn)
 ms.date: 11/13/2020
 targetos: Windows
 req.assembly: 
@@ -17,8 +17,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 

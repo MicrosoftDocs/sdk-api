@@ -1,8 +1,8 @@
 ---
 UID: NF:iscsidsc.ReportRadiusServerListW
 title: ReportRadiusServerListW function (iscsidsc.h)
-description: ReportRadiusServerList function retrieves the list of Remote Authentication Dail-In Service (RADIUS) servers the iSCSI initiator service uses during authentication.
-helpviewer_keywords: ["ReportRadiusServerList","ReportRadiusServerList function [iSCSI Discovery Library API]","ReportRadiusServerListA","ReportRadiusServerListW","iscsidisc.reportradiusserverlist","iscsidsc/ReportRadiusServerList","iscsidsc/ReportRadiusServerListA","iscsidsc/ReportRadiusServerListW"]
+description: ReportRadiusServerList function retrieves the list of Remote Authentication Dial-In Service (RADIUS) servers the iSCSI initiator service uses during authentication. (Unicode)
+helpviewer_keywords: ["ReportRadiusServerList", "ReportRadiusServerList function [iSCSI Discovery Library API]", "ReportRadiusServerListW", "iscsidisc.reportradiusserverlist", "iscsidsc/ReportRadiusServerList", "iscsidsc/ReportRadiusServerListW"]
 old-location: iscsidisc\reportradiusserverlist.htm
 tech.root: iSCSIDisc
 ms.assetid: 83f9fdca-805a-44ed-bd6b-0a731c63cfe6
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>ReportRadiusServerList</b> function  retrieves the list of Remote Authentication Dail-In Service (RADIUS) servers the iSCSI initiator service uses during authentication.
+The <b>ReportRadiusServerList</b> function  retrieves the list of Remote Authentication Dial-In Service (RADIUS) servers the iSCSI initiator service uses during authentication.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ A <b>ULONG</b> value that specifies the number of list elements contained by the
 
 ### -param Buffer [out, optional]
 
-Pointer to a buffer that receives the list of Remote Authentication Dail-In Service (RADIUS) servers on output. Each server name is null terminated, except for the last server name, which is double null-terminated.
+Pointer to a buffer that receives the list of Remote Authentication Dial-In Service (RADIUS) servers on output. Each server name is null terminated, except for the last server name, which is double null-terminated.
 
 ## -returns
 

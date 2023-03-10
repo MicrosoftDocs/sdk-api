@@ -1,7 +1,7 @@
 ---
 UID: NF:vsmgmt.IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots
 title: IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots (vsmgmt.h)
-description: Reserved for system use.
+description: Reserved for system use. (IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots)
 helpviewer_keywords: ["IVssSnapshotMgmt interface [VSS]","QueryVolumesSupportedForSnapshots method","IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots","IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots","QueryVolumesSupportedForSnapshots","QueryVolumesSupportedForSnapshots method [VSS]","QueryVolumesSupportedForSnapshots method [VSS]","IVssSnapshotMgmt interface","base.ivsssnapshotmgmt_queryvolumessupportedforsnapshots","vsmgmt/IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots"]
 old-location: base\ivsssnapshotmgmt_queryvolumessupportedforsnapshots.htm
 tech.root: base
@@ -72,5 +72,5 @@ Reserved for system use. Do not use.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

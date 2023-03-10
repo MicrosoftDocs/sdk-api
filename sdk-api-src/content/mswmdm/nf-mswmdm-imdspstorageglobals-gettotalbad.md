@@ -1,7 +1,7 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetTotalBad
 title: IMDSPStorageGlobals::GetTotalBad (mswmdm.h)
-description: The GetTotalBad method retrieves the total amount of unusable space on the storage medium, in bytes.
+description: The GetTotalBad method retrieves the total amount of unusable space on the storage medium, in bytes. (IMDSPStorageGlobals.GetTotalBad)
 helpviewer_keywords: ["GetTotalBad","GetTotalBad method [windows Media Device Manager]","GetTotalBad method [windows Media Device Manager]","IMDSPStorageGlobals interface","IMDSPStorageGlobals interface [windows Media Device Manager]","GetTotalBad method","IMDSPStorageGlobals.GetTotalBad","IMDSPStorageGlobals::GetTotalBad","IMDSPStorageGlobalsGetTotalBad","mswmdm/IMDSPStorageGlobals::GetTotalBad","wmdm.imdspstorageglobals_gettotalbad"]
 old-location: wmdm\imdspstorageglobals_gettotalbad.htm
 tech.root: WMDM

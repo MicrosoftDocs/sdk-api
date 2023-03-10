@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite_2.IDWriteFactory2
 title: IDWriteFactory2 (dwrite_2.h)
-description: The root factory interface for all DirectWrite objects.
+description: The root factory interface for all DirectWrite objects.I
 helpviewer_keywords: ["IDWriteFactory1","IDWriteFactory1 interface [Direct Write]","IDWriteFactory1 interface [Direct Write]","described","IDWriteFactory2","directwrite.idwritefactory2","dwrite_2/IDWriteFactory2"]
 old-location: directwrite\idwritefactory2.htm
 tech.root: DirectWrite
@@ -54,10 +54,7 @@ The root factory interface for all <a href="/windows/win32/DirectWrite/direct-wr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory1</b> interface inherits from <a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefactory1">IDWriteFactory1</a>. <b>IDWriteFactory2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteFactory1</b> interface inherits from <a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefactory1">IDWriteFactory1</a>. <b>IDWriteFactory2</b> also has these types of members:
 
 ## -see-also
 

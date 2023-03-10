@@ -64,7 +64,7 @@ An opaque handle to the placeholder to be serviced.
 
 ## -returns
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -72,4 +72,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 A sync provider should have READ_DATA or WRITE_DAC access to the file whose transfer key is to be obtained or <b>CfGetTransferKey</b> will be failed with HRESULT(ERROR_CLOUD_FILE_ACCESS_DENIED).
 
-The <i>TransferKey</i> is valid as long as the <i>FileHandle</i> used to obtain it remains open. The sync provider must pass the <i>TransferKey</i> to <a href="/windows/desktop/api/cfapi/nf-cfapi-cfexecute">CfExecute</a> to perform the desired operation on the placholder file or folder.  When a <i>TransferKey</i> is no longer being used, it must be released using <a href="/windows/desktop/api/cfapi/nf-cfapi-cfreleasetransferkey">CfReleaseTransferKey</a>.
+The <i>TransferKey</i> is valid as long as the <i>FileHandle</i> used to obtain it remains open. The sync provider must pass the <i>TransferKey</i> to <a href="/windows/desktop/api/cfapi/nf-cfapi-cfexecute">CfExecute</a> to perform the desired operation on the placeholder file or folder.  When a <i>TransferKey</i> is no longer being used, it must be released using <a href="/windows/desktop/api/cfapi/nf-cfapi-cfreleasetransferkey">CfReleaseTransferKey</a>.

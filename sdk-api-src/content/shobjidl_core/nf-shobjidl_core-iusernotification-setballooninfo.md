@@ -1,7 +1,7 @@
 ---
 UID: NF:shobjidl_core.IUserNotification.SetBalloonInfo
 title: IUserNotification::SetBalloonInfo (shobjidl_core.h)
-description: Sets the information to be displayed in a balloon notification.
+description: Sets the information to be displayed in a balloon notification. (IUserNotification.SetBalloonInfo)
 helpviewer_keywords: ["IUserNotification interface [Windows Shell]","SetBalloonInfo method","IUserNotification.SetBalloonInfo","IUserNotification::SetBalloonInfo","NIIF_ERROR","NIIF_ICON_MASK","NIIF_INFO","NIIF_LARGE_ICON","NIIF_NONE","NIIF_NOSOUND","NIIF_RESPECT_QUIET_TIME","NIIF_USER","NIIF_WARNING","SetBalloonInfo","SetBalloonInfo method [Windows Shell]","SetBalloonInfo method [Windows Shell]","IUserNotification interface","inet_IUserNotification_SetBalloonInfo","shell.IUserNotification_SetBalloonInfo","shobjidl_core/IUserNotification::SetBalloonInfo"]
 old-location: shell\IUserNotification_SetBalloonInfo.htm
 tech.root: shell
@@ -141,4 +141,4 @@ If the current user is not in quiet time, this flag has no effect.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

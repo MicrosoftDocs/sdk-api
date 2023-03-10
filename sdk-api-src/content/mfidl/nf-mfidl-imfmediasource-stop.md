@@ -53,7 +53,7 @@ api_name:
 
 Stops all active streams in the media source.
 
-## -parameters
+
 
 ## -returns
 

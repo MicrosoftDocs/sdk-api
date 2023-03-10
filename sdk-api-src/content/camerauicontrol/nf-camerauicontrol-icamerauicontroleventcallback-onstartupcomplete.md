@@ -52,7 +52,7 @@ api_name:
 
 Occurs when startup for the camera UI control has completed.
 
-## -parameters
+
 
 ## -see-also
 

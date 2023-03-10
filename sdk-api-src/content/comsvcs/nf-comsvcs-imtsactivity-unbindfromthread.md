@@ -54,7 +54,7 @@ Unbinds the batch work that is submitted using <a href="/windows/desktop/api/com
 
 This method is designed to be called from the implementation of the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-imtscall-oncall">IMTSCall::OnCall</a> method.
 
-## -parameters
+
 
 ## -returns
 

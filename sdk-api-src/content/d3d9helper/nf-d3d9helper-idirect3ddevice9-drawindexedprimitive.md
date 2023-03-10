@@ -1,12 +1,12 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.DrawIndexedPrimitive
 title: IDirect3DDevice9::DrawIndexedPrimitive (d3d9helper.h)
-description: Based on indexing, renders the specified geometric primitive into an array of vertices.
+description: The IDirect3DDevice9::DrawIndexedPrimitive method (d3d9helper.h) renders the specified geometric primitive into an array of vertices.
 helpviewer_keywords: ["DrawIndexedPrimitive","DrawIndexedPrimitive method [Direct3D 9]","DrawIndexedPrimitive method [Direct3D 9]","IDirect3DDevice9 interface","IDirect3DDevice9 interface [Direct3D 9]","DrawIndexedPrimitive method","IDirect3DDevice9.DrawIndexedPrimitive","IDirect3DDevice9::DrawIndexedPrimitive","a022738b-ecda-9413-683b-50134f542560","d3d9helper/IDirect3DDevice9::DrawIndexedPrimitive","direct3d9.idirect3ddevice9__drawindexedprimitive"]
 old-location: direct3d9\idirect3ddevice9__drawindexedprimitive.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__drawindexedprimitive.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: DrawIndexedPrimitive, DrawIndexedPrimitive method [Direct3D 9], DrawIndexedPrimitive method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],DrawIndexedPrimitive method, IDirect3DDevice9.DrawIndexedPrimitive, IDirect3DDevice9::DrawIndexedPrimitive, a022738b-ecda-9413-683b-50134f542560, d3d9helper/IDirect3DDevice9::DrawIndexedPrimitive, direct3d9.idirect3ddevice9__drawindexedprimitive
 req.header: d3d9helper.h
 req.include-header: D3D9.h
@@ -83,7 +83,7 @@ Number of vertices used during this call. The first vertex is located at index: 
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Index of the first index to use when accesssing the vertex buffer. Beginning at StartIndex to index vertices from the vertex buffer.
+Index of the first index to use when accessing the vertex buffer. Beginning at StartIndex to index vertices from the vertex buffer.
 
 ### -param primCount [in]
 

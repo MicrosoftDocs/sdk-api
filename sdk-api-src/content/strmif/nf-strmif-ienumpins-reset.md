@@ -1,7 +1,7 @@
 ---
 UID: NF:strmif.IEnumPins.Reset
 title: IEnumPins::Reset (strmif.h)
-description: The Reset method resets the enumeration sequence to the beginning.
+description: The Reset method resets the enumeration sequence to the beginning. (IEnumPins.Reset)
 helpviewer_keywords: ["IEnumPins interface [DirectShow]","Reset method","IEnumPins.Reset","IEnumPins::Reset","IEnumPinsReset","Reset","Reset method [DirectShow]","Reset method [DirectShow]","IEnumPins interface","dshow.ienumpins_reset","strmif/IEnumPins::Reset"]
 old-location: dshow\ienumpins_reset.htm
 tech.root: dshow
@@ -53,7 +53,7 @@ api_name:
 
 The <code>Reset</code> method resets the enumeration sequence to the beginning.
 
-## -parameters
+
 
 ## -returns
 

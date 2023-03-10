@@ -1,7 +1,7 @@
 ---
 UID: NN:dwrite.IDWriteGdiInterop
 title: IDWriteGdiInterop (dwrite.h)
-description: Provides interoperability with GDI, such as methods to convert a font face to a LOGFONT structure, or to convert a GDI font description into a font face. It is also used to create bitmap render target objects.
+description: Provides interoperability with GDI, such as methods to convert a font face to a LOGFONT structure, or to convert a GDI font description into a font face. It is also used to create bitmap render target objects. (IDWriteGdiInterop)
 helpviewer_keywords: ["IDWriteGdiInterop","IDWriteGdiInterop interface [Direct Write]","IDWriteGdiInterop interface [Direct Write]","described","directwrite.IDWriteGdiInterop","dwrite/IDWriteGdiInterop"]
 old-location: directwrite\IDWriteGdiInterop.htm
 tech.root: DirectWrite
@@ -54,10 +54,7 @@ Provides interoperability with GDI, such as methods to convert a font face to a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteGdiInterop</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteGdiInterop</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IDWriteGdiInterop</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteGdiInterop</b> also has these types of members:
 
 ## -see-also
 

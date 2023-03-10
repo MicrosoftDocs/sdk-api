@@ -54,9 +54,9 @@ Implements an event that Protected Broadcast Driver Architecture (PBDA) Media Tr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IESValueUpdatedEvent</b> interface inherits from <b>IESEvent</b>. <b>IESValueUpdatedEvent</b> also has these types of members:
+The <b>IESValueUpdatedEvent</b> interface inherits from <b>IESEvent</b>. <b>IESValueUpdatedEvent</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -remarks

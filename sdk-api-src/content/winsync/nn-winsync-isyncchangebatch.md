@@ -1,7 +1,7 @@
 ---
 UID: NN:winsync.ISyncChangeBatch
 title: ISyncChangeBatch (winsync.h)
-description: Represents metadata for a set of changes.
+description: Represents metadata for a set of changes. (ISyncChangeBatch)
 helpviewer_keywords: ["ISyncChangeBatch","ISyncChangeBatch interface [Windows Sync]","ISyncChangeBatch interface [Windows Sync]","described","winsync.isyncchangebatch","winsync/ISyncChangeBatch"]
 old-location: winsync\isyncchangebatch.htm
 tech.root: winsync
@@ -54,10 +54,7 @@ Represents metadata for a set of changes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChangeBatch</b> interface inherits from <b>ISyncChangeBatchBase</b>. <b>ISyncChangeBatch</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>ISyncChangeBatch</b> interface inherits from <b>ISyncChangeBatchBase</b>. <b>ISyncChangeBatch</b> also has these types of members:
 
 ## -remarks
 

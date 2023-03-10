@@ -1,7 +1,7 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_SupportHighContrastInk
 title: IInkOverlay::get_SupportHighContrastInk (msinkaut.h)
-description: Gets or sets a value that specifies whether ink is rendered as just one color when the system is in High Contrast mode.
+description: Gets or sets a value that specifies whether ink is rendered as just one color when the system is in High Contrast mode. (IInkOverlay.get_SupportHighContrastInk)
 helpviewer_keywords: ["IInkOverlay interface [Tablet PC]","SupportHighContrastInk property","IInkOverlay.SupportHighContrastInk","IInkOverlay.get_SupportHighContrastInk","IInkOverlay::SupportHighContrastInk","IInkOverlay::get_SupportHighContrastInk","IInkOverlay::put_SupportHighContrastInk","InkOverlay.get_SupportHighContrastInk","InkOverlay.put_SupportHighContrastInk","SupportHighContrastInk property [Tablet PC]","SupportHighContrastInk property [Tablet PC]","IInkOverlay interface","get_SupportHighContrastInk","msinkaut/IInkOverlay::SupportHighContrastInk","msinkaut/IInkOverlay::get_SupportHighContrastInk","msinkaut/IInkOverlay::put_SupportHighContrastInk","put_SupportHighContrastInk","tablet.inkoverlay_supporthighcontrastink"]
 old-location: tablet\inkoverlay_supporthighcontrastink.htm
 tech.root: tablet

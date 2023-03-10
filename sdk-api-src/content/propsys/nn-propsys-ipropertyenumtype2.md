@@ -54,10 +54,7 @@ Exposes methods that extract data from enumeration information. <a href="/window
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyEnumType2</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a>. <b>IPropertyEnumType2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPropertyEnumType2</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a>. <b>IPropertyEnumType2</b> also has these types of members:
 
 ## -remarks
 

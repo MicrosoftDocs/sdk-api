@@ -1,7 +1,7 @@
 ---
 UID: NF:winbase.CreateFileMappingNumaA
 title: CreateFileMappingNumaA function (winbase.h)
-description: Creates or opens a named or unnamed file mapping object for a specified file and specifies the NUMA node for the physical memory.
+description: Creates or opens a named or unnamed file mapping object for a specified file and specifies the NUMA node for the physical memory. (CreateFileMappingNumaA)
 helpviewer_keywords: ["CreateFileMappingNuma","CreateFileMappingNuma function","CreateFileMappingNumaA","CreateFileMappingNumaW","NUMA_NO_PREFERRED_NODE","PAGE_EXECUTE_READ","PAGE_EXECUTE_READWRITE","PAGE_EXECUTE_WRITECOPY","PAGE_READONLY","PAGE_READWRITE","PAGE_WRITECOPY","SEC_COMMIT","SEC_IMAGE","SEC_IMAGE_NO_EXECUTE","SEC_LARGE_PAGES","SEC_NOCACHE","SEC_RESERVE","SEC_WRITECOMBINE","base.createfilemappingnuma","winbase/CreateFileMappingNuma","winbase/CreateFileMappingNumaA","winbase/CreateFileMappingNumaW"]
 old-location: base\createfilemappingnuma.htm
 tech.root: base
@@ -409,7 +409,7 @@ If the function succeeds, the return value is a handle to the file mapping objec
 
 If the object exists 
        before the function call, the function returns a handle to the existing object (with its current size, not the 
-       specified size) and the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>function returns <b>ERROR_ALREADY_EXISTS</b>.
+       specified size) and the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_ALREADY_EXISTS</b>.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
        call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.

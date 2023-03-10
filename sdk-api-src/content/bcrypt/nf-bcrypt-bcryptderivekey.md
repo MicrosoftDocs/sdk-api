@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptDeriveKey
 title: BCryptDeriveKey function (bcrypt.h)
-description: Derives a key from a secret agreement value.
+description: Derives a key from a secret agreement value. (BCryptDeriveKey)
 helpviewer_keywords: ["BCRYPT_KDF_HASH","BCRYPT_KDF_HMAC","BCRYPT_KDF_SP80056A_CONCAT","BCRYPT_KDF_TLS_PRF","BCryptDeriveKey","BCryptDeriveKey function [Security]","KDF_USE_SECRET_AS_HMAC_KEY_FLAG","bcrypt/BCryptDeriveKey","security.bcryptderivekey"]
 old-location: security\bcryptderivekey.htm
 tech.root: security
@@ -130,7 +130,9 @@ Optional
 
 The call to the KDF is made as shown in the following pseudocode.
 
-<pre class="syntax" xml:space="preserve"><code>KDF-Prepend = KDF_SECRET_PREPEND[0] + 
+
+``` syntax
+KDF-Prepend = KDF_SECRET_PREPEND[0] + 
     KDF_SECRET_PREPEND[1] + 
     ... +
     KDF_SECRET_PREPEND[n]
@@ -143,7 +145,9 @@ KDF-Append = KDF_SECRET_APPEND[0] +
 KDF-Output = Hash(
     KDF-Prepend + 
     hSharedSecret + 
-    KDF-Append)</code></pre>
+    KDF-Append)
+```
+
 
 
 #### BCRYPT_KDF_HMAC (L"HMAC")
@@ -223,7 +227,9 @@ Optional
 
 The call to the KDF is made as shown in the following pseudocode.
 
-<pre class="syntax" xml:space="preserve"><code>KDF-Prepend = KDF_SECRET_PREPEND[0] + 
+
+``` syntax
+KDF-Prepend = KDF_SECRET_PREPEND[0] + 
     KDF_SECRET_PREPEND[1] + 
     ... +
     KDF_SECRET_PREPEND[n]
@@ -237,7 +243,9 @@ KDF-Output = HMAC-Hash(
     KDF_HMAC_KEY,
     KDF-Prepend + 
     hSharedSecret + 
-    KDF-Append)</code></pre>
+    KDF-Append)
+```
+
 
 
 #### BCRYPT_KDF_TLS_PRF (L"TLS_PRF")
@@ -335,10 +343,14 @@ Optional
 
 The call to the KDF is made as shown in the following pseudocode.
 
-<pre class="syntax" xml:space="preserve"><code>KDF-Output = PRF(
+
+``` syntax
+KDF-Output = PRF(
     hSharedSecret, 
     KDF_TLS_PRF_LABEL, 
-    KDF_TLS_PRF_SEED)</code></pre>
+    KDF_TLS_PRF_SEED)
+```
+
 
 
 #### BCRYPT_KDF_SP80056A_CONCAT (L"SP800_56A_CONCAT")
@@ -429,13 +441,17 @@ Optional
 
 The call to the KDF is made as shown in the following pseudocode.
 
-<pre class="syntax" xml:space="preserve"><code>KDF-Output = SP_800-56A_KDF(
+
+``` syntax
+KDF-Output = SP_800-56A_KDF(
 	   hSharedSecret,
 	   KDF_ALGORITHMID,
 	   KDF_PARTYUINFO,
 	   KDF_PARTYVINFO,
 	   KDF_SUPPPUBINFO,
-	   KDF_SUPPPRIVINFO)</code></pre>
+	   KDF_SUPPPRIVINFO)
+```
+
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
 #### BCRYPT_KDF_RAW_SECRET (L"TRUNCATE")
@@ -572,12 +588,16 @@ Parameter[3].length = sizeof (pbValue3);
 
 If the above parameter values are specified, the concatenated values to the actual KDF are as follows.
 
-<pre class="syntax" xml:space="preserve"><code>Type: KDF_SECRET_PREPEND
+
+``` syntax
+Type: KDF_SECRET_PREPEND
 Value: {0x04, 0x05, 0x20, 0x21, 0x22, 0x23}, length 6
 
 Type: KDF_SECRET_APPEND
 Value: {0x01, 0x10, 0x11, 0x12}, length 4
-</code></pre>
+
+```
+
 
 If the <i>pwszKDF</i> parameter is set to <b>BCRYPT_KDF_RAW_SECRET</b>, The returned secret (unlike the other <i>pwszKDF</i> values) will be encoded in little-endian format. It is important to take note of this when using the raw secret in any other CNG functions, as most of them take in big-endian encoded inputs.
 

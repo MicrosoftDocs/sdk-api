@@ -1,7 +1,7 @@
 ---
 UID: NS:winuser.tagMDICREATESTRUCTA
 title: MDICREATESTRUCTA (winuser.h)
-description: Contains information about the class, title, owner, location, and size of a multiple-document interface (MDI) child window.
+description: Contains information about the class, title, owner, location, and size of a multiple-document interface (MDI) child window. (ANSI)
 helpviewer_keywords: ["*LPMDICREATESTRUCTA","LPMDICREATESTRUCT","LPMDICREATESTRUCT structure pointer [Windows and Messages]","MDICREATESTRUCT","MDICREATESTRUCT structure [Windows and Messages]","MDICREATESTRUCTA","MDICREATESTRUCTW","WS_HSCROLL","WS_MAXIMIZE","WS_MINIMIZE","WS_VSCROLL","_win32_MDICREATESTRUCT_str","_win32_mdicreatestruct_str_cpp","winmsg.mdicreatestruct","winui._win32_mdicreatestruct_str","winuser/LPMDICREATESTRUCT","winuser/MDICREATESTRUCT","winuser/MDICREATESTRUCTA","winuser/MDICREATESTRUCTW"]
 old-location: winmsg\mdicreatestruct.htm
 tech.root: winmsg

@@ -4,7 +4,7 @@ title: Portabledeviceapi.h header
 ms.assetid: 3ed45925-7f08-3e59-8a9f-1fa770403c30
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: wpdsdk
 f1_keywords:
  - portabledeviceapi
@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by WPD Application Programming Interface. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [WPD Application Programming Interface](../_wpdsdk/index.md)
+- [WPD Automation Object Model](../_wpdauto/index.md)
 

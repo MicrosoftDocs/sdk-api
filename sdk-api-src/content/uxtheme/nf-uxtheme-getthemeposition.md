@@ -83,15 +83,15 @@ Value of type <b>int</b> that specifies the property to retrieve. For a list of 
 
 ### -param pPoint [out]
 
-Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
-Pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the position value.
+Pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that receives the position value.
 
 ## -returns
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

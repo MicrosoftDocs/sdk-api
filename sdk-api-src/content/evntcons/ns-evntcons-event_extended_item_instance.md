@@ -49,12 +49,11 @@ api_name:
  - EVENT_EXTENDED_ITEM_INSTANCE
 ---
 
-# EVENT_EXTENDED_ITEM_INSTANCE structure
-
+# EVENT_EXTENDED_ITEM_INSTANCE structure (evntcons.h)
 
 ## -description
 
-The <b>EVENT_EXTENDED_ITEM_INSTANCE</b> structure defines the relationship between events if <a href="/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> was used to log related events.
+Defines the relationship between events if <a href="/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> was used to log related events.
 
 ## -struct-fields
 

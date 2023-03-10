@@ -1,7 +1,7 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPropertyConstraintCollection.Skip
 title: IProviderPropertyConstraintCollection::Skip (functiondiscoveryprovider.h)
-description: Skips the next item in the collection.
+description: Skips the next item in the collection. (IProviderPropertyConstraintCollection.Skip)
 helpviewer_keywords: ["IProviderPropertyConstraintCollection interface","Skip method","IProviderPropertyConstraintCollection.Skip","IProviderPropertyConstraintCollection::Skip","Skip","Skip method","Skip method","IProviderPropertyConstraintCollection interface","functiondiscoveryprovider/IProviderPropertyConstraintCollection::Skip","ncd.iproviderpropertyconstraintcollection_skip"]
 old-location: ncd\iproviderpropertyconstraintcollection_skip.htm
 tech.root: ncd
@@ -54,11 +54,11 @@ api_name:
 
 Skips the next item in the collection.
 
-## -parameters
+
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

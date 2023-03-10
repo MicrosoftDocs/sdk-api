@@ -54,7 +54,7 @@ The <b>TOC_POS_TYPE</b> enumeration contains members that specify the <a href="/
 
 ## -enum-fields
 
-### -field TOC_POS_INHEADER
+### -field TOC_POS_INHEADER:0
 
 Specifies that the table of contents is stored in the header of the media file.
 

@@ -52,7 +52,7 @@ api_name:
 
 Suspends drawing on the surface object.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>SeekDown</b> method changes the channel to the next lower channel with valid programming.
 
-## -parameters
+
 
 ## -returns
 

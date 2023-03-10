@@ -52,7 +52,7 @@ api_name:
 
  The <b>Install</b> method installs a Network Device Enrollment Service (NDES) role as configured in a <b>CMSCEPSetup</b> object.
 
-## -parameters
+
 
 ## -see-also
 

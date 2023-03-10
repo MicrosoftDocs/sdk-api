@@ -52,7 +52,7 @@ api_name:
 
 Creates the zero vector.
 
-## -parameters
+
 
 ## -returns
 

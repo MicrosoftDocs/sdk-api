@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Enables interoperability with a Univeral Windows Platform (UWP) [SpatialInteractionManager](/uwp/api/windows.ui.input.spatial.spatialinteractionmanager) object, and provides access to **SpatialInteractionManager** members for accessing user input from hands, motion controllers, and system voice commands.
+Enables interoperability with a Universal Windows Platform (UWP) [SpatialInteractionManager](/uwp/api/windows.ui.input.spatial.spatialinteractionmanager) object, and provides access to **SpatialInteractionManager** members for accessing user input from hands, motion controllers, and system voice commands.
 
 ## -see-also
 

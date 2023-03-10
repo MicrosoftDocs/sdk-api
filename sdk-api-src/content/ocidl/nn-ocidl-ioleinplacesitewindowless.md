@@ -62,10 +62,7 @@ A windowless object can enter the in-place active state without requiring a wind
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleInPlaceSiteWindowless</b> interface inherits from <b>IOleInPlaceSiteEx</b>. <b>IOleInPlaceSiteWindowless</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IOleInPlaceSiteWindowless</b> interface inherits from <b>IOleInPlaceSiteEx</b>. <b>IOleInPlaceSiteWindowless</b> also has these types of members:
 
 ## -see-also
 

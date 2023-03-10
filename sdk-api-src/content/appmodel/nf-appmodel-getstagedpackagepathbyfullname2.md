@@ -1,7 +1,7 @@
 ---
 UID: NF:appmodel.GetStagedPackagePathByFullName2
 title: GetStagedPackagePathByFullName2
-description: Gets the path of the specified staged package.
+description: Gets the path of the specified staged package. (GetStagedPackagePathByFullName2)
 helpviewer_keywords: ["GetStagedPackagePathByFullName2"]
 tech.root: appxpkg
 ms.date: 01/31/2019

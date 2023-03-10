@@ -59,11 +59,7 @@ The <b>IFaxOutgoingMessage2</b> interface is accessed through the <a href="/prev
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingMessage2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessage">IFaxOutgoingMessage</a>. <b>IFaxOutgoingMessage2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
+The <b>IFaxOutgoingMessage2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessage">IFaxOutgoingMessage</a>. <b>IFaxOutgoingMessage2</b> also has these types of members:
 
 ## -remarks
 

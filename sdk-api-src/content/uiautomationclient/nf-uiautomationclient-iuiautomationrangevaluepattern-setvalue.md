@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.SetValue
 title: IUIAutomationRangeValuePattern::SetValue (uiautomationclient.h)
-description: Sets the value of the control.
+description: Sets the value of the control. (IUIAutomationRangeValuePattern.SetValue)
 helpviewer_keywords: ["IUIAutomationRangeValuePattern interface [Windows Accessibility]","SetValue method","IUIAutomationRangeValuePattern.SetValue","IUIAutomationRangeValuePattern::SetValue","SetValue","SetValue method [Windows Accessibility]","SetValue method [Windows Accessibility]","IUIAutomationRangeValuePattern interface","uiauto.uiauto_IUIAutomationRangeValuePattern_SetValue","uiauto_IUIAutomationRangeValuePattern_SetValue","uiautomationclient/IUIAutomationRangeValuePattern::SetValue","winauto.uiauto_IUIAutomationRangeValuePattern_SetValue"]
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_SetValue.htm
 tech.root: WinAuto
@@ -64,7 +64,7 @@ The value to set as the value of the control.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

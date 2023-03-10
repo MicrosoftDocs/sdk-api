@@ -54,7 +54,7 @@ A descriptor heap is a collection of contiguous allocations of descriptors, one 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12DescriptorHeap</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>.
+The <b>ID3D12DescriptorHeap</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>.
 
 ## -see-also
 
